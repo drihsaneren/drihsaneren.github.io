@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>İhsan Eren · Fizyoterapist · İntörn Tıp Doktoru</title>
+<meta name="description" content="Evde fizik tedavi, manuel terapi ve kişiye özel egzersiz. Longevity analizi, animasyonlu egzersiz reçetesi ve klinik çalışmalardan kesitler.">
+<meta property="og:title" content="İhsan Eren · Fizyoterapist · İntörn Tıp Doktoru">
+<meta property="og:description" content="Evde fizik tedavi, manuel terapi ve kişiye özel egzersiz.">
+<meta name="theme-color" content="#1c2819">
+<link rel="icon" href="img/logo.png">
+</head>
+<body style="margin:0">
+<style>
+  @font-face{font-family:"Marcellus";src:url("fonts/Marcellus-Regular.ttf") format("truetype");font-display:swap}
+  @font-face{font-family:"Figtree";src:url("fonts/Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}
+  html{-webkit-text-size-adjust:100%}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+  :root{
+    color-scheme: dark;
+    --ground:#1c2819;
+    --ground-2:#223020;
+    --panel:#263723;
+    --ink:#ece5cf;
+    --ink-soft:#c9c6ad;
+    --muted:#9fab90;
+    --sage:#8fa476;
+    --gold:#e2ab47;
+    --foil:#d8b25e;
+    --line:rgba(236,229,207,.14);
+    --line-strong:rgba(216,178,94,.55);
+    --paper:#efe9d6;
+    --paper-ink:#2b3325;
+    --display:"Marcellus","Cormorant Garamond",Georgia,"Times New Roman",serif;
+    --body:"Figtree","Segoe UI",system-ui,-apple-system,sans-serif;
+    --gut:clamp(16px,5vw,40px);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--ground);color:var(--ink);
+    font-family:var(--body);font-size:16px;line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--foil);text-underline-offset:3px}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+  .wrap{max-width:760px;margin:0 auto;padding-inline:var(--gut)}
+  h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+  .eyebrow{
+    font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0;
+  }
+
+  /* hero: echoes the business card */
+  .hero{
+    background:
+      radial-gradient(120% 70% at 50% 0%, rgba(143,164,118,.16), transparent 60%),
+      var(--ground);
+    border-bottom:1px solid var(--line);
+    padding-block:clamp(36px,8vw,72px) clamp(28px,6vw,48px);
+    text-align:center;
+  }
+  .hero .logo{width:min(46vw,200px);height:auto;display:block;margin:0 auto 22px}
+  .hero .role{font-size:15px;color:var(--ink-soft);letter-spacing:.02em;margin:0 0 6px}
+  .hero h1{font-size:clamp(40px,11vw,64px);line-height:1.05;color:var(--foil);letter-spacing:.01em}
+  .rule{display:flex;align-items:center;gap:10px;max-width:360px;margin:18px auto 18px;color:var(--foil)}
+  .rule::before,.rule::after{content:"";flex:1;height:1px;background:var(--line-strong)}
+  .rule svg{width:16px;height:16px;flex:none}
+  .hero .lede{max-width:38ch;margin:0 auto;color:var(--ink-soft);font-size:17px}
+  .nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:26px;padding:0;list-style:none}
+  .nav a{
+    display:inline-block;padding:7px 14px;border:1px solid var(--line);border-radius:999px;
+    color:var(--ink);text-decoration:none;font-size:14px;background:rgba(236,229,207,.03);
+  }
+  .nav a:hover{border-color:var(--line-strong);color:var(--foil)}
+
+  section{padding-block:clamp(44px,9vw,76px)}
+  section + section{border-top:1px solid var(--line)}
+  .sec-head{display:grid;gap:8px;margin-bottom:24px}
+  .sec-head h2{font-size:clamp(28px,6.4vw,38px);line-height:1.15}
+  .sec-head p.intro{margin:0;color:var(--ink-soft);max-width:60ch}
+
+  /* longevity steps */
+  .steps{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media (max-width:620px){.steps{grid-template-columns:1fr}}
+  .step{display:grid;gap:10px;align-content:start}
+  .step-label{display:flex;align-items:baseline;gap:10px}
+  .step-no{
+    font-family:var(--display);font-size:15px;color:var(--ground);background:var(--foil);
+    width:26px;height:26px;border-radius:50%;display:grid;place-items:center;flex:none;line-height:1;
+  }
+  .step-label h3{font-size:21px}
+  .step p{margin:0;color:var(--muted);font-size:15px}
+  .arrow{display:none}
+
+  .media{
+    position:relative;width:100%;max-width:100%;border-radius:10px;overflow:hidden;
+    background:var(--panel);border:1px solid var(--line);
+  }
+  .media img,.media video{display:block;width:100%;height:100%;object-fit:cover;background:#111a10}
+  .media.ratio-45{aspect-ratio:4/5}
+  .media.ratio-169{aspect-ratio:16/9}
+  .media.contain img,.media.contain video{object-fit:contain}
+  .soon{
+    position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:10px;text-align:center;padding:18px;
+    background:
+      repeating-linear-gradient(135deg, rgba(143,164,118,.07) 0 12px, transparent 12px 24px),
+      var(--panel);
+    color:var(--muted);font-size:14px;
+  }
+  .soon svg{width:34px;height:34px;color:var(--sage)}
+  .soon strong{color:var(--ink);font-weight:500;font-size:15px}
+
+  .feature{display:grid;gap:14px}
+  .feature .caption{color:var(--muted);font-size:15px;margin:0}
+
+
+  /* report pages */
+  .report{display:grid;gap:8px}
+  .rp{all:unset;cursor:zoom-in;display:block;border-radius:8px;overflow:hidden;background:#fff;border:1px solid var(--line)}
+  .rp img{display:block;width:100%;height:auto}
+  .rp-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .rp-row .rp{aspect-ratio:1/1}
+  .rp-row .rp img{height:100%;object-fit:cover;object-position:top}
+  .rp:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+  /* animations from the programs */
+  .anim-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  .anim-grid.four{grid-template-columns:repeat(4,1fr)}
+  @media (max-width:620px){.anim-grid.four{grid-template-columns:repeat(2,1fr)}}
+  .an{margin:0;background:var(--paper);border-radius:10px;padding:10px 8px 12px;display:grid;justify-items:center;gap:4px;text-align:center}
+  .an svg{width:100%;max-width:150px;height:auto;aspect-ratio:120/125;overflow:visible;display:block}
+  .an figcaption{font-size:13.5px;font-weight:600;color:var(--paper-ink);line-height:1.3}
+  .rx .fig{fill:none;stroke:#2A6F6B;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+  .rx .fig.hl{stroke:#C8963E;stroke-width:6}
+  .rx .hd{fill:#2A6F6B}
+  .rx .grd{stroke:#B9CBC6;stroke-width:3;stroke-linecap:round}
+  .rx .obj{stroke:#8FA8A2;stroke-width:4;fill:none;stroke-linecap:round}
+  .rx .band{fill:none;stroke:#C8963E;stroke-width:3.5;stroke-linecap:round}
+  .dx{--plate:#2B2F26;--brass:#A8873B}
+  .dx .fig{fill:none;stroke:#1C2018;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round}
+  .dx .fig-head{fill:#1C2018}
+  .dx .ground{stroke:#AEB3A0;stroke-width:3;stroke-linecap:round}
+  .dx .prop{stroke:#8A6F30;stroke-width:4;stroke-linecap:round;fill:none}
+  .dx .acc{stroke:#A8873B;fill:none}
+  .dx .gh{display:none}
+  .cta{
+    display:inline-flex;align-items:center;gap:8px;margin-top:4px;padding:11px 18px;border-radius:999px;
+    background:var(--foil);color:var(--ground);font-weight:600;font-size:15px;text-decoration:none;justify-self:start;width:max-content;max-width:100%;
+  }
+  .cta:hover{background:var(--gold)}
+  .hero-cta{margin-top:20px}
+  .cta svg{width:16px;height:16px}
+
+  /* gallery mosaic */
+  .mosaic-wrap{container-type:inline-size}
+  .mosaic{
+    --cols:4;--g:4px;
+    display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:var(--g);
+    grid-auto-rows:calc((100cqw - (var(--cols) - 1) * var(--g)) / var(--cols) * .75);
+    grid-auto-flow:dense;
+  }
+  @container (max-width:560px){ .mosaic{--cols:3;--g:3px} }
+  .tile{
+    all:unset;cursor:zoom-in;position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block;
+  }
+  .tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease, filter .3s}
+  .tile:hover img{transform:scale(1.04)}
+  .tile:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .tile.tall{grid-row:span 2}
+  .tile.big{grid-row:span 2;grid-column:span 2}
+  .count{margin:12px 0 0;color:var(--muted);font-size:14px}
+
+  /* lightbox */
+  .lb{
+    position:fixed;inset:0;z-index:50;background:rgba(14,20,13,.94);
+    display:grid;grid-template-rows:auto 1fr auto;
+    padding:calc(env(safe-area-inset-top,0px) + 10px) 12px calc(env(safe-area-inset-bottom,0px) + 14px);
+  }
+  .lb[hidden]{display:none}
+  .lb-top{display:flex;justify-content:space-between;align-items:center;color:var(--ink-soft);font-size:14px;font-variant-numeric:tabular-nums}
+  .lb-stage{display:grid;place-items:center;min-height:0}
+  .lb-stage img{max-width:100%;max-height:100%;object-fit:contain;border-radius:6px}
+  .lb-bar{display:flex;justify-content:center;gap:12px}
+  .btn{
+    all:unset;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;
+    min-width:44px;height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);color:var(--ink);font-size:15px;
+  }
+  .btn:hover{border-color:var(--line-strong);color:var(--foil)}
+  .btn svg{width:18px;height:18px}
+
+  /* logo story */
+  .annot{max-width:560px;margin:0 auto 8px}
+  .annot svg{width:100%;height:auto;display:block;overflow:visible}
+  .annot .lead{stroke:var(--foil);stroke-width:.25;fill:none;opacity:.8}
+  .annot .dot{fill:var(--gold)}
+  .annot .pin circle{fill:var(--ground);stroke:var(--foil);stroke-width:.35}
+  .annot .pin text{fill:var(--foil);font-family:var(--display);font-size:3.6px;text-anchor:middle;dominant-baseline:central}
+  .statement{font-family:var(--display);font-size:clamp(21px,4.8vw,26px);line-height:1.4;color:var(--ink);margin:0 0 28px;max-width:32ch}
+  .meanings{list-style:none;margin:0;padding:0;display:grid;gap:0}
+  .meanings li{display:grid;grid-template-columns:34px 1fr;gap:14px;padding-block:20px;border-top:1px solid var(--line)}
+  .meanings li:last-child{border-bottom:1px solid var(--line)}
+  .pin-no{
+    width:28px;height:28px;border-radius:50%;border:1px solid var(--foil);color:var(--foil);
+    display:grid;place-items:center;font-family:var(--display);font-size:15px;line-height:1;margin-top:2px;
+  }
+  .meanings h3{font-size:21px;margin-bottom:6px}
+  .meanings p{margin:0;color:var(--ink-soft);max-width:62ch}
+  .meanings p + p{margin-top:10px}
+  .profs{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:6px}
+  .profs li{all:unset;display:block;padding-left:14px;position:relative;color:var(--ink)}
+  .profs li::before{content:"";position:absolute;left:0;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--gold)}
+  .quote{font-family:var(--display);color:var(--gold);white-space:nowrap}
+  .lambda{font-family:var(--display);color:var(--foil);font-size:1.15em}
+
+  .methods{margin-top:34px}
+  .methods h3{font-size:22px;margin-bottom:14px}
+  .mgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  @media (max-width:560px){.mgrid{grid-template-columns:1fr}}
+  .m{
+    border:1px solid var(--line);border-radius:10px;padding:16px 16px 14px;background:var(--ground-2);display:grid;gap:6px;align-content:start;
+  }
+  .m h4{margin:0;font-family:var(--body);font-weight:600;font-size:16px;color:var(--ink)}
+  .m p{margin:0;color:var(--muted);font-size:14.5px}
+  .m .tag{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--foil);font-weight:600}
+  .summary{margin:30px 0 0;padding:20px 0 0;border-top:1px solid var(--line-strong);color:var(--ink);max-width:62ch}
+
+  footer{border-top:1px solid var(--line);padding-block:36px 44px;text-align:center;color:var(--muted);font-size:14px}
+  footer .name{font-family:var(--display);color:var(--foil);font-size:22px;margin:0 0 4px}
+  .contact{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin:14px 0 0;font-size:15px}
+  .contact a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-strong)}
+  .small{margin-top:18px;font-size:12.5px;color:var(--muted)}
+
+  @media (prefers-reduced-motion:reduce){ *{transition:none!important;animation:none!important} }
+</style>
+
+<div lang="tr">
+<header class="hero">
+  <div class="wrap">
+    <img class="logo" src="img/logo.png" alt="İhsan Eren logosu: ortasında omurga bulunan beyin">
+    <p class="role">Fizyoterapist · İntörn Tıp Doktoru</p>
+    <h1>İhsan Eren</h1>
+    <div class="rule" aria-hidden="true">
+      <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 15V7.2M8 8.4C8 5.6 6.2 3.8 3.4 3.6c.1 2.7 1.9 4.6 4.6 4.8Zm0 0c0-2.8 1.8-4.6 4.6-4.8-.1 2.7-1.9 4.6-4.6 4.8Z" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round"/></svg>
+    </div>
+    <p class="lede">Evde fizik tedavi, manuel terapi ve kişiye özel egzersiz. Burada yaptıklarımdan kesitler ve beni tanımanız için kısa bir özet bulacaksınız.</p>
+    <a class="cta hero-cta" href="https://noxcard.com/profil/?uid=S29hZ0FGeTJLYTl2anNldkZwb1dLQT09" target="_blank" rel="noopener">Dijital kartvizitim <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+    <ul class="nav">
+      <li><a href="#analiz">Longevity analizi</a></li>
+      <li><a href="#ornek-plan">Kişiye özel egzersiz</a></li>
+      <li><a href="#kareler">Klinikten kareler</a></li>
+      <li><a href="#logo">Logonun anlamı</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section id="analiz">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Longevity projesi</p>
+        <h2>Analiz ve karşılığında egzersiz reçetesi</h2>
+        <p class="intro">Önce fonksiyonel analiz yapıyoruz: kuvvet, güç, denge, yürüyüş ve esneklik ölçülür, kişinin fonksiyonel yaşı çıkarılır. Sonuca göre ona özel, animasyonlu bir egzersiz reçetesi veriyoruz.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-label"><span class="step-no">1</span><h3>Analiz raporu</h3></div>
+          <div class="report">
+            <button class="rp rp-main" data-group="rapor" data-i="1" aria-label="Rapor sayfa 1, büyüt"><img src="img/rapor-1_t.jpg" alt="Fonksiyonel değerlendirme raporu: fonksiyonel yaş 54, kronolojik yaş 62, risk profili ve yaş normuna göre profil"></button>
+            <div class="rp-row">
+              <button class="rp" data-group="rapor" data-i="2" aria-label="Rapor sayfa 2, büyüt"><img src="img/rapor-2_t.jpg" alt="Kas kuvveti asimetrisi, vücut kompozisyonu ve ölçüm tablosu"></button>
+              <button class="rp" data-group="rapor" data-i="3" aria-label="Rapor sayfa 3, büyüt"><img src="img/rapor-3_t.jpg" alt="Zaman içinde izlem grafiği ve 12 haftalık müdahale planı"></button>
+            </div>
+          </div>
+          <p>Örnek rapor, temsili hasta: A.Y., 62 yaş. Fonksiyonel yaşı 54, yani yaşıtlarından 8 yıl önde. Sayfaları büyütmek için dokunun.</p>
+        </div>
+        <div class="step">
+          <div class="step-label"><span class="step-no">2</span><h3>Egzersiz animasyonu</h3></div>
+          <div class="anim-grid">
+<figure class="an rx"><svg aria-hidden="true" viewBox="0 0 120 130"><line class="grd" x1="12" y1="116" x2="108" y2="116"/><path class="obj" d="M28,116 L28,84 L52,84"/><path class="fig hl" d="M60.0,116.0 L60.0,90.0"><animate attributeName="d" values="M60.0,116.0 L60.0,90.0;M60.0,116.0 L61.4,90.0;M60.0,116.0 L62.7,90.1;M60.0,116.0 L64.1,90.3;M60.0,116.0 L65.4,90.6;M60.0,116.0 L66.7,90.9;M60.0,116.0 L68.0,91.3;M60.0,116.0 L69.3,91.7;M60.0,116.0 L70.6,92.2;M60.0,116.0 L69.3,91.7;M60.0,116.0 L68.0,91.3;M60.0,116.0 L66.7,90.9;M60.0,116.0 L65.4,90.6;M60.0,116.0 L64.1,90.3;M60.0,116.0 L62.7,90.1;M60.0,116.0 L61.4,90.0;M60.0,116.0 L60.0,90.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig hl" d="M60.0,90.0 L60.0,64.0"><animate attributeName="d" values="M60.0,90.0 L60.0,64.0;M61.4,90.0 L57.3,64.4;M62.7,90.1 L54.7,65.4;M64.1,90.3 L52.3,67.2;M65.4,90.6 L50.1,69.5;M66.7,90.9 L48.3,72.5;M68.0,91.3 L47.0,76.0;M69.3,91.7 L46.2,79.9;M70.6,92.2 L45.8,84.2;M69.3,91.7 L46.2,79.9;M68.0,91.3 L47.0,76.0;M66.7,90.9 L48.3,72.5;M65.4,90.6 L50.1,69.5;M64.1,90.3 L52.3,67.2;M62.7,90.1 L54.7,65.4;M61.4,90.0 L57.3,64.4;M60.0,90.0 L60.0,64.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M60.0,64.0 L60.0,30.0"><animate attributeName="d" values="M60.0,64.0 L60.0,30.0;M57.3,64.4 L60.4,30.5;M54.7,65.4 L60.9,32.0;M52.3,67.2 L61.5,34.4;M50.1,69.5 L62.3,37.8;M48.3,72.5 L63.4,42.0;M47.0,76.0 L64.8,47.0;M46.2,79.9 L66.5,52.7;M45.8,84.2 L68.6,58.9;M46.2,79.9 L66.5,52.7;M47.0,76.0 L64.8,47.0;M48.3,72.5 L63.4,42.0;M50.1,69.5 L62.3,37.8;M52.3,67.2 L61.5,34.4;M54.7,65.4 L60.9,32.0;M57.3,64.4 L60.4,30.5;M60.0,64.0 L60.0,30.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M60.0,30.0 L76.4,18.5"><animate attributeName="d" values="M60.0,30.0 L76.4,18.5;M60.4,30.5 L77.4,19.9;M60.9,32.0 L78.4,22.4;M61.5,34.4 L79.5,25.8;M62.3,37.8 L80.8,30.1;M63.4,42.0 L82.2,35.4;M64.8,47.0 L84.0,41.4;M66.5,52.7 L86.0,48.1;M68.6,58.9 L88.3,55.5;M66.5,52.7 L86.0,48.1;M64.8,47.0 L84.0,41.4;M63.4,42.0 L82.2,35.4;M62.3,37.8 L80.8,30.1;M61.5,34.4 L79.5,25.8;M60.9,32.0 L78.4,22.4;M60.4,30.5 L77.4,19.9;M60.0,30.0 L76.4,18.5" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M60.0,116.0 L75.0,116.0"><animate attributeName="d" values="M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><circle class="hd" cx="60.0" cy="19.0" r="9"><animate attributeName="cx" values="60.0;60.8;61.7;62.7;63.9;65.3;67.1;69.1;71.5;69.1;67.1;65.3;63.9;62.7;61.7;60.8;60.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/><animate attributeName="cy" values="19.0;19.5;21.0;23.4;26.8;31.0;36.0;41.7;47.9;41.7;36.0;31.0;26.8;23.4;21.0;19.5;19.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></circle></svg><figcaption>Sandalye Otur-Kalk</figcaption></figure>
+<figure class="an rx"><svg aria-hidden="true" viewBox="0 0 120 130"><line class="grd" x1="12" y1="116" x2="108" y2="116"/><line class="obj" x1="98" y1="16" x2="98" y2="116" stroke-width="5"/><path class="fig hl" d="M76.0,116.0 L77.8,90.1"><animate attributeName="d" values="M76.0,116.0 L77.8,90.1;M76.0,116.0 L80.3,90.4;M76.0,116.0 L82.5,90.8;M76.0,116.0 L84.6,91.4;M76.0,116.0 L86.4,92.2;M76.0,116.0 L88.1,93.0;M76.0,116.0 L89.7,93.9;M76.0,116.0 L91.2,94.9;M76.0,116.0 L92.6,96.0;M76.0,116.0 L91.2,94.9;M76.0,116.0 L89.7,93.9;M76.0,116.0 L88.1,93.0;M76.0,116.0 L86.4,92.2;M76.0,116.0 L84.6,91.4;M76.0,116.0 L82.5,90.8;M76.0,116.0 L80.3,90.4;M76.0,116.0 L77.8,90.1" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig hl" d="M77.8,90.1 L64.0,68.0"><animate attributeName="d" values="M77.8,90.1 L64.0,68.0;M80.3,90.4 L65.5,69.0;M82.5,90.8 L67.0,70.0;M84.6,91.4 L68.5,71.0;M86.4,92.2 L70.0,72.0;M88.1,93.0 L71.5,73.0;M89.7,93.9 L73.0,74.0;M91.2,94.9 L74.5,75.0;M92.6,96.0 L76.0,76.0;M91.2,94.9 L74.5,75.0;M89.7,93.9 L73.0,74.0;M88.1,93.0 L71.5,73.0;M86.4,92.2 L70.0,72.0;M84.6,91.4 L68.5,71.0;M82.5,90.8 L67.0,70.0;M80.3,90.4 L65.5,69.0;M77.8,90.1 L64.0,68.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M64.0,68.0 L72.2,35.0"><animate attributeName="d" values="M64.0,68.0 L72.2,35.0;M65.5,69.0 L74.4,36.2;M67.0,70.0 L76.7,37.4;M68.5,71.0 L78.9,38.6;M70.0,72.0 L81.1,39.9;M71.5,73.0 L83.3,41.1;M73.0,74.0 L85.5,42.4;M74.5,75.0 L87.6,43.6;M76.0,76.0 L89.8,44.9;M74.5,75.0 L87.6,43.6;M73.0,74.0 L85.5,42.4;M71.5,73.0 L83.3,41.1;M70.0,72.0 L81.1,39.9;M68.5,71.0 L78.9,38.6;M67.0,70.0 L76.7,37.4;M65.5,69.0 L74.4,36.2;M64.0,68.0 L72.2,35.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M72.2,35.0 L94.0,43.0"><animate attributeName="d" values="M72.2,35.0 L94.0,43.0;M74.4,36.2 L94.0,44.6;M76.7,37.4 L94.0,46.2;M78.9,38.6 L94.0,47.7;M81.1,39.9 L94.0,49.4;M83.3,41.1 L94.0,51.0;M85.5,42.4 L94.0,52.6;M87.6,43.6 L94.0,54.3;M89.8,44.9 L94.0,55.9;M87.6,43.6 L94.0,54.3;M85.5,42.4 L94.0,52.6;M83.3,41.1 L94.0,51.0;M81.1,39.9 L94.0,49.4;M78.9,38.6 L94.0,47.7;M76.7,37.4 L94.0,46.2;M74.4,36.2 L94.0,44.6;M72.2,35.0 L94.0,43.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M76.0,116.0 L89.0,116.0"><animate attributeName="d" values="M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0;M76.0,116.0 L89.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M64.0,68.0 L63.9,94.0 L50.0,116.0"><animate attributeName="d" values="M64.0,68.0 L63.9,94.0 L50.0,116.0;M65.5,69.0 L65.3,95.0 L50.0,116.0;M67.0,70.0 L66.6,96.0 L50.0,116.0;M68.5,71.0 L67.7,97.0 L50.0,116.0;M70.0,72.0 L68.7,98.0 L50.0,116.0;M71.5,73.0 L69.6,98.9 L50.0,116.0;M73.0,74.0 L70.4,99.9 L50.0,116.0;M74.5,75.0 L71.1,100.8 L50.0,116.0;M76.0,76.0 L71.7,101.6 L50.0,116.0;M74.5,75.0 L71.1,100.8 L50.0,116.0;M73.0,74.0 L70.4,99.9 L50.0,116.0;M71.5,73.0 L69.6,98.9 L50.0,116.0;M70.0,72.0 L68.7,98.0 L50.0,116.0;M68.5,71.0 L67.7,97.0 L50.0,116.0;M67.0,70.0 L66.6,96.0 L50.0,116.0;M65.5,69.0 L65.3,95.0 L50.0,116.0;M64.0,68.0 L63.9,94.0 L50.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M50.0,116.0 L63.0,116.0"><animate attributeName="d" values="M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0;M50.0,116.0 L63.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><circle class="hd" cx="73.3" cy="24.0" r="9"><animate attributeName="cx" values="73.3;75.6;77.9;80.2;82.5;84.8;87.1;89.3;91.6;89.3;87.1;84.8;82.5;80.2;77.9;75.6;73.3" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/><animate attributeName="cy" values="24.0;25.2;26.4;27.6;28.9;30.1;31.4;32.6;33.9;32.6;31.4;30.1;28.9;27.6;26.4;25.2;24.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></circle></svg><figcaption>Duvara Diz Değdirme</figcaption></figure>
+<figure class="an rx"><svg aria-hidden="true" viewBox="0 0 120 130"><line class="grd" x1="12" y1="116" x2="108" y2="116"/><path class="fig hl" d="M60.0,116.0 L60.0,90.0"><animate attributeName="d" values="M60.0,116.0 L60.0,90.0;M60.0,116.0 L61.5,90.0;M60.0,116.0 L62.9,90.2;M60.0,116.0 L64.4,90.4;M60.0,116.0 L65.8,90.7;M60.0,116.0 L67.3,91.0;M60.0,116.0 L68.7,91.5;M60.0,116.0 L70.1,92.0;M60.0,116.0 L71.4,92.6;M60.0,116.0 L70.1,92.0;M60.0,116.0 L68.7,91.5;M60.0,116.0 L67.3,91.0;M60.0,116.0 L65.8,90.7;M60.0,116.0 L64.4,90.4;M60.0,116.0 L62.9,90.2;M60.0,116.0 L61.5,90.0;M60.0,116.0 L60.0,90.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig hl" d="M60.0,90.0 L60.0,64.0"><animate attributeName="d" values="M60.0,90.0 L60.0,64.0;M61.5,90.0 L56.8,64.5;M62.9,90.2 L53.8,65.8;M64.4,90.4 L51.1,68.0;M65.8,90.7 L48.8,71.0;M67.3,91.0 L47.0,74.8;M68.7,91.5 L45.8,79.1;M70.1,92.0 L45.4,83.9;M71.4,92.6 L45.7,89.0;M70.1,92.0 L45.4,83.9;M68.7,91.5 L45.8,79.1;M67.3,91.0 L47.0,74.8;M65.8,90.7 L48.8,71.0;M64.4,90.4 L51.1,68.0;M62.9,90.2 L53.8,65.8;M61.5,90.0 L56.8,64.5;M60.0,90.0 L60.0,64.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M60.0,64.0 L60.0,30.0"><animate attributeName="d" values="M60.0,64.0 L60.0,30.0;M56.8,64.5 L60.3,30.6;M53.8,65.8 L60.6,32.5;M51.1,68.0 L61.2,35.6;M48.8,71.0 L62.1,39.7;M47.0,74.8 L63.4,45.0;M45.8,79.1 L65.1,51.1;M45.4,83.9 L67.3,57.9;M45.7,89.0 L70.1,65.4;M45.4,83.9 L67.3,57.9;M45.8,79.1 L65.1,51.1;M47.0,74.8 L63.4,45.0;M48.8,71.0 L62.1,39.7;M51.1,68.0 L61.2,35.6;M53.8,65.8 L60.6,32.5;M56.8,64.5 L60.3,30.6;M60.0,64.0 L60.0,30.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M60.0,30.0 L77.5,44.4"><animate attributeName="d" values="M60.0,30.0 L77.5,44.4;M60.3,30.6 L76.5,45.0;M60.6,32.5 L75.5,46.7;M61.2,35.6 L74.9,49.4;M62.1,39.7 L74.5,53.1;M63.4,45.0 L74.6,57.8;M65.1,51.1 L75.3,63.2;M67.3,57.9 L76.5,69.3;M70.1,65.4 L78.3,75.9;M67.3,57.9 L76.5,69.3;M65.1,51.1 L75.3,63.2;M63.4,45.0 L74.6,57.8;M62.1,39.7 L74.5,53.1;M61.2,35.6 L74.9,49.4;M60.6,32.5 L75.5,46.7;M60.3,30.6 L76.5,45.0;M60.0,30.0 L77.5,44.4" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M60.0,116.0 L75.0,116.0"><animate attributeName="d" values="M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0;M60.0,116.0 L75.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><circle class="hd" cx="60.0" cy="19.0" r="9"><animate attributeName="cx" values="60.0;60.7;61.5;62.5;63.8;65.5;67.6;70.2;73.3;70.2;67.6;65.5;63.8;62.5;61.5;60.7;60.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/><animate attributeName="cy" values="19.0;19.6;21.5;24.6;28.7;34.0;40.1;46.9;54.4;46.9;40.1;34.0;28.7;24.6;21.5;19.6;19.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></circle><rect fill="#C8963E" rx="3" width="13" height="13" x="71.0" y="37.9"><animate attributeName="x" values="71.0;70.0;69.0;68.4;68.0;68.1;68.8;70.0;71.8;70.0;68.8;68.1;68.0;68.4;69.0;70.0;71.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/><animate attributeName="y" values="37.9;38.5;40.2;42.9;46.6;51.3;56.7;62.8;69.4;62.8;56.7;51.3;46.6;42.9;40.2;38.5;37.9" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></rect></svg><figcaption>Goblet Squat</figcaption></figure>
+<figure class="an rx"><svg aria-hidden="true" viewBox="0 0 120 130"><line class="grd" x1="12" y1="116" x2="108" y2="116"/><path class="obj" d="M64,116 L64,96 L102,96"/><path class="fig hl" d="M72.0,96.0 L82.6,72.2"><animate attributeName="d" values="M72.0,96.0 L82.6,72.2;M72.0,96.0 L81.4,71.8;M72.0,96.0 L80.2,71.3;M72.0,96.0 L79.1,71.0;M72.0,96.0 L77.8,70.7;M72.0,96.0 L76.6,70.4;M72.0,96.0 L75.4,70.2;M72.0,96.0 L74.2,70.1;M72.0,96.0 L72.9,70.0;M72.0,96.0 L74.2,70.1;M72.0,96.0 L75.4,70.2;M72.0,96.0 L76.6,70.4;M72.0,96.0 L77.8,70.7;M72.0,96.0 L79.1,71.0;M72.0,96.0 L80.2,71.3;M72.0,96.0 L81.4,71.8;M72.0,96.0 L82.6,72.2" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig hl" d="M82.6,72.2 L59.6,60.0"><animate attributeName="d" values="M82.6,72.2 L59.6,60.0;M81.4,71.8 L60.2,56.8;M80.2,71.3 L61.1,53.8;M79.1,71.0 L62.3,51.1;M77.8,70.7 L63.7,48.9;M76.6,70.4 L65.3,47.0;M75.4,70.2 L67.1,45.6;M74.2,70.1 L69.1,44.6;M72.9,70.0 L71.1,44.1;M74.2,70.1 L69.1,44.6;M75.4,70.2 L67.1,45.6;M76.6,70.4 L65.3,47.0;M77.8,70.7 L63.7,48.9;M79.1,71.0 L62.3,51.1;M80.2,71.3 L61.1,53.8;M81.4,71.8 L60.2,56.8;M82.6,72.2 L59.6,60.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M59.6,60.0 L69.0,27.4"><animate attributeName="d" values="M59.6,60.0 L69.0,27.4;M60.2,56.8 L68.8,23.9;M61.1,53.8 L69.0,20.7;M62.3,51.1 L69.5,17.9;M63.7,48.9 L70.2,15.5;M65.3,47.0 L71.1,13.5;M67.1,45.6 L72.2,11.9;M69.1,44.6 L73.4,10.9;M71.1,44.1 L74.6,10.3;M69.1,44.6 L73.4,10.9;M67.1,45.6 L72.2,11.9;M65.3,47.0 L71.1,13.5;M63.7,48.9 L70.2,15.5;M62.3,51.1 L69.5,17.9;M61.1,53.8 L69.0,20.7;M60.2,56.8 L68.8,23.9;M59.6,60.0 L69.0,27.4" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M69.0,27.4 L86.6,18.0"><animate attributeName="d" values="M69.0,27.4 L86.6,18.0;M68.8,23.9 L86.5,14.5;M69.0,20.7 L86.7,11.3;M69.5,17.9 L87.1,8.5;M70.2,15.5 L87.8,6.1;M71.1,13.5 L88.7,4.1;M72.2,11.9 L89.8,2.6;M73.4,10.9 L91.0,1.5;M74.6,10.3 L92.3,0.9;M73.4,10.9 L91.0,1.5;M72.2,11.9 L89.8,2.6;M71.1,13.5 L88.7,4.1;M70.2,15.5 L87.8,6.1;M69.5,17.9 L87.1,8.5;M69.0,20.7 L86.7,11.3;M68.8,23.9 L86.5,14.5;M69.0,27.4 L86.6,18.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M72.0,96.0 L85.0,96.0"><animate attributeName="d" values="M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0;M72.0,96.0 L85.0,96.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M59.6,60.0 L46.0,106.0 L44.0,116.0"><animate attributeName="d" values="M59.6,60.0 L46.0,106.0 L44.0,116.0;M60.2,56.8 L47.2,104.8 L44.0,114.0;M61.1,53.8 L48.5,103.5 L44.0,112.0;M62.3,51.1 L49.8,102.2 L44.0,110.0;M63.7,48.9 L51.0,101.0 L44.0,108.0;M65.3,47.0 L52.2,99.8 L44.0,106.0;M67.1,45.6 L53.5,98.5 L44.0,104.0;M69.1,44.6 L54.8,97.2 L44.0,102.0;M71.1,44.1 L56.0,96.0 L44.0,100.0;M69.1,44.6 L54.8,97.2 L44.0,102.0;M67.1,45.6 L53.5,98.5 L44.0,104.0;M65.3,47.0 L52.2,99.8 L44.0,106.0;M63.7,48.9 L51.0,101.0 L44.0,108.0;M62.3,51.1 L49.8,102.2 L44.0,110.0;M61.1,53.8 L48.5,103.5 L44.0,112.0;M60.2,56.8 L47.2,104.8 L44.0,114.0;M59.6,60.0 L46.0,106.0 L44.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><path class="fig" d="M44.0,116.0 L57.0,116.0"><animate attributeName="d" values="M44.0,116.0 L57.0,116.0;M44.0,114.0 L57.0,114.0;M44.0,112.0 L57.0,112.0;M44.0,110.0 L57.0,110.0;M44.0,108.0 L57.0,108.0;M44.0,106.0 L57.0,106.0;M44.0,104.0 L57.0,104.0;M44.0,102.0 L57.0,102.0;M44.0,100.0 L57.0,100.0;M44.0,102.0 L57.0,102.0;M44.0,104.0 L57.0,104.0;M44.0,106.0 L57.0,106.0;M44.0,108.0 L57.0,108.0;M44.0,110.0 L57.0,110.0;M44.0,112.0 L57.0,112.0;M44.0,114.0 L57.0,114.0;M44.0,116.0 L57.0,116.0" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></path><circle class="hd" cx="70.2" cy="16.4" r="9"><animate attributeName="cx" values="70.2;70.0;70.0;70.4;71.0;71.8;72.8;73.9;75.1;73.9;72.8;71.8;71.0;70.4;70.0;70.0;70.2" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/><animate attributeName="cy" values="16.4;12.9;9.7;6.9;4.5;2.5;0.9;-0.1;-0.7;-0.1;0.9;2.5;4.5;6.9;9.7;12.9;16.4" keyTimes="0.000;0.062;0.125;0.188;0.250;0.312;0.375;0.438;0.500;0.562;0.625;0.688;0.750;0.812;0.875;0.938;1.000" dur="3.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1 0.4 0 0.6 1"/></circle></svg><figcaption>Basamak Çıkma</figcaption></figure>
+          </div>
+          <p>Aynı hastanın rapora göre hazırlanan reçetesinden dört hareket. Reçetede 9 hareket, haftalık plan ve 12 haftalık ilerleme var.</p>
+          <a class="cta" href="recete.html">Reçetenin tamamını aç <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ornek-plan">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Kişiye özel egzersiz</p>
+        <h2>Kişiye özel egzersiz planı örneği</h2>
+        <p class="intro">Evde dambılla uygulanan, gün aşırı ilerleyen örnek bir program. Her hareket animasyonla gösterilir. Isınma, günlük görevler ve güvenlik kuralları plana dahildir.</p>
+      </div>
+      <div class="anim-grid four">
+<figure class="an dx"><svg aria-hidden="true" viewBox="0 0 120 120"><line class="ground" x1="8" y1="110" x2="112" y2="110"/><path class="prop" d="M80 84 L102 84"/><path class="prop" d="M82 84 L82 110"/><path class="prop" d="M100 84 L100 110"/><path class="prop" d="M100 84 L100 54"/><circle class="gh ghh" cx="56" cy="26" r="8"/><path class="gh ghl" d="M58 36 L64 70"/><path class="gh ghl" d="M64 70 L67 90 L67 108 L57 108"/><path class="gh ghl" d="M64 70 L61 90 L61 108 L51 108"/><path class="gh ghl" d="M59 43 L52 56 L50 46"/><use href="#db" class="gh dbg" x="40" y="40" width="18" height="10"/><circle class="fig-head" cx="56" cy="26" r="8"><animate attributeName="cx" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="56;63;63;56"/><animate attributeName="cy" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="26;43;43;26"/></circle><path class="fig" d="M58 36 L64 70"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M58 36 L64 70;M68 52 L84 80;M68 52 L84 80;M58 36 L64 70"/></path><path class="fig" d="M64 70 L67 90 L67 108 L57 108" opacity=".45"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M64 70 L67 90 L67 108 L57 108;M84 80 L66 90 L67 108 L57 108;M84 80 L66 90 L67 108 L57 108;M64 70 L67 90 L67 108 L57 108"/></path><path class="fig" d="M64 70 L61 90 L61 108 L51 108"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M64 70 L61 90 L61 108 L51 108;M84 80 L62 88 L63 108 L53 108;M84 80 L62 88 L63 108 L53 108;M64 70 L61 90 L61 108 L51 108"/></path><path class="fig" d="M59 43 L52 56 L50 46"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M59 43 L52 56 L50 46;M71 58 L63 70 L60 60;M71 58 L63 70 L60 60;M59 43 L52 56 L50 46"/></path><use href="#db" class="dbu" x="40" y="40" width="18" height="10"><animate attributeName="x" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="40;50;50;40"/><animate attributeName="y" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="40;54;54;40"/></use></svg><figcaption>Sandalyeye goblet squat</figcaption></figure>
+<figure class="an dx"><svg aria-hidden="true" viewBox="0 0 120 120"><line class="ground" x1="14" y1="110" x2="106" y2="110"/><circle class="gh ghh" cx="58" cy="21" r="8"/><path class="gh ghl" d="M58 30 L58 68"/><path class="gh ghl" d="M58 68 L57 88 L56 108 L64 108"/><path class="gh ghl" d="M58 68 L59 88 L58 108 L66 108"/><path class="gh ghl" d="M58 37 L59 52 L60 66"/><use href="#db" class="gh dbg" x="51" y="64" width="18" height="10"/><circle class="fig-head" cx="58" cy="21" r="8"><animate attributeName="cx" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="58;80;80;58"/><animate attributeName="cy" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="21;34;34;21"/></circle><path class="fig" d="M58 30 L58 68"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M58 30 L58 68;M73 40 L44 64;M73 40 L44 64;M58 30 L58 68"/></path><path class="fig" d="M58 68 L57 88 L56 108 L64 108" opacity=".45"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M58 68 L57 88 L56 108 L64 108;M44 64 L49 86 L55 108 L63 108;M44 64 L49 86 L55 108 L63 108;M58 68 L57 88 L56 108 L64 108"/></path><path class="fig" d="M58 68 L59 88 L58 108 L66 108"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M58 68 L59 88 L58 108 L66 108;M44 64 L51 85 L58 108 L66 108;M44 64 L51 85 L58 108 L66 108;M58 68 L59 88 L58 108 L66 108"/></path><path class="fig" d="M58 37 L59 52 L60 66"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M58 37 L59 52 L60 66;M70 43 L66 58 L63 73;M70 43 L66 58 L63 73;M58 37 L59 52 L60 66"/></path><use href="#db" class="dbu" x="51" y="64" width="18" height="10"><animate attributeName="x" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="51;54;54;51"/><animate attributeName="y" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="64;71;71;64"/></use></svg><figcaption>Romen deadlift</figcaption></figure>
+<figure class="an dx"><svg aria-hidden="true" viewBox="0 0 120 120"><line class="ground" x1="10" y1="100" x2="110" y2="100"/><path class="gh ghl" d="M42 94 L66 94"/><path class="gh ghl" d="M66 94 L80 78 L86 98 L92 98"/><path class="gh ghl" d="M34 94 L50 94 L63 90"/><use href="#db" class="gh dbg" x="57" y="84" width="18" height="10"/><circle class="fig-head" cx="22" cy="92" r="7"/><path class="fig" d="M30 94 L42 94"/><path class="fig" d="M42 94 L66 94"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M42 94 L66 94;M42 94 L68 72;M42 94 L68 72;M42 94 L66 94"/></path><path class="fig" d="M66 94 L80 78 L86 98 L92 98"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M66 94 L80 78 L86 98 L92 98;M68 72 L87 76 L86 98 L92 98;M68 72 L87 76 L86 98 L92 98;M66 94 L80 78 L86 98 L92 98"/></path><path class="fig" d="M34 94 L50 94 L63 90"><animate attributeName="d" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="M34 94 L50 94 L63 90;M34 94 L52 86 L65 70;M34 94 L52 86 L65 70;M34 94 L50 94 L63 90"/></path><use href="#db" class="dbu" x="57" y="84" width="18" height="10"><animate attributeName="x" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="57;59;59;57"/><animate attributeName="y" dur="3.4s" repeatCount="indefinite" keyTimes="0;0.4;0.6;1" values="84;62;62;84"/></use></svg><figcaption>Dambıllı kalça köprüsü</figcaption></figure>
+<figure class="an dx"><svg aria-hidden="true" viewBox="0 0 120 120"><line class="ground" x1="20" y1="110" x2="100" y2="110"/><circle class="fig-head" cx="60" cy="20" r="8"/><path class="fig" d="M60 29 L60 68"/><path class="fig" d="M51 36 L69 36"/><path class="fig" d="M60 68 L53 88 L52 108"><animate attributeName="d" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="M60 68 L53 88 L52 108;M60 68 L55 84 L54 99;M60 68 L53 88 L52 108;M60 68 L53 88 L52 108;M60 68 L53 88 L52 108"/></path><path class="fig" d="M60 68 L67 88 L68 108"><animate attributeName="d" dur="1.6s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="M60 68 L67 88 L68 108;M60 68 L67 88 L68 108;M60 68 L67 88 L68 108;M60 68 L65 84 L66 99;M60 68 L67 88 L68 108"/></path><path class="fig" d="M51 36 L45 50 L42 62"/><path class="fig" d="M69 36 L71 52 L72 66"/><use href="#db" class="dbu" x="63" y="64" width="18" height="10"/></svg><figcaption>Bavul taşıma</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="kareler">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Klinikten kareler</p>
+        <h2>Uygulamalardan kareler</h2>
+        <p class="intro">Manuel terapi, akupunktur, kuru iğneleme ve elektroterapi uygulamalarından. Büyütmek için bir kareye dokunun.</p>
+      </div>
+      <div class="mosaic-wrap">
+        <div class="mosaic" id="mosaic"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="logo">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Logonun anlamı</p>
+        <h2>Beyin, omurga ve üç kollu Y</h2>
+      </div>
+      <p class="statement">Tescilli logom, mesleki yolculuğumu ve iyileşmeye bütüncül bakışımı temsil ediyor.</p>
+
+      <figure class="annot" aria-label="Numaralı işaretlerle logonun bölümleri">
+        <svg viewBox="0 0 100 74" role="img" aria-hidden="false">
+          <image href="img/logo.png" x="18" y="9" width="64" height="52.8" preserveAspectRatio="xMidYMid meet"/>
+          <!-- 1 beyin -->
+          <path class="lead" d="M8 30 H20 L27 32"/><circle class="dot" cx="27" cy="32" r=".8"/>
+          <g class="pin"><circle cx="5" cy="30" r="3"/><text x="5" y="30.2">1</text></g>
+          <!-- 2 omurga -->
+          <path class="lead" d="M47.6 5 V16"/><circle class="dot" cx="47.6" cy="16" r=".8"/>
+          <g class="pin"><circle cx="47.6" cy="3" r="3"/><text x="47.6" y="3.2">2</text></g>
+          <!-- 3 Y (left) -->
+          <path class="lead" d="M8 50 H30 L39.8 46.8"/><circle class="dot" cx="39.8" cy="46.8" r=".8"/>
+          <g class="pin"><circle cx="5" cy="50" r="3"/><text x="5" y="50.2">3</text></g>
+          <!-- 4 renk gecisi (right filled half) -->
+          <path class="lead" d="M92 46 H80 L72 43"/><circle class="dot" cx="72" cy="43" r=".8"/>
+          <g class="pin"><circle cx="95" cy="46" r="3"/><text x="95" y="46.2">4</text></g>
+          <!-- 5 sari ton (right Y) -->
+          <path class="lead" d="M92 20 H78 L64.7 22.5"/><circle class="dot" cx="64.7" cy="22.5" r=".8"/>
+          <g class="pin"><circle cx="95" cy="20" r="3"/><text x="95" y="20.2">5</text></g>
+          <!-- 6 12 omur / lambda -->
+          <path class="lead" d="M47.6 69 V56"/><circle class="dot" cx="47.6" cy="56" r=".8"/>
+          <g class="pin"><circle cx="47.6" cy="71" r="3"/><text x="47.6" y="71.2">6</text></g>
+        </svg>
+      </figure>
+
+      <ol class="meanings">
+        <li>
+          <span class="pin-no">1</span>
+          <div>
+            <h3>Beyin</h3>
+            <p>Logonun ana formunu oluşturan beyin; sinirbilimin, zihinsel süreçlerin ve mental antrenmanın iyileşmedeki önemini anlatıyor. Beyin yalnızca bedeni yöneten bir merkez değildir; ağrının algılanmasında, hareketin yeniden öğrenilmesinde, motivasyonda ve iyileşmeye uyum sürecinde de önemli bir rol oynar.</p>
+            <p>Bu nedenle mental antrenmanı ve beynin değişebilme kapasitesi olan nöroplastisiteyi fiziksel iyileşmenin ayrılmaz bir parçası olarak görüyorum.</p>
+          </div>
+        </li>
+        <li>
+          <span class="pin-no">2</span>
+          <div>
+            <h3>Omurga</h3>
+            <p>Beynin ortasındaki omurga; bedenin ana taşıyıcı eksenini, duruşu, hareketi, dengeyi ve beyin ile beden arasındaki sinirsel iletişimi simgeliyor. Uyguladığım manuel terapi yöntemleri olan osteopati ve kayropraksinin omurga üzerine kurulu olmasından da ilham alıyor.</p>
+          </div>
+        </li>
+        <li>
+          <span class="pin-no">3</span>
+          <div>
+            <h3>Y’nin üç kolu</h3>
+            <p>Logodaki “Y” formunun üç kolu; eğitim aldığım iki üniversitenin yanı sıra mesleki gelişimimde bana mentorluk yapan, klinik çalışmalarında asistan olarak görev aldığım ve beni yetiştiren üç değerli bilim insanını temsil ediyor:</p>
+            <ul class="profs">
+              <li>Prof. Dr. Nezih Hekim</li>
+              <li>Prof. Dr. Kemal Nuri Özerkan</li>
+              <li>Prof. Dr. Cihan Aksoy</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <span class="pin-no">4</span>
+          <div>
+            <h3>İki Y ve renk geçişi</h3>
+            <p>İki “Y” formu ve renklerin birbirine geçişi, Yin–Yang felsefesini; Doğu ve Batı tıbbının birbirini tamamlayan yönlerini anlatıyor.</p>
+          </div>
+        </li>
+        <li>
+          <span class="pin-no">5</span>
+          <div>
+            <h3>Sarı ton: <span class="quote">Healing is voltage</span></h3>
+            <p>Y harfindeki, elektriği çağrıştıran sarı ton; bedenin elektriksel ve biyolojik iletişim süreçlerine gönderme yapıyor. Tedavi uygulamalarımdan akupunktur, elektroterapi ve kuru iğnelemenin, bilimsel olarak da çalıştığımız vücut elektriği üzerindeki etki mekanizmasını ve belki bir gün Nobel’e uzanabilecek yeni bir bilimsel bakış açısını simgeliyor.</p>
+          </div>
+        </li>
+        <li>
+          <span class="pin-no">6</span>
+          <div>
+            <h3>12 omur ve Lambda <span class="lambda">λ</span></h3>
+            <p>Logodaki 12 omur formu, Aristoteles’in <em>Metafizik</em> adlı eserinin 12. kitabı olan Lambda’yı (λ) simgeliyor. Lambda işareti ters çevrildiğinde “Y” formuna yaklaşarak logonun diğer anlamlarıyla birleşiyor.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="methods">
+        <h3>Logonun kapsadığı yöntemler</h3>
+        <div class="mgrid">
+          <div class="m"><span class="tag">Sarı Y · 5</span><h4>Akupunktur</h4><p>İnce iğnelerin belirli noktalara uygulandığı, Doğu tıbbı kökenli yöntem.</p></div>
+          <div class="m"><span class="tag">Sarı Y · 5</span><h4>Kuru iğneleme</h4><p>Kas içindeki tetik noktalara, ilaç kullanmadan ince iğneyle yapılan uygulama.</p></div>
+          <div class="m"><span class="tag">Sarı Y · 5</span><h4>Elektroterapi</h4><p>Kontrollü elektrik akımlarıyla ağrı ve kas fonksiyonu üzerine çalışan tedavi.</p></div>
+          <div class="m"><span class="tag">Omurga · 2</span><h4>Manuel terapi</h4><p>Osteopati ve kayropraksi: eklem ve omurgaya elle yapılan mobilizasyon ve manipülasyon teknikleri.</p></div>
+        </div>
+      </div>
+
+      <p class="summary">Kısacası logom; beyin ile bedenin bütünlüğünü, omurganın merkezi rolünü, mental, fiziksel ve ruhsal iyileşmenin birlikteliğini, Doğu–Batı sentezini ve bilimsel yolculuğumda bana yön veren üç değerli hocamı temsil ediyor.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="name">İhsan Eren</p>
+    <p style="margin:0">Fizyoterapist · İntörn Tıp Doktoru</p>
+    <div class="contact">
+      <a href="tel:+905538815568">+90 553 881 55 68</a>
+      <a href="mailto:ihsneren@gmail.com">ihsneren@gmail.com</a>
+      <a href="https://noxcard.com/profil/?uid=S29hZ0FGeTJLYTl2anNldkZwb1dLQT09" target="_blank" rel="noopener">Dijital kartvizit</a>
+    </div>
+    <p class="small">Logo tescillidir. Görsellerdeki hasta yüzleri gizlenmiştir.</p>
+  </div>
+</footer>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="db" viewBox="0 0 18 10"><rect x="0" y="0" width="5" height="10" rx="1.5" style="fill:var(--plate)"/><rect x="13" y="0" width="5" height="10" rx="1.5" style="fill:var(--plate)"/><rect x="4" y="3.2" width="10" height="3.6" rx="1" style="fill:var(--brass)"/></symbol></defs></svg>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Fotoğraf görüntüleyici">
+  <div class="lb-top"><span id="lb-count">1 / 24</span>
+    <button class="btn" id="lb-close" aria-label="Kapat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="lb-stage"><img id="lb-img" alt=""></div>
+  <div class="lb-bar">
+    <button class="btn" id="lb-prev" aria-label="Önceki"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg></button>
+    <button class="btn" id="lb-next" aria-label="Sonraki"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var N = 24;
+  var special = {1:'big', 2:'big', 4:'big', 5:'big'};
+  var m = document.getElementById('mosaic');
+  var pad = function(n){ return (n<10?'0':'') + n; };
+  for (var i=1;i<=N;i++){
+    var b = document.createElement('button');
+    b.className = 'tile' + (special[i] ? ' ' + special[i] : '');
+    b.dataset.i = i;
+    b.setAttribute('aria-label', 'Kare ' + i + ' / ' + N + ', büyüt');
+    var im = document.createElement('img');
+    im.src = 'img/p' + pad(i) + '_t.jpg';
+    im.alt = '';
+    im.loading = i <= 12 ? 'eager' : 'lazy';
+    im.decoding = 'async';
+    b.appendChild(im);
+    m.appendChild(b);
+  }
+
+  var groups = { kare: [], rapor: ['img/rapor-1.jpg','img/rapor-2.jpg','img/rapor-3.jpg'] };
+  for (var k=1;k<=N;k++) groups.kare.push('img/p' + pad(k) + '.jpg');
+  var names = { kare: 'Klinikten kare', rapor: 'Analiz raporu sayfa' };
+
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img'),
+      lbCount = document.getElementById('lb-count'), cur = 1, list = groups.kare, gname = 'kare', lastFocus = null;
+  function show(i){
+    var n = list.length;
+    cur = (i - 1 + n) % n + 1;
+    lbImg.src = list[cur-1];
+    lbImg.alt = names[gname] + ' ' + cur;
+    lbCount.textContent = cur + ' / ' + n;
+  }
+  function open(g, i){ gname = g; list = groups[g]; lastFocus = document.activeElement; show(i); lb.hidden = false; document.body.style.overflow='hidden'; document.getElementById('lb-close').focus(); }
+  function close(){ lb.hidden = true; document.body.style.overflow=''; if (lastFocus) lastFocus.focus(); }
+  m.addEventListener('click', function(e){
+    var t = e.target.closest('.tile'); if (t) open('kare', +t.dataset.i);
+  });
+  document.querySelectorAll('.rp').forEach(function(b){
+    b.addEventListener('click', function(){ open(b.dataset.group, +b.dataset.i); });
+  });
+  document.getElementById('lb-close').onclick = close;
+  document.getElementById('lb-prev').onclick = function(){ show(cur-1); };
+  document.getElementById('lb-next').onclick = function(){ show(cur+1); };
+  lb.addEventListener('click', function(e){ if (e.target === lb || e.target.classList.contains('lb-stage')) close(); });
+  document.addEventListener('keydown', function(e){
+    if (lb.hidden) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(cur-1);
+    else if (e.key === 'ArrowRight') show(cur+1);
+  });
+  var sx = null;
+  lb.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; }, {passive:true});
+  lb.addEventListener('touchend', function(e){
+    if (sx === null) return;
+    var dx = e.changedTouches[0].clientX - sx; sx = null;
+    if (Math.abs(dx) > 45) show(dx < 0 ? cur+1 : cur-1);
+  });
+})();
+</script>
+
+</body>
+</html>
