@@ -8,12 +8,12 @@
 <meta property="og:title" content="İhsan Eren · Fizyoterapist · İntörn Tıp Doktoru">
 <meta property="og:description" content="Evde fizik tedavi, manuel terapi ve kişiye özel egzersiz.">
 <meta name="theme-color" content="#1c2819">
-<link rel="icon" href="img/logo.png">
+<link rel="icon" href="logo.png">
 </head>
 <body style="margin:0">
 <style>
-  @font-face{font-family:"Marcellus";src:url("fonts/Marcellus-Regular.ttf") format("truetype");font-display:swap}
-  @font-face{font-family:"Figtree";src:url("fonts/Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}
+  @font-face{font-family:"Marcellus";src:url("Marcellus-Regular.ttf") format("truetype");font-display:swap}
+  @font-face{font-family:"Figtree";src:url("Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}
   html{-webkit-text-size-adjust:100%}
   img{max-width:100%}
   [hidden]{display:none!important}
@@ -236,7 +236,7 @@
 <div lang="tr">
 <header class="hero">
   <div class="wrap">
-    <img class="logo" src="img/logo.png" alt="İhsan Eren logosu: ortasında omurga bulunan beyin">
+    <img class="logo" src="logo.png" alt="İhsan Eren logosu: ortasında omurga bulunan beyin">
     <p class="role">Fizyoterapist · İntörn Tıp Doktoru</p>
     <h1>İhsan Eren</h1>
     <div class="rule" aria-hidden="true">
@@ -265,10 +265,10 @@
         <div class="step">
           <div class="step-label"><span class="step-no">1</span><h3>Analiz raporu</h3></div>
           <div class="report">
-            <button class="rp rp-main" data-group="rapor" data-i="1" aria-label="Rapor sayfa 1, büyüt"><img src="img/rapor-1_t.jpg" alt="Fonksiyonel değerlendirme raporu: fonksiyonel yaş 54, kronolojik yaş 62, risk profili ve yaş normuna göre profil"></button>
+            <button class="rp rp-main" data-group="rapor" data-i="1" aria-label="Rapor sayfa 1, büyüt"><img src="rapor-1_t.jpg" alt="Fonksiyonel değerlendirme raporu: fonksiyonel yaş 54, kronolojik yaş 62, risk profili ve yaş normuna göre profil"></button>
             <div class="rp-row">
-              <button class="rp" data-group="rapor" data-i="2" aria-label="Rapor sayfa 2, büyüt"><img src="img/rapor-2_t.jpg" alt="Kas kuvveti asimetrisi, vücut kompozisyonu ve ölçüm tablosu"></button>
-              <button class="rp" data-group="rapor" data-i="3" aria-label="Rapor sayfa 3, büyüt"><img src="img/rapor-3_t.jpg" alt="Zaman içinde izlem grafiği ve 12 haftalık müdahale planı"></button>
+              <button class="rp" data-group="rapor" data-i="2" aria-label="Rapor sayfa 2, büyüt"><img src="rapor-2_t.jpg" alt="Kas kuvveti asimetrisi, vücut kompozisyonu ve ölçüm tablosu"></button>
+              <button class="rp" data-group="rapor" data-i="3" aria-label="Rapor sayfa 3, büyüt"><img src="rapor-3_t.jpg" alt="Zaman içinde izlem grafiği ve 12 haftalık müdahale planı"></button>
             </div>
           </div>
           <p>Örnek rapor, temsili hasta: A.Y., 62 yaş. Fonksiyonel yaşı 54, yani yaşıtlarından 8 yıl önde. Sayfaları büyütmek için dokunun.</p>
@@ -327,7 +327,7 @@
 
       <figure class="annot" aria-label="Numaralı işaretlerle logonun bölümleri">
         <svg viewBox="0 0 100 74" role="img" aria-hidden="false">
-          <image href="img/logo.png" x="18" y="9" width="64" height="52.8" preserveAspectRatio="xMidYMid meet"/>
+          <image href="logo.png" x="18" y="9" width="64" height="52.8" preserveAspectRatio="xMidYMid meet"/>
           <!-- 1 beyin -->
           <path class="lead" d="M8 30 H20 L27 32"/><circle class="dot" cx="27" cy="32" r=".8"/>
           <g class="pin"><circle cx="5" cy="30" r="3"/><text x="5" y="30.2">1</text></g>
@@ -454,7 +454,7 @@
     b.dataset.i = i;
     b.setAttribute('aria-label', 'Kare ' + i + ' / ' + N + ', büyüt');
     var im = document.createElement('img');
-    im.src = 'img/p' + pad(i) + '_t.jpg';
+    im.src = 'p' + pad(i) + '_t.jpg';
     im.alt = '';
     im.loading = i <= 12 ? 'eager' : 'lazy';
     im.decoding = 'async';
@@ -462,8 +462,8 @@
     m.appendChild(b);
   }
 
-  var groups = { kare: [], rapor: ['img/rapor-1.jpg','img/rapor-2.jpg','img/rapor-3.jpg'] };
-  for (var k=1;k<=N;k++) groups.kare.push('img/p' + pad(k) + '.jpg');
+  var groups = { kare: [], rapor: ['rapor-1.jpg','rapor-2.jpg','rapor-3.jpg'] };
+  for (var k=1;k<=N;k++) groups.kare.push('p' + pad(k) + '.jpg');
   var names = { kare: 'Klinikten kare', rapor: 'Analiz raporu sayfa' };
 
   var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img'),
