@@ -27,7 +27,7 @@
     --display:"Marcellus","Cormorant Garamond",Georgia,"Times New Roman",serif;
     --body:"Figtree","Segoe UI",system-ui,-apple-system,sans-serif;
     --gut:clamp(16px,5vw,40px);
-    --max:880px;
+    --max:1120px;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -48,7 +48,7 @@
     background:rgba(28,40,25,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
   }
-  .bar .wrap{max-width:1080px;display:flex;align-items:center;gap:18px;padding-block:10px}
+  .bar .wrap{display:flex;align-items:center;gap:18px;padding-block:10px}
   .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--foil);font-family:var(--display);font-size:19px;white-space:nowrap}
   .brand img{height:30px;width:auto;display:block}
   .links{display:flex;gap:20px;margin-left:auto}
@@ -106,10 +106,12 @@
   @media (max-width:620px){.conds{grid-template-columns:1fr}}
   .conds li{display:flex;align-items:center;gap:12px;padding-block:13px;border-top:1px solid var(--line);font-size:16.5px}
   .conds svg{width:20px;height:20px;flex:none;color:var(--foil)}
+  @media (min-width:1000px){.conds{grid-template-columns:repeat(3,1fr)}}
   .methods{margin-top:40px}
   .methods h3{font-size:22px;margin-bottom:14px}
   .mgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
   @media (max-width:560px){.mgrid{grid-template-columns:1fr}}
+  @media (min-width:1000px){.mgrid{grid-template-columns:repeat(4,1fr)}}
   .m{border:1px solid var(--line);border-radius:10px;padding:16px 16px 14px;background:var(--ground-2);display:grid;gap:6px;align-content:start}
   .m h4{margin:0;font-family:var(--body);font-weight:600;font-size:16px;color:var(--ink)}
   .m p{margin:0;color:var(--muted);font-size:14.5px}
@@ -119,6 +121,7 @@
   /* longevity steps */
   .steps{display:grid;grid-template-columns:1fr 1fr;gap:18px}
   @media (max-width:620px){.steps{grid-template-columns:1fr}}
+  @media (min-width:1000px){.steps{gap:44px}}
   .step{display:grid;gap:10px;align-content:start}
   .step-label{display:flex;align-items:baseline;gap:10px}
   .step-no{
@@ -166,6 +169,7 @@
     grid-auto-flow:dense;
   }
   @container (max-width:560px){ .mosaic{--cols:3;--g:3px} }
+  @container (min-width:900px){ .mosaic{--cols:6;--g:5px} }
   .tile{all:unset;cursor:zoom-in;position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block}
   .tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
   .tile:hover img{transform:scale(1.04)}
@@ -191,7 +195,13 @@
   .btn svg{width:18px;height:18px}
 
   /* logo story */
-  .annot{max-width:560px;margin:0 auto 8px}
+  .logo-grid{display:grid;gap:8px}
+  .annot{max-width:560px;margin:0 auto 8px;width:100%}
+  @media (min-width:1000px){
+    .logo-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;align-items:start}
+    .logo-grid .annot{position:sticky;top:90px;margin:0;max-width:none}
+    .logo-grid .meanings li:first-child{border-top:0;padding-top:0}
+  }
   .annot svg{width:100%;height:auto;display:block;overflow:visible}
   .annot .lead{stroke:var(--foil);stroke-width:.25;fill:none;opacity:.8}
   .annot .dot{fill:var(--gold)}
@@ -222,6 +232,7 @@
     width:200px;max-width:60vw;aspect-ratio:1/1;border-radius:50%;overflow:hidden;margin:0;
     border:5px solid var(--paper);box-shadow:0 0 0 1px var(--foil);background:var(--paper);
   }
+  @media (min-width:1000px){.who{grid-template-columns:240px 1fr;gap:56px}.portrait{width:240px}}
   .portrait img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.04)}
   .who h2{font-size:clamp(28px,6.4vw,38px);line-height:1.15;color:var(--foil);margin:8px 0 4px}
   .who .role{margin:0 0 18px;color:var(--ink-soft)}
@@ -400,21 +411,22 @@
       </div>
       <p class="statement">Tescilli logom, mesleki yolculuğumu ve iyileşmeye bütüncül bakışımı temsil ediyor.</p>
 
+      <div class="logo-grid">
       <figure class="annot" aria-label="Numaralı işaretlerle logonun bölümleri">
-        <svg viewBox="0 0 100 74" role="img">
+        <svg viewBox="0 0 100 84" role="img">
           <image href="logo.png" x="18" y="9" width="64" height="52.8" preserveAspectRatio="xMidYMid meet"/>
           <path class="lead" d="M8 30 H20 L27 32"/><circle class="dot" cx="27" cy="32" r=".8"/>
           <g class="pin"><circle cx="5" cy="30" r="3"/><text x="5" y="30.2">1</text></g>
-          <path class="lead" d="M47.6 5 V16"/><circle class="dot" cx="47.6" cy="16" r=".8"/>
-          <g class="pin"><circle cx="47.6" cy="3" r="3"/><text x="47.6" y="3.2">2</text></g>
+          <path class="lead" d="M52.3 6 V13.6"/><circle class="dot" cx="52.3" cy="13.6" r=".8"/>
+          <g class="pin"><circle cx="52.3" cy="3" r="3"/><text x="52.3" y="3.2">2</text></g>
           <path class="lead" d="M8 50 H30 L39.8 46.8"/><circle class="dot" cx="39.8" cy="46.8" r=".8"/>
           <g class="pin"><circle cx="5" cy="50" r="3"/><text x="5" y="50.2">3</text></g>
-          <path class="lead" d="M92 46 H80 L72 43"/><circle class="dot" cx="72" cy="43" r=".8"/>
-          <g class="pin"><circle cx="95" cy="46" r="3"/><text x="95" y="46.2">4</text></g>
+          <path class="lead" d="M40.6 57.3 L54.2 77 L64 57.3"/><circle class="dot" cx="40.6" cy="57.3" r=".8"/><circle class="dot" cx="64" cy="57.3" r=".8"/>
+          <g class="pin"><circle cx="54.2" cy="80" r="3"/><text x="54.2" y="80.2">4</text></g>
           <path class="lead" d="M92 20 H78 L64.7 22.5"/><circle class="dot" cx="64.7" cy="22.5" r=".8"/>
           <g class="pin"><circle cx="95" cy="20" r="3"/><text x="95" y="20.2">5</text></g>
-          <path class="lead" d="M47.6 69 V56"/><circle class="dot" cx="47.6" cy="56" r=".8"/>
-          <g class="pin"><circle cx="47.6" cy="71" r="3"/><text x="47.6" y="71.2">6</text></g>
+          <path class="lead" d="M54.2 64 V56.6"/><circle class="dot" cx="54.2" cy="56.6" r=".8"/>
+          <g class="pin"><circle cx="54.2" cy="67" r="3"/><text x="54.2" y="67.2">6</text></g>
         </svg>
       </figure>
 
@@ -468,6 +480,7 @@
           </div>
         </li>
       </ol>
+      </div>
 
       <p class="summary">Kısacası logom; beyin ile bedenin bütünlüğünü, omurganın merkezi rolünü, mental, fiziksel ve ruhsal iyileşmenin birlikteliğini, Doğu–Batı sentezini ve bilimsel yolculuğumda bana yön veren üç değerli hocamı temsil ediyor.</p>
     </div>
