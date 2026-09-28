@@ -134,6 +134,15 @@
   @media (min-width:761px) and (max-width:1199px){:root{--gut:72px}}
   @media (prefers-reduced-motion:reduce){.fab-d,.fab-d .lbl{transition:none}}
 
+  .faq{max-width:820px;border-top:1px solid var(--line);margin-top:8px}
+  .faq details{border-bottom:1px solid var(--line)}
+  .faq summary{cursor:pointer;list-style:none;padding:16px 40px 16px 0;position:relative;font-family:var(--display);font-size:20px;line-height:1.3}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";position:absolute;right:6px;top:12px;font-family:var(--body);font-size:26px;line-height:1;color:var(--foil);transition:transform .2s}
+  .faq details[open] summary::after{transform:rotate(45deg)}
+  .faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .faq details p{margin:0 0 16px;color:var(--ink-soft)}
+
   .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
   @media (max-width:760px){.grid{grid-template-columns:1fr}}
   .card{display:grid;grid-template-rows:auto 1fr;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--ground-2)}
@@ -156,6 +165,84 @@
   .card .src a{color:var(--ink-soft)}
 
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://drihsaneren.com/yenilikler.html#sayfa",
+  "name": "Geleceğin Tıbbı: Güncel Bilimsel Gelişmeler | İhsan Eren",
+  "description": "Güncel bilimsel gelişmeler: Alzheimer'ı kandan tanıyan testler, beyne taşınan yeni ilaçlar ve gen düzenleme tedavilerinden kısa, kaynaklı haberler.",
+  "url": "https://drihsaneren.com/yenilikler.html",
+  "inLanguage": "tr",
+  "about": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Alzheimer hastalığı"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "CPS1 eksikliği"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Orak hücreli anemi"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Beta talasemi"
+    }
+  ],
+  "lastReviewed": "2026-09-28",
+  "author": {
+    "@type": "Person",
+    "@id": "https://drihsaneren.com/#ihsan-eren",
+    "name": "İhsan Eren",
+    "url": "https://drihsaneren.com/",
+    "jobTitle": [
+      "Fizyoterapist",
+      "İntörn Tıp Doktoru"
+    ]
+  },
+  "reviewedBy": {
+    "@id": "https://drihsaneren.com/#ihsan-eren"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://drihsaneren.com/yenilikler.html#sss",
+  "url": "https://drihsaneren.com/yenilikler.html",
+  "inLanguage": "tr",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Alzheimer kan testiyle anlaşılabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ABD'de FDA, Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Ancak bu testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı; şikâyeti olmayan sağlıklı kişilerde tarama için uygun değildir."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Trontinemab onaylı bir Alzheimer ilacı mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hayır, henüz onaylı değildir; büyük faz III çalışmaları sürmektedir. Erken faz verilerine göre yüksek dozu alan hastaların %92'sinde 28 haftada beyindeki amiloid birikimi eşik değerin altına indi. Az sayıda hastada beyinde mikro kanama gibi yan etkiler izlendi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Talasemi ve orak hücreli anemi gen tedavisiyle tedavi edilebilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Onaylı ilk CRISPR tedavisi Casgevy, orak hücreli anemi ve beta talasemide kullanılmaktadır. Çalışmalarda orak hücre hastalarının 17'de 16'sı ağrı krizi yaşamadı, talasemi hastalarının 27'de 25'i kan nakline ihtiyaç duymadı. Tedavi pahalıdır ve her merkezde uygulanamamaktadır."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="bar">
@@ -247,6 +334,17 @@
     <p class="src">Kaynak: <a href="https://innovativegenomics.org/news/crispr-clinical-trials-2026/" target="_blank" rel="noopener">Innovative Genomics Institute, 2026</a></p>
   </div>
 </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sık sorulan sorular</h2>
+      <div class="faq">
+<details><summary>Alzheimer kan testiyle anlaşılabilir mi?</summary><p>ABD'de FDA, Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Ancak bu testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı; şikâyeti olmayan sağlıklı kişilerde tarama için uygun değildir.</p></details>
+<details><summary>Trontinemab onaylı bir Alzheimer ilacı mı?</summary><p>Hayır, henüz onaylı değildir; büyük faz III çalışmaları sürmektedir. Erken faz verilerine göre yüksek dozu alan hastaların %92'sinde 28 haftada beyindeki amiloid birikimi eşik değerin altına indi. Az sayıda hastada beyinde mikro kanama gibi yan etkiler izlendi.</p></details>
+<details><summary>Talasemi ve orak hücreli anemi gen tedavisiyle tedavi edilebilir mi?</summary><p>Onaylı ilk CRISPR tedavisi Casgevy, orak hücreli anemi ve beta talasemide kullanılmaktadır. Çalışmalarda orak hücre hastalarının 17'de 16'sı ağrı krizi yaşamadı, talasemi hastalarının 27'de 25'i kan nakline ihtiyaç duymadı. Tedavi pahalıdır ve her merkezde uygulanamamaktadır.</p></details>
       </div>
       <div class="note" style="margin-top:28px">Bu sayfa bilgilendirme amaçlıdır, tedavi önerisi değildir. Bahsedilen test ve tedavilerin bazıları Türkiye'de henüz kullanımda olmayabilir. Görseller temsili çizimlerdir.</div>
     </div>
