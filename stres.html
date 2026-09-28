@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Stresli Anlarda</title>
-<meta name="description" content="Dünya Sağlık Örgütü rehberinden uyarlanmış beş beceri, yavaş nefes egzersizi ve ücretsiz Türkçe kitapçık ve ses kayıtları.">
+<meta name="description" content="Dünya Sağlık Örgütü rehberinden uyarlanmış beş beceri, nefes egzersizleri (4-6, kutu, 4-7-8) ve ücretsiz Türkçe kitapçık ve ses kayıtları.">
 <link rel="icon" type="image/png" href="logo.png">
 
 <meta name="theme-color" content="#1c2819">
@@ -90,15 +90,27 @@
 
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 
-  .breath{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:center}
-  @media (max-width:720px){.breath{grid-template-columns:1fr}}
+  .breath{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:32px;align-content:start;
+    grid-template-areas:"intro orb" "modes orb" "ctl orb" "note orb";grid-template-rows:auto auto auto 1fr}
+  .b-intro{grid-area:intro} .b-modes{grid-area:modes} .b-ctl{grid-area:ctl} .b-note{grid-area:note;margin-top:14px}
+  .breath .orb{grid-area:orb;align-self:center}
+  @media (max-width:720px){
+    .breath{grid-template-columns:1fr;grid-template-areas:"intro" "modes" "orb" "ctl" "note";grid-template-rows:none}
+    .breath .orb{width:min(260px,72vw);margin:14px auto 18px}
+  }
+  [hidden]{display:none!important}
   .orb{position:relative;width:min(320px,80vw);aspect-ratio:1/1;max-width:100%;margin:0 auto;display:grid;place-items:center}
-  .orb .ring{position:absolute;inset:0;border-radius:50%;border:1px solid var(--line-strong)}
+  .orb .ring{position:absolute;inset:0;border-radius:50%;border:1px solid var(--line-strong);transition:border-color .4s,box-shadow .4s}
+  .orb.hold .ring{border-color:var(--gold);box-shadow:0 0 0 6px rgba(226,171,71,.12)}
   .orb .ball{width:100%;height:100%;border-radius:50%;
     background:radial-gradient(circle at 40% 35%, rgba(226,171,71,.55), rgba(143,164,118,.35) 55%, rgba(143,164,118,.08) 75%);
-    transform:scale(.5);}
-  .orb.run .ball{animation:breathe 10s ease-in-out infinite}
-  @keyframes breathe{0%{transform:scale(.5)}40%{transform:scale(1)}100%{transform:scale(.5)}}
+    transform:scale(.5);transition:transform 1s ease-in-out;will-change:transform}
+  .modes{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px}
+  .modes button{all:unset;cursor:pointer;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+  .modes button:hover{border-color:var(--foil);color:var(--ink)}
+  .modes button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
+  .modes button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .steps-mini{font-size:14px;color:var(--muted);margin:0 0 14px}
   .orb .say{position:absolute;inset:0;display:grid;place-content:center;text-align:center;pointer-events:none}
   .orb .say b{font-family:var(--display);font-weight:400;font-size:clamp(24px,4vw,30px);color:var(--ink)}
   .orb .say span{font-size:14px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
@@ -169,17 +181,27 @@
   <section id="nefes">
     <div class="wrap">
       <div class="breath">
-        <div>
+        <div class="b-intro">
           <p class="eyebrow">Hemen deneyin</p>
-          <h2>Yavaş nefes</h2>
-          <p class="soft">Nefesi yavaşlatmak ve özellikle nefes vermeyi uzatmak, bedenin sakinleşmesine yardım eder. Rahat bir yere oturun, omuzlarınızı bırakın. Çember büyürken burnunuzdan nefes alın, küçülürken ağzınızdan yavaşça verin.</p>
-          <p class="soft">4 saniye alın, 6 saniye verin. Başınız dönerse normal nefesinize dönün.</p>
+          <h2>Nefes egzersizi</h2>
+          <p class="soft">Nefesi yavaşlatmak bedenin sakinleşmesine yardım eder. Rahat bir yere oturun, omuzlarınızı bırakın. Çember büyürken burnunuzdan nefes alın, küçülürken yavaşça verin. Çemberin kenarı altın rengine döndüğünde nefesinizi tutun.</p>
+        </div>
+        <div class="b-modes">
+          <div class="modes" role="group" aria-label="Nefes temposu">
+            <button type="button" data-m="46" aria-pressed="true">Sakin · 4-6</button>
+            <button type="button" data-m="kutu" aria-pressed="false">Kutu · 4-4-4-4</button>
+            <button type="button" data-m="478" aria-pressed="false">4-7-8</button>
+          </div>
+          <p class="steps-mini" id="b-desc">4 saniye alın, 6 saniye verin. Tutma yok. İstediğiniz kadar sürdürebilirsiniz.</p>
+        </div>
+        <div class="b-ctl">
           <div class="controls">
             <button type="button" class="cta" id="b-start">Başlat</button>
             <button type="button" class="cta ghost" id="b-stop" hidden>Durdur</button>
           </div>
           <p class="count" id="b-count" aria-live="polite">Bir tur 10 saniye. 6 tur yaklaşık 1 dakika sürer.</p>
         </div>
+        <p class="count b-note">Tutma aşamalarını zorlamadan yapın. Başınız döner ya da nefesiniz daralırsa Sakin tempoya ya da normal nefesinize dönün. Ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri doktorunuza danışın.</p>
         <div class="orb" id="orb" aria-hidden="true">
           <div class="ring"></div>
           <div class="ball"></div>
@@ -293,11 +315,13 @@
     <div class="wrap col">
       <div class="note warn"><strong>Ne zaman destek almalı?</strong> Stres, kaygı ya da çökkünlük haftalardır uykunuzu, işinizi veya ilişkilerinizi etkiliyorsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa hemen <strong>112</strong>'yi arayın.</div>
       <div class="sources" style="margin-top:24px">
-        <p class="eyebrow">Kaynak</p>
+        <p class="eyebrow">Kaynaklar</p>
         <ol>
+          <li>Cleveland Clinic. <a href="https://health.clevelandclinic.org/4-7-8-breathing" target="_blank" rel="noopener">How To Do the 4-7-8 Breathing Exercise</a>. Health Essentials.</li>
+          <li>Cleveland Clinic. <a href="https://health.clevelandclinic.org/box-breathing-benefits" target="_blank" rel="noopener">How Box Breathing Can Help You Destress</a>. Health Essentials.</li>
           <li>World Health Organization. <a href="https://www.who.int/publications/i/item/9789240003927" target="_blank" rel="noopener">Doing What Matters in Times of Stress: An Illustrated Guide</a>. Geneva: WHO; 2020. Türkçesi: <a href="https://apps.who.int/iris/handle/10665/333917" target="_blank" rel="noopener">Stresli Anlarda Ne Yapmalı?: Resimli Rehber</a>. Lisans: CC BY-NC-SA 3.0 IGO.</li>
         </ol>
-        <p style="margin-top:12px">Bu sayfa rehberdeki becerilerin kendi cümlelerimizle yazılmış kısa bir özetidir. Dünya Sağlık Örgütü bu sayfayı hazırlamamış ve onaylamamıştır. Yavaş nefes egzersizi rehberin parçası değildir, genel bir gevşeme tekniğidir.</p>
+        <p style="margin-top:12px">Bu sayfa rehberdeki becerilerin kendi cümlelerimizle yazılmış kısa bir özetidir. Dünya Sağlık Örgütü bu sayfayı hazırlamamış ve onaylamamıştır. Nefes egzersizleri rehberin parçası değildir, genel gevşeme teknikleridir.</p>
       </div>
     </div>
   </section>
@@ -322,17 +346,55 @@
 (function(){
   var orb=document.getElementById('orb'), w=document.getElementById('b-word'), s=document.getElementById('b-sec'),
       start=document.getElementById('b-start'), stop=document.getElementById('b-stop'), cnt=document.getElementById('b-count');
-  var t=null, t0=0, rounds=0;
+  var ball=orb.querySelector('.ball'), desc=document.getElementById('b-desc');
+  // [söz, saniye, çember: 1 büyü, 0 küçül, -1 tut]
+  var MODES={
+    '46':{ph:[['Nefes al',4,1],['Nefes ver',6,0]],max:0,
+      d:'4 saniye alın, 6 saniye verin. Tutma yok. İstediğiniz kadar sürdürebilirsiniz.',
+      c:'Bir tur 10 saniye. 6 tur yaklaşık 1 dakika sürer.'},
+    'kutu':{ph:[['Nefes al',4,1],['Tut',4,-1],['Nefes ver',4,0],['Tut',4,-1]],max:0,
+      d:'4 saniye alın, 4 tutun, 4 verin, 4 tutun. Hafifçe, zorlamadan. Günde 1–2 kez, 3–4 tur yeterli.',
+      c:'Bir tur 16 saniye. 4 tur yaklaşık 1 dakika sürer.'},
+    '478':{ph:[['Nefes al',4,1],['Tut',7,-1],['Nefes ver',8,0]],max:4,
+      d:'Burnunuzdan 4 saniye alın, 7 saniye tutun, dudaklarınız hafif aralık, “fuuu” sesiyle 8 saniyede verin. Dilinizin ucu üst ön dişlerinizin arkasında dursun. Başlangıçta günde 2 kez, 3–4 tur.',
+      c:'Bir tur 19 saniye. 4 turdan sonra kendiliğinden durur.'}
+  };
+  var mode='46', t=null, t0=0, rounds=0, cur=-1;
+  function total(){return MODES[mode].ph.reduce(function(a,p){return a+p[1];},0);}
+  function setBall(scale,sec){ball.style.transition='transform '+sec+'s ease-in-out'; ball.style.transform='scale('+scale+')';}
+  function halt(msg){
+    clearInterval(t); t=null; cur=-1; orb.classList.remove('hold'); setBall(.5,1);
+    w.textContent='Hazır'; s.textContent="Başlat'a basın";
+    if(msg){cnt.textContent=msg;}
+    stop.hidden=true; start.hidden=false;
+  }
   function tick(){
-    var el=(Date.now()-t0)/1000, c=el%10, r=Math.floor(el/10);
+    var m=MODES[mode], T=total(), el=(Date.now()-t0)/1000, r=Math.floor(el/T), c=el-r*T;
     if(r!==rounds){rounds=r; cnt.textContent=rounds+' tur tamamlandı';}
-    if(c<4){w.textContent='Nefes al'; s.textContent=Math.ceil(4-c)+' sn';}
-    else{w.textContent='Nefes ver'; s.textContent=Math.ceil(10-c)+' sn';}
+    if(m.max && rounds>=m.max){halt(m.max+' tur tamamlandı. Normal nefesinize dönün.'); start.focus(); return;}
+    var i=0, acc=0; while(i<m.ph.length-1 && c>=acc+m.ph[i][1]){acc+=m.ph[i][1]; i++;}
+    var p=m.ph[i], key=r*10+i;
+    if(key!==cur){
+      cur=key; w.textContent=p[0];
+      if(p[2]===1){orb.classList.remove('hold'); setBall(1,p[1]);}
+      else if(p[2]===0){orb.classList.remove('hold'); setBall(.5,p[1]);}
+      else{orb.classList.add('hold');}
+    }
+    s.textContent=Math.max(1,Math.ceil(acc+p[1]-c))+' sn';
   }
   start.addEventListener('click',function(){
-    orb.classList.remove('run'); void orb.offsetWidth; orb.classList.add('run');
-    t0=Date.now(); rounds=0; cnt.textContent='Başladı'; tick(); clearInterval(t); t=setInterval(tick,200);
+    ball.style.transition='none'; ball.style.transform='scale(.5)'; void ball.offsetWidth;
+    t0=Date.now(); rounds=0; cur=-1; cnt.textContent='Başladı'; tick(); clearInterval(t); t=setInterval(tick,100);
     start.hidden=true; stop.hidden=false; stop.focus();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.modes button'),function(b){
+    b.addEventListener('click',function(){
+      var running=!!t; if(running){halt();}
+      mode=b.dataset.m;
+      Array.prototype.forEach.call(document.querySelectorAll('.modes button'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+      desc.textContent=MODES[mode].d; cnt.textContent=MODES[mode].c;
+      if(running){start.click();}
+    });
   });
   var spb=document.querySelector('button.spx');
   if(spb){spb.addEventListener('click',function(){
@@ -342,10 +404,7 @@
     f.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
     f.height='152'; f.style.colorScheme='normal'; spb.parentNode.classList.add('on'); spb.replaceWith(f);
   });}
-  stop.addEventListener('click',function(){
-    clearInterval(t); orb.classList.remove('run'); w.textContent='Hazır'; s.textContent="Başlat'a basın";
-    stop.hidden=true; start.hidden=false; start.focus();
-  });
+  stop.addEventListener('click',function(){ halt(); start.focus(); });
 })();
 </script>
 </body>
