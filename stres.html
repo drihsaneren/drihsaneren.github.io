@@ -118,8 +118,8 @@
   .spx:focus-visible{outline:2px solid var(--gold);outline-offset:-4px}
   .spx .vt{font-size:14px;color:var(--ink-soft)}
   .spx .vt b{font-family:var(--display);font-weight:400;font-size:20px;color:var(--ink)}
-  .sp iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px;background:transparent}
-  .sp.on{border-color:transparent;background:transparent}
+  .sp iframe{position:absolute;inset:0;display:block;width:100%;height:152px;border:0;border-radius:12px;background:transparent;color-scheme:normal}
+  .sp.on{border:0;background:transparent;color-scheme:normal}
   .ext{font-size:13px;color:var(--muted)}
   .ext:hover{color:var(--foil)}
   .skills{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:s}
@@ -340,7 +340,7 @@
     f.src='https://open.spotify.com/embed/playlist/'+spb.dataset.sp+'?utm_source=generator&theme=0';
     f.title='Spotify çalma listesi: Nuvole Bianche Radio';
     f.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
-    f.loading='lazy'; f.height='152'; spb.parentNode.classList.add('on'); spb.replaceWith(f);
+    f.height='152'; f.style.colorScheme='normal'; spb.parentNode.classList.add('on'); spb.replaceWith(f);
   });}
   stop.addEventListener('click',function(){
     clearInterval(t); orb.classList.remove('run'); w.textContent='Hazır'; s.textContent="Başlat'a basın";
