@@ -109,16 +109,17 @@
 
   .music{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:center}
   @media (max-width:760px){.music{grid-template-columns:1fr;gap:18px}}
-  .sp{position:relative;height:352px;max-width:100%;border-radius:12px;overflow:hidden;border:1px solid var(--line);
+  .sp{position:relative;height:152px;max-width:100%;border-radius:12px;overflow:hidden;border:1px solid var(--line);
     background:radial-gradient(120% 90% at 70% 20%, rgba(226,171,71,.18), transparent 60%),#152012}
-  .spx{all:unset;cursor:pointer;position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:12px;text-align:center;padding:16px}
+  .spx{all:unset;cursor:pointer;position:absolute;inset:0;display:grid;grid-auto-flow:column;place-content:center;align-items:center;gap:16px;text-align:left;padding:16px}
   .spx .play{width:64px;height:64px;border-radius:50%;background:var(--foil);display:grid;place-items:center;transition:transform .2s}
   .spx .play svg{width:26px;height:26px}
   .spx:hover .play{transform:scale(1.06)}
   .spx:focus-visible{outline:2px solid var(--gold);outline-offset:-4px}
   .spx .vt{font-size:14px;color:var(--ink-soft)}
   .spx .vt b{font-family:var(--display);font-weight:400;font-size:20px;color:var(--ink)}
-  .sp iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .sp iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px;background:transparent}
+  .sp.on{border-color:transparent;background:transparent}
   .ext{font-size:13px;color:var(--muted)}
   .ext:hover{color:var(--foil)}
   .skills{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:s}
@@ -339,7 +340,7 @@
     f.src='https://open.spotify.com/embed/playlist/'+spb.dataset.sp+'?utm_source=generator&theme=0';
     f.title='Spotify çalma listesi: Nuvole Bianche Radio';
     f.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
-    f.loading='lazy'; spb.replaceWith(f);
+    f.loading='lazy'; f.height='152'; spb.parentNode.classList.add('on'); spb.replaceWith(f);
   });}
   stop.addEventListener('click',function(){
     clearInterval(t); orb.classList.remove('run'); w.textContent='Hazır'; s.textContent="Başlat'a basın";
