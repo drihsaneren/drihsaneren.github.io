@@ -106,6 +106,21 @@
   button.cta{font:inherit;font-weight:600;font-size:15px;cursor:pointer}
   .count{font-size:14px;color:var(--muted);margin-top:10px;font-variant-numeric:tabular-nums}
 
+
+  .music{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:32px;align-items:center}
+  @media (max-width:760px){.music{grid-template-columns:1fr;gap:18px}}
+  .sp{position:relative;height:352px;max-width:100%;border-radius:12px;overflow:hidden;border:1px solid var(--line);
+    background:radial-gradient(120% 90% at 70% 20%, rgba(226,171,71,.18), transparent 60%),#152012}
+  .spx{all:unset;cursor:pointer;position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:12px;text-align:center;padding:16px}
+  .spx .play{width:64px;height:64px;border-radius:50%;background:var(--foil);display:grid;place-items:center;transition:transform .2s}
+  .spx .play svg{width:26px;height:26px}
+  .spx:hover .play{transform:scale(1.06)}
+  .spx:focus-visible{outline:2px solid var(--gold);outline-offset:-4px}
+  .spx .vt{font-size:14px;color:var(--ink-soft)}
+  .spx .vt b{font-family:var(--display);font-weight:400;font-size:20px;color:var(--ink)}
+  .sp iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .ext{font-size:13px;color:var(--muted)}
+  .ext:hover{color:var(--foil)}
   .skills{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:s}
   .skills > li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:16px;padding-block:24px;border-top:1px solid var(--line)}
   .skills > li:last-child{border-bottom:1px solid var(--line)}
@@ -170,6 +185,18 @@
           <div class="say"><b id="b-word">Hazır</b><span id="b-sec">Başlat'a basın</span></div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="muzik">
+    <div class="wrap music">
+      <div>
+        <p class="eyebrow">Müzik</p>
+        <h2>Haftaya sakin, klasik bir başlangıç</h2>
+        <p class="soft">Kahve eşliğinde kendinize yönelmek için: Ludovico Einaudi’nin <em>Nuvole Bianche</em>’si ve benzeri sakin piyano eserlerinden oluşan bir Spotify listesi. Nefes egzersizinden önce ya da sonra arka planda açabilirsiniz.</p>
+        <p class="meta">Liste Spotify’dan yüklenir. Spotify’a giriş yapmamış dinleyiciler parçaların kısa önizlemelerini duyabilir.</p>
+      </div>
+      <div class="sp"><button type="button" class="spx" data-sp="37i9dQZF1E8LKe7RHlcpxG" aria-label="Spotify çalma listesini yükle"><span class="play"><svg viewBox="0 0 24 24" fill="none" stroke="#1c2819" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span><span class="vt"><b>Nuvole Bianche Radio</b><br>Çalma listesini yükle</span></button></div>
     </div>
   </section>
 
@@ -306,6 +333,14 @@
     t0=Date.now(); rounds=0; cnt.textContent='Başladı'; tick(); clearInterval(t); t=setInterval(tick,200);
     start.hidden=true; stop.hidden=false; stop.focus();
   });
+  var spb=document.querySelector('button.spx');
+  if(spb){spb.addEventListener('click',function(){
+    var f=document.createElement('iframe');
+    f.src='https://open.spotify.com/embed/playlist/'+spb.dataset.sp+'?utm_source=generator&theme=0';
+    f.title='Spotify çalma listesi: Nuvole Bianche Radio';
+    f.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+    f.loading='lazy'; spb.replaceWith(f);
+  });}
   stop.addEventListener('click',function(){
     clearInterval(t); orb.classList.remove('run'); w.textContent='Hazır'; s.textContent="Başlat'a basın";
     stop.hidden=true; start.hidden=false; start.focus();

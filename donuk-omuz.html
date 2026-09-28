@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Donuk Omuz</title>
-<meta name="description" content="Donuk omuz (adeziv kapsülit) nedir, kimlerde görülür, evreleri, tedavi seçenekleri ve evde yapılabilecek egzersizler.">
+<meta name="description" content="Donuk omuz (adeziv kapsülit) nedir, kimlerde görülür, evreleri, tedavi seçenekleri, evde yapılabilecek egzersizler ve videolar.">
 <link rel="icon" type="image/png" href="logo.png">
 
 <meta name="theme-color" content="#1c2819">
@@ -134,6 +134,28 @@
   .an .grd{stroke:#B9CBC6;stroke-width:3;stroke-linecap:round}
   .an .obj{stroke:#8FA8A2;stroke-width:4;fill:none;stroke-linecap:round}
   .an .band{fill:none;stroke:#C8963E;stroke-width:3.5;stroke-linecap:round;stroke-dasharray:5 4}
+  .vids{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  @media (max-width:760px){.vids{grid-template-columns:1fr}}
+  .vid{display:grid;gap:10px;align-content:start}
+  .vbox{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:12px;overflow:hidden;border:1px solid var(--line);
+    background:radial-gradient(120% 90% at 30% 20%, rgba(143,164,118,.25), transparent 60%),#152012}
+  .vbox button,.vbox .vlink{all:unset;cursor:pointer;position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:10px;text-align:center;padding:16px}
+  .vbox .play{width:64px;height:64px;border-radius:50%;background:var(--foil);display:grid;place-items:center;transition:transform .2s}
+  .vbox .play svg{width:26px;height:26px;margin-left:4px}
+  .vbox button:hover .play,.vbox .vlink:hover .play{transform:scale(1.06)}
+  .ext{font-size:13px;color:var(--muted);justify-self:start}
+  .ext:hover{color:var(--foil)}
+  .vbox button:focus-visible,.vbox .vlink:focus-visible{outline:2px solid var(--gold);outline-offset:-4px}
+  .vbox .vt{font-size:14px;color:var(--ink-soft);max-width:34ch}
+  .vbox .thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.8);transition:filter .2s}
+  .vbox button:hover .thumb{filter:brightness(.95)}
+  .vbox .play{position:relative;z-index:1;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+  .vbox iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .vid h3{font-size:19px;margin:0}
+  .vid p{margin:0;font-size:15px;color:var(--ink-soft)}
+  .sources details{margin-top:6px}
+  .sources summary{cursor:pointer;color:var(--ink-soft)}
+  .sources ol ol{margin-top:8px;font-size:13px}
   .redflags{columns:2;column-gap:32px;max-width:820px}
   @media (max-width:640px){.redflags{columns:1}}
   .redflags li{break-inside:avoid}
@@ -238,6 +260,28 @@
     </div>
   </section>
 
+
+  <section id="videolar">
+    <div class="wrap">
+      <p class="eyebrow">Video</p>
+      <h2>Evreye göre egzersiz videoları</h2>
+      <p class="soft">ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından, donuk omzun evrelerine göre adım adım egzersiz programları. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <div class="vids">
+        <div class="vid">
+          <div class="vbox"><button type="button" data-yt="uKzCZcvi-m0" aria-label="Donma evresi videosunu oynat"><img class="thumb" src="https://i.ytimg.com/vi/uKzCZcvi-m0/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>1. evre: Donma (ağrılı dönem)</h3>
+          <p>Ağrıyı artırmadan hareketi korumaya yönelik nazik egzersizler.</p>
+        </div>
+        <div class="vid">
+          <div class="vbox"><button type="button" data-yt="A8DWUzW3rbM" aria-label="Donmuş evre videosunu oynat"><img class="thumb" src="https://i.ytimg.com/vi/A8DWUzW3rbM/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>2. evre: Donmuş (katılaşma dönemi)</h3>
+          <p>Hareket açıklığını artırmaya yönelik germe ve mobilizasyon egzersizleri.</p>
+        </div>
+      </div>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
@@ -257,10 +301,19 @@
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
       <ol>
-        <li>Physiopedia. <a href="https://www.physio-pedia.com/Adhesive_Capsulitis" target="_blank" rel="noopener">Adhesive Capsulitis</a>.</li>
-        <li>American Academy of Orthopaedic Surgeons (AAOS), OrthoInfo. <a href="https://www.orthoinfo.org/diseases--conditions/frozen-shoulder" target="_blank" rel="noopener">Frozen Shoulder</a>.</li>
+        <li>American Academy of Orthopaedic Surgeons. <a href="https://www.orthoinfo.org/diseases--conditions/frozen-shoulder" target="_blank" rel="noopener">Frozen Shoulder</a>. OrthoInfo.</li>
+        <li>Bal A, Eksioglu E, Gulec B, Aydog E, Gurcay E, Cakci A. Effectiveness of corticosteroid injection in adhesive capsulitis. Clin Rehabil. 2008;22:503-512.</li>
+        <li>Boyles RE, Flynn TW, Whitman JM. Manipulation following regional interscalene anesthetic block for shoulder adhesive capsulitis: a case series. Man Ther. 2005;10:164-171.</li>
+        <li>Chen M-H, Chen W-S. <a href="https://www.mdpi.com/2077-0383/13/19/5696" target="_blank" rel="noopener">A narrative review of adhesive capsulitis with diabetes</a>. J Clin Med. 2024;13(19):5696.</li>
+        <li>Cleland J, Durall CJ. Physical therapy for adhesive capsulitis: systematic review. Physiotherapy. 2002;88:450-457.</li>
+        <li>Dias R, Cutts S, Massoud S. Frozen shoulder. BMJ. 2005;331:1453-1456.</li>
+        <li>Gaspar PD, Willis FB. Adhesive capsulitis and dynamic splinting: a controlled, cohort study. BMC Musculoskelet Disord. 2009;10:111.</li>
+        <li>Hakim AJ, Cherkas LF, Spector TD, MacGregor AJ. Genetic associations between frozen shoulder and tennis elbow: a female twin study. Rheumatology (Oxford). 2003;42:739-742.</li>
+        <li>Kelley MJ, McClure PW, Leggin BG. Frozen shoulder: evidence and a proposed model guiding rehabilitation. J Orthop Sports Phys Ther. 2009;39:135-148.</li>
         <li>NHS. <a href="https://www.nhs.uk/conditions/frozen-shoulder/" target="_blank" rel="noopener">Frozen shoulder</a>.</li>
-        <li>Chen M-H, Chen W-S. <a href="https://www.mdpi.com/2077-0383/13/19/5696" target="_blank" rel="noopener">A Narrative Review of Adhesive Capsulitis with Diabetes</a>. J Clin Med. 2024;13(19):5696.</li>
+        <li>Physiopedia. <a href="https://www.physio-pedia.com/Adhesive_Capsulitis" target="_blank" rel="noopener">Frozen Shoulder</a>.</li>
+        <li>Vermeulen HM, Rozing PM, Obermann WR, le Cessie S, Vliet Vlieland TP. Comparison of high-grade and low-grade mobilization techniques in the management of adhesive capsulitis of the shoulder: randomized controlled trial. Phys Ther. 2006;86:355-368.</li>
+        <li>Walmsley S, Rivett DA, Osmotherly PG. Adhesive capsulitis: establishing consensus on clinical identifiers for stage 1 using the Delphi technique. Phys Ther. 2009;89:906-917.</li>
       </ol>
     </div>
   </section>
@@ -281,6 +334,17 @@
     <p>Bu sayfa bilgilendirme amaçlıdır; muayene ve tedavinin yerini tutmaz.</p>
   </div>
 </footer>
-
+<script>
+document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
+  b.addEventListener('click', function(){
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
+    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
+    b.replaceWith(f);
+  });
+});
+</script>
 </body>
 </html>
