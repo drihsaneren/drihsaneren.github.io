@@ -170,10 +170,8 @@
   }
   @container (max-width:560px){ .mosaic{--cols:3;--g:3px} }
   @container (min-width:900px){ .mosaic{--cols:6;--g:5px} }
-  .tile{all:unset;cursor:zoom-in;position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block}
-  .tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
-  .tile:hover img{transform:scale(1.04)}
-  .tile:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .tile{position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block}
+  .tile img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
   .tile.big{grid-row:span 2;grid-column:span 2}
 
   /* lightbox */
@@ -419,7 +417,7 @@
       <div class="sec-head">
         <p class="eyebrow">Klinikten kareler</p>
         <h2>Uygulamalardan kareler</h2>
-        <p class="intro">Manuel terapi, akupunktur, kuru iğneleme ve elektroterapi uygulamalarından. Büyütmek için bir kareye dokunun.</p>
+        <p class="intro">Manuel terapi, akupunktur, kuru iğneleme ve elektroterapi uygulamalarından.</p>
       </div>
       <div class="mosaic-wrap">
         <div class="mosaic" id="mosaic"></div>
@@ -604,13 +602,11 @@
   var m = document.getElementById('mosaic');
   var pad = function(n){ return (n<10?'0':'') + n; };
   for (var i=1;i<=N;i++){
-    var b = document.createElement('button');
+    var b = document.createElement('div');
     b.className = 'tile' + (special[i] ? ' ' + special[i] : '');
-    b.dataset.i = i;
-    b.setAttribute('aria-label', 'Kare ' + i + ' / ' + N + ', büyüt');
     var im = document.createElement('img');
     im.src = 'p' + pad(i) + '_t.jpg';
-    im.alt = '';
+    im.alt = 'Klinikten kare ' + i;
     im.loading = i <= 8 ? 'eager' : 'lazy';
     im.decoding = 'async';
     b.appendChild(im);
@@ -632,9 +628,6 @@
   }
   function open(g, i){ gname = g; list = groups[g]; lastFocus = document.activeElement; show(i); lb.hidden = false; document.body.style.overflow='hidden'; document.getElementById('lb-close').focus(); }
   function close(){ lb.hidden = true; document.body.style.overflow=''; if (lastFocus) lastFocus.focus(); }
-  m.addEventListener('click', function(e){
-    var t = e.target.closest('.tile'); if (t) open('kare', +t.dataset.i);
-  });
   document.querySelectorAll('.rp').forEach(function(b){
     b.addEventListener('click', function(){ open(b.dataset.group, +b.dataset.i); });
   });
