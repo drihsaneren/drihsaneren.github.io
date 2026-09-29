@@ -450,6 +450,18 @@
   @media (max-width:560px){.kose-more .all{margin-left:0;flex-basis:100%}}
 
   @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} *{transition:none!important;animation:none!important} }
+  .lang{display:inline-flex;align-items:center;flex:none;gap:2px;padding:2px;border:1px solid var(--line-strong);border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.08em;line-height:1}
+  .lang a{display:block;padding:6px 9px;border-radius:999px;color:var(--ink-soft);text-decoration:none}
+  .lang a:hover{color:var(--foil)}
+  .lang a[aria-current]{background:var(--foil);color:var(--ground)}
+  .bar .lang{margin-left:auto}
+  .links + .lang{margin-left:0}
+  .bar .lang + .cta{margin-left:0}
+  @media (max-width:900px){.links + .lang{margin-left:auto}}
+  .bar .cta,.links a{white-space:nowrap}
+  @media (min-width:901px) and (max-width:1099px){.links a.opt{display:none}}
+  @media (max-width:420px){.bar .wrap{gap:10px}.brand{font-size:16px;gap:8px}.bar .cta{padding:8px 11px;font-size:13.5px}.lang{font-size:11px}.lang a{padding:5px 7px}}
+  @media (max-width:350px){.brand{font-size:0;gap:0}}
 </style>
 <script>try{if(sessionStorage.getItem('lgIntro'))document.documentElement.style.setProperty('--k','.35');sessionStorage.setItem('lgIntro','1')}catch(e){}</script>
 <meta property="og:type" content="website">
@@ -460,6 +472,9 @@
 <meta name="theme-color" content="#1c2819">
 <meta property="og:url" content="https://drihsaneren.com/">
 <link rel="canonical" href="https://drihsaneren.com/">
+<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/">
+<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -707,11 +722,12 @@
       <a href="#hizmetler">Hizmetler</a>
       <a href="#analiz">Longevity</a>
       <a href="#ornek-plan">Egzersiz</a>
-      <a href="#kareler">Kareler</a>
-      <a href="#logo">Logo</a>
+      <a class="opt" href="#kareler">Kareler</a>
+      <a class="opt" href="#logo">Logo</a>
       <a href="#bilgi">Bilgi köşesi</a>
       <a href="#ben-kimim">Ben kimim</a>
     </nav>
+    <div class="lang" role="group" aria-label="Dil seçimi"><a href="index.html" lang="tr" hreflang="tr" aria-label="Türkçe" aria-current="true">TR</a><a href="en/" lang="en" hreflang="en" aria-label="English">EN</a></div>
     <a class="cta" href="https://wa.me/905538815568?text=Merhaba%2C%20evde%20fizyoterapi%20i%C3%A7in%20seans%20planlamak%20istiyorum." target="_blank" rel="noopener">Seans planla</a>
   </div>
 </header>
