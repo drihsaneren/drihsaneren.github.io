@@ -429,7 +429,7 @@
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%2</b><span>Share of the population with fibromyalgia; far more common in women</span></div>
+        <div class="stat"><b>2%</b><span>Share of the population with fibromyalgia; far more common in women</span></div>
         <div class="stat"><b>Only</b><span>The only treatment to receive a strong recommendation from the European Alliance of Associations for Rheumatology (EULAR): exercise</span></div>
         <div class="stat"><b>107</b><span>Number of systematic reviews EULAR examined when preparing its recommendations</span></div>
         <div class="stat"><b>226</b><span>Number of patients in the study that found tai chi as effective as, or more effective than, aerobic exercise</span></div>
@@ -602,8 +602,9 @@
 document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
   b.addEventListener('click', function(){
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
-    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
     b.replaceWith(f);

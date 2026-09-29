@@ -432,8 +432,8 @@
       <div class="stats">
         <div class="stat"><b>83</b><span>New cases of a pinched nerve causing arm pain, per 100,000 people each year</span></div>
         <div class="stat"><b>4–6 months</b><span>Time to clear improvement for most people</span></div>
-        <div class="stat"><b>%90</b><span>Have no symptoms, or only mild ones, in the long term</span></div>
-        <div class="stat"><b>%87,6</b><span>Disc bulges on the MRI scans of people with no pain at all</span></div>
+        <div class="stat"><b>90%</b><span>Have no symptoms, or only mild ones, in the long term</span></div>
+        <div class="stat"><b>87.6%</b><span>Disc bulges on the MRI scans of people with no pain at all</span></div>
       </div>
     </div>
   </section>
@@ -645,8 +645,9 @@
 document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
   b.addEventListener('click', function(){
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
-    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
     b.replaceWith(f);

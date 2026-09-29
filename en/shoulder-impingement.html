@@ -429,8 +429,8 @@
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%44–65</b><span>Share of shoulder pain complaints due to subacromial pain</span></div>
-        <div class="stat"><b>%22</b><span>People with a full-thickness tendon tear in a community screening; two-thirds of these tears were painless</span></div>
+        <div class="stat"><b>44–65%</b><span>Share of shoulder pain complaints due to subacromial pain</span></div>
+        <div class="stat"><b>22%</b><span>People with a full-thickness tendon tear in a community screening; two-thirds of these tears were painless</span></div>
         <div class="stat"><b>2 years</b><span>At follow-up, surgery added no benefit over an exercise programme</span></div>
         <div class="stat"><b>Strong</b><span>recommendation against decompression surgery from an international expert panel</span></div>
       </div>
@@ -629,8 +629,9 @@
 document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
   b.addEventListener('click', function(){
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
-    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
     b.replaceWith(f);

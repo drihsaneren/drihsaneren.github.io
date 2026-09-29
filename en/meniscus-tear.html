@@ -429,8 +429,8 @@
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%61</b><span>People over 50 with a meniscus tear on MRI who had no knee symptoms at all in the previous month</span></div>
-        <div class="stat"><b>%19–56</b><span>How often a meniscus tear shows up on MRI between the ages of 50 and 90; it varies with age and sex</span></div>
+        <div class="stat"><b>61%</b><span>People over 50 with a meniscus tear on MRI who had no knee symptoms at all in the previous month</span></div>
+        <div class="stat"><b>19–56%</b><span>How often a meniscus tear shows up on MRI between the ages of 50 and 90; it varies with age and sex</span></div>
         <div class="stat"><b>12 weeks</b><span>Length of the supervised exercise programme found to be as effective as surgery at two-year follow-up</span></div>
         <div class="stat"><b>5 years</b><span>Follow-up period of the ESCAPE trial, which showed that physiotherapy was no worse than surgery</span></div>
       </div>
@@ -607,8 +607,9 @@
 document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
   b.addEventListener('click', function(){
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
-    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
     b.replaceWith(f);

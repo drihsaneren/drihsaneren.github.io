@@ -1,26 +1,27 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>İyi Uyku İçin: Uyku Süresi, Kafein, Ağrı ve Yatma Saati Planlayıcı | İhsan Eren</title>
-<meta name="description" content="Yetişkinler kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Kronik uykusuzlukta ilk tercih tedavi, iyi uyku alışkanlıkları ve yatma saati planlayıcı.">
-<link rel="icon" type="image/png" href="logo.png">
-<link rel="canonical" href="https://drihsaneren.com/uyku.html">
+<title>Nature Prescription: 120 Minutes a Week for Health | İhsan Eren</title>
+<meta name="description" content="People who spend 120 minutes a week in nature report better health. Your nature planner, places to go in Istanbul, awe walks and the power of a window view.">
+<link rel="icon" type="image/png" href="../logo.png">
+<link rel="canonical" href="https://drihsaneren.com/en/nature-prescription.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="İyi Uyku İçin: Uyku Süresi, Kafein, Ağrı ve Yatma Saati Planlayıcı | İhsan Eren">
-<meta property="og:description" content="Yetişkinler kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Kronik uykusuzlukta ilk tercih tedavi, iyi uyku alışkanlıkları ve yatma saati planlayıcı.">
+<meta property="og:title" content="Nature Prescription: 120 Minutes a Week for Health | İhsan Eren">
+<meta property="og:description" content="People who spend 120 minutes a week in nature report better health. Your nature planner, places to go in Istanbul, awe walks and the power of a window view.">
 <meta property="og:image" content="https://drihsaneren.com/logo.png">
-<meta property="og:locale" content="tr_TR">
-<meta property="og:url" content="https://drihsaneren.com/uyku.html">
-<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uyku.html">
-<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sleep.html">
-<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uyku.html">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:url" content="https://drihsaneren.com/en/nature-prescription.html">
+<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/doga-recetesi.html">
+<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/nature-prescription.html">
+<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/doga-recetesi.html">
 
 <meta name="theme-color" content="#1c2819">
 <style>
-  @font-face{font-family:"Marcellus";src:url("Marcellus-Regular.ttf") format("truetype");font-display:swap}
-  @font-face{font-family:"Figtree";src:url("Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}
+  @font-face{font-family:"Marcellus";src:url("../Marcellus-Regular.ttf") format("truetype");font-display:swap}
+  @font-face{font-family:"Figtree";src:url("../Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}
 
   :root{
     color-scheme: dark;
@@ -403,26 +404,157 @@
   .p-out li.main{border-color:var(--line-strong)}
   .p-out li.main b{font-size:38px;color:var(--ink)}
 
+  .seg{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+  .seg button{all:unset;cursor:pointer;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft)}
+  .seg button:hover{border-color:var(--foil);color:var(--ink)}
+  .seg button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
+  .seg button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .stepper{display:inline-flex;align-items:center;border:1px solid var(--line-strong);border-radius:999px;overflow:hidden;flex:none}
+  .stepper button{all:unset;cursor:pointer;width:38px;height:36px;display:grid;place-items:center;color:var(--ink);font-size:20px;line-height:1}
+  .stepper button:hover{background:rgba(216,178,94,.16)}
+  .stepper button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+  .stepper button:disabled{opacity:.3;cursor:default;background:none}
+  .stepper b{min-width:28px;text-align:center;font-variant-numeric:tabular-nums;color:var(--foil);font-weight:600}
+  .howto{display:grid;grid-template-columns:260px minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:760px){.howto{grid-template-columns:1fr}}
+  .howto .an{border-radius:14px}
+  .howto .an svg{max-width:220px}
+  ol.steps{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:12px;max-width:65ch}
+  ol.steps li{counter-increment:s;display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;align-items:start;color:var(--ink-soft)}
+  ol.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;font-family:var(--display);color:var(--foil);font-size:16px}
+  ol.steps strong{color:var(--ink)}
+  .cmp{display:grid;gap:12px;max-width:780px;margin-top:10px}
+  .cmp .row{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr) 70px;gap:14px;align-items:center;border-radius:10px;padding:4px 6px;margin:0 -6px}
+  .cmp .row > span{font-size:15px;color:var(--ink-soft)}
+  .cmp .bar{height:14px;border-radius:7px;background:rgba(236,229,207,.10);overflow:hidden}
+  .cmp .bar i{display:block;height:100%;border-radius:7px;background:var(--sage);transition:width .45s ease}
+  .cmp .row.top .bar i{background:var(--foil)}
+  .cmp .row.top > span{color:var(--ink);font-weight:600}
+  .cmp b{font-variant-numeric:tabular-nums;color:var(--ink);text-align:right;font-weight:600}
+  .cmp .row.me{background:rgba(216,178,94,.12);outline:1px solid var(--line-strong)}
+  .cmp .row .you{display:none;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ground);background:var(--foil);font-weight:700;margin-left:10px;padding:2px 7px;border-radius:999px;vertical-align:2px}
+  .cmp .row.me .you{display:inline}
+  @media (max-width:560px){.cmp .row{grid-template-columns:minmax(0,1fr) 62px;gap:6px 10px}.cmp .row .bar{grid-column:1 / -1;grid-row:2}}
+  .res{margin-top:16px;border-top:1px solid var(--line);padding-top:14px}
+  .res .lab{font-family:var(--display);font-size:clamp(22px,3vw,26px);color:var(--foil);margin:0 0 6px}
+  .res p{margin:0;color:var(--ink-soft)}
+  .split{display:flex;justify-content:center;gap:18px;margin-top:10px;font-size:14px;color:var(--muted)}
+  .split b{color:var(--ink);font-variant-numeric:tabular-nums}
+
+  /* yere oturup kalkma puanlayıcı */
+  .srt{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(20px,4vw,44px);align-items:start}
+  @media (max-width:860px){.srt{grid-template-columns:1fr}}
+  .srt-col h3{font-size:21px;margin:0 0 2px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+  .srt-col h3 output{font-family:var(--display);font-weight:400;color:var(--foil);font-size:26px;font-variant-numeric:tabular-nums}
+  .srt-col + .srt-col{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+  .sup{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:7px 0}
+  .sup > span{font-size:15px;color:var(--ink-soft)}
+  .srt-col .chk{margin-top:8px;font-size:15px}
+  .srt-out{position:sticky;top:84px}
+  .srt-ctl{margin-top:16px;align-items:center;justify-content:space-between}
+  .srt-mini{display:none;margin:0;font-size:16px;color:var(--ink-soft)}
+  .srt-mini b{font-family:var(--display);font-weight:400;font-size:26px;color:var(--foil);font-variant-numeric:tabular-nums}
+  @media (max-width:860px){.srt-mini{display:block}}
+  @media (max-width:860px){.srt-out{position:static}}
+  .gauge .c small{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+
+  /* duvar oturuşu zamanlayıcı */
+  .ws{display:grid;grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:760px){.ws{grid-template-columns:1fr}}
+  .ws-stage{border-radius:14px;overflow:hidden;background:var(--paper);display:grid;place-items:center;min-height:230px}
+  .ws-stage .an svg{max-width:230px}
+  @media (max-width:760px){.ws-stage .an svg{max-width:170px}}
+  .ws-mid{display:flex;align-items:center;gap:20px;margin:6px 0 12px}
+  .ws-ring{position:relative;width:132px;height:132px;flex:none}
+  .ws-ring svg{width:132px;height:132px;transform:rotate(-90deg)}
+  .ws-ring circle{fill:none;stroke-width:8}
+  .ws-ring .bg{stroke:rgba(236,229,207,.12)}
+  .ws-ring .fg{stroke:var(--foil);stroke-linecap:round;transition:stroke-dashoffset .12s linear}
+  .ws-ring.rest .fg{stroke:var(--sage)}
+  .ws-ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:400;font-size:34px;color:var(--ink);font-variant-numeric:tabular-nums}
+  .ws-info{flex:1;min-width:0}
+  .ws-phase{font-family:var(--display);font-size:clamp(24px,3.2vw,30px);color:var(--ink);margin:0 0 4px;line-height:1.15}
+  .ws-cue{margin:0;color:var(--ink-soft);font-size:15px}
+  .ws-rpe{margin:8px 0 0;font-size:14px;color:var(--foil);font-weight:600;min-height:1.4em}
+  .rounds{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:4px 0 14px}
+  .rounds i{height:6px;border-radius:3px;background:rgba(236,229,207,.12)}
+  .rounds i.done{background:var(--sage)}
+  .rounds i.cur{background:var(--foil)}
+  @media (max-width:420px){.ws-mid{gap:14px;align-items:flex-start}.ws-ring,.ws-ring svg{width:100px;height:100px}.ws-ring b{font-size:27px}}
+
+  /* iç çekiş */
+  .br{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(18px,4vw,44px);align-items:center}
+  @media (max-width:760px){.br{grid-template-columns:1fr}}
+  .br-stage{position:relative;width:min(290px,78vw);aspect-ratio:1;margin:0 auto}
+  .br-stage svg.prog{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+  .br-stage svg.prog circle{fill:none;stroke-width:4}
+  .br-stage svg.prog .bg{stroke:rgba(236,229,207,.10)}
+  .br-stage svg.prog .fg{stroke:var(--foil);stroke-linecap:round}
+  .br-core{position:absolute;inset:12%;border-radius:50%;background:radial-gradient(circle at 38% 35%, rgba(236,229,207,.28), rgba(143,164,118,.55) 45%, rgba(143,164,118,.18) 75%);border:1px solid rgba(143,164,118,.6);transform:scale(.6);will-change:transform;box-shadow:0 0 60px rgba(143,164,118,.25)}
+  .br-center{position:absolute;inset:0;display:grid;place-content:center;text-align:center;pointer-events:none}
+  .br-center b{font-family:var(--display);font-weight:400;font-size:clamp(30px,5vw,40px);color:var(--ink);font-variant-numeric:tabular-nums;line-height:1}
+  .br-center span{font-size:13px;color:var(--ink-soft);margin-top:6px}
+  .br-cue{font-family:var(--display);font-size:clamp(24px,3.4vw,32px);color:var(--ink);margin:0 0 4px;min-height:1.3em;line-height:1.2}
+  .br-sub{color:var(--ink-soft);margin:0 0 14px;min-height:1.5em}
+  .rhythm{display:flex;gap:6px;margin:4px 0 16px;max-width:360px}
+  .rhythm i{position:relative;height:10px;border-radius:5px;background:rgba(236,229,207,.12);overflow:hidden}
+  .rhythm i::after{content:"";position:absolute;inset:0;background:var(--foil);transform-origin:left;transform:scaleX(var(--p,0))}
+  .rhythm i.out::after{background:var(--sage)}
+  .rhythm-lab{display:flex;gap:6px;max-width:360px;font-size:12px;color:var(--muted);margin-top:-10px;margin-bottom:14px}
+  .rhythm-lab span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  /* doğa takvimi */
+  .nt{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:860px){.nt{grid-template-columns:1fr}}
+  .wk{display:grid;gap:6px}
+  .dy{display:grid;grid-template-columns:96px minmax(0,1fr) 62px auto;gap:12px;align-items:center;padding:4px 0}
+  .dy > span{font-size:15px;color:var(--ink-soft)}
+  .dy .bar{height:10px;border-radius:5px;background:rgba(236,229,207,.10);overflow:hidden}
+  .dy .bar i{display:block;height:100%;width:0;border-radius:5px;background:var(--sage);transition:width .3s ease}
+  .dy .v{font-variant-numeric:tabular-nums;color:var(--ink);font-size:15px;text-align:right;white-space:nowrap}
+  .dy .v output{font-weight:600}
+  @media (max-width:480px){.dy{grid-template-columns:78px minmax(0,1fr) auto;gap:8px 10px}.dy .bar{grid-column:1 / -1;grid-row:2}.dy .v{text-align:left}}
+  .places{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:8px}
+  @media (max-width:700px){.places{grid-template-columns:1fr}}
+  .place{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
+  .place h3{font-size:19px;margin:0 0 10px}
+  .place ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+  .place li{font-size:14px;color:var(--ink-soft);border:1px solid var(--line-strong);border-radius:999px;padding:6px 12px}
+
+  /* bağ önerisi */
+  .gv{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:820px){.gv{grid-template-columns:1fr}}
+  .task{border:1px solid var(--line-strong);border-radius:14px;padding:clamp(18px,3vw,26px);background:var(--ground);min-height:210px;display:grid;align-content:start;gap:10px}
+  .task .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--foil);font-weight:700}
+  .task p{font-family:var(--display);font-size:clamp(22px,3vw,27px);line-height:1.3;color:var(--ink);margin:0}
+  .task small{font-size:14px;color:var(--ink-soft);line-height:1.5}
+  .task small strong{color:var(--ink)}
+  .task.pop{animation:pop .35s ease}
+  @keyframes pop{from{opacity:.2;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .wkdots{display:flex;gap:8px;margin:10px 0 6px}
+  .wkdots i{width:16px;height:16px;border-radius:50%;border:1px solid var(--line-strong)}
+  .wkdots i.on{background:var(--sage);border-color:var(--sage)}
+  .gv-count{font-family:var(--display);font-size:clamp(40px,6vw,54px);color:var(--ink);line-height:1;font-variant-numeric:tabular-nums}
+  .def{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:8px}
+  @media (max-width:700px){.def{grid-template-columns:1fr}}
+  .def div{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
+  .def h3{font-size:19px;margin:0 0 6px}
+  .def p{margin:0;color:var(--ink-soft);font-size:15px}
+
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
-  "@id": "https://drihsaneren.com/uyku.html#sayfa",
-  "name": "İyi Uyku İçin: Uyku Süresi, Kafein, Ağrı ve Yatma Saati Planlayıcı | İhsan Eren",
-  "description": "Yetişkinler kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Kronik uykusuzlukta ilk tercih tedavi, iyi uyku alışkanlıkları ve yatma saati planlayıcı.",
-  "url": "https://drihsaneren.com/uyku.html",
-  "inLanguage": "tr",
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Uyku sağlığı"
-    },
-    {
-      "@type": "MedicalCondition",
-      "name": "Uykusuzluk"
-    }
-  ],
+  "@id": "https://drihsaneren.com/en/nature-prescription.html#sayfa",
+  "name": "Nature Prescription: 120 Minutes a Week for Health | İhsan Eren",
+  "description": "People who spend 120 minutes a week in nature report better health. Your nature planner, places to go in Istanbul, awe walks and the power of a window view.",
+  "url": "https://drihsaneren.com/en/nature-prescription.html",
+  "inLanguage": "en",
+  "about": {
+    "@type": "Thing",
+    "name": "Spending time in nature"
+  },
   "lastReviewed": "2026-09-28",
   "author": {
     "@type": "Person",
@@ -430,8 +562,8 @@
     "name": "İhsan Eren",
     "url": "https://drihsaneren.com/",
     "jobTitle": [
-      "Fizyoterapist",
-      "İntörn Tıp Doktoru"
+      "Physiotherapist",
+      "Intern Doctor"
     ]
   },
   "reviewedBy": {
@@ -443,40 +575,40 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://drihsaneren.com/uyku.html#sss",
-  "url": "https://drihsaneren.com/uyku.html",
-  "inLanguage": "tr",
+  "@id": "https://drihsaneren.com/en/nature-prescription.html#sss",
+  "url": "https://drihsaneren.com/en/nature-prescription.html",
+  "inLanguage": "en",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Yetişkinler kaç saat uyumalı?",
+      "name": "Do I have to go to a forest or the countryside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Amerikan Uyku Tıbbı Akademisi ile Uyku Araştırmaları Derneği'nin ortak önerisine göre 18–60 yaş arasındaki yetişkinler düzenli olarak gecede 7 saat ya da daha fazla uyumalı. Gecede 9 saatten uzun uykunun sağlık riskiyle ilişkili olup olmadığı ise belirsiz."
+        "text": "No. In the research, visits to open green and blue spaces such as city parks, groves, beaches and the countryside were all counted together. The park in your neighbourhood or the seafront works too."
       }
     },
     {
       "@type": "Question",
-      "name": "Öğleden sonra içtiğim kahve uykumu etkiler mi?",
+      "name": "Do I need to exercise?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Etkileyebilir. Bir çalışmada yatmadan 6 saat önce alınan 400 mg kafein (yaklaşık 2–3 fincan kahve), ölçülen uyku süresini bir saatten fazla kısalttı. Uyku sorununuz varsa kahve ve çayı öğleden sonranın erken saatlerinde bırakmayı deneyin."
+        "text": "No. Sitting or walking slowly in nature counts too. In the study that measured the stress hormone, participants were specifically asked not to do brisk exercise or use their phones. If you do walk, you get the benefits of movement as well."
       }
     },
     {
       "@type": "Question",
-      "name": "Kronik uykusuzlukta ilk tercih tedavi nedir?",
+      "name": "Do I have to do the 120 minutes all at once?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Amerikan Hekimler Koleji (ACP), kronik uykusuzlukta ilk tedavi olarak uykusuzluğa yönelik bilişsel davranışçı terapiyi öneriyor. Bu tedavi uyku düzenini, yatakla uyku arasındaki bağı ve uykuyla ilgili kaygıları ele alır. Uyku ilacı kullanıp kullanmamaya hekiminizle birlikte karar verin."
+        "text": "No need. In the research, it made no difference whether the weekly time was made up of one long visit or several short ones. For example, 30 minutes on 4 days works too."
       }
     },
     {
       "@type": "Question",
-      "name": "Horlamak önemli mi?",
+      "name": "I can’t leave the house. What can I do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tek başına horlama her zaman bir hastalık işareti değildir. Yüksek sesli horlamaya uykuda nefes durmaları, boğulur gibi uyanma ya da gündüz aşırı uyku hali eşlik ediyorsa uyku apnesi açısından bir hekime başvurun."
+        "text": "Even seeing greenery from a window has been linked to better recovery. Open the curtains, sit near a window if you can, and grow plants on your balcony or windowsill. If you find it hard to get out of the house, physiotherapy can help you walk with confidence again."
       }
     }
   ]
@@ -486,25 +618,25 @@
 <body>
 <header class="bar">
   <div class="wrap">
-    <a class="brand" href="index.html"><img src="logo.svg" alt="" width="36" height="30">İhsan Eren</a>
-    <nav class="links" aria-label="Bilgi köşesi">
-      <a href="index.html">Ana sayfa</a>
-      <a href="bilgi.html">Bilgi köşesi</a>
-      <a href="bilgi.html#kendine-iyi-bak" class="on">Kendine iyi bak</a>
-      <a href="yenilikler.html">Tıpta yenilikler</a>
+    <a class="brand" href="index.html"><img src="../logo.svg" alt="" width="36" height="30">İhsan Eren</a>
+    <nav class="links" aria-label="Health library">
+      <a href="index.html">Home</a>
+      <a href="health-library.html">Health library</a>
+      <a href="health-library.html#kendine-iyi-bak" class="on">Look after yourself</a>
+      <a href="medical-advances.html">Medical advances</a>
     </nav>
-    <button type="button" class="srch" data-search aria-haspopup="dialog" aria-label="Sitede ara" title="Sitede ara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></button>
-    <div class="lang" role="group" aria-label="Dil seçimi"><a href="uyku.html" lang="tr" hreflang="tr" aria-label="Türkçe" aria-current="true">TR</a><a href="en/sleep.html" lang="en" hreflang="en" aria-label="English">EN</a></div>
-    <a class="cta" href="https://wa.me/905538815568?text=Merhaba%2C%20evde%20fizyoterapi%20i%C3%A7in%20seans%20planlamak%20istiyorum." target="_blank" rel="noopener">Seans planla</a>
+    <button type="button" class="srch" data-search aria-haspopup="dialog" aria-label="Search the site" title="Search the site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></button>
+    <div class="lang" role="group" aria-label="Language"><a href="../doga-recetesi.html" lang="tr" hreflang="tr" aria-label="Türkçe">TR</a><a href="nature-prescription.html" lang="en" hreflang="en" aria-label="English" aria-current="true">EN</a></div>
+    <a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20physiotherapy%20session." target="_blank" rel="noopener">Book a session</a>
   </div>
 </header>
 <header class="page">
   <div class="wrap">
-    <a class="back" href="bilgi.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>Bilgi köşesi</a>
-    <p class="eyebrow">Kendine iyi bak</p>
-    <h1>İyi uyku için</h1>
-    <p class="lede">Uyku, iyileşmenin en az konuşulan parçası. Kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Aşağıdaki planlayıcıyla kendi yatma saatinizi de hesaplayın.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <a class="back" href="health-library.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>Health library</a>
+    <p class="eyebrow">Look after yourself</p>
+    <h1>Nature prescription: 120 minutes a week</h1>
+    <p class="lede">In a study of about 20,000 people in England, those who spent at least 2 hours a week in nature reported noticeably better health and wellbeing. It made no difference whether those 2 hours came in one go or in several shorter visits. In Istanbul, nature is closer than you think: a park, a grove, the shore or the seaside all count.</p>
+    <p class="meta">Last updated: 30 September 2026</p>
   </div>
 </header>
 
@@ -512,113 +644,108 @@
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>7+ saat</b><span>Yetişkinler için önerilen gecelik uyku süresi</span></div>
-        <div class="stat"><b>1 saatten fazla</b><span>Yatmadan 6 saat önce alınan yüksek doz kafeinin kısalttığı uyku süresi</span></div>
-        <div class="stat"><b>İki yönlü</b><span>Uyku ile ağrı arasındaki ilişki: biri bozulunca diğeri de etkilenir</span></div>
-        <div class="stat"><b>İlk tercih</b><span>Kronik uykusuzlukta ilaçtan önce önerilen bilişsel davranışçı terapi</span></div>
+        <div class="stat"><b>120 min</b><span>Weekly threshold: below this, no clear difference was seen (19,806 people)</span></div>
+        <div class="stat"><b>1.59</b><span>Odds ratio for reporting good health with 120–179 minutes a week in nature, compared with none</span></div>
+        <div class="stat"><b>200–300 min</b><span>The range where the benefit was greatest; no further benefit was seen beyond it</span></div>
+        <div class="stat"><b>20–30 min</b><span>Length of nature break at which the stress hormone cortisol fell most efficiently</span></div>
       </div>
     </div>
   </section>
 
-  <section id="planlayici">
+  <section id="takvim">
     <div class="wrap">
-      <p class="eyebrow">Hemen hesaplayın</p>
-      <h2>Yatma saati planlayıcı</h2>
-      <p class="soft">Sabah kalkmanız gereken saati ve hedeflediğiniz uyku süresini seçin. Planlayıcı, uykuya dalmak için yaklaşık 15 dakikalık bir pay bırakır.</p>
+      <p class="eyebrow">Plan your week</p>
+      <h2>Nature planner</h2>
+      <p class="soft">Enter the time you have spent, or plan to spend, in nature this week. The planner is saved on this device and resets every Monday.</p>
       <div class="tool">
-        <div class="planner">
-          <div>
-            <label class="q" for="p-wake">Kalkış saatiniz</label><br>
-            <input type="time" id="p-wake" value="07:00" step="300">
-            <p class="q">Hedeflediğiniz uyku süresi</p>
-            <div class="days" role="group" id="p-need"><button type="button" data-v="7" aria-pressed="false">7 saat</button><button type="button" data-v="7.5" aria-pressed="false">7,5 saat</button><button type="button" data-v="8" aria-pressed="true">8 saat</button><button type="button" data-v="8.5" aria-pressed="false">8,5 saat</button><button type="button" data-v="9" aria-pressed="false">9 saat</button></div>
-            <p class="hint">Yetişkinler için önerilen süre gecede 7 saat ve üstüdür.</p>
+        <div class="nt">
+          <div class="wk">
+<div class="dy"><span>Monday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Monday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+<div class="dy"><span>Tuesday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Tuesday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+<div class="dy"><span>Wednesday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Wednesday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+<div class="dy"><span>Thursday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Thursday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+<div class="dy"><span>Friday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Friday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+<div class="dy"><span>Saturday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Saturday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+<div class="dy"><span>Sunday</span><span class="bar"><i></i></span><span class="v"><output>0</output> min</span><span class="stepper" role="group" aria-label="Sunday"><button type="button" data-d="-10" aria-label="Remove 10 minutes" disabled>−</button><button type="button" data-d="10" aria-label="Add 10 minutes">+</button></span></div>
+            <div class="controls" style="margin-top:10px"><button type="button" class="cta ghost" id="nt-reset">Reset</button></div>
           </div>
-          <ul class="p-out" aria-live="polite">
-            <li class="main"><b id="p-bed">22:45</b><span>Yatağa girme saati</span></li>
-            <li><b id="p-wind">21:45</b><span>Işıkları azaltıp ekranları bırakma: yatmadan yaklaşık 1 saat önce</span></li>
-            <li><b id="p-caf">16:45</b><span>Son kahve ya da çay: yatmadan en az 6 saat önce</span></li>
-          </ul>
+          <div>
+            <div class="gauge">
+              <svg viewBox="0 0 240 240" aria-hidden="true"><circle class="bg" cx="120" cy="120" r="100"/><circle class="fg" id="nt-arc" cx="120" cy="120" r="100" stroke-dasharray="628.3" stroke-dashoffset="628.3"/><line class="t150" x1="220" y1="120" x2="232" y2="120" transform="rotate(144 120 120)"/></svg>
+              <div class="c"><b id="nt-tot">0</b><span>minutes / week</span></div>
+            </div>
+            <ul class="res-list" aria-live="polite">
+              <li id="nt-r1"><i></i><span></span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nt-strings" hidden>
+          <span data-k="low">{n} minutes to go to reach 120 minutes this week. Shorter visits count too: for example, 30 minutes on 4 days.</span>
+          <span data-k="ok">You have passed the 120-minute threshold. In the research, people who spent this much time in nature reported better health and wellbeing.</span>
+          <span data-k="peak">You are in the 200–300 minute range, where the benefit was greatest.</span>
+          <span data-k="over">You are over 300 minutes. The research found no extra benefit, but enjoy your time in nature.</span>
         </div>
       </div>
-      <p class="count">Hafta sonu dahil her gün aynı saatte kalkmak, uyku düzenini oturtmanın en etkili yollarından biridir.</p>
+      <p class="count">The thin green line on the ring marks 120 minutes; the full ring represents 300 minutes.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Nature in Istanbul</p>
+      <h2>Where to this week?</h2>
+      <p class="soft">You don’t need to go far; the park closest to your home counts too. A few suggestions:</p>
+      <div class="places">
+        <div class="place"><h3>European side</h3><ul><li>Belgrad Forest</li><li>Emirgan Grove</li><li>Yıldız Park</li><li>Maçka Park</li><li>Gülhane Park</li><li>Atatürk Urban Forest</li><li>Bebek–Rumelihisarı waterfront</li><li>Florya seafront</li></ul></div>
+        <div class="place"><h3>Asian side</h3><ul><li>Validebağ Grove</li><li>Fenerbahçe Park</li><li>Göztepe 60th Anniversary Park</li><li>Moda seafront</li><li>Büyük Çamlıca Hill</li><li>Kuzguncuk–Beylerbeyi waterfront</li><li>Polonezköy</li><li>Princes’ Islands</li></ul></div>
+      </div>
     </div>
   </section>
 
   <section>
     <div class="wrap two">
       <div>
-        <h2>Uyku ve ağrı</h2>
-        <p class="soft">Uyku ile ağrı birbirini besler: ağrı uykuyu böler, kötü uyku da ağrıya duyarlılığı artırır. Sağlıklı gönüllülerde tek bir gece uykusuz kalmanın bile ağrıya duyarlılığı artırdığı gösterildi. Bu yüzden bel, boyun ya da eklem ağrısıyla yaşayan biri için uykuyu iyileştirmek, tedavinin bir parçasıdır.</p>
+        <h2>Even seeing trees from a window</h2>
+        <p class="soft">In a famous study published in <em>Science</em> in 1984, researchers looked at the records of patients who had had gallbladder surgery. They compared 23 patients whose window looked out on trees with 23 similar patients whose window faced a brick wall.</p>
       </div>
       <ul class="dots" style="align-self:center">
-        <li>Yan yatıyorsanız dizlerinizin arasına bir yastık koymak bel ve kalçayı rahatlatabilir.</li>
-        <li>Sırtüstü yatıyorsanız dizlerinizin altına bir yastık koymak belinizi rahatlatabilir.</li>
-        <li>Başınızı omuz hizasında tutan bir yastık yüksekliği seçin; ayrıntılar <a href="boyun-agrisi.html">boyun ağrısı</a> rehberinde.</li>
-        <li>Ağrı sizi her gece uyandırıyorsa ya da dinlenmekle geçmiyorsa bir hekime başvurun.</li>
+        <li>Those who could see trees stayed in hospital for less time: 7.96 days on average versus 8.70 days.</li>
+        <li>They needed fewer strong painkillers.</li>
+        <li>Nurses’ notes contained fewer negative comments about them.</li>
+        <li>It was a small study, but it inspired hospital designers to make room for nature.</li>
       </ul>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2>İyi uyku için alışkanlıklar</h2>
-      <p class="soft">Bu alışkanlıklar tek başına kronik uykusuzluğu her zaman çözmez, ama iyi bir temel oluşturur.</p>
+      <h2>The awe walk</h2>
+      <p class="soft">52 healthy older adults took a 15-minute walk once a week for 8 weeks. In the group asked to pay attention to a feeling of “awe” as they walked (that sense of wonder in the face of something far bigger than yourself), daily distress fell and emotions such as compassion and gratitude increased. In the photos they took on their walks, they gradually gave less space to themselves and more to the scenery, and their smiles became more noticeable.</p>
       <div class="kinds">
-        <div class="kind"><span class="n">1</span><h3>Aynı saatte kalkın</h3><p>Hafta sonu da dahil her gün aynı saatte kalkın. Sabah gün ışığına çıkmak iç saatinizi ayarlar.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Yatak uyku içindir</h3><p>Yaklaşık 20 dakikada uyuyamazsanız kalkın, loş ışıkta sakin bir şeyle uğraşın; uykunuz gelince dönün.</p></div>
-        <div class="kind"><span class="n">3</span><h3>Kafeini erken bırakın</h3><p>Kahve ve çayı öğleden sonranın erken saatlerinde bırakın; kafein saatlerce etkisini sürdürür.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Gün içinde hareket edin</h3><p>Düzenli hareket, gün ışığı ve kısa tutulan öğle uykuları gece uykusunu destekler. <a href="sabah-rutini.html">Sabah rutini</a> iyi bir başlangıç olabilir.</p></div>
-      </div>
-      <p class="soft" style="margin-top:18px">Yatmadan önce zihniniz meşgulse <a href="stres.html">nefes egzersizleri</a> yardımcı olabilir.</p>
-    </div>
-  </section>
-
-  <section id="video">
-    <div class="wrap">
-      <p class="eyebrow">Video</p>
-      <h2>Uyku neden bu kadar önemli?</h2>
-      <p class="soft">Uyku bilimci Matt Walker'ın, uykunun öğrenme, bağışıklık ve kalp sağlığındaki rolünü anlattığı çok izlenen TED konuşması. Konuşma İngilizcedir; oynatıcının altyazı ayarlarından Türkçe altyazı seçebilirsiniz.</p>
-      <div class="vids">
-        <div class="vid">
-          <div class="vbox"><button type="button" data-yt="5MuIMqhT8DM" aria-label="Uyku TED konuşmasını oynat"><img class="thumb" src="https://i.ytimg.com/vi/5MuIMqhT8DM/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
-          <h3>Uyku sizin süper gücünüz</h3>
-          <p>Konuşmadaki bazı çarpıcı ifadeler bilim insanları arasında tartışılıyor; temel mesajı olan düzenli ve yeterli uykunun önemi ise geniş kabul görüyor.</p>
-        </div>
+        <div class="kind"><span class="n">1</span><h3>Put your phone in your pocket</h3><p>Taking photos is fine, but don’t walk along staring at the screen.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Notice what is vast</h3><p>The breadth of the sea, the sky, the trunk of an old plane tree: look at things bigger than you.</p></div>
+        <div class="kind"><span class="n">3</span><h3>See the small things too</h3><p>The veins of a leaf, the moss between the stones, the flight of the gulls.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Something new each time</h3><p>Choose a different route or time of day; even familiar places can surprise you with new details.</p></div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2>Sık sorulan sorular</h2>
+      <h2>Frequently asked questions</h2>
       <div class="faq">
-<details><summary>Yetişkinler kaç saat uyumalı?</summary><p>Amerikan Uyku Tıbbı Akademisi ile Uyku Araştırmaları Derneği'nin ortak önerisine göre 18–60 yaş arasındaki yetişkinler düzenli olarak gecede 7 saat ya da daha fazla uyumalı. Gecede 9 saatten uzun uykunun sağlık riskiyle ilişkili olup olmadığı ise belirsiz.</p></details>
-<details><summary>Öğleden sonra içtiğim kahve uykumu etkiler mi?</summary><p>Etkileyebilir. Bir çalışmada yatmadan 6 saat önce alınan 400 mg kafein (yaklaşık 2–3 fincan kahve), ölçülen uyku süresini bir saatten fazla kısalttı. Uyku sorununuz varsa kahve ve çayı öğleden sonranın erken saatlerinde bırakmayı deneyin.</p></details>
-<details><summary>Kronik uykusuzlukta ilk tercih tedavi nedir?</summary><p>Amerikan Hekimler Koleji (ACP), kronik uykusuzlukta ilk tedavi olarak uykusuzluğa yönelik bilişsel davranışçı terapiyi öneriyor. Bu tedavi uyku düzenini, yatakla uyku arasındaki bağı ve uykuyla ilgili kaygıları ele alır. Uyku ilacı kullanıp kullanmamaya hekiminizle birlikte karar verin.</p></details>
-<details><summary>Horlamak önemli mi?</summary><p>Tek başına horlama her zaman bir hastalık işareti değildir. Yüksek sesli horlamaya uykuda nefes durmaları, boğulur gibi uyanma ya da gündüz aşırı uyku hali eşlik ediyorsa uyku apnesi açısından bir hekime başvurun.</p></details>
+<details><summary>Do I have to go to a forest or the countryside?</summary><p>No. In the research, visits to open green and blue spaces such as city parks, groves, beaches and the countryside were all counted together. The park in your neighbourhood or the seafront works too.</p></details>
+<details><summary>Do I need to exercise?</summary><p>No. Sitting or walking slowly in nature counts too. In the study that measured the stress hormone, participants were specifically asked not to do brisk exercise or use their phones. If you do walk, you get the benefits of movement as well.</p></details>
+<details><summary>Do I have to do the 120 minutes all at once?</summary><p>No need. In the research, it made no difference whether the weekly time was made up of one long visit or several short ones. For example, 30 minutes on 4 days works too.</p></details>
+<details><summary>I can’t leave the house. What can I do?</summary><p>Even seeing greenery from a window has been linked to better recovery. Open the curtains, sit near a window if you can, and grow plants on your balcony or windowsill. If you find it hard to get out of the house, physiotherapy can help you walk with confidence again.</p></details>
       </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <h2>Ne zaman bir hekime başvurmalı?</h2>
-      <p class="soft">Ara sıra kötü uyumak normaldir. Şu durumlarda ise bir hekime başvurun:</p>
-      <ul class="dots redflags">
-        <li>Haftalardır çoğu gece uykuya dalmakta ya da uykuyu sürdürmekte zorlanıyor, gündüz bunun etkisini hissediyorsanız</li>
-        <li>Yüksek sesli horlamaya uykuda nefes durmaları ya da boğulur gibi uyanma eşlik ediyorsa</li>
-        <li>Gündüz aşırı uyku hali varsa, özellikle araç kullanırken uyuklama oluyorsa</li>
-        <li>Akşamları bacaklarda hareket ettirme isteğiyle birlikte rahatsız edici bir his uykuya dalmayı engelliyorsa</li>
-        <li>Uykusuzluğa belirgin bir çökkünlük ya da kaygı eşlik ediyorsa</li>
-      </ul>
-      <aside class="ctacard" aria-label="Hızlı iletişim">
+      <aside class="ctacard" aria-label="Quick contact">
         <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/><path transform="translate(7.9 6.8) scale(.4)" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" fill="currentColor" stroke-width="2.5"/></svg></span>
         <div>
-          <p class="k">Hızlı iletişim</p>
-          <h3>Evde değerlendirme ister misiniz?</h3>
-          <p>Ağrı nedeniyle bozulan uykunuz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz.</p>
-          <div class="acts"><a class="cta" href="https://wa.me/905538815568?text=Merhaba%2C%20a%C4%9Fr%C4%B1%20nedeniyle%20bozulan%20uyku%20i%C3%A7in%20evde%20de%C4%9Ferlendirme%20ve%20seans%20planlamak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan yazın <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a><a class="cta ghost" href="tel:+905538815568">0553 881 55 68</a></div>
+          <p class="k">Quick contact</p>
+          <h3>Would you like an assessment at home?</h3>
+          <p>If you would like to book a comprehensive functional assessment at home and a personalised rehabilitation session to walk and get out and about with confidence again, you can get in touch on WhatsApp.</p>
+          <div class="acts"><a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20assessment%20and%20session%20for%20walking%20and%20balance%20training." target="_blank" rel="noopener">Message on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a><a class="cta ghost" href="tel:+905538815568">0553 881 55 68</a></div>
         </div>
       </aside>
     </div>
@@ -626,38 +753,37 @@
 
   <section>
     <div class="wrap col sources">
-      <p class="eyebrow">Kaynaklar</p>
+      <p class="eyebrow">Sources</p>
       <ol>
-        <li>Watson NF, Badr MS, Belenky G, et al. <a href="https://jcsm.aasm.org/doi/10.5664/jcsm.4758" target="_blank" rel="noopener">Recommended amount of sleep for a healthy adult: a joint consensus statement of the American Academy of Sleep Medicine and Sleep Research Society</a>. J Clin Sleep Med. 2015;11(6):591-592.</li>
-        <li>Drake C, Roehrs T, Shambroom J, Roth T. <a href="https://jcsm.aasm.org/doi/10.5664/jcsm.3170" target="_blank" rel="noopener">Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed</a>. J Clin Sleep Med. 2013;9(11):1195-1200.</li>
-        <li>Qaseem A, Kansagara D, Forciea MA, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/27136449/" target="_blank" rel="noopener">Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians</a>. Ann Intern Med. 2016;165(2):125-133.</li>
-        <li>Krause AJ, Prather AA, Wager TD, Lindquist MA, Walker MP. <a href="https://www.jneurosci.org/content/39/12/2291" target="_blank" rel="noopener">The pain of sleep loss: a brain characterization in humans</a>. J Neurosci. 2019;39(12):2291-2300.</li>
-        <li>Staffe AT, Bech MW, Clemmensen SLK, et al. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6892491/" target="_blank" rel="noopener">Total sleep deprivation increases pain sensitivity, impairs conditioned pain modulation and facilitates temporal summation of pain in healthy participants</a>. PLoS One. 2019.</li>
+        <li>White MP, Alcock I, Grellier J, et al. <a href="https://www.nature.com/articles/s41598-019-44097-3" target="_blank" rel="noopener">Spending at least 120 minutes a week in nature is associated with good health and wellbeing</a>. Sci Rep. 2019;9:7730.</li>
+        <li>Hunter MR, Gillespie BW, Chen SY. <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00722/full" target="_blank" rel="noopener">Urban nature experiences reduce stress in the context of daily life based on salivary biomarkers</a>. Front Psychol. 2019;10:722.</li>
+        <li>Ulrich RS. <a href="https://www.science.org/doi/10.1126/science.6143402" target="_blank" rel="noopener">View through a window may influence recovery from surgery</a>. Science. 1984;224(4647):420-421.</li>
+        <li>Sturm VE, Datta S, Roy ARK, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/32955293/" target="_blank" rel="noopener">Big smile, small self: awe walks promote prosocial positive emotions in older adults</a>. Emotion. 2022;22(5):1044-1058.</li>
       </ol>
     </div>
   </section>
 </main>
 <section>
     <div class="wrap">
-      <p class="eyebrow" style="margin-bottom:14px">Bilgi köşesinden</p>
+      <p class="eyebrow" style="margin-bottom:14px">More from the health library</p>
       <div class="more">
-<a href="stres.html"><span class="k">Kendine iyi bak</span><span class="t">Stresli anlarda ne yapabilirsiniz?</span></a>
-<a href="sabah-rutini.html"><span class="k">Kendine iyi bak</span><span class="t">Güne 5 dakikayla başlayın</span></a>
-<a href="bilgi.html"><span class="k">Bilgi köşesi</span><span class="t">Tüm konular</span></a>
-<a href="index.html"><span class="k">Ana sayfa</span><span class="t">Evde fizyoterapi hizmeti</span></a>
+<a href="social-connection.html"><span class="k">Look after yourself</span><span class="t">Social connection and health</span></a>
+<a href="stress.html"><span class="k">Look after yourself</span><span class="t">What can you do in stressful moments?</span></a>
+<a href="health-library.html"><span class="k">Health library</span><span class="t">All topics</span></a>
+<a href="index.html"><span class="k">Home</span><span class="t">Home physiotherapy service</span></a>
       </div>
     </div>
   </section>
 <footer>
   <div class="wrap">
     <p>© 2026 İhsan Eren · drihsaneren.com</p>
-    <p>Bu sayfa bilgilendirme amaçlıdır; muayene ve tedavinin yerini tutmaz.</p>
+    <p>This page is for information only; it does not replace an examination or treatment.</p>
   </div>
 </footer>
-<a class="fab-d" href="https://wa.me/905538815568?text=Merhaba%2C%20evde%20fizyoterapi%20i%C3%A7in%20seans%20planlamak%20istiyorum." target="_blank" rel="noopener" aria-label="WhatsApp'tan seans planla (yeni sekmede açılır)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg><span class="lbl">WhatsApp'tan seans planla</span></a>
+<a class="fab-d" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20physiotherapy%20session." target="_blank" rel="noopener" aria-label="Book a session on WhatsApp (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg><span class="lbl">Book a session on WhatsApp</span></a>
 <div class="fab" id="fab" aria-hidden="true">
-  <a class="call" href="tel:+905538815568" aria-label="Telefonla ara" tabindex="-1"><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>
-  <a class="wa" href="https://wa.me/905538815568?text=Merhaba%2C%20evde%20fizyoterapi%20i%C3%A7in%20seans%20planlamak%20istiyorum." target="_blank" rel="noopener" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>WhatsApp'tan seans planla</a>
+  <a class="call" href="tel:+905538815568" aria-label="Call" tabindex="-1"><svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>
+  <a class="wa" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20physiotherapy%20session." target="_blank" rel="noopener" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>Book a session on WhatsApp</a>
 </div>
 <script>
 (function(){
@@ -676,37 +802,43 @@
 </script>
 <script>
 (function(){
-  var root = document.getElementById('planlayici'); if (!root) return;
+  var root = document.getElementById('takvim'); if (!root) return;
+  var S = {}; root.querySelectorAll('.nt-strings [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
   var $ = function(id){ return document.getElementById(id); };
-  var wake = $('p-wake'), need = 8;
-  function fmt(m){ m = ((m % 1440) + 1440) % 1440; var h = Math.floor(m / 60), n = Math.round(m % 60); return (h < 10 ? '0' : '') + h + ':' + (n < 10 ? '0' : '') + n; }
-  function upd(){
-    var p = (wake.value || '07:00').split(':'), w = (+p[0]) * 60 + (+p[1]);
-    var bed = w - need * 60 - 15;
-    $('p-bed').textContent = fmt(bed); $('p-wind').textContent = fmt(bed - 60); $('p-caf').textContent = fmt(bed - 360);
-  }
-  $('p-need').addEventListener('click', function(e){
-    var b = e.target.closest('button'); if (!b) return;
-    this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
-    need = +b.getAttribute('data-v'); upd();
+  var rows = root.querySelectorAll('.dy'), arc = $('nt-arc'), C = 628.3, KEY = 'drihsaneren-doga', v = [0, 0, 0, 0, 0, 0, 0];
+  function week(){ var d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
+  try {
+    var s = JSON.parse(localStorage.getItem(KEY) || 'null');
+    if (s && s.w === week() && s.v && s.v.length === 7) v = s.v.map(function(x){ return Math.max(0, Math.min(300, +x || 0)); });
+  } catch (e) {}
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify({ w: week(), v: v })); } catch (e) {} }
+  rows.forEach(function(r, i){
+    r.addEventListener('click', function(e){
+      var b = e.target.closest('button'); if (!b || b.disabled) return;
+      v[i] = Math.max(0, Math.min(300, v[i] + (+b.getAttribute('data-d')))); save(); upd();
+    });
   });
-  wake.addEventListener('input', upd); wake.addEventListener('change', upd);
+  function upd(){
+    var tot = 0;
+    rows.forEach(function(r, i){
+      tot += v[i];
+      r.querySelector('output').textContent = v[i];
+      r.querySelector('.bar i').style.width = Math.min(100, v[i] / 90 * 100).toFixed(1) + '%';
+      r.querySelector('[data-d="-10"]').disabled = v[i] <= 0;
+      r.querySelector('[data-d="10"]').disabled = v[i] >= 300;
+    });
+    $('nt-tot').textContent = tot;
+    arc.style.strokeDashoffset = (C * (1 - Math.min(tot, 300) / 300)).toFixed(1);
+    var li = $('nt-r1'), t;
+    if (tot < 120){ li.className = 'low'; t = S.low.replace('{n}', 120 - tot); }
+    else { li.className = 'ok'; t = tot > 300 ? S.over : (tot >= 200 ? S.peak : S.ok); }
+    li.querySelector('span').textContent = t;
+  }
+  $('nt-reset').addEventListener('click', function(){ v = [0, 0, 0, 0, 0, 0, 0]; save(); upd(); });
   upd();
 })();
 </script>
-<script>
-document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
-  b.addEventListener('click', function(){
-    var f = document.createElement('iframe');
-    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
-    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
-    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
-    b.replaceWith(f);
-  });
-});
-</script>
-<script src="ara.js" defer></script>
+
+<script src="../ara.js" defer></script>
 </body>
 </html>

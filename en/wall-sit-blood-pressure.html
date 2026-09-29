@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Start Your Day with 5 Minutes: Morning Movement Routine | İhsan Eren</title>
-<meta name="description" content="A nine-exercise morning routine of about 5 minutes, from bed to standing. Follow the on-screen timer to ease morning stiffness and start your day moving.">
+<title>Wall Sits for Blood Pressure: Isometric Exercise Timer | İhsan Eren</title>
+<meta name="description" content="An analysis of 270 studies found isometric exercise lowered blood pressure the most. How to do a wall sit, who should be careful, and a timer to follow along.">
 <link rel="icon" type="image/png" href="../logo.png">
-<link rel="canonical" href="https://drihsaneren.com/en/morning-routine.html">
+<link rel="canonical" href="https://drihsaneren.com/en/wall-sit-blood-pressure.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Start Your Day with 5 Minutes: Morning Movement Routine | İhsan Eren">
-<meta property="og:description" content="A nine-exercise morning routine of about 5 minutes, from bed to standing. Follow the on-screen timer to ease morning stiffness and start your day moving.">
+<meta property="og:title" content="Wall Sits for Blood Pressure: Isometric Exercise Timer | İhsan Eren">
+<meta property="og:description" content="An analysis of 270 studies found isometric exercise lowered blood pressure the most. How to do a wall sit, who should be careful, and a timer to follow along.">
 <meta property="og:image" content="https://drihsaneren.com/logo.png">
 <meta property="og:locale" content="en_GB">
 <meta property="og:locale:alternate" content="tr_TR">
-<meta property="og:url" content="https://drihsaneren.com/en/morning-routine.html">
-<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sabah-rutini.html">
-<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/morning-routine.html">
-<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sabah-rutini.html">
+<meta property="og:url" content="https://drihsaneren.com/en/wall-sit-blood-pressure.html">
+<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/duvar-oturusu.html">
+<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/wall-sit-blood-pressure.html">
+<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/duvar-oturusu.html">
 
 <meta name="theme-color" content="#1c2819">
 <style>
@@ -404,20 +404,163 @@
   .p-out li.main{border-color:var(--line-strong)}
   .p-out li.main b{font-size:38px;color:var(--ink)}
 
+  .seg{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+  .seg button{all:unset;cursor:pointer;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft)}
+  .seg button:hover{border-color:var(--foil);color:var(--ink)}
+  .seg button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
+  .seg button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .stepper{display:inline-flex;align-items:center;border:1px solid var(--line-strong);border-radius:999px;overflow:hidden;flex:none}
+  .stepper button{all:unset;cursor:pointer;width:38px;height:36px;display:grid;place-items:center;color:var(--ink);font-size:20px;line-height:1}
+  .stepper button:hover{background:rgba(216,178,94,.16)}
+  .stepper button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+  .stepper button:disabled{opacity:.3;cursor:default;background:none}
+  .stepper b{min-width:28px;text-align:center;font-variant-numeric:tabular-nums;color:var(--foil);font-weight:600}
+  .howto{display:grid;grid-template-columns:260px minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:760px){.howto{grid-template-columns:1fr}}
+  .howto .an{border-radius:14px}
+  .howto .an svg{max-width:220px}
+  ol.steps{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:12px;max-width:65ch}
+  ol.steps li{counter-increment:s;display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;align-items:start;color:var(--ink-soft)}
+  ol.steps li::before{content:counter(s);width:30px;height:30px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;font-family:var(--display);color:var(--foil);font-size:16px}
+  ol.steps strong{color:var(--ink)}
+  .cmp{display:grid;gap:12px;max-width:780px;margin-top:10px}
+  .cmp .row{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr) 70px;gap:14px;align-items:center;border-radius:10px;padding:4px 6px;margin:0 -6px}
+  .cmp .row > span{font-size:15px;color:var(--ink-soft)}
+  .cmp .bar{height:14px;border-radius:7px;background:rgba(236,229,207,.10);overflow:hidden}
+  .cmp .bar i{display:block;height:100%;border-radius:7px;background:var(--sage);transition:width .45s ease}
+  .cmp .row.top .bar i{background:var(--foil)}
+  .cmp .row.top > span{color:var(--ink);font-weight:600}
+  .cmp b{font-variant-numeric:tabular-nums;color:var(--ink);text-align:right;font-weight:600}
+  .cmp .row.me{background:rgba(216,178,94,.12);outline:1px solid var(--line-strong)}
+  .cmp .row .you{display:none;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ground);background:var(--foil);font-weight:700;margin-left:10px;padding:2px 7px;border-radius:999px;vertical-align:2px}
+  .cmp .row.me .you{display:inline}
+  @media (max-width:560px){.cmp .row{grid-template-columns:minmax(0,1fr) 62px;gap:6px 10px}.cmp .row .bar{grid-column:1 / -1;grid-row:2}}
+  .res{margin-top:16px;border-top:1px solid var(--line);padding-top:14px}
+  .res .lab{font-family:var(--display);font-size:clamp(22px,3vw,26px);color:var(--foil);margin:0 0 6px}
+  .res p{margin:0;color:var(--ink-soft)}
+  .split{display:flex;justify-content:center;gap:18px;margin-top:10px;font-size:14px;color:var(--muted)}
+  .split b{color:var(--ink);font-variant-numeric:tabular-nums}
+
+  /* yere oturup kalkma puanlayıcı */
+  .srt{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(20px,4vw,44px);align-items:start}
+  @media (max-width:860px){.srt{grid-template-columns:1fr}}
+  .srt-col h3{font-size:21px;margin:0 0 2px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+  .srt-col h3 output{font-family:var(--display);font-weight:400;color:var(--foil);font-size:26px;font-variant-numeric:tabular-nums}
+  .srt-col + .srt-col{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+  .sup{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:7px 0}
+  .sup > span{font-size:15px;color:var(--ink-soft)}
+  .srt-col .chk{margin-top:8px;font-size:15px}
+  .srt-out{position:sticky;top:84px}
+  .srt-ctl{margin-top:16px;align-items:center;justify-content:space-between}
+  .srt-mini{display:none;margin:0;font-size:16px;color:var(--ink-soft)}
+  .srt-mini b{font-family:var(--display);font-weight:400;font-size:26px;color:var(--foil);font-variant-numeric:tabular-nums}
+  @media (max-width:860px){.srt-mini{display:block}}
+  @media (max-width:860px){.srt-out{position:static}}
+  .gauge .c small{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+
+  /* duvar oturuşu zamanlayıcı */
+  .ws{display:grid;grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:760px){.ws{grid-template-columns:1fr}}
+  .ws-stage{border-radius:14px;overflow:hidden;background:var(--paper);display:grid;place-items:center;min-height:230px}
+  .ws-stage .an svg{max-width:230px}
+  @media (max-width:760px){.ws-stage .an svg{max-width:170px}}
+  .ws-mid{display:flex;align-items:center;gap:20px;margin:6px 0 12px}
+  .ws-ring{position:relative;width:132px;height:132px;flex:none}
+  .ws-ring svg{width:132px;height:132px;transform:rotate(-90deg)}
+  .ws-ring circle{fill:none;stroke-width:8}
+  .ws-ring .bg{stroke:rgba(236,229,207,.12)}
+  .ws-ring .fg{stroke:var(--foil);stroke-linecap:round;transition:stroke-dashoffset .12s linear}
+  .ws-ring.rest .fg{stroke:var(--sage)}
+  .ws-ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:400;font-size:34px;color:var(--ink);font-variant-numeric:tabular-nums}
+  .ws-info{flex:1;min-width:0}
+  .ws-phase{font-family:var(--display);font-size:clamp(24px,3.2vw,30px);color:var(--ink);margin:0 0 4px;line-height:1.15}
+  .ws-cue{margin:0;color:var(--ink-soft);font-size:15px}
+  .ws-rpe{margin:8px 0 0;font-size:14px;color:var(--foil);font-weight:600;min-height:1.4em}
+  .rounds{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:4px 0 14px}
+  .rounds i{height:6px;border-radius:3px;background:rgba(236,229,207,.12)}
+  .rounds i.done{background:var(--sage)}
+  .rounds i.cur{background:var(--foil)}
+  @media (max-width:420px){.ws-mid{gap:14px;align-items:flex-start}.ws-ring,.ws-ring svg{width:100px;height:100px}.ws-ring b{font-size:27px}}
+
+  /* iç çekiş */
+  .br{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(18px,4vw,44px);align-items:center}
+  @media (max-width:760px){.br{grid-template-columns:1fr}}
+  .br-stage{position:relative;width:min(290px,78vw);aspect-ratio:1;margin:0 auto}
+  .br-stage svg.prog{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+  .br-stage svg.prog circle{fill:none;stroke-width:4}
+  .br-stage svg.prog .bg{stroke:rgba(236,229,207,.10)}
+  .br-stage svg.prog .fg{stroke:var(--foil);stroke-linecap:round}
+  .br-core{position:absolute;inset:12%;border-radius:50%;background:radial-gradient(circle at 38% 35%, rgba(236,229,207,.28), rgba(143,164,118,.55) 45%, rgba(143,164,118,.18) 75%);border:1px solid rgba(143,164,118,.6);transform:scale(.6);will-change:transform;box-shadow:0 0 60px rgba(143,164,118,.25)}
+  .br-center{position:absolute;inset:0;display:grid;place-content:center;text-align:center;pointer-events:none}
+  .br-center b{font-family:var(--display);font-weight:400;font-size:clamp(30px,5vw,40px);color:var(--ink);font-variant-numeric:tabular-nums;line-height:1}
+  .br-center span{font-size:13px;color:var(--ink-soft);margin-top:6px}
+  .br-cue{font-family:var(--display);font-size:clamp(24px,3.4vw,32px);color:var(--ink);margin:0 0 4px;min-height:1.3em;line-height:1.2}
+  .br-sub{color:var(--ink-soft);margin:0 0 14px;min-height:1.5em}
+  .rhythm{display:flex;gap:6px;margin:4px 0 16px;max-width:360px}
+  .rhythm i{position:relative;height:10px;border-radius:5px;background:rgba(236,229,207,.12);overflow:hidden}
+  .rhythm i::after{content:"";position:absolute;inset:0;background:var(--foil);transform-origin:left;transform:scaleX(var(--p,0))}
+  .rhythm i.out::after{background:var(--sage)}
+  .rhythm-lab{display:flex;gap:6px;max-width:360px;font-size:12px;color:var(--muted);margin-top:-10px;margin-bottom:14px}
+  .rhythm-lab span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  /* doğa takvimi */
+  .nt{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:860px){.nt{grid-template-columns:1fr}}
+  .wk{display:grid;gap:6px}
+  .dy{display:grid;grid-template-columns:96px minmax(0,1fr) 62px auto;gap:12px;align-items:center;padding:4px 0}
+  .dy > span{font-size:15px;color:var(--ink-soft)}
+  .dy .bar{height:10px;border-radius:5px;background:rgba(236,229,207,.10);overflow:hidden}
+  .dy .bar i{display:block;height:100%;width:0;border-radius:5px;background:var(--sage);transition:width .3s ease}
+  .dy .v{font-variant-numeric:tabular-nums;color:var(--ink);font-size:15px;text-align:right;white-space:nowrap}
+  .dy .v output{font-weight:600}
+  @media (max-width:480px){.dy{grid-template-columns:78px minmax(0,1fr) auto;gap:8px 10px}.dy .bar{grid-column:1 / -1;grid-row:2}.dy .v{text-align:left}}
+  .places{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:8px}
+  @media (max-width:700px){.places{grid-template-columns:1fr}}
+  .place{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
+  .place h3{font-size:19px;margin:0 0 10px}
+  .place ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+  .place li{font-size:14px;color:var(--ink-soft);border:1px solid var(--line-strong);border-radius:999px;padding:6px 12px}
+
+  /* bağ önerisi */
+  .gv{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:820px){.gv{grid-template-columns:1fr}}
+  .task{border:1px solid var(--line-strong);border-radius:14px;padding:clamp(18px,3vw,26px);background:var(--ground);min-height:210px;display:grid;align-content:start;gap:10px}
+  .task .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--foil);font-weight:700}
+  .task p{font-family:var(--display);font-size:clamp(22px,3vw,27px);line-height:1.3;color:var(--ink);margin:0}
+  .task small{font-size:14px;color:var(--ink-soft);line-height:1.5}
+  .task small strong{color:var(--ink)}
+  .task.pop{animation:pop .35s ease}
+  @keyframes pop{from{opacity:.2;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .wkdots{display:flex;gap:8px;margin:10px 0 6px}
+  .wkdots i{width:16px;height:16px;border-radius:50%;border:1px solid var(--line-strong)}
+  .wkdots i.on{background:var(--sage);border-color:var(--sage)}
+  .gv-count{font-family:var(--display);font-size:clamp(40px,6vw,54px);color:var(--ink);line-height:1;font-variant-numeric:tabular-nums}
+  .def{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:8px}
+  @media (max-width:700px){.def{grid-template-columns:1fr}}
+  .def div{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
+  .def h3{font-size:19px;margin:0 0 6px}
+  .def p{margin:0;color:var(--ink-soft);font-size:15px}
+
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
-  "@id": "https://drihsaneren.com/en/morning-routine.html#sayfa",
-  "name": "Start Your Day with 5 Minutes: Morning Movement Routine | İhsan Eren",
-  "description": "A nine-exercise morning routine of about 5 minutes, from bed to standing. Follow the on-screen timer to ease morning stiffness and start your day moving.",
-  "url": "https://drihsaneren.com/en/morning-routine.html",
+  "@id": "https://drihsaneren.com/en/wall-sit-blood-pressure.html#sayfa",
+  "name": "Wall Sits for Blood Pressure: Isometric Exercise Timer | İhsan Eren",
+  "description": "An analysis of 270 studies found isometric exercise lowered blood pressure the most. How to do a wall sit, who should be careful, and a timer to follow along.",
+  "url": "https://drihsaneren.com/en/wall-sit-blood-pressure.html",
   "inLanguage": "en",
-  "about": {
-    "@type": "Thing",
-    "name": "Morning movement routine"
-  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Isometric exercise"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "High blood pressure (hypertension)"
+    }
+  ],
   "lastReviewed": "2026-09-28",
   "author": {
     "@type": "Person",
@@ -438,32 +581,40 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://drihsaneren.com/en/morning-routine.html#sss",
-  "url": "https://drihsaneren.com/en/morning-routine.html",
+  "@id": "https://drihsaneren.com/en/wall-sit-blood-pressure.html#sss",
+  "url": "https://drihsaneren.com/en/wall-sit-blood-pressure.html",
   "inLanguage": "en",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Should I exercise in the morning or in the evening?",
+      "name": "How can an exercise without movement lower blood pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There is no single best time for everyone. The best time is the one you can stick to regularly. A short morning routine makes it easier to start your day moving; if you prefer to exercise in the evening, that works too."
+        "text": "The mechanism is not fully understood. In a study done at home, the fall in blood pressure was mostly linked to a drop in resting heart rate and in the amount of blood the heart pumps each minute. Researchers are also looking at how blood vessels that are squeezed during the contraction and then widen when you release it may affect vascular health."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I do it every day?",
+      "name": "I take blood pressure medication. Can I do it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The exercises in this routine are gentle and controlled, so you can do them every day. Do them within a range that feels comfortable. If an exercise clearly makes your pain worse, skip it."
+        "text": "Most people can, but talk to your doctor first and do not stop or reduce your medication on your own. Exercise is added alongside treatment, not instead of it. Measure your blood pressure regularly at home and share the results with your doctor."
       }
     },
     {
       "@type": "Question",
-      "name": "I wake up very stiff in the morning. Is this normal?",
+      "name": "Should I stop walking and just do wall sits?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Brief stiffness after waking up is common, especially with osteoarthritis, and it eases as you move. If the stiffness lasts longer than half an hour, if your joints are swollen and red, or if pain wakes you at night, see a doctor to check for an inflammatory rheumatic disease."
+        "text": "No. In the analysis, all types of exercise lowered blood pressure. Aerobic exercise such as walking also matters for your heart, weight, blood sugar and mental health. Wall sits are a short, effective addition to your weekly activity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon will I see an effect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In small studies done at home, average falls of between 4 and 9 mmHg in systolic blood pressure were measured at the end of a 4-week programme. To keep the effect, you need to keep exercising."
       }
     }
   ]
@@ -481,7 +632,7 @@
       <a href="medical-advances.html">Medical advances</a>
     </nav>
     <button type="button" class="srch" data-search aria-haspopup="dialog" aria-label="Search the site" title="Search the site"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></button>
-    <div class="lang" role="group" aria-label="Language"><a href="../sabah-rutini.html" lang="tr" hreflang="tr" aria-label="Türkçe">TR</a><a href="morning-routine.html" lang="en" hreflang="en" aria-label="English" aria-current="true">EN</a></div>
+    <div class="lang" role="group" aria-label="Language"><a href="../duvar-oturusu.html" lang="tr" hreflang="tr" aria-label="Türkçe">TR</a><a href="wall-sit-blood-pressure.html" lang="en" hreflang="en" aria-label="English" aria-current="true">EN</a></div>
     <a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20physiotherapy%20session." target="_blank" rel="noopener">Book a session</a>
   </div>
 </header>
@@ -489,125 +640,125 @@
   <div class="wrap">
     <a class="back" href="health-library.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>Health library</a>
     <p class="eyebrow">Look after yourself</p>
-    <h1>Start your day with 5 minutes</h1>
-    <p class="lede">Nine exercises that start in bed and finish on your feet. Each one lasts 30 seconds, and the on-screen timer takes you from one to the next. A short, simple routine to ease morning stiffness and start your day moving.</p>
-    <p class="meta">Last updated: 29 September 2026</p>
+    <h1>Wall sits for blood pressure</h1>
+    <p class="lede">In a large analysis pooling 270 studies, the type of exercise that lowered blood pressure the most was not running or cycling, but “isometric” exercise, such as leaning against a wall and holding still. 3 days a week, about 14 minutes per session. You can follow along with the timer below.</p>
+    <p class="meta">Last updated: 30 September 2026</p>
   </div>
 </header>
 
 <main>
-  <section id="rutin">
+  <section>
     <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>8.2 / 4.0</b><span>Average reduction in systolic and diastolic blood pressure with isometric exercise (mmHg)</span></div>
+        <div class="stat"><b>4 × 2 min</b><span>One session: 2 minutes of wall sitting, 2 minutes of rest, 4 rounds</span></div>
+        <div class="stat"><b>3 times a week</b><span>Number of sessions used in the studies, with a rest day in between</span></div>
+        <div class="stat"><b>10%</b><span>Reduction in the risk of serious cardiovascular events for every 5 mmHg fall in systolic blood pressure in drug trials</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="karsilastirma">
+    <div class="wrap">
+      <p class="eyebrow">What did the research find?</p>
+      <h2>Average reduction in blood pressure by type of exercise</h2>
+      <p class="soft">270 randomised trials published between 1990 and 2023, with 15,827 participants. Average reduction in resting blood pressure compared with people who did not exercise (mmHg):</p>
+      <div class="seg" role="group" aria-label="Blood pressure type">
+        <button type="button" data-v="s" aria-pressed="true">Systolic</button>
+        <button type="button" data-v="d" aria-pressed="false">Diastolic</button>
+      </div>
+      <div class="cmp" id="bp-cmp">
+<div class="row" data-s="4.49" data-d="2.53"><span>Aerobic (walking, running, cycling)</span><span class="bar"><i style="width:49.9%"></i></span><b>4.49</b></div>
+<div class="row" data-s="4.55" data-d="3.04"><span>Resistance (weights, resistance bands)</span><span class="bar"><i style="width:50.6%"></i></span><b>4.55</b></div>
+<div class="row" data-s="6.04" data-d="2.54"><span>Aerobic and resistance combined</span><span class="bar"><i style="width:67.1%"></i></span><b>6.04</b></div>
+<div class="row" data-s="4.08" data-d="2.5"><span>High-intensity interval training (HIIT)</span><span class="bar"><i style="width:45.3%"></i></span><b>4.08</b></div>
+<div class="row top" data-s="8.24" data-d="4.0"><span>Isometric (such as wall sits)</span><span class="bar"><i style="width:91.6%"></i></span><b>8.24</b></div>
+      </div>
+      <p class="soft" style="margin-top:16px">Of the individual exercises, the wall sit was the most effective for systolic blood pressure, and running for diastolic blood pressure. All types of exercise lowered blood pressure significantly; in other words, the best exercise is the one you can do regularly.</p>
+    </div>
+  </section>
+
+  <section id="zamanlayici">
+    <div class="wrap">
+      <p class="eyebrow">Let’s do it together</p>
+      <h2>Wall sit timer</h2>
+      <p class="soft">The programme used in the studies: 2 minutes of wall sitting, 2 minutes of rest, 4 rounds, 3 days a week. For the first few days, you can start with 1-minute rounds to get used to it.</p>
       <div class="tool">
-        <div class="mr">
-          <div class="mr-stage" aria-hidden="true">
-<div class="mr-fig on" data-i="0"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M34 105 H60 M60 105 H104"/><g><animateTransform attributeName="transform" type="rotate" values="0 34 105;22 34 105;0 34 105" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig" d="M22 105 H34"/><circle class="hd" cx="14" cy="100" r="7"/></g><path class="fig hl" d="M60 105 L74 86 L88 106"><animate attributeName="d" values="M60 105 L74 86 L88 106;M60 105 L52 76 L68 70;M60 105 L74 86 L88 106" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><path class="fig" d="M26 104 L44 96 L72 88"><animate attributeName="d" values="M26 104 L44 96 L72 88;M27 101 L40 86 L52 78;M26 104 L44 96 L72 88" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Knee to chest</figcaption></figure></div>
-<div class="mr-fig" data-i="1"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><circle class="hd" cx="12" cy="100" r="7"/><path class="fig" d="M22 107 H44"/><path class="fig hl" d="M20 104 L58 104 L76 84 L86 108"><animate attributeName="d" values="M20 104 L58 104 L76 84 L86 108;M20 104 L58 86 L78 82 L86 108;M20 104 L58 104 L76 84 L86 108" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Bridge</figcaption></figure></div>
-<div class="mr-fig" data-i="2"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M32 76 V108 M82 76 V108 H106"/><path class="fig hl" d="M32 76 Q57 62 82 76"><animate attributeName="d" values="M32 76 Q57 62 82 76;M32 76 Q57 90 82 76;M32 76 Q57 62 82 76" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 6;0 -6;0 6" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig" d="M32 76 L25 74"/><circle class="hd" cx="20" cy="74" r="7"/></g></svg><figcaption>Cat–camel</figcaption></figure></div>
-<div class="mr-fig" data-i="3"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M30 78 H62 M32 78 V112 M60 78 V112 M30 78 V48"/><path class="fig hl" d="M50 44 L46 76 L74 76 L76 108"><animate attributeName="d" values="M50 44 L46 76 L74 76 L76 108;M72 34 L73 66 L76 88 L76 108;M50 44 L46 76 L74 76 L76 108" dur="3.6s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><path class="fig" d="M50 50 L60 56"><animate attributeName="d" values="M50 50 L60 56;M72 40 L82 46;M50 50 L60 56" dur="3.6s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 0;21 -10;0 0" dur="3.6s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><circle class="hd" cx="52" cy="34" r="7"/></g></svg><figcaption>Sit-to-stand from a chair</figcaption></figure></div>
-<div class="mr-fig" data-i="4"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M58 72 L54 112 M58 72 L62 112"/><g><animateTransform attributeName="transform" type="rotate" values="0 58 72;-22 58 72;0 58 72" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig hl" d="M58 72 L58 34"/><circle class="hd" cx="59" cy="24" r="7"/><path d="M65 22 L70 25 L65 27 Z" fill="#2A6F6B"/><path class="fig" d="M58 40 L48 54 L56 66"/></g></svg><figcaption>Standing back extension</figcaption></figure></div>
-<div class="mr-fig" data-i="5"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M40 40 H80 M60 32 V80 M60 80 L52 112 M60 80 L68 112 M40 40 L36 62 L38 78 M80 40 L84 62 L82 78"/><circle class="hd" cx="60" cy="22" r="8"/><g><animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path d="M42 45 L55 45 L50 64 Z" fill="#C8963E" stroke="#C8963E" stroke-width="2" stroke-linejoin="round"/></g><g><animateTransform attributeName="transform" type="translate" values="0 0;-3 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path d="M78 45 L65 45 L70 64 Z" fill="#C8963E" stroke="#C8963E" stroke-width="2" stroke-linejoin="round"/></g></svg><figcaption>Shoulder blade squeeze</figcaption></figure></div>
-<div class="mr-fig" data-i="6"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M44 40 H76 M60 40 V80 M60 80 L52 112 M60 80 L68 112 M44 40 L40 62 L42 78 M76 40 L80 62 L78 78 M60 32 V40"/><circle class="hd" cx="60" cy="22" r="10"/><g><animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0;5 0;0 0" dur="4.8s" keyTimes="0;0.25;0.5;0.75;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/><circle cx="56" cy="20" r="1.6" fill="#efe9d6"/><circle cx="64" cy="20" r="1.6" fill="#efe9d6"/><path d="M60 22 V26" stroke="#efe9d6" stroke-width="2" stroke-linecap="round"/></g><path d="M42 8 Q60 1 78 8 M46 5 L42 8 L46 11 M74 5 L78 8 L74 11" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><figcaption>Neck rotation</figcaption></figure></div>
-<div class="mr-fig" data-i="7"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M82 62 H110 M104 62 V112"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><circle class="hd" cx="54" cy="20" r="7"/><path class="fig" d="M52 30 L52 72 L52 104"/></g><path class="fig" d="M52 40 L70 52 L86 62"><animate attributeName="d" values="M52 40 L70 52 L86 62;M52 32 L70 46 L86 62;M52 40 L70 52 L86 62" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><path class="fig hl" d="M52 104 L48 111 L64 112"><animate attributeName="d" values="M52 104 L48 111 L64 112;M52 96 L55 104 L64 112;M52 104 L48 111 L64 112" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Heel raises holding the counter</figcaption></figure></div>
-<div class="mr-fig" data-i="8"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M82 60 H112 M104 60 V112"/><circle class="hd" cx="50" cy="20" r="7"/><path class="fig" d="M50 28 L50 70 M50 38 L68 50 L84 60"/><path class="fig" d="M50 70 L50 108 L60 110"/><path class="fig hl" d="M50 70 L50 108 L58 110"><animate attributeName="d" values="M50 70 L50 108 L58 110;M50 70 L54 90 L42 98;M50 70 L50 108 L58 110" dur="4s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Standing on one leg</figcaption></figure></div>
-          </div>
-          <div class="mr-panel">
-            <div class="mr-top"><p class="eyebrow" id="mr-step">1 / 9</p><span class="mr-phase" id="mr-phase" aria-live="polite">Ready</span></div>
-            <div class="mr-cues">
-<div class="mr-cue on" data-t="30" data-side="1"><h3>Knee-to-chest stretch</h3><p>Lie on your back in bed. Pull one knee towards your chest with both hands; switch legs halfway through.</p></div>
-<div class="mr-cue" data-t="30"><h3>Bridge</h3><p>Knees bent, feet flat on the bed. Slowly lift your hips, then lower them.</p></div>
-<div class="mr-cue" data-t="30"><h3>Cat–camel</h3><p>On your hands and knees. Slowly round your back, then let it dip.</p></div>
-<div class="mr-cue" data-t="30"><h3>Sit-to-stand from a chair</h3><p>Lean slightly forward and stand up, then sit back down with control.</p></div>
-<div class="mr-cue" data-t="30"><h3>Standing back extension</h3><p>Hands on your lower back. Push your hips slightly forward and lean back as far as is comfortable.</p></div>
-<div class="mr-cue" data-t="30"><h3>Shoulder blade squeeze</h3><p>Without lifting your shoulders, draw your shoulder blades back and down towards each other.</p></div>
-<div class="mr-cue" data-t="30"><h3>Neck rotation</h3><p>Slowly turn your head to the right, then to the left.</p></div>
-<div class="mr-cue" data-t="30"><h3>Heel raises holding the counter</h3><p>Hold on lightly to something. Rise up onto your toes, then lower slowly.</p></div>
-<div class="mr-cue" data-t="30" data-side="1"><h3>Standing on one leg</h3><p>Holding on, lift one foot; switch feet halfway through.</p></div>
+        <div class="ws">
+          <div class="ws-stage" aria-hidden="true"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M26 8 V112" stroke-width="5"/><circle class="hd" cx="36" cy="28" r="7"/><path class="fig" d="M34 38 L34 72 M34 46 L48 58 L58 60"/><path class="fig hl" d="M34 72 L66 74 L67 110"/><path class="fig" d="M67 110 L78 111"/><circle cx="94" cy="30" r="13" fill="none" stroke="#B9CBC6" stroke-width="3"/><circle cx="94" cy="30" r="13" fill="none" stroke="#C8963E" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="81.7" stroke-dashoffset="81.7" transform="rotate(-90 94 30)"><animate attributeName="stroke-dashoffset" values="81.7;0" dur="4s" repeatCount="indefinite"/></circle><path d="M94 30 V22 M90 13 H98" stroke="#2A6F6B" stroke-width="2.5" stroke-linecap="round"/></svg><figcaption>Wall sit</figcaption></figure></div>
+          <div>
+            <div class="seg" role="group" aria-label="Round length" id="ws-mode">
+              <button type="button" data-v="120" aria-pressed="true">2 minutes</button>
+              <button type="button" data-v="60" aria-pressed="false">1 minute (beginner)</button>
             </div>
-            <div class="mr-mid">
-              <div class="mr-ring"><svg viewBox="0 0 92 92" aria-hidden="true"><circle class="bg" cx="46" cy="46" r="40"/><circle class="fg" id="mr-arc" cx="46" cy="46" r="40" stroke-dasharray="251.3" stroke-dashoffset="0"/></svg><b id="mr-sec">30</b></div>
-              <div class="mr-bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="ws-mid">
+              <div class="ws-ring" id="ws-ring"><svg viewBox="0 0 132 132" aria-hidden="true"><circle class="bg" cx="66" cy="66" r="58"/><circle class="fg" id="ws-arc" cx="66" cy="66" r="58" stroke-dasharray="364.4" stroke-dashoffset="0"/></svg><b id="ws-sec">2:00</b></div>
+              <div class="ws-info">
+                <p class="eyebrow" id="ws-step">Round 1 / 4</p>
+                <p class="ws-phase" id="ws-phase" aria-live="polite">Ready</p>
+                <p class="ws-cue" id="ws-cue">When you press Start, a 10-second get-ready period begins.</p>
+              </div>
             </div>
+            <div class="rounds" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <p class="ws-rpe" id="ws-rpe"></p>
             <div class="controls">
-              <button type="button" class="cta" id="mr-go">Start</button>
-              <button type="button" class="cta ghost" id="mr-prev">Previous</button>
-              <button type="button" class="cta ghost" id="mr-next">Next</button>
+              <button type="button" class="cta" id="ws-go">Start</button>
+              <button type="button" class="cta ghost" id="ws-reset">Reset</button>
             </div>
-            <label class="snd"><input type="checkbox" id="mr-sound" checked> Sound cues</label>
-            <p class="count" id="mr-msg" aria-live="polite">About 5 minutes in total, with 5 seconds to get ready before each exercise.</p>
+            <label class="snd"><input type="checkbox" id="ws-sound" checked> Sound cues</label>
           </div>
         </div>
-        <div class="mr-strings" hidden>
-          <span data-k="ready">Get ready</span>
-          <span data-k="next">Next exercise</span>
-          <span data-k="work">Go</span>
-          <span data-k="side">Switch sides</span>
+        <div class="ws-strings" hidden>
+          <span data-k="round">Round {i} / 4</span>
+          <span data-k="prep">Get ready</span>
+          <span data-k="prepc">Lean your back against the wall, step your feet forward, away from the wall, and choose your position.</span>
+          <span data-k="hold">Wall sit</span>
+          <span data-k="holdc">Back against the wall, knees over your ankles. Do not hold your breath; breathe in and out normally.</span>
+          <span data-k="half">Halfway there. Do not hold your breath.</span>
+          <span data-k="rest">Rest</span>
+          <span data-k="restc">Stand up, gently shake out your legs and breathe easily.</span>
+          <span data-k="rpe">Target effort by the end of this round: about {r} out of 10</span>
           <span data-k="paused">Paused</span>
           <span data-k="done">Done</span>
-          <span data-k="donemsg">Great, you have finished today's routine. How about doing it again at the same time tomorrow?</span>
+          <span data-k="donec">Well done, you have completed today's session. Take a day off before your next session.</span>
+          <span data-k="ready">Ready</span>
+          <span data-k="readyc">When you press Start, a 10-second get-ready period begins.</span>
           <span data-k="start">Start</span>
           <span data-k="pause">Pause</span>
           <span data-k="resume">Resume</span>
           <span data-k="again">Start again</span>
         </div>
       </div>
-      <p class="count">The screen is set to stay on while the routine is running (if your browser supports it). A sound plays at the start of each exercise and, for exercises done on both sides, halfway through.</p>
+      <p class="count">The screen is set to stay on during the session (if your browser supports it).</p>
     </div>
   </section>
 
   <section>
     <div class="wrap two">
       <div>
-        <h2>Doing it safely</h2>
-        <p class="soft">Move slowly, within a range that feels comfortable. The aim is not to push yourself but to wake your body up.</p>
+        <h2>How to choose the right depth</h2>
+        <p class="soft">In a study done at home, participants chose their depth by how hard it felt, and after 4 weeks an average fall of 9 mmHg in systolic blood pressure was measured. The target: by the end of each of the 4 rounds, an effort of about 4, 5.5, 7 and 8.5 out of 10, respectively. In other words, the first round feels comfortable and the last is hard but manageable.</p>
       </div>
       <ul class="dots" style="align-self:center">
-        <li>When getting out of bed, roll onto your side and sit up first, wait a few seconds, then stand up.</li>
-        <li>For the standing exercises, stay close to a counter or a sturdy chair.</li>
-        <li>If an exercise clearly makes your pain worse, skip it.</li>
-        <li>Stop if you feel dizzy or have chest pain or shortness of breath.</li>
-        <li>If you have been diagnosed with osteoporosis, check with your physiotherapist before doing exercises that involve bending forward (knee-to-chest stretch, cat–camel).</li>
+        <li>Lean your back against the wall, with your feet hip-width apart and about two foot-lengths out from the wall.</li>
+        <li>Slide your back down the wall. Keep your knees over your ankles, not past your toes.</li>
+        <li>Do not let your thighs go below parallel to the floor; staying higher works too.</li>
+        <li>If a round feels too easy, choose a slightly lower position; if you cannot finish it, choose a slightly higher one.</li>
       </ul>
     </div>
   </section>
 
-  <section id="hareketler">
+  <section>
     <div class="wrap">
-      <p class="eyebrow">Exercises in the routine</p>
-      <h2>Nine exercises, step by step</h2>
-      <p class="soft">You can also do them without the timer. The order is arranged so that you start in bed and finish on your feet.</p>
-      <div class="ex">
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M34 105 H60 M60 105 H104"/><g><animateTransform attributeName="transform" type="rotate" values="0 34 105;22 34 105;0 34 105" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig" d="M22 105 H34"/><circle class="hd" cx="14" cy="100" r="7"/></g><path class="fig hl" d="M60 105 L74 86 L88 106"><animate attributeName="d" values="M60 105 L74 86 L88 106;M60 105 L52 76 L68 70;M60 105 L74 86 L88 106" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><path class="fig" d="M26 104 L44 96 L72 88"><animate attributeName="d" values="M26 104 L44 96 L72 88;M27 101 L40 86 L52 78;M26 104 L44 96 L72 88" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Knee to chest</figcaption></figure><div class="body"><h3>Knee-to-chest stretch</h3><p>Lie on your back in bed. Hold one knee with both hands and slowly pull it towards your chest until you feel a gentle stretch in your lower back. Do not hold your breath. Switch legs halfway through.</p><span class="dose">15 seconds on each side</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><circle class="hd" cx="12" cy="100" r="7"/><path class="fig" d="M22 107 H44"/><path class="fig hl" d="M20 104 L58 104 L76 84 L86 108"><animate attributeName="d" values="M20 104 L58 104 L76 84 L86 108;M20 104 L58 86 L78 82 L86 108;M20 104 L58 104 L76 84 L86 108" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Bridge</figcaption></figure><div class="body"><h3>Bridge</h3><p>Lie on your back with your knees bent and feet flat on the bed. Squeeze your buttocks and slowly lift your hips, hold for 2–3 seconds, then lower them. Stay at a comfortable height without arching your lower back too much.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M32 76 V108 M82 76 V108 H106"/><path class="fig hl" d="M32 76 Q57 62 82 76"><animate attributeName="d" values="M32 76 Q57 62 82 76;M32 76 Q57 90 82 76;M32 76 Q57 62 82 76" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 6;0 -6;0 6" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig" d="M32 76 L25 74"/><circle class="hd" cx="20" cy="74" r="7"/></g></svg><figcaption>Cat–camel</figcaption></figure><div class="body"><h3>Cat–camel</h3><p>Get onto your hands and knees. As you breathe out, round your back up like a cat; as you breathe in, let your lower back dip gently and lift your head. Move slowly, within a comfortable range.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M30 78 H62 M32 78 V112 M60 78 V112 M30 78 V48"/><path class="fig hl" d="M50 44 L46 76 L74 76 L76 108"><animate attributeName="d" values="M50 44 L46 76 L74 76 L76 108;M72 34 L73 66 L76 88 L76 108;M50 44 L46 76 L74 76 L76 108" dur="3.6s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><path class="fig" d="M50 50 L60 56"><animate attributeName="d" values="M50 50 L60 56;M72 40 L82 46;M50 50 L60 56" dur="3.6s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 0;21 -10;0 0" dur="3.6s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><circle class="hd" cx="52" cy="34" r="7"/></g></svg><figcaption>Sit-to-stand from a chair</figcaption></figure><div class="body"><h3>Sit-to-stand from a chair</h3><p>Sit towards the front of a sturdy chair with your feet flat on the floor. Lean slightly forward and stand up, straighten up fully, then sit back down with control. Use your hands for support if you need to.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M58 72 L54 112 M58 72 L62 112"/><g><animateTransform attributeName="transform" type="rotate" values="0 58 72;-22 58 72;0 58 72" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig hl" d="M58 72 L58 34"/><circle class="hd" cx="59" cy="24" r="7"/><path d="M65 22 L70 25 L65 27 Z" fill="#2A6F6B"/><path class="fig" d="M58 40 L48 54 L56 66"/></g></svg><figcaption>Standing back extension</figcaption></figure><div class="body"><h3>Standing back extension</h3><p>Stand with your feet shoulder-width apart and place your hands on your lower back. Gently push your hips forward and lean your upper body back as far as is comfortable, then return to upright. Go slowly so that you do not feel dizzy.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M40 40 H80 M60 32 V80 M60 80 L52 112 M60 80 L68 112 M40 40 L36 62 L38 78 M80 40 L84 62 L82 78"/><circle class="hd" cx="60" cy="22" r="8"/><g><animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path d="M42 45 L55 45 L50 64 Z" fill="#C8963E" stroke="#C8963E" stroke-width="2" stroke-linejoin="round"/></g><g><animateTransform attributeName="transform" type="translate" values="0 0;-3 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path d="M78 45 L65 45 L70 64 Z" fill="#C8963E" stroke="#C8963E" stroke-width="2" stroke-linejoin="round"/></g></svg><figcaption>Shoulder blade squeeze</figcaption></figure><div class="body"><h3>Shoulder blade squeeze</h3><p>Stand up straight. Without lifting your shoulders towards your ears, draw your shoulder blades back and slightly down towards each other. Hold for 3 seconds, then relax.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M44 40 H76 M60 40 V80 M60 80 L52 112 M60 80 L68 112 M44 40 L40 62 L42 78 M76 40 L80 62 L78 78 M60 32 V40"/><circle class="hd" cx="60" cy="22" r="10"/><g><animateTransform attributeName="transform" type="translate" values="0 0;-5 0;0 0;5 0;0 0" dur="4.8s" keyTimes="0;0.25;0.5;0.75;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/><circle cx="56" cy="20" r="1.6" fill="#efe9d6"/><circle cx="64" cy="20" r="1.6" fill="#efe9d6"/><path d="M60 22 V26" stroke="#efe9d6" stroke-width="2" stroke-linecap="round"/></g><path d="M42 8 Q60 1 78 8 M46 5 L42 8 L46 11 M74 5 L78 8 L74 11" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><figcaption>Neck rotation</figcaption></figure><div class="body"><h3>Neck rotation</h3><p>Keep your shoulders still. Slowly turn your head to the right, pause briefly at the furthest comfortable point, then turn to the left. If you feel dizzy, slow down or stop.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M82 62 H110 M104 62 V112"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><circle class="hd" cx="54" cy="20" r="7"/><path class="fig" d="M52 30 L52 72 L52 104"/></g><path class="fig" d="M52 40 L70 52 L86 62"><animate attributeName="d" values="M52 40 L70 52 L86 62;M52 32 L70 46 L86 62;M52 40 L70 52 L86 62" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><path class="fig hl" d="M52 104 L48 111 L64 112"><animate attributeName="d" values="M52 104 L48 111 L64 112;M52 96 L55 104 L64 112;M52 104 L48 111 L64 112" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Heel raises holding the counter</figcaption></figure><div class="body"><h3>Heel raises holding the counter</h3><p>Hold on lightly to the kitchen counter or the back of a sturdy chair. Rise up onto your toes, pause for a moment, then lower slowly. This warms up your calf muscles and helps your balance.</p><span class="dose">30 seconds</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M82 60 H112 M104 60 V112"/><circle class="hd" cx="50" cy="20" r="7"/><path class="fig" d="M50 28 L50 70 M50 38 L68 50 L84 60"/><path class="fig" d="M50 70 L50 108 L60 110"/><path class="fig hl" d="M50 70 L50 108 L58 110"><animate attributeName="d" values="M50 70 L50 108 L58 110;M50 70 L54 90 L42 98;M50 70 L50 108 L58 110" dur="4s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Standing on one leg</figcaption></figure><div class="body"><h3>Standing on one leg</h3><p>Stand upright in front of the counter, holding on lightly with one or both hands. Lift one foot off the floor and keep your balance; switch feet halfway through. As it gets easier, hold on with one hand, then with just your fingertips.</p><span class="dose">15 seconds on each side</span></div></article>
-      </div>
-    </div>
-  </section>
-
-  <section id="videolar">
-    <div class="wrap">
-      <p class="eyebrow">Video</p>
-      <h2>Morning movement videos</h2>
-      <p class="soft">From the YouTube channel of US physical therapists Bob Schrupp and Brad Heineck.</p>
-      <div class="vids">
-        <div class="vid">
-          <div class="vbox"><button type="button" data-yt="ERFjHlWN28k" aria-label="Play the wake-up and posture routine video"><img class="thumb" src="https://i.ytimg.com/vi/ERFjHlWN28k/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
-          <h3>2–3 minute wake-up and posture routine</h3>
-          <p>A short morning routine that opens up your shoulders and back with the help of a towel or stick.</p>
-        </div>
-        <div class="vid">
-          <div class="vbox"><button type="button" data-yt="L2OoV9-A50s" aria-label="Play the 5-minute daily stretching video"><img class="thumb" src="https://i.ytimg.com/vi/L2OoV9-A50s/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
-          <h3>5 minutes of stretching every day</h3>
-          <p>A short stretching programme designed as a 30-day habit, which you can do every day.</p>
-        </div>
-      </div>
-      <p class="meta">Videos belong to the Bob &amp; Brad channel.</p>
+      <h2>Doing it safely</h2>
+      <ul class="dots">
+        <li><strong>Do not hold your breath.</strong> Straining (bearing down) raises blood pressure temporarily. Breathe normally throughout the round; you can count out loud if you like.</li>
+        <li>If your blood pressure is not under control (for example, 180/110 mmHg or above), talk to your doctor first.</li>
+        <li>If you have heart disease, a heart rhythm disorder, an aneurysm, a recent heart attack or stroke, or disease of the retina, or if you are pregnant, talk to your doctor first.</li>
+        <li>If you have knee pain, stay in a higher position; stop if the pain gets worse.</li>
+        <li>Do not stop or reduce your blood pressure medication on your own; exercise is added alongside your treatment.</li>
+      </ul>
+      <div class="note warn" style="margin-top:18px"><strong>Stop immediately:</strong> if you get chest pain, dizziness, palpitations or unusual shortness of breath, stop the exercise; if it does not go away, call 112.</div>
     </div>
   </section>
 
@@ -615,18 +766,18 @@
     <div class="wrap">
       <h2>Frequently asked questions</h2>
       <div class="faq">
-<details><summary>Should I exercise in the morning or in the evening?</summary><p>There is no single best time for everyone. The best time is the one you can stick to regularly. A short morning routine makes it easier to start your day moving; if you prefer to exercise in the evening, that works too.</p></details>
-<details><summary>Can I do it every day?</summary><p>Yes. The exercises in this routine are gentle and controlled, so you can do them every day. Do them within a range that feels comfortable. If an exercise clearly makes your pain worse, skip it.</p></details>
-<details><summary>I wake up very stiff in the morning. Is this normal?</summary><p>Brief stiffness after waking up is common, especially with osteoarthritis, and it eases as you move. If the stiffness lasts longer than half an hour, if your joints are swollen and red, or if pain wakes you at night, see a doctor to check for an inflammatory rheumatic disease.</p></details>
-<details><summary>Can this routine replace regular exercise?</summary><p>No, this routine is a habit for warming up and getting moving. The World Health Organization recommends that adults do 150–300 minutes of moderate-intensity activity a week, plus muscle-strengthening activities on at least 2 days. For details, see the “How much activity is enough?” page.</p></details>
+<details><summary>How can an exercise without movement lower blood pressure?</summary><p>The mechanism is not fully understood. In a study done at home, the fall in blood pressure was mostly linked to a drop in resting heart rate and in the amount of blood the heart pumps each minute. Researchers are also looking at how blood vessels that are squeezed during the contraction and then widen when you release it may affect vascular health.</p></details>
+<details><summary>I take blood pressure medication. Can I do it?</summary><p>Most people can, but talk to your doctor first and do not stop or reduce your medication on your own. Exercise is added alongside treatment, not instead of it. Measure your blood pressure regularly at home and share the results with your doctor.</p></details>
+<details><summary>Should I stop walking and just do wall sits?</summary><p>No. In the analysis, all types of exercise lowered blood pressure. Aerobic exercise such as walking also matters for your heart, weight, blood sugar and mental health. Wall sits are a short, effective addition to your weekly activity.</p></details>
+<details><summary>How soon will I see an effect?</summary><p>In small studies done at home, average falls of between 4 and 9 mmHg in systolic blood pressure were measured at the end of a 4-week programme. To keep the effect, you need to keep exercising.</p></details>
       </div>
       <aside class="ctacard" aria-label="Quick contact">
         <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/><path transform="translate(7.9 6.8) scale(.4)" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" fill="currentColor" stroke-width="2.5"/></svg></span>
         <div>
           <p class="k">Quick contact</p>
           <h3>Would you like an assessment at home?</h3>
-          <p>If you would like to book a comprehensive functional assessment at home and a personalised rehabilitation session for your morning stiffness or pain, get in touch on WhatsApp.</p>
-          <div class="acts"><a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20assessment%20and%20session%20for%20morning%20stiffness%20and%20pain." target="_blank" rel="noopener">Message on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a><a class="cta ghost" href="tel:+905538815568">0553 881 55 68</a></div>
+          <p>If you would like to book a comprehensive functional assessment at home and a personalised rehabilitation session for an exercise programme that suits your blood pressure and your joints, you can get in touch on WhatsApp.</p>
+          <div class="acts"><a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20assessment%20and%20session%20for%20an%20exercise%20programme%20suitable%20for%20my%20blood%20pressure." target="_blank" rel="noopener">Message on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a><a class="cta ghost" href="tel:+905538815568">0553 881 55 68</a></div>
         </div>
       </aside>
     </div>
@@ -636,7 +787,10 @@
     <div class="wrap col sources">
       <p class="eyebrow">Sources</p>
       <ol>
-        <li>Bull FC, Al-Ansari SS, Biddle S, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/33239350/" target="_blank" rel="noopener">World Health Organization 2020 guidelines on physical activity and sedentary behaviour</a>. Br J Sports Med. 2020;54(24):1451-1462.</li>
+        <li>Edwards JJ, Deenmamode AHP, Griffiths M, et al. <a href="https://bjsm.bmj.com/content/57/20/1317" target="_blank" rel="noopener">Exercise training and resting blood pressure: a large-scale pairwise and network meta-analysis of randomised controlled trials</a>. Br J Sports Med. 2023;57(20):1317-1326.</li>
+        <li>Wiles JD, et al. <a href="https://link.springer.com/article/10.1007/s00421-016-3501-0" target="_blank" rel="noopener">Home-based isometric exercise training induced reductions resting blood pressure</a>. Eur J Appl Physiol. 2017;117(1):83-93.</li>
+        <li>Lea JWD, O'Driscoll JM, Wiles JD. <a href="https://link.springer.com/article/10.1007/s00421-023-05269-2" target="_blank" rel="noopener">The implementation of a home-based isometric wall squat intervention using ratings of perceived exertion to select and control exercise intensity: a pilot study in normotensive and pre-hypertensive adults</a>. Eur J Appl Physiol. 2024;124(1):281-293.</li>
+        <li>Blood Pressure Lowering Treatment Trialists' Collaboration. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00590-0/fulltext" target="_blank" rel="noopener">Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure: an individual participant-level data meta-analysis</a>. Lancet. 2021;397(10285):1625-1636.</li>
       </ol>
     </div>
   </section>
@@ -646,7 +800,7 @@
       <p class="eyebrow" style="margin-bottom:14px">More from the health library</p>
       <div class="more">
 <a href="how-much-exercise.html"><span class="k">Look after yourself</span><span class="t">How much activity is enough?</span></a>
-<a href="low-back-pain.html"><span class="k">Condition guide</span><span class="t">Low back pain</span></a>
+<a href="sitting-rising-test.html"><span class="k">Look after yourself</span><span class="t">Can you sit down on the floor and get back up?</span></a>
 <a href="health-library.html"><span class="k">Health library</span><span class="t">All topics</span></a>
 <a href="index.html"><span class="k">Home</span><span class="t">Home physiotherapy service</span></a>
       </div>
@@ -680,99 +834,103 @@
 </script>
 <script>
 (function(){
-  var root = document.getElementById('rutin'); if (!root) return;
-  var S = {}; root.querySelectorAll('.mr-strings [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
-  var figs = root.querySelectorAll('.mr-fig'), cues = root.querySelectorAll('.mr-cue'), bars = root.querySelectorAll('.mr-bar i');
+  var sec = document.getElementById('bp-cmp');
+  if (sec){
+    var EN0 = document.documentElement.lang === 'en';
+    var seg = sec.previousElementSibling;
+    seg.addEventListener('click', function(e){
+      var b = e.target.closest('button'); if (!b) return;
+      var v = b.getAttribute('data-v');
+      seg.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      var rows = sec.querySelectorAll('.row'), mx = v === 's' ? 9 : 4.5;
+      rows.forEach(function(r){
+        var n = +r.getAttribute(v === 's' ? 'data-s' : 'data-d');
+        r.querySelector('i').style.width = (n / mx * 100).toFixed(1) + '%';
+        var t = n.toFixed(2); r.querySelector('b').textContent = EN0 ? t : t.replace('.', ',');
+      });
+    });
+  }
+  var root = document.getElementById('zamanlayici'); if (!root) return;
+  var S = {}; root.querySelectorAll('.ws-strings [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
+  var EN = document.documentElement.lang === 'en';
   var $ = function(id){ return document.getElementById(id); };
-  var go = $('mr-go'), prevB = $('mr-prev'), nextB = $('mr-next'), secEl = $('mr-sec'), stepEl = $('mr-step'),
-      phaseEl = $('mr-phase'), msg = $('mr-msg'), arc = $('mr-arc'), snd = $('mr-sound');
-  var C = 251.3, PREP = 5, N = cues.length, i = 0, phase = 'idle', left = 0, running = false, t = null, last = 0, half = false, ctx = null, lock = null;
-  var introMsg = msg.textContent;
-  function dur(k){ return +cues[k].getAttribute('data-t'); }
-  function show(k){
-    for (var j = 0; j < N; j++){
-      figs[j].classList.toggle('on', j === k); cues[j].classList.toggle('on', j === k);
-      bars[j].className = j < k ? 'done' : (j === k ? 'cur' : '');
-    }
-    stepEl.textContent = (k + 1) + ' / ' + N;
-  }
-  function beep(f, d){
-    if (!snd.checked) return;
-    try {
-      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
-      var o = ctx.createOscillator(), g = ctx.createGain(), n = ctx.currentTime;
-      o.frequency.value = f; g.gain.setValueAtTime(0.0001, n);
-      g.gain.exponentialRampToValueAtTime(0.2, n + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, n + d);
-      o.connect(g); g.connect(ctx.destination); o.start(n); o.stop(n + d + 0.05);
-    } catch (e) {}
-  }
-  function render(){
-    var tot = phase === 'prep' ? PREP : dur(i);
-    secEl.textContent = phase === 'done' ? '✓' : (phase === 'idle' ? dur(i) : Math.max(0, Math.ceil(left)));
-    arc.style.strokeDashoffset = (phase === 'prep' || phase === 'work') ? (C * (1 - left / tot)).toFixed(1) : (phase === 'done' ? 0 : C);
-  }
-  function enter(p, k){
-    phase = p; i = k; half = false; show(k);
-    if (p === 'prep'){ left = PREP; phaseEl.textContent = k === 0 ? S.ready : S.next; }
-    else { left = dur(k); phaseEl.textContent = S.work; beep(880, 0.25); }
-    render();
-  }
+  var go = $('ws-go'), secEl = $('ws-sec'), arc = $('ws-arc'), ring = $('ws-ring'), phaseEl = $('ws-phase'), cue = $('ws-cue'),
+      stepEl = $('ws-step'), rpeEl = $('ws-rpe'), snd = $('ws-sound'), bars = root.querySelectorAll('.rounds i');
+  var C = 364.4, PREP = 10, N = 4, RPE = [4, 5.5, 7, 8.5], HOLD = 120;
+  var phase = 'idle', i = 0, left = 0, tot = 1, running = false, t = null, last = 0, halfDone = false, ctx = null, lock = null;
   function wake(on){
     try {
       if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; }).catch(function(){});
       if (!on && lock){ lock.release(); lock = null; }
     } catch (e) {}
   }
+  function beep(f, d, v){
+    if (!snd || !snd.checked) return;
+    try {
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+      var o = ctx.createOscillator(), g = ctx.createGain(), n = ctx.currentTime;
+      o.frequency.value = f; g.gain.setValueAtTime(0.0001, n);
+      g.gain.exponentialRampToValueAtTime(v || 0.2, n + 0.03); g.gain.exponentialRampToValueAtTime(0.0001, n + d);
+      o.connect(g); g.connect(ctx.destination); o.start(n); o.stop(n + d + 0.05);
+    } catch (e) {}
+  }
+
+  function mmss(s){ s = Math.max(0, Math.ceil(s)); var m = Math.floor(s / 60), r = s % 60; return m + ':' + (r < 10 ? '0' : '') + r; }
+  function fr(x){ var s = String(x); return EN ? s : s.replace('.', ','); }
+  function paint(){
+    secEl.textContent = phase === 'done' ? '✓' : mmss(phase === 'idle' ? HOLD : left);
+    arc.style.strokeDashoffset = (phase === 'idle' || phase === 'done') ? 0 : (C * (1 - left / tot)).toFixed(1);
+    ring.classList.toggle('rest', phase === 'rest' || phase === 'prep');
+    stepEl.textContent = S.round.replace('{i}', Math.min(i + 1, N));
+    for (var j = 0; j < N; j++) bars[j].className = (phase === 'done' || j < i || (j === i && phase === 'rest')) ? 'done' : (j === i && phase !== 'idle' ? 'cur' : '');
+  }
+  function enter(p){
+    phase = p; halfDone = false;
+    if (p === 'prep'){ left = tot = PREP; phaseEl.textContent = S.prep; cue.textContent = S.prepc; rpeEl.textContent = S.rpe.replace('{r}', fr(RPE[i])); }
+    else if (p === 'hold'){ left = tot = HOLD; phaseEl.textContent = S.hold; cue.textContent = S.holdc; rpeEl.textContent = S.rpe.replace('{r}', fr(RPE[i])); beep(880, 0.3); }
+    else if (p === 'rest'){ left = tot = HOLD; phaseEl.textContent = S.rest; cue.textContent = S.restc; rpeEl.textContent = ''; beep(660, 0.15); setTimeout(function(){ beep(660, 0.15); }, 220); }
+    paint();
+  }
+  function finish(){
+    running = false; clearInterval(t); phase = 'done'; i = N - 1;
+    phaseEl.textContent = S.done; cue.textContent = S.donec; rpeEl.textContent = ''; go.textContent = S.again; paint(); wake(false);
+    beep(660, 0.15); setTimeout(function(){ beep(880, 0.35); }, 200);
+  }
   function tick(){
     var now = performance.now(), dt = (now - last) / 1000; last = now;
     var before = Math.ceil(left); left -= dt;
-    if (phase === 'work' && cues[i].hasAttribute('data-side') && !half && left <= dur(i) / 2){ half = true; phaseEl.textContent = S.side; beep(660, 0.2); }
+    if (phase === 'hold' && !halfDone && left <= HOLD / 2){ halfDone = true; cue.textContent = S.half; beep(520, 0.12, 0.12); }
     if (left <= 0){
-      if (phase === 'prep') enter('work', i);
-      else if (i < N - 1) enter('prep', i + 1);
-      else finish();
+      if (phase === 'prep') enter('hold');
+      else if (phase === 'hold'){ if (i < N - 1) enter('rest'); else finish(); }
+      else if (phase === 'rest'){ i++; enter('hold'); }
       return;
     }
-    if (phase === 'prep' && left <= 3 && Math.ceil(left) !== before) beep(520, 0.08);
-    render();
+    if ((phase === 'prep' || phase === 'rest') && left <= 3 && Math.ceil(left) !== before) beep(520, 0.08);
+    paint();
   }
   function run(){ running = true; last = performance.now(); clearInterval(t); t = setInterval(tick, 100); go.textContent = S.pause; wake(true); }
   function pause(){ running = false; clearInterval(t); go.textContent = S.resume; phaseEl.textContent = S.paused; wake(false); }
-  function finish(){
-    running = false; clearInterval(t); phase = 'done'; show(N - 1);
-    for (var j = 0; j < N; j++) bars[j].className = 'done';
-    phaseEl.textContent = S.done; msg.textContent = S.donemsg; go.textContent = S.again; render(); wake(false);
-    beep(660, 0.15); setTimeout(function(){ beep(880, 0.3); }, 180);
+  function reset(){
+    running = false; clearInterval(t); phase = 'idle'; i = 0; wake(false);
+    go.textContent = S.start; phaseEl.textContent = S.ready; cue.textContent = S.readyc; rpeEl.textContent = ''; paint();
   }
   go.addEventListener('click', function(){
-    if (phase === 'idle' || phase === 'done'){ msg.textContent = introMsg; enter('prep', 0); run(); }
+    if (phase === 'idle' || phase === 'done'){ i = 0; enter('prep'); run(); }
     else if (running) pause();
-    else { phaseEl.textContent = phase === 'prep' ? (i === 0 ? S.ready : S.next) : S.work; run(); }
+    else { phaseEl.textContent = phase === 'prep' ? S.prep : (phase === 'hold' ? S.hold : S.rest); run(); }
   });
-  function jump(k){
-    if (k < 0 || k >= N) return;
-    if (phase === 'idle' || phase === 'done'){ phase = 'idle'; i = k; show(k); render(); return; }
-    enter('prep', k); if (!running) phaseEl.textContent = S.paused;
-  }
-  prevB.addEventListener('click', function(){ jump(i - 1); });
-  nextB.addEventListener('click', function(){ jump(i + 1); });
+  $('ws-reset').addEventListener('click', reset);
+  $('ws-mode').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    HOLD = +b.getAttribute('data-v'); reset();
+  });
   document.addEventListener('visibilitychange', function(){ if (!document.hidden && running) wake(true); });
-  render();
+  reset();
 })();
 </script>
-<script>
-document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
-  b.addEventListener('click', function(){
-    var f = document.createElement('iframe');
-    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
-    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
-    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
-    b.replaceWith(f);
-  });
-});
-</script>
+
 <script src="../ara.js" defer></script>
 </body>
 </html>

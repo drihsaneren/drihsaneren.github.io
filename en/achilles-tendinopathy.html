@@ -430,8 +430,8 @@
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>12 weeks</b><span>Length of loading exercise programmes with proven benefit</span></div>
-        <div class="stat"><b>%100</b><span>Satisfied with treatment at week 12 after heavy slow resistance training; 80% with eccentric exercise</span></div>
-        <div class="stat"><b>%92</b><span>Adherence to the heavy slow resistance programme; 78% with the eccentric programme</span></div>
+        <div class="stat"><b>100%</b><span>Satisfied with treatment at week 12 after heavy slow resistance training; 80% with eccentric exercise</span></div>
+        <div class="stat"><b>92%</b><span>Adherence to the heavy slow resistance programme; 78% with the eccentric programme</span></div>
         <div class="stat"><b>1 year</b><span>Follow-up period over which the gains lasted with both programmes</span></div>
       </div>
     </div>
@@ -604,8 +604,9 @@
 document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
   b.addEventListener('click', function(){
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
-    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
     b.replaceWith(f);

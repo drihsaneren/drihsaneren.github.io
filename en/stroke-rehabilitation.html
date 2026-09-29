@@ -432,7 +432,7 @@
       <div class="stats">
         <div class="stat"><b>12 million</b><span>People worldwide who have a new stroke each year (2021)</span></div>
         <div class="stat"><b>1 in 4</b><span>Proportion of people over 25 who will have a stroke in their lifetime</span></div>
-        <div class="stat"><b>%84</b><span>Share of the stroke burden linked to modifiable risk factors</span></div>
+        <div class="stat"><b>84%</b><span>Share of the stroke burden linked to modifiable risk factors</span></div>
         <div class="stat"><b>3 hours</b><span>Daily rehabilitation time recommended by the UK guideline, 5 days a week</span></div>
       </div>
     </div>
@@ -639,8 +639,9 @@
 document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
   b.addEventListener('click', function(){
     var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=tr&cc_lang_pref=tr';
-    f.title = b.getAttribute('aria-label').replace(' oynat','');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
     b.replaceWith(f);
