@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Posture, Breaks and Exercise: A Guide for Desk Workers | İhsan Eren</title>
-<meta name="description" content="Neck and back health at a desk: is there a correct posture, how often should you take breaks, do standing desks help? Six exercises, set-up tips and videos.">
+<title>For a Good Night's Sleep: Sleep Duration, Caffeine, Pain and Bedtime Planner | İhsan Eren</title>
+<meta name="description" content="How much sleep adults need, how coffee affects sleep, the sleep–pain link, the first-choice treatment for chronic insomnia, sleep habits and a bedtime planner.">
 <link rel="icon" type="image/png" href="../logo.png">
-<link rel="canonical" href="https://drihsaneren.com/en/desk-work.html">
+<link rel="canonical" href="https://drihsaneren.com/en/sleep.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Posture, Breaks and Exercise: A Guide for Desk Workers | İhsan Eren">
-<meta property="og:description" content="Neck and back health at a desk: is there a correct posture, how often should you take breaks, do standing desks help? Six exercises, set-up tips and videos.">
+<meta property="og:title" content="For a Good Night's Sleep: Sleep Duration, Caffeine, Pain and Bedtime Planner | İhsan Eren">
+<meta property="og:description" content="How much sleep adults need, how coffee affects sleep, the sleep–pain link, the first-choice treatment for chronic insomnia, sleep habits and a bedtime planner.">
 <meta property="og:image" content="https://drihsaneren.com/logo.png">
 <meta property="og:locale" content="en_GB">
 <meta property="og:locale:alternate" content="tr_TR">
-<meta property="og:url" content="https://drihsaneren.com/en/desk-work.html">
-<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/masa-basi.html">
-<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/desk-work.html">
-<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/masa-basi.html">
+<meta property="og:url" content="https://drihsaneren.com/en/sleep.html">
+<link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uyku.html">
+<link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sleep.html">
+<link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uyku.html">
 
 <meta name="theme-color" content="#1c2819">
 <style>
@@ -258,20 +258,104 @@
   .hand{width:100%;max-width:240px;height:auto;display:block;margin:0 auto}
   @media (max-width:820px){.hand{max-width:190px}}
 
+  [hidden]{display:none!important}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+  button.cta{font:inherit;font-weight:600;font-size:15px;cursor:pointer}
+  .count{font-size:14px;color:var(--muted);margin-top:10px}
+  .hint{font-size:14px;color:var(--muted);margin:2px 0 0}
+  .days{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+  .days button{all:unset;cursor:pointer;min-width:40px;height:40px;padding:0 10px;box-sizing:border-box;text-align:center;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft);display:inline-grid;place-items:center;font-variant-numeric:tabular-nums}
+  .days button:hover{border-color:var(--foil);color:var(--ink)}
+  .days button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
+  .days button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .tool{border:1px solid var(--line-strong);border-radius:16px;padding:clamp(16px,3vw,26px);
+    background:radial-gradient(120% 120% at 0% 0%, rgba(226,171,71,.10), transparent 60%),var(--ground-2)}
+  .q{font-weight:600;color:var(--ink);margin:18px 0 0;font-size:16px}
+  .q:first-child{margin-top:0}
+  .q output{color:var(--foil);font-variant-numeric:tabular-nums}
+  input[type=range]{width:100%;accent-color:var(--foil);margin:10px 0 0;height:28px}
+  .chk{display:inline-flex;align-items:center;gap:10px;margin-top:18px;cursor:pointer;color:var(--ink)}
+  .chk input{width:20px;height:20px;accent-color:var(--foil);margin:0}
+
+  /* sabah rutini oynatıcı */
+  .mr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(18px,3vw,34px);align-items:center}
+  @media (max-width:760px){.mr{grid-template-columns:1fr}}
+  .mr-stage{border-radius:14px;overflow:hidden;background:var(--paper);display:grid;place-items:center;min-height:240px}
+  .mr-fig{display:none;width:100%}
+  .mr-fig.on{display:block}
+  .mr-fig .an{padding:18px 10px 12px}
+  .mr-fig .an svg{max-width:300px}
+  @media (max-width:760px){.mr-fig .an svg{max-width:220px}}
+  .mr-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .mr-top .eyebrow{color:var(--foil)}
+  .mr-phase{font-size:14px;color:var(--ink-soft);font-weight:600}
+  .mr-cue{display:none}
+  .mr-cue.on{display:block}
+  .mr-cue h3{font-size:clamp(24px,3.4vw,30px);margin:8px 0 6px}
+  .mr-cue p{color:var(--ink-soft);margin:0}
+  .mr-mid{display:flex;align-items:center;gap:18px;margin:16px 0 12px}
+  .mr-ring{position:relative;width:92px;height:92px;flex:none}
+  .mr-ring svg{width:92px;height:92px;transform:rotate(-90deg)}
+  .mr-ring circle{fill:none;stroke-width:7}
+  .mr-ring .bg{stroke:rgba(236,229,207,.12)}
+  .mr-ring .fg{stroke:var(--foil);stroke-linecap:round;transition:stroke-dashoffset .12s linear}
+  .mr-ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-weight:400;font-size:30px;color:var(--ink);font-variant-numeric:tabular-nums}
+  .mr-bar{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:4px;flex:1}
+  .mr-bar i{height:6px;border-radius:3px;background:rgba(236,229,207,.12)}
+  .mr-bar i.done{background:var(--sage)}
+  .mr-bar i.cur{background:var(--foil)}
+  .snd{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ink-soft);margin-top:12px;cursor:pointer}
+  .snd input{width:18px;height:18px;accent-color:var(--foil);margin:0}
+
+  /* hareket ölçer */
+  .meter{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:center}
+  @media (max-width:820px){.meter{grid-template-columns:1fr}}
+  .gauge{position:relative;width:min(240px,70vw);margin:0 auto}
+  .gauge svg{width:100%;height:auto;display:block;transform:rotate(-90deg)}
+  .gauge circle{fill:none;stroke-width:12}
+  .gauge .bg{stroke:rgba(236,229,207,.10)}
+  .gauge .fg{stroke:var(--foil);stroke-linecap:round;transition:stroke-dashoffset .35s ease}
+  .gauge .t150{stroke:var(--sage);stroke-width:3}
+  .gauge .c{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+  .gauge .c b{font-family:var(--display);font-weight:400;font-size:clamp(34px,5vw,44px);color:var(--ink);line-height:1;font-variant-numeric:tabular-nums}
+  .gauge .c span{font-size:13px;color:var(--muted);max-width:140px;margin:6px auto 0}
+  .res-list{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:10px}
+  .res-list li{display:grid;grid-template-columns:14px minmax(0,1fr);gap:12px;align-items:start;font-size:15px;color:var(--ink-soft)}
+  .res-list i{width:12px;height:12px;border-radius:50%;margin-top:5px;background:rgba(236,229,207,.25)}
+  .res-list li.ok i{background:var(--sage)}
+  .res-list li.low i{background:var(--gold)}
+
+  /* uyku planlayıcı */
+  .planner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(18px,4vw,40px);align-items:start}
+  @media (max-width:820px){.planner{grid-template-columns:1fr}}
+  .planner input[type=time]{font:inherit;font-size:22px;color:var(--ink);background:var(--ground);border:1px solid var(--line-strong);border-radius:10px;padding:8px 12px;margin-top:10px;color-scheme:dark;font-variant-numeric:tabular-nums}
+  .p-out{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+  .p-out li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:center;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--ground)}
+  .p-out b{font-family:var(--display);font-weight:400;font-size:30px;color:var(--foil);font-variant-numeric:tabular-nums;min-width:86px}
+  .p-out span{font-size:15px;color:var(--ink-soft)}
+  .p-out li.main{border-color:var(--line-strong)}
+  .p-out li.main b{font-size:38px;color:var(--ink)}
+
 </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
-  "@id": "https://drihsaneren.com/en/desk-work.html#sayfa",
-  "name": "Posture, Breaks and Exercise: A Guide for Desk Workers | İhsan Eren",
-  "description": "Neck and back health at a desk: is there a correct posture, how often should you take breaks, do standing desks help? Six exercises, set-up tips and videos.",
-  "url": "https://drihsaneren.com/en/desk-work.html",
+  "@id": "https://drihsaneren.com/en/sleep.html#sayfa",
+  "name": "For a Good Night's Sleep: Sleep Duration, Caffeine, Pain and Bedtime Planner | İhsan Eren",
+  "description": "How much sleep adults need, how coffee affects sleep, the sleep–pain link, the first-choice treatment for chronic insomnia, sleep habits and a bedtime planner.",
+  "url": "https://drihsaneren.com/en/sleep.html",
   "inLanguage": "en",
-  "about": {
-    "@type": "Thing",
-    "name": "Musculoskeletal health for desk workers"
-  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Sleep health"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Insomnia"
+    }
+  ],
   "lastReviewed": "2026-09-28",
   "author": {
     "@type": "Person",
@@ -292,40 +376,40 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://drihsaneren.com/en/desk-work.html#sss",
-  "url": "https://drihsaneren.com/en/desk-work.html",
+  "@id": "https://drihsaneren.com/en/sleep.html#sss",
+  "url": "https://drihsaneren.com/en/sleep.html",
   "inLanguage": "en",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Do I have to sit up straight?",
+      "name": "How many hours should adults sleep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. There is no strong evidence that a single ideal posture exists, or that avoiding “bad” postures prevents back pain. The spine is a robust structure; you can sit comfortably in different positions. What matters is not staying in the same position for long and moving often."
+        "text": "According to a joint recommendation from the American Academy of Sleep Medicine and the Sleep Research Society, adults aged 18–60 should regularly sleep 7 hours or more a night. Whether sleeping more than 9 hours a night is linked to health risks is uncertain."
       }
     },
     {
       "@type": "Question",
-      "name": "Do standing desks help?",
+      "name": "Does coffee in the afternoon affect my sleep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "They help reduce the time you spend sitting. In a UK study, an adjustable desk with a support programme reduced sitting time during the workday by about 82 minutes at 12 months; however, its effect on musculoskeletal complaints was inconsistent. Standing for long periods is tiring too; the aim is to alternate between sitting and standing."
+        "text": "It can. In one study, 400 mg of caffeine (about 2–3 cups of coffee) taken 6 hours before bed cut measured sleep time by more than an hour. If you have trouble sleeping, try stopping coffee and tea by early afternoon."
       }
     },
     {
       "@type": "Question",
-      "name": "I exercise. Is sitting for long periods still harmful?",
+      "name": "What is the first-choice treatment for chronic insomnia?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In people who sit for more than 8 hours a day, 60–75 minutes of moderate-intensity activity a day eliminates the increased risk of death linked to prolonged sitting. The World Health Organization also recommends limiting sitting time and replacing it with physical activity of any intensity."
+        "text": "The American College of Physicians (ACP) recommends cognitive behavioural therapy for insomnia (CBT-I) as the first treatment for chronic insomnia. It works on your sleep pattern, the link between your bed and sleep, and your worries about sleep. Decide together with your doctor whether or not to use sleeping pills."
       }
     },
     {
       "@type": "Question",
-      "name": "How often should I take a break?",
+      "name": "Does snoring matter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There is no strong evidence for an exact interval. In practice, getting up and moving for a few minutes every half hour, or at least once an hour, is a good goal. Small habits such as standing up while you are on the phone or walking to get some water count too."
+        "text": "Snoring on its own is not always a sign of illness. If loud snoring comes with pauses in breathing during sleep, waking up as if choking or excessive sleepiness during the day, see a doctor to be checked for sleep apnoea."
       }
     }
   ]
@@ -342,7 +426,7 @@
       <a href="health-library.html#kendine-iyi-bak" class="on">Look after yourself</a>
       <a href="medical-advances.html">Medical advances</a>
     </nav>
-    <div class="lang" role="group" aria-label="Language"><a href="../masa-basi.html" lang="tr" hreflang="tr" aria-label="Türkçe">TR</a><a href="desk-work.html" lang="en" hreflang="en" aria-label="English" aria-current="true">EN</a></div>
+    <div class="lang" role="group" aria-label="Language"><a href="../uyku.html" lang="tr" hreflang="tr" aria-label="Türkçe">TR</a><a href="sleep.html" lang="en" hreflang="en" aria-label="English" aria-current="true">EN</a></div>
     <a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20physiotherapy%20session." target="_blank" rel="noopener">Book a session</a>
   </div>
 </header>
@@ -350,9 +434,9 @@
   <div class="wrap">
     <a class="back" href="health-library.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>Health library</a>
     <p class="eyebrow">Look after yourself</p>
-    <h1>For people who work at a desk</h1>
-    <p class="lede">Many of us spend most of the day sitting at a computer. For your neck and back, moving often, changing position and taking short movement breaks through the day matter more than “perfect posture”.</p>
-    <p class="meta">Last updated: 28 September 2026</p>
+    <h1>For a good night's sleep</h1>
+    <p class="lede">Sleep is the least talked-about part of recovery. How many hours should you sleep, how does coffee affect sleep, and how are sleep and pain linked? You can also work out your own bedtime with the planner below.</p>
+    <p class="meta">Last updated: 29 September 2026</p>
   </div>
 </header>
 
@@ -360,90 +444,80 @@
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>150–300 min</b><span>Moderate-intensity activity per week that the World Health Organization recommends for adults</span></div>
-        <div class="stat"><b>2 days</b><span>Minimum number of days a week recommended for muscle-strengthening exercise</span></div>
-        <div class="stat"><b>60–75 min</b><span>Daily activity that eliminates the increased risk of death in people who sit for more than 8 hours a day</span></div>
-        <div class="stat"><b>82 min</b><span>Reduction in sitting time during the workday with an adjustable desk and a support programme</span></div>
+        <div class="stat"><b>7+ hours</b><span>Recommended sleep per night for adults</span></div>
+        <div class="stat"><b>Over 1 hour</b><span>Sleep lost after a high dose of caffeine taken 6 hours before bed</span></div>
+        <div class="stat"><b>Two-way</b><span>The link between sleep and pain: when one is disrupted, the other suffers too</span></div>
+        <div class="stat"><b>First choice</b><span>Cognitive behavioural therapy, recommended before medication for chronic insomnia</span></div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="planlayici">
     <div class="wrap">
-      <h2>Is there such a thing as correct posture?</h2>
-      <p class="soft">For years we were told to “sit up straight”. Yet there is no strong evidence that a single ideal posture exists, or that avoiding “bad” postures prevents back pain. No shape of spinal curve has been found to be strongly linked to pain; the spine is a robust structure that can safely handle many different positions.</p>
-      <div class="callout">
-        <p>Physiotherapists have a favourite saying: the best posture is your next posture. Sit in whatever positions feel comfortable, but do not stay in the same one for long; changing position and moving are good for both your back and your overall health.</p>
+      <p class="eyebrow">Work it out now</p>
+      <h2>Bedtime planner</h2>
+      <p class="soft">Choose the time you need to get up in the morning and how much sleep you are aiming for. The planner allows about 15 minutes for falling asleep.</p>
+      <div class="tool">
+        <div class="planner">
+          <div>
+            <label class="q" for="p-wake">Your wake-up time</label><br>
+            <input type="time" id="p-wake" value="07:00" step="300">
+            <p class="q">How much sleep you are aiming for</p>
+            <div class="days" role="group" id="p-need"><button type="button" data-v="7" aria-pressed="false">7 h</button><button type="button" data-v="7.5" aria-pressed="false">7.5 h</button><button type="button" data-v="8" aria-pressed="true">8 h</button><button type="button" data-v="8.5" aria-pressed="false">8.5 h</button><button type="button" data-v="9" aria-pressed="false">9 h</button></div>
+            <p class="hint">The recommended amount for adults is 7 hours or more a night.</p>
+          </div>
+          <ul class="p-out" aria-live="polite">
+            <li class="main"><b id="p-bed">22:45</b><span>Time to go to bed</span></li>
+            <li><b id="p-wind">21:45</b><span>Dim the lights and put screens away: about 1 hour before bed</span></li>
+            <li><b id="p-caf">16:45</b><span>Last coffee or tea: at least 6 hours before bed</span></li>
+          </ul>
+        </div>
       </div>
+      <p class="count">Getting up at the same time every day, weekends included, is one of the most effective ways to settle into a regular sleep pattern.</p>
     </div>
   </section>
 
   <section>
     <div class="wrap two">
       <div>
-        <h2>A comfortable workstation set-up</h2>
-        <p class="soft">These are not strict rules, just suggestions that may help you work comfortably. Try things out to find the set-up that suits you.</p>
+        <h2>Sleep and pain</h2>
+        <p class="soft">Sleep and pain feed into each other: pain breaks up your sleep, and poor sleep makes you more sensitive to pain. In healthy volunteers, even a single night without sleep has been shown to increase sensitivity to pain. That is why, if you live with low back, neck or joint pain, improving your sleep is part of your treatment.</p>
       </div>
       <ul class="dots" style="align-self:center">
-        <li>Place the screen about an arm's length away, with the top edge at or slightly below eye level.</li>
-        <li>If you work on a laptop for long periods, raise the screen and use a separate keyboard and mouse.</li>
-        <li>Keep the keyboard and mouse close to your body, with your shoulders relaxed and your wrists straight.</li>
-        <li>Rest your feet comfortably on the floor or on a footrest.</li>
-        <li>If you will be looking at your phone for a long time, lift the phone up a little rather than bending your head down.</li>
+        <li>If you sleep on your side, a pillow between your knees can ease your lower back and hips.</li>
+        <li>If you sleep on your back, a pillow under your knees can ease your lower back.</li>
+        <li>Choose a pillow height that keeps your head in line with your shoulders; you will find more detail in the <a href="neck-pain.html">neck pain</a> guide.</li>
+        <li>If pain wakes you every night or does not ease with rest, see a doctor.</li>
       </ul>
     </div>
   </section>
 
   <section>
-    <div class="wrap two">
-      <div>
-        <h2>Sprinkle movement through your day</h2>
-        <p class="soft">The World Health Organization recommends limiting the time you spend sitting and replacing it with physical activity of any intensity. Small habits add up to a big difference by the end of the day.</p>
-      </div>
-      <ul class="dots" style="align-self:center">
-        <li>Get up and move for a few minutes every half hour, or at least once an hour.</li>
-        <li>Stand up or walk around while you are on the phone.</li>
-        <li>Choose a small water bottle, so you have to get up often to refill it.</li>
-        <li>Take the stairs instead of the lift, and walk short distances.</li>
-        <li>If you can, hold some meetings standing up or on the move.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="egzersizler">
     <div class="wrap">
-      <p class="eyebrow">Desk exercises</p>
-      <h2>Six moves for your breaks</h2>
-      <p class="soft">Pick a few of these moves to do during your breaks through the day. They can all be done next to your desk, with no special equipment. If a move clearly makes your pain worse, do not force it.</p>
-      <div class="ex">
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path d="M34 22 H94" stroke="#B9CBC6" stroke-width="2" stroke-dasharray="3 4" fill="none"/><path class="fig" d="M58 40 V80 M58 80 L54 112 M58 80 L62 112 M58 44 L60 66 L67 75"/><path class="fig hl" d="M58 40 L62 30"><animate attributeName="d" values="M58 40 L62 30;M58 40 L56 30;M58 40 L62 30" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><g><animateTransform attributeName="transform" type="translate" values="0 0;-6 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><circle class="hd" cx="62" cy="22" r="8"/><path d="M69 20 L74 23 L69 25 Z" fill="#2A6F6B"/><circle cx="65" cy="20" r="1.4" fill="#efe9d6"/></g><path d="M40 10 H30 M34 6 L30 10 L34 14" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><figcaption>Chin tuck</figcaption></figure><div class="body"><h3>Chin tuck</h3><p>Sit up straight, looking straight ahead. Without tilting your head, draw your chin straight back, as if making a double chin. Feel the back of your neck lengthen; hold for 5 seconds, then relax.</p><span class="dose">10 reps, 2–3 times a day</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M40 40 H80 M60 32 V80 M60 80 L52 112 M60 80 L68 112 M40 40 L36 62 L38 78 M80 40 L84 62 L82 78"/><circle class="hd" cx="60" cy="22" r="8"/><g><animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path d="M42 45 L55 45 L50 64 Z" fill="#C8963E" stroke="#C8963E" stroke-width="2" stroke-linejoin="round"/></g><g><animateTransform attributeName="transform" type="translate" values="0 0;-3 0;0 0" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path d="M78 45 L65 45 L70 64 Z" fill="#C8963E" stroke="#C8963E" stroke-width="2" stroke-linejoin="round"/></g></svg><figcaption>Shoulder blade squeeze</figcaption></figure><div class="body"><h3>Shoulder blade squeeze</h3><p>Stand or sit up straight. Without lifting your shoulders towards your ears, draw your shoulder blades back and slightly down towards each other. Hold for 5 seconds, then relax.</p><span class="dose">10–15 reps, twice a day</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="obj" d="M38 84 H76 M40 84 V112 M74 84 V112 M38 84 V62"/><path class="fig" d="M46 82 H80 V112 M46 82 L44 64"/><g><animateTransform attributeName="transform" type="rotate" values="0 44 64;-24 44 64;0 44 64" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig hl" d="M44 64 L44 42"/><path class="fig" d="M44 46 L56 40 L50 28"/><circle class="hd" cx="46" cy="32" r="8"/></g></svg><figcaption>Upper back (thoracic) extension</figcaption></figure><div class="body"><h3>Upper back (thoracic) extension</h3><p>Sit on a chair with a low back and clasp your hands behind your neck. Using the top of the backrest as a pivot, open your chest towards the ceiling and gently lean back. Stretch your upper back, not your neck.</p><span class="dose">5–10 reps</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M44 40 H76 M60 40 V80 M60 80 L52 112 M60 80 L68 112 M44 40 L40 64 L42 80 M76 40 L80 62 L78 78"/><path class="band" d="M45 40 Q50 32 56 28"><animate attributeName="d" values="M45 40 Q50 32 56 28;M45 40 Q52 31 61 27;M45 40 Q50 32 56 28" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path><g><animateTransform attributeName="transform" type="rotate" values="0 60 40;22 60 40;0 60 40" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig hl" d="M60 40 V30"/><circle class="hd" cx="60" cy="21" r="8"/></g></svg><figcaption>Side stretch</figcaption></figure><div class="body"><h3>Side stretch</h3><p>With your right hand, hold the edge of the chair you are sitting on. Bring your left ear towards your left shoulder. You will feel a gentle stretch on the right side of your neck. Do not lift your shoulder.</p><span class="dose">Hold for 20–30 seconds, 3 times on each side</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><path class="fig" d="M58 72 L54 112 M58 72 L62 112"/><g><animateTransform attributeName="transform" type="rotate" values="0 58 72;-22 58 72;0 58 72" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig hl" d="M58 72 L58 34"/><circle class="hd" cx="59" cy="24" r="7"/><path d="M65 22 L70 25 L65 27 Z" fill="#2A6F6B"/><path class="fig" d="M58 40 L48 54 L56 66"/></g></svg><figcaption>Standing back extension</figcaption></figure><div class="body"><h3>Standing back extension</h3><p>Stand up with your feet shoulder-width apart. Place your hands on your lower back and, pushing your hips gently forwards, lean your upper body back as far as is comfortable, then straighten up. This feels good after sitting for a long time.</p><span class="dose">5–10 reps, at every break</span></div></article>
-<article class="exc"><figure class="an"><svg viewBox="0 0 120 120" aria-hidden="true"><line class="grd" x1="6" y1="112" x2="114" y2="112"/><circle class="hd" cx="44" cy="20" r="7"/><path class="fig" d="M44 30 V76 L38 112 M44 76 L50 112"/><path class="fig" d="M44 40 H84"/><g><animateTransform attributeName="transform" type="rotate" values="0 84 40;70 84 40;0 84 40" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><path class="fig hl" d="M84 40 H98"/></g><path class="fig" d="M44 46 L70 58 L96 44"><animate attributeName="d" values="M44 46 L70 58 L96 44;M44 46 L70 62 L89 53;M44 46 L70 58 L96 44" dur="3.2s" keyTimes="0;0.5;1" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path></svg><figcaption>Wrist flexor stretch</figcaption></figure><div class="body"><h3>Wrist flexor stretch</h3><p>Stretch your arm out in front of you with the elbow straight and palm facing up. With your other hand, gently pull your fingers down and back until you feel a mild stretch on the inside of your forearm. Do not push so far that the numbness increases.</p><span class="dose">15–20 seconds, 3 reps</span></div></article>
+      <h2>Habits for good sleep</h2>
+      <p class="soft">On their own, these habits will not always solve chronic insomnia, but they give you a good foundation.</p>
+      <div class="kinds">
+        <div class="kind"><span class="n">1</span><h3>Get up at the same time</h3><p>Get up at the same time every day, weekends included. Getting out into daylight in the morning sets your body clock.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Keep the bed for sleep</h3><p>If you cannot fall asleep within about 20 minutes, get up and do something calm in dim light; go back to bed when you feel sleepy.</p></div>
+        <div class="kind"><span class="n">3</span><h3>Stop caffeine early</h3><p>Stop having coffee and tea by early afternoon; caffeine keeps working for hours.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Move during the day</h3><p>Regular movement, daylight and keeping naps short all support your night-time sleep. A <a href="morning-routine.html">morning routine</a> can be a good place to start.</p></div>
       </div>
+      <p class="soft" style="margin-top:18px">If your mind is busy before bed, <a href="stress.html">breathing exercises</a> can help.</p>
     </div>
   </section>
 
-  <section id="videolar">
+  <section id="video">
     <div class="wrap">
       <p class="eyebrow">Video</p>
-      <h2>Videos for desk workers</h2>
-      <p class="soft">From the YouTube channel of US physical therapists Bob Schrupp and Brad Heineck.</p>
+      <h2>Why does sleep matter so much?</h2>
+      <p class="soft">A widely watched TED talk in which sleep scientist Matt Walker explains the role sleep plays in learning, immunity and heart health.</p>
       <div class="vids">
         <div class="vid">
-          <div class="vbox"><button type="button" data-yt="TjwKe_YLLEM" aria-label="Play the back stretch video"><img class="thumb" src="https://i.ytimg.com/vi/TjwKe_YLLEM/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
-          <h3>The back stretch everyone should do</h3>
-          <p>A stretch that opens up the middle of your back after long periods of sitting.</p>
-        </div>
-        <div class="vid">
-          <div class="vbox"><button type="button" data-yt="Wsb78V2UYVA" aria-label="Play the basic neck exercise video"><img class="thumb" src="https://i.ytimg.com/vi/Wsb78V2UYVA/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
-          <h3>The one neck exercise everyone should do</h3>
-          <p>A basic exercise for necks that spend long hours in front of a screen.</p>
+          <div class="vbox"><button type="button" data-yt="5MuIMqhT8DM" aria-label="Play the TED talk on sleep"><img class="thumb" src="https://i.ytimg.com/vi/5MuIMqhT8DM/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>Sleep Is Your Superpower</h3>
+          <p>Some of the more striking claims in the talk are debated among scientists; its core message, that regular and sufficient sleep matters, is widely accepted.</p>
         </div>
       </div>
-      <p class="meta">Videos belong to the Bob &amp; Brad channel.</p>
     </div>
   </section>
 
@@ -451,32 +525,32 @@
     <div class="wrap">
       <h2>Frequently asked questions</h2>
       <div class="faq">
-<details><summary>Do I have to sit up straight?</summary><p>No. There is no strong evidence that a single ideal posture exists, or that avoiding “bad” postures prevents back pain. The spine is a robust structure; you can sit comfortably in different positions. What matters is not staying in the same position for long and moving often.</p></details>
-<details><summary>Do standing desks help?</summary><p>They help reduce the time you spend sitting. In a UK study, an adjustable desk with a support programme reduced sitting time during the workday by about 82 minutes at 12 months; however, its effect on musculoskeletal complaints was inconsistent. Standing for long periods is tiring too; the aim is to alternate between sitting and standing.</p></details>
-<details><summary>I exercise. Is sitting for long periods still harmful?</summary><p>In people who sit for more than 8 hours a day, 60–75 minutes of moderate-intensity activity a day eliminates the increased risk of death linked to prolonged sitting. The World Health Organization also recommends limiting sitting time and replacing it with physical activity of any intensity.</p></details>
-<details><summary>How often should I take a break?</summary><p>There is no strong evidence for an exact interval. In practice, getting up and moving for a few minutes every half hour, or at least once an hour, is a good goal. Small habits such as standing up while you are on the phone or walking to get some water count too.</p></details>
-<details><summary>What should I do if I have neck or low back pain?</summary><p>Most neck and low back pain has no serious cause and eases with movement. You can try the exercises in the <a href="neck-pain.html">neck pain</a> and <a href="low-back-pain.html">low back pain</a> guides. If the pain has not improved within a few weeks, see a physiotherapist.</p></details>
+<details><summary>How many hours should adults sleep?</summary><p>According to a joint recommendation from the American Academy of Sleep Medicine and the Sleep Research Society, adults aged 18–60 should regularly sleep 7 hours or more a night. Whether sleeping more than 9 hours a night is linked to health risks is uncertain.</p></details>
+<details><summary>Does coffee in the afternoon affect my sleep?</summary><p>It can. In one study, 400 mg of caffeine (about 2–3 cups of coffee) taken 6 hours before bed cut measured sleep time by more than an hour. If you have trouble sleeping, try stopping coffee and tea by early afternoon.</p></details>
+<details><summary>What is the first-choice treatment for chronic insomnia?</summary><p>The American College of Physicians (ACP) recommends cognitive behavioural therapy for insomnia (CBT-I) as the first treatment for chronic insomnia. It works on your sleep pattern, the link between your bed and sleep, and your worries about sleep. Decide together with your doctor whether or not to use sleeping pills.</p></details>
+<details><summary>Does snoring matter?</summary><p>Snoring on its own is not always a sign of illness. If loud snoring comes with pauses in breathing during sleep, waking up as if choking or excessive sleepiness during the day, see a doctor to be checked for sleep apnoea.</p></details>
       </div>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2>When to see a specialist</h2>
-      <p class="soft">In desk workers, neck, upper back and low back pain is usually harmless and eases with movement. However, see a doctor without delay if you have any of the following:</p>
+      <h2>When should you see a doctor?</h2>
+      <p class="soft">Sleeping badly now and then is normal. But see a doctor if:</p>
       <ul class="dots redflags">
-        <li>Pain spreading into an arm or leg together with numbness, tingling or weakness</li>
-        <li>Constant numbness in the hand, especially if it gets worse at night (possibly <a href="carpal-tunnel-syndrome.html">carpal tunnel syndrome</a>)</li>
-        <li>Night pain that does not ease with rest, fever, or unexplained weight loss</li>
-        <li>A sudden, very severe headache, problems with your vision or difficulty speaking (call <strong>112</strong>)</li>
+        <li>You have struggled to fall asleep or stay asleep on most nights for weeks, and you feel the effects during the day</li>
+        <li>Loud snoring comes with pauses in breathing during sleep or waking up as if choking</li>
+        <li>You are excessively sleepy during the day, especially if you nod off while driving</li>
+        <li>An unpleasant feeling in your legs in the evening, with an urge to move them, stops you from falling asleep</li>
+        <li>Your sleeplessness comes with marked low mood or anxiety</li>
       </ul>
       <aside class="ctacard" aria-label="Quick contact">
         <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/><path transform="translate(7.9 6.8) scale(.4)" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" fill="currentColor" stroke-width="2.5"/></svg></span>
         <div>
           <p class="k">Quick contact</p>
           <h3>Would you like an assessment at home?</h3>
-          <p>If you would like to book a comprehensive functional assessment at home and a personalised rehabilitation session for your neck, upper back or low back problems, you can get in touch on WhatsApp.</p>
-          <div class="acts"><a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20assessment%20and%20session%20for%20neck%20and%20low%20back%20pain%20related%20to%20desk%20work." target="_blank" rel="noopener">Message on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a><a class="cta ghost" href="tel:+905538815568">0553 881 55 68</a></div>
+          <p>If you would like to book a comprehensive functional assessment at home and a personalised rehabilitation session for sleep disrupted by pain, you can get in touch on WhatsApp.</p>
+          <div class="acts"><a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20assessment%20and%20session%20for%20sleep%20disrupted%20by%20pain." target="_blank" rel="noopener">Message on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a><a class="cta ghost" href="tel:+905538815568">0553 881 55 68</a></div>
         </div>
       </aside>
     </div>
@@ -486,11 +560,11 @@
     <div class="wrap col sources">
       <p class="eyebrow">Sources</p>
       <ol>
-        <li>Bull FC, Al-Ansari SS, Biddle S, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/33239350/" target="_blank" rel="noopener">World Health Organization 2020 guidelines on physical activity and sedentary behaviour</a>. Br J Sports Med. 2020;54(24):1451-1462.</li>
-        <li>Ekelund U, Steene-Johannessen J, Brown WJ, et al. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30370-1/abstract" target="_blank" rel="noopener">Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women</a>. Lancet. 2016;388(10051):1302-1310.</li>
-        <li>NIHR Evidence. <a href="https://evidence.nihr.ac.uk/alert/standing-desks-with-a-support-package-reduce-time-sitting-at-work" target="_blank" rel="noopener">Standing desks with a support package reduce time sitting at work</a>.</li>
-        <li>Slater D, et al. <a href="https://www.jospt.org/doi/10.2519/jospt.2019.0610" target="_blank" rel="noopener">"Sit up straight": time to re-evaluate</a>. J Orthop Sports Phys Ther. 2019.</li>
-        <li>The Rotherham NHS Foundation Trust. <a href="https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/posture" target="_blank" rel="noopener">Posture</a>.</li>
+        <li>Watson NF, Badr MS, Belenky G, et al. <a href="https://jcsm.aasm.org/doi/10.5664/jcsm.4758" target="_blank" rel="noopener">Recommended amount of sleep for a healthy adult: a joint consensus statement of the American Academy of Sleep Medicine and Sleep Research Society</a>. J Clin Sleep Med. 2015;11(6):591-592.</li>
+        <li>Drake C, Roehrs T, Shambroom J, Roth T. <a href="https://jcsm.aasm.org/doi/10.5664/jcsm.3170" target="_blank" rel="noopener">Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed</a>. J Clin Sleep Med. 2013;9(11):1195-1200.</li>
+        <li>Qaseem A, Kansagara D, Forciea MA, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/27136449/" target="_blank" rel="noopener">Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians</a>. Ann Intern Med. 2016;165(2):125-133.</li>
+        <li>Krause AJ, Prather AA, Wager TD, Lindquist MA, Walker MP. <a href="https://www.jneurosci.org/content/39/12/2291" target="_blank" rel="noopener">The pain of sleep loss: a brain characterization in humans</a>. J Neurosci. 2019;39(12):2291-2300.</li>
+        <li>Staffe AT, Bech MW, Clemmensen SLK, et al. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6892491/" target="_blank" rel="noopener">Total sleep deprivation increases pain sensitivity, impairs conditioned pain modulation and facilitates temporal summation of pain in healthy participants</a>. PLoS One. 2019.</li>
       </ol>
     </div>
   </section>
@@ -499,8 +573,8 @@
     <div class="wrap">
       <p class="eyebrow" style="margin-bottom:14px">More from the health library</p>
       <div class="more">
-<a href="neck-pain.html"><span class="k">Condition guide</span><span class="t">Neck pain</span></a>
-<a href="low-back-pain.html"><span class="k">Condition guide</span><span class="t">Low back pain</span></a>
+<a href="stress.html"><span class="k">Look after yourself</span><span class="t">What can you do in stressful moments?</span></a>
+<a href="morning-routine.html"><span class="k">Look after yourself</span><span class="t">Start your day with 5 minutes</span></a>
 <a href="health-library.html"><span class="k">Health library</span><span class="t">All topics</span></a>
 <a href="index.html"><span class="k">Home</span><span class="t">Home physiotherapy service</span></a>
       </div>
@@ -530,6 +604,26 @@
     for (var i = 0; i < links.length; i++) links[i].tabIndex = show ? 0 : -1;
   }
   window.addEventListener('scroll', upd, {passive: true}); window.addEventListener('resize', upd); upd();
+})();
+</script>
+<script>
+(function(){
+  var root = document.getElementById('planlayici'); if (!root) return;
+  var $ = function(id){ return document.getElementById(id); };
+  var wake = $('p-wake'), need = 8;
+  function fmt(m){ m = ((m % 1440) + 1440) % 1440; var h = Math.floor(m / 60), n = Math.round(m % 60); return (h < 10 ? '0' : '') + h + ':' + (n < 10 ? '0' : '') + n; }
+  function upd(){
+    var p = (wake.value || '07:00').split(':'), w = (+p[0]) * 60 + (+p[1]);
+    var bed = w - need * 60 - 15;
+    $('p-bed').textContent = fmt(bed); $('p-wind').textContent = fmt(bed - 60); $('p-caf').textContent = fmt(bed - 360);
+  }
+  $('p-need').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    need = +b.getAttribute('data-v'); upd();
+  });
+  wake.addEventListener('input', upd); wake.addEventListener('change', upd);
+  upd();
 })();
 </script>
 <script>

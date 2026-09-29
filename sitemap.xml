@@ -155,6 +155,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/recete.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/sabah-rutini.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sabah-rutini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/morning-routine.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sabah-rutini.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/hareket.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/hareket.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/how-much-exercise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/hareket.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/uyku.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uyku.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sleep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uyku.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-09-29</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -307,5 +328,26 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/recete.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-plan.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/recete.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/morning-routine.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sabah-rutini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/morning-routine.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sabah-rutini.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/how-much-exercise.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/hareket.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/how-much-exercise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/hareket.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/sleep.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uyku.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sleep.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uyku.html"/>
   </url>
 </urlset>
