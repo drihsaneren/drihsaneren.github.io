@@ -202,13 +202,12 @@
   /* gallery mosaic */
   .mosaic-wrap{container-type:inline-size}
   .mosaic{
-    --cols:4;--g:4px;
+    --cols:5;--g:5px;
     display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:var(--g);
     grid-auto-rows:calc((100cqw - (var(--cols) - 1) * var(--g)) / var(--cols) * .75);
     grid-auto-flow:dense;
   }
-  @container (max-width:560px){ .mosaic{--cols:3;--g:3px} }
-  @container (min-width:900px){ .mosaic{--cols:6;--g:5px} }
+  @container (max-width:560px){ .mosaic{--cols:2;--g:4px} }
   .tile{position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block}
   .tile img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
   .tile.big{grid-row:span 2;grid-column:span 2}
@@ -751,7 +750,7 @@
       <li><a href="#hizmetler">Hizmetler</a></li>
       <li><a href="#analiz">Longevity analizi</a></li>
       <li><a href="#ornek-plan">Kişiye özel egzersiz</a></li>
-      <li><a href="#kareler">Klinikten kareler</a></li>
+      <li><a href="#kareler">Uygulama kareleri</a></li>
       <li><a href="#logo">Logonun anlamı</a></li>
       <li><a href="#bilgi">Bilgi köşesi</a></li>
       <li><a href="#ben-kimim">Ben kimim</a></li>
@@ -930,9 +929,9 @@
   <section id="kareler">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">Klinikten kareler</p>
+        <p class="eyebrow">Temsili görseller</p>
         <h2>Uygulamalardan kareler</h2>
-        <p class="intro">Manuel terapi, akupunktur, kuru iğneleme ve elektroterapi uygulamalarından.</p>
+        <p class="intro">Değerlendirme, manuel terapi, kuru iğneleme, elektroterapi ve egzersiz uygulamalarını temsil eden görseller.</p>
       </div>
       <div class="mosaic-wrap">
         <div class="mosaic" id="mosaic"></div>
@@ -1132,7 +1131,7 @@
 <footer>
   <div class="wrap">
     <p>© 2026 İhsan Eren · drihsaneren.com</p>
-    <p>Logo tescillidir. Görsellerdeki hasta yüzleri gizlenmiştir.</p>
+    <p>Logo tescillidir. Galerideki görseller temsilidir.</p>
   </div>
 </footer>
 </div>
@@ -1152,25 +1151,32 @@
 
 <script>
 (function(){
-  var N = 24;
-  var special = {1:'big', 2:'big', 4:'big', 5:'big'};
+  var picks = [
+    [1, 'Temsili görsel: “İntörn Doktor · Fizyoterapist” isimlikli çalışma masası'],
+    [13, 'Temsili görsel: sırtta kuru iğneleme'],
+    [10, 'Temsili görsel: dizde manuel terapi'],
+    [2, 'Temsili görsel: bacağa elektroterapi'],
+    [7, 'Temsili görsel: omurga maketiyle anlatım'],
+    [21, 'Temsili görsel: lastik bantla egzersiz'],
+    [3, 'Temsili görsel: kavrama gücü ölçümü']
+  ];
   var m = document.getElementById('mosaic');
   var pad = function(n){ return (n<10?'0':'') + n; };
-  for (var i=1;i<=N;i++){
+  picks.forEach(function(p, i){
     var b = document.createElement('div');
-    b.className = 'tile' + (special[i] ? ' ' + special[i] : '');
+    b.className = 'tile' + (i === 0 ? ' big' : '');
     var im = document.createElement('img');
-    im.src = 'p' + pad(i) + '_t.jpg';
-    im.alt = 'Klinikten kare ' + i;
-    im.loading = i <= 8 ? 'eager' : 'lazy';
+    im.src = 'p' + pad(p[0]) + (i === 0 ? '.jpg' : '_t.jpg');
+    im.alt = p[1];
+    im.loading = 'lazy';
     im.decoding = 'async';
     b.appendChild(im);
     m.appendChild(b);
-  }
+  });
 
   var groups = { kare: [], rapor: ['rapor-1.jpg','rapor-2.jpg','rapor-3.jpg'] };
-  for (var k=1;k<=N;k++) groups.kare.push('p' + pad(k) + '.jpg');
-  var names = { kare: 'Klinikten kare', rapor: 'Analiz raporu sayfa' };
+  picks.forEach(function(p){ groups.kare.push('p' + pad(p[0]) + '.jpg'); });
+  var names = { kare: 'Kare', rapor: 'Analiz raporu sayfa' };
 
   var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img'),
       lbCount = document.getElementById('lb-count'), cur = 1, list = groups.kare, gname = 'kare', lastFocus = null;

@@ -202,13 +202,12 @@
   /* gallery mosaic */
   .mosaic-wrap{container-type:inline-size}
   .mosaic{
-    --cols:4;--g:4px;
+    --cols:5;--g:5px;
     display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:var(--g);
     grid-auto-rows:calc((100cqw - (var(--cols) - 1) * var(--g)) / var(--cols) * .75);
     grid-auto-flow:dense;
   }
-  @container (max-width:560px){ .mosaic{--cols:3;--g:3px} }
-  @container (min-width:900px){ .mosaic{--cols:6;--g:5px} }
+  @container (max-width:560px){ .mosaic{--cols:2;--g:4px} }
   .tile{position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block}
   .tile img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
   .tile.big{grid-row:span 2;grid-column:span 2}
@@ -752,7 +751,7 @@
       <li><a href="#hizmetler">Services</a></li>
       <li><a href="#analiz">Longevity analysis</a></li>
       <li><a href="#ornek-plan">Personalised exercise</a></li>
-      <li><a href="#kareler">From the clinic</a></li>
+      <li><a href="#kareler">Treatment gallery</a></li>
       <li><a href="#logo">The meaning of the logo</a></li>
       <li><a href="#bilgi">Health library</a></li>
       <li><a href="#ben-kimim">About me</a></li>
@@ -931,9 +930,9 @@
   <section id="kareler">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">From the clinic</p>
-        <h2>Photos from sessions</h2>
-        <p class="intro">From manual therapy, acupuncture, dry needling and electrotherapy sessions.</p>
+        <p class="eyebrow">Illustrative images</p>
+        <h2>Scenes from treatment</h2>
+        <p class="intro">Images representing assessment, manual therapy, dry needling, electrotherapy and exercise.</p>
       </div>
       <div class="mosaic-wrap">
         <div class="mosaic" id="mosaic"></div>
@@ -1133,7 +1132,7 @@
 <footer>
   <div class="wrap">
     <p>© 2026 İhsan Eren · drihsaneren.com</p>
-    <p>The logo is a registered trademark. Patients’ faces in the photos have been hidden.</p>
+    <p>The logo is a registered trademark. The gallery images are illustrative.</p>
   </div>
 </footer>
 </div>
@@ -1153,25 +1152,32 @@
 
 <script>
 (function(){
-  var N = 24;
-  var special = {1:'big', 2:'big', 4:'big', 5:'big'};
+  var picks = [
+    [1, 'Illustrative image: a desk with an “Intern Doctor · Physiotherapist” nameplate'],
+    [13, 'Illustrative image: dry needling on the back'],
+    [10, 'Illustrative image: manual therapy on the knee'],
+    [2, 'Illustrative image: electrotherapy on the leg'],
+    [7, 'Illustrative image: explaining with a spine model'],
+    [21, 'Illustrative image: exercise with a resistance band'],
+    [3, 'Illustrative image: measuring grip strength']
+  ];
   var m = document.getElementById('mosaic');
   var pad = function(n){ return (n<10?'0':'') + n; };
-  for (var i=1;i<=N;i++){
+  picks.forEach(function(p, i){
     var b = document.createElement('div');
-    b.className = 'tile' + (special[i] ? ' ' + special[i] : '');
+    b.className = 'tile' + (i === 0 ? ' big' : '');
     var im = document.createElement('img');
-    im.src = '../p' + pad(i) + '_t.jpg';
-    im.alt = 'Clinic photo ' + i;
-    im.loading = i <= 8 ? 'eager' : 'lazy';
+    im.src = '../p' + pad(p[0]) + (i === 0 ? '.jpg' : '_t.jpg');
+    im.alt = p[1];
+    im.loading = 'lazy';
     im.decoding = 'async';
     b.appendChild(im);
     m.appendChild(b);
-  }
+  });
 
   var groups = { kare: [], rapor: ['../rapor-1.jpg','../rapor-2.jpg','../rapor-3.jpg'] };
-  for (var k=1;k<=N;k++) groups.kare.push('../p' + pad(k) + '.jpg');
-  var names = { kare: 'Clinic photo', rapor: 'Analysis report page' };
+  picks.forEach(function(p){ groups.kare.push('../p' + pad(p[0]) + '.jpg'); });
+  var names = { kare: 'Image', rapor: 'Analysis report page' };
 
   var lb = document.getElementById('lb'), lbImg = document.getElementById('lb-img'),
       lbCount = document.getElementById('lb-count'), cur = 1, list = groups.kare, gname = 'kare', lastFocus = null;
