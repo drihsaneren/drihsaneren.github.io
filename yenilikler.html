@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Geleceğin Tıbbı: Güncel Bilimsel Gelişmeler | İhsan Eren</title>
-<meta name="description" content="Alzheimer kan testleri, Parkinson'da kök hücre nakli, domuz böbreği nakli, mamografide yapay zekâ, işitme kaybında gen tedavisi ve daha fazlası: kısa, kaynaklı özetler.">
+<meta name="description" content="Alzheimer kan testleri, Parkinson'da kök hücre nakli, mRNA kanser aşısı, beyin-bilgisayar arayüzü, domuz böbreği nakli, mamografide yapay zekâ ve daha fazlası: kısa, kaynaklı özetler.">
 <link rel="icon" type="image/png" href="logo.png">
 <link rel="canonical" href="https://drihsaneren.com/yenilikler.html">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Geleceğin Tıbbı: Güncel Bilimsel Gelişmeler | İhsan Eren">
-<meta property="og:description" content="Alzheimer kan testleri, Parkinson'da kök hücre nakli, domuz böbreği nakli, mamografide yapay zekâ, işitme kaybında gen tedavisi ve daha fazlası: kısa, kaynaklı özetler.">
+<meta property="og:description" content="Alzheimer kan testleri, Parkinson'da kök hücre nakli, mRNA kanser aşısı, beyin-bilgisayar arayüzü, domuz böbreği nakli, mamografide yapay zekâ ve daha fazlası: kısa, kaynaklı özetler.">
 <meta property="og:image" content="https://drihsaneren.com/logo.png">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:url" content="https://drihsaneren.com/yenilikler.html">
@@ -185,6 +185,15 @@
   .card .rel{margin:0;font-size:15px}
   .card .rel a{color:var(--foil);text-decoration:none;font-weight:600}
   .card .rel a:hover{text-decoration:underline}
+  .filt{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+  .filt button{all:unset;cursor:pointer;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft)}
+  .filt button:hover{border-color:var(--foil);color:var(--ink)}
+  .filt button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
+  .filt button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .filt small{font-size:12px;opacity:.75;margin-left:4px}
+  .grid.f .card.feat{grid-column:auto;grid-template-columns:1fr;grid-template-rows:auto 1fr}
+  .grid.f .card.feat .il{border-right:0;border-bottom:1px solid var(--line)}
+  [hidden]{display:none!important}
 
 </style>
 <script type="application/ld+json">
@@ -193,7 +202,7 @@
   "@type": "MedicalWebPage",
   "@id": "https://drihsaneren.com/yenilikler.html#sayfa",
   "name": "Geleceğin Tıbbı: Güncel Bilimsel Gelişmeler | İhsan Eren",
-  "description": "Alzheimer kan testleri, Parkinson'da kök hücre nakli, domuz böbreği nakli, mamografide yapay zekâ, işitme kaybında gen tedavisi ve daha fazlası: kısa, kaynaklı özetler.",
+  "description": "Alzheimer kan testleri, Parkinson'da kök hücre nakli, mRNA kanser aşısı, beyin-bilgisayar arayüzü, domuz böbreği nakli, mamografide yapay zekâ ve daha fazlası: kısa, kaynaklı özetler.",
   "url": "https://drihsaneren.com/yenilikler.html",
   "inLanguage": "tr",
   "about": [
@@ -246,6 +255,22 @@
     {
       "@type": "MedicalCondition",
       "name": "Sistemik lupus eritematozus"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Melanom"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Kolon kanseri"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Tip 1 diyabet"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Amiyotrofik lateral skleroz (ALS)"
     }
   ],
   "lastReviewed": "2026-09-28",
@@ -322,6 +347,14 @@
     },
     {
       "@type": "Question",
+      "name": "Egzersiz kanser tedavisinin bir parçası olabilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kolon kanseri tedavisini tamamlamış 889 hastayla yapılan CHALLENGE çalışmasında 3 yıllık, antrenör destekli egzersiz programına katılanlarda kanserin geri dönme, yeni kanser ya da ölüm riski %28, ölüm riski %37 daha düşüktü. Egzersiz programına başlamadan önce tedavi ekibinizle görüşün."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Talasemi ve orak hücreli anemi gen tedavisiyle tedavi edilebilir mi?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -358,8 +391,9 @@
 <main>
   <section>
     <div class="wrap">
+      <div class="filt" role="group" aria-label="Konuya göre süz"><button type="button" data-f="tum" aria-pressed="true"><span>Tümü</span><small>17</small></button><button type="button" data-f="beyin" aria-pressed="false"><span>Beyin ve sinirler</span><small>4</small></button><button type="button" data-f="hareket" aria-pressed="false"><span>Hareket ve ağrı</span><small>4</small></button><button type="button" data-f="gen" aria-pressed="false"><span>Gen ve hücre tedavileri</span><small>7</small></button><button type="button" data-f="tani" aria-pressed="false"><span>Tanı ve teknoloji</span><small>2</small></button></div>
       <div class="grid">
-<article class="card feat">
+<article class="card feat" data-g="tani">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <circle cx="236" cy="86" r="62" fill="rgba(143,164,118,.12)"/>
 <path d="M206 70c0-22 16-38 36-38 10 0 18 4 24 10 10 2 18 11 18 22 0 6-2 11-6 15 3 5 4 10 2 16-3 9-12 15-22 14-5 7-13 11-22 10-12-1-22-10-24-22-4-6-6-11-6-17z" fill="none" stroke="#8fa476" stroke-width="3"/>
@@ -376,7 +410,7 @@
     <p class="point">Önemli: Testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı. Şikâyeti olmayan sağlıklı kişilerde tarama için uygun değiller.</p>
     <p class="src">Kaynak: <a href="https://time.com/article/2026/09/22/who-should-get-new-blood-tests-for-alzheimers-disease/" target="_blank" rel="noopener">TIME, 22 Eylül 2026</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="gen">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M92 50c-28 0-42 22-42 48s14 48 42 48c16 0 24-10 20-22-3-9-12-13-12-26s9-17 12-26c4-12-4-22-20-22z" fill="rgba(226,171,71,.18)" stroke="#e2ab47" stroke-width="3.5"/>
 <g transform="translate(320 0) scale(-1 1)"><path d="M92 50c-28 0-42 22-42 48s14 48 42 48c16 0 24-10 20-22-3-9-12-13-12-26s9-17 12-26c4-12-4-22-20-22z" fill="rgba(143,164,118,.25)" stroke="#8fa476" stroke-width="3.5"/></g>
@@ -390,7 +424,22 @@
     <p class="point">Organ bekleme listelerinin uzunluğu düşünüldüğünde umut verici bir adım. Ancak şimdilik az sayıda hastadan elde edilen deneyimler var; genetiği düzenlenmiş domuz böbreklerinin güvenliği ve kalıcılığı klinik çalışmalarda araştırılıyor.</p>
     <p class="src">Kaynaklar: <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01295-X/abstract" target="_blank" rel="noopener">The Lancet, 9 Eylül 2026</a> · <a href="https://news.massgeneralbrigham.org/en/pig-kidney-xenotransplant-bridge-to-human-transplant" target="_blank" rel="noopener">Mass General Brigham</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="gen">
+  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<g transform="rotate(-30 110 96)"><rect x="60" y="84" width="96" height="24" rx="5" fill="rgba(236,229,207,.12)" stroke="#ece5cf" stroke-width="3"/><rect x="62" y="86" width="52" height="20" rx="3" fill="rgba(226,171,71,.45)"/><path d="M156 96H186" stroke="#ece5cf" stroke-width="3" stroke-linecap="round"/><path d="M40 96H60M40 84V108" stroke="#d8b25e" stroke-width="5" stroke-linecap="round"/></g>
+<path d="M52 150c10-12 20-12 30 0s20 12 30 0 20-12 30 0" fill="none" stroke="#8fa476" stroke-width="4" stroke-linecap="round"/>
+<g fill="#8fa476"><circle cx="67" cy="150" r="3"/><circle cx="97" cy="150" r="3"/><circle cx="127" cy="150" r="3"/></g>
+<path d="M236 54c22 0 40 16 40 38 0 24-20 42-42 40-24-2-40-18-38-42 2-20 18-36 40-36z" fill="rgba(181,72,58,.35)" stroke="#b5483a" stroke-width="3"/>
+<circle cx="236" cy="92" r="46" fill="none" stroke="#e2ab47" stroke-width="2.5" stroke-dasharray="5 5"/>
+<path d="M236 38v-12M236 158v-12M182 92h-12M302 92h-12" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg></div>
+  <div class="body">
+    <div class="tags"><span class="chip g">Kanser</span><span>Ağustos 2026</span></div>
+    <h2>Kişiye özel mRNA kanser aşısı ilk kez faz III'te başarılı</h2>
+    <p>Merck ve Moderna'nın geliştirdiği intismeran, her hastanın tümöründeki mutasyonlara göre ayrı ayrı üretilen bir mRNA aşısı. Ameliyatla tümörü tamamen çıkarılmış evre IIB–IV melanomlu 1.137 hastanın katıldığı INTerpath-001 çalışmasında aşı, bir bağışıklık ilacıyla (pembrolizumab) birlikte verildi ve tek başına ilaca göre hastalığın geri dönmesini ve uzak organlara yayılmasını geciktirdi.</p>
+    <p class="point">Ayrıntılı sayılar henüz açıklanmadı; sonuçlar bir tıp kongresinde sunulacak. Önceki faz IIb çalışmasında nüks ya da ölüm riski %49 daha düşük bulunmuştu. Yeni bir güvenlik sorunu görülmedi.</p>
+    <p class="src">Kaynaklar: <a href="https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/" target="_blank" rel="noopener">Merck, 19 Ağustos 2026</a> · <a href="https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/" target="_blank" rel="noopener">STAT</a></p>
+  </div>
+</article><article class="card" data-g="beyin">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <circle cx="182" cy="96" r="64" fill="rgba(143,164,118,.12)"/>
 <g transform="translate(-60 10)"><path d="M206 70c0-22 16-38 36-38 10 0 18 4 24 10 10 2 18 11 18 22 0 6-2 11-6 15 3 5 4 10 2 16-3 9-12 15-22 14-5 7-13 11-22 10-12-1-22-10-24-22-4-6-6-11-6-17z" fill="none" stroke="#8fa476" stroke-width="3"/>
@@ -407,7 +456,7 @@
     <p class="point">Hücrelere bağlı ciddi bir yan etki görülmedi. Küçük ve erken evre bir çalışma olduğu için etkinin kalıcılığını görmek üzere daha uzun takip ve daha büyük çalışmalar gerekiyor; tedavi henüz rutin kullanımda değil.</p>
     <p class="src">Kaynaklar: <a href="https://www.nature.com/articles/s41591-026-04525-0" target="_blank" rel="noopener">Nature Medicine, 9 Temmuz 2026</a> · <a href="https://www.parkinsons.org.uk/news/2026/landmark-european-stem-cell-trial-announces-positive-results" target="_blank" rel="noopener">Parkinson's UK</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="beyin">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M150 0 C130 60 170 120 150 180" fill="none" stroke="#d8b25e" stroke-width="4" stroke-dasharray="10 8"/>
 <text x="46" y="30" fill="#9fab90" font-family="Figtree,sans-serif" font-size="12" letter-spacing="1.5">KAN</text>
@@ -424,7 +473,7 @@
     <p class="point">İlaç henüz onaylı değil; büyük faz III çalışmaları sürüyor. Az sayıda hastada beyinde mikro kanama gibi yan etkiler izlendi.</p>
     <p class="src">Kaynak: <a href="https://www.clinicaltrialsarena.com/news/roche-alzheimers-trontinemab-aaic-26/" target="_blank" rel="noopener">Clinical Trials Arena, 16 Temmuz 2026</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="gen">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <g stroke="#e2ab47" stroke-width="3" stroke-linecap="round" fill="none"><path d="M110 50V36M110 130V144M70 90H56M150 90H164M82 62L72 52M138 62L148 52M82 118L72 128M138 118L148 128"/><path d="M104 32L110 36L116 32M104 148L110 144L116 148M52 84L56 90L52 96M168 84L164 90L168 96"/></g>
 <circle cx="110" cy="90" r="36" fill="rgba(226,171,71,.2)" stroke="#e2ab47" stroke-width="3.5"/>
@@ -439,38 +488,7 @@
     <p class="point">Ağır sitokin salınım sendromu ya da sinir sistemi yan etkisi görülmedi; bir hastada gelişen karaciğer hasarı tamamen düzeldi. Sonuçlar 9 hastalık erken bir çalışmaya ait; İngiltere'de daha geniş bir faz II çalışması hasta almaya başladı.</p>
     <p class="src">Kaynak: <a href="https://www.ucl.ac.uk/news/2026/jun/car-t-cell-therapy-shows-early-promise-severe-lupus" target="_blank" rel="noopener">UCL, 12 Haziran 2026</a></p>
   </div>
-</article><article class="card feat">
-  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
-<rect x="34" y="24" width="140" height="132" rx="10" fill="#152012" stroke="#8fa476" stroke-width="3"/>
-<path d="M58 144C58 92 90 52 152 44V144Z" fill="rgba(236,229,207,.10)" stroke="rgba(236,229,207,.45)" stroke-width="2"/>
-<circle cx="112" cy="98" r="7" fill="rgba(236,229,207,.6)"/>
-<rect x="95" y="81" width="34" height="34" rx="3" fill="none" stroke="#e2ab47" stroke-width="3" stroke-dasharray="6 4"/>
-<g stroke="rgba(143,164,118,.55)" stroke-width="1.5"><path d="M222 58L256 76M222 58L256 122M222 98L256 76M222 98L256 122M222 138L256 76M222 138L256 122M256 76L290 98M256 122L290 98"/></g>
-<g fill="#8fa476"><circle cx="222" cy="58" r="6"/><circle cx="222" cy="98" r="6"/><circle cx="222" cy="138" r="6"/><circle cx="256" cy="76" r="6"/><circle cx="256" cy="122" r="6"/></g>
-<circle cx="290" cy="98" r="8" fill="#e2ab47"/>
-<path d="M212 98H134" stroke="#e2ab47" stroke-width="2.5" stroke-dasharray="4 5" stroke-linecap="round"/></svg></div>
-  <div class="body">
-    <div class="tags"><span class="chip o">Yapay zekâ</span><span>Ocak 2026</span></div>
-    <h2>Mamografide yapay zekâ desteği: ilk randomize çalışmanın sonuçları</h2>
-    <p>İsveç'te 105 binden fazla kadının katıldığı MASAI çalışmasında mamografiler ya yapay zekâ desteğiyle ya da standart şekilde iki radyolog tarafından okundu. Yapay zekâ destekli grupta kanserlerin %81'i taramada yakalandı (standart grupta %74); iki tarama arasında ortaya çıkan kanserler %12, agresif alt tipteki kanserler %27 daha azdı. Yanlış alarm oranı iki grupta benzerdi.</p>
-    <p class="point">Yapay zekâ radyoloğun yerini almıyor, ona destek oluyor; ara sonuçlarda radyologların okuma yükü %44 azalmıştı. Çalışma tek bir ülkede, tek bir cihaz ve tek bir yazılımla, deneyimli radyologlarla yapıldı.</p>
-    <p class="src">Kaynaklar: <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02464-X/abstract" target="_blank" rel="noopener">The Lancet, 29 Ocak 2026</a> · <a href="https://www.eurekalert.org/news-releases/1114399" target="_blank" rel="noopener">EurekAlert!</a></p>
-  </div>
-</article><article class="card">
-  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
-<circle cx="150" cy="92" r="66" fill="rgba(143,164,118,.10)"/>
-<path d="M156 36c-32 0-54 24-54 54 0 18 8 30 17 38 9 8 9 20 19 27 13 9 30 2 32-13 1-11-6-17-6-27 0-11 13-15 17-30 7-26-9-49-25-49z" fill="none" stroke="#8fa476" stroke-width="6" stroke-linejoin="round"/>
-<path d="M136 90c0-15 11-26 24-24 11 2 15 13 11 22-4 9-15 9-15 20" fill="none" stroke="#8fa476" stroke-width="5" stroke-linecap="round"/>
-<g fill="none" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"><path d="M214 68a30 30 0 0 1 0 48"/><path d="M234 56a48 48 0 0 1 0 72" opacity=".75"/><path d="M254 44a66 66 0 0 1 0 96" opacity=".5"/></g>
-<g fill="none" stroke-width="3" stroke-linecap="round"><path d="M34 150c10-14 20-14 30 0s20 14 30 0" stroke="#d8b25e"/><path d="M34 150c10 14 20 14 30 0s20-14 30 0" stroke="rgba(236,229,207,.6)"/></g></svg></div>
-  <div class="body">
-    <div class="tags"><span class="chip g">Genetik</span><span>Nisan 2026</span></div>
-    <h2>Doğuştan işitme kaybında gen tedavisi kalıcı görünüyor</h2>
-    <p>OTOF genindeki bir bozukluk nedeniyle işitme kaybı olan 9 aylık ile 32 yaş arasındaki 42 kişinin iç kulağına, sağlam bir gen kopyası taşıyan zararsız hale getirilmiş bir virüs verildi. Çin'deki sekiz merkezde yapılan çalışmada 2,5 yıllık izlemde katılımcıların %90'ının işitmesi düzeldi, yarısından fazlası normal işitme düzeyine ulaştı. Çocuklar seslere tepki vermekten kısa cümleler kurmaya, hatta şarkı söylemeye kadar ilerledi.</p>
-    <p class="point">Ciddi yan etki görülmedi. Etki en çok 18 yaş ve altındakilerde belirgindi; katılımcıların %10'unda yanıt olmadı. Tedavi yalnızca OTOF kaynaklı işitme kaybı içindir ve onay süreci yeni başlıyor.</p>
-    <p class="src">Kaynak: <a href="https://news.harvard.edu/gazette/story/2026/04/hearing-breakthrough-holds-up/" target="_blank" rel="noopener">Nature, 22 Nisan 2026 · Harvard Gazette</a></p>
-  </div>
-</article><article class="card">
+</article><article class="card" data-g="hareket">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <rect x="132" y="-14" width="62" height="92" rx="24" fill="rgba(236,229,207,.10)" stroke="#8fa476" stroke-width="3"/>
 <rect x="136" y="96" width="54" height="96" rx="16" fill="rgba(236,229,207,.10)" stroke="#8fa476" stroke-width="3"/>
@@ -486,7 +504,7 @@
     <p class="src">Kaynak: <a href="https://www.sciencedaily.com/releases/2026/06/260616102217.htm" target="_blank" rel="noopener">Radiology, 16 Haziran 2026 · ScienceDaily</a></p>
     <p class="rel"><a href="diz-kireclenmesi.html">Diz kireçlenmesi rehberi →</a></p>
   </div>
-</article><article class="card feat">
+</article><article class="card feat" data-g="hareket">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <g fill="none" stroke="#8fa476" stroke-width="4" stroke-linecap="round"><path d="M48 90C92 90 100 50 138 50"/><path d="M48 90C92 90 100 130 138 130"/></g>
 <g fill="none" stroke="#ece5cf" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" opacity=".7"><path d="M184 50C224 50 230 90 266 90"/><path d="M184 130C224 130 230 90 266 90"/></g>
@@ -502,7 +520,36 @@
     <p class="src">Kaynak: <a href="https://doi.org/10.7326/annals-25-04645" target="_blank" rel="noopener">Annals of Internal Medicine, 20 Nisan 2026</a></p>
     <p class="rel"><a href="bel-agrisi.html">Bel ağrısı rehberi →</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="gen">
+  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<circle cx="150" cy="92" r="66" fill="rgba(143,164,118,.10)"/>
+<path d="M156 36c-32 0-54 24-54 54 0 18 8 30 17 38 9 8 9 20 19 27 13 9 30 2 32-13 1-11-6-17-6-27 0-11 13-15 17-30 7-26-9-49-25-49z" fill="none" stroke="#8fa476" stroke-width="6" stroke-linejoin="round"/>
+<path d="M136 90c0-15 11-26 24-24 11 2 15 13 11 22-4 9-15 9-15 20" fill="none" stroke="#8fa476" stroke-width="5" stroke-linecap="round"/>
+<g fill="none" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"><path d="M214 68a30 30 0 0 1 0 48"/><path d="M234 56a48 48 0 0 1 0 72" opacity=".75"/><path d="M254 44a66 66 0 0 1 0 96" opacity=".5"/></g>
+<g fill="none" stroke-width="3" stroke-linecap="round"><path d="M34 150c10-14 20-14 30 0s20 14 30 0" stroke="#d8b25e"/><path d="M34 150c10 14 20 14 30 0s20-14 30 0" stroke="rgba(236,229,207,.6)"/></g></svg></div>
+  <div class="body">
+    <div class="tags"><span class="chip g">Genetik</span><span>Nisan 2026</span></div>
+    <h2>Doğuştan işitme kaybında gen tedavisi kalıcı görünüyor</h2>
+    <p>OTOF genindeki bir bozukluk nedeniyle işitme kaybı olan 9 aylık ile 32 yaş arasındaki 42 kişinin iç kulağına, sağlam bir gen kopyası taşıyan zararsız hale getirilmiş bir virüs verildi. Çin'deki sekiz merkezde yapılan çalışmada 2,5 yıllık izlemde katılımcıların %90'ının işitmesi düzeldi, yarısından fazlası normal işitme düzeyine ulaştı. Çocuklar seslere tepki vermekten kısa cümleler kurmaya, hatta şarkı söylemeye kadar ilerledi.</p>
+    <p class="point">Ciddi yan etki görülmedi. Etki en çok 18 yaş ve altındakilerde belirgindi; katılımcıların %10'unda yanıt olmadı. Tedavi yalnızca OTOF kaynaklı işitme kaybı içindir ve onay süreci yeni başlıyor.</p>
+    <p class="src">Kaynak: <a href="https://news.harvard.edu/gazette/story/2026/04/hearing-breakthrough-holds-up/" target="_blank" rel="noopener">Nature, 22 Nisan 2026 · Harvard Gazette</a></p>
+  </div>
+</article><article class="card" data-g="beyin">
+  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M60 150V124c-14-8-22-24-22-44 0-32 26-54 56-54 28 0 50 20 50 48 0 8-2 14 2 20l10 14c2 4 0 8-4 8h-8v14c0 8-6 12-14 12h-16v22" fill="none" stroke="#8fa476" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="82" y="36" width="24" height="16" rx="3" fill="#e2ab47"/><g fill="#223020"><circle cx="89" cy="44" r="1.8"/><circle cx="94" cy="44" r="1.8"/><circle cx="99" cy="44" r="1.8"/></g>
+<path d="M106 44C150 30 176 48 196 72" fill="none" stroke="#e2ab47" stroke-width="2.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<g fill="rgba(236,229,207,.14)" stroke="rgba(236,229,207,.45)" stroke-width="1.5"><rect x="196" y="84" width="18" height="16" rx="3"/><rect x="218" y="84" width="18" height="16" rx="3"/><rect x="262" y="84" width="18" height="16" rx="3"/><rect x="200" y="104" width="18" height="16" rx="3"/><rect x="222" y="104" width="18" height="16" rx="3"/><rect x="244" y="104" width="18" height="16" rx="3"/><rect x="266" y="104" width="18" height="16" rx="3"/><rect x="208" y="124" width="68" height="14" rx="3"/></g>
+<rect x="240" y="84" width="18" height="16" rx="3" fill="#e2ab47"/>
+<path d="M204 62h54" stroke="#ece5cf" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M262 54v16" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg></div>
+  <div class="body">
+    <div class="tags"><span class="chip">Nöroteknoloji</span><span>Mart 2026</span></div>
+    <h2>Beyin-bilgisayar arayüzüyle evde hızlı yazı</h2>
+    <p>ABD'deki BrainGate çalışmasında, biri ileri evre ALS, diğeri boyun hizasında omurilik yaralanması olan iki katılımcının beynin hareket bölgesine küçük elektrotlar yerleştirildi. Sistem, parmakları hareket ettirme girişimini klavyedeki harflere çevirdi. Katılımcılardan biri kendi evinde dakikada 22 kelime yazdı ve kelime hatası oranı %1,6'da kaldı; kurulum için yaklaşık 30 cümlelik bir ayar yeterli oldu.</p>
+    <p class="point">Konuşamayan ve elini kullanamayan kişiler için iletişimde büyük bir adım. Cihaz henüz yalnızca araştırma amaçlı kullanılıyor ve beyin ameliyatı gerektiriyor.</p>
+    <p class="src">Kaynak: <a href="https://www.brown.edu/news/2026-03-16/braingate-rapid-communication" target="_blank" rel="noopener">Nature Neuroscience · Brown Üniversitesi, 16 Mart 2026</a></p>
+  </div>
+</article><article class="card" data-g="beyin">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <g fill="#8fa476"><rect x="96" y="14" width="36" height="12" rx="4"/><rect x="96" y="30" width="36" height="12" rx="4"/><rect x="96" y="46" width="36" height="12" rx="4"/><rect x="96" y="62" width="36" height="12" rx="4"/><rect x="96" y="102" width="36" height="12" rx="4"/><rect x="96" y="118" width="36" height="12" rx="4"/><rect x="96" y="134" width="36" height="12" rx="4"/><rect x="96" y="150" width="36" height="12" rx="4"/></g>
 <path d="M92 84l8 8 8-8 8 8 8-8 8 8 8-8" fill="none" stroke="#b5483a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -520,7 +567,24 @@
     <p class="point">eWALK'un asıl mesajı: yürüme eğitimi tek başına, uzun süredir omurilik yaralanması olan kişilerde bile yürümeyi belirgin şekilde iyileştirdi. Uyarım teknolojileri umut vadediyor ama henüz rehabilitasyonun yerini tutmuyor.</p>
     <p class="src">Kaynaklar: <a href="https://www.brown.edu/news/2026-03-11/spinal-cord-stimulation" target="_blank" rel="noopener">Brown Üniversitesi, 11 Mart 2026</a> · <a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00049-0/fulltext" target="_blank" rel="noopener">eClinicalMedicine, 2026</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="tani">
+  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<rect x="34" y="24" width="140" height="132" rx="10" fill="#152012" stroke="#8fa476" stroke-width="3"/>
+<path d="M58 144C58 92 90 52 152 44V144Z" fill="rgba(236,229,207,.10)" stroke="rgba(236,229,207,.45)" stroke-width="2"/>
+<circle cx="112" cy="98" r="7" fill="rgba(236,229,207,.6)"/>
+<rect x="95" y="81" width="34" height="34" rx="3" fill="none" stroke="#e2ab47" stroke-width="3" stroke-dasharray="6 4"/>
+<g stroke="rgba(143,164,118,.55)" stroke-width="1.5"><path d="M222 58L256 76M222 58L256 122M222 98L256 76M222 98L256 122M222 138L256 76M222 138L256 122M256 76L290 98M256 122L290 98"/></g>
+<g fill="#8fa476"><circle cx="222" cy="58" r="6"/><circle cx="222" cy="98" r="6"/><circle cx="222" cy="138" r="6"/><circle cx="256" cy="76" r="6"/><circle cx="256" cy="122" r="6"/></g>
+<circle cx="290" cy="98" r="8" fill="#e2ab47"/>
+<path d="M212 98H134" stroke="#e2ab47" stroke-width="2.5" stroke-dasharray="4 5" stroke-linecap="round"/></svg></div>
+  <div class="body">
+    <div class="tags"><span class="chip o">Yapay zekâ</span><span>Ocak 2026</span></div>
+    <h2>Mamografide yapay zekâ desteği: ilk randomize çalışmanın sonuçları</h2>
+    <p>İsveç'te 105 binden fazla kadının katıldığı MASAI çalışmasında mamografiler ya yapay zekâ desteğiyle ya da standart şekilde iki radyolog tarafından okundu. Yapay zekâ destekli grupta kanserlerin %81'i taramada yakalandı (standart grupta %74); iki tarama arasında ortaya çıkan kanserler %12, agresif alt tipteki kanserler %27 daha azdı. Yanlış alarm oranı iki grupta benzerdi.</p>
+    <p class="point">Yapay zekâ radyoloğun yerini almıyor, ona destek oluyor; ara sonuçlarda radyologların okuma yükü %44 azalmıştı. Çalışma tek bir ülkede, tek bir cihaz ve tek bir yazılımla, deneyimli radyologlarla yapıldı.</p>
+    <p class="src">Kaynaklar: <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02464-X/abstract" target="_blank" rel="noopener">The Lancet, 29 Ocak 2026</a> · <a href="https://www.eurekalert.org/news-releases/1114399" target="_blank" rel="noopener">EurekAlert!</a></p>
+  </div>
+</article><article class="card" data-g="hareket">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M160 12v156" stroke="rgba(236,229,207,.3)" stroke-width="2" stroke-dasharray="6 6"/>
 <g transform="translate(112 100)" fill="#8fa476"><ellipse cy="-10" rx="13" ry="21"/><ellipse cy="28" rx="10" ry="11"/><circle cx="7" cy="-39" r="5"/><circle cx="-2" cy="-41" r="4"/><circle cx="-9" cy="-38" r="3.5"/><circle cx="-14" cy="-33" r="3"/></g>
@@ -535,7 +599,37 @@
     <p class="src">Kaynak: <a href="https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(25)00151-1/abstract" target="_blank" rel="noopener">The Lancet Rheumatology, Ekim 2025</a></p>
     <p class="rel"><a href="diz-kireclenmesi.html">Diz kireçlenmesi rehberi →</a></p>
   </div>
-</article><article class="card">
+</article><article class="card" data-g="hareket">
+  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M40 156H280" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/>
+<circle cx="160" cy="34" r="12" fill="#8fa476"/>
+<path d="M156 50L146 96M150 60L128 76L114 70M150 60L172 70L184 58M146 96L166 118L160 152M146 96L126 120L106 124" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 60h-26M96 84h-36M88 108h-22" stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-linecap="round"/>
+<path d="M238 64c-10-14-30-6-26 10 3 12 26 26 26 26s23-14 26-26c4-16-16-24-26-10z" fill="#e2ab47"/>
+<path d="M214 118h48" stroke="#d8b25e" stroke-width="3" stroke-dasharray="4 5" stroke-linecap="round"/></svg></div>
+  <div class="body">
+    <div class="tags"><span class="chip o">Egzersiz</span><span>Haziran 2025</span></div>
+    <h2>Kolon kanseri sonrası egzersiz hayat kurtarıyor</h2>
+    <p>6 ülkede, kemoterapisini tamamlamış 889 kolon kanseri hastasıyla yapılan CHALLENGE çalışmasında bir grup 3 yıllık, antrenör desteğiyle kişiye özel bir egzersiz programına katıldı (tempolu yürüyüşten grup derslerine kadar); diğer grup yalnızca sağlık eğitimi aldı. 5 yılda egzersiz grubunun %80'i, diğer grubun %74'ü kanserden arınmış kaldı; 8 yılda hayatta kalma %90'a karşı %83'tü.</p>
+    <p class="point">Egzersiz grubunda kanserin geri dönme, yeni kanser ya da ölüm riski %28, ölüm riski %37 daha düşüktü. Egzersizin kanser tedavisinin bir parçası olabileceğini gösteren ilk büyük randomize çalışma.</p>
+    <p class="src">Kaynaklar: <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2502760" target="_blank" rel="noopener">New England Journal of Medicine, Haziran 2025</a> · <a href="https://www.oncology-central.com/world-first-trial-highlights-survival-benefits-of-exercise-for-colon-cancer/" target="_blank" rel="noopener">Oncology Central</a></p>
+    <p class="rel"><a href="hareket.html">Ne kadar hareket yeterli? →</a></p>
+  </div>
+</article><article class="card" data-g="gen">
+  <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M50 104c0-26 30-38 60-36 26 2 44-14 72-14 34 0 58 18 58 40 0 24-26 34-52 30-22-4-40 14-72 12-36-2-66-8-66-32z" fill="rgba(143,164,118,.16)" stroke="#8fa476" stroke-width="3.5"/>
+<g fill="#e2ab47"><circle cx="150" cy="90" r="7"/><circle cx="164" cy="84" r="6"/><circle cx="166" cy="98" r="6.5"/><circle cx="152" cy="104" r="5.5"/><circle cx="140" cy="96" r="5"/></g>
+<circle cx="154" cy="94" r="24" fill="none" stroke="#e2ab47" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M266 46c0 0 16 18 16 30a16 16 0 0 1-32 0c0-12 16-30 16-30z" fill="#b5483a"/>
+<path d="M258 78l6 6 10-12" fill="none" stroke="#ece5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="body">
+    <div class="tags"><span class="chip g">Diyabet</span><span>Haziran 2025</span></div>
+    <h2>Tip 1 diyabette kök hücreden üretilen insülin hücreleri</h2>
+    <p>Vertex'in geliştirdiği zimislecel, kök hücreden laboratuvarda üretilen ve insülin salgılayan adacık hücrelerinden oluşuyor. Tam doz alan 12 hastanın 10'u bir yılın sonunda insülin iğnesine ihtiyaç duymadı; 12 hastanın tamamında HbA1c %7'nin altına indi ve ağır şeker düşmesi yaşanmadı.</p>
+    <p class="point">Hücrelerin reddedilmemesi için bağışıklık baskılayıcı ilaç kullanmak gerekiyor. Çalışmada iki hasta hayatını kaybetti; biri bu ilaçlara bağlı bir enfeksiyon nedeniyle. Faz III çalışmaları sürüyor.</p>
+    <p class="src">Kaynaklar: <a href="https://www.nejm.org/doi/abs/10.1056/NEJMoa2506549" target="_blank" rel="noopener">New England Journal of Medicine, Haziran 2025</a> · <a href="https://www.hcplive.com/view/zimislecel-enables-insulin-independence-in-10-participants-with-type-1-diabetes" target="_blank" rel="noopener">HCPLive</a></p>
+  </div>
+</article><article class="card" data-g="gen">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <g fill="none" stroke-width="4" stroke-linecap="round"><path d="M40 60 C80 20 120 20 160 60 S240 100 280 60" stroke="#8fa476"/><path d="M40 60 C80 100 120 100 160 60 S240 20 280 60" stroke="#ece5cf" opacity=".85"/></g>
 <g stroke-width="3" stroke-linecap="round"><path d="M64 44v32M96 34v52M128 38v44M192 44v32M224 34v52M256 38v44" stroke="rgba(236,229,207,.35)"/><path d="M160 46v28" stroke="#e2ab47" stroke-width="5"/></g>
@@ -548,7 +642,7 @@
     <p class="point">Çok nadir hastalıklar için “her hastaya özel” tedavi üretmenin mümkün olduğunu gösteren ilk örneklerden biri.</p>
     <p class="src">Kaynak: <a href="https://innovativegenomics.org/news/crispr-clinical-trials-2026/" target="_blank" rel="noopener">Innovative Genomics Institute, 2026</a></p>
   </div>
-</article><article class="card">
+</article><article class="card feat" data-g="gen">
   <div class="il"><svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <g fill="none" stroke-width="4" stroke-linecap="round"><path d="M20 70 C60 30 100 30 140 70 S220 110 260 70 S300 50 320 60" stroke="#8fa476"/><path d="M20 70 C60 110 100 110 140 70 S220 30 260 70 S300 90 320 80" stroke="#ece5cf" opacity=".85"/></g>
 <g stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-linecap="round"><path d="M44 54v32M76 44v52M108 48v44M172 54v32M204 44v52M236 48v44"/></g>
@@ -579,6 +673,7 @@
 <details><summary>Domuz organları insanlara nakledilebiliyor mu?</summary><p>Henüz deneysel. ABD'de bir hastaya nakledilen genetiği düzenlenmiş domuz böbreği onu 271 gün diyalizden uzak tuttu ve ardından insan böbreği nakline köprü oldu. Bu yöntemin güvenliği ve kalıcılığı klinik çalışmalarda araştırılıyor.</p></details>
 <details><summary>Parkinson hastalığında kök hücre tedavisi var mı?</summary><p>Henüz rutin bir tedavi değildir. STEM-PD adlı erken evre çalışmada kök hücreden üretilen dopamin hücreleri 8 hastaya nakledildi; bir yıl sonra değerlendirilen 7 hastanın 6'sı ilaç dozunu belirgin şekilde azalttı ve hücrelere bağlı ciddi yan etki görülmedi. Etkinin kalıcılığını görmek için daha uzun takip ve daha büyük çalışmalar gerekiyor.</p></details>
 <details><summary>Diz kireçlenmesinde yürüyüş şeklini değiştirmek ağrıyı azaltır mı?</summary><p>68 kişilik bir çalışmada kişiye özel belirlenen ayak açısıyla yapılan yürüyüş eğitimi, bir yılda ağrıyı 10 üzerinden ortalama 2,5 puan azalttı; sahte eğitim grubunda azalma 1,3 puandı. Bu herkese uyan bir öneri değildir; kişiye özel ölçüm ve uzman eşliği gerekir.</p></details>
+<details><summary>Egzersiz kanser tedavisinin bir parçası olabilir mi?</summary><p>Kolon kanseri tedavisini tamamlamış 889 hastayla yapılan CHALLENGE çalışmasında 3 yıllık, antrenör destekli egzersiz programına katılanlarda kanserin geri dönme, yeni kanser ya da ölüm riski %28, ölüm riski %37 daha düşüktü. Egzersiz programına başlamadan önce tedavi ekibinizle görüşün.</p></details>
 <details><summary>Talasemi ve orak hücreli anemi gen tedavisiyle tedavi edilebilir mi?</summary><p>Onaylı ilk CRISPR tedavisi Casgevy, orak hücreli anemi ve beta talasemide kullanılmaktadır. Çalışmalarda orak hücre hastalarının 17'de 16'sı ağrı krizi yaşamadı, talasemi hastalarının 27'de 25'i kan nakline ihtiyaç duymadı. Tedavi pahalıdır ve her merkezde uygulanamamaktadır.</p></details>
       </div>
       <div class="note" style="margin-top:28px">Bu sayfa bilgilendirme amaçlıdır, tedavi önerisi değildir. Bahsedilen test ve tedavilerin bazıları Türkiye'de henüz kullanımda olmayabilir. Görseller temsili çizimlerdir.</div>
@@ -620,6 +715,18 @@
     for (var i = 0; i < links.length; i++) links[i].tabIndex = show ? 0 : -1;
   }
   window.addEventListener('scroll', upd, {passive: true}); window.addEventListener('resize', upd); upd();
+})();
+</script>
+<script>
+(function(){
+  var bar = document.querySelector('.filt'), grid = document.querySelector('.grid'); if (!bar || !grid) return;
+  bar.addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    var f = b.getAttribute('data-f');
+    bar.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    grid.classList.toggle('f', f !== 'tum');
+    grid.querySelectorAll('.card').forEach(function(c){ c.hidden = f !== 'tum' && c.getAttribute('data-g') !== f; });
+  });
 })();
 </script>
 
