@@ -22,7 +22,7 @@
     keys: ["navigate", "open", "close"],
     chips: ["Low back pain", "Neck pain", "Knee osteoarthritis", "Frozen shoulder", "Plantar fasciitis", "Sleep", "Stress", "Parkinson's"],
     stop: "a an and are as at be by can do does for from how i in is it me my of on or should the to what when which why with you your",
-    syn: { arthritis: ["osteoarthritis"], slipped: ["herniation", "hernia"], disc: ["disc", "disk"], disk: ["disc"], insomnia: ["sleep"], anxiety: ["stress"], panic: ["stress"], cva: ["stroke"], paralysis: ["stroke"], osteopenia: ["osteoporosis"], tendinitis: ["tendinopathy"], epicondylitis: ["elbow"], spur: ["spur", "plantar"] },
+    syn: { dizziness: ["vertigo", "dizziness"], arthritis: ["osteoarthritis"], slipped: ["herniation", "hernia"], disc: ["disc", "disk"], disk: ["disc"], insomnia: ["sleep"], anxiety: ["stress"], panic: ["stress"], cva: ["stroke"], paralysis: ["stroke"], osteopenia: ["osteoporosis"], tendinitis: ["tendinopathy"], epicondylitis: ["elbow"], spur: ["spur", "plantar"] },
     file: "ara-en.json",
   } : {
     label: "Sitede ara",
@@ -40,7 +40,7 @@
     keys: ["gezin", "aç", "kapat"],
     chips: ["Bel ağrısı", "Boyun fıtığı", "Diz kireçlenmesi", "Donuk omuz", "Topuk dikeni", "Uyku", "Stres", "Parkinson"],
     stop: "acaba ama bana ben beni bir biraz bu da de daha en gibi hangi icin ile iyi kac ki mi mu mi misin mu mudur ne neden nedir nasil o olan olur sey siz ve veya ya yapmali yapilir",
-    syn: { felc: ["inme"], artroz: ["kirec"], osteoartrit: ["kirec"], osteoartroz: ["kirec"], kireclenmesi: ["kirec"], osteopeni: ["osteoporoz", "erimesi"], siyatik: ["siyatik", "fitik"], hernisi: ["fitik"], disk: ["fitik", "disk"], uykusuzluk: ["uyku"], anksiyete: ["stres", "kaygi"], panik: ["stres"], depresyon: ["cokkunluk", "ruh"], tendinit: ["tendon"], epikondilit: ["dirsek"], fasiit: ["topuk"], plantar: ["topuk", "plantar"], menopoz: ["kemik"], yuruyus: ["yuru", "adim"], spor: ["egzersiz"], jimnastik: ["egzersiz"], fizik: ["fizyoterapi"], kolon: ["kolon"], onkoloji: ["kanser"], tumor: ["kanser"], protezi: ["protez"] },
+    syn: { vertigo: ["donme", "bppv"], sersemlik: ["donme"], felc: ["inme"], artroz: ["kirec"], osteoartrit: ["kirec"], osteoartroz: ["kirec"], kireclenmesi: ["kirec"], osteopeni: ["osteoporoz", "erimesi"], siyatik: ["siyatik", "fitik"], hernisi: ["fitik"], disk: ["fitik", "disk"], uykusuzluk: ["uyku"], anksiyete: ["stres", "kaygi"], panik: ["stres"], depresyon: ["cokkunluk", "ruh"], tendinit: ["tendon"], epikondilit: ["dirsek"], fasiit: ["topuk"], plantar: ["topuk", "plantar"], menopoz: ["kemik"], yuruyus: ["yuru", "adim"], spor: ["egzersiz"], jimnastik: ["egzersiz"], fizik: ["fizyoterapi"], kolon: ["kolon"], onkoloji: ["kanser"], tumor: ["kanser"], protezi: ["protez"] },
     file: "ara-tr.json",
   };
   const STOP = new Set(T.stop.split(" "));
@@ -96,6 +96,11 @@
     };
     add(t, 1);
     stems(t).forEach((s, i) => add(s, 0.82 - 0.08 * i));
+    // Türkçe ünsüz yumuşaması: tutukluk ↔ tutukluğu, kitap ↔ kitabı, kanat ↔ kanadı
+    if (!EN) {
+      const SOFT = { k: "g", g: "k", p: "b", b: "p", t: "d", d: "t" };
+      [...out].forEach((v) => { const c = v.s.slice(-1); if (SOFT[c] && v.s.length >= 4) add(v.s.slice(0, -1) + SOFT[c], v.w * 0.9); });
+    }
     [...out].forEach((v) => (T.syn[v.s] || []).forEach((s) => add(s, 0.9)));
     return out;
   }

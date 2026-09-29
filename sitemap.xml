@@ -197,6 +197,34 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kanser-egzersiz.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/menisku-yirtigi.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/menisku-yirtigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/meniscus-tear.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/menisku-yirtigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/fibromiyalji.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/fibromiyalji.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/fibromyalgia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/fibromiyalji.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/bas-donmesi.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/bas-donmesi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/vertigo-bppv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/bas-donmesi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/ankilozan-spondilit.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ankilozan-spondilit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/ankylosing-spondylitis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ankilozan-spondilit.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-09-29</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -391,5 +419,33 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kanser-egzersiz.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-and-cancer.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kanser-egzersiz.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/meniscus-tear.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/menisku-yirtigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/meniscus-tear.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/menisku-yirtigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/fibromyalgia.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/fibromiyalji.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/fibromyalgia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/fibromiyalji.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/vertigo-bppv.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/bas-donmesi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/vertigo-bppv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/bas-donmesi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/ankylosing-spondylitis.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ankilozan-spondilit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/ankylosing-spondylitis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ankilozan-spondilit.html"/>
   </url>
 </urlset>
