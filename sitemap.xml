@@ -176,6 +176,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uyku.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/parkinson.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/parkinson.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/parkinsons-disease.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/parkinson.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/kalca-kirigi.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kalca-kirigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/hip-fracture-rehab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalca-kirigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/kanser-egzersiz.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kanser-egzersiz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-and-cancer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kanser-egzersiz.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-09-29</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -349,5 +370,26 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uyku.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sleep.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uyku.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/parkinsons-disease.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/parkinson.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/parkinsons-disease.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/parkinson.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/hip-fracture-rehab.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kalca-kirigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/hip-fracture-rehab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalca-kirigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/exercise-and-cancer.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kanser-egzersiz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-and-cancer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kanser-egzersiz.html"/>
   </url>
 </urlset>
