@@ -172,6 +172,41 @@
   .step-label h3{font-size:21px}
   .step p{margin:0;color:var(--muted);font-size:15px}
 
+  /* longevity bölüm başı */
+  #analiz{position:relative;overflow:hidden;isolation:isolate}
+  #analiz::before{content:"";position:absolute;left:50%;top:-260px;width:min(1200px,160vw);height:760px;translate:-50% 0;z-index:-1;pointer-events:none;
+    background:radial-gradient(closest-side,rgba(226,171,71,.14),rgba(143,164,118,.06) 55%,transparent);animation:aura 10s ease-in-out infinite}
+  .lx{display:grid;gap:14px;margin-bottom:clamp(36px,6vw,56px)}
+  .lx-h{display:grid;gap:10px;max-width:none}
+  .lx-h1{font-size:clamp(32px,6.4vw,54px);line-height:1.12;padding:.06em 0 .14em;margin-bottom:-.12em;color:var(--foil)}
+  @supports ((-webkit-background-clip:text) or (background-clip:text)){
+    .lx-h1{background:linear-gradient(100deg,var(--foil) 0 40%,#fff3cf 50%,var(--foil) 60% 100%) 100% 0/260% 100% no-repeat;-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lx.seen .lx-h1{animation:shimmer 2.2s ease-in-out .3s both}
+  }
+  .lx-h2{font-size:clamp(21px,3vw,28px);line-height:1.3;color:var(--ink);max-width:36ch}
+  .lx .intro{margin:0;color:var(--ink-soft);max-width:62ch}
+  .lx-stats{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  @media (min-width:1000px){.lx-stats{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}}
+  .lx-stats li{position:relative;display:grid;align-content:start;gap:4px;padding:16px 16px 14px;border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    background:radial-gradient(120% 90% at 0% 0%,rgba(226,171,71,.10),transparent 60%),var(--ground-2)}
+  .lx-stats li::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 30%,rgba(255,236,190,.10) 48%,transparent 66%);translate:-120% 0}
+  .lx.seen .lx-stats li::after{animation:lx-sweep 1.6s ease-out both;animation-delay:calc(.5s + var(--i)*.18s)}
+  @keyframes lx-sweep{to{translate:120% 0}}
+  .lx.js:not(.seen) .lx-stats li{opacity:0}
+  .lx.seen .lx-stats li{animation:rise .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i)*.12s)}
+  .lx-ic{width:30px;height:30px;fill:none;stroke:var(--sage);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin-bottom:4px}
+  .lx-n{font-family:var(--display);font-weight:400;font-size:clamp(36px,5vw,48px);line-height:1;color:var(--gold);font-variant-numeric:tabular-nums;text-shadow:0 0 22px rgba(226,171,71,.45);white-space:nowrap}
+  .lx-l{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);font-weight:600;margin-top:4px}
+  .lx-stats p{margin:0;font-size:14px;line-height:1.45;color:var(--ink-soft)}
+  .lx-src{margin-top:6px;font-size:12px;color:var(--muted);text-decoration:none}
+  .lx-src:hover{color:var(--foil);text-decoration:underline}
+  .lx-hope{margin:6px 0 0;display:flex;align-items:flex-start;gap:12px;font-family:var(--display);font-size:clamp(19px,2.4vw,23px);line-height:1.4;color:var(--ink);max-width:52ch}
+  .lx-hope b{font-weight:400;color:var(--gold)}
+  .lx-hope svg{flex:none;width:24px;height:24px;margin-top:3px;color:var(--gold);filter:drop-shadow(0 0 6px rgba(226,171,71,.7))}
+  .lx-foot{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;font-size:14px}
+  .lx-foot a{font-weight:600}
+  .lx-foot span{color:var(--muted);font-size:13px}
+  @media (prefers-reduced-motion:reduce){#analiz::before{animation:none}}
   /* analiz raporu: slayt gösterisi */
   .rs{--coral:#dd8a6f;--sage2:#a9bf8c;position:relative;isolation:isolate;overflow:hidden;border-radius:18px;border:1px solid rgba(216,178,94,.38);
     background:radial-gradient(90% 55% at 100% 0%,rgba(226,171,71,.13),transparent 62%),radial-gradient(80% 60% at 0% 100%,rgba(143,164,118,.15),transparent 66%),#192416;
@@ -600,6 +635,74 @@
   .facts dd{margin:0;color:var(--ink)}
   .facts dd span{color:var(--muted)}
 
+  /* günlük hareket skalası */
+  .day-sec{background:linear-gradient(180deg,rgba(226,171,71,.05),transparent 35%,transparent 65%,rgba(143,164,118,.05)),var(--ground)}
+  .gh{max-width:760px}
+  @media (min-width:1000px){
+    .day-sec .wrap{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);grid-template-areas:"head gh" "safe gh";column-gap:52px;align-items:start}
+    .day-sec .sec-head{grid-area:head;margin-bottom:0;padding-top:34px}
+    .day-sec .gh{grid-area:gh;max-width:none}
+    .day-sec .dm-safe{grid-area:safe;align-self:end;margin:18px 0 0}
+  }
+  .dm-bar{display:flex;align-items:center;gap:12px;margin:0 0 16px}
+  .dm-bar > svg{flex:none;width:24px;height:24px;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .dm-bar > svg:first-child{stroke:var(--gold);filter:drop-shadow(0 0 6px rgba(226,171,71,.6))}
+  .dm-bar > svg:last-child{stroke:var(--sage)}
+  .dm-line{position:relative;flex:1;height:14px;display:flex;justify-content:space-between;align-items:center}
+  .dm-line::before{content:"";position:absolute;left:0;right:0;top:50%;height:2px;translate:0 -50%;border-radius:2px;background:linear-gradient(90deg,var(--gold),var(--foil) 30%,var(--sage) 70%,#4c5d45);opacity:.6}
+  .dm-line i{position:relative;width:12px;height:12px;border-radius:50%;background:var(--ground);border:2px solid rgba(236,229,207,.28);transition:background .4s,border-color .4s,box-shadow .4s,transform .4s}
+  .dm-line i.cur{border-color:var(--ink);transform:scale(1.25)}
+  .dm-line i.s0{background:#8fa476;border-color:#a9bf8c}
+  .dm-line i.s1{background:#e2c35a;border-color:#efd27a}
+  .dm-line i.s2{background:#e08c3c;border-color:#f0a45a;box-shadow:0 0 10px rgba(224,140,60,.6)}
+  .dm-line i.s3{background:#cf5f4b;border-color:#e57b66;box-shadow:0 0 12px rgba(207,95,75,.7)}
+  .gh-card{position:relative;border:1px solid var(--line-strong);border-radius:18px;padding:clamp(18px,3.6vw,28px);
+    background:radial-gradient(110% 80% at 0% 0%,rgba(226,171,71,.09),transparent 60%),var(--ground-2);box-shadow:0 18px 50px rgba(0,0,0,.26)}
+  .gh-step{display:none}
+  .gh-step.on{display:grid;gap:14px;animation:gh-in .45s cubic-bezier(.2,.7,.2,1)}
+  @keyframes gh-in{from{opacity:0;transform:translateX(14px)}}
+  .gh-step:focus{outline:none}
+  .dm-h{display:flex;align-items:center;gap:10px}
+  .dm-ic{flex:none;width:36px;height:36px;padding:7px;border-radius:50%;background:rgba(226,171,71,.12);fill:none;stroke:var(--foil);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .dm-t{font-family:var(--display);font-weight:400;font-size:20px;color:var(--gold);font-variant-numeric:tabular-nums}
+  .dm-w{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .gh-q{margin:0;font-family:var(--display);font-size:clamp(23px,3.6vw,30px);line-height:1.25;color:var(--ink);text-wrap:balance}
+  .gh-opts{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+  @media (min-width:560px){.gh-opts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  .gh-age{grid-template-columns:repeat(auto-fill,minmax(92px,1fr))!important}
+  .gh-o{all:unset;box-sizing:border-box;cursor:pointer;padding:13px 16px;border-radius:12px;border:1px solid var(--line);background:rgba(236,229,207,.03);color:var(--ink);font-size:15.5px;line-height:1.3;text-align:left;transition:border-color .2s,background .2s,box-shadow .25s,transform .15s}
+  .gh-age .gh-o{text-align:center;font-variant-numeric:tabular-nums}
+  .gh-o:hover{border-color:var(--line-strong);background:rgba(216,178,94,.06)}
+  .gh-o:active{transform:scale(.98)}
+  .gh-o:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .gh-o[aria-pressed="true"]{border-color:var(--foil);background:rgba(216,178,94,.14);box-shadow:0 0 0 1px var(--foil),0 0 18px rgba(226,171,71,.2)}
+  .gh-nav{display:flex;align-items:center;justify-content:space-between;margin-top:16px;min-height:36px}
+  .gh-back[hidden]{display:none!important}
+  .gh-back{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;padding:6px 10px 6px 4px;border-radius:8px}
+  .gh-back:hover{color:var(--foil)} .gh-back:focus-visible{outline:2px solid var(--gold)}
+  .gh-back svg{width:16px;height:16px}
+  .gh-n{margin-left:auto;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .gh .gh-k{margin:0;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--foil);font-weight:600}
+  .gh-scale{position:relative;padding-top:14px}
+  .gh-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:3px}
+  .gh-bar .z{display:block;padding:9px 0 0;border-top:8px solid;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;text-align:center;color:var(--muted)}
+  .gh-bar .z.g{border-color:#8fa476;border-radius:4px 0 0 4px} .gh-bar .z.y{border-color:#e2c35a} .gh-bar .z.o{border-color:#e08c3c} .gh-bar .z.r{border-color:#cf5f4b;border-radius:0 4px 4px 0}
+  .gh-pin{position:absolute;top:0;left:0;width:18px;height:18px;margin-left:-9px;border-radius:50%;background:#fff6dc;border:3px solid var(--ground);box-shadow:0 0 0 2px var(--gold),0 0 16px rgba(255,220,140,.9);transition:left 1.2s cubic-bezier(.3,.8,.2,1)}
+  .gh-title{margin:6px 0 0;font-size:clamp(24px,3.8vw,32px);line-height:1.2;color:var(--ink)}
+  .gh-band{display:block;font-family:var(--body);font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;margin-bottom:4px}
+  .gh-band.g{color:#a9bf8c} .gh-band.y{color:#efd27a} .gh-band.o{color:#f0a45a} .gh-band.r{color:#ef8a73}
+  .gh-msg{margin:0;color:var(--ink-soft);max-width:60ch}
+  .gh-flag{margin:0;padding:10px 12px;border-radius:10px;border:1px solid rgba(207,95,75,.6);background:rgba(207,95,75,.08);color:var(--ink);font-size:14.5px}
+  .gh-top ul{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+  .gh-top a{display:inline-flex;align-items:center;padding:7px 13px;border-radius:999px;border:1px solid var(--line-strong);color:var(--ink);text-decoration:none;font-size:14px}
+  .gh-top a:hover{border-color:var(--foil);color:var(--foil)}
+  .gh-top a::before{content:"";width:8px;height:8px;border-radius:50%;margin-right:8px;background:var(--c,#e08c3c)}
+  .gh-meta{margin:0;font-size:13px;color:var(--muted)}
+  .gh-meta b{color:var(--gold);font-weight:600}
+  .gh-acts{display:flex;flex-wrap:wrap;gap:10px}
+  .gh-acts button.cta{font:inherit;font-weight:600;font-size:15px;cursor:pointer}
+  .dm-safe{margin:14px 0 0;font-size:13px;color:var(--muted);max-width:80ch}
+  #bir-gun:not(.js) .gh{display:none}
   /* tanışma görüşmesi */
   .book-sec{background:radial-gradient(90% 70% at 100% 0%,rgba(226,171,71,.08),transparent 60%),var(--ground)}
   .book{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
@@ -645,6 +748,7 @@
   .book-modes label > span{display:inline-flex;padding:8px 18px;border-radius:999px;font-size:14.5px;color:var(--ink)}
   .book-sum{margin:0 0 14px;padding:12px 14px;border-radius:12px;border:1px dashed var(--line-strong);color:var(--ink-soft);font-size:14.5px;min-height:48px;display:flex;align-items:center}
   .book-sum b{color:var(--gold);font-weight:600}
+  .book-add{margin:-4px 0 14px;font-size:13.5px;color:var(--foil)}
   .book-acts{display:flex;flex-wrap:wrap;gap:10px}
   .book-acts .cta[aria-disabled="true"]{opacity:.42;cursor:not-allowed}
   .book-card iframe{display:block;width:100%;height:720px;border:0;border-radius:12px;background:#fff}
@@ -1083,10 +1187,18 @@
 
   <section id="analiz">
     <div class="wrap">
-      <div class="sec-head">
-        <p class="eyebrow">Longevity projesi</p>
-        <h2>Analiz ve karşılığında egzersiz reçetesi</h2>
-        <p class="intro">Önce fonksiyonel analiz yapıyoruz: kuvvet, güç, denge, yürüyüş ve esneklik ölçülür, kişinin fonksiyonel yaşı çıkarılır. Sonuca göre ona özel, animasyonlu bir egzersiz reçetesi veriyoruz. <a href="#hizli-test">2 dakikalık hızlı testi deneyin ↓</a></p>
+      <div class="lx" id="lx">
+        <p class="eyebrow">Longevity analizi</p>
+        <h2 class="lx-h"><span class="lx-h1">İğne yok, tahlil yok, genetik test yok.</span><span class="lx-h2">Nasıl hareket ettiğiniz, ne kadar uzun ve sağlıklı yaşayacağınıza dair çok şey söyler.</span></h2>
+        <p class="intro">Kavrama gücü, yürüme hızı, denge ve yerden kalkabilmek; büyük bilimsel çalışmalarda uzun yaşamla en güçlü ilişkili göstergeler arasında. Bunları evinizde ölçüyor, fonksiyonel yaşınızı çıkarıyor ve size özel bir egzersiz reçetesine dönüştürüyorum.</p>
+        <ul class="lx-stats">
+          <li style="--i:0"><svg class="lx-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 11V6.5a1.5 1.5 0 0 1 3 0V11M10 10V5a1.5 1.5 0 0 1 3 0v5M13 10V6a1.5 1.5 0 0 1 3 0v6c0 4.5-2.5 8-6.5 8-2.5 0-4-1.4-5.5-4l-1.3-2.4a1.4 1.4 0 0 1 2.4-1.4L7 14"/></svg><b class="lx-n">%16</b><span class="lx-l">Kavrama gücü</span><p>Her 5 kg düşüşte ölüm riskindeki artış. Tansiyondan daha güçlü bir gösterge.</p><a class="lx-src" href="https://doi.org/10.1016/S0140-6736(14)62000-6" target="_blank" rel="noopener">Lancet 2015 · 139.691 kişi</a></li>
+          <li style="--i:1"><svg class="lx-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="13" cy="4.5" r="1.8"/><path d="M11 21l2-6 3 3v3M13 15l-1-5 3-2 2 3 3 1M10 10l-3 1-1 3"/></svg><b class="lx-n">%12</b><span class="lx-l">Yürüme hızı</span><p>Her 0,1 m/sn daha hızlı yürüyüşte ölüm riskindeki azalma.</p><a class="lx-src" href="https://jamanetwork.com/journals/jama/fullarticle/644554" target="_blank" rel="noopener">JAMA 2011 · 34.485 kişi</a></li>
+          <li style="--i:2"><svg class="lx-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 7v7l-1 7M12 9.5l-5 1.5M12 9.5l5 1.5M12 14l4 1.5-1 3"/></svg><b class="lx-n">%84</b><span class="lx-l">Tek ayak dengesi</span><p>10 saniye tek ayakta duramayanlarda ölüm riskindeki artış.</p><a class="lx-src" href="https://doi.org/10.1136/bjsports-2021-105360" target="_blank" rel="noopener">BJSM 2022 · 1.702 kişi</a></li>
+          <li style="--i:3"><svg class="lx-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 20h18M6 20l2-5h4l3-3M12 12l-1-4M11 8a1.8 1.8 0 1 0 0-.1M15 12l3 2"/></svg><b class="lx-n">6 kat</b><span class="lx-l">Yerden kalkma</span><p>Yerde oturup kalkma testinde düşük puanda kalp-damar kaynaklı ölüm riski.</p><a class="lx-src" href="https://academic.oup.com/eurjpc/article/33/12/2170/8163161" target="_blank" rel="noopener">Eur J Prev Cardiol 2026 · 4.282 kişi</a></li>
+        </ul>
+        <p class="lx-hope"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 15V7.2M8 8.4C8 5.6 6.2 3.8 3.4 3.6c.1 2.7 1.9 4.6 4.6 4.8Zm0 0c0-2.8 1.8-4.6 4.6-4.8-.1 2.7-1.9 4.6-4.6 4.8Z" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg><span><b>İyi haber:</b> Genlerinizi değiştiremezsiniz; kas gücünüzü, dengenizi ve yürüyüşünüzü ise her yaşta geliştirebilirsiniz.</span></p>
+        <p class="lx-foot"><a href="#hizli-test">2 dakikalık hızlı testi deneyin ↓</a><span>Tahlillerin yerini tutmaz, onları tamamlar.</span></p>
       </div>
       <div class="steps">
         <div class="step">
@@ -1543,6 +1655,98 @@
     </div>
   </section>
 
+  <section id="bir-gun" class="day-sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Günlük Hareket Skalası</p>
+        <h2>Bir gününüz nasıl geçiyor?</h2>
+        <p class="intro">Sabahtan geceye 9 kısa soru. Yaşınıza göre değerlendirilir, sonucunuz renkle gösterilir.</p>
+      </div>
+      <div class="gh" id="gh">
+        <div class="dm-bar" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><span class="dm-line"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i></span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19.5 14.5A8 8 0 1 1 9.5 4.5a6.5 6.5 0 0 0 10 10z"/></svg></div>
+        <div class="gh-card">
+          <div class="gh-step on" data-s="age">
+            <div class="dm-h"><span class="dm-w">Başlarken</span></div>
+            <p class="gh-q" id="ghqa">Yaş grubunuz?</p>
+            <div class="gh-opts gh-age" role="group" aria-labelledby="ghqa"><button type="button" class="gh-o" data-v="0">18–39</button><button type="button" class="gh-o" data-v="1">40–54</button><button type="button" class="gh-o" data-v="2">55–64</button><button type="button" class="gh-o" data-v="3">65–74</button><button type="button" class="gh-o" data-v="4">75+</button></div>
+          </div>
+          <div class="gh-step" data-s="0" data-href="bel-agrisi.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 18h18M6.5 18a5.5 5.5 0 0 1 11 0M12 5.5V3M5.3 9.3 3.9 7.9M18.7 9.3l1.4-1.4"/></svg><b class="dm-t">07:00</b><span class="dm-w">Uyanış</span></div>
+            <p class="gh-q" id="ghq0">Yataktan doğrulurken ağrı hissediyor musunuz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq0"><button type="button" class="gh-o" data-v="0">Hayır</button><button type="button" class="gh-o" data-v="1">Hafif</button><button type="button" class="gh-o" data-v="2">Belirgin</button><button type="button" class="gh-o" data-v="3">Çok, zorlukla kalkıyorum</button></div>
+            <span class="dm-s" hidden>yataktan doğrulurken ağrı</span>
+          </div>
+          <div class="gh-step" data-s="1" data-href="bel-fitigi.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 11h17a8.5 7 0 0 1-17 0zM12 11V6.5a2 2 0 0 1 4 0V7M9 21h6"/></svg><b class="dm-t">07:10</b><span class="dm-w">Lavabo</span></div>
+            <p class="gh-q" id="ghq1">Yüzünüzü yıkarken lavaboya eğilmek nasıl?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq1"><button type="button" class="gh-o" data-v="0">Rahat</button><button type="button" class="gh-o" data-v="1">Biraz zorlanıyorum</button><button type="button" class="gh-o" data-v="2">Tutunarak eğiliyorum</button><button type="button" class="gh-o" data-v="3">Çok ağrılı ve zor</button></div>
+            <span class="dm-s" hidden>lavaboya eğilirken zorlanma</span>
+          </div>
+          <div class="gh-step" data-s="2" data-adj="4" data-href="dusme-onleme.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 3v9.5c0 1.5-.8 2.6-2.2 3.4C5.3 16.8 5 18 5.6 19.2c.6 1.1 1.8 1.6 3.2 1.6h7.4c1.4 0 2.3-1.2 1.8-2.4-.5-1.3-2-2-3.9-2.4L13.5 15V3"/><path d="M17 6.5c1.2-.8 2.6-.8 3.5 0M17.5 9.5c1-.6 2-.6 2.8 0"/></svg><b class="dm-t">07:15</b><span class="dm-w">Ayak yıkama</span></div>
+            <p class="gh-q" id="ghq2">Ayağınızı yıkamak için lavaboya kaldırabiliyor musunuz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq2"><button type="button" class="gh-o" data-v="0">Rahatça</button><button type="button" class="gh-o" data-v="1">Zorlanarak</button><button type="button" class="gh-o" data-v="2">Tutunarak, güçlükle</button><button type="button" class="gh-o" data-v="3">Yapamıyorum</button></div>
+            <span class="dm-s" hidden>ayağı lavaboya kaldırmakta güçlük</span>
+          </div>
+          <div class="gh-step" data-s="3" data-href="kalca-kireclenmesi.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 16.5V10l3.5-1 2 2.5 4-2 1.5 2.5c3.5.7 6.5 1.8 7 4.5v2H3z"/><path d="M8.5 11.5l1.5 2M11.5 10.5l1.5 2M3 16.5h19"/></svg><b class="dm-t">07:30</b><span class="dm-w">Giyinme</span></div>
+            <p class="gh-q" id="ghq3">Ayakkabı bağcığınızı kendiniz bağlayabiliyor musunuz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq3"><button type="button" class="gh-o" data-v="0">Rahatça</button><button type="button" class="gh-o" data-v="1">Zorlanarak</button><button type="button" class="gh-o" data-v="2">Oturup uzun uğraşla</button><button type="button" class="gh-o" data-v="3">Yardım gerekiyor</button></div>
+            <span class="dm-s" hidden>ayakkabı bağlarken zorlanma</span>
+          </div>
+          <div class="gh-step" data-s="4" data-adj="4" data-href="diz-kireclenmesi.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 20h5v-4h4v-4h4V8h5M16 4l2-1.5"/></svg><b class="dm-t">08:30</b><span class="dm-w">Merdiven</span></div>
+            <p class="gh-q" id="ghq4">Bir kat merdiveni nasıl çıkıyorsunuz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq4"><button type="button" class="gh-o" data-v="0">Rahatça</button><button type="button" class="gh-o" data-v="1">Nefes nefese ya da ağrıyla</button><button type="button" class="gh-o" data-v="2">Tutunarak, dinlenerek</button><button type="button" class="gh-o" data-v="3">Çıkamıyorum</button></div>
+            <span class="dm-s" hidden>merdivende zorlanma</span>
+          </div>
+          <div class="gh-step" data-s="5" data-href="masa-basi.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 5.5h14v9H5zM3 18.5h18M10 14.5v4M14 14.5v4"/></svg><b class="dm-t">11:00</b><span class="dm-w">Masa başında</span></div>
+            <p class="gh-q" id="ghq5">Otururken ağrı hissediyor musunuz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq5"><button type="button" class="gh-o" data-v="0">Hayır</button><button type="button" class="gh-o" data-v="1">Uzun oturunca</button><button type="button" class="gh-o" data-v="2">Kısa sürede</button><button type="button" class="gh-o" data-v="3">Sürekli</button></div>
+            <span class="dm-s" hidden>otururken ağrı</span>
+          </div>
+          <div class="gh-step" data-s="6" data-href="otur-kalk-testi.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3v18M7 12.5h10V21M17 12.5V9"/></svg><b class="dm-t">15:00</b><span class="dm-w">Kalkarken</span></div>
+            <p class="gh-q" id="ghq6">Sandalyeden kalkarken ellerinizden destek alıyor musunuz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq6"><button type="button" class="gh-o" data-v="0">Hayır</button><button type="button" class="gh-o" data-v="1">Bazen</button><button type="button" class="gh-o" data-v="2">Her zaman</button><button type="button" class="gh-o" data-v="3">Ancak yardımla kalkabiliyorum</button></div>
+            <span class="dm-s" hidden>sandalyeden kalkarken destek alma</span>
+          </div>
+          <div class="gh-step" data-s="7" data-adj="3" data-href="hareket.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="13" cy="4.5" r="1.8"/><path d="M11 21l2-6 3 3v3M13 15l-1-5 3-2 2 3 3 1M10 10l-3 1-1 3"/></svg><b class="dm-t">18:00</b><span class="dm-w">Yürüyüş</span></div>
+            <p class="gh-q" id="ghq7">Buradan yürümeye başlasanız, durmadan kaç dakika yürürsünüz?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq7"><button type="button" class="gh-o" data-v="0">30 dakikadan fazla</button><button type="button" class="gh-o" data-v="1">15–30 dakika</button><button type="button" class="gh-o" data-v="2">5–15 dakika</button><button type="button" class="gh-o" data-v="3">5 dakikadan az</button></div>
+            <span class="dm-s" hidden>kısa yürüme süresi</span>
+          </div>
+          <div class="gh-step" data-s="8" data-href="uyku.html">
+            <div class="dm-h"><svg class="dm-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19.5 14.5A8 8 0 1 1 9.5 4.5a6.5 6.5 0 0 0 10 10z"/></svg><b class="dm-t">23:00</b><span class="dm-w">Gece</span></div>
+            <p class="gh-q" id="ghq8">Ağrı uykunuzu bölüyor mu?</p>
+            <div class="gh-opts" role="group" aria-labelledby="ghq8"><button type="button" class="gh-o" data-v="0">Hayır</button><button type="button" class="gh-o" data-v="1">Ara sıra</button><button type="button" class="gh-o" data-v="2">Haftada birkaç gece</button><button type="button" class="gh-o" data-v="3">Her gece</button></div>
+            <span class="dm-s" hidden>ağrının uykuyu bölmesi</span>
+          </div>
+          <div class="gh-step gh-res" data-s="res" tabindex="-1">
+            <p class="gh-k">Ön değerlendirme</p>
+            <div class="gh-scale" aria-hidden="true"><div class="gh-bar"><span class="z g">Yeşil</span><span class="z y">Sarı</span><span class="z o">Turuncu</span><span class="z r">Kırmızı</span></div><i class="gh-pin" id="gh-pin"></i></div>
+            <h3 class="gh-title" data-b="g" hidden><span class="gh-band g">Yeşil bölge</span>Gününüz rahat akıyor</h3>
+            <h3 class="gh-title" data-b="y" hidden><span class="gh-band y">Sarı bölge</span>İlk sinyaller var</h3>
+            <h3 class="gh-title" data-b="o" hidden><span class="gh-band o">Turuncu bölge</span>Günlük hayatınız kısıtlanıyor</h3>
+            <h3 class="gh-title" data-b="r" hidden><span class="gh-band r">Kırmızı bölge</span>Destek alma zamanı</h3>
+            <p class="gh-msg" data-b="g" hidden>Yaşınıza göre günlük hareketleriniz çok iyi. Korumak için <a href="bilgi.html#kendine-iyi-bak">Kendine iyi bak</a> bölümüne göz atın.</p>
+            <p class="gh-msg" data-b="y" hidden>Bazı anlar zorlamaya başlamış. Bu evrede başlanan birkaç haftalık düzenli egzersiz genellikle belirgin fark yaratır.</p>
+            <p class="gh-msg" data-b="o" hidden>Ağrı ve zorlanma günlük işlerinizi etkiliyor. Kapsamlı bir değerlendirme ve size özel bir program zamanı.</p>
+            <p class="gh-msg" data-b="r" hidden>Günün birçok anında belirgin zorlanıyorsunuz. Bununla yaşamak zorunda değilsiniz: önce bir hekim değerlendirmesi, ardından evde düzenli rehabilitasyon öneririm.</p>
+            <p class="gh-flag" id="gh-flag" hidden>Her gece uykunuzu bölen ağrıyı ayrıca bir hekime göstermenizi öneririm.</p>
+            <div class="gh-top" id="gh-topw" hidden><p class="gh-k">En çok zorlandığınız anlar</p><ul id="gh-top"></ul></div>
+            <p class="gh-meta">Puan <b id="gh-score">0</b> / 27 · <span id="gh-agel"></span> yaş grubu</p>
+            <div class="gh-acts"><a class="cta" href="#tanisma">Sonucumu birlikte yorumlayalım</a><button type="button" class="cta ghost" id="gh-again">Yeniden başla</button></div>
+          </div>
+          <div class="gh-nav"><button type="button" class="gh-back" id="gh-back" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>Geri</button><span class="gh-n" id="gh-n" aria-hidden="true"></span></div>
+        </div>
+      </div>
+      <p class="dm-safe">WOMAC ve Oswestry gibi bilimsel ölçeklerden esinlenerek hazırladığım bir ön değerlendirmedir; tanı koymaz. Şiddetli ya da giderek artan ağrı, ateş, açıklanamayan kilo kaybı, bacaklarda güçsüzlük ya da idrar veya bağırsak kontrolünde değişiklik varsa önce bir hekime başvurun.</p>
+    </div>
+  </section>
+
   <section id="tanisma" class="book-sec">
     <div class="wrap">
       <div class="book">
@@ -1574,12 +1778,15 @@
               <label><input type="radio" name="bm" value="2"><span>Görüntülü</span></label>
             </div>
             <p class="book-sum" id="book-sum" aria-live="polite"><span class="book-hint">Bir gün ve saat aralığı seçin.</span><span class="book-sel" hidden><b id="bs-d"></b> · <b id="bs-t"></b> · <span id="bs-m"></span></span></p>
+            <p class="book-add" id="book-add" hidden>Günlük Hareket Skalası sonucunuz da mesaja eklenecek.</p>
             <div class="book-acts">
               <a class="cta" id="book-wa" href="https://wa.me/905538815568" target="_blank" rel="noopener" aria-disabled="true">WhatsApp’tan gönder <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
               <a class="cta ghost" id="book-mail" href="mailto:ihsneren@gmail.com" aria-disabled="true">E-postayla gönder</a>
             </div>
             <p class="book-tpl" hidden>Merhaba, ücretsiz ön görüşme için {day}, {time} arası bana uygun. Görüşme şekli: {mode}.</p>
             <p class="book-subj" hidden>Ücretsiz ön görüşme</p>
+            <p class="book-tpl2" hidden>Günlük Hareket Skalası sonucum: {band} bölge, {score}/{max} puan.</p>
+            <p class="book-tpl3" hidden>En çok zorlandığım anlar: {list}.</p>
           </form>
           <p class="book-nojs">Size uygun günü ve saati WhatsApp’tan ya da e-postayla yazabilirsiniz.</p>
         </div>
@@ -1644,6 +1851,33 @@
     m.appendChild(b);
   });
 
+})();
+</script>
+<script>
+(function(){
+  var box = document.getElementById('lx'); if (!box) return;
+  box.classList.add('js');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function run(){
+    box.classList.add('seen');
+    if (reduce) return;
+    [].forEach.call(box.querySelectorAll('.lx-n'), function(el, i){
+      var fin = el.textContent, m = fin.match(/^([^\d]*)(\d+)(.*)$/); if (!m) return;
+      var to = +m[2], st = null, dur = 1400, delay = 300 + i * 180;
+      el.textContent = m[1] + '0' + m[3];
+      function step(ts){
+        if (st === null) st = ts;
+        var t = Math.min(1, Math.max(0, (ts - st - delay) / dur)), e = 1 - Math.pow(1 - t, 3);
+        el.textContent = m[1] + Math.round(to * e) + m[3];
+        if (t < 1) requestAnimationFrame(step); else el.textContent = fin;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(es){ if (es[0].isIntersecting) { io.disconnect(); run(); } }, {threshold: .3});
+    io.observe(box.querySelector('.lx-stats'));
+  } else run();
 })();
 </script>
 <script>
@@ -1738,6 +1972,85 @@
 </script>
 <script>
 (function(){
+  var sec = document.getElementById('bir-gun'); if (!sec) return;
+  sec.classList.add('js');
+  var steps = [].slice.call(sec.querySelectorAll('.gh-step')), qs = steps.filter(function(x){ return /^\d+$/.test(x.getAttribute('data-s')); });
+  var dots = [].slice.call(sec.querySelectorAll('.dm-line i')), N = qs.length, MAX = N * 3;
+  var back = document.getElementById('gh-back'), num = document.getElementById('gh-n'), res = steps[steps.length - 1];
+  // yaş grubuna göre bölge sınırları (yeşil / sarı / turuncu üst sınırları)
+  var TH = [[2, 6, 11], [3, 7, 12], [4, 9, 14], [5, 10, 15], [6, 11, 16]];
+  var age = null, ans = [], cur = 0;
+  function score(i){
+    var v = ans[i]; if (v == null) return null;
+    var adj = qs[i].getAttribute('data-adj');
+    return (adj !== null && age >= +adj) ? Math.max(0, v - 1) : v;
+  }
+  function paint(){
+    dots.forEach(function(d, i){ var sc = score(i); d.className = (sc == null ? '' : 's' + sc) + (cur === i + 1 ? ' cur' : ''); });
+  }
+  function show(k, init){  // k: 0 = yaş, 1..N = sorular, N+1 = sonuç
+    cur = k;
+    steps.forEach(function(st, i){ st.classList.toggle('on', i === k); });
+    back.hidden = k === 0;
+    num.textContent = k >= 1 && k <= N ? k + ' / ' + N : '';
+    paint();
+    var box = sec.querySelector('.gh-card').getBoundingClientRect();
+    if (!init && box.top < 0) sec.querySelector('.gh').scrollIntoView({behavior: 'smooth', block: 'start'});
+    if (k === N + 1) { result(); res.focus({preventScroll: true}); }
+    else { var b = steps[k].querySelector('.gh-o[aria-pressed="true"]') || steps[k].querySelector('.gh-o'); if (k > 0 || age !== null) b.focus({preventScroll: true}); }
+  }
+  steps.forEach(function(st, k){
+    [].forEach.call(st.querySelectorAll('.gh-o'), function(b){
+      b.setAttribute('aria-pressed', 'false');
+      b.addEventListener('click', function(){
+        [].forEach.call(st.querySelectorAll('.gh-o'), function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        var v = +b.getAttribute('data-v');
+        if (k === 0) age = v; else ans[k - 1] = v;
+        paint();
+        setTimeout(function(){ show(k + 1); }, 260);
+      });
+    });
+  });
+  back.addEventListener('click', function(){ if (cur > 0) show(cur - 1); });
+  document.getElementById('gh-again').addEventListener('click', function(){
+    age = null; ans = [];
+    [].forEach.call(sec.querySelectorAll('.gh-o'), function(x){ x.setAttribute('aria-pressed', 'false'); });
+    window.drSkala = null; try { document.dispatchEvent(new CustomEvent('dr-skala')); } catch (e) {}
+    show(0); steps[0].querySelector('.gh-o').focus({preventScroll: true});
+  });
+  function result(){
+    var tot = 0, n3 = 0, items = [];
+    for (var i = 0; i < N; i++) { var sc = score(i) || 0; tot += sc; if (ans[i] === 3) n3++; if (sc >= 2) items.push([sc, i]); }
+    var t = TH[age || 0], band = tot <= t[0] ? 0 : tot <= t[1] ? 1 : tot <= t[2] ? 2 : 3;
+    if (n3 >= 1 && band < 1) band = 1;
+    if (n3 >= 2 && band < 2) band = 2;
+    var B = ['g', 'y', 'o', 'r'], lo = [0, t[0], t[1], t[2]], hi = [t[0], t[1], t[2], MAX];
+    var f = band === 0 ? (t[0] ? tot / t[0] : 0) : (tot - lo[band]) / Math.max(1, hi[band] - lo[band]);
+    f = Math.max(.08, Math.min(.92, f));
+    var pin = document.getElementById('gh-pin'); pin.style.left = '0%';
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ pin.style.left = ((band + f) * 25) + '%'; }); });
+    [].forEach.call(res.querySelectorAll('[data-b]'), function(el){ el.hidden = el.getAttribute('data-b') !== B[band]; });
+    document.getElementById('gh-flag').hidden = ans[N - 1] !== 3;
+    document.getElementById('gh-score').textContent = tot;
+    document.getElementById('gh-agel').textContent = steps[0].querySelectorAll('.gh-o')[age || 0].textContent;
+    items.sort(function(a, b){ return b[0] - a[0] || a[1] - b[1]; });
+    var top = items.slice(0, 3), ul = document.getElementById('gh-top'), C = ['', '', '#e08c3c', '#cf5f4b'], names = [];
+    ul.innerHTML = '';
+    top.forEach(function(x){
+      var q = qs[x[1]], li = document.createElement('li'), a = document.createElement('a');
+      a.href = q.getAttribute('data-href'); a.textContent = q.querySelector('.dm-s').textContent.trim(); a.style.setProperty('--c', C[x[0]]);
+      names.push(a.textContent); li.appendChild(a); ul.appendChild(li);
+    });
+    document.getElementById('gh-topw').hidden = !top.length;
+    var zones = sec.querySelectorAll('.gh-bar .z');
+    window.drSkala = {band: zones[band].textContent.trim(), score: tot, max: MAX, top: names};
+    try { document.dispatchEvent(new CustomEvent('dr-skala')); } catch (e) {}
+  }
+  show(0, true);
+})();
+</script>
+<script>
+(function(){
   var card = document.getElementById('book'); if (!card) return;
   var url = card.getAttribute('data-embed');
   if (url) {  // Calendly / Google Takvim randevu sayfası bağlanınca doğrudan takvim açılır
@@ -1760,7 +2073,8 @@
     days.appendChild(l);
   }
   var form = document.getElementById('book-form'), wa = document.getElementById('book-wa'), ml = document.getElementById('book-mail');
-  var tpl = card.querySelector('.book-tpl').textContent.trim(), subj = card.querySelector('.book-subj').textContent.trim();
+  var tpl = card.querySelector('.book-tpl').textContent.trim(), subj = card.querySelector('.book-subj').textContent.trim(),
+      tpl2 = card.querySelector('.book-tpl2').textContent.trim(), tpl3 = card.querySelector('.book-tpl3').textContent.trim(), add = document.getElementById('book-add');
   function val(n){ var r = form.querySelector('input[name="' + n + '"]:checked'); return r; }
   function upd(){
     var d = val('bd'), t = val('bt'), m = val('bm');
@@ -1768,15 +2082,19 @@
     var mode = m ? m.nextElementSibling.textContent.trim() : '';
     card.querySelector('.book-hint').hidden = ok; card.querySelector('.book-sel').hidden = !ok;
     [wa, ml].forEach(function(a){ a.setAttribute('aria-disabled', ok ? 'false' : 'true'); });
+    var sk = window.drSkala || null;
+    add.hidden = !sk;
     if (!ok) return;
     document.getElementById('bs-d').textContent = d.value;
     document.getElementById('bs-t').textContent = t.value;
     document.getElementById('bs-m').textContent = mode;
     var msg = tpl.replace('{day}', d.value).replace('{time}', t.value).replace('{mode}', mode.toLocaleLowerCase(lang));
+    if (sk) { msg += ' ' + tpl2.replace('{band}', sk.band).replace('{score}', sk.score).replace('{max}', sk.max);
+      if (sk.top.length) msg += ' ' + tpl3.replace('{list}', sk.top.join(', ')); }
     wa.href = 'https://wa.me/905538815568?text=' + encodeURIComponent(msg);
     ml.href = 'mailto:ihsneren@gmail.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(msg);
   }
-  form.addEventListener('change', upd);
+  form.addEventListener('change', upd); document.addEventListener('dr-skala', upd);
   [wa, ml].forEach(function(a){ a.addEventListener('click', function(e){
     if (a.getAttribute('aria-disabled') === 'true') { e.preventDefault(); var h = card.querySelector('.book-hint'); h.animate && h.animate([{opacity:.3},{opacity:1}], {duration: 500}); (val('bd') ? form.querySelector('input[name="bt"]') : days.querySelector('input')).focus(); }
   }); });
