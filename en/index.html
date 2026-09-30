@@ -76,15 +76,26 @@
   /* logo arka planda, yavaşça akar */
   .hero-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
   .hero-bg::before{content:"";position:absolute;left:50%;top:50%;width:min(150vw,1100px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;
-    background:radial-gradient(closest-side,rgba(226,171,71,.12),rgba(143,164,118,.07) 45%,rgba(143,164,118,.025) 72%,transparent);
+    background:radial-gradient(closest-side,rgba(226,171,71,.08),rgba(143,164,118,.045) 45%,rgba(143,164,118,.015) 72%,transparent);
     animation:aura-in calc(1.4s*var(--k)) ease-out both,aura 9s ease-in-out calc(1.6s*var(--k)) infinite}
   :root{--k:1}
   /* ---- Giriş: vektör logo animasyonu ---- */
-  .hero-mark{position:absolute;left:50%;top:50%;translate:-50% -50%;width:min(128vw,800px);margin:0;will-change:transform,opacity;
-    animation:mark-in calc(2.6s*var(--k)) ease-out both,drift 32s ease-in-out calc(2.6s*var(--k)) infinite alternate}
-  @keyframes mark-in{0%{opacity:0;transform:scale(.92)}14%{opacity:.46}50%{opacity:.46;transform:none}100%{opacity:.19;transform:none}}
-  @keyframes drift{0%{transform:none}30%{transform:translate(2.2%,-1.8%) rotate(1.6deg) scale(1.03)}65%{transform:translate(-2%,1.4%) rotate(-1.2deg) scale(1.015)}100%{transform:translate(1.2%,2%) rotate(.8deg) scale(1.045)}}
-  @media (max-width:699px){.hero-mark{width:122vw;top:45%}}
+  .hero-mark{position:absolute;left:50%;top:50%;translate:-50% -50%;width:min(76vw,740px);margin:0;opacity:.34;will-change:transform,opacity;
+    -webkit-mask-image:radial-gradient(closest-side,#000 55%,transparent 100%);mask-image:radial-gradient(closest-side,#000 55%,transparent 100%);
+    animation:mark-in calc(1.8s*var(--k)) ease-out both,drift 40s ease-in-out calc(1.8s*var(--k)) infinite alternate}
+  @keyframes mark-in{from{opacity:0;transform:scale(.96)}}
+  @keyframes drift{0%{transform:none}50%{transform:translate(1.2%,-1%) rotate(.8deg) scale(1.02)}100%{transform:translate(-1%,1%) rotate(-.6deg) scale(1.03)}}
+  /* arka plan logosu: tek renk, ince çizgi (gravür etkisi); yazının arkası hafifçe koyulaşır */
+  .hero-bg .lg-l{stroke:#d8b25e;stroke-width:3.2}
+  .hero-bg .lg-v,.hero-bg .lg-v path{fill:none;stroke:#d8b25e;stroke-width:2.4}
+  .hero-bg .lg-r{fill:none;stroke:#b9c79a;stroke-width:2.4}
+  .hero-bg .lg-y{fill:none;stroke:#e2ab47;stroke-width:2.6}
+  .hero-bg .lg-yg{display:none}
+  .hero-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(46% 34% at 50% 50%,rgba(28,40,25,.6),transparent 75%)}
+  @media (max-width:699px){
+    .hero-mark{width:100vw;top:170px;opacity:.38;-webkit-mask-image:linear-gradient(180deg,#000 38%,transparent 80%);mask-image:linear-gradient(180deg,#000 38%,transparent 80%)}
+    .hero-bg::after{background:radial-gradient(70% 16% at 50% 175px,rgba(28,40,25,.55),transparent 80%)}
+  }
   @keyframes aura-in{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:none}}
   @keyframes aura{0%,100%{opacity:1;transform:none}50%{opacity:.55;transform:scale(1.07)}}
   .hero .logo{width:100%;height:auto;display:block;overflow:visible}
@@ -118,7 +129,7 @@
       animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) calc(.55s*var(--k)) both,shimmer calc(1.7s*var(--k)) ease-in-out calc(1.7s*var(--k)) both}
   }
   @keyframes shimmer{from{background-position:100% 0}to{background-position:0 0}}
-  @media (prefers-reduced-motion:reduce){.hero-bg::before,.hero .rule::before,.hero .rule::after{animation:none!important}.hero-mark{animation:none!important;opacity:.19}}
+  @media (prefers-reduced-motion:reduce){.hero-bg::before,.hero .rule::before,.hero .rule::after{animation:none!important}.hero-mark{animation:none!important}}
   .hero .role{font-size:clamp(15px,1.6vw,17px);color:var(--ink-soft);letter-spacing:.02em;margin:0 0 8px}
   .hero h1{font-size:clamp(46px,12.5vw,104px);line-height:1.04;color:var(--foil);letter-spacing:.01em}
   .rule{display:flex;align-items:center;gap:10px;max-width:360px;margin:18px auto;color:var(--foil)}
@@ -739,11 +750,13 @@
   .book-days .dn{font-family:var(--display);font-size:25px;color:var(--ink);margin:2px 0 1px}
   .book-days .mo{font-size:12px;color:var(--ink-soft)}
   .book-days input:checked + span .dn{color:var(--gold)}
-  .book-times{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:0 0 16px}
-  @media (min-width:1100px){.book-times{grid-template-columns:repeat(4,minmax(0,1fr))}}
-  .book-times label > span{display:grid;gap:1px;padding:10px 8px;border-radius:12px;text-align:center}
-  .book-times b{font-weight:600;color:var(--ink);font-size:14px}
-  .book-times small{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .book-step small{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:500}
+  .book-parts{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+  .book-parts label > span{display:inline-flex;padding:6px 14px;border-radius:999px;font-size:13.5px;color:var(--ink-soft)}
+  .book-parts input:checked + span{color:var(--ink)}
+  .book-slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:8px;margin:0 0 16px;min-height:44px}
+  .book-slots label > span{display:block;padding:9px 0;border-radius:10px;text-align:center;font-size:14.5px;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+  .book-slots input:checked + span{color:var(--gold)}
   .book-modes{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
   .book-modes label > span{display:inline-flex;padding:8px 18px;border-radius:999px;font-size:14.5px;color:var(--ink)}
   .book-sum{margin:0 0 14px;padding:12px 14px;border-radius:12px;border:1px dashed var(--line-strong);color:var(--ink-soft);font-size:14.5px;min-height:48px;display:flex;align-items:center}
@@ -1732,7 +1745,7 @@
             <h3 class="gh-title" data-b="y" hidden><span class="gh-band y">Yellow zone</span>The first signals are there</h3>
             <h3 class="gh-title" data-b="o" hidden><span class="gh-band o">Orange zone</span>Your daily life is being limited</h3>
             <h3 class="gh-title" data-b="r" hidden><span class="gh-band r">Red zone</span>Time to get support</h3>
-            <p class="gh-msg" data-b="g" hidden>For your age, your everyday movement is very good. To keep it that way, have a look at <a href="health-library.html#kendine-iyi-bak">Look after yourself</a>.</p>
+            <p class="gh-msg" data-b="g" hidden>For your age, your everyday movement is very good. To keep it that way, you can take a look at <a href="health-library.html#kendine-iyi-bak">Look after yourself</a>.</p>
             <p class="gh-msg" data-b="y" hidden>Some moments are starting to be a struggle. A few weeks of regular exercise started at this stage usually makes a clear difference.</p>
             <p class="gh-msg" data-b="o" hidden>Pain and strain are affecting your daily tasks. It’s time for a thorough assessment and a programme made for you.</p>
             <p class="gh-msg" data-b="r" hidden>You struggle clearly at many points in your day. You don’t have to live with it: I’d recommend a medical assessment first, followed by regular rehabilitation at home.</p>
@@ -1756,7 +1769,7 @@
           <h2>Let’s meet first</h2>
           <p class="intro">In a short, free first conversation I’ll listen to you, and together we’ll talk about the best way forward at home.</p>
           <ul class="book-pts">
-            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 12.4l3.2 3.1L17 8.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Free: a short chat by phone or video</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 12.4l3.2 3.1L17 8.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Free: a half-hour chat, by phone or video</span></li>
             <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 12.4l3.2 3.1L17 8.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>We talk through your symptoms and your goals</span></li>
             <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 12.4l3.2 3.1L17 8.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If it’s a good fit, we plan the first home visit</span></li>
           </ul>
@@ -1766,19 +1779,19 @@
           <form class="book-form" id="book-form" autocomplete="off" novalidate>
             <p class="book-step"><span>1</span>Day</p>
             <div class="book-days" id="book-days" role="radiogroup" aria-label="Day"></div>
-            <p class="book-step"><span>2</span>Time window</p>
-            <div class="book-times" role="radiogroup" aria-label="Time window">
-              <label><input type="radio" name="bt" value="09:00–12:00"><span><b>Morning</b><small>09:00–12:00</small></span></label>
-              <label><input type="radio" name="bt" value="12:00–15:00"><span><b>Midday</b><small>12:00–15:00</small></span></label>
-              <label><input type="radio" name="bt" value="15:00–18:00"><span><b>Afternoon</b><small>15:00–18:00</small></span></label>
-              <label><input type="radio" name="bt" value="18:00–21:00"><span><b>Evening</b><small>18:00–21:00</small></span></label>
+            <p class="book-step"><span>2</span>Time <small>· 30 minutes</small></p>
+            <div class="book-parts" role="radiogroup" aria-label="Part of the day">
+              <label><input type="radio" name="bp" value="9-12" checked><span>Morning</span></label>
+              <label><input type="radio" name="bp" value="12-18"><span>Afternoon</span></label>
+              <label><input type="radio" name="bp" value="18-21"><span>Evening</span></label>
             </div>
+            <div class="book-slots" id="book-slots" role="radiogroup" aria-label="Time"></div>
             <p class="book-step"><span>3</span>Call type</p>
             <div class="book-modes" role="radiogroup" aria-label="Call type">
               <label><input type="radio" name="bm" value="1" checked><span>Phone</span></label>
               <label><input type="radio" name="bm" value="2"><span>Video</span></label>
             </div>
-            <p class="book-sum" id="book-sum" aria-live="polite"><span class="book-hint">Choose a day and a time window.</span><span class="book-sel" hidden><b id="bs-d"></b> · <b id="bs-t"></b> · <span id="bs-m"></span></span></p>
+            <p class="book-sum" id="book-sum" aria-live="polite"><span class="book-hint">Choose a day and a time.</span><span class="book-sel" hidden><b id="bs-d"></b> · <b id="bs-t"></b> · <span id="bs-m"></span></span></p>
             <p class="book-add" id="book-add" hidden>Your Daily Movement Scale result will be added to the message too.</p>
             <div class="book-acts">
               <a class="cta" id="book-wa" href="https://wa.me/905538815568" target="_blank" rel="noopener" aria-disabled="true">Send on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
@@ -2078,7 +2091,7 @@
       tpl2 = card.querySelector('.book-tpl2').textContent.trim(), tpl3 = card.querySelector('.book-tpl3').textContent.trim(), add = document.getElementById('book-add');
   function val(n){ var r = form.querySelector('input[name="' + n + '"]:checked'); return r; }
   function upd(){
-    var d = val('bd'), t = val('bt'), m = val('bm');
+    var d = val('bd'), t = selT, m = val('bm');
     var ok = !!(d && t);
     var mode = m ? m.nextElementSibling.textContent.trim() : '';
     card.querySelector('.book-hint').hidden = ok; card.querySelector('.book-sel').hidden = !ok;
@@ -2087,15 +2100,32 @@
     add.hidden = !sk;
     if (!ok) return;
     document.getElementById('bs-d').textContent = d.value;
-    document.getElementById('bs-t').textContent = t.value;
+    document.getElementById('bs-t').textContent = t;
     document.getElementById('bs-m').textContent = mode;
-    var msg = tpl.replace('{day}', d.value).replace('{time}', t.value).replace('{mode}', mode.toLocaleLowerCase(lang));
+    var msg = tpl.replace('{day}', d.value).replace('{time}', t).replace('{mode}', mode.toLocaleLowerCase(lang));
     if (sk) { msg += ' ' + tpl2.replace('{band}', sk.band).replace('{score}', sk.score).replace('{max}', sk.max);
       if (sk.top.length) msg += ' ' + tpl3.replace('{list}', sk.top.join(', ')); }
     wa.href = 'https://wa.me/905538815568?text=' + encodeURIComponent(msg);
     ml.href = 'mailto:ihsneren@gmail.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(msg);
   }
-  form.addEventListener('change', upd); document.addEventListener('dr-skala', upd);
+  // 30 dakikalık saatler: seçilen gün bölümüne göre
+  var slots = document.getElementById('book-slots'), selT = null;
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function hm(m){ return pad(Math.floor(m / 60)) + ':' + pad(m % 60); }
+  function drawSlots(){
+    var pv = (val('bp') || {value: '9-12'}).value.split('-'), a = +pv[0] * 60, b = +pv[1] * 60, html = '';
+    for (var m = a; m < b; m += 30) {
+      var v = hm(m) + '–' + hm(m + 30);
+      html += '<label><input type="radio" name="bt" value="' + v + '"' + (v === selT ? ' checked' : '') + '><span>' + hm(m) + '</span></label>';
+    }
+    slots.innerHTML = html;
+  }
+  form.addEventListener('change', function(e){
+    if (e.target.name === 'bp') drawSlots();
+    if (e.target.name === 'bt') selT = e.target.value;
+    upd();
+  });
+  drawSlots(); document.addEventListener('dr-skala', upd);
   [wa, ml].forEach(function(a){ a.addEventListener('click', function(e){
     if (a.getAttribute('aria-disabled') === 'true') { e.preventDefault(); var h = card.querySelector('.book-hint'); h.animate && h.animate([{opacity:.3},{opacity:1}], {duration: 500}); (val('bd') ? form.querySelector('input[name="bt"]') : days.querySelector('input')).focus(); }
   }); });
@@ -2248,11 +2278,9 @@
   var p=document.getElementById('lgpulse'),hero=document.getElementById('top');
   if(!p||!p.beginElement||!hero)return;
   if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-  var k=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--k'))||1,vis=true;
-  function pulse(){try{p.beginElement()}catch(e){}}
-  setTimeout(pulse,k>=1?900:250);
-  if('IntersectionObserver' in window)new IntersectionObserver(function(es){vis=es[0].isIntersecting}).observe(hero);
-  setInterval(function(){if(vis&&!document.hidden)pulse()},8000);
+  var k=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--k'))||1;
+  // omurgadan yukarı akan ışık: yalnızca ilk açılışta, bir kez
+  if(k>=1)setTimeout(function(){try{p.beginElement()}catch(e){}},1100);
 })();
 </script>
 <script src="../ara.js" defer></script>
