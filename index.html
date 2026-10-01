@@ -72,7 +72,8 @@
     display:grid;align-items:center;
   }
   @media (min-width:700px){.hero{min-height:calc(100vh - 57px);min-height:calc(100svh - 57px)}}
-  .hero > .wrap{position:relative;z-index:1;width:100%}
+  .hero{grid-template-columns:minmax(0,1fr)}
+  .hero > .wrap{position:relative;z-index:1;width:100%;min-width:0}
   /* logo arka planda, yavaşça akar */
   .hero-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
   .hero-bg::before{content:"";position:absolute;left:50%;top:50%;width:min(150vw,1100px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;
@@ -93,8 +94,16 @@
   .hero-bg .lg-yg{display:none}
   .hero-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(46% 34% at 50% 50%,rgba(28,40,25,.6),transparent 75%)}
   @media (max-width:699px){
-    .hero-mark{width:100vw;top:170px;opacity:.38;-webkit-mask-image:linear-gradient(180deg,#000 38%,transparent 80%);mask-image:linear-gradient(180deg,#000 38%,transparent 80%)}
-    .hero-bg::after{background:radial-gradient(70% 16% at 50% 175px,rgba(28,40,25,.55),transparent 80%)}
+    .hero-mark{width:96vw;top:175px;opacity:.15;-webkit-mask-image:linear-gradient(180deg,#000 30%,transparent 72%);mask-image:linear-gradient(180deg,#000 30%,transparent 72%)}
+    .hero-bg::after{display:none}
+    .hero{padding-block:52px 40px}
+    .hero .lede{margin-top:4px}
+    .hero-ctas{margin-top:26px}
+    /* telefonda bölüm kısayolları tek satır, yana kayar: daha ferah */
+    .hero .nav{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;margin:30px calc(var(--gut)*-1) 0;padding:2px var(--gut);scrollbar-width:none;
+      -webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--gut),#000 calc(100% - var(--gut)),transparent);mask-image:linear-gradient(90deg,transparent,#000 var(--gut),#000 calc(100% - var(--gut)),transparent)}
+    .hero .nav::-webkit-scrollbar{display:none}
+    .hero .nav li{flex:none}
   }
   @keyframes aura-in{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:none}}
   @keyframes aura{0%,100%{opacity:1;transform:none}50%{opacity:.55;transform:scale(1.07)}}
@@ -1800,7 +1809,7 @@
         <div class="book-intro">
           <p class="eyebrow">Ücretsiz ön görüşme</p>
           <h2>Önce tanışalım</h2>
-          <p class="intro">Kısa ve ücretsiz bir ön görüşmede sizi dinleyeyim; evde nasıl bir yol izleyeceğimizi birlikte konuşalım.</p>
+          <p class="intro">Kısa ve ücretsiz bir ön görüşmede tanışalım; sizi dinleyip evde nasıl bir yol izleyeceğimizi birlikte konuşalım.</p>
           <ul class="book-pts">
             <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 12.4l3.2 3.1L17 8.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ücretsiz, yarım saatlik bir sohbet; telefonla ya da görüntülü</span></li>
             <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 12.4l3.2 3.1L17 8.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Şikâyetinizi ve hedefinizi birlikte konuşuruz</span></li>
@@ -1847,7 +1856,7 @@
         <div>
           <p class="eyebrow">Bilgi ve iletişim</p>
           <h2 class="hello">Hikâyenizi dinleyerek başlayalım.</h2>
-          <p class="sub">Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; size en kısa sürede dönüş yapayım. İstanbul içinde evde fizyoterapi hizmeti.</p>
+          <p class="sub">Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; en kısa sürede size dönüş yapalım. İstanbul içinde evde fizyoterapi hizmeti.</p>
           <div class="contact-btns">
             <a class="cta" href="https://wa.me/905538815568" target="_blank" rel="noopener">WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
             <a class="cta ghost" href="mailto:ihsneren@gmail.com">E-posta gönderin</a>
