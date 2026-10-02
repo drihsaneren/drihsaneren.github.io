@@ -1,0 +1,352 @@
+[
+ {
+  "id": "dar0",
+  "kind": "text",
+  "tr": "Dar Kanal (Spinal Stenoz): Belirtiler, Tedavi ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "dar1",
+  "kind": "attr",
+  "tr": "Belde dar kanal (spinal stenoz) nedir, neden yürüyünce bacaklar ağrır, MR'daki daralma ameliyat gerektirir mi? Fizyoterapinin yeri, evde altı egzersiz ve videolar."
+ },
+ {
+  "id": "dar2",
+  "kind": "text",
+  "tr": "Dar kanal (lomber spinal stenoz)"
+ },
+ {
+  "id": "dar3",
+  "kind": "text",
+  "tr": "Dar kanal, belde sinirlerin geçtiği kanalın yaşla birlikte daralmasıdır. En tipik belirtisi, ayakta durunca ve yürüyünce kalçalara ve bacaklara yayılan, oturunca ya da öne eğilince hafifleyen ağrı ve uyuşmadır. Çoğu kişide şikâyetler yıllar içinde kötüleşmez; ilk tedavi egzersiz, aktiviteyi ayarlama ve ağrı kontrolüdür."
+ },
+ {
+  "id": "dar4",
+  "kind": "text",
+  "tr": "Son güncelleme: 2 Ekim 2026"
+ },
+ {
+  "id": "dar5",
+  "kind": "text",
+  "tr": "103 milyon"
+ },
+ {
+  "id": "dar6",
+  "kind": "text",
+  "tr": "Dünyada dar kanal şikâyetleriyle yaşadığı tahmin edilen kişi sayısı"
+ },
+ {
+  "id": "dar7",
+  "kind": "text",
+  "tr": "60 yaş üstünde görüntülemede kanal daralması görülenler; bunların %80'inden fazlasında şikâyet yok"
+ },
+ {
+  "id": "dar8",
+  "kind": "text",
+  "tr": "Ameliyatsız izlenen hastalardan 3 yıl içinde düzeldiğini bildirenler; yaklaşık yarısında şikâyetler aynı kalıyor"
+ },
+ {
+  "id": "dar9",
+  "kind": "text",
+  "tr": "Aynı sürede bel ağrısı, bacak ağrısı ve yürümesi kötüleşenler"
+ },
+ {
+  "id": "dar10",
+  "kind": "text",
+  "tr": "Yaşla birlikte omurlar arasındaki diskler taşar, omurganın arkasındaki küçük eklemler büyür ve kanalın içindeki bağ kalınlaşır; bazen bir omur diğerinin üzerinde öne kayar. Bunların birleşimi, belde sinirlerin geçtiği kanalı daraltır."
+ },
+ {
+  "id": "dar11",
+  "kind": "text",
+  "tr": "Ayakta dururken ve yürürken bel arkaya doğru çukurlaşır; bu duruşta şikâyetler artar. Oturunca ya da öne eğilince şikâyetler hafifler. Görüntülemedeki daralma ise her zaman şikâyete yol açmaz: 60 yaş üstündeki her beş kişiden birinde kanal daralması görülür ve bunların %80'inden fazlasında hiç şikâyet yoktur."
+ },
+ {
+  "id": "dar12",
+  "kind": "text",
+  "tr": "Ayakta durunca ya da yürüyünce kalçalarda ve bacaklarda ağrı, uyuşma ya da ağırlık hissi"
+ },
+ {
+  "id": "dar13",
+  "kind": "text",
+  "tr": "Oturunca ya da öne eğilince rahatlama"
+ },
+ {
+  "id": "dar14",
+  "kind": "text",
+  "tr": "Alışveriş arabasına yaslanarak yürürken daha rahat etme"
+ },
+ {
+  "id": "dar15",
+  "kind": "text",
+  "tr": "Yürüme mesafesinin kısalması, sık sık oturup dinlenme ihtiyacı"
+ },
+ {
+  "id": "dar16",
+  "kind": "text",
+  "tr": "Bel ağrısı (her hastada olmayabilir)"
+ },
+ {
+  "id": "dar17",
+  "kind": "text",
+  "tr": "Damar tıkanıklığından farkı"
+ },
+ {
+  "id": "dar18",
+  "kind": "text",
+  "tr": "Bacak atardamarlarındaki daralma da yürürken bacak ağrısına yol açar. Ancak damar kaynaklı ağrı genellikle yalnızca ayakta durmakla artmaz; dar kanalda ise ayakta durmak bile şikâyeti başlatabilir ve rahatlamak için oturmak ya da öne eğilmek gerekir. İki durum birlikte de bulunabilir; ayırt etmek için hekim muayenesi gerekir."
+ },
+ {
+  "id": "dar19",
+  "kind": "text",
+  "tr": "2022'de JAMA dergisinde yayımlanan derlemeye göre ilk tedavi aktiviteyi ayarlama, ağrı kontrolü ve fizyoterapidir. ABD'de ortalama 72 yaşındaki 259 hastayla yapılan bir çalışmada, manuel terapiyle birlikte kişiye özel egzersiz programı 2. ayda şikâyetleri ve yürüme kapasitesini ilaç tedavisinden ve grup egzersizinden daha fazla iyileştirdi. 6. ayda gruplar arasında fark kalmadı; üç grupta da yürüme mesafesi başlangıca göre artmıştı."
+ },
+ {
+  "id": "dar20",
+  "kind": "text",
+  "tr": "Ameliyat adayı 169 hastanın ameliyat (dekompresyon) ya da standart bir fizyoterapi programına ayrıldığı bir başka çalışmada, 2 yılın sonunda fiziksel işlev açısından iki grup arasında anlamlı fark bulunmadı; ancak fizyoterapi grubundaki hastaların önemli bir bölümü bu süre içinde ameliyat oldu. Beş çalışmayı (643 hasta) inceleyen Cochrane derlemesi, ameliyatın mı ameliyatsız tedavinin mi daha iyi olduğu konusunda kesin bir sonuca varılamayacağını belirtiyor; ameliyat edilenlerin %10–24'ünde komplikasyon görülürken ameliyatsız tedavilerde yan etki bildirilmedi."
+ },
+ {
+  "id": "dar21",
+  "kind": "text",
+  "tr": "Bu yüzden karar kişiye özeldir. Çoğu hastada önce düzenli bir egzersiz programı denenir. Buna rağmen ağrısı süren ve günlük hayatı belirgin şekilde kısıtlanan hastalarda ameliyat bir seçenektir ve omurga cerrahınca değerlendirilir. Bacaklarda ilerleyen güçsüzlük ya da idrar ve dışkı kontrolünde bozulma varsa beklenmez."
+ },
+ {
+  "id": "dar22",
+  "kind": "text",
+  "tr": "Beli öne eğen hareketler, karın ve kalça kaslarını güçlendirme ve yürüme dayanıklılığını artırma; program kişiye göre ayarlanır."
+ },
+ {
+  "id": "dar23",
+  "kind": "text",
+  "tr": "Aktiviteyi ayarlama"
+ },
+ {
+  "id": "dar24",
+  "kind": "text",
+  "tr": "Uzun süre ayakta durmayı ve yürümeyi bölün. Sabit bisiklet gibi öne eğik yapılan aktiviteler genellikle daha rahat tolere edilir."
+ },
+ {
+  "id": "dar25",
+  "kind": "text",
+  "tr": "Egzersizle birlikte uygulandığında kısa vadede şikâyetleri azaltmaya ve yürümeyi artırmaya yardımcı olabilir."
+ },
+ {
+  "id": "dar26",
+  "kind": "text",
+  "tr": "Hekiminizin önerdiği ağrı kesiciler egzersize ve yürümeye devam etmeyi kolaylaştırır."
+ },
+ {
+  "id": "dar27",
+  "kind": "text",
+  "tr": "Epidural kortizon iğnesi"
+ },
+ {
+  "id": "dar28",
+  "kind": "text",
+  "tr": "400 hastalık bir çalışmada, lokal anestezik iğneye kortizon eklemek 6. haftada çok az fayda sağladı ya da hiç sağlamadı. Uzun vadeli faydası gösterilmemiştir; karar hekiminizle verilir."
+ },
+ {
+  "id": "dar29",
+  "kind": "text",
+  "tr": "Sinirlerin üzerindeki baskıyı kaldıran dekompresyon ameliyatı, ameliyatsız tedaviye rağmen şikâyetleri süren seçilmiş hastalarda değerlendirilir."
+ },
+ {
+  "id": "dar30",
+  "kind": "text",
+  "tr": "Dar kanal için altı egzersiz"
+ },
+ {
+  "id": "dar31",
+  "kind": "text",
+  "tr": "Hareketleri yavaş ve ağrısız aralıkta yapın. Bacağa yayılan ağrı ya da uyuşma artıyorsa o hareketi bırakın. Beli arkaya doğru esneten hareketler şikâyetleri artırabilir."
+ },
+ {
+  "id": "dar32",
+  "kind": "text",
+  "tr": "Sırtüstü yatın. Bir dizinizi iki elinizle tutup göğsünüze doğru yavaşça çekin; belinizin yere doğru düzleştiğini hissedin. Rahat yapabiliyorsanız iki dizinizi birlikte çekin. Beli öne eğen pozisyonlar dar kanalda genellikle rahatlatır."
+ },
+ {
+  "id": "dar33",
+  "kind": "text",
+  "tr": "20–30 saniye tutun, 3–5 tekrar, günde 2 kez"
+ },
+ {
+  "id": "dar34",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü, ayak tabanlarınız yerde olsun. Karın kaslarınızı sıkarak belinizdeki boşluğu yere doğru bastırın, 5 saniye tutup gevşeyin. Aynı hareketi ayakta, sırtınızı duvara yaslayarak da yapabilirsiniz."
+ },
+ {
+  "id": "dar35",
+  "kind": "text",
+  "tr": "Topuklara oturarak öne uzanma"
+ },
+ {
+  "id": "dar36",
+  "kind": "text",
+  "tr": "Ellerinizin ve dizlerinizin üzerinde durun. Ellerinizi yerinden oynatmadan kalçanızı yavaşça topuklarınıza doğru geriye götürün, belinizin yuvarlanıp gerildiğini hissedin. Dizleriniz izin vermiyorsa bu hareketi atlayıp sandalyede öne eğilmeyi yapın."
+ },
+ {
+  "id": "dar37",
+  "kind": "text",
+  "tr": "20–30 saniye tutun, 3 tekrar"
+ },
+ {
+  "id": "dar38",
+  "kind": "text",
+  "tr": "Oturarak öne eğilme"
+ },
+ {
+  "id": "dar39",
+  "kind": "text",
+  "tr": "Sağlam bir sandalyeye oturun, ayaklarınızı biraz açın. Ellerinizi bacaklarınızdan aşağı kaydırarak gövdenizi yavaşça öne eğin ve ayak bileklerinize doğru uzanın. Birkaç nefes bekleyip ellerinizden destek alarak doğrulun. Yürürken bacaklarınız ağrıdığında bir banka oturup bu hareketi yapabilirsiniz."
+ },
+ {
+  "id": "dar40",
+  "kind": "text",
+  "tr": "10–15 saniye tutun, 5 tekrar"
+ },
+ {
+  "id": "dar41",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Önce belinizi yere bastırın, sonra kalçanızı sıkarak omuzlarınızdan dizlerinize düz bir çizgi oluşana kadar kaldırın. Belinizi çukurlaştırmayın; 3 saniye tutup yavaşça inin."
+ },
+ {
+  "id": "dar42",
+  "kind": "text",
+  "tr": "Molalı yürüyüş"
+ },
+ {
+  "id": "dar43",
+  "kind": "text",
+  "tr": "Yürümeyi bırakmayın, bölün. Bacak şikâyetiniz başlamadan hemen önce oturup birkaç dakika dinlenin ya da öne eğilin, sonra devam edin. Süreyi haftadan haftaya azar azar artırın. Sabit bisiklet de iyi bir seçenektir; öne eğik oturulduğu için genellikle yürümekten daha rahat tolere edilir."
+ },
+ {
+  "id": "dar44",
+  "kind": "text",
+  "tr": "Günde toplam 20–30 dakika, molalarla"
+ },
+ {
+  "id": "dar45",
+  "kind": "text",
+  "tr": "Kemik erimeniz ya da omurganızda çökme kırığı varsa öne eğilme hareketlerine başlamadan önce hekiminize ya da fizyoterapistinize danışın; program size göre uyarlanır."
+ },
+ {
+  "id": "dar46",
+  "kind": "text",
+  "tr": "Dar kanal için videolar"
+ },
+ {
+  "id": "dar47",
+  "kind": "attr",
+  "tr": "Dar kanal egzersizleri videosunu oynat"
+ },
+ {
+  "id": "dar48",
+  "kind": "text",
+  "tr": "Dar kanal için yedi egzersiz"
+ },
+ {
+  "id": "dar49",
+  "kind": "text",
+  "tr": "Bel ve bacak ağrısını hafifletmeye yönelik temel hareketler."
+ },
+ {
+  "id": "dar50",
+  "kind": "attr",
+  "tr": "Dar kanal için germe hareketleri videosunu oynat"
+ },
+ {
+  "id": "dar51",
+  "kind": "text",
+  "tr": "Dar kanal için on germe hareketi"
+ },
+ {
+  "id": "dar52",
+  "kind": "text",
+  "tr": "Yatarak, oturarak ve ayakta yapılabilen germe hareketleri."
+ },
+ {
+  "id": "dar53",
+  "kind": "text",
+  "tr": "Dar kanal kendiliğinden geçer mi?"
+ },
+ {
+  "id": "dar54",
+  "kind": "text",
+  "tr": "Daralan kanal yeniden genişlemez; ancak şikâyetler çoğu kişide yıllar içinde kötüleşmez. Ameliyatsız izlenen hastaların yaklaşık üçte biri 3 yıl içinde düzeldiğini, yaklaşık yarısı şikâyetlerinin aynı kaldığını bildiriyor; %10–20'sinde şikâyetler artıyor."
+ },
+ {
+  "id": "dar55",
+  "kind": "text",
+  "tr": "MR'da dar kanal çıktı, ameliyat olmalı mıyım?"
+ },
+ {
+  "id": "dar56",
+  "kind": "text",
+  "tr": "Her zaman değil. 60 yaş üstündeki her beş kişiden birinde görüntülemede kanal daralması görülür ve bunların %80'inden fazlasında hiç şikâyet yoktur. Tedavi kararını MR değil, şikâyetleriniz ve günlük hayatınızın ne kadar kısıtlandığı belirler. Genellikle önce egzersiz, aktiviteyi ayarlama ve ağrı kontrolü denenir."
+ },
+ {
+  "id": "dar57",
+  "kind": "text",
+  "tr": "Yürüyünce ağrım artıyor; yürümeyi bırakmalı mıyım?"
+ },
+ {
+  "id": "dar58",
+  "kind": "text",
+  "tr": "Hayır. Yürümeyi bırakmak bacak kaslarını ve dayanıklılığı zayıflatır. Yürüyüşü kısa bölümlere ayırın, şikâyet başlamadan oturup dinlenin ve süreyi yavaş yavaş artırın. Sabit bisiklet gibi öne eğik yapılan aktiviteler genellikle daha rahat tolere edilir."
+ },
+ {
+  "id": "dar59",
+  "kind": "text",
+  "tr": "Bel fıtığından farkı nedir?"
+ },
+ {
+  "id": "dar60",
+  "kind": "text",
+  "tr": "Bel fıtığında bacak ağrısı çoğunlukla oturunca ve öne eğilince artar. Dar kanalda ise tam tersine ayakta durmak ve yürümek şikâyeti artırır, oturmak ve öne eğilmek rahatlatır. Dar kanal genellikle ileri yaşta görülür ve çoğu zaman iki bacağı birden etkiler."
+ },
+ {
+  "id": "dar61",
+  "kind": "text",
+  "tr": "İdrar yapamama ya da idrar ve dışkı kaçırma (acil)"
+ },
+ {
+  "id": "dar62",
+  "kind": "text",
+  "tr": "Makat, kasık ve genital bölgede his kaybı (acil)"
+ },
+ {
+  "id": "dar63",
+  "kind": "text",
+  "tr": "Bacaklarda hızla artan güçsüzlük"
+ },
+ {
+  "id": "dar64",
+  "kind": "text",
+  "tr": "Ateş, açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte bel ağrısı"
+ },
+ {
+  "id": "dar65",
+  "kind": "text",
+  "tr": "Düşme ya da darbeden sonra başlayan şiddetli bel ağrısı"
+ },
+ {
+  "id": "dar66",
+  "kind": "text",
+  "tr": "Dinlenirken de geçmeyen bacak ağrısı, ayakta soğukluk ya da renk değişikliği"
+ },
+ {
+  "id": "dar67",
+  "kind": "text",
+  "tr": "Dar kanal şikâyetiniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "dar68",
+  "kind": "wa",
+  "tr": "Merhaba, dar kanal (spinal stenoz) için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "dar69",
+  "kind": "text",
+  "tr": "Zaina F, Tomkins-Lane C, Carragee E, Negrini S. <a href=\"https://www.cochrane.org/CD010264/BACK_surgical-versus-non-surgical-treatment-lumbar-spinal-stenosis\" target=\"_blank\" rel=\"noopener\">Surgical versus non-surgical treatment for lumbar spinal stenosis</a>. Cochrane Database Syst Rev. 2016;(1):CD010264."
+ }
+]

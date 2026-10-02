@@ -44,6 +44,7 @@ EN = {
     "cene-eklemi.html": "jaw-joint-tmd.html",
     "idrar-kacirma.html": "urinary-incontinence.html",
     "gebelikte-bel-agrisi.html": "pregnancy-back-pain.html",
+    "dar-kanal.html": "lumbar-spinal-stenosis.html",
     "otur-kalk-testi.html": "sitting-rising-test.html",
     "duvar-oturusu.html": "wall-sit-blood-pressure.html",
     "ic-cekis.html": "cyclic-sighing.html",

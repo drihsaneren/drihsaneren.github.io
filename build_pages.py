@@ -181,7 +181,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 SELF_PAGES = {"stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Tıpta yenilikler")]
@@ -236,6 +236,7 @@ TOPICS = {
     "cene-eklemi.html": ("Hastalık rehberi", "Çene eklemi rahatsızlıkları"),
     "idrar-kacirma.html": ("Hastalık rehberi", "İdrar kaçırma ve pelvik taban egzersizleri"),
     "gebelikte-bel-agrisi.html": ("Hastalık rehberi", "Gebelikte bel ve leğen kemiği ağrısı"),
+    "dar-kanal.html": ("Hastalık rehberi", "Dar kanal (lomber spinal stenoz)"),
     "stres.html": ("Kendine iyi bak", "Stresli anlarda ne yapabilirsiniz?"),
     "masa-basi.html": ("Kendine iyi bak", "Masa başında çalışanlar için"),
     "sabah-rutini.html": ("Kendine iyi bak", "Güne 5 dakikayla başlayın"),
@@ -250,7 +251,7 @@ TOPICS = {
 }
 RELATED = {
     "bel-agrisi.html": ["bel-fitigi.html", "ankilozan-spondilit.html"],
-    "bel-fitigi.html": ["bel-agrisi.html", "boyun-fitigi.html"],
+    "bel-fitigi.html": ["bel-agrisi.html", "dar-kanal.html"],
     "diz-kireclenmesi.html": ["menisku-yirtigi.html", "kalca-kireclenmesi.html"],
     "boyun-agrisi.html": ["boyun-fitigi.html", "bas-agrisi.html"],
     "boyun-fitigi.html": ["boyun-agrisi.html", "bel-fitigi.html"],
@@ -286,6 +287,7 @@ RELATED = {
     "cene-eklemi.html": ["bas-agrisi.html", "boyun-agrisi.html"],
     "idrar-kacirma.html": ["gebelikte-bel-agrisi.html", "hareket.html"],
     "gebelikte-bel-agrisi.html": ["idrar-kacirma.html", "bel-agrisi.html"],
+    "dar-kanal.html": ["bel-fitigi.html", "bel-agrisi.html"],
     "otur-kalk-testi.html": ["dusme-onleme.html", "hareket.html"],
     "duvar-oturusu.html": ["hareket.html", "otur-kalk-testi.html"],
     "ic-cekis.html": ["stres.html", "uyku.html"],
@@ -979,7 +981,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "self2_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "self2_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1554,8 +1556,10 @@ TH_UI = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M104 30 Q98 86
 TH_PREG = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="152" cy="20" r="12" fill="#8fa476"/><path d="M152 48 Q192 64 168 92 L150 88 Z" fill="#8fa476"/><path d="M152 34 Q146 60 150 88 L144 146 M150 88 L160 146" stroke="#8fa476" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M152 44 L136 60 L142 76" stroke="#8fa476" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M147 68 Q143 80 149 92" stroke="#e2ab47" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="146" cy="84" r="19" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M114 78h-12M116 94l-11 5M118 64l-10-6" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 C_RC = KC("rotator-manset-yirtigi.html", TH_RC, "Hastalık rehberi", "Rotator manşet yırtığı", "MR'daki omuz yırtığı ameliyat gerektirir mi? Fizyoterapinin etkisini gösteren çalışmalar ve evde altı omuz egzersizi.")
 C_TMJ = KC("cene-eklemi.html", TH_TMJ, "Hastalık rehberi", "Çene eklemi rahatsızlıkları", "Çene ağrısı, klik sesi ve ağız açmada kısıtlılık: günlük öneriler ve evde altı çene ve boyun egzersizi.")
+TH_LS = """<svg viewBox="0 0 320 150" aria-hidden="true"><g fill="#8fa476"><rect x="118" y="8" width="34" height="23" rx="5"/><rect x="118" y="36" width="34" height="23" rx="5"/><rect x="118" y="68" width="34" height="23" rx="5"/><rect x="118" y="96" width="34" height="23" rx="5"/><rect x="118" y="124" width="34" height="20" rx="5"/><rect x="178" y="12" width="22" height="15" rx="4"/><rect x="178" y="40" width="22" height="15" rx="4"/><rect x="178" y="72" width="22" height="15" rx="4"/><rect x="178" y="100" width="22" height="15" rx="4"/><rect x="178" y="127" width="22" height="14" rx="4"/></g><path d="M157 6 V46 Q157 54 162 60 V67 Q157 73 157 81 V146 H173 V81 Q173 73 168 67 V60 Q173 54 173 46 V6 Z" fill="#ece5cf" opacity=".5"/><ellipse cx="153" cy="63.5" rx="8" ry="5.5" fill="#e2ab47"/><ellipse cx="177" cy="63.5" rx="8" ry="7" fill="#d8b25e"/><circle cx="165" cy="63.5" r="24" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M84 63.5 H108 M100 56.5 L108 63.5 L100 70.5 M236 63.5 H212 M220 56.5 L212 63.5 L220 70.5" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
 C_UI = KC("idrar-kacirma.html", TH_UI, "Hastalık rehberi", "İdrar kaçırma ve pelvik taban", "Öksürürken ya da gülerken idrar kaçırma: pelvik taban egzersizleri nasıl yapılır, ne kadar etkili?")
 C_PREG = KC("gebelikte-bel-agrisi.html", TH_PREG, "Hastalık rehberi", "Gebelikte bel ve leğen ağrısı", "Gebelikte güvenli egzersizler, günlük hayat önerileri ve hemen başvurmanız gereken durumlar.")
+C_LS = KC("dar-kanal.html", TH_LS, "Hastalık rehberi", "Dar kanal (spinal stenoz)", "Yürüyünce bacaklarda ağrı, oturunca rahatlama: MR'daki daralma ameliyat gerektirir mi? Evde altı egzersiz ve videolar.")
 TH_SRT = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M58 134 H262" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="112" cy="72" r="12" fill="#8fa476"/><path d="M112 86 V116 M112 94 L94 106 L84 106 M112 94 L130 106 L140 106" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M110 118 L86 126 L118 132 M114 118 L138 126 L106 132" stroke="#d8b25e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M144 66 Q176 24 200 46" stroke="#e2ab47" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round" fill="none"/><path d="M190 36 L201 47 L187 52" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/><g opacity=".6"><circle cx="226" cy="30" r="12" fill="#8fa476"/><path d="M226 44 V90 M226 90 L216 132 M226 90 L236 132 M226 56 L208 70 M226 56 L244 70" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g></svg>"""
 TH_WALLSIT = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M104 8 V140" stroke="#ece5cf" stroke-width="6" stroke-linecap="round" opacity=".55"/><path d="M96 140 H200" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="122" cy="34" r="12" fill="#8fa476"/><path d="M120 50 V94 M120 60 L140 76 L154 78" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M120 94 L166 96 L167 136 L180 137" stroke="#d8b25e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="238" cy="80" r="30" fill="none" stroke="rgba(236,229,207,.18)" stroke-width="6"/><path d="M238 50 A30 30 0 1 1 208 80" fill="none" stroke="#e2ab47" stroke-width="6" stroke-linecap="round"/><path d="M238 80 V62 M230 40 H246" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"/></svg>"""
 TH_SIGH = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M52 122 H268" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M60 120 C78 118 92 72 110 60 L124 44 C160 44 214 98 262 118 L262 122 L60 122 Z" fill="rgba(226,171,71,.14)"/><path d="M60 120 C78 118 92 72 110 60 C116 56 118 48 124 44 C160 44 214 98 262 118" fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="110" cy="60" r="6" fill="#8fa476"/><circle cx="124" cy="44" r="6" fill="#8fa476"/><path d="M150 30 H236" stroke="#8fa476" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/><path d="M228 24 L237 30 L228 36" stroke="#8fa476" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>"""
@@ -1568,7 +1572,7 @@ C_NATURE = KC("doga-recetesi.html", TH_NATURE, "Kendine iyi bak", "Doğa reçete
 C_SOCIAL = KC("bag-kurmak.html", TH_SOCIAL, "Kendine iyi bak", "Sosyal bağ ve sağlık", "Güçlü sosyal ilişkileri olanların hayatta kalma olasılığı %50 daha yüksek. Şaşırtan bulgular ve her gün için küçük bir öneri.")
 REGIONS = [("tum", "Tümü"), ("bel", "Bel ve sırt"), ("boyun", "Boyun, baş ve çene"), ("omuz", "Omuz, kol ve el"),
            ("diz", "Kalça ve diz"), ("ayak", "Ayak ve ayak bileği"), ("kadin", "Kadın sağlığı"), ("genel", "Tüm vücut")]
-AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_AS, "bel"), (C_SCOLIOSIS, "bel"),
+AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_LS, "bel"), (C_AS, "bel"), (C_SCOLIOSIS, "bel"),
        (C_NECK, "boyun"), (C_HERNIA, "boyun"), (C_HEADACHE, "boyun"), (C_TMJ, "boyun"), (C_VERTIGO, "boyun"),
        (C_SHOULDER, "omuz"), (C_IMPINGE, "omuz"), (C_RC, "omuz"), (C_CTS, "omuz"), (C_ELBOW, "omuz"),
        (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_PFP, "diz"), (C_HIP, "diz"),
@@ -1611,6 +1615,7 @@ HOME_SECTION = f"""  <section id="bilgi">
       <div class="kose-more">
         <span class="lbl">Diğer konular:</span>
         <a class="pill" href="bel-fitigi.html">Bel fıtığı</a>
+        <a class="pill" href="dar-kanal.html">Dar kanal</a>
         <a class="pill" href="boyun-agrisi.html">Boyun ağrısı</a>
         <a class="pill" href="boyun-fitigi.html">Boyun fıtığı</a>
         <a class="pill" href="bas-agrisi.html">Baş ağrısı</a>
