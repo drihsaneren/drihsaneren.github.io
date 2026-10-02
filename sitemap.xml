@@ -316,6 +316,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/bag-kurmak.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/dar-kanal.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/dar-kanal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/lumbar-spinal-stenosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/dar-kanal.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -629,5 +636,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/bag-kurmak.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/social-connection.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/bag-kurmak.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/lumbar-spinal-stenosis.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/dar-kanal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/lumbar-spinal-stenosis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/dar-kanal.html"/>
   </url>
 </urlset>
