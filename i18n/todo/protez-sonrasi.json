@@ -1,0 +1,417 @@
+[
+ {
+  "id": "pro0",
+  "kind": "text",
+  "tr": "Diz ve Kalça Protezi Sonrası Evde Rehabilitasyon ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "pro1",
+  "kind": "attr",
+  "tr": "Diz ve kalça protezi ameliyatından sonra evde rehabilitasyon: ilk haftalarda ne beklenir, hangi egzersizler yapılır, ne zaman yürünür, araç kullanılır ve işe dönülür? Güvenli ev önerileri, videolar ve uyarı işaretleri."
+ },
+ {
+  "id": "pro2",
+  "kind": "text",
+  "tr": "Diz ve kalça protezi sonrası evde rehabilitasyon"
+ },
+ {
+  "id": "pro3",
+  "kind": "text",
+  "tr": "Protez ameliyatı ağrıyı azaltmak ve hareketi geri kazandırmak için yapılır; sonucun önemli bir kısmı ise ameliyattan sonraki haftalarda yapılan egzersizlere bağlıdır. Evde doğru egzersiz, güvenli bir ev düzeni ve kademeli olarak artan aktivite bu sürecin temelidir."
+ },
+ {
+  "id": "pro4",
+  "kind": "text",
+  "tr": "1–3 gün"
+ },
+ {
+  "id": "pro5",
+  "kind": "text",
+  "tr": "Kalça protezinde genel durumu iyi olanlarda taburculuk zamanı"
+ },
+ {
+  "id": "pro6",
+  "kind": "text",
+  "tr": "Diz protezinde yardımcısız yürümeyi denemek için yaklaşık süre"
+ },
+ {
+  "id": "pro7",
+  "kind": "text",
+  "tr": "En az 6 hafta"
+ },
+ {
+  "id": "pro8",
+  "kind": "text",
+  "tr": "Tam diz ve kalça protezinden sonra araç kullanmadan önce"
+ },
+ {
+  "id": "pro9",
+  "kind": "text",
+  "tr": "6–12 hafta"
+ },
+ {
+  "id": "pro10",
+  "kind": "text",
+  "tr": "Diz protezinden sonra işe dönüş için genel süre"
+ },
+ {
+  "id": "pro11",
+  "kind": "text",
+  "tr": "İlk haftalarda ne beklemeli?"
+ },
+ {
+  "id": "pro12",
+  "kind": "text",
+  "tr": "Ameliyattan sonraki haftalarda eklemde şişlik, morarma, ısı artışı ve özellikle geceleri ağrı olması beklenen bir durumdur ve zamanla azalır. Tam iyileşme aylar sürebilir."
+ },
+ {
+  "id": "pro13",
+  "kind": "text",
+  "tr": "Yürümeye genellikle hastanedeyken, koltuk değneği ya da yürüteçle başlanır. Güvendikçe önce tek değneğe, sonra bastona geçilir. Fizyoterapistinizin önerdiği egzersizleri düzenli yapmak iyileşmeye yardım eder ve komplikasyonları önler."
+ },
+ {
+  "id": "pro14",
+  "kind": "text",
+  "tr": "İlk günlerden itibaren"
+ },
+ {
+  "id": "pro15",
+  "kind": "text",
+  "tr": "Şişliği azaltmak için dinlenirken bacağınızı yüksekte tutun."
+ },
+ {
+  "id": "pro16",
+  "kind": "text",
+  "tr": "Ağrı kesicilerinizi hekiminizin önerdiği şekilde, egzersizlerden önce alın."
+ },
+ {
+  "id": "pro17",
+  "kind": "text",
+  "tr": "Ayak bileği pompasını gün içinde sık sık yapın."
+ },
+ {
+  "id": "pro18",
+  "kind": "text",
+  "tr": "Kısa ama sık yürüyüşler yapın, uzun süre hareketsiz kalmayın."
+ },
+ {
+  "id": "pro19",
+  "kind": "text",
+  "tr": "Pıhtı önleyici ilaçlarınızı ya da çoraplarınızı önerildiği süre boyunca kullanın."
+ },
+ {
+  "id": "pro20",
+  "kind": "text",
+  "tr": "Diz ve kalça protezinde dikkat edilecekler"
+ },
+ {
+  "id": "pro21",
+  "kind": "text",
+  "tr": "Diz protezi: tam düzleşme"
+ },
+ {
+  "id": "pro22",
+  "kind": "text",
+  "tr": "Uyurken dizinizin altına yastık koymayın; bükük kalan diz zamanla tam düzleşmeyebilir. Bacağınızı yükseltirken yastığı baldır ve topuğun altına koyun."
+ },
+ {
+  "id": "pro23",
+  "kind": "text",
+  "tr": "Diz protezi: bükme"
+ },
+ {
+  "id": "pro24",
+  "kind": "text",
+  "tr": "Dizin bükülme açısını artırmak ilk haftaların en önemli hedeflerinden biridir. Topuk kaydırma ve oturarak diz bükme egzersizleri bunun için kullanılır."
+ },
+ {
+  "id": "pro25",
+  "kind": "text",
+  "tr": "Diz protezi: ilk 6 hafta"
+ },
+ {
+  "id": "pro26",
+  "kind": "text",
+  "tr": "İlk 6 hafta bacak bacak üstüne atarak oturmayın."
+ },
+ {
+  "id": "pro27",
+  "kind": "text",
+  "tr": "Kalça protezi: hareket kısıtlamaları"
+ },
+ {
+  "id": "pro28",
+  "kind": "text",
+  "tr": "Birçok merkez ilk haftalarda kalçayı 90 dereceden fazla bükmemeyi, bacak bacak üstüne atmamayı, ayaklara doğru eğilmemeyi ve alçak koltuk ya da klozetten kaçınmayı önerir. Son çalışmalar rutin kısıtlamaların çıkık riskini azaltmadığını gösteriyor; hangilerine uymanız gerektiğine cerrahınız karar verir."
+ },
+ {
+  "id": "pro29",
+  "kind": "text",
+  "tr": "Kalça protezi: aktivite"
+ },
+ {
+  "id": "pro30",
+  "kind": "text",
+  "tr": "İlk aylarda zıplama, ani dönme ve düşme riski yüksek hareketlerden kaçının; her gün, rahat ettiğiniz ölçüde yürüyün."
+ },
+ {
+  "id": "pro31",
+  "kind": "text",
+  "tr": "Protez sonrası altı temel egzersiz"
+ },
+ {
+  "id": "pro32",
+  "kind": "text",
+  "tr": "Bu egzersizler diz ve kalça protezinden sonra sık kullanılan temel hareketlerdir. Hangilerinin, ne zaman ve hangi sınırlar içinde size uygun olduğunu cerrahınız ve fizyoterapistiniz belirler. Egzersiz sırasında hafif ağrı olabilir; keskin ağrı, yarada akıntı ya da belirgin şişlik artışı olursa durun."
+ },
+ {
+  "id": "pro33",
+  "kind": "text",
+  "tr": "Sırtüstü yatın ya da oturun, bacaklarınız uzansın. Ayak uçlarınızı önce kendinize doğru çekin, sonra aşağı doğru itin. Baldır kaslarını çalıştırarak kan dolaşımını hızlandırır; ameliyattan sonraki ilk günlerden itibaren sık sık yapılır."
+ },
+ {
+  "id": "pro34",
+  "kind": "text",
+  "tr": "Saatte bir, 10–20 tekrar"
+ },
+ {
+  "id": "pro35",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, ameliyatlı bacağınızın dizinin altına rulo yapılmış küçük bir havlu koyun. Dizinizin arkasıyla havluyu aşağı bastırarak uyluğunuzun ön kasını sıkın, 5 saniye tutun. Dizin tam düzleşmesine yardım eder."
+ },
+ {
+  "id": "pro36",
+  "kind": "text",
+  "tr": "10 tekrar, günde 3 kez"
+ },
+ {
+  "id": "pro37",
+  "kind": "text",
+  "tr": "Topuk kaydırma"
+ },
+ {
+  "id": "pro38",
+  "kind": "text",
+  "tr": "Sırtüstü yatın. Topuğunuzu yatağın üzerinde kaydırarak kalçanıza doğru çekin ve dizinizi rahat ettiğiniz kadar bükün, sonra yavaşça düzeltin. Topuğun altına poşet koymak kaymayı kolaylaştırır. Kalça protezinde bükme sınırı için cerrahınızın önerisine uyun."
+ },
+ {
+  "id": "pro39",
+  "kind": "text",
+  "tr": "Sandalyeye dik oturun. Ameliyatlı bacağınızın dizini yavaşça düzeltip uyluğunuzun ön kasını sıkın, 5 saniye tutup yavaşça indirin."
+ },
+ {
+  "id": "pro40",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, sağlam dizinizi bükün. Ameliyatlı bacağınızı dizi düz kalacak şekilde, uyluğunuzu sıkarak diğer dizinizin hizasına kadar kaldırın, yavaşça indirin. Uygun olup olmadığını fizyoterapistinize danışın."
+ },
+ {
+  "id": "pro41",
+  "kind": "text",
+  "tr": "Kollu ve yeterince yüksek bir sandalyede ameliyatlı bacağınızı hafifçe öne alın. Ellerinizle kolçaklardan destek alarak kalkın, sonra kontrollü şekilde oturun. Günlük bağımsızlığın temel hareketidir."
+ },
+ {
+  "id": "pro42",
+  "kind": "text",
+  "tr": "5–10 tekrar, günde 2–3 kez"
+ },
+ {
+  "id": "pro43",
+  "kind": "text",
+  "tr": "Evde güvenli günlük yaşam"
+ },
+ {
+  "id": "pro44",
+  "kind": "text",
+  "tr": "Ev düzenini ameliyattan önce hazırlamak, ilk haftaları çok daha kolay ve güvenli hale getirir."
+ },
+ {
+  "id": "pro45",
+  "kind": "text",
+  "tr": "Merdiven çıkarken önce sağlam bacağınızla, inerken önce ameliyatlı bacağınız ve bastonunuzla adım atın."
+ },
+ {
+  "id": "pro46",
+  "kind": "text",
+  "tr": "Kollu, yeterince yüksek bir sandalye kullanın; kalça protezinde klozet yükseltici işinizi kolaylaştırır."
+ },
+ {
+  "id": "pro47",
+  "kind": "text",
+  "tr": "Kaygan halıları kaldırın, yerdeki kabloları toplayın, geceleri yolunuzu aydınlatın."
+ },
+ {
+  "id": "pro48",
+  "kind": "text",
+  "tr": "Banyoya tutunma barı ve kaydırmaz paspas koyun."
+ },
+ {
+  "id": "pro49",
+  "kind": "text",
+  "tr": "Uzun saplı ayakkabı çekeceği ve uzanma aparatı eğilmeden işlerinizi yapmanızı sağlar."
+ },
+ {
+  "id": "pro50",
+  "kind": "text",
+  "tr": "Protez sonrası egzersiz videoları"
+ },
+ {
+  "id": "pro51",
+  "kind": "text",
+  "tr": "ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz. Egzersizleri cerrahınızın ve fizyoterapistinizin izin verdiği ölçüde yapın."
+ },
+ {
+  "id": "pro52",
+  "kind": "attr",
+  "tr": "Diz protezi egzersizleri videosunu oynat"
+ },
+ {
+  "id": "pro53",
+  "kind": "text",
+  "tr": "Diz protezi sonrası iki kritik egzersiz"
+ },
+ {
+  "id": "pro54",
+  "kind": "text",
+  "tr": "Dizin düzleşmesi ve bükülmesi için temel iki hareket."
+ },
+ {
+  "id": "pro55",
+  "kind": "attr",
+  "tr": "Kalça protezi egzersizleri videosunu oynat"
+ },
+ {
+  "id": "pro56",
+  "kind": "text",
+  "tr": "Kalça protezinden 4–6 hafta sonra egzersizler"
+ },
+ {
+  "id": "pro57",
+  "kind": "text",
+  "tr": "Ameliyattan sonraki ilk haftaları izleyen dönem için egzersiz programı."
+ },
+ {
+  "id": "pro58",
+  "kind": "text",
+  "tr": "Ne zaman yürümeye başlayabilirim?"
+ },
+ {
+  "id": "pro59",
+  "kind": "text",
+  "tr": "Yürümeye genellikle ameliyattan kısa süre sonra, hastanede, koltuk değneği ya da yürüteçle başlanır. Diz protezinde güvendikçe önce tek değneğe, sonra bastona geçilir; yaklaşık 6 hafta sonra, kendinizi hazır hissediyorsanız yardımcısız yürümeyi deneyebilirsiniz."
+ },
+ {
+  "id": "pro60",
+  "kind": "text",
+  "tr": "Ne zaman araba kullanabilirim?"
+ },
+ {
+  "id": "pro61",
+  "kind": "text",
+  "tr": "Tam diz ve kalça protezinden sonra en az 6 hafta beklemeniz önerilir; yarım (kısmi) diz protezinde bu süre 3 hafta olabilir. Araç kullanmaya başlamadan önce hekiminizden onay alın."
+ },
+ {
+  "id": "pro62",
+  "kind": "text",
+  "tr": "Kalça protezinden sonra hangi hareketlerden kaçınmalıyım?"
+ },
+ {
+  "id": "pro63",
+  "kind": "text",
+  "tr": "Birçok merkez ilk haftalarda bacak bacak üstüne atmamayı, kalçayı 90 dereceden fazla bükmemeyi ve alçak koltuklardan kaçınmayı önerir. Ancak 8.835 hastayı kapsayan bir derlemede bu kısıtlamaların rutin olarak uygulanmasının çıkık riskini azalttığı gösterilemedi; bu yüzden bazı merkezler kısıtlamaları azaltıyor. Hangi hareketlerden kaçınmanız gerektiğine ameliyat tekniğinize göre cerrahınız karar verir."
+ },
+ {
+  "id": "pro64",
+  "kind": "text",
+  "tr": "Dizimin altına yastık koyabilir miyim?"
+ },
+ {
+  "id": "pro65",
+  "kind": "text",
+  "tr": "Uyurken dizinizin altına yastık koymayın. Diz bükük pozisyonda uzun süre kalırsa tam düzleşmesi zorlaşır. Bacağınızı yükseltmek istiyorsanız yastığı dizin değil, baldır ve topuğun altına koyun."
+ },
+ {
+  "id": "pro66",
+  "kind": "text",
+  "tr": "Ne zaman işe dönebilirim?"
+ },
+ {
+  "id": "pro67",
+  "kind": "text",
+  "tr": "Kendinizi hazır hissettiğinizde; diz protezinden sonra bu genellikle 6–12 hafta, kalça protezinden sonra yaklaşık 6 haftadır. Ağır bedensel işlerde süre uzayabilir."
+ },
+ {
+  "id": "pro68",
+  "kind": "text",
+  "tr": "Ameliyattan önce egzersiz yapmalı mıyım?"
+ },
+ {
+  "id": "pro69",
+  "kind": "text",
+  "tr": "Evet. Amerikan Fizyoterapi Derneği'nin diz protezi kılavuzu ameliyat öncesinde kuvvet ve esneklik egzersizleri öneriyor. Ameliyata güçlü kaslarla girmek sonrasındaki süreci kolaylaştırır."
+ },
+ {
+  "id": "pro70",
+  "kind": "text",
+  "tr": "Ameliyattan sonra şu durumlarda beklemeden cerrahınıza ya da bir hekime başvurun:"
+ },
+ {
+  "id": "pro71",
+  "kind": "text",
+  "tr": "Bacağınızda ve özellikle baldırınızda zonklayan ya da kramp tarzında ağrı, şişlik (pıhtı olabilir)"
+ },
+ {
+  "id": "pro72",
+  "kind": "text",
+  "tr": "Bacakta ağrı ve şişlikle birlikte nefes darlığı ya da göğüs ağrısı (akciğere pıhtı atmış olabilir, <strong>112</strong>'yi arayın)"
+ },
+ {
+  "id": "pro73",
+  "kind": "text",
+  "tr": "Ateş, üşüme, titreme; yarada akıntı ya da iltihap"
+ },
+ {
+  "id": "pro74",
+  "kind": "text",
+  "tr": "Eklemde düzelmeyen, giderek artan kızarıklık, hassasiyet, şişlik ya da ağrı"
+ },
+ {
+  "id": "pro75",
+  "kind": "text",
+  "tr": "Kalçada ani şiddetli ağrı, bacağın kısalmış ya da dönmüş görünmesi, basamama (çıkık olabilir)"
+ },
+ {
+  "id": "pro76",
+  "kind": "text",
+  "tr": "Protez sonrası rehabilitasyon süreciniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "pro77",
+  "kind": "wa",
+  "tr": "Merhaba, protez sonrası rehabilitasyon için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "pro78",
+  "kind": "text",
+  "tr": "NHS. <a href=\"https://www.nhs.uk/tests-and-treatments/knee-replacement/recovery/\" target=\"_blank\" rel=\"noopener\">Recovering from a knee replacement</a>."
+ },
+ {
+  "id": "pro79",
+  "kind": "text",
+  "tr": "NHS. <a href=\"https://www.nhs.uk/tests-and-treatments/knee-replacement/complications/\" target=\"_blank\" rel=\"noopener\">Complications of a knee replacement</a>."
+ },
+ {
+  "id": "pro80",
+  "kind": "text",
+  "tr": "NHS. <a href=\"https://www.nhs.uk/tests-and-treatments/hip-replacement/recovering-from-a-hip-replacement/\" target=\"_blank\" rel=\"noopener\">Recovering from a hip replacement</a>."
+ },
+ {
+  "id": "pro81",
+  "kind": "ld",
+  "tr": "Diz protezi sonrası rehabilitasyon"
+ },
+ {
+  "id": "pro82",
+  "kind": "ld",
+  "tr": "Kalça protezi sonrası rehabilitasyon"
+ }
+]

@@ -1,0 +1,234 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://drihsaneren.com/#business",
+      "name": "İhsan Eren Evde Fizyoterapi",
+      "url": "https://drihsaneren.com/",
+      "image": "https://drihsaneren.com/logo.png",
+      "logo": "https://drihsaneren.com/logo.png",
+      "description": "İstanbul içinde evde fizyoterapi, rehabilitasyon, kişiye özel egzersiz ve fonksiyonel değerlendirme hizmetleri.",
+      "email": "ihsneren@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "İstanbul",
+        "addressRegion": "İstanbul",
+        "addressCountry": "TR"
+      },
+      "priceRange": "₺₺–₺₺₺",
+      "founder": {
+        "@id": "https://drihsaneren.com/#ihsan-eren"
+      },
+      "employee": {
+        "@id": "https://drihsaneren.com/#ihsan-eren"
+      },
+      "areaServed": {
+        "@type": "City",
+        "@id": "https://drihsaneren.com/#istanbul",
+        "name": "İstanbul",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.0082,
+          "longitude": 28.9784
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fizyoterapi ve Rehabilitasyon Hizmetleri",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://drihsaneren.com/#home-physiotherapy",
+              "name": "Evde Fizyoterapi",
+              "serviceType": "Evde fizyoterapi ve rehabilitasyon",
+              "provider": {
+                "@id": "https://drihsaneren.com/#business"
+              },
+              "areaServed": {
+                "@id": "https://drihsaneren.com/#istanbul"
+              },
+              "audience": {
+                "@type": "PeopleAudience",
+                "healthCondition": [
+                  {
+                    "@id": "https://drihsaneren.com/#low-back-pain"
+                  },
+                  {
+                    "@id": "https://drihsaneren.com/#neck-pain"
+                  },
+                  {
+                    "@id": "https://drihsaneren.com/#cervical-disc-herniation"
+                  },
+                  {
+                    "@id": "https://drihsaneren.com/#stroke-rehabilitation"
+                  },
+                  {
+                    "@id": "https://drihsaneren.com/#knee-osteoarthritis"
+                  },
+                  {
+                    "@id": "https://drihsaneren.com/#frozen-shoulder"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kişiye Özel Egzersiz Programı",
+              "serviceType": "Kişiye özel egzersiz ve rehabilitasyon programı",
+              "provider": {
+                "@id": "https://drihsaneren.com/#business"
+              },
+              "areaServed": {
+                "@id": "https://drihsaneren.com/#istanbul"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fonksiyonel Değerlendirme",
+              "serviceType": "Kuvvet, denge, yürüme, esneklik ve fonksiyonel kapasite değerlendirmesi",
+              "provider": {
+                "@id": "https://drihsaneren.com/#business"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://drihsaneren.com/#ihsan-eren",
+      "name": "İhsan Eren",
+      "url": "https://drihsaneren.com/",
+      "image": "https://drihsaneren.com/portre.jpg",
+      "jobTitle": [
+        "Fizyoterapist",
+        "İntörn Tıp Doktoru"
+      ],
+      "description": "Fizyoterapi ve Rehabilitasyon lisans programından (4 yıllık) mezun fizyoterapist ve tıp fakültesi 6. sınıf intörn hekim. Manuel terapi, rehabilitasyon, elektroterapi ve kişiye özel egzersiz alanlarında çalışmaktadır.",
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Fizyoterapist",
+        "occupationLocation": {
+          "@id": "https://drihsaneren.com/#istanbul"
+        }
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Fizyoterapi ve Rehabilitasyon Lisans Derecesi (4 yıllık mezun)",
+          "credentialCategory": "Lisans derecesi"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Tıp Fakültesi 6. Sınıf (İntörn Hekim)",
+          "credentialCategory": "Tıp eğitimi (devam ediyor)"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Ortopedik Manuel Terapi Eğitimi",
+          "credentialCategory": "Mesleki eğitim"
+        }
+      ],
+      "knowsAbout": [
+        "Fizyoterapi",
+        "Rehabilitasyon",
+        "Kas-iskelet sistemi rehabilitasyonu",
+        "Nörolojik rehabilitasyon",
+        "Manuel terapi",
+        "Elektroterapi",
+        "Egzersiz terapisi",
+        "Denge ve yürüme rehabilitasyonu",
+        "Ağrı yönetimi",
+        "Fonksiyonel değerlendirme"
+      ],
+      "knows": [
+        {
+          "@type": "Person",
+          "@id": "https://drihsaneren.com/#mentor-nezih-hekim",
+          "name": "Prof. Dr. Nezih Hekim"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://drihsaneren.com/#mentor-kemal-nuri-ozerkan",
+          "name": "Prof. Dr. Kemal Nuri Özerkan"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://drihsaneren.com/#mentor-cihan-aksoy",
+          "name": "Prof. Dr. Cihan Aksoy"
+        }
+      ]
+    },
+    {
+      "@type": "PhysicalTherapy",
+      "@id": "https://drihsaneren.com/#physical-therapy",
+      "name": "Fizyoterapi ve Rehabilitasyon",
+      "relevantSpecialty": {
+        "@id": "https://schema.org/Physiotherapy"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://drihsaneren.com/#low-back-pain",
+      "name": "Bel ağrısı",
+      "alternateName": "Low back pain",
+      "possibleTreatment": {
+        "@id": "https://drihsaneren.com/#physical-therapy"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://drihsaneren.com/#neck-pain",
+      "name": "Boyun ağrısı",
+      "alternateName": "Neck pain",
+      "possibleTreatment": {
+        "@id": "https://drihsaneren.com/#physical-therapy"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://drihsaneren.com/#cervical-disc-herniation",
+      "name": "Boyun fıtığı",
+      "alternateName": "Cervical disc herniation",
+      "possibleTreatment": {
+        "@id": "https://drihsaneren.com/#physical-therapy"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://drihsaneren.com/#stroke-rehabilitation",
+      "name": "İnme sonrası rehabilitasyon",
+      "alternateName": "Post-stroke rehabilitation",
+      "possibleTreatment": {
+        "@id": "https://drihsaneren.com/#physical-therapy"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://drihsaneren.com/#knee-osteoarthritis",
+      "name": "Diz osteoartriti",
+      "alternateName": "Knee osteoarthritis",
+      "possibleTreatment": {
+        "@id": "https://drihsaneren.com/#physical-therapy"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://drihsaneren.com/#frozen-shoulder",
+      "name": "Donuk omuz",
+      "alternateName": "Frozen shoulder",
+      "possibleTreatment": {
+        "@id": "https://drihsaneren.com/#physical-therapy"
+      }
+    }
+  ]
+}

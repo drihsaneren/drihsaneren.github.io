@@ -1,0 +1,226 @@
+{
+ "stres.html": [
+  [
+   "'Nefes al'",
+   "'Breathe in'"
+  ],
+  [
+   "'Nefes ver'",
+   "'Breathe out'"
+  ],
+  [
+   "'Tut'",
+   "'Hold'"
+  ],
+  [
+   "'4 saniye alın, 6 saniye verin. Tutma yok. İstediğiniz kadar sürdürebilirsiniz.'",
+   "'Breathe in for 4 seconds and out for 6. No holding. Keep going for as long as you like.'"
+  ],
+  [
+   "'Bir tur 10 saniye. 6 tur yaklaşık 1 dakika sürer.'",
+   "'One round takes 10 seconds. 6 rounds take about 1 minute.'"
+  ],
+  [
+   "'4 saniye alın, 4 tutun, 4 verin, 4 tutun. Hafifçe, zorlamadan. Günde 1–2 kez, 3–4 tur yeterli.'",
+   "'Breathe in for 4 seconds, hold for 4, breathe out for 4, hold for 4. Gently, without straining. 3–4 rounds once or twice a day is enough.'"
+  ],
+  [
+   "'Bir tur 16 saniye. 4 tur yaklaşık 1 dakika sürer.'",
+   "'One round takes 16 seconds. 4 rounds take about 1 minute.'"
+  ],
+  [
+   "'Burnunuzdan 4 saniye alın, 7 saniye tutun, dudaklarınız hafif aralık, “fuuu” sesiyle 8 saniyede verin. Dilinizin ucu üst ön dişlerinizin arkasında dursun. Başlangıçta günde 2 kez, 3–4 tur.'",
+   "'Breathe in through your nose for 4 seconds, hold for 7, then breathe out through slightly parted lips with a “whoosh” sound over 8 seconds. Rest the tip of your tongue behind your upper front teeth. To begin with, 3–4 rounds twice a day.'"
+  ],
+  [
+   "'Bir tur 19 saniye. 4 turdan sonra kendiliğinden durur.'",
+   "'One round takes 19 seconds. It stops by itself after 4 rounds.'"
+  ],
+  [
+   "w.textContent='Hazır'",
+   "w.textContent='Ready'"
+  ],
+  [
+   "\"Başlat'a basın\"",
+   "\"Press Start\""
+  ],
+  [
+   "rounds+' tur tamamlandı'",
+   "rounds+(rounds===1?' round completed':' rounds completed')"
+  ],
+  [
+   "m.max+' tur tamamlandı. Normal nefesinize dönün.'",
+   "m.max+' rounds completed. Return to your normal breathing.'"
+  ],
+  [
+   "+' sn'",
+   "+' s'"
+  ],
+  [
+   "'Başladı'",
+   "'Started'"
+  ],
+  [
+   "'Spotify çalma listesi: Nuvole Bianche Radio'",
+   "'Spotify playlist: Nuvole Bianche Radio'"
+  ],
+  [
+   "// [söz, saniye, çember: 1 büyü, 0 küçül, -1 tut]",
+   "// [label, seconds, circle: 1 grow, 0 shrink, -1 hold]"
+  ]
+ ],
+ "index.html": [
+  [
+   "im.src = 'p' + pad(p[0])",
+   "im.src = '../p' + pad(p[0])"
+  ],
+  [
+   "'“İntörn Doktor · Fizyoterapist” isimlikli çalışma masası'",
+   "'A desk with an “Intern Doctor · Physiotherapist” nameplate'"
+  ],
+  [
+   "'Sırtta kuru iğneleme'",
+   "'Dry needling on the back'"
+  ],
+  [
+   "'Dizde manuel terapi'",
+   "'Manual therapy on the knee'"
+  ],
+  [
+   "'Bacağa elektroterapi'",
+   "'Electrotherapy on the leg'"
+  ],
+  [
+   "'Omurga maketiyle anlatım'",
+   "'Explaining with a spine model'"
+  ],
+  [
+   "'Lastik bantla egzersiz'",
+   "'Exercise with a resistance band'"
+  ],
+  [
+   "'Kavrama gücü ölçümü'",
+   "'Measuring grip strength'"
+  ],
+  [
+   "x.toFixed(1).replace('.', ',')",
+   "x.toFixed(1)"
+  ],
+  [
+   "x.toLocaleString('tr-TR')",
+   "x.toLocaleString('en-GB')"
+  ],
+  [
+   "'15.000+'",
+   "'15,000+'"
+  ],
+  [
+   "'6.000–8.000' : '8.000–10.000'",
+   "'6,000–8,000' : '8,000–10,000'"
+  ],
+  [
+   "'Yeniden ölç'",
+   "'Measure again'"
+  ],
+  [
+   "'Durdur · '",
+   "'Stop · '"
+  ],
+  [
+   "+ ' sn'; }, 100);",
+   "+ ' s'; }, 100);"
+  ],
+  [
+   "cd.textContent = '10 saniye say'",
+   "cd.textContent = 'Count 10 seconds'"
+  ],
+  [
+   "'10 saniye tamam ✓ Tekrar say'",
+   "'10 seconds done ✓ Count again'"
+  ],
+  [
+   "r + ' · durdurmak için dokunun'",
+   "r + ' · tap to stop'"
+  ],
+  [
+   "qg: ['Güçlü görünüyorsunuz', 'Sonuçlarınız kas gücü, denge ve kondisyon açısından yaşıtlarınızla aynı düzeyde ya da daha iyi. Fonksiyonel yaşınız takvim yaşınızdan genç olabilir. Bunu kesin olarak ölçmek ve korumak için evde ayrıntılı longevity analizi yapabiliriz.']",
+   "qg: ['You look strong', 'Your muscle strength, balance and fitness are on a par with, or better than, people your age. Your functional age may be younger than your calendar age. To measure this precisely and keep it that way, we can do a detailed longevity analysis at your home.']"
+  ],
+  [
+   "qm: ['Gelişime açık alanlar var', 'Bazı sonuçlarınız yaşıtlarınızın gerisinde; fonksiyonel yaşınız takvim yaşınızdan ileride olabilir. İyi haber: kas gücü ve denge her yaşta, birkaç haftalık düzenli egzersizle belirgin şekilde gelişebilir.']",
+   "qm: ['There is room to improve', 'Some of your results are behind those of people your age; your functional age may be older than your calendar age. The good news: muscle strength and balance can improve noticeably at any age with a few weeks of regular exercise.']"
+  ],
+  [
+   "ql: ['Dikkat edilmesi gereken sonuçlar', 'Sonuçlarınız kas gücü, denge ya da kondisyon açısından dikkat gerektiren alanlar gösteriyor. Düşme riskini azaltmak ve kondisyonunuzu geri kazanmak için kişiye özel bir program iyi bir başlangıç olur.']",
+   "ql: ['Results that need attention', 'Your results show areas of muscle strength, balance or fitness that need attention. A personalised programme is a good start for lowering your risk of falls and getting your fitness back.']"
+  ],
+  [
+   "'Kol desteği olmadan yapılamadı' : fmt1(t) + ' sn'",
+   "'Could not be done without arm support' : fmt1(t) + ' s'"
+  ],
+  [
+   "' 65 yaş üstünde 12 saniye ve üzeri, düşme riskinin ayrıca değerlendirilmesi gerektiğine işaret eder.'",
+   "' Over the age of 65, 12 seconds or more suggests that fall risk should be assessed separately.'"
+  ],
+  [
+   "['İkisinde de 10 saniye duramadınız', 'Yalnızca bir ayakta 10 saniye', 'İki ayakta da 10 saniye']",
+   "['Could not manage 10 seconds on either leg', '10 seconds on one leg only', '10 seconds on both legs']"
+  ],
+  [
+   "'Değerlendirilmedi' : ['1,5 dakikadan uzun', '1–1,5 dakika', '1 dakikadan kısa']",
+   "'Not assessed' : ['More than 1.5 minutes', '1–1.5 minutes', 'Less than 1 minute']"
+  ],
+  [
+   "'Kas gücü · 5 kez kalkıp oturma: '",
+   "'Muscle strength · 5 sit-to-stands: '"
+  ],
+  [
+   "'Yaş grubunuzun ortalaması yaklaşık ' + fmt1(norm) + ' sn.'",
+   "'The average for your age group is about ' + fmt1(norm) + ' s.'"
+  ],
+  [
+   "'Denge · tek ayak: '",
+   "'Balance · one leg: '"
+  ],
+  [
+   "'Orta ve ileri yaşta 10 saniye tek ayak üzerinde durabilmek iyi bir işarettir.'",
+   "'In middle and later life, being able to stand on one leg for 10 seconds is a good sign.'"
+  ],
+  [
+   "'Orta ve ileri yaşta 10 saniye tek ayak üzerinde duramamak, bir izlem çalışmasında daha yüksek ölüm riskiyle ilişkili bulundu. Denge, egzersizle hızla gelişir.'",
+   "'In middle and later life, being unable to stand on one leg for 10 seconds was linked to a higher risk of death in a follow-up study. Balance improves quickly with exercise.'"
+  ],
+  [
+   "'Günlük hareket: '",
+   "'Daily activity: '"
+  ],
+  [
+   "+ ' adım', 'Yaşınız için faydanın en yüksek olduğu aralık günde ' + tgtTxt + ' adım.'",
+   "+ ' steps', 'The range with the greatest benefit for your age is ' + tgtTxt + ' steps a day.'"
+  ],
+  [
+   "'Kondisyon · 4 kat merdiven: '",
+   "'Fitness · 4 flights of stairs: '"
+  ],
+  [
+   "'Bu test sonuca katılmadı.'",
+   "'This test was not included in the result.'"
+  ],
+  [
+   "'1 dakikanın altı iyi kondisyonu, 1,5 dakikanın üstü geliştirilmesi gereken bir kondisyonu gösterir.'",
+   "'Under 1 minute suggests good fitness; over 1.5 minutes suggests fitness that needs improving.'"
+  ],
+  [
+   "var msg = 'Merhaba, sitedeki hızlı fonksiyonel testi yaptım (' + a + ' yaş). Otur-kalk: ' + stsTxt + '; tek ayak: ' + balTxt.toLowerCase() + '; günlük adım: ~' + (s >= 15000 ? '15,000+' : fmtN(s)) + '; merdiven: ' + stTxt.toLowerCase() + '. Sonuç: ' + T[band][0] + '. Evde ayrıntılı longevity analizi hakkında bilgi almak istiyorum.';",
+   "var msg = 'Hello, I did the quick functional test on your website (age ' + a + '). Sit-to-stand: ' + stsTxt + '; one leg: ' + balTxt.toLowerCase() + '; daily steps: ~' + (s >= 15000 ? '15,000+' : fmtN(s)) + '; stairs: ' + stTxt.toLowerCase() + '. Result: ' + T[band][0] + '. I would like to find out more about a detailed longevity analysis at home.';"
+  ],
+  [
+   "// kronometre (otur-kalk)",
+   "// stopwatch (sit-to-stand)"
+  ],
+  [
+   "// 10 saniye geri sayım (denge)",
+   "// 10-second countdown (balance)"
+  ]
+ ]
+}

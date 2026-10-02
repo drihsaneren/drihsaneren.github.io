@@ -1,0 +1,1577 @@
+[
+ {
+  "id": "fb1",
+  "kind": "text",
+  "tr": "Logo tescillidir."
+ },
+ {
+  "id": "fb2",
+  "kind": "text",
+  "tr": "E-posta gönderin"
+ },
+ {
+  "id": "fb3",
+  "kind": "text",
+  "tr": "Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; size en kısa sürede dönüş yapayım. İstanbul içinde evde fizyoterapi hizmeti."
+ },
+ {
+  "id": "fb4",
+  "kind": "text",
+  "tr": "Hikâyenizi dinleyerek başlayalım."
+ },
+ {
+  "id": "fb5",
+  "kind": "text",
+  "tr": "Size uygun günü ve saati WhatsApp’tan ya da e-postayla yazabilirsiniz."
+ },
+ {
+  "id": "fb6",
+  "kind": "text",
+  "tr": "Tanışma görüşmesi"
+ },
+ {
+  "id": "fb7",
+  "kind": "text",
+  "tr": "Tanışma görüşmesi planla"
+ },
+ {
+  "id": "fb8",
+  "kind": "text",
+  "tr": "Merhaba, tanışma görüşmesi için {day}, {time} arası bana uygun. Görüşme şekli: {mode}."
+ },
+ {
+  "id": "fb9",
+  "kind": "text",
+  "tr": "E-postayla gönder"
+ },
+ {
+  "id": "fb10",
+  "kind": "text",
+  "tr": "WhatsApp’tan gönder"
+ },
+ {
+  "id": "fb11",
+  "kind": "text",
+  "tr": "Bir gün ve saat aralığı seçin."
+ },
+ {
+  "id": "fb12",
+  "kind": "text",
+  "tr": "Görüntülü"
+ },
+ {
+  "id": "fb13",
+  "kind": "text",
+  "tr": "Telefon"
+ },
+ {
+  "id": "fb14",
+  "kind": "attr",
+  "tr": "Görüşme şekli"
+ },
+ {
+  "id": "fb15",
+  "kind": "text",
+  "tr": "<span>3</span>Görüşme şekli"
+ },
+ {
+  "id": "fb16",
+  "kind": "text",
+  "tr": "Akşam"
+ },
+ {
+  "id": "fb17",
+  "kind": "text",
+  "tr": "Öğleden sonra"
+ },
+ {
+  "id": "fb18",
+  "kind": "text",
+  "tr": "Öğle"
+ },
+ {
+  "id": "fb19",
+  "kind": "text",
+  "tr": "Sabah"
+ },
+ {
+  "id": "fb20",
+  "kind": "attr",
+  "tr": "Saat aralığı"
+ },
+ {
+  "id": "fb21",
+  "kind": "text",
+  "tr": "<span>2</span>Saat aralığı"
+ },
+ {
+  "id": "fb22",
+  "kind": "text",
+  "tr": "<span>1</span>Gün"
+ },
+ {
+  "id": "fb23",
+  "kind": "attr",
+  "tr": "Gün"
+ },
+ {
+  "id": "fb24",
+  "kind": "text",
+  "tr": "Seçtiğiniz zaman bir taleptir; onayladığımda kesinleşir."
+ },
+ {
+  "id": "fb25",
+  "kind": "text",
+  "tr": "Zaman seçin"
+ },
+ {
+  "id": "fb26",
+  "kind": "text",
+  "tr": "Uygunsa ilk ev ziyaretini planlarız"
+ },
+ {
+  "id": "fb27",
+  "kind": "text",
+  "tr": "Şikâyetinizi ve hedefinizi birlikte konuşuruz"
+ },
+ {
+  "id": "fb28",
+  "kind": "text",
+  "tr": "Telefonla ya da görüntülü, kısa bir sohbet"
+ },
+ {
+  "id": "fb29",
+  "kind": "text",
+  "tr": "Kısa bir ön görüşmede neler yaşadığınızı dinleyeyim, evde nasıl bir yol izleyebileceğimizi birlikte konuşalım. Size uygun günü ve saat aralığını seçin; onaylayıp size dönüş yapayım."
+ },
+ {
+  "id": "fb30",
+  "kind": "text",
+  "tr": "Önce tanışalım"
+ },
+ {
+  "id": "fb31",
+  "kind": "text",
+  "tr": "Değerlendirmeden tedaviye, egzersizden takibe: evde bir sürecin nasıl ilerlediğini anlatmak için hazırlanmış görseller."
+ },
+ {
+  "id": "fb32",
+  "kind": "text",
+  "tr": "Evde bir seansın hikâyesi"
+ },
+ {
+  "id": "fb33",
+  "kind": "text",
+  "tr": "Gerçek yaşınız kaç?"
+ },
+ {
+  "id": "fb34",
+  "kind": "text",
+  "tr": "Örnek rapor: A.Y., 62 yaş. Değerlendirmenin sonunda bütün ölçümler, anlaşılır bir raporda sizinle birlikte gözden geçirilir."
+ },
+ {
+  "id": "fb35",
+  "kind": "attr",
+  "tr": "Sonraki slayt"
+ },
+ {
+  "id": "fb36",
+  "kind": "attr",
+  "tr": "Otomatik oynatma"
+ },
+ {
+  "id": "fb37",
+  "kind": "attr",
+  "tr": "Önceki slayt"
+ },
+ {
+  "id": "fb38",
+  "kind": "text",
+  "tr": "Ve en önemlisi: bu yaz torunlarla doğa yürüyüşü."
+ },
+ {
+  "id": "fb39",
+  "kind": "text",
+  "tr": "Tam analiz"
+ },
+ {
+  "id": "fb40",
+  "kind": "text",
+  "tr": "6. ay"
+ },
+ {
+  "id": "fb41",
+  "kind": "text",
+  "tr": "Yeniden ölçüm"
+ },
+ {
+  "id": "fb42",
+  "kind": "text",
+  "tr": "3. ay"
+ },
+ {
+  "id": "fb43",
+  "kind": "text",
+  "tr": "6. hafta"
+ },
+ {
+  "id": "fb44",
+  "kind": "text",
+  "tr": "Bugün"
+ },
+ {
+  "id": "fb45",
+  "kind": "text",
+  "tr": "Başlangıç"
+ },
+ {
+  "id": "fb46",
+  "kind": "text",
+  "tr": "Kontrol"
+ },
+ {
+  "id": "fb47",
+  "kind": "text",
+  "tr": "Günde 7.000+ adım, günde kilo başına 1,2 g protein"
+ },
+ {
+  "id": "fb48",
+  "kind": "text",
+  "tr": "Günlük yaşam"
+ },
+ {
+  "id": "fb49",
+  "kind": "text",
+  "tr": "Sol tarafa ek set, kalça ve baldır esnekliği"
+ },
+ {
+  "id": "fb50",
+  "kind": "text",
+  "tr": "Esneklik ve asimetri"
+ },
+ {
+  "id": "fb51",
+  "kind": "text",
+  "tr": "Her gün 5 dakika mobilite ve germe"
+ },
+ {
+  "id": "fb52",
+  "kind": "text",
+  "tr": "Ayak bileği"
+ },
+ {
+  "id": "fb53",
+  "kind": "text",
+  "tr": "Haftada 3 gün, hızlı kalkış odaklı güç çalışması"
+ },
+ {
+  "id": "fb54",
+  "kind": "text",
+  "tr": "Bacak gücü"
+ },
+ {
+  "id": "fb55",
+  "kind": "text",
+  "tr": "Öncelik: bacak gücü ve ayak bileği"
+ },
+ {
+  "id": "fb56",
+  "kind": "text",
+  "tr": "12 haftalık plan"
+ },
+ {
+  "id": "fb57",
+  "kind": "text",
+  "tr": "Her kontrolde aynı testler tekrarlanır; küçük değişimler erkenden fark edilir."
+ },
+ {
+  "id": "fb58",
+  "kind": "text",
+  "tr": "Tem 26"
+ },
+ {
+  "id": "fb59",
+  "kind": "text",
+  "tr": "Oca 26"
+ },
+ {
+  "id": "fb60",
+  "kind": "text",
+  "tr": "Tem 25"
+ },
+ {
+  "id": "fb61",
+  "kind": "text",
+  "tr": "Oca 25"
+ },
+ {
+  "id": "fb62",
+  "kind": "text",
+  "tr": "Tem 24"
+ },
+ {
+  "id": "fb63",
+  "kind": "text",
+  "tr": "Oca 24"
+ },
+ {
+  "id": "fb64",
+  "kind": "text",
+  "tr": "Yürüme hızı (m/sn)"
+ },
+ {
+  "id": "fb65",
+  "kind": "text",
+  "tr": "24 kg"
+ },
+ {
+  "id": "fb66",
+  "kind": "text",
+  "tr": "Eşik 16 kg"
+ },
+ {
+  "id": "fb67",
+  "kind": "text",
+  "tr": "Kavrama gücü (kg)"
+ },
+ {
+  "id": "fb68",
+  "kind": "text",
+  "tr": "Kavrama gücü toparlanıyor, yürüme hızı takipte"
+ },
+ {
+  "id": "fb69",
+  "kind": "text",
+  "tr": "Zaman içinde izlem"
+ },
+ {
+  "id": "fb70",
+  "kind": "text",
+  "tr": "Otur-kalk"
+ },
+ {
+  "id": "fb71",
+  "kind": "text",
+  "tr": "Yürüme"
+ },
+ {
+  "id": "fb72",
+  "kind": "text",
+  "tr": "SPPB · fiziksel performans"
+ },
+ {
+  "id": "fb73",
+  "kind": "text",
+  "tr": "Faz açısı"
+ },
+ {
+  "id": "fb74",
+  "kind": "text",
+  "tr": "ASMI · kg/m²"
+ },
+ {
+  "id": "fb75",
+  "kind": "text",
+  "tr": "Kas kütlesi"
+ },
+ {
+  "id": "fb76",
+  "kind": "text",
+  "tr": "Yağ oranı"
+ },
+ {
+  "id": "fb77",
+  "kind": "text",
+  "tr": "Kas kütlesini korumak öncelikli"
+ },
+ {
+  "id": "fb78",
+  "kind": "text",
+  "tr": "Vücut kompozisyonu ve performans"
+ },
+ {
+  "id": "fb79",
+  "kind": "text",
+  "tr": "Sağ ile sol arasındaki farkın %10’u aşması denge ve hareket kontrolü açısından dikkate alınır; programda sol tarafa ek set eklenir."
+ },
+ {
+  "id": "fb80",
+  "kind": "text",
+  "tr": "Diz ekstansiyon<em>%8 fark</em>"
+ },
+ {
+  "id": "fb81",
+  "kind": "text",
+  "tr": "Diz fleksiyon<em>%7 fark</em>"
+ },
+ {
+  "id": "fb82",
+  "kind": "text",
+  "tr": "Kalça abdüksiyon<em>%12 fark</em>"
+ },
+ {
+  "id": "fb83",
+  "kind": "text",
+  "tr": "Ayak bileği dorsifleksiyon<em>%13 fark</em>"
+ },
+ {
+  "id": "fb84",
+  "kind": "text",
+  "tr": "Kavrama<em>%4 fark</em>"
+ },
+ {
+  "id": "fb85",
+  "kind": "text",
+  "tr": "Sağ"
+ },
+ {
+  "id": "fb86",
+  "kind": "text",
+  "tr": "Sol"
+ },
+ {
+  "id": "fb87",
+  "kind": "text",
+  "tr": "Yaş normuna göre %"
+ },
+ {
+  "id": "fb88",
+  "kind": "text",
+  "tr": "Sol ayak bileği ve kalça biraz geride"
+ },
+ {
+  "id": "fb89",
+  "kind": "text",
+  "tr": "Kuvvet asimetrisi"
+ },
+ {
+  "id": "fb90",
+  "kind": "text",
+  "tr": "iyi"
+ },
+ {
+  "id": "fb91",
+  "kind": "text",
+  "tr": "SPPB"
+ },
+ {
+  "id": "fb92",
+  "kind": "text",
+  "tr": "+2 sn"
+ },
+ {
+  "id": "fb93",
+  "kind": "text",
+  "tr": "normal"
+ },
+ {
+  "id": "fb94",
+  "kind": "text",
+  "tr": "16 sn"
+ },
+ {
+  "id": "fb95",
+  "kind": "text",
+  "tr": "Tek ayak durma"
+ },
+ {
+  "id": "fb96",
+  "kind": "text",
+  "tr": "kısıtlı"
+ },
+ {
+  "id": "fb97",
+  "kind": "text",
+  "tr": "7 cm"
+ },
+ {
+  "id": "fb98",
+  "kind": "text",
+  "tr": "Ayak bileği duvar testi"
+ },
+ {
+  "id": "fb99",
+  "kind": "text",
+  "tr": "1,15 m/sn"
+ },
+ {
+  "id": "fb100",
+  "kind": "text",
+  "tr": "Yürüme hızı"
+ },
+ {
+  "id": "fb101",
+  "kind": "text",
+  "tr": "hedef"
+ },
+ {
+  "id": "fb102",
+  "kind": "text",
+  "tr": "düşük"
+ },
+ {
+  "id": "fb103",
+  "kind": "text",
+  "tr": "1,8 W/kg"
+ },
+ {
+  "id": "fb104",
+  "kind": "text",
+  "tr": "Otur-kalk gücü"
+ },
+ {
+  "id": "fb105",
+  "kind": "text",
+  "tr": "−0,9 sn"
+ },
+ {
+  "id": "fb106",
+  "kind": "text",
+  "tr": "sınırda"
+ },
+ {
+  "id": "fb107",
+  "kind": "text",
+  "tr": "13,8 sn"
+ },
+ {
+  "id": "fb108",
+  "kind": "text",
+  "tr": "5 kez otur-kalk"
+ },
+ {
+  "id": "fb109",
+  "kind": "text",
+  "tr": "+1 kg"
+ },
+ {
+  "id": "fb110",
+  "kind": "text",
+  "tr": "El sıkma"
+ },
+ {
+  "id": "fb111",
+  "kind": "text",
+  "tr": "Değişim"
+ },
+ {
+  "id": "fb112",
+  "kind": "text",
+  "tr": "Durum"
+ },
+ {
+  "id": "fb113",
+  "kind": "text",
+  "tr": "Test"
+ },
+ {
+  "id": "fb114",
+  "kind": "text",
+  "tr": "Yedi test, tek bakışta"
+ },
+ {
+  "id": "fb115",
+  "kind": "text",
+  "tr": "Ölçümler"
+ },
+ {
+  "id": "fb116",
+  "kind": "text",
+  "tr": "Denge ve yürüme hızı çok iyi; bacak gücü ve esneklik programın odağında."
+ },
+ {
+  "id": "fb117",
+  "kind": "text",
+  "tr": "Dayanıklılık"
+ },
+ {
+  "id": "fb118",
+  "kind": "text",
+  "tr": "Esneklik"
+ },
+ {
+  "id": "fb119",
+  "kind": "text",
+  "tr": "Kavrama"
+ },
+ {
+  "id": "fb120",
+  "kind": "text",
+  "tr": "Denge"
+ },
+ {
+  "id": "fb121",
+  "kind": "text",
+  "tr": "Güçlü yanlar ve gelişim alanları"
+ },
+ {
+  "id": "fb122",
+  "kind": "text",
+  "tr": "Yaş normuna göre profil"
+ },
+ {
+  "id": "fb123",
+  "kind": "text",
+  "tr": "Düşük"
+ },
+ {
+  "id": "fb124",
+  "kind": "text",
+  "tr": "Kırılganlık"
+ },
+ {
+  "id": "fb125",
+  "kind": "text",
+  "tr": "Orta"
+ },
+ {
+  "id": "fb126",
+  "kind": "text",
+  "tr": "Sarkopeni riski"
+ },
+ {
+  "id": "fb127",
+  "kind": "text",
+  "tr": "Düşme riski"
+ },
+ {
+  "id": "fb128",
+  "kind": "text",
+  "tr": "Takvim yaşı 62"
+ },
+ {
+  "id": "fb129",
+  "kind": "text",
+  "tr": "Fonksiyonel yaş 54"
+ },
+ {
+  "id": "fb130",
+  "kind": "text",
+  "tr": "fonksiyonel yaş"
+ },
+ {
+  "id": "fb131",
+  "kind": "text",
+  "tr": "−8 yıl"
+ },
+ {
+  "id": "fb132",
+  "kind": "text",
+  "tr": "Yaşıtlarından 8 yıl önde"
+ },
+ {
+  "id": "fb133",
+  "kind": "text",
+  "tr": "Fonksiyonel yaş"
+ },
+ {
+  "id": "fb134",
+  "kind": "text",
+  "tr": "Bu yaz torunlarımla doğa yürüyüşüne çıkmak istiyorum."
+ },
+ {
+  "id": "fb135",
+  "kind": "text",
+  "tr": "Hedefi:"
+ },
+ {
+  "id": "fb136",
+  "kind": "text",
+  "tr": "AY"
+ },
+ {
+  "id": "fb137",
+  "kind": "text",
+  "tr": "A.Y. · 62 yaş"
+ },
+ {
+  "id": "fb138",
+  "kind": "text",
+  "tr": "Örnek rapor"
+ },
+ {
+  "id": "fb139",
+  "kind": "attr",
+  "tr": "Örnek analiz raporu"
+ },
+ {
+  "id": "fb140",
+  "kind": "text",
+  "tr": "Ücretsiz ön görüşme"
+ },
+ {
+  "id": "fb141",
+  "kind": "text",
+  "tr": "Ücretsiz ön görüşme planla"
+ },
+ {
+  "id": "fb142",
+  "kind": "text",
+  "tr": "Kısa ve ücretsiz bir ön görüşmede neler yaşadığınızı dinleyeyim, evde nasıl bir yol izleyebileceğimizi birlikte konuşalım. Size uygun günü ve saat aralığını seçin; onaylayıp size dönüş yapayım."
+ },
+ {
+  "id": "fb143",
+  "kind": "text",
+  "tr": "Ücretsiz; telefonla ya da görüntülü kısa bir sohbet"
+ },
+ {
+  "id": "fb144",
+  "kind": "text",
+  "tr": "Merhaba, ücretsiz ön görüşme için {day}, {time} arası bana uygun. Görüşme şekli: {mode}."
+ },
+ {
+  "id": "fb145",
+  "kind": "text",
+  "tr": "Sitede tanıdık gelen anlar: {list}."
+ },
+ {
+  "id": "fb146",
+  "kind": "text",
+  "tr": "“Bir gününüz” bölümünde işaretlediğiniz anlar da mesaja eklenecek."
+ },
+ {
+  "id": "fb147",
+  "kind": "text",
+  "tr": "Bu sorular tanı koymaz. Ağrınız çok şiddetliyse ya da giderek artıyorsa; ateş, açıklanamayan kilo kaybı, bacaklarda güçsüzlük ya da idrar veya bağırsak kontrolünde değişiklik eşlik ediyorsa önce bir hekime başvurun."
+ },
+ {
+  "id": "fb148",
+  "kind": "text",
+  "tr": "Gününüzün birçok anında ağrı ya da zorlanma var. Bununla yaşamak zorunda değilsiniz. Önce sizi dinleyeyim, sonra evde size özel bir yol çizelim."
+ },
+ {
+  "id": "fb149",
+  "kind": "text",
+  "tr": "Gününüzün birkaç anı sizi zorluyor. Küçük görünen bu anlar zamanla hareketlerinizi daraltabilir; erken ele almak her zaman daha kolaydır."
+ },
+ {
+  "id": "fb150",
+  "kind": "text",
+  "tr": "Gününüz ağrısız akıyor gibi görünüyor, ne güzel. Böyle kalması için <a href=\"bilgi.html#kendine-iyi-bak\">Kendine iyi bak</a> bölümündeki pratik araçlara göz atabilirsiniz."
+ },
+ {
+  "id": "fb151",
+  "kind": "text",
+  "tr": "Yanıtladıkça gününüzün haritası yukarıda oluşacak."
+ },
+ {
+  "id": "fb152",
+  "kind": "text",
+  "tr": "Tanıdık gelen anlar: <b id=\"dm-yes\">0</b> / 9"
+ },
+ {
+  "id": "fb153",
+  "kind": "text",
+  "tr": "ağrı yüzünden uykusuzluk"
+ },
+ {
+  "id": "fb154",
+  "kind": "text",
+  "tr": "Uyku rehberi"
+ },
+ {
+  "id": "fb155",
+  "kind": "text",
+  "tr": "Ağrı ve uyku birbirini besler. Pozisyon değiştirince geçmeyen, dinlenirken bile süren gece ağrısını ise mutlaka bir hekime gösterin."
+ },
+ {
+  "id": "fb156",
+  "kind": "text",
+  "tr": "Hayır"
+ },
+ {
+  "id": "fb157",
+  "kind": "text",
+  "tr": "Evet"
+ },
+ {
+  "id": "fb158",
+  "kind": "text",
+  "tr": "Ağrı yüzünden uykuya dalmakta zorlanıyor ya da gece uyanıyor musunuz?"
+ },
+ {
+  "id": "fb159",
+  "kind": "text",
+  "tr": "Gece"
+ },
+ {
+  "id": "fb160",
+  "kind": "text",
+  "tr": "denge ve düşme kaygısı"
+ },
+ {
+  "id": "fb161",
+  "kind": "text",
+  "tr": "Düşmeyi önleme rehberi"
+ },
+ {
+  "id": "fb162",
+  "kind": "text",
+  "tr": "Düşme korkusu insanı hareketten uzaklaştırır, bu da dengeyi daha da zayıflatır. Denge ve kuvvet egzersizleri bu döngüyü kırar ve düşmeleri azaltır."
+ },
+ {
+  "id": "fb163",
+  "kind": "text",
+  "tr": "Yürürken dengenizden emin olamıyor ya da düşmekten çekiniyor musunuz?"
+ },
+ {
+  "id": "fb164",
+  "kind": "text",
+  "tr": "Akşam yürüyüşü"
+ },
+ {
+  "id": "fb165",
+  "kind": "text",
+  "tr": "kolu kaldırırken omuz ağrısı"
+ },
+ {
+  "id": "fb166",
+  "kind": "text",
+  "tr": "Omuz sıkışması rehberi"
+ },
+ {
+  "id": "fb167",
+  "kind": "text",
+  "tr": "Kolu kaldırırken omuzda ağrı, omuz sıkışmasında ve donuk omuzda sık görülür. Hareket açıklığı ve kuvvet çalışmalarıyla belirgin şekilde rahatlayabilir."
+ },
+ {
+  "id": "fb168",
+  "kind": "text",
+  "tr": "Üst rafa uzanırken ya da ceketinizi giyerken omzunuz ağrıyor mu?"
+ },
+ {
+  "id": "fb169",
+  "kind": "text",
+  "tr": "Uzanırken"
+ },
+ {
+  "id": "fb170",
+  "kind": "text",
+  "tr": "kalkarken ellerden destek alma"
+ },
+ {
+  "id": "fb171",
+  "kind": "text",
+  "tr": "Otur-kalk testini deneyin"
+ },
+ {
+  "id": "fb172",
+  "kind": "text",
+  "tr": "Bu, bacak kaslarının güç kaybettiğinin erken bir işareti olabilir. İyi haber: kas gücü her yaşta, düzenli çalışmayla artar."
+ },
+ {
+  "id": "fb173",
+  "kind": "text",
+  "tr": "Oturduğunuz yerden kalkarken ellerinizden destek almanız gerekiyor mu?"
+ },
+ {
+  "id": "fb174",
+  "kind": "text",
+  "tr": "Kalkarken"
+ },
+ {
+  "id": "fb175",
+  "kind": "text",
+  "tr": "otururken ağrı"
+ },
+ {
+  "id": "fb176",
+  "kind": "text",
+  "tr": "Masa başı rehberi"
+ },
+ {
+  "id": "fb177",
+  "kind": "text",
+  "tr": "Tek bir “doğru duruş” yok; en iyi duruş, bir sonraki duruşunuz. Sık pozisyon değiştirmek ve kısa hareket molaları vermek iyi gelir."
+ },
+ {
+  "id": "fb178",
+  "kind": "text",
+  "tr": "Bir süre oturunca boynunuz, sırtınız ya da beliniz ağrımaya başlıyor mu?"
+ },
+ {
+  "id": "fb179",
+  "kind": "text",
+  "tr": "Masa başında"
+ },
+ {
+  "id": "fb180",
+  "kind": "text",
+  "tr": "merdiven inerken diz ağrısı"
+ },
+ {
+  "id": "fb181",
+  "kind": "text",
+  "tr": "Diz önü ağrısı rehberi"
+ },
+ {
+  "id": "fb182",
+  "kind": "text",
+  "tr": "Merdiven inmek, diz kapağının arkasına vücut ağırlığınızın birkaç katı yük bindirir. Güçlenen uyluk ve kalça kasları bu yükü paylaşır."
+ },
+ {
+  "id": "fb183",
+  "kind": "text",
+  "tr": "Merdiven inerken dizleriniz ağrıyor mu, tırabzana tutunmadan inemiyor musunuz?"
+ },
+ {
+  "id": "fb184",
+  "kind": "text",
+  "tr": "Merdiven"
+ },
+ {
+  "id": "fb185",
+  "kind": "text",
+  "tr": "çorap giyerken zorlanma"
+ },
+ {
+  "id": "fb186",
+  "kind": "text",
+  "tr": "Kalça kireçlenmesi rehberi"
+ },
+ {
+  "id": "fb187",
+  "kind": "text",
+  "tr": "Bu hareket kalçanın ve belin esnekliğini ister. Zorlanma çoğu zaman kalça ekleminden ya da belden kaynaklanır ve çalışmayla açılabilir."
+ },
+ {
+  "id": "fb188",
+  "kind": "text",
+  "tr": "Çorabınızı giyerken ya da ayakkabınızı bağlarken zorlanıyor musunuz?"
+ },
+ {
+  "id": "fb189",
+  "kind": "text",
+  "tr": "Giyinme"
+ },
+ {
+  "id": "fb190",
+  "kind": "text",
+  "tr": "öne eğilirken zorlanma"
+ },
+ {
+  "id": "fb191",
+  "kind": "text",
+  "tr": "Bel ağrısı rehberi"
+ },
+ {
+  "id": "fb192",
+  "kind": "text",
+  "tr": "Öne eğilirken bel ağrısı çok yaygındır ve çoğu zaman doğru hareketlerle rahatlar. Dizlerinizi ve kalçanızı hafifçe bükerek eğilmek belinize binen yükü azaltır."
+ },
+ {
+  "id": "fb193",
+  "kind": "text",
+  "tr": "Yüzünüzü yıkarken öne eğilmek zor geliyor mu, lavaboya dayanma ihtiyacı duyuyor musunuz?"
+ },
+ {
+  "id": "fb194",
+  "kind": "text",
+  "tr": "Lavabo"
+ },
+ {
+  "id": "fb195",
+  "kind": "text",
+  "tr": "sabah kalkarken ağrı ya da tutukluk"
+ },
+ {
+  "id": "fb196",
+  "kind": "text",
+  "tr": "Uzun süren sabah tutukluğu"
+ },
+ {
+  "id": "fb197",
+  "kind": "text",
+  "tr": "Sabah tutukluğu çoğu zaman ilk hareketlerle birkaç dakikada açılır. Yarım saatten uzun sürüyorsa bunu mutlaka konuşalım; bazı romatizmal hastalıkların ipucu olabilir."
+ },
+ {
+  "id": "fb198",
+  "kind": "text",
+  "tr": "Günaydın. Yataktan doğrulurken belinizde ya da boynunuzda ağrı, tutukluk hissediyor musunuz?"
+ },
+ {
+  "id": "fb199",
+  "kind": "text",
+  "tr": "Uyanış"
+ },
+ {
+  "id": "fb200",
+  "kind": "text",
+  "tr": "Sabah gözünüzü açtığınız andan gece başınızı yastığa koyana kadar, gününüzün sıradan anlarına birlikte bakalım. Ağrı çoğu zaman kendini tam da bu küçük anlarda belli eder."
+ },
+ {
+  "id": "fb201",
+  "kind": "text",
+  "tr": "Bunlar size tanıdık geliyor mu?"
+ },
+ {
+  "id": "fb202",
+  "kind": "text",
+  "tr": "Bir gününüz"
+ },
+ {
+  "id": "fb203",
+  "kind": "text",
+  "tr": "En çok zorlandığım anlar: {list}."
+ },
+ {
+  "id": "fb204",
+  "kind": "text",
+  "tr": "Günlük Hareket Skalası sonucum: {band} bölge, {score}/{max} puan."
+ },
+ {
+  "id": "fb205",
+  "kind": "text",
+  "tr": "Günlük Hareket Skalası sonucunuz da mesaja eklenecek."
+ },
+ {
+  "id": "fb206",
+  "kind": "text",
+  "tr": "WOMAC ve Oswestry gibi bilimsel ölçeklerden esinlenerek hazırladığım bir ön değerlendirmedir; tanı koymaz. Şiddetli ya da giderek artan ağrı, ateş, açıklanamayan kilo kaybı, bacaklarda güçsüzlük ya da idrar veya bağırsak kontrolünde değişiklik varsa önce bir hekime başvurun."
+ },
+ {
+  "id": "fb207",
+  "kind": "text",
+  "tr": "Yeniden başla"
+ },
+ {
+  "id": "fb208",
+  "kind": "text",
+  "tr": "Sonucumu birlikte yorumlayalım"
+ },
+ {
+  "id": "fb209",
+  "kind": "text",
+  "tr": "Puan <b id=\"gh-score\">0</b> / 27 · <span id=\"gh-agel\"></span> yaş grubu"
+ },
+ {
+  "id": "fb210",
+  "kind": "text",
+  "tr": "En çok zorlandığınız anlar"
+ },
+ {
+  "id": "fb211",
+  "kind": "text",
+  "tr": "Her gece uykunuzu bölen ağrıyı ayrıca bir hekime göstermenizi öneririm."
+ },
+ {
+  "id": "fb212",
+  "kind": "text",
+  "tr": "Günün birçok anında belirgin zorlanıyorsunuz. Bununla yaşamak zorunda değilsiniz: önce bir hekim değerlendirmesi, ardından evde düzenli rehabilitasyon öneririm."
+ },
+ {
+  "id": "fb213",
+  "kind": "text",
+  "tr": "Ağrı ve zorlanma günlük işlerinizi etkiliyor. Kapsamlı bir değerlendirme ve size özel bir program zamanı."
+ },
+ {
+  "id": "fb214",
+  "kind": "text",
+  "tr": "Bazı anlar zorlamaya başlamış. Bu evrede başlanan birkaç haftalık düzenli egzersiz genellikle belirgin fark yaratır."
+ },
+ {
+  "id": "fb215",
+  "kind": "text",
+  "tr": "Yaşınıza göre günlük hareketleriniz çok iyi. Korumak için <a href=\"bilgi.html#kendine-iyi-bak\">Kendine iyi bak</a> bölümüne göz atın."
+ },
+ {
+  "id": "fb216",
+  "kind": "text",
+  "tr": "<span class=\"gh-band r\">Kırmızı bölge</span>Destek alma zamanı"
+ },
+ {
+  "id": "fb217",
+  "kind": "text",
+  "tr": "<span class=\"gh-band o\">Turuncu bölge</span>Günlük hayatınız kısıtlanıyor"
+ },
+ {
+  "id": "fb218",
+  "kind": "text",
+  "tr": "<span class=\"gh-band y\">Sarı bölge</span>İlk sinyaller var"
+ },
+ {
+  "id": "fb219",
+  "kind": "text",
+  "tr": "<span class=\"gh-band g\">Yeşil bölge</span>Gününüz rahat akıyor"
+ },
+ {
+  "id": "fb220",
+  "kind": "text",
+  "tr": "Kırmızı"
+ },
+ {
+  "id": "fb221",
+  "kind": "text",
+  "tr": "Turuncu"
+ },
+ {
+  "id": "fb222",
+  "kind": "text",
+  "tr": "Sarı"
+ },
+ {
+  "id": "fb223",
+  "kind": "text",
+  "tr": "Yeşil"
+ },
+ {
+  "id": "fb224",
+  "kind": "text",
+  "tr": "Ön değerlendirme"
+ },
+ {
+  "id": "fb225",
+  "kind": "text",
+  "tr": "ağrının uykuyu bölmesi"
+ },
+ {
+  "id": "fb226",
+  "kind": "text",
+  "tr": "Her gece"
+ },
+ {
+  "id": "fb227",
+  "kind": "text",
+  "tr": "Haftada birkaç gece"
+ },
+ {
+  "id": "fb228",
+  "kind": "text",
+  "tr": "Ara sıra"
+ },
+ {
+  "id": "fb229",
+  "kind": "text",
+  "tr": "Ağrı uykunuzu bölüyor mu?"
+ },
+ {
+  "id": "fb230",
+  "kind": "text",
+  "tr": "kısa yürüme süresi"
+ },
+ {
+  "id": "fb231",
+  "kind": "text",
+  "tr": "5 dakikadan az"
+ },
+ {
+  "id": "fb232",
+  "kind": "text",
+  "tr": "5–15 dakika"
+ },
+ {
+  "id": "fb233",
+  "kind": "text",
+  "tr": "15–30 dakika"
+ },
+ {
+  "id": "fb234",
+  "kind": "text",
+  "tr": "30 dakikadan fazla"
+ },
+ {
+  "id": "fb235",
+  "kind": "text",
+  "tr": "Buradan yürümeye başlasanız, durmadan kaç dakika yürürsünüz?"
+ },
+ {
+  "id": "fb236",
+  "kind": "text",
+  "tr": "sandalyeden kalkarken destek alma"
+ },
+ {
+  "id": "fb237",
+  "kind": "text",
+  "tr": "Ancak yardımla kalkabiliyorum"
+ },
+ {
+  "id": "fb238",
+  "kind": "text",
+  "tr": "Her zaman"
+ },
+ {
+  "id": "fb239",
+  "kind": "text",
+  "tr": "Bazen"
+ },
+ {
+  "id": "fb240",
+  "kind": "text",
+  "tr": "Sandalyeden kalkarken ellerinizden destek alıyor musunuz?"
+ },
+ {
+  "id": "fb241",
+  "kind": "text",
+  "tr": "Sürekli"
+ },
+ {
+  "id": "fb242",
+  "kind": "text",
+  "tr": "Kısa sürede"
+ },
+ {
+  "id": "fb243",
+  "kind": "text",
+  "tr": "Uzun oturunca"
+ },
+ {
+  "id": "fb244",
+  "kind": "text",
+  "tr": "Otururken ağrı hissediyor musunuz?"
+ },
+ {
+  "id": "fb245",
+  "kind": "text",
+  "tr": "merdivende zorlanma"
+ },
+ {
+  "id": "fb246",
+  "kind": "text",
+  "tr": "Çıkamıyorum"
+ },
+ {
+  "id": "fb247",
+  "kind": "text",
+  "tr": "Tutunarak, dinlenerek"
+ },
+ {
+  "id": "fb248",
+  "kind": "text",
+  "tr": "Nefes nefese ya da ağrıyla"
+ },
+ {
+  "id": "fb249",
+  "kind": "text",
+  "tr": "Rahatça"
+ },
+ {
+  "id": "fb250",
+  "kind": "text",
+  "tr": "Bir kat merdiveni nasıl çıkıyorsunuz?"
+ },
+ {
+  "id": "fb251",
+  "kind": "text",
+  "tr": "ayakkabı bağlarken zorlanma"
+ },
+ {
+  "id": "fb252",
+  "kind": "text",
+  "tr": "Yardım gerekiyor"
+ },
+ {
+  "id": "fb253",
+  "kind": "text",
+  "tr": "Oturup uzun uğraşla"
+ },
+ {
+  "id": "fb254",
+  "kind": "text",
+  "tr": "Zorlanarak"
+ },
+ {
+  "id": "fb255",
+  "kind": "text",
+  "tr": "Ayakkabı bağcığınızı kendiniz bağlayabiliyor musunuz?"
+ },
+ {
+  "id": "fb256",
+  "kind": "text",
+  "tr": "ayağı lavaboya kaldırmakta güçlük"
+ },
+ {
+  "id": "fb257",
+  "kind": "text",
+  "tr": "Yapamıyorum"
+ },
+ {
+  "id": "fb258",
+  "kind": "text",
+  "tr": "Tutunarak, güçlükle"
+ },
+ {
+  "id": "fb259",
+  "kind": "text",
+  "tr": "Ayağınızı yıkamak için lavaboya kaldırabiliyor musunuz?"
+ },
+ {
+  "id": "fb260",
+  "kind": "text",
+  "tr": "Ayak yıkama"
+ },
+ {
+  "id": "fb261",
+  "kind": "text",
+  "tr": "lavaboya eğilirken zorlanma"
+ },
+ {
+  "id": "fb262",
+  "kind": "text",
+  "tr": "Çok ağrılı ve zor"
+ },
+ {
+  "id": "fb263",
+  "kind": "text",
+  "tr": "Tutunarak eğiliyorum"
+ },
+ {
+  "id": "fb264",
+  "kind": "text",
+  "tr": "Biraz zorlanıyorum"
+ },
+ {
+  "id": "fb265",
+  "kind": "text",
+  "tr": "Rahat"
+ },
+ {
+  "id": "fb266",
+  "kind": "text",
+  "tr": "Yüzünüzü yıkarken lavaboya eğilmek nasıl?"
+ },
+ {
+  "id": "fb267",
+  "kind": "text",
+  "tr": "yataktan doğrulurken ağrı"
+ },
+ {
+  "id": "fb268",
+  "kind": "text",
+  "tr": "Çok, zorlukla kalkıyorum"
+ },
+ {
+  "id": "fb269",
+  "kind": "text",
+  "tr": "Belirgin"
+ },
+ {
+  "id": "fb270",
+  "kind": "text",
+  "tr": "Hafif"
+ },
+ {
+  "id": "fb271",
+  "kind": "text",
+  "tr": "Yataktan doğrulurken ağrı hissediyor musunuz?"
+ },
+ {
+  "id": "fb272",
+  "kind": "text",
+  "tr": "Yaş grubunuz?"
+ },
+ {
+  "id": "fb273",
+  "kind": "text",
+  "tr": "Başlarken"
+ },
+ {
+  "id": "fb274",
+  "kind": "text",
+  "tr": "Sabahtan geceye 9 kısa soru. Yaşınıza göre değerlendirilir, sonucunuz renkle gösterilir."
+ },
+ {
+  "id": "fb275",
+  "kind": "text",
+  "tr": "Bir gününüz nasıl geçiyor?"
+ },
+ {
+  "id": "fb276",
+  "kind": "text",
+  "tr": "Günlük Hareket Skalası"
+ },
+ {
+  "id": "fb277",
+  "kind": "text",
+  "tr": "Tahlillerin yerini tutmaz, onları tamamlar."
+ },
+ {
+  "id": "fb278",
+  "kind": "text",
+  "tr": "2 dakikalık hızlı testi deneyin ↓"
+ },
+ {
+  "id": "fb279",
+  "kind": "text",
+  "tr": "<b>İyi haber:</b> Genlerinizi değiştiremezsiniz; kas gücünüzü, dengenizi ve yürüyüşünüzü ise her yaşta geliştirebilirsiniz."
+ },
+ {
+  "id": "fb280",
+  "kind": "text",
+  "tr": "Eur J Prev Cardiol 2026 · 4.282 kişi"
+ },
+ {
+  "id": "fb281",
+  "kind": "text",
+  "tr": "Yerde oturup kalkma testinde düşük puanda kalp-damar kaynaklı ölüm riski."
+ },
+ {
+  "id": "fb282",
+  "kind": "text",
+  "tr": "Yerden kalkma"
+ },
+ {
+  "id": "fb283",
+  "kind": "text",
+  "tr": "BJSM 2022 · 1.702 kişi"
+ },
+ {
+  "id": "fb284",
+  "kind": "text",
+  "tr": "10 saniye tek ayakta duramayanlarda ölüm riskindeki artış."
+ },
+ {
+  "id": "fb285",
+  "kind": "text",
+  "tr": "Tek ayak dengesi"
+ },
+ {
+  "id": "fb286",
+  "kind": "text",
+  "tr": "JAMA 2011 · 34.485 kişi"
+ },
+ {
+  "id": "fb287",
+  "kind": "text",
+  "tr": "Her 0,1 m/sn daha hızlı yürüyüşte ölüm riskindeki azalma."
+ },
+ {
+  "id": "fb288",
+  "kind": "text",
+  "tr": "Lancet 2015 · 139.691 kişi"
+ },
+ {
+  "id": "fb289",
+  "kind": "text",
+  "tr": "Her 5 kg düşüşte ölüm riskindeki artış. Tansiyondan daha güçlü bir gösterge."
+ },
+ {
+  "id": "fb290",
+  "kind": "text",
+  "tr": "Kavrama gücü"
+ },
+ {
+  "id": "fb291",
+  "kind": "text",
+  "tr": "Kavrama gücü, yürüme hızı, denge ve yerden kalkabilmek; büyük bilimsel çalışmalarda uzun yaşamla en güçlü ilişkili göstergeler arasında. Bunları evinizde ölçüyor, fonksiyonel yaşınızı çıkarıyor ve size özel bir egzersiz reçetesine dönüştürüyorum."
+ },
+ {
+  "id": "fb292",
+  "kind": "text",
+  "tr": "Nasıl hareket ettiğiniz, ne kadar uzun ve sağlıklı yaşayacağınıza dair çok şey söyler."
+ },
+ {
+  "id": "fb293",
+  "kind": "text",
+  "tr": "İğne yok, tahlil yok, genetik test yok."
+ },
+ {
+  "id": "fb294",
+  "kind": "text",
+  "tr": "6 kat"
+ },
+ {
+  "id": "fb295",
+  "kind": "text",
+  "tr": "İstanbul içinde evinize geliyorum; değerlendirme, tedavi ve egzersiz programınız ihtiyaçlarınıza ve günlük yaşamınıza göre kişiye özel hazırlanır."
+ },
+ {
+  "id": "fb296",
+  "kind": "text",
+  "tr": "Bu göstergeleri evinizde ölçüyor, fonksiyonel yaşınızı çıkarıyor ve size özel bir egzersiz reçetesine dönüştürüyorum."
+ },
+ {
+  "id": "fb297",
+  "kind": "text",
+  "tr": "Kısa ve ücretsiz bir ön görüşmede sizi dinleyeyim; evde nasıl bir yol izleyeceğimizi birlikte konuşalım."
+ },
+ {
+  "id": "fb298",
+  "kind": "text",
+  "tr": "Evde 2–3 dakikada yapabileceğiniz dört basit test: kas gücü, denge, günlük hareket ve kondisyon."
+ },
+ {
+  "id": "fb299",
+  "kind": "text",
+  "tr": "Evde dambılla, gün aşırı ilerleyen örnek bir program; her hareket animasyonla gösterilir."
+ },
+ {
+  "id": "fb300",
+  "kind": "text",
+  "tr": "Bir gün ve saat seçin."
+ },
+ {
+  "id": "fb301",
+  "kind": "attr",
+  "tr": "Saat"
+ },
+ {
+  "id": "fb302",
+  "kind": "attr",
+  "tr": "Günün bölümü"
+ },
+ {
+  "id": "fb303",
+  "kind": "text",
+  "tr": "<span>2</span>Saat <small>· 30 dakika</small>"
+ },
+ {
+  "id": "fb304",
+  "kind": "text",
+  "tr": "Ücretsiz, yarım saatlik bir sohbet; telefonla ya da görüntülü"
+ },
+ {
+  "id": "fb305",
+  "kind": "text",
+  "tr": "Yaşınıza göre günlük hareketleriniz çok iyi. Korumak için <a href=\"bilgi.html#kendine-iyi-bak\">Kendine iyi bak</a> bölümüne göz atabilirsiniz."
+ },
+ {
+  "id": "fb306",
+  "kind": "attr",
+  "tr": "WhatsApp’tan yazın (yeni sekmede açılır)"
+ },
+ {
+  "id": "fb307",
+  "kind": "text",
+  "tr": "Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; en kısa sürede size dönüş yapalım. İstanbul içinde evde fizyoterapi hizmeti."
+ },
+ {
+  "id": "fb308",
+  "kind": "text",
+  "tr": "Kısa ve ücretsiz bir ön görüşmede tanışalım; sizi dinleyip evde nasıl bir yol izleyeceğimizi birlikte konuşalım."
+ },
+ {
+  "id": "fb309",
+  "kind": "text",
+  "tr": "Bu reçete 15.07.2026 tarihli fonksiyonel değerlendirmeye göre kişiye özel hazırlanmıştır ve başkasına uyarlanamaz. Egzersizler fizyoterapist gözetiminde öğrenildikten sonra evde sürdürülür. Animasyonlar hareketin genel paternini gösterir; doğru teknik ilk seansta birebir öğretilir. · İhsan Eren"
+ },
+ {
+  "id": "fb310",
+  "kind": "text",
+  "tr": "<b>Şu durumlarda dur ve hemen haber ver:</b> göğüs ağrısı, nefes darlığı, baş dönmesi, eklemde keskin ağrı, egzersiz sonrası 48 saati geçen ağrı, düşme veya dengesizlik artışı."
+ },
+ {
+  "id": "fb311",
+  "kind": "text",
+  "tr": "Kuvvet A<br><span>1,3,4,7 · 35 dk</span>"
+ },
+ {
+  "id": "fb312",
+  "kind": "text",
+  "tr": "Kuvvet B<br><span>1,6,8,9 · 35 dk</span>"
+ },
+ {
+  "id": "fb313",
+  "kind": "text",
+  "tr": "Otur-kalk gücü 1.8 W/kg (hedef 2.2) · Ayak bileği 7 cm (hedef 9) · Sol-sağ farkı %13 (hedef &lt;%10). Denge, kavrama ve yürüme hızı korunmuş — bu alanlar sürdürme modunda çalışılacak."
+ },
+ {
+  "id": "fb314",
+  "kind": "text",
+  "tr": "<b>A.Y.</b> · Kadın · 62 yaş<br> Başlangıç: 22.07.2026<br>Sonraki kontrol: 6. hafta"
+ },
+ {
+  "id": "fb315",
+  "kind": "text",
+  "tr": "Örnek reçete · Faz 1–2 · Değerlendirme sonrası program"
+ }
+]

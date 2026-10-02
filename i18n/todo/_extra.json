@@ -1,0 +1,902 @@
+[
+ {
+  "id": "x0",
+  "kind": "text",
+  "tr": "Uygulama kareleri"
+ },
+ {
+  "id": "x1",
+  "kind": "text",
+  "tr": "Temsili görseller"
+ },
+ {
+  "id": "x2",
+  "kind": "text",
+  "tr": "Değerlendirme, manuel terapi, kuru iğneleme, elektroterapi ve egzersiz uygulamalarını temsil eden görseller."
+ },
+ {
+  "id": "x3",
+  "kind": "text",
+  "tr": "Logo tescillidir. Galerideki görseller temsilidir."
+ },
+ {
+  "id": "x4",
+  "kind": "attr",
+  "tr": "Alzheimer kan testleri, Parkinson'da kök hücre nakli, gen tedavileri; omurilik yaralanması, bel ve diz ağrısında yeni çalışmalar: kısa, kaynaklı özetler."
+ },
+ {
+  "id": "x5",
+  "kind": "text",
+  "tr": "Son güncelleme: 29 Eylül 2026"
+ },
+ {
+  "id": "x6",
+  "kind": "text",
+  "tr": "Parkinson"
+ },
+ {
+  "id": "x7",
+  "kind": "text",
+  "tr": "Parkinson'da kök hücreden beyin hücresi nakli"
+ },
+ {
+  "id": "x8",
+  "kind": "text",
+  "tr": "İsveç ve İngiltere'de yürütülen STEM-PD çalışmasında, kök hücreden üretilen dopamin salgılayan hücreler orta evre Parkinson hastası 8 kişinin beynine nakledildi. Bir yıl sonra değerlendirilen 7 hastanın 6'sı ilaç dozunu belirgin şekilde azalttı; beyin görüntülemesi nakledilen hücrelerin yaşadığına işaret etti."
+ },
+ {
+  "id": "x9",
+  "kind": "text",
+  "tr": "Hücrelere bağlı ciddi bir yan etki görülmedi. Küçük ve erken evre bir çalışma olduğu için etkinin kalıcılığını görmek üzere daha uzun takip ve daha büyük çalışmalar gerekiyor; tedavi henüz rutin kullanımda değil."
+ },
+ {
+  "id": "x10",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.nature.com/articles/s41591-026-04525-0\" target=\"_blank\" rel=\"noopener\">Nature Medicine, 9 Temmuz 2026</a> · <a href=\"https://www.parkinsons.org.uk/news/2026/landmark-european-stem-cell-trial-announces-positive-results\" target=\"_blank\" rel=\"noopener\">Parkinson's UK</a>"
+ },
+ {
+  "id": "x11",
+  "kind": "text",
+  "tr": "Kas-iskelet"
+ },
+ {
+  "id": "x12",
+  "kind": "text",
+  "tr": "Nisan 2026"
+ },
+ {
+  "id": "x13",
+  "kind": "text",
+  "tr": "Kronik bel ağrısında hangi tedaviyle başlamalı?"
+ },
+ {
+  "id": "x14",
+  "kind": "text",
+  "tr": "ABD'de 749 kronik bel ağrısı hastasıyla yapılan OPTIMIZE çalışmasında katılımcılar önce 8 hafta fizyoterapi ya da bilişsel davranışçı terapi aldı; yeterli fayda görmeyenler tedavi değiştirdi ya da farkındalık (mindfulness) programına geçti. 10. haftada fizyoterapiyle başlayanların günlük işlevi biraz daha iyiydi; ağrı düzeyi ise gruplar arasında benzerdi."
+ },
+ {
+  "id": "x15",
+  "kind": "text",
+  "tr": "Kazanım mütevazı olsa da fizyoterapi makul bir ilk adım olarak öne çıktı. Bir yılın sonunda ikinci aşamadaki seçenekler arasında anlamlı fark çıkmadı; sonradan tedavi değiştirmek ya da eklemek uzun vadeli sonucu pek değiştirmedi."
+ },
+ {
+  "id": "x16",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://doi.org/10.7326/annals-25-04645\" target=\"_blank\" rel=\"noopener\">Annals of Internal Medicine, 20 Nisan 2026</a>"
+ },
+ {
+  "id": "x17",
+  "kind": "text",
+  "tr": "Bel ağrısı rehberi →"
+ },
+ {
+  "id": "x18",
+  "kind": "text",
+  "tr": "Omurilik yaralanmasında elektrik uyarımı: umut ve gerçek"
+ },
+ {
+  "id": "x19",
+  "kind": "text",
+  "tr": "ABD'deki küçük bir çalışmada tam omurilik yaralanması olan 3 kişiye yaralanmanın altına ve üstüne elektrot yerleştirildi. Alttaki uyarım bacak kaslarını çalıştırırken üstteki uyarım göğüs, kol ya da sırtta hissedilen sinyallerle diz açısı ve adım hakkında geri bildirim verdi; katılımcılar askı ve terapist desteğiyle koşu bandında yürüdü. 48 kişilik uluslararası eWALK çalışmasında ise deri üzerinden verilen uyarım, 12 haftalık yürüme eğitimine ek fayda sağlamadı."
+ },
+ {
+  "id": "x20",
+  "kind": "text",
+  "tr": "eWALK'un asıl mesajı: yürüme eğitimi tek başına, uzun süredir omurilik yaralanması olan kişilerde bile yürümeyi belirgin şekilde iyileştirdi. Uyarım teknolojileri umut vadediyor ama henüz rehabilitasyonun yerini tutmuyor."
+ },
+ {
+  "id": "x21",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://medicalxpress.com/news/2026-03-spinal-injury-leg-movement-sensory.html\" target=\"_blank\" rel=\"noopener\">Nature Biomedical Engineering, Mart 2026</a> · <a href=\"https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00049-0/fulltext\" target=\"_blank\" rel=\"noopener\">eClinicalMedicine, 2026</a>"
+ },
+ {
+  "id": "x22",
+  "kind": "text",
+  "tr": "Ekim 2025"
+ },
+ {
+  "id": "x23",
+  "kind": "text",
+  "tr": "Diz kireçlenmesinde yürüyüş şeklini değiştirmek"
+ },
+ {
+  "id": "x24",
+  "kind": "text",
+  "tr": "Dizin iç kısmında kireçlenmesi olan 68 kişilik bir çalışmada, her katılımcı için ayak ucunu 5 ya da 10 derece içe veya dışa çevirmekten hangisinin daha yararlı olacağı hareket analiziyle belirlendi ve 6 seanslık yürüyüş eğitimi verildi. Bir yılda ağrı 10 üzerinden ortalama 2,5 puan azaldı (sahte eğitim grubunda 1,3). MR'da kıkırdak yıkımının daha yavaş ilerlediğine işaret eden bulgular görüldü."
+ },
+ {
+  "id": "x25",
+  "kind": "text",
+  "tr": "Bu, “ayak ucunuzu içe çevirin” gibi herkese uyan bir öneri değil; kişiye özel ölçüm ve uzman eşliği gerekiyor. Yöntemin yaygınlaşması için ölçümün basitleştirilmesi gerekiyor."
+ },
+ {
+  "id": "x26",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(25)00151-1/abstract\" target=\"_blank\" rel=\"noopener\">The Lancet Rheumatology, Ekim 2025</a>"
+ },
+ {
+  "id": "x27",
+  "kind": "text",
+  "tr": "Diz kireçlenmesi rehberi →"
+ },
+ {
+  "id": "x28",
+  "kind": "text",
+  "tr": "Parkinson hastalığında kök hücre tedavisi var mı?"
+ },
+ {
+  "id": "x29",
+  "kind": "text",
+  "tr": "Henüz rutin bir tedavi değildir. STEM-PD adlı erken evre çalışmada kök hücreden üretilen dopamin hücreleri 8 hastaya nakledildi; bir yıl sonra değerlendirilen 7 hastanın 6'sı ilaç dozunu belirgin şekilde azalttı ve hücrelere bağlı ciddi yan etki görülmedi. Etkinin kalıcılığını görmek için daha uzun takip ve daha büyük çalışmalar gerekiyor."
+ },
+ {
+  "id": "x30",
+  "kind": "text",
+  "tr": "Diz kireçlenmesinde yürüyüş şeklini değiştirmek ağrıyı azaltır mı?"
+ },
+ {
+  "id": "x31",
+  "kind": "text",
+  "tr": "68 kişilik bir çalışmada kişiye özel belirlenen ayak açısıyla yapılan yürüyüş eğitimi, bir yılda ağrıyı 10 üzerinden ortalama 2,5 puan azalttı; sahte eğitim grubunda azalma 1,3 puandı. Bu herkese uyan bir öneri değildir; kişiye özel ölçüm ve uzman eşliği gerekir."
+ },
+ {
+  "id": "x32",
+  "kind": "ld",
+  "tr": "Parkinson hastalığı"
+ },
+ {
+  "id": "x33",
+  "kind": "ld",
+  "tr": "Omurilik yaralanması"
+ },
+ {
+  "id": "x34",
+  "kind": "text",
+  "tr": "Alzheimer'ı kandan tanıyan testler, Parkinson'da hücre nakli, gen düzenleme ve rehabilitasyonda yeni bulgular."
+ },
+ {
+  "id": "x35",
+  "kind": "text",
+  "tr": "İsveç'teki Lund Üniversitesi ile İngiltere'deki Cambridge Üniversitesi'nin yürüttüğü STEM-PD çalışmasında, kök hücreden üretilen dopamin salgılayan hücreler orta evre Parkinson hastası 8 kişinin beynine nakledildi. Bir yıl sonra değerlendirilen 7 hastanın 6'sı ilaç dozunu belirgin şekilde azalttı; beyin görüntülemesi nakledilen hücrelerin yaşadığına işaret etti."
+ },
+ {
+  "id": "x36",
+  "kind": "text",
+  "tr": "ABD'deki Brown Üniversitesi'nin küçük bir çalışmasında tam omurilik yaralanması olan 3 kişiye yaralanmanın altına ve üstüne elektrot yerleştirildi. Alttaki uyarım bacak kaslarını çalıştırırken üstteki uyarım göğüs, kol ya da sırtta hissedilen sinyallerle diz açısı ve adım hakkında geri bildirim verdi; katılımcılar askı ve terapist desteğiyle koşu bandında yürüdü. 48 kişilik uluslararası eWALK çalışmasında ise deri üzerinden verilen uyarım, 12 haftalık yürüme eğitimine ek fayda sağlamadı."
+ },
+ {
+  "id": "x37",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.brown.edu/news/2026-03-11/spinal-cord-stimulation\" target=\"_blank\" rel=\"noopener\">Brown Üniversitesi, 11 Mart 2026</a> · <a href=\"https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00049-0/fulltext\" target=\"_blank\" rel=\"noopener\">eClinicalMedicine, 2026</a>"
+ },
+ {
+  "id": "x38",
+  "kind": "text",
+  "tr": "ABD'de Utah, New York ve Stanford üniversitelerinden araştırmacıların yürüttüğü, dizin iç kısmında kireçlenmesi olan 68 kişilik bir çalışmada her katılımcı için ayak ucunu 5 ya da 10 derece içe veya dışa çevirmekten hangisinin daha yararlı olacağı hareket analiziyle belirlendi ve 6 seanslık yürüyüş eğitimi verildi. Bir yılda ağrı 10 üzerinden ortalama 2,5 puan azaldı (sahte eğitim grubunda 1,3). MR'da kıkırdak yıkımının daha yavaş ilerlediğine işaret eden bulgular görüldü."
+ },
+ {
+  "id": "x39",
+  "kind": "attr",
+  "tr": "Bel ağrısı, bel fıtığı, boyun ağrısı, boyun fıtığı, diz ve kalça kireçlenmesi, donuk omuz, omuz sıkışması, karpal tünel sendromu, tenisçi dirseği, kemik erimesi, ayak bileği burkulması, inme sonrası rehabilitasyon, düşmeleri önleme ve denge, protez sonrası rehabilitasyon, topuk dikeni, masa başı çalışanlar için öneriler, sabah hareket rutini, ne kadar hareket yeterli, iyi uyku, stres ve nefes egzersizleri, güncel bilimsel gelişmeler: fizyoterapist İhsan Eren'den kaynaklı, kısa ve anlaşılır rehberler."
+ },
+ {
+  "id": "x40",
+  "kind": "text",
+  "tr": "Günlük hayatta kendinize iyi bakmanız için pratik yöntemler ve sayfanın içinde kullanabileceğiniz küçük araçlar."
+ },
+ {
+  "id": "x41",
+  "kind": "text",
+  "tr": "Yatakta başlayıp ayakta biten dokuz hareket. Ekrandaki zamanlayıcıyla birlikte yapın."
+ },
+ {
+  "id": "x42",
+  "kind": "text",
+  "tr": "Haftalık hareketinizi ölçün; günlük adım sayısı ve kısa hareket molaları hakkında güncel bulgular."
+ },
+ {
+  "id": "x43",
+  "kind": "text",
+  "tr": "z"
+ },
+ {
+  "id": "x44",
+  "kind": "text",
+  "tr": "Kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı ilişkisi ve yatma saati planlayıcı."
+ },
+ {
+  "id": "x45",
+  "kind": "text",
+  "tr": "Sabah rutini"
+ },
+ {
+  "id": "x46",
+  "kind": "text",
+  "tr": "Ne kadar hareket?"
+ },
+ {
+  "id": "x47",
+  "kind": "text",
+  "tr": "İyi uyku"
+ },
+ {
+  "id": "x48",
+  "kind": "attr",
+  "tr": "Alzheimer kan testleri, Parkinson'da kök hücre nakli, domuz böbreği nakli, mamografide yapay zekâ, işitme kaybında gen tedavisi ve daha fazlası: kısa, kaynaklı özetler."
+ },
+ {
+  "id": "x49",
+  "kind": "text",
+  "tr": "Organ nakli"
+ },
+ {
+  "id": "x50",
+  "kind": "text",
+  "tr": "Domuz böbreği, insan böbreğine köprü oldu"
+ },
+ {
+  "id": "x51",
+  "kind": "text",
+  "tr": "ABD'de son dönem böbrek yetmezliği olan 66 yaşındaki Tim Andrews'a genetiği düzenlenmiş bir domuzdan böbrek nakledildi. Böbrek onu 271 gün diyalizden uzak tuttu; bu, yaşayan bir alıcıda belgelenen en uzun süre. Enfeksiyon nedeniyle bağışıklık baskılayıcı ilaçlar azaltılınca domuz böbreği hasar görüp işlevini yitirdi; Andrews Ocak 2026'da bağışçıdan insan böbreği aldı ve yeni böbrek hemen çalışmaya başladı."
+ },
+ {
+  "id": "x52",
+  "kind": "text",
+  "tr": "Organ bekleme listelerinin uzunluğu düşünüldüğünde umut verici bir adım. Ancak şimdilik az sayıda hastadan elde edilen deneyimler var; genetiği düzenlenmiş domuz böbreklerinin güvenliği ve kalıcılığı klinik çalışmalarda araştırılıyor."
+ },
+ {
+  "id": "x53",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01295-X/abstract\" target=\"_blank\" rel=\"noopener\">The Lancet, 9 Eylül 2026</a> · <a href=\"https://news.massgeneralbrigham.org/en/pig-kidney-xenotransplant-bridge-to-human-transplant\" target=\"_blank\" rel=\"noopener\">Mass General Brigham</a>"
+ },
+ {
+  "id": "x54",
+  "kind": "text",
+  "tr": "Bağışıklık"
+ },
+ {
+  "id": "x55",
+  "kind": "text",
+  "tr": "Haziran 2026"
+ },
+ {
+  "id": "x56",
+  "kind": "text",
+  "tr": "Ağır lupusta CAR-T hücre tedavisi"
+ },
+ {
+  "id": "x57",
+  "kind": "text",
+  "tr": "Kanser tedavisinde kullanılan CAR-T yöntemi, bağışıklık sisteminin kendi dokularına saldırdığı hastalıklarda da deneniyor. University College London'ın (UCL) yürüttüğü CARLYSLE çalışmasında ağır lupus hastalarının bağışıklık hücreleri, hastalıktan sorumlu B hücrelerini hedefleyecek şekilde yeniden programlandı. Düşük doz grubundaki 6 hastanın 5'i standart ölçütlere göre remisyona girdi; böbrek tutulumu olanlarda idrarla protein kaybı azaldı."
+ },
+ {
+  "id": "x58",
+  "kind": "text",
+  "tr": "Ağır sitokin salınım sendromu ya da sinir sistemi yan etkisi görülmedi; bir hastada gelişen karaciğer hasarı tamamen düzeldi. Sonuçlar 9 hastalık erken bir çalışmaya ait; İngiltere'de daha geniş bir faz II çalışması hasta almaya başladı."
+ },
+ {
+  "id": "x59",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://www.ucl.ac.uk/news/2026/jun/car-t-cell-therapy-shows-early-promise-severe-lupus\" target=\"_blank\" rel=\"noopener\">UCL, 12 Haziran 2026</a>"
+ },
+ {
+  "id": "x60",
+  "kind": "text",
+  "tr": "Yapay zekâ"
+ },
+ {
+  "id": "x61",
+  "kind": "text",
+  "tr": "Ocak 2026"
+ },
+ {
+  "id": "x62",
+  "kind": "text",
+  "tr": "Mamografide yapay zekâ desteği: ilk randomize çalışmanın sonuçları"
+ },
+ {
+  "id": "x63",
+  "kind": "text",
+  "tr": "İsveç'te 105 binden fazla kadının katıldığı MASAI çalışmasında mamografiler ya yapay zekâ desteğiyle ya da standart şekilde iki radyolog tarafından okundu. Yapay zekâ destekli grupta kanserlerin %81'i taramada yakalandı (standart grupta %74); iki tarama arasında ortaya çıkan kanserler %12, agresif alt tipteki kanserler %27 daha azdı. Yanlış alarm oranı iki grupta benzerdi."
+ },
+ {
+  "id": "x64",
+  "kind": "text",
+  "tr": "Yapay zekâ radyoloğun yerini almıyor, ona destek oluyor; ara sonuçlarda radyologların okuma yükü %44 azalmıştı. Çalışma tek bir ülkede, tek bir cihaz ve tek bir yazılımla, deneyimli radyologlarla yapıldı."
+ },
+ {
+  "id": "x65",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02464-X/abstract\" target=\"_blank\" rel=\"noopener\">The Lancet, 29 Ocak 2026</a> · <a href=\"https://www.eurekalert.org/news-releases/1114399\" target=\"_blank\" rel=\"noopener\">EurekAlert!</a>"
+ },
+ {
+  "id": "x66",
+  "kind": "text",
+  "tr": "Doğuştan işitme kaybında gen tedavisi kalıcı görünüyor"
+ },
+ {
+  "id": "x67",
+  "kind": "text",
+  "tr": "OTOF genindeki bir bozukluk nedeniyle işitme kaybı olan 9 aylık ile 32 yaş arasındaki 42 kişinin iç kulağına, sağlam bir gen kopyası taşıyan zararsız hale getirilmiş bir virüs verildi. Çin'deki sekiz merkezde yapılan çalışmada 2,5 yıllık izlemde katılımcıların %90'ının işitmesi düzeldi, yarısından fazlası normal işitme düzeyine ulaştı. Çocuklar seslere tepki vermekten kısa cümleler kurmaya, hatta şarkı söylemeye kadar ilerledi."
+ },
+ {
+  "id": "x68",
+  "kind": "text",
+  "tr": "Ciddi yan etki görülmedi. Etki en çok 18 yaş ve altındakilerde belirgindi; katılımcıların %10'unda yanıt olmadı. Tedavi yalnızca OTOF kaynaklı işitme kaybı içindir ve onay süreci yeni başlıyor."
+ },
+ {
+  "id": "x69",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://news.harvard.edu/gazette/story/2026/04/hearing-breakthrough-holds-up/\" target=\"_blank\" rel=\"noopener\">Nature, 22 Nisan 2026 · Harvard Gazette</a>"
+ },
+ {
+  "id": "x70",
+  "kind": "text",
+  "tr": "Diz kireçlenmesi ağrısında damar tıkama (GAE)"
+ },
+ {
+  "id": "x71",
+  "kind": "text",
+  "tr": "Berlin'deki Charité Üniversite Hastanesi'nde, en az 3 aydır diğer tedavilerle geçmeyen kireçlenme ağrısı olan 194 hastaya genikülat arter embolizasyonu uygulandı: ince bir kateterle dizin çevresindeki küçük damarlara, birkaç saat içinde çözünen mikroküreler verildi. Ağrı 10 üzerinden ortanca 7'den 12. ayda 3'e indi; hastaların %80'inde anlamlı iyileşme görüldü."
+ },
+ {
+  "id": "x72",
+  "kind": "text",
+  "tr": "Orta ya da ağır yan etki görülmedi. Ancak kontrol grubu olmayan, tek merkezli bir çalışma ve 12. ayda hastaların %79'una ulaşılabildi. Egzersiz, diz kireçlenmesinde tedavinin temeli olmaya devam ediyor."
+ },
+ {
+  "id": "x73",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://www.sciencedaily.com/releases/2026/06/260616102217.htm\" target=\"_blank\" rel=\"noopener\">Radiology, 16 Haziran 2026 · ScienceDaily</a>"
+ },
+ {
+  "id": "x74",
+  "kind": "text",
+  "tr": "Mamografiyi artık yapay zekâ mı okuyacak?"
+ },
+ {
+  "id": "x75",
+  "kind": "text",
+  "tr": "Hayır. İsveç'teki MASAI çalışmasında yapay zekâ radyologların yerine değil, onlara destek olarak kullanıldı. Bu düzende kanserlerin daha fazlası taramada yakalandı, iki tarama arasında ortaya çıkan kanserler %12 azaldı ve yanlış alarm oranı artmadı."
+ },
+ {
+  "id": "x76",
+  "kind": "text",
+  "tr": "Domuz organları insanlara nakledilebiliyor mu?"
+ },
+ {
+  "id": "x77",
+  "kind": "text",
+  "tr": "Henüz deneysel. ABD'de bir hastaya nakledilen genetiği düzenlenmiş domuz böbreği onu 271 gün diyalizden uzak tuttu ve ardından insan böbreği nakline köprü oldu. Bu yöntemin güvenliği ve kalıcılığı klinik çalışmalarda araştırılıyor."
+ },
+ {
+  "id": "x78",
+  "kind": "ld",
+  "tr": "Meme kanseri"
+ },
+ {
+  "id": "x79",
+  "kind": "ld",
+  "tr": "Kalıtsal işitme kaybı"
+ },
+ {
+  "id": "x80",
+  "kind": "ld",
+  "tr": "Son dönem böbrek yetmezliği"
+ },
+ {
+  "id": "x81",
+  "kind": "ld",
+  "tr": "Sistemik lupus eritematozus"
+ },
+ {
+  "id": "x82",
+  "kind": "text",
+  "tr": "Alzheimer'ı kandan tanıyan testler, domuz böbreği nakli, mamografide yapay zekâ, gen tedavileri ve rehabilitasyonda yeni bulgular."
+ },
+ {
+  "id": "x83",
+  "kind": "attr",
+  "tr": "Alzheimer kan testleri, Parkinson'da kök hücre nakli, mRNA kanser aşısı, beyin-bilgisayar arayüzü, domuz böbreği nakli, mamografide yapay zekâ ve daha fazlası: kısa, kaynaklı özetler."
+ },
+ {
+  "id": "x84",
+  "kind": "attr",
+  "tr": "Konuya göre süz"
+ },
+ {
+  "id": "x85",
+  "kind": "text",
+  "tr": "Tümü"
+ },
+ {
+  "id": "x86",
+  "kind": "text",
+  "tr": "Beyin ve sinirler"
+ },
+ {
+  "id": "x87",
+  "kind": "text",
+  "tr": "Hareket ve ağrı"
+ },
+ {
+  "id": "x88",
+  "kind": "text",
+  "tr": "Gen ve hücre tedavileri"
+ },
+ {
+  "id": "x89",
+  "kind": "text",
+  "tr": "Tanı ve teknoloji"
+ },
+ {
+  "id": "x90",
+  "kind": "text",
+  "tr": "Kanser"
+ },
+ {
+  "id": "x91",
+  "kind": "text",
+  "tr": "Ağustos 2026"
+ },
+ {
+  "id": "x92",
+  "kind": "text",
+  "tr": "Kişiye özel mRNA kanser aşısı ilk kez faz III'te başarılı"
+ },
+ {
+  "id": "x93",
+  "kind": "text",
+  "tr": "Merck ve Moderna'nın geliştirdiği intismeran, her hastanın tümöründeki mutasyonlara göre ayrı ayrı üretilen bir mRNA aşısı. Ameliyatla tümörü tamamen çıkarılmış evre IIB–IV melanomlu 1.137 hastanın katıldığı INTerpath-001 çalışmasında aşı, bir bağışıklık ilacıyla (pembrolizumab) birlikte verildi ve tek başına ilaca göre hastalığın geri dönmesini ve uzak organlara yayılmasını geciktirdi."
+ },
+ {
+  "id": "x94",
+  "kind": "text",
+  "tr": "Ayrıntılı sayılar henüz açıklanmadı; sonuçlar bir tıp kongresinde sunulacak. Önceki faz IIb çalışmasında nüks ya da ölüm riski %49 daha düşük bulunmuştu. Yeni bir güvenlik sorunu görülmedi."
+ },
+ {
+  "id": "x95",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/\" target=\"_blank\" rel=\"noopener\">Merck, 19 Ağustos 2026</a> · <a href=\"https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/\" target=\"_blank\" rel=\"noopener\">STAT</a>"
+ },
+ {
+  "id": "x96",
+  "kind": "text",
+  "tr": "Nöroteknoloji"
+ },
+ {
+  "id": "x97",
+  "kind": "text",
+  "tr": "Mart 2026"
+ },
+ {
+  "id": "x98",
+  "kind": "text",
+  "tr": "Beyin-bilgisayar arayüzüyle evde hızlı yazı"
+ },
+ {
+  "id": "x99",
+  "kind": "text",
+  "tr": "ABD'deki BrainGate çalışmasında, biri ileri evre ALS, diğeri boyun hizasında omurilik yaralanması olan iki katılımcının beynin hareket bölgesine küçük elektrotlar yerleştirildi. Sistem, parmakları hareket ettirme girişimini klavyedeki harflere çevirdi. Katılımcılardan biri kendi evinde dakikada 22 kelime yazdı ve kelime hatası oranı %1,6'da kaldı; kurulum için yaklaşık 30 cümlelik bir ayar yeterli oldu."
+ },
+ {
+  "id": "x100",
+  "kind": "text",
+  "tr": "Konuşamayan ve elini kullanamayan kişiler için iletişimde büyük bir adım. Cihaz henüz yalnızca araştırma amaçlı kullanılıyor ve beyin ameliyatı gerektiriyor."
+ },
+ {
+  "id": "x101",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://www.brown.edu/news/2026-03-16/braingate-rapid-communication\" target=\"_blank\" rel=\"noopener\">Nature Neuroscience · Brown Üniversitesi, 16 Mart 2026</a>"
+ },
+ {
+  "id": "x102",
+  "kind": "text",
+  "tr": "Haziran 2025"
+ },
+ {
+  "id": "x103",
+  "kind": "text",
+  "tr": "Kolon kanseri sonrası egzersiz hayat kurtarıyor"
+ },
+ {
+  "id": "x104",
+  "kind": "text",
+  "tr": "6 ülkede, kemoterapisini tamamlamış 889 kolon kanseri hastasıyla yapılan CHALLENGE çalışmasında bir grup 3 yıllık, antrenör desteğiyle kişiye özel bir egzersiz programına katıldı (tempolu yürüyüşten grup derslerine kadar); diğer grup yalnızca sağlık eğitimi aldı. 5 yılda egzersiz grubunun %80'i, diğer grubun %74'ü kanserden arınmış kaldı; 8 yılda hayatta kalma %90'a karşı %83'tü."
+ },
+ {
+  "id": "x105",
+  "kind": "text",
+  "tr": "Egzersiz grubunda kanserin geri dönme, yeni kanser ya da ölüm riski %28, ölüm riski %37 daha düşüktü. Egzersizin kanser tedavisinin bir parçası olabileceğini gösteren ilk büyük randomize çalışma."
+ },
+ {
+  "id": "x106",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.nejm.org/doi/abs/10.1056/NEJMoa2502760\" target=\"_blank\" rel=\"noopener\">New England Journal of Medicine, Haziran 2025</a> · <a href=\"https://www.oncology-central.com/world-first-trial-highlights-survival-benefits-of-exercise-for-colon-cancer/\" target=\"_blank\" rel=\"noopener\">Oncology Central</a>"
+ },
+ {
+  "id": "x107",
+  "kind": "text",
+  "tr": "Ne kadar hareket yeterli? →"
+ },
+ {
+  "id": "x108",
+  "kind": "text",
+  "tr": "Diyabet"
+ },
+ {
+  "id": "x109",
+  "kind": "text",
+  "tr": "Tip 1 diyabette kök hücreden üretilen insülin hücreleri"
+ },
+ {
+  "id": "x110",
+  "kind": "text",
+  "tr": "Vertex'in geliştirdiği zimislecel, kök hücreden laboratuvarda üretilen ve insülin salgılayan adacık hücrelerinden oluşuyor. Tam doz alan 12 hastanın 10'u bir yılın sonunda insülin iğnesine ihtiyaç duymadı; 12 hastanın tamamında HbA1c %7'nin altına indi ve ağır şeker düşmesi yaşanmadı."
+ },
+ {
+  "id": "x111",
+  "kind": "text",
+  "tr": "Hücrelerin reddedilmemesi için bağışıklık baskılayıcı ilaç kullanmak gerekiyor. Çalışmada iki hasta hayatını kaybetti; biri bu ilaçlara bağlı bir enfeksiyon nedeniyle. Faz III çalışmaları sürüyor."
+ },
+ {
+  "id": "x112",
+  "kind": "text",
+  "tr": "Kaynaklar: <a href=\"https://www.nejm.org/doi/abs/10.1056/NEJMoa2506549\" target=\"_blank\" rel=\"noopener\">New England Journal of Medicine, Haziran 2025</a> · <a href=\"https://www.hcplive.com/view/zimislecel-enables-insulin-independence-in-10-participants-with-type-1-diabetes\" target=\"_blank\" rel=\"noopener\">HCPLive</a>"
+ },
+ {
+  "id": "x113",
+  "kind": "text",
+  "tr": "Egzersiz kanser tedavisinin bir parçası olabilir mi?"
+ },
+ {
+  "id": "x114",
+  "kind": "text",
+  "tr": "Kolon kanseri tedavisini tamamlamış 889 hastayla yapılan CHALLENGE çalışmasında 3 yıllık, antrenör destekli egzersiz programına katılanlarda kanserin geri dönme, yeni kanser ya da ölüm riski %28, ölüm riski %37 daha düşüktü. Egzersiz programına başlamadan önce tedavi ekibinizle görüşün."
+ },
+ {
+  "id": "x115",
+  "kind": "ld",
+  "tr": "Melanom"
+ },
+ {
+  "id": "x116",
+  "kind": "ld",
+  "tr": "Kolon kanseri"
+ },
+ {
+  "id": "x117",
+  "kind": "ld",
+  "tr": "Tip 1 diyabet"
+ },
+ {
+  "id": "x118",
+  "kind": "ld",
+  "tr": "Amiyotrofik lateral skleroz (ALS)"
+ },
+ {
+  "id": "x119",
+  "kind": "attr",
+  "tr": "Bel ağrısı, bel fıtığı, boyun ağrısı, boyun fıtığı, diz ve kalça kireçlenmesi, donuk omuz, omuz sıkışması, karpal tünel sendromu, tenisçi dirseği, kemik erimesi, ayak bileği burkulması, inme sonrası rehabilitasyon, düşmeleri önleme ve denge, protez sonrası rehabilitasyon, kalça kırığı sonrası rehabilitasyon, Parkinson hastalığında egzersiz, kanser tedavisinde egzersiz, topuk dikeni, masa başı çalışanlar için öneriler, sabah hareket rutini, ne kadar hareket yeterli, iyi uyku, stres ve nefes egzersizleri, güncel bilimsel gelişmeler: fizyoterapist İhsan Eren'den kaynaklı, kısa ve anlaşılır rehberler."
+ },
+ {
+  "id": "x120",
+  "kind": "text",
+  "tr": "İnme sonrası toparlanma, düşmeleri önleme, ameliyat ve kırık sonrası süreç, Parkinson hastalığında ve kanser tedavisinde egzersiz: evde güvenle yapılabilecek egzersizler ve pratik öneriler."
+ },
+ {
+  "id": "x121",
+  "kind": "text",
+  "tr": "Kalça kırığı sonrası"
+ },
+ {
+  "id": "x122",
+  "kind": "text",
+  "tr": "Ameliyattan sonra ne zaman yürünür, evde egzersiz neden fark eder? Altı egzersiz ve güvenlik önerileri."
+ },
+ {
+  "id": "x123",
+  "kind": "text",
+  "tr": "Parkinson hastalığında egzersiz"
+ },
+ {
+  "id": "x124",
+  "kind": "text",
+  "tr": "Hangi egzersiz daha iyi, donmalarla nasıl başa çıkılır? Büyük ve ritimli altı egzersiz ve videolar."
+ },
+ {
+  "id": "x125",
+  "kind": "text",
+  "tr": "Kanser ve egzersiz"
+ },
+ {
+  "id": "x126",
+  "kind": "text",
+  "tr": "Tedavi sırasında egzersiz güvenli mi, yorgunluğa iyi gelir mi? Kılavuz önerileri ve evde altı egzersiz."
+ },
+ {
+  "id": "x127",
+  "kind": "text",
+  "tr": "Kalça kırığı sonrası rehabilitasyon"
+ },
+ {
+  "id": "x128",
+  "kind": "attr",
+  "tr": "Sitede ara"
+ },
+ {
+  "id": "x129",
+  "kind": "text",
+  "tr": "Ağrı, hastalık, egzersiz ya da belirti arayın"
+ },
+ {
+  "id": "x130",
+  "kind": "attr",
+  "tr": "Bel ağrısı, bel fıtığı, ankilozan spondilit, boyun ağrısı, boyun fıtığı, diz ve kalça kireçlenmesi, menisküs yırtığı, donuk omuz, omuz sıkışması, karpal tünel sendromu, tenisçi dirseği, kemik erimesi, ayak bileği burkulması, fibromiyalji, baş dönmesi (BPPV), inme sonrası rehabilitasyon, düşmeleri önleme ve denge, protez sonrası rehabilitasyon, kalça kırığı sonrası rehabilitasyon, Parkinson hastalığında egzersiz, kanser tedavisinde egzersiz, topuk dikeni, masa başı çalışanlar için öneriler, sabah hareket rutini, ne kadar hareket yeterli, iyi uyku, stres ve nefes egzersizleri, güncel bilimsel gelişmeler: fizyoterapist İhsan Eren'den kaynaklı, kısa ve anlaşılır rehberler."
+ },
+ {
+  "id": "x131",
+  "kind": "text",
+  "tr": "Dinlenmekle artan, hareketle azalan bel ağrısı: iltihaplı bel ağrısını tanıyın; evde altı duruş ve esneklik egzersizi."
+ },
+ {
+  "id": "x132",
+  "kind": "text",
+  "tr": "MR'daki yırtık ameliyat gerektirir mi? Egzersizin ameliyat kadar etkili bulunduğu çalışmalar ve evde altı egzersiz."
+ },
+ {
+  "id": "x133",
+  "kind": "text",
+  "tr": "Yaygın ağrı ve yorgunluk neden olur? Güçlü öneri alan tek tedavi egzersiz: az ve yavaş başlayan altı hareket."
+ },
+ {
+  "id": "x134",
+  "kind": "text",
+  "tr": "Baş dönmesi (BPPV)"
+ },
+ {
+  "id": "x135",
+  "kind": "text",
+  "tr": "Yatarken ve dönerken başlayan kısa süreli baş dönmesi: Epley manevrası adım adım ve acil uyarı işaretleri."
+ },
+ {
+  "id": "x136",
+  "kind": "text",
+  "tr": "Baş dönmesi"
+ },
+ {
+  "id": "x137",
+  "kind": "attr",
+  "tr": "Bel ağrısı, bel fıtığı, ankilozan spondilit, skolyoz, boyun ağrısı, boyun fıtığı, baş ağrısı, diz ve kalça kireçlenmesi, menisküs yırtığı, diz önü ağrısı, donuk omuz, omuz sıkışması, karpal tünel sendromu, tenisçi dirseği, kemik erimesi, ayak bileği burkulması, aşil tendinopatisi, fibromiyalji, baş dönmesi (BPPV), inme sonrası rehabilitasyon, düşmeleri önleme ve denge, protez sonrası rehabilitasyon, kalça kırığı sonrası rehabilitasyon, Parkinson hastalığında egzersiz, kanser tedavisinde egzersiz, topuk dikeni, masa başı çalışanlar için öneriler, sabah hareket rutini, ne kadar hareket yeterli, iyi uyku, stres ve nefes egzersizleri, güncel bilimsel gelişmeler: fizyoterapist İhsan Eren'den kaynaklı, kısa ve anlaşılır rehberler."
+ },
+ {
+  "id": "x138",
+  "kind": "text",
+  "tr": "Evde nasıl fark edilir, ne zaman egzersiz, korse ya da ameliyat gerekir? Uluslararası kılavuz önerileri ve evde kontrol testi."
+ },
+ {
+  "id": "x139",
+  "kind": "text",
+  "tr": "Diz önü ağrısı"
+ },
+ {
+  "id": "x140",
+  "kind": "text",
+  "tr": "Merdiven inerken ve çömelirken diz kapağı çevresinde ağrı: neden olur, hangi egzersizler işe yarar? Evde altı egzersiz ve videolar."
+ },
+ {
+  "id": "x141",
+  "kind": "text",
+  "tr": "Baş ağrısı"
+ },
+ {
+  "id": "x142",
+  "kind": "text",
+  "tr": "Gerilim tipi ve boyun kaynaklı baş ağrısında egzersizin etkisi, ağrı kesici uyarıları ve acil başvuru gerektiren belirtiler."
+ },
+ {
+  "id": "x143",
+  "kind": "text",
+  "tr": "Topuğun üstünde ağrı ve sabah tutukluğu: kirişi iyileştiren yüklenme egzersizleri ve basamaktan topuk indirme programı."
+ },
+ {
+  "id": "x144",
+  "kind": "attr",
+  "tr": "Bel, boyun, omuz, diz ve ayak ağrıları, kadın sağlığı, evde rehabilitasyon, kendinize iyi bakmanız için pratik egzersizler ve güncel bilimsel gelişmeler: fizyoterapist İhsan Eren'den kaynaklı, kısa ve anlaşılır rehberler."
+ },
+ {
+  "id": "x145",
+  "kind": "attr",
+  "tr": "Bölgeye göre süz"
+ },
+ {
+  "id": "x146",
+  "kind": "text",
+  "tr": "Bel ve sırt"
+ },
+ {
+  "id": "x147",
+  "kind": "text",
+  "tr": "Boyun, baş ve çene"
+ },
+ {
+  "id": "x148",
+  "kind": "text",
+  "tr": "Omuz, kol ve el"
+ },
+ {
+  "id": "x149",
+  "kind": "text",
+  "tr": "Kalça ve diz"
+ },
+ {
+  "id": "x150",
+  "kind": "text",
+  "tr": "Ayak ve ayak bileği"
+ },
+ {
+  "id": "x151",
+  "kind": "text",
+  "tr": "Kadın sağlığı"
+ },
+ {
+  "id": "x152",
+  "kind": "text",
+  "tr": "Tüm vücut"
+ },
+ {
+  "id": "x153",
+  "kind": "text",
+  "tr": "Çene ağrısı, klik sesi ve ağız açmada kısıtlılık: günlük öneriler ve evde altı çene ve boyun egzersizi."
+ },
+ {
+  "id": "x154",
+  "kind": "text",
+  "tr": "MR'daki omuz yırtığı ameliyat gerektirir mi? Fizyoterapinin etkisini gösteren çalışmalar ve evde altı omuz egzersizi."
+ },
+ {
+  "id": "x155",
+  "kind": "text",
+  "tr": "İdrar kaçırma ve pelvik taban"
+ },
+ {
+  "id": "x156",
+  "kind": "text",
+  "tr": "Öksürürken ya da gülerken idrar kaçırma: pelvik taban egzersizleri nasıl yapılır, ne kadar etkili?"
+ },
+ {
+  "id": "x157",
+  "kind": "text",
+  "tr": "Gebelikte bel ve leğen ağrısı"
+ },
+ {
+  "id": "x158",
+  "kind": "text",
+  "tr": "Gebelikte güvenli egzersizler, günlük hayat önerileri ve hemen başvurmanız gereken durumlar."
+ },
+ {
+  "id": "x159",
+  "kind": "text",
+  "tr": "Çene eklemi"
+ },
+ {
+  "id": "x160",
+  "kind": "text",
+  "tr": "Gebelikte bel ağrısı"
+ },
+ {
+  "id": "x161",
+  "kind": "text",
+  "tr": "Güçlü sosyal ilişkileri olanların hayatta kalma olasılığı %50 daha yüksek. Şaşırtan bulgular ve her gün için küçük bir öneri."
+ },
+ {
+  "id": "x162",
+  "kind": "text",
+  "tr": "Haftada 120 dakika doğa; parça parça da olur. Haftalık doğa takviminiz ve İstanbul'dan öneriler."
+ },
+ {
+  "id": "x163",
+  "kind": "text",
+  "tr": "Stanford'daki çalışmada ruh hâlini meditasyondan daha çok iyileştiren nefes: iki kez alın, uzun verin."
+ },
+ {
+  "id": "x164",
+  "kind": "text",
+  "tr": "270 çalışmalık analizde tansiyonu en çok düşüren egzersiz türü. Haftada 3 gün, 4 × 2 dakika: zamanlayıcıyla birlikte yapın."
+ },
+ {
+  "id": "x165",
+  "kind": "text",
+  "tr": "Ellerinizi kullanmadan yere oturup kalkabilmek, 12 yıllık bir araştırmada sağlığın güçlü bir göstergesi çıktı. Puanınızı hesaplayın."
+ },
+ {
+  "id": "x166",
+  "kind": "text",
+  "tr": "Günlük hayatta kendinize iyi bakmanız için bilimsel kanıta dayanan pratik yöntemler: kendinizi test edebileceğiniz, zamanlayıcıyla birlikte uygulayabileceğiniz ve takip edebileceğiniz küçük araçlarla."
+ },
+ {
+  "id": "x167",
+  "kind": "text",
+  "tr": "Sosyal bağ"
+ },
+ {
+  "id": "x168",
+  "kind": "text",
+  "tr": "İç çekiş nefesi"
+ },
+ {
+  "id": "x169",
+  "kind": "text",
+  "tr": "Otur-kalk testi"
+ },
+ {
+  "id": "x170",
+  "kind": "text",
+  "tr": "1 nefes"
+ },
+ {
+  "id": "x171",
+  "kind": "text",
+  "tr": "Düşmeyi önleme"
+ },
+ {
+  "id": "x172",
+  "kind": "text",
+  "tr": "Denge, yürüme ve düşmeyi önleme"
+ },
+ {
+  "id": "x173",
+  "kind": "wa",
+  "tr": "Merhaba, denge ve düşmeyi önleme için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "x174",
+  "kind": "attr",
+  "tr": "İstanbul'da evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı. Fizyoterapist · İntörn Tıp Doktoru İhsan Eren."
+ },
+ {
+  "id": "x175",
+  "kind": "attr",
+  "tr": "İstanbul'da evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı."
+ },
+ {
+  "id": "x176",
+  "kind": "text",
+  "tr": "Değerlendirme, tedavi ve egzersiz süreçlerinden temsili görseller."
+ },
+ {
+  "id": "x177",
+  "kind": "text",
+  "tr": "Beynin ortasındaki omurga; bedenin ana taşıyıcı eksenini, duruşu, hareketi, dengeyi ve beyin ile beden arasındaki sinirsel iletişimi simgeliyor. Omurgayı merkeze alan osteopati ve kayropraksi gibi manuel terapi yaklaşımlarından da ilham alıyor."
+ },
+ {
+  "id": "x178",
+  "kind": "text",
+  "tr": "Y harfindeki, elektriği çağrıştıran sarı ton; bedenin elektriksel ve biyolojik iletişim süreçlerine gönderme yapıyor. Fizyoterapiden elektroterapiyi, hekimlikten akupunktur ve kuru iğnelemeyi aynı bilimsel soruda buluşturuyor: bu yöntemler vücut elektriği üzerinden nasıl etki ediyor? Bu sorunun peşindeki araştırmalarımı ve belki bir gün Nobel’e uzanabilecek yeni bir bilimsel bakış açısını simgeliyor."
+ },
+ {
+  "id": "x179",
+  "kind": "text",
+  "tr": "Göğüs kafesini açma"
+ }
+]

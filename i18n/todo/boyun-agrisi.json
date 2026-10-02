@@ -1,0 +1,412 @@
+[
+ {
+  "id": "boy0",
+  "kind": "text",
+  "tr": "Boyun Ağrısı: Nedenleri, Egzersizler ve Tedavi | İhsan Eren"
+ },
+ {
+  "id": "boy1",
+  "kind": "attr",
+  "tr": "Boyun ağrısı neden olur, ne kadar sürer, boyun düzleşmesi önemli mi? Evde yapılabilecek altı egzersiz, masa başı önerileri, videolar ve uyarı işaretleri."
+ },
+ {
+  "id": "boy2",
+  "kind": "text",
+  "tr": "Neredeyse herkesin hayatının bir döneminde yaşadığı, çoğu zaman ciddi bir nedene bağlı olmayan ama sık tekrarlayabilen bir sorun. İyi haber: düzenli hareket ve doğru egzersizle büyük ölçüde kontrol altına alınabiliyor."
+ },
+ {
+  "id": "boy3",
+  "kind": "text",
+  "tr": "203 milyon"
+ },
+ {
+  "id": "boy4",
+  "kind": "text",
+  "tr": "Dünyada boyun ağrısı yaşayan kişi (2020)"
+ },
+ {
+  "id": "boy5",
+  "kind": "text",
+  "tr": "2050'ye kadar beklenen artış"
+ },
+ {
+  "id": "boy6",
+  "kind": "text",
+  "tr": "En sık etkilenen yaş aralığı"
+ },
+ {
+  "id": "boy7",
+  "kind": "text",
+  "tr": "Bir kez yaşayanlarda 1–5 yıl içinde tekrar"
+ },
+ {
+  "id": "boy8",
+  "kind": "text",
+  "tr": "Kafatasının alt sınırından omuzlara kadar uzanan bölgedeki ağrıdır. Çoğu zaman kaslardan, bağlardan ve omurlar arasındaki küçük eklemlerden kaynaklanır. Tıpta buna <em>mekanik</em> ya da <em>nonspesifik</em> boyun ağrısı denir: ağrı gerçektir ama altında ciddi bir hastalık yoktur."
+ },
+ {
+  "id": "boy9",
+  "kind": "text",
+  "tr": "Ağrı kola ve parmaklara uyuşma, karıncalanma ya da elektriklenmeyle yayılıyorsa bir sinir kökü etkileniyor olabilir. Bu durumu ayrı bir sayfada anlattık: <a href=\"boyun-fitigi.html\">Boyun fıtığı ve sinir sıkışması →</a>"
+ },
+ {
+  "id": "boy10",
+  "kind": "text",
+  "tr": "Saatlerce aynı pozisyonda kalmak: masa başı çalışma, telefona uzun süre eğilmek"
+ },
+ {
+  "id": "boy11",
+  "kind": "text",
+  "tr": "Uykuda boynun uzun süre zorlanması ya da ani bir hareketle gelen \"tutulma\""
+ },
+ {
+  "id": "boy12",
+  "kind": "text",
+  "tr": "Stres, kaygı ve uykusuzluk: kas gerginliğini ve ağrıya duyarlılığı artırır"
+ },
+ {
+  "id": "boy13",
+  "kind": "text",
+  "tr": "Hareketsizlik, omuz ve sırt kaslarının zayıflığı"
+ },
+ {
+  "id": "boy14",
+  "kind": "text",
+  "tr": "Yaşla birlikte omurgadaki aşınma (kireçlenme). Bu bulgu ağrısı olmayan pek çok kişide de vardır."
+ },
+ {
+  "id": "boy15",
+  "kind": "text",
+  "tr": "Trafik kazasında olduğu gibi ani savrulma yaralanmaları"
+ },
+ {
+  "id": "boy16",
+  "kind": "text",
+  "tr": "Boyun ağrısının dört tipi"
+ },
+ {
+  "id": "boy17",
+  "kind": "text",
+  "tr": "Fizyoterapi kılavuzları boyun ağrısını dört gruba ayırır. Tedavi de buna göre şekillenir."
+ },
+ {
+  "id": "boy18",
+  "kind": "text",
+  "tr": "Hareket kısıtlılığıyla"
+ },
+ {
+  "id": "boy19",
+  "kind": "text",
+  "tr": "Bildiğimiz \"tutulma\". Boyun bazı yönlere dönmez, ağrı hareketle artar. En sık görülen tiptir."
+ },
+ {
+  "id": "boy20",
+  "kind": "text",
+  "tr": "Baş ağrısıyla"
+ },
+ {
+  "id": "boy21",
+  "kind": "text",
+  "tr": "Ağrı boyundan başın arkasına, bazen alna yayılır ve boyun hareketleriyle tetiklenir. Buna servikojenik baş ağrısı denir."
+ },
+ {
+  "id": "boy22",
+  "kind": "text",
+  "tr": "Kola yayılan ağrıyla"
+ },
+ {
+  "id": "boy23",
+  "kind": "text",
+  "tr": "Bir sinir kökü etkilenir. Kolda ağrı, uyuşma, karıncalanma ya da güçsüzlük olur."
+ },
+ {
+  "id": "boy24",
+  "kind": "text",
+  "tr": "Boyun fıtığı sayfası →"
+ },
+ {
+  "id": "boy25",
+  "kind": "text",
+  "tr": "Hareket kontrolü bozukluğuyla"
+ },
+ {
+  "id": "boy26",
+  "kind": "text",
+  "tr": "Çoğunlukla trafik kazası sonrası görülür. Boyun kaslarının koordinasyonu ve dayanıklılığı azalır."
+ },
+ {
+  "id": "boy27",
+  "kind": "text",
+  "tr": "Boyun düzleşmesi ve \"kötü duruş\" hakkında"
+ },
+ {
+  "id": "boy28",
+  "kind": "text",
+  "tr": "Röntgende \"boyun düzleşmesi\" yazısını görmek birçok kişiyi endişelendirir. 54'ü boyun ağrılı, 53'ü ağrısız 107 kişinin karşılaştırıldığı bir çalışmada iki grup arasında boyun eğriliği açısından fark bulunmadı. Araştırmacılara göre bu tür bulgular ağrının nedeni değil, rastlantısal olarak görülen değişikliklerdir."
+ },
+ {
+  "id": "boy29",
+  "kind": "text",
+  "tr": "Duruş için de benzer bir durum var: herkes için tek bir \"doğru duruş\" yok. En iyi duruş, sık değiştirilen duruştur. Sorun çoğu zaman pozisyonun kendisinde değil, aynı pozisyonda çok uzun kalmaktadır."
+ },
+ {
+  "id": "boy30",
+  "kind": "text",
+  "tr": "Çoğu boyun ağrısında röntgen ya da MR gerekmez; tanı muayeneyle konur. Tedavi, ağrının tipine ve ne zamandır sürdüğüne göre planlanır."
+ },
+ {
+  "id": "boy31",
+  "kind": "text",
+  "tr": "Yatak istirahati ve uzun süre boyunluk önerilmez. Ağrının izin verdiği ölçüde günlük işlere devam etmek iyileşmeyi hızlandırır."
+ },
+ {
+  "id": "boy32",
+  "kind": "text",
+  "tr": "Tedavinin temelidir. Boyun, omuz ve kürek kemiği çevresini güçlendiren egzersizlerin uzun süren boyun ağrısını orta ile belirgin düzeyde azalttığı gösterilmiştir. Yalnızca germe egzersizleri tek başına yeterli olmayabilir."
+ },
+ {
+  "id": "boy33",
+  "kind": "text",
+  "tr": "Boyun ve sırt omurgasına uygulanan mobilizasyon ve manipülasyon, egzersizle birlikte ağrıyı ve hareketi iyileştirir. Muayeneden sonra, eğitimli bir fizyoterapist tarafından uygulanmalıdır."
+ },
+ {
+  "id": "boy34",
+  "kind": "text",
+  "tr": "Kuru iğneleme, TENS, lazer"
+ },
+ {
+  "id": "boy35",
+  "kind": "text",
+  "tr": "Uzun süren boyun ağrısında kılavuzlarda destekleyici seçenekler arasında yer alır. Tek başına değil, egzersizle birlikte anlamlıdır."
+ },
+ {
+  "id": "boy36",
+  "kind": "text",
+  "tr": "Hekiminizin önerdiği ağrı kesiciler kısa süreli rahatlama sağlayabilir."
+ },
+ {
+  "id": "boy37",
+  "kind": "text",
+  "tr": "Stres ve uyku"
+ },
+ {
+  "id": "boy38",
+  "kind": "text",
+  "tr": "Uzun süren ağrıda stres yönetimi ve düzenli uyku da tedavinin parçasıdır. <a href=\"stres.html\">Nefes egzersizlerine göz atın →</a>"
+ },
+ {
+  "id": "boy39",
+  "kind": "text",
+  "tr": "Boyun için altı temel egzersiz"
+ },
+ {
+  "id": "boy40",
+  "kind": "text",
+  "tr": "Egzersizleri yavaş ve kontrollü yapın. Hafif bir gerginlik normaldir, keskin ağrıya kadar zorlamayın. Ağrı kola yayılmaya başlarsa o egzersizi bırakın ve fizyoterapistinize danışın."
+ },
+ {
+  "id": "boy41",
+  "kind": "text",
+  "tr": "Boyun döndürme"
+ },
+ {
+  "id": "boy42",
+  "kind": "text",
+  "tr": "Omuzlarınızı sabit tutun. Başınızı yavaşça sağa çevirin, rahat olan son noktada 2–3 saniye bekleyin, sonra aynı şekilde sola çevirin."
+ },
+ {
+  "id": "boy43",
+  "kind": "text",
+  "tr": "İzometrik güçlendirme"
+ },
+ {
+  "id": "boy44",
+  "kind": "text",
+  "tr": "Avucunuzu alnınıza koyun. Başınızı hareket ettirmeden elinize doğru hafifçe itin, eliniz de karşı koysun. Aynısını başınızın arkası ve iki yanı için tekrarlayın. Kuvvetin yarısını kullanmanız yeterli."
+ },
+ {
+  "id": "boy45",
+  "kind": "text",
+  "tr": "Her yöne 5 saniye, 5 tekrar"
+ },
+ {
+  "id": "boy46",
+  "kind": "text",
+  "tr": "Masa başında boynunuz için"
+ },
+ {
+  "id": "boy47",
+  "kind": "text",
+  "tr": "Ekran başında geçen saatler boyun ağrısının en sık tetikleyicilerinden biri. Küçük düzenlemeler büyük fark yaratır."
+ },
+ {
+  "id": "boy48",
+  "kind": "text",
+  "tr": "Ekranın üst kenarı göz hizasında ya da biraz altında olsun."
+ },
+ {
+  "id": "boy49",
+  "kind": "text",
+  "tr": "Dizüstü bilgisayarla uzun çalışıyorsanız bir yükseltici ve ayrı klavye kullanın."
+ },
+ {
+  "id": "boy50",
+  "kind": "text",
+  "tr": "Telefonu göz hizasına kaldırın; başınızı değil gözlerinizi indirin."
+ },
+ {
+  "id": "boy51",
+  "kind": "text",
+  "tr": "Yarım saatte bir kalkın, omuzlarınızı çevirin, birkaç adım yürüyün."
+ },
+ {
+  "id": "boy52",
+  "kind": "text",
+  "tr": "Telefonla konuşurken telefonu omzunuzla kulağınız arasına sıkıştırmayın."
+ },
+ {
+  "id": "boy53",
+  "kind": "text",
+  "tr": "Boyun ağrısı için egzersiz videoları"
+ },
+ {
+  "id": "boy54",
+  "kind": "text",
+  "tr": "Boyun ağrısında en temel egzersizin doğru yapılışı."
+ },
+ {
+  "id": "boy55",
+  "kind": "attr",
+  "tr": "Tutulan boyun videosunu oynat"
+ },
+ {
+  "id": "boy56",
+  "kind": "text",
+  "tr": "Tutulan boyun için altı egzersiz"
+ },
+ {
+  "id": "boy57",
+  "kind": "text",
+  "tr": "Boyun tutulmasında hareketi geri kazanmaya yönelik kısa bir program."
+ },
+ {
+  "id": "boy58",
+  "kind": "text",
+  "tr": "Boyun ağrısı ne kadar sürer?"
+ },
+ {
+  "id": "boy59",
+  "kind": "text",
+  "tr": "Çoğu ağrı günler ya da birkaç hafta içinde belirgin şekilde azalır. Ancak tekrarlama eğilimi yüksektir: bir kez yaşayanların yarısından fazlası 1–5 yıl içinde yeniden yaşar. Bu yüzden ağrı geçtikten sonra da egzersizlere devam etmek önemlidir."
+ },
+ {
+  "id": "boy60",
+  "kind": "text",
+  "tr": "Sıcak mı uygulamalıyım, soğuk mu?"
+ },
+ {
+  "id": "boy61",
+  "kind": "text",
+  "tr": "Tutulma ve kas gerginliğinde ılık uygulama çoğu kişiye iyi gelir. Yeni bir darbe ya da şişlik varsa ilk günlerde soğuk tercih edilebilir. Hangisi rahatlatıyorsa onu, 15–20 dakikayı geçmeden ve cildinizi bir bezle koruyarak kullanın."
+ },
+ {
+  "id": "boy62",
+  "kind": "text",
+  "tr": "Hangi yastığı kullanmalıyım?"
+ },
+ {
+  "id": "boy63",
+  "kind": "text",
+  "tr": "Herkes için en iyi tek bir yastık yok. Yan yatarken başınızı omuz hizasında tutan, sırtüstü yatarken başınızı öne itmeyen bir yükseklik seçin. Yüzüstü yatmak boynu uzun süre bir yana çevirdiği için ağrıyı artırabilir."
+ },
+ {
+  "id": "boy64",
+  "kind": "text",
+  "tr": "Boyunluk kullanmalı mıyım?"
+ },
+ {
+  "id": "boy65",
+  "kind": "text",
+  "tr": "Sıradan boyun ağrısında önerilmez. Uzun süre kullanmak kasları zayıflatıp iyileşmeyi geciktirebilir. Kaza sonrası ya da hekiminizin özel olarak önerdiği durumlar ayrıdır."
+ },
+ {
+  "id": "boy66",
+  "kind": "text",
+  "tr": "Röntgen ya da MR çektirmem gerekir mi?"
+ },
+ {
+  "id": "boy67",
+  "kind": "text",
+  "tr": "Çoğu boyun ağrısında gerekmez. Yaşla birlikte görülen aşınma bulguları ağrısı olmayan kişilerde de sıktır ve çoğu zaman ağrıyı açıklamaz. Aşağıdaki uyarı işaretlerinden biri varsa ya da ağrı birkaç haftada düzelmiyorsa hekiminiz karar verir."
+ },
+ {
+  "id": "boy68",
+  "kind": "text",
+  "tr": "Boyun düzleşmesi tehlikeli mi?"
+ },
+ {
+  "id": "boy69",
+  "kind": "text",
+  "tr": "Tek başına genellikle hayır. Boyun eğriliğinin azalması ağrısı olmayan kişilerde de sık görülür ve ağrıyla ilişkisi gösterilememiştir. Önemli olan şikâyetleriniz ve muayene bulgularıdır."
+ },
+ {
+  "id": "boy70",
+  "kind": "text",
+  "tr": "Boyun ağrısı çoğunlukla zararsızdır. Şu durumlarda ise beklemeden bir hekime başvurun:"
+ },
+ {
+  "id": "boy71",
+  "kind": "text",
+  "tr": "Ağrı trafik kazası, düşme ya da darbeden sonra başladıysa"
+ },
+ {
+  "id": "boy72",
+  "kind": "text",
+  "tr": "Kollarda ya da bacaklarda güç kaybı, ellerde beceriksizlik (düğme iliklemede zorlanma), yürürken dengesizlik varsa"
+ },
+ {
+  "id": "boy73",
+  "kind": "text",
+  "tr": "İdrar ya da dışkı kontrolünde değişiklik olduysa"
+ },
+ {
+  "id": "boy74",
+  "kind": "text",
+  "tr": "Ateş, titreme, nedensiz kilo kaybı ya da kanser öyküsüyle birlikte ağrı varsa"
+ },
+ {
+  "id": "boy75",
+  "kind": "text",
+  "tr": "Dinlenmekle geçmeyen, giderek artan şiddetli gece ağrısı varsa"
+ },
+ {
+  "id": "boy76",
+  "kind": "text",
+  "tr": "Ani ve çok şiddetli baş ağrısı, ense sertliği ve ateş varsa (<strong>112</strong>)"
+ },
+ {
+  "id": "boy77",
+  "kind": "text",
+  "tr": "Baş dönmesi, çift görme, konuşma ya da yutma güçlüğü eşlik ediyorsa (<strong>112</strong>)"
+ },
+ {
+  "id": "boy78",
+  "kind": "text",
+  "tr": "Boyun ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa (kalp kaynaklı olabilir, <strong>112</strong>)"
+ },
+ {
+  "id": "boy79",
+  "kind": "text",
+  "tr": "Boyun ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "boy80",
+  "kind": "wa",
+  "tr": "Merhaba, boyun ağrım için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "boy81",
+  "kind": "text",
+  "tr": "Physiopedia. <a href=\"https://www.physio-pedia.com/Mechanical_Neck_Pain\" target=\"_blank\" rel=\"noopener\">Mechanical Neck Pain</a>."
+ }
+]

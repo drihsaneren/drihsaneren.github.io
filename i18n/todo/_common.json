@@ -1,0 +1,797 @@
+[
+{
+"id": "c0",
+"kind": "text",
+"tr": "<img src=\"logo.svg\" alt=\"\" width=\"36\" height=\"30\">İhsan Eren"
+},
+{
+"id": "c1",
+"kind": "text",
+"tr": "Bilgi köşesi"
+},
+{
+"id": "c2",
+"kind": "text",
+"tr": "Kendine iyi bak"
+},
+{
+"id": "c3",
+"kind": "wa",
+"tr": "Merhaba, evde fizyoterapi için seans planlamak istiyorum."
+},
+{
+"id": "c4",
+"kind": "text",
+"tr": "Seans planla"
+},
+{
+"id": "c5",
+"kind": "attr",
+"tr": "Telefonla ara"
+},
+{
+"id": "c6",
+"kind": "text",
+"tr": "WhatsApp'tan seans planla"
+},
+{
+"id": "c7",
+"kind": "attr",
+"tr": "WhatsApp'tan seans planla (yeni sekmede açılır)"
+},
+{
+"id": "c8",
+"kind": "text",
+"tr": "© 2026 İhsan Eren · drihsaneren.com"
+},
+{
+"id": "c9",
+"kind": "text",
+"tr": "Ana sayfa"
+},
+{
+"id": "c10",
+"kind": "text",
+"tr": "Bu sayfa bilgilendirme amaçlıdır; muayene ve tedavinin yerini tutmaz."
+},
+{
+"id": "c11",
+"kind": "text",
+"tr": "Evde fizyoterapi hizmeti"
+},
+{
+"id": "c12",
+"kind": "text",
+"tr": "Tıpta yenilikler"
+},
+{
+"id": "c13",
+"kind": "text",
+"tr": "Bilgi köşesinden"
+},
+{
+"id": "c14",
+"kind": "text",
+"tr": "Hastalık rehberi"
+},
+{
+"id": "c15",
+"kind": "text",
+"tr": "Son güncelleme: 28 Eylül 2026"
+},
+{
+"id": "c16",
+"kind": "text",
+"tr": "Sık sorulan sorular"
+},
+{
+"id": "c17",
+"kind": "text",
+"tr": "Tüm konular"
+},
+{
+"id": "c18",
+"kind": "text",
+"tr": "Kaynaklar"
+},
+{
+"id": "c19",
+"kind": "text",
+"tr": "Evde değerlendirme ister misiniz?"
+},
+{
+"id": "c20",
+"kind": "text",
+"tr": "Hızlı iletişim"
+},
+{
+"id": "c21",
+"kind": "text",
+"tr": "Video"
+},
+{
+"id": "c22",
+"kind": "text",
+"tr": "Videolar Bob &amp; Brad kanalına aittir."
+},
+{
+"id": "c23",
+"kind": "text",
+"tr": "WhatsApp'tan yazın"
+},
+{
+"id": "c24",
+"kind": "text",
+"tr": "Evde egzersiz"
+},
+{
+"id": "c25",
+"kind": "text",
+"tr": "Ne zaman hemen başvurmalı?"
+},
+{
+"id": "c26",
+"kind": "text",
+"tr": "ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+},
+{
+"id": "c27",
+"kind": "text",
+"tr": "Nedir?"
+},
+{
+"id": "c28",
+"kind": "text",
+"tr": "Bel ağrısı"
+},
+{
+"id": "c29",
+"kind": "text",
+"tr": "Egzersiz"
+},
+{
+"id": "c30",
+"kind": "text",
+"tr": "10 tekrar, günde 2–3 kez"
+},
+{
+"id": "c31",
+"kind": "text",
+"tr": "Boyun ağrısı"
+},
+{
+"id": "c32",
+"kind": "text",
+"tr": "Manuel terapi"
+},
+{
+"id": "c33",
+"kind": "text",
+"tr": "Tedavi"
+},
+{
+"id": "c34",
+"kind": "text",
+"tr": "Diz kireçlenmesi"
+},
+{
+"id": "c35",
+"kind": "text",
+"tr": "Rehabilitasyon rehberi"
+},
+{
+"id": "c36",
+"kind": "text",
+"tr": "10 tekrar, günde 1–2 kez"
+},
+{
+"id": "c37",
+"kind": "text",
+"tr": "Düşmeleri önleme ve denge"
+},
+{
+"id": "c38",
+"kind": "text",
+"tr": "Kürek kemiği sıkıştırma"
+},
+{
+"id": "c39",
+"kind": "text",
+"tr": "Sandalyeden kalkıp oturma"
+},
+{
+"id": "c40",
+"kind": "text",
+"tr": "10–15 tekrar, günde 2 kez"
+},
+{
+"id": "c41",
+"kind": "text",
+"tr": "Belirtiler ve risk etkenleri"
+},
+{
+"id": "c42",
+"kind": "text",
+"tr": "Boyun fıtığı ve sinir sıkışması"
+},
+{
+"id": "c43",
+"kind": "text",
+"tr": "Dik durun ya da oturun. Omuzlarınızı kulaklarınıza kaldırmadan, kürek kemiklerinizi geriye ve biraz aşağıya doğru birbirine yaklaştırın. 5 saniye tutup bırakın."
+},
+{
+"id": "c44",
+"kind": "text",
+"tr": "Stresli anlarda ne yapabilirsiniz?"
+},
+{
+"id": "c45",
+"kind": "text",
+"tr": "10 tekrar"
+},
+{
+"id": "c46",
+"kind": "text",
+"tr": "Ameliyat"
+},
+{
+"id": "c47",
+"kind": "text",
+"tr": "Bel fıtığı ve siyatik"
+},
+{
+"id": "c48",
+"kind": "text",
+"tr": "Geleceğin tıbbı, bugün"
+},
+{
+"id": "c49",
+"kind": "text",
+"tr": "Güncel bilimsel gelişmeler"
+},
+{
+"id": "c50",
+"kind": "text",
+"tr": "Hareketli kalmak"
+},
+{
+"id": "c51",
+"kind": "text",
+"tr": "Köprü"
+},
+{
+"id": "c52",
+"kind": "text",
+"tr": "Tezgâha tutunarak topuk yükseltme"
+},
+{
+"id": "c53",
+"kind": "text",
+"tr": "İnme (felç) sonrası rehabilitasyon"
+},
+{
+"id": "c54",
+"kind": "text",
+"tr": "10 tekrar, günde 2 kez"
+},
+{
+"id": "c55",
+"kind": "text",
+"tr": "10–15 tekrar, 2–3 set"
+},
+{
+"id": "c56",
+"kind": "text",
+"tr": "10–15 tekrar, günde 1–2 kez"
+},
+{
+"id": "c57",
+"kind": "text",
+"tr": "Ayak bileği burkulması"
+},
+{
+"id": "c58",
+"kind": "text",
+"tr": "Bilek bükücü germe"
+},
+{
+"id": "c59",
+"kind": "text",
+"tr": "Dik oturun, gözleriniz karşıya baksın. Başınızı eğmeden çenenizi düz bir çizgide geriye çekin, çift çene yapar gibi. Ensenizin uzadığını hissedin, 5 saniye tutup bırakın."
+},
+{
+"id": "c60",
+"kind": "text",
+"tr": "Dinlenmekle geçmeyen gece ağrısı ya da nedensiz kilo kaybı"
+},
+{
+"id": "c61",
+"kind": "text",
+"tr": "Diz ve kalça protezi sonrası"
+},
+{
+"id": "c62",
+"kind": "text",
+"tr": "Donuk omuz (adeziv kapsülit)"
+},
+{
+"id": "c63",
+"kind": "text",
+"tr": "Karpal tünel sendromu"
+},
+{
+"id": "c64",
+"kind": "text",
+"tr": "Kortizon iğnesi yaptırmalı mıyım?"
+},
+{
+"id": "c65",
+"kind": "text",
+"tr": "Kuru iğneleme"
+},
+{
+"id": "c66",
+"kind": "text",
+"tr": "Masa başında çalışanlar için"
+},
+{
+"id": "c67",
+"kind": "text",
+"tr": "Seyri ve tedavi"
+},
+{
+"id": "c68",
+"kind": "text",
+"tr": "Tek ayak üzerinde durma"
+},
+{
+"id": "c69",
+"kind": "text",
+"tr": "Topuk dikeni (plantar fasiit)"
+},
+{
+"id": "c70",
+"kind": "text",
+"tr": "Çene içe çekme"
+},
+{
+"id": "c71",
+"kind": "text",
+"tr": "İlaçlar"
+},
+{
+"id": "c72",
+"kind": "text",
+"tr": "10–15 adım, 2–3 tur"
+},
+{
+"id": "c73",
+"kind": "text",
+"tr": "10–15 saniye, her ayakla 3–5 kez"
+},
+{
+"id": "c74",
+"kind": "text",
+"tr": "10–15 tekrar"
+},
+{
+"id": "c75",
+"kind": "text",
+"tr": "15–20 saniye, 3 tekrar"
+},
+{
+"id": "c76",
+"kind": "text",
+"tr": "20–30 saniye tutun, her iki yana 3 kez"
+},
+{
+"id": "c77",
+"kind": "text",
+"tr": "30 saniye, 3 tekrar"
+},
+{
+"id": "c78",
+"kind": "text",
+"tr": "30 sn"
+},
+{
+"id": "c79",
+"kind": "text",
+"tr": "5–10 tekrar"
+},
+{
+"id": "c80",
+"kind": "text",
+"tr": "6 hafta"
+},
+{
+"id": "c81",
+"kind": "text",
+"tr": "8–10 tekrar"
+},
+{
+"id": "c82",
+"kind": "text",
+"tr": "Alzheimer'ı kandan tanıyan testler, beyne taşınan ilaçlar, gen düzenleme: tıptaki en yeni gelişmeler."
+},
+{
+"id": "c83",
+"kind": "text",
+"tr": "Ameliyat ne zaman gerekir?"
+},
+{
+"id": "c84",
+"kind": "text",
+"tr": "Ayak bileği pompası"
+},
+{
+"id": "c85",
+"kind": "text",
+"tr": "Basamak Çıkma"
+},
+{
+"id": "c86",
+"kind": "text",
+"tr": "Baston hangi elde tutulur?"
+},
+{
+"id": "c87",
+"kind": "text",
+"tr": "Belirtiler"
+},
+{
+"id": "c88",
+"kind": "text",
+"tr": "Blanpied PR, Gross AR, Elliott JM, et al. <a href=\"https://www.jospt.org/doi/10.2519/jospt.2017.0302\" target=\"_blank\" rel=\"noopener\">Neck pain: revision 2017. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Orthopaedic Section of the American Physical Therapy Association</a>. J Orthop Sports Phys Ther. 2017;47(7):A1-A83."
+},
+{
+"id": "c89",
+"kind": "text",
+"tr": "Brinjikji W, Luetmer PH, Comstock B, et al. <a href=\"https://www.ajnr.org/content/36/4/811\" target=\"_blank\" rel=\"noopener\">Systematic literature review of imaging features of spinal degeneration in asymptomatic populations</a>. AJNR Am J Neuroradiol. 2015;36(4):811-816."
+},
+{
+"id": "c90",
+"kind": "text",
+"tr": "Denge"
+},
+{
+"id": "c91",
+"kind": "text",
+"tr": "Diz göğse çekme"
+},
+{
+"id": "c92",
+"kind": "text",
+"tr": "Dizi göğse çekme"
+},
+{
+"id": "c93",
+"kind": "text",
+"tr": "Donuk omuz"
+},
+{
+"id": "c94",
+"kind": "text",
+"tr": "Duvara Diz Değdirme"
+},
+{
+"id": "c95",
+"kind": "text",
+"tr": "Düz bacak kaldırma"
+},
+{
+"id": "c96",
+"kind": "text",
+"tr": "Düşme sonrası kalça ağrısı ve bacağa yük verememe (kalça kırığı olabilir)"
+},
+{
+"id": "c97",
+"kind": "text",
+"tr": "En sık görüldüğü yaş aralığı"
+},
+{
+"id": "c98",
+"kind": "text",
+"tr": "Evde rehabilitasyon"
+},
+{
+"id": "c99",
+"kind": "text",
+"tr": "Goblet Squat"
+},
+{
+"id": "c100",
+"kind": "text",
+"tr": "Göğüs omurgasını açma"
+},
+{
+"id": "c101",
+"kind": "text",
+"tr": "Günlük yükü ayarlamak"
+},
+{
+"id": "c102",
+"kind": "text",
+"tr": "Güçlü öneri"
+},
+{
+"id": "c103",
+"kind": "text",
+"tr": "Hangi sinir nereye vurur?"
+},
+{
+"id": "c104",
+"kind": "text",
+"tr": "Havluya bastırma"
+},
+{
+"id": "c105",
+"kind": "text",
+"tr": "Havluyla germe"
+},
+{
+"id": "c106",
+"kind": "text",
+"tr": "Her bacakla 10 tekrar"
+},
+{
+"id": "c107",
+"kind": "text",
+"tr": "Her iki yana 10–15 tekrar"
+},
+{
+"id": "c108",
+"kind": "text",
+"tr": "Her yöne 10 tekrar"
+},
+{
+"id": "c109",
+"kind": "text",
+"tr": "Herkes için kısa rehberler"
+},
+{
+"id": "c110",
+"kind": "text",
+"tr": "Herkesin yapması gereken tek boyun egzersizi"
+},
+{
+"id": "c111",
+"kind": "text",
+"tr": "Kalça kireçlenmesi"
+},
+{
+"id": "c112",
+"kind": "text",
+"tr": "Kemik erimesi (osteoporoz)"
+},
+{
+"id": "c113",
+"kind": "text",
+"tr": "Kilo kontrolü"
+},
+{
+"id": "c114",
+"kind": "text",
+"tr": "Kollarınızı göğsünüzde çaprazlayın. Hafifçe öne eğilerek sandalyeden kalkın, sonra kontrollü şekilde oturun. Zorlanıyorsanız ellerinizden destek alın ya da daha yüksek bir sandalye kullanın."
+},
+{
+"id": "c115",
+"kind": "text",
+"tr": "Kolunuzu önünüze uzatın, dirseğiniz düz, avucunuz yukarı baksın. Diğer elinizle parmaklarınızı nazikçe aşağı ve geriye doğru çekin; ön kolunuzun iç yüzünde hafif gerilme hissedin. Uyuşmayı artıracak kadar zorlamayın."
+},
+{
+"id": "c116",
+"kind": "text",
+"tr": "Kortizon iğnesi"
+},
+{
+"id": "c117",
+"kind": "text",
+"tr": "Kortizon iğnesi işe yarar mı?"
+},
+{
+"id": "c118",
+"kind": "text",
+"tr": "Lastik bandı kapı koluna ya da sağlam bir yere göğüs hizasında bağlayın. Bandın uçlarını tutup dirseklerinizi gövdenize yakın tutarak geriye çekin, kürek kemiklerinizi birbirine yaklaştırın. Yavaşça başlangıca dönün."
+},
+{
+"id": "c119",
+"kind": "text",
+"tr": "Lastik bantla kürek çekme"
+},
+{
+"id": "c120",
+"kind": "text",
+"tr": "MR'daki aşınma ne anlama gelir, yatak istirahati gerekir mi? Evde altı egzersiz ve günlük hayat önerileri."
+},
+{
+"id": "c121",
+"kind": "text",
+"tr": "Mutfak tezgâhının önünde dik durun, bir ya da iki elinizle hafifçe tutunun. Bir ayağınızı yerden kaldırıp dizinizi arkaya doğru bükün ve dengede kalın. Kolaylaştıkça tek elle, sonra parmak ucuyla tutunun."
+},
+{
+"id": "c122",
+"kind": "text",
+"tr": "National Institute for Health and Care Excellence. <a href=\"https://www.nice.org.uk/guidance/ng59\" target=\"_blank\" rel=\"noopener\">Low back pain and sciatica in over 16s: assessment and management (NG59)</a>. Londra: NICE; 2016, güncelleme 2020."
+},
+{
+"id": "c123",
+"kind": "text",
+"tr": "Neden olur?"
+},
+{
+"id": "c124",
+"kind": "text",
+"tr": "Nefes egzersizleri, DSÖ rehberinden beş beceri, Türkçe kitapçık ve ses kayıtları."
+},
+{
+"id": "c125",
+"kind": "text",
+"tr": "Oku →"
+},
+{
+"id": "c126",
+"kind": "text",
+"tr": "Omuz sıkışması"
+},
+{
+"id": "c127",
+"kind": "text",
+"tr": "Omuz sıkışması (subakromiyal ağrı)"
+},
+{
+"id": "c128",
+"kind": "text",
+"tr": "Oturarak diz düzeltme"
+},
+{
+"id": "c129",
+"kind": "text",
+"tr": "Protez ameliyatı"
+},
+{
+"id": "c130",
+"kind": "text",
+"tr": "Risk etkenleri"
+},
+{
+"id": "c131",
+"kind": "text",
+"tr": "Sabah ya da uzun oturduktan sonra kısa süren tutukluk"
+},
+{
+"id": "c132",
+"kind": "text",
+"tr": "Sandalye Otur-Kalk"
+},
+{
+"id": "c133",
+"kind": "text",
+"tr": "Sağ elinizle oturduğunuz sandalyenin kenarını tutun. Sol kulağınızı sol omzunuza doğru yaklaştırın. Boynunuzun sağ yanında hafif bir gerginlik hissedeceksiniz. Omzunuzu kaldırmayın."
+},
+{
+"id": "c134",
+"kind": "text",
+"tr": "Sık karşılaşılan ağrılar ve hastalıklar, kendinize iyi bakmanız için pratik egzersizler ve güncel bilimsel gelişmeler. Her yazının kaynağı belirtilmiştir."
+},
+{
+"id": "c135",
+"kind": "text",
+"tr": "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak sırtınızı yerden kaldırın; omuzlarınızdan dizlerinize kadar düz bir çizgi oluşsun. 3–5 saniye bekleyip yavaşça inin."
+},
+{
+"id": "c136",
+"kind": "text",
+"tr": "Sırtı alçak bir sandalyeye oturun, ellerinizi ensenizde birleştirin. Sandalyenin üst kenarını dayanak alarak göğsünüzü tavana doğru açın ve hafifçe geriye esneyin. Boynunuzu değil sırtınızı esnetin."
+},
+{
+"id": "c137",
+"kind": "attr",
+"tr": "Temel boyun egzersizi videosunu oynat"
+},
+{
+"id": "c138",
+"kind": "text",
+"tr": "Tenisçi dirseği"
+},
+{
+"id": "c139",
+"kind": "text",
+"tr": "Tezgâha tutunarak ağırlık aktarma"
+},
+{
+"id": "c140",
+"kind": "text",
+"tr": "Topuk yükseltme"
+},
+{
+"id": "c141",
+"kind": "text",
+"tr": "Topuk-parmak yürüyüşü"
+},
+{
+"id": "c142",
+"kind": "text",
+"tr": "Yan yatarak bacak kaldırma"
+},
+{
+"id": "c143",
+"kind": "text",
+"tr": "Yan yatın, alttaki dizinizi hafifçe bükün. Üstteki bacağınızı dizi düz, ayak ucu öne bakacak şekilde yukarı kaldırın. Kalça kasları dizi dengede tutmaya yardım eder."
+},
+{
+"id": "c144",
+"kind": "text",
+"tr": "Yana germe"
+},
+{
+"id": "c145",
+"kind": "text",
+"tr": "Özellikle sol omuz ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa (kalp kaynaklı olabilir, <strong>112</strong>'yi arayın)"
+},
+{
+"id": "c146",
+"kind": "text",
+"tr": "İlaç ve enjeksiyon"
+},
+{
+"id": "c147",
+"kind": "text",
+"tr": "Şu durumlar kireçlenme dışında bir soruna işaret edebilir. Beklemeden bir hekime başvurun:"
+},
+{
+"id": "c148",
+"kind": "text",
+"tr": "Şu durumlarda beklemeden bir hekime başvurun:"
+},
+{
+"id": "c149",
+"kind": "ld",
+"tr": "Fizyoterapist"
+},
+{
+"id": "c150",
+"kind": "ld",
+"tr": "İntörn Tıp Doktoru"
+},
+{
+"id": "c151",
+"kind": "text",
+"tr": "S1"
+},
+{
+"id": "c152",
+"kind": "text",
+"tr": "L5"
+},
+{
+"id": "c153",
+"kind": "text",
+"tr": "L4"
+},
+{
+"id": "c154",
+"kind": "text",
+"tr": "C8"
+},
+{
+"id": "c155",
+"kind": "text",
+"tr": "C7"
+},
+{
+"id": "c156",
+"kind": "text",
+"tr": "C6"
+},
+{
+"id": "c157",
+"kind": "text",
+"tr": "BEYİN"
+},
+{
+"id": "c158",
+"kind": "text",
+"tr": "KAN"
+}
+]

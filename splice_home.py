@@ -1,0 +1,5 @@
+# site/_home_section.txt -> site/index.html (#bilgi bölümü)
+s=open('site/index.html',encoding='utf-8').read()
+sec=open('site/_home_section.txt',encoding='utf-8').read()
+i=s.index('  <section id="bilgi">'); j=s.index('  <section id="ben-kimim">')
+open('site/index.html','w',encoding='utf-8').write(s[:i]+sec+'\n'+s[j:])

@@ -1,0 +1,372 @@
+[
+ {
+  "id": "dog0",
+  "kind": "text",
+  "tr": "Doğa Reçetesi: Haftada 120 Dakika Doğa ve Sağlık | İhsan Eren"
+ },
+ {
+  "id": "dog1",
+  "kind": "attr",
+  "tr": "Haftada 120 dakika doğada vakit geçirenler sağlıklarını daha iyi bildiriyor. Doğa takviminiz, İstanbul'dan öneriler, hayranlık yürüyüşü ve pencereden ağaç görmenin etkisi."
+ },
+ {
+  "id": "dog2",
+  "kind": "text",
+  "tr": "Doğa reçetesi: haftada 120 dakika"
+ },
+ {
+  "id": "dog3",
+  "kind": "text",
+  "tr": "İngiltere'de yaklaşık 20 bin kişiyle yapılan bir araştırmada, haftada en az 2 saatini doğada geçirenler sağlıklarını ve iyi oluşlarını belirgin şekilde daha iyi bildirdi. Bu 2 saati tek seferde ya da parça parça geçirmek fark etmiyordu. İstanbul'da doğa sandığınızdan yakın: park, koru, sahil ya da deniz kenarı da sayılır."
+ },
+ {
+  "id": "dog4",
+  "kind": "text",
+  "tr": "120 dk"
+ },
+ {
+  "id": "dog5",
+  "kind": "text",
+  "tr": "Haftalık eşik: bu sürenin altında belirgin bir fark görülmedi (19.806 kişi)"
+ },
+ {
+  "id": "dog6",
+  "kind": "text",
+  "tr": "1,6 kat"
+ },
+ {
+  "id": "dog7",
+  "kind": "text",
+  "tr": "Olasılık oranı: haftada 120–179 dk doğada vakit geçirenlerde iyi sağlık bildirme, hiç çıkmayanlara göre"
+ },
+ {
+  "id": "dog8",
+  "kind": "text",
+  "tr": "200–300 dk"
+ },
+ {
+  "id": "dog9",
+  "kind": "text",
+  "tr": "Faydanın en yüksek görüldüğü aralık; daha fazlasında ek fayda görülmedi"
+ },
+ {
+  "id": "dog10",
+  "kind": "text",
+  "tr": "20–30 dk"
+ },
+ {
+  "id": "dog11",
+  "kind": "text",
+  "tr": "Stres hormonu kortizolün en verimli düştüğü doğa molası süresi"
+ },
+ {
+  "id": "dog12",
+  "kind": "text",
+  "tr": "Haftanızı planlayın"
+ },
+ {
+  "id": "dog13",
+  "kind": "text",
+  "tr": "Doğa takvimi"
+ },
+ {
+  "id": "dog14",
+  "kind": "text",
+  "tr": "Bu hafta doğada geçirdiğiniz ya da geçirmeyi planladığınız süreleri girin. Takvim bu cihazda saklanır ve her pazartesi sıfırlanır."
+ },
+ {
+  "id": "dog15",
+  "kind": "text",
+  "tr": "dk"
+ },
+ {
+  "id": "dog16",
+  "kind": "attr",
+  "tr": "10 dakika azalt"
+ },
+ {
+  "id": "dog17",
+  "kind": "attr",
+  "tr": "10 dakika artır"
+ },
+ {
+  "id": "dog18",
+  "kind": "text",
+  "tr": "Sıfırla"
+ },
+ {
+  "id": "dog19",
+  "kind": "text",
+  "tr": "dakika / hafta"
+ },
+ {
+  "id": "dog20",
+  "kind": "text",
+  "tr": "Haftalık 120 dakikaya {n} dakika kaldı. Parça parça da olur: örneğin 4 gün 30 dakika."
+ },
+ {
+  "id": "dog21",
+  "kind": "text",
+  "tr": "120 dakika eşiğini geçtiniz. Araştırmada bu düzeyde doğada vakit geçirenler daha iyi sağlık ve iyi oluş bildirdi."
+ },
+ {
+  "id": "dog22",
+  "kind": "text",
+  "tr": "Faydanın en yüksek görüldüğü 200–300 dakika aralığındasınız."
+ },
+ {
+  "id": "dog23",
+  "kind": "text",
+  "tr": "300 dakikanın üstündesiniz. Araştırmada ek fayda görülmedi, ama doğanın tadını çıkarın."
+ },
+ {
+  "id": "dog24",
+  "kind": "text",
+  "tr": "Halkadaki ince yeşil çizgi 120 dakikayı, halkanın tamamı 300 dakikayı gösterir."
+ },
+ {
+  "id": "dog25",
+  "kind": "text",
+  "tr": "İstanbul'da doğa"
+ },
+ {
+  "id": "dog26",
+  "kind": "text",
+  "tr": "Bu hafta nereye?"
+ },
+ {
+  "id": "dog27",
+  "kind": "text",
+  "tr": "Uzağa gitmeniz gerekmez; evinize en yakın park da sayılır. Birkaç öneri:"
+ },
+ {
+  "id": "dog28",
+  "kind": "text",
+  "tr": "Avrupa yakası"
+ },
+ {
+  "id": "dog29",
+  "kind": "text",
+  "tr": "Belgrad Ormanı"
+ },
+ {
+  "id": "dog30",
+  "kind": "text",
+  "tr": "Emirgan Korusu"
+ },
+ {
+  "id": "dog31",
+  "kind": "text",
+  "tr": "Yıldız Parkı"
+ },
+ {
+  "id": "dog32",
+  "kind": "text",
+  "tr": "Maçka Parkı"
+ },
+ {
+  "id": "dog33",
+  "kind": "text",
+  "tr": "Gülhane Parkı"
+ },
+ {
+  "id": "dog34",
+  "kind": "text",
+  "tr": "Atatürk Kent Ormanı"
+ },
+ {
+  "id": "dog35",
+  "kind": "text",
+  "tr": "Bebek–Rumelihisarı sahili"
+ },
+ {
+  "id": "dog36",
+  "kind": "text",
+  "tr": "Florya sahili"
+ },
+ {
+  "id": "dog37",
+  "kind": "text",
+  "tr": "Anadolu yakası"
+ },
+ {
+  "id": "dog38",
+  "kind": "text",
+  "tr": "Validebağ Korusu"
+ },
+ {
+  "id": "dog39",
+  "kind": "text",
+  "tr": "Fenerbahçe Parkı"
+ },
+ {
+  "id": "dog40",
+  "kind": "text",
+  "tr": "Göztepe 60. Yıl Parkı"
+ },
+ {
+  "id": "dog41",
+  "kind": "text",
+  "tr": "Moda sahili"
+ },
+ {
+  "id": "dog42",
+  "kind": "text",
+  "tr": "Büyük Çamlıca"
+ },
+ {
+  "id": "dog43",
+  "kind": "text",
+  "tr": "Kuzguncuk–Beylerbeyi sahili"
+ },
+ {
+  "id": "dog44",
+  "kind": "text",
+  "tr": "Polonezköy"
+ },
+ {
+  "id": "dog45",
+  "kind": "text",
+  "tr": "Adalar"
+ },
+ {
+  "id": "dog46",
+  "kind": "text",
+  "tr": "Pencereden ağaç görmek bile"
+ },
+ {
+  "id": "dog47",
+  "kind": "text",
+  "tr": "1984'te <em>Science</em> dergisinde yayımlanan ünlü bir çalışmada, safra kesesi ameliyatı olan hastaların kayıtları incelendi. Penceresinden ağaçları gören 23 hasta, tuğla duvar gören 23 benzer hastayla karşılaştırıldı."
+ },
+ {
+  "id": "dog48",
+  "kind": "text",
+  "tr": "Ağaç görenler hastanede daha kısa kaldı: ortalama 7,96 güne karşı 8,70 gün."
+ },
+ {
+  "id": "dog49",
+  "kind": "text",
+  "tr": "Daha az güçlü ağrı kesiciye ihtiyaç duydular."
+ },
+ {
+  "id": "dog50",
+  "kind": "text",
+  "tr": "Hemşire notlarında haklarında daha az olumsuz yorum vardı."
+ },
+ {
+  "id": "dog51",
+  "kind": "text",
+  "tr": "Küçük bir çalışmadır, ama hastane tasarımında doğaya yer açılmasına ilham verdi."
+ },
+ {
+  "id": "dog52",
+  "kind": "text",
+  "tr": "Hayranlık yürüyüşü"
+ },
+ {
+  "id": "dog53",
+  "kind": "text",
+  "tr": "52 sağlıklı yaşlı yetişkin, 8 hafta boyunca haftada bir 15 dakikalık yürüyüş yaptı. Yürürken “hayranlık” duygusuna, yani kendinden çok daha büyük bir şeyin karşısında hissedilen o hayret hâline dikkat etmeleri istenen grupta günlük sıkıntı azaldı; şefkat ve minnet gibi duygular arttı. Yürüyüşte çektikleri fotoğraflarda zamanla kendilerine daha az, manzaraya daha çok yer verdiler ve gülümsemeleri belirginleşti."
+ },
+ {
+  "id": "dog54",
+  "kind": "text",
+  "tr": "Telefonu cebe koyun"
+ },
+ {
+  "id": "dog55",
+  "kind": "text",
+  "tr": "Fotoğraf çekmek serbest, ama ekrana bakarak yürümeyin."
+ },
+ {
+  "id": "dog56",
+  "kind": "text",
+  "tr": "Büyüklüğü fark edin"
+ },
+ {
+  "id": "dog57",
+  "kind": "text",
+  "tr": "Denizin genişliği, gökyüzü, yaşlı bir çınarın gövdesi: sizi aşan şeylere bakın."
+ },
+ {
+  "id": "dog58",
+  "kind": "text",
+  "tr": "Küçüğü de görün"
+ },
+ {
+  "id": "dog59",
+  "kind": "text",
+  "tr": "Bir yaprağın damarları, taşların arasındaki yosun, martıların uçuşu."
+ },
+ {
+  "id": "dog60",
+  "kind": "text",
+  "tr": "Her seferinde yeni"
+ },
+ {
+  "id": "dog61",
+  "kind": "text",
+  "tr": "Farklı bir yol ya da saat seçin; tanıdık yerler de yeni ayrıntılarla şaşırtabilir."
+ },
+ {
+  "id": "dog62",
+  "kind": "text",
+  "tr": "Mutlaka ormana ya da kıra mı gitmeliyim?"
+ },
+ {
+  "id": "dog63",
+  "kind": "text",
+  "tr": "Hayır. Araştırmada şehir parkları, korular, sahiller ve kırlar gibi açık yeşil ve mavi alanlara yapılan ziyaretler birlikte sayıldı. Mahallenizdeki park ya da deniz kenarı da işe yarar."
+ },
+ {
+  "id": "dog64",
+  "kind": "text",
+  "tr": "Spor yapmam gerekir mi?"
+ },
+ {
+  "id": "dog65",
+  "kind": "text",
+  "tr": "Hayır. Doğada oturmak ya da yavaş yürümek de sayılır. Stres hormonunu ölçen çalışmada katılımcılardan özellikle tempolu egzersiz yapmamaları, telefonla uğraşmamaları istendi. Yürürseniz hareketin faydası da eklenir."
+ },
+ {
+  "id": "dog66",
+  "kind": "text",
+  "tr": "120 dakikayı tek seferde mi geçirmeliyim?"
+ },
+ {
+  "id": "dog67",
+  "kind": "text",
+  "tr": "Gerekmez. Araştırmada haftalık sürenin tek uzun ziyaretle ya da birkaç kısa ziyaretle tamamlanması fark etmedi. Örneğin 4 gün 30 dakika da olur."
+ },
+ {
+  "id": "dog68",
+  "kind": "text",
+  "tr": "Evden çıkamıyorum, ne yapabilirim?"
+ },
+ {
+  "id": "dog69",
+  "kind": "text",
+  "tr": "Pencereden yeşil görmek bile iyileşmeyle ilişkili bulundu. Perdeleri açın, mümkünse pencereye yakın oturun, balkonda ya da pencere önünde bitki yetiştirin. Evden çıkmakta zorlanıyorsanız yeniden güvenle yürümek için fizyoterapiden destek alabilirsiniz."
+ },
+ {
+  "id": "dog70",
+  "kind": "text",
+  "tr": "Yeniden güvenle yürümek ve dışarı çıkmak için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "dog71",
+  "kind": "wa",
+  "tr": "Merhaba, yürüme ve denge çalışması için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "dog72",
+  "kind": "text",
+  "tr": "Sosyal bağ ve sağlık"
+ },
+ {
+  "id": "dog73",
+  "kind": "ld",
+  "tr": "Doğada vakit geçirme"
+ }
+]

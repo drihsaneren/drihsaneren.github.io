@@ -1,0 +1,447 @@
+[
+ {
+  "id": "don0",
+  "kind": "text",
+  "tr": "Donuk Omuz: Belirtiler, Evreler ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "don1",
+  "kind": "attr",
+  "tr": "Donuk omuz (adeziv kapsülit) nedir, kimlerde görülür, evreleri, tedavi seçenekleri, evde yapılabilecek egzersizler ve videolar."
+ },
+ {
+  "id": "don2",
+  "kind": "text",
+  "tr": "Omzun önce ağrıdığı, sonra giderek kilitlendiği bir durum. Çoğu zaman kendi seyrinde düzelir ama bu aylar, hatta yıllar sürebilir. Doğru egzersiz ve tedaviyle bu süreci daha rahat geçirmek mümkün."
+ },
+ {
+  "id": "don3",
+  "kind": "text",
+  "tr": "Genel toplumda görülme sıklığı"
+ },
+ {
+  "id": "don4",
+  "kind": "text",
+  "tr": "3–10 kat"
+ },
+ {
+  "id": "don5",
+  "kind": "text",
+  "tr": "Diyabetlilerde daha sık görülür"
+ },
+ {
+  "id": "don6",
+  "kind": "text",
+  "tr": "1–3 yıl"
+ },
+ {
+  "id": "don7",
+  "kind": "text",
+  "tr": "Hastalığın tipik süresi"
+ },
+ {
+  "id": "don8",
+  "kind": "text",
+  "tr": "Omuz eklemini saran kapsül adı verilen bağ dokusu kalınlaşır, iltihaplanır ve büzüşür. Eklem içindeki hareket alanı daralır. Sonuç: hem ağrı hem de kolu kaldırmada, arkaya götürmede ve dışa çevirmede belirgin kısıtlılık."
+ },
+ {
+  "id": "don9",
+  "kind": "text",
+  "tr": "En çok kolu dışa çevirme hareketi kısıtlanır. Saç taramak, ceket giymek, arkadan kopça ya da kemer bağlamak zorlaşır. Ağrı çoğunlukla geceleri artar ve o tarafa yatmak zorlaşır."
+ },
+ {
+  "id": "don10",
+  "kind": "text",
+  "tr": "Kimlerde görülür?"
+ },
+ {
+  "id": "don11",
+  "kind": "text",
+  "tr": "40–60 yaş arası, kadınlarda daha sık"
+ },
+ {
+  "id": "don12",
+  "kind": "text",
+  "tr": "Diyabeti olanlarda belirgin olarak daha sık ve daha uzun sürer"
+ },
+ {
+  "id": "don13",
+  "kind": "text",
+  "tr": "Tiroid hastalıkları (az ya da çok çalışan tiroid)"
+ },
+ {
+  "id": "don14",
+  "kind": "text",
+  "tr": "Ameliyat, kırık ya da yaralanma sonrası kolun uzun süre hareketsiz kalması"
+ },
+ {
+  "id": "don15",
+  "kind": "text",
+  "tr": "İnme, Parkinson ve kalp hastalıkları"
+ },
+ {
+  "id": "don16",
+  "kind": "text",
+  "tr": "Bir omuzda geçirenlerin bir kısmında yıllar içinde diğer omuzda da görülebilir."
+ },
+ {
+  "id": "don17",
+  "kind": "text",
+  "tr": "Üç evre"
+ },
+ {
+  "id": "don18",
+  "kind": "text",
+  "tr": "Süreler kişiden kişiye değişir; diyabetlilerde genellikle daha uzundur."
+ },
+ {
+  "id": "don19",
+  "kind": "text",
+  "tr": "1 · Donma"
+ },
+ {
+  "id": "don20",
+  "kind": "text",
+  "tr": "Ağrılı evre"
+ },
+ {
+  "id": "don21",
+  "kind": "text",
+  "tr": "Yaklaşık 2–9 ay"
+ },
+ {
+  "id": "don22",
+  "kind": "text",
+  "tr": "Ağrı giderek artar, özellikle geceleri. Hareket açıklığı azalmaya başlar."
+ },
+ {
+  "id": "don23",
+  "kind": "text",
+  "tr": "2 · Donmuş"
+ },
+ {
+  "id": "don24",
+  "kind": "text",
+  "tr": "Katılaşma evresi"
+ },
+ {
+  "id": "don25",
+  "kind": "text",
+  "tr": "Yaklaşık 4–12 ay"
+ },
+ {
+  "id": "don26",
+  "kind": "text",
+  "tr": "Ağrı azalabilir ama omuz belirgin şekilde katılaşır. Günlük işler en çok bu evrede zorlaşır."
+ },
+ {
+  "id": "don27",
+  "kind": "text",
+  "tr": "3 · Çözülme"
+ },
+ {
+  "id": "don28",
+  "kind": "text",
+  "tr": "İyileşme evresi"
+ },
+ {
+  "id": "don29",
+  "kind": "text",
+  "tr": "Yaklaşık 5–24 ay"
+ },
+ {
+  "id": "don30",
+  "kind": "text",
+  "tr": "Hareket yavaş yavaş geri gelir. Bazı kişilerde hafif kısıtlılık uzun süre kalabilir."
+ },
+ {
+  "id": "don31",
+  "kind": "text",
+  "tr": "Tanı ve tedavi"
+ },
+ {
+  "id": "don32",
+  "kind": "text",
+  "tr": "Tanı çoğunlukla muayeneyle konur: omuz hem sizin kaldırdığınızda hem de başkası kaldırdığında aynı şekilde kısıtlıdır. Röntgen, ultrason veya MR tanı için şart değildir ama kireçlenme ya da yırtık gibi başka nedenleri dışlamak için istenebilir."
+ },
+ {
+  "id": "don33",
+  "kind": "text",
+  "tr": "Fizyoterapi ve egzersiz"
+ },
+ {
+  "id": "don34",
+  "kind": "text",
+  "tr": "Tedavinin temelidir. Ağrılı evrede ağrısız aralıkta nazik hareketler, katılaşma evresinde germe ve eklem mobilizasyonu öne çıkar. Evde düzenli egzersiz çok önemlidir."
+ },
+ {
+  "id": "don35",
+  "kind": "text",
+  "tr": "Ağrı kontrolü"
+ },
+ {
+  "id": "don36",
+  "kind": "text",
+  "tr": "Sıcak uygulama ve hekiminizin önerdiği ağrı kesiciler, egzersizi yapılabilir kılar."
+ },
+ {
+  "id": "don37",
+  "kind": "text",
+  "tr": "Eklem içi kortizon iğnesi"
+ },
+ {
+  "id": "don38",
+  "kind": "text",
+  "tr": "Özellikle erken, ağrılı evrede ağrıyı birkaç hafta içinde belirgin azaltabilir. Etkisi daha çok kısa vadelidir; hekim kararıyla yapılır."
+ },
+ {
+  "id": "don39",
+  "kind": "text",
+  "tr": "Hidrodilatasyon"
+ },
+ {
+  "id": "don40",
+  "kind": "text",
+  "tr": "Eklem içine sıvı verilerek büzüşmüş kapsülün genişletilmesidir."
+ },
+ {
+  "id": "don41",
+  "kind": "text",
+  "tr": "Cerrahi seçenekler"
+ },
+ {
+  "id": "don42",
+  "kind": "text",
+  "tr": "Aylarca süren tedaviye yanıt alınamazsa narkoz altında manipülasyon ya da kapalı (artroskopik) kapsül gevşetme düşünülebilir."
+ },
+ {
+  "id": "don43",
+  "kind": "text",
+  "tr": "Isınma ve sık kullanılan beş egzersiz"
+ },
+ {
+  "id": "don44",
+  "kind": "text",
+  "tr": "Bu egzersizler hafif bir gerginlik hissi verecek kadar yapılır, keskin ağrıya kadar zorlanmaz. Ağrılı evrede dozu düşük tutun. Hangi egzersizin sizin evrenize uygun olduğunu fizyoterapistinizle belirleyin."
+ },
+ {
+  "id": "don45",
+  "kind": "text",
+  "tr": "Isıtma"
+ },
+ {
+  "id": "don46",
+  "kind": "text",
+  "tr": "Önce ısıtın"
+ },
+ {
+  "id": "don47",
+  "kind": "text",
+  "tr": "Egzersizden önce omzunuza 10–15 dakika ılık bir havlu ya da sıcak su torbası koyun. Kaslar gevşer, hareketler daha rahat yapılır. Cildinizi korumak için arada ince bir bez bulundurun."
+ },
+ {
+  "id": "don48",
+  "kind": "text",
+  "tr": "Günde 1–2 kez, en fazla 20 dakika"
+ },
+ {
+  "id": "don49",
+  "kind": "text",
+  "tr": "Sarkaç"
+ },
+ {
+  "id": "don50",
+  "kind": "text",
+  "tr": "Sağlam elinizle bir masaya dayanın, öne eğilin. Ağrılı kolunuzu gevşekçe sarkıtın ve küçük daireler çizdirin. Kolu kasla değil, gövdenizin hafif sallanmasıyla hareket ettirin."
+ },
+ {
+  "id": "don51",
+  "kind": "text",
+  "tr": "10 tur saat yönünde, 10 tur tersine"
+ },
+ {
+  "id": "don52",
+  "kind": "text",
+  "tr": "Parmak yürüyüşü"
+ },
+ {
+  "id": "don53",
+  "kind": "text",
+  "tr": "Duvarda parmak yürüyüşü"
+ },
+ {
+  "id": "don54",
+  "kind": "text",
+  "tr": "Duvara bir kol boyu uzaklıkta, yüzünüz duvara dönük durun. Parmaklarınızla duvarda örümcek gibi yukarı yürüyün, gerginlik hissettiğiniz yerde birkaç saniye bekleyin, yavaşça inin."
+ },
+ {
+  "id": "don55",
+  "kind": "text",
+  "tr": "Havlu ile germe"
+ },
+ {
+  "id": "don56",
+  "kind": "text",
+  "tr": "Bir havluyu sırtınızın arkasında iki elinizle tutun: sağlam kolunuz yukarıda, ağrılı kolunuz aşağıda. Sağlam kolunuzla havluyu yavaşça yukarı çekin, ağrılı kol sırt boyunca yukarı kaysın."
+ },
+ {
+  "id": "don57",
+  "kind": "text",
+  "tr": "10–20 saniye tutun, 5 tekrar"
+ },
+ {
+  "id": "don58",
+  "kind": "text",
+  "tr": "Çapraz germe"
+ },
+ {
+  "id": "don59",
+  "kind": "text",
+  "tr": "Göğüs önünden çapraz germe"
+ },
+ {
+  "id": "don60",
+  "kind": "text",
+  "tr": "Ağrılı kolunuzu göğsünüzün önünden karşı omza doğru uzatın. Diğer elinizle dirseğinizin üstünden hafifçe bastırarak kolu kendinize doğru çekin."
+ },
+ {
+  "id": "don61",
+  "kind": "text",
+  "tr": "15–20 saniye tutun, 5 tekrar"
+ },
+ {
+  "id": "don62",
+  "kind": "text",
+  "tr": "Dışa döndürme"
+ },
+ {
+  "id": "don63",
+  "kind": "text",
+  "tr": "Sopa ile dışa döndürme"
+ },
+ {
+  "id": "don64",
+  "kind": "text",
+  "tr": "Sırtüstü yatın ya da ayakta durun. Ağrılı kolunuzun dirseği gövdenize yapışık ve 90 derece bükülü olsun. Bir sopayı iki elinizle tutun; sağlam kolunuzla sopayı iterek ağrılı kolun ön kolunu dışarı doğru çevirin."
+ },
+ {
+  "id": "don65",
+  "kind": "text",
+  "tr": "Evreye göre egzersiz videoları"
+ },
+ {
+  "id": "don66",
+  "kind": "text",
+  "tr": "ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından, donuk omzun evrelerine göre adım adım egzersiz programları. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "don67",
+  "kind": "attr",
+  "tr": "Donma evresi videosunu oynat"
+ },
+ {
+  "id": "don68",
+  "kind": "text",
+  "tr": "1. evre: Donma (ağrılı dönem)"
+ },
+ {
+  "id": "don69",
+  "kind": "text",
+  "tr": "Ağrıyı artırmadan hareketi korumaya yönelik nazik egzersizler."
+ },
+ {
+  "id": "don70",
+  "kind": "attr",
+  "tr": "Donmuş evre videosunu oynat"
+ },
+ {
+  "id": "don71",
+  "kind": "text",
+  "tr": "2. evre: Donmuş (katılaşma dönemi)"
+ },
+ {
+  "id": "don72",
+  "kind": "text",
+  "tr": "Hareket açıklığını artırmaya yönelik germe ve mobilizasyon egzersizleri."
+ },
+ {
+  "id": "don73",
+  "kind": "text",
+  "tr": "Donuk omuz kendiliğinden geçer mi?"
+ },
+ {
+  "id": "don74",
+  "kind": "text",
+  "tr": "Çoğu zaman kendi seyrinde düzelir ama bu aylar, hatta yıllar sürebilir; hastalığın tipik süresi 1–3 yıldır. Bazı kişilerde hafif kısıtlılık uzun süre kalabilir. Doğru egzersiz ve tedaviyle bu süreci daha rahat geçirmek mümkündür."
+ },
+ {
+  "id": "don75",
+  "kind": "text",
+  "tr": "Ağrılı omzumu hareket ettirmeli miyim?"
+ },
+ {
+  "id": "don76",
+  "kind": "text",
+  "tr": "Evet, ama zorlamadan. Ağrılı evrede ağrısız aralıkta nazik hareketler, katılaşma evresinde germe ve eklem mobilizasyonu öne çıkar. Egzersizler hafif bir gerginlik hissi verecek kadar yapılır, keskin ağrıya kadar zorlanmaz."
+ },
+ {
+  "id": "don77",
+  "kind": "text",
+  "tr": "Donuk omuz için MR gerekir mi?"
+ },
+ {
+  "id": "don78",
+  "kind": "text",
+  "tr": "Eklem içi kortizon iğnesi özellikle erken, ağrılı evrede ağrıyı birkaç hafta içinde belirgin azaltabilir. Etkisi daha çok kısa vadelidir ve hekim kararıyla yapılır. Tedavinin temeli ise fizyoterapi ve düzenli egzersizdir."
+ },
+ {
+  "id": "don79",
+  "kind": "text",
+  "tr": "Omuz ağrısı her zaman donuk omuz değildir. Şu durumlarda beklemeden bir hekime başvurun:"
+ },
+ {
+  "id": "don80",
+  "kind": "text",
+  "tr": "Ağrı bir düşme ya da darbeden sonra başladıysa"
+ },
+ {
+  "id": "don81",
+  "kind": "text",
+  "tr": "Kolda ani güç kaybı, uyuşma ya da karıncalanma varsa"
+ },
+ {
+  "id": "don82",
+  "kind": "text",
+  "tr": "Omuzda kızarıklık, şişlik ve ateş varsa"
+ },
+ {
+  "id": "don83",
+  "kind": "text",
+  "tr": "Nedensiz kilo kaybı ya da dinlenmekle geçmeyen şiddetli gece ağrısı varsa"
+ },
+ {
+  "id": "don84",
+  "kind": "text",
+  "tr": "Donuk omzunuz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "don85",
+  "kind": "wa",
+  "tr": "Merhaba, donuk omuz için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "don86",
+  "kind": "text",
+  "tr": "American Academy of Orthopaedic Surgeons. <a href=\"https://www.orthoinfo.org/diseases--conditions/frozen-shoulder\" target=\"_blank\" rel=\"noopener\">Frozen Shoulder</a>. OrthoInfo."
+ },
+ {
+  "id": "don87",
+  "kind": "text",
+  "tr": "NHS. <a href=\"https://www.nhs.uk/conditions/frozen-shoulder/\" target=\"_blank\" rel=\"noopener\">Frozen shoulder</a>."
+ },
+ {
+  "id": "don88",
+  "kind": "text",
+  "tr": "Physiopedia. <a href=\"https://www.physio-pedia.com/Adhesive_Capsulitis\" target=\"_blank\" rel=\"noopener\">Frozen Shoulder</a>."
+ }
+]

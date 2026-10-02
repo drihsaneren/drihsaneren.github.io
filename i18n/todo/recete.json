@@ -1,0 +1,737 @@
+[
+ {
+  "id": "rec0",
+  "kind": "text",
+  "tr": "Egzersiz Reçetesi — A.Y."
+ },
+ {
+  "id": "rec1",
+  "kind": "text",
+  "tr": "← İhsan Eren ana sayfa"
+ },
+ {
+  "id": "rec2",
+  "kind": "text",
+  "tr": "Kişiye Özel Egzersiz Reçetesi"
+ },
+ {
+  "id": "rec3",
+  "kind": "text",
+  "tr": "Longevity Kliniği · Faz 1–2 · Değerlendirme sonrası program"
+ },
+ {
+  "id": "rec4",
+  "kind": "text",
+  "tr": "<b style=\"font-size:15px;color:#fff;\">A.Y.</b> · Kadın · 62 yaş<br> Başlangıç: 22.07.2026<br>Sonraki kontrol: 6. hafta"
+ },
+ {
+  "id": "rec5",
+  "kind": "text",
+  "tr": "Değerlendirmeye Göre Öncelikli Hedef"
+ },
+ {
+  "id": "rec6",
+  "kind": "text",
+  "tr": "Alt ekstremite gücü + ayak bileği mobilitesi + sol taraf asimetrisi"
+ },
+ {
+  "id": "rec7",
+  "kind": "text",
+  "tr": "Otur-kalk gücü 1.8 W/kg (hedef 2.2) · Ayak bileği 7 cm (hedef 9) · Sol-sağ farkı %11 (hedef &lt;%10). Denge, kavrama ve yürüme hızı korunmuş — bu alanlar sürdürme modunda çalışılacak."
+ },
+ {
+  "id": "rec8",
+  "kind": "text",
+  "tr": "Haftalık Plan"
+ },
+ {
+  "id": "rec9",
+  "kind": "text",
+  "tr": "Pazartesi"
+ },
+ {
+  "id": "rec10",
+  "kind": "text",
+  "tr": "Kuvvet A<br><span style=\"color:#5A6B69;\">1,3,4,7 · 35 dk</span>"
+ },
+ {
+  "id": "rec11",
+  "kind": "text",
+  "tr": "Salı"
+ },
+ {
+  "id": "rec12",
+  "kind": "text",
+  "tr": "Sadece mobilite<br><span>2,5 · 10 dk</span>"
+ },
+ {
+  "id": "rec13",
+  "kind": "text",
+  "tr": "Çarşamba"
+ },
+ {
+  "id": "rec14",
+  "kind": "text",
+  "tr": "Kuvvet B<br><span style=\"color:#5A6B69;\">1,6,8,9 · 35 dk</span>"
+ },
+ {
+  "id": "rec15",
+  "kind": "text",
+  "tr": "Perşembe"
+ },
+ {
+  "id": "rec16",
+  "kind": "text",
+  "tr": "Cuma"
+ },
+ {
+  "id": "rec17",
+  "kind": "text",
+  "tr": "C.tesi / Pazar"
+ },
+ {
+  "id": "rec18",
+  "kind": "text",
+  "tr": "Yürüyüş<br><span>7.000+ adım</span>"
+ },
+ {
+  "id": "rec19",
+  "kind": "text",
+  "tr": "<b>Kural:</b> Mobilite egzersizleri (2 ve 5) <b>her gün</b> yapılır — ayak bileği kısıtlılığı günlük tekrar gerektirir. Kuvvet günleri arasında en az 1 gün boşluk bırakılır."
+ },
+ {
+  "id": "rec20",
+  "kind": "text",
+  "tr": "Egzersizler"
+ },
+ {
+  "id": "rec21",
+  "kind": "text",
+  "tr": "Bacak kuvveti · ana egzersiz"
+ },
+ {
+  "id": "rec22",
+  "kind": "text",
+  "tr": "3 set"
+ },
+ {
+  "id": "rec23",
+  "kind": "text",
+  "tr": "2 dk ara"
+ },
+ {
+  "id": "rec24",
+  "kind": "text",
+  "tr": "Nasıl"
+ },
+ {
+  "id": "rec25",
+  "kind": "text",
+  "tr": "Sandalye kenarında otur, ayaklar kalça genişliğinde."
+ },
+ {
+  "id": "rec26",
+  "kind": "text",
+  "tr": "Kollar göğüste çapraz — destek alma."
+ },
+ {
+  "id": "rec27",
+  "kind": "text",
+  "tr": "3 saniyede kalk, <b>3 saniyede kontrollü otur.</b>"
+ },
+ {
+  "id": "rec28",
+  "kind": "text",
+  "tr": "Dikkat"
+ },
+ {
+  "id": "rec29",
+  "kind": "text",
+  "tr": "Dizler içe düşmemeli."
+ },
+ {
+  "id": "rec30",
+  "kind": "text",
+  "tr": "Otururken kendini bırakma — inişi kontrol et."
+ },
+ {
+  "id": "rec31",
+  "kind": "text",
+  "tr": "İlerleme"
+ },
+ {
+  "id": "rec32",
+  "kind": "text",
+  "tr": "Hafta 1–2: kollar destekli · Hafta 3–4: kolsuz · Hafta 5+: elde ağırlık"
+ },
+ {
+  "id": "rec33",
+  "kind": "text",
+  "tr": "Ayak bileği mobilitesi · HER GÜN"
+ },
+ {
+  "id": "rec34",
+  "kind": "text",
+  "tr": "Her gün"
+ },
+ {
+  "id": "rec35",
+  "kind": "text",
+  "tr": "5 sn tut"
+ },
+ {
+  "id": "rec36",
+  "kind": "text",
+  "tr": "Ayak parmağı duvardan <b>8–10 cm</b> geride, ayak duvara dik."
+ },
+ {
+  "id": "rec37",
+  "kind": "text",
+  "tr": "<b>Topuk yerden kalkmadan</b> dizi duvara doğru it."
+ },
+ {
+  "id": "rec38",
+  "kind": "text",
+  "tr": "5 saniye tut, geri dön."
+ },
+ {
+  "id": "rec39",
+  "kind": "text",
+  "tr": "Topuk kalkarsa mesafeyi kısalt — hile olur."
+ },
+ {
+  "id": "rec40",
+  "kind": "text",
+  "tr": "Sol tarafta <b>1 set fazla</b> yap (asimetri)."
+ },
+ {
+  "id": "rec41",
+  "kind": "text",
+  "tr": "Hedef"
+ },
+ {
+  "id": "rec42",
+  "kind": "text",
+  "tr": "Şu an 7 cm → 12 haftada <b>9–10 cm</b>"
+ },
+ {
+  "id": "rec43",
+  "kind": "text",
+  "tr": "Topuk Yükseltme"
+ },
+ {
+  "id": "rec44",
+  "kind": "text",
+  "tr": "Baldır kuvveti · tek ayak"
+ },
+ {
+  "id": "rec45",
+  "kind": "text",
+  "tr": "12–15 tekrar"
+ },
+ {
+  "id": "rec46",
+  "kind": "text",
+  "tr": "tek ayak"
+ },
+ {
+  "id": "rec47",
+  "kind": "text",
+  "tr": "Tek ayak üstünde dur, dengeye duvardan hafif destek al."
+ },
+ {
+  "id": "rec48",
+  "kind": "text",
+  "tr": "Topuğu <b>yavaşça</b> kaldır, en tepede 1 sn bekle."
+ },
+ {
+  "id": "rec49",
+  "kind": "text",
+  "tr": "3 saniyede indir — iniş fazı asıl önemli olan."
+ },
+ {
+  "id": "rec50",
+  "kind": "text",
+  "tr": "Duvara yaslanma, sadece parmak ucuyla dokun."
+ },
+ {
+  "id": "rec51",
+  "kind": "text",
+  "tr": "Sol ayakta önce yap, sağdaki tekrar sayısını sola eşitle."
+ },
+ {
+  "id": "rec52",
+  "kind": "text",
+  "tr": "Hafta 1–3: iki ayak · Hafta 4+: tek ayak · Hafta 8+: basamak kenarında"
+ },
+ {
+  "id": "rec53",
+  "kind": "text",
+  "tr": "Bacak kuvveti · yüklü"
+ },
+ {
+  "id": "rec54",
+  "kind": "text",
+  "tr": "4–8 kg"
+ },
+ {
+  "id": "rec55",
+  "kind": "text",
+  "tr": "Ağırlığı (dumbbell/kettlebell) göğüs önünde iki elle tut."
+ },
+ {
+  "id": "rec56",
+  "kind": "text",
+  "tr": "Kalçayı geriye vererek otur, göğüs dik."
+ },
+ {
+  "id": "rec57",
+  "kind": "text",
+  "tr": "Uyluk yere paralel olana kadar in, topuktan itip kalk."
+ },
+ {
+  "id": "rec58",
+  "kind": "text",
+  "tr": "Bel çukurunu kaybetme — sırt yuvarlanmasın."
+ },
+ {
+  "id": "rec59",
+  "kind": "text",
+  "tr": "Ağrı varsa derinliği azalt, yükü değil."
+ },
+ {
+  "id": "rec60",
+  "kind": "text",
+  "tr": "<b>Her 2 haftada %5 yük artışı</b> (4 → 6 → 8 kg)"
+ },
+ {
+  "id": "rec61",
+  "kind": "text",
+  "tr": "Baldır Germe (Duvar)"
+ },
+ {
+  "id": "rec62",
+  "kind": "text",
+  "tr": "Esneklik · HER GÜN"
+ },
+ {
+  "id": "rec63",
+  "kind": "text",
+  "tr": "2 set"
+ },
+ {
+  "id": "rec64",
+  "kind": "text",
+  "tr": "iki taraf"
+ },
+ {
+  "id": "rec65",
+  "kind": "text",
+  "tr": "Ellerini duvara koy, gerilecek bacağı geriye uzat."
+ },
+ {
+  "id": "rec66",
+  "kind": "text",
+  "tr": "<b>Arka topuk yerde</b>, diz düz — gastroknemius gerilir."
+ },
+ {
+  "id": "rec67",
+  "kind": "text",
+  "tr": "Sonra <b>arka dizi hafif bük</b> — bu sefer soleus gerilir. İkisini de yap."
+ },
+ {
+  "id": "rec68",
+  "kind": "text",
+  "tr": "Zorlamalı, yaylanmalı germe yok — sabit tut."
+ },
+ {
+  "id": "rec69",
+  "kind": "text",
+  "tr": "Gerginlik hissi olmalı, ağrı değil."
+ },
+ {
+  "id": "rec70",
+  "kind": "text",
+  "tr": "Not"
+ },
+ {
+  "id": "rec71",
+  "kind": "text",
+  "tr": "Egzersiz <b>sonrası</b> yapılır (öncesinde değil)."
+ },
+ {
+  "id": "rec72",
+  "kind": "text",
+  "tr": "Bantlı Kalça Açma"
+ },
+ {
+  "id": "rec73",
+  "kind": "text",
+  "tr": "Kalça yan kası · denge desteği"
+ },
+ {
+  "id": "rec74",
+  "kind": "text",
+  "tr": "12 tekrar"
+ },
+ {
+  "id": "rec75",
+  "kind": "text",
+  "tr": "hafif bant"
+ },
+ {
+  "id": "rec76",
+  "kind": "text",
+  "tr": "Bant ayak bileklerinin hemen üstünde, ayakta dik dur."
+ },
+ {
+  "id": "rec77",
+  "kind": "text",
+  "tr": "Bacağı <b>yana doğru</b> aç, 2 saniye tut, kontrollü geri getir."
+ },
+ {
+  "id": "rec78",
+  "kind": "text",
+  "tr": "Gövde sabit — yana eğilme."
+ },
+ {
+  "id": "rec79",
+  "kind": "text",
+  "tr": "Bacak öne değil <b>tam yana</b> gitmeli."
+ },
+ {
+  "id": "rec80",
+  "kind": "text",
+  "tr": "Sol bacakta 1 set fazla."
+ },
+ {
+  "id": "rec81",
+  "kind": "text",
+  "tr": "Neden"
+ },
+ {
+  "id": "rec82",
+  "kind": "text",
+  "tr": "Kalça abdüktörleri değerlendirmede norm altındaydı (%79/90)."
+ },
+ {
+  "id": "rec83",
+  "kind": "text",
+  "tr": "Tek Ayak Denge"
+ },
+ {
+  "id": "rec84",
+  "kind": "text",
+  "tr": "Denge · sürdürme"
+ },
+ {
+  "id": "rec85",
+  "kind": "text",
+  "tr": "her ayak"
+ },
+ {
+  "id": "rec86",
+  "kind": "text",
+  "tr": "Tek ayak üstünde dur, diğer diz hafif yukarı."
+ },
+ {
+  "id": "rec87",
+  "kind": "text",
+  "tr": "Bakış sabit bir noktada. Kollar dengede yardımcı."
+ },
+ {
+  "id": "rec88",
+  "kind": "text",
+  "tr": "Hafta 1–4: gözler açık, sert zemin"
+ },
+ {
+  "id": "rec89",
+  "kind": "text",
+  "tr": "Hafta 5–8: gözler açık, <b>yastık üstünde</b>"
+ },
+ {
+  "id": "rec90",
+  "kind": "text",
+  "tr": "Hafta 9+: baş çevirerek veya top yakalayarak"
+ },
+ {
+  "id": "rec91",
+  "kind": "text",
+  "tr": "Denge zaten iyi (16 sn) — <b>korumak</b> için yapılır."
+ },
+ {
+  "id": "rec92",
+  "kind": "text",
+  "tr": "Fonksiyonel kuvvet"
+ },
+ {
+  "id": "rec93",
+  "kind": "text",
+  "tr": "8 tekrar"
+ },
+ {
+  "id": "rec94",
+  "kind": "text",
+  "tr": "20 cm basamak"
+ },
+ {
+  "id": "rec95",
+  "kind": "text",
+  "tr": "Bir ayağı basamağa koy, <b>topuktan iterek</b> yukarı çık."
+ },
+ {
+  "id": "rec96",
+  "kind": "text",
+  "tr": "Arka ayakla itme — çalışan bacak öndeki."
+ },
+ {
+  "id": "rec97",
+  "kind": "text",
+  "tr": "Kontrollü in, aynı ayakla 8 tekrar bitir."
+ },
+ {
+  "id": "rec98",
+  "kind": "text",
+  "tr": "Gerekirse tırabzandan destek al."
+ },
+ {
+  "id": "rec99",
+  "kind": "text",
+  "tr": "Diz ayak parmağı hizasını çok geçmesin."
+ },
+ {
+  "id": "rec100",
+  "kind": "text",
+  "tr": "20 cm → 30 cm basamak → elde ağırlık"
+ },
+ {
+  "id": "rec101",
+  "kind": "text",
+  "tr": "Hızlı Otur-Kalk"
+ },
+ {
+  "id": "rec102",
+  "kind": "text",
+  "tr": "GÜÇ (power) · 5. haftadan sonra"
+ },
+ {
+  "id": "rec103",
+  "kind": "text",
+  "tr": "Hedef egzersiz"
+ },
+ {
+  "id": "rec104",
+  "kind": "text",
+  "tr": "6–8 tekrar"
+ },
+ {
+  "id": "rec105",
+  "kind": "text",
+  "tr": "3 dk ara"
+ },
+ {
+  "id": "rec106",
+  "kind": "text",
+  "tr": "Sandalyeden <b>mümkün olduğunca hızlı</b> kalk (patlayıcı)."
+ },
+ {
+  "id": "rec107",
+  "kind": "text",
+  "tr": "Otururken ise <b>yavaş ve kontrollü</b> in (3 sn)."
+ },
+ {
+  "id": "rec108",
+  "kind": "text",
+  "tr": "Hız düşerse seti bitir — yorgunlukla devam etme."
+ },
+ {
+  "id": "rec109",
+  "kind": "text",
+  "tr": "Neden bu egzersiz"
+ },
+ {
+  "id": "rec110",
+  "kind": "text",
+  "tr": "Otur-kalk gücü 1.8 W/kg ile eşiğin altında. <b>Güç, kuvvetten hızlı kaybedilir ve düşmeyi asıl önleyen odur.</b> Programın en kritik parçası."
+ },
+ {
+  "id": "rec111",
+  "kind": "text",
+  "tr": "Başlangıç"
+ },
+ {
+  "id": "rec112",
+  "kind": "text",
+  "tr": "1.–4. hafta yapılmaz (önce temel kuvvet). <b>5. haftada eklenir.</b>"
+ },
+ {
+  "id": "rec113",
+  "kind": "text",
+  "tr": "12 Haftalık İlerleme Protokolü"
+ },
+ {
+  "id": "rec114",
+  "kind": "text",
+  "tr": "Hafta"
+ },
+ {
+  "id": "rec115",
+  "kind": "text",
+  "tr": "Faz"
+ },
+ {
+  "id": "rec116",
+  "kind": "text",
+  "tr": "Ana değişiklik"
+ },
+ {
+  "id": "rec117",
+  "kind": "text",
+  "tr": "Kontrol"
+ },
+ {
+  "id": "rec118",
+  "kind": "text",
+  "tr": "Alışma"
+ },
+ {
+  "id": "rec119",
+  "kind": "text",
+  "tr": "Tüm egzersizler öğrenilir, yük düşük. Otur-kalk kol destekli. Set sayısı 2."
+ },
+ {
+  "id": "rec120",
+  "kind": "text",
+  "tr": "Temel kuvvet"
+ },
+ {
+  "id": "rec121",
+  "kind": "text",
+  "tr": "Set 3'e çıkar. Otur-kalk kolsuz. Topuk yükseltme tek ayağa geçer. Goblet 4 kg."
+ },
+ {
+  "id": "rec122",
+  "kind": "text",
+  "tr": "Kendi kaydın"
+ },
+ {
+  "id": "rec123",
+  "kind": "text",
+  "tr": "Kuvvet + güç"
+ },
+ {
+  "id": "rec124",
+  "kind": "text",
+  "tr": "<b>Hızlı otur-kalk eklenir.</b> Goblet 6 kg. Denge yastık üstüne."
+ },
+ {
+  "id": "rec125",
+  "kind": "text",
+  "tr": "6. hafta ara ölçüm"
+ },
+ {
+  "id": "rec126",
+  "kind": "text",
+  "tr": "Yüklenme"
+ },
+ {
+  "id": "rec127",
+  "kind": "text",
+  "tr": "Goblet 8 kg. Step-up 30 cm. Hızlı otur-kalk 3×8."
+ },
+ {
+  "id": "rec128",
+  "kind": "text",
+  "tr": "Pekiştirme"
+ },
+ {
+  "id": "rec129",
+  "kind": "text",
+  "tr": "Hacim korunur, hız ve teknik kalitesi öne çıkar. Tek ayak çalışmalar artar."
+ },
+ {
+  "id": "rec130",
+  "kind": "text",
+  "tr": "12. hafta tam değerlendirme"
+ },
+ {
+  "id": "rec131",
+  "kind": "text",
+  "tr": "<b>Yük artırma kuralı:</b> Bir egzersizde hedeflenen tekrarı <b>2 seans üst üste zorlanmadan</b> tamamlıyorsan yükü %5 artır. Zorlanma ölçütü: son 2 tekrarın belirgin yavaşlaması. Ağrı varsa yük artırma — önce tekniği ve hareket açıklığını kontrol et."
+ },
+ {
+  "id": "rec132",
+  "kind": "text",
+  "tr": "Takip Çizelgesi — Hafta 1"
+ },
+ {
+  "id": "rec133",
+  "kind": "text",
+  "tr": "Gün"
+ },
+ {
+  "id": "rec134",
+  "kind": "text",
+  "tr": "Yapılacak"
+ },
+ {
+  "id": "rec135",
+  "kind": "text",
+  "tr": "Yapıldı"
+ },
+ {
+  "id": "rec136",
+  "kind": "text",
+  "tr": "Not / zorlanma (1–10)"
+ },
+ {
+  "id": "rec137",
+  "kind": "text",
+  "tr": "Kuvvet A (1,3,4,7) + mobilite"
+ },
+ {
+  "id": "rec138",
+  "kind": "text",
+  "tr": "Mobilite (2,5)"
+ },
+ {
+  "id": "rec139",
+  "kind": "text",
+  "tr": "Kuvvet B (1,6,8,9*) + mobilite"
+ },
+ {
+  "id": "rec140",
+  "kind": "text",
+  "tr": "Cumartesi"
+ },
+ {
+  "id": "rec141",
+  "kind": "text",
+  "tr": "Yürüyüş 7.000 adım + mobilite"
+ },
+ {
+  "id": "rec142",
+  "kind": "text",
+  "tr": "Pazar"
+ },
+ {
+  "id": "rec143",
+  "kind": "text",
+  "tr": "Serbest / hafif yürüyüş + mobilite"
+ },
+ {
+  "id": "rec144",
+  "kind": "text",
+  "tr": "* 9 numaralı egzersiz 5. haftada eklenir."
+ },
+ {
+  "id": "rec145",
+  "kind": "text",
+  "tr": "<b style=\"color:#C0554A;\">Şu durumlarda dur ve kliniği ara:</b> göğüs ağrısı, nefes darlığı, baş dönmesi, eklemde keskin ağrı, egzersiz sonrası 48 saati geçen ağrı, düşme veya dengesizlik artışı."
+ },
+ {
+  "id": "rec146",
+  "kind": "text",
+  "tr": "Bu reçete 15.07.2026 tarihli fonksiyonel değerlendirmeye göre kişiye özel hazırlanmıştır ve başkasına uyarlanamaz. Egzersizler klinik ekip gözetiminde öğrenildikten sonra evde sürdürülür. Animasyonlar hareketin genel paternini gösterir; doğru teknik ilk seansta birebir öğretilir. · Longevity Kliniği"
+ }
+]

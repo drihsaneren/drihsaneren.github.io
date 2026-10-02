@@ -1,0 +1,472 @@
+[
+ {
+  "id": "bag0",
+  "kind": "text",
+  "tr": "Sosyal Bağ ve Sağlık: Yalnızlığa Karşı Küçük Adımlar | İhsan Eren"
+ },
+ {
+  "id": "bag1",
+  "kind": "attr",
+  "tr": "Güçlü sosyal ilişkileri olanların hayatta kalma olasılığı %50 daha yüksek. Yalnızlığın sağlığa etkisi, şaşırtan araştırmalar ve her gün için küçük bir bağ önerisi."
+ },
+ {
+  "id": "bag2",
+  "kind": "text",
+  "tr": "Sosyal bağ: unutulan sağlık önerisi"
+ },
+ {
+  "id": "bag3",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü'ne göre dünyada her 6 kişiden biri yalnızlık yaşıyor ve yalnızlık her saat yaklaşık 100 ölümle ilişkili. 148 çalışmayı bir araya getiren bir analizde, güçlü sosyal ilişkileri olanların hayatta kalma olasılığı %50 daha yüksekti. İyi haber: bağ kurmak için büyük adımlar gerekmiyor ve küçük adımların etkisini çoğu zaman olduğundan az tahmin ediyoruz."
+ },
+ {
+  "id": "bag4",
+  "kind": "text",
+  "tr": "6 kişiden 1"
+ },
+ {
+  "id": "bag5",
+  "kind": "text",
+  "tr": "Dünyada yalnızlık yaşayanların oranı (DSÖ, 2025)"
+ },
+ {
+  "id": "bag6",
+  "kind": "text",
+  "tr": "Yalnızlıkla ilişkili yıllık ölüm: saatte yaklaşık 100"
+ },
+ {
+  "id": "bag7",
+  "kind": "text",
+  "tr": "Güçlü sosyal ilişkileri olanlarda daha yüksek hayatta kalma olasılığı (148 çalışma, 308.849 kişi)"
+ },
+ {
+  "id": "bag8",
+  "kind": "text",
+  "tr": "Yalnız hissedenlerde depresyona girme olasılığı"
+ },
+ {
+  "id": "bag9",
+  "kind": "text",
+  "tr": "Bugün ne yapabilirsiniz?"
+ },
+ {
+  "id": "bag10",
+  "kind": "text",
+  "tr": "Bugünün bağ önerisi"
+ },
+ {
+  "id": "bag11",
+  "kind": "text",
+  "tr": "Her gün küçük bir adım. Beğenmediyseniz başka bir öneri isteyin; yaptığınızda işaretleyin. Haftalık sayınız bu cihazda saklanır ve her pazartesi sıfırlanır."
+ },
+ {
+  "id": "bag12",
+  "kind": "text",
+  "tr": "Arkadaş"
+ },
+ {
+  "id": "bag13",
+  "kind": "text",
+  "tr": "Uzun zamandır konuşmadığınız birine “aklıma geldin” diye kısa bir mesaj atın."
+ },
+ {
+  "id": "bag14",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Yaklaşık 6.000 kişiyle yapılan deneylerde insanlar, böyle bir mesajın karşı tarafı ne kadar sevindireceğini tutarlı biçimde olduğundan az tahmin etti."
+ },
+ {
+  "id": "bag15",
+  "kind": "text",
+  "tr": "Teşekkür"
+ },
+ {
+  "id": "bag16",
+  "kind": "text",
+  "tr": "Hayatınızda iz bırakmış birine kısa bir teşekkür mektubu yazıp gönderin."
+ },
+ {
+  "id": "bag17",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Yazanlar, karşı tarafın ne kadar şaşırıp sevineceğini az, ne kadar tuhaf hissedeceğini fazla tahmin ediyor. Yazmak yalnızca birkaç dakika sürüyor."
+ },
+ {
+  "id": "bag18",
+  "kind": "text",
+  "tr": "Aile"
+ },
+ {
+  "id": "bag19",
+  "kind": "text",
+  "tr": "Bugün bir yakınınıza mesaj yazmak yerine sesli arayın."
+ },
+ {
+  "id": "bag20",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Eski arkadaşlarıyla telefonda konuşanlar, yazışanlara göre daha güçlü bağ kurduklarını bildirdi ve bu, yazışmaktan daha tuhaf hissettirmedi."
+ },
+ {
+  "id": "bag21",
+  "kind": "text",
+  "tr": "Yabancı"
+ },
+ {
+  "id": "bag22",
+  "kind": "text",
+  "tr": "Otobüste, sırada ya da bakkalda biriyle kısa bir sohbet açın."
+ },
+ {
+  "id": "bag23",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Trende yanındakiyle konuşanlar, yolculuğu yalnız geçirenlerden daha keyifli buldu; oysa tam tersini bekliyorlardı."
+ },
+ {
+  "id": "bag24",
+  "kind": "text",
+  "tr": "Komşu"
+ },
+ {
+  "id": "bag25",
+  "kind": "text",
+  "tr": "Bir komşunuzu çaya davet edin ya da kapısını çalıp hâlini hatırını sorun."
+ },
+ {
+  "id": "bag26",
+  "kind": "text",
+  "tr": "Yaşlı bir akrabanızı ziyaret edin ya da görüntülü arayın."
+ },
+ {
+  "id": "bag27",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Dünya Sağlık Örgütü'ne göre her 3 yaşlıdan biri sosyal olarak yalıtılmış olabilir."
+ },
+ {
+  "id": "bag28",
+  "kind": "text",
+  "tr": "Birlikte"
+ },
+ {
+  "id": "bag29",
+  "kind": "text",
+  "tr": "Bugün en az bir öğünü birileriyle, telefonlar masadan kalkmış olarak yiyin."
+ },
+ {
+  "id": "bag30",
+  "kind": "text",
+  "tr": "Yürüyüşünüzü bir arkadaşınızla, mümkünse bir parkta yapın."
+ },
+ {
+  "id": "bag31",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Hareket, doğa ve sohbet bir arada. Doğanın etkisi için Doğa reçetesi sayfasına bakabilirsiniz."
+ },
+ {
+  "id": "bag32",
+  "kind": "text",
+  "tr": "Dokunma"
+ },
+ {
+  "id": "bag33",
+  "kind": "text",
+  "tr": "Sevdiğiniz birine sarılın."
+ },
+ {
+  "id": "bag34",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> 404 yetişkinle yapılan bir çalışmada daha sık sarılanlar, soğuk algınlığı virüsüne karşı biraz daha korunaklıydı ve hastalananların belirtileri daha hafifti."
+ },
+ {
+  "id": "bag35",
+  "kind": "text",
+  "tr": "Topluluk"
+ },
+ {
+  "id": "bag36",
+  "kind": "text",
+  "tr": "Bir kursa, koroya, yürüyüş grubuna ya da gönüllü bir etkinliğe katılın."
+ },
+ {
+  "id": "bag37",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Düzenli buluşan gruplar, bağları kendiliğinden sürdürmeyi kolaylaştırır."
+ },
+ {
+  "id": "bag38",
+  "kind": "text",
+  "tr": "Dinlemek"
+ },
+ {
+  "id": "bag39",
+  "kind": "text",
+  "tr": "Bugün birini sözünü kesmeden ve telefona bakmadan dinleyin."
+ },
+ {
+  "id": "bag40",
+  "kind": "text",
+  "tr": "Anı"
+ },
+ {
+  "id": "bag41",
+  "kind": "text",
+  "tr": "Eski bir fotoğrafı, o anı paylaştığınız kişiye gönderin."
+ },
+ {
+  "id": "bag42",
+  "kind": "text",
+  "tr": "<strong>Neden?</strong> Beklenmedik küçük temaslar, karşı tarafı tahmin ettiğinizden daha fazla sevindirir."
+ },
+ {
+  "id": "bag43",
+  "kind": "text",
+  "tr": "İyilik"
+ },
+ {
+  "id": "bag44",
+  "kind": "text",
+  "tr": "Birine küçük bir iyilik yapın: alışverişini taşıyın, yol tarif edin, bir yemeği paylaşın."
+ },
+ {
+  "id": "bag45",
+  "kind": "text",
+  "tr": "Bu hafta attığınız adımlar"
+ },
+ {
+  "id": "bag46",
+  "kind": "text",
+  "tr": "Yaptım"
+ },
+ {
+  "id": "bag47",
+  "kind": "text",
+  "tr": "Başka bir öneri"
+ },
+ {
+  "id": "bag48",
+  "kind": "text",
+  "tr": "Haftanın ilk adımı için hazır mısınız?"
+ },
+ {
+  "id": "bag49",
+  "kind": "text",
+  "tr": "Güzel bir başlangıç. Küçük temaslar da sayılır."
+ },
+ {
+  "id": "bag50",
+  "kind": "text",
+  "tr": "Harika gidiyorsunuz. Bu adımların karşı tarafı ne kadar sevindirdiğini tahmin etmek zor."
+ },
+ {
+  "id": "bag51",
+  "kind": "text",
+  "tr": "Her gün bir adım: bu hafta bağlarınıza gerçekten yatırım yaptınız."
+ },
+ {
+  "id": "bag52",
+  "kind": "text",
+  "tr": "İşaretlendi"
+ },
+ {
+  "id": "bag53",
+  "kind": "text",
+  "tr": "Şaşırtan bulgular"
+ },
+ {
+  "id": "bag54",
+  "kind": "text",
+  "tr": "Tahminlerimiz yanılıyor"
+ },
+ {
+  "id": "bag55",
+  "kind": "text",
+  "tr": "Psikoloji araştırmaları, bağ kurmaktan çoğu zaman yanlış tahminler yüzünden kaçındığımızı gösteriyor."
+ },
+ {
+  "id": "bag56",
+  "kind": "text",
+  "tr": "Yabancıyla sohbet"
+ },
+ {
+  "id": "bag57",
+  "kind": "text",
+  "tr": "Trende yolculara yanındakiyle konuşmaları söylendiğinde, yalnız kalanlardan daha keyifli bir yolculuk geçirdiler; oysa tersini bekliyorlardı. Konuşulan kişiler de bundan hoşlandı."
+ },
+ {
+  "id": "bag58",
+  "kind": "text",
+  "tr": "Teşekkür mektubu"
+ },
+ {
+  "id": "bag59",
+  "kind": "text",
+  "tr": "Yazanlar, alıcının ne kadar şaşırıp sevineceğini az, ne kadar tuhaf hissedeceğini fazla tahmin etti."
+ },
+ {
+  "id": "bag60",
+  "kind": "text",
+  "tr": "“Aklıma geldin”"
+ },
+ {
+  "id": "bag61",
+  "kind": "text",
+  "tr": "13 deneyde yaklaşık 6.000 kişi: kısa bir mesajın ya da küçük bir hediyenin ne kadar takdir göreceğini genellikle az tahmin ettik. Beklenmedik olduğunda etkisi daha da büyüktü."
+ },
+ {
+  "id": "bag62",
+  "kind": "text",
+  "tr": "Sesli arama"
+ },
+ {
+  "id": "bag63",
+  "kind": "text",
+  "tr": "İnsanlar telefonda konuşmanın tuhaf olacağını düşündü; oysa sesli görüşme, yazışmaya göre daha güçlü bağ hissi yarattı ve yaklaşık aynı süreyi aldı."
+ },
+ {
+  "id": "bag64",
+  "kind": "text",
+  "tr": "<strong>Sarılmanın gücü:</strong> 404 sağlıklı yetişkinin 14 gün boyunca her akşam sorgulandığı, ardından soğuk algınlığı virüsüyle karşılaştırıldığı bir çalışmada, sosyal desteği güçlü olanlar ve daha sık sarılanlar enfeksiyona karşı biraz daha korunaklıydı; hastalananların belirtileri de daha hafifti."
+ },
+ {
+  "id": "bag65",
+  "kind": "text",
+  "tr": "Yalnızlık mı, yalnız kalmak mı?"
+ },
+ {
+  "id": "bag66",
+  "kind": "text",
+  "tr": "Yalnızlık"
+ },
+ {
+  "id": "bag67",
+  "kind": "text",
+  "tr": "İstediğiniz ile sahip olduğunuz ilişkiler arasındaki farktan doğan acı verici his. Kalabalık içinde de yalnız hissedebilirsiniz."
+ },
+ {
+  "id": "bag68",
+  "kind": "text",
+  "tr": "Sosyal yalıtım"
+ },
+ {
+  "id": "bag69",
+  "kind": "text",
+  "tr": "Nesnel olarak az sayıda ilişki ve temas. Yaşlıların 3'te 1'ini, ergenlerin 4'te 1'ini etkileyebilir."
+ },
+ {
+  "id": "bag70",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü'nün 2025 raporuna göre yalnızlık ve sosyal yalıtım inme, kalp hastalığı, diyabet, bilişsel gerileme ve erken ölüm riskini artırıyor. 148 çalışmayı inceleyen analizde sosyal ilişkilerin ölüm riski üzerindeki etkisi, sigara ve alkol gibi bilinen risk etkenleriyle karşılaştırılabilir düzeydeydi; hareketsizlik ve obezitenin etkisinden daha büyüktü."
+ },
+ {
+  "id": "bag71",
+  "kind": "text",
+  "tr": "Evden çıkamayan yakınlarınız için"
+ },
+ {
+  "id": "bag72",
+  "kind": "text",
+  "tr": "İnme, kalça kırığı, Parkinson hastalığı ya da uzun süren bir ağrı, insanı evine ve yatağına bağlayarak yalnızlaştırabilir. Hareket kaybı ile yalnızlık birbirini besler."
+ },
+ {
+  "id": "bag73",
+  "kind": "text",
+  "tr": "Düzenli ziyaret edin ya da arayın; sohbeti yalnızca sağlıkla sınırlı tutmayın."
+ },
+ {
+  "id": "bag74",
+  "kind": "text",
+  "tr": "Aile kararlarına ve günlük işlere katın; kendini gerekli hissetmek önemlidir."
+ },
+ {
+  "id": "bag75",
+  "kind": "text",
+  "tr": "İşitme ya da görme sorunları sosyal hayattan çekilmeye yol açabilir; kontrol ettirin."
+ },
+ {
+  "id": "bag76",
+  "kind": "text",
+  "tr": "Yeniden güvenle yürümek, dışarı çıkmayı ve insanlarla buluşmayı da kolaylaştırır. <a href=\"inme-rehabilitasyonu.html\">İnme sonrası</a> ve <a href=\"kalca-kirigi.html\">kalça kırığı sonrası</a> rehberlerine bakabilirsiniz."
+ },
+ {
+  "id": "bag77",
+  "kind": "text",
+  "tr": "İyi bir hayatı ne sağlar?"
+ },
+ {
+  "id": "bag78",
+  "kind": "text",
+  "tr": "Harvard'da 1938'den beri süren Yetişkin Gelişimi Araştırması'nın yöneticisi psikiyatrist Robert Waldinger'in, dünyanın en çok izlenen TED konuşmalarından biri. Konuşma İngilizcedir; oynatıcının altyazı ayarlarından Türkçe altyazı seçebilirsiniz."
+ },
+ {
+  "id": "bag79",
+  "kind": "attr",
+  "tr": "İyi bir hayat TED konuşmasını oynat"
+ },
+ {
+  "id": "bag80",
+  "kind": "text",
+  "tr": "En uzun mutluluk araştırmasından dersler"
+ },
+ {
+  "id": "bag81",
+  "kind": "text",
+  "tr": "Yüzlerce kişiyi gençliklerinden yaşlılıklarına kadar izleyen araştırmanın ana mesajı: iyi ilişkiler bizi daha mutlu ve daha sağlıklı tutar."
+ },
+ {
+  "id": "bag82",
+  "kind": "text",
+  "tr": "Yalnız yaşamak mı zararlı, yalnız hissetmek mi?"
+ },
+ {
+  "id": "bag83",
+  "kind": "text",
+  "tr": "İkisi de. Sosyal yalıtım (az ilişki ve temas) ile yalnızlık hissi farklı şeylerdir ve ikisi de sağlık risklerini artırır. 148 çalışmayı inceleyen analizde, sosyal ilişkileri birden fazla yönüyle ölçen çalışmalarda hayatta kalmayla ilişki daha da güçlüydü."
+ },
+ {
+  "id": "bag84",
+  "kind": "text",
+  "tr": "Mesajlaşmak yeterli mi?"
+ },
+ {
+  "id": "bag85",
+  "kind": "text",
+  "tr": "Yazışmak da bağ kurar, ama bir çalışmada eski arkadaşlarıyla telefonda konuşanlar, e-postayla yazışanlara göre daha güçlü bağ kurduklarını bildirdi ve beklediklerinin aksine daha fazla tuhaflık yaşamadılar. Mümkünse sesli ya da yüz yüze görüşmeyi deneyin."
+ },
+ {
+  "id": "bag86",
+  "kind": "text",
+  "tr": "Kaç arkadaşım olmalı?"
+ },
+ {
+  "id": "bag87",
+  "kind": "text",
+  "tr": "Belirli bir sayı yok. 1938'den beri süren Harvard Yetişkin Gelişimi Araştırması'nın yöneticisi Robert Waldinger'in vurguladığı gibi, önemli olan ilişkilerin sayısından çok niteliğidir: güvenebildiğiniz birkaç yakın ilişki bile çok değerlidir."
+ },
+ {
+  "id": "bag88",
+  "kind": "text",
+  "tr": "Uzun süredir kendimi yalnız ve mutsuz hissediyorum, ne yapmalıyım?"
+ },
+ {
+  "id": "bag89",
+  "kind": "text",
+  "tr": "Bu his yaygındır ve değişebilir. Küçük adımlar yardımcı olabilir; ama haftalardır süren çökkünlük, umutsuzluk ya da uyku ve iştah değişiklikleri varsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa 112'yi arayın."
+ },
+ {
+  "id": "bag90",
+  "kind": "text",
+  "tr": "Evden çıkamayan yakınınızın yeniden hareket etmesi için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "bag91",
+  "kind": "wa",
+  "tr": "Merhaba, evden çıkamayan yakınım için rehabilitasyon için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "bag92",
+  "kind": "text",
+  "tr": "Doğa reçetesi"
+ },
+ {
+  "id": "bag93",
+  "kind": "ld",
+  "tr": "Sosyal bağlantı ve yalnızlık"
+ }
+]

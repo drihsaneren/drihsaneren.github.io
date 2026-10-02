@@ -1,0 +1,1017 @@
+[
+ {
+  "id": "ind0",
+  "kind": "text",
+  "tr": "İhsan Eren · Evde Fizyoterapi İstanbul"
+ },
+ {
+  "id": "ind1",
+  "kind": "attr",
+  "tr": "İstanbul'da evde fizyoterapi, manuel terapi, akupunktur, kuru iğneleme ve kişiye özel egzersiz. Fizyoterapist · İntörn Tıp Doktoru İhsan Eren."
+ },
+ {
+  "id": "ind2",
+  "kind": "attr",
+  "tr": "İhsan Eren · Evde fizyoterapi"
+ },
+ {
+  "id": "ind3",
+  "kind": "attr",
+  "tr": "İstanbul'da evde fizyoterapi, manuel terapi, akupunktur, kuru iğneleme ve kişiye özel egzersiz."
+ },
+ {
+  "id": "ind4",
+  "kind": "attr",
+  "tr": "Bölümler"
+ },
+ {
+  "id": "ind5",
+  "kind": "text",
+  "tr": "Hizmetler"
+ },
+ {
+  "id": "ind6",
+  "kind": "text",
+  "tr": "Longevity"
+ },
+ {
+  "id": "ind7",
+  "kind": "text",
+  "tr": "Kareler"
+ },
+ {
+  "id": "ind8",
+  "kind": "text",
+  "tr": "Logo"
+ },
+ {
+  "id": "ind9",
+  "kind": "text",
+  "tr": "Ben kimim"
+ },
+ {
+  "id": "ind10",
+  "kind": "attr",
+  "tr": "İhsan Eren logosu: ortasında omurga bulunan beyin"
+ },
+ {
+  "id": "ind11",
+  "kind": "text",
+  "tr": "Fizyoterapist · İntörn Tıp Doktoru"
+ },
+ {
+  "id": "ind12",
+  "kind": "text",
+  "tr": "İhsan Eren"
+ },
+ {
+  "id": "ind13",
+  "kind": "text",
+  "tr": "Ağrısız, daha hareketli ve uzun bir yaşam için fizyoterapi ve rehabilitasyon sürecinizde yanınızdayım."
+ },
+ {
+  "id": "ind14",
+  "kind": "text",
+  "tr": "İstanbul · Evde fizyoterapi hizmeti"
+ },
+ {
+  "id": "ind15",
+  "kind": "text",
+  "tr": "Longevity analizi"
+ },
+ {
+  "id": "ind16",
+  "kind": "text",
+  "tr": "Kişiye özel egzersiz"
+ },
+ {
+  "id": "ind17",
+  "kind": "text",
+  "tr": "Klinikten kareler"
+ },
+ {
+  "id": "ind18",
+  "kind": "text",
+  "tr": "Logonun anlamı"
+ },
+ {
+  "id": "ind19",
+  "kind": "text",
+  "tr": "Neler için geliyorum"
+ },
+ {
+  "id": "ind20",
+  "kind": "text",
+  "tr": "İstanbul içinde evinize gelerek değerlendirme, tedavi ve egzersiz sürecinizi bulunduğunuz ortamda planlıyorum. Uygulanacak program; ihtiyaçlarınız, günlük yaşamınız ve değerlendirme bulgularınız doğrultusunda kişiye özel olarak oluşturulur."
+ },
+ {
+  "id": "ind21",
+  "kind": "text",
+  "tr": "Bel, boyun ve sırt ağrıları"
+ },
+ {
+  "id": "ind22",
+  "kind": "text",
+  "tr": "Diz, omuz ve eklem sorunları"
+ },
+ {
+  "id": "ind23",
+  "kind": "text",
+  "tr": "Ameliyat sonrası rehabilitasyon"
+ },
+ {
+  "id": "ind24",
+  "kind": "text",
+  "tr": "Denge, yürüme ve düşme önleme"
+ },
+ {
+  "id": "ind25",
+  "kind": "text",
+  "tr": "Kişiye özel egzersiz programı"
+ },
+ {
+  "id": "ind26",
+  "kind": "text",
+  "tr": "Uyguladığım yöntemler"
+ },
+ {
+  "id": "ind27",
+  "kind": "text",
+  "tr": "Logoda: sarı Y"
+ },
+ {
+  "id": "ind28",
+  "kind": "text",
+  "tr": "Akupunktur"
+ },
+ {
+  "id": "ind29",
+  "kind": "text",
+  "tr": "İnce iğnelerin belirli noktalara uygulandığı, Doğu tıbbı kökenli yöntem."
+ },
+ {
+  "id": "ind30",
+  "kind": "text",
+  "tr": "Kas içindeki tetik noktalara, ilaç kullanmadan ince iğneyle yapılan uygulama."
+ },
+ {
+  "id": "ind31",
+  "kind": "text",
+  "tr": "Elektroterapi"
+ },
+ {
+  "id": "ind32",
+  "kind": "text",
+  "tr": "Kontrollü elektrik akımlarıyla ağrı ve kas fonksiyonu üzerine çalışan tedavi."
+ },
+ {
+  "id": "ind33",
+  "kind": "text",
+  "tr": "Logoda: omurga"
+ },
+ {
+  "id": "ind34",
+  "kind": "text",
+  "tr": "Osteopati ve kayropraksi: eklem ve omurgaya elle yapılan mobilizasyon ve manipülasyon teknikleri."
+ },
+ {
+  "id": "ind35",
+  "kind": "text",
+  "tr": "Longevity projesi"
+ },
+ {
+  "id": "ind36",
+  "kind": "text",
+  "tr": "Analiz ve karşılığında egzersiz reçetesi"
+ },
+ {
+  "id": "ind37",
+  "kind": "text",
+  "tr": "Önce fonksiyonel analiz yapıyoruz: kuvvet, güç, denge, yürüyüş ve esneklik ölçülür, kişinin fonksiyonel yaşı çıkarılır. Sonuca göre ona özel, animasyonlu bir egzersiz reçetesi veriyoruz. <a href=\"#hizli-test\">2 dakikalık hızlı testi deneyin ↓</a>"
+ },
+ {
+  "id": "ind38",
+  "kind": "text",
+  "tr": "Analiz raporu"
+ },
+ {
+  "id": "ind39",
+  "kind": "attr",
+  "tr": "Rapor sayfa 1, büyüt"
+ },
+ {
+  "id": "ind40",
+  "kind": "attr",
+  "tr": "Fonksiyonel değerlendirme raporu: fonksiyonel yaş 54, kronolojik yaş 62, risk profili ve yaş normuna göre profil"
+ },
+ {
+  "id": "ind41",
+  "kind": "attr",
+  "tr": "Rapor sayfa 2, büyüt"
+ },
+ {
+  "id": "ind42",
+  "kind": "attr",
+  "tr": "Kas kuvveti asimetrisi, vücut kompozisyonu ve ölçüm tablosu"
+ },
+ {
+  "id": "ind43",
+  "kind": "attr",
+  "tr": "Rapor sayfa 3, büyüt"
+ },
+ {
+  "id": "ind44",
+  "kind": "attr",
+  "tr": "Zaman içinde izlem grafiği ve 12 haftalık müdahale planı"
+ },
+ {
+  "id": "ind45",
+  "kind": "text",
+  "tr": "Örnek rapor, temsili hasta: A.Y., 62 yaş. Fonksiyonel yaşı 54, yani yaşıtlarından 8 yıl önde. Sayfaları büyütmek için dokunun."
+ },
+ {
+  "id": "ind46",
+  "kind": "text",
+  "tr": "Egzersiz animasyonu"
+ },
+ {
+  "id": "ind47",
+  "kind": "text",
+  "tr": "Aynı hastanın rapora göre hazırlanan reçetesinden dört hareket. Reçetede 9 hareket, haftalık plan ve 12 haftalık ilerleme var."
+ },
+ {
+  "id": "ind48",
+  "kind": "text",
+  "tr": "Reçetenin tamamını aç"
+ },
+ {
+  "id": "ind49",
+  "kind": "text",
+  "tr": "Hızlı test"
+ },
+ {
+  "id": "ind50",
+  "kind": "text",
+  "tr": "Bedeniniz kaç yaşında gösteriyor?"
+ },
+ {
+  "id": "ind51",
+  "kind": "text",
+  "tr": "Evde 2–3 dakikada yapabileceğiniz dört basit test. Kas gücü, denge, günlük hareket ve kondisyon; bilimsel çalışmalarda uzun ve sağlıklı yaşamla ilişkili bulunan dört gösterge."
+ },
+ {
+  "id": "ind52",
+  "kind": "text",
+  "tr": "<span class=\"k\">Başlarken</span>Yaşınız"
+ },
+ {
+  "id": "ind53",
+  "kind": "text",
+  "tr": "yaş"
+ },
+ {
+  "id": "ind54",
+  "kind": "attr",
+  "tr": "Yaşınız"
+ },
+ {
+  "id": "ind55",
+  "kind": "text",
+  "tr": "Testleri sağlam bir sandalye ve tutunabileceğiniz bir duvar ya da masa yanında yapın."
+ },
+ {
+  "id": "ind56",
+  "kind": "text",
+  "tr": "Baş dönmesi, göğüs ağrısı ya da nefes darlığı olursa hemen durun."
+ },
+ {
+  "id": "ind57",
+  "kind": "text",
+  "tr": "Kalp hastalığınız varsa merdiven testini atlayın."
+ },
+ {
+  "id": "ind58",
+  "kind": "text",
+  "tr": "Teste başla"
+ },
+ {
+  "id": "ind59",
+  "kind": "text",
+  "tr": "<span class=\"k\">1 / 4 · Kas gücü</span>Sandalyeden 5 kez kalkıp oturun"
+ },
+ {
+  "id": "ind60",
+  "kind": "text",
+  "tr": "Kollarınız göğsünüzde çapraz, sırtı duvara dayalı sağlam bir sandalyeye oturun. Kollarınızdan destek almadan olabildiğince hızlı 5 kez tam kalkıp oturun. Aşağıdaki kronometreyi kullanabilirsiniz."
+ },
+ {
+  "id": "ind61",
+  "kind": "text",
+  "tr": "saniye"
+ },
+ {
+  "id": "ind62",
+  "kind": "attr",
+  "tr": "5 kez kalkıp oturma süresi (saniye)"
+ },
+ {
+  "id": "ind63",
+  "kind": "text",
+  "tr": "4 sn"
+ },
+ {
+  "id": "ind64",
+  "kind": "text",
+  "tr": "Kronometreyi başlat"
+ },
+ {
+  "id": "ind65",
+  "kind": "text",
+  "tr": "Kollarımdan destek almadan yapamadım"
+ },
+ {
+  "id": "ind66",
+  "kind": "text",
+  "tr": "Geri"
+ },
+ {
+  "id": "ind67",
+  "kind": "text",
+  "tr": "Devam"
+ },
+ {
+  "id": "ind68",
+  "kind": "text",
+  "tr": "<span class=\"k\">2 / 4 · Denge</span>Tek ayak üzerinde 10 saniye durun"
+ },
+ {
+  "id": "ind69",
+  "kind": "text",
+  "tr": "Duvarın yanında durun; kollarınız yanda, gözleriniz karşıda olsun. Kaldırdığınız ayağın ucunu diğer bacağınızın baldırının arkasına koyun. Her ayak için 3 deneme hakkınız var."
+ },
+ {
+  "id": "ind70",
+  "kind": "text",
+  "tr": "10 saniye say"
+ },
+ {
+  "id": "ind71",
+  "kind": "text",
+  "tr": "İki ayağımda da 10 saniye durabildim"
+ },
+ {
+  "id": "ind72",
+  "kind": "text",
+  "tr": "Yalnızca bir ayağımda durabildim"
+ },
+ {
+  "id": "ind73",
+  "kind": "text",
+  "tr": "İkisinde de 10 saniye duramadım"
+ },
+ {
+  "id": "ind74",
+  "kind": "text",
+  "tr": "<span class=\"k\">3 / 4 · Günlük hareket</span>Günde ortalama kaç adım atıyorsunuz?"
+ },
+ {
+  "id": "ind75",
+  "kind": "text",
+  "tr": "Telefonunuzun sağlık uygulamasındaki son haftanın ortalamasına bakabilirsiniz. Bilmiyorsanız tahmin edin: 30 dakikalık tempolu bir yürüyüş yaklaşık 3.000–4.000 adımdır."
+ },
+ {
+  "id": "ind76",
+  "kind": "text",
+  "tr": "adım / gün"
+ },
+ {
+  "id": "ind77",
+  "kind": "attr",
+  "tr": "Günlük ortalama adım sayısı"
+ },
+ {
+  "id": "ind78",
+  "kind": "text",
+  "tr": "<span class=\"k\">4 / 4 · Kondisyon</span>Dört kat merdiveni ne kadar sürede çıkarsınız?"
+ },
+ {
+  "id": "ind79",
+  "kind": "text",
+  "tr": "Yaklaşık 60 basamak; durmadan, hızlı ama koşmadan. Yakın zamanda denemediyseniz tahmininizi seçin."
+ },
+ {
+  "id": "ind80",
+  "kind": "text",
+  "tr": "1 dakikadan kısa sürede"
+ },
+ {
+  "id": "ind81",
+  "kind": "text",
+  "tr": "1 ile 1,5 dakika arasında"
+ },
+ {
+  "id": "ind82",
+  "kind": "text",
+  "tr": "1,5 dakikadan uzun ya da durarak"
+ },
+ {
+  "id": "ind83",
+  "kind": "text",
+  "tr": "Denemedim ya da deneyemem"
+ },
+ {
+  "id": "ind84",
+  "kind": "text",
+  "tr": "Kalp hastalığınız, göğüs ağrınız ya da nefes darlığınız varsa bu testi yapmayın; \"Denemedim\" seçeneğini işaretleyin."
+ },
+ {
+  "id": "ind85",
+  "kind": "text",
+  "tr": "Sonucu gör"
+ },
+ {
+  "id": "ind86",
+  "kind": "text",
+  "tr": "Sonuç"
+ },
+ {
+  "id": "ind87",
+  "kind": "text",
+  "tr": "Evde ayrıntılı analiz için yazın"
+ },
+ {
+  "id": "ind88",
+  "kind": "text",
+  "tr": "Testi yeniden yap"
+ },
+ {
+  "id": "ind89",
+  "kind": "text",
+  "tr": "Bu test tanı koymaz, bilgilendirme amaçlıdır ve kaba bir tahmin verir. Kesin değerlendirme; kuvvet, güç, denge, yürüyüş ve esneklik ölçümleriyle yapılan ayrıntılı analizle yapılır."
+ },
+ {
+  "id": "ind90",
+  "kind": "text",
+  "tr": "Testlerin bilimsel dayanağı"
+ },
+ {
+  "id": "ind91",
+  "kind": "text",
+  "tr": "Tiedemann A, et al. Age Ageing. 2008 · Buatois S, et al. J Am Geriatr Soc. 2008 (5 kez kalkıp oturma ve düşme riski)."
+ },
+ {
+  "id": "ind92",
+  "kind": "text",
+  "tr": "Peteiro J. <a href=\"https://www.sciencedaily.com/releases/2020/12/201211083104.htm\" target=\"_blank\" rel=\"noopener\">Merdiven testi ve kalp sağlığı</a>. ESC EACVI Best of Imaging 2020."
+ },
+ {
+  "id": "ind93",
+  "kind": "text",
+  "tr": "Kişiye özel egzersiz planı örneği"
+ },
+ {
+  "id": "ind94",
+  "kind": "text",
+  "tr": "Evde dambılla uygulanan, gün aşırı ilerleyen örnek bir program. Her hareket animasyonla gösterilir. Isınma, günlük görevler ve güvenlik kuralları plana dahildir."
+ },
+ {
+  "id": "ind95",
+  "kind": "text",
+  "tr": "Sandalyeye goblet squat"
+ },
+ {
+  "id": "ind96",
+  "kind": "text",
+  "tr": "Romen deadlift"
+ },
+ {
+  "id": "ind97",
+  "kind": "text",
+  "tr": "Dambıllı kalça köprüsü"
+ },
+ {
+  "id": "ind98",
+  "kind": "text",
+  "tr": "Bavul taşıma"
+ },
+ {
+  "id": "ind99",
+  "kind": "text",
+  "tr": "Uygulamalardan kareler"
+ },
+ {
+  "id": "ind100",
+  "kind": "text",
+  "tr": "Manuel terapi, akupunktur, kuru iğneleme ve elektroterapi uygulamalarından."
+ },
+ {
+  "id": "ind101",
+  "kind": "text",
+  "tr": "Beyin, omurga ve üç kollu Y"
+ },
+ {
+  "id": "ind102",
+  "kind": "text",
+  "tr": "Tescilli logom, mesleki yolculuğumu ve iyileşmeye bütüncül bakışımı temsil ediyor."
+ },
+ {
+  "id": "ind103",
+  "kind": "text",
+  "tr": "İhsan Eren logosu ve numaralı bölümleri"
+ },
+ {
+  "id": "ind104",
+  "kind": "attr",
+  "tr": "1. Beyin"
+ },
+ {
+  "id": "ind105",
+  "kind": "attr",
+  "tr": "2. Omurga"
+ },
+ {
+  "id": "ind106",
+  "kind": "attr",
+  "tr": "3. Üç kol"
+ },
+ {
+  "id": "ind107",
+  "kind": "attr",
+  "tr": "4. İki Y"
+ },
+ {
+  "id": "ind108",
+  "kind": "attr",
+  "tr": "5. Sarı ton"
+ },
+ {
+  "id": "ind109",
+  "kind": "attr",
+  "tr": "6. Lambda"
+ },
+ {
+  "id": "ind110",
+  "kind": "text",
+  "tr": "Numaralara dokunarak logonun her bölümünü keşfedin."
+ },
+ {
+  "id": "ind111",
+  "kind": "attr",
+  "tr": "Logonun bölümleri"
+ },
+ {
+  "id": "ind112",
+  "kind": "text",
+  "tr": "<span class=\"n\">1</span>Beyin"
+ },
+ {
+  "id": "ind113",
+  "kind": "text",
+  "tr": "<span class=\"n\">2</span>Omurga"
+ },
+ {
+  "id": "ind114",
+  "kind": "text",
+  "tr": "<span class=\"n\">3</span>Üç kol"
+ },
+ {
+  "id": "ind115",
+  "kind": "text",
+  "tr": "<span class=\"n\">4</span>İki Y"
+ },
+ {
+  "id": "ind116",
+  "kind": "text",
+  "tr": "<span class=\"n\">5</span>Sarı ton"
+ },
+ {
+  "id": "ind117",
+  "kind": "text",
+  "tr": "<span class=\"n\">6</span>Lambda"
+ },
+ {
+  "id": "ind118",
+  "kind": "text",
+  "tr": "Beyin"
+ },
+ {
+  "id": "ind119",
+  "kind": "text",
+  "tr": "Logonun ana formunu oluşturan beyin; sinirbilimin, zihinsel süreçlerin ve mental antrenmanın iyileşmedeki önemini anlatıyor. Beyin yalnızca bedeni yöneten bir merkez değildir; ağrının algılanmasında, hareketin yeniden öğrenilmesinde, motivasyonda ve iyileşmeye uyum sürecinde de önemli bir rol oynar."
+ },
+ {
+  "id": "ind120",
+  "kind": "text",
+  "tr": "Bu nedenle mental antrenmanı ve beynin değişebilme kapasitesi olan nöroplastisiteyi fiziksel iyileşmenin ayrılmaz bir parçası olarak görüyorum."
+ },
+ {
+  "id": "ind121",
+  "kind": "text",
+  "tr": "Omurga"
+ },
+ {
+  "id": "ind122",
+  "kind": "text",
+  "tr": "Beynin ortasındaki omurga; bedenin ana taşıyıcı eksenini, duruşu, hareketi, dengeyi ve beyin ile beden arasındaki sinirsel iletişimi simgeliyor. Uyguladığım manuel terapi yöntemleri olan osteopati ve kayropraksinin omurga üzerine kurulu olmasından da ilham alıyor."
+ },
+ {
+  "id": "ind123",
+  "kind": "text",
+  "tr": "Y’nin üç kolu"
+ },
+ {
+  "id": "ind124",
+  "kind": "text",
+  "tr": "Logodaki “Y” formunun üç kolu; eğitim aldığım iki üniversitenin yanı sıra mesleki gelişimimde bana mentorluk yapan, klinik çalışmalarında asistan olarak görev aldığım ve beni yetiştiren üç değerli bilim insanını temsil ediyor:"
+ },
+ {
+  "id": "ind125",
+  "kind": "text",
+  "tr": "Prof. Dr. Nezih Hekim"
+ },
+ {
+  "id": "ind126",
+  "kind": "text",
+  "tr": "Prof. Dr. Kemal Nuri Özerkan"
+ },
+ {
+  "id": "ind127",
+  "kind": "text",
+  "tr": "Prof. Dr. Cihan Aksoy"
+ },
+ {
+  "id": "ind128",
+  "kind": "text",
+  "tr": "İki Y ve renk geçişi"
+ },
+ {
+  "id": "ind129",
+  "kind": "text",
+  "tr": "İki “Y” formu ve renklerin birbirine geçişi, Yin–Yang felsefesini; Doğu ve Batı tıbbının birbirini tamamlayan yönlerini anlatıyor."
+ },
+ {
+  "id": "ind130",
+  "kind": "text",
+  "tr": "Sarı ton: <span class=\"quote\">Healing is voltage</span>"
+ },
+ {
+  "id": "ind131",
+  "kind": "text",
+  "tr": "Y harfindeki, elektriği çağrıştıran sarı ton; bedenin elektriksel ve biyolojik iletişim süreçlerine gönderme yapıyor. Tedavi uygulamalarımdan akupunktur, elektroterapi ve kuru iğnelemenin, bilimsel olarak da çalıştığımız vücut elektriği üzerindeki etki mekanizmasını ve belki bir gün Nobel’e uzanabilecek yeni bir bilimsel bakış açısını simgeliyor."
+ },
+ {
+  "id": "ind132",
+  "kind": "text",
+  "tr": "12 omur ve Lambda <span class=\"lambda\">λ</span>"
+ },
+ {
+  "id": "ind133",
+  "kind": "text",
+  "tr": "Logodaki 12 omur formu, Aristoteles’in <em>Metafizik</em> adlı eserinin 12. kitabı olan Lambda’yı (λ) simgeliyor. Lambda işareti ters çevrildiğinde “Y” formuna yaklaşarak logonun diğer anlamlarıyla birleşiyor."
+ },
+ {
+  "id": "ind134",
+  "kind": "attr",
+  "tr": "Önceki bölüm"
+ },
+ {
+  "id": "ind135",
+  "kind": "attr",
+  "tr": "Sonraki bölüm"
+ },
+ {
+  "id": "ind136",
+  "kind": "text",
+  "tr": "Kısacası logom; beyin ile bedenin bütünlüğünü, omurganın merkezi rolünü, mental, fiziksel ve ruhsal iyileşmenin birlikteliğini, Doğu–Batı sentezini ve bilimsel yolculuğumda bana yön veren üç değerli hocamı temsil ediyor."
+ },
+ {
+  "id": "ind137",
+  "kind": "text",
+  "tr": "Diğer konular:"
+ },
+ {
+  "id": "ind138",
+  "kind": "text",
+  "tr": "Bel fıtığı"
+ },
+ {
+  "id": "ind139",
+  "kind": "text",
+  "tr": "Boyun fıtığı"
+ },
+ {
+  "id": "ind140",
+  "kind": "text",
+  "tr": "Karpal tünel"
+ },
+ {
+  "id": "ind141",
+  "kind": "text",
+  "tr": "Kemik erimesi"
+ },
+ {
+  "id": "ind142",
+  "kind": "text",
+  "tr": "İnme sonrası"
+ },
+ {
+  "id": "ind143",
+  "kind": "text",
+  "tr": "Düşme önleme"
+ },
+ {
+  "id": "ind144",
+  "kind": "text",
+  "tr": "Protez sonrası"
+ },
+ {
+  "id": "ind145",
+  "kind": "text",
+  "tr": "Masa başı"
+ },
+ {
+  "id": "ind146",
+  "kind": "text",
+  "tr": "Topuk dikeni"
+ },
+ {
+  "id": "ind147",
+  "kind": "text",
+  "tr": "Tüm konular →"
+ },
+ {
+  "id": "ind148",
+  "kind": "attr",
+  "tr": "İhsan Eren, beyaz önlükle"
+ },
+ {
+  "id": "ind149",
+  "kind": "text",
+  "tr": "Fizyoterapi"
+ },
+ {
+  "id": "ind150",
+  "kind": "text",
+  "tr": "Fizyoterapi ve Rehabilitasyon <span>· 4 yıllık lisans, mezun</span>"
+ },
+ {
+  "id": "ind151",
+  "kind": "text",
+  "tr": "Tıp"
+ },
+ {
+  "id": "ind152",
+  "kind": "text",
+  "tr": "Tıp Fakültesi, 6. sınıf <span>· intörn hekim</span>"
+ },
+ {
+  "id": "ind153",
+  "kind": "text",
+  "tr": "Sertifika"
+ },
+ {
+  "id": "ind154",
+  "kind": "text",
+  "tr": "Ortopedik Manuel Terapi"
+ },
+ {
+  "id": "ind155",
+  "kind": "text",
+  "tr": "Eğitmenlik"
+ },
+ {
+  "id": "ind156",
+  "kind": "text",
+  "tr": "Manuel terapi ve elektroterapi eğitmeni"
+ },
+ {
+  "id": "ind157",
+  "kind": "text",
+  "tr": "Mentorlarım"
+ },
+ {
+  "id": "ind158",
+  "kind": "text",
+  "tr": "Prof. Dr. Nezih Hekim, Prof. Dr. Kemal Nuri Özerkan, Prof. Dr. Cihan Aksoy <span>· klinik çalışmalarında asistan olarak görev aldım</span>"
+ },
+ {
+  "id": "ind159",
+  "kind": "text",
+  "tr": "Bilgi ve iletişim"
+ },
+ {
+  "id": "ind160",
+  "kind": "text",
+  "tr": "Arayın ya da WhatsApp'tan yazın. İstanbul içinde evde fizyoterapi hizmeti."
+ },
+ {
+  "id": "ind161",
+  "kind": "text",
+  "tr": "WhatsApp"
+ },
+ {
+  "id": "ind162",
+  "kind": "text",
+  "tr": "ihsneren@gmail.com"
+ },
+ {
+  "id": "ind163",
+  "kind": "text",
+  "tr": "Dijital kartvizit"
+ },
+ {
+  "id": "ind164",
+  "kind": "attr",
+  "tr": "WhatsApp karekodu"
+ },
+ {
+  "id": "ind165",
+  "kind": "text",
+  "tr": "Telefon kameranızla okutun, WhatsApp'tan yazın"
+ },
+ {
+  "id": "ind166",
+  "kind": "text",
+  "tr": "Logo tescillidir. Görsellerdeki hasta yüzleri gizlenmiştir."
+ },
+ {
+  "id": "ind167",
+  "kind": "attr",
+  "tr": "Fotoğraf görüntüleyici"
+ },
+ {
+  "id": "ind168",
+  "kind": "attr",
+  "tr": "Kapat"
+ },
+ {
+  "id": "ind169",
+  "kind": "attr",
+  "tr": "Önceki"
+ },
+ {
+  "id": "ind170",
+  "kind": "attr",
+  "tr": "Sonraki"
+ },
+ {
+  "id": "ind171",
+  "kind": "ld",
+  "tr": "İhsan Eren Evde Fizyoterapi"
+ },
+ {
+  "id": "ind172",
+  "kind": "ld",
+  "tr": "İstanbul içinde evde fizyoterapi, rehabilitasyon, kişiye özel egzersiz ve fonksiyonel değerlendirme hizmetleri."
+ },
+ {
+  "id": "ind173",
+  "kind": "ld",
+  "tr": "İstanbul"
+ },
+ {
+  "id": "ind174",
+  "kind": "ld",
+  "tr": "Fizyoterapi ve Rehabilitasyon Hizmetleri"
+ },
+ {
+  "id": "ind175",
+  "kind": "ld",
+  "tr": "Evde Fizyoterapi"
+ },
+ {
+  "id": "ind176",
+  "kind": "ld",
+  "tr": "Evde fizyoterapi ve rehabilitasyon"
+ },
+ {
+  "id": "ind177",
+  "kind": "ld",
+  "tr": "Kişiye Özel Egzersiz Programı"
+ },
+ {
+  "id": "ind178",
+  "kind": "ld",
+  "tr": "Kişiye özel egzersiz ve rehabilitasyon programı"
+ },
+ {
+  "id": "ind179",
+  "kind": "ld",
+  "tr": "Fonksiyonel Değerlendirme"
+ },
+ {
+  "id": "ind180",
+  "kind": "ld",
+  "tr": "Kuvvet, denge, yürüme, esneklik ve fonksiyonel kapasite değerlendirmesi"
+ },
+ {
+  "id": "ind181",
+  "kind": "ld",
+  "tr": "Fizyoterapi ve Rehabilitasyon lisans programından (4 yıllık) mezun fizyoterapist ve tıp fakültesi 6. sınıf intörn hekim. Manuel terapi, rehabilitasyon, elektroterapi ve kişiye özel egzersiz alanlarında çalışmaktadır."
+ },
+ {
+  "id": "ind182",
+  "kind": "ld",
+  "tr": "Fizyoterapi ve Rehabilitasyon Lisans Derecesi (4 yıllık mezun)"
+ },
+ {
+  "id": "ind183",
+  "kind": "ld",
+  "tr": "Lisans derecesi"
+ },
+ {
+  "id": "ind184",
+  "kind": "ld",
+  "tr": "Tıp Fakültesi 6. Sınıf (İntörn Hekim)"
+ },
+ {
+  "id": "ind185",
+  "kind": "ld",
+  "tr": "Tıp eğitimi (devam ediyor)"
+ },
+ {
+  "id": "ind186",
+  "kind": "ld",
+  "tr": "Ortopedik Manuel Terapi Eğitimi"
+ },
+ {
+  "id": "ind187",
+  "kind": "ld",
+  "tr": "Mesleki eğitim"
+ },
+ {
+  "id": "ind188",
+  "kind": "ld",
+  "tr": "Rehabilitasyon"
+ },
+ {
+  "id": "ind189",
+  "kind": "ld",
+  "tr": "Kas-iskelet sistemi rehabilitasyonu"
+ },
+ {
+  "id": "ind190",
+  "kind": "ld",
+  "tr": "Nörolojik rehabilitasyon"
+ },
+ {
+  "id": "ind191",
+  "kind": "ld",
+  "tr": "Egzersiz terapisi"
+ },
+ {
+  "id": "ind192",
+  "kind": "ld",
+  "tr": "Denge ve yürüme rehabilitasyonu"
+ },
+ {
+  "id": "ind193",
+  "kind": "ld",
+  "tr": "Ağrı yönetimi"
+ },
+ {
+  "id": "ind194",
+  "kind": "ld",
+  "tr": "Fonksiyonel değerlendirme"
+ },
+ {
+  "id": "ind195",
+  "kind": "ld",
+  "tr": "Fizyoterapi ve Rehabilitasyon"
+ },
+ {
+  "id": "ind196",
+  "kind": "ld",
+  "tr": "Low back pain"
+ },
+ {
+  "id": "ind197",
+  "kind": "ld",
+  "tr": "Neck pain"
+ },
+ {
+  "id": "ind198",
+  "kind": "ld",
+  "tr": "Cervical disc herniation"
+ },
+ {
+  "id": "ind199",
+  "kind": "ld",
+  "tr": "Post-stroke rehabilitation"
+ },
+ {
+  "id": "ind200",
+  "kind": "ld",
+  "tr": "Diz osteoartriti"
+ },
+ {
+  "id": "ind201",
+  "kind": "ld",
+  "tr": "Knee osteoarthritis"
+ },
+ {
+  "id": "ind202",
+  "kind": "ld",
+  "tr": "Frozen shoulder"
+ }
+]

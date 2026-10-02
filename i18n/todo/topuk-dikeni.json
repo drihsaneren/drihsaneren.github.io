@@ -1,0 +1,417 @@
+[
+ {
+  "id": "top0",
+  "kind": "text",
+  "tr": "Topuk Dikeni (Plantar Fasiit): Egzersizler ve Tedavi | İhsan Eren"
+ },
+ {
+  "id": "top1",
+  "kind": "attr",
+  "tr": "Topuk dikeni (plantar fasiit) nedir, röntgendeki diken ağrının nedeni mi, kendiliğinden geçer mi? Evde altı egzersiz, tabanlık ve ayakkabı önerileri, videolar ve uyarı işaretleri."
+ },
+ {
+  "id": "top2",
+  "kind": "text",
+  "tr": "Sabah ilk adımlarda topuğa saplanan ağrıyla kendini gösterir. Halk arasında \"topuk dikeni\" dense de ağrının asıl kaynağı çoğu zaman kemik çıkıntısı değil, ayak tabanındaki bağ dokusunun (plantar fasya) zorlanmasıdır. İyi haber: hastaların büyük çoğunluğu ameliyatsız iyileşir."
+ },
+ {
+  "id": "top3",
+  "kind": "text",
+  "tr": "10'da 1"
+ },
+ {
+  "id": "top4",
+  "kind": "text",
+  "tr": "Hayatının bir döneminde topuk dikeni yaşayan kişi"
+ },
+ {
+  "id": "top5",
+  "kind": "text",
+  "tr": "Uygun tedaviyle 12 ay içinde iyileşenler"
+ },
+ {
+  "id": "top6",
+  "kind": "text",
+  "tr": "3,7 kat"
+ },
+ {
+  "id": "top7",
+  "kind": "text",
+  "tr": "Beden kitle indeksi 27'nin üzerinde olanlarda artan risk"
+ },
+ {
+  "id": "top8",
+  "kind": "text",
+  "tr": "Ayak tabanında topuktan parmaklara uzanan kalın bağ dokusuna plantar fasya denir; ayak kemerini destekler ve her adımda gerilir. Tekrarlayan aşırı yüklenmeyle fasyanın topuğa yapıştığı yerde yıpranma ve ağrı gelişir. Adındaki \"-it\" iltihabı çağrıştırsa da sorun çoğu zaman iltihaptan çok dokunun yıpranmasıdır."
+ },
+ {
+  "id": "top9",
+  "kind": "text",
+  "tr": "Tanı çoğunlukla muayeneyle konur: ağrı topuğun iç ve alt kısmındadır, sabah ilk adımlarda ve uzun oturduktan sonra kalkınca en belirgindir, uzun süre ayakta kalınca artar."
+ },
+ {
+  "id": "top10",
+  "kind": "text",
+  "tr": "Fazla kilo (beden kitle indeksi 27'nin üzerinde)"
+ },
+ {
+  "id": "top11",
+  "kind": "text",
+  "tr": "İş gününün çoğunu ayakta geçirmek"
+ },
+ {
+  "id": "top12",
+  "kind": "text",
+  "tr": "Baldır kaslarının gerginliği, ayak bileğinin yukarı doğru hareketinin kısıtlı olması"
+ },
+ {
+  "id": "top13",
+  "kind": "text",
+  "tr": "Koşu gibi tekrarlayan yüklenmeler"
+ },
+ {
+  "id": "top14",
+  "kind": "text",
+  "tr": "40–60 yaş arası olmak"
+ },
+ {
+  "id": "top15",
+  "kind": "text",
+  "tr": "Röntgendeki \"diken\" ağrının nedeni mi?"
+ },
+ {
+  "id": "top16",
+  "kind": "text",
+  "tr": "Topukta röntgende görülen kemik çıkıntısı (kalkaneal spur), hiç ağrısı olmayan kişilerde de sık rastlanan bir bulgudur ve tek başına ağrıyı açıklamaz. Ağrı, çıkıntının kendisinden çok fasyanın zorlanmasından kaynaklanır."
+ },
+ {
+  "id": "top17",
+  "kind": "text",
+  "tr": "Bu yüzden tedavinin hedefi dikeni \"eritmek\" ya da ameliyatla almak değil, fasyanın yükünü azaltmak ve dokuyu güçlendirmektir. Ağrı geçtikten sonra da çıkıntı genellikle röntgende yerinde durur; yani iyileşmek için dikenin kaybolması gerekmez."
+ },
+ {
+  "id": "top18",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin 2023 kılavuzu, ameliyatsız tedavinin temeline germe, manuel terapi ve kısa vadeli destekleri koyuyor."
+ },
+ {
+  "id": "top19",
+  "kind": "text",
+  "tr": "Germe"
+ },
+ {
+  "id": "top20",
+  "kind": "text",
+  "tr": "Plantar fasya ve baldır germeleri kısa ve uzun vadede ağrıyı azaltır, işlevi iyileştirir. Kılavuzdaki en güçlü önerilerdendir."
+ },
+ {
+  "id": "top21",
+  "kind": "text",
+  "tr": "Güçlendirme"
+ },
+ {
+  "id": "top22",
+  "kind": "text",
+  "tr": "Ayak ve ayak bileği kaslarını giderek artan yükle çalıştıran egzersizler önerilir. Havlulu topuk kaldırma egzersizi bir çalışmada 3. ayda germeye göre daha iyi sonuç verdi; 12. ayda iki grup benzerdi."
+ },
+ {
+  "id": "top23",
+  "kind": "text",
+  "tr": "Ayak ve bacaktaki eklem ve yumuşak dokulara yönelik manuel terapi, hareket kısıtlılığını ve ağrıyı azaltır."
+ },
+ {
+  "id": "top24",
+  "kind": "text",
+  "tr": "Baldır ve ayak tabanı kaslarındaki tetik noktalara uygulanan kuru iğneleme, kısa ve uzun vadede ağrıyı azaltmak için önerilir."
+ },
+ {
+  "id": "top25",
+  "kind": "text",
+  "tr": "Bantlama ve gece ateli"
+ },
+ {
+  "id": "top26",
+  "kind": "text",
+  "tr": "Esnek ya da sert bantlama kısa vadede ağrıyı ve işlevi iyileştirir. Sabah ilk adımlarda ağrısı olanlarda 1–3 ay gece ateli önerilir."
+ },
+ {
+  "id": "top27",
+  "kind": "text",
+  "tr": "Tabanlık ve ayakkabı"
+ },
+ {
+  "id": "top28",
+  "kind": "text",
+  "tr": "Hazır ya da kişiye özel tabanlıklar tek başına değil, diğer tedavilerle birlikte kullanıldığında yararlıdır. Topuğu destekleyen, yastıklı ayakkabılar tercih edilmelidir."
+ },
+ {
+  "id": "top29",
+  "kind": "text",
+  "tr": "İnatçı ağrıda"
+ },
+ {
+  "id": "top30",
+  "kind": "text",
+  "tr": "Aylarca süren ağrıda şok dalga tedavisi (ESWT) bir seçenektir. Kortizon iğnesi kısa süreli rahatlama sağlayabilir ama birden fazla enjeksiyon yapılanların yaklaşık %2,4'ünde fasya yırtılabilir. Ameliyat, uzun süre tüm tedavilere yanıt vermeyen az sayıda hastada düşünülür."
+ },
+ {
+  "id": "top31",
+  "kind": "text",
+  "tr": "<strong>Kılavuzda önerilmeyen:</strong> Germe egzersizlerine terapötik ultrason eklemek ek fayda sağlamıyor."
+ },
+ {
+  "id": "top32",
+  "kind": "text",
+  "tr": "Topuk dikeni için altı egzersiz"
+ },
+ {
+  "id": "top33",
+  "kind": "text",
+  "tr": "Egzersizler sırasında hafif bir rahatsızlık olabilir; ağrı ertesi sabah belirgin şekilde artmıyorsa devam etmek güvenlidir. Germe hareketlerini sabah ilk adımlardan önce ve uzun oturduktan sonra yapmak en çok faydayı sağlar."
+ },
+ {
+  "id": "top34",
+  "kind": "text",
+  "tr": "Parmakları geriye çekerek germe"
+ },
+ {
+  "id": "top35",
+  "kind": "text",
+  "tr": "Oturun, ağrılı ayağınızı diğer dizinizin üzerine alın. Bir elinizle ayak parmaklarınızı ayak sırtınıza doğru geriye çekin; ayak tabanınızda, topuğun önünde gerilme hissedin. Sabah ilk adımlardan önce ve uzun oturduktan sonra yapmak özellikle faydalıdır."
+ },
+ {
+  "id": "top36",
+  "kind": "text",
+  "tr": "10 saniye, 10 tekrar, günde 3 kez"
+ },
+ {
+  "id": "top37",
+  "kind": "text",
+  "tr": "Yere ya da yatağa bacaklarınız düz olacak şekilde oturun. Bir havluyu ayağınızın ön kısmına dolayıp uçlarından tutun. Dizinizi düz tutarak havluyu kendinize doğru çekin; baldırınızda ve ayak tabanınızda gerilme hissedin."
+ },
+ {
+  "id": "top38",
+  "kind": "text",
+  "tr": "Duvarda baldır germe"
+ },
+ {
+  "id": "top39",
+  "kind": "text",
+  "tr": "Ellerinizi duvara dayayın, ağrılı bacağınızı arkaya alın. Arkadaki dizinizi düz, topuğunuzu yerde tutarak kalçanızı duvara doğru ilerletin; baldırınızın üst kısmında gerilme hissedin."
+ },
+ {
+  "id": "top40",
+  "kind": "text",
+  "tr": "30 saniye, 3 tekrar, günde 2–3 kez"
+ },
+ {
+  "id": "top41",
+  "kind": "text",
+  "tr": "Dizi bükük baldır germe"
+ },
+ {
+  "id": "top42",
+  "kind": "text",
+  "tr": "Aynı pozisyonda arkadaki ayağınızı biraz öne alın ve dizinizi bükün. Topuğunuz yerden kalkmadan kalçanızı aşağı indirin; gerilmeyi baldırın alt kısmında, aşil tendonuna yakın hissedeceksiniz."
+ },
+ {
+  "id": "top43",
+  "kind": "text",
+  "tr": "Havlulu topuk kaldırma"
+ },
+ {
+  "id": "top44",
+  "kind": "text",
+  "tr": "Bir basamağa çıkın, ağrılı ayağınızın parmaklarının altına rulo yapılmış bir havlu koyun; topuğunuz basamaktan taşsın. Tezgâh ya da duvardan destek alarak tek ayak üzerinde 3 saniyede yükselin, 2 saniye bekleyin, 3 saniyede inin. Kolaylaştıkça sırt çantasıyla yük ekleyin."
+ },
+ {
+  "id": "top45",
+  "kind": "text",
+  "tr": "8–12 tekrar, 3 set, iki günde bir"
+ },
+ {
+  "id": "top46",
+  "kind": "text",
+  "tr": "Şişe ile ayak altı masajı"
+ },
+ {
+  "id": "top47",
+  "kind": "text",
+  "tr": "Oturun, ağrılı ayağınızın altına bir tenis topu ya da su şişesi koyun. Ayağınızı topuktan parmak uçlarına doğru ileri geri yuvarlayın. Ağrılı dönemde şişeyi dondurucuda soğutmak da rahatlatabilir."
+ },
+ {
+  "id": "top48",
+  "kind": "text",
+  "tr": "1–2 dakika, günde 2–3 kez"
+ },
+ {
+  "id": "top49",
+  "kind": "text",
+  "tr": "Günlük hayatta topuğunuz için"
+ },
+ {
+  "id": "top50",
+  "kind": "text",
+  "tr": "Amaç topuğu tamamen dinlendirmek değil, yükü ağrının izin verdiği ölçüde ayarlamak ve dokuyu yeniden güçlendirmektir."
+ },
+ {
+  "id": "top51",
+  "kind": "text",
+  "tr": "Yataktan kalkmadan önce ayak parmaklarınızı geriye çekin, ayak bileğinizle daireler çizin."
+ },
+ {
+  "id": "top52",
+  "kind": "text",
+  "tr": "Evde de çıplak ayakla ya da ince tabanlı terlikle sert zeminde yürümeyin; topuğu destekleyen, yastıklı ayakkabı giyin."
+ },
+ {
+  "id": "top53",
+  "kind": "text",
+  "tr": "Uzun süre ayakta kalıyorsanız ara verin, mümkünse yumuşak bir paspas üzerinde durun."
+ },
+ {
+  "id": "top54",
+  "kind": "text",
+  "tr": "Ağrı azalana kadar koşu ve zıplama gibi yükleri azaltın; bisiklet ve yüzme iyi alternatiflerdir."
+ },
+ {
+  "id": "top55",
+  "kind": "text",
+  "tr": "Fazla kilolarınızı vermek topuğa binen yükü azaltır."
+ },
+ {
+  "id": "top56",
+  "kind": "text",
+  "tr": "Topuk dikeni için videolar"
+ },
+ {
+  "id": "top57",
+  "kind": "attr",
+  "tr": "Topuk dikeni germe videosunu oynat"
+ },
+ {
+  "id": "top58",
+  "kind": "text",
+  "tr": "Topuk dikeni için en etkili germe"
+ },
+ {
+  "id": "top59",
+  "kind": "text",
+  "tr": "Ayak tabanındaki fasyayı hedefleyen germe hareketi."
+ },
+ {
+  "id": "top60",
+  "kind": "attr",
+  "tr": "Sabah rutini videosunu oynat"
+ },
+ {
+  "id": "top61",
+  "kind": "text",
+  "tr": "Her sabah yapılacak beş şey"
+ },
+ {
+  "id": "top62",
+  "kind": "text",
+  "tr": "Sabah ilk adım ağrısını azaltmaya yönelik kısa bir rutin."
+ },
+ {
+  "id": "top63",
+  "kind": "text",
+  "tr": "Topuk dikeni kendiliğinden geçer mi?"
+ },
+ {
+  "id": "top64",
+  "kind": "text",
+  "tr": "Çoğu zaman evet, ama sabır ister. Uygun tedaviyle hastaların yaklaşık %80'i 12 ay içinde iyileşir. Germe, güçlendirme ve yük yönetimi bu süreci kısaltır."
+ },
+ {
+  "id": "top65",
+  "kind": "text",
+  "tr": "Dikeni ameliyatla aldırmak gerekir mi?"
+ },
+ {
+  "id": "top66",
+  "kind": "text",
+  "tr": "Çok nadiren. Röntgendeki kemik çıkıntısı ağrısı olmayan kişilerde de sık görülür ve ağrının asıl kaynağı değildir. Ameliyat, uzun süre tüm tedavilere yanıt vermeyen az sayıda hastada düşünülür."
+ },
+ {
+  "id": "top67",
+  "kind": "text",
+  "tr": "Kortizon iğnesi kısa süreli rahatlama sağlayabilir, ancak etkisi geçicidir ve birden fazla enjeksiyon yapılanların yaklaşık %2,4'ünde fasya yırtılabilir. Önce egzersiz, bantlama, gece ateli ve tabanlık gibi yöntemler denenmelidir."
+ },
+ {
+  "id": "top68",
+  "kind": "text",
+  "tr": "Sabahları neden daha çok ağrıyor?"
+ },
+ {
+  "id": "top69",
+  "kind": "text",
+  "tr": "Gece boyunca ayak aşağı doğru uzanmış durduğu için fasya ve baldır kasları kısalmış konumda dinlenir; ilk adımlarda bu dokular birden gerilir. Yataktan kalkmadan önce yapılan germeler ve gece ateli bu ağrıyı azaltır."
+ },
+ {
+  "id": "top70",
+  "kind": "text",
+  "tr": "Tabanlık işe yarar mı?"
+ },
+ {
+  "id": "top71",
+  "kind": "text",
+  "tr": "Tabanlıklar tek başına değil, germe ve güçlendirme egzersizleriyle birlikte kullanıldığında yararlıdır. Kılavuz hazır ya da kişiye özel tabanlıkları diğer tedavilerle birlikte kullanılmak üzere öneriyor."
+ },
+ {
+  "id": "top72",
+  "kind": "text",
+  "tr": "Spor yapmayı bırakmalı mıyım?"
+ },
+ {
+  "id": "top73",
+  "kind": "text",
+  "tr": "Tamamen bırakmanız gerekmez. Ağrıyı belirgin artıran koşu ve zıplama gibi yükleri geçici olarak azaltın, bisiklet ve yüzmeyle formunuzu koruyun. Ağrı azaldıkça yükü kademeli artırın."
+ },
+ {
+  "id": "top74",
+  "kind": "text",
+  "tr": "Topuk ağrısı çoğunlukla zararsızdır. Şu durumlarda ise beklemeden bir hekime başvurun:"
+ },
+ {
+  "id": "top75",
+  "kind": "text",
+  "tr": "Ayak tabanında uyuşma, karıncalanma ya da yanma (sinir sıkışması olabilir)"
+ },
+ {
+  "id": "top76",
+  "kind": "text",
+  "tr": "Topuğu iki yandan sıkınca artan ağrı, özellikle yürüyüş ya da koşu yükünüzü yeni artırdıysanız (stres kırığı olabilir)"
+ },
+ {
+  "id": "top77",
+  "kind": "text",
+  "tr": "Ayak tabanında aniden kopma hissi, morarma ve basamama"
+ },
+ {
+  "id": "top78",
+  "kind": "text",
+  "tr": "Topukta kızarıklık, şişlik, sıcaklık ya da ateş"
+ },
+ {
+  "id": "top79",
+  "kind": "text",
+  "tr": "İki topukta birden ağrıyla birlikte sabahları uzun süren bel ya da eklem tutukluğu (romatizmal bir hastalık olabilir)"
+ },
+ {
+  "id": "top80",
+  "kind": "text",
+  "tr": "Topuk ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "top81",
+  "kind": "wa",
+  "tr": "Merhaba, topuk dikeni için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "top82",
+  "kind": "text",
+  "tr": "Physiopedia. <a href=\"https://www.physio-pedia.com/Plantar_Fasciitis\" target=\"_blank\" rel=\"noopener\">Plantar Fasciitis</a>."
+ }
+]

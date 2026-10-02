@@ -1,0 +1,167 @@
+[
+ {
+  "id": "yen0",
+  "kind": "text",
+  "tr": "Geleceğin Tıbbı: Güncel Bilimsel Gelişmeler | İhsan Eren"
+ },
+ {
+  "id": "yen1",
+  "kind": "attr",
+  "tr": "Güncel bilimsel gelişmeler: Alzheimer'ı kandan tanıyan testler, beyne taşınan yeni ilaçlar ve gen düzenleme tedavilerinden kısa, kaynaklı haberler."
+ },
+ {
+  "id": "yen2",
+  "kind": "text",
+  "tr": "Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri. Her haberin altında kaynağı var."
+ },
+ {
+  "id": "yen3",
+  "kind": "text",
+  "tr": "Alzheimer"
+ },
+ {
+  "id": "yen4",
+  "kind": "text",
+  "tr": "Eylül 2026"
+ },
+ {
+  "id": "yen5",
+  "kind": "text",
+  "tr": "Alzheimer için kan testleri çoğalıyor"
+ },
+ {
+  "id": "yen6",
+  "kind": "text",
+  "tr": "ABD'de Gıda ve İlaç Dairesi (FDA), Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Son ikisi Ağustos 2026'da geldi. Bu testler beyin görüntülemesine ya da bel sıvısı alınmasına gerek kalmadan tanıyı kolaylaştırabilir."
+ },
+ {
+  "id": "yen7",
+  "kind": "text",
+  "tr": "Önemli: Testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı. Şikâyeti olmayan sağlıklı kişilerde tarama için uygun değiller."
+ },
+ {
+  "id": "yen8",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://time.com/article/2026/09/22/who-should-get-new-blood-tests-for-alzheimers-disease/\" target=\"_blank\" rel=\"noopener\">TIME, 22 Eylül 2026</a>"
+ },
+ {
+  "id": "yen9",
+  "kind": "text",
+  "tr": "Temmuz 2026"
+ },
+ {
+  "id": "yen10",
+  "kind": "text",
+  "tr": "Beyne “mekikle” taşınan ilaç: trontinemab"
+ },
+ {
+  "id": "yen11",
+  "kind": "text",
+  "tr": "Roche'un geliştirdiği trontinemab, kan-beyin engelini bir taşıyıcı sayesinde daha kolay geçmek üzere tasarlandı. Temmuz 2026'daki Alzheimer kongresinde (AAIC) açıklanan erken faz verilerine göre yüksek dozu alan hastaların %92'sinde 28 haftada beyindeki amiloid birikimi eşik değerin altına indi."
+ },
+ {
+  "id": "yen12",
+  "kind": "text",
+  "tr": "İlaç henüz onaylı değil; büyük faz III çalışmaları sürüyor. Az sayıda hastada beyinde mikro kanama gibi yan etkiler izlendi."
+ },
+ {
+  "id": "yen13",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://www.clinicaltrialsarena.com/news/roche-alzheimers-trontinemab-aaic-26/\" target=\"_blank\" rel=\"noopener\">Clinical Trials Arena, 16 Temmuz 2026</a>"
+ },
+ {
+  "id": "yen14",
+  "kind": "text",
+  "tr": "Genetik"
+ },
+ {
+  "id": "yen15",
+  "kind": "text",
+  "tr": "Tek bir bebek için tasarlanan gen tedavisi"
+ },
+ {
+  "id": "yen16",
+  "kind": "text",
+  "tr": "ABD'de KJ adlı bir bebekte, vücutta amonyak birikmesine yol açan nadir bir genetik hastalık (CPS1 eksikliği) vardı. Araştırmacılar bebeğin kendi mutasyonunu düzelten kişiye özel bir gen düzenleme tedavisini yaklaşık altı ayda geliştirip uyguladı."
+ },
+ {
+  "id": "yen17",
+  "kind": "text",
+  "tr": "Çok nadir hastalıklar için “her hastaya özel” tedavi üretmenin mümkün olduğunu gösteren ilk örneklerden biri."
+ },
+ {
+  "id": "yen18",
+  "kind": "text",
+  "tr": "Kaynak: <a href=\"https://innovativegenomics.org/news/crispr-clinical-trials-2026/\" target=\"_blank\" rel=\"noopener\">Innovative Genomics Institute, 2026</a>"
+ },
+ {
+  "id": "yen19",
+  "kind": "text",
+  "tr": "CRISPR tedavileri klinikte"
+ },
+ {
+  "id": "yen20",
+  "kind": "text",
+  "tr": "Onaylı ilk CRISPR tedavisi Casgevy, orak hücreli anemi ve beta talasemide kullanılıyor. Çalışmalarda orak hücre hastalarının 17'de 16'sı ağrı krizi yaşamadı, talasemi hastalarının 27'de 25'i kan nakline ihtiyaç duymadı. Vücut içinde doğrudan yapılan gen düzenlemesinde de umut verici sonuçlar var."
+ },
+ {
+  "id": "yen21",
+  "kind": "text",
+  "tr": "Talasemi ve orak hücreli anemi Türkiye'de özellikle Akdeniz bölgesinde sık görülüyor. Tedavi pahalı ve her merkezde uygulanamıyor."
+ },
+ {
+  "id": "yen22",
+  "kind": "text",
+  "tr": "Alzheimer kan testiyle anlaşılabilir mi?"
+ },
+ {
+  "id": "yen23",
+  "kind": "text",
+  "tr": "ABD'de FDA, Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Ancak bu testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı; şikâyeti olmayan sağlıklı kişilerde tarama için uygun değildir."
+ },
+ {
+  "id": "yen24",
+  "kind": "text",
+  "tr": "Trontinemab onaylı bir Alzheimer ilacı mı?"
+ },
+ {
+  "id": "yen25",
+  "kind": "text",
+  "tr": "Hayır, henüz onaylı değildir; büyük faz III çalışmaları sürmektedir. Erken faz verilerine göre yüksek dozu alan hastaların %92'sinde 28 haftada beyindeki amiloid birikimi eşik değerin altına indi. Az sayıda hastada beyinde mikro kanama gibi yan etkiler izlendi."
+ },
+ {
+  "id": "yen26",
+  "kind": "text",
+  "tr": "Talasemi ve orak hücreli anemi gen tedavisiyle tedavi edilebilir mi?"
+ },
+ {
+  "id": "yen27",
+  "kind": "text",
+  "tr": "Onaylı ilk CRISPR tedavisi Casgevy, orak hücreli anemi ve beta talasemide kullanılmaktadır. Çalışmalarda orak hücre hastalarının 17'de 16'sı ağrı krizi yaşamadı, talasemi hastalarının 27'de 25'i kan nakline ihtiyaç duymadı. Tedavi pahalıdır ve her merkezde uygulanamamaktadır."
+ },
+ {
+  "id": "yen28",
+  "kind": "text",
+  "tr": "Bu sayfa bilgilendirme amaçlıdır, tedavi önerisi değildir. Bahsedilen test ve tedavilerin bazıları Türkiye'de henüz kullanımda olmayabilir. Görseller temsili çizimlerdir."
+ },
+ {
+  "id": "yen29",
+  "kind": "ld",
+  "tr": "Alzheimer hastalığı"
+ },
+ {
+  "id": "yen30",
+  "kind": "ld",
+  "tr": "CPS1 eksikliği"
+ },
+ {
+  "id": "yen31",
+  "kind": "ld",
+  "tr": "Orak hücreli anemi"
+ },
+ {
+  "id": "yen32",
+  "kind": "ld",
+  "tr": "Beta talasemi"
+ }
+]

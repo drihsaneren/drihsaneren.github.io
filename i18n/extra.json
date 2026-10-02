@@ -1,0 +1,36 @@
+{
+ "stres.html": [
+  [
+   "<div class=\"res\">\n        <a href=\"https://apps.who.int/iris/handle/10665/333917\"",
+   "<div class=\"res\">\n        <a href=\"https://www.who.int/publications/i/item/9789240003927\""
+  ],
+  [
+   "<a href=\"https://who.canto.global/b/S7VEH\"",
+   "<a href=\"https://who.canto.global/b/UCG20\""
+  ],
+  [
+   "<a href=\"https://www.who.int/publications/i/item/9789240003927\" target=\"_blank\" rel=\"noopener\">\n          <span class=\"ic\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle",
+   "<a href=\"https://apps.who.int/iris/handle/10665/333917\" target=\"_blank\" rel=\"noopener\" hreflang=\"tr\">\n          <span class=\"ic\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle"
+  ]
+ ],
+ "index.html": [
+  [
+   "<span id=\"qt-sts-v\">10,0</span>",
+   "<span id=\"qt-sts-v\">10.0</span>"
+  ],
+  [
+   "<span id=\"qt-steps-v\">5.000</span>",
+   "<span id=\"qt-steps-v\">5,000</span>"
+  ],
+  [
+   "<span>15.000+</span>",
+   "<span>15,000+</span>"
+  ]
+ ],
+ "ic-cekis.html": [
+  [
+   "<span id=\"rl-b\">2.</span>",
+   "<span id=\"rl-b\">2nd</span>"
+  ]
+ ]
+}

@@ -1,0 +1,412 @@
+[
+ {
+  "id": "boy0",
+  "kind": "text",
+  "tr": "Boyun Fıtığı: Belirtiler, Tedavi ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "boy1",
+  "kind": "attr",
+  "tr": "Boyun fıtığı ve kola yayılan sinir sıkışması: belirtiler, hangi sinir nereye vurur, MR ne anlatır, ameliyatsız tedavi, evde egzersizler ve ne zaman ameliyat gerekir."
+ },
+ {
+  "id": "boy2",
+  "kind": "text",
+  "tr": "Boyundaki disklerden birinin taşması ya da omurgadaki kireçlenmenin bir sinir kökünü sıkıştırmasıyla ortaya çıkar. Ağrı kola ve parmaklara vurur; uyuşma ve güçsüzlük olabilir. Çoğu kişi ameliyatsız iyileşir."
+ },
+ {
+  "id": "boy3",
+  "kind": "text",
+  "tr": "Her yıl 100.000 kişide yeni kola yayılan sinir sıkışması"
+ },
+ {
+  "id": "boy4",
+  "kind": "text",
+  "tr": "4–6 ay"
+ },
+ {
+  "id": "boy5",
+  "kind": "text",
+  "tr": "Çoğu kişide belirgin düzelme süresi"
+ },
+ {
+  "id": "boy6",
+  "kind": "text",
+  "tr": "Uzun dönemde yakınması olmayan ya da hafif kalan"
+ },
+ {
+  "id": "boy7",
+  "kind": "text",
+  "tr": "Hiç ağrısı olmayanların MR'ında disk taşması"
+ },
+ {
+  "id": "boy8",
+  "kind": "text",
+  "tr": "Omurların arasında yastık görevi gören diskler vardır. Diskin dış halkası zayıflayıp yırtıldığında içindeki jel kıvamındaki çekirdek dışarı taşar; buna fıtık denir. Taşan kısım omurilikten kola giden bir sinir köküne baskı yapar ya da onu tahriş eder."
+ },
+ {
+  "id": "boy9",
+  "kind": "text",
+  "tr": "Kola yayılan sinir sıkışmasının (servikal radikülopati) tek nedeni fıtık değildir. Özellikle ileri yaşta daha sık neden, kireçlenmeye bağlı kemik çıkıntılarının sinirin çıktığı deliği daraltmasıdır. Genç yaşta ise fıtık daha sık görülür."
+ },
+ {
+  "id": "boy10",
+  "kind": "text",
+  "tr": "Boyundan omuza, kürek kemiğine ve kola yayılan ağrı, çoğunlukla tek tarafta"
+ },
+ {
+  "id": "boy11",
+  "kind": "text",
+  "tr": "Kolda, elde ya da belirli parmaklarda uyuşma, karıncalanma, elektriklenme"
+ },
+ {
+  "id": "boy12",
+  "kind": "text",
+  "tr": "Kolda ya da elde güçsüzlük, kavramada zorlanma"
+ },
+ {
+  "id": "boy13",
+  "kind": "text",
+  "tr": "Başı geriye atmak ya da ağrılı tarafa çevirmek ağrıyı artırabilir"
+ },
+ {
+  "id": "boy14",
+  "kind": "text",
+  "tr": "Bazı kişiler elini başının üstüne koyduğunda kol ağrısının azaldığını fark eder"
+ },
+ {
+  "id": "boy15",
+  "kind": "text",
+  "tr": "Sadece boyunda ağrı varsa ve kola yayılmıyorsa: <a href=\"boyun-agrisi.html\">Boyun ağrısı sayfası →</a>"
+ },
+ {
+  "id": "boy16",
+  "kind": "text",
+  "tr": "Sıkışan sinir köküne göre ağrı ve uyuşma farklı bölgelere yayılır. En sık etkilenen kök C7, ardından C6'dır."
+ },
+ {
+  "id": "boy17",
+  "kind": "text",
+  "tr": "<i style=\"background:#b9b37a\"></i>C5"
+ },
+ {
+  "id": "boy18",
+  "kind": "text",
+  "tr": "<em>Ağrı ve uyuşma</em>Omzun dışı ve üst kol"
+ },
+ {
+  "id": "boy19",
+  "kind": "text",
+  "tr": "<em>Zayıflayabilen hareket</em>Kolu yana kaldırma"
+ },
+ {
+  "id": "boy20",
+  "kind": "text",
+  "tr": "<i style=\"background:#e2ab47\"></i>C6"
+ },
+ {
+  "id": "boy21",
+  "kind": "text",
+  "tr": "<em>Ağrı ve uyuşma</em>Ön kolun dış yanı, başparmak ve işaret parmağı"
+ },
+ {
+  "id": "boy22",
+  "kind": "text",
+  "tr": "<em>Zayıflayabilen hareket</em>Dirseği bükme, bileği yukarı kaldırma"
+ },
+ {
+  "id": "boy23",
+  "kind": "text",
+  "tr": "<i style=\"background:#8fa476\"></i>C7"
+ },
+ {
+  "id": "boy24",
+  "kind": "text",
+  "tr": "<em>Ağrı ve uyuşma</em>Orta parmak"
+ },
+ {
+  "id": "boy25",
+  "kind": "text",
+  "tr": "<em>Zayıflayabilen hareket</em>Dirseği düzeltme, itme"
+ },
+ {
+  "id": "boy26",
+  "kind": "text",
+  "tr": "<i style=\"background:#c96b5a\"></i>C8"
+ },
+ {
+  "id": "boy27",
+  "kind": "text",
+  "tr": "<em>Ağrı ve uyuşma</em>Yüzük ve serçe parmak, elin iç kenarı"
+ },
+ {
+  "id": "boy28",
+  "kind": "text",
+  "tr": "<em>Zayıflayabilen hareket</em>Parmakları kullanma, kavrama"
+ },
+ {
+  "id": "boy29",
+  "kind": "attr",
+  "tr": "Sağ el, avuç içi: başparmak ve işaret parmağı C6, orta parmak C7, yüzük ve serçe parmak C8 bölgesi"
+ },
+ {
+  "id": "boy30",
+  "kind": "text",
+  "tr": "Tanı: MR her şey değil"
+ },
+ {
+  "id": "boy31",
+  "kind": "text",
+  "tr": "Tanı önce muayeneyle konur. Fizyoterapist ya da hekim boyun hareketlerini, kol kaslarının gücünü, refleksleri ve duyuyu değerlendirir. Sinir kökünü zorlayan ya da rahatlatan özel testler yapar; Spurling testi, sinir germe testi ve boyun çekme testi bunlardan bazılarıdır."
+ },
+ {
+  "id": "boy32",
+  "kind": "text",
+  "tr": "MR fıtığın yerini gösterir ama tek başına karar verdirmez. Hiçbir şikâyeti olmayan 1211 kişinin %87,6'sında MR'da disk taşması görüldü; 20'li yaşlarda bile bu oran %73–78'di. Önemli olan, MR bulgusunun şikâyetler ve muayeneyle uyuşup uyuşmadığıdır."
+ },
+ {
+  "id": "boy33",
+  "kind": "text",
+  "tr": "Belirtiler genellikle ilk haftalarda en yoğundur. Çoğu kişi 4–6 ay içinde belirgin şekilde düzelir ve bu düzelme 2–3 yıllık izlemde de korunur. 561 hastanın yaklaşık 5 yıl izlendiği bir çalışmada son kontrolde hastaların %90'ında hiç yakınma yoktu ya da yakınmalar hafifti; dörtte biri ameliyat olmuştu."
+ },
+ {
+  "id": "boy34",
+  "kind": "text",
+  "tr": "Ağrıyı çok artıran hareketlerden birkaç gün kaçınmak yeterlidir. Tam yatak istirahati önerilmez."
+ },
+ {
+  "id": "boy35",
+  "kind": "text",
+  "tr": "Derin boyun kaslarını ve kürek kemiği çevresini güçlendiren, boynu dengeleyen egzersizler ile sinir kaydırma egzersizleri tedavinin temelidir."
+ },
+ {
+  "id": "boy36",
+  "kind": "text",
+  "tr": "Manuel terapi ve traksiyon"
+ },
+ {
+  "id": "boy37",
+  "kind": "text",
+  "tr": "Egzersizle birlikte uygulanan manuel terapi ve aralıklı boyun traksiyonu (boynun kontrollü çekilmesi), uzun süren kola yayılan ağrıda kılavuzlarda önerilir."
+ },
+ {
+  "id": "boy38",
+  "kind": "text",
+  "tr": "Boyunluk"
+ },
+ {
+  "id": "boy39",
+  "kind": "text",
+  "tr": "Ağrının çok şiddetli olduğu ilk günlerde kısa süreli kullanılabilir. Uzun süreli kullanım önerilmez."
+ },
+ {
+  "id": "boy40",
+  "kind": "text",
+  "tr": "Hekiminizin önerdiği ağrı kesiciler. Seçilmiş hastalarda sinir köküne yönelik enjeksiyonlar hekim kararıyla uygulanabilir."
+ },
+ {
+  "id": "boy41",
+  "kind": "text",
+  "tr": "Giderek artan güç kaybı, omurilik basısı belirtileri ya da 6–12 haftalık uygun tedaviye rağmen günlük yaşamı bozan ağrı varsa beyin ve sinir cerrahisi ya da ortopedi değerlendirmesi gerekir."
+ },
+ {
+  "id": "boy42",
+  "kind": "text",
+  "tr": "Sinir sıkışmasında dört egzersiz"
+ },
+ {
+  "id": "boy43",
+  "kind": "text",
+  "tr": "Egzersiz sırasında kola yayılan ağrı, uyuşma ya da karıncalanma artıyor ya da parmaklara doğru ilerliyorsa o egzersizi bırakın. Ağrının koldan boyna doğru çekilmesi ise genellikle iyiye işarettir. Güçlendirme ve germe egzersizleri için <a href=\"boyun-agrisi.html#egzersizler\">boyun ağrısı sayfasına</a> da bakabilirsiniz."
+ },
+ {
+  "id": "boy44",
+  "kind": "text",
+  "tr": "Elini başa koyma"
+ },
+ {
+  "id": "boy45",
+  "kind": "text",
+  "tr": "Elinizi başınıza koyun"
+ },
+ {
+  "id": "boy46",
+  "kind": "text",
+  "tr": "Kol ağrısı şiddetliyken ağrılı taraftaki elinizi başınızın üstüne koyun ve öyle dinlenin. Bu pozisyon sinir kökü üzerindeki gerginliği azaltır. Bazı kişilerde kol ağrısını belirgin şekilde hafifletir."
+ },
+ {
+  "id": "boy47",
+  "kind": "text",
+  "tr": "Rahatlatıyorsa birkaç dakika"
+ },
+ {
+  "id": "boy48",
+  "kind": "text",
+  "tr": "Sinir kaydırma"
+ },
+ {
+  "id": "boy49",
+  "kind": "text",
+  "tr": "Kollarınızı omuz hizasında yana açın, dirsekleriniz 90 derece bükülü, avuç içleriniz öne baksın. Başınızı sağa eğerken sağ dirseğinizi açarak ön kolunuzu yana indirin, sağ kolunuz dümdüz olsun. Ortaya dönün. Sonra başınızı sola eğerken aynısını sol kolunuzla yapın. Sinir bir uçtan gerilirken diğer uçtan gevşer, böylece gerilmeden kayar."
+ },
+ {
+  "id": "boy50",
+  "kind": "text",
+  "tr": "Her iki yana yavaşça 10 tekrar. Uyuşma artarsa bırakın"
+ },
+ {
+  "id": "boy51",
+  "kind": "text",
+  "tr": "Boyunda sinir sıkışması için videolar"
+ },
+ {
+  "id": "boy52",
+  "kind": "attr",
+  "tr": "Sinir sıkışması videosunu oynat"
+ },
+ {
+  "id": "boy53",
+  "kind": "text",
+  "tr": "Boyunda sinir sıkışmasıyla başa çıkmak"
+ },
+ {
+  "id": "boy54",
+  "kind": "text",
+  "tr": "Kola yayılan ağrıda neler yapılabileceğine dair genel bir yol haritası."
+ },
+ {
+  "id": "boy55",
+  "kind": "attr",
+  "tr": "Sinir sıkışması egzersizleri videosunu oynat"
+ },
+ {
+  "id": "boy56",
+  "kind": "text",
+  "tr": "Sinir sıkışmasında en önemli egzersizler"
+ },
+ {
+  "id": "boy57",
+  "kind": "text",
+  "tr": "Sinir sıkışması ve boyun ağrısında öne çıkan egzersizler."
+ },
+ {
+  "id": "boy58",
+  "kind": "text",
+  "tr": "Boyun fıtığı kendiliğinden geçer mi?"
+ },
+ {
+  "id": "boy59",
+  "kind": "text",
+  "tr": "Çoğu kişide evet. Belirtiler genellikle ilk haftalarda en yoğundur ve çoğu kişi 4–6 ay içinde belirgin şekilde düzelir. Bu süreçte egzersiz ve fizyoterapi hem ağrıyı azaltır hem de günlük yaşama dönüşü kolaylaştırır."
+ },
+ {
+  "id": "boy60",
+  "kind": "text",
+  "tr": "Kolda giderek artan güç kaybı, ellerde beceriksizlik ve yürüme bozukluğu gibi omurilik basısı belirtileri ya da 6–12 haftalık uygun tedaviye rağmen günlük yaşamı bozan ağrı varsa cerrahi değerlendirme gerekir. Uzun dönemde hastaların yaklaşık dörtte biri ameliyat olur."
+ },
+ {
+  "id": "boy61",
+  "kind": "text",
+  "tr": "MR'ımda fıtık var ama ağrım yok. Ne yapmalıyım?"
+ },
+ {
+  "id": "boy62",
+  "kind": "text",
+  "tr": "Endişelenmeyin. Ağrısı olmayan kişilerin büyük çoğunluğunda MR'da disk taşması görülür. Şikâyetiniz yoksa tedavi gerekmez; düzenli egzersizle boyun sağlığınızı koruyabilirsiniz."
+ },
+ {
+  "id": "boy63",
+  "kind": "text",
+  "tr": "Boyun fıtığında masaj ya da kütletme yapılır mı?"
+ },
+ {
+  "id": "boy64",
+  "kind": "text",
+  "tr": "Yumuşak doku çalışması ve nazik mobilizasyon genellikle güvenlidir. Hızlı ve kuvvetli boyun manipülasyonu (kütletme) ise kola yayılan sinir belirtileri varken ancak ayrıntılı muayeneden sonra ve eğitimli bir uygulayıcı tarafından düşünülmelidir."
+ },
+ {
+  "id": "boy65",
+  "kind": "text",
+  "tr": "Nasıl yatmalıyım?"
+ },
+ {
+  "id": "boy66",
+  "kind": "text",
+  "tr": "Sırtüstü ya da ağrısız tarafınıza yan yatmak çoğu kişiye daha rahat gelir. Yastık boynunuzu omurganızla aynı hizada tutmalı. Yüzüstü yatmaktan kaçının."
+ },
+ {
+  "id": "boy67",
+  "kind": "text",
+  "tr": "Boyun fıtığı ile boyun düzleşmesi aynı şey mi?"
+ },
+ {
+  "id": "boy68",
+  "kind": "text",
+  "tr": "Hayır. Boyun düzleşmesi, röntgende boyun omurgasının doğal hafif kavisinin azalmasıdır ve ağrısı olmayan kişilerde de sık görülür. Fıtık ise diskin taşmasıdır. <a href=\"boyun-agrisi.html#duzlesme\">Boyun düzleşmesi hakkında →</a>"
+ },
+ {
+  "id": "boy69",
+  "kind": "text",
+  "tr": "Şu belirtiler omuriliğin ya da sinirlerin ciddi şekilde etkilendiğini gösterebilir. Beklemeden bir hekime başvurun:"
+ },
+ {
+  "id": "boy70",
+  "kind": "text",
+  "tr": "Her iki kolda birden uyuşma ya da güçsüzlük"
+ },
+ {
+  "id": "boy71",
+  "kind": "text",
+  "tr": "Ellerde beceriksizlik: düğme iliklemede, yazı yazmada zorlanma, elden eşya düşürme"
+ },
+ {
+  "id": "boy72",
+  "kind": "text",
+  "tr": "Yürürken dengesizlik, bacaklarda güçsüzlük ya da uyuşma"
+ },
+ {
+  "id": "boy73",
+  "kind": "text",
+  "tr": "İdrar ya da dışkı kontrolünde değişiklik (acil)"
+ },
+ {
+  "id": "boy74",
+  "kind": "text",
+  "tr": "Kolda hızla artan güç kaybı"
+ },
+ {
+  "id": "boy75",
+  "kind": "text",
+  "tr": "Ateş, nedensiz kilo kaybı, kanser öyküsü ya da bir kaza sonrası başlayan ağrı"
+ },
+ {
+  "id": "boy76",
+  "kind": "text",
+  "tr": "Kol ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa (kalp kaynaklı olabilir, <strong>112</strong>)"
+ },
+ {
+  "id": "boy77",
+  "kind": "text",
+  "tr": "Boyun fıtığı ve kola yayılan ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "boy78",
+  "kind": "wa",
+  "tr": "Merhaba, boyun fıtığı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "boy79",
+  "kind": "text",
+  "tr": "Australian Physiotherapy Association. <a href=\"https://australian.physio/inmotion/cervical-radiculopathy\" target=\"_blank\" rel=\"noopener\">Cervical radiculopathy</a>. InMotion."
+ },
+ {
+  "id": "boy80",
+  "kind": "text",
+  "tr": "Physiopedia. <a href=\"https://www.physio-pedia.com/Cervical_Radiculopathy\" target=\"_blank\" rel=\"noopener\">Cervical Radiculopathy</a>."
+ },
+ {
+  "id": "boy81",
+  "kind": "ld",
+  "tr": "Boyun fıtığı (servikal disk hernisi)"
+ }
+]

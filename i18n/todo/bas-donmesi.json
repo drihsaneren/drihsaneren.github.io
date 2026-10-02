@@ -1,0 +1,322 @@
+[
+ {
+  "id": "bas0",
+  "kind": "text",
+  "tr": "Baş Dönmesi (BPPV): Epley Manevrası Adım Adım | İhsan Eren"
+ },
+ {
+  "id": "bas1",
+  "kind": "attr",
+  "tr": "Yatarken, dönerken ya da yukarı bakınca başlayan kısa süreli baş dönmesi: BPPV nedir, Epley manevrası nasıl yapılır, ne zaman acil başvurmalı? Adım adım çizimler ve kanıtlar."
+ },
+ {
+  "id": "bas2",
+  "kind": "text",
+  "tr": "Pozisyonel baş dönmesi (BPPV)"
+ },
+ {
+  "id": "bas3",
+  "kind": "text",
+  "tr": "Yatağa uzanırken, yatakta dönerken ya da yukarı bakarken birden başlayan ve genellikle bir dakikadan kısa süren dönme hissi, çoğunlukla iç kulaktaki küçük kristallerin yer değiştirmesinden kaynaklanır. Baş dönmesinin en sık nedenidir ve basit bir baş manevrasıyla çoğu zaman düzelir."
+ },
+ {
+  "id": "bas4",
+  "kind": "text",
+  "tr": "Hayatı boyunca BPPV yaşayan kişilerin oranı"
+ },
+ {
+  "id": "bas5",
+  "kind": "text",
+  "tr": "Epley manevrasıyla baş dönmesi tamamen geçenler; manevra yapılmayanlarda %21"
+ },
+ {
+  "id": "bas6",
+  "kind": "text",
+  "tr": "Manevrayı kendisi uygulamayı öğrenen hastalarda bir hafta sonra iyileşme oranı"
+ },
+ {
+  "id": "bas7",
+  "kind": "text",
+  "tr": "Epley manevrasının her adımında en az bekleme süresi"
+ },
+ {
+  "id": "bas8",
+  "kind": "text",
+  "tr": "İç kulakta dengeyi algılayan, sıvıyla dolu üç yarım daire kanalı bulunur. İç kulağın başka bir bölümündeki küçük kalsiyum kristalleri yerinden koparak bu kanallardan birine, çoğunlukla arka kanala kaçabilir. Baş pozisyon değiştirdiğinde kristaller kanaldaki sıvıyı hareket ettirir ve beyin, gerçekte olmayan bir dönme algılar."
+ },
+ {
+  "id": "bas9",
+  "kind": "text",
+  "tr": "Yaşla birlikte sıklaşır; baş darbesinden sonra da ortaya çıkabilir. Çoğu zaman belirgin bir neden bulunmaz."
+ },
+ {
+  "id": "bas10",
+  "kind": "text",
+  "tr": "Yatağa uzanırken, yatakta dönerken ya da yataktan kalkarken başlayan dönme hissi"
+ },
+ {
+  "id": "bas11",
+  "kind": "text",
+  "tr": "Yukarı bakınca ya da öne eğilince tetiklenmesi"
+ },
+ {
+  "id": "bas12",
+  "kind": "text",
+  "tr": "Genellikle bir dakikadan kısa sürmesi"
+ },
+ {
+  "id": "bas13",
+  "kind": "text",
+  "tr": "Bulantı ve dengesizlik hissi"
+ },
+ {
+  "id": "bas14",
+  "kind": "text",
+  "tr": "İşitme kaybı ya da başka nörolojik belirti olmaması"
+ },
+ {
+  "id": "bas15",
+  "kind": "text",
+  "tr": "Tanı, Dix-Hallpike testiyle konur: hekim ya da fizyoterapist başınızı belli bir açıyla çevirip sizi hızla sırtüstü yatırır ve gözlerinizde oluşan karakteristik hareketi izler. Test hangi kulağın etkilendiğini de gösterir. Amerikan Kulak Burun Boğaz Akademisi'nin kılavuzu, tanı ölçütlerini karşılayan hastalarda rutin olarak MR ya da tomografi çekilmemesini öneriyor."
+ },
+ {
+  "id": "bas16",
+  "kind": "text",
+  "tr": "Tedavi, kristalleri kanaldan çıkarıp ait oldukları yere geri götüren yeniden konumlandırma manevralarıdır; en bilineni Epley manevrasıdır. 11 çalışmayı ve 745 hastayı kapsayan Cochrane derlemesinde baş dönmesi tamamen geçenlerin oranı Epley yapılanlarda %56, sahte manevra ya da tedavi uygulanmayanlarda %21 oldu ve ciddi bir yan etki görülmedi. Tek bir Epley manevrası, bir hafta boyunca günde üç kez yapılan Brandt-Daroff egzersizlerinden daha etkiliydi."
+ },
+ {
+  "id": "bas17",
+  "kind": "text",
+  "tr": "Kılavuz, baş dönmesi ilaçlarının (antihistaminikler, sakinleştiriciler) BPPV tedavisinde rutin olarak kullanılmamasını öneriyor. Bu ilaçlar kristalleri yerine götürmez, dengeyi daha da bozabilir ve özellikle yaşlılarda düşme riskini artırabilir."
+ },
+ {
+  "id": "bas18",
+  "kind": "text",
+  "tr": "Evde uygulama"
+ },
+ {
+  "id": "bas19",
+  "kind": "text",
+  "tr": "Sağ kulak için Epley manevrası: adım adım"
+ },
+ {
+  "id": "bas20",
+  "kind": "text",
+  "tr": "Etkilenen kulak testle belirlendikten sonra manevra evde de uygulanabilir. Aşağıdaki adımlar sağ kulak içindir; sol kulakta başınızı ve gövdenizi ters yöne çevirerek aynı adımları uygulayın. Baş dönmesi olabileceği için ilk uygulamalarda yanınızda biri bulunsun. Çizimlerin sağ üst köşesindeki küçük daire, başınızın yukarıdan görünüşünü ve dönüş açısını gösterir."
+ },
+ {
+  "id": "bas21",
+  "kind": "text",
+  "tr": "Başı sağa çevirme"
+ },
+ {
+  "id": "bas22",
+  "kind": "text",
+  "tr": "1. Başınızı sağa çevirin"
+ },
+ {
+  "id": "bas23",
+  "kind": "text",
+  "tr": "Yatağın üzerinde, bacaklarınız önde uzanmış olarak oturun. Arkanızda, uzandığınızda omuzlarınızın altına gelecek bir yastık olsun. Başınızı 45 derece sağa çevirin."
+ },
+ {
+  "id": "bas24",
+  "kind": "text",
+  "tr": "Başlangıç pozisyonu"
+ },
+ {
+  "id": "bas25",
+  "kind": "text",
+  "tr": "Sırtüstü uzanma"
+ },
+ {
+  "id": "bas26",
+  "kind": "text",
+  "tr": "2. Hızla sırtüstü uzanın"
+ },
+ {
+  "id": "bas27",
+  "kind": "text",
+  "tr": "Başınız sağa dönük kalacak şekilde hızla sırtüstü uzanın. Omuzlarınız yastıkta, başınız hafifçe geriye düşmüş ve yatağa değiyor olsun. Baş dönmesi olabilir; geçmesini bekleyin."
+ },
+ {
+  "id": "bas28",
+  "kind": "text",
+  "tr": "En az 30 saniye, baş dönmesi geçene kadar"
+ },
+ {
+  "id": "bas29",
+  "kind": "text",
+  "tr": "Başı sola çevirme"
+ },
+ {
+  "id": "bas30",
+  "kind": "text",
+  "tr": "3. Başınızı sola çevirin"
+ },
+ {
+  "id": "bas31",
+  "kind": "text",
+  "tr": "Başınızı kaldırmadan 90 derece sola çevirin. Artık 45 derece sola bakıyor olacaksınız."
+ },
+ {
+  "id": "bas32",
+  "kind": "text",
+  "tr": "En az 30 saniye"
+ },
+ {
+  "id": "bas33",
+  "kind": "text",
+  "tr": "Sol yana dönme"
+ },
+ {
+  "id": "bas34",
+  "kind": "text",
+  "tr": "4. Sol yanınıza dönün"
+ },
+ {
+  "id": "bas35",
+  "kind": "text",
+  "tr": "Başınızla birlikte gövdenizi de 90 derece sola, yatağın içine doğru çevirin. Yüzünüz aşağıya, yatağa doğru bakacak."
+ },
+ {
+  "id": "bas36",
+  "kind": "text",
+  "tr": "Sol taraftan oturma"
+ },
+ {
+  "id": "bas37",
+  "kind": "text",
+  "tr": "5. Sol taraftan oturun"
+ },
+ {
+  "id": "bas38",
+  "kind": "text",
+  "tr": "Yavaşça sol tarafınızdan yatağın kenarına oturun. Birkaç dakika oturarak bekleyin, hemen ayağa kalkmayın."
+ },
+ {
+  "id": "bas39",
+  "kind": "text",
+  "tr": "Günde 3 kez, 24 saat baş dönmesi olmayana kadar"
+ },
+ {
+  "id": "bas40",
+  "kind": "text",
+  "tr": "Denge egzersizi"
+ },
+ {
+  "id": "bas41",
+  "kind": "text",
+  "tr": "Baş dönmesi geçtikten sonra da bir süre dengesizlik hissi kalabilir. Tezgâha hafifçe tutunarak bir ayağınızı diğerinin tam önüne koyun ve dengede durun. Kolaylaştıkça tutunmayı azaltın."
+ },
+ {
+  "id": "bas42",
+  "kind": "text",
+  "tr": "30 saniye, 3 kez"
+ },
+ {
+  "id": "bas43",
+  "kind": "text",
+  "tr": "Kendi başına uygulamayı öğrenen 70 hastalık bir çalışmada, Epley manevrasını evde uygulayanların %95'inde bir hafta içinde baş dönmesi geçti. Boyun ya da sırt hastalığınız, damar hastalığınız ya da retina yırtığı öykünüz varsa manevrayı uygulamadan önce hekiminize danışın."
+ },
+ {
+  "id": "bas44",
+  "kind": "text",
+  "tr": "Baş dönmem geçti ama yeniden başladı, normal mi?"
+ },
+ {
+  "id": "bas45",
+  "kind": "text",
+  "tr": "BPPV tekrarlayabilir. Belirtiler aynıysa aynı manevra genellikle yine işe yarar. Sık tekrarlıyorsa ya da belirtiler değiştiyse yeniden değerlendirilmeniz gerekir; kılavuz tedaviden sonra bir ay içinde yeniden değerlendirme öneriyor."
+ },
+ {
+  "id": "bas46",
+  "kind": "text",
+  "tr": "Hangi kulağımın etkilendiğini nasıl bilebilirim?"
+ },
+ {
+  "id": "bas47",
+  "kind": "text",
+  "tr": "Kesin olarak Dix-Hallpike testiyle anlaşılır. Etkilenen kulak tarafına dönerek yatınca baş dönmesi genellikle daha belirgin olur, ama bu tek başına yeterli değildir. Yanlış tarafa yapılan manevra işe yaramaz; bu yüzden ilk değerlendirmenin bir uzman tarafından yapılması önerilir."
+ },
+ {
+  "id": "bas48",
+  "kind": "text",
+  "tr": "Manevradan sonra dik oturmam ya da başımı hareket ettirmemem gerekiyor mu?"
+ },
+ {
+  "id": "bas49",
+  "kind": "text",
+  "tr": "Hayır. Kılavuz, manevradan sonra hareket kısıtlaması önermiyor; bu tür kısıtlamaların sonuca ek bir katkısı gösterilmedi."
+ },
+ {
+  "id": "bas50",
+  "kind": "text",
+  "tr": "Baş dönmesi ilacı kullanmalı mıyım?"
+ },
+ {
+  "id": "bas51",
+  "kind": "text",
+  "tr": "Genellikle hayır. Kılavuz, baş dönmesi ilaçlarının BPPV'de rutin olarak kullanılmamasını öneriyor; bu ilaçlar kristalleri yerine götürmez. Şiddetli bulantıda kısa süreli kullanım için hekiminize danışabilirsiniz."
+ },
+ {
+  "id": "bas52",
+  "kind": "text",
+  "tr": "Şu durumlarda baş dönmesi BPPV'den değil, inme (felç) gibi acil bir durumdan kaynaklanıyor olabilir. Beklemeden <strong>112</strong>'yi arayın:"
+ },
+ {
+  "id": "bas53",
+  "kind": "text",
+  "tr": "Baş dönmesiyle birlikte konuşma bozukluğu, yüzde kayma, kol ya da bacakta güçsüzlük veya uyuşma"
+ },
+ {
+  "id": "bas54",
+  "kind": "text",
+  "tr": "Çift görme ya da yutma güçlüğü"
+ },
+ {
+  "id": "bas55",
+  "kind": "text",
+  "tr": "Ani ve çok şiddetli baş ya da boyun ağrısı"
+ },
+ {
+  "id": "bas56",
+  "kind": "text",
+  "tr": "Yürüyememe, ayakta duramama"
+ },
+ {
+  "id": "bas57",
+  "kind": "text",
+  "tr": "Baş pozisyonundan bağımsız, saatlerce ya da günlerce kesintisiz süren baş dönmesi"
+ },
+ {
+  "id": "bas58",
+  "kind": "text",
+  "tr": "Ani işitme kaybı"
+ },
+ {
+  "id": "bas59",
+  "kind": "text",
+  "tr": "Baş dönmeniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "bas60",
+  "kind": "wa",
+  "tr": "Merhaba, pozisyonel baş dönmesi (BPPV) için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "bas61",
+  "kind": "text",
+  "tr": "Hilton MP, Pinder DK. <a href=\"https://www.cochrane.org/evidence/CD003162_epley-manoeuvre-benign-paroxysmal-positional-vertigo-bppv\" target=\"_blank\" rel=\"noopener\">The Epley (canalith repositioning) manoeuvre for benign paroxysmal positional vertigo</a>. Cochrane Database Syst Rev. 2014;(12):CD003162."
+ },
+ {
+  "id": "bas62",
+  "kind": "text",
+  "tr": "Johns Hopkins Medicine. <a href=\"https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/home-epley-maneuver\" target=\"_blank\" rel=\"noopener\">Home Epley maneuver</a>."
+ },
+ {
+  "id": "bas63",
+  "kind": "ld",
+  "tr": "Benign paroksismal pozisyonel vertigo (BPPV)"
+ }
+]

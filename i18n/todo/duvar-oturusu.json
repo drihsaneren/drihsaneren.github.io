@@ -1,0 +1,332 @@
+[
+ {
+  "id": "duv0",
+  "kind": "text",
+  "tr": "Tansiyon İçin Duvar Oturuşu: İzometrik Egzersiz Zamanlayıcı | İhsan Eren"
+ },
+ {
+  "id": "duv1",
+  "kind": "attr",
+  "tr": "270 çalışmalık analizde tansiyonu en çok düşüren egzersiz türü izometrik egzersizler çıktı. Duvar oturuşu nasıl yapılır, kimler dikkat etmeli? Zamanlayıcıyla birlikte yapın."
+ },
+ {
+  "id": "duv2",
+  "kind": "text",
+  "tr": "Tansiyon için duvar oturuşu"
+ },
+ {
+  "id": "duv3",
+  "kind": "text",
+  "tr": "270 çalışmayı bir araya getiren büyük bir analizde, tansiyonu en çok düşüren egzersiz türü koşu ya da bisiklet değil, duvara yaslanıp hareketsiz beklemek gibi “izometrik” egzersizler çıktı. Haftada 3 gün, seans başına yaklaşık 14 dakika. Aşağıdaki zamanlayıcıyla birlikte yapabilirsiniz."
+ },
+ {
+  "id": "duv4",
+  "kind": "text",
+  "tr": "İzometrik egzersizle büyük ve küçük tansiyonda ortalama düşüş (mmHg)"
+ },
+ {
+  "id": "duv5",
+  "kind": "text",
+  "tr": "4 × 2 dk"
+ },
+ {
+  "id": "duv6",
+  "kind": "text",
+  "tr": "Bir seans: 2 dakika duvar oturuşu, 2 dakika dinlenme, 4 tur"
+ },
+ {
+  "id": "duv7",
+  "kind": "text",
+  "tr": "Haftada 3"
+ },
+ {
+  "id": "duv8",
+  "kind": "text",
+  "tr": "Araştırmalarda kullanılan seans sayısı; aralarda birer gün dinlenme"
+ },
+ {
+  "id": "duv9",
+  "kind": "text",
+  "tr": "İlaç çalışmalarında büyük tansiyondaki her 5 mmHg düşüşle azalan ciddi kalp-damar olayı riski"
+ },
+ {
+  "id": "duv10",
+  "kind": "text",
+  "tr": "Araştırma ne buldu?"
+ },
+ {
+  "id": "duv11",
+  "kind": "text",
+  "tr": "Egzersiz türüne göre tansiyondaki ortalama düşüş"
+ },
+ {
+  "id": "duv12",
+  "kind": "text",
+  "tr": "1990–2023 arasında yayımlanan 270 randomize çalışma ve 15.827 katılımcı. Egzersiz yapmayanlarla karşılaştırıldığında dinlenme tansiyonundaki ortalama düşüş (mmHg):"
+ },
+ {
+  "id": "duv13",
+  "kind": "attr",
+  "tr": "Tansiyon türü"
+ },
+ {
+  "id": "duv14",
+  "kind": "text",
+  "tr": "Büyük tansiyon"
+ },
+ {
+  "id": "duv15",
+  "kind": "text",
+  "tr": "Küçük tansiyon"
+ },
+ {
+  "id": "duv16",
+  "kind": "text",
+  "tr": "Aerobik (yürüyüş, koşu, bisiklet)"
+ },
+ {
+  "id": "duv17",
+  "kind": "text",
+  "tr": "Direnç (ağırlık, lastik bant)"
+ },
+ {
+  "id": "duv18",
+  "kind": "text",
+  "tr": "Aerobik ve direnç birlikte"
+ },
+ {
+  "id": "duv19",
+  "kind": "text",
+  "tr": "Yüksek yoğunluklu aralıklı (HIIT)"
+ },
+ {
+  "id": "duv20",
+  "kind": "text",
+  "tr": "İzometrik (duvar oturuşu gibi)"
+ },
+ {
+  "id": "duv21",
+  "kind": "text",
+  "tr": "Tek tek egzersizler arasında büyük tansiyon için en etkili bulunan duvar oturuşu, küçük tansiyon için ise koşu oldu. Tüm egzersiz türleri tansiyonu anlamlı şekilde düşürdü; yani en iyi egzersiz, düzenli yapabildiğinizdir."
+ },
+ {
+  "id": "duv22",
+  "kind": "text",
+  "tr": "Birlikte yapalım"
+ },
+ {
+  "id": "duv23",
+  "kind": "text",
+  "tr": "Duvar oturuşu zamanlayıcısı"
+ },
+ {
+  "id": "duv24",
+  "kind": "text",
+  "tr": "Araştırmalardaki program: 2 dakika duvar oturuşu, 2 dakika dinlenme, 4 tur; haftada 3 gün. İlk günlerde alışmak için 1 dakikalık turlarla başlayabilirsiniz."
+ },
+ {
+  "id": "duv25",
+  "kind": "text",
+  "tr": "Duvar oturuşu"
+ },
+ {
+  "id": "duv26",
+  "kind": "attr",
+  "tr": "Tur süresi"
+ },
+ {
+  "id": "duv27",
+  "kind": "text",
+  "tr": "2 dakika"
+ },
+ {
+  "id": "duv28",
+  "kind": "text",
+  "tr": "1 dakika (başlangıç)"
+ },
+ {
+  "id": "duv29",
+  "kind": "text",
+  "tr": "Tur 1 / 4"
+ },
+ {
+  "id": "duv30",
+  "kind": "text",
+  "tr": "Başlat'a basınca 10 saniyelik hazırlanma süresi başlar."
+ },
+ {
+  "id": "duv31",
+  "kind": "text",
+  "tr": "Sıfırla"
+ },
+ {
+  "id": "duv32",
+  "kind": "text",
+  "tr": "Tur {i} / 4"
+ },
+ {
+  "id": "duv33",
+  "kind": "text",
+  "tr": "Sırtınızı duvara yaslayın, ayaklarınızı duvardan öne alın ve pozisyonunuzu seçin."
+ },
+ {
+  "id": "duv34",
+  "kind": "text",
+  "tr": "Sırtınız duvarda, dizleriniz ayak bileklerinizin üzerinde. Nefesinizi tutmayın; normal nefes alıp verin."
+ },
+ {
+  "id": "duv35",
+  "kind": "text",
+  "tr": "Yarısı bitti. Nefesinizi tutmayın."
+ },
+ {
+  "id": "duv36",
+  "kind": "text",
+  "tr": "Dinlenin"
+ },
+ {
+  "id": "duv37",
+  "kind": "text",
+  "tr": "Ayağa kalkın, bacaklarınızı hafifçe sallayın ve rahat nefes alın."
+ },
+ {
+  "id": "duv38",
+  "kind": "text",
+  "tr": "Bu turun sonunda hedef zorlanma: 10 üzerinden yaklaşık {r}"
+ },
+ {
+  "id": "duv39",
+  "kind": "text",
+  "tr": "Harika, bugünkü seansınızı tamamladınız. Bir sonraki seans için bir gün ara verin."
+ },
+ {
+  "id": "duv40",
+  "kind": "text",
+  "tr": "Ekran, seans sürerken kapanmayacak şekilde ayarlanır (tarayıcınız destekliyorsa)."
+ },
+ {
+  "id": "duv41",
+  "kind": "text",
+  "tr": "Doğru derinlik nasıl seçilir?"
+ },
+ {
+  "id": "duv42",
+  "kind": "text",
+  "tr": "Evde yapılan bir çalışmada katılımcılar derinliği zorlanma hissine göre seçti ve 4 hafta sonunda büyük tansiyonda ortalama 9 mmHg düşüş ölçüldü. Hedef: 4 turun sonunda zorlanma, 10 üzerinden sırasıyla yaklaşık 4, 5,5, 7 ve 8,5 olsun. Yani ilk tur rahat, son tur zor ama tamamlanabilir."
+ },
+ {
+  "id": "duv43",
+  "kind": "text",
+  "tr": "Sırtınızı duvara yaslayın, ayaklarınız kalça genişliğinde açık ve duvardan yaklaşık iki ayak boyu önde olsun."
+ },
+ {
+  "id": "duv44",
+  "kind": "text",
+  "tr": "Sırtınız duvarda kayarak inin. Dizleriniz ayak bileklerinizin üzerinde kalsın, ayak parmaklarınızı geçmesin."
+ },
+ {
+  "id": "duv45",
+  "kind": "text",
+  "tr": "Uyluklarınız yere paralelden aşağı inmesin; daha yüksekte kalmak da işe yarar."
+ },
+ {
+  "id": "duv46",
+  "kind": "text",
+  "tr": "Tur çok kolay geliyorsa biraz daha aşağı, bitiremiyorsanız biraz daha yukarı konum seçin."
+ },
+ {
+  "id": "duv47",
+  "kind": "text",
+  "tr": "<strong>Nefesinizi tutmayın.</strong> Ikınmak tansiyonu geçici olarak yükseltir. Tur boyunca normal nefes alıp verin, isterseniz sesli sayın."
+ },
+ {
+  "id": "duv48",
+  "kind": "text",
+  "tr": "Tansiyonunuz kontrol altında değilse (örneğin 180/110 mmHg ve üzeri) önce hekiminize danışın."
+ },
+ {
+  "id": "duv49",
+  "kind": "text",
+  "tr": "Kalp hastalığı, ritim bozukluğu, anevrizma, yakın zamanda geçirilmiş kalp krizi ya da inme, göz dibi hastalığı varsa ya da gebeyseniz önce hekiminize danışın."
+ },
+ {
+  "id": "duv50",
+  "kind": "text",
+  "tr": "Diz ağrınız varsa daha yüksek bir konumda kalın; ağrı artıyorsa durun."
+ },
+ {
+  "id": "duv51",
+  "kind": "text",
+  "tr": "Tansiyon ilacınızı kendi başınıza bırakmayın ya da azaltmayın; egzersiz tedavinin yanına eklenir."
+ },
+ {
+  "id": "duv52",
+  "kind": "text",
+  "tr": "<strong>Hemen durun:</strong> Göğüs ağrısı, baş dönmesi, çarpıntı ya da alışılmadık nefes darlığı olursa egzersizi bırakın; geçmiyorsa 112'yi arayın."
+ },
+ {
+  "id": "duv53",
+  "kind": "text",
+  "tr": "Hareketsiz bir egzersiz tansiyonu nasıl düşürüyor?"
+ },
+ {
+  "id": "duv54",
+  "kind": "text",
+  "tr": "Mekanizma tam olarak bilinmiyor. Evde yapılan bir çalışmada tansiyondaki düşüş, çoğunlukla dinlenme nabzındaki ve kalbin dakikada pompaladığı kan miktarındaki azalmayla ilişkiliydi. Kasılma sırasında sıkışan damarların bırakınca genişlemesinin damar sağlığına etkisi de araştırılıyor."
+ },
+ {
+  "id": "duv55",
+  "kind": "text",
+  "tr": "Tansiyon ilacı kullanıyorum, yapabilir miyim?"
+ },
+ {
+  "id": "duv56",
+  "kind": "text",
+  "tr": "Çoğu kişi yapabilir, ama önce hekiminize danışın ve ilacınızı kendi başınıza bırakmayın ya da azaltmayın. Egzersiz tedavinin yerine değil, yanına eklenir. Evde tansiyonunuzu düzenli ölçüp sonuçları hekiminizle paylaşın."
+ },
+ {
+  "id": "duv57",
+  "kind": "text",
+  "tr": "Yürüyüşü bırakıp sadece duvar oturuşu mu yapmalıyım?"
+ },
+ {
+  "id": "duv58",
+  "kind": "text",
+  "tr": "Hayır. Analizde tüm egzersiz türleri tansiyonu düşürdü. Yürüyüş gibi aerobik egzersiz kalp, kilo, kan şekeri ve ruh sağlığı için de önemlidir. Duvar oturuşu, haftalık hareketinize eklenebilecek kısa ve etkili bir parçadır."
+ },
+ {
+  "id": "duv59",
+  "kind": "text",
+  "tr": "Ne kadar sürede etkisini görürüm?"
+ },
+ {
+  "id": "duv60",
+  "kind": "text",
+  "tr": "Evde yapılan küçük çalışmalarda 4 haftalık programın sonunda büyük tansiyonda ortalama 4 ile 9 mmHg arasında düşüşler ölçüldü. Etkinin sürmesi için egzersize devam etmek gerekir."
+ },
+ {
+  "id": "duv61",
+  "kind": "text",
+  "tr": "Tansiyonunuza ve eklemlerinize uygun bir egzersiz programı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "duv62",
+  "kind": "wa",
+  "tr": "Merhaba, tansiyona uygun egzersiz programı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "duv63",
+  "kind": "text",
+  "tr": "Yere oturup kalkabiliyor musunuz?"
+ },
+ {
+  "id": "duv64",
+  "kind": "ld",
+  "tr": "İzometrik egzersiz"
+ },
+ {
+  "id": "duv65",
+  "kind": "ld",
+  "tr": "Yüksek tansiyon (hipertansiyon)"
+ }
+]

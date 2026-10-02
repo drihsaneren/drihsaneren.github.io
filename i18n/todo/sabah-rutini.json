@@ -1,0 +1,332 @@
+[
+ {
+  "id": "sab0",
+  "kind": "text",
+  "tr": "Güne 5 Dakikayla Başlayın: Sabah Hareket Rutini | İhsan Eren"
+ },
+ {
+  "id": "sab1",
+  "kind": "attr",
+  "tr": "Yatakta başlayıp ayakta biten dokuz hareketlik, yaklaşık 5 dakikalık sabah rutini. Ekrandaki zamanlayıcıyla birlikte yapın; sabah tutukluğunu açın, güne hareketle başlayın."
+ },
+ {
+  "id": "sab2",
+  "kind": "text",
+  "tr": "Güne 5 dakikayla başlayın"
+ },
+ {
+  "id": "sab3",
+  "kind": "text",
+  "tr": "Yatakta başlayıp ayakta biten dokuz hareket. Her hareket 30 saniye; ekrandaki zamanlayıcı sizi hareketten harekete götürür. Sabah tutukluğunu açmak ve güne hareketle başlamak için kısa, sade bir rutin."
+ },
+ {
+  "id": "sab4",
+  "kind": "text",
+  "tr": "Yatakta sırtüstü. Bir dizinizi iki elinizle göğsünüze doğru çekin; yarı sürede diğer bacağa geçin."
+ },
+ {
+  "id": "sab5",
+  "kind": "text",
+  "tr": "Dizler bükülü, ayaklar yatakta. Kalçanızı yavaşça kaldırıp indirin."
+ },
+ {
+  "id": "sab6",
+  "kind": "text",
+  "tr": "Eller ve dizler üzerinde. Sırtınızı yavaşça yuvarlayıp çukurlaştırın."
+ },
+ {
+  "id": "sab7",
+  "kind": "text",
+  "tr": "Hafifçe öne eğilip kalkın, kontrollü şekilde oturun."
+ },
+ {
+  "id": "sab8",
+  "kind": "text",
+  "tr": "Eller belde. Kalçayı hafifçe öne itip rahat ettiğiniz kadar geriye esneyin."
+ },
+ {
+  "id": "sab9",
+  "kind": "text",
+  "tr": "Omuzları kaldırmadan kürek kemiklerini geriye ve aşağıya yaklaştırın."
+ },
+ {
+  "id": "sab10",
+  "kind": "text",
+  "tr": "Başınızı yavaşça bir sağa bir sola çevirin."
+ },
+ {
+  "id": "sab11",
+  "kind": "text",
+  "tr": "Bir yere hafifçe tutunun. Parmak uçlarına yükselip yavaşça inin."
+ },
+ {
+  "id": "sab12",
+  "kind": "text",
+  "tr": "Tutunarak bir ayağınızı kaldırın; yarı sürede ayak değiştirin."
+ },
+ {
+  "id": "sab13",
+  "kind": "text",
+  "tr": "Sesli uyarı"
+ },
+ {
+  "id": "sab14",
+  "kind": "text",
+  "tr": "Toplam yaklaşık 5 dakika. Her hareketten önce 5 saniyelik hazırlanma süresi var."
+ },
+ {
+  "id": "sab15",
+  "kind": "text",
+  "tr": "Hazırlanın"
+ },
+ {
+  "id": "sab16",
+  "kind": "text",
+  "tr": "Sıradaki hareket"
+ },
+ {
+  "id": "sab17",
+  "kind": "text",
+  "tr": "Hareket"
+ },
+ {
+  "id": "sab18",
+  "kind": "text",
+  "tr": "Diğer tarafa geçin"
+ },
+ {
+  "id": "sab19",
+  "kind": "text",
+  "tr": "Duraklatıldı"
+ },
+ {
+  "id": "sab20",
+  "kind": "text",
+  "tr": "Tamamlandı"
+ },
+ {
+  "id": "sab21",
+  "kind": "text",
+  "tr": "Harika, bugünkü rutininizi tamamladınız. Yarın aynı saatte tekrar etmeye ne dersiniz?"
+ },
+ {
+  "id": "sab22",
+  "kind": "text",
+  "tr": "Duraklat"
+ },
+ {
+  "id": "sab23",
+  "kind": "text",
+  "tr": "Devam et"
+ },
+ {
+  "id": "sab24",
+  "kind": "text",
+  "tr": "Baştan başla"
+ },
+ {
+  "id": "sab25",
+  "kind": "text",
+  "tr": "Ekran, rutin sürerken kapanmayacak şekilde ayarlanır (tarayıcınız destekliyorsa). Ses uyarısı her hareketin başında ve iki taraflı hareketlerde yarı sürede çalar."
+ },
+ {
+  "id": "sab26",
+  "kind": "text",
+  "tr": "Güvenle yapmak için"
+ },
+ {
+  "id": "sab27",
+  "kind": "text",
+  "tr": "Hareketleri acele etmeden, rahat olduğunuz aralıkta yapın. Amaç zorlamak değil, bedeni uyandırmak."
+ },
+ {
+  "id": "sab28",
+  "kind": "text",
+  "tr": "Yataktan kalkarken önce yan dönüp oturun, birkaç saniye bekleyin, sonra ayağa kalkın."
+ },
+ {
+  "id": "sab29",
+  "kind": "text",
+  "tr": "Ayakta yapılan hareketlerde bir tezgâha ya da sağlam bir sandalyeye yakın durun."
+ },
+ {
+  "id": "sab30",
+  "kind": "text",
+  "tr": "Bir hareket ağrınızı belirgin şekilde artırıyorsa onu atlayın."
+ },
+ {
+  "id": "sab31",
+  "kind": "text",
+  "tr": "Baş dönmesi, göğüs ağrısı ya da nefes darlığı olursa durun."
+ },
+ {
+  "id": "sab32",
+  "kind": "text",
+  "tr": "Kemik erimesi tanınız varsa öne eğilme içeren hareketler (dizi göğse çekme, kedi-deve) için önce fizyoterapistinize danışın."
+ },
+ {
+  "id": "sab33",
+  "kind": "text",
+  "tr": "Rutindeki hareketler"
+ },
+ {
+  "id": "sab34",
+  "kind": "text",
+  "tr": "Dokuz hareket, adım adım"
+ },
+ {
+  "id": "sab35",
+  "kind": "text",
+  "tr": "Zamanlayıcıyı kullanmadan da yapabilirsiniz. Sıra, yatakta başlayıp ayakta bitecek şekilde düzenlendi."
+ },
+ {
+  "id": "sab36",
+  "kind": "text",
+  "tr": "Yatakta sırtüstü uzanın. Bir dizinizi iki elinizle tutup göğsünüze doğru yavaşça çekin, belinizde hafif bir gerilme hissedin. Nefesinizi tutmayın. Yarı sürede diğer bacağa geçin."
+ },
+ {
+  "id": "sab37",
+  "kind": "text",
+  "tr": "Her iki tarafa 15'er saniye"
+ },
+ {
+  "id": "sab38",
+  "kind": "text",
+  "tr": "Sırtüstü, dizleriniz bükülü ve ayaklarınız yatakta olsun. Kalçanızı sıkarak yavaşça kaldırın, 2–3 saniye bekleyip indirin. Belinizi aşırı çukurlaştırmadan, rahat bir yükseklikte kalın."
+ },
+ {
+  "id": "sab39",
+  "kind": "text",
+  "tr": "30 saniye"
+ },
+ {
+  "id": "sab40",
+  "kind": "text",
+  "tr": "Ellerinizin ve dizlerinizin üzerine gelin. Nefes verirken sırtınızı kedi gibi yukarı yuvarlayın, nefes alırken belinizi hafifçe çukurlaştırıp başınızı kaldırın. Acele etmeden, rahat aralıkta hareket edin."
+ },
+ {
+  "id": "sab41",
+  "kind": "text",
+  "tr": "Sağlam bir sandalyenin önüne oturun, ayaklarınız yere tam bassın. Hafifçe öne eğilerek ayağa kalkın, tamamen doğrulun, sonra kontrollü şekilde oturun. Gerekirse ellerinizden destek alın."
+ },
+ {
+  "id": "sab42",
+  "kind": "text",
+  "tr": "Ayaklarınız omuz genişliğinde açık dururken ellerinizi belinizin arkasına koyun. Kalçanızı hafifçe öne iterek gövdenizi rahat ettiğiniz kadar geriye esnetin, sonra doğrulun. Başınızın dönmemesi için yavaş yapın."
+ },
+ {
+  "id": "sab43",
+  "kind": "text",
+  "tr": "Dik durun. Omuzlarınızı kulaklarınıza kaldırmadan kürek kemiklerinizi geriye ve biraz aşağıya doğru birbirine yaklaştırın, 3 saniye tutup bırakın."
+ },
+ {
+  "id": "sab44",
+  "kind": "text",
+  "tr": "Omuzlarınızı sabit tutun. Başınızı yavaşça sağa çevirin, rahat olan son noktada kısa bir süre bekleyin, sonra sola çevirin. Baş dönmesi olursa yavaşlayın ya da bırakın."
+ },
+ {
+  "id": "sab45",
+  "kind": "text",
+  "tr": "Mutfak tezgâhına ya da sağlam bir sandalyenin arkasına hafifçe tutunun. Parmak uçlarınıza yükselin, bir an bekleyip yavaşça inin. Baldır kaslarını ısıtır, dengeye yardım eder."
+ },
+ {
+  "id": "sab46",
+  "kind": "text",
+  "tr": "Tezgâhın önünde dik durun, bir ya da iki elinizle hafifçe tutunun. Bir ayağınızı yerden kaldırıp dengede kalın; yarı sürede diğer ayağa geçin. Kolaylaştıkça tek elle, sonra parmak ucuyla tutunun."
+ },
+ {
+  "id": "sab47",
+  "kind": "text",
+  "tr": "Sabah için hareket videoları"
+ },
+ {
+  "id": "sab48",
+  "kind": "attr",
+  "tr": "Uyanma ve duruş rutini videosunu oynat"
+ },
+ {
+  "id": "sab49",
+  "kind": "text",
+  "tr": "2–3 dakikalık uyanma ve duruş rutini"
+ },
+ {
+  "id": "sab50",
+  "kind": "text",
+  "tr": "Bir havlu ya da sopa yardımıyla omuzları ve sırtı açan kısa bir sabah rutini."
+ },
+ {
+  "id": "sab51",
+  "kind": "attr",
+  "tr": "5 dakikalık günlük germe videosunu oynat"
+ },
+ {
+  "id": "sab52",
+  "kind": "text",
+  "tr": "Her gün 5 dakika germe"
+ },
+ {
+  "id": "sab53",
+  "kind": "text",
+  "tr": "30 günlük bir alışkanlık olarak hazırlanmış, her gün yapılabilecek kısa bir germe programı."
+ },
+ {
+  "id": "sab54",
+  "kind": "text",
+  "tr": "Sabah mı egzersiz yapmalıyım, akşam mı?"
+ },
+ {
+  "id": "sab55",
+  "kind": "text",
+  "tr": "Herkes için tek bir en iyi saat yok. En iyi zaman, düzenli olarak yapabildiğiniz zamandır. Sabah yapılan kısa bir rutin güne hareketle başlamayı kolaylaştırır; akşam yapmayı tercih ediyorsanız bu da işe yarar."
+ },
+ {
+  "id": "sab56",
+  "kind": "text",
+  "tr": "Her gün yapabilir miyim?"
+ },
+ {
+  "id": "sab57",
+  "kind": "text",
+  "tr": "Evet. Bu rutindeki hareketler hafif ve kontrollüdür; her gün yapılabilir. Hareketleri rahat olduğunuz aralıkta yapın. Bir hareket ağrınızı belirgin şekilde artırıyorsa onu atlayın."
+ },
+ {
+  "id": "sab58",
+  "kind": "text",
+  "tr": "Sabahları çok tutuk kalkıyorum, bu normal mi?"
+ },
+ {
+  "id": "sab59",
+  "kind": "text",
+  "tr": "Uyandıktan sonra kısa süren tutukluk, özellikle kireçlenmede sık görülür ve hareket ettikçe açılır. Tutukluk yarım saatten uzun sürüyorsa, eklemlerde şişlik ve kızarıklık varsa ya da gece ağrısıyla uyanıyorsanız iltihaplı bir romatizmal hastalık açısından hekime başvurun."
+ },
+ {
+  "id": "sab60",
+  "kind": "text",
+  "tr": "Bu rutin spor yerine geçer mi?"
+ },
+ {
+  "id": "sab61",
+  "kind": "text",
+  "tr": "Hayır, bu rutin bir ısınma ve hareketlenme alışkanlığıdır. Dünya Sağlık Örgütü yetişkinler için haftada 150–300 dakika orta yoğunlukta hareket ve en az 2 gün kas güçlendirme öneriyor. Ayrıntılar için Ne kadar hareket yeterli? sayfasına bakabilirsiniz."
+ },
+ {
+  "id": "sab62",
+  "kind": "text",
+  "tr": "Sabah tutukluğunuz ya da ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "sab63",
+  "kind": "wa",
+  "tr": "Merhaba, sabah tutukluğu ve ağrı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "sab64",
+  "kind": "text",
+  "tr": "Ne kadar hareket yeterli?"
+ },
+ {
+  "id": "sab65",
+  "kind": "ld",
+  "tr": "Sabah hareket rutini"
+ }
+]

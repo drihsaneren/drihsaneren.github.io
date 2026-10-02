@@ -1,0 +1,337 @@
+[
+ {
+  "id": "uyk0",
+  "kind": "text",
+  "tr": "İyi Uyku İçin: Uyku Süresi, Kafein, Ağrı ve Yatma Saati Planlayıcı | İhsan Eren"
+ },
+ {
+  "id": "uyk1",
+  "kind": "attr",
+  "tr": "Yetişkinler kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Kronik uykusuzlukta ilk tercih tedavi, iyi uyku alışkanlıkları ve yatma saati planlayıcı."
+ },
+ {
+  "id": "uyk2",
+  "kind": "text",
+  "tr": "İyi uyku için"
+ },
+ {
+  "id": "uyk3",
+  "kind": "text",
+  "tr": "Uyku, iyileşmenin en az konuşulan parçası. Kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Aşağıdaki planlayıcıyla kendi yatma saatinizi de hesaplayın."
+ },
+ {
+  "id": "uyk4",
+  "kind": "text",
+  "tr": "7+ saat"
+ },
+ {
+  "id": "uyk5",
+  "kind": "text",
+  "tr": "Yetişkinler için önerilen gecelik uyku süresi"
+ },
+ {
+  "id": "uyk6",
+  "kind": "text",
+  "tr": "1 saatten fazla"
+ },
+ {
+  "id": "uyk7",
+  "kind": "text",
+  "tr": "Yatmadan 6 saat önce alınan yüksek doz kafeinin kısalttığı uyku süresi"
+ },
+ {
+  "id": "uyk8",
+  "kind": "text",
+  "tr": "İki yönlü"
+ },
+ {
+  "id": "uyk9",
+  "kind": "text",
+  "tr": "Uyku ile ağrı arasındaki ilişki: biri bozulunca diğeri de etkilenir"
+ },
+ {
+  "id": "uyk10",
+  "kind": "text",
+  "tr": "İlk tercih"
+ },
+ {
+  "id": "uyk11",
+  "kind": "text",
+  "tr": "Kronik uykusuzlukta ilaçtan önce önerilen bilişsel davranışçı terapi"
+ },
+ {
+  "id": "uyk12",
+  "kind": "text",
+  "tr": "Yatma saati planlayıcı"
+ },
+ {
+  "id": "uyk13",
+  "kind": "text",
+  "tr": "Sabah kalkmanız gereken saati ve hedeflediğiniz uyku süresini seçin. Planlayıcı, uykuya dalmak için yaklaşık 15 dakikalık bir pay bırakır."
+ },
+ {
+  "id": "uyk14",
+  "kind": "text",
+  "tr": "Kalkış saatiniz"
+ },
+ {
+  "id": "uyk15",
+  "kind": "text",
+  "tr": "Hedeflediğiniz uyku süresi"
+ },
+ {
+  "id": "uyk16",
+  "kind": "text",
+  "tr": "7 saat"
+ },
+ {
+  "id": "uyk17",
+  "kind": "text",
+  "tr": "7,5 saat"
+ },
+ {
+  "id": "uyk18",
+  "kind": "text",
+  "tr": "8 saat"
+ },
+ {
+  "id": "uyk19",
+  "kind": "text",
+  "tr": "8,5 saat"
+ },
+ {
+  "id": "uyk20",
+  "kind": "text",
+  "tr": "9 saat"
+ },
+ {
+  "id": "uyk21",
+  "kind": "text",
+  "tr": "Yetişkinler için önerilen süre gecede 7 saat ve üstüdür."
+ },
+ {
+  "id": "uyk22",
+  "kind": "text",
+  "tr": "Yatağa girme saati"
+ },
+ {
+  "id": "uyk23",
+  "kind": "text",
+  "tr": "Işıkları azaltıp ekranları bırakma: yatmadan yaklaşık 1 saat önce"
+ },
+ {
+  "id": "uyk24",
+  "kind": "text",
+  "tr": "Son kahve ya da çay: yatmadan en az 6 saat önce"
+ },
+ {
+  "id": "uyk25",
+  "kind": "text",
+  "tr": "Hafta sonu dahil her gün aynı saatte kalkmak, uyku düzenini oturtmanın en etkili yollarından biridir."
+ },
+ {
+  "id": "uyk26",
+  "kind": "text",
+  "tr": "Uyku ve ağrı"
+ },
+ {
+  "id": "uyk27",
+  "kind": "text",
+  "tr": "Uyku ile ağrı birbirini besler: ağrı uykuyu böler, kötü uyku da ağrıya duyarlılığı artırır. Sağlıklı gönüllülerde tek bir gece uykusuz kalmanın bile ağrıya duyarlılığı artırdığı gösterildi. Bu yüzden bel, boyun ya da eklem ağrısıyla yaşayan biri için uykuyu iyileştirmek, tedavinin bir parçasıdır."
+ },
+ {
+  "id": "uyk28",
+  "kind": "text",
+  "tr": "Yan yatıyorsanız dizlerinizin arasına bir yastık koymak bel ve kalçayı rahatlatabilir."
+ },
+ {
+  "id": "uyk29",
+  "kind": "text",
+  "tr": "Sırtüstü yatıyorsanız dizlerinizin altına bir yastık koymak belinizi rahatlatabilir."
+ },
+ {
+  "id": "uyk30",
+  "kind": "text",
+  "tr": "Başınızı omuz hizasında tutan bir yastık yüksekliği seçin; ayrıntılar <a href=\"boyun-agrisi.html\">boyun ağrısı</a> rehberinde."
+ },
+ {
+  "id": "uyk31",
+  "kind": "text",
+  "tr": "Ağrı sizi her gece uyandırıyorsa ya da dinlenmekle geçmiyorsa bir hekime başvurun."
+ },
+ {
+  "id": "uyk32",
+  "kind": "text",
+  "tr": "İyi uyku için alışkanlıklar"
+ },
+ {
+  "id": "uyk33",
+  "kind": "text",
+  "tr": "Bu alışkanlıklar tek başına kronik uykusuzluğu her zaman çözmez, ama iyi bir temel oluşturur."
+ },
+ {
+  "id": "uyk34",
+  "kind": "text",
+  "tr": "Aynı saatte kalkın"
+ },
+ {
+  "id": "uyk35",
+  "kind": "text",
+  "tr": "Hafta sonu da dahil her gün aynı saatte kalkın. Sabah gün ışığına çıkmak iç saatinizi ayarlar."
+ },
+ {
+  "id": "uyk36",
+  "kind": "text",
+  "tr": "Yatak uyku içindir"
+ },
+ {
+  "id": "uyk37",
+  "kind": "text",
+  "tr": "Yaklaşık 20 dakikada uyuyamazsanız kalkın, loş ışıkta sakin bir şeyle uğraşın; uykunuz gelince dönün."
+ },
+ {
+  "id": "uyk38",
+  "kind": "text",
+  "tr": "Kafeini erken bırakın"
+ },
+ {
+  "id": "uyk39",
+  "kind": "text",
+  "tr": "Kahve ve çayı öğleden sonranın erken saatlerinde bırakın; kafein saatlerce etkisini sürdürür."
+ },
+ {
+  "id": "uyk40",
+  "kind": "text",
+  "tr": "Gün içinde hareket edin"
+ },
+ {
+  "id": "uyk41",
+  "kind": "text",
+  "tr": "Düzenli hareket, gün ışığı ve kısa tutulan öğle uykuları gece uykusunu destekler. <a href=\"sabah-rutini.html\">Sabah rutini</a> iyi bir başlangıç olabilir."
+ },
+ {
+  "id": "uyk42",
+  "kind": "text",
+  "tr": "Yatmadan önce zihniniz meşgulse <a href=\"stres.html\">nefes egzersizleri</a> yardımcı olabilir."
+ },
+ {
+  "id": "uyk43",
+  "kind": "text",
+  "tr": "Uyku neden bu kadar önemli?"
+ },
+ {
+  "id": "uyk44",
+  "kind": "text",
+  "tr": "Uyku bilimci Matt Walker'ın, uykunun öğrenme, bağışıklık ve kalp sağlığındaki rolünü anlattığı çok izlenen TED konuşması. Konuşma İngilizcedir; oynatıcının altyazı ayarlarından Türkçe altyazı seçebilirsiniz."
+ },
+ {
+  "id": "uyk45",
+  "kind": "attr",
+  "tr": "Uyku TED konuşmasını oynat"
+ },
+ {
+  "id": "uyk46",
+  "kind": "text",
+  "tr": "Uyku sizin süper gücünüz"
+ },
+ {
+  "id": "uyk47",
+  "kind": "text",
+  "tr": "Konuşmadaki bazı çarpıcı ifadeler bilim insanları arasında tartışılıyor; temel mesajı olan düzenli ve yeterli uykunun önemi ise geniş kabul görüyor."
+ },
+ {
+  "id": "uyk48",
+  "kind": "text",
+  "tr": "Yetişkinler kaç saat uyumalı?"
+ },
+ {
+  "id": "uyk49",
+  "kind": "text",
+  "tr": "Amerikan Uyku Tıbbı Akademisi ile Uyku Araştırmaları Derneği'nin ortak önerisine göre 18–60 yaş arasındaki yetişkinler düzenli olarak gecede 7 saat ya da daha fazla uyumalı. Gecede 9 saatten uzun uykunun sağlık riskiyle ilişkili olup olmadığı ise belirsiz."
+ },
+ {
+  "id": "uyk50",
+  "kind": "text",
+  "tr": "Öğleden sonra içtiğim kahve uykumu etkiler mi?"
+ },
+ {
+  "id": "uyk51",
+  "kind": "text",
+  "tr": "Etkileyebilir. Bir çalışmada yatmadan 6 saat önce alınan 400 mg kafein (yaklaşık 2–3 fincan kahve), ölçülen uyku süresini bir saatten fazla kısalttı. Uyku sorununuz varsa kahve ve çayı öğleden sonranın erken saatlerinde bırakmayı deneyin."
+ },
+ {
+  "id": "uyk52",
+  "kind": "text",
+  "tr": "Kronik uykusuzlukta ilk tercih tedavi nedir?"
+ },
+ {
+  "id": "uyk53",
+  "kind": "text",
+  "tr": "Amerikan Hekimler Koleji (ACP), kronik uykusuzlukta ilk tedavi olarak uykusuzluğa yönelik bilişsel davranışçı terapiyi öneriyor. Bu tedavi uyku düzenini, yatakla uyku arasındaki bağı ve uykuyla ilgili kaygıları ele alır. Uyku ilacı kullanıp kullanmamaya hekiminizle birlikte karar verin."
+ },
+ {
+  "id": "uyk54",
+  "kind": "text",
+  "tr": "Horlamak önemli mi?"
+ },
+ {
+  "id": "uyk55",
+  "kind": "text",
+  "tr": "Tek başına horlama her zaman bir hastalık işareti değildir. Yüksek sesli horlamaya uykuda nefes durmaları, boğulur gibi uyanma ya da gündüz aşırı uyku hali eşlik ediyorsa uyku apnesi açısından bir hekime başvurun."
+ },
+ {
+  "id": "uyk56",
+  "kind": "text",
+  "tr": "Ne zaman bir hekime başvurmalı?"
+ },
+ {
+  "id": "uyk57",
+  "kind": "text",
+  "tr": "Ara sıra kötü uyumak normaldir. Şu durumlarda ise bir hekime başvurun:"
+ },
+ {
+  "id": "uyk58",
+  "kind": "text",
+  "tr": "Haftalardır çoğu gece uykuya dalmakta ya da uykuyu sürdürmekte zorlanıyor, gündüz bunun etkisini hissediyorsanız"
+ },
+ {
+  "id": "uyk59",
+  "kind": "text",
+  "tr": "Yüksek sesli horlamaya uykuda nefes durmaları ya da boğulur gibi uyanma eşlik ediyorsa"
+ },
+ {
+  "id": "uyk60",
+  "kind": "text",
+  "tr": "Gündüz aşırı uyku hali varsa, özellikle araç kullanırken uyuklama oluyorsa"
+ },
+ {
+  "id": "uyk61",
+  "kind": "text",
+  "tr": "Akşamları bacaklarda hareket ettirme isteğiyle birlikte rahatsız edici bir his uykuya dalmayı engelliyorsa"
+ },
+ {
+  "id": "uyk62",
+  "kind": "text",
+  "tr": "Uykusuzluğa belirgin bir çökkünlük ya da kaygı eşlik ediyorsa"
+ },
+ {
+  "id": "uyk63",
+  "kind": "text",
+  "tr": "Ağrı nedeniyle bozulan uykunuz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "uyk64",
+  "kind": "wa",
+  "tr": "Merhaba, ağrı nedeniyle bozulan uyku için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "uyk65",
+  "kind": "ld",
+  "tr": "Uyku sağlığı"
+ },
+ {
+  "id": "uyk66",
+  "kind": "ld",
+  "tr": "Uykusuzluk"
+ }
+]

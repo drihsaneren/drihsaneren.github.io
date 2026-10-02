@@ -1,0 +1,357 @@
+[
+ {
+  "id": "kar0",
+  "kind": "text",
+  "tr": "Karpal Tünel Sendromu: Belirtiler, Egzersizler ve Tedavi | İhsan Eren"
+ },
+ {
+  "id": "kar1",
+  "kind": "attr",
+  "tr": "Karpal tünel sendromu nedir, elde uyuşma neden geceleri artar, bilgisayar kullanmak neden olur mu? Gece ateli, tedavi seçenekleri, evde dört egzersiz, videolar ve uyarı işaretleri."
+ },
+ {
+  "id": "kar2",
+  "kind": "text",
+  "tr": "Bilekteki dar bir kanalda (karpal tünel) orta sinirin (median sinir) sıkışmasıyla ortaya çıkar. Başparmak, işaret ve orta parmakta uyuşma, karıncalanma ve ağrı yapar; belirtiler özellikle geceleri artar. Erken dönemde gece ateli ve günlük yükün ayarlanmasıyla çoğu zaman rahatlar."
+ },
+ {
+  "id": "kar3",
+  "kind": "text",
+  "tr": "Toplumda elde uyuşma, karıncalanma ya da ağrı yaşayan kişi"
+ },
+ {
+  "id": "kar4",
+  "kind": "text",
+  "tr": "Muayeneyle karpal tünel sendromu tanısı alan kişi"
+ },
+ {
+  "id": "kar5",
+  "kind": "text",
+  "tr": "Tanısı sinir iletim testiyle de doğrulanan kişi"
+ },
+ {
+  "id": "kar6",
+  "kind": "text",
+  "tr": "Gece atelinin önerilen deneme süresi"
+ },
+ {
+  "id": "kar7",
+  "kind": "text",
+  "tr": "El bileğinin avuç tarafında kemiklerin ve kalın bir bağın oluşturduğu dar bir kanal vardır. Parmakları büken kirişler ve orta sinir bu kanaldan geçer. Kanal içindeki basınç arttığında sinir sıkışır ve sinirin beslediği parmaklarda belirtiler başlar."
+ },
+ {
+  "id": "kar8",
+  "kind": "text",
+  "tr": "Tanı çoğunlukla belirtiler ve muayeneyle konur. Sinir iletim testi (EMG) ya da görüntüleme her hastada gerekmez; tanıdan emin olunamadığında ya da ameliyat planlanırken istenebilir."
+ },
+ {
+  "id": "kar9",
+  "kind": "text",
+  "tr": "Başparmak, işaret, orta parmak ve yüzük parmağının yarısında uyuşma ve karıncalanma"
+ },
+ {
+  "id": "kar10",
+  "kind": "text",
+  "tr": "Geceleri artan, uykudan uyandıran, elinizi sallayınca geçen belirtiler"
+ },
+ {
+  "id": "kar11",
+  "kind": "text",
+  "tr": "Telefon tutarken, araç kullanırken ya da kitap okurken artan uyuşma"
+ },
+ {
+  "id": "kar12",
+  "kind": "text",
+  "tr": "Başparmakta güçsüzlük, kavramada zorlanma, eşyaları düşürme"
+ },
+ {
+  "id": "kar13",
+  "kind": "text",
+  "tr": "Risk etkenleri: fazla kilo, gebelik, tekrarlayan kavrama gerektiren işler, eklem iltihabı, diyabet, aile öyküsü, önceki bilek yaralanması"
+ },
+ {
+  "id": "kar14",
+  "kind": "text",
+  "tr": "Bilgisayar kullanımı karpal tünele yol açar mı?"
+ },
+ {
+  "id": "kar15",
+  "kind": "text",
+  "tr": "Yaygın inanışın aksine, Amerikan Ortopedi Akademisi'nin 2024 kılavuzuna göre yoğun klavye kullanımı ile karpal tünel sendromu arasında güçlü bir ilişkiyi destekleyen kanıt yok."
+ },
+ {
+  "id": "kar16",
+  "kind": "text",
+  "tr": "Yine de uzun süre bileği bükülü tutmak belirtileri artırabilir. Klavye ve fare kullanırken bileğinizi düz tutmak ve sık ara vermek, var olan şikâyetleri hafifletmeye yardımcı olur."
+ },
+ {
+  "id": "kar17",
+  "kind": "text",
+  "tr": "Hafif ve orta şiddetteki durumlarda tedaviye ameliyatsız yöntemlerle başlanır. Kalıcı uyuşma ya da kas erimesi varsa cerrahi değerlendirme öne çıkar."
+ },
+ {
+  "id": "kar18",
+  "kind": "text",
+  "tr": "Gece ateli"
+ },
+ {
+  "id": "kar19",
+  "kind": "text",
+  "tr": "Bileği düz (nötr) tutan gece ateli, fizyoterapi kılavuzunun önerdiği ilk basamak tedavidir. İngiltere sağlık hizmeti (NHS) 6 haftaya kadar denenmesini öneriyor."
+ },
+ {
+  "id": "kar20",
+  "kind": "text",
+  "tr": "Bileği tekrar tekrar bükmeyi ve güçlü kavramayı gerektiren işleri azaltmak siniri rahatlatır."
+ },
+ {
+  "id": "kar21",
+  "kind": "text",
+  "tr": "Muayene bulgularına göre el, bilek ve üst ekstremiteye yönelik manuel terapi uygulanabilir; kılavuzdaki önerinin kanıt düzeyi zayıftır."
+ },
+ {
+  "id": "kar22",
+  "kind": "text",
+  "tr": "Tendon ve sinir kaydırma egzersizleri yaygın olarak kullanılır; ancak etkinliklerine dair kanıtlar sınırlı ve düşük kalitelidir. Destekleyici olarak, belirtileri artırmadan yapılmalıdır."
+ },
+ {
+  "id": "kar23",
+  "kind": "text",
+  "tr": "Belirtileri kısa sürede azaltabilir; ancak 2024 kılavuzuna göre uzun vadeli faydası gösterilemedi."
+ },
+ {
+  "id": "kar24",
+  "kind": "text",
+  "tr": "Bileğin avuç tarafındaki bağın gevşetilmesiyle sinir rahatlatılır. Uygun hastalarda 6 ve 12. ayda ameliyatsız tedaviden daha fazla fayda sağlar. Açık ve kapalı (endoskopik) yöntemlerin uzun vadeli sonuçları benzerdir; ameliyat yalnızca lokal anesteziyle de yapılabilir."
+ },
+ {
+  "id": "kar25",
+  "kind": "text",
+  "tr": "Gebelikte"
+ },
+ {
+  "id": "kar26",
+  "kind": "text",
+  "tr": "Gebeliğe bağlı karpal tünel sendromu çoğu zaman doğumdan sonraki aylarda kendiliğinden geçer; bu dönemde gece ateli iyi bir seçenektir."
+ },
+ {
+  "id": "kar27",
+  "kind": "text",
+  "tr": "Karpal tünel için dört egzersiz"
+ },
+ {
+  "id": "kar28",
+  "kind": "text",
+  "tr": "Bu hareketler nazik olmalı; egzersiz sırasında ya da sonrasında uyuşma ve karıncalanma artıyorsa hareket aralığını küçültün ya da o egzersizi bırakın. Gece atelini ve günlük yük ayarlamasını destekleyici olarak yapılır."
+ },
+ {
+  "id": "kar29",
+  "kind": "text",
+  "tr": "Tendon kaydırma"
+ },
+ {
+  "id": "kar30",
+  "kind": "text",
+  "tr": "Elinizi dik tutun, parmaklarınız düz olsun. Sırayla şu pozisyonlara geçin ve her birinde 3 saniye bekleyin: parmak uçlarını kıvırıp kanca yapın, tam yumruk yapın, parmaklarınızı düz tutup yalnızca parmak köklerinden 90 derece bükün (masa pozisyonu), parmak uçları düz kalacak şekilde yumruk yapın, sonra elinizi açın. Parmak kirişlerinin tünel içinde rahat kaymasına yardım eder."
+ },
+ {
+  "id": "kar31",
+  "kind": "text",
+  "tr": "5–10 tur, günde 3–5 kez"
+ },
+ {
+  "id": "kar32",
+  "kind": "text",
+  "tr": "Median sinir kaydırma"
+ },
+ {
+  "id": "kar33",
+  "kind": "text",
+  "tr": "Dik durun, kolunuzu yana doğru omuz hizasında açın, dirseğiniz düz, avucunuz yukarı baksın. Bileğinizi yavaşça geriye bükerken başınızı karşı tarafa eğin, sonra ikisini birlikte başlangıca döndürün. Sinirin gerilmeden kaymasını amaçlar; karıncalanma artıyorsa hareket aralığını küçültün."
+ },
+ {
+  "id": "kar34",
+  "kind": "text",
+  "tr": "Başparmak germe"
+ },
+ {
+  "id": "kar35",
+  "kind": "text",
+  "tr": "Elinizi avucunuz yukarı bakacak şekilde masaya koyun. Diğer elinizle başparmağınızı nazikçe dışa ve geriye doğru açın; başparmak kökünde hafif gerilme hissedin."
+ },
+ {
+  "id": "kar36",
+  "kind": "text",
+  "tr": "Günlük hayatta bileğiniz için"
+ },
+ {
+  "id": "kar37",
+  "kind": "text",
+  "tr": "Amaç eli kullanmayı bırakmak değil, sinirin üzerindeki basıncı artıran pozisyonları azaltmaktır."
+ },
+ {
+  "id": "kar38",
+  "kind": "text",
+  "tr": "Geceleri bileğinizi bükerek uyumamaya dikkat edin; atel bu konuda yardımcı olur."
+ },
+ {
+  "id": "kar39",
+  "kind": "text",
+  "tr": "Telefonu uzun süre aynı elle ve bileğiniz bükülü şekilde tutmayın, sık ara verin."
+ },
+ {
+  "id": "kar40",
+  "kind": "text",
+  "tr": "Klavye ve fare kullanırken bileğinizi düz tutun, ön kollarınızı destekleyin."
+ },
+ {
+  "id": "kar41",
+  "kind": "text",
+  "tr": "Güçlü ve tekrarlayan kavrama gerektiren işleri bölün, mümkünse iki elinizi dönüşümlü kullanın."
+ },
+ {
+  "id": "kar42",
+  "kind": "text",
+  "tr": "Belirtiler başladığında elinizi sallamak ve pozisyonunuzu değiştirmek rahatlatır."
+ },
+ {
+  "id": "kar43",
+  "kind": "text",
+  "tr": "Karpal tünel sendromu için videolar"
+ },
+ {
+  "id": "kar44",
+  "kind": "attr",
+  "tr": "Karpal tünel germe videosunu oynat"
+ },
+ {
+  "id": "kar45",
+  "kind": "text",
+  "tr": "Karpal tünel için germe ve beş öneri"
+ },
+ {
+  "id": "kar46",
+  "kind": "text",
+  "tr": "Bilek için germe hareketi ve günlük hayatta dikkat edilecekler."
+ },
+ {
+  "id": "kar47",
+  "kind": "attr",
+  "tr": "Karpal tünel egzersizleri videosunu oynat"
+ },
+ {
+  "id": "kar48",
+  "kind": "text",
+  "tr": "İki egzersiz ve iki kendi kendine test"
+ },
+ {
+  "id": "kar49",
+  "kind": "text",
+  "tr": "Karpal tünel için kullanılan egzersizler ve basit testler."
+ },
+ {
+  "id": "kar50",
+  "kind": "text",
+  "tr": "Karpal tünel sendromu kendiliğinden geçer mi?"
+ },
+ {
+  "id": "kar51",
+  "kind": "text",
+  "tr": "Hafif durumlarda ve özellikle gebelikte belirtiler birkaç ay içinde kendiliğinden azalabilir. Uzun süren ya da giderek artan uyuşma ve güç kaybında ise sinirin kalıcı hasar görmemesi için tedavi geciktirilmemelidir."
+ },
+ {
+  "id": "kar52",
+  "kind": "text",
+  "tr": "Gece ateli ne kadar süre kullanılmalı?"
+ },
+ {
+  "id": "kar53",
+  "kind": "text",
+  "tr": "Bileği düz tutan atel özellikle geceleri takılır. İngiltere sağlık hizmeti (NHS) 6 haftaya kadar denenmesini öneriyor. Belirtileriniz gündüz de artıyorsa kullanım şeklini fizyoterapistinizle belirleyin."
+ },
+ {
+  "id": "kar54",
+  "kind": "text",
+  "tr": "Bilgisayar kullanmak karpal tünele neden olur mu?"
+ },
+ {
+  "id": "kar55",
+  "kind": "text",
+  "tr": "Amerikan Ortopedi Akademisi'nin 2024 kılavuzuna göre yoğun klavye kullanımı ile karpal tünel sendromu arasında güçlü bir ilişkiyi destekleyen kanıt yok. Tekrarlayan kavrama gerektiren işler, fazla kilo ve gebelik ise risk etkenleri arasında yer alıyor."
+ },
+ {
+  "id": "kar56",
+  "kind": "text",
+  "tr": "Kortizon iğnesi belirtileri kısa sürede azaltabilir. Ancak 2024 kılavuzuna göre uzun vadeli faydası gösterilemedi; belirtiler zamanla geri dönebilir."
+ },
+ {
+  "id": "kar57",
+  "kind": "text",
+  "tr": "Başparmak kökündeki kaslarda incelme, sürekli uyuşma, güç kaybı ya da atel ve diğer tedavilere rağmen geçmeyen belirtiler varsa el cerrahisi değerlendirmesi gerekir. Uygun hastalarda ameliyat, 6 ve 12. ayda ameliyatsız tedaviden daha fazla fayda sağlıyor."
+ },
+ {
+  "id": "kar58",
+  "kind": "text",
+  "tr": "Egzersizler işe yarar mı?"
+ },
+ {
+  "id": "kar59",
+  "kind": "text",
+  "tr": "Tendon ve sinir kaydırma egzersizleri yaygın olarak kullanılır, ancak Cochrane derlemesine göre etkinliklerini gösteren kanıtlar sınırlı ve düşük kalitelidir. Ağrı ve uyuşmayı artırmadan, atel ve yük ayarlamasına destek olarak yapılmalıdır."
+ },
+ {
+  "id": "kar60",
+  "kind": "text",
+  "tr": "Şu durumlar sinirin ciddi şekilde etkilendiğini ya da uyuşmanın başka bir nedeni olduğunu gösterebilir. Beklemeden bir hekime başvurun:"
+ },
+ {
+  "id": "kar61",
+  "kind": "text",
+  "tr": "Sürekli uyuşma, başparmak kökündeki kaslarda incelme ya da erime"
+ },
+ {
+  "id": "kar62",
+  "kind": "text",
+  "tr": "Elde belirgin güç kaybı, sık sık eşya düşürme, düğme iliklemede zorlanma"
+ },
+ {
+  "id": "kar63",
+  "kind": "text",
+  "tr": "Uyuşmanın boyuna ve kolun tamamına yayılması ya da iki elde birlikte bacaklarda da uyuşma (boyun ya da omurilik kaynaklı olabilir)"
+ },
+ {
+  "id": "kar64",
+  "kind": "text",
+  "tr": "Ani başlayan kol ya da yüz güçsüzlüğü, konuşma bozukluğu (inme olabilir, <strong>112</strong>'yi arayın)"
+ },
+ {
+  "id": "kar65",
+  "kind": "text",
+  "tr": "Bilek yaralanması sonrası başlayan şiddetli ağrı, şişlik ve uyuşma"
+ },
+ {
+  "id": "kar66",
+  "kind": "text",
+  "tr": "Bilekte kızarıklık, sıcaklık ve ateş"
+ },
+ {
+  "id": "kar67",
+  "kind": "text",
+  "tr": "El ve bilek şikâyetleriniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "kar68",
+  "kind": "wa",
+  "tr": "Merhaba, karpal tünel sendromu için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "kar69",
+  "kind": "text",
+  "tr": "NHS. <a href=\"https://www.nhs.uk/conditions/carpal-tunnel-syndrome/\" target=\"_blank\" rel=\"noopener\">Carpal tunnel syndrome</a>."
+ },
+ {
+  "id": "kar70",
+  "kind": "text",
+  "tr": "Physiopedia. <a href=\"https://www.physio-pedia.com/Carpal_Tunnel_Syndrome\" target=\"_blank\" rel=\"noopener\">Carpal Tunnel Syndrome</a>."
+ }
+]

@@ -1,0 +1,397 @@
+[
+ {
+  "id": "str0",
+  "kind": "text",
+  "tr": "Stresli Anlarda Ne Yapmalı? Nefes Egzersizleri | İhsan Eren"
+ },
+ {
+  "id": "str1",
+  "kind": "attr",
+  "tr": "Dünya Sağlık Örgütü rehberinden uyarlanmış beş beceri, nefes egzersizleri (4-6, kutu, 4-7-8) ve ücretsiz Türkçe kitapçık ve ses kayıtları."
+ },
+ {
+  "id": "str2",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü'nün herkes için hazırladığı resimli rehberden uyarlanmış, günde birkaç dakikanızı alan beş beceri ve bir nefes egzersizi."
+ },
+ {
+  "id": "str3",
+  "kind": "text",
+  "tr": "Hemen deneyin"
+ },
+ {
+  "id": "str4",
+  "kind": "text",
+  "tr": "Nefes egzersizi"
+ },
+ {
+  "id": "str5",
+  "kind": "text",
+  "tr": "Nefesi yavaşlatmak bedenin sakinleşmesine yardım eder. Rahat bir yere oturun, omuzlarınızı bırakın. Çember büyürken burnunuzdan nefes alın, küçülürken yavaşça verin. Çemberin kenarı altın rengine döndüğünde nefesinizi tutun."
+ },
+ {
+  "id": "str6",
+  "kind": "attr",
+  "tr": "Nefes temposu"
+ },
+ {
+  "id": "str7",
+  "kind": "text",
+  "tr": "Sakin · 4-6"
+ },
+ {
+  "id": "str8",
+  "kind": "text",
+  "tr": "Kutu · 4-4-4-4"
+ },
+ {
+  "id": "str9",
+  "kind": "text",
+  "tr": "4 saniye alın, 6 saniye verin. Tutma yok. İstediğiniz kadar sürdürebilirsiniz."
+ },
+ {
+  "id": "str10",
+  "kind": "text",
+  "tr": "Başlat"
+ },
+ {
+  "id": "str11",
+  "kind": "text",
+  "tr": "Durdur"
+ },
+ {
+  "id": "str12",
+  "kind": "text",
+  "tr": "Bir tur 10 saniye. 6 tur yaklaşık 1 dakika sürer."
+ },
+ {
+  "id": "str13",
+  "kind": "text",
+  "tr": "Tutma aşamalarını zorlamadan yapın. Başınız döner ya da nefesiniz daralırsa Sakin tempoya ya da normal nefesinize dönün. Ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri doktorunuza danışın."
+ },
+ {
+  "id": "str14",
+  "kind": "text",
+  "tr": "Hazır"
+ },
+ {
+  "id": "str15",
+  "kind": "text",
+  "tr": "Başlat'a basın"
+ },
+ {
+  "id": "str16",
+  "kind": "text",
+  "tr": "Müzik"
+ },
+ {
+  "id": "str17",
+  "kind": "text",
+  "tr": "Haftaya sakin, klasik bir başlangıç"
+ },
+ {
+  "id": "str18",
+  "kind": "text",
+  "tr": "Kahve eşliğinde kendinize yönelmek için: Ludovico Einaudi’nin <em>Nuvole Bianche</em>’si ve benzeri sakin piyano eserlerinden oluşan bir Spotify listesi. Nefes egzersizinden önce ya da sonra arka planda açabilirsiniz."
+ },
+ {
+  "id": "str19",
+  "kind": "text",
+  "tr": "Liste Spotify’dan yüklenir. Spotify’a giriş yapmamış dinleyiciler parçaların kısa önizlemelerini duyabilir."
+ },
+ {
+  "id": "str20",
+  "kind": "attr",
+  "tr": "Spotify çalma listesini yükle"
+ },
+ {
+  "id": "str21",
+  "kind": "text",
+  "tr": "<b>Nuvole Bianche Radio</b><br>Çalma listesini yükle"
+ },
+ {
+  "id": "str22",
+  "kind": "text",
+  "tr": "Beş beceri"
+ },
+ {
+  "id": "str23",
+  "kind": "text",
+  "tr": "Zor anlar için küçük araçlar"
+ },
+ {
+  "id": "str24",
+  "kind": "text",
+  "tr": "Bu becerilerin amacı stresi tamamen yok etmek değil. Amaç, zor duygular varken de ayağınızı yere basmanız ve sizin için önemli olana dönebilmeniz."
+ },
+ {
+  "id": "str25",
+  "kind": "text",
+  "tr": "Ayağınızı yere basın"
+ },
+ {
+  "id": "str26",
+  "kind": "text",
+  "tr": "Duygular fırtına gibi geldiğinde, fırtına dinene kadar gemiyi demirlemek gibidir."
+ },
+ {
+  "id": "str27",
+  "kind": "text",
+  "tr": "Fark edin"
+ },
+ {
+  "id": "str28",
+  "kind": "text",
+  "tr": "Şu an ne düşündüğünüzü ve ne hissettiğinizi sessizce fark edin."
+ },
+ {
+  "id": "str29",
+  "kind": "text",
+  "tr": "Bedene dönün"
+ },
+ {
+  "id": "str30",
+  "kind": "text",
+  "tr": "Ayaklarınızı yere bastırın, sırtınızı dikleştirin, yavaşça nefes verin, omuzlarınızı esnetin."
+ },
+ {
+  "id": "str31",
+  "kind": "text",
+  "tr": "Çevreye dönün"
+ },
+ {
+  "id": "str32",
+  "kind": "text",
+  "tr": "Etrafınızda gördüğünüz, duyduğunuz, dokunduğunuz şeyleri tek tek fark edin. Sonra yaptığınız işe geri dönün."
+ },
+ {
+  "id": "str33",
+  "kind": "text",
+  "tr": "Zor düşüncelerden sıyrılın"
+ },
+ {
+  "id": "str34",
+  "kind": "text",
+  "tr": "Zor düşünceler bizi bir olta gibi yakalayıp o anki hayatımızdan uzaklaştırır."
+ },
+ {
+  "id": "str35",
+  "kind": "text",
+  "tr": "Bir düşüncenin sizi yakaladığını fark edin."
+ },
+ {
+  "id": "str36",
+  "kind": "text",
+  "tr": "Adını koyun"
+ },
+ {
+  "id": "str37",
+  "kind": "text",
+  "tr": "İçinizden söyleyin: <span class=\"say-it\">“Şu an zor bir düşünce fark ediyorum.”</span>"
+ },
+ {
+  "id": "str38",
+  "kind": "text",
+  "tr": "Geri dönün"
+ },
+ {
+  "id": "str39",
+  "kind": "text",
+  "tr": "Dikkatinizi yaptığınız işe ve yanınızdaki insanlara yeniden verin."
+ },
+ {
+  "id": "str40",
+  "kind": "text",
+  "tr": "Değerlerinize göre davranın"
+ },
+ {
+  "id": "str41",
+  "kind": "text",
+  "tr": "Koşulları her zaman değiştiremeyiz ama nasıl biri olmak istediğimizi seçebiliriz. Sizin için önemli olan ne: sabırlı, nazik, yardımsever olmak mı?"
+ },
+ {
+  "id": "str42",
+  "kind": "text",
+  "tr": "Bu hafta"
+ },
+ {
+  "id": "str43",
+  "kind": "text",
+  "tr": "Bu değeri gösteren küçük ve yapılabilir bir adım seçin. Bir arkadaşı aramak ya da bir komşuya yardım etmek gibi."
+ },
+ {
+  "id": "str44",
+  "kind": "text",
+  "tr": "Kendinize nazik olun"
+ },
+ {
+  "id": "str45",
+  "kind": "text",
+  "tr": "Zor bir dönemden geçen bir arkadaşınıza nasıl davranırsanız kendinize de öyle davranın."
+ },
+ {
+  "id": "str46",
+  "kind": "text",
+  "tr": "Dokunun"
+ },
+ {
+  "id": "str47",
+  "kind": "text",
+  "tr": "Bir elinizi nazikçe göğsünüze koyun, sıcaklığını hissedin."
+ },
+ {
+  "id": "str48",
+  "kind": "text",
+  "tr": "Söyleyin"
+ },
+ {
+  "id": "str49",
+  "kind": "text",
+  "tr": "“Bu gerçekten zor. Böyle hissetmekte yalnız değilim.”"
+ },
+ {
+  "id": "str50",
+  "kind": "text",
+  "tr": "Duygulara yer açın"
+ },
+ {
+  "id": "str51",
+  "kind": "text",
+  "tr": "Zor bir duyguyla savaşmak onu çoğu zaman büyütür. Onu bir süre yanınızda taşımayı deneyin."
+ },
+ {
+  "id": "str52",
+  "kind": "text",
+  "tr": "Merak edin"
+ },
+ {
+  "id": "str53",
+  "kind": "text",
+  "tr": "Duyguyu bedeninizin neresinde hissediyorsunuz? Bir nesne olsaydı şekli, rengi, sıcaklığı nasıl olurdu?"
+ },
+ {
+  "id": "str54",
+  "kind": "text",
+  "tr": "Nefes verin"
+ },
+ {
+  "id": "str55",
+  "kind": "text",
+  "tr": "O bölgenin çevresine yavaşça nefes verin ve ona yer açın. Duygular gelip geçer."
+ },
+ {
+  "id": "str56",
+  "kind": "text",
+  "tr": "Stres anında nefes egzersizi nasıl yapılır?"
+ },
+ {
+  "id": "str57",
+  "kind": "text",
+  "tr": "Rahat bir yere oturun ve omuzlarınızı bırakın. Burnunuzdan 4 saniye nefes alın, 6 saniyede yavaşça verin. Bir tur 10 saniye sürer; 6 tur yaklaşık 1 dakikadır. Nefesi yavaşlatmak bedenin sakinleşmesine yardım eder."
+ },
+ {
+  "id": "str58",
+  "kind": "text",
+  "tr": "Kutu nefesi ve 4-7-8 nefesi nasıl yapılır?"
+ },
+ {
+  "id": "str59",
+  "kind": "text",
+  "tr": "Kutu nefesinde 4 saniye nefes alın, 4 saniye tutun, 4 saniye verin ve 4 saniye tutun. 4-7-8 tekniğinde burnunuzdan 4 saniye alın, 7 saniye tutun ve dudaklarınız hafif aralık, 8 saniyede verin. Tutma aşamalarını zorlamadan yapın; ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri doktorunuza danışın."
+ },
+ {
+  "id": "str60",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü'nün stres rehberindeki beş beceri nedir?"
+ },
+ {
+  "id": "str61",
+  "kind": "text",
+  "tr": "Ayağınızı yere basmak, zor düşüncelerden sıyrılmak, değerlerinize göre davranmak, kendinize nazik olmak ve duygulara yer açmaktır. Amaç stresi tamamen yok etmek değil, zor duygular varken de sizin için önemli olana dönebilmektir."
+ },
+ {
+  "id": "str62",
+  "kind": "text",
+  "tr": "Ücretsiz Türkçe kaynaklar"
+ },
+ {
+  "id": "str63",
+  "kind": "text",
+  "tr": "Kitapçık ve sesli egzersizler"
+ },
+ {
+  "id": "str64",
+  "kind": "text",
+  "tr": "Rehberin tamamını ve sesli uygulamaları Dünya Sağlık Örgütü'nün sitesinden ücretsiz edinebilirsiniz. Ses kayıtları Türkçe dahil 20'den fazla dilde var."
+ },
+ {
+  "id": "str65",
+  "kind": "text",
+  "tr": "Stresli Anlarda Ne Yapmalı?"
+ },
+ {
+  "id": "str66",
+  "kind": "text",
+  "tr": "Türkçe resimli kitapçık (PDF) · DSÖ, 2020"
+ },
+ {
+  "id": "str67",
+  "kind": "text",
+  "tr": "Türkçe sesli egzersizler"
+ },
+ {
+  "id": "str68",
+  "kind": "text",
+  "tr": "Rehberdeki uygulamaların ses kayıtları · DSÖ"
+ },
+ {
+  "id": "str69",
+  "kind": "text",
+  "tr": "Diğer diller"
+ },
+ {
+  "id": "str70",
+  "kind": "text",
+  "tr": "Rehberin tüm dil seçenekleri · who.int"
+ },
+ {
+  "id": "str71",
+  "kind": "text",
+  "tr": "<strong>Ne zaman destek almalı?</strong> Stres, kaygı ya da çökkünlük haftalardır uykunuzu, işinizi veya ilişkilerinizi etkiliyorsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa hemen <strong>112</strong>'yi arayın."
+ },
+ {
+  "id": "str72",
+  "kind": "text",
+  "tr": "Cleveland Clinic. <a href=\"https://health.clevelandclinic.org/4-7-8-breathing\" target=\"_blank\" rel=\"noopener\">How To Do the 4-7-8 Breathing Exercise</a>. Health Essentials."
+ },
+ {
+  "id": "str73",
+  "kind": "text",
+  "tr": "Cleveland Clinic. <a href=\"https://health.clevelandclinic.org/box-breathing-benefits\" target=\"_blank\" rel=\"noopener\">How Box Breathing Can Help You Destress</a>. Health Essentials."
+ },
+ {
+  "id": "str74",
+  "kind": "text",
+  "tr": "World Health Organization. <a href=\"https://www.who.int/publications/i/item/9789240003927\" target=\"_blank\" rel=\"noopener\">Doing What Matters in Times of Stress: An Illustrated Guide</a>. Geneva: WHO; 2020. Türkçesi: <a href=\"https://apps.who.int/iris/handle/10665/333917\" target=\"_blank\" rel=\"noopener\">Stresli Anlarda Ne Yapmalı?: Resimli Rehber</a>. Lisans: CC BY-NC-SA 3.0 IGO."
+ },
+ {
+  "id": "str75",
+  "kind": "text",
+  "tr": "Bu sayfa rehberdeki becerilerin kendi cümlelerimizle yazılmış kısa bir özetidir. Dünya Sağlık Örgütü bu sayfayı hazırlamamış ve onaylamamıştır. Nefes egzersizleri rehberin parçası değildir, genel gevşeme teknikleridir."
+ },
+ {
+  "id": "str76",
+  "kind": "ld",
+  "tr": "Stres"
+ },
+ {
+  "id": "str77",
+  "kind": "ld",
+  "tr": "Ne zaman destek almalı?"
+ },
+ {
+  "id": "str78",
+  "kind": "ld",
+  "tr": "Stres, kaygı ya da çökkünlük haftalardır uykunuzu, işinizi veya ilişkilerinizi etkiliyorsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa hemen 112'yi arayın."
+ }
+]

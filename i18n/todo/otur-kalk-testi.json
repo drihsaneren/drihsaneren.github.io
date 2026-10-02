@@ -1,0 +1,407 @@
+[
+ {
+  "id": "otu0",
+  "kind": "text",
+  "tr": "Yere Oturup Kalkma Testi: Puanınızı Hesaplayın | İhsan Eren"
+ },
+ {
+  "id": "otu1",
+  "kind": "attr",
+  "tr": "Ellerinizi kullanmadan yere oturup kalkabiliyor musunuz? 12 yıllık araştırmada sağlığın güçlü göstergesi çıkan testi deneyin, puanınızı hesaplayın, geliştirin."
+ },
+ {
+  "id": "otu2",
+  "kind": "text",
+  "tr": "Yere oturup kalkabiliyor musunuz?"
+ },
+ {
+  "id": "otu3",
+  "kind": "text",
+  "tr": "Ellerinizi kullanmadan yere oturup yeniden kalkabilmek; kas gücü, esneklik, denge ve koordinasyonu tek bir harekette ölçer. 4.282 yetişkinin yaklaşık 12 yıl izlendiği bir araştırmada bu basit testin puanı, sonraki yıllardaki sağlık hakkında çarpıcı ipuçları verdi. Testi deneyin, puanınızı aşağıda hesaplayın."
+ },
+ {
+  "id": "otu4",
+  "kind": "text",
+  "tr": "10 puan"
+ },
+ {
+  "id": "otu5",
+  "kind": "text",
+  "tr": "Testin en yüksek puanı: oturma için 5, kalkma için 5"
+ },
+ {
+  "id": "otu6",
+  "kind": "text",
+  "tr": "4.282 kişi"
+ },
+ {
+  "id": "otu7",
+  "kind": "text",
+  "tr": "46–75 yaş arası yetişkinlerin yaklaşık 12 yıl izlendiği 2026 tarihli araştırma"
+ },
+ {
+  "id": "otu8",
+  "kind": "text",
+  "tr": "6 kat"
+ },
+ {
+  "id": "otu9",
+  "kind": "text",
+  "tr": "0–4 puan alanlarda, tam puan alanlara göre daha yüksek kalp-damar kaynaklı ölüm riski"
+ },
+ {
+  "id": "otu10",
+  "kind": "text",
+  "tr": "İlk araştırmada (2.002 kişi) her 1 puanlık artışla ilişkili daha düşük ölüm riski"
+ },
+ {
+  "id": "otu11",
+  "kind": "text",
+  "tr": "Testi nasıl yaparsınız?"
+ },
+ {
+  "id": "otu12",
+  "kind": "text",
+  "tr": "Hız değil, destek önemli"
+ },
+ {
+  "id": "otu13",
+  "kind": "text",
+  "tr": "Yere oturup kalkma testi"
+ },
+ {
+  "id": "otu14",
+  "kind": "text",
+  "tr": "<strong>Hazırlanın.</strong> Rahat kıyafetler giyin, ayakkabı ve çoraplarınızı çıkarın. Kaymayan, boş bir alanda durun; yanınızda sağlam bir sandalye ya da duvar olsun."
+ },
+ {
+  "id": "otu15",
+  "kind": "text",
+  "tr": "<strong>Oturun.</strong> Ellerinizi, kollarınızı ya da dizlerinizi yere koymadan yavaşça yere oturun. Bacaklarınızı çaprazlayabilir, istediğiniz oturuş şeklini seçebilirsiniz."
+ },
+ {
+  "id": "otu16",
+  "kind": "text",
+  "tr": "<strong>Kalkın.</strong> Yine mümkün olduğunca destek almadan ayağa kalkın. Hız önemli değil; gerekirse destek alın, puanlayıcıya işlersiniz."
+ },
+ {
+  "id": "otu17",
+  "kind": "text",
+  "tr": "<strong>Puanlayın.</strong> Oturma ve kalkma 5'er puanla başlar. Kullandığınız her destek (el, ön kol, diz, bacağın yan tarafı, eli dize ya da uyluğa dayama) için 1 puan, sallanma ya da kısmi denge kaybı için 0,5 puan düşülür."
+ },
+ {
+  "id": "otu18",
+  "kind": "text",
+  "tr": "<strong>Güvenlik:</strong> Kalça ya da diz protezi ameliyatınız yeni olduysa, eklemlerinizde şiddetli ağrı, baş dönmesi ya da sık düşme öykünüz varsa testi tek başınıza yapmayın. Yaşlı bir yakınınız deneyecekse yanında durun. Kalça protezi olanlar cerrahları izin vermeden bacak çaprazlamamalıdır."
+ },
+ {
+  "id": "otu19",
+  "kind": "text",
+  "tr": "Puanlayıcı"
+ },
+ {
+  "id": "otu20",
+  "kind": "text",
+  "tr": "Oturma ve kalkma sırasında kullandığınız destekleri işaretleyin. İki elinizi de yere koyduysanız “El” için 2 seçin."
+ },
+ {
+  "id": "otu21",
+  "kind": "text",
+  "tr": "Oturma"
+ },
+ {
+  "id": "otu22",
+  "kind": "text",
+  "tr": "El"
+ },
+ {
+  "id": "otu23",
+  "kind": "attr",
+  "tr": "Azalt"
+ },
+ {
+  "id": "otu24",
+  "kind": "attr",
+  "tr": "Artır"
+ },
+ {
+  "id": "otu25",
+  "kind": "text",
+  "tr": "Ön kol"
+ },
+ {
+  "id": "otu26",
+  "kind": "text",
+  "tr": "Diz"
+ },
+ {
+  "id": "otu27",
+  "kind": "text",
+  "tr": "Bacağın yan tarafı"
+ },
+ {
+  "id": "otu28",
+  "kind": "text",
+  "tr": "Eli dize ya da uyluğa dayama"
+ },
+ {
+  "id": "otu29",
+  "kind": "text",
+  "tr": "Sallandım ya da dengemi kısmen kaybettim (−0,5)"
+ },
+ {
+  "id": "otu30",
+  "kind": "text",
+  "tr": "Kalkma"
+ },
+ {
+  "id": "otu31",
+  "kind": "text",
+  "tr": "Sıfırla"
+ },
+ {
+  "id": "otu32",
+  "kind": "text",
+  "tr": "Toplam: <b id=\"srt-mini\">10</b> / 10"
+ },
+ {
+  "id": "otu33",
+  "kind": "text",
+  "tr": "/ 10 puan"
+ },
+ {
+  "id": "otu34",
+  "kind": "text",
+  "tr": "Tam puan"
+ },
+ {
+  "id": "otu35",
+  "kind": "text",
+  "tr": "Kas gücünüz, esnekliğiniz ve dengeniz bu hareketi desteksiz yapmaya yetiyor. Bu düzeyi korumak için düzenli hareket etmeye devam edin."
+ },
+ {
+  "id": "otu36",
+  "kind": "text",
+  "tr": "Çok iyi"
+ },
+ {
+  "id": "otu37",
+  "kind": "text",
+  "tr": "Küçük bir destek ya da sallanma puanınızı biraz düşürdü. Aşağıdaki egzersizlerle tam puanı hedefleyebilirsiniz."
+ },
+ {
+  "id": "otu38",
+  "kind": "text",
+  "tr": "İyi"
+ },
+ {
+  "id": "otu39",
+  "kind": "text",
+  "tr": "Araştırmada izlem süresindeki ölüm oranı 8 puan alanlarda %11,1, tam puan alanlarda %3,7'ydi. Kuvvet, esneklik ve denge egzersizleriyle puanınızı artırabilirsiniz."
+ },
+ {
+  "id": "otu40",
+  "kind": "text",
+  "tr": "Geliştirilebilir"
+ },
+ {
+  "id": "otu41",
+  "kind": "text",
+  "tr": "Bu aralıktaki puanlar, araştırmada belirgin şekilde daha yüksek riskle ilişkiliydi. Bacak kuvveti, kalça esnekliği ve denge üzerine çalışmak iyi bir başlangıç olur."
+ },
+ {
+  "id": "otu42",
+  "kind": "text",
+  "tr": "Güçlenmeye öncelik verin"
+ },
+ {
+  "id": "otu43",
+  "kind": "text",
+  "tr": "Yere inip kalkmak sizin için zor. Bu tek başına bir teşhis değil, ama kas gücü ve dengenin güçlendirilmesi gerektiğini gösterir. Güvenli bir başlangıç için fizyoterapistinizden destek alın; kalp-damar hastalığı için risk etkenleriniz varsa hekiminizle de konuşun."
+ },
+ {
+  "id": "otu44",
+  "kind": "text",
+  "tr": "Bu puanlayıcı bilgilendirme amaçlıdır; bir teşhis aracı değildir. Araştırmalarda test, deneyimli bir değerlendiricinin gözetiminde yapıldı."
+ },
+ {
+  "id": "otu45",
+  "kind": "text",
+  "tr": "Araştırma ne buldu?"
+ },
+ {
+  "id": "otu46",
+  "kind": "text",
+  "tr": "Puana göre 12 yıllık izlemdeki ölüm oranı"
+ },
+ {
+  "id": "otu47",
+  "kind": "text",
+  "tr": "Brezilya'da 46–75 yaş arası 4.282 yetişkin test edildi ve yaklaşık 12 yıl izlendi. Puan düştükçe izlem süresindeki ölüm oranı belirgin şekilde arttı:"
+ },
+ {
+  "id": "otu48",
+  "kind": "text",
+  "tr": "10 puan<span class=\"you\">Siz</span>"
+ },
+ {
+  "id": "otu49",
+  "kind": "text",
+  "tr": "8,5–9,5 puan<span class=\"you\">Siz</span>"
+ },
+ {
+  "id": "otu50",
+  "kind": "text",
+  "tr": "8 puan<span class=\"you\">Siz</span>"
+ },
+ {
+  "id": "otu51",
+  "kind": "text",
+  "tr": "4,5–7,5 puan<span class=\"you\">Siz</span>"
+ },
+ {
+  "id": "otu52",
+  "kind": "text",
+  "tr": "0–4 puan<span class=\"you\">Siz</span>"
+ },
+ {
+  "id": "otu53",
+  "kind": "text",
+  "tr": "Hiç kalkamayanlarda (kalkma puanı 0) ölüm oranı %49,5, kalkma puanı tam olanlarda %4,4'tü. 2012'de çevrim içi yayımlanan ilk araştırmada da 51–80 yaş arası 2.002 kişide her 1 puanlık artış, %21 daha düşük ölüm riskiyle ilişkiliydi."
+ },
+ {
+  "id": "otu54",
+  "kind": "text",
+  "tr": "<strong>Önemli:</strong> Bunlar gözlem çalışmalarıdır. Düşük puan ölüme yol açmaz; sağlığı etkileyen pek çok özelliği bir arada yansıtır. Puanı yükseltmenin ömrü uzattığı henüz ayrıca test edilmedi. Ama kas gücü, esneklik ve denge; bağımsız yaşamak ve düşmeleri önlemek için her yaşta çalışmaya değer."
+ },
+ {
+  "id": "otu55",
+  "kind": "text",
+  "tr": "Puanınızı yükseltmek için"
+ },
+ {
+  "id": "otu56",
+  "kind": "text",
+  "tr": "Altı egzersiz"
+ },
+ {
+  "id": "otu57",
+  "kind": "text",
+  "tr": "Kuvvet, kalça esnekliği ve denge birlikte gelişince yere inip kalkmak da kolaylaşır. Bir hareket ağrınızı belirgin şekilde artırıyorsa onu atlayın."
+ },
+ {
+  "id": "otu58",
+  "kind": "text",
+  "tr": "Testi alıştırma olarak yapın"
+ },
+ {
+  "id": "otu59",
+  "kind": "text",
+  "tr": "Yumuşak bir zeminde, yanınızda sağlam bir sandalye ya da duvar varken yavaşça yere oturun ve kalkın. Başta istediğiniz kadar destek alın; her hafta bir desteği azaltmayı hedefleyin."
+ },
+ {
+  "id": "otu60",
+  "kind": "text",
+  "tr": "3–5 tekrar, haftada 3 gün"
+ },
+ {
+  "id": "otu61",
+  "kind": "text",
+  "tr": "Tek dizden ayağa kalkma"
+ },
+ {
+  "id": "otu62",
+  "kind": "text",
+  "tr": "Yanınızda sağlam bir sandalye varken tek dizinizin üzerine çökün, öndeki ayağınız yere tam bassın. Öndeki bacağınıza yüklenerek ayağa kalkın. Başta sandalyeden destek alın. Diz ağrınız varsa dizinizin altına yastık koyun."
+ },
+ {
+  "id": "otu63",
+  "kind": "text",
+  "tr": "Her iki tarafa 5 tekrar"
+ },
+ {
+  "id": "otu64",
+  "kind": "text",
+  "tr": "Kollar göğüste sandalyeden kalkma"
+ },
+ {
+  "id": "otu65",
+  "kind": "text",
+  "tr": "Kollarınızı göğsünüzde çaprazlayın. Ellerinizi kullanmadan sandalyeden kalkın, sonra kontrollü şekilde oturun. Kolaylaştıkça daha alçak bir oturak kullanın."
+ },
+ {
+  "id": "otu66",
+  "kind": "text",
+  "tr": "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Dizlerinizi rahat ettiğiniz kadar bükerek sırtınızı duvarda aşağı kaydırın, 2–3 saniye bekleyip doğrulun."
+ },
+ {
+  "id": "otu67",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak yavaşça kaldırın, 3 saniye bekleyip indirin. Yerden kalkarken gereken kalça kuvvetini artırır."
+ },
+ {
+  "id": "otu68",
+  "kind": "text",
+  "tr": "10–15 tekrar, 2 set"
+ },
+ {
+  "id": "otu69",
+  "kind": "text",
+  "tr": "Mutfak tezgâhına hafifçe tutunarak tek ayağınızın üzerinde durun. Kolaylaştıkça tutunmayı azaltın."
+ },
+ {
+  "id": "otu70",
+  "kind": "text",
+  "tr": "Yaşlılarda denge ve düşmeleri önleme üzerine daha fazlası için <a href=\"dusme-onleme.html\">düşmeleri önleme</a> rehberine, haftalık hareket hedefleriniz için <a href=\"hareket.html\">Ne kadar hareket yeterli?</a> sayfasına bakabilirsiniz."
+ },
+ {
+  "id": "otu71",
+  "kind": "text",
+  "tr": "Puanım düşük çıktı, endişelenmeli miyim?"
+ },
+ {
+  "id": "otu72",
+  "kind": "text",
+  "tr": "Düşük puan tek başına bir teşhis değildir; kas gücü, esneklik, denge ve vücut ağırlığı gibi pek çok özelliği birlikte yansıtır. Araştırmalardaki ilişki gözleme dayanır. Puanınızı, bu özellikler üzerinde çalışmak için bir başlangıç noktası olarak görün. Kalp-damar hastalığı için risk etkenleriniz varsa ya da yakın zamanda zorlanmaya başladıysanız hekiminizle de konuşun."
+ },
+ {
+  "id": "otu73",
+  "kind": "text",
+  "tr": "Puanımı yükseltebilir miyim?"
+ },
+ {
+  "id": "otu74",
+  "kind": "text",
+  "tr": "Evet. Bacak kuvveti, kalça esnekliği ve denge düzenli egzersizle her yaşta gelişir; aşağıdaki altı egzersiz iyi bir başlangıçtır. Puanı yükseltmenin ömrü uzatıp uzatmadığı ise henüz ayrıca araştırılmadı; ama yerden kalkabilmek günlük hayatta, özellikle düştükten sonra kalkarken çok değerlidir."
+ },
+ {
+  "id": "otu75",
+  "kind": "text",
+  "tr": "Kimler bu testi yapmamalı?"
+ },
+ {
+  "id": "otu76",
+  "kind": "text",
+  "tr": "Kalça ya da diz protezi ameliyatınız yeni olduysa, kalçada ya da dizde şiddetli ağrınız varsa, baş dönmesi ya da sık düşme öykünüz varsa testi tek başınıza yapmayın; önce fizyoterapistinize ya da hekiminize danışın. Kalça protezi olanlar cerrahları izin vermeden bacak çaprazlamamalıdır."
+ },
+ {
+  "id": "otu77",
+  "kind": "text",
+  "tr": "Test neden bu kadar çok şey anlatıyor?"
+ },
+ {
+  "id": "otu78",
+  "kind": "text",
+  "tr": "Yere desteksiz oturup kalkmak için vücut ağırlığınıza göre yeterli kas gücü, kalça ve dizlerde esneklik, iyi bir denge ve koordinasyon gerekir. Bunların hepsi yaşla birlikte azalabilir ve bağımsız yaşamla, düşme riskiyle yakından ilişkilidir."
+ },
+ {
+  "id": "otu79",
+  "kind": "text",
+  "tr": "Yere inip kalkmak, kuvvet ve denge için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "otu80",
+  "kind": "wa",
+  "tr": "Merhaba, kuvvet ve denge çalışması için evde değerlendirme ve seans planlamak istiyorum."
+ }
+]
