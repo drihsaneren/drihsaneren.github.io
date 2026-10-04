@@ -24,6 +24,7 @@ python3 make_en.py $REPO $REPO          # İngilizce sayfalar; "toplam eksik: 0"
 python3 search_index.py $REPO           # ara-tr.json / ara-en.json
 ```
 Bu sırayla çalıştırınca `main` ile birebir aynı çıktı gelir (yalnızca sitemap.xml tarihi değişir).
+Dikkat: `publish.sh` her zaman `build_pages.py`'den sonra çalıştırılmalı; `up40/_home_section.txt` yoksa hata verip durmaz, ana sayfayı Bilgi köşesi bölümü eklenmeden yazar.
 Sonra `$REPO` içinde commit + push (main). Araçlarda değişiklik yaptıysan bu dalı da commit + push et.
 
 ## Ne nerede
@@ -40,6 +41,7 @@ Sonra `$REPO` içinde commit + push (main). Araçlarda değişiklik yaptıysan b
   Çeviri: `python3 export_todo.py $REPO <sayfa>.html` -> `i18n/todo/<sayfa>.json`, karşılığı `i18n/done/<sayfa>.json`;
   diğer sayfalara düşen metinler (kart, hap) `fb1.json`'a. Yayın: `bash publish.sh up40 <sayfa>.html`.
 - **Örnek reçete**: `recete.orig.html` + `fb_recete.py`.
+- **Galeri kareleri**: yalnızca `main`'de duran `p01, p02, p03, p07, p10, p13, p21` (`.jpg` tam: 1100 px genişlik, dikeyde 880×1100; `_t.jpg` küçük: 700 px, dikeyde 416×520). Sıra ve alt metinler `site/index.bak_fb.html` içindeki `picks` dizisinde. 4 Ekim 2026'da yedisi de aynı adlarla yenilendi.
 - **İngilizce**: `make_en.py`, `i18n_map.py` (adresler), `i18n/todo|done/*.json` (TR -> EN bellek).
   Yeni/değişen metinler `i18n/todo/fb1.json` + `i18n/done/fb1.json`'a yeni kimlikle eklenir
   (`python3 i18n/check.py fb1` ile doğrula). Betik içi metinler `i18n/js.json`. Var olan todo dosyalarını yeniden dışa aktarma.

@@ -43,6 +43,7 @@ new_head = f'''      <div class="lx" id="lx">
         <ul class="lx-stats">
 {tiles}
         </ul>
+        <p class="lx-proof"><b>Tahmin değil, ölçüm.</b> Her göstergenin arkasında yayımlanmış bir çalışma var; sonuçlarınız yazılı bir raporla sizde kalır.</p>
         <p class="lx-hope">{LEAF}<span><b>İyi haber:</b> Genlerinizi değiştiremezsiniz; kas gücünüzü, dengenizi ve yürüyüşünüzü ise her yaşta geliştirebilirsiniz.</span></p>
         <p class="lx-foot"><a href="#hizli-test">2 dakikalık hızlı testi deneyin ↓</a><span>Tahlillerin yerini tutmaz, onları tamamlar.</span></p>
       </div>'''
@@ -76,6 +77,8 @@ CSS = r'''  /* longevity bölüm başı */
   .lx-stats p{margin:0;font-size:14px;line-height:1.45;color:var(--ink-soft)}
   .lx-src{margin-top:6px;font-size:12px;color:var(--muted);text-decoration:none}
   .lx-src:hover{color:var(--foil);text-decoration:underline}
+  .lx-proof{margin:4px 0 0;padding-left:14px;border-left:2px solid var(--gold);color:var(--ink-soft);max-width:62ch}
+  .lx-proof b{color:var(--ink);font-weight:600}
   .lx-hope{margin:6px 0 0;display:flex;align-items:flex-start;gap:12px;font-family:var(--display);font-size:clamp(19px,2.4vw,23px);line-height:1.4;color:var(--ink);max-width:52ch}
   .lx-hope b{font-weight:400;color:var(--gold)}
   .lx-hope svg{flex:none;width:24px;height:24px;margin-top:3px;color:var(--gold);filter:drop-shadow(0 0 6px rgba(226,171,71,.7))}

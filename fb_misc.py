@@ -40,5 +40,8 @@ assert 'tel:' not in s and '0553 881' not in s
 # kaldırılan "Uyguladığım yöntemler" bölümünün artık kullanılmayan stilleri
 i=s.index("  .methods{margin-top:40px}"); j=s.index("  .m .tag:hover{text-decoration:underline}\n",i)+len("  .m .tag:hover{text-decoration:underline}\n")
 s=s[:i]+s[j:]
+# galeri: dikey kare (kavrama gücü ölçümü) yatay kutuda kırpılırken yüz görünsün
+rep("  .tile.big{grid-row:span 2;grid-column:span 2}",
+    "  .tile.big{grid-row:span 2;grid-column:span 2}\n  .tile img[src*=\"p03\"]{object-position:50% 18%}")
 open(p,"w",encoding="utf-8").write(s)
 print("ok")
