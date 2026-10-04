@@ -1668,5 +1668,40 @@
   "id": "fb334",
   "kind": "text",
   "tr": "Güncel gelişmeler"
+ },
+ {
+  "id": "fb335",
+  "kind": "text",
+  "tr": "Bilim gündemi"
+ },
+ {
+  "id": "fb336",
+  "kind": "text",
+  "tr": "bilim haberi"
+ },
+ {
+  "id": "fb337",
+  "kind": "text",
+  "tr": "rehber"
+ },
+ {
+  "id": "fb338",
+  "kind": "text",
+  "tr": "haber"
+ },
+ {
+  "id": "fb339",
+  "kind": "text",
+  "tr": "Tüm haberleri oku →"
+ },
+ {
+  "id": "fb340",
+  "kind": "text",
+  "tr": "Başlıklar"
+ },
+ {
+  "id": "fb341",
+  "kind": "text",
+  "tr": "Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri. Başlığa dokunun, haberin kendisine gidin."
  }
 ]

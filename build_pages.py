@@ -184,7 +184,7 @@ CSS = """
 KOSE_PAGES = {"bilgi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 SELF_PAGES = {"stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
-    items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Tıpta yenilikler")]
+    items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
     def attr(h):
         if h == current: return ' aria-current="page"'
         if h == "bilgi.html#kendine-iyi-bak" and current in SELF_PAGES: return ' class="on"'
@@ -248,7 +248,7 @@ TOPICS = {
     "ic-cekis.html": ("Kendine iyi bak", "5 dakikalık iç çekiş nefesi"),
     "doga-recetesi.html": ("Kendine iyi bak", "Doğa reçetesi"),
     "bag-kurmak.html": ("Kendine iyi bak", "Sosyal bağ ve sağlık"),
-    "yenilikler.html": ("Güncel bilimsel gelişmeler", "Geleceğin tıbbı, bugün"),
+    "yenilikler.html": ("Bilim gündemi", "Geleceğin tıbbı, bugün"),
 }
 RELATED = {
     "bel-agrisi.html": ["bel-fitigi.html", "ankilozan-spondilit.html"],
@@ -1389,15 +1389,41 @@ NEWS_JS = """<script>
     grid.classList.toggle('f', f !== 'tum');
     grid.querySelectorAll('.card').forEach(function(c){ c.hidden = f !== 'tum' && c.getAttribute('data-g') !== f; });
   });
+  // başlık dizininden gidilen haber süzgeçle gizlenmiş olmasın
+  var box = document.querySelector('.hl-box');
+  if (box) box.addEventListener('click', function(e){
+    if (!e.target.closest('a')) return;
+    var all = bar.querySelector('[data-f="tum"]'); if (all && all.getAttribute('aria-pressed') !== 'true') all.click();
+  });
 })();
 </script>
 """
 
+def news_id(n):
+    t = _html.unescape(_re.sub(r"<[^>]+>", "", n["title"])).replace("İ", "i").replace("I", "ı").lower()
+    t = t.translate(str.maketrans("çğıöşüâîû", "cgiosuaiu"))
+    return "h-" + _re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:48].rstrip("-")
+assert len({news_id(n) for n in NEWS}) == len(NEWS)
+def headlines(pre="", items=None):
+    """Haber başlıkları: konu etiketi, başlık ve tarih; her satır haberin kendisine gider."""
+    rows = "".join(f'<li><a href="{pre}#{news_id(n)}"><span class="hl-c">{n["cat"]}</span><span class="hl-t">{n["title"]}</span><small>{n["date"]}</small></a></li>'
+                   for n in (items or NEWS))
+    return f'<ul class="hl">{rows}</ul>'
+HL_CSS = """
+  /* haber başlıkları listesi */
+  .hl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
+  @media (max-width:820px){.hl{grid-template-columns:minmax(0,1fr)}}
+  .hl a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:baseline;padding:11px 2px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+  .hl-c{grid-column:1/-1;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
+  .hl-t{font-family:var(--display);font-size:18px;line-height:1.3}
+  .hl small{font-size:12.5px;color:var(--muted);white-space:nowrap}
+  .hl a:hover .hl-t{color:var(--foil)}
+"""
 def card(n):
     chip = {"Alzheimer": "chip", "Parkinson": "chip", "Huntington": "chip", "Uyku": "chip", "Nöroteknoloji": "chip", "Genetik": "chip g", "Kanser": "chip g", "Diyabet": "chip g"}.get(n["cat"], "chip o")
     srcs = " · ".join(f'<a href="{u}" target="_blank" rel="noopener">{t}</a>' for t, u in n["src"])
     rel = f'\n    <p class="rel"><a href="{n["rel"][1]}">{n["rel"][0]} →</a></p>' if n.get("rel") else ""
-    return f'''<article class="card{' feat' if n.get('feat') else ''}" data-g="{n["g"]}">
+    return f'''<article class="card{' feat' if n.get('feat') else ''}" id="{news_id(n)}" data-g="{n["g"]}">
   <div class="il">{n["il"]}</div>
   <div class="body">
     <div class="tags"><span class="{chip}">{n["cat"]}</span><span>{n["date"]}</span></div>
@@ -1423,7 +1449,7 @@ NEWS_FAQ = [
 NEWS_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
-    <p class="eyebrow">Güncel bilimsel gelişmeler</p>
+    <p class="eyebrow">Bilim gündemi</p>
     <h1>Geleceğin tıbbı, bugün</h1>
     <p class="lede">Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri. Her haberin altında kaynağı var.</p>
     <p class="meta">Son güncelleme: 30 Eylül 2026</p>
@@ -1432,6 +1458,7 @@ NEWS_BODY = f'''<header class="page">
 <main>
   <section>
     <div class="wrap">
+      <details class="hl-box"><summary><span>Başlıklar</span><small>{len(NEWS)}</small></summary>{headlines()}</details>
       {filt()}
       <div class="grid">
 {"".join(card(n) for n in NEWS)}
@@ -1449,7 +1476,17 @@ NEWS_BODY = f'''<header class="page">
 </main>'''
 
 page("yenilikler.html", "Geleceğin Tıbbı", "Huntington gen tedavisi, pankreas kanserinde yeni ilaç, zayıflama hapları, Alzheimer kan testleri, Parkinson'da kök hücre nakli, mRNA kanser aşısı ve daha fazlası: kısa, kaynaklı özetler.",
-     "yenilikler.html", NEWS_CSS, NEWS_BODY, NEWS_JS,
+     "yenilikler.html", NEWS_CSS + HL_CSS + """
+  .card{scroll-margin-top:84px}
+  .hl-box{margin:0 0 22px;border:1px solid var(--line);border-radius:14px;background:var(--ground-2)}
+  .hl-box summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:8px;padding:13px 44px 13px 16px;position:relative;font-family:var(--display);font-size:19px}
+  .hl-box summary::-webkit-details-marker{display:none}
+  .hl-box summary small{font-family:var(--body);font-size:12.5px;color:var(--muted)}
+  .hl-box summary::after{content:"+";position:absolute;right:16px;top:9px;font-family:var(--body);font-size:26px;line-height:1;color:var(--foil);transition:transform .2s}
+  .hl-box[open] summary::after{transform:rotate(45deg)}
+  .hl-box summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:12px}
+  .hl-box .hl{padding:0 16px 8px;border-top:1px solid var(--line)}
+""", NEWS_BODY, NEWS_JS,
      seo_title="Geleceğin Tıbbı: Güncel Bilimsel Gelişmeler | İhsan Eren",
      about=[cond("Alzheimer hastalığı"), cond("Parkinson hastalığı"), cond("Omurilik yaralanması"), cond("Bel ağrısı", "low-back-pain"), cond("Diz kireçlenmesi", "knee-osteoarthritis"), cond("CPS1 eksikliği"), cond("Orak hücreli anemi"), cond("Beta talasemi"), cond("Meme kanseri"), cond("Kalıtsal işitme kaybı"), cond("Son dönem böbrek yetmezliği"), cond("Sistemik lupus eritematozus"), cond("Melanom"), cond("Kolon kanseri"), cond("Tip 1 diyabet"), cond("Amiyotrofik lateral skleroz (ALS)"), cond("Huntington hastalığı"), cond("Narkolepsi"), cond("Pankreas kanseri"), cond("Yüksek tansiyon (hipertansiyon)"), cond("Yüksek kolesterol"), cond("Obezite")],
      faq_items=NEWS_FAQ)
@@ -1495,7 +1532,8 @@ HOME_CSS = HOME_CSS + """
   .pulse-live{margin:0;display:flex;align-items:center;gap:9px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--foil)}
   .pulse-live::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--gold);animation:pulse-dot 2s ease-out infinite}
   @keyframes pulse-dot{from{box-shadow:0 0 0 0 rgba(226,171,71,.65)}to{box-shadow:0 0 0 11px rgba(226,171,71,0)}}
-  .pulse-nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .pulse-nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+  @media (max-width:560px){.pulse-nums{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 12px}}
   .pulse-nums a{display:grid;gap:3px;align-content:start;text-decoration:none;color:var(--ink-soft);font-size:14px;line-height:1.3}
   .pulse-nums a:hover span{color:var(--foil)}
   .pn{font-family:var(--display);font-weight:400;font-size:clamp(36px,7vw,48px);line-height:1;color:var(--gold);font-variant-numeric:tabular-nums;text-shadow:0 0 22px rgba(226,171,71,.4)}
@@ -1507,7 +1545,20 @@ HOME_CSS = HOME_CSS + """
   .rot a::after{content:" →";color:var(--foil)}
   .rot a:hover{color:var(--foil)}
   @keyframes rot-in{from{opacity:0;transform:translateY(70%)}}
-"""
+  .kg .hl{flex:1 1 100%}
+  .kg .hl li:first-child a,.kg .hl li:nth-child(2) a{padding-top:4px}
+  @media (max-width:820px){.kg .hl li:nth-child(2) a{padding-top:11px}}
+  /* girişte üç kapı: Bilgi köşesi, Kendine iyi bak, Bilim gündemi */
+  .trio{list-style:none;margin:24px auto 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;max-width:600px}
+  .trio a{height:100%;box-sizing:border-box;display:grid;grid-template-rows:1fr auto;gap:4px;justify-items:center;padding:11px 6px 10px;border:1px solid var(--line-strong);border-radius:14px;text-decoration:none;text-align:center;
+    background:radial-gradient(120% 120% at 50% 0%,rgba(226,171,71,.13),transparent 70%),rgba(236,229,207,.03);transition:border-color .2s,transform .2s}
+  .trio a:hover{border-color:var(--gold);transform:translateY(-2px)}
+  .trio b{align-self:center;font-family:var(--display);font-weight:400;font-size:clamp(15px,4.1vw,20px);line-height:1.15;color:var(--foil);text-wrap:balance}
+  .trio span{display:flex;gap:4px;align-items:baseline;font-size:12px;color:var(--muted)}
+  .trio i,.trio em{font-style:normal}
+  .trio i{color:var(--ink-soft);font-variant-numeric:tabular-nums}
+  .hero .trio{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
+""" + HL_CSS
 
 def KC(href, th, k, title, text, go="Oku →", ext_link=False):
     tgt = ' target="_blank" rel="noopener"' if ext_link else ""
@@ -1575,7 +1626,7 @@ C_NECK = KC("boyun-agrisi.html", TH_NECK, "Hastalık rehberi", "Boyun ağrısı"
 C_HERNIA = KC("boyun-fitigi.html", TH_NERVE, "Hastalık rehberi", "Boyun fıtığı ve sinir sıkışması", "Kola vuran ağrı, hangi sinir nereye vurur, MR ne anlatır, ne zaman ameliyat gerekir?")
 C_SHOULDER = KC("donuk-omuz.html", TH_SHOULDER, "Hastalık rehberi", "Donuk omuz", "Nedir, evreleri nelerdir, nasıl tedavi edilir? Evde yapılabilecek egzersizler.")
 C_STRES = KC("stres.html", TH_BREATH, "Kendine iyi bak", "Stresli anlarda ne yapabilirsiniz?", "Nefes egzersizleri, DSÖ rehberinden beş beceri, Türkçe kitapçık ve ses kayıtları.")
-C_NEWS = KC("yenilikler.html", TH_DNA, "Güncel bilimsel gelişmeler", "Geleceğin tıbbı, bugün", "Alzheimer'ı kandan tanıyan testler, domuz böbreği nakli, mamografide yapay zekâ, gen tedavileri ve rehabilitasyonda yeni bulgular.")
+C_NEWS = KC("yenilikler.html", TH_DNA, "Bilim gündemi", "Geleceğin tıbbı, bugün", "Alzheimer'ı kandan tanıyan testler, domuz böbreği nakli, mamografide yapay zekâ, gen tedavileri ve rehabilitasyonda yeni bulgular.")
 C_IDEA = KC("https://wa.me/905538815568?text=" + quote("Merhaba, Bilgi köşesi için bir konu önermek istiyorum."), TH_IDEA, "Sizden gelsin", "Hangi konuyu merak ediyorsunuz?", "Bilgi köşesinde okumak istediğiniz bir konu varsa önerinizi WhatsApp'tan iletebilirsiniz.", go="Konu öner →", ext_link=True)
 
 TH_RC = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="24" r="12" fill="#8fa476"/><path d="M130 54 H190 M160 36 V110 M160 110 L148 146 M160 110 L172 146 M190 54 L198 98" stroke="#8fa476" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M130 54 L120 98" stroke="#d8b25e" stroke-width="8" stroke-linecap="round"/><path d="M112 50 A20 20 0 0 1 132 36" stroke="#e2ab47" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M140 38 A20 20 0 0 1 150 54" stroke="#e2ab47" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="130" cy="54" r="24" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M94 46h-12M96 62l-11 5M98 30l-10-6" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
@@ -1640,6 +1691,7 @@ def pulse(pre=""):
           <a href="{pre}#agrilar"><b class="pn">{len(AGR)}</b><span>hastalık rehberi</span></a>
           <a href="{pre}#rehabilitasyon"><b class="pn">{len(REHAB)}</b><span>rehabilitasyon rehberi</span></a>
           <a href="{pre}#kendine-iyi-bak"><b class="pn">{len(SELF)}</b><span>kendine iyi bak rehberi</span></a>
+          <a href="{pre}#tipta-yenilikler"><b class="pn">{len(NEWS)}</b><span>bilim haberi</span></a>
         </div>
         <p class="pulse-rot"><span>Örneğin</span><span class="rot">{rot}</span></p>
       </div>"""
@@ -1775,6 +1827,7 @@ HOME_SECTION = f"""  <section id="bilgi">
         {pill_group("Hastalıklar", "agrilar", [c for c, _ in AGR])}
         {pill_group("Evde rehabilitasyon", "rehabilitasyon", REHAB)}
         {pill_group("Kendine iyi bak", "kendine-iyi-bak", SELF)}
+        <div class="kg"><a class="lbl" href="yenilikler.html"><span>Bilim gündemi</span><small>{len(NEWS)}</small></a><div class="pl">{headlines("yenilikler.html", NEWS[:4])}</div></div>
         <a class="all" href="bilgi.html">Tüm konular →</a>
       </div>
     </div>
@@ -1794,6 +1847,9 @@ HUB_CSS = HOME_CSS + """
   .filt button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .filt small{font-size:12px;opacity:.75;margin-left:4px}
   .kose > [hidden]{display:none!important}
+  .hl-all{margin:14px 0 26px;max-width:none;text-align:right;font-weight:600;font-size:15px}
+  .hl-all a{text-decoration:none}
+  .hl-all a:hover{text-decoration:underline}
   header.page .pulse{margin-bottom:0}
   /* yapışkan kategori çubuğu + görünüm düğmesi */
   .tabs{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--barh,57px));z-index:30;background:rgba(28,40,25,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
@@ -1812,7 +1868,7 @@ HUB_CSS = HOME_CSS + """
   .view button[aria-pressed="true"]{background:var(--foil);color:var(--ground)}
   .view button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .view svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-  .tabs-s .sm,.view-m{display:none}
+  .view-m{display:none}
   /* telefon ve tablet: dört başlık yana kaydırmadan, iki satırda */
   @media (max-width:1040px){
     .tabs .wrap{padding-block:7px}
@@ -1824,8 +1880,6 @@ HUB_CSS = HOME_CSS + """
   /* telefon: görünüm düğmesi listenin üstünde */
   @media (max-width:700px){
     .tabs .view{display:none}
-    .tabs-s .lg{display:none}
-    .tabs-s .sm{display:inline}
     .view-m{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin:0 0 14px;font-size:13px;color:var(--muted)}
   }
   @media (max-width:379px){.tabs-s small{display:none}}
@@ -1861,7 +1915,7 @@ HUB_BODY = f"""<header class="page">
       <a href="#agrilar"><span>Ağrılar ve hastalıklar</span><small>{len(AGR)}</small></a>
       <a href="#rehabilitasyon"><span>Evde rehabilitasyon</span><small>{len(REHAB)}</small></a>
       <a href="#kendine-iyi-bak"><span>Kendine iyi bak</span><small>{len(SELF)}</small></a>
-      <a href="#tipta-yenilikler"><span class="lg">Güncel bilimsel gelişmeler</span><span class="sm">Güncel gelişmeler</span></a>
+      <a href="#tipta-yenilikler"><span>Bilim gündemi</span><small>{len(NEWS)}</small></a>
     </div>
     <div class="view" role="group" aria-label="Görünüm">
       <button type="button" data-v="list" aria-pressed="true" aria-label="Liste görünümü"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg></button>
@@ -1899,10 +1953,11 @@ HUB_BODY = f"""<header class="page">
         </div>
       </div>
       <div class="cat" id="tipta-yenilikler">
-        <h2>Güncel bilimsel gelişmeler</h2>
-        <p>Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri.</p>
+        <h2>Bilim gündemi</h2>
+        <p>Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri. Başlığa dokunun, haberin kendisine gidin.</p>
+        {headlines("yenilikler.html")}
+        <p class="hl-all"><a href="yenilikler.html">Tüm haberleri oku →</a></p>
         <div class="kose">
-          {C_NEWS}
           {C_IDEA}
         </div>
       </div>
@@ -1915,4 +1970,11 @@ page("bilgi.html", "Bilgi Köşesi",
 
 open(os.path.join(OUT, "_home_css.txt"), "w", encoding="utf-8").write(HOME_CSS)
 open(os.path.join(OUT, "_home_section.txt"), "w", encoding="utf-8").write(HOME_SECTION)
+HOME_TRIO = f"""    <ul class="trio">
+      <li><a href="bilgi.html"><b>Bilgi köşesi</b><span><i>{len(AGR) + len(REHAB)}</i><em>rehber</em></span></a></li>
+      <li><a href="bilgi.html#kendine-iyi-bak"><b>Kendine iyi bak</b><span><i>{len(SELF)}</i><em>rehber</em></span></a></li>
+      <li><a href="yenilikler.html"><b>Bilim gündemi</b><span><i>{len(NEWS)}</i><em>haber</em></span></a></li>
+    </ul>
+"""
+open(os.path.join(OUT, "_home_trio.txt"), "w", encoding="utf-8").write(HOME_TRIO)
 print("built", MODE, OUT)

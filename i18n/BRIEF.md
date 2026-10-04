@@ -57,6 +57,7 @@ Readers: English-speaking patients and families (often expats) in Istanbul.
 | Bilgi köşesi | Health library |
 | Kendine iyi bak | Look after yourself |
 | Tıpta yenilikler | Medical advances |
+| Bilim gündemi | Science news |
 | Hastalık rehberi | Condition guide |
 | Rehabilitasyon rehberi | Rehabilitation guide |
 | Sık sorulan sorular | Frequently asked questions |
