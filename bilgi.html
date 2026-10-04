@@ -268,7 +268,7 @@
   .cat h2{margin-bottom:6px}
   .cat > p{color:var(--ink-soft);margin-bottom:18px}
   .cat + .cat{margin-top:clamp(36px,6vw,56px)}
-  .cat{scroll-margin-top:calc(var(--barh,57px) + 66px)}
+  .cat{scroll-margin-top:calc(var(--barh,57px) + var(--tabsh,50px) + 16px)}
   .filt{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
   .filt button{all:unset;cursor:pointer;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft)}
   .filt button:hover{border-color:var(--foil);color:var(--ink)}
@@ -294,6 +294,23 @@
   .view button[aria-pressed="true"]{background:var(--foil);color:var(--ground)}
   .view button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .view svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .tabs-s .sm,.view-m{display:none}
+  /* telefon ve tablet: dört başlık yana kaydırmadan, iki satırda */
+  @media (max-width:1040px){
+    .tabs .wrap{padding-block:7px}
+    .tabs-s{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;overflow:visible;-webkit-mask-image:none;mask-image:none}
+    .tabs-s a{min-width:0;justify-content:space-between;padding:7px 11px;font-size:13px;border-color:var(--line)}
+    .tabs-s a:last-child{margin-right:0}
+    .tabs-s a span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+  }
+  /* telefon: görünüm düğmesi listenin üstünde */
+  @media (max-width:700px){
+    .tabs .view{display:none}
+    .tabs-s .lg{display:none}
+    .tabs-s .sm{display:inline}
+    .view-m{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin:0 0 14px;font-size:13px;color:var(--muted)}
+  }
+  @media (max-width:379px){.tabs-s small{display:none}}
   /* liste görünümü: aynı kartlar, sıkı satırlar ve bölge başlıkları */
   .grp{display:none;margin:0;max-width:none}
   .hub[data-view="list"] .kose{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
@@ -351,7 +368,7 @@
       <a href="#agrilar"><span>Ağrılar ve hastalıklar</span><small>26</small></a>
       <a href="#rehabilitasyon"><span>Evde rehabilitasyon</span><small>7</small></a>
       <a href="#kendine-iyi-bak"><span>Kendine iyi bak</span><small>10</small></a>
-      <a href="#tipta-yenilikler"><span>Güncel bilimsel gelişmeler</span></a>
+      <a href="#tipta-yenilikler"><span class="lg">Güncel bilimsel gelişmeler</span><span class="sm">Güncel gelişmeler</span></a>
     </div>
     <div class="view" role="group" aria-label="Görünüm">
       <button type="button" data-v="list" aria-pressed="true" aria-label="Liste görünümü"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg></button>
@@ -362,6 +379,10 @@
 <main class="hub" id="hub" data-view="list">
   <section>
     <div class="wrap">
+      <div class="view-m"><span>Görünüm</span><div class="view" role="group" aria-label="Görünüm">
+      <button type="button" data-v="list" aria-pressed="true" aria-label="Liste görünümü"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg></button>
+      <button type="button" data-v="grid" aria-pressed="false" aria-label="Kart görünümü"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg></button>
+      </div></div>
       <div class="cat" id="agrilar">
         <h2>Ağrılar ve hastalıklar</h2>
         <p>Nedir, neden olur, nasıl tedavi edilir? Evde yapılabilecek egzersizler, videolar ve ne zaman hekime başvurmanız gerektiği.</p>
@@ -482,7 +503,7 @@
 (function(){
   var hub = document.getElementById('hub'), tabs = document.getElementById('tabs'); if (!hub || !tabs) return;
   var top = document.querySelector('header.bar'), root = document.documentElement;
-  function fit(){ if (top) root.style.setProperty('--barh', top.offsetHeight + 'px'); }
+  function fit(){ if (top) root.style.setProperty('--barh', top.offsetHeight + 'px'); root.style.setProperty('--tabsh', tabs.offsetHeight + 'px'); }
   fit(); window.addEventListener('resize', fit);
   // kategori çubuğu: görünen bölümü işaretle
   var strip = tabs.querySelector('.tabs-s'), links = strip.querySelectorAll('a'), cur = null;
@@ -500,12 +521,14 @@
     tick = false;
     var line = tabs.getBoundingClientRect().bottom + 48, id = null;
     [].forEach.call(cats, function(c){ if (c.getBoundingClientRect().top <= line) id = c.id; });
+    // son bölüm kısa olduğu için başlığı çubuğun altına kadar çıkamayabilir: sayfa sonunda onu işaretle
+    if (id && window.innerHeight + window.pageYOffset >= root.scrollHeight - 4) id = cats[cats.length - 1].id;
     mark(id);
   }
   window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(spy); } }, {passive: true});
   spy();
   // liste / kart görünümü (seçim bu tarayıcıda hatırlanır)
-  var vb = tabs.querySelectorAll('.view button');
+  var vb = document.querySelectorAll('.view button');
   function setView(v, user){
     hub.setAttribute('data-view', v);
     [].forEach.call(vb, function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-v') === v ? 'true' : 'false'); });
