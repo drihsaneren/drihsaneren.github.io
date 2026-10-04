@@ -234,6 +234,8 @@
   .lx-stats p{margin:0;font-size:14px;line-height:1.45;color:var(--ink-soft)}
   .lx-src{margin-top:6px;font-size:12px;color:var(--muted);text-decoration:none}
   .lx-src:hover{color:var(--foil);text-decoration:underline}
+  .lx-proof{margin:4px 0 0;padding-left:14px;border-left:2px solid var(--gold);color:var(--ink-soft);max-width:62ch}
+  .lx-proof b{color:var(--ink);font-weight:600}
   .lx-hope{margin:6px 0 0;display:flex;align-items:flex-start;gap:12px;font-family:var(--display);font-size:clamp(19px,2.4vw,23px);line-height:1.4;color:var(--ink);max-width:52ch}
   .lx-hope b{font-weight:400;color:var(--gold)}
   .lx-hope svg{flex:none;width:24px;height:24px;margin-top:3px;color:var(--gold);filter:drop-shadow(0 0 6px rgba(226,171,71,.7))}
@@ -481,6 +483,7 @@
   .tile{position:relative;overflow:hidden;border-radius:4px;background:var(--panel);display:block}
   .tile img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
   .tile.big{grid-row:span 2;grid-column:span 2}
+  .tile img[src*="p03"]{object-position:50% 18%}
 
   .btn{
     all:unset;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;
@@ -1268,6 +1271,7 @@
           <li style="--i:2"><svg class="lx-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 7v7l-1 7M12 9.5l-5 1.5M12 9.5l5 1.5M12 14l4 1.5-1 3"/></svg><b class="lx-n">%84</b><span class="lx-l">Tek ayak dengesi</span><p>10 saniye tek ayakta duramayanlarda ölüm riskindeki artış.</p><a class="lx-src" href="https://doi.org/10.1136/bjsports-2021-105360" target="_blank" rel="noopener">BJSM 2022 · 1.702 kişi</a></li>
           <li style="--i:3"><svg class="lx-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 20h18M6 20l2-5h4l3-3M12 12l-1-4M11 8a1.8 1.8 0 1 0 0-.1M15 12l3 2"/></svg><b class="lx-n">6 kat</b><span class="lx-l">Yerden kalkma</span><p>Yerde oturup kalkma testinde düşük puanda kalp-damar kaynaklı ölüm riski.</p><a class="lx-src" href="https://academic.oup.com/eurjpc/article/33/12/2170/8163161" target="_blank" rel="noopener">Eur J Prev Cardiol 2026 · 4.282 kişi</a></li>
         </ul>
+        <p class="lx-proof"><b>Tahmin değil, ölçüm.</b> Her göstergenin arkasında yayımlanmış bir çalışma var; sonuçlarınız yazılı bir raporla sizde kalır.</p>
         <p class="lx-hope"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 15V7.2M8 8.4C8 5.6 6.2 3.8 3.4 3.6c.1 2.7 1.9 4.6 4.6 4.8Zm0 0c0-2.8 1.8-4.6 4.6-4.8-.1 2.7-1.9 4.6-4.6 4.8Z" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg><span><b>İyi haber:</b> Genlerinizi değiştiremezsiniz; kas gücünüzü, dengenizi ve yürüyüşünüzü ise her yaşta geliştirebilirsiniz.</span></p>
         <p class="lx-foot"><a href="#hizli-test">2 dakikalık hızlı testi deneyin ↓</a><span>Tahlillerin yerini tutmaz, onları tamamlar.</span></p>
       </div>
