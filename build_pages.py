@@ -1476,13 +1476,37 @@ TH_NERVE = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy=
 TH_IDEA = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M136 44a24 24 0 1 1 48 0c0 12-9 17-12 28h-24c-3-11-12-16-12-28z" fill="none" stroke="#8fa476" stroke-width="5" stroke-linejoin="round"/><path d="M148 84h24M150 94h20" stroke="#8fa476" stroke-width="5" stroke-linecap="round"/><path d="M160 12v-6M120 44h-8M200 44h8M130 18l-5-5M190 18l5-5" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round"/><path d="M110 118h100" stroke="rgba(236,229,207,.25)" stroke-width="3" stroke-linecap="round"/></svg>"""
 
 HOME_CSS = HOME_CSS + """
-  .kose-more{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:18px}
-  .kose-more .lbl{font-size:14px;color:var(--muted);margin-right:2px}
   .pill{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--line-strong);border-radius:999px;color:var(--ink-soft);text-decoration:none;font-size:14px}
   .pill:hover{color:var(--foil);border-color:var(--foil)}
-  .kose-more .all{margin-left:auto;color:var(--foil);font-weight:600;font-size:15px;text-decoration:none}
-  .kose-more .all:hover{text-decoration:underline}
-  @media (max-width:560px){.kose-more .all{margin-left:0;flex-basis:100%}}
+  /* konu dizini: kategoriye göre gruplanmış haplar */
+  .kose-idx{display:grid;gap:14px;margin-top:22px}
+  .kg{display:grid;grid-template-columns:215px minmax(0,1fr);gap:8px 18px;align-items:start;padding-top:14px;border-top:1px solid var(--line)}
+  .kg .lbl{display:flex;align-items:baseline;gap:8px;padding-top:9px;white-space:nowrap;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil);text-decoration:none}
+  .kg .lbl small{font-size:12px;letter-spacing:0;color:var(--muted);font-weight:400}
+  .kg .lbl:hover span{text-decoration:underline}
+  .kg .pl{display:flex;flex-wrap:wrap;gap:8px}
+  @media (max-width:700px){.kg{grid-template-columns:minmax(0,1fr)}.kg .lbl{padding-top:0}}
+  .kose-idx .all{justify-self:end;color:var(--foil);font-weight:600;font-size:15px;text-decoration:none}
+  .kose-idx .all:hover{text-decoration:underline}
+  /* yayın sayacı: kaç rehber yayında + dönen başlık */
+  .pulse{display:grid;gap:12px;margin:22px 0;padding:16px 18px 14px;border:1px solid var(--line);border-radius:16px;max-width:760px;
+    background:radial-gradient(120% 120% at 0% 0%,rgba(226,171,71,.10),transparent 60%),var(--ground-2)}
+  .pulse p{max-width:none}
+  .pulse-live{margin:0;display:flex;align-items:center;gap:9px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--foil)}
+  .pulse-live::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--gold);animation:pulse-dot 2s ease-out infinite}
+  @keyframes pulse-dot{from{box-shadow:0 0 0 0 rgba(226,171,71,.65)}to{box-shadow:0 0 0 11px rgba(226,171,71,0)}}
+  .pulse-nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .pulse-nums a{display:grid;gap:3px;align-content:start;text-decoration:none;color:var(--ink-soft);font-size:14px;line-height:1.3}
+  .pulse-nums a:hover span{color:var(--foil)}
+  .pn{font-family:var(--display);font-weight:400;font-size:clamp(36px,7vw,48px);line-height:1;color:var(--gold);font-variant-numeric:tabular-nums;text-shadow:0 0 22px rgba(226,171,71,.4)}
+  .pulse-rot{margin:0;display:flex;align-items:baseline;gap:8px;min-width:0;padding-top:11px;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+  .pulse-rot > span:first-child{flex:none}
+  .rot{display:block;flex:1;min-width:0;overflow:hidden}
+  .rot a{display:none;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink);text-decoration:none}
+  .rot a.on{display:block;animation:rot-in .5s cubic-bezier(.2,.7,.2,1) both}
+  .rot a::after{content:" →";color:var(--foil)}
+  .rot a:hover{color:var(--foil)}
+  @keyframes rot-in{from{opacity:0;transform:translateY(70%)}}
 """
 
 def KC(href, th, k, title, text, go="Oku →", ext_link=False):
@@ -1588,7 +1612,96 @@ def region_filter():
     return ('<div class="filt" role="group" aria-label="Bölgeye göre süz">' +
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
-AGR_CARDS = "\n          ".join(c.replace('<a class="kc" ', f'<a class="kc" data-r="{r}" ', 1) for c, r in AGR)
+REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_HIPFX, C_PARK, C_MS, C_ONCO]
+SELF = [C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
+def _kc_info(c):
+    return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
+def agr_cards():
+    """Kartlar + (liste görünümünde görünen) bölge başlıkları. Kart ilk bölge etiketinin başlığı altında durur."""
+    names = dict(REGIONS); out = []; last = None
+    for c, r in AGR:
+        r0 = r.split()[0]
+        if r0 != last:
+            out.append(f'<p class="grp" data-r="{r0}"><span>{names[r0]}</span></p>'); last = r0
+        out.append(c.replace('<a class="kc" ', f'<a class="kc" data-r="{r}" ', 1))
+    return "\n          ".join(out)
+AGR_CARDS = agr_cards()
+REHAB_CARDS = "\n          ".join(REHAB)
+SELF_CARDS = "\n          ".join(SELF)
+
+def pulse(pre=""):
+    """Yayın sayacı: kategori başına rehber sayısı (yukarı doğru sayar) ve sırayla dönen rehber başlıkları."""
+    allc = [c for c, _ in AGR] + REHAB + SELF
+    order = [allc[(i * 7) % len(allc)] for i in range(len(allc))] if len(allc) % 7 else allc
+    rot = "".join(f'<a href="{h}"{" class=" + chr(34) + "on" + chr(34) if i == 0 else ""}>{t}</a>' for i, (h, t) in enumerate(map(_kc_info, order)))
+    return f"""<div class="pulse" id="pulse">
+        <p class="pulse-live">Sizin için yayında</p>
+        <div class="pulse-nums">
+          <a href="{pre}#agrilar"><b class="pn">{len(AGR)}</b><span>hastalık rehberi</span></a>
+          <a href="{pre}#rehabilitasyon"><b class="pn">{len(REHAB)}</b><span>rehabilitasyon rehberi</span></a>
+          <a href="{pre}#kendine-iyi-bak"><b class="pn">{len(SELF)}</b><span>kendine iyi bak rehberi</span></a>
+        </div>
+        <p class="pulse-rot"><span>Örneğin</span><span class="rot">{rot}</span></p>
+      </div>"""
+PULSE_JS = """<script>
+(function(){
+  var box = document.getElementById('pulse'); if (!box) return;
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function count(){
+    [].forEach.call(box.querySelectorAll('.pn'), function(el, i){
+      var to = +el.textContent, st = null, dur = 1100, delay = i * 160; if (!to) return;
+      el.textContent = '0';
+      function step(ts){
+        if (st === null) st = ts;
+        var t = Math.min(1, Math.max(0, (ts - st - delay) / dur)), e = 1 - Math.pow(1 - t, 3);
+        el.textContent = Math.round(to * e);
+        if (t < 1) requestAnimationFrame(step); else el.textContent = to;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  var rot = box.querySelector('.rot'), items = rot ? rot.querySelectorAll('a') : [], k = 0, hold = false, tm = null, rel = null;
+  function next(){
+    if (hold || document.hidden) return;
+    items[k].classList.remove('on'); k = (k + 1) % items.length; items[k].classList.add('on');
+  }
+  if (rot) {
+    ['mouseenter', 'focusin'].forEach(function(ev){ rot.addEventListener(ev, function(){ hold = true; }); });
+    ['mouseleave', 'focusout'].forEach(function(ev){ rot.addEventListener(ev, function(){ hold = false; }); });
+    rot.addEventListener('touchstart', function(){ hold = true; clearTimeout(rel); rel = setTimeout(function(){ hold = false; }, 5000); }, {passive: true});
+  }
+  function run(){
+    if (reduce) return;
+    count();
+    if (items.length > 1 && !tm) tm = setInterval(next, 2600);
+  }
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(es){ if (es[0].isIntersecting) { io.disconnect(); run(); } }, {threshold: .4});
+    io.observe(box);
+  } else run();
+})();
+</script>
+"""
+PILL = {
+    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "boyun-agrisi.html": "Boyun ağrısı",
+    "boyun-fitigi.html": "Boyun fıtığı", "bas-agrisi.html": "Baş ağrısı", "cene-eklemi.html": "Çene eklemi",
+    "diz-kireclenmesi.html": "Diz kireçlenmesi", "menisku-yirtigi.html": "Menisküs yırtığı", "diz-onu-agrisi.html": "Diz önü ağrısı",
+    "kalca-kireclenmesi.html": "Kalça kireçlenmesi", "donuk-omuz.html": "Donuk omuz", "omuz-sikismasi.html": "Omuz sıkışması",
+    "rotator-manset-yirtigi.html": "Rotator manşet yırtığı", "karpal-tunel-sendromu.html": "Karpal tünel", "tenisci-dirsegi.html": "Tenisçi dirseği",
+    "kemik-erimesi.html": "Kemik erimesi", "fibromiyalji.html": "Fibromiyalji", "ankilozan-spondilit.html": "Ankilozan spondilit",
+    "bas-donmesi.html": "Baş dönmesi", "ayak-bilegi-burkulmasi.html": "Ayak bileği burkulması", "asil-tendinopatisi.html": "Aşil tendinopatisi",
+    "skolyoz.html": "Skolyoz", "idrar-kacirma.html": "İdrar kaçırma", "gebelikte-bel-agrisi.html": "Gebelikte bel ağrısı",
+    "topuk-dikeni.html": "Topuk dikeni",
+    "inme-rehabilitasyonu.html": "İnme sonrası", "dusme-onleme.html": "Düşmeyi önleme", "protez-sonrasi.html": "Protez sonrası",
+    "kalca-kirigi.html": "Kalça kırığı", "parkinson.html": "Parkinson", "multipl-skleroz.html": "Multipl skleroz (MS)", "kanser-egzersiz.html": "Kanser ve egzersiz",
+    "masa-basi.html": "Masa başı", "sabah-rutini.html": "Sabah rutini", "hareket.html": "Ne kadar hareket?", "uyku.html": "İyi uyku",
+    "otur-kalk-testi.html": "Otur-kalk testi", "duvar-oturusu.html": "Tansiyon için duvar oturuşu", "ic-cekis.html": "İç çekiş nefesi",
+    "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "stres.html": "Stres",
+}
+def pill_group(label, anchor, cards):
+    pills = "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cards))
+    return (f'<div class="kg"><a class="lbl" href="bilgi.html#{anchor}"><span>{label}</span><small>{len(cards)}</small></a>'
+            f'<div class="pl">{pills}</div></div>')
 HUB_JS = """<script>
 (function(){
   var sec = document.getElementById('agrilar'); if (!sec) return;
@@ -1600,8 +1713,47 @@ HUB_JS = """<script>
     sec.querySelectorAll('.kose > [data-r]').forEach(function(c){ c.hidden = f !== 'tum' && c.getAttribute('data-r').split(' ').indexOf(f) < 0; });
   });
 })();
+(function(){
+  var hub = document.getElementById('hub'), tabs = document.getElementById('tabs'); if (!hub || !tabs) return;
+  var top = document.querySelector('header.bar'), root = document.documentElement;
+  function fit(){ if (top) root.style.setProperty('--barh', top.offsetHeight + 'px'); }
+  fit(); window.addEventListener('resize', fit);
+  // kategori çubuğu: görünen bölümü işaretle
+  var strip = tabs.querySelector('.tabs-s'), links = strip.querySelectorAll('a'), cur = null;
+  function mark(id){
+    if (id === cur) return; cur = id;
+    [].forEach.call(links, function(a){
+      if (id && a.getAttribute('href') === '#' + id) {
+        a.setAttribute('aria-current', 'true');
+        var l = a.offsetLeft - 12; if (l < strip.scrollLeft || a.offsetLeft + a.offsetWidth > strip.scrollLeft + strip.clientWidth - 24) strip.scrollLeft = l;
+      } else a.removeAttribute('aria-current');
+    });
+  }
+  var cats = hub.querySelectorAll('.cat'), tick = false;
+  function spy(){
+    tick = false;
+    var line = tabs.getBoundingClientRect().bottom + 48, id = null;
+    [].forEach.call(cats, function(c){ if (c.getBoundingClientRect().top <= line) id = c.id; });
+    mark(id);
+  }
+  window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(spy); } }, {passive: true});
+  spy();
+  // liste / kart görünümü (seçim bu tarayıcıda hatırlanır)
+  var vb = tabs.querySelectorAll('.view button');
+  function setView(v, user){
+    hub.setAttribute('data-view', v);
+    [].forEach.call(vb, function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-v') === v ? 'true' : 'false'); });
+    if (!user) return;
+    try { localStorage.setItem('bk-view', v); } catch (e) {}
+    var el = cur && document.getElementById(cur);
+    if (el && tabs.getBoundingClientRect().top <= (top ? top.offsetHeight : 0) + 2) el.scrollIntoView();
+  }
+  var v0 = null; try { v0 = localStorage.getItem('bk-view'); } catch (e) {}
+  if (v0 === 'grid' || v0 === 'list') setView(v0, false);
+  [].forEach.call(vb, function(b){ b.addEventListener('click', function(){ setView(b.getAttribute('data-v'), true); }); });
+})();
 </script>
-"""
+""" + PULSE_JS
 
 HOME_SECTION = f"""  <section id="bilgi">
     <div class="wrap">
@@ -1611,74 +1763,68 @@ HOME_SECTION = f"""  <section id="bilgi">
         <p class="intro">Sık karşılaşılan ağrılar ve hastalıklar, kendinize iyi bakmanız için pratik egzersizler ve güncel bilimsel gelişmeler. Her yazının kaynağı belirtilmiştir.</p>
       </div>
       {search_field()}
+      {pulse("bilgi.html")}
       <div class="kose">
         {C_BACK}
         {C_STRES}
         {C_NEWS}
       </div>
-      <div class="kose-more">
-        <span class="lbl">Diğer konular:</span>
-        <a class="pill" href="bel-fitigi.html">Bel fıtığı</a>
-        <a class="pill" href="dar-kanal.html">Dar kanal</a>
-        <a class="pill" href="boyun-agrisi.html">Boyun ağrısı</a>
-        <a class="pill" href="boyun-fitigi.html">Boyun fıtığı</a>
-        <a class="pill" href="bas-agrisi.html">Baş ağrısı</a>
-        <a class="pill" href="cene-eklemi.html">Çene eklemi</a>
-        <a class="pill" href="diz-kireclenmesi.html">Diz kireçlenmesi</a>
-        <a class="pill" href="menisku-yirtigi.html">Menisküs yırtığı</a>
-        <a class="pill" href="diz-onu-agrisi.html">Diz önü ağrısı</a>
-        <a class="pill" href="kalca-kireclenmesi.html">Kalça kireçlenmesi</a>
-        <a class="pill" href="donuk-omuz.html">Donuk omuz</a>
-        <a class="pill" href="omuz-sikismasi.html">Omuz sıkışması</a>
-        <a class="pill" href="rotator-manset-yirtigi.html">Rotator manşet yırtığı</a>
-        <a class="pill" href="karpal-tunel-sendromu.html">Karpal tünel</a>
-        <a class="pill" href="tenisci-dirsegi.html">Tenisçi dirseği</a>
-        <a class="pill" href="kemik-erimesi.html">Kemik erimesi</a>
-        <a class="pill" href="fibromiyalji.html">Fibromiyalji</a>
-        <a class="pill" href="ankilozan-spondilit.html">Ankilozan spondilit</a>
-        <a class="pill" href="bas-donmesi.html">Baş dönmesi</a>
-        <a class="pill" href="ayak-bilegi-burkulmasi.html">Ayak bileği burkulması</a>
-        <a class="pill" href="asil-tendinopatisi.html">Aşil tendinopatisi</a>
-        <a class="pill" href="skolyoz.html">Skolyoz</a>
-        <a class="pill" href="idrar-kacirma.html">İdrar kaçırma</a>
-        <a class="pill" href="gebelikte-bel-agrisi.html">Gebelikte bel ağrısı</a>
-        <a class="pill" href="inme-rehabilitasyonu.html">İnme sonrası</a>
-        <a class="pill" href="dusme-onleme.html">Düşmeyi önleme</a>
-        <a class="pill" href="protez-sonrasi.html">Protez sonrası</a>
-        <a class="pill" href="kalca-kirigi.html">Kalça kırığı</a>
-        <a class="pill" href="parkinson.html">Parkinson</a>
-        <a class="pill" href="multipl-skleroz.html">Multipl skleroz (MS)</a>
-        <a class="pill" href="kanser-egzersiz.html">Kanser ve egzersiz</a>
-        <a class="pill" href="masa-basi.html">Masa başı</a>
-        <a class="pill" href="sabah-rutini.html">Sabah rutini</a>
-        <a class="pill" href="hareket.html">Ne kadar hareket?</a>
-        <a class="pill" href="uyku.html">İyi uyku</a>
-        <a class="pill" href="otur-kalk-testi.html">Otur-kalk testi</a>
-        <a class="pill" href="duvar-oturusu.html">Tansiyon için duvar oturuşu</a>
-        <a class="pill" href="ic-cekis.html">İç çekiş nefesi</a>
-        <a class="pill" href="doga-recetesi.html">Doğa reçetesi</a>
-        <a class="pill" href="bag-kurmak.html">Sosyal bağ</a>
-        <a class="pill" href="topuk-dikeni.html">Topuk dikeni</a>
+      <div class="kose-idx">
+        {pill_group("Hastalıklar", "agrilar", [c for c, _ in AGR])}
+        {pill_group("Evde rehabilitasyon", "rehabilitasyon", REHAB)}
+        {pill_group("Kendine iyi bak", "kendine-iyi-bak", SELF)}
         <a class="all" href="bilgi.html">Tüm konular →</a>
       </div>
     </div>
   </section>
-"""
+{PULSE_JS}"""
 
 # ------------------------------------------------------------------ BİLGİ KÖŞESİ (hub)
 HUB_CSS = HOME_CSS + """
-  .cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
   .cat h2{margin-bottom:6px}
   .cat > p{color:var(--ink-soft);margin-bottom:18px}
   .cat + .cat{margin-top:clamp(36px,6vw,56px)}
-  .cat{scroll-margin-top:80px}
+  .cat{scroll-margin-top:calc(var(--barh,57px) + 66px)}
   .filt{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
   .filt button{all:unset;cursor:pointer;padding:8px 14px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft)}
   .filt button:hover{border-color:var(--foil);color:var(--ink)}
   .filt button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
   .filt button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .filt small{font-size:12px;opacity:.75;margin-left:4px}
-  .kose > [hidden]{display:none}
+  .kose > [hidden]{display:none!important}
+  header.page .pulse{margin-bottom:0}
+  /* yapışkan kategori çubuğu + görünüm düğmesi */
+  .tabs{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--barh,57px));z-index:30;background:rgba(28,40,25,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .tabs .wrap{display:flex;align-items:center;gap:10px;padding-block:8px}
+  .tabs-s{flex:1;min-width:0;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 22px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 22px),transparent)}
+  .tabs-s::-webkit-scrollbar{display:none}
+  .tabs-s a{flex:none;display:inline-flex;align-items:baseline;gap:6px;padding:7px 13px;border-radius:999px;border:1px solid transparent;color:var(--ink-soft);text-decoration:none;font-size:14px;line-height:1.2;white-space:nowrap}
+  .tabs-s a:last-child{margin-right:18px}
+  .tabs-s a:hover{color:var(--foil)}
+  .tabs-s a[aria-current]{border-color:var(--line-strong);color:var(--foil);background:rgba(216,178,94,.08)}
+  .tabs-s small{font-size:12px;color:var(--muted)}
+  .view{flex:none;display:inline-flex;gap:2px;padding:2px;border:1px solid var(--line-strong);border-radius:999px}
+  .view button{all:unset;cursor:pointer;display:grid;place-items:center;width:34px;height:30px;border-radius:999px;color:var(--ink-soft)}
+  .view button:hover{color:var(--foil)}
+  .view button[aria-pressed="true"]{background:var(--foil);color:var(--ground)}
+  .view button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .view svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  /* liste görünümü: aynı kartlar, sıkı satırlar ve bölge başlıkları */
+  .grp{display:none;margin:0;max-width:none}
+  .hub[data-view="list"] .kose{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
+  @media (max-width:820px){.hub[data-view="list"] .kose{grid-template-columns:minmax(0,1fr)}}
+  .hub[data-view="list"] .kc{grid-template-rows:none;grid-template-columns:64px minmax(0,1fr) 10px;align-items:center;gap:14px;padding:11px 6px 11px 2px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none}
+  .hub[data-view="list"] .kc svg{border:1px solid var(--line);border-radius:8px}
+  .hub[data-view="list"] .kc .b{padding:0;gap:1px;min-width:0}
+  .hub[data-view="list"] .kc .k,.hub[data-view="list"] .kc .go{display:none}
+  .hub[data-view="list"] .kc h3{font-size:18px;line-height:1.25}
+  .hub[data-view="list"] .kc p{font-size:13.5px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .hub[data-view="list"] .kc::after{content:"";width:7px;height:7px;border-top:2px solid var(--foil);border-right:2px solid var(--foil);transform:rotate(45deg);opacity:.75}
+  .hub[data-view="list"] .kc:hover h3{color:var(--foil)}
+  .hub[data-view="list"] .kose > .grp{display:flex;align-items:baseline;gap:8px;grid-column:1/-1;margin-top:24px;padding-bottom:7px;border-bottom:1px solid var(--line-strong);
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
+  .hub[data-view="list"] .kose > .grp:first-child{margin-top:2px}
 """
 HUB_BODY = f"""<header class="page">
   <div class="wrap">
@@ -1687,15 +1833,24 @@ HUB_BODY = f"""<header class="page">
     <h1>Herkes için kısa rehberler</h1>
     <p class="lede">Sık karşılaşılan ağrılar ve hastalıklar, kendinize iyi bakmanız için pratik egzersizler ve güncel bilimsel gelişmeler. Her yazının kaynağı belirtilmiştir.</p>
     {search_field()}
-    <nav class="cats" aria-label="Kategoriler">
-      <a class="pill" href="#agrilar">Ağrılar ve hastalıklar</a>
-      <a class="pill" href="#rehabilitasyon">Evde rehabilitasyon</a>
-      <a class="pill" href="#kendine-iyi-bak">Kendine iyi bak</a>
-      <a class="pill" href="#tipta-yenilikler">Güncel bilimsel gelişmeler</a>
-    </nav>
+    {pulse()}
   </div>
 </header>
-<main>
+<nav class="tabs" id="tabs" aria-label="Kategoriler">
+  <div class="wrap">
+    <div class="tabs-s">
+      <a href="#agrilar"><span>Ağrılar ve hastalıklar</span><small>{len(AGR)}</small></a>
+      <a href="#rehabilitasyon"><span>Evde rehabilitasyon</span><small>{len(REHAB)}</small></a>
+      <a href="#kendine-iyi-bak"><span>Kendine iyi bak</span><small>{len(SELF)}</small></a>
+      <a href="#tipta-yenilikler"><span>Güncel bilimsel gelişmeler</span></a>
+    </div>
+    <div class="view" role="group" aria-label="Görünüm">
+      <button type="button" data-v="list" aria-pressed="true" aria-label="Liste görünümü"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg></button>
+      <button type="button" data-v="grid" aria-pressed="false" aria-label="Kart görünümü"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg></button>
+    </div>
+  </div>
+</nav>
+<main class="hub" id="hub" data-view="list">
   <section>
     <div class="wrap">
       <div class="cat" id="agrilar">
@@ -1710,29 +1865,14 @@ HUB_BODY = f"""<header class="page">
         <h2>Evde rehabilitasyon</h2>
         <p>İnme sonrası toparlanma, düşmeleri önleme, ameliyat ve kırık sonrası süreç, Parkinson hastalığında, MS'te ve kanser tedavisinde egzersiz: evde güvenle yapılabilecek egzersizler ve pratik öneriler.</p>
         <div class="kose">
-          {C_FALLS}
-          {C_PROSTH}
-          {C_STROKE}
-          {C_HIPFX}
-          {C_PARK}
-          {C_MS}
-          {C_ONCO}
+          {REHAB_CARDS}
         </div>
       </div>
       <div class="cat" id="kendine-iyi-bak">
         <h2>Kendine iyi bak</h2>
         <p>Günlük hayatta kendinize iyi bakmanız için bilimsel kanıta dayanan pratik yöntemler: kendinizi test edebileceğiniz, zamanlayıcıyla birlikte uygulayabileceğiniz ve takip edebileceğiniz küçük araçlarla.</p>
         <div class="kose">
-          {C_SRT}
-          {C_WALLSIT}
-          {C_SIGH}
-          {C_NATURE}
-          {C_SOCIAL}
-          {C_MORNING}
-          {C_MOVE}
-          {C_SLEEP}
-          {C_STRES}
-          {C_DESK}
+          {SELF_CARDS}
         </div>
       </div>
       <div class="cat" id="tipta-yenilikler">

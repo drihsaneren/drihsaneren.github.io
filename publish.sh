@@ -3,7 +3,9 @@
 set -e
 OLD="$(cd "$(dirname "$0")" && pwd)"; R="${REPO:-/home/claude/drihsaneren.github.io}"; export REPO="$R"
 cd $OLD
-cp $1/_home_section.txt site/_home_section.txt && python3 splice_home.py && rm -f site/_home_*.txt $1/_home_*.txt
+cp $1/_home_section.txt $1/_home_css.txt site/
+python3 splice_home.py
+rm -f site/_home_*.txt $1/_home_*.txt
 python3 to_github.py $R/index.html && cp $1/*.html $R/
 python3 - "$2" <<'PY'
 import sys

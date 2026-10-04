@@ -1618,5 +1618,50 @@
   "id": "fb324",
   "kind": "text",
   "tr": "<b>Tahmin değil, ölçüm.</b> Her göstergenin arkasında yayımlanmış bir çalışma var; sonuçlarınız yazılı bir raporla sizde kalır."
+ },
+ {
+  "id": "fb325",
+  "kind": "text",
+  "tr": "Sizin için yayında"
+ },
+ {
+  "id": "fb326",
+  "kind": "text",
+  "tr": "hastalık rehberi"
+ },
+ {
+  "id": "fb327",
+  "kind": "text",
+  "tr": "rehabilitasyon rehberi"
+ },
+ {
+  "id": "fb328",
+  "kind": "text",
+  "tr": "kendine iyi bak rehberi"
+ },
+ {
+  "id": "fb329",
+  "kind": "text",
+  "tr": "Örneğin"
+ },
+ {
+  "id": "fb330",
+  "kind": "attr",
+  "tr": "Liste görünümü"
+ },
+ {
+  "id": "fb331",
+  "kind": "attr",
+  "tr": "Kart görünümü"
+ },
+ {
+  "id": "fb332",
+  "kind": "attr",
+  "tr": "Görünüm"
+ },
+ {
+  "id": "fb333",
+  "kind": "text",
+  "tr": "Hastalıklar"
  }
 ]
