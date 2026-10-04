@@ -71,11 +71,10 @@ rep("""  .hero-mark{position:relative;width:min(48vw,212px);margin:0 auto 22px;i
     .brand img,.brand .reg{display:none}
     .brand-name{display:block;font-family:var(--display);font-size:21px;line-height:1;color:var(--foil);letter-spacing:.01em;white-space:nowrap}
     .hero-ctas{margin-top:26px}
-    /* bölüm kısayolları tek satır, yana kayar: daha ferah */
-    .hero .nav{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;margin:30px calc(var(--gut)*-1) 0;padding:2px var(--gut);scrollbar-width:none;
-      -webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--gut),#000 calc(100% - var(--gut)),transparent);mask-image:linear-gradient(90deg,transparent,#000 var(--gut),#000 calc(100% - var(--gut)),transparent)}
-    .hero .nav::-webkit-scrollbar{display:none}
-    .hero .nav li{flex:none}
+    /* bölüm kısayolları: iki sütun, hepsi görünür (yana kaydırma yok) */
+    .hero .nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:28px}
+    .hero .nav li:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 4px)}
+    .hero .nav a{display:block;padding:9px 8px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   }""")
 rep(".hero .role{animation-delay:calc(.75s*var(--k))}\n  .hero h1{animation-delay:calc(.85s*var(--k))}\n  .hero .lede{animation-delay:calc(1.1s*var(--k))}\n  .hero .where{animation-delay:calc(1.2s*var(--k))}\n  .hero-ctas{animation-delay:calc(1.3s*var(--k))}\n  .hero .nav{animation-delay:calc(1.4s*var(--k))}",
     ".hero .role{animation-delay:calc(.45s*var(--k))}\n  .hero h1{animation-delay:calc(.55s*var(--k))}\n  .hero .lede{animation-delay:calc(.85s*var(--k))}\n  .hero .where{animation-delay:calc(.95s*var(--k))}\n  .hero-ctas{animation-delay:calc(1.05s*var(--k))}\n  .hero .nav{animation-delay:calc(1.15s*var(--k))}")
