@@ -181,7 +181,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 SELF_PAGES = {"stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Tıpta yenilikler")]
@@ -217,6 +217,7 @@ TOPICS = {
     "protez-sonrasi.html": ("Rehabilitasyon rehberi", "Diz ve kalça protezi sonrası"),
     "kalca-kirigi.html": ("Rehabilitasyon rehberi", "Kalça kırığı sonrası rehabilitasyon"),
     "parkinson.html": ("Rehabilitasyon rehberi", "Parkinson hastalığında egzersiz"),
+    "multipl-skleroz.html": ("Rehabilitasyon rehberi", "Multipl sklerozda (MS) egzersiz"),
     "kanser-egzersiz.html": ("Rehabilitasyon rehberi", "Kanser tedavisi sırasında ve sonrasında egzersiz"),
     "topuk-dikeni.html": ("Hastalık rehberi", "Topuk dikeni (plantar fasiit)"),
     "omuz-sikismasi.html": ("Hastalık rehberi", "Omuz sıkışması (subakromiyal ağrı)"),
@@ -261,7 +262,8 @@ RELATED = {
     "hareket.html": ["sabah-rutini.html", "dusme-onleme.html"],
     "uyku.html": ["stres.html", "sabah-rutini.html"],
     "inme-rehabilitasyonu.html": ["dusme-onleme.html", "parkinson.html"],
-    "parkinson.html": ["dusme-onleme.html", "inme-rehabilitasyonu.html"],
+    "parkinson.html": ["dusme-onleme.html", "multipl-skleroz.html"],
+    "multipl-skleroz.html": ["dusme-onleme.html", "parkinson.html"],
     "kalca-kirigi.html": ["kemik-erimesi.html", "dusme-onleme.html"],
     "kanser-egzersiz.html": ["hareket.html", "uyku.html"],
     "dusme-onleme.html": ["bas-donmesi.html", "protez-sonrasi.html"],
@@ -981,7 +983,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "self2_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "self2_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1523,6 +1525,8 @@ TH_HIPFX = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M70 146 H25
 TH_ONCO = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M100 134 L122 92 C136 70 138 46 122 30 C106 46 108 70 122 92 L144 134" fill="none" stroke="#e2ab47" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M188 60 H236" stroke="#8fa476" stroke-width="6" stroke-linecap="round"/><rect x="178" y="44" width="12" height="32" rx="4" fill="#8fa476"/><rect x="234" y="44" width="12" height="32" rx="4" fill="#8fa476"/><path d="M166 112 H190 l8 -18 10 34 8 -16 H258" fill="none" stroke="#d8b25e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
 C_HIPFX = KC("kalca-kirigi.html", TH_HIPFX, "Rehabilitasyon rehberi", "Kalça kırığı sonrası", "Ameliyattan sonra ne zaman yürünür, evde egzersiz neden fark eder? Altı egzersiz ve güvenlik önerileri.")
 C_PARK = KC("parkinson.html", TH_PARK, "Rehabilitasyon rehberi", "Parkinson hastalığında egzersiz", "Hangi egzersiz daha iyi, donmalarla nasıl başa çıkılır? Büyük ve ritimli altı egzersiz ve videolar.")
+TH_MS = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M84 64 L62 44 M80 80 L54 86 M88 90 L72 116 M98 60 L96 34" stroke="#8fa476" stroke-width="5" stroke-linecap="round" fill="none"/><circle cx="98" cy="75" r="17" fill="#8fa476"/><circle cx="98" cy="75" r="6" fill="#223020" opacity=".55"/><path d="M115 75 H262 M262 75 L274 62 M262 75 L276 76 M262 75 L272 90" stroke="#ece5cf" stroke-width="3.5" stroke-linecap="round" fill="none" opacity=".7"/><g fill="#8fa476"><rect x="122" y="65" width="30" height="20" rx="10"/><rect x="157" y="65" width="30" height="20" rx="10"/><rect x="227" y="65" width="30" height="20" rx="10"/></g><path d="M193 67 q5 3 8 -1 M196 83 q6 -4 10 0 M209 68 q4 4 9 1" stroke="#e2ab47" stroke-width="4" stroke-linecap="round" fill="none"/><circle cx="207" cy="75" r="23" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M207 40 v-12 M228 46 l8 -9 M186 46 l-8 -9" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
+C_MS = KC("multipl-skleroz.html", TH_MS, "Rehabilitasyon rehberi", "Multipl skleroz (MS) ve egzersiz", "Egzersiz güvenli mi, atak tetikler mi? Yorgunluk ve sıcağa duyarlılıkla başa çıkma, kılavuz önerileri ve evde altı egzersiz.")
 C_ONCO = KC("kanser-egzersiz.html", TH_ONCO, "Rehabilitasyon rehberi", "Kanser ve egzersiz", "Tedavi sırasında egzersiz güvenli mi, yorgunluğa iyi gelir mi? Kılavuz önerileri ve evde altı egzersiz.")
 TH_MENISCUS = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M150 6 L156 52" stroke="#8fa476" stroke-width="14" stroke-linecap="round"/><path d="M126 70 Q124 54 140 52 H170 Q186 54 184 70 Q182 80 170 80 H140 Q128 80 126 70Z" fill="#8fa476"/><path d="M124 97 H186 Q190 105 178 107 L166 109 V148 H146 V109 L134 107 Q120 105 124 97Z" fill="#8fa476" opacity=".8"/><path d="M125 91 Q138 83 151 89" fill="none" stroke="#d8b25e" stroke-width="7" stroke-linecap="round"/><path d="M159 89 Q172 83 185 91" fill="none" stroke="#d8b25e" stroke-width="7" stroke-linecap="round"/><path d="M136 82 L139 87 L135 91" fill="none" stroke="#1c2819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="155" cy="88" r="40" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M100 80h-12M102 96l-11 5M210 80h12M208 96l11 5" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 TH_FIBRO = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="22" r="13" fill="#8fa476"/><path d="M134 50 H186 M160 38 V96 M134 50 L126 94 M186 50 L194 94 M160 96 L148 146 M160 96 L172 146" stroke="#8fa476" stroke-width="7" stroke-linecap="round" fill="none"/><g fill="#e2ab47"><circle cx="151" cy="44" r="4.5"/><circle cx="169" cy="44" r="4.5"/><circle cx="137" cy="60" r="4.5"/><circle cx="183" cy="60" r="4.5"/><circle cx="152" cy="94" r="4.5"/><circle cx="168" cy="94" r="4.5"/><circle cx="154" cy="122" r="4.5"/><circle cx="166" cy="122" r="4.5"/></g><g fill="none" stroke="#d8b25e" stroke-width="2" opacity=".75"><circle cx="137" cy="60" r="11"/><circle cx="183" cy="60" r="11"/><circle cx="152" cy="94" r="11"/><circle cx="168" cy="94" r="11"/></g><path d="M86 64 q8-8 16 0 t16 0 M202 94 q8-8 16 0 t16 0" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
@@ -1643,6 +1647,7 @@ HOME_SECTION = f"""  <section id="bilgi">
         <a class="pill" href="protez-sonrasi.html">Protez sonrası</a>
         <a class="pill" href="kalca-kirigi.html">Kalça kırığı</a>
         <a class="pill" href="parkinson.html">Parkinson</a>
+        <a class="pill" href="multipl-skleroz.html">Multipl skleroz (MS)</a>
         <a class="pill" href="kanser-egzersiz.html">Kanser ve egzersiz</a>
         <a class="pill" href="masa-basi.html">Masa başı</a>
         <a class="pill" href="sabah-rutini.html">Sabah rutini</a>
@@ -1703,13 +1708,14 @@ HUB_BODY = f"""<header class="page">
       </div>
       <div class="cat" id="rehabilitasyon">
         <h2>Evde rehabilitasyon</h2>
-        <p>İnme sonrası toparlanma, düşmeleri önleme, ameliyat ve kırık sonrası süreç, Parkinson hastalığında ve kanser tedavisinde egzersiz: evde güvenle yapılabilecek egzersizler ve pratik öneriler.</p>
+        <p>İnme sonrası toparlanma, düşmeleri önleme, ameliyat ve kırık sonrası süreç, Parkinson hastalığında, MS'te ve kanser tedavisinde egzersiz: evde güvenle yapılabilecek egzersizler ve pratik öneriler.</p>
         <div class="kose">
           {C_FALLS}
           {C_PROSTH}
           {C_STROKE}
           {C_HIPFX}
           {C_PARK}
+          {C_MS}
           {C_ONCO}
         </div>
       </div>
