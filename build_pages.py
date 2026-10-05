@@ -1571,6 +1571,7 @@ HOME_CSS = HOME_CSS + """
   .hx[open] summary::after{transform:rotate(-135deg);margin:5px 4px 0}
   .hx summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:12px}
   .hx[open]{border-color:var(--line-strong)}
+  .hx + .hx{margin-top:8px}
   .hx-list{display:grid;gap:14px;padding:14px 16px 16px;border-top:1px solid var(--line)}
   .hx-g{display:grid;gap:7px}
   .hx-g > span{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
@@ -2002,6 +2003,21 @@ def hx_groups():
     return "\n".join('        <div class="hx-g"><span>' + n + '</span><div>' +
                      "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cs)) + '</div></div>'
                      for n, cs in out)
+SELF_GROUPS = [
+    ("Kendinizi ölçün", ["otur-kalk-testi.html", "hareket.html"]),
+    ("Zamanlayıcıyla birlikte yapın", ["duvar-oturusu.html", "ic-cekis.html", "sabah-rutini.html"]),
+    ("Günlük hayat için", ["uyku.html", "stres.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
+]
+def hx_self():
+    """Kendine iyi bak rehberleri, ne işe yaradıklarına göre üç grupta. Listeye yeni eklenen rehber son gruba düşer."""
+    hrefs = [h for h, _ in map(_kc_info, SELF)]
+    used = {h for _, hs in SELF_GROUPS for h in hs}
+    assert used <= set(hrefs), used - set(hrefs)
+    groups = [(n, list(hs)) for n, hs in SELF_GROUPS]
+    groups[-1][1].extend(h for h in hrefs if h not in used)
+    return "\n".join('        <div class="hx-g"><span>' + n + '</span><div>' +
+                     "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h in hs) + '</div></div>'
+                     for n, hs in groups)
 HOME_TRIO = f"""    <p class="trio-k">Bilgi köşesi</p>
     <ul class="trio">
       <li><a href="bilgi.html"><b>Hastalık rehberleri</b><span><i>{len(AGR) + len(REHAB)}</i><em>rehber</em></span></a></li>
@@ -2013,6 +2029,13 @@ HOME_TRIO = f"""    <p class="trio-k">Bilgi köşesi</p>
       <div class="hx-list">
 {hx_groups()}
         <a class="hx-all" href="bilgi.html">Tüm rehberler →</a>
+      </div>
+    </details>
+    <details class="hx">
+      <summary><b>Kendine iyi bak ne işe yarar?</b><span>Ağrınız olmasa da işinize yarar: kendinizi ölçebileceğiniz kısa testler, zamanlayıcıyla birlikte yapılan egzersizler ve uyku, stres, duruş için öneriler.</span><em>Tam liste için dokunun</em></summary>
+      <div class="hx-list">
+{hx_self()}
+        <a class="hx-all" href="bilgi.html#kendine-iyi-bak">Tüm rehberler →</a>
       </div>
     </details>
 """

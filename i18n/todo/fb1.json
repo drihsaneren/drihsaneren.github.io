@@ -1728,5 +1728,30 @@
   "id": "fb346",
   "kind": "text",
   "tr": "Tam liste için dokunun"
+ },
+ {
+  "id": "fb347",
+  "kind": "text",
+  "tr": "Kendine iyi bak ne işe yarar?"
+ },
+ {
+  "id": "fb348",
+  "kind": "text",
+  "tr": "Ağrınız olmasa da işinize yarar: kendinizi ölçebileceğiniz kısa testler, zamanlayıcıyla birlikte yapılan egzersizler ve uyku, stres, duruş için öneriler."
+ },
+ {
+  "id": "fb349",
+  "kind": "text",
+  "tr": "Kendinizi ölçün"
+ },
+ {
+  "id": "fb350",
+  "kind": "text",
+  "tr": "Zamanlayıcıyla birlikte yapın"
+ },
+ {
+  "id": "fb351",
+  "kind": "text",
+  "tr": "Günlük hayat için"
  }
 ]
