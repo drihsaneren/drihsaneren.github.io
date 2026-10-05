@@ -14,7 +14,7 @@ HEAD = {"h1", "h2", "h3", "h4", "summary"}
 BLOCK_CLS = {"stat", "dose"}
 EX_TAGS = {"script", "style", "noscript", "svg", "template", "button", "nav", "footer", "dialog", "select", "iframe"}
 EX_CLS = {"sources", "more", "ctacard", "bar", "fab", "lang", "eyebrow", "meta", "back", "kose", "kose-more",
-          "cats", "sfield", "mr-strings", "m-strings", "sr-only"}
+          "cats", "sfield", "mr-strings", "m-strings", "sr-only", "trio", "trio-k", "hx"}
 TYPE = {"hastalik rehberi": "c", "condition guide": "c", "rehabilitasyon rehberi": "r", "rehabilitation guide": "r",
         "kendine iyi bak": "s", "look after yourself": "s"}
 HOME = {"tr": ("Ana sayfa", "Evde fizyoterapi hizmeti"), "en": ("Home", "Home physiotherapy service")}

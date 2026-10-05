@@ -1557,7 +1557,28 @@ HOME_CSS = HOME_CSS + """
   .trio span{display:flex;gap:4px;align-items:baseline;font-size:12px;color:var(--muted)}
   .trio i,.trio em{font-style:normal}
   .trio i{color:var(--ink-soft);font-variant-numeric:tabular-nums}
-  .hero .trio{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
+  .trio-k{margin:22px 0 0;max-width:none;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+  .trio-k + .trio{margin-top:10px}
+  /* girişte açılır hastalık listesi: hangi hastalıklar var, tek dokunuşla */
+  .hx{max-width:600px;margin:10px auto 0;border:1px solid var(--line);border-radius:14px;background:rgba(236,229,207,.03);text-align:left}
+  .hx summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;padding:12px 16px}
+  .hx summary::-webkit-details-marker{display:none}
+  .hx summary b{font-weight:600;font-size:15px;line-height:1.3;color:var(--ink)}
+  .hx summary span{grid-column:1;font-size:13px;line-height:1.45;color:var(--muted)}
+  .hx summary em{grid-column:1;font-style:normal;font-size:13px;font-weight:600;color:var(--foil)}
+  .hx[open] summary em{display:none}
+  .hx summary::after{content:"";grid-column:2;grid-row:1/4;width:8px;height:8px;margin:0 4px 5px;border-right:2px solid var(--foil);border-bottom:2px solid var(--foil);transform:rotate(45deg);transition:transform .2s}
+  .hx[open] summary::after{transform:rotate(-135deg);margin:5px 4px 0}
+  .hx summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:12px}
+  .hx[open]{border-color:var(--line-strong)}
+  .hx-list{display:grid;gap:14px;padding:14px 16px 16px;border-top:1px solid var(--line)}
+  .hx-g{display:grid;gap:7px}
+  .hx-g > span{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
+  .hx-g > div{display:flex;flex-wrap:wrap;gap:6px}
+  .hx .pill{padding:6px 11px;font-size:13.5px}
+  .hx-all{justify-self:end;font-weight:600;font-size:14px;color:var(--foil);text-decoration:none}
+  .hx-all:hover{text-decoration:underline}
+  .hero .trio-k,.hero .trio,.hero .hx{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
 """ + HL_CSS
 
 def KC(href, th, k, title, text, go="Oku →", ext_link=False):
@@ -1970,11 +1991,30 @@ page("bilgi.html", "Bilgi Köşesi",
 
 open(os.path.join(OUT, "_home_css.txt"), "w", encoding="utf-8").write(HOME_CSS)
 open(os.path.join(OUT, "_home_section.txt"), "w", encoding="utf-8").write(HOME_SECTION)
-HOME_TRIO = f"""    <ul class="trio">
-      <li><a href="bilgi.html"><b>Bilgi köşesi</b><span><i>{len(AGR) + len(REHAB)}</i><em>rehber</em></span></a></li>
+def hx_groups():
+    """Girişteki açılır liste: bölgeye göre hastalıklar + evde rehabilitasyon, kısa adlarla."""
+    names = dict(REGIONS); out = []
+    for r0, _ in REGIONS[1:]:
+        cs = [c for c, r in AGR if r.split()[0] == r0]
+        if cs:
+            out.append((names[r0], cs))
+    out.append(("Evde rehabilitasyon", REHAB))
+    return "\n".join('        <div class="hx-g"><span>' + n + '</span><div>' +
+                     "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cs)) + '</div></div>'
+                     for n, cs in out)
+HOME_TRIO = f"""    <p class="trio-k">Bilgi köşesi</p>
+    <ul class="trio">
+      <li><a href="bilgi.html"><b>Hastalık rehberleri</b><span><i>{len(AGR) + len(REHAB)}</i><em>rehber</em></span></a></li>
       <li><a href="bilgi.html#kendine-iyi-bak"><b>Kendine iyi bak</b><span><i>{len(SELF)}</i><em>rehber</em></span></a></li>
       <li><a href="yenilikler.html"><b>Bilim gündemi</b><span><i>{len(NEWS)}</i><em>haber</em></span></a></li>
     </ul>
+    <details class="hx">
+      <summary><b>Hangi hastalıklar anlatılıyor?</b><span>Bel fıtığı, boyun ağrısı, diz kireçlenmesi, donuk omuz, inme, Parkinson, MS ve daha fazlası.</span><em>Tam liste için dokunun</em></summary>
+      <div class="hx-list">
+{hx_groups()}
+        <a class="hx-all" href="bilgi.html">Tüm rehberler →</a>
+      </div>
+    </details>
 """
 open(os.path.join(OUT, "_home_trio.txt"), "w", encoding="utf-8").write(HOME_TRIO)
 print("built", MODE, OUT)
