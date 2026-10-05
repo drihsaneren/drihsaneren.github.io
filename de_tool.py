@@ -84,6 +84,8 @@ def imp(path):
                 de = re.sub(r"\{(\d+)\}", lambda m: tags[int(m.group(1)) - 1], de)
             elif re.search(r"\{\d+\}", de):
                 errs.append(f"{name}/{i}: düz metinde yer tutucu olmamalı"); continue
+            if it["kind"] in ("text", "attr", "ld"):      # "47 %": satır sonunda ayrılmasın
+                de = re.sub(r"(\d) %", "\\1\u00a0%", de)
             for ph in re.findall(r"\[\[\d+\]\]", tr):
                 if de.count(ph) != 1:
                     errs.append(f"{name}/{i}: {ph} tam bir kez olmalı")
