@@ -899,7 +899,28 @@
   .trio span{display:flex;gap:4px;align-items:baseline;font-size:12px;color:var(--muted)}
   .trio i,.trio em{font-style:normal}
   .trio i{color:var(--ink-soft);font-variant-numeric:tabular-nums}
-  .hero .trio{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
+  .trio-k{margin:22px 0 0;max-width:none;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+  .trio-k + .trio{margin-top:10px}
+  /* girişte açılır hastalık listesi: hangi hastalıklar var, tek dokunuşla */
+  .hx{max-width:600px;margin:10px auto 0;border:1px solid var(--line);border-radius:14px;background:rgba(236,229,207,.03);text-align:left}
+  .hx summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;padding:12px 16px}
+  .hx summary::-webkit-details-marker{display:none}
+  .hx summary b{font-weight:600;font-size:15px;line-height:1.3;color:var(--ink)}
+  .hx summary span{grid-column:1;font-size:13px;line-height:1.45;color:var(--muted)}
+  .hx summary em{grid-column:1;font-style:normal;font-size:13px;font-weight:600;color:var(--foil)}
+  .hx[open] summary em{display:none}
+  .hx summary::after{content:"";grid-column:2;grid-row:1/4;width:8px;height:8px;margin:0 4px 5px;border-right:2px solid var(--foil);border-bottom:2px solid var(--foil);transform:rotate(45deg);transition:transform .2s}
+  .hx[open] summary::after{transform:rotate(-135deg);margin:5px 4px 0}
+  .hx summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:12px}
+  .hx[open]{border-color:var(--line-strong)}
+  .hx-list{display:grid;gap:14px;padding:14px 16px 16px;border-top:1px solid var(--line)}
+  .hx-g{display:grid;gap:7px}
+  .hx-g > span{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
+  .hx-g > div{display:flex;flex-wrap:wrap;gap:6px}
+  .hx .pill{padding:6px 11px;font-size:13.5px}
+  .hx-all{justify-self:end;font-weight:600;font-size:14px;color:var(--foil);text-decoration:none}
+  .hx-all:hover{text-decoration:underline}
+  .hero .trio-k,.hero .trio,.hero .hx{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
 
   /* haber başlıkları listesi */
   .hl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
@@ -1276,11 +1297,26 @@
       <a class="cta" href="https://wa.me/905538815568?text=Hello%2C%20I%20would%20like%20to%20book%20a%20home%20physiotherapy%20session." target="_blank" rel="noopener">Book a session on WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
       <a class="cta ghost" href="#tanisma">Free introductory call</a>
     </div>
+    <p class="trio-k">Health library</p>
     <ul class="trio">
-      <li><a href="health-library.html"><b>Health library</b><span><i>33</i><em>guides</em></span></a></li>
+      <li><a href="health-library.html"><b>Condition guides</b><span><i>33</i><em>guides</em></span></a></li>
       <li><a href="health-library.html#kendine-iyi-bak"><b>Look after yourself</b><span><i>10</i><em>guides</em></span></a></li>
       <li><a href="medical-advances.html"><b>Science news</b><span><i>26</i><em>stories</em></span></a></li>
     </ul>
+    <details class="hx">
+      <summary><b>Which conditions are covered?</b><span>Lumbar disc herniation, neck pain, knee osteoarthritis, frozen shoulder, stroke, Parkinson's, MS and more.</span><em>Tap for the full list</em></summary>
+      <div class="hx-list">
+        <div class="hx-g"><span>Back</span><div><a class="pill" href="low-back-pain.html">Low back pain</a><a class="pill" href="lumbar-disc-herniation.html">Lumbar disc herniation</a><a class="pill" href="lumbar-spinal-stenosis.html">Spinal stenosis</a><a class="pill" href="ankylosing-spondylitis.html">Ankylosing spondylitis</a><a class="pill" href="scoliosis.html">Scoliosis</a></div></div>
+        <div class="hx-g"><span>Neck, head and jaw</span><div><a class="pill" href="neck-pain.html">Neck pain</a><a class="pill" href="cervical-disc-herniation.html">Cervical disc herniation</a><a class="pill" href="headache.html">Headache</a><a class="pill" href="jaw-joint-tmd.html">Jaw joint</a><a class="pill" href="vertigo-bppv.html">Vertigo</a></div></div>
+        <div class="hx-g"><span>Shoulder, arm and hand</span><div><a class="pill" href="frozen-shoulder.html">Frozen shoulder</a><a class="pill" href="shoulder-impingement.html">Shoulder impingement</a><a class="pill" href="rotator-cuff-tear.html">Rotator cuff tear</a><a class="pill" href="carpal-tunnel-syndrome.html">Carpal tunnel</a><a class="pill" href="tennis-elbow.html">Tennis elbow</a></div></div>
+        <div class="hx-g"><span>Hip and knee</span><div><a class="pill" href="knee-osteoarthritis.html">Knee osteoarthritis</a><a class="pill" href="meniscus-tear.html">Meniscus tear</a><a class="pill" href="anterior-knee-pain.html">Anterior knee pain</a><a class="pill" href="hip-osteoarthritis.html">Hip osteoarthritis</a></div></div>
+        <div class="hx-g"><span>Foot and ankle</span><div><a class="pill" href="plantar-fasciitis.html">Heel spur</a><a class="pill" href="achilles-tendinopathy.html">Achilles tendinopathy</a><a class="pill" href="ankle-sprain.html">Ankle sprain</a></div></div>
+        <div class="hx-g"><span>Women's health</span><div><a class="pill" href="urinary-incontinence.html">Urinary incontinence</a><a class="pill" href="pregnancy-back-pain.html">Back pain in pregnancy</a></div></div>
+        <div class="hx-g"><span>Whole body</span><div><a class="pill" href="osteoporosis.html">Osteoporosis</a><a class="pill" href="fibromyalgia.html">Fibromyalgia</a></div></div>
+        <div class="hx-g"><span>Rehabilitation at home</span><div><a class="pill" href="fall-prevention.html">Fall prevention</a><a class="pill" href="joint-replacement-rehab.html">After joint replacement</a><a class="pill" href="stroke-rehabilitation.html">After stroke</a><a class="pill" href="hip-fracture-rehab.html">Hip fracture</a><a class="pill" href="parkinsons-disease.html">Parkinson’s</a><a class="pill" href="multiple-sclerosis.html">Multiple sclerosis (MS)</a><a class="pill" href="exercise-and-cancer.html">Cancer and exercise</a></div></div>
+        <a class="hx-all" href="health-library.html">All guides →</a>
+      </div>
+    </details>
     <ul class="nav">
       <li><a href="#hizmetler">Services</a></li>
       <li><a href="#analiz">Longevity analysis</a></li>

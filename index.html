@@ -899,7 +899,28 @@
   .trio span{display:flex;gap:4px;align-items:baseline;font-size:12px;color:var(--muted)}
   .trio i,.trio em{font-style:normal}
   .trio i{color:var(--ink-soft);font-variant-numeric:tabular-nums}
-  .hero .trio{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
+  .trio-k{margin:22px 0 0;max-width:none;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+  .trio-k + .trio{margin-top:10px}
+  /* girişte açılır hastalık listesi: hangi hastalıklar var, tek dokunuşla */
+  .hx{max-width:600px;margin:10px auto 0;border:1px solid var(--line);border-radius:14px;background:rgba(236,229,207,.03);text-align:left}
+  .hx summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;padding:12px 16px}
+  .hx summary::-webkit-details-marker{display:none}
+  .hx summary b{font-weight:600;font-size:15px;line-height:1.3;color:var(--ink)}
+  .hx summary span{grid-column:1;font-size:13px;line-height:1.45;color:var(--muted)}
+  .hx summary em{grid-column:1;font-style:normal;font-size:13px;font-weight:600;color:var(--foil)}
+  .hx[open] summary em{display:none}
+  .hx summary::after{content:"";grid-column:2;grid-row:1/4;width:8px;height:8px;margin:0 4px 5px;border-right:2px solid var(--foil);border-bottom:2px solid var(--foil);transform:rotate(45deg);transition:transform .2s}
+  .hx[open] summary::after{transform:rotate(-135deg);margin:5px 4px 0}
+  .hx summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:12px}
+  .hx[open]{border-color:var(--line-strong)}
+  .hx-list{display:grid;gap:14px;padding:14px 16px 16px;border-top:1px solid var(--line)}
+  .hx-g{display:grid;gap:7px}
+  .hx-g > span{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
+  .hx-g > div{display:flex;flex-wrap:wrap;gap:6px}
+  .hx .pill{padding:6px 11px;font-size:13.5px}
+  .hx-all{justify-self:end;font-weight:600;font-size:14px;color:var(--foil);text-decoration:none}
+  .hx-all:hover{text-decoration:underline}
+  .hero .trio-k,.hero .trio,.hero .hx{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
 
   /* haber başlıkları listesi */
   .hl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
@@ -1275,11 +1296,26 @@
       <a class="cta" href="https://wa.me/905538815568?text=Merhaba%2C%20evde%20fizyoterapi%20i%C3%A7in%20seans%20planlamak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan seans planla <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
       <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>
     </div>
+    <p class="trio-k">Bilgi köşesi</p>
     <ul class="trio">
-      <li><a href="bilgi.html"><b>Bilgi köşesi</b><span><i>33</i><em>rehber</em></span></a></li>
+      <li><a href="bilgi.html"><b>Hastalık rehberleri</b><span><i>33</i><em>rehber</em></span></a></li>
       <li><a href="bilgi.html#kendine-iyi-bak"><b>Kendine iyi bak</b><span><i>10</i><em>rehber</em></span></a></li>
       <li><a href="yenilikler.html"><b>Bilim gündemi</b><span><i>26</i><em>haber</em></span></a></li>
     </ul>
+    <details class="hx">
+      <summary><b>Hangi hastalıklar anlatılıyor?</b><span>Bel fıtığı, boyun ağrısı, diz kireçlenmesi, donuk omuz, inme, Parkinson, MS ve daha fazlası.</span><em>Tam liste için dokunun</em></summary>
+      <div class="hx-list">
+        <div class="hx-g"><span>Bel ve sırt</span><div><a class="pill" href="bel-agrisi.html">Bel ağrısı</a><a class="pill" href="bel-fitigi.html">Bel fıtığı</a><a class="pill" href="dar-kanal.html">Dar kanal</a><a class="pill" href="ankilozan-spondilit.html">Ankilozan spondilit</a><a class="pill" href="skolyoz.html">Skolyoz</a></div></div>
+        <div class="hx-g"><span>Boyun, baş ve çene</span><div><a class="pill" href="boyun-agrisi.html">Boyun ağrısı</a><a class="pill" href="boyun-fitigi.html">Boyun fıtığı</a><a class="pill" href="bas-agrisi.html">Baş ağrısı</a><a class="pill" href="cene-eklemi.html">Çene eklemi</a><a class="pill" href="bas-donmesi.html">Baş dönmesi</a></div></div>
+        <div class="hx-g"><span>Omuz, kol ve el</span><div><a class="pill" href="donuk-omuz.html">Donuk omuz</a><a class="pill" href="omuz-sikismasi.html">Omuz sıkışması</a><a class="pill" href="rotator-manset-yirtigi.html">Rotator manşet yırtığı</a><a class="pill" href="karpal-tunel-sendromu.html">Karpal tünel</a><a class="pill" href="tenisci-dirsegi.html">Tenisçi dirseği</a></div></div>
+        <div class="hx-g"><span>Kalça ve diz</span><div><a class="pill" href="diz-kireclenmesi.html">Diz kireçlenmesi</a><a class="pill" href="menisku-yirtigi.html">Menisküs yırtığı</a><a class="pill" href="diz-onu-agrisi.html">Diz önü ağrısı</a><a class="pill" href="kalca-kireclenmesi.html">Kalça kireçlenmesi</a></div></div>
+        <div class="hx-g"><span>Ayak ve ayak bileği</span><div><a class="pill" href="topuk-dikeni.html">Topuk dikeni</a><a class="pill" href="asil-tendinopatisi.html">Aşil tendinopatisi</a><a class="pill" href="ayak-bilegi-burkulmasi.html">Ayak bileği burkulması</a></div></div>
+        <div class="hx-g"><span>Kadın sağlığı</span><div><a class="pill" href="idrar-kacirma.html">İdrar kaçırma</a><a class="pill" href="gebelikte-bel-agrisi.html">Gebelikte bel ağrısı</a></div></div>
+        <div class="hx-g"><span>Tüm vücut</span><div><a class="pill" href="kemik-erimesi.html">Kemik erimesi</a><a class="pill" href="fibromiyalji.html">Fibromiyalji</a></div></div>
+        <div class="hx-g"><span>Evde rehabilitasyon</span><div><a class="pill" href="dusme-onleme.html">Düşmeyi önleme</a><a class="pill" href="protez-sonrasi.html">Protez sonrası</a><a class="pill" href="inme-rehabilitasyonu.html">İnme sonrası</a><a class="pill" href="kalca-kirigi.html">Kalça kırığı</a><a class="pill" href="parkinson.html">Parkinson</a><a class="pill" href="multipl-skleroz.html">Multipl skleroz (MS)</a><a class="pill" href="kanser-egzersiz.html">Kanser ve egzersiz</a></div></div>
+        <a class="hx-all" href="bilgi.html">Tüm rehberler →</a>
+      </div>
+    </details>
     <ul class="nav">
       <li><a href="#hizmetler">Hizmetler</a></li>
       <li><a href="#analiz">Longevity analizi</a></li>
