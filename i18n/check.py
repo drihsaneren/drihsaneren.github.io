@@ -1,10 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Çeviri dosyasını doğrular.  Kullanım: python3 check.py <ad>   (ör. bel-agrisi)
-todo/<ad>.json ile done/<ad>.json karşılaştırılır."""
+"""Çeviri dosyasını doğrular.  Kullanım: python3 check.py [--de] <ad> ...   (ör. bel-agrisi)
+todo/<ad>.json ile done/<ad>.json (ya da --de ile done_de/<ad>.json) karşılaştırılır."""
 import sys, os, re, json, collections
 
 D = os.path.dirname(os.path.abspath(__file__))
-TRCH = re.compile(r"[çğıöşüÇĞŞÖÜ]|İ(?!hsan)")
+LANG = "de" if "--de" in sys.argv else "en"
+if LANG == "de":
+    sys.argv.remove("--de")
+DONE = "done_de" if LANG == "de" else "done"
+# Almancada ö, ü geçerli harfler; Türkçeye özgü olanlar yeter
+TRCH = re.compile(r"[çğışÇĞŞ]|İ(?!hsan)") if LANG == "de" else re.compile(r"[çğıöşüÇĞŞÖÜ]|İ(?!hsan)")
+BAN = re.compile(r"\bTermin(?!olog|al|us)|randevu|appointment", re.I) if LANG == "de" else re.compile(r"appointment|randevu", re.I)
 TAG = re.compile(r"<(/?)([a-zA-Z][a-zA-Z0-9]*)([^>]*)>")
 ALLOW_TR = ("Stresli Anlarda Ne Yapmalı?: Resimli Rehber", "Özerkan", "İhsan", "Türkçe", "Kadıköy", "Üsküdar", "Beşiktaş", "Şişli", "Ataşehir", "Bakırköy", "Rosén", "Peña", "Araújo", "Ölçüm", "Yıldız", "Maçka", "Gülhane", "Atatürk", "Rumelihisarı", "Validebağ", "Fenerbahçe", "Göztepe", "Çamlıca", "Polonezköy", "Büyükada", "Büyük Çamlıca")
 
@@ -24,7 +30,7 @@ def tags(h):
 def main(name):
     todo = json.load(open(os.path.join(D, "todo", name + ".json"), encoding="utf-8"))
     try:
-        done = json.load(open(os.path.join(D, "done", name + ".json"), encoding="utf-8"))
+        done = json.load(open(os.path.join(D, DONE, name + ".json"), encoding="utf-8"))
     except Exception as e:
         print("JSON OKUNAMADI:", e)
         return 1
@@ -52,8 +58,8 @@ def main(name):
             t = t.replace(a, "")
         if TRCH.search(re.sub(r'href="[^"]*"', "", t)):
             errs.append(f"{i}: Türkçe karakter kaldı: {en[:90]!r}")
-        if re.search(r"appointment|randevu", en, re.I):
-            errs.append(f"{i}: 'appointment/randevu' kullanılmamalı")
+        if BAN.search(re.sub(r'href="[^"]*"', "", en)):
+            errs.append(f"{i}: 'appointment/randevu/Termin' kullanılmamalı")
         if re.search(r"(?<![&\w#])(amp|quot|lt|gt);", en):
             errs.append(f"{i}: bozuk karakter referansı olabilir")
     extra = set(done) - {it["id"] for it in todo}
