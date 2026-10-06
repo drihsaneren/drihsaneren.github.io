@@ -18,6 +18,10 @@ rep('<figure class="portrait"><img src="img/portre.jpg" alt="İhsan Eren, beyaz 
 rep('          <div class="contact-btns">',
     '          <div class="sig"><img src="img/portre2_s.jpg" alt="" width="192" height="192" loading="lazy"><div><p class="sig-n">İhsan Eren</p><p class="sig-r">Fizyoterapist · İntörn Tıp Doktoru</p></div></div>\n'
     '          <div class="contact-btns">')
+# giriş: unvan satırının yanında küçük yüz (dokununca "Ben kimim"e iner); yüz ilk ekranda görünür ama logo ve iş önde kalır
+rep('\n    <p class="role">Fizyoterapist · İntörn Tıp Doktoru</p>\n',
+    '\n    <div class="hero-by"><a class="hero-face" href="#ben-kimim" aria-label="Ben kimim"><img src="img/portre2_s.jpg" alt="" width="192" height="192"></a>\n'
+    '    <p class="role">Fizyoterapist · İntörn Tıp Doktoru</p></div>\n')
 CSS = '''  /* yüz: ana portre + köşede iş başı karesi */
   .pt{position:relative;width:200px;max-width:60vw}
   .pt .portrait{position:relative;width:100%;max-width:none;border-width:4px}
@@ -29,6 +33,13 @@ CSS = '''  /* yüz: ana portre + köşede iş başı karesi */
   .pt-in img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.06)}
   @media (min-width:1000px){.pt{width:240px}}
   @media (max-width:620px){.pt{margin-bottom:6px}}
+  /* giriş: unvanın yanında küçük yüz */
+  .hero-by{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 12px}
+  .hero-face{flex:none;display:block;width:46px;height:46px;border-radius:50%;border:2px solid var(--ground);box-shadow:0 0 0 1px var(--foil);overflow:hidden;
+    animation:rise calc(.8s*var(--k)) ease calc(.45s*var(--k)) both;transition:transform .3s ease,box-shadow .3s}
+  .hero-face:hover{transform:scale(1.07);box-shadow:0 0 0 1px var(--foil),0 0 18px rgba(226,171,71,.35)}
+  .hero-face img{width:100%;height:100%;object-fit:cover;display:block}
+  @media (min-width:700px){.hero-face{width:54px;height:54px}}
   /* iletişim: mektup imzası gibi küçük yüz + ad */
   .sig{display:flex;align-items:center;gap:12px;margin:22px 0 24px}
   .sig img{flex:none;width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--ground);box-shadow:0 0 0 1px var(--foil)}

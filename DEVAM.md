@@ -95,5 +95,5 @@ Okunurluk iki çözücüyle (zxing-cpp, OpenCV) her karede sınandı. Dikkat: g�
 ## Portre (fb_face.py)
 6 Ekim 2026: kullanıcının gönderdiği kameraya bakan portre eklendi (`portre2.jpg` 720px, `portre2_s.jpg` 192px; yalnızca main dalında).
 "Ben kimim": ana daire yeni portre, sağ alt köşesinde küçük dairede eski beyaz önlüklü kare (`portre.jpg`). İletişim: yazının altında,
-düğmelerin üstünde küçük yüz + ad + unvan ("imza"). Girişte (hero) bilerek yüz yok (kullanıcı "narsistik durmasın" dedi).
+düğmelerin üstünde küçük yüz + ad + unvan ("imza"). Giriş: kullanıcı "çok aşağıda kalmış" geri bildirimi üzerine unvan satırının yanına küçük (46/54 px) yüz eklendi, dokununca "Ben kimim"e iner; büyük yüz girişte bilerek yok ("narsistik durmasın").
 Kaynak görsel `site/` aşamasında `img/portre2.jpg` diye geçer; `to_github.py` "img/" önekini atar.
