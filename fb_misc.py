@@ -42,6 +42,6 @@ i=s.index("  .methods{margin-top:40px}"); j=s.index("  .m .tag:hover{text-decora
 s=s[:i]+s[j:]
 # galeri: dikey kare (kavrama gücü ölçümü) yatay kutuda kırpılırken yüz görünsün
 rep("  .tile.big{grid-row:span 2;grid-column:span 2}",
-    "  .tile.big{grid-row:span 2;grid-column:span 2}\n  .tile img[src*=\"p03\"]{object-position:50% 18%}")
+    "  .tile.big{grid-row:span 2;grid-column:span 2}\n  .tile img[src*=\"p03\"]{object-position:50% 18%}\n  .tile img[src*=\"p07\"]{object-position:50% 38%}")
 open(p,"w",encoding="utf-8").write(s)
 print("ok")
