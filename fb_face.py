@@ -13,15 +13,15 @@ def rep(old, new, cnt=1):
 
 
 rep('<figure class="portrait"><img src="img/portre.jpg" alt="İhsan Eren, beyaz önlükle" loading="lazy"></figure>',
-    '<div class="pt"><figure class="portrait"><img src="img/portre2.jpg" alt="İhsan Eren" width="720" height="720" loading="lazy"></figure>'
+    '<div class="pt"><figure class="portrait"><img src="img/portre2.jpg?v=3" alt="İhsan Eren" width="720" height="720" loading="lazy"></figure>'
     '</div>')
 rep('          <div class="contact-btns">',
-    '          <div class="sig"><img src="img/portre2_s.jpg" alt="" width="192" height="192" loading="lazy"><div><p class="sig-n">İhsan Eren</p><p class="sig-r">Fizyoterapist · İntörn Tıp Doktoru</p></div></div>\n'
+    '          <div class="sig"><img src="img/portre2_s.jpg?v=3" alt="" width="192" height="192" loading="lazy"><div><p class="sig-n">İhsan Eren</p><p class="sig-r">Fizyoterapist · İntörn Tıp Doktoru</p></div></div>\n'
     '          <div class="contact-btns">')
 # giriş: logo tek başına kalır; düğmelerin altında ortada küçük bir "kimlik kartı" (yüz + ad), dokununca "Ben kimim"e iner
 rep('      <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>\n    </div>\n',
     '      <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>\n    </div>\n'
-    '    <a class="hero-me" href="#ben-kimim"><img src="img/portre2_m.jpg" alt="" width="400" height="400"><span><small>Ben kimim</small><b>İhsan Eren</b></span></a>\n')
+    '    <a class="hero-me" href="#ben-kimim"><img src="img/portre2_m.jpg?v=3" alt="" width="400" height="400"><span><small>Ben kimim</small><b>İhsan Eren</b></span></a>\n')
 CSS = '''  /* yüz: ana portre (köşedeki beyaz önlüklü küçük kare kullanıcı isteğiyle kaldırıldı) */
   .pt{position:relative;width:200px;max-width:60vw}
   .pt .portrait{position:relative;width:100%;max-width:none;border-width:4px}
