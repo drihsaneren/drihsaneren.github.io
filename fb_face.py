@@ -14,7 +14,7 @@ def rep(old, new, cnt=1):
 
 rep('<figure class="portrait"><img src="img/portre.jpg" alt="İhsan Eren, beyaz önlükle" loading="lazy"></figure>',
     '<div class="pt"><figure class="portrait"><img src="img/portre2.jpg" alt="İhsan Eren" width="720" height="720" loading="lazy"></figure>'
-    '<figure class="pt-in"><img src="img/portre.jpg" alt="İhsan Eren, beyaz önlükle" width="640" height="640" loading="lazy"></figure></div>')
+    '</div>')
 rep('          <div class="contact-btns">',
     '          <div class="sig"><img src="img/portre2_s.jpg" alt="" width="192" height="192" loading="lazy"><div><p class="sig-n">İhsan Eren</p><p class="sig-r">Fizyoterapist · İntörn Tıp Doktoru</p></div></div>\n'
     '          <div class="contact-btns">')
@@ -22,15 +22,12 @@ rep('          <div class="contact-btns">',
 rep('      <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>\n    </div>\n',
     '      <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>\n    </div>\n'
     '    <a class="hero-me" href="#ben-kimim"><img src="img/portre2_m.jpg" alt="" width="400" height="400"><span><small>Ben kimim</small><b>İhsan Eren</b></span></a>\n')
-CSS = '''  /* yüz: ana portre + köşede iş başı karesi */
+CSS = '''  /* yüz: ana portre (köşedeki beyaz önlüklü küçük kare kullanıcı isteğiyle kaldırıldı) */
   .pt{position:relative;width:200px;max-width:60vw}
   .pt .portrait{position:relative;width:100%;max-width:none;border-width:4px}
   .pt .portrait::after{content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
     background:radial-gradient(closest-side,transparent 60%,rgba(28,40,25,.5) 100%);box-shadow:inset 0 0 0 1px rgba(28,40,25,.25)}
   .pt .portrait img{transform:none;object-position:50% 30%}
-  .pt-in{position:absolute;right:-7%;bottom:-5%;width:39%;aspect-ratio:1/1;margin:0;border-radius:50%;overflow:hidden;
-    border:3px solid var(--ground);box-shadow:0 0 0 1px var(--foil),0 8px 20px rgba(0,0,0,.4);background:var(--ground)}
-  .pt-in img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.06)}
   @media (min-width:1000px){.pt{width:240px}}
   @media (max-width:620px){.pt{margin-bottom:6px}}
   /* giriş: düğmelerin altında kimlik kartı */
