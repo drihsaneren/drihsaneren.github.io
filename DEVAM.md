@@ -80,3 +80,7 @@ Sonra `$REPO` içinde commit + push (main). Araçlarda değişiklik yaptıysan b
 Kullanıcı Almancadan vazgeçti (6 Ekim 2026). Site yalnızca TR + EN. Yarım kalan altyapı ve çeviriler
 (`make_lang.py`, `de_tool.py`, `i18n/BRIEF_DE.md`, `i18n/done_de/`, 51 dosyadan ~20'si çevrili) `almanca` dalında
 duruyor; `kaynak` dalı Almanca öncesi hâline döndürüldü. Kullanıcı açıkça istemedikçe devam etme.
+
+## Giriş (hero) düzeni
+6 Ekim 2026: kullanıcı isteğiyle bilgisayarda da telefondaki giriş kullanılıyor: kabartmalı canlı logo üstte, "İhsan Eren" üst çubukta
+solda, büyük isim başlığı yok (h1 yalnızca ekran okuyucular için). Eski "logo arkada gravür" masaüstü düzeni kaldırıldı (`fb_hero.py`).

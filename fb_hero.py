@@ -1,4 +1,4 @@
-# Ana sayfa: hero A (logo arkada akar, isim önde), logo-yalnız üst çubuk, beyaz flaş önlemi
+# Ana sayfa: giriş her ekranda telefon düzeninde (kabartmalı logo üstte, isim üst çubukta), beyaz flaş önlemi
 p="site/index.html"; s=open(p,encoding="utf-8").read()
 def rep(old,new,cnt=1):
     global s
@@ -37,40 +37,25 @@ rep("""  .hero-mark{position:relative;width:min(48vw,212px);margin:0 auto 22px;i
   .hero-mark::before{content:"";position:absolute;inset:-34% -40%;border-radius:50%;z-index:-1;pointer-events:none;
     background:radial-gradient(closest-side,rgba(226,171,71,.20),rgba(143,164,118,.10) 55%,transparent 78%);
     animation:aura-in calc(1.2s*var(--k)) ease-out both,aura 7s ease-in-out calc(1.6s*var(--k)) infinite}""",
-"""  @keyframes mark-in{from{opacity:0;transform:scale(.96)}}
-  @keyframes drift{0%{transform:none}50%{transform:translate(1.2%,-1%) rotate(.8deg) scale(1.02)}100%{transform:translate(-1%,1%) rotate(-.6deg) scale(1.03)}}
-  /* geniş ekran: logo arka planda, tek renk ince çizgi (gravür), yavaşça akar; yazının arkası hafifçe koyulaşır */
+"""  /* her ekranda aynı giriş: kabartmalı, canlı logo üstte (sağ üstünde ®); isim sol üstte, logonun altında yazmaz */
+  .hero-bg{position:relative;z-index:1}
+  .hero-mark{position:relative;width:min(54vw,224px);margin:0 auto 20px;isolation:isolate}
+  .hero-mark::before{content:"";position:absolute;inset:-34% -40%;border-radius:50%;z-index:-1;pointer-events:none;
+    background:radial-gradient(closest-side,rgba(226,171,71,.20),rgba(143,164,118,.10) 55%,transparent 78%);
+    animation:aura-in calc(1.2s*var(--k)) ease-out both,aura 7s ease-in-out calc(1.6s*var(--k)) infinite}
+  .hero-reg{display:block;position:absolute;top:2%;right:0;font:600 13px/1 var(--body);color:var(--foil);animation:rise calc(.8s*var(--k)) ease calc(1.7s*var(--k)) both}
+  .hero h1{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .hero .rule{margin:14px auto 16px}
+  .brand img,.brand .reg{display:none}
+  .brand-name{display:block;font-family:var(--display);font-size:21px;line-height:1;color:var(--foil);letter-spacing:.01em;white-space:nowrap}
+  .hero-ctas{margin-top:26px}
   @media (min-width:700px){
-    .hero-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
-    .hero-bg::before{content:"";position:absolute;left:50%;top:50%;width:min(150vw,1100px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;
-      background:radial-gradient(closest-side,rgba(226,171,71,.08),rgba(143,164,118,.045) 45%,rgba(143,164,118,.015) 72%,transparent);
-      animation:aura-in calc(1.4s*var(--k)) ease-out both,aura 9s ease-in-out calc(1.6s*var(--k)) infinite}
-    .hero-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(46% 34% at 50% 50%,rgba(28,40,25,.6),transparent 75%)}
-    .hero-mark{position:absolute;left:50%;top:50%;translate:-50% -50%;width:min(76vw,740px);margin:0;opacity:.34;will-change:transform,opacity;
-      -webkit-mask-image:radial-gradient(closest-side,#000 55%,transparent 100%);mask-image:radial-gradient(closest-side,#000 55%,transparent 100%);
-      animation:mark-in calc(1.8s*var(--k)) ease-out both,drift 40s ease-in-out calc(1.8s*var(--k)) infinite alternate}
-    .hero-bg .lg-emb-g{filter:none}
-    .hero-bg .lg-l{stroke:#d8b25e;stroke-width:3.2}
-    .hero-bg .lg-v,.hero-bg .lg-v path{fill:none;stroke:#d8b25e;stroke-width:2.4}
-    .hero-bg .lg-r{fill:none;stroke:#b9c79a;stroke-width:2.4}
-    .hero-bg .lg-y{fill:none;stroke:#e2ab47;stroke-width:2.6}
-    .hero-bg .lg-yg{display:none}
+    .hero-mark{width:clamp(230px,19vw,290px);margin-bottom:26px}
+    .hero-reg{font-size:15px}
+    .brand-name{font-size:24px}
   }
-  /* telefon: kabartmalı, canlı logo üstte (sağ üstünde ®); isim sol üstte, logonun altında yazmaz */
   @media (max-width:699px){
     .hero{padding-block:34px 40px}
-    .hero-bg{position:relative;z-index:1}
-    .hero-mark{position:relative;width:min(54vw,224px);margin:0 auto 20px;isolation:isolate}
-    .hero-mark::before{content:"";position:absolute;inset:-34% -40%;border-radius:50%;z-index:-1;pointer-events:none;
-      background:radial-gradient(closest-side,rgba(226,171,71,.20),rgba(143,164,118,.10) 55%,transparent 78%);
-      animation:aura-in calc(1.2s*var(--k)) ease-out both,aura 7s ease-in-out calc(1.6s*var(--k)) infinite}
-    .hero-reg{display:block;position:absolute;top:2%;right:0;font:600 13px/1 var(--body);color:var(--foil);animation:rise calc(.8s*var(--k)) ease calc(1.7s*var(--k)) both}
-    .hero h1{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-    .hero .role{font-size:16px;color:var(--ink);margin:0}
-    .hero .rule{margin:14px auto 16px}
-    .brand img,.brand .reg{display:none}
-    .brand-name{display:block;font-family:var(--display);font-size:21px;line-height:1;color:var(--foil);letter-spacing:.01em;white-space:nowrap}
-    .hero-ctas{margin-top:26px}
     /* bölüm kısayolları: iki sütun, hepsi görünür (yana kaydırma yok) */
     .hero .nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:28px}
     .hero .nav li:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 4px)}
@@ -87,7 +72,7 @@ rep(".hero .rule svg{animation:leaf calc(.8s*var(--k)) cubic-bezier(.2,.9,.3,1.3
 rep("@media (prefers-reduced-motion:reduce){.hero-mark::before,.hero .rule::before,.hero .rule::after{animation:none!important}}",
     "@media (prefers-reduced-motion:reduce){.hero-bg::before,.hero-mark::before,.hero .rule::before,.hero .rule::after{animation:none!important}.hero-mark{animation:none!important}}")
 rep(".hero .role{font-size:15px;color:var(--ink-soft);letter-spacing:.02em;margin:0 0 6px}\n  .hero h1{font-size:clamp(40px,11vw,64px);line-height:1.05;color:var(--foil);letter-spacing:.01em}",
-    ".hero .role{font-size:clamp(15px,1.6vw,17px);color:var(--ink-soft);letter-spacing:.02em;margin:0 0 8px}\n  .hero h1{font-size:clamp(46px,12.5vw,104px);line-height:1.04;color:var(--foil);letter-spacing:.01em}")
+    ".hero .role{font-size:clamp(16px,1.5vw,18px);color:var(--ink);letter-spacing:.02em;margin:0}\n  .hero h1{font-size:clamp(46px,12.5vw,104px);line-height:1.04;color:var(--foil);letter-spacing:.01em}")
 rep(".hero .lede{max-width:40ch;margin:0 auto;color:var(--ink-soft);font-size:17px}",
     ".hero .lede{max-width:42ch;margin:0 auto;color:var(--ink);font-size:clamp(17px,1.8vw,19px)}")
 # hero işaretlemesi: logo arka plana
@@ -111,7 +96,7 @@ s=s[:i]+"""<script>
   if(!svg)return;
   if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   var k=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--k'))||1;
-  var phone=window.matchMedia&&matchMedia('(max-width: 699px)').matches;
+  var phone=true;   // giriş her ekranda telefon düzeninde
   // omurgadan yukarı akan ışık: ilk açılışta bir kez
   if(k>=1&&p&&p.beginElement)setTimeout(function(){try{p.beginElement()}catch(e){}},phone?90:1100);
   if(!phone||!spec||!pl)return;
