@@ -100,3 +100,6 @@ Kaynak görsel `site/` aşamasında `img/portre2.jpg` diye geçer; `to_github.py
 Portre aynı gün ikinci bir fotoğrafla değiştirildi (kafeterya arka planı). Kırpma (120,70,1000,950): arkadaki hastane tabelasının yazısı
 dairenin dışında kalacak biçimde seçildi (kural: yazarla ilgili kurum adı görünmez); yeniden kırparken buna dikkat et.
 "Ben kimim"deki köşe karesi (beyaz önlüklü, başka yöne bakan `portre.jpg`) kullanıcı isteğiyle kaldırıldı; bölümde yalnızca yeni portre var.
+Giriş kartından ad kaldırıldı (kullanıcı: "sol üstte yazıyor zaten"); kartta yalnızca yüz + "Ben kimim" var, fotoğraf 84 px (≥700 px: 94 px).
+Aşağıdaki "Ben kimim" bölümünün "İhsan Eren" başlığı kullanıcıya soruldu, yerinde kaldı. Yapısal verideki portre adresi artık `schema_home.json`'da `portre2.jpg` (önceden yalnızca main'de elle düzeltilmişti).
+Yeni oturumda `pip install qrcode` gerekir (`fb_qr.py`); yoksa `rebuild_home.sh` yarıda kalır.
