@@ -18,10 +18,11 @@ rep('<figure class="portrait"><img src="img/portre.jpg" alt="İhsan Eren, beyaz 
 rep('          <div class="contact-btns">',
     '          <div class="sig"><img src="img/portre2_s.jpg" alt="" width="192" height="192" loading="lazy"><div><p class="sig-n">İhsan Eren</p><p class="sig-r">Fizyoterapist · İntörn Tıp Doktoru</p></div></div>\n'
     '          <div class="contact-btns">')
-# giriş: unvan satırının yanında küçük yüz (dokununca "Ben kimim"e iner); yüz ilk ekranda görünür ama logo ve iş önde kalır
-rep('\n    <p class="role">Fizyoterapist · İntörn Tıp Doktoru</p>\n',
-    '\n    <div class="hero-by"><a class="hero-face" href="#ben-kimim" aria-label="Ben kimim"><img src="img/portre2_s.jpg" alt="" width="192" height="192"></a>\n'
-    '    <p class="role">Fizyoterapist · İntörn Tıp Doktoru</p></div>\n')
+# giriş: logo ile portre yan yana bir çift ("işim ve ben"); yüz ilk ekranda, logo yine önde. Dokununca "Ben kimim"e iner.
+rep('<div class="hero-bg" aria-hidden="true">', '<div class="hero-duo"><div class="hero-bg" aria-hidden="true">')
+rep('<span class="hero-reg">®</span></div></div>\n  <div class="wrap">',
+    '<span class="hero-reg">®</span></div></div>'
+    '<a class="hero-face" href="#ben-kimim" aria-label="Ben kimim"><img src="img/portre2_m.jpg" alt="" width="400" height="400"></a></div>\n  <div class="wrap">')
 CSS = '''  /* yüz: ana portre + köşede iş başı karesi */
   .pt{position:relative;width:200px;max-width:60vw}
   .pt .portrait{position:relative;width:100%;max-width:none;border-width:4px}
@@ -33,13 +34,18 @@ CSS = '''  /* yüz: ana portre + köşede iş başı karesi */
   .pt-in img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.06)}
   @media (min-width:1000px){.pt{width:240px}}
   @media (max-width:620px){.pt{margin-bottom:6px}}
-  /* giriş: unvanın yanında küçük yüz */
-  .hero-by{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 12px}
-  .hero-face{flex:none;display:block;width:46px;height:46px;border-radius:50%;border:2px solid var(--ground);box-shadow:0 0 0 1px var(--foil);overflow:hidden;
-    animation:rise calc(.8s*var(--k)) ease calc(.45s*var(--k)) both;transition:transform .3s ease,box-shadow .3s}
-  .hero-face:hover{transform:scale(1.07);box-shadow:0 0 0 1px var(--foil),0 0 18px rgba(226,171,71,.35)}
+  /* giriş: logo + portre çifti */
+  .hero-duo{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;margin:0 0 22px;min-width:0}
+  .hero-duo .hero-mark{width:min(46vw,190px);margin:0}
+  .hero-face{position:relative;z-index:2;flex:none;display:block;width:min(34vw,136px);aspect-ratio:1/1;margin-left:-6px;border-radius:50%;overflow:hidden;
+    border:3px solid var(--ground);box-shadow:0 0 0 1px var(--foil),0 10px 28px rgba(0,0,0,.45),0 0 36px rgba(226,171,71,.16);
+    animation:face-in calc(1s*var(--k)) cubic-bezier(.2,.8,.2,1) calc(.5s*var(--k)) both;transition:transform .35s cubic-bezier(.2,.8,.2,1.2),box-shadow .35s}
+  .hero-face:hover{transform:scale(1.04);box-shadow:0 0 0 1px var(--foil),0 14px 34px rgba(0,0,0,.5),0 0 48px rgba(226,171,71,.3)}
   .hero-face img{width:100%;height:100%;object-fit:cover;display:block}
-  @media (min-width:700px){.hero-face{width:54px;height:54px}}
+  .hero-face::after{content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;background:radial-gradient(closest-side,transparent 64%,rgba(28,40,25,.42) 100%)}
+  @keyframes face-in{from{opacity:0;transform:translateX(-18px) scale(.9)}}
+  @media (min-width:700px){.hero-duo{margin-bottom:28px}.hero-duo .hero-mark{width:clamp(210px,17vw,260px)}.hero-face{width:172px;margin-left:-2px}}
+  @media (prefers-reduced-motion:reduce){.hero-face{animation:none}}
   /* iletişim: mektup imzası gibi küçük yüz + ad */
   .sig{display:flex;align-items:center;gap:12px;margin:22px 0 24px}
   .sig img{flex:none;width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--ground);box-shadow:0 0 0 1px var(--foil)}
