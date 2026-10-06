@@ -1,10 +1,9 @@
-/* drihsaneren.com · site içi arama (TR/EN/DE) */
+/* drihsaneren.com · site içi arama (TR/EN) */
 (() => {
   "use strict";
   const SCRIPT = document.currentScript;
   const BASE = new URL(".", SCRIPT && SCRIPT.src ? SCRIPT.src : location.href);
-  const LANG = (document.documentElement.lang || "").toLowerCase();
-  const EN = LANG.startsWith("en"), DE = LANG.startsWith("de");
+  const EN = (document.documentElement.lang || "").toLowerCase().startsWith("en");
   const WA = "https://wa.me/905538815568?text=";
 
   const T = EN ? {
@@ -25,24 +24,6 @@
     stop: "a an and are as at be by can do does for from how i in is it me my of on or should the to what when which why with you your",
     syn: { kegel: ["pelvic", "incontinence"], tmj: ["jaw", "tmd"], bladder: ["incontinence", "bladder"], dizziness: ["vertigo", "dizziness"], arthritis: ["osteoarthritis"], slipped: ["herniation", "hernia"], disc: ["disc", "disk"], disk: ["disc"], insomnia: ["sleep"], anxiety: ["stress"], panic: ["stress"], cva: ["stroke"], paralysis: ["stroke"], osteopenia: ["osteoporosis"], tendinitis: ["tendinopathy"], epicondylitis: ["elbow"], spur: ["spur", "plantar"], hypertension: ["blood", "pressure"], isometric: ["wall"], squat: ["wall"], meditation: ["breathing", "sighing"], sigh: ["sighing"], loneliness: ["loneliness", "connection"], lonely: ["loneliness", "connection"], friends: ["connection"], forest: ["nature"], park: ["nature"], longevity: ["sitting", "rising"], rise: ["rising", "rise"], sit: ["sitting", "sit"] },
     file: "ara-en.json",
-  } : DE ? {
-    label: "Website durchsuchen",
-    ph: "Schmerzen, Beschwerden oder Übungen suchen",
-    phShort: "Thema oder Beschwerden suchen",
-    close: "Schließen",
-    popular: "Häufig gesuchte Themen",
-    loading: "Wird geladen…",
-    error: "Die Suche konnte nicht geladen werden. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
-    none: (q) => `Keine Ergebnisse für „${q}“.`,
-    near: "Ähnliche Treffer",
-    ask: "Möchten Sie etwas zu diesem Thema lesen? Schlagen Sie es per WhatsApp vor",
-    askMsg: (q) => `Hallo, ich möchte ein Thema für den Ratgeber vorschlagen: ${q}`,
-    count: (n) => (n === 1 ? "1 Ergebnis" : `${n} Ergebnisse`),
-    keys: ["navigieren", "öffnen", "schließen"],
-    chips: ["Rückenschmerzen", "Nackenschmerzen", "Kniearthrose", "Schultersteife", "Fersensporn", "Schlaf", "Stress", "Parkinson"],
-    stop: "aber als am an auch auf aus bei bin bis das dass dem den der des die doch ein eine einem einen einer eines er es fur hat ich ihr im in ist kann man mein mit muss nach nicht noch oder sich sie sind soll uber um und von was wann warum welche wenn wie wird zu zum zur",
-    syn: { kegel: ["beckenboden", "inkontinenz"], cmd: ["kiefer"], kiefergelenk: ["kiefer"], blase: ["inkontinenz", "harn"], schwindel: ["schwindel", "lagerungsschwindel"], arthrose: ["arthrose"], gelenkverschleiss: ["arthrose"], verschleiss: ["arthrose"], bandscheibe: ["bandscheibenvorfall"], ischias: ["ischias", "bandscheibenvorfall"], hexenschuss: ["ruckenschmerzen"], kreuzschmerzen: ["ruckenschmerzen"], schlaflosigkeit: ["schlaf"], angst: ["stress"], panik: ["stress"], apoplex: ["schlaganfall"], lahmung: ["schlaganfall"], osteopenie: ["osteoporose"], knochenschwund: ["osteoporose"], sehnenentzundung: ["tendinopathie", "sehne"], epicondylitis: ["ellenbogen"], fersensporn: ["plantarfasziitis", "ferse"], bluthochdruck: ["blutdruck"], hypertonie: ["blutdruck"], isometrisch: ["wandsitzen"], kniebeuge: ["wandsitzen"], meditation: ["atmung", "seufzen"], einsamkeit: ["einsamkeit", "verbundenheit"], einsam: ["einsamkeit", "verbundenheit"], freunde: ["verbundenheit"], wald: ["natur"], park: ["natur"], bechterew: ["spondylitis", "bechterew"], ms: ["sklerose", "ms"], spinalstenose: ["spinalkanalstenose"], kunstgelenk: ["gelenkersatz", "prothese"], endoprothese: ["gelenkersatz", "prothese"], sturz: ["sturz", "sturze"], hws: ["nacken", "halswirbelsaule"], lws: ["rucken", "lendenwirbelsaule"] },
-    file: "ara-de.json",
   } : {
     label: "Sitede ara",
     ph: "Ağrı, hastalık, egzersiz ya da belirti arayın",
@@ -65,7 +46,7 @@
   const STOP = new Set(T.stop.split(" "));
 
   // ---------------------------------------------------------------- metin normalleştirme
-  const FOLD = { "ç": "c", "ğ": "g", "ı": "i", "ö": "o", "ş": "s", "ü": "u", "â": "a", "î": "i", "û": "u", "é": "e", "è": "e", "ê": "e", "á": "a", "à": "a", "ó": "o", "í": "i", "ñ": "n", "ä": "a", "ë": "e", "ï": "i", "ß": "s", "’": "'" };
+  const FOLD = { "ç": "c", "ğ": "g", "ı": "i", "ö": "o", "ş": "s", "ü": "u", "â": "a", "î": "i", "û": "u", "é": "e", "è": "e", "ê": "e", "á": "a", "à": "a", "ó": "o", "í": "i", "ñ": "n", "ä": "a", "ë": "e", "ï": "i", "’": "'" };
   // Uzunluğu korur: normalleştirilmiş metindeki konumlar özgün metinle aynıdır.
   function norm(s) {
     let o = "";
@@ -89,11 +70,9 @@
   // Hafif ek ayıklama (TR: -ım, -yor, -ları, -sında…; EN: -s, -ing, -ed) + eş anlamlılar
   const SUF = EN
     ? ["ing", "ies", "ed", "es", "s", "ly"]
-    : DE ? ["ungen", "ung", "chen", "ern", "en", "er", "es", "em", "e", "n", "s"]
     : ["yor", "iyor", "uyor", "lari", "leri", "larim", "lerim", "imiz", "umuz", "iniz", "unuz", "sinda", "sinde", "inda", "inde", "nda", "nde", "dan", "den", "tan", "ten", "da", "de", "ta", "te", "lar", "ler", "mak", "mek", "dum", "dim", "tum", "tim", "du", "di", "tu", "ti", "si", "su", "im", "um", "in", "un", "ya", "ye", "yi", "yu", "li", "lu", "ki", "i", "u", "a", "e", "m"];
   const CONT = EN
     ? "(?:s|es|'s)?"
-    : DE ? "(?:e|en|er|es|em|n|s)?"
     : "(?:l[ae]r)?(?:[iu]m[iu]z|[iu]n[iu]z|[iu]m|[iu]n|s?[iu])?(?:n?(?:d[ea]ki|d[ea]n|t[ea]n|d[ea]|t[ea]|[iu]n|l[ea]|y[ea]|y[iu]|[iu]|[ea]))?";
   function stems(t) {
     const out = [];
@@ -118,7 +97,7 @@
     add(t, 1);
     stems(t).forEach((s, i) => add(s, 0.82 - 0.08 * i));
     // Türkçe ünsüz yumuşaması: tutukluk ↔ tutukluğu, kitap ↔ kitabı, kanat ↔ kanadı
-    if (!EN && !DE) {
+    if (!EN) {
       const SOFT = { k: "g", g: "k", p: "b", b: "p", t: "d", d: "t" };
       [...out].forEach((v) => { const c = v.s.slice(-1); if (SOFT[c] && v.s.length >= 4) add(v.s.slice(0, -1) + SOFT[c], v.w * 0.9); });
     }

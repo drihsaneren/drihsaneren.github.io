@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Yayındaki sayfalardan arama dizini üretir: <repo>/ara-tr.json, ara-en.json ve ara-de.json
+"""Yayındaki sayfalardan arama dizini üretir: <repo>/ara-tr.json ve <repo>/ara-en.json
 Kullanım: search_index.py <repo>"""
 import json, os, re, sys
 from bs4 import BeautifulSoup
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from i18n_map import EN, MAPS
+from i18n_map import EN
 
 R = sys.argv[1]
 SKIP_PAGES = {"bilgi.html"}          # kategori sayfası: kartlar zaten diğer sayfaları tekrarlar
@@ -15,12 +15,10 @@ BLOCK_CLS = {"stat", "dose"}
 EX_TAGS = {"script", "style", "noscript", "svg", "template", "button", "nav", "footer", "dialog", "select", "iframe"}
 EX_CLS = {"sources", "more", "ctacard", "bar", "fab", "lang", "eyebrow", "meta", "back", "kose", "kose-more",
           "cats", "sfield", "mr-strings", "m-strings", "sr-only", "trio", "trio-k", "hx"}
-TYPE = {"hastalik rehberi": "c", "condition guide": "c", "krankheitsratgeber": "c",
-        "rehabilitasyon rehberi": "r", "rehabilitation guide": "r", "reha-ratgeber": "r",
-        "kendine iyi bak": "s", "look after yourself": "s", "gut fur sich sorgen": "s"}
-HOME = {"tr": ("Ana sayfa", "Evde fizyoterapi hizmeti"), "en": ("Home", "Home physiotherapy service"),
-        "de": ("Startseite", "Physiotherapie zu Hause")}
-TOOL = {"tr": "Egzersiz reçetesi", "en": "Exercise plan", "de": "Übungsplan"}
+TYPE = {"hastalik rehberi": "c", "condition guide": "c", "rehabilitasyon rehberi": "r", "rehabilitation guide": "r",
+        "kendine iyi bak": "s", "look after yourself": "s"}
+HOME = {"tr": ("Ana sayfa", "Evde fizyoterapi hizmeti"), "en": ("Home", "Home physiotherapy service")}
+TOOL = {"tr": "Egzersiz reçetesi", "en": "Exercise plan"}
 
 
 def clean(t):
@@ -28,7 +26,7 @@ def clean(t):
 
 
 def fold(t):
-    return t.lower().translate(str.maketrans("çğıöşüİä", "cgiosuia"))
+    return t.lower().translate(str.maketrans("çğıöşüİ", "cgiosui"))
 
 
 def excluded(el):
@@ -93,7 +91,7 @@ def page(path, fname, lang):
     if cur[1] or cur[0]:
         secs.append(cur)
     secs = [s for s in secs if s[1] or s[0]]
-    rel = fname if lang == "tr" else lang + "/" + MAPS[lang][fname]
+    rel = fname if lang == "tr" else "en/" + EN[fname]
     return {"u": rel, "t": title, "k": k, "i": typ, "d": desc, "s": secs}
 
 
@@ -102,17 +100,15 @@ def build(lang):
     for f in EN:
         if f in SKIP_PAGES:
             continue
-        path = os.path.join(R, f) if lang == "tr" else os.path.join(R, lang, MAPS[lang][f])
+        path = os.path.join(R, f) if lang == "tr" else os.path.join(R, "en", EN[f])
         if not os.path.exists(path):
             continue
         pages.append(page(path, f, lang))
-    out = os.path.join(R, f"ara-{lang}.json")
+    out = os.path.join(R, "ara-tr.json" if lang == "tr" else "ara-en.json")
     data = json.dumps({"v": 1, "p": pages}, ensure_ascii=False, separators=(",", ":"))
     open(out, "w", encoding="utf-8").write(data)
     print(lang, len(pages), "sayfa,", sum(len(p["s"]) for p in pages), "bölüm,", len(data.encode()) // 1024, "KB")
 
 
 build("tr")
-for _l in MAPS:
-    if os.path.isdir(os.path.join(R, _l)):
-        build(_l)
+build("en")

@@ -138,7 +138,7 @@ JS = r'''<script>
     card.querySelector('.book-form').replaceWith(f); card.querySelector('.book-nojs').remove(); card.classList.add('js'); return;
   }
   card.classList.add('js');
-  var lang = {en: 'en-GB', de: 'de-DE'}[document.documentElement.lang] || 'tr-TR';
+  var lang = document.documentElement.lang === 'en' ? 'en-GB' : 'tr-TR';
   var days = document.getElementById('book-days'), today = new Date();
   var fWd = new Intl.DateTimeFormat(lang, {weekday: 'short'}), fMo = new Intl.DateTimeFormat(lang, {month: 'short'}),
       fLong = new Intl.DateTimeFormat(lang, {weekday: 'long', day: 'numeric', month: 'long'});
