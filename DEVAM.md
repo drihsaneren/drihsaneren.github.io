@@ -84,3 +84,10 @@ duruyor; `kaynak` dalı Almanca öncesi hâline döndürüldü. Kullanıcı aç�
 ## Giriş (hero) düzeni
 6 Ekim 2026: kullanıcı isteğiyle bilgisayarda da telefondaki giriş kullanılıyor: kabartmalı canlı logo üstte, "İhsan Eren" üst çubukta
 solda, büyük isim başlığı yok (h1 yalnızca ekran okuyucular için). Eski "logo arkada gravür" masaüstü düzeni kaldırıldı (`fb_hero.py`).
+
+## Karekod (fb_qr.py)
+6 Ekim 2026: kullanıcının gönderdiği tasarıma uyarlandı: koyu yeşil zemin, kum rengi (#c9c990) kabartma kareler, ortada 9×7 modüllük
+logo alanı, hata düzeltme Q (29×29). Hedef yine WhatsApp (kullanıcının görseli drihsaneren.com'a gidiyordu; sitede anlamsız olurdu).
+Açılış: halkalar iris gibi dönerek oturur, gözler sırayla düşer; döngü: altın dalga (yalnızca renk); imleçle eğilir, ışık imleci izler.
+Okunurluk iki çözücüyle (zxing-cpp, OpenCV) her karede sınandı. Dikkat: göz köşeleri fazla yuvarlanırsa OpenCV okuyamıyor (dış yarıçap ≤ ~0,6 modül);
+`.nq` üzerinde overflow:hidden ya da bitmiş dönüşüm animasyonu kalırsa eğilirken bulanıklaşıyor.
