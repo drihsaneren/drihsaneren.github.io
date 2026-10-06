@@ -181,8 +181,8 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
-SELF_PAGES = {"stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
     def attr(h):
@@ -248,6 +248,7 @@ TOPICS = {
     "ic-cekis.html": ("Kendine iyi bak", "5 dakikalık iç çekiş nefesi"),
     "doga-recetesi.html": ("Kendine iyi bak", "Doğa reçetesi"),
     "bag-kurmak.html": ("Kendine iyi bak", "Sosyal bağ ve sağlık"),
+    "dost-molasi.html": ("Kendine iyi bak", "DOST molası"),
     "yenilikler.html": ("Bilim gündemi", "Geleceğin tıbbı, bugün"),
 }
 RELATED = {
@@ -295,6 +296,7 @@ RELATED = {
     "ic-cekis.html": ["stres.html", "uyku.html"],
     "doga-recetesi.html": ["bag-kurmak.html", "stres.html"],
     "bag-kurmak.html": ["doga-recetesi.html", "stres.html"],
+    "dost-molasi.html": ["ic-cekis.html", "bag-kurmak.html"],
     "bilgi.html": [],
 }
 def more(current):
@@ -983,7 +985,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "self2_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "self2_part.py", "self3_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1671,6 +1673,8 @@ C_WALLSIT = KC("duvar-oturusu.html", TH_WALLSIT, "Kendine iyi bak", "Tansiyon i�
 C_SIGH = KC("ic-cekis.html", TH_SIGH, "Kendine iyi bak", "5 dakikalık iç çekiş nefesi", "Stanford'daki çalışmada ruh hâlini meditasyondan daha çok iyileştiren nefes: iki kez alın, uzun verin.")
 C_NATURE = KC("doga-recetesi.html", TH_NATURE, "Kendine iyi bak", "Doğa reçetesi", "Haftada 120 dakika doğa; parça parça da olur. Haftalık doğa takviminiz ve İstanbul'dan öneriler.")
 C_SOCIAL = KC("bag-kurmak.html", TH_SOCIAL, "Kendine iyi bak", "Sosyal bağ ve sağlık", "Güçlü sosyal ilişkileri olanların hayatta kalma olasılığı %50 daha yüksek. Şaşırtan bulgular ve her gün için küçük bir öneri.")
+TH_DOST = """<svg viewBox="0 0 320 150" aria-hidden="true"><g transform="rotate(-4 160 80)"><rect x="102" y="32" width="116" height="96" rx="8" fill="#ece5cf"/><path d="M122 62 H170 M122 80 H198 M122 98 H184" stroke="#8fa476" stroke-width="6" stroke-linecap="round"/><rect x="138" y="24" width="44" height="14" rx="2" fill="#d8b25e" opacity=".85"/></g><path transform="translate(184 16) scale(.46)" d="M50 86 C22 64 8 46 8 30 C8 16 19 7 31 7 C39 7 46 12 50 20 C54 12 61 7 69 7 C81 7 92 16 92 30 C92 46 78 64 50 86Z" fill="#e2ab47"/></svg>"""
+C_DOST = KC("dost-molasi.html", TH_DOST, "Kendine iyi bak", "DOST molası", "Zor bir günde kendinize dost olmanın dört adımı: dur, omuzlarını bırak, seslen, teşekkür et. Beş dakikada kendinize kısa bir not yazın.")
 REGIONS = [("tum", "Tümü"), ("bel", "Bel ve sırt"), ("boyun", "Boyun, baş ve çene"), ("omuz", "Omuz, kol ve el"),
            ("diz", "Kalça ve diz"), ("ayak", "Ayak ve ayak bileği"), ("kadin", "Kadın sağlığı"), ("genel", "Tüm vücut")]
 AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_LS, "bel"), (C_AS, "bel"), (C_SCOLIOSIS, "bel"),
@@ -1686,7 +1690,7 @@ def region_filter():
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
 REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_HIPFX, C_PARK, C_MS, C_ONCO]
-SELF = [C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
+SELF = [C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
 def agr_cards():
@@ -1770,7 +1774,7 @@ PILL = {
     "kalca-kirigi.html": "Kalça kırığı", "parkinson.html": "Parkinson", "multipl-skleroz.html": "Multipl skleroz (MS)", "kanser-egzersiz.html": "Kanser ve egzersiz",
     "masa-basi.html": "Masa başı", "sabah-rutini.html": "Sabah rutini", "hareket.html": "Ne kadar hareket?", "uyku.html": "İyi uyku",
     "otur-kalk-testi.html": "Otur-kalk testi", "duvar-oturusu.html": "Tansiyon için duvar oturuşu", "ic-cekis.html": "İç çekiş nefesi",
-    "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "stres.html": "Stres",
+    "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "dost-molasi.html": "DOST molası", "stres.html": "Stres",
 }
 def pill_group(label, anchor, cards):
     pills = "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cards))
@@ -2006,7 +2010,7 @@ def hx_groups():
 SELF_GROUPS = [
     ("Kendinizi ölçün", ["otur-kalk-testi.html", "hareket.html"]),
     ("Zamanlayıcıyla birlikte yapın", ["duvar-oturusu.html", "ic-cekis.html", "sabah-rutini.html"]),
-    ("Günlük hayat için", ["uyku.html", "stres.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
+    ("Günlük hayat için", ["dost-molasi.html", "uyku.html", "stres.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
 ]
 def hx_self():
     """Kendine iyi bak rehberleri, ne işe yaradıklarına göre üç grupta. Listeye yeni eklenen rehber son gruba düşer."""

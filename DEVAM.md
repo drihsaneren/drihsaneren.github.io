@@ -103,3 +103,14 @@ dairenin dışında kalacak biçimde seçildi (kural: yazarla ilgili kurum adı 
 Giriş kartından ad kaldırıldı (kullanıcı: "sol üstte yazıyor zaten"); kartta yalnızca yüz + "Ben kimim" var, fotoğraf 84 px (≥700 px: 94 px).
 Aşağıdaki "Ben kimim" bölümünün "İhsan Eren" başlığı kullanıcıya soruldu, yerinde kaldı. Yapısal verideki portre adresi artık `schema_home.json`'da `portre2.jpg` (önceden yalnızca main'de elle düzeltilmişti).
 Yeni oturumda `pip install qrcode` gerekir (`fb_qr.py`); yoksa `rebuild_home.sh` yarıda kalır.
+
+## DOST molası (self3_part.py)
+6 Ekim 2026: Kendine iyi bak'a 11. rehber: `dost-molasi.html` / `en/self-kindness-break.html`. Dört adım (Dur ve adını koy, Omuzlarını bırak,
+Seslen, Teşekkür et) + sonunda kişinin seçimlerinden oluşan "kendine not" (hiçbir şey kaydedilmez; `#ds`, metinler `.ds-strings` içinde, JS'te metin yok).
+Kaynaklar (hepsi okundu): Lieberman 2007 (30 kişi, duyguya ad koyma), Dreisoerner 2021 (159 kişi, 20 sn dokunuş: kortizol düşük, kalp hızı ve
+hissedilen stres farksız), Kross 2014 (7 çalışma, 585 kişi), Shapira & Mongrain 2010 (üniversite duyurusundan: 3 ayda daha az çökkün, 6 ayda daha mutlu),
+Alleva 2015 (81 kadın), Ferrari 2019 (27 RKÇ). Sayfada açıkça yazıyor: adımlar ayrı ayrı araştırıldı, birleşim bütün olarak sınanmadı.
+İngilizcede adım adları Türkçe bırakıldı ("Dur: stop and name it"); bu yüzden `i18n/check.py` ALLOW_TR'ye "Omuzlarını bırak", "Teşekkür et" eklendi.
+Sayfa açıkken telefondaki yüzen WhatsApp düğmesi araç görünürken gizlenir (`body.ds-on #fab`).
+Girişteki kısayollardan "Ben kimim" çıkarıldı (kimlik kartı aynı yere gidiyor); üst çubukta duruyor.
+Dikkat: aynı gün başka bir oturum da bu depoya gönderim yaptı; göndermeden önce `git fetch` ile iki dalı da denetle.

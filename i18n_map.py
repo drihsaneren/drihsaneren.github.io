@@ -51,6 +51,7 @@ EN = {
     "ic-cekis.html": "cyclic-sighing.html",
     "doga-recetesi.html": "nature-prescription.html",
     "bag-kurmak.html": "social-connection.html",
+    "dost-molasi.html": "self-kindness-break.html",
 }
 TR = {v: k for k, v in EN.items()}
 

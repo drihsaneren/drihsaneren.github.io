@@ -6,7 +6,7 @@ import sys, os, re, json, collections
 D = os.path.dirname(os.path.abspath(__file__))
 TRCH = re.compile(r"[çğıöşüÇĞŞÖÜ]|İ(?!hsan)")
 TAG = re.compile(r"<(/?)([a-zA-Z][a-zA-Z0-9]*)([^>]*)>")
-ALLOW_TR = ("Stresli Anlarda Ne Yapmalı?: Resimli Rehber", "Özerkan", "İhsan", "Türkçe", "Kadıköy", "Üsküdar", "Beşiktaş", "Şişli", "Ataşehir", "Bakırköy", "Rosén", "Peña", "Araújo", "Ölçüm", "Yıldız", "Maçka", "Gülhane", "Atatürk", "Rumelihisarı", "Validebağ", "Fenerbahçe", "Göztepe", "Çamlıca", "Polonezköy", "Büyükada", "Büyük Çamlıca")
+ALLOW_TR = ("Omuzlarını bırak", "muzlarını bırak", "Teşekkür et", "eşekkür et", "Stresli Anlarda Ne Yapmalı?: Resimli Rehber", "Özerkan", "İhsan", "Türkçe", "Kadıköy", "Üsküdar", "Beşiktaş", "Şişli", "Ataşehir", "Bakırköy", "Rosén", "Peña", "Araújo", "Ölçüm", "Yıldız", "Maçka", "Gülhane", "Atatürk", "Rumelihisarı", "Validebağ", "Fenerbahçe", "Göztepe", "Çamlıca", "Polonezköy", "Büyükada", "Büyük Çamlıca")
 
 
 def tags(h):

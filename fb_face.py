@@ -22,6 +22,8 @@ rep('          <div class="contact-btns">',
 rep('      <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>\n    </div>\n',
     '      <a class="cta ghost" href="#tanisma">Ücretsiz ön görüşme</a>\n    </div>\n'
     '    <a class="hero-me" href="#ben-kimim"><img src="img/portre2_m.jpg?v=3" alt="" width="400" height="400"><span>Ben kimim</span></a>\n')
+# kimlik kartı zaten "Ben kimim" diyor: girişteki kısayollardan aynı bağlantıyı çıkar (üst çubukta kalır)
+rep('      <li><a href="#ben-kimim">Ben kimim</a></li>\n', '')
 CSS = '''  /* yüz: ana portre (köşedeki beyaz önlüklü küçük kare kullanıcı isteğiyle kaldırıldı) */
   .pt{position:relative;width:200px;max-width:60vw}
   .pt .portrait{position:relative;width:100%;max-width:none;border-width:4px}
