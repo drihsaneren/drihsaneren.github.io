@@ -646,15 +646,12 @@
     border:5px solid var(--paper);box-shadow:0 0 0 1px var(--foil);background:var(--paper);
   }
   @media (min-width:1000px){.who{grid-template-columns:240px 1fr;gap:56px}.portrait{width:240px}}
-  /* yüz: ana portre + köşede iş başı karesi */
+  /* yüz: ana portre (köşedeki beyaz önlüklü küçük kare kullanıcı isteğiyle kaldırıldı) */
   .pt{position:relative;width:200px;max-width:60vw}
   .pt .portrait{position:relative;width:100%;max-width:none;border-width:4px}
   .pt .portrait::after{content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
     background:radial-gradient(closest-side,transparent 60%,rgba(28,40,25,.5) 100%);box-shadow:inset 0 0 0 1px rgba(28,40,25,.25)}
   .pt .portrait img{transform:none;object-position:50% 30%}
-  .pt-in{position:absolute;right:-7%;bottom:-5%;width:39%;aspect-ratio:1/1;margin:0;border-radius:50%;overflow:hidden;
-    border:3px solid var(--ground);box-shadow:0 0 0 1px var(--foil),0 8px 20px rgba(0,0,0,.4);background:var(--ground)}
-  .pt-in img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.06)}
   @media (min-width:1000px){.pt{width:240px}}
   @media (max-width:620px){.pt{margin-bottom:6px}}
   /* giriş: düğmelerin altında kimlik kartı */
@@ -1847,7 +1844,7 @@
   <section id="ben-kimim">
     <div class="wrap">
       <div class="who">
-        <div class="pt"><figure class="portrait"><img src="../portre2.jpg" alt="İhsan Eren" width="720" height="720" loading="lazy"></figure><figure class="pt-in"><img src="../portre.jpg" alt="İhsan Eren in a white coat" width="640" height="640" loading="lazy"></figure></div>
+        <div class="pt"><figure class="portrait"><img src="../portre2.jpg" alt="İhsan Eren" width="720" height="720" loading="lazy"></figure></div>
         <div>
           <p class="eyebrow">About me</p>
           <h2>İhsan Eren</h2>
