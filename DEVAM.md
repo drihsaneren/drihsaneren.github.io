@@ -97,3 +97,5 @@ Okunurluk iki çözücüyle (zxing-cpp, OpenCV) her karede sınandı. Dikkat: g�
 "Ben kimim": ana daire yeni portre, sağ alt köşesinde küçük dairede eski beyaz önlüklü kare (`portre.jpg`). İletişim: yazının altında,
 düğmelerin üstünde küçük yüz + ad + unvan ("imza"). Giriş: kullanıcı "çok aşağıda kalmış", ardından küçük yüz için "daha iyi olabilir" dedi; şimdi logo ile portre girişte yan yana bir çift (`.hero-duo`: logo solda, sağında 136/172 px dairede portre `portre2_m.jpg`, dokununca "Ben kimim"e iner).
 Kaynak görsel `site/` aşamasında `img/portre2.jpg` diye geçer; `to_github.py` "img/" önekini atar.
+Portre aynı gün ikinci bir fotoğrafla değiştirildi (kafeterya arka planı). Kırpma (120,70,1000,950): arkadaki hastane tabelasının yazısı
+dairenin dışında kalacak biçimde seçildi (kural: yazarla ilgili kurum adı görünmez); yeniden kırparken buna dikkat et.
