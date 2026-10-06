@@ -330,6 +330,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/multipl-skleroz.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/dost-molasi.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/dost-molasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/self-kindness-break.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/dost-molasi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-06</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -657,5 +664,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/multipl-skleroz.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/multiple-sclerosis.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/multipl-skleroz.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/self-kindness-break.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/dost-molasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/self-kindness-break.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/dost-molasi.html"/>
   </url>
 </urlset>
