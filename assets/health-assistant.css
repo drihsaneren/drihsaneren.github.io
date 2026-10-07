@@ -87,3 +87,11 @@ html{scroll-padding-top:84px}
   .ieai-inline-inner{display:grid;gap:16px}
   .ieai-inline-open{width:100%;min-height:44px}
 }
+
+/* When the permanent bottom assistant card is visible, hide floating assistant UI. */
+.ieai-inline-visible .ieai-launcher,
+.ieai-inline-visible .ieai-panel{
+  opacity:0!important;
+  visibility:hidden!important;
+  pointer-events:none!important;
+}
