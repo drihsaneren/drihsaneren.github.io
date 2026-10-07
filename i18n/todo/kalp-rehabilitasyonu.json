@@ -1,0 +1,332 @@
+[
+ {
+  "id": "kal0",
+  "kind": "text",
+  "tr": "Kalp Rehabilitasyonu: Kalp Krizi ve Bypass Sonrası Egzersiz | İhsan Eren"
+ },
+ {
+  "id": "kal1",
+  "kind": "attr",
+  "tr": "Kalp krizi, stent ya da bypass sonrası egzersiz güvenli mi? Kalp rehabilitasyonunun kanıtlanmış yararları, evde ve merkezde programlar, altı egzersiz ve videolar."
+ },
+ {
+  "id": "kal2",
+  "kind": "text",
+  "tr": "Kalp rehabilitasyonu"
+ },
+ {
+  "id": "kal3",
+  "kind": "text",
+  "tr": "Kalp krizi, stent ya da bypass ameliyatından sonra pek çok kişi hareket etmekten korkar. Oysa doğru ayarlanmış egzersiz tedavinin parçasıdır: 85 çalışmanın derlemesinde egzersize dayalı kalp rehabilitasyonu yeniden kalp krizi ve hastaneye yatış riskini azalttı. Program kardiyoloğunuzun onayıyla başlar ve adım adım ilerler."
+ },
+ {
+  "id": "kal4",
+  "kind": "text",
+  "tr": "Kalp rehabilitasyonuyla yeniden kalp krizi riskindeki azalma (85 çalışma, 23.430 kişi)"
+ },
+ {
+  "id": "kal5",
+  "kind": "text",
+  "tr": "Aynı derlemede hastaneye yatış riskindeki azalma"
+ },
+ {
+  "id": "kal6",
+  "kind": "text",
+  "tr": "24 çalışma"
+ },
+ {
+  "id": "kal7",
+  "kind": "text",
+  "tr": "Evde ve merkezde yapılan rehabilitasyonu karşılaştıran araştırmalar; sonuçlar benzer"
+ },
+ {
+  "id": "kal8",
+  "kind": "text",
+  "tr": "19,8 milyon"
+ },
+ {
+  "id": "kal9",
+  "kind": "text",
+  "tr": "2022'de kalp-damar hastalıklarından ölenler; dünyadaki ölümlerin yaklaşık %32'si (DSÖ)"
+ },
+ {
+  "id": "kal10",
+  "kind": "text",
+  "tr": "Kalp rehabilitasyonu, egzersiz eğitimini risk etkenlerini azaltmaya yönelik eğitim ve duygusal destekle birleştiren bir programdır. Amaç, kalbi zorlamadan dayanıklılığı adım adım artırmak ve yeni bir kalp olayının önüne geçmektir."
+ },
+ {
+  "id": "kal11",
+  "kind": "text",
+  "tr": "Program çoğunlukla hastanede kısa yürüyüşlerle başlar, taburcu olduktan sonra haftalarca sürer ve ömür boyu sürdürülecek bir hareket alışkanlığına dönüşür. Egzersizin türü ve şiddeti kardiyoloğunuzun değerlendirmesine göre belirlenir."
+ },
+ {
+  "id": "kal12",
+  "kind": "text",
+  "tr": "Kimler için?"
+ },
+ {
+  "id": "kal13",
+  "kind": "text",
+  "tr": "Kalp krizi geçirenler"
+ },
+ {
+  "id": "kal14",
+  "kind": "text",
+  "tr": "Stent takılanlar"
+ },
+ {
+  "id": "kal15",
+  "kind": "text",
+  "tr": "Bypass ameliyatı olanlar"
+ },
+ {
+  "id": "kal16",
+  "kind": "text",
+  "tr": "Kalp yetersizliği olanlar"
+ },
+ {
+  "id": "kal17",
+  "kind": "text",
+  "tr": "Araştırmalar ne gösteriyor?"
+ },
+ {
+  "id": "kal18",
+  "kind": "text",
+  "tr": "2026'da güncellenen Cochrane derlemesi, koroner kalp hastalığı olan 23.430 kişiyle yapılmış 85 rastgele kontrollü çalışmayı inceledi; katılımcıların çoğu kalp krizi geçirmiş ya da damar açma işlemi (stent, bypass) görmüştü. Egzersize dayalı rehabilitasyon, 6–12 aylık izlemde yeniden kalp krizi riskini %28, hastaneye yatış riskini %42 azalttı: yaklaşık her 12 kişide bir hastane yatışı önlendi. Ölümlerde küçük bir azalma olası görünüyor, ancak bu sonuç kesin değil. Katılımcıların yalnızca %17'si kadındı."
+ },
+ {
+  "id": "kal19",
+  "kind": "text",
+  "tr": "Evde yapılan programlar da işe yarıyor: 24 çalışmayı (3.046 kişi) inceleyen bir başka Cochrane derlemesinde, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar arasında egzersiz kapasitesi, yaşam kalitesi ve ölüm açısından fark bulunmadı."
+ },
+ {
+  "id": "kal20",
+  "kind": "text",
+  "tr": "Kalp olayından sonra hareket etmekten korkmak çok yaygındır. Ne zaman ve hangi şiddette başlayacağınıza kardiyoloğunuz karar verir; programı onun onayıyla, küçük adımlarla ilerletin."
+ },
+ {
+  "id": "kal21",
+  "kind": "text",
+  "tr": "Programın parçaları"
+ },
+ {
+  "id": "kal22",
+  "kind": "text",
+  "tr": "Değerlendirme"
+ },
+ {
+  "id": "kal23",
+  "kind": "text",
+  "tr": "Başlamadan önce kardiyoloğunuz kalbinizin durumunu değerlendirir, gerekirse efor testi yapar ve sizin için güvenli egzersiz aralığını belirler."
+ },
+ {
+  "id": "kal24",
+  "kind": "text",
+  "tr": "Dayanıklılık egzersizi"
+ },
+ {
+  "id": "kal25",
+  "kind": "text",
+  "tr": "Yürüyüş ve bisiklet gibi egzersizler programın temelidir. Hedef, konuşabildiğiniz ama şarkı söyleyemediğiniz orta şiddettir; kısa sürelerle başlanır ve kademeli olarak artırılır."
+ },
+ {
+  "id": "kal26",
+  "kind": "text",
+  "tr": "Hafif dirençle yapılan kas güçlendirme egzersizleri eklenir. Nefesinizi tutmayın; zorlandığınız kısımda nefes verin."
+ },
+ {
+  "id": "kal27",
+  "kind": "text",
+  "tr": "Isınma ve soğuma"
+ },
+ {
+  "id": "kal28",
+  "kind": "text",
+  "tr": "Her seansa hafif tempoda ısınarak başlayın ve yavaşlayarak bitirin; egzersizi aniden kesmeyin."
+ },
+ {
+  "id": "kal29",
+  "kind": "text",
+  "tr": "Sigarayı bırakmak, tansiyon, kolesterol ve şekerin kontrolü, beslenme ve ilaçların düzenli kullanımı programın egzersiz kadar önemli parçalarıdır."
+ },
+ {
+  "id": "kal30",
+  "kind": "text",
+  "tr": "Duygusal destek"
+ },
+ {
+  "id": "kal31",
+  "kind": "text",
+  "tr": "Kalp olayından sonra kaygı ve çökkünlük sık görülür; bunları ekibinizle konuşmak tedavinin parçasıdır."
+ },
+ {
+  "id": "kal32",
+  "kind": "text",
+  "tr": "Kalp rehabilitasyonunda altı egzersiz"
+ },
+ {
+  "id": "kal33",
+  "kind": "text",
+  "tr": "Bu hareketler, kardiyoloğunuz egzersize izin verdikten sonra evde yapılabilecek hafif ve orta şiddetli örneklerdir. Göğüs ağrısı, baskı hissi, baş dönmesi ya da alışılmadık nefes darlığı olursa hemen durun."
+ },
+ {
+  "id": "kal34",
+  "kind": "text",
+  "tr": "Düz bir zeminde, konuşabildiğiniz ama şarkı söyleyemediğiniz bir tempoda yürüyün. İlk birkaç dakikayı yavaş başlayıp hızlanın, son birkaç dakikada yavaşlayın. Süreyi haftadan haftaya azar azar artırın."
+ },
+ {
+  "id": "kal35",
+  "kind": "text",
+  "tr": "10 dakikayla başlayın; hedef günde 30 dakika"
+ },
+ {
+  "id": "kal36",
+  "kind": "text",
+  "tr": "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Nefes verirken dizlerinizi hafifçe bükerek sırtınızı aşağı kaydırın ve beklemeden yukarı çıkın. Nefesinizi tutmayın."
+ },
+ {
+  "id": "kal37",
+  "kind": "text",
+  "tr": "Bypass ya da başka bir açık kalp ameliyatı olduysanız, göğüs kemiğiniz kaynayana kadar ağır kaldırma, itme ve çekme hareketlerinden kaçının; süreyi cerrahınız söyler."
+ },
+ {
+  "id": "kal38",
+  "kind": "text",
+  "tr": "Kalp rehabilitasyonu için videolar"
+ },
+ {
+  "id": "kal39",
+  "kind": "text",
+  "tr": "İngiliz Kalp Vakfı'nın (British Heart Foundation) YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "kal40",
+  "kind": "attr",
+  "tr": "Evde kalp rehabilitasyonuna giriş videosunu oynat"
+ },
+ {
+  "id": "kal41",
+  "kind": "text",
+  "tr": "Evde kalp rehabilitasyonuna giriş"
+ },
+ {
+  "id": "kal42",
+  "kind": "text",
+  "tr": "Evde kalp rehabilitasyonu video dizisinin tanıtımı."
+ },
+ {
+  "id": "kal43",
+  "kind": "attr",
+  "tr": "Evde kalp rehabilitasyonu 1. düzey program videosunu oynat"
+ },
+ {
+  "id": "kal44",
+  "kind": "text",
+  "tr": "Evde kalp rehabilitasyonu: 1. düzey program"
+ },
+ {
+  "id": "kal45",
+  "kind": "text",
+  "tr": "Dizinin başlangıç düzeyindeki egzersiz programı."
+ },
+ {
+  "id": "kal46",
+  "kind": "text",
+  "tr": "Videolar British Heart Foundation kanalına aittir."
+ },
+ {
+  "id": "kal47",
+  "kind": "text",
+  "tr": "Kalp krizinden sonra egzersiz yapmak güvenli mi?"
+ },
+ {
+  "id": "kal48",
+  "kind": "text",
+  "tr": "Kardiyoloğunuzun onayıyla ve kademeli olarak yapıldığında evet. 85 çalışmanın derlemesinde egzersize dayalı rehabilitasyona katılanlarda yeniden kalp krizi ve hastaneye yatış daha az görüldü. Hangi şiddette başlayacağınızı hekiminiz belirler."
+ },
+ {
+  "id": "kal49",
+  "kind": "text",
+  "tr": "Ne zaman başlayabilirim?"
+ },
+ {
+  "id": "kal50",
+  "kind": "text",
+  "tr": "Bu, geçirdiğiniz olaya ve yapılan işleme göre değişir; kararı kardiyoloğunuz verir. Genellikle hastanede kısa yürüyüşlerle başlanır, taburcu olduktan sonra program kademeli olarak ilerletilir."
+ },
+ {
+  "id": "kal51",
+  "kind": "text",
+  "tr": "Evde mi, merkezde mi yapmalıyım?"
+ },
+ {
+  "id": "kal52",
+  "kind": "text",
+  "tr": "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir."
+ },
+ {
+  "id": "kal53",
+  "kind": "text",
+  "tr": "Egzersiz sırasında nabzım kaç olmalı?"
+ },
+ {
+  "id": "kal54",
+  "kind": "text",
+  "tr": "Hedef nabız kişiye göre değişir ve kullandığınız ilaçlardan etkilenir; bu yüzden herkese tek bir sayı vermek doğru olmaz. Hekiminiz size bir aralık belirlemediyse konuşma testini kullanın: konuşabiliyor ama şarkı söyleyemiyorsanız orta şiddettesiniz."
+ },
+ {
+  "id": "kal55",
+  "kind": "text",
+  "tr": "Şu durumlarda egzersizi bırakın; “acil” yazanlarda 112'yi arayın:"
+ },
+ {
+  "id": "kal56",
+  "kind": "text",
+  "tr": "Göğüste baskı, sıkışma ya da ağrı; kola, çeneye ya da sırta yayılan ağrı (acil)"
+ },
+ {
+  "id": "kal57",
+  "kind": "text",
+  "tr": "Dinlenmekle geçmeyen nefes darlığı (acil)"
+ },
+ {
+  "id": "kal58",
+  "kind": "text",
+  "tr": "Bayılma ya da bayılacak gibi olma (acil)"
+ },
+ {
+  "id": "kal59",
+  "kind": "text",
+  "tr": "Soğuk terleme ve bulantıyla birlikte fenalık hissi (acil)"
+ },
+ {
+  "id": "kal60",
+  "kind": "text",
+  "tr": "Düzensiz ya da çok hızlı kalp atışı"
+ },
+ {
+  "id": "kal61",
+  "kind": "text",
+  "tr": "Ayak bileklerinde yeni gelişen şişlik ya da birkaç günde hızlı kilo artışı"
+ },
+ {
+  "id": "kal62",
+  "kind": "text",
+  "tr": "Kalp rehabilitasyonu için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "kal63",
+  "kind": "wa",
+  "tr": "Merhaba, kalp rehabilitasyonu için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "kal64",
+  "kind": "text",
+  "tr": "World Health Organization. <a href=\"https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)\" target=\"_blank\" rel=\"noopener\">Cardiovascular diseases (CVDs)</a>. Fact sheet. 31 July 2025."
+ },
+ {
+  "id": "kal65",
+  "kind": "ld",
+  "tr": "Koroner kalp hastalığı"
+ }
+]

@@ -125,6 +125,27 @@ MS_BODY = f'''<header class="page">
     </div>
   </section>
 
+  <section id="videolar">
+    <div class="wrap">
+      <p class="eyebrow">Video</p>
+      <h2>MS için videolar</h2>
+      <p class="soft">İngiltere MS Derneği'nin (MS Society UK) ve Cleveland Clinic'in YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <div class="vids">
+        <div class="vid">
+          {vbox("0DTnlCCxS7s", "Denge ve stabilite çalışması videosunu oynat", "Improve your balance and stability workout | Move more with MS")}
+          <h3>Denge ve stabilite çalışması</h3>
+          <p>MS Derneği'nin “Move more with MS” dizisinden.</p>
+        </div>
+        <div class="vid">
+          {vbox("X8nkMFcBIvA", "MS için egzersizler videosunu oynat", "Exercises for Individuals with Multiple Sclerosis (MS) - Warm-up, Strength, Core and Balance")}
+          <h3>Isınma, güç, gövde ve denge egzersizleri</h3>
+          <p>Cleveland Clinic'in MS'li kişiler için hazırladığı egzersiz videosu.</p>
+        </div>
+      </div>
+      <p class="meta">Videolar MS Society UK ve Cleveland Clinic kanallarına aittir.</p>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
@@ -158,6 +179,6 @@ MS_BODY = f'''<header class="page">
 
 page("multipl-skleroz.html", "Multipl Sklerozda (MS) Egzersiz",
      "MS'te egzersiz güvenli mi, atak tetikler mi, yorgunluğa iyi gelir mi? Sıcağa duyarlılıkla başa çıkma, kılavuz önerileri, evde altı egzersiz ve günlük hayat önerileri.",
-     "multipl-skleroz.html", NECK_CSS, MS_BODY, "",
+     "multipl-skleroz.html", NECK_CSS, MS_BODY, YT_JS,
      seo_title="Multipl Sklerozda (MS) Egzersiz ve Evde Rehabilitasyon | İhsan Eren",
      condition="Multipl skleroz (MS)", faq_items=MS_FAQ)

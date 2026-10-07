@@ -181,7 +181,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
@@ -220,6 +220,7 @@ TOPICS = {
     "multipl-skleroz.html": ("Rehabilitasyon rehberi", "Multipl sklerozda (MS) egzersiz"),
     "kanser-egzersiz.html": ("Rehabilitasyon rehberi", "Kanser tedavisi sırasında ve sonrasında egzersiz"),
     "koah.html": ("Rehabilitasyon rehberi", "KOAH'ta akciğer rehabilitasyonu"),
+    "kalp-rehabilitasyonu.html": ("Rehabilitasyon rehberi", "Kalp rehabilitasyonu"),
     "topuk-dikeni.html": ("Hastalık rehberi", "Topuk dikeni (plantar fasiit)"),
     "omuz-sikismasi.html": ("Hastalık rehberi", "Omuz sıkışması (subakromiyal ağrı)"),
     "karpal-tunel-sendromu.html": ("Hastalık rehberi", "Karpal tünel sendromu"),
@@ -269,7 +270,8 @@ RELATED = {
     "multipl-skleroz.html": ["dusme-onleme.html", "parkinson.html"],
     "kalca-kirigi.html": ["kemik-erimesi.html", "dusme-onleme.html"],
     "kanser-egzersiz.html": ["hareket.html", "uyku.html"],
-    "koah.html": ["ic-cekis.html", "hareket.html"],
+    "koah.html": ["kalp-rehabilitasyonu.html", "ic-cekis.html"],
+    "kalp-rehabilitasyonu.html": ["koah.html", "duvar-oturusu.html"],
     "dusme-onleme.html": ["bas-donmesi.html", "protez-sonrasi.html"],
     "protez-sonrasi.html": ["diz-kireclenmesi.html", "dusme-onleme.html"],
     "masa-basi.html": ["boyun-agrisi.html", "bel-agrisi.html"],
@@ -989,7 +991,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "self2_part.py", "self3_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "self2_part.py", "self3_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1633,6 +1635,8 @@ C_MS = KC("multipl-skleroz.html", TH_MS, "Rehabilitasyon rehberi", "Multipl skle
 C_ONCO = KC("kanser-egzersiz.html", TH_ONCO, "Rehabilitasyon rehberi", "Kanser ve egzersiz", "Tedavi sırasında egzersiz güvenli mi, yorgunluğa iyi gelir mi? Kılavuz önerileri ve evde altı egzersiz.")
 TH_COPD = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M160 8 V44 M160 44 L142 62 M160 44 L178 62" stroke="#d8b25e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M148 52 Q116 50 106 96 Q100 134 126 136 Q150 136 150 110 Z" fill="#8fa476"/><path d="M172 52 Q204 50 214 96 Q220 134 194 136 Q170 136 170 110 Z" fill="#8fa476" opacity=".8"/><path d="M236 70 q10 8 0 16 M250 62 q16 16 0 32 M84 70 q-10 8 0 16 M70 62 q-16 16 0 32" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" fill="none"/></svg>"""
 C_COPD = KC("koah.html", TH_COPD, "Rehabilitasyon rehberi", "KOAH'ta akciğer rehabilitasyonu", "Nefes darlığı varken egzersiz yapılır mı? 65 çalışmanın gösterdiği yararlar, büzük dudak nefesi, evde altı egzersiz ve videolar.")
+TH_CARDIAC = """<svg viewBox="0 0 320 150" aria-hidden="true"><path transform="translate(110 24) scale(1)" d="M50 86 C22 64 8 46 8 30 C8 16 19 7 31 7 C39 7 46 12 50 20 C54 12 61 7 69 7 C81 7 92 16 92 30 C92 46 78 64 50 86Z" fill="#8fa476"/><path d="M62 78 H126 L140 50 L156 104 L170 64 L178 78 H258" fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
+C_CARDIAC = KC("kalp-rehabilitasyonu.html", TH_CARDIAC, "Rehabilitasyon rehberi", "Kalp rehabilitasyonu", "Kalp krizi, stent ya da bypass sonrası egzersiz güvenli mi? 85 çalışmanın gösterdikleri, evde altı egzersiz ve videolar.")
 TH_MENISCUS = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M150 6 L156 52" stroke="#8fa476" stroke-width="14" stroke-linecap="round"/><path d="M126 70 Q124 54 140 52 H170 Q186 54 184 70 Q182 80 170 80 H140 Q128 80 126 70Z" fill="#8fa476"/><path d="M124 97 H186 Q190 105 178 107 L166 109 V148 H146 V109 L134 107 Q120 105 124 97Z" fill="#8fa476" opacity=".8"/><path d="M125 91 Q138 83 151 89" fill="none" stroke="#d8b25e" stroke-width="7" stroke-linecap="round"/><path d="M159 89 Q172 83 185 91" fill="none" stroke="#d8b25e" stroke-width="7" stroke-linecap="round"/><path d="M136 82 L139 87 L135 91" fill="none" stroke="#1c2819" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="155" cy="88" r="40" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M100 80h-12M102 96l-11 5M210 80h12M208 96l11 5" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 TH_FIBRO = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="22" r="13" fill="#8fa476"/><path d="M134 50 H186 M160 38 V96 M134 50 L126 94 M186 50 L194 94 M160 96 L148 146 M160 96 L172 146" stroke="#8fa476" stroke-width="7" stroke-linecap="round" fill="none"/><g fill="#e2ab47"><circle cx="151" cy="44" r="4.5"/><circle cx="169" cy="44" r="4.5"/><circle cx="137" cy="60" r="4.5"/><circle cx="183" cy="60" r="4.5"/><circle cx="152" cy="94" r="4.5"/><circle cx="168" cy="94" r="4.5"/><circle cx="154" cy="122" r="4.5"/><circle cx="166" cy="122" r="4.5"/></g><g fill="none" stroke="#d8b25e" stroke-width="2" opacity=".75"><circle cx="137" cy="60" r="11"/><circle cx="183" cy="60" r="11"/><circle cx="152" cy="94" r="11"/><circle cx="168" cy="94" r="11"/></g><path d="M86 64 q8-8 16 0 t16 0 M202 94 q8-8 16 0 t16 0" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 TH_VERTIGO = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M64 112 H262 M70 112 V142 M256 112 V142" stroke="#ece5cf" stroke-width="5" stroke-linecap="round" opacity=".55"/><rect x="100" y="99" width="42" height="13" rx="6" fill="#ece5cf" opacity=".3"/><path d="M122 98 L186 106 L250 106" stroke="#8fa476" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M130 100 L160 108" stroke="#8fa476" stroke-width="6" stroke-linecap="round"/><path d="M122 98 L104 103" stroke="#8fa476" stroke-width="7" stroke-linecap="round"/><circle cx="92" cy="104" r="13" fill="#8fa476"/><path d="M92 58 m-3 0 a3 3 0 1 1 6 0 a7 7 0 1 1 -14 0 a11 11 0 1 1 22 0 a15 15 0 1 1 -30 0" fill="none" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round"/><path d="M60 92 A34 34 0 0 1 124 88" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5" stroke-linecap="round"/><path d="M118 82 l6 6 -8 2" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
@@ -1697,7 +1701,7 @@ def region_filter():
     return ('<div class="filt" role="group" aria-label="Bölgeye göre süz">' +
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
-REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_HIPFX, C_PARK, C_MS, C_ONCO, C_COPD]
+REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_HIPFX, C_PARK, C_MS, C_ONCO, C_COPD, C_CARDIAC]
 SELF = [C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
@@ -1779,7 +1783,7 @@ PILL = {
     "skolyoz.html": "Skolyoz", "idrar-kacirma.html": "İdrar kaçırma", "gebelikte-bel-agrisi.html": "Gebelikte bel ağrısı",
     "topuk-dikeni.html": "Topuk dikeni",
     "inme-rehabilitasyonu.html": "İnme sonrası", "dusme-onleme.html": "Düşmeyi önleme", "protez-sonrasi.html": "Protez sonrası",
-    "kalca-kirigi.html": "Kalça kırığı", "parkinson.html": "Parkinson", "multipl-skleroz.html": "Multipl skleroz (MS)", "kanser-egzersiz.html": "Kanser ve egzersiz", "koah.html": "KOAH",
+    "kalca-kirigi.html": "Kalça kırığı", "parkinson.html": "Parkinson", "multipl-skleroz.html": "Multipl skleroz (MS)", "kanser-egzersiz.html": "Kanser ve egzersiz", "koah.html": "KOAH", "kalp-rehabilitasyonu.html": "Kalp rehabilitasyonu",
     "masa-basi.html": "Masa başı", "sabah-rutini.html": "Sabah rutini", "hareket.html": "Ne kadar hareket?", "uyku.html": "İyi uyku",
     "otur-kalk-testi.html": "Otur-kalk testi", "duvar-oturusu.html": "Tansiyon için duvar oturuşu", "ic-cekis.html": "İç çekiş nefesi",
     "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "dost-molasi.html": "DOST molası", "stres.html": "Stres",

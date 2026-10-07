@@ -47,6 +47,7 @@ EN = {
     "dar-kanal.html": "lumbar-spinal-stenosis.html",
     "on-capraz-bag.html": "acl-injury.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
+    "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",
     "multipl-skleroz.html": "multiple-sclerosis.html",
     "otur-kalk-testi.html": "sitting-rising-test.html",
     "duvar-oturusu.html": "wall-sit-blood-pressure.html",

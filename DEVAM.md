@@ -135,4 +135,12 @@ nefes egzersizleri (16 çalışma, 1.233 hasta, +35–50 m; Cochrane sayfası at
 KOAH'ta American Lung Association (`7kpJ0QlRss4`) ve NHS inform (`oSclbDihp2Y`); ön çapraz bağa Bob & Brad (`_gF6llBpol0`, `m-G-r_MgL_4`) eklendi.
 **Video kimliği doğrulama yöntemi:** WebSearch'ü `allowed_domains: ["youtube.com"]` ile yap (kimlikler sonuçlarda gelir), sonra
 `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=<kimlik>&format=json` adresini WebFetch ile okuyup başlık + kanal adını doğrula.
-Videolar izlenemedi; açıklamalar yalnızca başlığa dayanır, bu yüzden kısa ve iddiasız tutuldu. MS sayfasına da bu yöntemle video eklenebilir (bekliyor).
+Videolar izlenemedi; açıklamalar yalnızca başlığa dayanır, bu yüzden kısa ve iddiasız tutuldu. MS sayfasına da bu yöntemle video eklendi: MS Society UK (`0DTnlCCxS7s`) ve Cleveland Clinic (`X8nkMFcBIvA`).
+
+## Kalp rehabilitasyonu (cond9_part.py)
+7 Ekim 2026: 9. rehabilitasyon rehberi `kalp-rehabilitasyonu.html` / `en/cardiac-rehabilitation.html`. Yeni çizim yok; egzersizler var olan şekillerle
+(`cr_walk`, `copd_sts`, `mn_kext`, `copd_heel`, `pf_sabd`, `cr_wall`). Videolar British Heart Foundation (`ESYDPnY5_1A`, `-JsuNKbAAkU`).
+Kaynaklar (Cochrane özet sayfaları ve DSÖ bilgi notu okundu): Dibben ve ark., Cochrane 2026;(9):CD001800 (18 Eylül 2026 güncellemesi; 85 çalışma, 23.430 kişi;
+6–12 ayda kalp krizi RR 0,72, yatış RR 0,58 [NNT 12], tüm nedenli ölüm RR 0,87 [0,73–1,04], katılımcıların %17'si kadın), McDonagh 2023 Cochrane
+(24 çalışma, 3.046 kişi; ev = merkez), DSÖ (31 Temmuz 2025: 2022'de 19,8 milyon ölüm, %32). Sayfa her yerde "kardiyoloğunuzun onayıyla" vurgusunu taşır;
+hedef nabız için sayı verilmedi (ilaçlar etkiler), konuşma testi önerildi.
