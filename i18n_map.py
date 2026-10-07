@@ -52,6 +52,8 @@ EN = {
     "yuz-felci.html": "bells-palsy.html",
     "kalca-yan-agrisi.html": "lateral-hip-pain.html",
     "lenfodem.html": "lymphoedema.html",
+    "de-quervain.html": "de-quervains-tenosynovitis.html",
+    "diyabetik-noropati.html": "diabetic-neuropathy.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",
     "multipl-skleroz.html": "multiple-sclerosis.html",

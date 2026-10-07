@@ -221,3 +221,13 @@ dirençli egzersiz 2 çalışma/358 kişi; yıl/sayı 2015;(2) hafızadan), NCI 
 Bu sayfada bilerek `CTA_CARD` yok (lenfödem bakımı özel eğitim ister; kullanıcı isterse eklenir); yerine lenfödem terapisti notu var. Videolar: Cancer Research UK (`Rku5PGz48c8`, `zcQB6pZmdN0`).
 Yeni çizimler: `ly_shrug`, `ly_arm`. Yedekte doğrulanmış: Macmillan "Lymphoedema explained" (`68NgrFiQkeU`). Çeviri: kalca-yan-agrisi (75), lenfodem (87) + fb411–fb413.
 Not: bu kabuktan youtube.com'a curl ile erişilemiyor; oEmbed doğrulaması WebFetch ile yapılır.
+
+## De Quervain ve diyabetik nöropati (cond15_part.py)
+8 Ekim 2026: `de-quervain.html` / `en/de-quervains-tenosynovitis.html` (bölge: omuz) ve `diyabetik-noropati.html` / `en/diabetic-neuropathy.html` (bölge: ayak).
+De Quervain: beş NHS hastane broşürü okundu (Gloucestershire Tem 2024: 3 kat, 30–55 yaş; Plymouth Ara 2023: atel 3–8 hafta, aşamalı egzersizler; Dorset Nis 2025: 6 hafta + 2–4 hafta bırakma;
+Leicestershire Tem 2021: dört egzersiz ve dozları; Sherwood Forest Oca 2026: 20 dk soğuk x3) + Cochrane kortizon iğnesi (1 çalışma, 18 kişi, 9/9'a karşı 0/9; çok düşük kesinlik; yıl/sayı 2009;(3) hafızadan).
+Kaynakta olmayan: "bebeği kucağa alırken bilekleri düz tutun, yükü ön kollara yayın" (broşürlerdeki "bileği yana büken hareketlerden kaçının" önerisinin uygulaması) ve uyarı işaretleri.
+Yeni çizimler: `dq_hammer`, `dq_band`, `dq_wrist`. Videolar: Mayo Clinic (`o0KSfDuy3i0`), Doctor O'Donovan (`RdtJdUSIaVQ`; İngiltere'de hekim, kişisel kanal).
+Diyabetik nöropati: NIDDK periferik nöropati (Şubat 2018) ve ayak sorunları (Ocak 2017) sayfaları, Lima 2021 (8 RKÇ, 457 kişi; denge ve düşme korkusu biraz iyileşti, düşme riski değişmedi; SciELO'dan okundu),
+Wang 2025 (21 RKÇ; PEDro kaydından özet okundu). Egzersizler düşme önleme sayfasındakilerin uyarlaması. "Açık yara varken üzerine basarak egzersiz yapmayın" genel bilgi.
+Videolar: Diabetes UK (`jC9hXPURsQA`), Mayo Clinic (`SulNOSMMNLY`). Bu sayfaya akupunktur/klinik gözlem kutusu konmadı (kanıt okunmadı). Çeviri: de-quervain (80), diyabetik-noropati (81) + fb414–fb417.
