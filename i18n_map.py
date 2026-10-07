@@ -55,6 +55,8 @@ EN = {
     "de-quervain.html": "de-quervains-tenosynovitis.html",
     "diyabetik-noropati.html": "diabetic-neuropathy.html",
     "duztabanlik.html": "flat-feet.html",
+    "halluks-valgus.html": "bunions.html",
+    "tetik-parmak.html": "trigger-finger.html",
     "omurilik-yaralanmasi.html": "spinal-cord-injury.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",

@@ -242,3 +242,15 @@ basınç azaltma sayfaları (2009: günde 2 kontrol, 15–30 dk'da bir 30–90 s
 Kaynakta olmayan: egzersiz seçenekleri cümlesi (kol ergometresi vb.), "omuzlar bacaklarıdır" benzetmesi, kürek çekme/kürek sıkıştırma/nefes/öne uzanma hareketlerinin seçimi ve tekrar sayıları, uyarı listesinin bir kısmı.
 Yeni çizimler (oturarak): `sc_sidelean`, `sc_row`, `sc_scap`. Videolar: Shepherd Center (`ibrZzDZb-PU`, `-Ew-N5Ux0Ns`). Akupunktur/klinik gözlem kutusu konmadı (kanıt okunmadı).
 İnme sayfasının ilgili bağlantıları üçe çıktı (omurilik eklendi). Çeviri: duztabanlik (79), omurilik-yaralanmasi (90) + fb418–fb419.
+
+## Halluks valgus ve tetik parmak (cond17_part.py)
+8 Ekim 2026: `halluks-valgus.html` / `en/bunions.html` (bölge: ayak) ve `tetik-parmak.html` / `en/trigger-finger.html` (bölge: omuz).
+Halluks valgus: NHS (12 Haziran 2023: kendi başına geçmez; ayakkabı, ped, buz 5 dk; ameliyat sonrası süreler), Cochrane Dias 2024 (25 RKÇ, 1.597 yetişkin; ameliyat-izlem ağrı 21'e karşı 39; kesinlik düşük),
+ABUHB Eylül 2026 (kadınlarda 3 kat, parmak arası silikon, tabanlık, kilo), Gateshead Ekim 2020 (egzersizin ilerlemeyi önlediğine kanıt yok; başparmak germe 10–15 sn; gece ateli kanıtı zayıf),
+Livewell Eylül 2025 (ayakkabı, baldır germe 30 sn günde 5–10), NHS Borders Mart 2016 (6–12 hafta; ameliyat için en az 3 ay). Hepsi okundu.
+Sayfa egzersizin çıkıntıyı düzeltmediğini açıkça söyler; altı hareketin ilk ikisi broşürlerden, diğer dördü genel ayak güçlendirme (kaynaksız, sayfada böyle yazıyor). Yeni çizim: `hv_toe`.
+Videolar: Manipal Hospitals (`YCmqXvTmfFI`), Human 2.0 Fitness / ortopedi cerrahı Dr. Chris Raynor (`RSefS_rHugY`; kişi kanalı).
+Tetik parmak: NHS (17 Kasım 2025), NHS Scotland ulusal broşürü (iğne %70–80; ameliyat ayrıntıları), North Tees (iki hareket, günde 4–5; 12 hafta), Torbay Eylül 2025 (ılık su, buz masajı, üç hareket, gece ateli),
+St George's Nisan 2020 (%2–3, kadın, 40 yaş üstü), Cochrane iğne (2 RKÇ, 63 kişi; 37/100'e karşı 17/100; yıl/sayı 2009;(1) hafızadan). Hepsi okundu; altı uygulamanın hepsi broşürlerden.
+Kaynakta olmayan: enfeksiyon ve yaralanma uyarıları. Yeni çizimler: `tf_warm`, `tf_ice`, `tf_table`, `tf_passive`, `tf_splint`. Videolar: Mayo Clinic (`58xQr9tOx24`), Doctor O'Donovan (`89ACJJ-jsfA`).
+Çeviri: halluks-valgus (76), tetik-parmak (69) + fb420–fb421.

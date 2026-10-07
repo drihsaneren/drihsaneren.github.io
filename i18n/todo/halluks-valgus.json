@@ -1,0 +1,382 @@
+[
+ {
+  "id": "hal0",
+  "kind": "text",
+  "tr": "Halluks Valgus (Ayak Başparmağı Çıkıntısı): Ayakkabı, Egzersiz, Ameliyat | İhsan Eren"
+ },
+ {
+  "id": "hal1",
+  "kind": "attr",
+  "tr": "Ayak başparmağı çıkıntısı (halluks valgus, bunyon) neden olur, egzersizle ya da atelle düzelir mi? Ayakkabı seçimi, ağrıyı azaltan önlemler, ameliyat için kanıt ve ayağı rahatlatan altı hareket."
+ },
+ {
+  "id": "hal2",
+  "kind": "text",
+  "tr": "Halluks valgus: ayak başparmağı çıkıntısı"
+ },
+ {
+  "id": "hal3",
+  "kind": "text",
+  "tr": "Halluks valgus, ayak başparmağının diğer parmaklara doğru yatması ve ekleminin iç yanda kemiksi bir çıkıntı yapmasıdır. Çıkıntı kendi başına yok edilemez ve egzersizle düzelmez; ama doğru ayakkabı, ped ve tabanlıkla ağrı çoğu zaman azaltılabilir. Ağrı hayatı belirgin biçimde etkiliyorsa ameliyat seçeneği vardır."
+ },
+ {
+  "id": "hal4",
+  "kind": "text",
+  "tr": "Kadınlarda erkeklere göre daha sık; çoğu zaman ailede de var"
+ },
+ {
+  "id": "hal5",
+  "kind": "text",
+  "tr": "25 çalışma"
+ },
+ {
+  "id": "hal6",
+  "kind": "text",
+  "tr": "Ameliyatı inceleyen Cochrane derlemesi; 1.597 yetişkin"
+ },
+ {
+  "id": "hal7",
+  "kind": "text",
+  "tr": "Bir yıl sonra ağrı puanı (100 üzerinden): tedavisiz izlem ve ameliyat"
+ },
+ {
+  "id": "hal8",
+  "kind": "text",
+  "tr": "3–6 ay"
+ },
+ {
+  "id": "hal9",
+  "kind": "text",
+  "tr": "Ameliyattan sonra spora dönüş için gereken süre"
+ },
+ {
+  "id": "hal10",
+  "kind": "text",
+  "tr": "Ayak başparmağının kökündeki eklemin hizası bozulur: Parmak ikinci parmağa doğru yatar, eklem iç yana doğru çıkıntı yapar. Çıkıntının büyüklüğü ile ağrı arasında doğrudan bir ilişki yoktur; büyük bir çıkıntı hiç ağrımayabilir."
+ },
+ {
+  "id": "hal11",
+  "kind": "text",
+  "tr": "Çoğu zaman tek bir neden bulunmaz. Kalıtsal ayak yapısı en güçlü etkendir; romatoid artrit gibi eklem hastalıkları, içe basan ayak ve fazla kilo da rol oynar. Dar ve sivri burunlu ayakkabıların çıkıntıya yol açıp açmadığı tartışmalıdır; ama var olan çıkıntıyı sıkıştırıp ağrıttığı konusunda kaynaklar birleşiyor."
+ },
+ {
+  "id": "hal12",
+  "kind": "text",
+  "tr": "Başparmak kökünde, ayağın iç yanında sert bir çıkıntı"
+ },
+ {
+  "id": "hal13",
+  "kind": "text",
+  "tr": "Başparmağın diğer parmaklara doğru yönelmesi"
+ },
+ {
+  "id": "hal14",
+  "kind": "text",
+  "tr": "Çıkıntının üzerinde sertleşmiş, şiş ya da kızarmış cilt"
+ },
+ {
+  "id": "hal15",
+  "kind": "text",
+  "tr": "Ayakkabı giyince ve yürüyünce artan ağrı"
+ },
+ {
+  "id": "hal16",
+  "kind": "text",
+  "tr": "İkinci parmağın yerinden itilmesi, parmakların üst üste binmesi"
+ },
+ {
+  "id": "hal17",
+  "kind": "text",
+  "tr": "Ayağın ön tabanında ağrı"
+ },
+ {
+  "id": "hal18",
+  "kind": "text",
+  "tr": "Ağrıyı azaltmak için"
+ },
+ {
+  "id": "hal19",
+  "kind": "text",
+  "tr": "Geniş ve derin burunlu, alçak topuklu, bağcıklı ya da bantlı ayakkabı. Çıkıntıya baskı yapan dikiş ve sert yüzeylerden kaçının."
+ },
+ {
+  "id": "hal20",
+  "kind": "text",
+  "tr": "Ped"
+ },
+ {
+  "id": "hal21",
+  "kind": "text",
+  "tr": "Eczaneden alınan çıkıntı pedleri sürtünmeyi azaltır."
+ },
+ {
+  "id": "hal22",
+  "kind": "text",
+  "tr": "Parmak arası silikon"
+ },
+ {
+  "id": "hal23",
+  "kind": "text",
+  "tr": "Başparmağınızı ağrısız biçimde düzeltebiliyorsanız işe yarayabilir; bir hafta içinde yavaş yavaş alışın."
+ },
+ {
+  "id": "hal24",
+  "kind": "text",
+  "tr": "Ayağınız içe basıyorsa eklemdeki baskıyı azaltabilir; çıkıntıyı düzeltmez."
+ },
+ {
+  "id": "hal25",
+  "kind": "text",
+  "tr": "Buz ve ağrı kesici"
+ },
+ {
+  "id": "hal26",
+  "kind": "text",
+  "tr": "Beze sarılı buz torbasını bir seferde en fazla 5 dakika uygulayın; ilaç için eczacınıza danışın."
+ },
+ {
+  "id": "hal27",
+  "kind": "text",
+  "tr": "Fazla kilonuz varsa vermek, başparmak eklemine binen yükü azaltır."
+ },
+ {
+  "id": "hal28",
+  "kind": "text",
+  "tr": "Bu önlemler çıkıntıyı tedavi etmez; ama ağrı, parmakların sıkışması ve ciltte açılma gibi ikincil sorunları azaltabilir. Etkilerini görmek için 6–12 hafta tanıyın."
+ },
+ {
+  "id": "hal29",
+  "kind": "text",
+  "tr": "Ameliyat ne zaman?"
+ },
+ {
+  "id": "hal30",
+  "kind": "text",
+  "tr": "Ameliyat, çıkıntı çok ağrılı olduğunda ya da hayatı belirgin biçimde etkilediğinde ve diğer yöntemler yeterince denendikten sonra düşünülür; yalnızca ayağın görünüşünü düzeltmek için yapılmaz. En sık uygulanan yöntemde çıkıntı alınır, kemik kesilerek düzeltilir ve vidalarla sabitlenir."
+ },
+ {
+  "id": "hal31",
+  "kind": "text",
+  "tr": "25 çalışmayı (1.597 yetişkin) inceleyen Cochrane derlemesinde, ameliyatı tedavisiz izlemle karşılaştıran çalışmada bir yıl sonra ağrı puanı ameliyat olanlarda 100 üzerinden 21, izlenenlerde 39'du; işlevdeki kazanç daha küçüktü, yaşam kalitesinde fark görülmedi. Yazarlar kanıtın kesinliğini düşük buluyor; yeniden ameliyat ve yan etki oranları konusunda net bir şey söylenemiyor."
+ },
+ {
+  "id": "hal32",
+  "kind": "text",
+  "tr": "Ameliyat ayağı “eski hâline” getirmez: Parmak daha sert ya da zayıf kalabilir, tam düz olmayabilir, ağrı sürebilir ve çıkıntı bazen yeniden oluşur. Kararı bu beklentilerle, cerrahınızla birlikte verin."
+ },
+ {
+  "id": "hal33",
+  "kind": "text",
+  "tr": "Ayağı rahatlatan altı hareket"
+ },
+ {
+  "id": "hal34",
+  "kind": "text",
+  "tr": "Dürüst olmak gerekirse: Egzersizlerin çıkıntıyı küçülttüğüne ya da ilerlemesini önlediğine dair kanıt yok. Bu hareketlerin amacı eklemi hareketli, baldırı esnek ve ayağın küçük kaslarını güçlü tutmaktır. İlk ikisi hastane broşürlerinden; diğerleri genel ayak güçlendirme hareketleridir. Ağrı yapan hareketi bırakın."
+ },
+ {
+  "id": "hal35",
+  "kind": "text",
+  "tr": "Başparmağı germe"
+ },
+ {
+  "id": "hal36",
+  "kind": "text",
+  "tr": "Ayak başparmağını germe"
+ },
+ {
+  "id": "hal37",
+  "kind": "text",
+  "tr": "Oturun, ayağınızı diğer dizinizin üzerine alın. Başparmağınızı elinizle tutun ve eklemi her yöne nazikçe gerin. Hareketin sonunda ağrısız biçimde bekleyin, sonra bırakıp tekrarlayın."
+ },
+ {
+  "id": "hal38",
+  "kind": "text",
+  "tr": "10–15 saniye tutun, birkaç tekrar"
+ },
+ {
+  "id": "hal39",
+  "kind": "text",
+  "tr": "Yüzünüz duvara dönük durun, ellerinizi duvara dayayın. Ağrılı taraftaki bacağınızı arkaya alın ve baldırınızı nazikçe gerin. Gergin baldır, yürürken ayağın ön kısmına binen yükü artırır."
+ },
+ {
+  "id": "hal40",
+  "kind": "text",
+  "tr": "30 saniye, günde 5–10 kez"
+ },
+ {
+  "id": "hal41",
+  "kind": "text",
+  "tr": "Oturun, ayağınız yere düz bassın. Ayak tabanınızdaki kasları sıkarak kavsinizi yükseltin; parmaklarınız kıvrılmasın. Birkaç saniye tutup gevşetin."
+ },
+ {
+  "id": "hal42",
+  "kind": "text",
+  "tr": "Oturun. İki ayak başparmağınızın iç kenarlarını birbirine bastırın ve öylece tutun. Ağrı oluyorsa bu hareketi atlayın."
+ },
+ {
+  "id": "hal43",
+  "kind": "text",
+  "tr": "Tezgâha tutunarak dik durun. İki topuğunuzu birlikte kaldırın ve yavaşça inin. Başparmak ekleminiz ağrıyorsa yükselme miktarını azaltın."
+ },
+ {
+  "id": "hal44",
+  "kind": "text",
+  "tr": "Tezgâha hafifçe tutunarak tek ayağınızın üzerinde durun. Ayağın küçük kaslarını ve dengeyi çalıştırır."
+ },
+ {
+  "id": "hal45",
+  "kind": "text",
+  "tr": "20–30 saniye, her ayakla 3 kez"
+ },
+ {
+  "id": "hal46",
+  "kind": "text",
+  "tr": "Halluks valgus için videolar"
+ },
+ {
+  "id": "hal47",
+  "kind": "text",
+  "tr": "Hindistan'daki Manipal Hospitals'ın ve ortopedi cerrahı Dr. Chris Raynor'ın yer aldığı Human 2.0 Fitness kanalının YouTube videoları. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "hal48",
+  "kind": "attr",
+  "tr": "Halluks valgus tanıtım videosunu oynat"
+ },
+ {
+  "id": "hal49",
+  "kind": "text",
+  "tr": "Halluks valgus nedir?"
+ },
+ {
+  "id": "hal50",
+  "kind": "text",
+  "tr": "Bir ortopedi hekiminin hastalığı anlattığı video."
+ },
+ {
+  "id": "hal51",
+  "kind": "attr",
+  "tr": "Ayak egzersizleri videosunu oynat"
+ },
+ {
+  "id": "hal52",
+  "kind": "text",
+  "tr": "Ayak egzersizleri"
+ },
+ {
+  "id": "hal53",
+  "kind": "text",
+  "tr": "Bir ortopedi cerrahının gösterdiği ayak egzersizleri."
+ },
+ {
+  "id": "hal54",
+  "kind": "text",
+  "tr": "Videolar Manipal Hospitals ve Human 2.0 Fitness kanallarına aittir."
+ },
+ {
+  "id": "hal55",
+  "kind": "text",
+  "tr": "Ayak başparmağı çıkıntısı egzersizle ya da atelle düzelir mi?"
+ },
+ {
+  "id": "hal56",
+  "kind": "text",
+  "tr": "Hayır. Çıkıntıyı kendi başınıza yok edemez ya da ilerlemesini durduramazsınız; şekil bozukluğu ameliyat dışında kalıcı olarak düzeltilemez. Egzersizlerin ilerlemeyi önlediğine dair kanıt yok, gece atelleri için kanıt da zayıf. Uygun ayakkabı, ped ve tabanlık ise ağrıyı azaltabilir."
+ },
+ {
+  "id": "hal57",
+  "kind": "text",
+  "tr": "Hangi ayakkabıyı giymeliyim?"
+ },
+ {
+  "id": "hal58",
+  "kind": "text",
+  "tr": "Parmaklarınıza yetecek kadar geniş ve derin, alçak topuklu, bağcıklı ya da ayarlanabilir bantlı ayakkabılar en uygunudur. Yüksek topuklu, dar ve sivri burunlu ayakkabılardan kaçının. Ayakkabı alırken ayağınızın en geniş yerini, yani çıkıntının üzerini ölçtürün."
+ },
+ {
+  "id": "hal59",
+  "kind": "text",
+  "tr": "Ne zaman ameliyat düşünülür?"
+ },
+ {
+  "id": "hal60",
+  "kind": "text",
+  "tr": "Çıkıntı çok ağrılıysa ya da hayatınızı belirgin biçimde etkiliyorsa ve diğer yöntemler en az üç ay denenip yetersiz kaldıysa. Ameliyat yalnızca görünüşü düzeltmek için yapılmaz. Cochrane derlemesine göre ameliyat, tedavisiz izlemeye kıyasla ağrıyı klinik olarak anlamlı ölçüde azaltabiliyor; kanıtın kesinliği düşük."
+ },
+ {
+  "id": "hal61",
+  "kind": "text",
+  "tr": "Ameliyattan sonra iyileşme ne kadar sürer?"
+ },
+ {
+  "id": "hal62",
+  "kind": "text",
+  "tr": "Çoğu kişi aynı gün eve döner. En az iki hafta ayağı mümkün olduğunca yukarıda dinlendirmek gerekir; 6–8 hafta araç kullanılmaz, işe dönüş 2–12 hafta, spora dönüş 3–6 ay sürer. Ameliyattan sonra parmak daha sert ya da zayıf kalabilir, tam düz olmayabilir ve çıkıntı bazen yeniden oluşabilir."
+ },
+ {
+  "id": "hal63",
+  "kind": "text",
+  "tr": "Şu durumlarda bir hekime ya da ayak sağlığı uzmanına başvurun:"
+ },
+ {
+  "id": "hal64",
+  "kind": "text",
+  "tr": "Evde önlemlere rağmen birkaç haftada azalmayan ağrı"
+ },
+ {
+  "id": "hal65",
+  "kind": "text",
+  "tr": "Günlük işlerinizi yapmanızı engelleyen ağrı"
+ },
+ {
+  "id": "hal66",
+  "kind": "text",
+  "tr": "Çıkıntının giderek büyümesi"
+ },
+ {
+  "id": "hal67",
+  "kind": "text",
+  "tr": "Diyabetiniz varsa: ayak sorunları daha ciddi seyredebilir"
+ },
+ {
+  "id": "hal68",
+  "kind": "text",
+  "tr": "Ayakkabı sürtünmesiyle açıklanamayan kızarıklık, sıcaklık ve şişlik"
+ },
+ {
+  "id": "hal69",
+  "kind": "text",
+  "tr": "Gelip geçen, kızarık, sıcak ve şiş bir eklem (gut olabilir)"
+ },
+ {
+  "id": "hal70",
+  "kind": "text",
+  "tr": "Ayak başparmağı çıkıntısına bağlı ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "hal71",
+  "kind": "wa",
+  "tr": "Merhaba, halluks valgus için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "hal72",
+  "kind": "text",
+  "tr": "Aneurin Bevan University Health Board. <a href=\"https://abuhb.nhs.wales/files/patient-information-leaflets1/foot-care-podiatry/bunions-hallux-valgus-piu1440-pdf/\" target=\"_blank\" rel=\"noopener\">Bunions (hallux valgus)</a>. Patient information leaflet PIU 1440. September 2026."
+ },
+ {
+  "id": "hal73",
+  "kind": "text",
+  "tr": "Dias CGP, Godoy-Santos AL, Ferrari J, Ferretti M, Lenza M. <a href=\"https://www.cochrane.org/evidence/CD013726_are-surgical-interventions-better-no-treatment-or-non-surgical-interventions-treating-hallux-valgus\" target=\"_blank\" rel=\"noopener\">Surgical interventions for treating hallux valgus and bunions</a>. Cochrane Database Syst Rev. 2024;(7):CD013726."
+ },
+ {
+  "id": "hal74",
+  "kind": "text",
+  "tr": "Livewell Southwest Podiatry Services. <a href=\"https://www.livewellsouthwest.co.uk/wp-content/uploads/2025/10/Hallux-Abducto-Valgus-Bunions-A5.pdf\" target=\"_blank\" rel=\"noopener\">Hallux abducto-valgus (bunions)</a>. Patient information leaflet. September 2025."
+ },
+ {
+  "id": "hal75",
+  "kind": "ld",
+  "tr": "Halluks valgus"
+ }
+]
