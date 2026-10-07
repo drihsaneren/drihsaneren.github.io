@@ -144,3 +144,10 @@ Kaynaklar (Cochrane özet sayfaları ve DSÖ bilgi notu okundu): Dibben ve ark.,
 6–12 ayda kalp krizi RR 0,72, yatış RR 0,58 [NNT 12], tüm nedenli ölüm RR 0,87 [0,73–1,04], katılımcıların %17'si kadın), McDonagh 2023 Cochrane
 (24 çalışma, 3.046 kişi; ev = merkez), DSÖ (31 Temmuz 2025: 2022'de 19,8 milyon ölüm, %32). Sayfa her yerde "kardiyoloğunuzun onayıyla" vurgusunu taşır;
 hedef nabız için sayı verilmedi (ilaçlar etkiler), konuşma testi önerildi.
+
+## Romatoid artrit (cond10_part.py)
+7 Ekim 2026: 28. hastalık rehberi `romatoid-artrit.html` / `en/rheumatoid-arthritis.html` (bölge: genel). Egzersizler var olan el şekilleriyle
+(`ra_tglide`, `ra_grip`, `ra_wflex`, `ra_eccwe`) + `copd_sts`, `cr_walk`. Videolar: North Bristol NHS Trust (`mIxCSJNbfhU`), Hospital for Special Surgery (`oQvMzkBxqbQ`).
+Kaynaklar (özet sayfaları okundu): Hurkmans ve ark. Cochrane CD006853 (8 çalışma; toplam hasta sayısı özet sayfasında yoktu, yazılmadı; Cochrane sayfası atıfı
+"2022, Issue 3" diye veriyor), Lamb 2015 Lancet SARAH (490 hasta; MHQ 7,9'a karşı 3,6, fark 4,3; PEDro özeti ondalık noktaları düşürmüş, "79/36/43" görünüyor),
+EULAR 2018 fiziksel aktivite önerileri, DSÖ bilgi notu (28 Haziran 2023: 18 milyon, %70 kadın, %55'i 55 yaş üstü).
