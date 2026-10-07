@@ -1,7 +1,7 @@
 
 /* Free Health Assistant v1 — isolated styles, prefixed to avoid page collisions */
 .ieai-launcher{
-  position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));
+  position:fixed;left:max(16px,env(safe-area-inset-left));bottom:max(16px,env(safe-area-inset-bottom));
   z-index:9998;display:flex;align-items:center;gap:8px;border:1px solid rgba(216,178,94,.55);
   border-radius:999px;padding:11px 15px;background:#d8b25e;color:#1c2819;
   font:700 14px/1.2 "Figtree","Segoe UI",system-ui,sans-serif;box-shadow:0 12px 36px rgba(0,0,0,.32);
@@ -10,7 +10,7 @@
 .ieai-launcher:hover{filter:brightness(1.04)}
 .ieai-launcher svg{width:18px;height:18px;flex:none}
 .ieai-panel{
-  position:fixed;right:max(16px,env(safe-area-inset-right));bottom:72px;z-index:9999;
+  position:fixed;left:max(16px,env(safe-area-inset-left));bottom:72px;z-index:9999;
   width:min(390px,calc(100vw - 24px));height:min(620px,calc(100svh - 96px));
   display:none;grid-template-rows:auto 1fr auto;background:#1c2819;color:#ece5cf;
   border:1px solid rgba(216,178,94,.55);border-radius:20px;overflow:hidden;
@@ -40,8 +40,8 @@
 .ieai-status{display:inline-flex;align-items:center;gap:5px}
 .ieai-dot{width:6px;height:6px;border-radius:50%;background:#8fa476}
 @media(max-width:520px){
-  .ieai-launcher{right:12px;bottom:12px}
-  .ieai-panel{right:6px;bottom:64px;width:calc(100vw - 12px);height:min(72svh,640px);border-radius:17px}
+  .ieai-launcher{left:12px;right:auto;bottom:72px}
+  .ieai-panel{left:6px;right:auto;bottom:126px;width:calc(100vw - 12px);height:min(66svh,600px);border-radius:17px}
 }
 @media(prefers-reduced-motion:no-preference){
   .ieai-panel.is-open{animation:ieai-in .16s ease-out}
