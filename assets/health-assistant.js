@@ -50,10 +50,10 @@ function rootToken(t){
     if(/^gebel/.test(t)||/^hamil/.test(t))return "gebelik";
     if(/^fıt/.test(t)||/^fit/.test(t))return "fıt";
     if(/^boyn/.test(t)||/^boyun/.test(t))return "boyun";
-    if(/^omuz/.test(t))return "omuz";
+    if(/^omuz/.test(t)||/^omz/.test(t))return "omuz";
     if(/^diz/.test(t))return "diz";
     if(/^kalç/.test(t)||/^kalc/.test(t))return "kalça";
-    if(/^topuk/.test(t))return "topuk";
+    if(/^topuk/.test(t)||/^topuğ/.test(t)||/^topug/.test(t)||/^topu/.test(t))return "topuk";
     if(/^ayak/.test(t))return "ayak";
     if(/^baş/.test(t)||/^bas/.test(t))return "baş";
     if(/^dirsek/.test(t)||/^dirseğ/.test(t)||/^dirseg/.test(t)||/^dirse/.test(t))return "dirsek";
@@ -104,10 +104,10 @@ function bodyIntent(q){
   if(lang==="tr"){
     if(/\b(boyn\w*|boyun\w*)\b/.test(n))return "neck";
     if(/\bbel\w*\b/.test(n))return "back";
-    if(/\bomuz\w*\b/.test(n))return "shoulder";
+    if(/(^|\s)(omuz\w*|omz\w*)(?=\s|$)/.test(n))return "shoulder";
     if(/\bdiz\w*\b/.test(n))return "knee";
     if(/\b(kalç\w*|kalc\w*)\b/.test(n))return "hip";
-    if(/\btopuk\w*\b/.test(n))return "heel";
+    if(/(^|\s)(topuk\w*|topuğ\w*|topug\w*|topu\w*)(?=\s|$)/.test(n))return "heel";
     if(/\b(baş\w*|bas\w*)\b/.test(n))return "head";
     if(/(^|\s)(dirsek\w*|dirseğ\w*|dirseg\w*|dirse\w*)(?=\s|$)/.test(n))return "elbow";
     if(/\b(çene\w*|cene\w*)\b/.test(n))return "jaw";
@@ -215,7 +215,14 @@ function addMsg(kind,text,sources){
   var m=el("div","ieai-msg "+kind,text);log.appendChild(m);
   if(sources&&sources.length){
     var box=el("div","ieai-sources");
-    sources.forEach(function(s){var a=el("a","ieai-source",s.t||s.u);a.href=sourceUrl(s.u);a.target="_self";box.appendChild(a)});
+    sources.forEach(function(s){
+      var a=el("a","ieai-source",s.t||s.u);a.href=sourceUrl(s.u);a.target="_self";
+      a.addEventListener("click",function(){
+        var panel=document.querySelector(".ieai-panel");
+        if(panel)panel.classList.remove("is-open");
+      });
+      box.appendChild(a)
+    });
     m.appendChild(box);
   }
   log.scrollTop=log.scrollHeight;
@@ -252,8 +259,12 @@ function build(){
   p.innerHTML='<div class="ieai-head"><div class="ieai-head-main"><div class="ieai-title">'+copy.title+'</div><div class="ieai-sub">'+copy.sub+' · <span class="ieai-status"><span class="ieai-dot"></span><span class="ieai-mode">'+copy.local+'</span></span></div></div><button class="ieai-close" type="button" aria-label="Close">×</button></div><div class="ieai-log"></div><div class="ieai-compose"><div class="ieai-row"><textarea class="ieai-input" maxlength="500" rows="1" placeholder="'+copy.placeholder+'"></textarea><button class="ieai-send" type="button">'+copy.send+'</button></div><div class="ieai-foot">'+copy.note+'</div></div>';
   document.body.appendChild(b);document.body.appendChild(p);
   addMsg("bot",copy.hello);addMsg("note",copy.note);
-  b.addEventListener("click",function(){p.classList.toggle("is-open");if(p.classList.contains("is-open"))setTimeout(function(){p.querySelector(".ieai-input").focus()},50)});
-  p.querySelector(".ieai-close").addEventListener("click",function(){p.classList.remove("is-open")});
+  b.addEventListener("click",function(){
+    p.classList.toggle("is-open");
+    document.documentElement.classList.toggle("ieai-open",p.classList.contains("is-open"));
+    if(p.classList.contains("is-open"))setTimeout(function(){p.querySelector(".ieai-input").focus()},50)
+  });
+  p.querySelector(".ieai-close").addEventListener("click",function(){p.classList.remove("is-open");document.documentElement.classList.remove("ieai-open")});
   p.querySelector(".ieai-send").addEventListener("click",submit);
   p.querySelector(".ieai-input").addEventListener("keydown",function(e){if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();submit()}});
 }
