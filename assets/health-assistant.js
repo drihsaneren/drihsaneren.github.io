@@ -89,6 +89,10 @@ function scoreText(text,ts){
     var variants=[t];
     if(t==="ağr")variants.push("agr");
     if(t==="fıt")variants.push("fit");
+    if(t==="dirsek")variants.push("dirseğ","dirseg","dirse");
+    if(t==="omuz")variants.push("omz");
+    if(t==="topuk")variants.push("topuğ","topug","topu");
+    if(t==="boyun")variants.push("boyn");
     var found=false,c=0;
     variants.forEach(function(v){
       if(found)return;
@@ -151,7 +155,7 @@ function matchesIntent(p,intent){
   return (rules[intent]||[]).indexOf(u)>=0;
 }
 function contextBoost(p,q){
-  var n=normalize(q),u=(p.u||"").toLowerCase();
+  var n=normalize(q),u=(p.u||"").toLowerCase(),intent=bodyIntent(q);
   var hasBack=n.indexOf("bel")>=0;
   var hasNeck=/\b(boyn\w*|boyun\w*)\b/.test(n)||n.indexOf("neck")>=0;
   var hasPain=n.indexOf("ağr")>=0||n.indexOf("agr")>=0||n.indexOf("pain")>=0;
@@ -159,6 +163,13 @@ function contextBoost(p,q){
   var disc=n.indexOf("fıt")>=0||n.indexOf("fit")>=0||n.indexOf("hernia")>=0||n.indexOf("disc")>=0;
 
   if(lang==="tr"){
+    if(intent==="elbow"&&u==="tenisci-dirsegi.html") return 180;
+    if(intent==="heel"&&u==="topuk-dikeni.html") return 180;
+    if(intent==="jaw"&&u==="cene-eklemi.html") return 180;
+    if(intent==="shoulder"&&u==="omuz-sikismasi.html") return 90;
+    if(intent==="hip"&&u==="kalca-kireclenmesi.html") return 70;
+    if(intent==="knee"&&u==="diz-onu-agrisi.html") return 70;
+    if(intent==="head"&&u==="bas-agrisi.html") return 150;
     if(u==="gebelikte-bel-agrisi.html") return pregnancy ? 180 : -180;
     if(u==="bel-fitigi.html") return (hasBack&&disc) ? 170 : (hasBack&&hasPain&&!disc ? -45 : 0);
     if(u==="bel-agrisi.html"&&hasBack&&hasPain&&!pregnancy&&!disc) return 200;
@@ -166,6 +177,13 @@ function contextBoost(p,q){
     if(u==="boyun-agrisi.html"&&hasNeck&&hasPain&&!disc) return 220;
     if(u==="masa-basi.html"&&hasNeck) return -35;
   }else{
+    if(intent==="elbow"&&u==="en/tennis-elbow.html") return 180;
+    if(intent==="heel"&&u==="en/plantar-fasciitis.html") return 180;
+    if(intent==="jaw"&&u==="en/jaw-joint-tmd.html") return 180;
+    if(intent==="shoulder"&&u==="en/shoulder-impingement.html") return 90;
+    if(intent==="hip"&&u==="en/hip-osteoarthritis.html") return 70;
+    if(intent==="knee"&&u==="en/anterior-knee-pain.html") return 70;
+    if(intent==="head"&&u==="en/headache.html") return 150;
     if(u==="en/pregnancy-back-pain.html") return pregnancy ? 180 : -180;
     if(u==="en/lumbar-disc-herniation.html") return (hasBack&&disc) ? 170 : (hasBack&&hasPain&&!disc ? -45 : 0);
     if(u==="en/low-back-pain.html"&&hasBack&&hasPain&&!pregnancy&&!disc) return 200;
@@ -198,9 +216,29 @@ function emergency(q){
   ["şiddetli göğüs ağr","gogus agr","nefes alam","tek taraflı güçsüz","yüz kayması","bayıld","bilinçsiz","ciddi kanama","intihar","kendimi öldür"];
   return terms.some(function(t){return n.indexOf(normalize(t))>=0});
 }
-function localAnswer(results){
+function localAnswer(results,question){
   if(!results.length)return {text:copy.nohit,sources:[]};
-  var r=results[0],bits=[];
+  var r=results[0],bits=[],intent=bodyIntent(question||"");
+  var genericCaution={
+    tr:{
+      elbow:"Dirsek ağrısının birçok nedeni olabilir; aşağıdaki rehber en yakın içeriktir ve tek başına tanı anlamına gelmez.",
+      knee:"Diz ağrısının farklı nedenleri olabilir; aşağıdaki rehberler olası konuları ayırt etmek için bilgilendirme amaçlıdır.",
+      shoulder:"Omuz ağrısının farklı nedenleri olabilir; aşağıdaki rehberler bilgilendirme amaçlıdır.",
+      hip:"Kalça ağrısının farklı nedenleri olabilir; aşağıdaki rehberler bilgilendirme amaçlıdır.",
+      heel:"Topuk ağrısının farklı nedenleri olabilir; aşağıdaki rehber en yakın içeriktir ve tek başına tanı anlamına gelmez.",
+      jaw:"Çene bölgesi ağrısının farklı nedenleri olabilir; aşağıdaki rehber bilgilendirme amaçlıdır."
+    },
+    en:{
+      elbow:"Elbow pain can have several causes; the guide below is the closest match and is not a diagnosis.",
+      knee:"Knee pain can have several causes; the guides below are for information and differential context.",
+      shoulder:"Shoulder pain can have several causes; the guides below are for information.",
+      hip:"Hip pain can have several causes; the guides below are for information.",
+      heel:"Heel pain can have several causes; the guide below is the closest match and is not a diagnosis.",
+      jaw:"Jaw-region pain can have several causes; the guide below is for information."
+    }
+  };
+  var caution=genericCaution[lang]&&genericCaution[lang][intent];
+  if(caution)bits.push(caution);
   if(r.d)bits.push(r.d);
   r.chunks.slice(0,2).forEach(function(c){bits.push(c.t)});
   var text=bits.join(" ").replace(/\s+/g," ").trim();
@@ -245,11 +283,24 @@ function submit(){
     if(!results.length){addMsg("bot",copy.nohit);btn.disabled=false;return}
     if(cfg.endpoint){
       setMode(copy.ai);
-      return askAI(q,results).then(function(a){addMsg("bot",a.text,a.sources)}).catch(function(){setMode(copy.local);var a=localAnswer(results);addMsg("bot",copy.error+"\n\n"+a.text,a.sources)});
+      return askAI(q,results).then(function(a){addMsg("bot",a.text,a.sources)}).catch(function(){setMode(copy.local);var a=localAnswer(results,q);addMsg("bot",copy.error+"\n\n"+a.text,a.sources)});
     }else{
-      setMode(copy.local);var a=localAnswer(results);addMsg("bot",a.text,a.sources);
+      setMode(copy.local);var a=localAnswer(results,q);addMsg("bot",a.text,a.sources);
     }
   }).catch(function(){addMsg("bot",copy.nohit)}).finally(function(){btn.disabled=false;inp.focus()});
+}
+function addInlineCard(){
+  if(document.querySelector(".ieai-inline"))return;
+  var host=document.querySelector("footer")||document.body;
+  var card=el("section","ieai-inline");
+  card.innerHTML=lang==="en"
+    ? '<div class="ieai-inline-inner"><div><span class="ieai-inline-kicker">Health Guide Assistant</span><h2>Ask the health guides</h2><p>Type a short question. The assistant searches the information published on this website and points you to the closest guides.</p></div><button type="button" class="ieai-inline-open">Ask a question</button></div>'
+    : '<div class="ieai-inline-inner"><div><span class="ieai-inline-kicker">Sağlık Rehberi Asistanı</span><h2>Sağlık rehberlerine sorun</h2><p>Kısa bir soru yazın. Asistan bu sitede yayımlanan bilgileri tarar ve en ilgili rehberleri gösterir.</p></div><button type="button" class="ieai-inline-open">Soru sor</button></div>';
+  host.parentNode.insertBefore(card,host);
+  card.querySelector(".ieai-inline-open").addEventListener("click",function(){
+    var panel=document.querySelector(".ieai-panel");
+    if(panel){panel.classList.add("is-open");document.documentElement.classList.add("ieai-open");setTimeout(function(){var i=panel.querySelector(".ieai-input");if(i)i.focus()},50)}
+  });
 }
 function build(){
   if(document.querySelector(".ieai-launcher")||location.pathname.endsWith("/404.html")||document.title.indexOf("Sayfa bulunamadı")>=0)return;
@@ -267,6 +318,7 @@ function build(){
   p.querySelector(".ieai-close").addEventListener("click",function(){p.classList.remove("is-open");document.documentElement.classList.remove("ieai-open")});
   p.querySelector(".ieai-send").addEventListener("click",submit);
   p.querySelector(".ieai-input").addEventListener("keydown",function(e){if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();submit()}});
+  addInlineCard();
 }
 function loadConfig(){
   return fetch(CONFIG_URL,{cache:"no-store"}).then(function(r){return r.ok?r.json():{}}).then(function(x){cfg=Object.assign(cfg,x||{})}).catch(function(){});
