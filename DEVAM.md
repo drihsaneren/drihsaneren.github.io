@@ -151,3 +151,14 @@ hedef nabız için sayı verilmedi (ilaçlar etkiler), konuşma testi önerildi.
 Kaynaklar (özet sayfaları okundu): Hurkmans ve ark. Cochrane CD006853 (8 çalışma; toplam hasta sayısı özet sayfasında yoktu, yazılmadı; Cochrane sayfası atıfı
 "2022, Issue 3" diye veriyor), Lamb 2015 Lancet SARAH (490 hasta; MHQ 7,9'a karşı 3,6, fark 4,3; PEDro özeti ondalık noktaları düşürmüş, "79/36/43" görünüyor),
 EULAR 2018 fiziksel aktivite önerileri, DSÖ bilgi notu (28 Haziran 2023: 18 milyon, %70 kadın, %55'i 55 yaş üstü).
+
+## Sürekli üşüme (cond11_part.py) ve tamamlayıcı tıp çerçevesi
+7 Ekim 2026: kullanıcının isteğiyle (bir arkadaşının nedeni bulunamayan üşümesi) belirti rehberi `surekli-usume.html` / `en/always-feeling-cold.html` (bölge: genel).
+Sıra: olası nedenler ve testler -> günlük önlemler -> "Tamamlayıcı yaklaşımlar: kanıt ne diyor?" -> ısınmak için altı hareket. Video yok.
+Bu sayfada bilerek `CTA_CARD` (seans planla) yok: ilk adım hekim muayenesi. Akupunktur yalnızca kanıt özeti olarak geçer, hizmet olarak sunulmaz (kural değişmedi);
+"Türkiye'de yalnızca sertifikalı hekimler, yetkilendirilmiş birimlerde" notu var (GETAT Yönetmeliği, RG 27.10.2014/29158, madde 9; alomaliye.com kopyasından okundu).
+Kaynaklar (okundu): MedlinePlus "Cold intolerance" (27 Şubat 2026), NHS Raynaud's (20 Temmuz 2023), NHS hipotiroidi belirtileri (28 Nisan 2025),
+Malenfant 2009 (özet qxmd üzerinden: 20 RKÇ; biyogeribildirim işe yaramıyor, eldiven tek çalışma, lazer belirsiz, akupunktur 2 çalışma yetersiz; cilt/sayfa hafızadan: 48(7):791-795),
+Yamazaki 2023 (16 kadın, 2 hafta yürüyüş/koşu: üşüme hissi azaldı, cilt sıcaklığı değişmedi). Okunamayan: el-ayak üşümesinde bitkisel ürünler derlemesi (PMC captcha) -> sayfada kullanılmadı.
+**Titreme (tremor) için bekleyen fikir:** kullanıcı "akupunktur etkili" dedi. Okunan: Shen ve ark., Healthcare 2026 ağ meta-analizi (esansiyel tremor; 20 RKÇ, 1.067 kişi,
+hepsi Çin'de; küçük örneklem, körleme yok, gizleme yetersiz) -> "umut verici ama kanıt kesinliği düşük" diye yazılmalı, "etkili" denmemeli. Rehber kullanıcı onayını bekliyor.

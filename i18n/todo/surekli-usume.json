@@ -1,0 +1,397 @@
+[
+ {
+  "id": "sur0",
+  "kind": "text",
+  "tr": "Sürekli Üşüme: Nedenleri, Testler ve Yapılabilecekler | İhsan Eren"
+ },
+ {
+  "id": "sur1",
+  "kind": "attr",
+  "tr": "Herkes rahatken siz neden üşüyorsunuz? Tiroid, kansızlık ve Raynaud gibi olası nedenler, istenen testler, günlük önlemler ve tamamlayıcı yöntemler için kanıtın ne dediği."
+ },
+ {
+  "id": "sur2",
+  "kind": "text",
+  "tr": "Sürekli üşüme (soğuğa duyarlılık)"
+ },
+ {
+  "id": "sur3",
+  "kind": "text",
+  "tr": "Herkes üşürken üşümek doğaldır; ama çevrenizdekiler rahatken siz hep üşüyorsanız buna soğuğa duyarlılık denir. Çoğu zaman altta tiroid bezinin az çalışması, kansızlık ya da düşük kilo gibi bulunup düzeltilebilen bir neden vardır; bu yüzden ilk adım hekim muayenesi ve birkaç kan testidir. Bu rehber olası nedenleri, günlük önlemleri ve tamamlayıcı yöntemler için kanıtın ne dediğini özetliyor."
+ },
+ {
+  "id": "sur4",
+  "kind": "text",
+  "tr": "4 test"
+ },
+ {
+  "id": "sur5",
+  "kind": "text",
+  "tr": "İlk aşamada çoğunlukla istenenler: tam kan sayımı, genel biyokimya, TSH ve tiroid hormonları"
+ },
+ {
+  "id": "sur6",
+  "kind": "text",
+  "tr": "30 yaş"
+ },
+ {
+  "id": "sur7",
+  "kind": "text",
+  "tr": "Parmaklarda renk değişikliği ilk kez bu yaştan sonra başladıysa hekime görünmek gerekir"
+ },
+ {
+  "id": "sur8",
+  "kind": "text",
+  "tr": "2 hafta"
+ },
+ {
+  "id": "sur9",
+  "kind": "text",
+  "tr": "Küçük bir çalışmada el ve ayak üşümesini azaltan yürüyüş ve hafif koşu programının süresi"
+ },
+ {
+  "id": "sur10",
+  "kind": "text",
+  "tr": "20 çalışma"
+ },
+ {
+  "id": "sur11",
+  "kind": "text",
+  "tr": "Raynaud'da tamamlayıcı yöntemleri inceleyen derleme; sonuçların çoğu kesin değil"
+ },
+ {
+  "id": "sur12",
+  "kind": "text",
+  "tr": "Neden hep üşürüm?"
+ },
+ {
+  "id": "sur13",
+  "kind": "text",
+  "tr": "Vücut ısısını tiroid hormonları, kan dolaşımı, kas kütlesi ve deri altındaki yağ tabakası birlikte ayarlar. Bunlardan biri aksadığında aynı ortamda başkalarından daha çok üşürsünüz. Üşüme çoğu zaman tek başına bir hastalık değil, altta yatan bir durumun belirtisidir."
+ },
+ {
+  "id": "sur14",
+  "kind": "text",
+  "tr": "Bu yüzden uzun süredir devam eden ya da aşırı üşümede ilk yapılacak şey hekime başvurmaktır. Neden bulunursa tedavi o nedene yöneliktir."
+ },
+ {
+  "id": "sur15",
+  "kind": "text",
+  "tr": "Olası nedenler"
+ },
+ {
+  "id": "sur16",
+  "kind": "text",
+  "tr": "Tiroid bezinin az çalışması: üşümeye yorgunluk, kilo alma, kabızlık, cilt ve saç kuruluğu eşlik edebilir"
+ },
+ {
+  "id": "sur17",
+  "kind": "text",
+  "tr": "Kansızlık (anemi)"
+ },
+ {
+  "id": "sur18",
+  "kind": "text",
+  "tr": "Düşük kilo ve vücut yağının az olması; özellikle zayıf ve ileri yaştaki kadınlarda"
+ },
+ {
+  "id": "sur19",
+  "kind": "text",
+  "tr": "Raynaud fenomeni gibi damar sorunları"
+ },
+ {
+  "id": "sur20",
+  "kind": "text",
+  "tr": "Uzun süren ağır hastalıklar ve genel sağlık durumunun bozulması"
+ },
+ {
+  "id": "sur21",
+  "kind": "text",
+  "tr": "Yeme bozuklukları (anoreksiya nervoza)"
+ },
+ {
+  "id": "sur22",
+  "kind": "text",
+  "tr": "Nadiren, beynin ısı ayarını yapan bölgesiyle (hipotalamus) ilgili sorunlar"
+ },
+ {
+  "id": "sur23",
+  "kind": "text",
+  "tr": "İlk adım: muayene ve testler"
+ },
+ {
+  "id": "sur24",
+  "kind": "text",
+  "tr": "Hekiminiz öykünüzü dinler, muayene eder ve çoğunlukla şu testleri ister: tam kan sayımı, genel biyokimya, TSH ve tiroid hormonları. Öykünüze göre başka testler eklenebilir. Kullandığınız ilaçları da söyleyin; bazı ilaçlar parmaklardaki dolaşımı etkileyebilir."
+ },
+ {
+  "id": "sur25",
+  "kind": "text",
+  "tr": "Soğukta ya da stres altında parmaklarınız belirgin şekilde renk değiştiriyor, uyuşuyor, karıncalanıyor ya da ağrıyorsa bu Raynaud fenomeni olabilir. Çoğu kişide zararsızdır; ancak belirtiler şiddetliyse, yalnızca tek taraftaysa, 30 yaşından sonra başladıysa ya da eklem ağrısı, cilt döküntüsü ve kas güçsüzlüğü eşlik ediyorsa altta yatan bir romatizmal hastalık açısından değerlendirilmelidir."
+ },
+ {
+  "id": "sur26",
+  "kind": "text",
+  "tr": "Testlerinizin normal çıkması şikâyetinizin gerçek olmadığı anlamına gelmez. Bazı insanlar soğuğa yapısal olarak daha duyarlıdır; aşağıdaki önlemler bu durumda da işe yarayabilir. Şikâyet değişir ya da yeni belirtiler eklenirse yeniden değerlendirilmek üzere hekiminize başvurun."
+ },
+ {
+  "id": "sur27",
+  "kind": "text",
+  "tr": "Günlük önlemler"
+ },
+ {
+  "id": "sur28",
+  "kind": "text",
+  "tr": "Sıcak tutun"
+ },
+ {
+  "id": "sur29",
+  "kind": "text",
+  "tr": "Soğuk havada sıcak giyinin, özellikle ellerinizi ve ayaklarınızı koruyun; evinizi ılık tutun."
+ },
+ {
+  "id": "sur30",
+  "kind": "text",
+  "tr": "Ani ısı değişikliği"
+ },
+ {
+  "id": "sur31",
+  "kind": "text",
+  "tr": "Sıcak ortamdan soğuğa birden çıkmaktan kaçının; dışarı çıkmadan önce giyinin."
+ },
+ {
+  "id": "sur32",
+  "kind": "text",
+  "tr": "Düzenli hareket"
+ },
+ {
+  "id": "sur33",
+  "kind": "text",
+  "tr": "Düzenli egzersiz dolaşımı destekler. Üşüyen 16 genç kadınla yapılan küçük bir çalışmada, iki hafta boyunca haftada en az dört gün yürüyüş ve hafif koşu yapanlarda parmak uçları ve ayaklardaki üşüme hissi azaldı; cilt sıcaklığı ise değişmedi."
+ },
+ {
+  "id": "sur34",
+  "kind": "text",
+  "tr": "Sigara"
+ },
+ {
+  "id": "sur35",
+  "kind": "text",
+  "tr": "Sigara dolaşımı olumsuz etkiler; bırakmak için hekiminizden destek isteyin."
+ },
+ {
+  "id": "sur36",
+  "kind": "text",
+  "tr": "Kafein"
+ },
+ {
+  "id": "sur37",
+  "kind": "text",
+  "tr": "Çay, kahve, kola ve çikolatadaki kafeini azaltmak bazı kişilerde belirtileri hafifletebilir."
+ },
+ {
+  "id": "sur38",
+  "kind": "text",
+  "tr": "Gevşeme"
+ },
+ {
+  "id": "sur39",
+  "kind": "text",
+  "tr": "Stres ve kaygı belirtileri tetikleyebilir; nefes egzersizleri ya da yoga gibi gevşeme yöntemlerini deneyin."
+ },
+ {
+  "id": "sur40",
+  "kind": "text",
+  "tr": "Beslenme"
+ },
+ {
+  "id": "sur41",
+  "kind": "text",
+  "tr": "Dengeli ve yeterli beslenin; çok düşük kilo üşümeyi artırır."
+ },
+ {
+  "id": "sur42",
+  "kind": "text",
+  "tr": "Nefesle gevşemek için <a href=\"ic-cekis.html\">5 dakikalık iç çekiş nefesi</a>, haftalık hareketinizi görmek için <a href=\"hareket.html\">Haftalık hareket ölçer</a> sayfasına bakabilirsiniz."
+ },
+ {
+  "id": "sur43",
+  "kind": "text",
+  "tr": "Tamamlayıcı yaklaşımlar: kanıt ne diyor?"
+ },
+ {
+  "id": "sur44",
+  "kind": "text",
+  "tr": "Tamamlayıcı yöntemler en çok Raynaud fenomeninde araştırıldı. 20 rastgele kontrollü çalışmayı inceleyen derlemeye göre:"
+ },
+ {
+  "id": "sur45",
+  "kind": "text",
+  "tr": "Biyogeribildirim: beş çalışmada işe yaramadı; sonuçlar sahte uygulamadan daha iyi değildi."
+ },
+ {
+  "id": "sur46",
+  "kind": "text",
+  "tr": "Isı koruyucu (terapötik) eldiven: tek bir çalışmada yararlı bulundu; sonucun genellenebilirliği sınırlı."
+ },
+ {
+  "id": "sur47",
+  "kind": "text",
+  "tr": "Düşük düzeyli lazer: üç çalışmada atak sayısını biraz azalttı; farkın klinik önemi belirsiz."
+ },
+ {
+  "id": "sur48",
+  "kind": "text",
+  "tr": "Akupunktur: yalnızca iki çalışma var; sonuç çıkarmak için veri yetersiz."
+ },
+ {
+  "id": "sur49",
+  "kind": "text",
+  "tr": "Ginkgo biloba, antioksidanlar ve esansiyel yağ asitleri: anlamlı bir yarar gösterilemedi ya da veri yetersiz."
+ },
+ {
+  "id": "sur50",
+  "kind": "text",
+  "tr": "Derlemenin sonucu açık: iyi tasarlanmış çalışmalara ihtiyaç var ve biyogeribildirimin işe yaramadığı dışında kesin bir şey söylenemiyor. Bitkisel ürünler ilaçlarla etkileşebilir; kullanmadan önce hekiminize ya da eczacınıza danışın."
+ },
+ {
+  "id": "sur51",
+  "kind": "text",
+  "tr": "Türkiye'de akupunktur gibi geleneksel ve tamamlayıcı tıp uygulamalarını yalnızca ilgili alanda uygulama sertifikası olan hekimler, Sağlık Bakanlığınca yetkilendirilmiş birimlerde yapabilir. Tamamlayıcı bir yöntem denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun ve yöntemi tıbbi tedavinin yerine değil, yanında düşünün."
+ },
+ {
+  "id": "sur52",
+  "kind": "text",
+  "tr": "Isınmak için altı hareket"
+ },
+ {
+  "id": "sur53",
+  "kind": "text",
+  "tr": "Kaslar çalışırken ısı üretir. Üşüdüğünüzde yerinizde durmak yerine birkaç dakika hareket edin; bu hareketler evde ya da masa başında yapılabilir."
+ },
+ {
+  "id": "sur54",
+  "kind": "text",
+  "tr": "Otururken ayaklarınızı yerden hafifçe kaldırın. Ayak uçlarınızı kendinize doğru çekin, sonra ileri uzatın; ritmik ve canlı bir tempoda yapın."
+ },
+ {
+  "id": "sur55",
+  "kind": "text",
+  "tr": "30 saniye, 2–3 tur"
+ },
+ {
+  "id": "sur56",
+  "kind": "text",
+  "tr": "Tezgâha hafifçe tutunun. İki topuğunuzu birlikte kaldırıp parmak uçlarınızda yükselin ve yavaşça inin. Baldır kaslarını çalıştırır, bacaklardaki dolaşımı hareketlendirir."
+ },
+ {
+  "id": "sur57",
+  "kind": "text",
+  "tr": "15–20 tekrar"
+ },
+ {
+  "id": "sur58",
+  "kind": "text",
+  "tr": "El açıp kapama"
+ },
+ {
+  "id": "sur59",
+  "kind": "text",
+  "tr": "Ellerinizi önünüze uzatın. Parmaklarınızı sıkıca yumruk yapın, sonra olabildiğince açıp gerin; canlı bir tempoda tekrarlayın."
+ },
+ {
+  "id": "sur60",
+  "kind": "text",
+  "tr": "20 tekrar, 2 tur"
+ },
+ {
+  "id": "sur61",
+  "kind": "text",
+  "tr": "Testlerim normal çıktı ama hâlâ üşüyorum. Ne yapmalıyım?"
+ },
+ {
+  "id": "sur62",
+  "kind": "text",
+  "tr": "Normal testler sık görülen nedenleri dışlamaya yardımcı olur, ama şikâyetinizi geçersiz kılmaz. Bazı insanlar soğuğa yapısal olarak daha duyarlıdır. Günlük önlemleri birkaç hafta düzenli uygulayın. Şikâyet artarsa ya da kilo değişikliği, belirgin yorgunluk, parmaklarda renk değişikliği gibi yeni belirtiler eklenirse yeniden hekiminize başvurun."
+ },
+ {
+  "id": "sur63",
+  "kind": "text",
+  "tr": "Ellerim ve ayaklarım hep soğuk; bu Raynaud mu?"
+ },
+ {
+  "id": "sur64",
+  "kind": "text",
+  "tr": "Her soğuk el Raynaud değildir. Raynaud'da parmaklar soğukta ya da stres altında belirgin şekilde renk değiştirir, uyuşur, karıncalanır ya da ağrır; belirtiler dakikalar ile saatler arasında sürebilir. Renk değişikliği yoksa tablo Raynaud'dan çok soğuğa duyarlılığı düşündürür. Emin olmak için hekiminize danışın."
+ },
+ {
+  "id": "sur65",
+  "kind": "text",
+  "tr": "Akupunktur üşümeye iyi gelir mi?"
+ },
+ {
+  "id": "sur66",
+  "kind": "text",
+  "tr": "Bunu söylemek için yeterli kanıt yok. Raynaud fenomeninde yalnızca iki küçük çalışma yapılmış; derleme bunlardan sonuç çıkarılamayacağını belirtiyor. Denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun. Türkiye'de akupunkturu yalnızca bu alanda sertifikası olan hekimler uygulayabilir."
+ },
+ {
+  "id": "sur67",
+  "kind": "text",
+  "tr": "Egzersiz üşümeyi azaltır mı?"
+ },
+ {
+  "id": "sur68",
+  "kind": "text",
+  "tr": "Küçük bir çalışma bunu destekliyor: üşüyen 16 genç kadından iki hafta boyunca düzenli yürüyüş ve hafif koşu yapanlarda parmak uçları ve ayaklardaki üşüme hissi azaldı, uyku da iyileşti. Çalışma küçük olduğu için sonuç kesin sayılmaz; yine de düzenli hareket, denemeye değer güvenli bir adımdır."
+ },
+ {
+  "id": "sur69",
+  "kind": "text",
+  "tr": "Parmaklarda geçmeyen beyazlık ya da morluk, yara ya da siyahlaşma (acil)"
+ },
+ {
+  "id": "sur70",
+  "kind": "text",
+  "tr": "Soğukta kalmanın ardından durdurulamayan titreme, bilinç bulanıklığı ya da konuşmada yavaşlama (acil)"
+ },
+ {
+  "id": "sur71",
+  "kind": "text",
+  "tr": "Üşümeyle birlikte açıklanamayan kilo değişikliği ya da belirgin yorgunluk"
+ },
+ {
+  "id": "sur72",
+  "kind": "text",
+  "tr": "Parmaklardaki renk değişikliğinin yalnızca tek tarafta olması ya da 30 yaşından sonra başlaması"
+ },
+ {
+  "id": "sur73",
+  "kind": "text",
+  "tr": "Eklem ağrısı, cilt döküntüsü ya da kas güçsüzlüğünün eşlik etmesi"
+ },
+ {
+  "id": "sur74",
+  "kind": "text",
+  "tr": "Yürürken baldırlarda ağrı ve ayaklarda soğukluk ya da renk değişikliği"
+ },
+ {
+  "id": "sur75",
+  "kind": "text",
+  "tr": "<strong>Bu rehberin sınırı:</strong> Üşümenin nedenini bulmak hekim muayenesi ve test gerektirir. Buradaki önlemler tanının ve tedavinin yerini tutmaz; onları tamamlar."
+ },
+ {
+  "id": "sur76",
+  "kind": "text",
+  "tr": "MedlinePlus. <a href=\"https://medlineplus.gov/ency/article/003095.htm\" target=\"_blank\" rel=\"noopener\">Cold intolerance</a>. US National Library of Medicine. Updated 27 February 2026."
+ },
+ {
+  "id": "sur77",
+  "kind": "text",
+  "tr": "<a href=\"https://www.alomaliye.com/2014/10/27/geleneksel-ve-tamamlayici-tip-uygulamalari-yonetmeligi/\" target=\"_blank\" rel=\"noopener\">Geleneksel ve Tamamlayıcı Tıp Uygulamaları Yönetmeliği</a>. Resmî Gazete, 27 Ekim 2014, sayı 29158."
+ },
+ {
+  "id": "sur78",
+  "kind": "ld",
+  "tr": "Soğuğa duyarlılık"
+ }
+]
