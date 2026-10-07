@@ -1,0 +1,29 @@
+/*
+  Site Core v2 — shared, intentionally conservative.
+  Keep page-specific layout and component rules inside their existing pages until
+  they are proven identical across the site.
+*/
+@font-face{
+  font-family:"Marcellus";
+  src:url("/Marcellus-Regular.ttf") format("truetype");
+  font-display:swap;
+}
+@font-face{
+  font-family:"Figtree";
+  src:url("/Figtree.ttf") format("truetype");
+  font-weight:300 900;
+  font-display:swap;
+}
+
+/* Shared accessibility utility. Does not alter existing layouts. */
+.site-sr-only{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  padding:0!important;
+  margin:-1px!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+  border:0!important;
+}

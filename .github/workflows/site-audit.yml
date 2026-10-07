@@ -1,0 +1,23 @@
+name: Site Core Audit
+
+on:
+  pull_request:
+  push:
+    branches: [main, site-core-v2]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: SEO + content quality audit
+        run: python scripts/site_audit.py
