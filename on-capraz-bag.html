@@ -501,6 +501,27 @@
     </div>
   </section>
 
+  <section id="videolar">
+    <div class="wrap">
+      <p class="eyebrow">Video</p>
+      <h2>Ön çapraz bağ için videolar</h2>
+      <p class="soft">ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <div class="vids">
+        <div class="vid">
+          <div class="vbox"><button type="button" data-yt="_gF6llBpol0" aria-label="Ön çapraz bağ yaralanması videosunu oynat"><img class="thumb" src="https://i.ytimg.com/vi/_gF6llBpol0/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>Ön çapraz bağ yaralanması</h3>
+          <p>İki fizyoterapist yaralanmayı ve tedavi seçeneklerini anlatıyor.</p>
+        </div>
+        <div class="vid">
+          <div class="vbox"><button type="button" data-yt="m-G-r_MgL_4" aria-label="Ameliyat sonrası diz hareket açıklığı egzersizleri videosunu oynat"><img class="thumb" src="https://i.ytimg.com/vi/m-G-r_MgL_4/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>Ameliyat sonrası üç hareket açıklığı egzersizi</h3>
+          <p>Dizi yeniden tam açıp bükebilmek için hareketler.</p>
+        </div>
+      </div>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
@@ -587,7 +608,19 @@
   window.addEventListener('scroll', upd, {passive: true}); window.addEventListener('resize', upd); upd();
 })();
 </script>
-
+<script>
+document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
+  b.addEventListener('click', function(){
+    var f = document.createElement('iframe');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
+    b.replaceWith(f);
+  });
+});
+</script>
 <script src="ara.js" defer></script>
 </body>
 </html>

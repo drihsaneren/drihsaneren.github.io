@@ -344,6 +344,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/on-capraz-bag.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/koah.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/koah.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/copd-pulmonary-rehabilitation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/koah.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-07</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -685,5 +692,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/on-capraz-bag.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/acl-injury.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/on-capraz-bag.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/copd-pulmonary-rehabilitation.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/koah.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/copd-pulmonary-rehabilitation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/koah.html"/>
   </url>
 </urlset>
