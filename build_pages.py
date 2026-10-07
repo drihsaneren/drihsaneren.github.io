@@ -181,7 +181,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
@@ -238,6 +238,7 @@ TOPICS = {
     "idrar-kacirma.html": ("Hastalık rehberi", "İdrar kaçırma ve pelvik taban egzersizleri"),
     "gebelikte-bel-agrisi.html": ("Hastalık rehberi", "Gebelikte bel ve leğen kemiği ağrısı"),
     "dar-kanal.html": ("Hastalık rehberi", "Dar kanal (lomber spinal stenoz)"),
+    "on-capraz-bag.html": ("Hastalık rehberi", "Ön çapraz bağ yaralanması"),
     "stres.html": ("Kendine iyi bak", "Stresli anlarda ne yapabilirsiniz?"),
     "masa-basi.html": ("Kendine iyi bak", "Masa başında çalışanlar için"),
     "sabah-rutini.html": ("Kendine iyi bak", "Güne 5 dakikayla başlayın"),
@@ -278,7 +279,8 @@ RELATED = {
     "omuz-sikismasi.html": ["rotator-manset-yirtigi.html", "donuk-omuz.html"],
     "karpal-tunel-sendromu.html": ["boyun-fitigi.html", "omuz-sikismasi.html"],
     "yenilikler.html": ["stres.html", "diz-kireclenmesi.html"],
-    "menisku-yirtigi.html": ["diz-kireclenmesi.html", "protez-sonrasi.html"],
+    "menisku-yirtigi.html": ["diz-kireclenmesi.html", "on-capraz-bag.html"],
+    "on-capraz-bag.html": ["menisku-yirtigi.html", "diz-onu-agrisi.html"],
     "fibromiyalji.html": ["uyku.html", "stres.html"],
     "bas-donmesi.html": ["dusme-onleme.html", "boyun-agrisi.html"],
     "ankilozan-spondilit.html": ["bel-agrisi.html", "boyun-agrisi.html"],
@@ -985,7 +987,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "self2_part.py", "self3_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "self2_part.py", "self3_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1632,6 +1634,8 @@ TH_FIBRO = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy=
 TH_VERTIGO = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M64 112 H262 M70 112 V142 M256 112 V142" stroke="#ece5cf" stroke-width="5" stroke-linecap="round" opacity=".55"/><rect x="100" y="99" width="42" height="13" rx="6" fill="#ece5cf" opacity=".3"/><path d="M122 98 L186 106 L250 106" stroke="#8fa476" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M130 100 L160 108" stroke="#8fa476" stroke-width="6" stroke-linecap="round"/><path d="M122 98 L104 103" stroke="#8fa476" stroke-width="7" stroke-linecap="round"/><circle cx="92" cy="104" r="13" fill="#8fa476"/><path d="M92 58 m-3 0 a3 3 0 1 1 6 0 a7 7 0 1 1 -14 0 a11 11 0 1 1 22 0 a15 15 0 1 1 -30 0" fill="none" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round"/><path d="M60 92 A34 34 0 0 1 124 88" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5" stroke-linecap="round"/><path d="M118 82 l6 6 -8 2" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
 TH_AS = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M112 6 V146" stroke="#ece5cf" stroke-width="5" stroke-linecap="round" opacity=".55"/><path d="M100 146 H220" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="131" cy="24" r="13" fill="#8fa476"/><path d="M126 96 L126 146 M126 96 L136 146 M128 46 L144 70 L146 92" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><g fill="#d8b25e"><rect x="118" y="40" width="12" height="6" rx="2"/><rect x="118" y="48.5" width="12" height="6" rx="2"/><rect x="118" y="57" width="12" height="6" rx="2"/><rect x="118" y="65.5" width="12" height="6" rx="2"/><rect x="118" y="74" width="12" height="6" rx="2"/><rect x="118" y="82.5" width="12" height="6" rx="2"/></g><path d="M117 92 H131 L124 104 Z" fill="#e2ab47"/><circle cx="124" cy="94" r="17" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M188 52 H160 M168 44 L160 52 L168 60" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M160 90h12M158 104l11 5M158 78l11-5" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 C_MENISCUS = KC("menisku-yirtigi.html", TH_MENISCUS, "Hastalık rehberi", "Menisküs yırtığı", "MR'daki yırtık ameliyat gerektirir mi? Egzersizin ameliyat kadar etkili bulunduğu çalışmalar ve evde altı egzersiz.")
+TH_ACL = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M150 6 L156 46" stroke="#8fa476" stroke-width="14" stroke-linecap="round"/><path d="M126 62 Q124 46 140 44 H170 Q186 46 184 62 Q182 72 170 72 H140 Q128 72 126 62Z" fill="#8fa476"/><path d="M124 106 H186 Q190 114 178 116 L166 118 V148 H146 V118 L134 116 Q120 114 124 106Z" fill="#8fa476" opacity=".8"/><path d="M170 75 L142 103" stroke="#d8b25e" stroke-width="6" stroke-linecap="round" opacity=".4"/><path d="M141 75 L151 85" stroke="#d8b25e" stroke-width="8" stroke-linecap="round"/><path d="M160 94 L170 104" stroke="#d8b25e" stroke-width="8" stroke-linecap="round"/><path d="M198 82h12M196 97l11 5M112 82h-12M114 97l-11 5" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
+C_ACL = KC("on-capraz-bag.html", TH_ACL, "Hastalık rehberi", "Ön çapraz bağ yaralanması", "Her yırtık ameliyat gerektirir mi? Rehabilitasyonla başlayanların yarısının ameliyat olmadığı çalışmalar, spora dönüş ölçütleri ve evde altı egzersiz.")
 C_FIBRO = KC("fibromiyalji.html", TH_FIBRO, "Hastalık rehberi", "Fibromiyalji", "Yaygın ağrı ve yorgunluk neden olur? Güçlü öneri alan tek tedavi egzersiz: az ve yavaş başlayan altı hareket.")
 C_VERTIGO = KC("bas-donmesi.html", TH_VERTIGO, "Hastalık rehberi", "Baş dönmesi (BPPV)", "Yatarken ve dönerken başlayan kısa süreli baş dönmesi: Epley manevrası adım adım ve acil uyarı işaretleri.")
 C_AS = KC("ankilozan-spondilit.html", TH_AS, "Hastalık rehberi", "Ankilozan spondilit", "Dinlenmekle artan, hareketle azalan bel ağrısı: iltihaplı bel ağrısını tanıyın; evde altı duruş ve esneklik egzersizi.")
@@ -1680,7 +1684,7 @@ REGIONS = [("tum", "Tümü"), ("bel", "Bel ve sırt"), ("boyun", "Boyun, baş ve
 AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_LS, "bel"), (C_AS, "bel"), (C_SCOLIOSIS, "bel"),
        (C_NECK, "boyun"), (C_HERNIA, "boyun"), (C_HEADACHE, "boyun"), (C_TMJ, "boyun"), (C_VERTIGO, "boyun"),
        (C_SHOULDER, "omuz"), (C_IMPINGE, "omuz"), (C_RC, "omuz"), (C_CTS, "omuz"), (C_ELBOW, "omuz"),
-       (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_PFP, "diz"), (C_HIP, "diz"),
+       (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_ACL, "diz"), (C_PFP, "diz"), (C_HIP, "diz"),
        (C_HEEL, "ayak"), (C_ACHILLES, "ayak"), (C_ANKLE, "ayak"),
        (C_UI, "kadin"), (C_PREG, "kadin bel"), (C_OSTEO, "genel"), (C_FIBRO, "genel")]
 def region_filter():
@@ -1761,7 +1765,7 @@ PULSE_JS = """<script>
 </script>
 """
 PILL = {
-    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "boyun-agrisi.html": "Boyun ağrısı",
+    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "boyun-agrisi.html": "Boyun ağrısı",
     "boyun-fitigi.html": "Boyun fıtığı", "bas-agrisi.html": "Baş ağrısı", "cene-eklemi.html": "Çene eklemi",
     "diz-kireclenmesi.html": "Diz kireçlenmesi", "menisku-yirtigi.html": "Menisküs yırtığı", "diz-onu-agrisi.html": "Diz önü ağrısı",
     "kalca-kireclenmesi.html": "Kalça kireçlenmesi", "donuk-omuz.html": "Donuk omuz", "omuz-sikismasi.html": "Omuz sıkışması",

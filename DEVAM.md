@@ -117,3 +117,11 @@ Dikkat: aynı gün başka bir oturum da bu depoya gönderim yaptı; göndermeden
 
 Galeri: 6 Ekim 2026'da `p07` (omurga maketi) el görünümü yüzünden yeniden değiştirildi; yeni kare dikey (880×1100, küçük 416×520),
 kutuda yüz + maket + kalem tutan el görünsün diye `fb_misc.py`'de `object-position:50% 38%`.
+
+## Ön çapraz bağ (cond7_part.py)
+7 Ekim 2026: 27. hastalık rehberi `on-capraz-bag.html` / `en/acl-injury.html` (bölge: diz; menisküs sayfasının ilgili bağlantısı buna çevrildi).
+Kaynaklar (hepsinin özeti okundu): Frobell 2013 BMJ (121 kişi, 5 yıl, fark yok, %51 sonradan ameliyat), Reijman 2021 BMJ COMPARE (167; 84,7'ye 79,4,
+klinik açıdan önemsiz; %50), Beard 2022 Lancet ACL SNNAP (316; 73,0'a 64,6; %41), Grindem 2016 (106 sporcu; ayda %51; %38,2'ye %5,6),
+Ardern 2014 (69 çalışma, 7.556 kişi; %81/%65/%55), Webster & Hewett 2018 (8 meta-analiz; %50). Çalışmaların ülkeleri özetlerde geçmediği için yazılmadı.
+Video yok: YouTube araması robots.txt nedeniyle okunamadı, Bob & Brad video kimlikleri doğrulanamadı (MS sayfasıyla aynı durum).
+Egzersizlerin beşi menisküs sayfasındaki metinlerle aynı (`mn_*`), yalnızca `acl_hslide` yeni.
