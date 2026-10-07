@@ -34,7 +34,7 @@ CR_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>%28</b><span>Kalp rehabilitasyonuyla yeniden kalp krizi riskindeki azalma (85 çalışma, 23.430 kişi)</span></div>
-        <div class="stat"><b>%42</b><span>Aynı derlemede hastaneye yatış riskindeki azalma</span></div>
+        <div class="stat"><b>%42</b><span>Aynı derlemede 6–12 aylık izlemde hastaneye yatış riskindeki azalma</span></div>
         <div class="stat"><b>24 çalışma</b><span>Evde ve merkezde yapılan rehabilitasyonu karşılaştıran araştırmalar; sonuçlar benzer</span></div>
         <div class="stat"><b>19,8 milyon</b><span>2022'de kalp-damar hastalıklarından ölenler; dünyadaki ölümlerin yaklaşık %32'si (DSÖ)</span></div>
       </div>

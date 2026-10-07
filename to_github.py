@@ -6,10 +6,11 @@ i = src.index('<div lang="tr">')
 head, body = src[:i].strip(), src[i:].strip()
 head = re.sub(r'<link rel="preconnect"[^>]*>\n?', '', head)
 head = re.sub(r'<link rel="stylesheet" href="https://fonts.googleapis.com[^>]*>\n?', '', head)
-ff = ('@font-face{font-family:"Marcellus";src:url("Marcellus-Regular.ttf") format("truetype");font-display:swap}\n'
-      '  @font-face{font-family:"Figtree";src:url("Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}\n  ')
-head = head.replace("<style>\n  :root{", "<style>\n  " + ff + ":root{", 1); assert ff in head
-head = head.replace('href="img/logo.png"', 'href="logo.png"')
+# Site Core v2: yazı tipleri /assets/site-core.css içinde (sayfa içinde @font-face yok)
+assert "<style>\n  :root{" in head
+old_icon = '<link rel="icon" type="image/png" href="img/logo.png">'
+assert head.count(old_icon) == 1
+head = head.replace(old_icon, '<link rel="icon" type="image/png" href="logo.png">\n<link rel="stylesheet" href="/assets/site-core.css">')
 body = body.replace('src="img/', 'src="').replace('href="img/', 'href="').replace("'img/p'", "'p'").replace("'img/rapor-", "'rapor-")
 assert "img/" not in body
 nav_end = '    </nav>\n    <a class="cta"'
@@ -25,6 +26,10 @@ meta = '''<meta property="og:type" content="website">
 <meta property="og:locale" content="tr_TR">
 <meta name="theme-color" content="#1c2819">
 <meta property="og:url" content="https://drihsaneren.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="İhsan Eren · Evde fizyoterapi">
+<meta name="twitter:description" content="İstanbul'da evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı.">
+<meta name="twitter:image" content="https://drihsaneren.com/logo.png">
 <link rel="canonical" href="https://drihsaneren.com/">'''
 meta += '\n' + hreflang('index.html').rstrip()
 meta += '\n<script type="application/ld+json">\n' + open("schema_home.json", encoding="utf-8").read() + '\n</script>'
@@ -39,7 +44,8 @@ html = f'''<!doctype html>
 </head>
 <body>
 {body}
-{SEARCH_TAG}</body>
+{SEARCH_TAG}<script src="/assets/site-core.js" defer></script>
+</body>
 </html>
 '''
 open(sys.argv[1], "w", encoding="utf-8").write(html)

@@ -201,3 +201,12 @@ Aynı gün inme ve fibromiyalji sayfalarına "Akupunktur: araştırmalar ve klin
 fibromiyalji 9 çalışma/395 kişi, standart tedaviye eklenince ağrıda ~30 puan, etki 1 ay, 6. ayda yok). Titreme sayfasındaki mevcut bölüme gözlem kutusu kondu.
 Parkinson ve MS sayfalarına eklenmedi (kanıt okunmadı; kullanıcı isterse eklenir). Çeviri: `i18n/done/yuz-felci.json` (97 birim) + fb398–fb408.
 t_ls kullanımı: İngilizce sayfa adları `en/` ÖNEKSİZ verilir (`t_ls.py <dizin> yuz-felci.html bells-palsy.html 2 cene-eklemi.html jaw-joint-tmd.html`).
+
+## Site Core v2 ve sağlık asistanı (başka oturumdan; üretim hattına işlendi)
+7 Ekim 2026'da başka bir oturum `main`e DOĞRUDAN beş commit gönderdi (919acbf … 6263dec): `assets/site-core.css|js`, `assets/health-assistant.*`,
+`scripts/site_audit.py`, `.github/workflows/site-audit.yml`, `cloudflare-worker/`, `wrangler.jsonc`, `404.html`, `SITE_CORE_V2.md`; ayrıca bütün sayfalara
+site-core bağlantısı, Twitter/X kart üst verileri eklendi ve sayfa içi `@font-face` kaldırıldı. Bu dosyalar `kaynak`ta yok; üretim hattı onlara dokunmaz.
+Aynı çıktıyı üretmek için: `build_pages.py` (`CORE_CSS`, `CORE_JS`, twitter üst verileri, `FONTFACE` boş), `to_github.py`, `fb_recete.py` güncellendi;
+kalp rehabilitasyonu istatistik cümlesi de onların düzeltmesiyle eşlendi. Denetim: `main`i `origin/main`e eşitleyip hattı çalıştırınca ilgisiz sayfalarda fark çıkmamalı.
+Onların betiğindeki bir hata burada düzeltildi: açıklamada kesme işareti olan sayfalarda `twitter:description` yarıda kesiliyordu (ana sayfa, Bilim gündemi, Nobel).
+**Her gönderimden önce** `git fetch origin main` ve `git log origin/main` ile yeni doğrudan değişiklik var mı bak; varsa önce üretim hattına işle, sonra gönder.

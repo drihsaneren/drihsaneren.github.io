@@ -68,9 +68,12 @@ if MODE == "artifact":
              '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Figtree:wght@400;500;600&display=swap">')
     FONTFACE = ""
 else:
+    # Site Core v2 (7 Ekim 2026, başka oturumda eklendi): yazı tipleri ve ortak yardımcılar /assets/site-core.css|js içinde;
+    # her sayfa bu iki dosyayı kök-göreli yolla yükler. Sayfa içinde @font-face YOK.
     FONTS = ""
-    FONTFACE = ('@font-face{font-family:"Marcellus";src:url("Marcellus-Regular.ttf") format("truetype");font-display:swap}\n'
-                '  @font-face{font-family:"Figtree";src:url("Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}\n')
+    FONTFACE = ""
+CORE_CSS = '<link rel="stylesheet" href="/assets/site-core.css">\n' if MODE == "github" else ""
+CORE_JS = '<script src="/assets/site-core.js" defer></script>\n' if MODE == "github" else ""
 
 ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>'
 BACK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>'
@@ -351,6 +354,10 @@ def page(fname, title, desc, current, head_extra_css, body, script="", seo_title
                f'<meta property="og:image" content="{SITE}logo.png">\n'
                f'<meta property="og:locale" content="tr_TR">\n'
                f'<meta property="og:url" content="{SITE}{fname}">\n'
+               f'<meta name="twitter:card" content="summary_large_image">\n'
+               f'<meta name="twitter:title" content="{full_title}">\n'
+               f'<meta name="twitter:description" content="{desc}">\n'
+               f'<meta name="twitter:image" content="{SITE}logo.png">\n'
                + hreflang(fname))
     html = f'''<!doctype html>
 <html lang="tr">
@@ -361,10 +368,10 @@ def page(fname, title, desc, current, head_extra_css, body, script="", seo_title
 <title>{full_title}</title>
 <meta name="description" content="{desc}">
 <link rel="icon" type="image/png" href="{IMG}logo.png">
-{seo}{FONTS}
+{CORE_CSS}{seo}{FONTS}
 <meta name="theme-color" content="#1c2819">
 <style>
-  {FONTFACE}{CSS}{LANG_CSS}{SEARCH_CSS}{FAB_CSS}{faq_css}{head_extra_css}
+{("  " + FONTFACE + CSS) if FONTFACE else CSS.lstrip(chr(10))}{LANG_CSS}{SEARCH_CSS}{FAB_CSS}{faq_css}{head_extra_css}
 </style>
 {ldj}</head>
 <body>
@@ -378,7 +385,7 @@ def page(fname, title, desc, current, head_extra_css, body, script="", seo_title
   </div>
 </footer>
 {fab_html(WA)}{script}
-{SEARCH_TAG}</body>
+{SEARCH_TAG}{CORE_JS}</body>
 </html>
 '''
     open(os.path.join(OUT, fname), "w", encoding="utf-8").write(html)

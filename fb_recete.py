@@ -15,8 +15,6 @@ def rep(old, new, cnt=1):
 
 
 CSS = r'''
-@font-face{font-family:"Marcellus";src:url("Marcellus-Regular.ttf") format("truetype");font-display:swap}
-@font-face{font-family:"Figtree";src:url("Figtree.ttf") format("truetype");font-weight:300 900;font-display:swap}
 :root{color-scheme:dark;--ground:#1c2819;--ground-2:#223020;--ink:#ece5cf;--ink-soft:#c9c6ad;--muted:#9fab90;--sage:#8fa476;--gold:#e2ab47;--foil:#d8b25e;
   --line:rgba(236,229,207,.14);--line-strong:rgba(216,178,94,.55);--paper:#efe9d6;--display:"Marcellus",Georgia,serif}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -130,5 +128,15 @@ rep('Egzersizler klinik ekip gözetiminde öğrenildikten sonra evde sürdürül
 rep(' · Longevity Kliniği</div>', ' · İhsan Eren</div>')
 rep('<div class="foot">', '<a class="cta" href="index.html#tanisma">Ücretsiz ön görüşme planla</a>\n<div class="foot">')
 assert "Longevity Kliniği" not in s and "kliniği" not in s.lower().replace("klinik ekip", ""), "klinik kaldı"
+# Site Core v2 (7 Ekim 2026): ortak yazı tipleri/yardımcılar /assets/ altında; açıklama ve sosyal kart üst verileri
+DESC = "Kişiye özel hazırlanmış örnek egzersiz reçetesi: haftalık plan, egzersiz dozları, uygulama notları ve güvenlik uyarıları."
+rep('<link rel="icon" type="image/png" href="logo.png">', '<link rel="icon" type="image/png" href="logo.png">\n<link rel="stylesheet" href="/assets/site-core.css">')
+rep('<title>Egzersiz Reçetesi — A.Y.</title>', '<title>Egzersiz Reçetesi — A.Y.</title>\n\n'
+    f'<meta name="description" content="{DESC}">\n<meta property="og:type" content="article">\n<meta property="og:title" content="Egzersiz Reçetesi — A.Y.">\n'
+    f'<meta property="og:description" content="{DESC}">\n<meta property="og:image" content="https://drihsaneren.com/logo.png">\n'
+    '<meta property="og:url" content="https://drihsaneren.com/recete.html">\n<meta name="twitter:title" content="Egzersiz Reçetesi — A.Y.">\n'
+    f'<meta name="twitter:description" content="{DESC}">\n<meta name="twitter:image" content="https://drihsaneren.com/logo.png">')
+rep('</head>', '<meta name="twitter:card" content="summary_large_image">\n</head>')
+rep('</div></body></html>', '</div><script src="/assets/site-core.js" defer></script>\n</body></html>')
 open(R + "recete.html", "w", encoding="utf-8").write(s)
 print("ok", len(s))
