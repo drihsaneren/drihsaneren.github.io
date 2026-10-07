@@ -316,6 +316,9 @@
   @media (max-width:600px){.ex.four{grid-template-columns:1fr}}
   .callout{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin:18px 0 0;max-width:760px}
   .callout p{margin:0 0 8px;color:var(--ink-soft)}
+  .callout.obs{border-left-color:var(--sage);background:rgba(143,164,118,.09);border-radius:0 12px 12px 0;padding:12px 16px 6px}
+  .callout.obs .obs-k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil);margin:0 0 6px}
+  .callout.obs p:not(.obs-k){color:var(--ink)}
   .rl{list-style:none;margin:0;padding:0;max-width:760px}
   .rl li{display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1fr);gap:14px;padding:12px 0;border-top:1px solid var(--line)}
   .rl li:last-child{border-bottom:1px solid var(--line)}
@@ -504,7 +507,8 @@
     <div class="wrap">
       <h2>Complementary approaches: what does the evidence say?</h2>
       <p class="soft">A 2026 review of acupuncture in essential tremor combined 20 randomised controlled trials with 1,067 participants and reported improved tremor scores in the groups given acupuncture. However, all the trials were done in China, and the authors themselves note that the samples were small, there was no blinding and the allocation of participants to groups was not adequately concealed. The result should therefore be regarded as a promising preliminary finding; firmer trials are needed before anything definite can be said.</p>
-      <p class="soft">Relaxation and breathing practices do not treat the tremor itself; but because stress and anxiety make tremor worse, they can help to reduce the trigger.</p>
+      <div class="callout obs"><p class="obs-k">My personal clinical observation</p><p>In my own clinical observation, I have seen acupuncture be effective in tremor. I share this as my own observation, not as a research finding; not everyone may respond in the same way.</p></div>
+      <p class="soft" style="margin-top:16px">Relaxation and breathing practices do not treat the tremor itself; but because stress and anxiety make tremor worse, they can help to reduce the trigger.</p>
       <div class="callout">
         <p>In Turkey, traditional and complementary medicine practices such as acupuncture may be carried out only by doctors who hold a practice certificate in that field, in units authorised by the Ministry of Health. If you would like to try a complementary method, first make sure the underlying cause has been looked into, and think of the method as an addition to medical treatment, not a replacement for it.</p>
       </div>

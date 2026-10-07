@@ -386,6 +386,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/nobel-2026.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/yuz-felci.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/yuz-felci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/bells-palsy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/yuz-felci.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-07</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -769,5 +776,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/nobel-2026.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/nobel-prizes-2026.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/nobel-2026.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/bells-palsy.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/yuz-felci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/bells-palsy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/yuz-felci.html"/>
   </url>
 </urlset>
