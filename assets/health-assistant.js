@@ -45,20 +45,20 @@ var stop=new Set((lang==="en"?
 "ve veya ile bir bu şu o ne nasıl için gibi da de mı mi mu mü ben benim sen sizin siz bana bende olan olarak çok daha en".split(" ")));
 function rootToken(t){
   if(lang==="tr"){
-    if(/^bel/.test(t))return "bel";
+    if(/^bel(?!ki)(im|imde|imin|ime|imi|imden|in|inde|inin|ine|ini|den|de|e|i|ler|leri|lerde|lerden)?$/.test(t))return "bel";
     if(/^ağr/.test(t)||/^agr/.test(t))return "ağr";
     if(/^gebel/.test(t)||/^hamil/.test(t))return "gebelik";
     if(/^fıt/.test(t)||/^fit/.test(t))return "fıt";
-    if(/^boyn/.test(t)||/^boyun/.test(t))return "boyun";
-    if(/^omuz/.test(t)||/^omz/.test(t))return "omuz";
-    if(/^diz/.test(t))return "diz";
-    if(/^kalç/.test(t)||/^kalc/.test(t))return "kalça";
-    if(/^topuk/.test(t)||/^topuğ/.test(t)||/^topug/.test(t)||/^topu/.test(t))return "topuk";
-    if(/^ayak/.test(t))return "ayak";
-    if(/^baş/.test(t)||/^bas/.test(t))return "baş";
-    if(/^dirsek/.test(t)||/^dirseğ/.test(t)||/^dirseg/.test(t)||/^dirse/.test(t))return "dirsek";
-    if(/^bilek/.test(t))return "bilek";
-    if(/^çene/.test(t)||/^cene/.test(t))return "çene";
+    if(/^(boyun|boynum|boynumda|boynumun|boynumdan|boynuma|boynu|boynunda|boynunun|boynuna|boyundan)$/.test(t))return "boyun";
+    if(/^(omuz|omzum|omzumda|omzumun|omzuma|omzu|omzunda|omzunun|omzuna|omuzum|omuzumda)$/.test(t))return "omuz";
+    if(/^(diz|dizim|dizimde|dizimin|dizime|dizi|dizinde|dizinin|dizine|dizden|dizde)$/.test(t))return "diz";
+    if(/^(kalça|kalçam|kalçamda|kalçamın|kalçama|kalc[a-zçğıöşü]*|kalça[a-zçğıöşü]*)$/.test(t))return "kalça";
+    if(/^(topuk|topuğum|topugum|topuğumda|topuğumun|topuğuma|topukta|topuktan|topuğu|topug[a-zçğıöşü]*)$/.test(t))return "topuk";
+    if(/^(ayak|ayağım|ayagim|ayağımda|ayagimda|ayağı|ayagi)$/.test(t))return "ayak";
+    if(/^(baş|başım|başımda|başımın|başı|başında|bas|basim|basimda)$/.test(t))return "baş";
+    if(/^(dirsek|dirseğim|dirsegim|dirseğimde|dirseğimin|dirseği|dirsekte|dirsekten|dirseğe|dirsege)$/.test(t))return "dirsek";
+    if(/^(bilek|bileğim|bilegim|bileğimde|bilegimde|bileği|bilekte|bilekten)$/.test(t))return "bilek";
+    if(/^(çene|çenem|çenemde|çenemin|çeneyi|çenede|cene|cenem|cenemde)$/.test(t))return "çene";
   }
   return t;
 }
