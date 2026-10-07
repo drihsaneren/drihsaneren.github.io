@@ -21,3 +21,11 @@ jobs:
           python-version: "3.12"
       - name: SEO + content quality audit
         run: python scripts/site_audit.py
+      - name: JavaScript syntax check
+        run: |
+          node --check assets/site-core.js
+          node --check assets/health-assistant.js
+          node --check cloudflare-worker/src/index.js
+      - name: Assistant config check
+        run: |
+          python -m json.tool assets/assistant-config.json > /dev/null

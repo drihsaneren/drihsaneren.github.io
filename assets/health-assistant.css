@@ -1,0 +1,49 @@
+
+/* Free Health Assistant v1 — isolated styles, prefixed to avoid page collisions */
+.ieai-launcher{
+  position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));
+  z-index:9998;display:flex;align-items:center;gap:8px;border:1px solid rgba(216,178,94,.55);
+  border-radius:999px;padding:11px 15px;background:#d8b25e;color:#1c2819;
+  font:700 14px/1.2 "Figtree","Segoe UI",system-ui,sans-serif;box-shadow:0 12px 36px rgba(0,0,0,.32);
+  cursor:pointer
+}
+.ieai-launcher:hover{filter:brightness(1.04)}
+.ieai-launcher svg{width:18px;height:18px;flex:none}
+.ieai-panel{
+  position:fixed;right:max(16px,env(safe-area-inset-right));bottom:72px;z-index:9999;
+  width:min(390px,calc(100vw - 24px));height:min(620px,calc(100svh - 96px));
+  display:none;grid-template-rows:auto 1fr auto;background:#1c2819;color:#ece5cf;
+  border:1px solid rgba(216,178,94,.55);border-radius:20px;overflow:hidden;
+  box-shadow:0 24px 70px rgba(0,0,0,.48);font-family:"Figtree","Segoe UI",system-ui,sans-serif
+}
+.ieai-panel.is-open{display:grid}
+.ieai-head{display:flex;align-items:flex-start;gap:10px;padding:14px 14px 12px;background:#223020;border-bottom:1px solid rgba(236,229,207,.14)}
+.ieai-head-main{min-width:0;flex:1}
+.ieai-title{font:400 19px/1.2 "Marcellus",Georgia,serif;color:#ece5cf}
+.ieai-sub{margin-top:3px;color:#9fab90;font-size:11.5px;line-height:1.35}
+.ieai-close{border:0;background:transparent;color:#c9c6ad;font-size:24px;line-height:1;cursor:pointer;padding:1px 5px}
+.ieai-log{overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px;overscroll-behavior:contain}
+.ieai-msg{max-width:88%;padding:10px 12px;border-radius:14px;font-size:14px;line-height:1.48;white-space:pre-wrap}
+.ieai-msg.bot{align-self:flex-start;background:#263723;border:1px solid rgba(236,229,207,.12);color:#ece5cf}
+.ieai-msg.user{align-self:flex-end;background:#d8b25e;color:#1c2819}
+.ieai-msg.note{max-width:100%;align-self:stretch;background:transparent;border:1px dashed rgba(216,178,94,.32);color:#9fab90;font-size:12px}
+.ieai-sources{display:grid;gap:6px;margin-top:7px}
+.ieai-source{display:block;padding:7px 9px;border-radius:10px;border:1px solid rgba(216,178,94,.28);color:#d8b25e;text-decoration:none;font-size:12.5px;line-height:1.35}
+.ieai-source:hover{border-color:#d8b25e}
+.ieai-compose{padding:10px;border-top:1px solid rgba(236,229,207,.14);background:#223020}
+.ieai-row{display:flex;gap:7px}
+.ieai-input{flex:1;min-width:0;resize:none;height:44px;max-height:96px;padding:10px 11px;border-radius:12px;border:1px solid rgba(236,229,207,.18);background:#1c2819;color:#ece5cf;font:14px/1.35 "Figtree","Segoe UI",system-ui,sans-serif;outline:none}
+.ieai-input:focus{border-color:#d8b25e}
+.ieai-send{flex:none;border:0;border-radius:12px;background:#d8b25e;color:#1c2819;font-weight:800;padding:0 13px;cursor:pointer}
+.ieai-send:disabled{opacity:.55;cursor:not-allowed}
+.ieai-foot{margin-top:7px;color:#9fab90;font-size:10.5px;line-height:1.35}
+.ieai-status{display:inline-flex;align-items:center;gap:5px}
+.ieai-dot{width:6px;height:6px;border-radius:50%;background:#8fa476}
+@media(max-width:520px){
+  .ieai-launcher{right:12px;bottom:12px}
+  .ieai-panel{right:6px;bottom:64px;width:calc(100vw - 12px);height:min(72svh,640px);border-radius:17px}
+}
+@media(prefers-reduced-motion:no-preference){
+  .ieai-panel.is-open{animation:ieai-in .16s ease-out}
+  @keyframes ieai-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+}

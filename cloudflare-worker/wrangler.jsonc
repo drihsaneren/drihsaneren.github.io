@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "drihsaneren-health-assistant",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-07",
+  "ai": {
+    "binding": "AI"
+  }
+}

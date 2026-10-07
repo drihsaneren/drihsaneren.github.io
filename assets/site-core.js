@@ -23,4 +23,25 @@
   };
 
   window.SiteCore = window.SiteCore || core;
+
+  // Health Assistant loader: isolated from page-specific scripts.
+  // If either asset fails to load, the page itself continues normally.
+  core.ready(function () {
+    if (document.querySelector('script[data-ieai-loader]')) return;
+
+    var cssHref = "/assets/health-assistant.css";
+    if (!document.querySelector('link[href="' + cssHref + '"]')) {
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = cssHref;
+      link.setAttribute("data-ieai-loader", "css");
+      document.head.appendChild(link);
+    }
+
+    var script = document.createElement("script");
+    script.src = "/assets/health-assistant.js";
+    script.defer = true;
+    script.setAttribute("data-ieai-loader", "js");
+    document.head.appendChild(script);
+  });
 })();
