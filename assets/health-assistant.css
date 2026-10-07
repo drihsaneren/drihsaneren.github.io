@@ -39,20 +39,37 @@
 .ieai-foot{margin-top:7px;color:#9fab90;font-size:10.5px;line-height:1.35}
 .ieai-status{display:inline-flex;align-items:center;gap:5px}
 .ieai-dot{width:6px;height:6px;border-radius:50%;background:#8fa476}
-@media(max-width:520px){
+@media(max-width:760px){
   .ieai-launcher{
-    left:50%;right:auto;bottom:calc(70px + env(safe-area-inset-bottom));
+    left:50%;right:auto;
+    bottom:calc(14px + env(safe-area-inset-bottom));
     transform:translateX(-50%);
     max-width:calc(100vw - 24px);
-    justify-content:center
+    min-height:44px;
+    justify-content:center;
+    white-space:nowrap
+  }
+  .ieai-bottom-control-visible .ieai-launcher{
+    bottom:calc(70px + env(safe-area-inset-bottom))
   }
   .ieai-panel{
-    inset:auto 8px calc(128px + env(safe-area-inset-bottom)) 8px;
-    width:auto;height:min(62svh,560px);border-radius:16px
+    inset:auto 8px calc(70px + env(safe-area-inset-bottom)) 8px;
+    width:auto;
+    height:min(68svh,600px);
+    height:min(68dvh,600px);
+    max-height:calc(100dvh - 92px);
+    border-radius:16px
+  }
+  .ieai-bottom-control-visible .ieai-panel{
+    bottom:calc(126px + env(safe-area-inset-bottom));
+    height:min(60svh,540px);
+    height:min(60dvh,540px);
+    max-height:calc(100dvh - 148px)
   }
   .ieai-head{padding:12px 12px 10px}
-  .ieai-log{padding:12px}
-  .ieai-msg{max-width:94%;font-size:13.5px}
+  .ieai-log{padding:12px;overflow-x:hidden}
+  .ieai-msg{max-width:94%;font-size:13.5px;min-width:0;overflow-wrap:anywhere}
+  .ieai-source{min-width:0;overflow-wrap:anywhere}
   .ieai-compose{padding:9px}
   .ieai-input{font-size:16px}
 }
