@@ -384,6 +384,23 @@ function syncBottomControls(){
   var active=!!(fab&&fab.classList.contains("on"));
   document.documentElement.classList.toggle("ieai-bottom-control-visible",active);
 }
+function syncInlineVisibility(){
+  var card=document.querySelector(".ieai-inline");
+  if(!card)return;
+  var r=card.getBoundingClientRect();
+  var visible=r.top < window.innerHeight-24 && r.bottom > 24;
+  document.documentElement.classList.toggle("ieai-inline-visible",visible);
+  if(visible){
+    var panel=document.querySelector(".ieai-panel");
+    if(panel)panel.classList.remove("is-open");
+    document.documentElement.classList.remove("ieai-open");
+  }
+}
+function observeInlineVisibility(){
+  syncInlineVisibility();
+  window.addEventListener("scroll",syncInlineVisibility,{passive:true});
+  window.addEventListener("resize",syncInlineVisibility,{passive:true});
+}
 function observeBottomControls(){
   var fab=document.querySelector(".fab");
   if(!fab)return;
@@ -409,6 +426,7 @@ function build(){
   p.querySelector(".ieai-input").addEventListener("keydown",function(e){if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();submit()}});
   addInlineCard();
   observeBottomControls();
+  observeInlineVisibility();
 }
 function loadConfig(){
   return fetch(CONFIG_URL,{cache:"no-store"}).then(function(r){return r.ok?r.json():{}}).then(function(x){cfg=Object.assign(cfg,x||{})}).catch(function(){});
