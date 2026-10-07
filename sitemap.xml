@@ -358,6 +358,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalp-rehabilitasyonu.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/romatoid-artrit.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/romatoid-artrit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/rheumatoid-arthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/romatoid-artrit.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-07</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -713,5 +720,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kalp-rehabilitasyonu.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/cardiac-rehabilitation.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalp-rehabilitasyonu.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/rheumatoid-arthritis.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/romatoid-artrit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/rheumatoid-arthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/romatoid-artrit.html"/>
   </url>
 </urlset>
