@@ -2118,5 +2118,15 @@
   "id": "fb424",
   "kind": "text",
   "tr": "Hastane tedavisi, iyileşme süresi, rehabilitasyonun bileşenleri, egzersiz için kanıt ve iyileşme dönemi için altı egzersiz."
+ },
+ {
+  "id": "fb425",
+  "kind": "text",
+  "tr": "Beş soruluk tarama, tanı testleri, dirençli egzersiz için kanıt, protein önerileri ve evde altı güçlendirme egzersizi."
+ },
+ {
+  "id": "fb426",
+  "kind": "text",
+  "tr": "Egzersiz neye yarar, neye yaramaz? Uygun etkinlikler, bakım verenler için ipuçları, güvenlik ve birlikte yapılabilecek altı hareket."
  }
 ]

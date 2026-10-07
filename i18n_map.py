@@ -59,6 +59,8 @@ EN = {
     "tetik-parmak.html": "trigger-finger.html",
     "golfcu-dirsegi.html": "golfers-elbow.html",
     "guillain-barre.html": "guillain-barre-syndrome.html",
+    "sarkopeni.html": "sarcopenia.html",
+    "demans-egzersiz.html": "dementia-and-exercise.html",
     "omurilik-yaralanmasi.html": "spinal-cord-injury.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",

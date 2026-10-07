@@ -1,0 +1,552 @@
+[
+ {
+  "id": "dem0",
+  "kind": "text",
+  "tr": "Demansta Egzersiz: Kanıt, Güvenli Hareketler ve Bakım Verenler İçin İpuçları | İhsan Eren"
+ },
+ {
+  "id": "dem1",
+  "kind": "attr",
+  "tr": "Egzersiz demansta neye yarar, neye yaramaz? Cochrane kanıtı, uygun etkinlikler, bakım verenler için ipuçları, güvenlik ve birlikte yapılabilecek altı hareket."
+ },
+ {
+  "id": "dem2",
+  "kind": "text",
+  "tr": "Demansta egzersiz"
+ },
+ {
+  "id": "dem3",
+  "kind": "text",
+  "tr": "Demans; belleği, düşünmeyi ve günlük işleri yapabilmeyi zamanla etkileyen hastalıkların ortak adıdır. Egzersiz demansı iyileştirmez ve ilerlemesini durdurmaz. Ancak günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler. Bu rehber hem demansla yaşayan kişiler hem de bakım veren yakınları içindir."
+ },
+ {
+  "id": "dem4",
+  "kind": "text",
+  "tr": "57 milyon"
+ },
+ {
+  "id": "dem5",
+  "kind": "text",
+  "tr": "2021'de dünyada demansla yaşayan kişi sayısı (DSÖ)"
+ },
+ {
+  "id": "dem6",
+  "kind": "text",
+  "tr": "Demans olgularında Alzheimer hastalığının payı"
+ },
+ {
+  "id": "dem7",
+  "kind": "text",
+  "tr": "17 çalışma"
+ },
+ {
+  "id": "dem8",
+  "kind": "text",
+  "tr": "Demansta egzersizi inceleyen Cochrane derlemesi; 1.067 katılımcı"
+ },
+ {
+  "id": "dem9",
+  "kind": "text",
+  "tr": "150 dakika"
+ },
+ {
+  "id": "dem10",
+  "kind": "text",
+  "tr": "Yapabilenler için haftalık hareket hedefi"
+ },
+ {
+  "id": "dem11",
+  "kind": "text",
+  "tr": "Demans nedir?"
+ },
+ {
+  "id": "dem12",
+  "kind": "text",
+  "tr": "Demans tek bir hastalık değildir; beyni etkileyen çeşitli hastalıkların yol açtığı bir tablodur. En sık nedeni Alzheimer hastalığıdır. En güçlü risk etkeni yaştır, ancak demans yaşlanmanın olağan bir parçası değildir."
+ },
+ {
+  "id": "dem13",
+  "kind": "text",
+  "tr": "Bugün için demansı iyileştiren bir tedavi yoktur. Dünya Sağlık Örgütü'ne göre ilaç dışı yaklaşımlar yaşam kalitesini artırabilir: rehabilitasyon, fiziksel aktivite, sosyal katılım, zihinsel uyarım ve bakım verenlerin desteklenmesi."
+ },
+ {
+  "id": "dem14",
+  "kind": "text",
+  "tr": "Erken belirtiler"
+ },
+ {
+  "id": "dem15",
+  "kind": "text",
+  "tr": "Yakın zamanda olanları unutma, eşyaları kaybetme"
+ },
+ {
+  "id": "dem16",
+  "kind": "text",
+  "tr": "Bildik yerlerde bile yolunu şaşırma"
+ },
+ {
+  "id": "dem17",
+  "kind": "text",
+  "tr": "Zamanı karıştırma"
+ },
+ {
+  "id": "dem18",
+  "kind": "text",
+  "tr": "Karar vermede ve sorun çözmede zorlanma"
+ },
+ {
+  "id": "dem19",
+  "kind": "text",
+  "tr": "Konuşmaları izlemekte ya da sözcük bulmakta güçlük"
+ },
+ {
+  "id": "dem20",
+  "kind": "text",
+  "tr": "Alışılmış işleri yapmakta zorlanma"
+ },
+ {
+  "id": "dem21",
+  "kind": "text",
+  "tr": "Ruh hâlinde ve davranışta değişiklik; içe kapanma"
+ },
+ {
+  "id": "dem22",
+  "kind": "text",
+  "tr": "Egzersiz neye yarar, neye yaramaz?"
+ },
+ {
+  "id": "dem23",
+  "kind": "text",
+  "tr": "Cochrane derlemesi 17 çalışmayı ve 1.067 katılımcıyı inceliyor. Sonuçlar ölçülü:"
+ },
+ {
+  "id": "dem24",
+  "kind": "text",
+  "tr": "Günlük işler"
+ },
+ {
+  "id": "dem25",
+  "kind": "text",
+  "tr": "Egzersiz yapanlarda giyinme, yıkanma, yemek yeme gibi günlük işleri yapabilme becerisi daha iyi olabilir. Kanıtın kalitesi çok düşük; kesin konuşulamıyor."
+ },
+ {
+  "id": "dem26",
+  "kind": "text",
+  "tr": "Bellek ve düşünme"
+ },
+ {
+  "id": "dem27",
+  "kind": "text",
+  "tr": "Belirgin bir yarar gösterilemedi."
+ },
+ {
+  "id": "dem28",
+  "kind": "text",
+  "tr": "Davranış ve depresyon"
+ },
+ {
+  "id": "dem29",
+  "kind": "text",
+  "tr": "Davranış belirtileri ve depresyon üzerinde belirgin bir yarar gösterilemedi."
+ },
+ {
+  "id": "dem30",
+  "kind": "text",
+  "tr": "Bakım veren"
+ },
+ {
+  "id": "dem31",
+  "kind": "text",
+  "tr": "Tek bir çalışmada, evde egzersize bakım verenin eşlik etmesi bakım yükünü azalttı."
+ },
+ {
+  "id": "dem32",
+  "kind": "text",
+  "tr": "Güvenlik"
+ },
+ {
+  "id": "dem33",
+  "kind": "text",
+  "tr": "Çalışmalarda egzersizin zarar verdiğine dair bir bulgu yok."
+ },
+ {
+  "id": "dem34",
+  "kind": "text",
+  "tr": "Alzheimer's Society de aynı noktayı vurguluyor: Egzersizin, demans başladıktan sonra ilerlemeyi yavaşlattığı gösterilmemiştir. Yararı başka yerdedir: kalp ve damar sağlığı, günlük işler için güç, denge, daha iyi uyku, başkalarıyla vakit geçirme ve daha iyi bir ruh hâli."
+ },
+ {
+  "id": "dem35",
+  "kind": "text",
+  "tr": "Hangi hareketler uygun?"
+ },
+ {
+  "id": "dem36",
+  "kind": "text",
+  "tr": "Uygun hareket, hastalığın evresine ve kişinin fiziksel durumuna göre değişir. Kişinin zaten sevdiği etkinlikleri, gerekirse uyarlayarak, olabildiğince sürdürmek en iyi başlangıçtır."
+ },
+ {
+  "id": "dem37",
+  "kind": "text",
+  "tr": "Ev işi, alışveriş, yavaşça ayağa kalkıp oturmak da harekettir."
+ },
+ {
+  "id": "dem38",
+  "kind": "text",
+  "tr": "En kolay ulaşılan etkinliktir; birlikte yürümek sohbet için de fırsattır."
+ },
+ {
+  "id": "dem39",
+  "kind": "text",
+  "tr": "Bahçe işleri"
+ },
+ {
+  "id": "dem40",
+  "kind": "text",
+  "tr": "Orta şiddette bir etkinliktir; açık havada olmayı sağlar."
+ },
+ {
+  "id": "dem41",
+  "kind": "text",
+  "tr": "Dans ve müzik"
+ },
+ {
+  "id": "dem42",
+  "kind": "text",
+  "tr": "Sevilen müzik eşliğinde hareket; oturarak da yapılabilir."
+ },
+ {
+  "id": "dem43",
+  "kind": "text",
+  "tr": "Oturarak egzersiz"
+ },
+ {
+  "id": "dem44",
+  "kind": "text",
+  "tr": "Ayakta durmakta zorlananlar için uygundur. Lastik bant ya da hafif ağırlıkla zorlaştırılabilir."
+ },
+ {
+  "id": "dem45",
+  "kind": "text",
+  "tr": "Tai chi, yoga, yüzme"
+ },
+ {
+  "id": "dem46",
+  "kind": "text",
+  "tr": "Denge ve esneklik için seçeneklerdir; demans dostu gruplar tercih edilebilir."
+ },
+ {
+  "id": "dem47",
+  "kind": "text",
+  "tr": "<b>Şiddeti konuşma testiyle ayarlayın:</b> Orta şiddette harekette nefesiniz hızlanır ve ısınırsınız; konuşabilir ama şarkı söyleyemezsiniz. Başlamadan önce ısının. Ağrı, baş dönmesi, nefes darlığı ya da kendini kötü hissetme olursa durun ve hekiminize danışın."
+ },
+ {
+  "id": "dem48",
+  "kind": "text",
+  "tr": "Bakım verenler için ipuçları"
+ },
+ {
+  "id": "dem49",
+  "kind": "text",
+  "tr": "Birlikte yapın"
+ },
+ {
+  "id": "dem50",
+  "kind": "text",
+  "tr": "Yanında biri olduğunda hareket hem daha güvenli hem daha keyiflidir."
+ },
+ {
+  "id": "dem51",
+  "kind": "text",
+  "tr": "Rutine bağlayın"
+ },
+ {
+  "id": "dem52",
+  "kind": "text",
+  "tr": "Her gün aynı saatte kısa bir yürüyüş, televizyondaki reklam arasında ayağa kalkmak gibi."
+ },
+ {
+  "id": "dem53",
+  "kind": "text",
+  "tr": "Adımları gösterin"
+ },
+ {
+  "id": "dem54",
+  "kind": "text",
+  "tr": "Hareketleri yazıp görünür bir yere asın; yapılan günleri takvimde işaretleyin."
+ },
+ {
+  "id": "dem55",
+  "kind": "text",
+  "tr": "Hedef koymayın"
+ },
+ {
+  "id": "dem56",
+  "kind": "text",
+  "tr": "Sayı ve süre yerine düzenli ve keyifli olmasına bakın."
+ },
+ {
+  "id": "dem57",
+  "kind": "text",
+  "tr": "Tek başına yürüyorsa bildiği yollar, yanında telefon ve üzerinde yakınlarının numarası bulunsun."
+ },
+ {
+  "id": "dem58",
+  "kind": "text",
+  "tr": "Kendinize de bakın"
+ },
+ {
+  "id": "dem59",
+  "kind": "text",
+  "tr": "Yardım isteyin, düzenli mola verin, kendi sağlığınızı ihmal etmeyin. Dünya Sağlık Örgütü'ne göre bakım verenler günde ortalama beş saatlerini bakıma ayırıyor."
+ },
+ {
+  "id": "dem60",
+  "kind": "text",
+  "tr": "Başlamadan önce hekiminize ya da fizyoterapistinize danışın; özellikle kalp hastalığı, yüksek tansiyon, baş dönmesi ya da bayılma, kemik ve eklem sorunları, nefes darlığı, denge sorunu ya da sık düşme varsa. Oturarak yapılan egzersizler bele yük bindirebilir; bunlar için de önce hekime danışılması önerilir."
+ },
+ {
+  "id": "dem61",
+  "kind": "text",
+  "tr": "Birlikte yapılabilecek altı hareket"
+ },
+ {
+  "id": "dem62",
+  "kind": "text",
+  "tr": "İlk dördü oturarak yapılır ve Alzheimer's Society'nin önerdiği oturarak egzersizlerden seçilmiştir. Sağlam, tekerleksiz bir sandalye kullanın. Hareketi önce siz gösterin, sonra birlikte yapın; acele etmeyin."
+ },
+ {
+  "id": "dem63",
+  "kind": "text",
+  "tr": "Oturarak yerinde yürüyüş"
+ },
+ {
+  "id": "dem64",
+  "kind": "text",
+  "tr": "Sağlam bir sandalyede dik oturun. Dizlerinizi sırayla, yürür gibi kaldırıp indirin; isterseniz kollarınızı da sallayın. Sevilen bir müzik eşliğinde yapmak hareketi kolaylaştırır."
+ },
+ {
+  "id": "dem65",
+  "kind": "text",
+  "tr": "1–2 dakika; arada dinlenin"
+ },
+ {
+  "id": "dem66",
+  "kind": "text",
+  "tr": "Topuk ve parmak ucu"
+ },
+ {
+  "id": "dem67",
+  "kind": "text",
+  "tr": "Topuk ve parmak ucu kaldırma"
+ },
+ {
+  "id": "dem68",
+  "kind": "text",
+  "tr": "Otururken ayaklarınız yerde düz dursun. Önce ayak uçlarınızı kaldırın, topuklarınız yerde kalsın; sonra ayak uçlarınızı indirip topuklarınızı kaldırın."
+ },
+ {
+  "id": "dem69",
+  "kind": "text",
+  "tr": "Kolları yukarı kaldırma"
+ },
+ {
+  "id": "dem70",
+  "kind": "text",
+  "tr": "Dik oturun. Kollarınızı yavaşça tavana doğru kaldırın, sonra indirin. Omzunuz ağrıyorsa yalnızca rahat ettiğiniz yere kadar kaldırın."
+ },
+ {
+  "id": "dem71",
+  "kind": "text",
+  "tr": "Bacağı sırayla düzleştirme"
+ },
+ {
+  "id": "dem72",
+  "kind": "text",
+  "tr": "Sandalyede dik oturun. Bir dizinizi yavaşça düzleştirin, kısa bir an tutun ve indirin. Sonra diğer bacakla yapın."
+ },
+ {
+  "id": "dem73",
+  "kind": "text",
+  "tr": "Her bacakla 8–10 tekrar"
+ },
+ {
+  "id": "dem74",
+  "kind": "text",
+  "tr": "Sandalyenin ön kısmına oturun, hafifçe öne eğilin ve yavaşça ayağa kalkın; sonra yavaşça oturun. Gerekirse ellerinizden destek alın. Yanında biri bulunsun."
+ },
+ {
+  "id": "dem75",
+  "kind": "text",
+  "tr": "5 tekrar"
+ },
+ {
+  "id": "dem76",
+  "kind": "text",
+  "tr": "Birlikte yürüyüş"
+ },
+ {
+  "id": "dem77",
+  "kind": "text",
+  "tr": "Bildiğiniz bir yolda, rahat bir tempoda yürüyün. Yürürken konuşabiliyor olmalısınız. Birlikte yürümek hem güvenlidir hem de sohbet için fırsattır."
+ },
+ {
+  "id": "dem78",
+  "kind": "text",
+  "tr": "Her gün, kısa da olsa"
+ },
+ {
+  "id": "dem79",
+  "kind": "text",
+  "tr": "Demans dostu egzersiz videoları"
+ },
+ {
+  "id": "dem80",
+  "kind": "text",
+  "tr": "İskoçya'daki NHS Greater Glasgow and Clyde sağlık kurumunun YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "dem81",
+  "kind": "attr",
+  "tr": "Güç ve denge egzersizleri videosunu oynat"
+ },
+ {
+  "id": "dem82",
+  "kind": "text",
+  "tr": "Güç ve denge için"
+ },
+ {
+  "id": "dem83",
+  "kind": "text",
+  "tr": "Demans dostu olarak hazırlanmış güç ve denge egzersizleri."
+ },
+ {
+  "id": "dem84",
+  "kind": "attr",
+  "tr": "Güç ve esneklik egzersizleri videosunu oynat"
+ },
+ {
+  "id": "dem85",
+  "kind": "text",
+  "tr": "Güç ve esneklik için"
+ },
+ {
+  "id": "dem86",
+  "kind": "text",
+  "tr": "Demans dostu olarak hazırlanmış güç ve esneklik egzersizleri."
+ },
+ {
+  "id": "dem87",
+  "kind": "text",
+  "tr": "Videolar NHS Greater Glasgow and Clyde kanalına aittir."
+ },
+ {
+  "id": "dem88",
+  "kind": "text",
+  "tr": "Egzersiz demansı durdurur ya da yavaşlatır mı?"
+ },
+ {
+  "id": "dem89",
+  "kind": "text",
+  "tr": "Eldeki kanıtlara göre hayır: Egzersizin demansın ilerlemesini yavaşlattığı ya da durdurduğu gösterilmemiştir. Cochrane derlemesinde bellek ve düşünme üzerinde belirgin bir yarar bulunmadı. Buna karşın egzersiz günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler."
+ },
+ {
+  "id": "dem90",
+  "kind": "text",
+  "tr": "Ne kadar egzersiz yapılmalı?"
+ },
+ {
+  "id": "dem91",
+  "kind": "text",
+  "tr": "Hedef, yapabilenler için haftada toplam 150 dakika orta şiddette hareket ve haftada en az iki gün güç, denge ve esneklik çalışmasıdır. Bu bir zorunluluk değil, ulaşılabilirse iyi bir hedeftir. Az da olsa her hareket yararlıdır; kısa ve sık seanslar uzun tek bir seanstan daha kolay uygulanır."
+ },
+ {
+  "id": "dem92",
+  "kind": "text",
+  "tr": "Yakınım egzersiz yapmak istemiyor; ne yapabilirim?"
+ },
+ {
+  "id": "dem93",
+  "kind": "text",
+  "tr": "“Egzersiz” demek yerine sevdiği bir işi birlikte yapın: yürüyüş, bahçe işi, müzik eşliğinde dans. Geçmişte keyif aldığı uğraşlara dönün. Hedef ve sayı koymayın; düzenli ve keyifli olması yeterlidir. Televizyondaki reklam arasında ayağa kalkmak gibi küçük hareketler de sayılır."
+ },
+ {
+  "id": "dem94",
+  "kind": "text",
+  "tr": "Tek başına yürüyüşe çıkabilir mi?"
+ },
+ {
+  "id": "dem95",
+  "kind": "text",
+  "tr": "Hastalığın evresine bağlıdır. Tek başına çıkıyorsa bildiği yollarda yürümesi, yanında telefon ya da konum bildiren bir cihaz taşıması ve birine nereye gittiğini söylemesi önerilir. Üzerinde, yakınlarının telefon numarasının yazılı olduğu bir kimlik kartı bulunsun. Yolunu şaşırmaya başladıysa birlikte yürümek daha güvenlidir."
+ },
+ {
+  "id": "dem96",
+  "kind": "text",
+  "tr": "Ne zaman hekime başvurmalı?"
+ },
+ {
+  "id": "dem97",
+  "kind": "text",
+  "tr": "Saatler ya da günler içinde aniden artan şaşkınlık, uykuya eğilim ya da huzursuzluk"
+ },
+ {
+  "id": "dem98",
+  "kind": "text",
+  "tr": "Yüzde, kolda ya da bacakta aniden başlayan güçsüzlük; konuşma bozukluğu (112)"
+ },
+ {
+  "id": "dem99",
+  "kind": "text",
+  "tr": "Düşme sonrası baş çarpması, şiddetli ağrı ya da üzerine basamama"
+ },
+ {
+  "id": "dem100",
+  "kind": "text",
+  "tr": "Egzersiz sırasında göğüs ağrısı, baş dönmesi ya da nefes darlığı"
+ },
+ {
+  "id": "dem101",
+  "kind": "text",
+  "tr": "Yürümede ve dengede kısa sürede belirgin bozulma, sık düşme"
+ },
+ {
+  "id": "dem102",
+  "kind": "text",
+  "tr": "Demansla yaşayan yakınınızın hareket, denge ve yürüme güçlükleri için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "dem103",
+  "kind": "wa",
+  "tr": "Merhaba, demansla yaşayan yakınım için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "dem104",
+  "kind": "text",
+  "tr": "Forbes D, Forbes SC, Blake CM, Thiessen EJ, Forbes S. <a href=\"https://www.cochrane.org/evidence/CD006489_exercise-programs-people-dementia\" target=\"_blank\" rel=\"noopener\">Exercise programs for people with dementia</a>. Cochrane Database Syst Rev. 2015;(4):CD006489."
+ },
+ {
+  "id": "dem105",
+  "kind": "text",
+  "tr": "World Health Organization. <a href=\"https://www.who.int/news-room/fact-sheets/detail/dementia\" target=\"_blank\" rel=\"noopener\">Dementia</a>. Fact sheet. 3 July 2026."
+ },
+ {
+  "id": "dem106",
+  "kind": "text",
+  "tr": "Alzheimer's Society. <a href=\"https://www.alzheimers.org.uk/get-support/daily-living/exercise\" target=\"_blank\" rel=\"noopener\">Physical activity, movement and exercise for people with dementia</a>."
+ },
+ {
+  "id": "dem107",
+  "kind": "text",
+  "tr": "Alzheimer's Society. <a href=\"https://www.alzheimers.org.uk/get-support/living-with-dementia/exercise-types-ideas\" target=\"_blank\" rel=\"noopener\">Exercise types and ideas for people with dementia</a>."
+ },
+ {
+  "id": "dem108",
+  "kind": "text",
+  "tr": "Alzheimer's Society. <a href=\"https://www.alzheimers.org.uk/get-support/daily-living/starting-exercise\" target=\"_blank\" rel=\"noopener\">Getting started with exercise as a person with dementia</a>."
+ },
+ {
+  "id": "dem109",
+  "kind": "ld",
+  "tr": "Demans"
+ }
+]

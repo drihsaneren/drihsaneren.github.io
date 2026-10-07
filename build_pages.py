@@ -184,7 +184,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "golfcu-dirsegi.html", "guillain-barre.html", "halluks-valgus.html", "tetik-parmak.html", "duztabanlik.html", "omurilik-yaralanmasi.html", "de-quervain.html", "diyabetik-noropati.html", "kalca-yan-agrisi.html", "lenfodem.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "sarkopeni.html", "demans-egzersiz.html", "golfcu-dirsegi.html", "guillain-barre.html", "halluks-valgus.html", "tetik-parmak.html", "duztabanlik.html", "omurilik-yaralanmasi.html", "de-quervain.html", "diyabetik-noropati.html", "kalca-yan-agrisi.html", "lenfodem.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 NEWS_PAGES = {"nobel-2026.html"}   # Bilim gündemi'nin özel sayfaları
 SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
@@ -260,6 +260,8 @@ TOPICS = {
     "tetik-parmak.html": ("Hastalık rehberi", "Tetik parmak"),
     "golfcu-dirsegi.html": ("Hastalık rehberi", "Golfçü dirseği"),
     "guillain-barre.html": ("Rehabilitasyon rehberi", "Guillain-Barré sendromu"),
+    "sarkopeni.html": ("Hastalık rehberi", "Sarkopeni"),
+    "demans-egzersiz.html": ("Rehabilitasyon rehberi", "Demansta egzersiz"),
     "stres.html": ("Kendine iyi bak", "Stresli anlarda ne yapabilirsiniz?"),
     "masa-basi.html": ("Kendine iyi bak", "Masa başında çalışanlar için"),
     "sabah-rutini.html": ("Kendine iyi bak", "Güne 5 dakikayla başlayın"),
@@ -286,7 +288,7 @@ RELATED = {
     "hareket.html": ["sabah-rutini.html", "dusme-onleme.html"],
     "uyku.html": ["stres.html", "sabah-rutini.html"],
     "inme-rehabilitasyonu.html": ["dusme-onleme.html", "parkinson.html", "omurilik-yaralanmasi.html"],
-    "parkinson.html": ["dusme-onleme.html", "multipl-skleroz.html"],
+    "parkinson.html": ["dusme-onleme.html", "multipl-skleroz.html", "demans-egzersiz.html"],
     "multipl-skleroz.html": ["dusme-onleme.html", "parkinson.html"],
     "kalca-kirigi.html": ["kemik-erimesi.html", "dusme-onleme.html"],
     "kanser-egzersiz.html": ["lenfodem.html", "hareket.html"],
@@ -297,7 +299,7 @@ RELATED = {
     "masa-basi.html": ["boyun-agrisi.html", "bel-agrisi.html"],
     "kalca-kireclenmesi.html": ["kalca-yan-agrisi.html", "protez-sonrasi.html"],
     "tenisci-dirsegi.html": ["golfcu-dirsegi.html", "karpal-tunel-sendromu.html"],
-    "kemik-erimesi.html": ["dusme-onleme.html", "kalca-kirigi.html"],
+    "kemik-erimesi.html": ["dusme-onleme.html", "kalca-kirigi.html", "sarkopeni.html"],
     "ayak-bilegi-burkulmasi.html": ["topuk-dikeni.html", "dusme-onleme.html"],
     "topuk-dikeni.html": ["duztabanlik.html", "asil-tendinopatisi.html"],
     "omuz-sikismasi.html": ["rotator-manset-yirtigi.html", "donuk-omuz.html"],
@@ -320,6 +322,8 @@ RELATED = {
     "tetik-parmak.html": ["de-quervain.html", "karpal-tunel-sendromu.html"],
     "golfcu-dirsegi.html": ["tenisci-dirsegi.html", "de-quervain.html"],
     "guillain-barre.html": ["omurilik-yaralanmasi.html", "dusme-onleme.html"],
+    "sarkopeni.html": ["dusme-onleme.html", "kemik-erimesi.html"],
+    "demans-egzersiz.html": ["dusme-onleme.html", "parkinson.html"],
     "fibromiyalji.html": ["uyku.html", "stres.html"],
     "bas-donmesi.html": ["dusme-onleme.html", "boyun-agrisi.html"],
     "ankilozan-spondilit.html": ["bel-agrisi.html", "boyun-agrisi.html"],
@@ -1030,7 +1034,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "cond13_part.py", "cond14_part.py", "cond15_part.py", "cond16_part.py", "cond17_part.py", "cond18_part.py", "self2_part.py", "self3_part.py", "nobel_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "cond13_part.py", "cond14_part.py", "cond15_part.py", "cond16_part.py", "cond17_part.py", "cond18_part.py", "cond19_part.py", "self2_part.py", "self3_part.py", "nobel_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1717,6 +1721,10 @@ TH_GOLF = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M70 40L156 7
 C_GOLF = KC("golfcu-dirsegi.html", TH_GOLF, "Hastalık rehberi", "Golfçü dirseği", "Dirseğin iç yanındaki ağrı: tenisçi dirseğinden farkı, yükü azaltma, dirsek bandı, iğne ve evde altı egzersiz.")
 TH_GBS = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M40 75H112" stroke="#8fa476" stroke-width="7" stroke-linecap="round"/><g fill="rgba(143,164,118,.3)" stroke="#8fa476" stroke-width="4"><rect x="112" y="60" width="34" height="30" rx="13"/><rect x="198" y="60" width="34" height="30" rx="13"/></g><rect x="155" y="60" width="34" height="30" rx="13" fill="none" stroke="#e2ab47" stroke-width="4" stroke-dasharray="5 6"/><path d="M232 75H280" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 12"/><path d="M60 44l16 12-8 4 14 10" fill="none" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M162 112q10 12 20 0" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 C_GBS = KC("guillain-barre.html", TH_GBS, "Rehabilitasyon rehberi", "Guillain-Barré sendromu", "Hastane tedavisi, iyileşme süresi, rehabilitasyonun bileşenleri, egzersiz için kanıt ve iyileşme dönemi için altı egzersiz.")
+TH_SARC = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M110 82H210" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/><rect x="84" y="52" width="26" height="60" rx="8" fill="#8fa476"/><rect x="210" y="52" width="26" height="60" rx="8" fill="#8fa476"/><rect x="66" y="62" width="16" height="40" rx="6" fill="rgba(143,164,118,.5)"/><rect x="238" y="62" width="16" height="40" rx="6" fill="rgba(143,164,118,.5)"/><path d="M160 60V26M146 40l14-14 14 14" fill="none" stroke="#e2ab47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M126 132h68" stroke="#e2ab47" stroke-width="3" stroke-dasharray="4 7" stroke-linecap="round"/></svg>"""
+C_SARC = KC("sarkopeni.html", TH_SARC, "Hastalık rehberi", "Sarkopeni: yaşa bağlı kas kaybı", "Beş soruluk tarama, tanı testleri, dirençli egzersiz için kanıt, protein önerileri ve evde altı güçlendirme egzersizi.")
+TH_DEM = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="132" cy="36" r="13" fill="#8fa476"/><path d="M132 52v46M132 98l-12 32M132 98l12 32M132 66l28 12" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="190" cy="42" r="12" fill="rgba(143,164,118,.55)"/><path d="M190 57v42M190 99l-11 31M190 99l11 31M190 70l-30 8" fill="none" stroke="rgba(143,164,118,.55)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="160" cy="78" r="6" fill="#e2ab47"/><path d="M62 138h196" stroke="#e2ab47" stroke-width="3" stroke-dasharray="4 8" stroke-linecap="round"/></svg>"""
+C_DEM = KC("demans-egzersiz.html", TH_DEM, "Rehabilitasyon rehberi", "Demansta egzersiz", "Egzersiz neye yarar, neye yaramaz? Uygun etkinlikler, bakım verenler için ipuçları, güvenlik ve birlikte yapılabilecek altı hareket.")
 C_FIBRO = KC("fibromiyalji.html", TH_FIBRO, "Hastalık rehberi", "Fibromiyalji", "Yaygın ağrı ve yorgunluk neden olur? Güçlü öneri alan tek tedavi egzersiz: az ve yavaş başlayan altı hareket.")
 C_VERTIGO = KC("bas-donmesi.html", TH_VERTIGO, "Hastalık rehberi", "Baş dönmesi (BPPV)", "Yatarken ve dönerken başlayan kısa süreli baş dönmesi: Epley manevrası adım adım ve acil uyarı işaretleri.")
 C_AS = KC("ankilozan-spondilit.html", TH_AS, "Hastalık rehberi", "Ankilozan spondilit", "Dinlenmekle artan, hareketle azalan bel ağrısı: iltihaplı bel ağrısını tanıyın; evde altı duruş ve esneklik egzersizi.")
@@ -1767,14 +1775,14 @@ AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_LS, "bel"), (C_AS, "bel"), (C_SC
        (C_SHOULDER, "omuz"), (C_IMPINGE, "omuz"), (C_RC, "omuz"), (C_CTS, "omuz"), (C_ELBOW, "omuz"), (C_DQ, "omuz"), (C_TF, "omuz"), (C_GOLF, "omuz"),
        (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_ACL, "diz"), (C_PFP, "diz"), (C_HIP, "diz"), (C_GTPS, "diz"),
        (C_HEEL, "ayak"), (C_ACHILLES, "ayak"), (C_ANKLE, "ayak"), (C_DN, "ayak"), (C_FLAT, "ayak"), (C_HV, "ayak"),
-       (C_UI, "kadin"), (C_PREG, "kadin bel"), (C_OSTEO, "genel"), (C_FIBRO, "genel"), (C_RA, "genel"), (C_COLD, "genel"), (C_TREMOR, "genel"), (C_FACE, "genel")]
+       (C_UI, "kadin"), (C_PREG, "kadin bel"), (C_OSTEO, "genel"), (C_SARC, "genel"), (C_FIBRO, "genel"), (C_RA, "genel"), (C_COLD, "genel"), (C_TREMOR, "genel"), (C_FACE, "genel")]
 def region_filter():
     cnt = {r: sum(1 for _, rr in AGR if r in rr.split()) for r, _ in REGIONS}
     cnt["tum"] = len(AGR)
     return ('<div class="filt" role="group" aria-label="Bölgeye göre süz">' +
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
-REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_SCI, C_GBS, C_HIPFX, C_PARK, C_MS, C_ONCO, C_LYMPH, C_COPD, C_CARDIAC]
+REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_SCI, C_GBS, C_HIPFX, C_PARK, C_DEM, C_MS, C_ONCO, C_LYMPH, C_COPD, C_CARDIAC]
 SELF = [C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
@@ -1846,7 +1854,7 @@ PULSE_JS = """<script>
 </script>
 """
 PILL = {
-    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "romatoid-artrit.html": "Romatoid artrit", "yuz-felci.html": "Yüz felci", "kalca-yan-agrisi.html": "Kalça yan ağrısı", "lenfodem.html": "Lenfödem", "de-quervain.html": "De Quervain", "duztabanlik.html": "Düztabanlık", "halluks-valgus.html": "Halluks valgus", "golfcu-dirsegi.html": "Golfçü dirseği", "guillain-barre.html": "Guillain-Barré", "tetik-parmak.html": "Tetik parmak", "omurilik-yaralanmasi.html": "Omurilik yaralanması", "diyabetik-noropati.html": "Diyabetik nöropati", "surekli-usume.html": "Sürekli üşüme", "titreme.html": "Titreme", "boyun-agrisi.html": "Boyun ağrısı",
+    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "romatoid-artrit.html": "Romatoid artrit", "yuz-felci.html": "Yüz felci", "kalca-yan-agrisi.html": "Kalça yan ağrısı", "lenfodem.html": "Lenfödem", "de-quervain.html": "De Quervain", "duztabanlik.html": "Düztabanlık", "halluks-valgus.html": "Halluks valgus", "golfcu-dirsegi.html": "Golfçü dirseği", "guillain-barre.html": "Guillain-Barré", "sarkopeni.html": "Sarkopeni", "demans-egzersiz.html": "Demansta egzersiz", "tetik-parmak.html": "Tetik parmak", "omurilik-yaralanmasi.html": "Omurilik yaralanması", "diyabetik-noropati.html": "Diyabetik nöropati", "surekli-usume.html": "Sürekli üşüme", "titreme.html": "Titreme", "boyun-agrisi.html": "Boyun ağrısı",
     "boyun-fitigi.html": "Boyun fıtığı", "bas-agrisi.html": "Baş ağrısı", "cene-eklemi.html": "Çene eklemi",
     "diz-kireclenmesi.html": "Diz kireçlenmesi", "menisku-yirtigi.html": "Menisküs yırtığı", "diz-onu-agrisi.html": "Diz önü ağrısı",
     "kalca-kireclenmesi.html": "Kalça kireçlenmesi", "donuk-omuz.html": "Donuk omuz", "omuz-sikismasi.html": "Omuz sıkışması",

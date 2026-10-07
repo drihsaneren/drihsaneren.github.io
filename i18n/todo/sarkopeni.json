@@ -1,0 +1,547 @@
+[
+ {
+  "id": "sar0",
+  "kind": "text",
+  "tr": "Sarkopeni (Yaşa Bağlı Kas Kaybı): Belirtiler, Egzersiz ve Protein | İhsan Eren"
+ },
+ {
+  "id": "sar1",
+  "kind": "attr",
+  "tr": "Sarkopeni nedir, belirtileri nelerdir? Beş soruluk SARC-F taraması, tanı testleri, dirençli egzersiz için kanıt, protein önerileri ve evde altı güçlendirme egzersizi."
+ },
+ {
+  "id": "sar2",
+  "kind": "text",
+  "tr": "Sarkopeni: yaşa bağlı kas kaybı"
+ },
+ {
+  "id": "sar3",
+  "kind": "text",
+  "tr": "Sarkopeni, yaş ilerledikçe kas kütlesinin, gücünün ve işlevinin azalmasıdır. Sandalyeden kalkmak, merdiven çıkmak, alışveriş torbası taşımak zorlaşır; düşme ve kırık riski artar. Onaylı bir ilacı yoktur; en etkili tedavi kasları dirence karşı çalıştıran egzersiz ve yeterli proteindir."
+ },
+ {
+  "id": "sar4",
+  "kind": "text",
+  "tr": "Her on yılda kaybedilebilen kas kütlesi (Cleveland Clinic)"
+ },
+ {
+  "id": "sar5",
+  "kind": "text",
+  "tr": "80 yaşın üstündeki yetişkinlerin yaklaşık yarısı etkilenir (Harvard Health)"
+ },
+ {
+  "id": "sar6",
+  "kind": "text",
+  "tr": "121 çalışma"
+ },
+ {
+  "id": "sar7",
+  "kind": "text",
+  "tr": "Yaşlılarda dirençli egzersizi inceleyen Cochrane derlemesi; 6.700 katılımcı"
+ },
+ {
+  "id": "sar8",
+  "kind": "text",
+  "tr": "Haftada 2–3"
+ },
+ {
+  "id": "sar9",
+  "kind": "text",
+  "tr": "Çalışmaların çoğunda kullanılan egzersiz sıklığı"
+ },
+ {
+  "id": "sar10",
+  "kind": "text",
+  "tr": "Kas kaybı 30'lu–40'lı yaşlarda yavaş yavaş başlar, 65–80 yaş arasında hızlanır. Yaşla birlikte vücut proteini eskisi kadar iyi üretemez, hormonlar değişir, kas liflerinin sayısı ve boyutu azalır."
+ },
+ {
+  "id": "sar11",
+  "kind": "text",
+  "tr": "Hareketsizlik bu süreci hızlandıran başlıca etkendir. Fazla ya da düşük kilo, kalp hastalığı, diyabet ve KOAH gibi süregelen hastalıklar, kemik erimesi ve kireçlenme, sigara ve alkol de riski artırır. Egzersiz yapmadan kilo vermek de kas kaybına yol açabilir."
+ },
+ {
+  "id": "sar12",
+  "kind": "text",
+  "tr": "Kas güçsüzlüğü (en sık belirti)"
+ },
+ {
+  "id": "sar13",
+  "kind": "text",
+  "tr": "Çabuk yorulma, dayanıklılığın azalması"
+ },
+ {
+  "id": "sar14",
+  "kind": "text",
+  "tr": "Günlük işleri yapmakta zorlanma"
+ },
+ {
+  "id": "sar15",
+  "kind": "text",
+  "tr": "Yavaş yürüme"
+ },
+ {
+  "id": "sar16",
+  "kind": "text",
+  "tr": "Merdiven çıkmakta güçlük"
+ },
+ {
+  "id": "sar17",
+  "kind": "text",
+  "tr": "Denge bozukluğu ve düşmeler"
+ },
+ {
+  "id": "sar18",
+  "kind": "text",
+  "tr": "Kasların gözle görülür biçimde incelmesi"
+ },
+ {
+  "id": "sar19",
+  "kind": "text",
+  "tr": "Kendinizi yoklayın"
+ },
+ {
+  "id": "sar20",
+  "kind": "text",
+  "tr": "Beş soruluk tarama: SARC-F"
+ },
+ {
+  "id": "sar21",
+  "kind": "text",
+  "tr": "Hekimlerin sarkopeni taramasında kullandığı kısa bir sorgulamadır. Her soruya 0, 1 ya da 2 puan verin ve toplayın."
+ },
+ {
+  "id": "sar22",
+  "kind": "text",
+  "tr": "Güç"
+ },
+ {
+  "id": "sar23",
+  "kind": "text",
+  "tr": "4,5 kiloluk bir yükü kaldırıp taşımakta ne kadar zorlanıyorsunuz? Hiç: 0 · Biraz: 1 · Çok ya da yapamıyorum: 2"
+ },
+ {
+  "id": "sar24",
+  "kind": "text",
+  "tr": "Odanın bir ucundan öbür ucuna yürümekte ne kadar zorlanıyorsunuz? Hiç: 0 · Biraz: 1 · Çok, yardımcı araçla ya da yapamıyorum: 2"
+ },
+ {
+  "id": "sar25",
+  "kind": "text",
+  "tr": "Sandalyeden kalkma"
+ },
+ {
+  "id": "sar26",
+  "kind": "text",
+  "tr": "Sandalyeden ya da yataktan kalkmakta ne kadar zorlanıyorsunuz? Hiç: 0 · Biraz: 1 · Çok ya da yardımsız yapamıyorum: 2"
+ },
+ {
+  "id": "sar27",
+  "kind": "text",
+  "tr": "On basamak merdiven çıkmakta ne kadar zorlanıyorsunuz? Hiç: 0 · Biraz: 1 · Çok ya da yapamıyorum: 2"
+ },
+ {
+  "id": "sar28",
+  "kind": "text",
+  "tr": "Düşme"
+ },
+ {
+  "id": "sar29",
+  "kind": "text",
+  "tr": "Son bir yılda kaç kez düştünüz? Hiç: 0 · 1–3 kez: 1 · 4 ya da daha fazla: 2"
+ },
+ {
+  "id": "sar30",
+  "kind": "text",
+  "tr": "<b>Toplam 4 ve üzeri</b> ise ayrıntılı değerlendirme için hekiminize başvurun. Bu sorgulama bir taramadır, tanı koymaz; düşük puan da sarkopeni olmadığını kesinleştirmez."
+ },
+ {
+  "id": "sar31",
+  "kind": "text",
+  "tr": "Tanı nasıl konur?"
+ },
+ {
+  "id": "sar32",
+  "kind": "text",
+  "tr": "Tek bir test yoktur. Avrupa uzlaşı raporuna göre değerlendirme kas gücüyle başlar: Kas gücü düşükse sarkopeniden şüphelenilir, kas kütlesinin de az olduğu gösterilirse tanı doğrulanır, fiziksel performans da düşükse sarkopeni ağır kabul edilir."
+ },
+ {
+  "id": "sar33",
+  "kind": "text",
+  "tr": "El kavrama gücü"
+ },
+ {
+  "id": "sar34",
+  "kind": "text",
+  "tr": "El dinamometresiyle ölçülür; kas gücünün basit bir göstergesidir."
+ },
+ {
+  "id": "sar35",
+  "kind": "text",
+  "tr": "Sandalyeden kalkma testi"
+ },
+ {
+  "id": "sar36",
+  "kind": "text",
+  "tr": "Kolları kullanmadan art arda kalkıp oturma süresi ölçülür."
+ },
+ {
+  "id": "sar37",
+  "kind": "text",
+  "tr": "Kısa bir mesafedeki olağan yürüme hızı ölçülür."
+ },
+ {
+  "id": "sar38",
+  "kind": "text",
+  "tr": "Kalk ve yürü testi"
+ },
+ {
+  "id": "sar39",
+  "kind": "text",
+  "tr": "Sandalyeden kalkıp birkaç metre yürüyüp geri dönme süresi ölçülür."
+ },
+ {
+  "id": "sar40",
+  "kind": "text",
+  "tr": "Kas kütlesi ölçümü"
+ },
+ {
+  "id": "sar41",
+  "kind": "text",
+  "tr": "DXA (kemik ölçümünde de kullanılan cihaz) ya da biyoelektrik empedans ile yapılır."
+ },
+ {
+  "id": "sar42",
+  "kind": "text",
+  "tr": "Kanıt ne diyor?"
+ },
+ {
+  "id": "sar43",
+  "kind": "text",
+  "tr": "Yaşlılarda dirençli egzersizi inceleyen Cochrane derlemesi 121 çalışmayı ve 6.700 katılımcıyı kapsıyor. Çalışmaların çoğunda egzersiz haftada 2–3 kez, orta ya da yüksek şiddette yapılmış. Sonuçlar:"
+ },
+ {
+  "id": "sar44",
+  "kind": "text",
+  "tr": "Kas gücü belirgin biçimde artıyor."
+ },
+ {
+  "id": "sar45",
+  "kind": "text",
+  "tr": "Sandalyeden kalkma hızlanıyor."
+ },
+ {
+  "id": "sar46",
+  "kind": "text",
+  "tr": "Yürüme hızı az da olsa artıyor (saniyede 0,08 metre)."
+ },
+ {
+  "id": "sar47",
+  "kind": "text",
+  "tr": "Kireçlenmesi olanlarda ağrı azalıyor."
+ },
+ {
+  "id": "sar48",
+  "kind": "text",
+  "tr": "Ciddi yan etkiler nadir; en sık bildirilen sorun kas ağrısı."
+ },
+ {
+  "id": "sar49",
+  "kind": "text",
+  "tr": "Bu derleme yalnızca sarkopeni tanısı konmuş kişileri değil, genel olarak yaşlı yetişkinleri kapsıyor. Yine de sarkopenide güçlendirme egzersizinin önerilmesinin dayanağı bu ve benzeri çalışmalardır."
+ },
+ {
+  "id": "sar50",
+  "kind": "text",
+  "tr": "Ne yapılabilir?"
+ },
+ {
+  "id": "sar51",
+  "kind": "text",
+  "tr": "Dirençli egzersiz"
+ },
+ {
+  "id": "sar52",
+  "kind": "text",
+  "tr": "Tedavinin temelidir. Vücut ağırlığı, lastik bant ya da ağırlıklarla, haftada en az iki gün yapılır ve zamanla zorlaştırılır."
+ },
+ {
+  "id": "sar53",
+  "kind": "text",
+  "tr": "Protein"
+ },
+ {
+  "id": "sar54",
+  "kind": "text",
+  "tr": "Cleveland Clinic her öğünde 20–35 gram protein hedeflemeyi öneriyor. Proteini tek öğüne yığmak yerine güne yayın."
+ },
+ {
+  "id": "sar55",
+  "kind": "text",
+  "tr": "Besin kaynakları"
+ },
+ {
+  "id": "sar56",
+  "kind": "text",
+  "tr": "Et, balık, yumurta, süt ürünleri, kuru baklagiller, kuruyemişler ve soya ürünleri."
+ },
+ {
+  "id": "sar57",
+  "kind": "text",
+  "tr": "Böbrek uyarısı"
+ },
+ {
+  "id": "sar58",
+  "kind": "text",
+  "tr": "Böbrek hastalığınız ya da böbrek taşı öykünüz varsa proteini hekiminize danışmadan artırmayın."
+ },
+ {
+  "id": "sar59",
+  "kind": "text",
+  "tr": "Sarkopeni için onaylı bir ilaç yoktur."
+ },
+ {
+  "id": "sar60",
+  "kind": "text",
+  "tr": "Düzenli kontrol"
+ },
+ {
+  "id": "sar61",
+  "kind": "text",
+  "tr": "Kilo kaybı, iştahsızlık ve düşmeler olursa hekiminize bildirin."
+ },
+ {
+  "id": "sar62",
+  "kind": "text",
+  "tr": "Kas güçsüzlüğü düşme ve kırık riskini artırır. <a href=\"dusme-onleme.html\">Düşmeyi önleme</a> ve <a href=\"kemik-erimesi.html\">kemik erimesi</a> rehberlerine de göz atın."
+ },
+ {
+  "id": "sar63",
+  "kind": "text",
+  "tr": "Kasları güçlendiren altı egzersiz"
+ },
+ {
+  "id": "sar64",
+  "kind": "text",
+  "tr": "İngiltere Ulusal Sağlık Sistemi'nin (NHS), uzun süredir egzersiz yapmamış kişiler için önerdiği hareketlerdir. Haftada en az iki gün yapın. Tekerleksiz, sağlam bir sandalye kullanın; yavaş başlayın ve tekrar sayısını zamanla artırın."
+ },
+ {
+  "id": "sar65",
+  "kind": "text",
+  "tr": "Sağlam, kolsuz bir sandalyenin ön kısmına oturun; ayaklarınız kalça genişliğinde açık olsun. Hafifçe öne eğilin ve kollarınızı değil bacaklarınızı kullanarak yavaşça ayağa kalkın. Dik durun, sonra yavaşça oturun. Ne kadar yavaş yaparsanız o kadar iyi."
+ },
+ {
+  "id": "sar66",
+  "kind": "text",
+  "tr": "5 tekrar; kolaylaştıkça artırın"
+ },
+ {
+  "id": "sar67",
+  "kind": "text",
+  "tr": "Bir sandalyenin arkalığına ya da tezgâha tutunun. İki topuğunuzu rahatça çıkabildiğiniz kadar yerden kaldırın, yavaş ve kontrollü inin. Kolaylaşınca tutunmadan deneyin."
+ },
+ {
+  "id": "sar68",
+  "kind": "text",
+  "tr": "Bacağı yana kaldırma"
+ },
+ {
+  "id": "sar69",
+  "kind": "text",
+  "tr": "Bir sandalyenin arkalığına ya da tezgâha tutunun. Bir bacağınızı rahatça gidebildiği kadar yana kaldırın; sırtınız ve kalçanız düz kalsın, gövdeniz yana eğilmesin. Yavaşça indirin, diğer bacakla tekrarlayın."
+ },
+ {
+  "id": "sar70",
+  "kind": "text",
+  "tr": "Her bacakla 5 tekrar"
+ },
+ {
+  "id": "sar71",
+  "kind": "text",
+  "tr": "Bacağı arkaya kaldırma"
+ },
+ {
+  "id": "sar72",
+  "kind": "text",
+  "tr": "Bir sandalyenin arkalığına ya da tezgâha tutunup dik durun. Bir bacağınızı dizinizi bükmeden arkaya kaldırın; beliniz çukurlaşmasın. Uyluğunuzun arkasında ve kalçanızda çalışma hissedersiniz."
+ },
+ {
+  "id": "sar73",
+  "kind": "text",
+  "tr": "Her bacakla 5 tekrar; yukarıda 5 saniyeye kadar tutun"
+ },
+ {
+  "id": "sar74",
+  "kind": "text",
+  "tr": "Duvar şınavı"
+ },
+ {
+  "id": "sar75",
+  "kind": "text",
+  "tr": "Duvardan bir kol boyu uzakta durun. Ellerinizi göğüs hizasında, parmaklar yukarı bakacak şekilde duvara koyun. Sırtınız düz kalsın; dirseklerinizi gövdenize yakın tutarak yavaşça bükün ve duvara yaklaşın. Sonra yavaşça itin."
+ },
+ {
+  "id": "sar76",
+  "kind": "text",
+  "tr": "5–10 tekrar, 3 set"
+ },
+ {
+  "id": "sar77",
+  "kind": "text",
+  "tr": "Kol bükme"
+ },
+ {
+  "id": "sar78",
+  "kind": "text",
+  "tr": "Elinize hafif bir ağırlık alın; dolu bir su şişesi yeterlidir. Kolunuz yanınızda dursun. Dirseğinizi yavaşça bükerek ağırlığı omzunuza getirin, yavaşça indirin. Ayakta ya da oturarak yapabilirsiniz."
+ },
+ {
+  "id": "sar79",
+  "kind": "text",
+  "tr": "Her kolla 5 tekrar, 3 set"
+ },
+ {
+  "id": "sar80",
+  "kind": "text",
+  "tr": "Sarkopeni için videolar"
+ },
+ {
+  "id": "sar81",
+  "kind": "text",
+  "tr": "ABD'deki Mayo Clinic'in ve ABD Ulusal Yaşlanma Enstitüsü'nün (National Institute on Aging) YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "sar82",
+  "kind": "attr",
+  "tr": "Kas kaybı ve yaşlanma videosunu oynat"
+ },
+ {
+  "id": "sar83",
+  "kind": "text",
+  "tr": "Kas kaybı ve yaşlanma"
+ },
+ {
+  "id": "sar84",
+  "kind": "text",
+  "tr": "Yaşla birlikte görülen kas kaybını konu alan video."
+ },
+ {
+  "id": "sar85",
+  "kind": "attr",
+  "tr": "Alt beden güçlendirme videosunu oynat"
+ },
+ {
+  "id": "sar86",
+  "kind": "text",
+  "tr": "Alt beden için dört güçlendirme hareketi"
+ },
+ {
+  "id": "sar87",
+  "kind": "text",
+  "tr": "Yaşlı yetişkinler için dört bacak güçlendirme egzersizi."
+ },
+ {
+  "id": "sar88",
+  "kind": "text",
+  "tr": "Videolar Mayo Clinic ve National Institute on Aging kanallarına aittir."
+ },
+ {
+  "id": "sar89",
+  "kind": "text",
+  "tr": "Kaybedilen kas geri kazanılır mı?"
+ },
+ {
+  "id": "sar90",
+  "kind": "text",
+  "tr": "Yaşa bağlı kas kaybı tümüyle önlenemez; ancak yavaşlatılabilir ve kas gücü ileri yaşta da artırılabilir. 121 çalışmayı inceleyen Cochrane derlemesinde, kaslarını dirence karşı çalıştıran yaşlıların kas gücü belirgin biçimde arttı; sandalyeden kalkmaları hızlandı."
+ },
+ {
+  "id": "sar91",
+  "kind": "text",
+  "tr": "Yürüyüş yapıyorum; yeterli değil mi?"
+ },
+ {
+  "id": "sar92",
+  "kind": "text",
+  "tr": "Yürüyüş kalbiniz ve dayanıklılığınız için değerlidir, bırakmayın. Ancak sarkopenide önerilen egzersiz türü, kasları bir dirence karşı çalıştıran güçlendirme egzersizleridir: kendi vücut ağırlığınız, lastik bantlar ya da ağırlıklarla yapılan hareketler. İkisini birlikte yapın."
+ },
+ {
+  "id": "sar93",
+  "kind": "text",
+  "tr": "Protein tozu kullanmalı mıyım?"
+ },
+ {
+  "id": "sar94",
+  "kind": "text",
+  "tr": "En iyi kaynak besinlerdir: et, balık, yumurta, süt ürünleri, kuru baklagiller ve kuruyemişler. Proteini tek öğüne yığmak yerine güne yayın. Besinlerle yeterince alamıyorsanız takviye yardımcı olabilir; önce hekiminize danışın. Tek başına protein yetmez, egzersizle birlikte işe yarar. Böbrek hastalığınız ya da böbrek taşı öykünüz varsa proteini hekiminize danışmadan artırmayın."
+ },
+ {
+  "id": "sar95",
+  "kind": "text",
+  "tr": "İleri yaşta ağırlık çalışmak güvenli mi?"
+ },
+ {
+  "id": "sar96",
+  "kind": "text",
+  "tr": "Cochrane derlemesine göre dirençli egzersizde ciddi yan etkiler nadirdir; en sık bildirilen sorun kas ağrısıdır. Hafif başlayın, yavaş yavaş artırın. Kalp hastalığınız, kontrol altında olmayan tansiyonunuz ya da yeni bir ameliyatınız varsa başlamadan önce hekiminize danışın."
+ },
+ {
+  "id": "sar97",
+  "kind": "text",
+  "tr": "Ne zaman hekime başvurmalı?"
+ },
+ {
+  "id": "sar98",
+  "kind": "text",
+  "tr": "Yüzde, kolda ya da bacakta aniden başlayan güçsüzlük; konuşma bozukluğu (112)"
+ },
+ {
+  "id": "sar99",
+  "kind": "text",
+  "tr": "Günler ya da haftalar içinde hızla artan güçsüzlük"
+ },
+ {
+  "id": "sar100",
+  "kind": "text",
+  "tr": "İstemeden, açıklanamayan kilo kaybı"
+ },
+ {
+  "id": "sar101",
+  "kind": "text",
+  "tr": "Tekrarlayan düşmeler"
+ },
+ {
+  "id": "sar102",
+  "kind": "text",
+  "tr": "Egzersiz sırasında göğüs ağrısı, baş dönmesi ya da bayılma hissi"
+ },
+ {
+  "id": "sar103",
+  "kind": "text",
+  "tr": "Kas güçsüzlüğü, denge ve yürüme güçlükleriniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "sar104",
+  "kind": "wa",
+  "tr": "Merhaba, kas güçsüzlüğü (sarkopeni) için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "sar105",
+  "kind": "text",
+  "tr": "Liu CJ, Latham NK. <a href=\"https://www.cochrane.org/evidence/CD002759_progressive-resistance-strength-training-improving-physical-function-older-adults\" target=\"_blank\" rel=\"noopener\">Progressive resistance strength training for improving physical function in older adults</a>. Cochrane Database Syst Rev. 2009;(3):CD002759."
+ },
+ {
+  "id": "sar106",
+  "kind": "text",
+  "tr": "Cleveland Clinic. <a href=\"https://my.clevelandclinic.org/health/diseases/23167-sarcopenia\" target=\"_blank\" rel=\"noopener\">Sarcopenia</a>. Last updated 2 April 2026."
+ },
+ {
+  "id": "sar107",
+  "kind": "text",
+  "tr": "Restivo J. <a href=\"https://www.health.harvard.edu/healthy-aging-and-longevity/muscle-loss-and-protein-needs-in-older-adults\" target=\"_blank\" rel=\"noopener\">Muscle loss and protein needs in older adults</a>. Harvard Health Publishing. 14 August 2024."
+ },
+ {
+  "id": "sar108",
+  "kind": "ld",
+  "tr": "Sarkopeni"
+ }
+]

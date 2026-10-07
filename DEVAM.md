@@ -265,3 +265,20 @@ Kiper 2025 kapsam derlemesi (16 çalışma; PEDro kaydından özet: güç, yorgu
 Kaynakta olmayan: altı egzersizin seçimi ve tekrar sayıları, "ertesi gün yorgunluk artarsa azaltın" kuralı, uyarı listesinin bir kısmı.
 Tek video: Mayo Clinic Radio (`HtkWhtG-MCM`); Mayo'nun diğer videosu (`qtKXD411CeA`) gömmeye kapalı (oEmbed 401). t_ls bu sayfada video sayısı 1 ile çalıştırılır.
 Çeviri: golfcu-dirsegi (74), guillain-barre (68) + fb422–fb424.
+
+## Sarkopeni ve demansta egzersiz (cond19_part.py)
+8 Ekim 2026: `sarkopeni.html` / `en/sarcopenia.html` (Hastalık rehberi, bölge: genel) ve `demans-egzersiz.html` / `en/dementia-and-exercise.html` (Rehabilitasyon rehberi).
+Sarkopeni: Cochrane Liu & Latham 2009 (121 RKÇ, 6.700 kişi; haftada 2–3, orta-yüksek şiddet; güç, sandalyeden kalkma, yürüme hızı +0,08 m/sn, kireçlenmede ağrı; ciddi yan etki nadir),
+EWGSOP2 özeti (Cruz-Jentoft 2019: önce kas gücü; kütle düşükse doğrulanır; performans düşükse ağır), Cleveland Clinic (2 Nisan 2026: 30'lu–40'lı yaşlarda başlar, 65–80 hızlanır, on yılda %8'e kadar;
+belirtiler, risk etkenleri, SARC-F beş başlık 0–2 puan, 4 ve üzeri ileri inceleme; öğün başına 20–35 g protein; onaylı ilaç yok), Harvard Health (14 Ağustos 2024: 80 üstünün yaklaşık yarısı;
+protein tek başına yetmez; böbrek uyarısı; güne yayma), NHS Strength exercises (28 Şubat 2024: altı egzersizin hepsi ve tekrar sayıları buradan). Hepsi okundu.
+Hafızadan / kaynaksız: SARC-F sorularının ayrıntılı ifadesi ve puan seçenekleri (Malmstrom 2013'ten hafızadan; Cleveland yalnızca başlıkları veriyor), tanı testlerinin tek cümlelik açıklamaları,
+"yürüyüş yeterli mi" yanıtındaki yürüyüş cümlesi, uyarı işaretleri listesi. Sayfa derlemenin yalnızca sarkopeni tanılı kişileri kapsamadığını açıkça söylüyor.
+Yeni çizimler: `sk_push` (duvar şınavı), `sk_curl` (ağırlıkla kol bükme). Videolar: Mayo Clinic (`ymcFS1tQrsk`), National Institute on Aging (`TOKxtgKrGCQ`); izlenmedi.
+Demans: Cochrane Forbes 2015 (17 RKÇ, 1.067 kişi; günlük işler iyileşebilir, kanıt çok düşük; biliş, davranış, depresyonda belirgin yarar yok; tek çalışmada bakım yükü azaldı; zarar bulgusu yok),
+DSÖ (3 Temmuz 2026: 57 milyon, %60–70 Alzheimer, erken belirtiler, ilaç dışı yaklaşımlar, bakım verenler günde ortalama 5 saat), Alzheimer's Society üç sayfa (ilerlemeyi yavaşlattığı gösterilmedi;
+etkinlik türleri, oturarak egzersiz listesi, konuşma testi, ısınma, 150 dk/hafta hedefi, kime danışılmalı, ne zaman durmalı, yalnız yürüyüş güvenliği, takvim ve adımları yazma). Hepsi okundu.
+Kaynaksız: altı hareketin tekrar sayıları, "hareketi önce siz gösterin" önerisi, uyarı işaretleri listesi (ani şaşkınlık vb.). Sayfa egzersizin demansı durdurmadığını açıkça söyler; iğneleme/akupunktur yok.
+Yeni çizimler: `dm_march`, `dm_toe`, `dm_arm`. Videolar: NHS Greater Glasgow and Clyde (`VhnkOhAWf-Q`, `YA5xvvoaVa8`); izlenmedi.
+İlgili bağlantılar: kemik-erimesi → sarkopeni, parkinson → demans-egzersiz. Çeviri: sarkopeni (109), demans-egzersiz (110) + fb425–fb426.
+Not: `publish.sh` her çağrıda `up40/_home_*.txt` dosyalarını siler; aynı derlemeden ikinci sayfayı yayımlamadan önce `build_pages.py` + `rebuild_home.sh` yeniden çalıştırılmalı (yoksa ikinci sayfa site haritasına eklenmez).
