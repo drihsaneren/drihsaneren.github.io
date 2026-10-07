@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Yeni hastalık rehberleri (6): ön çapraz bağ yaralanması.
-# cond6_part.py'den sonra exec edilir. Video yok (kanal videoları doğrulanamadı).
+# cond6_part.py'den sonra exec edilir. Videolar: Bob & Brad (kimlikler oEmbed ile doğrulandı).
 
 _ex2("acl_hslide", "hslide", "Topuk kaydırma", "Sırtüstü yatın. Topuğunuzu yatağın üzerinde kaydırarak kalçanıza doğru çekin ve dizinizi rahat ettiğiniz kadar bükün, sonra yavaşça düzeltin. Topuğun altına poşet koymak kaymayı kolaylaştırır. Amaç dizi her gün biraz daha rahat büküp tam açabilmektir.", "10 tekrar, günde 3 kez")
 
@@ -100,6 +100,27 @@ ACL_BODY = f'''<header class="page">
     </div>
   </section>
 
+  <section id="videolar">
+    <div class="wrap">
+      <p class="eyebrow">Video</p>
+      <h2>Ön çapraz bağ için videolar</h2>
+      <p class="soft">ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <div class="vids">
+        <div class="vid">
+          {vbox("_gF6llBpol0", "Ön çapraz bağ yaralanması videosunu oynat", "ACL (Knee) Injury as explained by Physical Therapy")}
+          <h3>Ön çapraz bağ yaralanması</h3>
+          <p>İki fizyoterapist yaralanmayı ve tedavi seçeneklerini anlatıyor.</p>
+        </div>
+        <div class="vid">
+          {vbox("m-G-r_MgL_4", "Ameliyat sonrası diz hareket açıklığı egzersizleri videosunu oynat", "Top 3 ACL Range of Motion Exercises &amp; Stretches After Surgery")}
+          <h3>Ameliyat sonrası üç hareket açıklığı egzersizi</h3>
+          <p>Dizi yeniden tam açıp bükebilmek için hareketler.</p>
+        </div>
+      </div>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
@@ -133,6 +154,6 @@ ACL_BODY = f'''<header class="page">
 
 page("on-capraz-bag.html", "Ön Çapraz Bağ Yaralanması",
      "Ön çapraz bağ yırtığı nedir, her yırtık ameliyat gerektirir mi? Rehabilitasyonla ameliyatı karşılaştıran çalışmalar, spora dönüş ölçütleri ve evde altı egzersiz.",
-     "on-capraz-bag.html", NECK_CSS, ACL_BODY, "",
+     "on-capraz-bag.html", NECK_CSS, ACL_BODY, YT_JS,
      seo_title="Ön Çapraz Bağ Yırtığı: Ameliyat mı, Rehabilitasyon mu? | İhsan Eren",
      condition="Ön çapraz bağ yaralanması", faq_items=ACL_FAQ)

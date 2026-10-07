@@ -125,3 +125,14 @@ klinik açıdan önemsiz; %50), Beard 2022 Lancet ACL SNNAP (316; 73,0'a 64,6; %
 Ardern 2014 (69 çalışma, 7.556 kişi; %81/%65/%55), Webster & Hewett 2018 (8 meta-analiz; %50). Çalışmaların ülkeleri özetlerde geçmediği için yazılmadı.
 Video yok: YouTube araması robots.txt nedeniyle okunamadı, Bob & Brad video kimlikleri doğrulanamadı (MS sayfasıyla aynı durum).
 Egzersizlerin beşi menisküs sayfasındaki metinlerle aynı (`mn_*`), yalnızca `acl_hslide` yeni.
+
+## KOAH (cond8_part.py) ve video kuralı
+7 Ekim 2026: 8. rehabilitasyon rehberi `koah.html` / `en/copd-pulmonary-rehabilitation.html`. Yeni çizimler: `plb` (büzük dudak nefesi), `fwdlean` (öne eğilerek toparlanma).
+Kaynaklar (özetleri okundu): McCarthy 2015 Cochrane (65 RKÇ, 3.822 hasta, 6 dk yürüme +43,93 m), Puhan 2016 Cochrane (20 çalışma, 1.477 hasta, +62 m,
+yeniden yatış OR 0,44, orta kanıt), Holland 2017 Thorax (166 hasta, ev programı kısa vadede eşdeğer; 12. ayda eşdeğerlik gösterilemedi), Holland Cochrane
+nefes egzersizleri (16 çalışma, 1.233 hasta, +35–50 m; Cochrane sayfası atıfı "2022, Issue 3" diye veriyor, öyle yazıldı), DSÖ bilgi notu (10 Haziran 2026: 3. sıra, 2023'te 3,4 milyon ölüm, yüksek gelirli ülkelerde >%70 tütün).
+**Video kuralı (kullanıcı, 7 Ekim 2026):** Bob & Brad dışında, düzenli yayın yapan güvenilir ve tescilli kişi/kurum kanalları da kullanılabilir.
+KOAH'ta American Lung Association (`7kpJ0QlRss4`) ve NHS inform (`oSclbDihp2Y`); ön çapraz bağa Bob & Brad (`_gF6llBpol0`, `m-G-r_MgL_4`) eklendi.
+**Video kimliği doğrulama yöntemi:** WebSearch'ü `allowed_domains: ["youtube.com"]` ile yap (kimlikler sonuçlarda gelir), sonra
+`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=<kimlik>&format=json` adresini WebFetch ile okuyup başlık + kanal adını doğrula.
+Videolar izlenemedi; açıklamalar yalnızca başlığa dayanır, bu yüzden kısa ve iddiasız tutuldu. MS sayfasına da bu yöntemle video eklenebilir (bekliyor).
