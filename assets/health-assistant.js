@@ -56,7 +56,7 @@ function rootToken(t){
     if(/^topuk/.test(t))return "topuk";
     if(/^ayak/.test(t))return "ayak";
     if(/^baş/.test(t)||/^bas/.test(t))return "baş";
-    if(/^dirsek/.test(t))return "dirsek";
+    if(/^dirsek/.test(t)||/^dirseğ/.test(t)||/^dirseg/.test(t)||/^dirse/.test(t))return "dirsek";
     if(/^bilek/.test(t))return "bilek";
     if(/^çene/.test(t)||/^cene/.test(t))return "çene";
   }
@@ -109,7 +109,7 @@ function bodyIntent(q){
     if(/\b(kalç\w*|kalc\w*)\b/.test(n))return "hip";
     if(/\btopuk\w*\b/.test(n))return "heel";
     if(/\b(baş\w*|bas\w*)\b/.test(n))return "head";
-    if(/\b(dirsek\w*)\b/.test(n))return "elbow";
+    if(/(^|\s)(dirsek\w*|dirseğ\w*|dirseg\w*|dirse\w*)(?=\s|$)/.test(n))return "elbow";
     if(/\b(çene\w*|cene\w*)\b/.test(n))return "jaw";
   }else{
     if(/\bneck\b/.test(n))return "neck";
