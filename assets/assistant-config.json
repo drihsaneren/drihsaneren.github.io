@@ -1,6 +1,6 @@
 {
-  "enabled": true,
+  "enabled": false,
   "endpoint": "",
   "mode": "free-only",
-  "note": "When endpoint is empty the assistant uses the site's local search index only. Add a Cloudflare Workers AI endpoint here after deployment."
+  "note": "Health Guide Assistant is temporarily disabled until Cloudflare and mobile QA are completed."
 }
