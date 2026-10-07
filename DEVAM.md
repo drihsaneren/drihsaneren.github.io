@@ -210,3 +210,14 @@ Aynı çıktıyı üretmek için: `build_pages.py` (`CORE_CSS`, `CORE_JS`, twitt
 kalp rehabilitasyonu istatistik cümlesi de onların düzeltmesiyle eşlendi. Denetim: `main`i `origin/main`e eşitleyip hattı çalıştırınca ilgisiz sayfalarda fark çıkmamalı.
 Onların betiğindeki bir hata burada düzeltildi: açıklamada kesme işareti olan sayfalarda `twitter:description` yarıda kesiliyordu (ana sayfa, Bilim gündemi, Nobel).
 **Her gönderimden önce** `git fetch origin main` ve `git log origin/main` ile yeni doğrudan değişiklik var mı bak; varsa önce üretim hattına işle, sonra gönder.
+
+## Kalça yan ağrısı ve lenfödem (cond14_part.py)
+7 Ekim 2026: iki rehber birden. `kalca-yan-agrisi.html` / `en/lateral-hip-pain.html` (Hastalık rehberi, bölge: diz) ve `lenfodem.html` / `en/lymphoedema.html` (Rehabilitasyon rehberi).
+Kalça yan ağrısı: LEAP çalışması (Mellor, BMJ 2018; 204 kişi; 8. hafta %77/%58/%29, 52. hafta %79/%58/%52; okundu) + NHS Fife broşürü (Şubat 2025; alışkanlıklar ve beş egzersiz; okundu).
+Altıncı hareket (`gt_sls`, leğen düz tek ayak) ve dozu kaynakta yok; LEAP'in "işlev sırasında kalça kontrolü" ilkesine dayanarak yazıldı. Uyarı işaretleri genel bilgi.
+Videolar: Somerset NHS Foundation Trust (`z9w5axHITms`), UC San Diego Health (`xqPew4-Pq54`). Yeni çizim: `gt_belt`.
+Lenfödem: NHS (genel, tedavi, önleme; 29 Mart 2023), Cancer Research UK egzersiz sayfası (20 Mayıs 2026; hareketler ve tekrar sayıları buradan), Cochrane Stuiver (10 çalışma, 1.205 kişi;
+dirençli egzersiz 2 çalışma/358 kişi; yıl/sayı 2015;(2) hafızadan), NCI PDQ (18 Aralık 2024: %19,9'a karşı %5,6; ACSM görüşü). Hepsi okundu. "Tek bacakta ani şişlik" ve "nefes darlığı" uyarıları genel bilgi.
+Bu sayfada bilerek `CTA_CARD` yok (lenfödem bakımı özel eğitim ister; kullanıcı isterse eklenir); yerine lenfödem terapisti notu var. Videolar: Cancer Research UK (`Rku5PGz48c8`, `zcQB6pZmdN0`).
+Yeni çizimler: `ly_shrug`, `ly_arm`. Yedekte doğrulanmış: Macmillan "Lymphoedema explained" (`68NgrFiQkeU`). Çeviri: kalca-yan-agrisi (75), lenfodem (87) + fb411–fb413.
+Not: bu kabuktan youtube.com'a curl ile erişilemiyor; oEmbed doğrulaması WebFetch ile yapılır.

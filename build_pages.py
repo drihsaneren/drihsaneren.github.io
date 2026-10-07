@@ -184,7 +184,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "kalca-yan-agrisi.html", "lenfodem.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 NEWS_PAGES = {"nobel-2026.html"}   # Bilim gündemi'nin özel sayfaları
 SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
@@ -250,6 +250,8 @@ TOPICS = {
     "surekli-usume.html": ("Hastalık rehberi", "Sürekli üşüme (soğuğa duyarlılık)"),
     "titreme.html": ("Hastalık rehberi", "Titreme (tremor)"),
     "yuz-felci.html": ("Hastalık rehberi", "Yüz felci (Bell felci)"),
+    "kalca-yan-agrisi.html": ("Hastalık rehberi", "Kalça yan ağrısı"),
+    "lenfodem.html": ("Rehabilitasyon rehberi", "Lenfödem"),
     "stres.html": ("Kendine iyi bak", "Stresli anlarda ne yapabilirsiniz?"),
     "masa-basi.html": ("Kendine iyi bak", "Masa başında çalışanlar için"),
     "sabah-rutini.html": ("Kendine iyi bak", "Güne 5 dakikayla başlayın"),
@@ -279,13 +281,13 @@ RELATED = {
     "parkinson.html": ["dusme-onleme.html", "multipl-skleroz.html"],
     "multipl-skleroz.html": ["dusme-onleme.html", "parkinson.html"],
     "kalca-kirigi.html": ["kemik-erimesi.html", "dusme-onleme.html"],
-    "kanser-egzersiz.html": ["hareket.html", "uyku.html"],
+    "kanser-egzersiz.html": ["lenfodem.html", "hareket.html"],
     "koah.html": ["kalp-rehabilitasyonu.html", "ic-cekis.html"],
     "kalp-rehabilitasyonu.html": ["koah.html", "duvar-oturusu.html"],
     "dusme-onleme.html": ["bas-donmesi.html", "protez-sonrasi.html"],
     "protez-sonrasi.html": ["diz-kireclenmesi.html", "dusme-onleme.html"],
     "masa-basi.html": ["boyun-agrisi.html", "bel-agrisi.html"],
-    "kalca-kireclenmesi.html": ["diz-kireclenmesi.html", "protez-sonrasi.html"],
+    "kalca-kireclenmesi.html": ["kalca-yan-agrisi.html", "protez-sonrasi.html"],
     "tenisci-dirsegi.html": ["karpal-tunel-sendromu.html", "masa-basi.html"],
     "kemik-erimesi.html": ["dusme-onleme.html", "kalca-kirigi.html"],
     "ayak-bilegi-burkulmasi.html": ["topuk-dikeni.html", "dusme-onleme.html"],
@@ -300,6 +302,8 @@ RELATED = {
     "surekli-usume.html": ["titreme.html", "uyku.html"],
     "titreme.html": ["parkinson.html", "surekli-usume.html"],
     "yuz-felci.html": ["inme-rehabilitasyonu.html", "cene-eklemi.html"],
+    "kalca-yan-agrisi.html": ["kalca-kireclenmesi.html", "bel-agrisi.html"],
+    "lenfodem.html": ["kanser-egzersiz.html", "hareket.html"],
     "fibromiyalji.html": ["uyku.html", "stres.html"],
     "bas-donmesi.html": ["dusme-onleme.html", "boyun-agrisi.html"],
     "ankilozan-spondilit.html": ["bel-agrisi.html", "boyun-agrisi.html"],
@@ -1010,7 +1014,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "cond13_part.py", "self2_part.py", "self3_part.py", "nobel_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "cond13_part.py", "cond14_part.py", "self2_part.py", "self3_part.py", "nobel_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1677,6 +1681,10 @@ TH_TREMOR = """<svg viewBox="0 0 320 150" aria-hidden="true"><g stroke="#8fa476"
 C_TREMOR = KC("titreme.html", TH_TREMOR, "Hastalık rehberi", "Titreme (tremor)", "Eller neden titrer? Titreme türleri, nedenin nasıl araştırıldığı, günlük hayat önerileri, egzersizler ve akupunktur için kanıt.")
 TH_FACE = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="75" r="56" fill="rgba(143,164,118,.16)" stroke="#8fa476" stroke-width="5"/><path d="M160 22V128" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 6" stroke-linecap="round"/><g fill="none" stroke="#8fa476" stroke-width="5" stroke-linecap="round"><path d="M128 54q11-7 22 0"/><path d="M134 100q14 6 26 4"/></g><circle cx="139" cy="70" r="5.5" fill="#8fa476"/><g fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"><path d="M170 60q11-3 22 4"/><path d="M160 104q14 2 24 8"/><path d="M174 76h14"/></g><path d="M236 52l12 8-12 8M84 52l-12 8 12 8" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
 C_FACE = KC("yuz-felci.html", TH_FACE, "Hastalık rehberi", "Yüz felci (Bell felci)", "İlk 72 saatte ne yapılmalı, göz nasıl korunur, yüz neden zorlanmamalı? Egzersize ne zaman başlanır, akupunktur ve elektrik tedavisi için kanıt, altı güvenli uygulama.")
+TH_GTPS = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="26" r="13" fill="#8fa476"/><path d="M138 50h44M160 44v48M160 92l-14 50M160 92l14 50M138 50l-8 40M182 50l8 40" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="174" cy="94" r="14" fill="rgba(226,171,71,.18)" stroke="#e2ab47" stroke-width="3"/><circle cx="174" cy="94" r="4.5" fill="#e2ab47"/><path d="M198 82l12-6M202 96h14M198 110l12 6" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
+C_GTPS = KC("kalca-yan-agrisi.html", TH_GTPS, "Hastalık rehberi", "Kalça yan ağrısı", "Bursit denen ağrıda iğne mi, egzersiz mi? 204 kişilik çalışmanın sonucu, kalçayı rahatlatan alışkanlıklar, yatış pozisyonu ve evde altı egzersiz.")
+TH_LYMPH = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M70 112Q150 104 244 54" fill="none" stroke="#8fa476" stroke-width="26" stroke-linecap="round"/><path d="M96 110Q150 102 214 70" fill="none" stroke="#e2ab47" stroke-width="26" stroke-dasharray="3 9" opacity=".8"/><circle cx="258" cy="46" r="15" fill="#8fa476"/><g fill="#ece5cf" opacity=".85"><circle cx="118" cy="72" r="4"/><circle cx="150" cy="60" r="4"/><circle cx="182" cy="44" r="4"/></g><path d="M206 30l14-8M212 34l8-12 2 14" fill="none" stroke="#ece5cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/></svg>"""
+C_LYMPH = KC("lenfodem.html", TH_LYMPH, "Rehabilitasyon rehberi", "Lenfödem", "Kanser tedavisinden sonra kol ya da bacak şişliği: egzersiz şişliği artırır mı, cilt nasıl korunur, bası ve lenf drenajı ne işe yarar? Kol için altı hareket.")
 C_FIBRO = KC("fibromiyalji.html", TH_FIBRO, "Hastalık rehberi", "Fibromiyalji", "Yaygın ağrı ve yorgunluk neden olur? Güçlü öneri alan tek tedavi egzersiz: az ve yavaş başlayan altı hareket.")
 C_VERTIGO = KC("bas-donmesi.html", TH_VERTIGO, "Hastalık rehberi", "Baş dönmesi (BPPV)", "Yatarken ve dönerken başlayan kısa süreli baş dönmesi: Epley manevrası adım adım ve acil uyarı işaretleri.")
 C_AS = KC("ankilozan-spondilit.html", TH_AS, "Hastalık rehberi", "Ankilozan spondilit", "Dinlenmekle artan, hareketle azalan bel ağrısı: iltihaplı bel ağrısını tanıyın; evde altı duruş ve esneklik egzersizi.")
@@ -1725,7 +1733,7 @@ REGIONS = [("tum", "Tümü"), ("bel", "Bel ve sırt"), ("boyun", "Boyun, baş ve
 AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_LS, "bel"), (C_AS, "bel"), (C_SCOLIOSIS, "bel"),
        (C_NECK, "boyun"), (C_HERNIA, "boyun"), (C_HEADACHE, "boyun"), (C_TMJ, "boyun"), (C_VERTIGO, "boyun"),
        (C_SHOULDER, "omuz"), (C_IMPINGE, "omuz"), (C_RC, "omuz"), (C_CTS, "omuz"), (C_ELBOW, "omuz"),
-       (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_ACL, "diz"), (C_PFP, "diz"), (C_HIP, "diz"),
+       (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_ACL, "diz"), (C_PFP, "diz"), (C_HIP, "diz"), (C_GTPS, "diz"),
        (C_HEEL, "ayak"), (C_ACHILLES, "ayak"), (C_ANKLE, "ayak"),
        (C_UI, "kadin"), (C_PREG, "kadin bel"), (C_OSTEO, "genel"), (C_FIBRO, "genel"), (C_RA, "genel"), (C_COLD, "genel"), (C_TREMOR, "genel"), (C_FACE, "genel")]
 def region_filter():
@@ -1734,7 +1742,7 @@ def region_filter():
     return ('<div class="filt" role="group" aria-label="Bölgeye göre süz">' +
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
-REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_HIPFX, C_PARK, C_MS, C_ONCO, C_COPD, C_CARDIAC]
+REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_HIPFX, C_PARK, C_MS, C_ONCO, C_LYMPH, C_COPD, C_CARDIAC]
 SELF = [C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
@@ -1806,7 +1814,7 @@ PULSE_JS = """<script>
 </script>
 """
 PILL = {
-    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "romatoid-artrit.html": "Romatoid artrit", "yuz-felci.html": "Yüz felci", "surekli-usume.html": "Sürekli üşüme", "titreme.html": "Titreme", "boyun-agrisi.html": "Boyun ağrısı",
+    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "romatoid-artrit.html": "Romatoid artrit", "yuz-felci.html": "Yüz felci", "kalca-yan-agrisi.html": "Kalça yan ağrısı", "lenfodem.html": "Lenfödem", "surekli-usume.html": "Sürekli üşüme", "titreme.html": "Titreme", "boyun-agrisi.html": "Boyun ağrısı",
     "boyun-fitigi.html": "Boyun fıtığı", "bas-agrisi.html": "Baş ağrısı", "cene-eklemi.html": "Çene eklemi",
     "diz-kireclenmesi.html": "Diz kireçlenmesi", "menisku-yirtigi.html": "Menisküs yırtığı", "diz-onu-agrisi.html": "Diz önü ağrısı",
     "kalca-kireclenmesi.html": "Kalça kireçlenmesi", "donuk-omuz.html": "Donuk omuz", "omuz-sikismasi.html": "Omuz sıkışması",

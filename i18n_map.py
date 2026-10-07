@@ -50,6 +50,8 @@ EN = {
     "surekli-usume.html": "always-feeling-cold.html",
     "titreme.html": "tremor.html",
     "yuz-felci.html": "bells-palsy.html",
+    "kalca-yan-agrisi.html": "lateral-hip-pain.html",
+    "lenfodem.html": "lymphoedema.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",
     "multipl-skleroz.html": "multiple-sclerosis.html",
