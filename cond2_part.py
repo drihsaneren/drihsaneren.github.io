@@ -269,6 +269,7 @@ FB_SRC = [
  "Macfarlane GJ, Kronisch C, Dean LE, et al. " + ext("https://abdn.elsevierpure.com/en/publications/eular-revised-recommendations-for-the-management-of-fibromyalgia/", "EULAR revised recommendations for the management of fibromyalgia") + ". Ann Rheum Dis. 2017;76(2):318-328.",
  "Bidonde J, Busch AJ, Schachter CL, et al. " + ext("https://www.cochrane.org/CD012700/MUSKEL_aerobic-exercise-adults-fibromyalgia", "Aerobic exercise training for adults with fibromyalgia") + ". Cochrane Database Syst Rev. 2017;6:CD012700.",
  "Wang C, Schmid CH, Fielding RA, et al. " + ext("https://www.nccih.nih.gov/research/research-results/tai-chi-has-similar-or-greater-benefits-than-aerobic-exercise-for-fibromyalgia-study-shows", "Effect of tai chi versus aerobic exercise for fibromyalgia: comparative effectiveness randomized controlled trial") + ". BMJ. 2018;360:k851.",
+ "Deare JC, Zheng Z, Xue CCL, et al. " + ext("https://www.cochrane.org/CD007070/MUSKEL_acupuncture-for-fibromyalgia", "Acupuncture for treating fibromyalgia") + ". Cochrane Database Syst Rev. 2013;(5):CD007070.",
  "Heidari F, Afshari M, Moosazadeh M. " + ext("https://link.springer.com/article/10.1007/s00296-017-3725-2", "Prevalence of fibromyalgia in general population and patients, a systematic review and meta-analysis") + ". Rheumatol Int. 2017;37(9):1527-1539.",
 ]
 
@@ -361,6 +362,17 @@ FB_BODY = f'''<header class="page">
         </div>
       </div>
       <p class="meta">Video Dr. Paul Lam'e aittir.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Akupunktur: araştırmalar ve klinik gözlemim</h2>
+      <p class="soft">Dokuz çalışmayı (395 kişi) inceleyen Cochrane derlemesinde, ilaç ve egzersizden oluşan standart tedaviye eklenen akupunktur ağrıyı 100 üzerinden yaklaşık 30 puan azalttı. İğnelerden hafif elektrik verilen akupunktur, sahte uygulamaya göre de ağrıyı bir miktar azalttı; elle yapılan akupunkturda bu fark görülmedi. Etki yaklaşık bir ay sürdü, altıncı ayda korunmadı. Kanıt düzeyi düşük–orta; yan etkiler hafif ve kısa süreliydi.</p>
+      {OBS("Kendi klinik gözlemimde akupunkturun fibromiyaljide çok etkili olduğunu gördüm.")}
+      <div class="callout">
+        <p>{ACU_LAW}</p>
+      </div>
     </div>
   </section>
 

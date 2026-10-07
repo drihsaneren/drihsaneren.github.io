@@ -49,6 +49,7 @@ EN = {
     "romatoid-artrit.html": "rheumatoid-arthritis.html",
     "surekli-usume.html": "always-feeling-cold.html",
     "titreme.html": "tremor.html",
+    "yuz-felci.html": "bells-palsy.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",
     "multipl-skleroz.html": "multiple-sclerosis.html",

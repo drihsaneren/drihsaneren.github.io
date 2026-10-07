@@ -41,7 +41,7 @@ COPD_SRC = [
  "McCarthy B, Casey D, Devane D, Murphy K, Murphy E, Lacasse Y. " + ext("https://www.cochrane.org/CD003793/AIRWAYS_pulmonary-rehabilitation-chronic-obstructive-pulmonary-disease", "Pulmonary rehabilitation for chronic obstructive pulmonary disease") + ". Cochrane Database Syst Rev. 2015;(2):CD003793.",
  "Puhan MA, Gimeno-Santos E, Cates CJ, Troosters T. " + ext("https://www.cochrane.org/CD005305/AIRWAYS_pulmonary-rehabilitation-following-exacerbations-chronic-obstructive-pulmonary-disease", "Pulmonary rehabilitation following exacerbations of chronic obstructive pulmonary disease") + ". Cochrane Database Syst Rev. 2016;(12):CD005305.",
  "Holland AE, Mahal A, Hill CJ, et al. " + ext("https://thorax.bmj.com/content/72/1/57", "Home-based rehabilitation for COPD using minimal resources: a randomised, controlled equivalence trial") + ". Thorax. 2017;72(1):57-65.",
- "Holland AE, Hill CJ, Jones AY, McDonald CF. " + ext("https://www.cochrane.org/CD008250/AIRWAYS_breathing-exercises-for-chronic-obstructive-pulmonary-disease", "Breathing exercises for chronic obstructive pulmonary disease") + ". Cochrane Database Syst Rev. 2022;(3):CD008250.",
+ "Holland AE, Hill CJ, Jones AY, McDonald CF. " + ext("https://www.cochrane.org/CD008250/AIRWAYS_breathing-exercises-for-chronic-obstructive-pulmonary-disease", "Breathing exercises for chronic obstructive pulmonary disease") + ". Cochrane Database Syst Rev. 2012;(10):CD008250.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)", "Chronic obstructive pulmonary disease (COPD)") + ". Fact sheet. 10 June 2026.",
 ]
 

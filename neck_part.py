@@ -123,6 +123,9 @@ NECK_CSS = OMUZ_CSS + """
   @media (max-width:600px){.ex.four{grid-template-columns:1fr}}
   .callout{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin:18px 0 0;max-width:760px}
   .callout p{margin:0 0 8px;color:var(--ink-soft)}
+  .callout.obs{border-left-color:var(--sage);background:rgba(143,164,118,.09);border-radius:0 12px 12px 0;padding:12px 16px 6px}
+  .callout.obs .obs-k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil);margin:0 0 6px}
+  .callout.obs p:not(.obs-k){color:var(--ink)}
   .rl{list-style:none;margin:0;padding:0;max-width:760px}
   .rl li{display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,1fr);gap:14px;padding:12px 0;border-top:1px solid var(--line)}
   .rl li:last-child{border-bottom:1px solid var(--line)}
@@ -143,6 +146,12 @@ def ex_grid(keys, cls="ex"):
 
 def src_list(items):
     return "<ol>\n" + "\n".join(f"        <li>{s}</li>" for s in items) + "\n      </ol>"
+
+# Kişisel klinik gözlem kutusu: araştırma kanıtından AYRI, açıkça "gözlem" diye etiketli (kullanıcı isteği, 7 Ekim 2026)
+OBS_TAIL = "Bunu bir araştırma sonucu olarak değil, kendi gözlemim olarak paylaşıyorum; herkes aynı yanıtı vermeyebilir."
+def OBS(text):
+    return f'<div class="callout obs"><p class="obs-k">Kişisel klinik gözlemim</p><p>{text} {OBS_TAIL}</p></div>'
+ACU_LAW = "Türkiye'de akupunkturu yalnızca ilgili alanda uygulama sertifikası olan hekimler, Sağlık Bakanlığınca yetkilendirilmiş birimlerde yapabilir. Akupunkturu tıbbi tedavinin ve rehabilitasyonun yerine değil, yanında düşünün."
 
 def ext(url, text):
     return f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'

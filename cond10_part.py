@@ -16,7 +16,7 @@ RA_FAQ = [
 ]
 
 RA_SRC = [
- "Hurkmans E, van der Giesen FJ, Vliet Vlieland TPM, Schoones J, Van den Ende ECHM. " + ext("https://www.cochrane.org/CD006853", "Dynamic exercise programs (aerobic capacity and/or muscle strength training) in patients with rheumatoid arthritis") + ". Cochrane Database Syst Rev. 2022;(3):CD006853.",
+ "Hurkmans E, van der Giesen FJ, Vliet Vlieland TPM, Schoones J, Van den Ende ECHM. " + ext("https://www.cochrane.org/CD006853", "Dynamic exercise programs (aerobic capacity and/or muscle strength training) in patients with rheumatoid arthritis") + ". Cochrane Database Syst Rev. 2009;(4):CD006853.",
  "Lamb SE, Williamson EM, Heine PJ, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/42037", "Exercises to improve function of the rheumatoid hand (SARAH): a randomised controlled trial") + ". Lancet. 2015;385(9966):421-429.",
  "Rausch Osthoff AK, Niedermann K, Braun J, et al. " + ext("https://ard.bmj.com/content/77/9/1251", "2018 EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis") + ". Ann Rheum Dis. 2018;77(9):1251-1260.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis", "Rheumatoid arthritis") + ". Fact sheet. 28 June 2023.",

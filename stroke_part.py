@@ -78,6 +78,7 @@ INME_SRC = [
  "Saunders DH, Sanderson M, Hayes S, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003316.pub7/full", "Physical fitness training for stroke patients") + ". Cochrane Database Syst Rev. 2020;3:CD003316.",
  "Saver JL. Time is brain—quantified. Stroke. 2006;37(1):263-266.",
  "Thieme H, Morkisch N, Mehrholz J, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008449.pub3/full", "Mirror therapy for improving motor function after stroke") + ". Cochrane Database Syst Rev. 2018;7:CD008449.",
+ "Yang A, Wu HM, Tang JL, Xu L, Yang M, Liu GJ. " + ext("https://www.cochrane.org/CD004131/STROKE_acupuncture-stroke-rehabilitation", "Acupuncture for stroke rehabilitation") + ". Cochrane Database Syst Rev. 2016;(8):CD004131.",
  "Ward NS, Brander F, Kelly K. " + ext("https://discovery.ucl.ac.uk/10069316/", "Intensive upper limb neurorehabilitation in chronic stroke: outcomes from the Queen Square programme") + ". J Neurol Neurosurg Psychiatry. 2019;90(5):498-506.",
 ]
 
@@ -193,6 +194,17 @@ INME_BODY = f'''<header class="page">
         </div>
       </div>
       <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Akupunktur: araştırmalar ve klinik gözlemim</h2>
+      <p class="soft">31 çalışmayı (2.257 kişi) inceleyen Cochrane derlemesine göre akupunktur, inme sonrasında günlük yaşamda bağımsızlık, hareket, yutma ve ağrı gibi alanlarda yararlı olabilir; ciddi bir yan etki bildirilmedi. Ancak kanıtın kalitesi düşük ya da çok düşük olduğu için yazarlar, rutin kullanımı konusunda kesin bir sonuca varılamadığını belirtiyor.</p>
+      {OBS("Kendi klinik gözlemimde, inme sonrası felçlerde ve diğer nörolojik sorunlarda akupunkturun çok etkili olduğunu gördüm.")}
+      <div class="callout">
+        <p>{ACU_LAW}</p>
+      </div>
     </div>
   </section>
 

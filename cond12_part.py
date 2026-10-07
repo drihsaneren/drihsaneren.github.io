@@ -111,7 +111,8 @@ TR_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Tamamlayıcı yaklaşımlar: kanıt ne diyor?</h2>
       <p class="soft">Esansiyel tremorda akupunkturu inceleyen 2026 tarihli bir derleme, 1.067 katılımcılı 20 rastgele kontrollü çalışmayı birleştirdi ve akupunktur uygulanan gruplarda titreme puanlarında iyileşme bildirdi. Ancak çalışmaların tümü Çin'de yapılmış; yazarların kendisi de örneklemlerin küçük olduğunu, körleme yapılmadığını ve katılımcıların gruplara dağıtımının yeterince gizlenmediğini belirtiyor. Bu yüzden sonuç umut verici bir ön bulgu sayılmalı; kesin konuşmak için daha sağlam çalışmalar gerekiyor.</p>
-      <p class="soft">Gevşeme ve nefes çalışmaları titremenin kendisini tedavi etmez; ancak stres ve kaygı titremeyi artırdığı için tetikleyiciyi azaltmaya yardımcı olabilir.</p>
+      {OBS("Kendi klinik gözlemimde akupunkturun titremede etkili olduğunu gördüm.")}
+      <p class="soft" style="margin-top:16px">Gevşeme ve nefes çalışmaları titremenin kendisini tedavi etmez; ancak stres ve kaygı titremeyi artırdığı için tetikleyiciyi azaltmaya yardımcı olabilir.</p>
       <div class="callout">
         <p>Türkiye'de akupunktur gibi geleneksel ve tamamlayıcı tıp uygulamalarını yalnızca ilgili alanda uygulama sertifikası olan hekimler, Sağlık Bakanlığınca yetkilendirilmiş birimlerde yapabilir. Tamamlayıcı bir yöntem denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun ve yöntemi tıbbi tedavinin yerine değil, yanında düşünün.</p>
       </div>

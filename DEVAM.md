@@ -63,6 +63,7 @@ Sonra `$REPO` içinde commit + push (main). Araçlarda değişiklik yaptıysan b
 - Dijital kartvizit bağlantısı yalnızca iletişim bölümünde. "YouTube'da izle / Spotify'da aç" yönlendirmesi yok.
 - Altın-yeşil tasarım korunur. Galeri fotoğrafları tıklanınca açılmaz; yapay zekâ görselleri gerçek fotoğraf diye sunulmaz.
 - İğneleme (akupunktur, kuru iğneleme) hekim yetkisindedir; hizmet olarak sunulmaz, yalnızca logo bölümünde "hekimlik" çerçevesinde geçer.
+  Ayrı konu: **"Kişisel klinik gözlemim" kutusu** (`OBS()`, neck_part.py). Kullanıcı 7 Ekim 2026'da akupunktur için kendi klinik gözlemini yazmamı istedi; kutu yüz felci, inme, fibromiyalji ve titreme sayfalarında var. Her zaman araştırma özetinin YANINDA, "gözlem, araştırma sonucu değil" cümlesiyle (`OBS_TAIL`) ve mevzuat notuyla (`ACU_LAW`) birlikte durur; hizmet olarak sunulmaz. Üşüme sayfasına konmaz.
 - Sağlık iddiaları kaynaklı ve ölçülü yazılır; skala "tanı koymaz" notunu taşır.
 - Her değişiklik TR + EN birlikte; telefon (390) ve bilgisayar (1366/1440) genişliğinde taşma sınaması.
 - Kullanıcıya yanıtlar Türkçe.
@@ -185,3 +186,18 @@ gönderdiği resmî Nobel Instagram görsellerinden. Okunan: STAT (tıp), Forbes
 CNN ve NPR okunamadı (robots). Hafızadan (doğrulanmadı): kanalrodopsin 2002–2003, Pasteur 1848, Kagan 1986, Soai 1995, Pauli 1930, ilk nötrino 1956,
 Halzen'in önerisi 1980'lerin sonu, IceCube 2011, karvon (nane/Frenk kimyonu), Sahel 2021 Nature Medicine künyesi. Portre çizimleri (Nobel'in görselleri) kullanılmadı.
 Çeviri: `i18n/done/nobel-2026.json` (87 birim) + fb392–fb397 (haber kartı, "Ekim 2026").
+
+## Yüz felci (cond13_part.py) ve klinik gözlem kutuları
+7 Ekim 2026: 31. hastalık rehberi `yuz-felci.html` / `en/bells-palsy.html` (bölge: genel). Ana ileti: ilk 72 saatte kortizon + göz koruma; yüzü zorlamak iyileşmeyi hızlandırmaz.
+Bu yüzden "altı egzersiz" değil "altı güvenli uygulama": ilk üçü ilk haftalar için (`fp_eye`, `fp_massage`, `fp_breath`), son üçü hareket geri gelirken (`fp_smile`, `fp_brow`, `fp_lips`).
+Yeni yüz çizimleri `_face()` ile üretilir. Videolar Queen Victoria Hospital (`xmnpEpmmiTQ` göz bantlama, `u0pEAFvnUSg` masaj; oEmbed ile doğrulandı, izlenemedi).
+Yedekte doğrulanmış videolar: Cleveland Clinic "What Is Bell's Palsy?" (`stS7WAp4n8U`), University Hospital Southampton "Facial exercise programme" (`og33hoO-8AQ`).
+Kaynaklar (okundu): NHS (4 Temmuz 2023), NINDS (19 Mayıs 2026), Cochrane kortizon (7 çalışma, 895 kişi, %17'ye karşı %28), Cochrane fizik tedavi (12 çalışma, 872 kişi),
+Cochrane akupunktur (6 çalışma, 537 kişi: sonuca varılamadı), Facial Palsy UK (ilk dönem önerileri), Oxford University Hospitals broşürü (Ekim 2025), Berkshire Healthcare broşürü.
+Kaynağa dayanmayan, genel bilgiyle yazılanlar: son üç uygulamanın tekrar sayıları (5 tekrar, günde 2–3 kez), "kulak çevresinde ağrılı kabarcıklar" uyarısı, gevşeme nefesinin ayrıntıları.
+**Dikkat:** cochrane.org her derlemeyi "2022, Issue 3" diye gösteriyor; yıl oradan ALINMAZ. Bu yüzden Hurkmans (2009;(4)) ve Holland (2012;(10)) künyeleri düzeltildi;
+Chen 2010;(8), Deare 2013;(5), Yang 2016;(8), Madhok 2016;(7), Teixeira 2011;(12) yıl/sayıları hafızadan yazıldı (doğrulanmadı).
+Aynı gün inme ve fibromiyalji sayfalarına "Akupunktur: araştırmalar ve klinik gözlemim" bölümü eklendi (Cochrane: inme 31 çalışma/2.257 kişi, kanıt düşük–çok düşük;
+fibromiyalji 9 çalışma/395 kişi, standart tedaviye eklenince ağrıda ~30 puan, etki 1 ay, 6. ayda yok). Titreme sayfasındaki mevcut bölüme gözlem kutusu kondu.
+Parkinson ve MS sayfalarına eklenmedi (kanıt okunmadı; kullanıcı isterse eklenir). Çeviri: `i18n/done/yuz-felci.json` (97 birim) + fb398–fb408.
+t_ls kullanımı: İngilizce sayfa adları `en/` ÖNEKSİZ verilir (`t_ls.py <dizin> yuz-felci.html bells-palsy.html 2 cene-eklemi.html jaw-joint-tmd.html`).
