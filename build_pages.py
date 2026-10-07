@@ -181,7 +181,7 @@ CSS = """
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
 """
 
-KOSE_PAGES = {"bilgi.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+KOSE_PAGES = {"bilgi.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
@@ -243,6 +243,7 @@ TOPICS = {
     "on-capraz-bag.html": ("Hastalık rehberi", "Ön çapraz bağ yaralanması"),
     "romatoid-artrit.html": ("Hastalık rehberi", "Romatoid artrit ve egzersiz"),
     "surekli-usume.html": ("Hastalık rehberi", "Sürekli üşüme (soğuğa duyarlılık)"),
+    "titreme.html": ("Hastalık rehberi", "Titreme (tremor)"),
     "stres.html": ("Kendine iyi bak", "Stresli anlarda ne yapabilirsiniz?"),
     "masa-basi.html": ("Kendine iyi bak", "Masa başında çalışanlar için"),
     "sabah-rutini.html": ("Kendine iyi bak", "Güne 5 dakikayla başlayın"),
@@ -288,7 +289,8 @@ RELATED = {
     "menisku-yirtigi.html": ["diz-kireclenmesi.html", "on-capraz-bag.html"],
     "on-capraz-bag.html": ["menisku-yirtigi.html", "diz-onu-agrisi.html"],
     "romatoid-artrit.html": ["ankilozan-spondilit.html", "karpal-tunel-sendromu.html"],
-    "surekli-usume.html": ["fibromiyalji.html", "uyku.html"],
+    "surekli-usume.html": ["titreme.html", "uyku.html"],
+    "titreme.html": ["parkinson.html", "surekli-usume.html"],
     "fibromiyalji.html": ["uyku.html", "stres.html"],
     "bas-donmesi.html": ["dusme-onleme.html", "boyun-agrisi.html"],
     "ankilozan-spondilit.html": ["bel-agrisi.html", "boyun-agrisi.html"],
@@ -995,7 +997,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "self2_part.py", "self3_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "self2_part.py", "self3_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1652,6 +1654,8 @@ TH_RA = """<svg viewBox="0 0 320 150" aria-hidden="true"><g stroke="#8fa476" str
 C_RA = KC("romatoid-artrit.html", TH_RA, "Hastalık rehberi", "Romatoid artrit ve egzersiz", "Egzersiz iltihaplı eklemlere zarar verir mi? Araştırmaların gösterdikleri, alevlenmede ne yapmalı, el egzersizleri ve videolar.")
 TH_COLD = """<svg viewBox="0 0 320 150" aria-hidden="true"><g stroke="#8fa476" stroke-width="7" stroke-linecap="round" fill="none"><path d="M160 22 V128"/><path d="M114 48 L206 102"/><path d="M114 102 L206 48"/><path d="M148 34 L160 46 L172 34"/><path d="M148 116 L160 104 L172 116"/><path d="M118 66 L134 60 L130 44"/><path d="M202 84 L186 90 L190 106"/><path d="M118 84 L134 90 L130 106"/><path d="M202 66 L186 60 L190 44"/></g><circle cx="160" cy="75" r="9" fill="#e2ab47"/></svg>"""
 C_COLD = KC("surekli-usume.html", TH_COLD, "Hastalık rehberi", "Sürekli üşüme (soğuğa duyarlılık)", "Herkes rahatken siz neden üşüyorsunuz? Olası nedenler, istenen testler, günlük önlemler ve tamamlayıcı yöntemler için kanıt.")
+TH_TREMOR = """<svg viewBox="0 0 320 150" aria-hidden="true"><g stroke="#8fa476" stroke-width="13" stroke-linecap="round" fill="none"><path d="M138 86 V36"/><path d="M156 82 V24"/><path d="M174 84 V30"/><path d="M191 90 V46"/><path d="M130 112 L108 88"/></g><rect x="128" y="82" width="72" height="56" rx="16" fill="#8fa476"/><g stroke="#e2ab47" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M222 40 l10 12 l-10 12 l10 12 l-10 12 l10 12"/><path d="M244 52 l8 10 l-8 10 l8 10 l-8 10"/><path d="M98 40 l-10 12 l10 12 l-10 12 l10 12"/><path d="M76 52 l-8 10 l8 10 l-8 10 l8 10"/></g></svg>"""
+C_TREMOR = KC("titreme.html", TH_TREMOR, "Hastalık rehberi", "Titreme (tremor)", "Eller neden titrer? Titreme türleri, nedenin nasıl araştırıldığı, günlük hayat önerileri, egzersizler ve akupunktur için kanıt.")
 C_FIBRO = KC("fibromiyalji.html", TH_FIBRO, "Hastalık rehberi", "Fibromiyalji", "Yaygın ağrı ve yorgunluk neden olur? Güçlü öneri alan tek tedavi egzersiz: az ve yavaş başlayan altı hareket.")
 C_VERTIGO = KC("bas-donmesi.html", TH_VERTIGO, "Hastalık rehberi", "Baş dönmesi (BPPV)", "Yatarken ve dönerken başlayan kısa süreli baş dönmesi: Epley manevrası adım adım ve acil uyarı işaretleri.")
 C_AS = KC("ankilozan-spondilit.html", TH_AS, "Hastalık rehberi", "Ankilozan spondilit", "Dinlenmekle artan, hareketle azalan bel ağrısı: iltihaplı bel ağrısını tanıyın; evde altı duruş ve esneklik egzersizi.")
@@ -1702,7 +1706,7 @@ AGR = [(C_BACK, "bel"), (C_SCIATICA, "bel"), (C_LS, "bel"), (C_AS, "bel"), (C_SC
        (C_SHOULDER, "omuz"), (C_IMPINGE, "omuz"), (C_RC, "omuz"), (C_CTS, "omuz"), (C_ELBOW, "omuz"),
        (C_KNEE, "diz"), (C_MENISCUS, "diz"), (C_ACL, "diz"), (C_PFP, "diz"), (C_HIP, "diz"),
        (C_HEEL, "ayak"), (C_ACHILLES, "ayak"), (C_ANKLE, "ayak"),
-       (C_UI, "kadin"), (C_PREG, "kadin bel"), (C_OSTEO, "genel"), (C_FIBRO, "genel"), (C_RA, "genel"), (C_COLD, "genel")]
+       (C_UI, "kadin"), (C_PREG, "kadin bel"), (C_OSTEO, "genel"), (C_FIBRO, "genel"), (C_RA, "genel"), (C_COLD, "genel"), (C_TREMOR, "genel")]
 def region_filter():
     cnt = {r: sum(1 for _, rr in AGR if r in rr.split()) for r, _ in REGIONS}
     cnt["tum"] = len(AGR)
@@ -1781,7 +1785,7 @@ PULSE_JS = """<script>
 </script>
 """
 PILL = {
-    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "romatoid-artrit.html": "Romatoid artrit", "surekli-usume.html": "Sürekli üşüme", "boyun-agrisi.html": "Boyun ağrısı",
+    "bel-agrisi.html": "Bel ağrısı", "bel-fitigi.html": "Bel fıtığı", "dar-kanal.html": "Dar kanal", "on-capraz-bag.html": "Ön çapraz bağ", "romatoid-artrit.html": "Romatoid artrit", "surekli-usume.html": "Sürekli üşüme", "titreme.html": "Titreme", "boyun-agrisi.html": "Boyun ağrısı",
     "boyun-fitigi.html": "Boyun fıtığı", "bas-agrisi.html": "Baş ağrısı", "cene-eklemi.html": "Çene eklemi",
     "diz-kireclenmesi.html": "Diz kireçlenmesi", "menisku-yirtigi.html": "Menisküs yırtığı", "diz-onu-agrisi.html": "Diz önü ağrısı",
     "kalca-kireclenmesi.html": "Kalça kireçlenmesi", "donuk-omuz.html": "Donuk omuz", "omuz-sikismasi.html": "Omuz sıkışması",

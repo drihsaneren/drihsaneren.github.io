@@ -48,6 +48,7 @@ EN = {
     "on-capraz-bag.html": "acl-injury.html",
     "romatoid-artrit.html": "rheumatoid-arthritis.html",
     "surekli-usume.html": "always-feeling-cold.html",
+    "titreme.html": "tremor.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",
     "multipl-skleroz.html": "multiple-sclerosis.html",

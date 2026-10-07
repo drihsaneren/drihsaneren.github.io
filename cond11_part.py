@@ -122,6 +122,27 @@ COLD_BODY = f'''<header class="page">
     </div>
   </section>
 
+  <section id="videolar">
+    <div class="wrap">
+      <p class="eyebrow">Video</p>
+      <h2>Raynaud fenomeni için videolar</h2>
+      <p class="soft">ABD'deki Johns Hopkins Romatoloji bölümünün ve Avera Health'in YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <div class="vids">
+        <div class="vid">
+          {vbox("Jv0kEFCYF5M", "Raynaud fenomeni videosunu oynat", "Raynaud's Phenomenon : What You Should Know | Johns Hopkins Medicine")}
+          <h3>Raynaud fenomeni: bilmeniz gerekenler</h3>
+          <p>Johns Hopkins Romatoloji'nin hastalar için hazırladığı bilgilendirme videosu.</p>
+        </div>
+        <div class="vid">
+          {vbox("yjG_BmcfpNo", "Raynaud fenomeni nedir videosunu oynat", "What is Raynaud's Phenomenon?")}
+          <h3>Raynaud fenomeni nedir?</h3>
+          <p>Raynaud fenomenini tanıtan kısa video.</p>
+        </div>
+      </div>
+      <p class="meta">Videolar Johns Hopkins Rheumatology ve Avera Health kanallarına aittir.</p>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
@@ -155,6 +176,6 @@ COLD_BODY = f'''<header class="page">
 
 page("surekli-usume.html", "Sürekli Üşüme (Soğuğa Duyarlılık)",
      "Herkes rahatken siz neden üşüyorsunuz? Tiroid, kansızlık ve Raynaud gibi olası nedenler, istenen testler, günlük önlemler ve tamamlayıcı yöntemler için kanıtın ne dediği.",
-     "surekli-usume.html", NECK_CSS, COLD_BODY, "",
+     "surekli-usume.html", NECK_CSS, COLD_BODY, YT_JS,
      seo_title="Sürekli Üşüme: Nedenleri, Testler ve Yapılabilecekler | İhsan Eren",
      condition="Soğuğa duyarlılık", faq_items=COLD_FAQ)

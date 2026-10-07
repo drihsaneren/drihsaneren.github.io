@@ -161,4 +161,12 @@ Kaynaklar (okundu): MedlinePlus "Cold intolerance" (27 Şubat 2026), NHS Raynaud
 Malenfant 2009 (özet qxmd üzerinden: 20 RKÇ; biyogeribildirim işe yaramıyor, eldiven tek çalışma, lazer belirsiz, akupunktur 2 çalışma yetersiz; cilt/sayfa hafızadan: 48(7):791-795),
 Yamazaki 2023 (16 kadın, 2 hafta yürüyüş/koşu: üşüme hissi azaldı, cilt sıcaklığı değişmedi). Okunamayan: el-ayak üşümesinde bitkisel ürünler derlemesi (PMC captcha) -> sayfada kullanılmadı.
 **Titreme (tremor) için bekleyen fikir:** kullanıcı "akupunktur etkili" dedi. Okunan: Shen ve ark., Healthcare 2026 ağ meta-analizi (esansiyel tremor; 20 RKÇ, 1.067 kişi,
-hepsi Çin'de; küçük örneklem, körleme yok, gizleme yetersiz) -> "umut verici ama kanıt kesinliği düşük" diye yazılmalı, "etkili" denmemeli. Rehber kullanıcı onayını bekliyor.
+hepsi Çin'de; küçük örneklem, körleme yok, gizleme yetersiz) -> "umut verici ama kanıt kesinliği düşük" diye yazıldı. Rehber kullanıcı onayıyla yayımlandı (aşağıda).
+
+## Titreme (cond12_part.py)
+7 Ekim 2026: 30. hastalık rehberi `titreme.html` / `en/tremor.html` (bölge: genel). Sıra üşüme sayfasıyla aynı: türler ve araştırma -> tedavi -> günlük hayat
+önerileri -> tamamlayıcı yaklaşımlar için kanıt -> altı egzersiz -> videolar. `CTA_CARD` var ("titremeye bağlı günlük yaşam güçlükleri"; NINDS fizyoterapi/iş-uğraşı terapisini sayıyor).
+Kaynaklar (okundu): NINDS Tremor (23 Temmuz 2026: 7 tür, ET'de %50–70 kalıtsal, tedaviler), NHS (14 Kasım 2023: neler artırır, ne zaman başvurmalı),
+Kavanagh 2016 (10 ET + 9 kontrol, 6 hafta), Sequeira 2012 (6 kişi, kontrolsüz), Shen 2026 (20 RKÇ, 1.067 kişi, hepsi Çin'de). Videolar: IETF (`z-nBScb735E`), VCU Health (`WwIsROk3QA8`).
+Üşüme sayfasına videolar eklendi: Johns Hopkins Rheumatology (`Jv0kEFCYF5M`), Avera Health (`yjG_BmcfpNo`).
+Günlük hayat önerileri (kapaklı bardak, dirseği dayama, kalın saplı kaşık vb.) yaygın iş-uğraşı terapisi önerileridir; ayrı bir kaynağa dayandırılmadı, iddia içermez.
