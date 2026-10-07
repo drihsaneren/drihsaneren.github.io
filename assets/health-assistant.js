@@ -104,100 +104,177 @@ function scoreText(text,ts){
   return score;
 }
 function bodyIntent(q){
-  var n=normalize(q);
-  if(lang==="tr"){
-    if(/\b(boyn\w*|boyun\w*)\b/.test(n))return "neck";
-    if(/\bbel\w*\b/.test(n))return "back";
-    if(/(^|\s)(omuz\w*|omz\w*)(?=\s|$)/.test(n))return "shoulder";
-    if(/\bdiz\w*\b/.test(n))return "knee";
-    if(/\b(kalç\w*|kalc\w*)\b/.test(n))return "hip";
-    if(/(^|\s)(topuk\w*|topuğ\w*|topug\w*|topu\w*)(?=\s|$)/.test(n))return "heel";
-    if(/\b(baş\w*|bas\w*)\b/.test(n))return "head";
-    if(/(^|\s)(dirsek\w*|dirseğ\w*|dirseg\w*|dirse\w*)(?=\s|$)/.test(n))return "elbow";
-    if(/\b(çene\w*|cene\w*)\b/.test(n))return "jaw";
-  }else{
-    if(/\bneck\b/.test(n))return "neck";
-    if(/\b(low back|back)\b/.test(n))return "back";
-    if(/\bshoulder\b/.test(n))return "shoulder";
-    if(/\bknee\b/.test(n))return "knee";
-    if(/\bhip\b/.test(n))return "hip";
-    if(/\bheel\b/.test(n))return "heel";
-    if(/\b(head|headache)\b/.test(n))return "head";
-    if(/\belbow\b/.test(n))return "elbow";
-    if(/\b(jaw|tmj)\b/.test(n))return "jaw";
-  }
+  var ts=normalize(q).split(" ").filter(Boolean).map(rootToken);
+  var set=new Set(ts);
+  if(set.has("boyun"))return "neck";
+  if(set.has("bel"))return "back";
+  if(set.has("omuz"))return "shoulder";
+  if(set.has("diz"))return "knee";
+  if(set.has("kalça"))return "hip";
+  if(set.has("topuk"))return "heel";
+  if(set.has("dirsek"))return "elbow";
+  if(set.has("çene"))return "jaw";
+  if(set.has("bilek"))return "wrist";
+  if(set.has("ayak"))return "ankle";
+  // Avoid mapping verbs such as "basınca" to head; accept only common head noun forms.
+  var raw=normalize(q).split(" ");
+  if(raw.some(function(x){return x==="bas"||/^bas(i|ı)m/.test(x)||/^bas(ta|da|tan|dan)$/.test(x)}))return "head";
   return "";
 }
-function matchesIntent(p,intent){
-  if(!intent)return true;
-  var u=(p.u||"").toLowerCase(), t=normalize(p.t||"");
-  var rules=lang==="tr"?{
+function specificIntent(q){
+  var n=normalize(q);
+  function hasAny(list){return list.some(function(x){return n.indexOf(x)>=0})}
+  var body=bodyIntent(q);
+  var pregnancy=hasAny(["gebel","hamil","pregnan"]);
+  var disc=hasAny(["fitig","fıtık","fitik","hernia","disc"]);
+  if(pregnancy&&body==="back")return "pregnancy-back";
+  if(disc&&body==="back")return "lumbar-disc";
+  if(disc&&body==="neck")return "cervical-disc";
+  if(hasAny(["bas don","baş dön","vertigo","bppv"]))return "vertigo";
+  if(hasAny(["fibromiyal","fibromyalgia"]))return "fibromyalgia";
+  if(hasAny(["parkinson"]))return "parkinson";
+  if(hasAny(["multipl skleroz","multiple sclerosis"])||/(^|\s)ms(?=\s|$)/.test(n))return "ms";
+  if(hasAny(["felc","felç","inme","stroke"]))return "stroke";
+  if(hasAny(["idrar kac","idrar kaç","urinary incontinence"]))return "incontinence";
+  if(hasAny(["koah","copd"]))return "copd";
+  if(hasAny(["kalp rehabil","cardiac rehab"]))return "cardiac-rehab";
+  if(hasAny(["romatoid","rheumatoid"]))return "ra";
+  if(hasAny(["ankilozan","ankylosing"]))return "as";
+  if(hasAny(["kemik erimes","osteopor"]))return "osteoporosis";
+  if(hasAny(["skolyoz","scoliosis"]))return "scoliosis";
+  if(hasAny(["titreme","tremor"]))return "tremor";
+  if(hasAny(["surekli us","sürekli üş","cold sensitivity"]))return "cold";
+  if(hasAny(["uykusuz","uyku","sleep"]))return "sleep";
+  if(hasAny(["stres","stress"]))return "stress";
+  if(hasAny(["dusuy","düşüy","dusme","düşme","fall"]))return "falls";
+  if(hasAny(["menisk","menisc"]))return "meniscus";
+  if(hasAny(["on capraz","ön çapraz","acl"]))return "acl";
+  if(hasAny(["rotator"]))return "rotator";
+  if(hasAny(["donuk omuz","frozen shoulder"]))return "frozen-shoulder";
+  if(hasAny(["karpal","carpal"]))return "carpal";
+  if(hasAny(["burkul","sprain"]))return "ankle-sprain";
+  if(hasAny(["asil","aşil","achilles"]))return "achilles";
+  if(hasAny(["kanser","cancer"]))return "cancer";
+  return "";
+}
+function routing(q){
+  var specific=specificIntent(q), body=bodyIntent(q);
+  var tr={
+    "pregnancy-back":{urls:["gebelikte-bel-agrisi.html","bel-agrisi.html"],primary:"gebelikte-bel-agrisi.html"},
+    "lumbar-disc":{urls:["bel-fitigi.html","bel-agrisi.html","dar-kanal.html"],primary:"bel-fitigi.html"},
+    "cervical-disc":{urls:["boyun-fitigi.html","boyun-agrisi.html"],primary:"boyun-fitigi.html"},
+    vertigo:{urls:["bas-donmesi.html"],primary:"bas-donmesi.html"},
+    fibromyalgia:{urls:["fibromiyalji.html"],primary:"fibromiyalji.html"},
+    parkinson:{urls:["parkinson.html"],primary:"parkinson.html"},
+    ms:{urls:["multipl-skleroz.html"],primary:"multipl-skleroz.html"},
+    stroke:{urls:["inme-rehabilitasyonu.html"],primary:"inme-rehabilitasyonu.html"},
+    incontinence:{urls:["idrar-kacirma.html"],primary:"idrar-kacirma.html"},
+    copd:{urls:["koah.html"],primary:"koah.html"},
+    "cardiac-rehab":{urls:["kalp-rehabilitasyonu.html"],primary:"kalp-rehabilitasyonu.html"},
+    ra:{urls:["romatoid-artrit.html"],primary:"romatoid-artrit.html"},
+    as:{urls:["ankilozan-spondilit.html"],primary:"ankilozan-spondilit.html"},
+    osteoporosis:{urls:["kemik-erimesi.html"],primary:"kemik-erimesi.html"},
+    scoliosis:{urls:["skolyoz.html"],primary:"skolyoz.html"},
+    tremor:{urls:["titreme.html"],primary:"titreme.html"},
+    cold:{urls:["surekli-usume.html"],primary:"surekli-usume.html"},
+    sleep:{urls:["uyku.html"],primary:"uyku.html"},
+    stress:{urls:["stres.html"],primary:"stres.html"},
+    falls:{urls:["dusme-onleme.html"],primary:"dusme-onleme.html"},
+    meniscus:{urls:["menisku-yirtigi.html","diz-onu-agrisi.html"],primary:"menisku-yirtigi.html"},
+    acl:{urls:["on-capraz-bag.html"],primary:"on-capraz-bag.html"},
+    rotator:{urls:["rotator-manset-yirtigi.html","omuz-sikismasi.html"],primary:"rotator-manset-yirtigi.html"},
+    "frozen-shoulder":{urls:["donuk-omuz.html"],primary:"donuk-omuz.html"},
+    carpal:{urls:["karpal-tunel-sendromu.html"],primary:"karpal-tunel-sendromu.html"},
+    "ankle-sprain":{urls:["ayak-bilegi-burkulmasi.html"],primary:"ayak-bilegi-burkulmasi.html"},
+    achilles:{urls:["asil-tendinopatisi.html"],primary:"asil-tendinopatisi.html"},
+    cancer:{urls:["kanser-egzersiz.html"],primary:"kanser-egzersiz.html"}
+  };
+  var en={
+    "pregnancy-back":{urls:["en/pregnancy-back-pain.html","en/low-back-pain.html"],primary:"en/pregnancy-back-pain.html"},
+    "lumbar-disc":{urls:["en/lumbar-disc-herniation.html","en/low-back-pain.html","en/lumbar-spinal-stenosis.html"],primary:"en/lumbar-disc-herniation.html"},
+    "cervical-disc":{urls:["en/cervical-disc-herniation.html","en/neck-pain.html"],primary:"en/cervical-disc-herniation.html"},
+    vertigo:{urls:["en/vertigo-bppv.html"],primary:"en/vertigo-bppv.html"},
+    fibromyalgia:{urls:["en/fibromyalgia.html"],primary:"en/fibromyalgia.html"},
+    parkinson:{urls:["en/parkinsons-disease.html"],primary:"en/parkinsons-disease.html"},
+    ms:{urls:["en/multiple-sclerosis.html"],primary:"en/multiple-sclerosis.html"},
+    stroke:{urls:["en/stroke-rehabilitation.html"],primary:"en/stroke-rehabilitation.html"},
+    incontinence:{urls:["en/urinary-incontinence.html"],primary:"en/urinary-incontinence.html"},
+    copd:{urls:["en/copd-pulmonary-rehabilitation.html"],primary:"en/copd-pulmonary-rehabilitation.html"},
+    "cardiac-rehab":{urls:["en/cardiac-rehabilitation.html"],primary:"en/cardiac-rehabilitation.html"},
+    ra:{urls:["en/rheumatoid-arthritis.html"],primary:"en/rheumatoid-arthritis.html"},
+    as:{urls:["en/ankylosing-spondylitis.html"],primary:"en/ankylosing-spondylitis.html"},
+    osteoporosis:{urls:["en/osteoporosis.html"],primary:"en/osteoporosis.html"},
+    scoliosis:{urls:["en/scoliosis.html"],primary:"en/scoliosis.html"},
+    tremor:{urls:["en/tremor.html"],primary:"en/tremor.html"},
+    sleep:{urls:["en/sleep.html"],primary:"en/sleep.html"},
+    stress:{urls:["en/stress.html"],primary:"en/stress.html"},
+    falls:{urls:["en/fall-prevention.html"],primary:"en/fall-prevention.html"},
+    meniscus:{urls:["en/meniscus-tear.html","en/anterior-knee-pain.html"],primary:"en/meniscus-tear.html"},
+    acl:{urls:["en/acl-injury.html"],primary:"en/acl-injury.html"},
+    rotator:{urls:["en/rotator-cuff-tear.html","en/shoulder-impingement.html"],primary:"en/rotator-cuff-tear.html"},
+    "frozen-shoulder":{urls:["en/frozen-shoulder.html"],primary:"en/frozen-shoulder.html"},
+    carpal:{urls:["en/carpal-tunnel-syndrome.html"],primary:"en/carpal-tunnel-syndrome.html"},
+    "ankle-sprain":{urls:["en/ankle-sprain.html"],primary:"en/ankle-sprain.html"},
+    achilles:{urls:["en/achilles-tendinopathy.html"],primary:"en/achilles-tendinopathy.html"},
+    cancer:{urls:["en/exercise-and-cancer.html"],primary:"en/exercise-and-cancer.html"}
+  };
+  var map=lang==="tr"?tr:en;
+  if(specific&&map[specific])return {key:specific,urls:map[specific].urls,primary:map[specific].primary,body:body};
+  var bodies=lang==="tr"?{
     neck:["boyun-agrisi.html","boyun-fitigi.html","bas-agrisi.html","masa-basi.html"],
     back:["bel-agrisi.html","bel-fitigi.html","dar-kanal.html","gebelikte-bel-agrisi.html"],
     shoulder:["omuz-sikismasi.html","rotator-manset-yirtigi.html","donuk-omuz.html"],
-    knee:["diz-kireclenmesi.html","diz-onu-agrisi.html","menisku-yirtigi.html","on-capraz-bag.html"],
-    hip:["kalca-kireclenmesi.html","kalca-kirigi.html"],
-    heel:["topuk-dikeni.html"],
-    head:["bas-agrisi.html","boyun-agrisi.html"],
+    knee:["diz-onu-agrisi.html","diz-kireclenmesi.html","menisku-yirtigi.html","on-capraz-bag.html"],
+    hip:["kalca-kireclenmesi.html","kalca-kirigi.html","protez-sonrasi.html"],
+    heel:["topuk-dikeni.html","asil-tendinopatisi.html"],
+    head:["bas-agrisi.html","bas-donmesi.html","boyun-agrisi.html"],
     elbow:["tenisci-dirsegi.html"],
-    jaw:["cene-eklemi.html"]
+    jaw:["cene-eklemi.html"],
+    wrist:["karpal-tunel-sendromu.html"],
+    ankle:["ayak-bilegi-burkulmasi.html","asil-tendinopatisi.html","topuk-dikeni.html"]
   }:{
     neck:["en/neck-pain.html","en/cervical-disc-herniation.html","en/headache.html","en/desk-work.html"],
     back:["en/low-back-pain.html","en/lumbar-disc-herniation.html","en/lumbar-spinal-stenosis.html","en/pregnancy-back-pain.html"],
     shoulder:["en/shoulder-impingement.html","en/rotator-cuff-tear.html","en/frozen-shoulder.html"],
-    knee:["en/knee-osteoarthritis.html","en/anterior-knee-pain.html","en/meniscus-tear.html","en/acl-injury.html"],
-    hip:["en/hip-osteoarthritis.html","en/hip-fracture-rehab.html"],
-    heel:["en/plantar-fasciitis.html"],
-    head:["en/headache.html","en/neck-pain.html"],
+    knee:["en/anterior-knee-pain.html","en/knee-osteoarthritis.html","en/meniscus-tear.html","en/acl-injury.html"],
+    hip:["en/hip-osteoarthritis.html","en/hip-fracture-rehab.html","en/joint-replacement-rehab.html"],
+    heel:["en/plantar-fasciitis.html","en/achilles-tendinopathy.html"],
+    head:["en/headache.html","en/vertigo-bppv.html","en/neck-pain.html"],
     elbow:["en/tennis-elbow.html"],
-    jaw:["en/jaw-joint-tmd.html"]
+    jaw:["en/jaw-joint-tmd.html"],
+    wrist:["en/carpal-tunnel-syndrome.html"],
+    ankle:["en/ankle-sprain.html","en/achilles-tendinopathy.html","en/plantar-fasciitis.html"]
   };
-  return (rules[intent]||[]).indexOf(u)>=0;
+  var primary=body&&bodies[body]&&bodies[body][0];
+  return {key:body||"",urls:body?bodies[body]||[]:[],primary:primary||"",body:body};
+}
+function matchesRoute(p,route){
+  if(!route||!route.urls||!route.urls.length)return true;
+  return route.urls.indexOf((p.u||"").toLowerCase())>=0;
 }
 function contextBoost(p,q){
-  var n=normalize(q),u=(p.u||"").toLowerCase(),intent=bodyIntent(q);
-  var hasBack=n.indexOf("bel")>=0;
-  var hasNeck=/\b(boyn\w*|boyun\w*)\b/.test(n)||n.indexOf("neck")>=0;
-  var hasPain=n.indexOf("ağr")>=0||n.indexOf("agr")>=0||n.indexOf("pain")>=0;
+  var n=normalize(q),u=(p.u||"").toLowerCase(),route=routing(q);
+  var boost=(route.primary===u)?260:0;
   var pregnancy=n.indexOf("gebel")>=0||n.indexOf("hamil")>=0||n.indexOf("pregnan")>=0;
-  var disc=n.indexOf("fıt")>=0||n.indexOf("fit")>=0||n.indexOf("hernia")>=0||n.indexOf("disc")>=0;
-
+  var disc=n.indexOf("fitig")>=0||n.indexOf("fitik")>=0||n.indexOf("hernia")>=0||n.indexOf("disc")>=0;
   if(lang==="tr"){
-    if(intent==="elbow"&&u==="tenisci-dirsegi.html") return 180;
-    if(intent==="heel"&&u==="topuk-dikeni.html") return 180;
-    if(intent==="jaw"&&u==="cene-eklemi.html") return 180;
-    if(intent==="shoulder"&&u==="omuz-sikismasi.html") return 90;
-    if(intent==="hip"&&u==="kalca-kireclenmesi.html") return 70;
-    if(intent==="knee"&&u==="diz-onu-agrisi.html") return 70;
-    if(intent==="head"&&u==="bas-agrisi.html") return 150;
-    if(u==="gebelikte-bel-agrisi.html") return pregnancy ? 180 : -180;
-    if(u==="bel-fitigi.html") return (hasBack&&disc) ? 170 : (hasBack&&hasPain&&!disc ? -45 : 0);
-    if(u==="bel-agrisi.html"&&hasBack&&hasPain&&!pregnancy&&!disc) return 200;
-    if(u==="boyun-fitigi.html"&&hasNeck&&disc) return 170;
-    if(u==="boyun-agrisi.html"&&hasNeck&&hasPain&&!disc) return 220;
-    if(u==="masa-basi.html"&&hasNeck) return -35;
+    if(u==="gebelikte-bel-agrisi.html"&&!pregnancy)boost-=200;
+    if(u==="bel-fitigi.html"&&route.body==="back"&&!disc)boost-=70;
+    if(u==="boyun-fitigi.html"&&route.body==="neck"&&!disc)boost-=70;
+    if(u==="masa-basi.html"&&route.body==="neck")boost-=45;
   }else{
-    if(intent==="elbow"&&u==="en/tennis-elbow.html") return 180;
-    if(intent==="heel"&&u==="en/plantar-fasciitis.html") return 180;
-    if(intent==="jaw"&&u==="en/jaw-joint-tmd.html") return 180;
-    if(intent==="shoulder"&&u==="en/shoulder-impingement.html") return 90;
-    if(intent==="hip"&&u==="en/hip-osteoarthritis.html") return 70;
-    if(intent==="knee"&&u==="en/anterior-knee-pain.html") return 70;
-    if(intent==="head"&&u==="en/headache.html") return 150;
-    if(u==="en/pregnancy-back-pain.html") return pregnancy ? 180 : -180;
-    if(u==="en/lumbar-disc-herniation.html") return (hasBack&&disc) ? 170 : (hasBack&&hasPain&&!disc ? -45 : 0);
-    if(u==="en/low-back-pain.html"&&hasBack&&hasPain&&!pregnancy&&!disc) return 200;
-    if(u==="en/cervical-disc-herniation.html"&&hasNeck&&disc) return 170;
-    if(u==="en/neck-pain.html"&&hasNeck&&hasPain&&!disc) return 220;
-    if(u==="en/desk-work.html"&&hasNeck) return -35;
+    if(u==="en/pregnancy-back-pain.html"&&!pregnancy)boost-=200;
+    if(u==="en/lumbar-disc-herniation.html"&&route.body==="back"&&!disc)boost-=70;
+    if(u==="en/cervical-disc-herniation.html"&&route.body==="neck"&&!disc)boost-=70;
+    if(u==="en/desk-work.html"&&route.body==="neck")boost-=45;
   }
-  return 0;
+  return boost;
 }
 function search(q){
-  var ts=tokens(q),intent=bodyIntent(q);
+  var ts=tokens(q),route=routing(q);
   if(!ts.length)return Promise.resolve([]);
   return loadIndex().then(function(pages){
-    return pages.filter(function(p){return matchesIntent(p,intent)}).map(function(p){
+    return pages.filter(function(p){return matchesRoute(p,route)}).map(function(p){
       var titleScore=scoreText(p.t,ts);
       var s=titleScore*12+scoreText(p.k,ts)*4+scoreText(p.d,ts)*2+contextBoost(p,q);
       var chunks=p.chunks.map(function(c){return {h:c.h,t:c.t,s:scoreText((c.h||"")+" "+c.t,ts)}}).filter(function(c){return c.s>0}).sort(function(a,b){return b.s-a.s}).slice(0,3);
@@ -302,6 +379,18 @@ function addInlineCard(){
     if(panel){panel.classList.add("is-open");document.documentElement.classList.add("ieai-open");setTimeout(function(){var i=panel.querySelector(".ieai-input");if(i)i.focus()},50)}
   });
 }
+function syncBottomControls(){
+  var fab=document.querySelector(".fab");
+  var active=!!(fab&&fab.classList.contains("on"));
+  document.documentElement.classList.toggle("ieai-bottom-control-visible",active);
+}
+function observeBottomControls(){
+  var fab=document.querySelector(".fab");
+  if(!fab)return;
+  syncBottomControls();
+  new MutationObserver(syncBottomControls).observe(fab,{attributes:true,attributeFilter:["class","aria-hidden"]});
+  window.addEventListener("resize",syncBottomControls,{passive:true});
+}
 function build(){
   if(document.querySelector(".ieai-launcher")||location.pathname.endsWith("/404.html")||document.title.indexOf("Sayfa bulunamadı")>=0)return;
   var b=el("button","ieai-launcher");b.type="button";b.setAttribute("aria-label",copy.title);
@@ -319,10 +408,11 @@ function build(){
   p.querySelector(".ieai-send").addEventListener("click",submit);
   p.querySelector(".ieai-input").addEventListener("keydown",function(e){if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();submit()}});
   addInlineCard();
+  observeBottomControls();
 }
 function loadConfig(){
   return fetch(CONFIG_URL,{cache:"no-store"}).then(function(r){return r.ok?r.json():{}}).then(function(x){cfg=Object.assign(cfg,x||{})}).catch(function(){});
 }
-window.__IEAI_TEST__={search:search,normalize:normalize,tokens:tokens,bodyIntent:bodyIntent,matchesIntent:matchesIntent};
+window.__IEAI_TEST__={search:search,normalize:normalize,tokens:tokens,bodyIntent:bodyIntent,specificIntent:specificIntent,routing:routing,matchesRoute:matchesRoute};
 loadConfig().then(function(){if(cfg.enabled!==false)build()});
 })();
