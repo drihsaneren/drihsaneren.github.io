@@ -254,3 +254,14 @@ Tetik parmak: NHS (17 Kasım 2025), NHS Scotland ulusal broşürü (iğne %70–
 St George's Nisan 2020 (%2–3, kadın, 40 yaş üstü), Cochrane iğne (2 RKÇ, 63 kişi; 37/100'e karşı 17/100; yıl/sayı 2009;(1) hafızadan). Hepsi okundu; altı uygulamanın hepsi broşürlerden.
 Kaynakta olmayan: enfeksiyon ve yaralanma uyarıları. Yeni çizimler: `tf_warm`, `tf_ice`, `tf_table`, `tf_passive`, `tf_splint`. Videolar: Mayo Clinic (`58xQr9tOx24`), Doctor O'Donovan (`89ACJJ-jsfA`).
 Çeviri: halluks-valgus (76), tetik-parmak (69) + fb420–fb421.
+
+## Golfçü dirseği ve Guillain-Barré (cond18_part.py)
+8 Ekim 2026: `golfcu-dirsegi.html` / `en/golfers-elbow.html` (bölge: omuz) ve `guillain-barre.html` / `en/guillain-barre-syndrome.html` (Rehabilitasyon rehberi).
+Golfçü dirseği: NHS Fife (Şubat 2025: yedi egzersiz ve dozları, buz 10 dk x3–4, bant, iğne az kişide kısa vadeli; spor yapmayanlarda daha sık, kadın=erkek) ve Plymouth broşürü
+(Eylül 2019: 30–50 yaş, belirtiler, golf tekniği, eksantrik 3x10). Altı egzersizin hepsi Fife broşüründen. Kaynakta olmayan: uyarı işaretleri. Araştırma kanıtı (RKÇ/derleme) okunmadı; sayfa da iddia etmiyor.
+Yeni çizimler: `ge_rot`, `ge_con`. Videolar: CommonSpirit Houston (`m8YtVpSR1Bk`), Rehab Science (`yTPQEW1aTTI`). Sayfada tenisçi dirseği rehberine iç bağlantı var.
+Guillain-Barré: NHS (12 Ağustos 2024), DSÖ (24 Ekim 2025: 3'te 1 solunum), NINDS (13 Mart 2026: %90'ı 3. haftada en zayıf; pasif hareket, hedefli güçlendirme), Cochrane IVIG (Hughes 2014: IVIG = plazma değişimi),
+Kiper 2025 kapsam derlemesi (16 çalışma; PEDro kaydından özet: güç, yorgunluk, bağımsızlık "olabilir"; güvenlik verisi kayıtta yok, bu yüzden "zarar göstermiyor" denmedi). Hepsi okundu.
+Kaynakta olmayan: altı egzersizin seçimi ve tekrar sayıları, "ertesi gün yorgunluk artarsa azaltın" kuralı, uyarı listesinin bir kısmı.
+Tek video: Mayo Clinic Radio (`HtkWhtG-MCM`); Mayo'nun diğer videosu (`qtKXD411CeA`) gömmeye kapalı (oEmbed 401). t_ls bu sayfada video sayısı 1 ile çalıştırılır.
+Çeviri: golfcu-dirsegi (74), guillain-barre (68) + fb422–fb424.

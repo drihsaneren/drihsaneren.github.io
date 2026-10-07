@@ -1,0 +1,342 @@
+[
+ {
+  "id": "gui0",
+  "kind": "text",
+  "tr": "Guillain-Barré Sendromu: Tedavi, İyileşme ve Rehabilitasyon | İhsan Eren"
+ },
+ {
+  "id": "gui1",
+  "kind": "attr",
+  "tr": "Guillain-Barré sendromu nedir, nasıl tedavi edilir, ne kadar sürede iyileşir? Hastane tedavisi, iyileşme döneminde rehabilitasyon, egzersiz için kanıt ve evde altı egzersiz."
+ },
+ {
+  "id": "gui2",
+  "kind": "text",
+  "tr": "Guillain-Barré sendromu"
+ },
+ {
+  "id": "gui3",
+  "kind": "text",
+  "tr": "Guillain-Barré sendromu, bağışıklık sisteminin çevresel sinirlere saldırdığı, seyrek görülen ve acil hastane tedavisi gerektiren bir hastalıktır. Güçsüzlük günler ve haftalar içinde ilerler, sonra yavaş yavaş geri döner: Çoğu kişi altı ay içinde yürür, bir yıl içinde toparlanır. İyileşme döneminde fizyoterapi, gücü ve bağımsızlığı geri kazanmanın temelidir."
+ },
+ {
+  "id": "gui4",
+  "kind": "text",
+  "tr": "2–4 hafta"
+ },
+ {
+  "id": "gui5",
+  "kind": "text",
+  "tr": "Belirtilerin genellikle kötüleşmeye devam ettiği süre"
+ },
+ {
+  "id": "gui6",
+  "kind": "text",
+  "tr": "Solunum kasları etkilenen hastaların oranı (DSÖ)"
+ },
+ {
+  "id": "gui7",
+  "kind": "text",
+  "tr": "Çoğu kişinin yeniden yürüdüğü süre; toparlanma bir yılı bulabilir"
+ },
+ {
+  "id": "gui8",
+  "kind": "text",
+  "tr": "İyileşme döneminde egzersizi inceleyen 2025 tarihli derleme"
+ },
+ {
+  "id": "gui9",
+  "kind": "text",
+  "tr": "<strong>Bu bir acil durumdur.</strong> Ayaklarda ve ellerde başlayıp yukarı doğru yayılan karıncalanma ve güçsüzlük varsa aynı gün hekime başvurun. Nefes almakta, yutmakta ya da konuşmakta güçlük, yüzde sarkma varsa 112'yi arayın. Bu sayfa, hastane tedavisinden sonraki iyileşme dönemi içindir."
+ },
+ {
+  "id": "gui10",
+  "kind": "text",
+  "tr": "Bağışıklık sistemi, beyin ve omurilik dışındaki sinirlere saldırır; sinirler kaslara ve duyulara giden sinyalleri iletemez. Çoğu zaman grip ya da mide-bağırsak enfeksiyonu gibi bir enfeksiyondan birkaç hafta sonra başlar. Her yaşta görülebilir; yetişkinlerde ve erkeklerde daha sıktır."
+ },
+ {
+  "id": "gui11",
+  "kind": "text",
+  "tr": "Güçsüzlük saatler, günler ya da haftalar içinde ilerler; hastaların onda dokuzu üçüncü haftaya gelindiğinde en zayıf dönemine ulaşmış olur. Sonra iyileşme başlar."
+ },
+ {
+  "id": "gui12",
+  "kind": "text",
+  "tr": "Ayaklarda ve ellerde karıncalanma, uyuşma, iğnelenme"
+ },
+ {
+  "id": "gui13",
+  "kind": "text",
+  "tr": "Bacaklardan başlayıp kollara ve yüze yayılan güçsüzlük"
+ },
+ {
+  "id": "gui14",
+  "kind": "text",
+  "tr": "Özellikle bacaklarda ve sırtta keskin sinir ağrısı"
+ },
+ {
+  "id": "gui15",
+  "kind": "text",
+  "tr": "Yürümede ve dengede bozulma"
+ },
+ {
+  "id": "gui16",
+  "kind": "text",
+  "tr": "Yüzde sarkma, yutma ya da konuşma güçlüğü, çift görme"
+ },
+ {
+  "id": "gui17",
+  "kind": "text",
+  "tr": "Nefes almada güçlük; nabız ve tansiyonda oynamalar"
+ },
+ {
+  "id": "gui18",
+  "kind": "text",
+  "tr": "Hastanede tedavi"
+ },
+ {
+  "id": "gui19",
+  "kind": "text",
+  "tr": "Tedavi hastanede, çoğunlukla birkaç hafta sürer. Bağışıklık sisteminin sinirlere saldırısını durdurmak için iki yöntemden biri kullanılır: damardan immünoglobulin (IVIG) ya da plazma değişimi. Cochrane derlemesine göre ağır hastalarda, ilk iki hafta içinde başlanan IVIG iyileşmeyi plazma değişimi kadar hızlandırıyor; ikisini art arda vermek ek yarar sağlamıyor."
+ },
+ {
+  "id": "gui20",
+  "kind": "text",
+  "tr": "Bunun yanında solunum, nabız ve tansiyon yakından izlenir; gerekirse solunum cihazı desteği verilir. Yürüyemeyen hastalarda bacak damarlarında pıhtı oluşmasını önlemek için ilaç ve bası çorabı, sinir ağrısı için ilaç kullanılır."
+ },
+ {
+  "id": "gui21",
+  "kind": "text",
+  "tr": "İyileşme döneminde rehabilitasyon"
+ },
+ {
+  "id": "gui22",
+  "kind": "text",
+  "tr": "Hareket açıklığı"
+ },
+ {
+  "id": "gui23",
+  "kind": "text",
+  "tr": "Kaslar çalışmazken fizyoterapist kolları ve bacakları hareket ettirir, doğru pozisyon verir; kasların kısalması önlenir."
+ },
+ {
+  "id": "gui24",
+  "kind": "text",
+  "tr": "Güç her kasa aynı hızda dönmez; zayıf kalan kaslara yönelik egzersizler yapılır."
+ },
+ {
+  "id": "gui25",
+  "kind": "text",
+  "tr": "Yürüme ve denge"
+ },
+ {
+  "id": "gui26",
+  "kind": "text",
+  "tr": "Gerekirse yürüteç ya da bastonla başlanır, destek kademeli olarak azaltılır."
+ },
+ {
+  "id": "gui27",
+  "kind": "text",
+  "tr": "Günlük işleri yeniden yapabilmek ve işe dönüş için çalışma; yardımcı araçlar."
+ },
+ {
+  "id": "gui28",
+  "kind": "text",
+  "tr": "Yorgunluk ve ağrı"
+ },
+ {
+  "id": "gui29",
+  "kind": "text",
+  "tr": "Uzun süre kalabilen yorgunluk ve sinir ağrısı için plan; ağrı ilaçlarını hekiminiz düzenler."
+ },
+ {
+  "id": "gui30",
+  "kind": "text",
+  "tr": "Kaygı ve depresyon sık görülür; psikolojik destek tedavinin parçasıdır."
+ },
+ {
+  "id": "gui31",
+  "kind": "text",
+  "tr": "16 çalışmayı inceleyen 2025 tarihli derlemeye göre egzersiz, Guillain-Barré sonrasında gücü artırabilir, yorgunluğu azaltabilir ve bağımsızlığı destekleyebilir; ancak çalışmalar küçük ve yazarlar daha büyük araştırmalara gerek olduğunu belirtiyor. Kısa seanslar yapın, araya dinlenme koyun; ertesi gün belirgin yorgunluk ya da güçsüzlük artışı olursa programı hafifletin."
+ },
+ {
+  "id": "gui32",
+  "kind": "text",
+  "tr": "İyileşme dönemi için altı egzersiz"
+ },
+ {
+  "id": "gui33",
+  "kind": "text",
+  "tr": "Bu hareketler hastaneden çıktıktan sonraki dönem içindir ve kolaydan zora sıralanmıştır. Hangi basamakta olduğunuz gücünüze bağlıdır; programınızı fizyoterapistinizle belirleyin ve yorulmadan bırakın."
+ },
+ {
+  "id": "gui34",
+  "kind": "text",
+  "tr": "Sırtüstü yatın ya da oturun. Ayak uçlarınızı önce kendinize doğru çekin, sonra aşağı doğru itin. Yatakta geçen dönemde baldır kaslarını çalıştırır ve ayak bileğinin sertleşmesini önler."
+ },
+ {
+  "id": "gui35",
+  "kind": "text",
+  "tr": "10–15 tekrar, günde birkaç kez"
+ },
+ {
+  "id": "gui36",
+  "kind": "text",
+  "tr": "Sırtüstü uzanın, dizinizin altına rulo yapılmış bir havlu koyun. Dizinizin arkasını havluya bastırarak uyluğunuzun ön kasını sıkın, birkaç saniye tutup gevşetin."
+ },
+ {
+  "id": "gui37",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü olsun. Kalçanızı yavaşça kaldırın, kısa bir an tutup kontrollü biçimde indirin. Yorulduğunuzda durun; kalite sayıdan önemlidir."
+ },
+ {
+  "id": "gui38",
+  "kind": "text",
+  "tr": "Sağlam bir sandalyenin ön kısmına oturun. Öne eğilip ellerinizden gerektiği kadar destek alarak ayağa kalkın, sonra yavaşça oturun. Güçlendikçe el desteğini azaltın."
+ },
+ {
+  "id": "gui39",
+  "kind": "text",
+  "tr": "Tezgâha tutunarak dik durun. İki topuğunuzu birlikte kaldırın ve yavaşça inin. Ayak bileği gücü çoğu zaman en son dönen güçtür; sabırla çalışın."
+ },
+ {
+  "id": "gui40",
+  "kind": "text",
+  "tr": "Kısa ve sık yürüyüş"
+ },
+ {
+  "id": "gui41",
+  "kind": "text",
+  "tr": "Uzun tek bir yürüyüş yerine gün içine yayılmış kısa yürüyüşler yapın. Gerekirse yürüteç ya da baston kullanın. Ertesi gün belirgin yorgunluk ya da güçsüzlük oluyorsa mesafeyi azaltın."
+ },
+ {
+  "id": "gui42",
+  "kind": "text",
+  "tr": "Günde birkaç kez, azar azar artırarak"
+ },
+ {
+  "id": "gui43",
+  "kind": "text",
+  "tr": "Guillain-Barré için video"
+ },
+ {
+  "id": "gui44",
+  "kind": "text",
+  "tr": "ABD'deki Mayo Clinic'in YouTube kanalından. Video İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "gui45",
+  "kind": "attr",
+  "tr": "Guillain-Barré söyleşi videosunu oynat"
+ },
+ {
+  "id": "gui46",
+  "kind": "text",
+  "tr": "Mayo Clinic Radio söyleşisi"
+ },
+ {
+  "id": "gui47",
+  "kind": "text",
+  "tr": "Guillain-Barré sendromunu konu alan radyo söyleşisi."
+ },
+ {
+  "id": "gui48",
+  "kind": "text",
+  "tr": "Video Mayo Clinic kanalına aittir."
+ },
+ {
+  "id": "gui49",
+  "kind": "text",
+  "tr": "Guillain-Barré sendromu tamamen geçer mi?"
+ },
+ {
+  "id": "gui50",
+  "kind": "text",
+  "tr": "Çoğu kişi, ağır geçirenler de dahil, tamamen iyileşir. Bazı kişilerde ise güçsüzlük, uyuşma, yorgunluk ya da ağrı uzun süre kalabilir. İyileşme birkaç haftadan birkaç yıla kadar sürebilir; bu yüzden rehabilitasyon ve düzenli kontrol önemlidir."
+ },
+ {
+  "id": "gui51",
+  "kind": "text",
+  "tr": "Ne kadar sürede yeniden yürürüm?"
+ },
+ {
+  "id": "gui52",
+  "kind": "text",
+  "tr": "Çoğu kişi altı ay içinde yürür ve bir yıl içinde toparlanır. Güçsüzlük genellikle ilk iki-dört hafta içinde en ağır düzeyine ulaşır, sonra yavaş yavaş geri döner. Süre kişiden kişiye çok değişir; güç her kasa aynı hızda dönmeyebilir."
+ },
+ {
+  "id": "gui53",
+  "kind": "text",
+  "tr": "Hastalık tekrarlar mı?"
+ },
+ {
+  "id": "gui54",
+  "kind": "text",
+  "tr": "Tekrarlayabilir; bu yüzden iyileştikten sonra önce birkaç ayda bir, sonra yılda bir kontrol önerilir. Uzun süredir devam eden belirtileriniz kötüleşirse ya da iyileştikten sonra belirtiler geri dönerse beklemeden uzmanınıza başvurun."
+ },
+ {
+  "id": "gui55",
+  "kind": "text",
+  "tr": "İyileşirken egzersiz yapmak zarar verir mi?"
+ },
+ {
+  "id": "gui56",
+  "kind": "text",
+  "tr": "Eldeki araştırmalar egzersizin yararlı olabileceğini gösteriyor: 16 çalışmayı inceleyen 2025 tarihli derlemeye göre egzersiz gücü artırabilir, yorgunluğu azaltabilir ve bağımsızlığı destekleyebilir. Yine de çalışmalar küçük ve kesin konuşmak için yeterli değil. Programı fizyoterapistinizle, yorgunluğunuza göre ayarlayın."
+ },
+ {
+  "id": "gui57",
+  "kind": "text",
+  "tr": "Şu durumlarda beklemeden yardım alın:"
+ },
+ {
+  "id": "gui58",
+  "kind": "text",
+  "tr": "Nefes almakta, yutmakta ya da konuşmakta güçlük; yüzde sarkma (112)"
+ },
+ {
+  "id": "gui59",
+  "kind": "text",
+  "tr": "Saatler ya da günler içinde hızla artan güçsüzlük"
+ },
+ {
+  "id": "gui60",
+  "kind": "text",
+  "tr": "İyileştikten sonra belirtilerin geri dönmesi ya da uzun süren belirtilerin kötüleşmesi"
+ },
+ {
+  "id": "gui61",
+  "kind": "text",
+  "tr": "Baldırda ağrılı şişlik, sıcaklık ya da kızarıklık"
+ },
+ {
+  "id": "gui62",
+  "kind": "text",
+  "tr": "Göğüs ağrısı ya da ani nefes darlığı (112)"
+ },
+ {
+  "id": "gui63",
+  "kind": "text",
+  "tr": "Guillain-Barré sonrası güçsüzlük ve yürüme güçlükleriniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "gui64",
+  "kind": "wa",
+  "tr": "Merhaba, Guillain-Barré sonrası rehabilitasyon için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "gui65",
+  "kind": "text",
+  "tr": "Hughes RAC, Swan AV, van Doorn PA. <a href=\"https://www.cochrane.org/CD002063/NEUROMUSC_intravenous-immunoglobulin-for-guillain-barre-syndrome\" target=\"_blank\" rel=\"noopener\">Intravenous immunoglobulin for Guillain-Barré syndrome</a>. Cochrane Database Syst Rev. 2014;(9):CD002063."
+ },
+ {
+  "id": "gui66",
+  "kind": "text",
+  "tr": "National Institute of Neurological Disorders and Stroke. <a href=\"https://www.ninds.nih.gov/health-information/disorders/guillain-barre-syndrome\" target=\"_blank\" rel=\"noopener\">Guillain-Barré syndrome</a>. Last reviewed 13 March 2026."
+ },
+ {
+  "id": "gui67",
+  "kind": "text",
+  "tr": "World Health Organization. <a href=\"https://www.who.int/news-room/fact-sheets/detail/guillain-barr%C3%A9-syndrome\" target=\"_blank\" rel=\"noopener\">Guillain–Barré syndrome</a>. Fact sheet. 24 October 2025."
+ }
+]
