@@ -39,7 +39,7 @@ var cfg={enabled:true,endpoint:"",modelLabel:""};
 var indexPromise=null;
 
 function el(tag,cls,text){var x=document.createElement(tag);if(cls)x.className=cls;if(text!=null)x.textContent=text;return x}
-function normalize(s){return (s||"").toLocaleLowerCase(lang==="tr"?"tr-TR":"en-US").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9çğıöşü\s-]/gi," ").replace(/\s+/g," ").trim()}
+function normalize(s){return (s||"").toLocaleLowerCase(lang==="tr"?"tr-TR":"en-US").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/ı/g,"i").replace(/[^a-z0-9\s-]/gi," ").replace(/\s+/g," ").trim()}
 var stop=new Set((lang==="en"?
 "the a an and or to of in on for with is are was were be been this that what how can do does my your about from at by it i me".split(" "):
 "ve veya ile bir bu şu o ne nasıl için gibi da de mı mi mu mü ben benim sen sizin siz bana bende olan olarak çok daha en".split(" ")));
@@ -130,7 +130,7 @@ function specificIntent(q){
   if(pregnancy&&body==="back")return "pregnancy-back";
   if(disc&&body==="back")return "lumbar-disc";
   if(disc&&body==="neck")return "cervical-disc";
-  if(hasAny(["bas don","baş dön","vertigo","bppv"]))return "vertigo";
+  if((body==="head"&&/(^|\s)don\w*/.test(n))||hasAny(["bas don","vertigo","bppv"]))return "vertigo";
   if(hasAny(["fibromiyal","fibromyalgia"]))return "fibromyalgia";
   if(hasAny(["parkinson"]))return "parkinson";
   if(hasAny(["multipl skleroz","multiple sclerosis"])||/(^|\s)ms(?=\s|$)/.test(n))return "ms";
@@ -303,7 +303,9 @@ function localAnswer(results,question){
       shoulder:"Omuz ağrısının farklı nedenleri olabilir; aşağıdaki rehberler bilgilendirme amaçlıdır.",
       hip:"Kalça ağrısının farklı nedenleri olabilir; aşağıdaki rehberler bilgilendirme amaçlıdır.",
       heel:"Topuk ağrısının farklı nedenleri olabilir; aşağıdaki rehber en yakın içeriktir ve tek başına tanı anlamına gelmez.",
-      jaw:"Çene bölgesi ağrısının farklı nedenleri olabilir; aşağıdaki rehber bilgilendirme amaçlıdır."
+      jaw:"Çene bölgesi ağrısının farklı nedenleri olabilir; aşağıdaki rehber bilgilendirme amaçlıdır.",
+      wrist:"El bileği ağrısının farklı nedenleri olabilir; aşağıdaki rehber en yakın içeriktir ve tek başına tanı anlamına gelmez.",
+      ankle:"Ayak bileği ağrısının farklı nedenleri olabilir; aşağıdaki rehberler bilgilendirme amaçlıdır."
     },
     en:{
       elbow:"Elbow pain can have several causes; the guide below is the closest match and is not a diagnosis.",
@@ -311,7 +313,9 @@ function localAnswer(results,question){
       shoulder:"Shoulder pain can have several causes; the guides below are for information.",
       hip:"Hip pain can have several causes; the guides below are for information.",
       heel:"Heel pain can have several causes; the guide below is the closest match and is not a diagnosis.",
-      jaw:"Jaw-region pain can have several causes; the guide below is for information."
+      jaw:"Jaw-region pain can have several causes; the guide below is for information.",
+      wrist:"Wrist pain can have several causes; the guide below is the closest match and is not a diagnosis.",
+      ankle:"Ankle pain can have several causes; the guides below are for information."
     }
   };
   var caution=genericCaution[lang]&&genericCaution[lang][intent];
