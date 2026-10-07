@@ -463,6 +463,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/guillain-barre.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/sarkopeni.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sarkopeni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sarcopenia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sarkopeni.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/demans-egzersiz.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/demans-egzersiz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/dementia-and-exercise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/demans-egzersiz.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -923,5 +937,19 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/guillain-barre.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/guillain-barre-syndrome.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/guillain-barre.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/sarcopenia.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sarkopeni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sarcopenia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sarkopeni.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/dementia-and-exercise.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/demans-egzersiz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/dementia-and-exercise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/demans-egzersiz.html"/>
   </url>
 </urlset>
