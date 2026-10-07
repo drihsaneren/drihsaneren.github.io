@@ -43,7 +43,22 @@ function normalize(s){return (s||"").toLocaleLowerCase(lang==="tr"?"tr-TR":"en-U
 var stop=new Set((lang==="en"?
 "the a an and or to of in on for with is are was were be been this that what how can do does my your about from at by it i me".split(" "):
 "ve veya ile bir bu şu o ne nasıl için gibi da de mı mi mu mü ben benim sen sizin siz bana bende olan olarak çok daha en".split(" ")));
-function tokens(q){return normalize(q).split(" ").filter(function(x){return x.length>2&&!stop.has(x)}).slice(0,14)}
+function rootToken(t){
+  if(lang==="tr"){
+    if(/^bel/.test(t))return "bel";
+    if(/^ağr/.test(t)||/^agr/.test(t))return "ağr";
+    if(/^gebel/.test(t)||/^hamil/.test(t))return "gebelik";
+    if(/^fıt/.test(t)||/^fit/.test(t))return "fıt";
+    if(/^boyun/.test(t))return "boyun";
+  }
+  return t;
+}
+function tokens(q){
+  var seen=new Set();
+  return normalize(q).split(" ").filter(function(x){return x.length>2&&!stop.has(x)}).map(rootToken).filter(function(x){
+    if(seen.has(x))return false;seen.add(x);return true;
+  }).slice(0,14);
+}
 
 function flattenPage(p){
   var chunks=[];
@@ -60,17 +75,48 @@ function loadIndex(){
 }
 function scoreText(text,ts){
   var n=normalize(text),score=0;
-  ts.forEach(function(t){if(!t)return;var pos=n.indexOf(t);if(pos>=0){score+=2;var c=n.split(t).length-1;score+=Math.min(c,3)}});
+  ts.forEach(function(t){
+    if(!t)return;
+    var variants=[t];
+    if(t==="ağr")variants.push("agr");
+    if(t==="fıt")variants.push("fit");
+    var found=false,c=0;
+    variants.forEach(function(v){
+      if(found)return;
+      var pos=n.indexOf(v);
+      if(pos>=0){found=true;c=n.split(v).length-1}
+    });
+    if(found)score+=2+Math.min(c,3);
+  });
   return score;
+}
+function contextBoost(p,q){
+  var n=normalize(q),u=(p.u||"").toLowerCase();
+  var hasBack=n.indexOf("bel")>=0;
+  var hasPain=n.indexOf("ağr")>=0||n.indexOf("agr")>=0;
+  var pregnancy=n.indexOf("gebel")>=0||n.indexOf("hamil")>=0||n.indexOf("pregnan")>=0;
+  var disc=n.indexOf("fıt")>=0||n.indexOf("fit")>=0||n.indexOf("hernia")>=0||n.indexOf("disc")>=0;
+
+  if(lang==="tr"){
+    if(u==="gebelikte-bel-agrisi.html") return pregnancy ? 180 : -180;
+    if(u==="bel-fitigi.html") return (hasBack&&disc) ? 170 : (hasBack&&hasPain&&!disc ? -45 : 0);
+    if(u==="bel-agrisi.html"&&hasBack&&hasPain&&!pregnancy&&!disc) return 200;
+  }else{
+    if(u==="en/pregnancy-back-pain.html") return pregnancy ? 180 : -180;
+    if(u==="en/lumbar-disc-herniation.html") return (hasBack&&disc) ? 170 : (hasBack&&hasPain&&!disc ? -45 : 0);
+    if(u==="en/low-back-pain.html"&&hasBack&&hasPain&&!pregnancy&&!disc) return 200;
+  }
+  return 0;
 }
 function search(q){
   var ts=tokens(q);
   if(!ts.length)return Promise.resolve([]);
   return loadIndex().then(function(pages){
     return pages.map(function(p){
-      var s=scoreText(p.t,ts)*5+scoreText(p.k,ts)*3+scoreText(p.d,ts)*2;
+      var titleScore=scoreText(p.t,ts);
+      var s=titleScore*12+scoreText(p.k,ts)*4+scoreText(p.d,ts)*2+contextBoost(p,q);
       var chunks=p.chunks.map(function(c){return {h:c.h,t:c.t,s:scoreText((c.h||"")+" "+c.t,ts)}}).filter(function(c){return c.s>0}).sort(function(a,b){return b.s-a.s}).slice(0,3);
-      chunks.forEach(function(c){s+=c.s});
+      chunks.forEach(function(c){s+=Math.min(c.s,8)});
       return {u:p.u,t:p.t,d:p.d,chunks:chunks,score:s};
     }).filter(function(x){return x.score>0}).sort(function(a,b){return b.score-a.score}).slice(0,5);
   });
@@ -142,5 +188,6 @@ function build(){
 function loadConfig(){
   return fetch(CONFIG_URL,{cache:"no-store"}).then(function(r){return r.ok?r.json():{}}).then(function(x){cfg=Object.assign(cfg,x||{})}).catch(function(){});
 }
+window.__IEAI_TEST__={search:search,normalize:normalize,tokens:tokens};
 loadConfig().then(function(){if(cfg.enabled!==false)build()});
 })();
