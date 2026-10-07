@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Yeni rehberler (10): sürekli üşüme (soğuğa duyarlılık). Belirti rehberi: önce tıbbi nedenler ve testler,
-# sonra günlük önlemler, sonra tamamlayıcı yaklaşımlar için kanıtın ne dediği (ölçülü; akupunktur hizmet olarak sunulmaz).
+# sonra günlük önlemler, sonra tamamlayıcı yaklaşımlar için kanıtın ne dediği. Kullanıcı isteğiyle bu sayfada akupunktur geçmez (titreme sayfasında var).
 # cond10_part.py'den sonra exec edilir. Bu sayfada bilerek "seans planla" kartı yok: ilk adım hekim muayenesi.
 
 _ex2("cold_apump", "apump", "Ayak bileği pompası", "Otururken ayaklarınızı yerden hafifçe kaldırın. Ayak uçlarınızı kendinize doğru çekin, sonra ileri uzatın; ritmik ve canlı bir tempoda yapın.", "30 saniye, 2–3 tur")
@@ -11,7 +11,7 @@ _ex2("cold_hand", "tglide", "El açıp kapama", "Ellerinizi önünüze uzatın. 
 COLD_FAQ = [
  ("Testlerim normal çıktı ama hâlâ üşüyorum. Ne yapmalıyım?", "Normal testler sık görülen nedenleri dışlamaya yardımcı olur, ama şikâyetinizi geçersiz kılmaz. Bazı insanlar soğuğa yapısal olarak daha duyarlıdır. Günlük önlemleri birkaç hafta düzenli uygulayın. Şikâyet artarsa ya da kilo değişikliği, belirgin yorgunluk, parmaklarda renk değişikliği gibi yeni belirtiler eklenirse yeniden hekiminize başvurun."),
  ("Ellerim ve ayaklarım hep soğuk; bu Raynaud mu?", "Her soğuk el Raynaud değildir. Raynaud'da parmaklar soğukta ya da stres altında belirgin şekilde renk değiştirir, uyuşur, karıncalanır ya da ağrır; belirtiler dakikalar ile saatler arasında sürebilir. Renk değişikliği yoksa tablo Raynaud'dan çok soğuğa duyarlılığı düşündürür. Emin olmak için hekiminize danışın."),
- ("Akupunktur üşümeye iyi gelir mi?", "Bunu söylemek için yeterli kanıt yok. Raynaud fenomeninde yalnızca iki küçük çalışma yapılmış; derleme bunlardan sonuç çıkarılamayacağını belirtiyor. Denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun. Türkiye'de akupunkturu yalnızca bu alanda sertifikası olan hekimler uygulayabilir."),
+ ("Tamamlayıcı yöntemler üşümeye iyi gelir mi?", "Kanıt sınırlı. Raynaud fenomeninde 20 çalışmayı inceleyen derlemeye göre biyogeribildirim işe yaramıyor; ısı koruyucu eldiven tek bir çalışmada yararlı bulundu; ginkgo, antioksidanlar ve yağ asitleri için anlamlı bir yarar gösterilemedi. Bir yöntem denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun."),
  ("Egzersiz üşümeyi azaltır mı?", "Küçük bir çalışma bunu destekliyor: üşüyen 16 genç kadından iki hafta boyunca düzenli yürüyüş ve hafif koşu yapanlarda parmak uçları ve ayaklardaki üşüme hissi azaldı, uyku da iyileşti. Çalışma küçük olduğu için sonuç kesin sayılmaz; yine de düzenli hareket, denemeye değer güvenli bir adımdır."),
 ]
 
@@ -21,7 +21,6 @@ COLD_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/symptoms/", "Underactive thyroid (hypothyroidism): symptoms") + ". Page last reviewed 28 April 2025.",
  "Malenfant D, Catton M, Pope JE. " + ext("https://pubmed.ncbi.nlm.nih.gov/19433434/", "The efficacy of complementary and alternative medicine in the treatment of Raynaud's phenomenon: a literature review and meta-analysis") + ". Rheumatology (Oxford). 2009;48(7):791-795.",
  "Yamazaki F, Inoue K, Ohmi N, Okimoto C. " + ext("https://link.springer.com/article/10.1186/s40101-023-00339-y", "A two-week exercise intervention improves cold symptoms and sleep condition in cold-sensitive women") + ". J Physiol Anthropol. 2023;42:22.",
- ext("https://www.alomaliye.com/2014/10/27/geleneksel-ve-tamamlayici-tip-uygulamalari-yonetmeligi/", "Geleneksel ve Tamamlayıcı Tıp Uygulamaları Yönetmeliği") + ". Resmî Gazete, 27 Ekim 2014, sayı 29158.",
 ]
 
 COLD_BODY = f'''<header class="page">
@@ -103,12 +102,11 @@ COLD_BODY = f'''<header class="page">
         <li>Biyogeribildirim: beş çalışmada işe yaramadı; sonuçlar sahte uygulamadan daha iyi değildi.</li>
         <li>Isı koruyucu (terapötik) eldiven: tek bir çalışmada yararlı bulundu; sonucun genellenebilirliği sınırlı.</li>
         <li>Düşük düzeyli lazer: üç çalışmada atak sayısını biraz azalttı; farkın klinik önemi belirsiz.</li>
-        <li>Akupunktur: yalnızca iki çalışma var; sonuç çıkarmak için veri yetersiz.</li>
         <li>Ginkgo biloba, antioksidanlar ve esansiyel yağ asitleri: anlamlı bir yarar gösterilemedi ya da veri yetersiz.</li>
       </ul>
       <p class="soft" style="margin-top:14px">Derlemenin sonucu açık: iyi tasarlanmış çalışmalara ihtiyaç var ve biyogeribildirimin işe yaramadığı dışında kesin bir şey söylenemiyor. Bitkisel ürünler ilaçlarla etkileşebilir; kullanmadan önce hekiminize ya da eczacınıza danışın.</p>
       <div class="callout">
-        <p>Türkiye'de akupunktur gibi geleneksel ve tamamlayıcı tıp uygulamalarını yalnızca ilgili alanda uygulama sertifikası olan hekimler, Sağlık Bakanlığınca yetkilendirilmiş birimlerde yapabilir. Tamamlayıcı bir yöntem denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun ve yöntemi tıbbi tedavinin yerine değil, yanında düşünün.</p>
+        <p>Tamamlayıcı bir yöntem denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun ve yöntemi tıbbi tedavinin yerine değil, yanında düşünün.</p>
       </div>
     </div>
   </section>
