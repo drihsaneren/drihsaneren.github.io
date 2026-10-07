@@ -231,3 +231,14 @@ Yeni çizimler: `dq_hammer`, `dq_band`, `dq_wrist`. Videolar: Mayo Clinic (`o0KS
 Diyabetik nöropati: NIDDK periferik nöropati (Şubat 2018) ve ayak sorunları (Ocak 2017) sayfaları, Lima 2021 (8 RKÇ, 457 kişi; denge ve düşme korkusu biraz iyileşti, düşme riski değişmedi; SciELO'dan okundu),
 Wang 2025 (21 RKÇ; PEDro kaydından özet okundu). Egzersizler düşme önleme sayfasındakilerin uyarlaması. "Açık yara varken üzerine basarak egzersiz yapmayın" genel bilgi.
 Videolar: Diabetes UK (`jC9hXPURsQA`), Mayo Clinic (`SulNOSMMNLY`). Bu sayfaya akupunktur/klinik gözlem kutusu konmadı (kanıt okunmadı). Çeviri: de-quervain (80), diyabetik-noropati (81) + fb414–fb417.
+
+## Düztabanlık ve omurilik yaralanması (cond16_part.py)
+8 Ekim 2026: `duztabanlik.html` / `en/flat-feet.html` (Hastalık rehberi, bölge: ayak) ve `omurilik-yaralanmasi.html` / `en/spinal-cord-injury.html` (Rehabilitasyon rehberi).
+Düztabanlık: NHS (24 Haziran 2025: çoğu zaman tedavi gerekmez, beş başvuru durumu, 3–10 yaş), Cochrane Evans 2022 (16 RKÇ, 1.058 çocuk; ağrısız düztabanlıkta özel tabanlık 67/100'e karşı ayakkabı 79/100),
+NHS Borders PTTD broşürü (altı egzersizin beşi ve dozları buradan; "tek ayakla topuk yükseltme" aynı broşürdeki ilerletme). Hepsi okundu. Yeni çizimler: `ff_short`, `ff_press`.
+Videolar kurum değil kişi kanalı: Doctor O'Donovan (`B5KbzQf5HdU`), Rehab Science / Dr. Tom Walters (`vcx_NNR7b1k`); kurum kanalı bulunamadı.
+Omurilik yaralanması: DSÖ bilgi notu (16 Nisan 2024), NINDS (13 Mart 2026), Martin Ginis 2018 egzersiz kılavuzu (211 çalışma; 20 dk x2 + güçlendirme x2; 30 dk x3), MSKTC/UW bası yarası ve
+basınç azaltma sayfaları (2009: günde 2 kontrol, 15–30 dk'da bir 30–90 sn, yatakta 2–6 saatte bir dönme, itme hareketi omuz için riskli), RNOH otonom disrefleksi. Hepsi okundu.
+Kaynakta olmayan: egzersiz seçenekleri cümlesi (kol ergometresi vb.), "omuzlar bacaklarıdır" benzetmesi, kürek çekme/kürek sıkıştırma/nefes/öne uzanma hareketlerinin seçimi ve tekrar sayıları, uyarı listesinin bir kısmı.
+Yeni çizimler (oturarak): `sc_sidelean`, `sc_row`, `sc_scap`. Videolar: Shepherd Center (`ibrZzDZb-PU`, `-Ew-N5Ux0Ns`). Akupunktur/klinik gözlem kutusu konmadı (kanıt okunmadı).
+İnme sayfasının ilgili bağlantıları üçe çıktı (omurilik eklendi). Çeviri: duztabanlik (79), omurilik-yaralanmasi (90) + fb418–fb419.
