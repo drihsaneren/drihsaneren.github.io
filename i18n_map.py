@@ -58,6 +58,7 @@ EN = {
     "doga-recetesi.html": "nature-prescription.html",
     "bag-kurmak.html": "social-connection.html",
     "dost-molasi.html": "self-kindness-break.html",
+    "nobel-2026.html": "nobel-prizes-2026.html",
 }
 TR = {v: k for k, v in EN.items()}
 

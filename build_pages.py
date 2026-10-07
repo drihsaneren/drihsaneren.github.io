@@ -182,11 +182,13 @@ CSS = """
 """
 
 KOSE_PAGES = {"bilgi.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+NEWS_PAGES = {"nobel-2026.html"}   # Bilim gündemi'nin özel sayfaları
 SELF_PAGES = {"dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
     def attr(h):
         if h == current: return ' aria-current="page"'
+        if h == "yenilikler.html" and current in NEWS_PAGES: return ' class="on"'
         if h == "bilgi.html#kendine-iyi-bak" and current in SELF_PAGES: return ' class="on"'
         if h == "bilgi.html" and current in KOSE_PAGES and current not in SELF_PAGES: return ' class="on"'
         return ""
@@ -256,6 +258,7 @@ TOPICS = {
     "bag-kurmak.html": ("Kendine iyi bak", "Sosyal bağ ve sağlık"),
     "dost-molasi.html": ("Kendine iyi bak", "DOST molası"),
     "yenilikler.html": ("Bilim gündemi", "Geleceğin tıbbı, bugün"),
+    "nobel-2026.html": ("Bilim gündemi", "2026 Nobel ödülleri"),
 }
 RELATED = {
     "bel-agrisi.html": ["bel-fitigi.html", "ankilozan-spondilit.html"],
@@ -286,6 +289,7 @@ RELATED = {
     "omuz-sikismasi.html": ["rotator-manset-yirtigi.html", "donuk-omuz.html"],
     "karpal-tunel-sendromu.html": ["boyun-fitigi.html", "omuz-sikismasi.html"],
     "yenilikler.html": ["stres.html", "diz-kireclenmesi.html"],
+    "nobel-2026.html": ["yenilikler.html", "parkinson.html"],
     "menisku-yirtigi.html": ["diz-kireclenmesi.html", "on-capraz-bag.html"],
     "on-capraz-bag.html": ["menisku-yirtigi.html", "diz-onu-agrisi.html"],
     "romatoid-artrit.html": ["ankilozan-spondilit.html", "karpal-tunel-sendromu.html"],
@@ -997,7 +1001,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "self2_part.py", "self3_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "self2_part.py", "self3_part.py", "nobel_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1211,6 +1215,12 @@ IL_RETA = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" hei
 <path d="M254 28V88" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/><path d="M240 76l14 14 14-14" fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
 
 NEWS = [
+ dict(il=IL_NOBEL, g="beyin", cat="Nobel 2026", feat=True, date="Ekim 2026",
+      title="Işık, ayna ve buz: 2026 Nobel ödülleri",
+      text="Tıp ödülü, beyin hücrelerini ışıkla çalıştırıp durdurmayı sağlayan optogenetiğin üç öncüsüne; kimya ödülü, ayna görüntüsü moleküllerden yalnızca birini üretmenin yolunu gösteren Henri Kagan ve Kenso Soai'ye; fizik ödülü ise Güney Kutbu'nun buzunda kozmik nötrinoları yakalayan Francis Halzen'e verildi.",
+      point="Üçünün de çıkış noktası, o gün hiçbir işe yaramayacak gibi görünen bir meraktı: bir gölet yosunu, hesaba uymayan bir tepkime ve buzun dibinde çakan bir ışık. Üçünü de canlandırmalarla, sade bir dille anlattım.",
+      src=[("STAT, 5 Ekim 2026", "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/"), ("IceCube, 6 Ekim 2026", "https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/"), ("Forbes, 7 Ekim 2026", "https://www.forbes.com/sites/michaeltnietzel/2026/10/07/the-2026-nobel-prize-in-chemistry-is-awarded-to-henri-kagan-and-kenso-soai/")],
+      rel=("Canlandırmalı anlatımı aç", "nobel-2026.html")),
  dict(il=IL_BLOOD, g="tani", cat="Alzheimer", feat=True, date="Eylül 2026",
       title="Alzheimer için kan testleri çoğalıyor",
       text="ABD'de Gıda ve İlaç Dairesi (FDA), Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Son ikisi Ağustos 2026'da geldi. Bu testler beyin görüntülemesine ya da bel sıvısı alınmasına gerek kalmadan tanıyı kolaylaştırabilir.",
@@ -1466,7 +1476,7 @@ NEWS_BODY = f'''<header class="page">
     <p class="eyebrow">Bilim gündemi</p>
     <h1>Geleceğin tıbbı, bugün</h1>
     <p class="lede">Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri. Her haberin altında kaynağı var.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
   </div>
 </header>
 <main>

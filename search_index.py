@@ -60,7 +60,7 @@ def page(path, fname, lang):
         eb = hdr.find(class_="eyebrow")
         k = clean(eb.get_text(" ")) if eb else ""
     typ = TYPE.get(fold(k), "c")
-    if fname == "yenilikler.html":
+    if fname in ("yenilikler.html", "nobel-2026.html"):
         typ = "n"
     if fname == "index.html":
         k, title = HOME[lang]

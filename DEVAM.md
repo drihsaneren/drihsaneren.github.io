@@ -155,8 +155,8 @@ EULAR 2018 fiziksel aktivite önerileri, DSÖ bilgi notu (28 Haziran 2023: 18 mi
 ## Sürekli üşüme (cond11_part.py) ve tamamlayıcı tıp çerçevesi
 7 Ekim 2026: kullanıcının isteğiyle (bir arkadaşının nedeni bulunamayan üşümesi) belirti rehberi `surekli-usume.html` / `en/always-feeling-cold.html` (bölge: genel).
 Sıra: olası nedenler ve testler -> günlük önlemler -> "Tamamlayıcı yaklaşımlar: kanıt ne diyor?" -> ısınmak için altı hareket. Video yok.
-Bu sayfada bilerek `CTA_CARD` (seans planla) yok: ilk adım hekim muayenesi. Akupunktur yalnızca kanıt özeti olarak geçer, hizmet olarak sunulmaz (kural değişmedi);
-"Türkiye'de yalnızca sertifikalı hekimler, yetkilendirilmiş birimlerde" notu var (GETAT Yönetmeliği, RG 27.10.2014/29158, madde 9; alomaliye.com kopyasından okundu).
+Bu sayfada bilerek `CTA_CARD` (seans planla) yok: ilk adım hekim muayenesi.
+**Akupunktur bu sayfada GEÇMEZ** (kullanıcı 7 Ekim 2026: "üşüme kısmında akupunkturu çıkart, titremede koy"); akupunktur kanıt özeti ve GETAT notu yalnızca titreme sayfasında. Geri ekleme.
 Kaynaklar (okundu): MedlinePlus "Cold intolerance" (27 Şubat 2026), NHS Raynaud's (20 Temmuz 2023), NHS hipotiroidi belirtileri (28 Nisan 2025),
 Malenfant 2009 (özet qxmd üzerinden: 20 RKÇ; biyogeribildirim işe yaramıyor, eldiven tek çalışma, lazer belirsiz, akupunktur 2 çalışma yetersiz; cilt/sayfa hafızadan: 48(7):791-795),
 Yamazaki 2023 (16 kadın, 2 hafta yürüyüş/koşu: üşüme hissi azaldı, cilt sıcaklığı değişmedi). Okunamayan: el-ayak üşümesinde bitkisel ürünler derlemesi (PMC captcha) -> sayfada kullanılmadı.
@@ -170,3 +170,18 @@ Kaynaklar (okundu): NINDS Tremor (23 Temmuz 2026: 7 tür, ET'de %50–70 kalıts
 Kavanagh 2016 (10 ET + 9 kontrol, 6 hafta), Sequeira 2012 (6 kişi, kontrolsüz), Shen 2026 (20 RKÇ, 1.067 kişi, hepsi Çin'de). Videolar: IETF (`z-nBScb735E`), VCU Health (`WwIsROk3QA8`).
 Üşüme sayfasına videolar eklendi: Johns Hopkins Rheumatology (`Jv0kEFCYF5M`), Avera Health (`yjG_BmcfpNo`).
 Günlük hayat önerileri (kapaklı bardak, dirseği dayama, kalın saplı kaşık vb.) yaygın iş-uğraşı terapisi önerileridir; ayrı bir kaynağa dayandırılmadı, iddia içermez.
+
+## Nobel 2026 özel sayfası (nobel_part.py)
+7 Ekim 2026: kullanıcının isteğiyle Bilim gündemi'ne özel sayfa: `nobel-2026.html` / `en/nobel-prizes-2026.html` ("Işık, ayna ve buz").
+Üç ödül (tıp: optogenetik; kimya: Kagan ve Soai; fizik: Halzen/IceCube), her birinde resmî gerekçe, "tek cümleyle", sade anlatım,
+canlandırma, "Dün – Bugün – Yarın" kartları ve "İnsanlık için değeri". Sonda "Üçünün ortak yanı", 4 SSS, kaynaklar. Şema (ld+json) bilerek yok (MedicalWebPage uymuyor).
+Canlandırmalar: `#og` (ışık kapısı; düğme "Işığı yak", sayaç), `#mt` (eldivenler üst üste oturmuyor; yalnızca CSS), `#kg` (Kagan çubuğu 56/6/38),
+`#so` (Soai nokta ızgarası 50 -> 79 -> 99; sekmeler), `#ic` (IceCube; düğme "Bir nötrino gönder", 4 hazır iz). Görünürken kendi kendine oynar, dokununca durur (`auto()`),
+`prefers-reduced-motion`'da otomatik oynatma yok. **SVG içinde yazı yok** (çeviri SVG'leri maskeler); bütün yazılar HTML'de.
+Kayıt: `NEWS_PAGES` (üst çubukta "Bilim gündemi" vurgusu), `TOPICS`, `RELATED`, `i18n_map`, `search_index.py` (tür "n"), `NEWS` başına öne çıkan kart (`IL_NOBEL`, `rel` ile sayfaya gider).
+`KOSE_PAGES`'te değil: Bilgi köşesi kartı yok, girişi haber kartından. Sınama betikleri: `scratchpad/nb.py`, `nb2.py`.
+Kaynak durumu: nobelprize.org 403 verdi (okunamadı; yalnızca bağlantı). Gerekçe cümleleri ve kimyadaki sayılar (%0,00005 -> %57 -> %99; 56/6/38) kullanıcının
+gönderdiği resmî Nobel Instagram görsellerinden. Okunan: STAT (tıp), Forbes (kimya; Linke alıntısı), icecube.wisc.edu (2013, 2023 Samanyolu, 450 kişi/14 ülke, Gen2 8 kat, Halzen alıntısı).
+CNN ve NPR okunamadı (robots). Hafızadan (doğrulanmadı): kanalrodopsin 2002–2003, Pasteur 1848, Kagan 1986, Soai 1995, Pauli 1930, ilk nötrino 1956,
+Halzen'in önerisi 1980'lerin sonu, IceCube 2011, karvon (nane/Frenk kimyonu), Sahel 2021 Nature Medicine künyesi. Portre çizimleri (Nobel'in görselleri) kullanılmadı.
+Çeviri: `i18n/done/nobel-2026.json` (87 birim) + fb392–fb397 (haber kartı, "Ekim 2026").
