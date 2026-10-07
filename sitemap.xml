@@ -421,6 +421,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/diyabetik-noropati.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/duztabanlik.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/duztabanlik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/flat-feet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/duztabanlik.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/omurilik-yaralanmasi.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/spinal-cord-injury.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -839,5 +853,19 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/diyabetik-noropati.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/diabetic-neuropathy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/diyabetik-noropati.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/flat-feet.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/duztabanlik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/flat-feet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/duztabanlik.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/spinal-cord-injury.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/spinal-cord-injury.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
   </url>
 </urlset>
