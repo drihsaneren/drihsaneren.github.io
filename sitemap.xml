@@ -365,6 +365,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/romatoid-artrit.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/surekli-usume.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/surekli-usume.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/always-feeling-cold.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/surekli-usume.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-07</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -727,5 +734,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/romatoid-artrit.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/rheumatoid-arthritis.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/romatoid-artrit.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/always-feeling-cold.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/surekli-usume.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/always-feeling-cold.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/surekli-usume.html"/>
   </url>
 </urlset>
