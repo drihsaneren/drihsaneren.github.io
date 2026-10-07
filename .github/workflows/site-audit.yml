@@ -29,3 +29,5 @@ jobs:
       - name: Assistant config check
         run: |
           python -m json.tool assets/assistant-config.json > /dev/null
+      - name: Assistant routing regression
+        run: python scripts/assistant_routing_test.py
