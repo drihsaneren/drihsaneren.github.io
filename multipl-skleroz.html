@@ -521,6 +521,27 @@
     </div>
   </section>
 
+  <section id="videolar">
+    <div class="wrap">
+      <p class="eyebrow">Video</p>
+      <h2>MS için videolar</h2>
+      <p class="soft">İngiltere MS Derneği'nin (MS Society UK) ve Cleveland Clinic'in YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <div class="vids">
+        <div class="vid">
+          <div class="vbox"><button type="button" data-yt="0DTnlCCxS7s" aria-label="Denge ve stabilite çalışması videosunu oynat"><img class="thumb" src="https://i.ytimg.com/vi/0DTnlCCxS7s/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>Denge ve stabilite çalışması</h3>
+          <p>MS Derneği'nin “Move more with MS” dizisinden.</p>
+        </div>
+        <div class="vid">
+          <div class="vbox"><button type="button" data-yt="X8nkMFcBIvA" aria-label="MS için egzersizler videosunu oynat"><img class="thumb" src="https://i.ytimg.com/vi/X8nkMFcBIvA/hqdefault.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24" fill="#1c2819"><path d="M7 4.5v15l13-7.5z"/></svg></span></button></div>
+          <h3>Isınma, güç, gövde ve denge egzersizleri</h3>
+          <p>Cleveland Clinic'in MS'li kişiler için hazırladığı egzersiz videosu.</p>
+        </div>
+      </div>
+      <p class="meta">Videolar MS Society UK ve Cleveland Clinic kanallarına aittir.</p>
+    </div>
+  </section>
+
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
@@ -608,7 +629,19 @@
   window.addEventListener('scroll', upd, {passive: true}); window.addEventListener('resize', upd); upd();
 })();
 </script>
-
+<script>
+document.querySelectorAll('.vbox button[data-yt]').forEach(function(b){
+  b.addEventListener('click', function(){
+    var f = document.createElement('iframe');
+    var L = document.documentElement.lang === 'en' ? 'en' : 'tr';
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0&hl=' + L + '&cc_lang_pref=' + L;
+    f.title = b.getAttribute('aria-label').replace(/ oynat$/, '').replace(/^Play (the )?/, '');
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
+    b.replaceWith(f);
+  });
+});
+</script>
 <script src="ara.js" defer></script>
 </body>
 </html>
