@@ -40,10 +40,26 @@
 .ieai-status{display:inline-flex;align-items:center;gap:5px}
 .ieai-dot{width:6px;height:6px;border-radius:50%;background:#8fa476}
 @media(max-width:520px){
-  .ieai-launcher{left:12px;right:auto;bottom:72px}
-  .ieai-panel{left:6px;right:auto;bottom:126px;width:calc(100vw - 12px);height:min(66svh,600px);border-radius:17px}
+  .ieai-launcher{
+    left:50%;right:auto;bottom:calc(70px + env(safe-area-inset-bottom));
+    transform:translateX(-50%);
+    max-width:calc(100vw - 24px);
+    justify-content:center
+  }
+  .ieai-panel{
+    inset:auto 8px calc(128px + env(safe-area-inset-bottom)) 8px;
+    width:auto;height:min(62svh,560px);border-radius:16px
+  }
+  .ieai-head{padding:12px 12px 10px}
+  .ieai-log{padding:12px}
+  .ieai-msg{max-width:94%;font-size:13.5px}
+  .ieai-compose{padding:9px}
+  .ieai-input{font-size:16px}
 }
 @media(prefers-reduced-motion:no-preference){
   .ieai-panel.is-open{animation:ieai-in .16s ease-out}
   @keyframes ieai-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 }
+
+html{scroll-padding-top:84px}
+.ieai-source{scroll-margin-top:84px}
