@@ -435,6 +435,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/halluks-valgus.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/halluks-valgus.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/bunions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/halluks-valgus.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/tetik-parmak.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/tetik-parmak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/trigger-finger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/tetik-parmak.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-08</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -867,5 +881,19 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/spinal-cord-injury.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omurilik-yaralanmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/bunions.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/halluks-valgus.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/bunions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/halluks-valgus.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/trigger-finger.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/tetik-parmak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/trigger-finger.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/tetik-parmak.html"/>
   </url>
 </urlset>
