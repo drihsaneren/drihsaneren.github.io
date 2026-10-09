@@ -27,7 +27,7 @@ E = {
 "Kısa bir ön görüşmede neler yaşadığınızı dinleyeyim, evde nasıl bir yol izleyebileceğimizi birlikte konuşalım. Size uygun günü ve saat aralığını seçin; onaylayıp size dönüş yapayım.":"In a short first conversation I’ll listen to what you’re going through, and we’ll talk about how we could work together at home. Pick a day and a time window that suit you; I’ll confirm and get back to you.",
 "Önce tanışalım":"Let’s meet first",
 "Değerlendirmeden tedaviye, egzersizden takibe: evde bir sürecin nasıl ilerlediğini anlatmak için hazırlanmış görseller.":"From assessment to treatment, from exercise to follow-up: images prepared to show how care at home unfolds.",
-"Evde bir seansın hikâyesi":"The story of a home session",
+"Bir seansın hikâyesi":"The story of a session",
 "Gerçek yaşınız kaç?":"What’s your real age?",
 "Örnek rapor: A.Y., 62 yaş. Değerlendirmenin sonunda bütün ölçümler, anlaşılır bir raporda sizinle birlikte gözden geçirilir.":"Sample report: A.Y., aged 62. At the end of the assessment, we go through every measurement together in a clear, easy-to-read report.",
 "Sonraki slayt":"Next slide","Otomatik oynatma":"Autoplay","Önceki slayt":"Previous slide",

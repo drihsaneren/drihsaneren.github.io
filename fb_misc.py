@@ -11,7 +11,7 @@ rep("  age.oninput = function(){ $('qt-age-v').textContent = age.value; };",
     "  age.oninput = function(){ $('qt-age-v').textContent = age.value; }; age.oninput();")
 # galeri: kare başına "Temsili görsel" yok; tek, dürüst giriş cümlesi
 rep('<p class="eyebrow">Temsili görseller</p>\n        <h2>Uygulamalardan kareler</h2>\n        <p class="intro">Değerlendirme, tedavi ve egzersiz süreçlerinden temsili görseller.</p>',
-    '<p class="eyebrow">Kareler</p>\n        <h2>Evde bir seansın hikâyesi</h2>\n        <p class="intro">Değerlendirmeden tedaviye, egzersizden takibe: evde bir sürecin nasıl ilerlediğini anlatmak için hazırlanmış görseller.</p>')
+    '<p class="eyebrow">Kareler</p>\n        <h2>Bir seansın hikâyesi</h2>\n        <p class="intro">Değerlendirmeden tedaviye, egzersizden takibe: evde bir sürecin nasıl ilerlediğini anlatmak için hazırlanmış görseller.</p>')
 for a,b in [("'Temsili görsel: “İntörn Doktor · Fizyoterapist” isimlikli çalışma masası'","'“İntörn Doktor · Fizyoterapist” isimlikli çalışma masası'"),
             ("'Temsili görsel: sırtta kuru iğneleme'","'Sırtta kuru iğneleme'"),
             ("'Temsili görsel: dizde manuel terapi'","'Dizde manuel terapi'"),

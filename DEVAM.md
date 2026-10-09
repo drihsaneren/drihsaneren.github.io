@@ -282,3 +282,6 @@ Kaynaksız: altı hareketin tekrar sayıları, "hareketi önce siz gösterin" ö
 Yeni çizimler: `dm_march`, `dm_toe`, `dm_arm`. Videolar: NHS Greater Glasgow and Clyde (`VhnkOhAWf-Q`, `YA5xvvoaVa8`); izlenmedi.
 İlgili bağlantılar: kemik-erimesi → sarkopeni, parkinson → demans-egzersiz. Çeviri: sarkopeni (109), demans-egzersiz (110) + fb425–fb426.
 Not: `publish.sh` her çağrıda `up40/_home_*.txt` dosyalarını siler; aynı derlemeden ikinci sayfayı yayımlamadan önce `build_pages.py` + `rebuild_home.sh` yeniden çalıştırılmalı (yoksa ikinci sayfa site haritasına eklenmez).
+
+## Galeri başlığı (9 Ekim 2026)
+Ana sayfadaki "Evde bir seansın hikâyesi" başlığı kullanıcı isteğiyle "Bir seansın hikâyesi" oldu (fb_misc.py); EN: "The story of a session" (fb32, fb_tr_en.py).
