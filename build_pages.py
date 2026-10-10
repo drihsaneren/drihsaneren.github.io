@@ -186,7 +186,7 @@ CSS = """
 
 KOSE_PAGES = {"bilgi.html", "sarkopeni.html", "demans-egzersiz.html", "golfcu-dirsegi.html", "guillain-barre.html", "halluks-valgus.html", "tetik-parmak.html", "duztabanlik.html", "omurilik-yaralanmasi.html", "de-quervain.html", "diyabetik-noropati.html", "kalca-yan-agrisi.html", "lenfodem.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 NEWS_PAGES = {"nobel-2026.html"}   # Bilim gündemi'nin özel sayfaları
-SELF_PAGES = {"dizin-12-sirri.html", "ruh-hali-olcumu.html", "ruh-sagligi-egzersiz.html", "dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+SELF_PAGES = {"dizin-12-sirri.html", "kas-gevsetme.html", "ruh-hali-olcumu.html", "ruh-sagligi-egzersiz.html", "dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
     def attr(h):
@@ -273,6 +273,7 @@ TOPICS = {
     "ic-cekis.html": ("Kendine iyi bak", "5 dakikalık iç çekiş nefesi"),
     "doga-recetesi.html": ("Kendine iyi bak", "Doğa reçetesi"),
     "bag-kurmak.html": ("Kendine iyi bak", "Sosyal bağ ve sağlık"),
+    "kas-gevsetme.html": ("Kendine iyi bak", "Kas gevşetme: sesli rehber"),
     "ruh-hali-olcumu.html": ("Kendine iyi bak", "Ruh hâlinizi ölçün"),
     "ruh-sagligi-egzersiz.html": ("Kendine iyi bak", "Ruh sağlığı için egzersiz"),
     "dost-molasi.html": ("Kendine iyi bak", "DOST molası"),
@@ -342,10 +343,11 @@ RELATED = {
     "otur-kalk-testi.html": ["dusme-onleme.html", "hareket.html"],
     "dizin-12-sirri.html": ["diz-kireclenmesi.html", "otur-kalk-testi.html"],
     "duvar-oturusu.html": ["hareket.html", "otur-kalk-testi.html"],
-    "ic-cekis.html": ["stres.html", "uyku.html"],
+    "ic-cekis.html": ["stres.html", "uyku.html", "kas-gevsetme.html"],
     "doga-recetesi.html": ["bag-kurmak.html", "stres.html"],
     "bag-kurmak.html": ["doga-recetesi.html", "stres.html"],
     "dost-molasi.html": ["ic-cekis.html", "bag-kurmak.html"],
+    "kas-gevsetme.html": ["ic-cekis.html", "uyku.html"],
     "ruh-hali-olcumu.html": ["ruh-sagligi-egzersiz.html", "ic-cekis.html"],
     "ruh-sagligi-egzersiz.html": ["stres.html", "ic-cekis.html", "ruh-hali-olcumu.html"],
     "bilgi.html": [],
@@ -1774,6 +1776,8 @@ TH_MINDEX = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy
 C_MINDEX = KC("ruh-sagligi-egzersiz.html", TH_MINDEX, "Kendine iyi bak", "Ruh sağlığı için egzersiz", "Depresyon ve kaygıda hangi egzersiz ne kadar işe yarar? 218 çalışmanın bulguları, doz önerileri ve evde altı hareket.")
 TH_MOOD = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M100 120 A60 60 0 0 1 111.5 84.7" fill="none" stroke="#c96b5a" stroke-width="14"/><path d="M111.5 84.7 A60 60 0 0 1 141.5 62.9" fill="none" stroke="#d8b25e" stroke-width="14"/><path d="M141.5 62.9 A60 60 0 0 1 220 120" fill="none" stroke="#8fa476" stroke-width="14"/><path d="M160 120 L185 76.7" stroke="#ece5cf" stroke-width="5" stroke-linecap="round"/><circle cx="160" cy="120" r="8" fill="#ece5cf"/><path d="M84 132 H236" stroke="rgba(236,229,207,.25)" stroke-width="3" stroke-linecap="round"/></svg>"""
 C_MOOD = KC("ruh-hali-olcumu.html", TH_MOOD, "Kendine iyi bak", "Ruh hâlinizi ölçün", "WHO-5 iyi oluş indeksi ve PHQ-4 kaygı-depresyon taramasıyla son iki haftanızı değerlendirin: 9 soru, 2 dakika. Yanıtlar cihazınızdan çıkmaz.")
+TH_PMR = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 122 H262" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="92" cy="98" r="12" fill="#8fa476"/><path d="M106 104 L178 106 L246 110 M150 106 L170 92 L196 98" stroke="#8fa476" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M118 70 q10 -9 20 0 t20 0 t20 0 M138 48 q10 -9 20 0 t20 0 t20 0 M158 26 q10 -9 20 0 t20 0" stroke="#e2ab47" stroke-width="4" stroke-linecap="round" fill="none" opacity=".9"/></svg>"""
+C_PMR = KC("kas-gevsetme.html", TH_PMR, "Kendine iyi bak", "Kas gevşetme: sesli rehber", "Kasları sırayla sıkıp bırakarak gevşeyin: 18 bölgelik tam ya da 7 bölgelik kısa sürüm, sesli zamanlayıcıyla. Stres, kaygı ve uykuya dalmak için.")
 C_WALLSIT = KC("duvar-oturusu.html", TH_WALLSIT, "Kendine iyi bak", "Tansiyon için duvar oturuşu", "270 çalışmalık analizde tansiyonu en çok düşüren egzersiz türü. Haftada 3 gün, 4 × 2 dakika: zamanlayıcıyla birlikte yapın.")
 C_SIGH = KC("ic-cekis.html", TH_SIGH, "Kendine iyi bak", "5 dakikalık iç çekiş nefesi", "Stanford'daki çalışmada ruh hâlini meditasyondan daha çok iyileştiren nefes: iki kez alın, uzun verin.")
 C_NATURE = KC("doga-recetesi.html", TH_NATURE, "Kendine iyi bak", "Doğa reçetesi", "Haftada 120 dakika doğa; parça parça da olur. Haftalık doğa takviminiz ve İstanbul'dan öneriler.")
@@ -1795,7 +1799,7 @@ def region_filter():
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
 REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_SCI, C_GBS, C_HIPFX, C_PARK, C_DEM, C_MS, C_ONCO, C_LYMPH, C_COPD, C_CARDIAC]
-SELF = [C_KNEE12, C_MINDEX, C_MOOD, C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
+SELF = [C_KNEE12, C_MINDEX, C_MOOD, C_PMR, C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
 def agr_cards():
@@ -1880,6 +1884,7 @@ PILL = {
     "masa-basi.html": "Masa başı", "sabah-rutini.html": "Sabah rutini", "hareket.html": "Ne kadar hareket?", "uyku.html": "İyi uyku",
     "otur-kalk-testi.html": "Otur-kalk testi", "dizin-12-sirri.html": "Dizin 12 Sırrı", "duvar-oturusu.html": "Tansiyon için duvar oturuşu", "ic-cekis.html": "İç çekiş nefesi",
     "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "dost-molasi.html": "DOST molası", "stres.html": "Stres",
+    "kas-gevsetme.html": "Kas gevşetme",
     "ruh-hali-olcumu.html": "Ruh hâli ölçümü",
     "ruh-sagligi-egzersiz.html": "Ruh sağlığı için egzersiz",
 }
@@ -2117,7 +2122,7 @@ def hx_groups():
 SELF_GROUPS = [
     ("Kendinizi ölçün", ["otur-kalk-testi.html", "hareket.html"]),
     ("Zamanlayıcıyla birlikte yapın", ["dizin-12-sirri.html", "duvar-oturusu.html", "ic-cekis.html", "sabah-rutini.html"]),
-    ("Ruh sağlığı için", ["ruh-sagligi-egzersiz.html", "ruh-hali-olcumu.html", "dost-molasi.html", "stres.html"]),
+    ("Ruh sağlığı için", ["ruh-sagligi-egzersiz.html", "ruh-hali-olcumu.html", "kas-gevsetme.html", "dost-molasi.html", "stres.html"]),
     ("Günlük hayat için", ["uyku.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
 ]
 def hx_self():

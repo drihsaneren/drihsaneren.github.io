@@ -2153,5 +2153,20 @@
   "id": "fb431",
   "kind": "text",
   "tr": "WHO-5 iyi oluş indeksi ve PHQ-4 kaygı-depresyon taramasıyla son iki haftanızı değerlendirin: 9 soru, 2 dakika. Yanıtlar cihazınızdan çıkmaz."
+ },
+ {
+  "id": "fb432",
+  "kind": "text",
+  "tr": "Kasları sırayla sıkıp bırakarak gevşeyin: 18 bölgelik tam ya da 7 bölgelik kısa sürüm, sesli zamanlayıcıyla. Stres, kaygı ve uykuya dalmak için."
+ },
+ {
+  "id": "fb433",
+  "kind": "text",
+  "tr": "Kas gevşetme: sesli rehber"
+ },
+ {
+  "id": "fb434",
+  "kind": "text",
+  "tr": "Kas gevşetme"
  }
 ]

@@ -551,3 +551,316 @@ page("ruh-hali-olcumu.html", "Ruh Hâlinizi Ölçün",
      "ruh-hali-olcumu.html", MOOD_CSS, MOOD_BODY, MOOD_JS,
      seo_title="Ruh Hâli Testi: WHO-5 İyi Oluş ve PHQ-4 Kaygı-Depresyon Taraması | İhsan Eren",
      about=[cond("Depresyon"), cond("Kaygı bozukluğu (anksiyete)")], faq_items=MOOD_FAQ)
+
+# ============================================================== 3 · AŞAMALI KAS GEVŞETME (zamanlayıcılı)
+PMR_CSS = MIND_CSS + """
+  .pm{display:grid;grid-template-columns:200px minmax(0,1fr);gap:clamp(18px,4vw,36px);align-items:center}
+  @media (max-width:640px){.pm{grid-template-columns:1fr;gap:10px}.pm-fig svg{height:190px}}
+  .pm-fig{display:grid;place-items:center}
+  .pm-fig svg{width:auto;height:300px;overflow:visible}
+  .pm-fig .rg{fill:rgba(236,229,207,.08);stroke:rgba(236,229,207,.28);stroke-width:1.2;transition:fill .5s ease,stroke .5s ease;transform-box:fill-box;transform-origin:center}
+  .pm-fig .rg.done{fill:rgba(143,164,118,.28);stroke:rgba(143,164,118,.6)}
+  .pm-fig .rg.on{fill:rgba(226,171,71,.35);stroke:#e2ab47}
+  .pm-fig .rg.tense{fill:#e2ab47;stroke:#f3d58f;animation:pmq .5s ease-in-out infinite alternate;filter:drop-shadow(0 0 6px rgba(226,171,71,.7))}
+  .pm-fig .rg.rel{fill:#8fa476;stroke:#b9cba0;transition:fill 2.5s ease,stroke 2.5s ease}
+  @keyframes pmq{from{transform:scale(1)}to{transform:scale(.94)}}
+  @media (prefers-reduced-motion:reduce){.pm-fig .rg.tense{animation:none}}
+  .pm-ph{margin:0;font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--foil);min-height:16px}
+  .pm-ph.t{color:#f3d58f}.pm-ph.r{color:#b9cba0}
+  .pm-row{display:flex;align-items:baseline;gap:16px;margin:6px 0 4px}
+  .pm-n{font-family:var(--display);font-size:clamp(46px,9vw,64px);line-height:1;color:var(--ink);min-width:1.2ch;font-variant-numeric:tabular-nums}
+  .pm-n:empty{display:none}
+  .pm-name{font-family:var(--display);font-size:clamp(21px,4vw,26px);line-height:1.2;color:var(--ink);margin:0}
+  .pm-cue{margin:4px 0 0;color:var(--ink-soft);font-size:15.5px;min-height:3em}
+  .pm-meta{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--muted);margin:14px 0 6px;font-variant-numeric:tabular-nums}
+  .pm-bar{height:4px;border-radius:2px;background:rgba(236,229,207,.12);overflow:hidden}
+  .pm-bar i{display:block;height:100%;width:0;background:var(--foil)}
+  .pm-lists{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,4vw,40px)}
+  @media (max-width:760px){.pm-lists{grid-template-columns:1fr}}
+  .pm-lists h3{font-size:19px;margin:0 0 12px}
+  ol.steps li span{color:var(--ink-soft)}
+"""
+
+# (bölge kimlikleri, ad, nasıl sıkılır) — sıra ve tarifler CCI (Batı Avustralya) PMR bilgi sayfasından
+PMR_FULL = [
+ ("farm-r", "Sağ el ve ön kol", "Sağ elinizi sıkıca yumruk yapın."),
+ ("uarm-r", "Sağ üst kol", "Sağ ön kolunuzu omzunuza doğru bükün, pazınızı sıkın."),
+ ("farm-l", "Sol el ve ön kol", "Sol elinizi sıkıca yumruk yapın."),
+ ("uarm-l", "Sol üst kol", "Sol ön kolunuzu omzunuza doğru bükün, pazınızı sıkın."),
+ ("head", "Alın", "Kaşlarınızı olabildiğince yukarı kaldırın."),
+ ("head", "Gözler ve yanaklar", "Gözlerinizi sıkıca yumun."),
+ ("head", "Ağız ve çene", "Ağzınızı esner gibi geniş açın."),
+ ("neck", "Boyun", "Yüzünüz önde, başınızı yavaşça geriye, tavana bakar gibi götürün. Zorlamayın."),
+ ("shoulders", "Omuzlar", "Omuzlarınızı kulaklarınıza doğru kaldırın."),
+ ("chest", "Sırt", "Kürek kemiklerinizi geriye doğru sıkıştırın, göğsünüzü öne itin."),
+ ("chest belly", "Göğüs ve karın", "Derin bir nefes alın; göğsünüzü ve karnınızı havayla doldurun."),
+ ("hips", "Kalçalar", "Kalça kaslarınızı birbirine doğru sıkın."),
+ ("thigh-r", "Sağ uyluk", "Sağ uyluğunuzun kaslarını sıkın."),
+ ("calf-r", "Sağ baldır", "Sağ ayak parmaklarınızı yavaşça kendinize doğru çekin. Kramp girmemesi için yavaş olun."),
+ ("foot-r", "Sağ ayak", "Sağ ayak parmaklarınızı aşağı doğru kıvırın."),
+ ("thigh-l", "Sol uyluk", "Sol uyluğunuzun kaslarını sıkın."),
+ ("calf-l", "Sol baldır", "Sol ayak parmaklarınızı yavaşça kendinize doğru çekin. Kramp girmemesi için yavaş olun."),
+ ("foot-l", "Sol ayak", "Sol ayak parmaklarınızı aşağı doğru kıvırın."),
+]
+PMR_SHORT = [
+ ("farm-r farm-l uarm-r uarm-l", "Eller ve kollar", "İki elinizi yumruk yapın, ön kollarınızı omuzlarınıza doğru bükün."),
+ ("head", "Yüz", "Kaşlarınızı kaldırın, gözlerinizi sıkıca yumun, dişlerinizi hafifçe sıkın."),
+ ("neck shoulders", "Boyun ve omuzlar", "Omuzlarınızı kulaklarınıza doğru kaldırın."),
+ ("chest", "Sırt ve göğüs", "Kürek kemiklerinizi geriye sıkıştırın, derin bir nefes alın."),
+ ("belly hips", "Karın ve kalçalar", "Karın ve kalça kaslarınızı birlikte sıkın."),
+ ("thigh-r thigh-l calf-r calf-l", "Bacaklar", "Uyluklarınızı sıkın, ayak parmaklarınızı yavaşça kendinize doğru çekin."),
+ ("foot-r foot-l", "Ayaklar", "Ayak parmaklarınızı aşağı doğru kıvırın."),
+]
+def _pm_list(rows, lid):
+    return f'<ol class="steps" id="{lid}">' + "".join(f'<li data-r="{r}"><div><strong>{n}.</strong> <span>{c}</span></div></li>' for r, n, c in rows) + '</ol>'
+
+PMR_FIG = '''<svg viewBox="0 0 120 244" aria-hidden="true">
+  <circle class="rg" data-g="head" cx="60" cy="22" r="16"/>
+  <rect class="rg" data-g="neck" x="54" y="38" width="12" height="11" rx="3"/>
+  <rect class="rg" data-g="shoulders" x="30" y="49" width="60" height="12" rx="6"/>
+  <rect class="rg" data-g="chest" x="36" y="62" width="48" height="34" rx="7"/>
+  <rect class="rg" data-g="belly" x="38" y="97" width="44" height="27" rx="7"/>
+  <rect class="rg" data-g="hips" x="36" y="125" width="48" height="18" rx="8"/>
+  <rect class="rg" data-g="uarm-r" x="17" y="56" width="12" height="44" rx="6"/>
+  <rect class="rg" data-g="uarm-l" x="91" y="56" width="12" height="44" rx="6"/>
+  <path class="rg" data-g="farm-r" d="M15 107 a6 6 0 0 1 12 0 V142 a8 8 0 1 1 -12 0 Z"/>
+  <path class="rg" data-g="farm-l" d="M93 107 a6 6 0 0 1 12 0 V142 a8 8 0 1 1 -12 0 Z"/>
+  <rect class="rg" data-g="thigh-r" x="38" y="145" width="21" height="48" rx="9"/>
+  <rect class="rg" data-g="thigh-l" x="61" y="145" width="21" height="48" rx="9"/>
+  <rect class="rg" data-g="calf-r" x="40" y="195" width="17" height="34" rx="8"/>
+  <rect class="rg" data-g="calf-l" x="63" y="195" width="17" height="34" rx="8"/>
+  <ellipse class="rg" data-g="foot-r" cx="46" cy="236" rx="11" ry="5.5"/>
+  <ellipse class="rg" data-g="foot-l" cx="74" cy="236" rx="11" ry="5.5"/>
+</svg>'''
+
+PMR_FAQ = [
+ ("Uykuya dalmak için işe yarar mı?", "Amerikan Uyku Tıbbı Akademisi'nin kılavuzu, gevşeme yöntemlerini süregelen uykusuzlukta tek başına kullanılabilecek tedaviler arasında sayıyor (koşullu öneri). Akşam yatmadan önce ya da yatakta yapabilirsiniz. Uzun süren uykusuzlukta en güçlü önerilen tedavi, uykusuzluk için bilişsel davranışçı terapidir."),
+ ("Ne sıklıkla yapmalıyım?", "İncelenen çalışmalarda uygulama her günden haftada birkaç güne kadar değişiyordu. Kaygıda gevşeme eğitimini inceleyen analizde evde düzenli pratik yapılan programlar daha etkiliydi. Öğrenirken her gün yapmayı deneyin; zamanla kısa sürümü gün içinde de kullanabilirsiniz."),
+ ("Ağrılı ya da yaralı bir bölgem var; yapabilir miyim?", "O bölgeyi atlayın ya da yalnızca çok hafif sıkın. Yaralanmanız ya da kas ağrısına yol açan bir sorununuz varsa başlamadan önce hekiminize danışın. Kaslarınızı ağrı yapacak kadar değil, gerginliği hissedecek kadar sıkın."),
+ ("Nefes egzersizlerinden farkı ne?", "Nefes egzersizleri soluk alıp vermeye, kas gevşetme ise kasların gerilip bırakılmasına odaklanır. İncelenen çalışmalarda kas gevşetme başka yöntemlerle birleştirildiğinde etkisi daha belirgindi; ikisini birlikte de deneyebilirsiniz."),
+]
+
+PMR_SRC = [
+ "Muhammad Khir S, Wan Mohd Yunus WMA, Mahmud N, et al. " + ext("https://dovepress.com/efficacy-of-progressive-muscle-relaxation-in-adults-for-stress-anxiety-peer-reviewed-fulltext-article-PRBM", "Efficacy of progressive muscle relaxation in adults for stress, anxiety, and depression: a systematic review") + ". Psychol Res Behav Manag. 2024;17:345–365.",
+ "Manzoni GM, Pagnini F, Castelnuovo G, Molinari E. " + ext("https://www.biomedcentral.com/1471-244X/8/41", "Relaxation training for anxiety: a ten-years systematic review with meta-analysis") + ". BMC Psychiatry. 2008;8:41.",
+ "Edinger JD, Arnedt JT, Bertisch SM, et al. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. 2021;17(2):255–262. Özet: " + ext("https://www.ajmc.com/view/new-aasm-guidelines-support-behavioral-psychological-treatments-for-insomnia", "AJMC, New AASM guidelines support behavioral, psychological treatments for insomnia") + ", 5 January 2021.",
+ "Centre for Clinical Interventions (Government of Western Australia). " + ext("https://www.cci.health.wa.gov.au/-/media/CCI/Mental-Health-Professionals/Social-Anxiety/Social-Anxiety---Information-Sheets/Social-Anxiety-Information-Sheet---04---Progressive-Muscle-Relaxation.pdf", "Progressive muscle relaxation") + ". Information sheet.",
+ "University College London Hospitals NHS Foundation Trust. " + ext("https://uclh.nhs.uk/patients-and-visitors/patient-information-pages/relaxation-techniques", "Relaxation techniques") + ". Last updated 29 May 2024.",
+ "Anxiety Canada. " + ext("https://admin.heretohelp.bc.ca/infosheet/how-to-do-progressive-muscle-relaxation", "How to do progressive muscle relaxation") + ". HeretoHelp.",
+]
+
+PMR_BODY = f'''<header class="page">
+  <div class="wrap">
+    <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
+    <p class="eyebrow">Kendine iyi bak</p>
+    <h1>Kas gevşetme: sesli rehberle</h1>
+    <p class="lede">Aşamalı kas gevşetme, 1930'larda Edmund Jacobson'ın geliştirdiği bir yöntemdir: Bir kas grubunu birkaç saniye sıkar, sonra bırakır ve aradaki farkı fark edersiniz. Araştırmalar stres, kaygı ve uykusuzlukta yararlı olabildiğini gösteriyor. Aşağıdaki zamanlayıcı her adımı söyler; gözlerinizi kapatıp izleyebilirsiniz.</p>
+    <p class="meta">Son güncelleme: 10 Ekim 2026</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>46 çalışma</b><span>Yetişkinlerde kas gevşetmeyi inceleyen 2024 tarihli sistematik derleme; 3.402 kişi, 16 ülke</span></div>
+        <div class="stat"><b>27 çalışma</b><span>Kaygıda gevşeme eğitimini inceleyen analiz; orta-büyük düzeyde etki</span></div>
+        <div class="stat"><b>5 + 10 sn</b><span>Her kas grubunu yaklaşık 5 saniye sıkın, 10 saniye bırakın</span></div>
+        <div class="stat"><b>6 dakika</b><span>18 bölgelik tam sürüm; kısa sürüm yaklaşık 3 dakika</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gevsetme">
+    <div class="wrap">
+      <p class="eyebrow">Birlikte yapalım</p>
+      <h2>Sesli kas gevşetme rehberi</h2>
+      <p class="soft">Rahat bir sandalyeye oturun ya da uzanın. Sesi açın; rehber her bölgeyi söyleyecek. Kaslarınızı ağrı yapacak kadar değil, gerginliği hissedecek kadar sıkın.</p>
+      <div class="tool">
+        <div class="pm" id="pm">
+          <div class="pm-fig">{PMR_FIG}</div>
+          <div>
+            <p class="pm-ph" id="pm-ph" aria-live="polite"></p>
+            <div class="pm-row"><span class="pm-n" id="pm-n"></span><div><p class="pm-name" id="pm-name">Hazır olduğunuzda başlayın</p></div></div>
+            <p class="pm-cue" id="pm-cue">Rahat bir yere oturun ya da uzanın; isterseniz gözlerinizi kapatın.</p>
+            <div class="pm-meta"><span id="pm-step">&nbsp;</span><span id="pm-left">6:00</span></div>
+            <div class="pm-bar"><i id="pm-bar"></i></div>
+            <p class="q">Sürüm</p>
+            <div class="seg" role="group" aria-label="Sürüm" id="pm-ver">
+              <button type="button" data-v="f" aria-pressed="true">Tam (18 bölge)</button>
+              <button type="button" data-v="s" aria-pressed="false">Kısa (7 bölge)</button>
+            </div>
+            <p class="q">Gevşeme süresi</p>
+            <div class="seg" role="group" aria-label="Gevşeme süresi" id="pm-pace">
+              <button type="button" data-v="10" aria-pressed="true">10 saniye</button>
+              <button type="button" data-v="20" aria-pressed="false">20 saniye</button>
+            </div>
+            <div class="controls" style="margin-top:14px">
+              <button type="button" class="cta" id="pm-go">Başlat</button>
+              <button type="button" class="cta ghost" id="pm-reset">Sıfırla</button>
+            </div>
+            <label class="snd"><input type="checkbox" id="pm-voice" checked> Sesli yönlendirme</label>
+          </div>
+        </div>
+        <div class="pm-s" hidden>
+          <span data-k="ready">Hazır olduğunuzda başlayın</span>
+          <span data-k="readys">Rahat bir yere oturun ya da uzanın; isterseniz gözlerinizi kapatın.</span>
+          <span data-k="intro">Başlıyoruz</span>
+          <span data-k="intros">Rahat bir pozisyon bulun. Nefesinizi yavaşlatın ve kendinize gevşemek için izin verin.</span>
+          <span data-k="prep">Sıradaki bölge</span>
+          <span data-k="tense">Sıkın</span>
+          <span data-k="rel">Bırakın</span>
+          <span data-k="rels">Gerginliğin akıp gittiğini, kaslarınızın ağırlaştığını fark edin.</span>
+          <span data-k="outro">Tüm bedeniniz gevşek</span>
+          <span data-k="outros">Bir süre böyle kalın, nefesinizi izleyin. Kalkmadan önce birkaç dakika oturun.</span>
+          <span data-k="done">Tamamlandı</span>
+          <span data-k="dones">Nasıl hissediyorsunuz? Bu rehberi her gün, özellikle yatmadan önce tekrarlayabilirsiniz.</span>
+          <span data-k="paused">Duraklatıldı</span>
+          <span data-k="step">{{i}} / {{n}}</span>
+          <span data-k="start">Başlat</span>
+          <span data-k="pause">Duraklat</span>
+          <span data-k="resume">Devam et</span>
+          <span data-k="again">Baştan başla</span>
+          <span data-k="v_rel">Ve bırakın.</span>
+        </div>
+      </div>
+      <p class="count">Bir bölge ağrıyorsa ya da yaralıysa o adımı hafif yapın ya da yalnızca gevşemeye odaklanın. Baş dönmesi ya da kramp olursa durun.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Adım adım</p>
+      <h2>Hangi bölge, nasıl sıkılır?</h2>
+      <p class="soft">Her bölgeyi yaklaşık 5 saniye sıkın, sonra bırakıp 10 saniye gevşemeyi fark edin. Sıra ve tarifler Batı Avustralya hükümetinin klinik müdahale merkezinin (CCI) kılavuzundan alındı; kısa sürüm bu bölgeleri birleştirir.</p>
+      <div class="pm-lists">
+        <div><h3>Tam sürüm</h3>{_pm_list(PMR_FULL, "pm-full")}</div>
+        <div><h3>Kısa sürüm</h3>{_pm_list(PMR_SHORT, "pm-short")}</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two">
+      <div>
+        <h2>Araştırma ne buldu?</h2>
+        <p class="soft">2024'te yayımlanan sistematik derleme 16 ülkeden 46 çalışmayı inceledi; katılımcıların çoğu hemşireler, öğrenciler, bakım verenler, yaşlılar ve çalışanlar gibi hastalık tanısı olmayan yetişkinlerdi.</p>
+      </div>
+      <ul class="dots" style="align-self:center">
+        <li>Çalışmaların 24'ü stresin, 21'i kaygının, 11'i depresyon belirtilerinin azaldığını gösterdi; bazı çalışmalarda fark bulunmadı.</li>
+        <li>Seanslar 5 ile 28 dakika arasındaydı; seans süresi ve sıklığı sonucu belirgin biçimde değiştirmedi.</li>
+        <li>Kas gevşetme başka yöntemlerle birleştirildiğinde etkisi daha belirgindi.</li>
+        <li>Kaygıda gevşeme eğitimini inceleyen 27 çalışmalık analizde etki orta-büyük düzeydeydi; daha uzun süren ve evde pratik yapılan programlar daha etkiliydi.</li>
+        <li>Amerikan Uyku Tıbbı Akademisi, gevşeme yöntemlerini süregelen uykusuzlukta koşullu olarak öneriyor.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Püf noktaları</h2>
+      <div class="kinds">
+        <div class="kind"><span class="n">1</span><h3>Sakin bir an seçin</h3><p>Ağır bir yemekten ya da alkolden hemen sonra yapmayın. Telefonunuzun bildirimlerini kısa bir süre kapatın.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Ağrıtmadan sıkın</h3><p>Gerginliği hissetmeniz yeterli. Boyun ve baldırda özellikle yavaş ve dikkatli olun; baldırda kramp girebilir.</p></div>
+        <div class="kind"><span class="n">3</span><h3>Farkı fark edin</h3><p>Asıl beceri, bıraktığınız andaki gevşemeyi fark etmektir. Zamanla gergin olduğunuz anları daha erken yakalarsınız.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Düzenli pratik yapın</h3><p>Öğrenirken her gün, örneğin yatmadan önce yapın. Alıştıkça kısa sürümü gün içinde gergin anlarda kullanın.</p></div>
+      </div>
+      <p class="soft" style="margin-top:18px">Nefese odaklanan bir yöntem için <a href="ic-cekis.html">5 dakikalık iç çekiş nefesi</a>, uykunuz için <a href="uyku.html">İyi uyku için</a> sayfasına, ruh hâlinizi izlemek için <a href="ruh-hali-olcumu.html">Ruh hâlinizi ölçün</a> sayfasına bakabilirsiniz.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sık sorulan sorular</h2>
+      {faq(PMR_FAQ)}
+      <div class="note" style="margin-top:22px"><strong>Destek almak önemlidir:</strong> Haftalardır süren kaygı, çökkünlük ya da uyku sorunları gevşeme egzersizleriyle geçmiyorsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa 112'yi arayın.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap col sources">
+      <p class="eyebrow">Kaynaklar</p>
+      {src_list(PMR_SRC)}
+    </div>
+  </section>
+</main>'''
+
+PMR_JS = '''<script>
+(function(){
+  var root = document.getElementById('pm'); if (!root) return;
+  var S = {}; document.querySelectorAll('.pm-s [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
+  var EN = document.documentElement.lang === 'en', LANG = EN ? 'en-GB' : 'tr-TR';
+  var $ = function(id){ return document.getElementById(id); };
+  function read(id){ return [].map.call(document.querySelectorAll('#' + id + ' li'), function(li){
+    return { n: li.querySelector('strong').textContent.replace(/[.:]\\s*$/, ''), c: li.querySelector('span').textContent, r: li.getAttribute('data-r').split(' ') }; }); }
+  var LISTS = { f: read('pm-full'), s: read('pm-short') }, ver = 'f', rel = 10, PREP = 4, TENSE = 5, INTRO = 10, OUTRO = 20;
+  var RG = [].slice.call(root.querySelectorAll('.rg'));
+  var segs = [], total = 0, el = 0, si = -1, running = false, state = 'idle', raf = 0, last = 0, ctx = null, lock = null, snd = $('pm-voice');
+''' + WAKE_JS + '''
+  function say(t){ if (!snd.checked || !('speechSynthesis' in window)) return; try { var u = new SpeechSynthesisUtterance(t); u.lang = LANG; u.rate = .92; speechSynthesis.speak(u); } catch (e) {} }
+  function hush(){ try { speechSynthesis.cancel(); } catch (e) {} }
+  function build(){
+    segs = [{k: 'intro', d: INTRO}]; var L = LISTS[ver];
+    L.forEach(function(s, i){ segs.push({k: 'prep', i: i, d: PREP}, {k: 'tense', i: i, d: TENSE}, {k: 'rel', i: i, d: rel}); });
+    segs.push({k: 'outro', d: OUTRO}); total = segs.reduce(function(a, s){ return a + s.d; }, 0);
+  }
+  function mmss(s){ s = Math.max(0, Math.ceil(s)); var m = Math.floor(s / 60), r = s % 60; return m + ':' + (r < 10 ? '0' : '') + r; }
+  function paint(i, k){
+    var L = LISTS[ver], cur = i >= 0 ? L[i].r : [];
+    var doneSet = {}; for (var j = 0; j < (k === 'outro' ? L.length : i); j++) L[j].r.forEach(function(g){ doneSet[g] = 1; });
+    RG.forEach(function(e){ var g = e.getAttribute('data-g'), on = cur.indexOf(g) >= 0;
+      e.classList.toggle('on', on && k === 'prep'); e.classList.toggle('tense', on && k === 'tense'); e.classList.toggle('rel', on && k === 'rel');
+      e.classList.toggle('done', !on && !!doneSet[g] && k !== 'outro'); if (k === 'outro') { e.classList.remove('done'); e.classList.add('rel'); } });
+  }
+  function enter(n){
+    si = n; var s = segs[n], L = LISTS[ver], ph = $('pm-ph');
+    ph.className = 'pm-ph' + (s.k === 'tense' ? ' t' : s.k === 'rel' || s.k === 'outro' ? ' r' : '');
+    if (s.k === 'intro') { ph.textContent = S.intro; $('pm-name').textContent = S.intro; $('pm-cue').textContent = S.intros; say(S.intros); }
+    else if (s.k === 'outro') { ph.textContent = ''; $('pm-name').textContent = S.outro; $('pm-cue').textContent = S.outros; say(S.outro + '. ' + S.outros); beep(392, .5, .07); }
+    else {
+      var st = L[s.i]; $('pm-name').textContent = st.n;
+      if (s.k === 'prep') { ph.textContent = S.prep; $('pm-cue').textContent = st.c; say(st.n + '. ' + st.c); }
+      if (s.k === 'tense') { ph.textContent = S.tense; beep(660, .18, .09); }
+      if (s.k === 'rel') { ph.textContent = S.rel; $('pm-cue').textContent = S.rels; beep(330, .6, .07); say(S.v_rel); }
+      $('pm-step').textContent = S.step.replace('{i}', s.i + 1).replace('{n}', L.length);
+    }
+    if (s.k === 'intro' || s.k === 'outro') $('pm-step').textContent = '\\u00a0';
+    paint(s.i === undefined ? -1 : s.i, s.k);
+  }
+  function startOf(n){ var t = 0; for (var j = 0; j < n; j++) t += segs[j].d; return t; }
+  function draw(){
+    var s = segs[si]; if (!s) return; var into = el - startOf(si), left = s.d - into;
+    $('pm-n').textContent = (s.k === 'tense' || s.k === 'rel') ? Math.max(1, Math.ceil(left)) : '';
+    $('pm-left').textContent = mmss(total - el); $('pm-bar').style.width = (Math.min(1, el / total) * 100).toFixed(2) + '%';
+  }
+  function frame(now){
+    if (!running) return;
+    var dt = Math.min(.25, (now - last) / 1000); last = now; el += dt;
+    while (si < segs.length && el >= startOf(si) + segs[si].d) { if (si + 1 >= segs.length) { finish(); return; } enter(si + 1); }
+    draw(); raf = requestAnimationFrame(frame);
+  }
+  function run(){ running = true; last = performance.now(); cancelAnimationFrame(raf); raf = requestAnimationFrame(frame); $('pm-go').textContent = S.pause; wake(true); }
+  function pause(){ running = false; cancelAnimationFrame(raf); hush(); $('pm-go').textContent = S.resume; $('pm-ph').textContent = S.paused; wake(false); }
+  function finish(){ running = false; cancelAnimationFrame(raf); state = 'done'; el = total; $('pm-name').textContent = S.done; $('pm-cue').textContent = S.dones; $('pm-ph').textContent = ''; draw(); $('pm-n').textContent = '✓'; $('pm-go').textContent = S.again; wake(false); beep(523, .4, .07); setTimeout(function(){ beep(659, .6, .07); }, 300); }
+  function reset(){ running = false; cancelAnimationFrame(raf); hush(); state = 'idle'; el = 0; si = -1; build();
+    $('pm-ph').textContent = ''; $('pm-name').textContent = S.ready; $('pm-cue').textContent = S.readys; $('pm-n').textContent = ''; $('pm-step').textContent = '\\u00a0';
+    $('pm-left').textContent = mmss(total); $('pm-bar').style.width = '0%'; $('pm-go').textContent = S.start; paint(-1, 'idle'); RG.forEach(function(e){ e.classList.remove('rel'); }); wake(false); }
+  $('pm-go').addEventListener('click', function(){
+    if (state === 'idle' || state === 'done') { reset(); state = 'run'; enter(0); run(); }
+    else if (running) pause(); else { enter(si); run(); }
+  });
+  $('pm-reset').addEventListener('click', reset);
+  function seg(id, fn){ $(id).addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return;
+    this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); fn(b.getAttribute('data-v')); reset(); }); }
+  seg('pm-ver', function(v){ ver = v; }); seg('pm-pace', function(v){ rel = +v; });
+  document.addEventListener('visibilitychange', function(){ if (!document.hidden && running) wake(true); });
+  reset();
+})();
+</script>
+'''
+
+page("kas-gevsetme.html", "Kas Gevşetme: Sesli Rehber",
+     "Aşamalı kas gevşetme nedir, stres, kaygı ve uykusuzlukta işe yarar mı? 46 çalışmanın bulguları, 18 bölgelik tam ve 7 bölgelik kısa sürüm, sesli zamanlayıcıyla adım adım.",
+     "kas-gevsetme.html", PMR_CSS, PMR_BODY, PMR_JS,
+     seo_title="Aşamalı Kas Gevşetme: Sesli Rehberle 6 Dakika | İhsan Eren",
+     about={"@type": "Thing", "name": "Aşamalı kas gevşetme"}, faq_items=PMR_FAQ)
