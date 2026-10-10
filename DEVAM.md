@@ -285,3 +285,15 @@ Not: `publish.sh` her çağrıda `up40/_home_*.txt` dosyalarını siler; aynı d
 
 ## Galeri başlığı (9 Ekim 2026)
 Ana sayfadaki "Evde bir seansın hikâyesi" başlığı kullanıcı isteğiyle "Bir seansın hikâyesi" oldu (fb_misc.py); EN: "The story of a session" (fb32, fb_tr_en.py).
+
+## Dizin 12 Sırrı (knee12_part.py) — 10 Ekim 2026
+`dizin-12-sirri.html` / `en/knee-12-secrets.html` (Kendine iyi bak; SELF listesinin başında, "Zamanlayıcıyla birlikte yapın" grubunda). Diz kireçlenmesi rehberinden ve RELATED'dan bağlantı var.
+Kullanıcı isteği: egzersiz uyumunu artıran, merak uyandıran, benzersiz bir egzersiz deneyimi. Yapı: söz kartı (gün/saat/"neyin ardından"/yalnızca egzersizde dinlenecek şey),
+30 sn sandalyeden kalkma ölçümü (başta, 6. ve 12. seansta), sesli sayan seans oynatıcı (tempo, tutma, sağ/sol, dinlenmede "sırrın kilidi %"), ağrı trafik ışığı (5/10 ve 24 saat kuralı),
+seans sonunda kilit açılma animasyonu ve sır kartı + bir sonraki sorunun ön gösterimi, harita (3 bölüm × 4 kilit), haftalık 2 seans halkası, .ics takvim, WhatsApp'la bir yakına söyleme (numarasız wa.me).
+Veriler yalnızca localStorage'da (anahtar drihsaneren.diz12.v1). Arayüz metinlerinin hepsi gizli `.d12-s [data-k]` kaplarında; betikte görünen metin yok (EN hattı için).
+Okunan kaynaklar: Cochrane 2024 (139 RKÇ, 12.468 kişi; ağrı ~13, işlev ~12,5 puan), Jack 2010 özeti (engeller), Bedson 2008 (%15–76 / %15–81), Øiestad 2022 (OR 1,85 / 1,43; kanıt düşük),
+ELHT NHS diz ağrısı sayfası (<5/10, bir günde geçmeli; >5 ya da >24 saat → azalt), UCL haberi (Lally: 66 gün, tek kaçırma etkilemedi), Messier 2005 (1'e 4), Wharton haberi (Milkman: %51),
+ikincil kaynak (Gollwitzer & Sheeran: 94 test, d=0,65), CDC STEADI 30 sn testi (2017). NICE NG226 bilgisi diz rehberinde daha önce okunmuştu.
+Hafızadan: Lawford ilk yazar (Cochrane 2024), Jack 2010 yazar listesi, Lally/Gollwitzer/Milkman cilt-sayfa bilgileri. Kaynaksız/genel: "başlamadan önce danışın" listesi, ısınma adımı, tempo süreleri, tekrar artış kuralı.
+Program hareketleri ve anlatımları diz rehberindekilerle aynı (EXT yeniden kullanıldı, d12_ kopyaları programa özgü dozlarla). Çeviri: dizin-12-sirri (217) + fb427–fb428.

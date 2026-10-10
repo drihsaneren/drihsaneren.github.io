@@ -146,6 +146,7 @@ KNEE_BODY = f'''<header class="page">
       <h2>Diz için altı temel egzersiz</h2>
       <p class="soft">Egzersiz sırasında hafif bir ağrı olabilir; ağrı ertesi gün artmıyorsa devam etmek güvenlidir. Ertesi gün belirgin artış ya da şişlik olursa tekrar sayısını azaltın. İlk üçü yatarak ya da oturarak yapıldığı için ağrılı dönemlerde de uygundur.</p>
       {ex_grid(["kext", "quad", "slr", "sts", "abd", "wall"])}
+      <div class="callout"><p><b>Sürdürmek zor mu geliyor?</b> Bu hareketleri altı haftalık, sesli sayan ve her seansta kilitli bir sır açan etkileşimli bir programa dönüştürdük: <a href="dizin-12-sirri.html">Dizin 12 Sırrı</a>.</p></div>
     </div>
   </section>
 
