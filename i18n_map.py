@@ -45,6 +45,7 @@ EN = {
     "idrar-kacirma.html": "urinary-incontinence.html",
     "gebelikte-bel-agrisi.html": "pregnancy-back-pain.html",
     "dar-kanal.html": "lumbar-spinal-stenosis.html",
+    "bel-kaymasi.html": "spondylolisthesis.html",
     "on-capraz-bag.html": "acl-injury.html",
     "romatoid-artrit.html": "rheumatoid-arthritis.html",
     "surekli-usume.html": "always-feeling-cold.html",

@@ -332,3 +332,9 @@ Kullanıcı seçti: (1) Uyku evreleri ve 83 hastalık — PLOS Medicine 17 Eylü
 (2) Sinir-kas kavşağı ve sarkopeni — JCI 1 Eylül 2026 (Arnold WD … Clark BC) özeti + ScienceDaily/Missouri (ignaseclant CMT denemesi). (3) Ultra işlenmiş gıda ve uyluk kası yağlanması — RSNA 14 Nisan 2026 (Radiology, Akkaya; 615 kişi, OAI, %41 UİG, Goutallier). (4) Lakozamid ve kıkırdak — Yale 2 Haziran 2026 + ScienceDaily (Bioactive Materials 2026;61:640; hayvan/hücre).
 Not: ScienceDaily'de Ekim 2026'da görünen Stanford 15-PGDH kıkırdak çalışması aslında Kasım 2025'te yayımlanmış (Science); eklenmedi. Haberler tarih sırasına göre NEWS listesine yerleştirildi (uyku ve kas: Eylül; lakozamid: Haziran; UİG: Nisan).
 Çizimler: IL_SLEEPST, IL_NMJ, IL_UPF, IL_LACO. Çeviri: i18n/todo|done/yen4.json (y4-1…y4-19). Eksik birimleri tam metinle dökmek için scratchpad/mind/dump_miss.py yazıldı.
+
+## Bel kayması (cond20_part.py) — 11 Ekim 2026
+`bel-kaymasi.html` / `en/spondylolisthesis.html` (Hastalık rehberi, bölge: bel; dar-kanal ↔ bel-kaymasi ilgili bağlantı). Kullanıcı: kullanım %91, rehberler "birer birer" eklenecek.
+Okunan kaynaklar: Cleveland Clinic (15 Ağustos 2024: türler, risk etkenleri, belirtiler, röntgen/BT/MR, ameliyatsız tedavi, 10 gün ağrı kesici uyarısı, korse kırıkta, ameliyat ölçütleri, acil belirtiler), MSD Manual (Kasım 2024: 5 tip, L5–S1 en sık, dejeneratif kadınlarda 6 kat, derece I–IV %25'lik, eğilme filmleri, stabilizasyon egzersizi, genellikle kararlı),
+The Bottom Line özeti (Försth 2016 NEJM: 247 hasta, füzyon eklemek 2 yılda fark yok, yatış 4,1→7,4 gün, maliyet +6.800 $). Hafızadan: Försth yazar listesi ve cilt-sayı (374(15)). Kaynaksız: altı egzersizin tarif ve dozları, "kasık/makat uyuşması" acil belirtisi (genel kauda ekina bilgisi). Video yok.
+Çeviri: bel-kaymasi (81) + fb438–fb439. check.py'deki tek uyarı yazar adı (Försth).

@@ -1,0 +1,407 @@
+[
+ {
+  "id": "bel0",
+  "kind": "text",
+  "tr": "Bel Kayması (Spondilolistezis): Belirtiler, Dereceler, Egzersiz ve Tedavi | İhsan Eren"
+ },
+ {
+  "id": "bel1",
+  "kind": "attr",
+  "tr": "Bel kayması nedir, neden olur, dereceleri nelerdir? Belirtiler, röntgende tanı, ameliyatsız tedavi, ameliyatın ne zaman gerektiği ve beli destekleyen altı egzersiz."
+ },
+ {
+  "id": "bel2",
+  "kind": "text",
+  "tr": "Bel kayması (spondilolistezis)"
+ },
+ {
+  "id": "bel3",
+  "kind": "text",
+  "tr": "Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt seviyesinde görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda tedavinin temeli ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir."
+ },
+ {
+  "id": "bel4",
+  "kind": "text",
+  "tr": "L5–S1"
+ },
+ {
+  "id": "bel5",
+  "kind": "text",
+  "tr": "En sık kaymanın görüldüğü seviye: belin en alt omuru ile kuyruk sokumu arası"
+ },
+ {
+  "id": "bel6",
+  "kind": "text",
+  "tr": "4 derece"
+ },
+ {
+  "id": "bel7",
+  "kind": "text",
+  "tr": "Kayma miktarına göre: I. derece %0–25, IV. derece %75–100"
+ },
+ {
+  "id": "bel8",
+  "kind": "text",
+  "tr": "Yaşa bağlı (dejeneratif) kaymanın kadınlarda erkeklere göre sıklığı"
+ },
+ {
+  "id": "bel9",
+  "kind": "text",
+  "tr": "247 hasta"
+ },
+ {
+  "id": "bel10",
+  "kind": "text",
+  "tr": "Ameliyata vida eklemenin yararını sınayan İsveç çalışması; 2 yılda fark yoktu"
+ },
+ {
+  "id": "bel11",
+  "kind": "text",
+  "tr": "Yaşa bağlı (dejeneratif)"
+ },
+ {
+  "id": "bel12",
+  "kind": "text",
+  "tr": "En sık türdür. Omurlar arasındaki disklerin ve eklemlerin yıpranmasıyla ortaya çıkar; genellikle 50–60 yaşın üzerinde ve kadınlarda görülür."
+ },
+ {
+  "id": "bel13",
+  "kind": "text",
+  "tr": "İstmik"
+ },
+ {
+  "id": "bel14",
+  "kind": "text",
+  "tr": "Omurun arka kısmındaki ince kemik köprüde (pars interartikülaris) yorgunluk çatlağı oluşur ve omur kayar. Daha çok gençlerde ve sporcularda, tekrarlayan zorlanmaya bağlı görülür."
+ },
+ {
+  "id": "bel15",
+  "kind": "text",
+  "tr": "Diğerleri"
+ },
+ {
+  "id": "bel16",
+  "kind": "text",
+  "tr": "Doğuştan omur gelişim farkı, kaza ya da düşme, kemiği zayıflatan hastalıklar ve nadiren omurga ameliyatı sonrası."
+ },
+ {
+  "id": "bel17",
+  "kind": "text",
+  "tr": "Çoğu zaman hiç belirti yoktur"
+ },
+ {
+  "id": "bel18",
+  "kind": "text",
+  "tr": "Bel ağrısı ve tutukluk"
+ },
+ {
+  "id": "bel19",
+  "kind": "text",
+  "tr": "Kalçaya ya da uyluğa yayılan ağrı"
+ },
+ {
+  "id": "bel20",
+  "kind": "text",
+  "tr": "Bacağa yayılan ağrı (siyatik)"
+ },
+ {
+  "id": "bel21",
+  "kind": "text",
+  "tr": "Uzun süre ayakta durmakta ya da yürümekte zorlanma"
+ },
+ {
+  "id": "bel22",
+  "kind": "text",
+  "tr": "Ayaklarda uyuşma, karıncalanma ya da güçsüzlük"
+ },
+ {
+  "id": "bel23",
+  "kind": "text",
+  "tr": "Tanı ve dereceler"
+ },
+ {
+  "id": "bel24",
+  "kind": "text",
+  "tr": "Tanı muayene ve röntgenle konur; kaymanın derecesi yandan çekilen filmde ölçülür. Öne ve arkaya eğilerek çekilen filmler kaymanın hareketle artıp artmadığını gösterir. Sinir sıkışması düşünülüyorsa MR ya da tomografi istenebilir."
+ },
+ {
+  "id": "bel25",
+  "kind": "text",
+  "tr": "I. derece"
+ },
+ {
+  "id": "bel26",
+  "kind": "text",
+  "tr": "Omur, alttaki omurun boyunun %25'ine kadar kaymış. En sık görülen ve çoğu zaman ameliyat gerektirmeyen derece."
+ },
+ {
+  "id": "bel27",
+  "kind": "text",
+  "tr": "II. derece"
+ },
+ {
+  "id": "bel28",
+  "kind": "text",
+  "tr": "%25–50 arası kayma."
+ },
+ {
+  "id": "bel29",
+  "kind": "text",
+  "tr": "III. derece"
+ },
+ {
+  "id": "bel30",
+  "kind": "text",
+  "tr": "%50–75 arası kayma."
+ },
+ {
+  "id": "bel31",
+  "kind": "text",
+  "tr": "IV. derece"
+ },
+ {
+  "id": "bel32",
+  "kind": "text",
+  "tr": "%75–100 arası kayma. III ve IV. derecede ameliyat olasılığı çok daha yüksektir."
+ },
+ {
+  "id": "bel33",
+  "kind": "text",
+  "tr": "Bel kayması genellikle zamanla ilerlemeyen, kararlı bir durumdur. Röntgende kayma görülmesi, ağrının tek nedeninin bu olduğu anlamına gelmez; belirtilerle birlikte değerlendirilir."
+ },
+ {
+  "id": "bel34",
+  "kind": "text",
+  "tr": "Ameliyatsız tedavi"
+ },
+ {
+  "id": "bel35",
+  "kind": "text",
+  "tr": "Etkinliği düzenlemek"
+ },
+ {
+  "id": "bel36",
+  "kind": "text",
+  "tr": "Ağrıyı artıran sporlara ve yoğun etkinliklere bir süre ara vermek."
+ },
+ {
+  "id": "bel37",
+  "kind": "text",
+  "tr": "Gövde ve karın kaslarını güçlendiren, beli dengeleyen egzersizler tedavinin temelidir."
+ },
+ {
+  "id": "bel38",
+  "kind": "text",
+  "tr": "Ağrı kesiciler"
+ },
+ {
+  "id": "bel39",
+  "kind": "text",
+  "tr": "Reçetesiz ağrı kesicileri hekime danışmadan 10 günden uzun süre üst üste kullanmayın."
+ },
+ {
+  "id": "bel40",
+  "kind": "text",
+  "tr": "İğne"
+ },
+ {
+  "id": "bel41",
+  "kind": "text",
+  "tr": "Bacağa yayılan ağrıda kortizonlu enjeksiyon seçenekler arasındadır."
+ },
+ {
+  "id": "bel42",
+  "kind": "text",
+  "tr": "Genellikle omurda bir çatlak (kırık) varsa."
+ },
+ {
+  "id": "bel43",
+  "kind": "text",
+  "tr": "III ya da IV. derece (ileri) kayma"
+ },
+ {
+  "id": "bel44",
+  "kind": "text",
+  "tr": "Ayakta durmayı ve yürümeyi belirgin biçimde kısıtlayan şiddetli belirtiler"
+ },
+ {
+  "id": "bel45",
+  "kind": "text",
+  "tr": "Ameliyatsız tedaviye rağmen geçmeyen belirtiler"
+ },
+ {
+  "id": "bel46",
+  "kind": "text",
+  "tr": "İlerleyen güçsüzlük ya da idrar ve dışkı kontrolünde bozulma"
+ },
+ {
+  "id": "bel47",
+  "kind": "text",
+  "tr": "İsveç'te 247 hastayla yapılan çalışmada, dar kanal nedeniyle ameliyat edilen hastalarda (bir kısmında hafif bel kayması vardı) sinirleri rahatlatan ameliyata vidalı sabitleme eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış 4,1 günden 7,4 güne uzadı ve maliyet arttı. <a href=\"dar-kanal.html\">Dar kanal rehberine</a> de bakın."
+ },
+ {
+  "id": "bel48",
+  "kind": "text",
+  "tr": "Beli destekleyen altı egzersiz"
+ },
+ {
+  "id": "bel49",
+  "kind": "text",
+  "tr": "Amaç, gövdeyi ve karın kaslarını güçlendirip beli dengede tutmaktır. Hareketleri yavaş ve ağrısız bir aralıkta yapın. Beli geriye doğru zorlayan hareketler ağrınızı artırıyorsa bir süre bunlardan kaçının. Belirtileriniz yeni başladıysa ya da bacağınızda uyuşma ve güçsüzlük varsa önce bir hekime ya da fizyoterapiste danışın."
+ },
+ {
+  "id": "bel50",
+  "kind": "text",
+  "tr": "Pelvis tilti"
+ },
+ {
+  "id": "bel51",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde olsun. Karın kaslarınızı hafifçe sıkarak belinizi yere doğru bastırın, 5 saniye tutun ve gevşeyin. Hareket küçük ve ağrısız olsun."
+ },
+ {
+  "id": "bel52",
+  "kind": "text",
+  "tr": "Sırtüstü yatın. Bir dizinizi iki elinizle göğsünüze doğru yavaşça çekin, belinizin hafifçe esnediğini hissedin; 20 saniye tutun. Sonra diğer bacakla, ardından iki dizle birlikte yapın."
+ },
+ {
+  "id": "bel53",
+  "kind": "text",
+  "tr": "Her biri 20 saniye, 3 tekrar"
+ },
+ {
+  "id": "bel54",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü. Karnınızı hafifçe sıkıp kalçanızı omuzlarınızdan dizlerinize düz bir çizgi oluşana kadar kaldırın; belinizi fazla yukarı itmeyin. 3–5 saniye tutup yavaşça inin."
+ },
+ {
+  "id": "bel55",
+  "kind": "text",
+  "tr": "Ellerinizin ve dizlerinizin üzerinde durun, sırtınız düz olsun. Bir kolunuzu öne, karşı bacağınızı arkaya uzatın; belinizi çukurlaştırmadan ve kalçanızı döndürmeden 5 saniye tutun. Taraf değiştirin."
+ },
+ {
+  "id": "bel56",
+  "kind": "text",
+  "tr": "Her tarafa 8 tekrar"
+ },
+ {
+  "id": "bel57",
+  "kind": "text",
+  "tr": "Dizler üzerinde yan köprü"
+ },
+ {
+  "id": "bel58",
+  "kind": "text",
+  "tr": "Yan yatın, dizleriniz bükülü, dirseğiniz omzunuzun altında olsun. Kalçanızı kaldırarak başınızdan dizlerinize düz bir çizgi oluşturun, 10 saniye tutun. Kolaylaşınca süreyi artırın."
+ },
+ {
+  "id": "bel59",
+  "kind": "text",
+  "tr": "Her tarafa 5 tekrar"
+ },
+ {
+  "id": "bel60",
+  "kind": "text",
+  "tr": "Rahat bir tempoda, düz zeminde yürüyün. Uzun yürüyüşte bacak ağrısı başlıyorsa kısa molalar verin. Süreyi yavaş yavaş artırın."
+ },
+ {
+  "id": "bel61",
+  "kind": "text",
+  "tr": "Günde 10–30 dakika"
+ },
+ {
+  "id": "bel62",
+  "kind": "text",
+  "tr": "Bel kayması geçer mi, düzelir mi?"
+ },
+ {
+  "id": "bel63",
+  "kind": "text",
+  "tr": "Kayan omur genellikle yerine geri gitmez; ancak çoğu kişide kayma zamanla ilerlemez ve belirtiler ameliyatsız tedaviyle azalır. Hafif kaymalar hiç belirti vermeyebilir; birçok kişi bunu başka bir nedenle çekilen röntgende öğrenir."
+ },
+ {
+  "id": "bel64",
+  "kind": "text",
+  "tr": "Egzersiz yapmak kaymayı artırır mı?"
+ },
+ {
+  "id": "bel65",
+  "kind": "text",
+  "tr": "Gövdeyi ve karın kaslarını güçlendiren egzersizler tedavinin temel parçasıdır. Ağrınızı belirgin biçimde artıran hareketleri bir süre bırakın ve programınızı bir fizyoterapistle planlayın."
+ },
+ {
+  "id": "bel66",
+  "kind": "text",
+  "tr": "Korse kullanmalı mıyım?"
+ },
+ {
+  "id": "bel67",
+  "kind": "text",
+  "tr": "Korse genellikle omurda bir çatlak (kırık) olduğunda önerilir. Hekiminiz önermediyse kullanmanız gerekmez; gövde kaslarını egzersizle güçlendirmek tedavinin temelidir."
+ },
+ {
+  "id": "bel68",
+  "kind": "text",
+  "tr": "Ameliyatta vida (füzyon) şart mı?"
+ },
+ {
+  "id": "bel69",
+  "kind": "text",
+  "tr": "Yürürken bacak ağrısına yol açan dar kanalla birlikte hafif bel kayması olan hastalarda yapılan bir İsveç çalışmasında, sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış ve maliyet ise arttı. Hangi ameliyatın uygun olduğuna, kaymanın derecesine ve kararlılığına bakılarak cerrahınızla birlikte karar verilir."
+ },
+ {
+  "id": "bel70",
+  "kind": "text",
+  "tr": "Şu durumlarda beklemeden acil servise başvurun:"
+ },
+ {
+  "id": "bel71",
+  "kind": "text",
+  "tr": "İdrar ya da dışkı kontrolünde bozulma, idrar yapamama"
+ },
+ {
+  "id": "bel72",
+  "kind": "text",
+  "tr": "Kasıklarda ya da makat çevresinde uyuşma"
+ },
+ {
+  "id": "bel73",
+  "kind": "text",
+  "tr": "Bacaklarda hızla artan güçsüzlük ya da his kaybı"
+ },
+ {
+  "id": "bel74",
+  "kind": "text",
+  "tr": "Düşme ya da kaza sonrası başlayan şiddetli bel ağrısı"
+ },
+ {
+  "id": "bel75",
+  "kind": "text",
+  "tr": "Bel kayması ve bel ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "bel76",
+  "kind": "wa",
+  "tr": "Merhaba, bel kayması (spondilolistezis) için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "bel77",
+  "kind": "text",
+  "tr": "Cleveland Clinic. <a href=\"https://my.clevelandclinic.org/health/diseases/10302-spondylolisthesis\" target=\"_blank\" rel=\"noopener\">Spondylolisthesis</a>. Medically reviewed 15 August 2024."
+ },
+ {
+  "id": "bel78",
+  "kind": "text",
+  "tr": "Moley PJ. <a href=\"https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/neck-and-back-pain/spondylolisthesis\" target=\"_blank\" rel=\"noopener\">Spondylolisthesis</a>. MSD Manual Professional Version. Reviewed November 2024."
+ },
+ {
+  "id": "bel79",
+  "kind": "text",
+  "tr": "Försth P, Ólafsson G, Carlsson T, et al. A randomized, controlled trial of fusion surgery for lumbar spinal stenosis. N Engl J Med. 2016;374(15):1413–1423. Özet: <a href=\"https://www.thebottomline.org.uk/summaries/ssss/\" target=\"_blank\" rel=\"noopener\">The Bottom Line, The Swedish Spinal Stenosis Study</a>."
+ },
+ {
+  "id": "bel80",
+  "kind": "ld",
+  "tr": "Spondilolistezis (bel kayması)"
+ }
+]
