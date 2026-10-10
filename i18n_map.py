@@ -62,6 +62,7 @@ EN = {
     "sarkopeni.html": "sarcopenia.html",
     "demans-egzersiz.html": "dementia-and-exercise.html",
     "dizin-12-sirri.html": "knee-12-secrets.html",
+    "ruh-sagligi-egzersiz.html": "exercise-for-mental-health.html",
     "omurilik-yaralanmasi.html": "spinal-cord-injury.html",
     "koah.html": "copd-pulmonary-rehabilitation.html",
     "kalp-rehabilitasyonu.html": "cardiac-rehabilitation.html",

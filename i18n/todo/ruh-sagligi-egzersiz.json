@@ -1,0 +1,467 @@
+[
+ {
+  "id": "ruh0",
+  "kind": "text",
+  "tr": "Depresyon ve Kaygı İçin Egzersiz: Hangisi, Ne Kadar? | İhsan Eren"
+ },
+ {
+  "id": "ruh1",
+  "kind": "attr",
+  "tr": "Egzersiz depresyon ve kaygıya iyi gelir mi? 218 çalışmanın bulguları, hangi egzersizin ne kadar işe yaradığı, ne kadar ve ne şiddette yapılmalı, başlamak zor geliyorsa ne yapmalı ve evde altı hareket."
+ },
+ {
+  "id": "ruh2",
+  "kind": "text",
+  "tr": "Ruh sağlığı için egzersiz"
+ },
+ {
+  "id": "ruh3",
+  "kind": "text",
+  "tr": "Egzersiz yalnızca bedene değil, ruh hâline de iyi gelir. Yüzlerce çalışmayı bir araya getiren analizlere göre depresyon ve kaygı belirtilerini azaltır; düzenli hareket edenlerde depresyon da daha seyrek görülür. Bu rehber hangi egzersizin, ne kadar ve nasıl yapıldığında işe yaradığını anlatır. Egzersiz tedavinin yerine geçmez; onu tamamlar."
+ },
+ {
+  "id": "ruh4",
+  "kind": "text",
+  "tr": "218 çalışma"
+ },
+ {
+  "id": "ruh5",
+  "kind": "text",
+  "tr": "Depresyonda egzersizi inceleyen 2024 tarihli analiz; 14.170 katılımcı (BMJ)"
+ },
+ {
+  "id": "ruh6",
+  "kind": "text",
+  "tr": "Haftada 2,5 saat tempolu yürüyüşe denk hareket edenlerde daha düşük depresyon riski"
+ },
+ {
+  "id": "ruh7",
+  "kind": "text",
+  "tr": "Bunun yarısı kadar hareketle bile görülen risk düşüşü (aynı analiz, 191.130 kişi)"
+ },
+ {
+  "id": "ruh8",
+  "kind": "text",
+  "tr": "Kaygıda grup egzersizinin denendiği çalışmanın süresi; belirtiler belirgin biçimde azaldı"
+ },
+ {
+  "id": "ruh9",
+  "kind": "text",
+  "tr": "Kimlere iyi gelir?"
+ },
+ {
+  "id": "ruh10",
+  "kind": "text",
+  "tr": "97 derlemeyi ve 1.039 çalışmayı kapsayan bir incelemede hareket; depresyon, kaygı ve psikolojik sıkıntıyı pek çok grupta azalttı. Yararı en belirgin görülenler depresyonu olanlar, gebeler ve doğum sonrası dönemdeki kadınlar, sağlıklı yetişkinler ve HIV ya da böbrek hastalığı olanlardı."
+ },
+ {
+  "id": "ruh11",
+  "kind": "text",
+  "tr": "Depresyon analizinde etki, başka hastalığı olan ve olmayanlarda, hafif ve ağır belirtileri olanlarda benzerdi."
+ },
+ {
+  "id": "ruh12",
+  "kind": "text",
+  "tr": "Nasıl yorumlamalı?"
+ },
+ {
+  "id": "ruh13",
+  "kind": "text",
+  "tr": "Etkiler, bilişsel davranışçı terapiyle benzer büyüklükte bulundu."
+ },
+ {
+  "id": "ruh14",
+  "kind": "text",
+  "tr": "Egzersiz, ilaç ya da terapiyle birlikte yapıldığında da etkiliydi."
+ },
+ {
+  "id": "ruh15",
+  "kind": "text",
+  "tr": "Çalışmaların çoğu küçük ve katılımcılar hangi grupta olduğunu biliyordu; bu yüzden kanıtın güvenilirliği düşük ya da çok düşük kabul edildi."
+ },
+ {
+  "id": "ruh16",
+  "kind": "text",
+  "tr": "Yine de yazarlara göre egzersiz, terapi ve ilaçla birlikte temel tedavi seçeneklerinden biri olarak düşünülebilir."
+ },
+ {
+  "id": "ruh17",
+  "kind": "text",
+  "tr": "Depresyon"
+ },
+ {
+  "id": "ruh18",
+  "kind": "text",
+  "tr": "Hangi egzersiz ne kadar işe yaradı?"
+ },
+ {
+  "id": "ruh19",
+  "kind": "text",
+  "tr": "BMJ'de 2024'te yayımlanan analiz, her egzersiz türünü karşılaştırma gruplarıyla kıyasladı. Çubuk uzadıkça depresyon belirtilerindeki azalma büyüyor."
+ },
+ {
+  "id": "ruh20",
+  "kind": "text",
+  "tr": "Dans<small>5 çalışma, 107 kişi</small>"
+ },
+ {
+  "id": "ruh21",
+  "kind": "text",
+  "tr": "Yürüyüş ya da koşu<small>51 çalışma, 1.210 kişi</small>"
+ },
+ {
+  "id": "ruh22",
+  "kind": "text",
+  "tr": "Yoga<small>33 çalışma, 1.047 kişi</small>"
+ },
+ {
+  "id": "ruh23",
+  "kind": "text",
+  "tr": "Güç (direnç) çalışması<small>22 çalışma, 643 kişi</small>"
+ },
+ {
+  "id": "ruh24",
+  "kind": "text",
+  "tr": "Karma aerobik egzersiz<small>51 çalışma, 1.286 kişi</small>"
+ },
+ {
+  "id": "ruh25",
+  "kind": "text",
+  "tr": "Tai chi ya da qigong<small>12 çalışma, 343 kişi</small>"
+ },
+ {
+  "id": "ruh26",
+  "kind": "text",
+  "tr": "Etki büyüklüğü: <b>0,2</b> küçük"
+ },
+ {
+  "id": "ruh27",
+  "kind": "text",
+  "tr": "<b>0,5</b> orta"
+ },
+ {
+  "id": "ruh28",
+  "kind": "text",
+  "tr": "<b>0,8</b> büyük"
+ },
+ {
+  "id": "ruh29",
+  "kind": "text",
+  "tr": "<b>Dans</b> en büyük etkiyi gösterdi ama yalnızca 5 çalışmaya dayanıyor; umut verici, henüz kesin değil."
+ },
+ {
+  "id": "ruh30",
+  "kind": "text",
+  "tr": "<b>Yürüyüş ya da koşu, yoga ve güç çalışması</b> yazarların öne çıkardığı üç tür oldu."
+ },
+ {
+  "id": "ruh31",
+  "kind": "text",
+  "tr": "<b>Şiddet önemli:</b> Koşu ya da aralıklı yüksek tempo gibi zorlayıcı egzersizlerde etki daha büyüktü; ancak yürüyüş gibi hafif egzersizler de belirgin yarar sağladı."
+ },
+ {
+  "id": "ruh32",
+  "kind": "text",
+  "tr": "<b>Yoga ve güç çalışması</b> daha iyi tolere edildi; bu gruplarda yarıda bırakma daha azdı."
+ },
+ {
+  "id": "ruh33",
+  "kind": "text",
+  "tr": "Güç çalışması kadınlarda ve gençlerde, yoga erkeklerde ve ileri yaştakilerde daha etkili görünüyordu; bu alt grup sonuçları kesin değildir."
+ },
+ {
+  "id": "ruh34",
+  "kind": "text",
+  "tr": "Kaygı"
+ },
+ {
+  "id": "ruh35",
+  "kind": "text",
+  "tr": "Kaygıda 12 haftalık egzersiz"
+ },
+ {
+  "id": "ruh36",
+  "kind": "text",
+  "tr": "İsveç'te birinci basamakta yapılan çalışmaya kaygı bozukluğu olan 286 kişi katıldı; yarısı en az on yıldır kaygıyla yaşıyordu. Katılımcılar 12 hafta boyunca, haftada üç kez 60 dakikalık grup egzersizine, yanlarında bir fizyoterapist varken katıldı. Seanslar ısınma, kalp-dolaşım ve güç istasyonlarından oluşan 45 dakikalık bir devre ve esnemeyle bitiyordu."
+ },
+ {
+  "id": "ruh37",
+  "kind": "text",
+  "tr": "Hem orta hem de yüksek tempoda çalışanlarda kaygı belirtileri, yalnızca hareket önerisi alan gruba göre belirgin biçimde azaldı; uzun süredir kaygısı olanlarda da."
+ },
+ {
+  "id": "ruh38",
+  "kind": "text",
+  "tr": "İyileşme olasılığı orta tempoda 3,6 kat, yüksek tempoda 4,9 kat arttı."
+ },
+ {
+  "id": "ruh39",
+  "kind": "text",
+  "tr": "Egzersiz zorlaştıkça iyileşme de arttı."
+ },
+ {
+  "id": "ruh40",
+  "kind": "text",
+  "tr": "97 derlemeyi kapsayan incelemede de hareket, kaygı belirtilerini depresyondakine benzer ölçüde azalttı."
+ },
+ {
+  "id": "ruh41",
+  "kind": "text",
+  "tr": "Ne kadar?"
+ },
+ {
+  "id": "ruh42",
+  "kind": "text",
+  "tr": "Doz: az da olsa başlayın"
+ },
+ {
+  "id": "ruh43",
+  "kind": "text",
+  "tr": "Hiç yoktan iyidir"
+ },
+ {
+  "id": "ruh44",
+  "kind": "text",
+  "tr": "Önerilenin yarısı kadar hareket edenlerde bile depresyon riski %18 daha düşüktü. Dünya Sağlık Örgütü'ne göre her hareket, hiç hareket etmemekten iyidir."
+ },
+ {
+  "id": "ruh45",
+  "kind": "text",
+  "tr": "Hedef 150 dakika"
+ },
+ {
+  "id": "ruh46",
+  "kind": "text",
+  "tr": "Yetişkinler için hedef, haftada en az 150 dakika orta şiddette hareket. Bu, haftanın beş günü 30 dakika tempolu yürüyüş demektir; yavaş yavaş ulaşın."
+ },
+ {
+  "id": "ruh47",
+  "kind": "text",
+  "tr": "Biraz zorlayın"
+ },
+ {
+  "id": "ruh48",
+  "kind": "text",
+  "tr": "Orta ve yüksek şiddette yapılan egzersizlerde etki daha büyüktü. Rahat ettiğiniz tempodan başlayıp zamanla biraz hızlanın."
+ },
+ {
+  "id": "ruh49",
+  "kind": "text",
+  "tr": "Haftalarca sürdürün"
+ },
+ {
+  "id": "ruh50",
+  "kind": "text",
+  "tr": "İngiltere'deki kılavuz hafif depresyonda, eğitimli biri eşliğinde 10 hafta boyunca haftada birden fazla grup egzersizini seçenekler arasında sayıyor. Kaygı çalışmasındaki program 12 hafta sürdü. Sonrasında da hareketi alışkanlık hâline getirin."
+ },
+ {
+  "id": "ruh51",
+  "kind": "text",
+  "tr": "Başlamak zor geliyorsa"
+ },
+ {
+  "id": "ruh52",
+  "kind": "text",
+  "tr": "Depresyonda yorgunluk ve eskiden sevilen şeylere ilgisizlik sık görülür; bu yüzden başlamak zor gelebilir. Bu bir irade sorunu değildir. Küçük, somut ve keyifli adımlar işinizi kolaylaştırır."
+ },
+ {
+  "id": "ruh53",
+  "kind": "text",
+  "tr": "<b>Sevdiğiniz bir şeyi seçin.</b> Düzenli yapabileceğiniz her egzersiz işe yarar."
+ },
+ {
+  "id": "ruh54",
+  "kind": "text",
+  "tr": "<b>Küçük başlayın.</b> Tempolu 10 dakikalık bir yürüyüş bile zihninizi toparlamaya yardımcı olabilir."
+ },
+ {
+  "id": "ruh55",
+  "kind": "text",
+  "tr": "<b>Gün ve saati baştan belirleyin.</b> \"Salı ve perşembe, akşam yemeğinden önce\" gibi."
+ },
+ {
+  "id": "ruh56",
+  "kind": "text",
+  "tr": "<b>Birlikte yapın.</b> Bir arkadaşla yürüyüş ya da bir grup dersi hem düzeni hem bağı güçlendirir; <a href=\"bag-kurmak.html\">sosyal bağ</a> sayfasına da bakın."
+ },
+ {
+  "id": "ruh57",
+  "kind": "text",
+  "tr": "<b>Dışarı çıkın.</b> Park ya da sahil yürüyüşleri için <a href=\"doga-recetesi.html\">doğa reçetesi</a> sayfasına bakın."
+ },
+ {
+  "id": "ruh58",
+  "kind": "text",
+  "tr": "<b>Kendinize nazik olun.</b> Kaçırdığınız günler için kendinize yüklenmeyin; <a href=\"dost-molasi.html\">DOST molası</a> zor günler için."
+ },
+ {
+  "id": "ruh59",
+  "kind": "text",
+  "tr": "Ruh hâliniz için altı hareket"
+ },
+ {
+  "id": "ruh60",
+  "kind": "text",
+  "tr": "Araştırmalarda en çok yarar görülen türlerden seçildi: yürüyüş ve müzikle hareket, güç çalışması ve yoga. Haftada en az iki gün güç hareketlerini, diğer günlerde yürüyüşü deneyin. Bir hareket ağrınızı artırıyorsa onu atlayın."
+ },
+ {
+  "id": "ruh61",
+  "kind": "text",
+  "tr": "Rahat ayakkabılarla, konuşabileceğiniz ama şarkı söylemekte zorlanacağınız bir tempoda yürüyün. Kollarınızı serbestçe sallayın. Mümkünse açık havada, ağaçlık bir yolda ya da parkta yürüyün."
+ },
+ {
+  "id": "ruh62",
+  "kind": "text",
+  "tr": "10 dakikayla başlayın; günde 20–30 dakikaya çıkın"
+ },
+ {
+  "id": "ruh63",
+  "kind": "text",
+  "tr": "Müzikle yana adım"
+ },
+ {
+  "id": "ruh64",
+  "kind": "text",
+  "tr": "Sevdiğiniz, tempolu bir şarkı açın. Bir ayağınızla yana adım atın, diğerini yanına getirin; sonra öbür yöne dönün. Kollarınızı da katın. Doğru ya da yanlış yoktur; önemli olan ritmi sürdürmek."
+ },
+ {
+  "id": "ruh65",
+  "kind": "text",
+  "tr": "1–2 şarkı boyunca"
+ },
+ {
+  "id": "ruh66",
+  "kind": "text",
+  "tr": "Sağlam bir sandalyenin ön kısmına oturun. Hafifçe öne eğilip kollarınızı kullanmadan ayağa kalkın, sonra yavaşça oturun. Kolaylaştıkça tekrar sayısını artırın."
+ },
+ {
+  "id": "ruh67",
+  "kind": "text",
+  "tr": "Duvardan bir kol boyu uzakta durun, ellerinizi göğüs hizasında duvara koyun. Gövdeniz düz kalsın; dirseklerinizi bükerek duvara yaklaşın, sonra itin. Kolaylaşınca ellerinizi tezgâha koyarak zorlaştırın."
+ },
+ {
+  "id": "ruh68",
+  "kind": "text",
+  "tr": "Ellerinizin ve dizlerinizin üzerinde durun. Nefes verirken sırtınızı yukarı doğru yuvarlayın, nefes alırken belinizi yavaşça aşağı bırakın. Hareketi nefesinizle birlikte, acele etmeden yapın."
+ },
+ {
+  "id": "ruh69",
+  "kind": "text",
+  "tr": "Çocuk pozu"
+ },
+ {
+  "id": "ruh70",
+  "kind": "text",
+  "tr": "Ellerinizin ve dizlerinizin üzerinden kalçanızı yavaşça topuklarınıza doğru götürün, kollarınız önde uzansın. Alnınızı yere ya da bir yastığa bırakın. Burnunuzdan yavaşça nefes alıp verin. Dizleriniz ağrıyorsa atlayın."
+ },
+ {
+  "id": "ruh71",
+  "kind": "text",
+  "tr": "30–60 saniye, 2–3 kez"
+ },
+ {
+  "id": "ruh72",
+  "kind": "text",
+  "tr": "Gergin anlar için <a href=\"ic-cekis.html\">5 dakikalık iç çekiş nefesi</a> ve <a href=\"stres.html\">Stresli anlarda</a> sayfası, haftalık hareketinizi ölçmek için <a href=\"hareket.html\">Ne kadar hareket yeterli?</a> sayfası işinize yarayabilir."
+ },
+ {
+  "id": "ruh73",
+  "kind": "text",
+  "tr": "Egzersiz ilacın ya da terapinin yerine geçer mi?"
+ },
+ {
+  "id": "ruh74",
+  "kind": "text",
+  "tr": "Hafif depresyonda egzersiz, önerilen seçeneklerden biridir. Orta ve ağır depresyonda genellikle terapi ve ilaç önerilir; egzersiz bunlara eklenebilir. Araştırmalarda egzersiz, ilaç ya da terapiyle birlikte yapıldığında da etkiliydi. Kullandığınız ilacı kendi başınıza bırakmayın; değişiklik için hekiminizle konuşun."
+ },
+ {
+  "id": "ruh75",
+  "kind": "text",
+  "tr": "Ne kadar sürede fark ederim?"
+ },
+ {
+  "id": "ruh76",
+  "kind": "text",
+  "tr": "İngiltere'deki kılavuzda önerilen grup programı 10 hafta, kaygı çalışmasındaki program 12 hafta sürdü. Sonucu birkaç haftalık düzenli egzersizden sonra değerlendirin. Bu arada tek bir tempolu yürüyüş bile zihni toparlamaya yardımcı olabilir."
+ },
+ {
+  "id": "ruh77",
+  "kind": "text",
+  "tr": "Hiç enerjim yok; nasıl başlayayım?"
+ },
+ {
+  "id": "ruh78",
+  "kind": "text",
+  "tr": "Çok küçük başlayın: 10 dakikalık bir yürüyüş ya da tek bir şarkı boyunca hareket. Hafif egzersiz de işe yarıyor. Ne zaman yapacağınızı önceden belirleyin, mümkünse biriyle birlikte yapın. Yapamadığınız günler için kendinize yüklenmeyin; ertesi gün kaldığınız yerden devam edin."
+ },
+ {
+  "id": "ruh79",
+  "kind": "text",
+  "tr": "En iyi egzersiz hangisi?"
+ },
+ {
+  "id": "ruh80",
+  "kind": "text",
+  "tr": "Araştırmalarda yürüyüş ya da koşu, yoga ve güç çalışması öne çıktı. Ama en iyi egzersiz, düzenli yapabileceğiniz ve sevdiğiniz egzersizdir. Yoga ve güç çalışmasında yarıda bırakma daha azdı."
+ },
+ {
+  "id": "ruh81",
+  "kind": "text",
+  "tr": "Ne zaman yardım almalı?"
+ },
+ {
+  "id": "ruh82",
+  "kind": "text",
+  "tr": "Kendinize zarar verme ya da yaşamınıza son verme düşünceleriniz varsa beklemeden 112'yi arayın ya da en yakın acil servise gidin."
+ },
+ {
+  "id": "ruh83",
+  "kind": "text",
+  "tr": "Haftalardır süren mutsuzluk, umutsuzluk, eskiden keyif aldığınız şeylere ilgisizlik, uyku ya da iştah değişiklikleri varsa bir hekime ya da ruh sağlığı uzmanına başvurun."
+ },
+ {
+  "id": "ruh84",
+  "kind": "text",
+  "tr": "Kaygı ya da çökkünlük işinizi, ilişkilerinizi ya da günlük işlerinizi aksatıyorsa destek almayı ertelemeyin."
+ },
+ {
+  "id": "ruh85",
+  "kind": "text",
+  "tr": "Egzersiz sırasında göğüs ağrısı, nefes darlığı, baş dönmesi ya da bayılma hissi olursa durun ve hekiminize danışın."
+ },
+ {
+  "id": "ruh86",
+  "kind": "text",
+  "tr": "<strong>Önemli:</strong> Bu sayfa bilgilendirme amaçlıdır; tanı koymaz ve tedavinin yerine geçmez. Kullandığınız ilaçları hekiminize danışmadan bırakmayın."
+ },
+ {
+  "id": "ruh87",
+  "kind": "text",
+  "tr": "Ruh hâlinize iyi gelecek, size uygun ve düzenli bir egzersiz programı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "ruh88",
+  "kind": "wa",
+  "tr": "Merhaba, ruh sağlığı için egzersiz programı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "ruh89",
+  "kind": "text",
+  "tr": "Henriksson M, Wall A, Nyberg J, et al. Effects of exercise on symptoms of anxiety in primary care patients: a randomized controlled trial. J Affect Disord. 2022;297:26–34. Özet: <a href=\"https://www.gu.se/en/news/anxiety-effectively-treated-with-exercise\" target=\"_blank\" rel=\"noopener\">University of Gothenburg, Anxiety effectively treated with exercise</a>, 9 November 2021."
+ },
+ {
+  "id": "ruh90",
+  "kind": "text",
+  "tr": "National Institute for Health and Care Excellence. <a href=\"https://www.nice.org.uk/guidance/ng222/chapter/Recommendations\" target=\"_blank\" rel=\"noopener\">Depression in adults: treatment and management (NG222)</a>. 2022."
+ },
+ {
+  "id": "ruh91",
+  "kind": "text",
+  "tr": "World Health Organization. <a href=\"https://www.who.int/news-room/fact-sheets/detail/physical-activity\" target=\"_blank\" rel=\"noopener\">Physical activity</a>. Fact sheet. 26 June 2024."
+ },
+ {
+  "id": "ruh92",
+  "kind": "ld",
+  "tr": "Kaygı bozukluğu (anksiyete)"
+ }
+]

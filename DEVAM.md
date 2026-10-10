@@ -297,3 +297,13 @@ ELHT NHS diz ağrısı sayfası (<5/10, bir günde geçmeli; >5 ya da >24 saat �
 ikincil kaynak (Gollwitzer & Sheeran: 94 test, d=0,65), CDC STEADI 30 sn testi (2017). NICE NG226 bilgisi diz rehberinde daha önce okunmuştu.
 Hafızadan: Lawford ilk yazar (Cochrane 2024), Jack 2010 yazar listesi, Lally/Gollwitzer/Milkman cilt-sayfa bilgileri. Kaynaksız/genel: "başlamadan önce danışın" listesi, ısınma adımı, tempo süreleri, tekrar artış kuralı.
 Program hareketleri ve anlatımları diz rehberindekilerle aynı (EXT yeniden kullanıldı, d12_ kopyaları programa özgü dozlarla). Çeviri: dizin-12-sirri (217) + fb427–fb428.
+
+## Ruh sağlığı turu (mind_part.py) — 10 Ekim 2026
+Kullanıcı isteği: "Kendine iyi bak" bölümüne psikoloji için içerik. Seçtiği dört iş: egzersizle ruh sağlığı rehberi, ruh hâli ölçümü (WHO-5 + PHQ-4), zamanlayıcılı kas gevşetme, küçük adım planlayıcı (davranışsal aktivasyon).
+Ana sayfadaki "Kendine iyi bak ne işe yarar?" kutusuna yeni grup: **Ruh sağlığı için** (fb430 "For mental health"); DOST molası ve Stres bu gruba taşındı. Kayıt betiği: scratchpad/mind/reg_mind.py.
+1) `ruh-sagligi-egzersiz.html` / `en/exercise-for-mental-health.html`. Okunan kaynaklar: Noetel 2024 BMJ (218 çalışma, 14.170 kişi; g: dans −0,96 [5 çalışma], yürüyüş/koşu −0,62, yoga −0,55, güç −0,49, karma aerobik −0,43, tai chi −0,42;
+CBT ile benzer; şiddet arttıkça etki; yoga/güç daha az bırakma; cinsiyet/yaş alt grupları; CINeMA güven düşük/çok düşük), Singh 2023 BJSM (97 derleme, 1.039 RKÇ, 128.119 kişi; depresyon −0,43, kaygı −0,42; yüksek şiddet ve ≤12 hafta daha etkili),
+Pearce 2022 JAMA Psychiatry (15 çalışma, 191.130 kişi; 8,8 mMET-sa/hafta ≈ 2,5 sa tempolu yürüyüş %25, yarısı %18), Göteborg Üniversitesi haberi (Henriksson: 286 kişi, 12 hafta, 3×60 dk fizyoterapist eşliğinde devre; 3,62 / 4,88 kat),
+NICE NG222 öneriler sayfası (grup egzersizi: haftada 1'den fazla, 10 hafta, ~8 kişi), DSÖ fiziksel aktivite (26 Haziran 2024), NHS Exercise for depression (16 Nisan 2026), NHS Depression overview (5 Temmuz 2023). Hepsi okundu.
+Hafızadan: Singh bitiş sayfası 1209, Henriksson cilt-sayfa (2022;297:26–34) ve yazar listesi, NICE NG222 yayın yılı 2022, etki büyüklüğü eşikleri (0,2/0,5/0,8, Cohen), "konuşabilir ama şarkı söyleyemezsiniz" tempo tarifi (NHS orta şiddet tanımı).
+Kaynaksız/genel: altı hareketin dozları, "gün ve saati baştan belirleyin" önerisi, uyarı işaretleri listesinin ifadesi (112 Türkiye acil). Hareket çizimleri mevcut (walk, sidestep, sts, sk_push, cat, childp). Çeviri: ruh-sagligi-egzersiz (93) + fb429–fb430. stres.html'in ilgili bağlantılarına eklendi.

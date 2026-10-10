@@ -186,7 +186,7 @@ CSS = """
 
 KOSE_PAGES = {"bilgi.html", "sarkopeni.html", "demans-egzersiz.html", "golfcu-dirsegi.html", "guillain-barre.html", "halluks-valgus.html", "tetik-parmak.html", "duztabanlik.html", "omurilik-yaralanmasi.html", "de-quervain.html", "diyabetik-noropati.html", "kalca-yan-agrisi.html", "lenfodem.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 NEWS_PAGES = {"nobel-2026.html"}   # Bilim gündemi'nin özel sayfaları
-SELF_PAGES = {"dizin-12-sirri.html", "dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+SELF_PAGES = {"dizin-12-sirri.html", "ruh-sagligi-egzersiz.html", "dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
     def attr(h):
@@ -273,6 +273,7 @@ TOPICS = {
     "ic-cekis.html": ("Kendine iyi bak", "5 dakikalık iç çekiş nefesi"),
     "doga-recetesi.html": ("Kendine iyi bak", "Doğa reçetesi"),
     "bag-kurmak.html": ("Kendine iyi bak", "Sosyal bağ ve sağlık"),
+    "ruh-sagligi-egzersiz.html": ("Kendine iyi bak", "Ruh sağlığı için egzersiz"),
     "dost-molasi.html": ("Kendine iyi bak", "DOST molası"),
     "yenilikler.html": ("Bilim gündemi", "Geleceğin tıbbı, bugün"),
     "nobel-2026.html": ("Bilim gündemi", "2026 Nobel ödülleri"),
@@ -284,7 +285,7 @@ RELATED = {
     "boyun-agrisi.html": ["boyun-fitigi.html", "bas-agrisi.html"],
     "boyun-fitigi.html": ["boyun-agrisi.html", "bel-fitigi.html"],
     "donuk-omuz.html": ["boyun-agrisi.html", "diz-kireclenmesi.html"],
-    "stres.html": ["uyku.html", "sabah-rutini.html"],
+    "stres.html": ["uyku.html", "sabah-rutini.html", "ruh-sagligi-egzersiz.html"],
     "sabah-rutini.html": ["hareket.html", "bel-agrisi.html"],
     "hareket.html": ["sabah-rutini.html", "dusme-onleme.html"],
     "uyku.html": ["stres.html", "sabah-rutini.html"],
@@ -344,6 +345,7 @@ RELATED = {
     "doga-recetesi.html": ["bag-kurmak.html", "stres.html"],
     "bag-kurmak.html": ["doga-recetesi.html", "stres.html"],
     "dost-molasi.html": ["ic-cekis.html", "bag-kurmak.html"],
+    "ruh-sagligi-egzersiz.html": ["stres.html", "ic-cekis.html"],
     "bilgi.html": [],
 }
 def more(current):
@@ -1036,7 +1038,7 @@ page("donuk-omuz.html", "Donuk Omuz", "Donuk omuz (adeziv kapsülit) nedir, kiml
      faq_items=OMUZ_FAQ)
 
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neck_part.py"), encoding="utf-8").read())
-for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "cond13_part.py", "cond14_part.py", "cond15_part.py", "cond16_part.py", "cond17_part.py", "cond18_part.py", "cond19_part.py", "self2_part.py", "self3_part.py", "knee12_part.py", "nobel_part.py"):
+for _p in ("lowback_part.py", "knee_part.py", "stroke_part.py", "heel_part.py", "shoulder_part.py", "cts_part.py", "falls_part.py", "protez_part.py", "desk_part.py", "hip_part.py", "elbow_part.py", "osteo_part.py", "ankle_part.py", "self_part.py", "rehab_part.py", "cond2_part.py", "cond3_part.py", "cond4_part.py", "cond5_part.py", "cond6_part.py", "cond7_part.py", "cond8_part.py", "cond9_part.py", "cond10_part.py", "cond11_part.py", "cond12_part.py", "cond13_part.py", "cond14_part.py", "cond15_part.py", "cond16_part.py", "cond17_part.py", "cond18_part.py", "cond19_part.py", "self2_part.py", "self3_part.py", "knee12_part.py", "mind_part.py", "nobel_part.py"):
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), _p), encoding="utf-8").read())
 
 # ------------------------------------------------------------------ YENİLİKLER
@@ -1766,6 +1768,8 @@ TH_SOCIAL = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M160 46 C1
 C_SRT = KC("otur-kalk-testi.html", TH_SRT, "Kendine iyi bak", "Yere oturup kalkabiliyor musunuz?", "Ellerinizi kullanmadan yere oturup kalkabilmek, 12 yıllık bir araştırmada sağlığın güçlü bir göstergesi çıktı. Puanınızı hesaplayın.")
 TH_KNEE12 = """<svg viewBox="0 0 320 150" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M142 18v52l-10 22 6 40M178 18v50l8 26-4 38" stroke="#8fa476" stroke-width="7"/><ellipse cx="160" cy="80" rx="26" ry="12" stroke="#e2ab47" stroke-width="3" stroke-dasharray="4 6"/></g><g transform="translate(56 30) scale(.42)"><path d="M11 21v-6a9 9 0 0 1 18 0v6" fill="none" stroke="#e2ab47" stroke-width="3.4" stroke-linecap="round"/><rect x="6" y="20" width="28" height="23" rx="6" fill="#e2ab47" stroke="#e2ab47" stroke-width="3.4"/></g><g transform="translate(82 82) scale(.42)"><path d="M11 21v-6a9 9 0 0 1 18 0v6" fill="none" stroke="#e2ab47" stroke-width="3.4" stroke-linecap="round"/><rect x="6" y="20" width="28" height="23" rx="6" fill="#e2ab47" stroke="#e2ab47" stroke-width="3.4"/></g><g transform="translate(226 32) scale(.42)"><path d="M11 21v-6a9 9 0 0 1 18 0v6" fill="none" stroke="#e2ab47" stroke-width="3.4" stroke-linecap="round"/><rect x="6" y="20" width="28" height="23" rx="6" fill="none" stroke="#e2ab47" stroke-width="3.4"/></g><g transform="translate(248 84) scale(.42)"><path d="M11 21v-6a9 9 0 0 1 18 0v6" fill="none" stroke="#e2ab47" stroke-width="3.4" stroke-linecap="round"/><rect x="6" y="20" width="28" height="23" rx="6" fill="none" stroke="#e2ab47" stroke-width="3.4"/></g><g transform="translate(40 96) scale(.42)"><path d="M11 21v-6a9 9 0 0 1 18 0v6" fill="none" stroke="#e2ab47" stroke-width="3.4" stroke-linecap="round"/><rect x="6" y="20" width="28" height="23" rx="6" fill="#e2ab47" stroke="#e2ab47" stroke-width="3.4"/></g><g transform="translate(262 40) scale(.42)"><path d="M11 21v-6a9 9 0 0 1 18 0v6" fill="none" stroke="#e2ab47" stroke-width="3.4" stroke-linecap="round"/><rect x="6" y="20" width="28" height="23" rx="6" fill="none" stroke="#e2ab47" stroke-width="3.4"/></g></svg>"""
 C_KNEE12 = KC("dizin-12-sirri.html", TH_KNEE12, "Kendine iyi bak", "Dizin 12 Sırrı", "Diz kireçlenmesi için altı haftalık etkileşimli ev programı: telefon sizin için sayar, her seans kilitli bir sırrı açar.")
+TH_MINDEX = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="40" r="24" fill="none" stroke="#8fa476" stroke-width="7"/><circle cx="160" cy="40" r="8" fill="#e2ab47"/><path d="M160 28 V24 M160 52 V56 M148 40 H144 M172 40 H176 M151.5 31.5 L148.7 28.7 M168.5 31.5 L171.3 28.7 M151.5 48.5 L148.7 51.3 M168.5 48.5 L171.3 51.3" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/><path d="M160 66 L156 104 M156 104 L140 144 M156 104 L176 144 M158 78 L138 98 M158 78 L184 94" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>"""
+C_MINDEX = KC("ruh-sagligi-egzersiz.html", TH_MINDEX, "Kendine iyi bak", "Ruh sağlığı için egzersiz", "Depresyon ve kaygıda hangi egzersiz ne kadar işe yarar? 218 çalışmanın bulguları, doz önerileri ve evde altı hareket.")
 C_WALLSIT = KC("duvar-oturusu.html", TH_WALLSIT, "Kendine iyi bak", "Tansiyon için duvar oturuşu", "270 çalışmalık analizde tansiyonu en çok düşüren egzersiz türü. Haftada 3 gün, 4 × 2 dakika: zamanlayıcıyla birlikte yapın.")
 C_SIGH = KC("ic-cekis.html", TH_SIGH, "Kendine iyi bak", "5 dakikalık iç çekiş nefesi", "Stanford'daki çalışmada ruh hâlini meditasyondan daha çok iyileştiren nefes: iki kez alın, uzun verin.")
 C_NATURE = KC("doga-recetesi.html", TH_NATURE, "Kendine iyi bak", "Doğa reçetesi", "Haftada 120 dakika doğa; parça parça da olur. Haftalık doğa takviminiz ve İstanbul'dan öneriler.")
@@ -1787,7 +1791,7 @@ def region_filter():
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
 REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_SCI, C_GBS, C_HIPFX, C_PARK, C_DEM, C_MS, C_ONCO, C_LYMPH, C_COPD, C_CARDIAC]
-SELF = [C_KNEE12, C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
+SELF = [C_KNEE12, C_MINDEX, C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
 def agr_cards():
@@ -1872,6 +1876,7 @@ PILL = {
     "masa-basi.html": "Masa başı", "sabah-rutini.html": "Sabah rutini", "hareket.html": "Ne kadar hareket?", "uyku.html": "İyi uyku",
     "otur-kalk-testi.html": "Otur-kalk testi", "dizin-12-sirri.html": "Dizin 12 Sırrı", "duvar-oturusu.html": "Tansiyon için duvar oturuşu", "ic-cekis.html": "İç çekiş nefesi",
     "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "dost-molasi.html": "DOST molası", "stres.html": "Stres",
+    "ruh-sagligi-egzersiz.html": "Ruh sağlığı için egzersiz",
 }
 def pill_group(label, anchor, cards):
     pills = "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cards))
@@ -2107,7 +2112,8 @@ def hx_groups():
 SELF_GROUPS = [
     ("Kendinizi ölçün", ["otur-kalk-testi.html", "hareket.html"]),
     ("Zamanlayıcıyla birlikte yapın", ["dizin-12-sirri.html", "duvar-oturusu.html", "ic-cekis.html", "sabah-rutini.html"]),
-    ("Günlük hayat için", ["dost-molasi.html", "uyku.html", "stres.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
+    ("Ruh sağlığı için", ["ruh-sagligi-egzersiz.html", "dost-molasi.html", "stres.html"]),
+    ("Günlük hayat için", ["uyku.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
 ]
 def hx_self():
     """Kendine iyi bak rehberleri, ne işe yaradıklarına göre üç grupta. Listeye yeni eklenen rehber son gruba düşer."""
