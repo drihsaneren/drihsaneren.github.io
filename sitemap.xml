@@ -512,6 +512,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kucuk-adimlar.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/bel-kaymasi.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/bel-kaymasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/spondylolisthesis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/bel-kaymasi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1021,5 +1028,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kucuk-adimlar.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/small-steps-planner.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kucuk-adimlar.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/spondylolisthesis.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/bel-kaymasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/spondylolisthesis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/bel-kaymasi.html"/>
   </url>
 </urlset>
