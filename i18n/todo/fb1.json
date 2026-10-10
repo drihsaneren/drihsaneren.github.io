@@ -2148,5 +2148,10 @@
   "id": "fb430",
   "kind": "text",
   "tr": "Ruh sağlığı için"
+ },
+ {
+  "id": "fb431",
+  "kind": "text",
+  "tr": "WHO-5 iyi oluş indeksi ve PHQ-4 kaygı-depresyon taramasıyla son iki haftanızı değerlendirin: 9 soru, 2 dakika. Yanıtlar cihazınızdan çıkmaz."
  }
 ]

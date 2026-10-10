@@ -1,0 +1,632 @@
+[
+ {
+  "id": "ruh0",
+  "kind": "text",
+  "tr": "Ruh Hâli Testi: WHO-5 İyi Oluş ve PHQ-4 Kaygı-Depresyon Taraması | İhsan Eren"
+ },
+ {
+  "id": "ruh1",
+  "kind": "attr",
+  "tr": "Dünya Sağlık Örgütü'nün iyi oluş indeksi (WHO-5) ve kaygı ile depresyonu tarayan PHQ-4 ile son iki haftanızı değerlendirin: 9 soru, 2 dakika. Puanların anlamı, ne zaman destek almalı ve sonuçlarınızı cihazınızda izleme."
+ },
+ {
+  "id": "ruh2",
+  "kind": "text",
+  "tr": "Ruh hâlinizi ölçün"
+ },
+ {
+  "id": "ruh3",
+  "kind": "text",
+  "tr": "Dünyada yaygın kullanılan iki kısa ölçekle son iki haftanızı değerlendirin: Dünya Sağlık Örgütü'nün iyi oluş indeksi (WHO-5) ve kaygı ile depresyon belirtilerini tarayan PHQ-4. Toplam dokuz soru, yaklaşık iki dakika. Sonuçlar tanı koymaz; ne zaman destek almanız gerektiğini görmenize yardımcı olur."
+ },
+ {
+  "id": "ruh4",
+  "kind": "text",
+  "tr": "9 soru"
+ },
+ {
+  "id": "ruh5",
+  "kind": "text",
+  "tr": "Yaklaşık 2 dakika; son iki haftanızı sorar"
+ },
+ {
+  "id": "ruh6",
+  "kind": "text",
+  "tr": "213 çalışma"
+ },
+ {
+  "id": "ruh7",
+  "kind": "text",
+  "tr": "WHO-5'in kullanıldığı çalışmaları inceleyen sistematik derleme"
+ },
+ {
+  "id": "ruh8",
+  "kind": "text",
+  "tr": "WHO-5'in 50 ve altı sınırıyla depresyonu yakalama oranı (18 çalışma); özgüllük %81"
+ },
+ {
+  "id": "ruh9",
+  "kind": "text",
+  "tr": "1.752 kişi"
+ },
+ {
+  "id": "ruh10",
+  "kind": "text",
+  "tr": "Türkçe WHO-5'in geçerlik ve güvenirlik çalışmasına katılanlar"
+ },
+ {
+  "id": "ruh11",
+  "kind": "text",
+  "tr": "Son iki haftanız"
+ },
+ {
+  "id": "ruh12",
+  "kind": "text",
+  "tr": "Önce beş soruda iyi oluşunuzu, sonra dört soruda kaygı ve depresyon belirtilerini değerlendireceğiz. Her soruda size en yakın yanıtı seçin; doğru ya da yanlış yanıt yoktur."
+ },
+ {
+  "id": "ruh13",
+  "kind": "text",
+  "tr": "Yanıtlarınız yalnızca bu cihazda hesaplanır, hiçbir yere gönderilmez."
+ },
+ {
+  "id": "ruh14",
+  "kind": "text",
+  "tr": "Aşağıdaki beş tanımlamadan her biri için, son iki hafta süresince kendinizi nasıl hissettiğinize en yakın olan yanıtı veriniz."
+ },
+ {
+  "id": "ruh15",
+  "kind": "text",
+  "tr": "Kendimi neşeli ve keyifli hissettim"
+ },
+ {
+  "id": "ruh16",
+  "kind": "text",
+  "tr": "Her zaman&#8288;"
+ },
+ {
+  "id": "ruh17",
+  "kind": "text",
+  "tr": "Çoğu zaman"
+ },
+ {
+  "id": "ruh18",
+  "kind": "text",
+  "tr": "Geçen zamanın yarısından çoğunda"
+ },
+ {
+  "id": "ruh19",
+  "kind": "text",
+  "tr": "Geçen zamanın yarısından daha azında"
+ },
+ {
+  "id": "ruh20",
+  "kind": "text",
+  "tr": "Bazen&#8288;"
+ },
+ {
+  "id": "ruh21",
+  "kind": "text",
+  "tr": "Hiçbir zaman"
+ },
+ {
+  "id": "ruh22",
+  "kind": "text",
+  "tr": "Kendimi sakin ve gevşemiş hissettim"
+ },
+ {
+  "id": "ruh23",
+  "kind": "text",
+  "tr": "Kendimi aktif ve dinç hissettim"
+ },
+ {
+  "id": "ruh24",
+  "kind": "text",
+  "tr": "Sabahları kendimi taze ve dinlenmiş hissederek uyandım"
+ },
+ {
+  "id": "ruh25",
+  "kind": "text",
+  "tr": "Günlük yaşantım beni ilgilendiren şeylerle dolu"
+ },
+ {
+  "id": "ruh26",
+  "kind": "text",
+  "tr": "Son 2 hafta içinde aşağıdaki sorunlar sizi ne sıklıkla rahatsız etti?"
+ },
+ {
+  "id": "ruh27",
+  "kind": "text",
+  "tr": "Sinirli, kaygılı ya da diken üstünde hissetme"
+ },
+ {
+  "id": "ruh28",
+  "kind": "text",
+  "tr": "Hiç"
+ },
+ {
+  "id": "ruh29",
+  "kind": "text",
+  "tr": "Birkaç gün"
+ },
+ {
+  "id": "ruh30",
+  "kind": "text",
+  "tr": "Günlerin yarısından fazlasında"
+ },
+ {
+  "id": "ruh31",
+  "kind": "text",
+  "tr": "Neredeyse her gün"
+ },
+ {
+  "id": "ruh32",
+  "kind": "text",
+  "tr": "Endişelenmeyi durduramama ya da kontrol edememe"
+ },
+ {
+  "id": "ruh33",
+  "kind": "text",
+  "tr": "Bir şeyler yapmaktan çok az ilgi ya da zevk alma"
+ },
+ {
+  "id": "ruh34",
+  "kind": "text",
+  "tr": "Kendini çökkün, depresif ya da umutsuz hissetme"
+ },
+ {
+  "id": "ruh35",
+  "kind": "text",
+  "tr": "← Önceki soru"
+ },
+ {
+  "id": "ruh36",
+  "kind": "text",
+  "tr": "Sonuçlarınız"
+ },
+ {
+  "id": "ruh37",
+  "kind": "text",
+  "tr": "İyi oluş · WHO-5"
+ },
+ {
+  "id": "ruh38",
+  "kind": "text",
+  "tr": "Kaygı ve depresyon · PHQ-4"
+ },
+ {
+  "id": "ruh39",
+  "kind": "text",
+  "tr": "Kendinize zarar verme ya da yaşamınıza son verme düşünceleriniz varsa beklemeden <b>112</b>'yi arayın ya da en yakın acil servise gidin."
+ },
+ {
+  "id": "ruh40",
+  "kind": "text",
+  "tr": "Bu sonucu kaydet"
+ },
+ {
+  "id": "ruh41",
+  "kind": "text",
+  "tr": "İki hafta sonrası için takvime ekle"
+ },
+ {
+  "id": "ruh42",
+  "kind": "text",
+  "tr": "Yeniden yap"
+ },
+ {
+  "id": "ruh43",
+  "kind": "text",
+  "tr": "Kaydederseniz sonuç yalnızca bu tarayıcıda saklanır."
+ },
+ {
+  "id": "ruh44",
+  "kind": "text",
+  "tr": "İyi oluş"
+ },
+ {
+  "id": "ruh45",
+  "kind": "text",
+  "tr": "Olağan aralıkta. Danimarka'daki genel nüfus çalışmalarında ortalama puan yaklaşık 70."
+ },
+ {
+  "id": "ruh46",
+  "kind": "text",
+  "tr": "Düşük. Araştırmalarda 50 ve altı, depresyon açısından değerlendirme önerilen sınır."
+ },
+ {
+  "id": "ruh47",
+  "kind": "text",
+  "tr": "Çok düşük. Bu düzey, araştırmalarda majör depresyonu olan hastaların iyi oluş düzeyine denk geliyor."
+ },
+ {
+  "id": "ruh48",
+  "kind": "text",
+  "tr": "Ölçeğin yönergesine göre bir soruya “Bazen” ya da “Hiçbir zaman” yanıtı verilmesi de daha ayrıntılı değerlendirme için bir işarettir."
+ },
+ {
+  "id": "ruh49",
+  "kind": "text",
+  "tr": "Olağan"
+ },
+ {
+  "id": "ruh50",
+  "kind": "text",
+  "tr": "Ağır"
+ },
+ {
+  "id": "ruh51",
+  "kind": "text",
+  "tr": "Toplam puana göre belirti yok ya da çok az."
+ },
+ {
+  "id": "ruh52",
+  "kind": "text",
+  "tr": "Toplam puana göre hafif düzeyde belirtiler."
+ },
+ {
+  "id": "ruh53",
+  "kind": "text",
+  "tr": "Toplam puana göre orta düzeyde belirtiler."
+ },
+ {
+  "id": "ruh54",
+  "kind": "text",
+  "tr": "Toplam puana göre ağır düzeyde belirtiler."
+ },
+ {
+  "id": "ruh55",
+  "kind": "text",
+  "tr": "Sonuçlarınız olağan aralıkta"
+ },
+ {
+  "id": "ruh56",
+  "kind": "text",
+  "tr": "İyi gelen alışkanlıklarınızı sürdürün. Ruh hâli zamanla değişebilir; iki hafta sonra yeniden ölçebilirsiniz."
+ },
+ {
+  "id": "ruh57",
+  "kind": "text",
+  "tr": "Hafif belirtiler var"
+ },
+ {
+  "id": "ruh58",
+  "kind": "text",
+  "tr": "Aşağıdaki önerilerden size uygun olanları deneyin ve iki hafta sonra yeniden ölçün. Belirtiler artarsa ya da sürerse bir hekimle konuşun."
+ },
+ {
+  "id": "ruh59",
+  "kind": "text",
+  "tr": "Bir uzmanla konuşmanızı öneririz"
+ },
+ {
+  "id": "ruh60",
+  "kind": "text",
+  "tr": "Sonuçlarınız daha ayrıntılı bir değerlendirmeyi gerektirebilir. Bir hekime ya da ruh sağlığı uzmanına başvurun; belirtileriniz günlük hayatınızı etkiliyorsa beklemeyin. Bu arada aşağıdaki öneriler de destek olabilir."
+ },
+ {
+  "id": "ruh61",
+  "kind": "text",
+  "tr": "Lütfen yakın zamanda destek alın"
+ },
+ {
+  "id": "ruh62",
+  "kind": "text",
+  "tr": "Sonuçlarınız belirgin belirtilere işaret ediyor. Yakın zamanda bir hekime ya da ruh sağlığı uzmanına başvurmanızı öneririz. Güvendiğiniz biriyle de konuşun; yalnız değilsiniz."
+ },
+ {
+  "id": "ruh63",
+  "kind": "text",
+  "tr": "İşaretli alt puan 3 ve üzerinde: bu alanda daha ayrıntılı değerlendirme önerilir."
+ },
+ {
+  "id": "ruh64",
+  "kind": "text",
+  "tr": "Kaydedildi"
+ },
+ {
+  "id": "ruh65",
+  "kind": "text",
+  "tr": "Kayıtlarınız (yalnızca bu cihazda)"
+ },
+ {
+  "id": "ruh66",
+  "kind": "text",
+  "tr": "Tarih"
+ },
+ {
+  "id": "ruh67",
+  "kind": "text",
+  "tr": "Tüm kayıtları sil"
+ },
+ {
+  "id": "ruh68",
+  "kind": "text",
+  "tr": "Bu cihazdaki tüm kayıtlar silinsin mi?"
+ },
+ {
+  "id": "ruh69",
+  "kind": "text",
+  "tr": "anlamlı değişim"
+ },
+ {
+  "id": "ruh70",
+  "kind": "text",
+  "tr": "Ruh hâli ölçümü"
+ },
+ {
+  "id": "ruh71",
+  "kind": "text",
+  "tr": "İki hafta oldu: ruh hâlinizi yeniden ölçün."
+ },
+ {
+  "id": "ruh72",
+  "kind": "text",
+  "tr": "ruh-hali-olcumu.ics"
+ },
+ {
+  "id": "ruh73",
+  "kind": "text",
+  "tr": "WHO-5'in soruları ve yanıt seçenekleri ölçeğin resmî Türkçe sürümünden alınmıştır. PHQ-4'ün geliştiricileri çoğaltma ve çeviri için izin istemez; Türkçe ifadeler bu sayfa için çevrilmiştir."
+ },
+ {
+  "id": "ruh74",
+  "kind": "text",
+  "tr": "WHO-5 nedir?"
+ },
+ {
+  "id": "ruh75",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü'nün ruh sağlığı iş birliği merkezinde geliştirilen, son iki haftadaki iyi oluşu soran beş soruluk bir ölçektir. Otuzdan fazla dile çevrildi; 213 çalışmayı inceleyen derlemeye göre hem depresyon taraması hem de tedavinin izlenmesi için uygundur."
+ },
+ {
+  "id": "ruh76",
+  "kind": "text",
+  "tr": "Türkçe sürümü, birinci basamakta 1.752 yetişkin ve yaşlıyla sınandı; güvenirliği yüksek bulundu."
+ },
+ {
+  "id": "ruh77",
+  "kind": "text",
+  "tr": "PHQ-4 nedir?"
+ },
+ {
+  "id": "ruh78",
+  "kind": "text",
+  "tr": "Kaygı için iki, depresyon için iki sorudan oluşan çok kısa bir tarama ölçeğidir. ABD'de 15 aile hekimliği kliniğinde 2.149 hastayla geliştirildi. Puan yükseldikçe günlük işlevlerde bozulma, işe gidilemeyen günler ve sağlık hizmeti kullanımı da arttı."
+ },
+ {
+  "id": "ruh79",
+  "kind": "text",
+  "tr": "Puanlar ne anlama gelir?"
+ },
+ {
+  "id": "ruh80",
+  "kind": "text",
+  "tr": "WHO-5: 51–100"
+ },
+ {
+  "id": "ruh81",
+  "kind": "text",
+  "tr": "Olağan aralık. Genel nüfusta ortalama yaklaşık 70."
+ },
+ {
+  "id": "ruh82",
+  "kind": "text",
+  "tr": "WHO-5: 50 ve altı"
+ },
+ {
+  "id": "ruh83",
+  "kind": "text",
+  "tr": "Düşük iyi oluş; depresyon açısından değerlendirme önerilir."
+ },
+ {
+  "id": "ruh84",
+  "kind": "text",
+  "tr": "WHO-5: 28 ve altı"
+ },
+ {
+  "id": "ruh85",
+  "kind": "text",
+  "tr": "Majör depresyonu olan hastalardaki iyi oluş düzeyine denk gelir."
+ },
+ {
+  "id": "ruh86",
+  "kind": "text",
+  "tr": "WHO-5: 10 puanlık değişim"
+ },
+ {
+  "id": "ruh87",
+  "kind": "text",
+  "tr": "İki ölçüm arasında anlamlı kabul edilen fark."
+ },
+ {
+  "id": "ruh88",
+  "kind": "text",
+  "tr": "PHQ-4: 0–2"
+ },
+ {
+  "id": "ruh89",
+  "kind": "text",
+  "tr": "Olağan."
+ },
+ {
+  "id": "ruh90",
+  "kind": "text",
+  "tr": "PHQ-4: 3–5"
+ },
+ {
+  "id": "ruh91",
+  "kind": "text",
+  "tr": "Hafif belirtiler."
+ },
+ {
+  "id": "ruh92",
+  "kind": "text",
+  "tr": "PHQ-4: 6–8"
+ },
+ {
+  "id": "ruh93",
+  "kind": "text",
+  "tr": "Orta düzeyde belirtiler."
+ },
+ {
+  "id": "ruh94",
+  "kind": "text",
+  "tr": "PHQ-4: 9–12"
+ },
+ {
+  "id": "ruh95",
+  "kind": "text",
+  "tr": "Ağır belirtiler."
+ },
+ {
+  "id": "ruh96",
+  "kind": "text",
+  "tr": "Alt puanlar: 3 ve üzeri"
+ },
+ {
+  "id": "ruh97",
+  "kind": "text",
+  "tr": "İlk iki soruda kaygı, son iki soruda depresyon açısından daha ayrıntılı değerlendirme önerilir."
+ },
+ {
+  "id": "ruh98",
+  "kind": "text",
+  "tr": "Sonuç ne söyler, ne söylemez?"
+ },
+ {
+  "id": "ruh99",
+  "kind": "text",
+  "tr": "Bu ölçekler tanı koymaz; daha ayrıntılı bir değerlendirmeye ihtiyaç olup olmadığını gösterir. Tanı, bir hekim ya da ruh sağlığı uzmanının görüşmesiyle konur."
+ },
+ {
+  "id": "ruh100",
+  "kind": "text",
+  "tr": "Sonuç yalnızca son iki haftayı yansıtır."
+ },
+ {
+  "id": "ruh101",
+  "kind": "text",
+  "tr": "Yas, yoğun stres, uykusuzluk ya da bedensel bir hastalık puanları etkileyebilir."
+ },
+ {
+  "id": "ruh102",
+  "kind": "text",
+  "tr": "Yüksek belirti puanı, kesin bir sorun olduğu anlamına gelmez; düşük puan da her şeyin yolunda olduğunu garanti etmez."
+ },
+ {
+  "id": "ruh103",
+  "kind": "text",
+  "tr": "Kendinizi kötü hissediyorsanız puan ne olursa olsun bir uzmanla konuşun."
+ },
+ {
+  "id": "ruh104",
+  "kind": "text",
+  "tr": "Ruh hâlinize iyi gelebilecekler"
+ },
+ {
+  "id": "ruh105",
+  "kind": "text",
+  "tr": "Depresyon ve kaygıda hangi egzersiz ne kadar işe yarıyor; evde altı hareket."
+ },
+ {
+  "id": "ruh106",
+  "kind": "text",
+  "tr": "Ruh hâlini iyileştiren kısa bir nefes egzersizi, zamanlayıcıyla."
+ },
+ {
+  "id": "ruh107",
+  "kind": "text",
+  "tr": "Zor bir günde kendinize dost olmanın dört adımı."
+ },
+ {
+  "id": "ruh108",
+  "kind": "text",
+  "tr": "Haftada 120 dakika doğada vakit geçirmek için bir plan."
+ },
+ {
+  "id": "ruh109",
+  "kind": "text",
+  "tr": "Yalnızlıkla baş etmek ve bağları güçlendirmek için."
+ },
+ {
+  "id": "ruh110",
+  "kind": "text",
+  "tr": "Uykunuzu düzenlemek için öneriler ve yatma saati planlayıcı."
+ },
+ {
+  "id": "ruh111",
+  "kind": "text",
+  "tr": "Yanıtlarım nereye gidiyor?"
+ },
+ {
+  "id": "ruh112",
+  "kind": "text",
+  "tr": "Hiçbir yere. Puanlar telefonunuzda ya da bilgisayarınızda hesaplanır; sunucuya gönderilmez. Sonucu kaydetmeyi seçerseniz yalnızca bu tarayıcıda saklanır ve istediğiniz an silebilirsiniz."
+ },
+ {
+  "id": "ruh113",
+  "kind": "text",
+  "tr": "Puanım düşük çıktı; depresyonum var mı?"
+ },
+ {
+  "id": "ruh114",
+  "kind": "text",
+  "tr": "Bu ölçekler tanı koymaz; daha ayrıntılı değerlendirme gerekip gerekmediğini gösteren tarama araçlarıdır. Tanı, bir hekim ya da ruh sağlığı uzmanının görüşmesiyle konur. Puanınız sınırın altındaysa ya da kendinizi iyi hissetmiyorsanız bir uzmanla konuşun."
+ },
+ {
+  "id": "ruh115",
+  "kind": "text",
+  "tr": "Ne sıklıkla tekrarlamalıyım?"
+ },
+ {
+  "id": "ruh116",
+  "kind": "text",
+  "tr": "Sorular son iki haftayı kapsadığı için iki haftada bir tekrarlamak yeterlidir. İyi oluş puanında 10 puanlık bir değişim, araştırmalarda anlamlı kabul edilir."
+ },
+ {
+  "id": "ruh117",
+  "kind": "text",
+  "tr": "Puanım iyi ama kendimi kötü hissediyorum; ne yapmalıyım?"
+ },
+ {
+  "id": "ruh118",
+  "kind": "text",
+  "tr": "Kısa ölçekler her durumu yakalayamaz. Kendinizi kötü hissediyorsanız ya da belirtileriniz günlük hayatınızı etkiliyorsa, puan ne olursa olsun bir hekime ya da ruh sağlığı uzmanına başvurun."
+ },
+ {
+  "id": "ruh119",
+  "kind": "text",
+  "tr": "Bir yakınınız için endişeleniyorsanız onunla konuşun ve destek almasına yardımcı olun."
+ },
+ {
+  "id": "ruh120",
+  "kind": "text",
+  "tr": "<strong>Önemli:</strong> Bu sayfa bilgilendirme amaçlıdır; tanı koymaz ve tedavinin yerine geçmez."
+ },
+ {
+  "id": "ruh121",
+  "kind": "text",
+  "tr": "Psychiatric Research Unit, WHO Collaborating Centre in Mental Health, Frederiksborg General Hospital. <a href=\"https://www.psykiatri-regionh.dk/who-5/Documents/WHO5_Turkish.pdf\" target=\"_blank\" rel=\"noopener\">WHO (Beş) İyilik Durumu İndeksi (1998 sürümü), Türkçe</a>; <a href=\"https://www.psykiatri-regionh.dk/who-5/who-5-questionnaires/Pages/default.aspx\" target=\"_blank\" rel=\"noopener\">WHO-5 questionnaires</a>."
+ },
+ {
+  "id": "ruh122",
+  "kind": "text",
+  "tr": "Eser E, Çevik C, Baydur H, et al. <a href=\"https://acikerisim.comu.edu.tr/items/052b02e4-bd78-4283-ba47-600999f3f936\" target=\"_blank\" rel=\"noopener\">Reliability and validity of the Turkish version of the WHO-5, in adults and older adults for its use in primary care settings</a>. Prim Health Care Res Dev. 2019;20:e100."
+ },
+ {
+  "id": "ruh123",
+  "kind": "text",
+  "tr": "Kroenke K, Spitzer RL, Williams JBW, Löwe B. <a href=\"https://fis.uke.de/portal/en/publications/an-ultrabrief-screening-scale-for-anxiety-and-depression-the-phq4(3969b34b-29e4-403d-ba80-11112c46edcb).html\" target=\"_blank\" rel=\"noopener\">An ultra-brief screening scale for anxiety and depression: the PHQ-4</a>. Psychosomatics. 2009;50(6):613–621."
+ },
+ {
+  "id": "ruh124",
+  "kind": "text",
+  "tr": "<a href=\"https://www.sralab.org/sites/default/files/2018-03/PHQ4.pdf\" target=\"_blank\" rel=\"noopener\">Patient Health Questionnaire-4 (PHQ-4)</a>. Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute."
+ },
+ {
+  "id": "ruh125",
+  "kind": "text",
+  "tr": "Oregon Pain Guidance. <a href=\"https://www.oregon.gov/oha/HPA/dsi-pmc/PainCareToolbox/PHQ-4.pdf\" target=\"_blank\" rel=\"noopener\">PHQ-4 scoring</a>. 2016."
+ }
+]
