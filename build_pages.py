@@ -1198,6 +1198,41 @@ IL_HD = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" heigh
 <g fill="#e2ab47"><circle cx="230" cy="86" r="4.5"/><circle cx="238" cy="80" r="3.5"/><circle cx="238" cy="92" r="4"/><circle cx="224" cy="94" r="3"/></g>
 <circle cx="232" cy="87" r="17" fill="none" stroke="#e2ab47" stroke-width="2" stroke-dasharray="4 4"/>
 <polygon points="93.8,122.5 86.0,127.0 78.2,122.5 78.2,113.5 86.0,109.0 93.8,113.5" fill="rgba(143,164,118,.25)" stroke="#8fa476" stroke-width="2.5"/><polygon points="115.8,134.5 108.0,139.0 100.2,134.5 100.2,125.5 108.0,121.0 115.8,125.5" fill="rgba(143,164,118,.25)" stroke="#8fa476" stroke-width="2.5"/><polygon points="91.8,148.5 84.0,153.0 76.2,148.5 76.2,139.5 84.0,135.0 91.8,139.5" fill="rgba(143,164,118,.25)" stroke="#8fa476" stroke-width="2.5"/><polygon points="136.1,121.5 130.0,125.0 123.9,121.5 123.9,114.5 130.0,111.0 136.1,114.5" fill="rgba(143,164,118,.25)" stroke="#8fa476" stroke-width="2.5"/></svg>'''
+IL_SLEEPST = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M44 26a16 16 0 1 0 14 24a13 13 0 1 1 -14 -24z" fill="#e2ab47"/>
+<g fill="#ece5cf" opacity=".55"><circle cx="86" cy="22" r="1.8"/><circle cx="112" cy="40" r="1.4"/><circle cx="276" cy="24" r="1.8"/></g>
+<g stroke="rgba(236,229,207,.12)" stroke-width="1"><path d="M70 52H290M70 76H290M70 104H290M70 132H290"/></g>
+<path d="M70 52H86V104H104V132H130V104H146V76H164V104H182V132H196V104H214V76H240V104H256V76H284V52H290" fill="none" stroke="#8fa476" stroke-width="3" stroke-linejoin="round"/>
+<g stroke="#e2ab47" stroke-width="6" stroke-linecap="round"><path d="M148 76H162M216 76H238M258 76H282"/></g>
+<rect x="22" y="128" width="40" height="30" rx="9" fill="rgba(236,229,207,.10)" stroke="#ece5cf" stroke-width="2.5"/><path d="M30 128v-8h24v8M30 158v8h24v-8" fill="none" stroke="#8fa476" stroke-width="2.5"/>
+<path d="M30 145h6l3-7 4 13 3-6h8" fill="none" stroke="#e2ab47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
+IL_NMJ = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<rect x="34" y="104" width="252" height="50" rx="25" fill="rgba(143,164,118,.22)" stroke="#8fa476" stroke-width="3"/>
+<g stroke="rgba(143,164,118,.55)" stroke-width="2"><path d="M62 108v42M86 106v46M110 106v46M210 106v46M234 106v46M258 108v42"/></g>
+<path d="M150 14C150 40 160 52 160 70" fill="none" stroke="#ece5cf" stroke-width="5" stroke-linecap="round"/>
+<path d="M160 70C150 78 136 82 128 92M160 70C160 80 160 86 160 92M160 70C170 78 184 82 192 92" fill="none" stroke="#ece5cf" stroke-width="3.5" stroke-linecap="round"/>
+<g fill="#ece5cf"><ellipse cx="128" cy="96" rx="7" ry="5"/><ellipse cx="160" cy="96" rx="7" ry="5"/><ellipse cx="192" cy="96" rx="7" ry="5"/></g>
+<g fill="#e2ab47"><circle cx="128" cy="104" r="2.6"/><circle cx="160" cy="104" r="2.6"/><circle cx="154" cy="102" r="2"/><circle cx="166" cy="102" r="2"/></g>
+<g fill="none" stroke="#e2ab47" stroke-width="2.5" stroke-linecap="round"><path d="M120 116l-8 10M136 116l8 10M152 116l-8 10M168 116l8 10"/></g>
+<g fill="none" stroke="rgba(236,229,207,.35)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 4"><path d="M192 108v14"/></g>
+<path d="M200 118l10 10m0-10l-10 10" stroke="#c96b5a" stroke-width="3" stroke-linecap="round"/></svg>'''
+IL_UPF = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<ellipse cx="190" cy="92" rx="88" ry="70" fill="rgba(236,229,207,.06)" stroke="rgba(236,229,207,.4)" stroke-width="2.5"/>
+<path d="M126 96c0-30 20-54 44-58c18 10 24 34 12 56c-14 14-38 18-56 2z" fill="rgba(143,164,118,.45)" stroke="#8fa476" stroke-width="2.5"/>
+<path d="M188 40c30 2 60 22 66 52c-14 10-40 10-58-4c-10-14-14-32-8-48z" fill="rgba(143,164,118,.45)" stroke="#8fa476" stroke-width="2.5"/>
+<path d="M136 120c22 14 60 18 92 6c10 14 4 28-14 34c-30 8-62 2-82-14c-4-10-2-20 4-26z" fill="rgba(143,164,118,.45)" stroke="#8fa476" stroke-width="2.5"/>
+<circle cx="190" cy="100" r="13" fill="#ece5cf"/>
+<g stroke="#e2ab47" stroke-width="3" stroke-linecap="round"><path d="M142 78l14 6M150 64l12 4M206 60l14 10M224 76l12 4M160 136l18 2M196 142l16-2"/></g>
+<rect x="30" y="56" width="46" height="62" rx="5" fill="rgba(236,229,207,.10)" stroke="#d8b25e" stroke-width="2.5"/><path d="M30 72h46M38 86h30M38 96h22M38 106h26" stroke="#d8b25e" stroke-width="2" stroke-linecap="round"/></svg>'''
+IL_LACO = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M126 -6V54C126 74 140 84 160 84C180 84 194 74 194 54V-6" fill="rgba(236,229,207,.10)" stroke="#8fa476" stroke-width="3"/>
+<path d="M126 186V124C126 108 140 100 160 100C180 100 194 108 194 124V186" fill="rgba(236,229,207,.10)" stroke="#8fa476" stroke-width="3"/>
+<path d="M132 70C140 80 150 84 160 84C170 84 180 80 188 70" fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/>
+<path d="M132 112C140 104 150 100 160 100C170 100 180 104 188 112" fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="160" cy="92" rx="26" ry="6" fill="rgba(216,178,94,.35)"/>
+<g fill="#e2ab47"><circle cx="146" cy="92" r="2"/><circle cx="160" cy="91" r="2"/><circle cx="174" cy="92" r="2"/></g>
+<g transform="rotate(-24 262 70)"><rect x="236" y="62" width="62" height="16" rx="3" fill="rgba(236,229,207,.12)" stroke="#ece5cf" stroke-width="2.5"/><rect x="242" y="65" width="30" height="10" fill="rgba(216,178,94,.6)"/><path d="M298 70h12M310 62v16M236 70h-30" stroke="#ece5cf" stroke-width="2.5" stroke-linecap="round"/></g>
+<g fill="none" stroke="#e2ab47" stroke-width="2" stroke-dasharray="3 4"><circle cx="160" cy="92" r="40"/></g></svg>'''
 IL_TAVA = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M112 14C112 58 132 76 160 76C188 76 208 58 208 14" fill="rgba(143,164,118,.16)" stroke="#8fa476" stroke-width="3.5"/>
 <path d="M86 152Q160 116 234 152" fill="none" stroke="#8fa476" stroke-width="4" stroke-linecap="round"/>
@@ -1269,6 +1304,18 @@ NEWS = [
       text="ABD'de Gıda ve İlaç Dairesi (FDA), Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Son ikisi Ağustos 2026'da geldi. Bu testler beyin görüntülemesine ya da bel sıvısı alınmasına gerek kalmadan tanıyı kolaylaştırabilir.",
       point="Önemli: Testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı. Şikâyeti olmayan sağlıklı kişilerde tarama için uygun değiller.",
       src=[("TIME, 22 Eylül 2026", "https://time.com/article/2026/09/22/who-should-get-new-blood-tests-for-alzheimers-disease/")]),
+ dict(il=IL_SLEEPST, g="beyin", cat="Uyku", date="Eylül 2026",
+      title="Uykunun süresi kadar evreleri de önemli olabilir",
+      text="İngiltere'deki UK Biobank çalışmasına katılan yaklaşık 96 bin kişi bir hafta boyunca bileğinde hareket ölçer taşıdı; bir yapay zekâ algoritması bu verilerden uyku evrelerini tahmin etti. Yaklaşık 9 yıllık izlemde, gece REM uykusu daha uzun olanlarda 83 hastalığın riski daha düşüktü: REM uykusundaki yaklaşık 48 dakikalık fark, kalp yetmezliğinde %26, demansta %46 daha düşük riskle ilişkiliydi. Daha uzun derin uyku 7 hastalıkta (tip 2 diyabet ve majör depresyon dahil) daha düşük, düzensiz uyku ve gece uyanmaları ise kaygı gibi sorunlarda daha yüksek riskle ilişkiliydi. Gece 5 saatten az uyumak 37 hastalıkla ilişkiliydi; çoğu hastalıkta risk 6–8 saatte en düşüktü.",
+      point="Bu bir gözlem çalışması: Uykunun bu hastalıklara yol açtığını göstermiyor; henüz tanı almamış hastalıklar da uykuyu bozmuş olabilir. Bilekten ölçülen hareket, uyku evrelerini ancak kabaca tahmin edebiliyor. Yine de düzenli ve yeterli uykunun önemini hatırlatan güçlü bir veri.",
+      src=[('PLOS Medicine, 17 Eylül 2026', 'https://doi.org/10.1371/journal.pmed.1005213'), ('Science Media Centre, uzman görüşleri', 'https://www.sciencemediacentre.org/?p=58503')],
+      rel=('İyi uyku rehberi', 'uyku.html')),
+ dict(il=IL_NMJ, g="hareket", cat="Sarkopeni", date="Eylül 2026",
+      title="Yaşla gelen kas güçsüzlüğünde gözden kaçan halka",
+      text="Sinirden gelen “kasıl” komutu kasa, sinir-kas kavşağı denen bağlantı noktasından geçer. Missouri Üniversitesi'nin öncülük ettiği çalışmada, güçsüz yaşlılarda bu geçişin aksadığı ve aksamanın güçsüzlüğün derecesiyle ilişkili olduğu görüldü. Yaşlı kemirgenlerde de aynı aksama vardı; kavşaktaki kas zarında NaV1.4 adlı sodyum kanalı azalmıştı. ClC-1 adlı klor kanalını kısmen engelleyen bir ilaç, yaşlı kemirgenlerde kasın sinir uyarısına yanıtını ve kas işlevini iyileştirdi.",
+      point="İlacın etkisi şimdilik yalnızca hayvanlarda gösterildi. Aynı yoldan etki eden ignaseclant, kalıtsal bir sinir hastalığında (Charcot-Marie-Tooth) insanda denendi; yaşlılarda kas güçsüzlüğü için henüz denenmedi. Bugün sarkopenide en etkili tedavi, kasları dirence karşı çalıştıran egzersiz.",
+      src=[('Journal of Clinical Investigation, 1 Eylül 2026', 'https://jci.org/articles/view/190646/pdf'), ('ScienceDaily (Missouri Üniversitesi), 24 Eylül 2026', 'https://www.sciencedaily.com/releases/2026/09/260923035924.htm')],
+      rel=('Sarkopeni rehberi', 'sarkopeni.html')),
  dict(il=IL_KIDNEY, g="gen", cat="Organ nakli", date="Eylül 2026",
       title="Domuz böbreği, insan böbreğine köprü oldu",
       text="ABD'de son dönem böbrek yetmezliği olan 66 yaşındaki Tim Andrews'a genetiği düzenlenmiş bir domuzdan böbrek nakledildi. Böbrek onu 271 gün diyalizden uzak tuttu; bu, yaşayan bir alıcıda belgelenen en uzun süre. Enfeksiyon nedeniyle bağışıklık baskılayıcı ilaçlar azaltılınca domuz böbreği hasar görüp işlevini yitirdi; Andrews Ocak 2026'da bağışçıdan insan böbreği aldı ve yeni böbrek hemen çalışmaya başladı.",
@@ -1320,6 +1367,12 @@ NEWS = [
       text="Kanser tedavisinde kullanılan CAR-T yöntemi, bağışıklık sisteminin kendi dokularına saldırdığı hastalıklarda da deneniyor. University College London'ın (UCL) yürüttüğü CARLYSLE çalışmasında ağır lupus hastalarının bağışıklık hücreleri, hastalıktan sorumlu B hücrelerini hedefleyecek şekilde yeniden programlandı. Düşük doz grubundaki 6 hastanın 5'i standart ölçütlere göre remisyona girdi; böbrek tutulumu olanlarda idrarla protein kaybı azaldı.",
       point="Ağır sitokin salınım sendromu ya da sinir sistemi yan etkisi görülmedi; bir hastada gelişen karaciğer hasarı tamamen düzeldi. Sonuçlar 9 hastalık erken bir çalışmaya ait; İngiltere'de daha geniş bir faz II çalışması hasta almaya başladı.",
       src=[("UCL, 12 Haziran 2026", "https://www.ucl.ac.uk/news/2026/jun/car-t-cell-therapy-shows-early-promise-severe-lupus")]),
+ dict(il=IL_LACO, g="hareket", cat="Kas-iskelet", date="Haziran 2026",
+      title="Bir epilepsi ilacı kıkırdağı korumaya aday",
+      text="Yale Tıp Fakültesi'nden araştırmacılar, kireçlenmiş eklemde aşırı çalışan Nav1.7 adlı sodyum kanalının hem ağrı sinyalini artırdığını hem de kıkırdak hücrelerini yıkıma ittiğini gösterdi. Bu kanalı engelleyen ve epilepside zaten kullanılan lakozamid, düşük dozda kıkırdak yapımını destekledi, yıkımı azalttı ve hayvanlarda eklem ağrısını hafifletti. İlaç, vücut ısısında jelleşen bir kolajen jelin içinde dize verildiğinde haftalarca eklemde kaldı; ayda bir yapılan enjeksiyon kıkırdak kaybını, her gün ağızdan verilen ilaçtan daha iyi önledi.",
+      point="Sonuçlar hücre ve hayvan deneylerine dayanıyor; kireçlenmesi olan insanlarda henüz denenmedi. Etkili doz aralığı dar: Çok yüksek ya da çok düşük dozda yarar kayboldu. İlacın zaten onaylı olması klinik çalışmaları hızlandırabilir. O güne dek diz kireçlenmesinde tedavinin temeli egzersiz.",
+      src=[('Yale School of Medicine, 2 Haziran 2026', 'https://medicine.yale.edu/news-article/hydrogel-relieves-pain-and-repairs-cartilage-in-osteoarthritis/'), ('Bioactive Materials, 2026', 'https://doi.org/10.1016/j.bioactmat.2026.02.045')],
+      rel=('Dizin 12 Sırrı: ev programı', 'dizin-12-sirri.html')),
  dict(il=IL_GAE, g="hareket", cat="Kas-iskelet", date="Haziran 2026",
       title="Diz kireçlenmesi ağrısında damar tıkama (GAE)",
       text="Berlin'deki Charité Üniversite Hastanesi'nde, en az 3 aydır diğer tedavilerle geçmeyen kireçlenme ağrısı olan 194 hastaya genikülat arter embolizasyonu uygulandı: ince bir kateterle dizin çevresindeki küçük damarlara, birkaç saat içinde çözünen mikroküreler verildi. Ağrı 10 üzerinden ortanca 7'den 12. ayda 3'e indi; hastaların %80'inde anlamlı iyileşme görüldü.",
@@ -1343,6 +1396,12 @@ NEWS = [
       point="Başlıca dikkat edilmesi gereken yan etki kanda potasyum yükselmesi: potasyumun 6,0 mmol/L'nin üzerine çıkması yüksek dozda %3, plaseboda %0,4 oranında görüldü; bu yüzden potasyum düzeyi kan tahliliyle izlenir. Tansiyon ilacınızı hekiminize danışmadan değiştirmeyin. İlaçların yanında düzenli egzersizin, özellikle izometrik egzersizlerin de tansiyonu düşürdüğü gösterildi.",
       src=[('New England Journal of Medicine, 2025', 'https://www.nejm.org/doi/full/10.1056/NEJMoa2507109'), ('Pharmacy Times, Mayıs 2026', 'https://www.pharmacytimes.com/view/fda-approves-baxdrostat-as-first-in-class-aldosterone-synthase-inhibitor-for-hypertension')],
       rel=('Tansiyon için duvar oturuşu', 'duvar-oturusu.html')),
+ dict(il=IL_UPF, g="hareket", cat="Beslenme", date="Nisan 2026",
+      title="Ultra işlenmiş gıdalar uyluk kaslarındaki yağlanmayla ilişkili",
+      text="ABD'deki Osteoarthritis Initiative çalışmasından, dizinde henüz kireçlenme olmayan ama risk taşıyan 615 kişinin uyluk MR'ları incelendi (ortalama yaş 60). Katılımcıların yediklerinin ortalama %41'i ultra işlenmiş gıdalardan oluşuyordu. Ultra işlenmiş gıda tüketimi arttıkça kas dokusunun içindeki yağlanma da arttı; bu ilişki toplam kalori ve yağ alımı, fiziksel aktivite ve sosyoekonomik etkenlerden bağımsızdı.",
+      point="Bu bir gözlem çalışması: Ultra işlenmiş gıdanın kas yağlanmasına neden olduğunu kanıtlamıyor; beslenme bilgisi bir yıllık ankete dayanıyor. Kas içi yağlanma, dizi destekleyen kasları zayıflatarak kireçlenme riskini artırabilir. Kilo verirken yalnızca kaloriye değil, besin kalitesine de dikkat etmek akıllıca.",
+      src=[('RSNA, 14 Nisan 2026', 'https://www.rsna.org/news/2026/april/thigh-muscle-fat-and-osteoarthritis'), ('Radiology, 2026', 'https://doi.org/10.1148/radiol.251129')],
+      rel=('Diz kireçlenmesi rehberi', 'diz-kireclenmesi.html')),
  dict(il=IL_ORFO, g="kalp", cat="Obezite", date="Nisan 2026",
       title='Yemek ve su kısıtlaması olmayan ilk GLP-1 zayıflama hapı',
       text="GLP-1 ilaçları şimdiye kadar çoğunlukla haftalık iğne olarak kullanılıyordu; Aralık 2025'te onaylanan ağızdan semaglutidin (Wegovy hap) ise aç karnına alınması gerekiyor. FDA, 1 Nisan 2026'da Eli Lilly'nin orforglipron (Foundayo) adlı hapını, günün herhangi bir saatinde yemek ve su kısıtlaması olmadan alınabilen ilk GLP-1 hapı olarak onayladı. 72 haftalık ATTAIN-1 çalışmasında en yüksek dozu alanlar vücut ağırlıklarının ortalama %12,4'ünü kaybetti; plaseboda kayıp %0,9'du.",
