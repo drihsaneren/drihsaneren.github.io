@@ -491,6 +491,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ruh-sagligi-egzersiz.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/ruh-hali-olcumu.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/mood-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-10</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -979,5 +986,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ruh-sagligi-egzersiz.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-for-mental-health.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ruh-sagligi-egzersiz.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/mood-check.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/mood-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
   </url>
 </urlset>
