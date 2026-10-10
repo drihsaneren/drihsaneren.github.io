@@ -186,7 +186,7 @@ CSS = """
 
 KOSE_PAGES = {"bilgi.html", "sarkopeni.html", "demans-egzersiz.html", "golfcu-dirsegi.html", "guillain-barre.html", "halluks-valgus.html", "tetik-parmak.html", "duztabanlik.html", "omurilik-yaralanmasi.html", "de-quervain.html", "diyabetik-noropati.html", "kalca-yan-agrisi.html", "lenfodem.html", "yuz-felci.html", "titreme.html", "surekli-usume.html", "romatoid-artrit.html", "kalp-rehabilitasyonu.html", "koah.html", "on-capraz-bag.html", "dost-molasi.html", "stres.html", "donuk-omuz.html", "boyun-agrisi.html", "boyun-fitigi.html", "bel-agrisi.html", "bel-fitigi.html", "diz-kireclenmesi.html", "inme-rehabilitasyonu.html", "topuk-dikeni.html", "omuz-sikismasi.html", "karpal-tunel-sendromu.html", "dusme-onleme.html", "protez-sonrasi.html", "masa-basi.html", "kalca-kireclenmesi.html", "tenisci-dirsegi.html", "kemik-erimesi.html", "ayak-bilegi-burkulmasi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "parkinson.html", "kalca-kirigi.html", "kanser-egzersiz.html", "menisku-yirtigi.html", "fibromiyalji.html", "bas-donmesi.html", "ankilozan-spondilit.html", "diz-onu-agrisi.html", "asil-tendinopatisi.html", "bas-agrisi.html", "skolyoz.html", "rotator-manset-yirtigi.html", "cene-eklemi.html", "idrar-kacirma.html", "gebelikte-bel-agrisi.html", "dar-kanal.html", "multipl-skleroz.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 NEWS_PAGES = {"nobel-2026.html"}   # Bilim gündemi'nin özel sayfaları
-SELF_PAGES = {"dizin-12-sirri.html", "kas-gevsetme.html", "ruh-hali-olcumu.html", "ruh-sagligi-egzersiz.html", "dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
+SELF_PAGES = {"dizin-12-sirri.html", "kucuk-adimlar.html", "kas-gevsetme.html", "ruh-hali-olcumu.html", "ruh-sagligi-egzersiz.html", "dost-molasi.html", "stres.html", "masa-basi.html", "sabah-rutini.html", "hareket.html", "uyku.html", "otur-kalk-testi.html", "duvar-oturusu.html", "ic-cekis.html", "doga-recetesi.html", "bag-kurmak.html"}
 def bar(current):
     items = [("bilgi.html", "Bilgi köşesi"), ("bilgi.html#kendine-iyi-bak", "Kendine iyi bak"), ("yenilikler.html", "Bilim gündemi")]
     def attr(h):
@@ -273,6 +273,7 @@ TOPICS = {
     "ic-cekis.html": ("Kendine iyi bak", "5 dakikalık iç çekiş nefesi"),
     "doga-recetesi.html": ("Kendine iyi bak", "Doğa reçetesi"),
     "bag-kurmak.html": ("Kendine iyi bak", "Sosyal bağ ve sağlık"),
+    "kucuk-adimlar.html": ("Kendine iyi bak", "Küçük adımlar planlayıcısı"),
     "kas-gevsetme.html": ("Kendine iyi bak", "Kas gevşetme: sesli rehber"),
     "ruh-hali-olcumu.html": ("Kendine iyi bak", "Ruh hâlinizi ölçün"),
     "ruh-sagligi-egzersiz.html": ("Kendine iyi bak", "Ruh sağlığı için egzersiz"),
@@ -346,7 +347,8 @@ RELATED = {
     "ic-cekis.html": ["stres.html", "uyku.html", "kas-gevsetme.html"],
     "doga-recetesi.html": ["bag-kurmak.html", "stres.html"],
     "bag-kurmak.html": ["doga-recetesi.html", "stres.html"],
-    "dost-molasi.html": ["ic-cekis.html", "bag-kurmak.html"],
+    "dost-molasi.html": ["ic-cekis.html", "bag-kurmak.html", "kucuk-adimlar.html"],
+    "kucuk-adimlar.html": ["ruh-hali-olcumu.html", "ruh-sagligi-egzersiz.html"],
     "kas-gevsetme.html": ["ic-cekis.html", "uyku.html"],
     "ruh-hali-olcumu.html": ["ruh-sagligi-egzersiz.html", "ic-cekis.html"],
     "ruh-sagligi-egzersiz.html": ["stres.html", "ic-cekis.html", "ruh-hali-olcumu.html"],
@@ -1778,6 +1780,8 @@ TH_MOOD = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M100 120 A60
 C_MOOD = KC("ruh-hali-olcumu.html", TH_MOOD, "Kendine iyi bak", "Ruh hâlinizi ölçün", "WHO-5 iyi oluş indeksi ve PHQ-4 kaygı-depresyon taramasıyla son iki haftanızı değerlendirin: 9 soru, 2 dakika. Yanıtlar cihazınızdan çıkmaz.")
 TH_PMR = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 122 H262" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="92" cy="98" r="12" fill="#8fa476"/><path d="M106 104 L178 106 L246 110 M150 106 L170 92 L196 98" stroke="#8fa476" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M118 70 q10 -9 20 0 t20 0 t20 0 M138 48 q10 -9 20 0 t20 0 t20 0 M158 26 q10 -9 20 0 t20 0" stroke="#e2ab47" stroke-width="4" stroke-linecap="round" fill="none" opacity=".9"/></svg>"""
 C_PMR = KC("kas-gevsetme.html", TH_PMR, "Kendine iyi bak", "Kas gevşetme: sesli rehber", "Kasları sırayla sıkıp bırakarak gevşeyin: 18 bölgelik tam ya da 7 bölgelik kısa sürüm, sesli zamanlayıcıyla. Stres, kaygı ve uykuya dalmak için.")
+TH_BA = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M70 130 H250" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><rect x="96" y="106" width="42" height="24" rx="3" fill="#8fa476" opacity=".55"/><rect x="138" y="82" width="42" height="48" rx="3" fill="#8fa476" opacity=".8"/><rect x="180" y="58" width="42" height="72" rx="3" fill="#8fa476"/><circle cx="201" cy="34" r="12" fill="#e2ab47"/><path d="M201 14 V8 M181 34 H175 M227 34 H221 M187 20 L183 16 M215 20 L219 16" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/><path d="M117 96 l5 5 9 -11" stroke="#ece5cf" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M159 72 l5 5 9 -11" stroke="#ece5cf" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>"""
+C_BA = KC("kucuk-adimlar.html", TH_BA, "Kendine iyi bak", "Küçük adımlar planlayıcısı", "Ruh hâliniz düşükken haftanızı küçük adımlarla planlayın; her adımdan önce ve sonra puanlayıp neyin iyi geldiğini görün.")
 C_WALLSIT = KC("duvar-oturusu.html", TH_WALLSIT, "Kendine iyi bak", "Tansiyon için duvar oturuşu", "270 çalışmalık analizde tansiyonu en çok düşüren egzersiz türü. Haftada 3 gün, 4 × 2 dakika: zamanlayıcıyla birlikte yapın.")
 C_SIGH = KC("ic-cekis.html", TH_SIGH, "Kendine iyi bak", "5 dakikalık iç çekiş nefesi", "Stanford'daki çalışmada ruh hâlini meditasyondan daha çok iyileştiren nefes: iki kez alın, uzun verin.")
 C_NATURE = KC("doga-recetesi.html", TH_NATURE, "Kendine iyi bak", "Doğa reçetesi", "Haftada 120 dakika doğa; parça parça da olur. Haftalık doğa takviminiz ve İstanbul'dan öneriler.")
@@ -1799,7 +1803,7 @@ def region_filter():
             "".join(f'<button type="button" data-f="{r}" aria-pressed="{"true" if r == "tum" else "false"}"><span>{t}</span><small>{cnt[r]}</small></button>' for r, t in REGIONS) +
             '</div>')
 REHAB = [C_FALLS, C_PROSTH, C_STROKE, C_SCI, C_GBS, C_HIPFX, C_PARK, C_DEM, C_MS, C_ONCO, C_LYMPH, C_COPD, C_CARDIAC]
-SELF = [C_KNEE12, C_MINDEX, C_MOOD, C_PMR, C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
+SELF = [C_KNEE12, C_MINDEX, C_MOOD, C_PMR, C_BA, C_DOST, C_SRT, C_WALLSIT, C_SIGH, C_NATURE, C_SOCIAL, C_MORNING, C_MOVE, C_SLEEP, C_STRES, C_DESK]
 def _kc_info(c):
     return _re.search(r'href="([^"]+)"', c).group(1), _re.search(r"<h3>(.*?)</h3>", c).group(1)
 def agr_cards():
@@ -1884,6 +1888,7 @@ PILL = {
     "masa-basi.html": "Masa başı", "sabah-rutini.html": "Sabah rutini", "hareket.html": "Ne kadar hareket?", "uyku.html": "İyi uyku",
     "otur-kalk-testi.html": "Otur-kalk testi", "dizin-12-sirri.html": "Dizin 12 Sırrı", "duvar-oturusu.html": "Tansiyon için duvar oturuşu", "ic-cekis.html": "İç çekiş nefesi",
     "doga-recetesi.html": "Doğa reçetesi", "bag-kurmak.html": "Sosyal bağ", "dost-molasi.html": "DOST molası", "stres.html": "Stres",
+    "kucuk-adimlar.html": "Küçük adımlar",
     "kas-gevsetme.html": "Kas gevşetme",
     "ruh-hali-olcumu.html": "Ruh hâli ölçümü",
     "ruh-sagligi-egzersiz.html": "Ruh sağlığı için egzersiz",
@@ -2122,7 +2127,7 @@ def hx_groups():
 SELF_GROUPS = [
     ("Kendinizi ölçün", ["otur-kalk-testi.html", "hareket.html"]),
     ("Zamanlayıcıyla birlikte yapın", ["dizin-12-sirri.html", "duvar-oturusu.html", "ic-cekis.html", "sabah-rutini.html"]),
-    ("Ruh sağlığı için", ["ruh-sagligi-egzersiz.html", "ruh-hali-olcumu.html", "kas-gevsetme.html", "dost-molasi.html", "stres.html"]),
+    ("Ruh sağlığı için", ["ruh-sagligi-egzersiz.html", "ruh-hali-olcumu.html", "kas-gevsetme.html", "kucuk-adimlar.html", "dost-molasi.html", "stres.html"]),
     ("Günlük hayat için", ["uyku.html", "masa-basi.html", "doga-recetesi.html", "bag-kurmak.html"]),
 ]
 def hx_self():
@@ -2149,7 +2154,7 @@ HOME_TRIO = f"""    <p class="trio-k">Bilgi köşesi</p>
       </div>
     </details>
     <details class="hx">
-      <summary><b>Kendine iyi bak ne işe yarar?</b><span>Ağrınız olmasa da işinize yarar: kendinizi ölçebileceğiniz kısa testler, zamanlayıcıyla birlikte yapılan egzersizler ve uyku, stres, duruş için öneriler.</span><em>Tam liste için dokunun</em></summary>
+      <summary><b>Kendine iyi bak ne işe yarar?</b><span>Ağrınız olmasa da işinize yarar: kendinizi ölçebileceğiniz kısa testler, zamanlayıcıyla birlikte yapılan egzersizler ve ruh sağlığı, uyku, duruş için öneriler.</span><em>Tam liste için dokunun</em></summary>
       <div class="hx-list">
 {hx_self()}
         <a class="hx-all" href="bilgi.html#kendine-iyi-bak">Tüm rehberler →</a>

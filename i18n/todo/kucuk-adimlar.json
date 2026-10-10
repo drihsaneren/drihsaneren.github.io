@@ -1,0 +1,497 @@
+[
+ {
+  "id": "kuc0",
+  "kind": "text",
+  "tr": "Küçük Adımlar: Depresyon İçin Davranışsal Aktivasyon Planlayıcısı | İhsan Eren"
+ },
+ {
+  "id": "kuc1",
+  "kind": "attr",
+  "tr": "Davranışsal aktivasyon nedir, depresyonda ne kadar etkili? Ruh hâli düşükken haftanızı küçük adımlarla planlayın, öncesi ve sonrasında ruh hâlinizi puanlayın, neyin iyi geldiğini görün."
+ },
+ {
+  "id": "kuc2",
+  "kind": "text",
+  "tr": "Küçük adımlar planlayıcısı"
+ },
+ {
+  "id": "kuc3",
+  "kind": "text",
+  "tr": "Ruh hâli düştüğünde insan, keyif aldığı ve yapması gereken şeylerden yavaş yavaş uzaklaşır; bu da ruh hâlini daha da düşürür. Davranışsal aktivasyon bu döngüyü küçük ve planlı adımlarla kırar; depresyonda etkili bulunmuş bir terapi yöntemidir. Aşağıdaki planlayıcıyla haftanızı küçük adımlarla kurun ve her adımın size nasıl geldiğini görün."
+ },
+ {
+  "id": "kuc4",
+  "kind": "text",
+  "tr": "Son güncelleme: 11 Ekim 2026"
+ },
+ {
+  "id": "kuc5",
+  "kind": "text",
+  "tr": "26 çalışma"
+ },
+ {
+  "id": "kuc6",
+  "kind": "text",
+  "tr": "Davranışsal aktivasyonu inceleyen meta-analiz; 1.524 kişi, depresyonda etkili"
+ },
+ {
+  "id": "kuc7",
+  "kind": "text",
+  "tr": "440 kişi"
+ },
+ {
+  "id": "kuc8",
+  "kind": "text",
+  "tr": "Bilişsel davranışçı terapiyle karşılaştıran çalışma; 12 ayda sonuçlar benzerdi"
+ },
+ {
+  "id": "kuc9",
+  "kind": "text",
+  "tr": "Aynı çalışmada davranışsal aktivasyon grubunun depresyon puanı (PHQ-9), 12 ayda"
+ },
+ {
+  "id": "kuc10",
+  "kind": "text",
+  "tr": "5–10 dakika"
+ },
+ {
+  "id": "kuc11",
+  "kind": "text",
+  "tr": "Başlangıç için yeterli bir adım"
+ },
+ {
+  "id": "kuc12",
+  "kind": "text",
+  "tr": "Döngü nasıl işler?"
+ },
+ {
+  "id": "kuc13",
+  "kind": "text",
+  "tr": "Ruh hâliniz düşer; yorgunluk ve isteksizlik başlar."
+ },
+ {
+  "id": "kuc14",
+  "kind": "text",
+  "tr": "Daha az şey yaparsınız; arkadaşlardan, uğraşlardan ve işlerden uzaklaşırsınız."
+ },
+ {
+  "id": "kuc15",
+  "kind": "text",
+  "tr": "Keyif ve başarı hissi azalır; ertelenen işler birikir."
+ },
+ {
+  "id": "kuc16",
+  "kind": "text",
+  "tr": "Kendinizi daha kötü hissedersiniz ve döngü yeniden başlar."
+ },
+ {
+  "id": "kuc17",
+  "kind": "text",
+  "tr": "Davranışsal aktivasyon döngüyü ikinci adımda kırar: İsteğin gelmesini beklemeden, küçük ve planlı adımlarla yeniden harekete geçersiniz. İstek çoğu zaman eylemden sonra gelir."
+ },
+ {
+  "id": "kuc18",
+  "kind": "text",
+  "tr": "Haftanızı küçük adımlarla kurun"
+ },
+ {
+  "id": "kuc19",
+  "kind": "text",
+  "tr": "1. Bir adım seçin"
+ },
+ {
+  "id": "kuc20",
+  "kind": "text",
+  "tr": "Üç türden de adım seçmeye çalışın. Adım, bugün yapabileceğiniz kadar küçük olsun."
+ },
+ {
+  "id": "kuc21",
+  "kind": "attr",
+  "tr": "Tür"
+ },
+ {
+  "id": "kuc22",
+  "kind": "text",
+  "tr": "<i class=\"cat r\"></i>Gündelik"
+ },
+ {
+  "id": "kuc23",
+  "kind": "text",
+  "tr": "<i class=\"cat n\"></i>Gerekli"
+ },
+ {
+  "id": "kuc24",
+  "kind": "text",
+  "tr": "<i class=\"cat p\"></i>Keyif veren"
+ },
+ {
+  "id": "kuc25",
+  "kind": "text",
+  "tr": "Duş almak"
+ },
+ {
+  "id": "kuc26",
+  "kind": "text",
+  "tr": "Yatağı toplamak"
+ },
+ {
+  "id": "kuc27",
+  "kind": "text",
+  "tr": "Kahvaltı hazırlamak"
+ },
+ {
+  "id": "kuc28",
+  "kind": "text",
+  "tr": "10 dakika yürümek"
+ },
+ {
+  "id": "kuc29",
+  "kind": "text",
+  "tr": "Beş tabak yıkamak"
+ },
+ {
+  "id": "kuc30",
+  "kind": "text",
+  "tr": "Bir faturayı ödemek"
+ },
+ {
+  "id": "kuc31",
+  "kind": "text",
+  "tr": "Bir e-postayı yanıtlamak"
+ },
+ {
+  "id": "kuc32",
+  "kind": "text",
+  "tr": "Ertelediğim bir telefonu açmak"
+ },
+ {
+  "id": "kuc33",
+  "kind": "text",
+  "tr": "Çamaşırları makineye atmak"
+ },
+ {
+  "id": "kuc34",
+  "kind": "text",
+  "tr": "Alışveriş listesini yazmak"
+ },
+ {
+  "id": "kuc35",
+  "kind": "text",
+  "tr": "Sevdiğim bir şarkıyı dinlemek"
+ },
+ {
+  "id": "kuc36",
+  "kind": "text",
+  "tr": "Bir arkadaşa mesaj atmak"
+ },
+ {
+  "id": "kuc37",
+  "kind": "text",
+  "tr": "Güneşte 10 dakika oturmak"
+ },
+ {
+  "id": "kuc38",
+  "kind": "text",
+  "tr": "5 sayfa kitap okumak"
+ },
+ {
+  "id": "kuc39",
+  "kind": "text",
+  "tr": "Çiçekleri sulamak"
+ },
+ {
+  "id": "kuc40",
+  "kind": "attr",
+  "tr": "Ya da kendiniz yazın: örneğin 5 dakika esnemek"
+ },
+ {
+  "id": "kuc41",
+  "kind": "attr",
+  "tr": "Adım"
+ },
+ {
+  "id": "kuc42",
+  "kind": "text",
+  "tr": "2. Ne zaman?"
+ },
+ {
+  "id": "kuc43",
+  "kind": "text",
+  "tr": "Bir ya da birkaç gün seçin. Başta haftaya 3–5 adım yeterli; planı fazla doldurmayın."
+ },
+ {
+  "id": "kuc44",
+  "kind": "attr",
+  "tr": "Günler"
+ },
+ {
+  "id": "kuc45",
+  "kind": "text",
+  "tr": "Planıma ekle"
+ },
+ {
+  "id": "kuc46",
+  "kind": "text",
+  "tr": "3. Bu haftaki planım"
+ },
+ {
+  "id": "kuc47",
+  "kind": "text",
+  "tr": "Bir adımı yaptığınızda “Yaptım”a dokunun ve öncesi ile sonrasındaki ruh hâlinizi puanlayın."
+ },
+ {
+  "id": "kuc48",
+  "kind": "text",
+  "tr": "Planı takvime ekle"
+ },
+ {
+  "id": "kuc49",
+  "kind": "text",
+  "tr": "4. Ne iyi geldi?"
+ },
+ {
+  "id": "kuc50",
+  "kind": "text",
+  "tr": "Pzt|Sal|Çar|Per|Cum|Cmt|Paz"
+ },
+ {
+  "id": "kuc51",
+  "kind": "text",
+  "tr": "Pazartesi|Salı|Çarşamba|Perşembe|Cuma|Cumartesi|Pazar"
+ },
+ {
+  "id": "kuc52",
+  "kind": "text",
+  "tr": "Sabah|Öğle|Akşam"
+ },
+ {
+  "id": "kuc53",
+  "kind": "text",
+  "tr": "Planımdan çıkar"
+ },
+ {
+  "id": "kuc54",
+  "kind": "text",
+  "tr": "Henüz bir adım eklemediniz. Yukarıdan bir öneri seçin ya da kendiniz yazın."
+ },
+ {
+  "id": "kuc55",
+  "kind": "text",
+  "tr": "Önce bir adım seçin ya da yazın."
+ },
+ {
+  "id": "kuc56",
+  "kind": "text",
+  "tr": "En az bir gün seçin."
+ },
+ {
+  "id": "kuc57",
+  "kind": "text",
+  "tr": "Planınız dolu; önce bir adımı çıkarın."
+ },
+ {
+  "id": "kuc58",
+  "kind": "text",
+  "tr": "Eklendi."
+ },
+ {
+  "id": "kuc59",
+  "kind": "text",
+  "tr": "Yapmadan önce ruh hâliniz neydi? (0 çok kötü, 10 çok iyi)"
+ },
+ {
+  "id": "kuc60",
+  "kind": "text",
+  "tr": "Şimdi nasıl?"
+ },
+ {
+  "id": "kuc61",
+  "kind": "text",
+  "tr": "Vazgeç"
+ },
+ {
+  "id": "kuc62",
+  "kind": "text",
+  "tr": "bu hafta yapılan adım"
+ },
+ {
+  "id": "kuc63",
+  "kind": "text",
+  "tr": "ruh hâlinde ortalama değişim"
+ },
+ {
+  "id": "kuc64",
+  "kind": "text",
+  "tr": "en çok iyi gelen"
+ },
+ {
+  "id": "kuc65",
+  "kind": "text",
+  "tr": "Son kayıtlar"
+ },
+ {
+  "id": "kuc66",
+  "kind": "text",
+  "tr": "Adımlarınızı yapıp puanladıkça burada neyin size iyi geldiğini göreceksiniz."
+ },
+ {
+  "id": "kuc67",
+  "kind": "text",
+  "tr": "Tüm verileri sil"
+ },
+ {
+  "id": "kuc68",
+  "kind": "text",
+  "tr": "Plan ve kayıtlarınızın tümü bu cihazdan silinsin mi?"
+ },
+ {
+  "id": "kuc69",
+  "kind": "text",
+  "tr": "kucuk-adimlar.ics"
+ },
+ {
+  "id": "kuc70",
+  "kind": "text",
+  "tr": "Küçük adım: drihsaneren.com"
+ },
+ {
+  "id": "kuc71",
+  "kind": "text",
+  "tr": "Plan ve puanlarınız yalnızca bu cihazda saklanır, hiçbir yere gönderilmez."
+ },
+ {
+  "id": "kuc72",
+  "kind": "text",
+  "tr": "Nasıl kullanılır?"
+ },
+ {
+  "id": "kuc73",
+  "kind": "text",
+  "tr": "Üç tür adım"
+ },
+ {
+  "id": "kuc74",
+  "kind": "text",
+  "tr": "<b>Gündelik</b> işler hayatı kolaylaştırır (yıkanmak, yemek yapmak), <b>gerekli</b> işler ertelendikçe büyür (fatura ödemek), <b>keyif veren</b> etkinlikler bağ ve keyif getirir. Üçünden de seçin."
+ },
+ {
+  "id": "kuc75",
+  "kind": "text",
+  "tr": "Küçültün"
+ },
+ {
+  "id": "kuc76",
+  "kind": "text",
+  "tr": "Bütün mutfağı değil beş tabağı yıkayın; bir bölüm değil beş sayfa okuyun. Miktar yerine süre hedefleyin: 10 dakika yeter."
+ },
+ {
+  "id": "kuc77",
+  "kind": "text",
+  "tr": "Ne, ne zaman, nerede, kiminle"
+ },
+ {
+  "id": "kuc78",
+  "kind": "text",
+  "tr": "\"Akşam 7'de mutfakta, tek başıma tezgâhı silmek\" gibi somut yazın. Planı ilk haftalarda fazla doldurmayın."
+ },
+ {
+  "id": "kuc79",
+  "kind": "text",
+  "tr": "Önce ve sonra puanlayın"
+ },
+ {
+  "id": "kuc80",
+  "kind": "text",
+  "tr": "Her adımdan önce ve sonra ruh hâlinizi puanlamak, hangi etkinliğin size iyi geldiğini görmenizi sağlar. Haftada bir planınızı gözden geçirin."
+ },
+ {
+  "id": "kuc81",
+  "kind": "text",
+  "tr": "26 çalışmayı ve 1.524 kişiyi kapsayan meta-analizde davranışsal aktivasyon, depresyon belirtilerini karşılaştırma gruplarına göre belirgin biçimde azalttı. Çalışmaların çoğunun kalitesi düşüktü ve izlem süreleri kısaydı."
+ },
+ {
+  "id": "kuc82",
+  "kind": "text",
+  "tr": "İngiltere'de depresyonu olan 440 yetişkinle yapılan COBRA çalışmasında, beş günlük eğitim almış ruh sağlığı çalışanlarının uyguladığı davranışsal aktivasyon, terapistlerin uyguladığı bilişsel davranışçı terapi kadar etkiliydi."
+ },
+ {
+  "id": "kuc83",
+  "kind": "text",
+  "tr": "12 ayda depresyon puanı davranışsal aktivasyon grubunda 17,7'den 8,4'e, bilişsel davranışçı terapi grubunda 17,4'ten 8,4'e indi."
+ },
+ {
+  "id": "kuc84",
+  "kind": "text",
+  "tr": "Davranışsal aktivasyonun maliyeti yaklaşık %21 daha düşüktü."
+ },
+ {
+  "id": "kuc85",
+  "kind": "text",
+  "tr": "İngiltere'deki depresyon kılavuzu, bireysel davranışsal aktivasyonu tedavi seçenekleri arasında sayıyor."
+ },
+ {
+  "id": "kuc86",
+  "kind": "text",
+  "tr": "Hiç içimden gelmiyor; yine de yapmalı mıyım?"
+ },
+ {
+  "id": "kuc87",
+  "kind": "text",
+  "tr": "Evet, küçük bir adımla. Ruh hâli düşükken istek çoğu zaman harekete geçtikten sonra gelir, önce değil. Nasıl hissettiğinize rağmen, adımı olabildiğince küçültüp yapın; 5 dakika bile sayılır."
+ },
+ {
+  "id": "kuc88",
+  "kind": "text",
+  "tr": "Planladığımı yapamazsam ne olur?"
+ },
+ {
+  "id": "kuc89",
+  "kind": "text",
+  "tr": "Hiçbir şey kaybetmezsiniz. Adımı başka bir güne taşıyın ya da daha da küçültün. Kendinizi suçlamak yerine, neyin engel olduğunu fark etmeye çalışın."
+ },
+ {
+  "id": "kuc90",
+  "kind": "text",
+  "tr": "Bu bir tedavinin yerine geçer mi?"
+ },
+ {
+  "id": "kuc91",
+  "kind": "text",
+  "tr": "Davranışsal aktivasyon, depresyonda etkili bir terapi yöntemidir ve genellikle bir uzmanla birlikte uygulanır. Bu planlayıcı kendi kendinize başlamanıza yardımcı olabilir; ancak belirtileriniz belirginse ya da günlük hayatınızı etkiliyorsa bir hekime ya da ruh sağlığı uzmanına başvurun."
+ },
+ {
+  "id": "kuc92",
+  "kind": "text",
+  "tr": "Verilerim nerede saklanıyor?"
+ },
+ {
+  "id": "kuc93",
+  "kind": "text",
+  "tr": "Yalnızca bu cihazda, tarayıcınızda. Hiçbir yere gönderilmez. Sayfanın altındaki düğmeyle istediğiniz an silebilirsiniz."
+ },
+ {
+  "id": "kuc94",
+  "kind": "text",
+  "tr": "Adımlarınız arasında hareket de olsun: <a href=\"ruh-sagligi-egzersiz.html\">Ruh sağlığı için egzersiz</a>. Ruh hâlinizi iki haftada bir izlemek için <a href=\"ruh-hali-olcumu.html\">Ruh hâlinizi ölçün</a>, zor bir gün için <a href=\"dost-molasi.html\">DOST molası</a>."
+ },
+ {
+  "id": "kuc95",
+  "kind": "text",
+  "tr": "En küçük adımları bile atamıyorsanız bu, desteğe ihtiyacınız olduğunun bir işaretidir; yalnız uğraşmayın."
+ },
+ {
+  "id": "kuc96",
+  "kind": "text",
+  "tr": "Richards DA, Ekers D, McMillan D, et al. Cost and Outcome of Behavioural Activation versus Cognitive Behavioural Therapy for Depression (COBRA): a randomised, controlled, non-inferiority trial. Lancet. 2016;388(10047):871–880. Özet: <a href=\"https://evidence.nihr.ac.uk/alert/simpler-cheaper-therapy-behavioural-activation-can-be-as-good-as-cbt-for-treating-depression/\" target=\"_blank\" rel=\"noopener\">NIHR Evidence, Simpler, cheaper therapy – behavioural activation – can be as good as CBT for treating depression</a>, 5 October 2016."
+ },
+ {
+  "id": "kuc97",
+  "kind": "text",
+  "tr": "East London NHS Foundation Trust. <a href=\"https://www.elft.nhs.uk/sites/default/files/2022-05/behavioural-activation.pdf\" target=\"_blank\" rel=\"noopener\">Behavioural activation</a>."
+ },
+ {
+  "id": "kuc98",
+  "kind": "text",
+  "tr": "Healthy WA (Government of Western Australia). <a href=\"https://www.health.wa.gov.au/sitecore/content/Healthy-WA/Articles/A_E/Behavioural-activation-fun-and-achievement\" target=\"_blank\" rel=\"noopener\">Behavioural activation: fun and achievement</a>."
+ }
+]

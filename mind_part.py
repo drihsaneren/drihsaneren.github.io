@@ -864,3 +864,344 @@ page("kas-gevsetme.html", "Kas Gevşetme: Sesli Rehber",
      "kas-gevsetme.html", PMR_CSS, PMR_BODY, PMR_JS,
      seo_title="Aşamalı Kas Gevşetme: Sesli Rehberle 6 Dakika | İhsan Eren",
      about={"@type": "Thing", "name": "Aşamalı kas gevşetme"}, faq_items=PMR_FAQ)
+
+# ============================================================== 4 · KÜÇÜK ADIMLAR (davranışsal aktivasyon planlayıcı)
+BA_CSS = MIND_CSS + """
+  .ba{display:grid;gap:22px}
+  .ba h3{font-size:19px;margin:0 0 4px}
+  .ba .hint{margin:0 0 10px;color:var(--muted);font-size:14px}
+  .ba-chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px}
+  .ba-chips button{all:unset;cursor:pointer;font-size:14px;padding:7px 12px;border-radius:999px;border:1px dashed var(--line-strong);color:var(--ink-soft)}
+  .ba-chips button:hover{border-color:var(--foil);color:var(--ink)}
+  .ba-chips button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .ba-in{width:100%;box-sizing:border-box;font:inherit;font-size:16px;color:var(--ink);background:rgba(236,229,207,.05);border:1px solid var(--line-strong);border-radius:12px;padding:12px 14px}
+  .ba-in:focus{outline:2px solid var(--gold);outline-offset:1px}
+  .ba-row{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+  .ba .seg{margin:6px 0 2px}
+  .ba .seg.days button{min-width:44px;text-align:center;padding:8px 10px}
+  .ba-msg{margin:8px 0 0;font-size:14px;color:#c96b5a;min-height:1.2em}
+  .cat{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:8px;vertical-align:1px;flex:none}
+  .cat.r{background:#8fa476}.cat.n{background:#d8b25e}.cat.p{background:#e8a3a0}
+  .ba-week{display:grid;gap:10px}
+  .ba-day{border:1px solid var(--line);border-radius:14px;padding:12px 14px;background:rgba(236,229,207,.03)}
+  .ba-day.today{border-color:var(--foil);background:rgba(216,178,94,.07)}
+  .ba-day h4{margin:0 0 8px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;gap:10px;align-items:center}
+  .ba-day.today h4{color:var(--foil)}
+  .ba-day h4 em{font-style:normal;font-size:11px;letter-spacing:.12em;background:var(--foil);color:var(--ground);padding:2px 8px;border-radius:999px}
+  .ba-it{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+  .ba-it:first-of-type{border-top:0}
+  .ba-it .nm{flex:1;min-width:0;color:var(--ink);font-size:15px;display:flex;align-items:center}
+  .ba-it .nm small{color:var(--muted);margin-left:8px;font-size:12.5px;white-space:nowrap}
+  .ba-it.ok .nm{color:var(--ink-soft)}
+  .ba-it .ck{font-size:13px;color:var(--sage);font-weight:600;white-space:nowrap}
+  .ba-it .do{all:unset;cursor:pointer;font-size:13.5px;font-weight:600;padding:6px 12px;border-radius:999px;background:var(--foil);color:var(--ground);white-space:nowrap}
+  .ba-it .del{all:unset;cursor:pointer;width:28px;height:28px;display:grid;place-items:center;border-radius:50%;color:var(--muted);font-size:18px;line-height:1}
+  .ba-it .del:hover{color:var(--ink);background:rgba(236,229,207,.08)}
+  .ba-it button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .ba-rate{border:1px solid var(--foil);border-radius:12px;padding:12px 14px;margin:6px 0 4px;background:rgba(216,178,94,.06)}
+  .ba-rate p{margin:0 0 4px;font-size:14.5px;color:var(--ink-soft)}
+  .ba-rate .rr{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  .ba-rate input{flex:1;accent-color:var(--gold)}
+  .ba-rate b{min-width:2ch;font-family:var(--display);font-size:26px;font-weight:400;color:var(--ink);text-align:right}
+  .ba-sum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 12px}
+  @media (max-width:560px){.ba-sum{grid-template-columns:1fr 1fr}}
+  .ba-sum div{border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+  .ba-sum b{display:block;font-family:var(--display);font-weight:400;font-size:30px;line-height:1.1;color:var(--ink)}
+  .ba-sum span{font-size:13px;color:var(--muted)}
+  .ba-log{list-style:none;margin:0;padding:0}
+  .ba-log li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid var(--line);font-size:14.5px;color:var(--ink-soft)}
+  .ba-log li b{color:var(--ink);font-weight:600;white-space:nowrap}
+  .ba-log li .up{color:var(--sage)}.ba-log li .dn{color:#c96b5a}
+  .ba-empty{color:var(--muted);font-size:14.5px;margin:0}
+  .cycle{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:c}
+  @media (max-width:760px){.cycle{grid-template-columns:1fr 1fr}}
+  .cycle li{position:relative;border:1px solid var(--line);border-radius:14px;padding:14px;color:var(--ink-soft);font-size:15px;counter-increment:c}
+  .cycle li::before{content:counter(c);display:block;font-family:var(--display);color:var(--foil);font-size:22px;margin-bottom:4px}
+  .cycle li.brk{border-color:var(--foil);background:rgba(216,178,94,.07);color:var(--ink)}
+"""
+
+BA_SUG = {
+ "r": ["Duş almak", "Yatağı toplamak", "Kahvaltı hazırlamak", "10 dakika yürümek", "Beş tabak yıkamak"],
+ "n": ["Bir faturayı ödemek", "Bir e-postayı yanıtlamak", "Ertelediğim bir telefonu açmak", "Çamaşırları makineye atmak", "Alışveriş listesini yazmak"],
+ "p": ["Sevdiğim bir şarkıyı dinlemek", "Bir arkadaşa mesaj atmak", "Güneşte 10 dakika oturmak", "5 sayfa kitap okumak", "Çiçekleri sulamak"],
+}
+def _ba_chips():
+    return "".join(f'<div class="ba-chips" data-c="{c}"' + ('' if c == "r" else ' hidden') + '>' +
+                   "".join(f'<button type="button">{t}</button>' for t in ts) + '</div>' for c, ts in BA_SUG.items())
+
+BA_FAQ = [
+ ("Hiç içimden gelmiyor; yine de yapmalı mıyım?", "Evet, küçük bir adımla. Ruh hâli düşükken istek çoğu zaman harekete geçtikten sonra gelir, önce değil. Nasıl hissettiğinize rağmen, adımı olabildiğince küçültüp yapın; 5 dakika bile sayılır."),
+ ("Planladığımı yapamazsam ne olur?", "Hiçbir şey kaybetmezsiniz. Adımı başka bir güne taşıyın ya da daha da küçültün. Kendinizi suçlamak yerine, neyin engel olduğunu fark etmeye çalışın."),
+ ("Bu bir tedavinin yerine geçer mi?", "Davranışsal aktivasyon, depresyonda etkili bir terapi yöntemidir ve genellikle bir uzmanla birlikte uygulanır. Bu planlayıcı kendi kendinize başlamanıza yardımcı olabilir; ancak belirtileriniz belirginse ya da günlük hayatınızı etkiliyorsa bir hekime ya da ruh sağlığı uzmanına başvurun."),
+ ("Verilerim nerede saklanıyor?", "Yalnızca bu cihazda, tarayıcınızda. Hiçbir yere gönderilmez. Sayfanın altındaki düğmeyle istediğiniz an silebilirsiniz."),
+]
+
+BA_SRC = [
+ "Ekers D, Webster L, Van Straten A, Cuijpers P, Richards D, Gilbody S. " + ext("https://durham-repository.worktribe.com/output/1427994/behavioural-activation-for-depression-an-update-of-meta-analysis-of-effectiveness-and-sub-group-analysis", "Behavioural activation for depression; an update of meta-analysis of effectiveness and sub group analysis") + ". PLoS One. 2014;9(6):e100100.",
+ "Richards DA, Ekers D, McMillan D, et al. Cost and Outcome of Behavioural Activation versus Cognitive Behavioural Therapy for Depression (COBRA): a randomised, controlled, non-inferiority trial. Lancet. 2016;388(10047):871–880. Özet: " + ext("https://evidence.nihr.ac.uk/alert/simpler-cheaper-therapy-behavioural-activation-can-be-as-good-as-cbt-for-treating-depression/", "NIHR Evidence, Simpler, cheaper therapy – behavioural activation – can be as good as CBT for treating depression") + ", 5 October 2016.",
+ "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng222/chapter/Recommendations", "Depression in adults: treatment and management (NG222)") + ". 2022.",
+ "East London NHS Foundation Trust. " + ext("https://www.elft.nhs.uk/sites/default/files/2022-05/behavioural-activation.pdf", "Behavioural activation") + ".",
+ "Healthy WA (Government of Western Australia). " + ext("https://www.health.wa.gov.au/sitecore/content/Healthy-WA/Articles/A_E/Behavioural-activation-fun-and-achievement", "Behavioural activation: fun and achievement") + ".",
+]
+
+BA_BODY = f'''<header class="page">
+  <div class="wrap">
+    <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
+    <p class="eyebrow">Kendine iyi bak</p>
+    <h1>Küçük adımlar planlayıcısı</h1>
+    <p class="lede">Ruh hâli düştüğünde insan, keyif aldığı ve yapması gereken şeylerden yavaş yavaş uzaklaşır; bu da ruh hâlini daha da düşürür. Davranışsal aktivasyon bu döngüyü küçük ve planlı adımlarla kırar; depresyonda etkili bulunmuş bir terapi yöntemidir. Aşağıdaki planlayıcıyla haftanızı küçük adımlarla kurun ve her adımın size nasıl geldiğini görün.</p>
+    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>26 çalışma</b><span>Davranışsal aktivasyonu inceleyen meta-analiz; 1.524 kişi, depresyonda etkili</span></div>
+        <div class="stat"><b>440 kişi</b><span>Bilişsel davranışçı terapiyle karşılaştıran çalışma; 12 ayda sonuçlar benzerdi</span></div>
+        <div class="stat"><b>17,7 → 8,4</b><span>Aynı çalışmada davranışsal aktivasyon grubunun depresyon puanı (PHQ-9), 12 ayda</span></div>
+        <div class="stat"><b>5–10 dakika</b><span>Başlangıç için yeterli bir adım</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Döngü nasıl işler?</h2>
+      <ol class="cycle">
+        <li>Ruh hâliniz düşer; yorgunluk ve isteksizlik başlar.</li>
+        <li class="brk">Daha az şey yaparsınız; arkadaşlardan, uğraşlardan ve işlerden uzaklaşırsınız.</li>
+        <li>Keyif ve başarı hissi azalır; ertelenen işler birikir.</li>
+        <li>Kendinizi daha kötü hissedersiniz ve döngü yeniden başlar.</li>
+      </ol>
+      <p class="soft" style="margin-top:16px">Davranışsal aktivasyon döngüyü ikinci adımda kırar: İsteğin gelmesini beklemeden, küçük ve planlı adımlarla yeniden harekete geçersiniz. İstek çoğu zaman eylemden sonra gelir.</p>
+    </div>
+  </section>
+
+  <section id="adimlar">
+    <div class="wrap">
+      <p class="eyebrow">Birlikte yapalım</p>
+      <h2>Haftanızı küçük adımlarla kurun</h2>
+      <div class="tool">
+        <div class="ba" id="ba">
+          <div>
+            <h3>1. Bir adım seçin</h3>
+            <p class="hint">Üç türden de adım seçmeye çalışın. Adım, bugün yapabileceğiniz kadar küçük olsun.</p>
+            <div class="seg" role="group" aria-label="Tür" id="ba-cat">
+              <button type="button" data-v="r" aria-pressed="true"><i class="cat r"></i>Gündelik</button>
+              <button type="button" data-v="n" aria-pressed="false"><i class="cat n"></i>Gerekli</button>
+              <button type="button" data-v="p" aria-pressed="false"><i class="cat p"></i>Keyif veren</button>
+            </div>
+            {_ba_chips()}
+            <input class="ba-in" id="ba-name" type="text" maxlength="60" autocomplete="off" placeholder="Ya da kendiniz yazın: örneğin 5 dakika esnemek" aria-label="Adım">
+          </div>
+          <div>
+            <h3>2. Ne zaman?</h3>
+            <p class="hint">Bir ya da birkaç gün seçin. Başta haftaya 3–5 adım yeterli; planı fazla doldurmayın.</p>
+            <div class="seg days" role="group" aria-label="Günler" id="ba-days"></div>
+            <div class="seg" role="group" aria-label="Saat" id="ba-time">
+              <button type="button" data-v="m" aria-pressed="false">Sabah</button>
+              <button type="button" data-v="a" aria-pressed="false">Öğle</button>
+              <button type="button" data-v="e" aria-pressed="true">Akşam</button>
+            </div>
+            <div class="controls" style="margin-top:12px"><button type="button" class="cta" id="ba-add">Planıma ekle</button></div>
+            <p class="ba-msg" id="ba-msg" aria-live="polite"></p>
+          </div>
+          <div>
+            <h3>3. Bu haftaki planım</h3>
+            <p class="hint">Bir adımı yaptığınızda “Yaptım”a dokunun ve öncesi ile sonrasındaki ruh hâlinizi puanlayın.</p>
+            <div class="ba-week" id="ba-week"></div>
+            <div class="controls" style="margin-top:12px" id="ba-acts" hidden><button type="button" class="cta ghost" id="ba-ics">Planı takvime ekle</button></div>
+          </div>
+          <div>
+            <h3>4. Ne iyi geldi?</h3>
+            <div id="ba-res"></div>
+          </div>
+        </div>
+        <div class="ba-s" hidden>
+          <span data-k="days">Pzt|Sal|Çar|Per|Cum|Cmt|Paz</span>
+          <span data-k="daysl">Pazartesi|Salı|Çarşamba|Perşembe|Cuma|Cumartesi|Pazar</span>
+          <span data-k="times">Sabah|Öğle|Akşam</span>
+          <span data-k="today">Bugün</span>
+          <span data-k="did">Yaptım</span>
+          <span data-k="done">Yapıldı</span>
+          <span data-k="del">Planımdan çıkar</span>
+          <span data-k="empty">Henüz bir adım eklemediniz. Yukarıdan bir öneri seçin ya da kendiniz yazın.</span>
+          <span data-k="need_n">Önce bir adım seçin ya da yazın.</span>
+          <span data-k="need_d">En az bir gün seçin.</span>
+          <span data-k="full">Planınız dolu; önce bir adımı çıkarın.</span>
+          <span data-k="added">Eklendi.</span>
+          <span data-k="before">Yapmadan önce ruh hâliniz neydi? (0 çok kötü, 10 çok iyi)</span>
+          <span data-k="after">Şimdi nasıl?</span>
+          <span data-k="save">Kaydet</span>
+          <span data-k="cancel">Vazgeç</span>
+          <span data-k="s_done">bu hafta yapılan adım</span>
+          <span data-k="s_avg">ruh hâlinde ortalama değişim</span>
+          <span data-k="s_best">en çok iyi gelen</span>
+          <span data-k="log_h">Son kayıtlar</span>
+          <span data-k="log_empty">Adımlarınızı yapıp puanladıkça burada neyin size iyi geldiğini göreceksiniz.</span>
+          <span data-k="clear">Tüm verileri sil</span>
+          <span data-k="clear_q">Plan ve kayıtlarınızın tümü bu cihazdan silinsin mi?</span>
+          <span data-k="ics_f">kucuk-adimlar.ics</span>
+          <span data-k="ics_d">Küçük adım: drihsaneren.com</span>
+        </div>
+      </div>
+      <p class="count">Plan ve puanlarınız yalnızca bu cihazda saklanır, hiçbir yere gönderilmez.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Nasıl kullanılır?</h2>
+      <div class="kinds">
+        <div class="kind"><span class="n">1</span><h3>Üç tür adım</h3><p><b>Gündelik</b> işler hayatı kolaylaştırır (yıkanmak, yemek yapmak), <b>gerekli</b> işler ertelendikçe büyür (fatura ödemek), <b>keyif veren</b> etkinlikler bağ ve keyif getirir. Üçünden de seçin.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Küçültün</h3><p>Bütün mutfağı değil beş tabağı yıkayın; bir bölüm değil beş sayfa okuyun. Miktar yerine süre hedefleyin: 10 dakika yeter.</p></div>
+        <div class="kind"><span class="n">3</span><h3>Ne, ne zaman, nerede, kiminle</h3><p>"Akşam 7'de mutfakta, tek başıma tezgâhı silmek" gibi somut yazın. Planı ilk haftalarda fazla doldurmayın.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Önce ve sonra puanlayın</h3><p>Her adımdan önce ve sonra ruh hâlinizi puanlamak, hangi etkinliğin size iyi geldiğini görmenizi sağlar. Haftada bir planınızı gözden geçirin.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two">
+      <div>
+        <h2>Araştırma ne buldu?</h2>
+        <p class="soft">26 çalışmayı ve 1.524 kişiyi kapsayan meta-analizde davranışsal aktivasyon, depresyon belirtilerini karşılaştırma gruplarına göre belirgin biçimde azalttı. Çalışmaların çoğunun kalitesi düşüktü ve izlem süreleri kısaydı.</p>
+      </div>
+      <ul class="dots" style="align-self:center">
+        <li>İngiltere'de depresyonu olan 440 yetişkinle yapılan COBRA çalışmasında, beş günlük eğitim almış ruh sağlığı çalışanlarının uyguladığı davranışsal aktivasyon, terapistlerin uyguladığı bilişsel davranışçı terapi kadar etkiliydi.</li>
+        <li>12 ayda depresyon puanı davranışsal aktivasyon grubunda 17,7'den 8,4'e, bilişsel davranışçı terapi grubunda 17,4'ten 8,4'e indi.</li>
+        <li>Davranışsal aktivasyonun maliyeti yaklaşık %21 daha düşüktü.</li>
+        <li>İngiltere'deki depresyon kılavuzu, bireysel davranışsal aktivasyonu tedavi seçenekleri arasında sayıyor.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sık sorulan sorular</h2>
+      {faq(BA_FAQ)}
+      <p class="soft" style="margin-top:18px">Adımlarınız arasında hareket de olsun: <a href="ruh-sagligi-egzersiz.html">Ruh sağlığı için egzersiz</a>. Ruh hâlinizi iki haftada bir izlemek için <a href="ruh-hali-olcumu.html">Ruh hâlinizi ölçün</a>, zor bir gün için <a href="dost-molasi.html">DOST molası</a>.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Ne zaman yardım almalı?</h2>
+      <ul class="dots redflags">
+        <li>Kendinize zarar verme ya da yaşamınıza son verme düşünceleriniz varsa beklemeden 112'yi arayın ya da en yakın acil servise gidin.</li>
+        <li>Haftalardır süren mutsuzluk, umutsuzluk, eskiden keyif aldığınız şeylere ilgisizlik, uyku ya da iştah değişiklikleri varsa bir hekime ya da ruh sağlığı uzmanına başvurun.</li>
+        <li>En küçük adımları bile atamıyorsanız bu, desteğe ihtiyacınız olduğunun bir işaretidir; yalnız uğraşmayın.</li>
+      </ul>
+      <div class="note" style="margin-top:22px"><strong>Önemli:</strong> Bu sayfa bilgilendirme amaçlıdır; tanı koymaz ve tedavinin yerine geçmez.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap col sources">
+      <p class="eyebrow">Kaynaklar</p>
+      {src_list(BA_SRC)}
+    </div>
+  </section>
+</main>'''
+
+BA_JS = '''<script>
+(function(){
+  var root = document.getElementById('ba'); if (!root) return;
+  var S = {}; document.querySelectorAll('.ba-s [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
+  var EN = document.documentElement.lang === 'en', KEY = 'drihsaneren.adimlar.v1', MAX = 12;
+  var $ = function(id){ return document.getElementById(id); };
+  var DS = S.days.split('|'), DL = S.daysl.split('|'), TS = S.times.split('|'), TI = {m: 0, a: 1, e: 2}, HOUR = {m: 9, a: 13, e: 19};
+  var st = load(), cat = 'r', time = 'e', days = {}, rating = null;
+  function load(){ try { var v = JSON.parse(localStorage.getItem(KEY) || 'null'); if (v && v.items && v.log) return v; } catch (e) {} return {items: [], log: []}; }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]; }); }
+  function today(){ return (new Date().getDay() + 6) % 7; }
+  function dayDate(i){ var d = new Date(); d.setHours(12, 0, 0, 0); d.setDate(d.getDate() - today() + i); return d; }
+  function iso(d){ return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
+  function doneOn(id, i){ var k = iso(dayDate(i)); return st.log.filter(function(l){ return l.id === id && l.d === k; })[0]; }
+  function msg(t, ok){ var m = $('ba-msg'); m.textContent = t || ''; m.style.color = ok ? 'var(--sage)' : ''; }
+  // gün düğmeleri
+  $('ba-days').innerHTML = DS.map(function(d, i){ return '<button type="button" data-v="' + i + '" aria-pressed="false" aria-label="' + esc(DL[i]) + '">' + esc(d) + '</button>'; }).join('');
+  days[today()] = 1; $('ba-days').querySelector('[data-v="' + today() + '"]').setAttribute('aria-pressed', 'true');
+  $('ba-days').addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; var i = +b.getAttribute('data-v');
+    if (days[i]) delete days[i]; else days[i] = 1; b.setAttribute('aria-pressed', days[i] ? 'true' : 'false'); });
+  $('ba-cat').addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; cat = b.getAttribute('data-v');
+    this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    root.querySelectorAll('.ba-chips').forEach(function(c){ c.hidden = c.getAttribute('data-c') !== cat; }); });
+  root.querySelectorAll('.ba-chips').forEach(function(c){ c.addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; $('ba-name').value = b.textContent; msg(''); }); });
+  $('ba-time').addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; time = b.getAttribute('data-v');
+    this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); });
+  $('ba-add').addEventListener('click', function(){
+    var n = $('ba-name').value.trim(), ds = Object.keys(days).map(Number).sort();
+    if (!n) { msg(S.need_n); $('ba-name').focus(); return; } if (!ds.length) { msg(S.need_d); return; } if (st.items.length >= MAX) { msg(S.full); return; }
+    st.items.push({id: Date.now().toString(36), n: n.slice(0, 60), c: cat, days: ds, t: time}); save(); $('ba-name').value = ''; msg(S.added, true); render();
+  });
+  $('ba-name').addEventListener('keydown', function(e){ if (e.key === 'Enter') { e.preventDefault(); $('ba-add').click(); } });
+  function render(){
+    var w = $('ba-week'), T = today(), html = '';
+    if (!st.items.length) { w.innerHTML = '<p class="ba-empty">' + esc(S.empty) + '</p>'; $('ba-acts').hidden = true; summary(); return; }
+    for (var i = 0; i < 7; i++){
+      var its = st.items.filter(function(it){ return it.days.indexOf(i) >= 0; }).sort(function(a, b){ return TI[a.t] - TI[b.t]; });
+      if (!its.length) continue;
+      html += '<div class="ba-day' + (i === T ? ' today' : '') + '"><h4>' + esc(DL[i]) + (i === T ? '<em>' + esc(S.today) + '</em>' : '') + '</h4>' +
+        its.map(function(it){ var dn = doneOn(it.id, i), act = '';
+          if (dn) act = '<span class="ck">✓ ' + esc(S.done) + ' · ' + dn.b + '→' + dn.a + '</span>';
+          else if (i <= T) act = '<button type="button" class="do" data-id="' + it.id + '" data-i="' + i + '">' + esc(S.did) + '</button>';
+          var r = rating && rating.id === it.id && rating.i === i ? rateBox() : '';
+          return '<div class="ba-it' + (dn ? ' ok' : '') + '"><span class="nm"><i class="cat ' + it.c + '"></i>' + esc(it.n) + '<small>' + esc(TS[TI[it.t]]) + '</small></span>' + act +
+            '<button type="button" class="del" data-del="' + it.id + '" aria-label="' + esc(S.del) + '" title="' + esc(S.del) + '">×</button></div>' + r; }).join('') + '</div>';
+    }
+    w.innerHTML = html; $('ba-acts').hidden = false; summary();
+    if (rating) { var bi = $('ba-b'), ai = $('ba-a'); if (bi) { bi.oninput = function(){ $('ba-bv').textContent = bi.value; }; ai.oninput = function(){ $('ba-av').textContent = ai.value; };
+      $('ba-ok').onclick = function(){ st.log.push({id: rating.id, n: rating.n, c: rating.c, d: iso(dayDate(rating.i)), b: +bi.value, a: +ai.value}); if (st.log.length > 200) st.log = st.log.slice(-200); rating = null; save(); render(); };
+      $('ba-no').onclick = function(){ rating = null; render(); }; } }
+  }
+  function rateBox(){ return '<div class="ba-rate"><p>' + esc(S.before) + '</p><div class="rr"><input type="range" min="0" max="10" step="1" value="4" id="ba-b" aria-label="' + esc(S.before) + '"><b id="ba-bv">4</b></div>' +
+    '<p>' + esc(S.after) + '</p><div class="rr"><input type="range" min="0" max="10" step="1" value="5" id="ba-a" aria-label="' + esc(S.after) + '"><b id="ba-av">5</b></div>' +
+    '<div class="controls"><button type="button" class="cta" id="ba-ok">' + esc(S.save) + '</button><button type="button" class="cta ghost" id="ba-no">' + esc(S.cancel) + '</button></div></div>'; }
+  $('ba-week').addEventListener('click', function(e){
+    var d = e.target.closest('[data-del]'), b = e.target.closest('.do');
+    if (d) { var id = d.getAttribute('data-del'); st.items = st.items.filter(function(it){ return it.id !== id; }); if (rating && rating.id === id) rating = null; save(); render(); return; }
+    if (b) { var it = st.items.filter(function(x){ return x.id === b.getAttribute('data-id'); })[0]; if (!it) return; rating = {id: it.id, n: it.n, c: it.c, i: +b.getAttribute('data-i')}; render(); }
+  });
+  function summary(){
+    var box = $('ba-res'), wk = {}; for (var i = 0; i < 7; i++) wk[iso(dayDate(i))] = 1;
+    var L = st.log; if (!L.length) { box.innerHTML = '<p class="ba-empty">' + esc(S.log_empty) + '</p>' + clearBtn(); bindClear(); return; }
+    var thisWeek = L.filter(function(l){ return wk[l.d]; }).length, avg = L.reduce(function(s, l){ return s + (l.a - l.b); }, 0) / L.length;
+    var by = {}; L.forEach(function(l){ var k = l.n.toLowerCase(); by[k] = by[k] || {n: l.n, s: 0, k: 0}; by[k].s += l.a - l.b; by[k].k++; });
+    var best = Object.keys(by).map(function(k){ return by[k]; }).sort(function(a, b){ return b.s / b.k - a.s / a.k; })[0];
+    function sg(v){ v = Math.round(v * 10) / 10; return (v > 0 ? '+' : v < 0 ? '−' : '±') + String(Math.abs(v)).replace('.', EN ? '.' : ','); }
+    var fmt = function(s){ var p = s.split('-'), d = new Date(+p[0], +p[1] - 1, +p[2]); return DS[(d.getDay() + 6) % 7] + ' ' + d.getDate() + '.' + (d.getMonth() + 1); };
+    box.innerHTML = '<div class="ba-sum"><div><b>' + thisWeek + '</b><span>' + esc(S.s_done) + '</span></div><div><b>' + sg(avg) + '</b><span>' + esc(S.s_avg) + '</span></div>' +
+      '<div><b style="font-size:19px;line-height:1.3;padding-top:6px">' + esc(best.n) + '</b><span>' + esc(S.s_best) + ' (' + sg(best.s / best.k) + ')</span></div></div>' +
+      '<h3 style="font-size:16px;margin:10px 0 4px">' + esc(S.log_h) + '</h3><ul class="ba-log">' + L.slice(-8).reverse().map(function(l){ var c = l.a - l.b;
+        return '<li><span><i class="cat ' + l.c + '"></i>' + esc(fmt(l.d)) + ' · ' + esc(l.n) + '</span><b class="' + (c > 0 ? 'up' : c < 0 ? 'dn' : '') + '">' + l.b + ' → ' + l.a + '</b></li>'; }).join('') + '</ul>' + clearBtn();
+    bindClear();
+  }
+  function clearBtn(){ return (st.items.length || st.log.length) ? '<p style="margin:14px 0 0"><button type="button" class="lnk" id="ba-clear" style="all:unset;cursor:pointer;color:var(--foil);font-size:14px;text-decoration:underline">' + esc(S.clear) + '</button></p>' : ''; }
+  function bindClear(){ var c = $('ba-clear'); if (c) c.onclick = function(){ if (!confirm(S.clear_q)) return; st = {items: [], log: []}; rating = null; try { localStorage.removeItem(KEY); } catch (e) {} render(); }; }
+  $('ba-ics').addEventListener('click', function(){
+    var BY = ['MO', 'TU', 'WE', 'TH', 'FR', 'SA', 'SU'], n = new Date();
+    function p2(x){ return (x < 10 ? '0' : '') + x; }
+    function stamp(d){ return d.getUTCFullYear() + p2(d.getUTCMonth() + 1) + p2(d.getUTCDate()) + 'T' + p2(d.getUTCHours()) + p2(d.getUTCMinutes()) + p2(d.getUTCSeconds()) + 'Z'; }
+    function ie(s){ return s.replace(/([,;\\\\])/g, '\\\\$1'); }
+    var ev = st.items.map(function(it, k){ var f = it.days.filter(function(d){ return d >= today(); })[0]; var d0 = dayDate(f === undefined ? it.days[0] + 7 : f); d0.setHours(HOUR[it.t], 0, 0, 0);
+      var ds = d0.getFullYear() + p2(d0.getMonth() + 1) + p2(d0.getDate()) + 'T' + p2(d0.getHours()) + '0000';
+      return ['BEGIN:VEVENT', 'UID:ba-' + it.id + '-' + k + '@drihsaneren.com', 'DTSTAMP:' + stamp(n), 'DTSTART:' + ds, 'DURATION:PT15M', 'RRULE:FREQ=WEEKLY;BYDAY=' + it.days.map(function(d){ return BY[d]; }).join(','),
+        'SUMMARY:' + ie(it.n), 'DESCRIPTION:' + ie(S.ics_d) + ' ' + location.href.split('#')[0], 'END:VEVENT'].join('\\r\\n'); });
+    var body = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//drihsaneren.com//ba//' + (EN ? 'EN' : 'TR')].concat(ev, ['END:VCALENDAR']).join('\\r\\n');
+    var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([body], {type: 'text/calendar;charset=utf-8'})); a.download = S.ics_f; document.body.appendChild(a); a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 1500);
+  });
+  render();
+})();
+</script>
+'''
+
+page("kucuk-adimlar.html", "Küçük Adımlar Planlayıcısı",
+     "Davranışsal aktivasyon nedir, depresyonda ne kadar etkili? Ruh hâli düşükken haftanızı küçük adımlarla planlayın, öncesi ve sonrasında ruh hâlinizi puanlayın, neyin iyi geldiğini görün.",
+     "kucuk-adimlar.html", BA_CSS, BA_BODY, BA_JS,
+     seo_title="Küçük Adımlar: Depresyon İçin Davranışsal Aktivasyon Planlayıcısı | İhsan Eren",
+     about=cond("Depresyon"), faq_items=BA_FAQ)
