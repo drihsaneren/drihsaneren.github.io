@@ -498,6 +498,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/kas-gevsetme.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kas-gevsetme.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/progressive-muscle-relaxation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kas-gevsetme.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-10</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -993,5 +1000,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/mood-check.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ruh-hali-olcumu.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/progressive-muscle-relaxation.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kas-gevsetme.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/progressive-muscle-relaxation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kas-gevsetme.html"/>
   </url>
 </urlset>
