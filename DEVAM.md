@@ -369,3 +369,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Warwick Agreement 2016 (BJSM tam metin), NIHR Evidence UK FASHIoN özeti (2 Ekim 2018; Lancet makalesi okunmadı), MPFT NHS kalça sıkışması sayfası (tarihsiz), George Eliot NHS broşürü (20 Ağustos 2025).
 - Kaynaksız / genel bilgi: köprü, yan köprü, yan yatarak bacak kaldırma, tek ayak denge seçimi (genel kalça güçlendirme; NHS sayfası pelvik eğme ve topuk kaydırmayı veriyor), "kasıkta sıkışma hissetmeden önce durun", çorap/araba önerisi.
 - Kayıt artık scratchpad/reg_cond.py + cNN.py ile yapılıyor. Kartlarda: fb458, fb459.
+
+## Atlet dizi rehberi (11 Ekim 2026, 5'in 3.sü)
+- atlet-dizi.html → en/jumpers-knee.html (cond25_part.py). Egzersizler: pt_iso (yeni, "wall" çizimi; wallsit çizimi self2'de sonradan tanımlandığı için kullanılamadı), quad, kext, bridge, pf_wall, pt_sls (yeni).
+- Okunan kaynaklar: Lian 2005 özeti (lida.sport-iat.de; yazar baş harfleri hafızadan), Breda 2021 özeti (pure.eur.nl) + Physiotutors program özeti, NHS Borders broşürü (1 Kasım 2024), NHS Knee pain (21 Aralık 2023).
+- Kaynaksız / genel bilgi: "diz önü ağrısından farkı" SSS'si, "aylar sürebilir" ifadesi.
+- Kartlarda: fb460, fb461.
