@@ -526,6 +526,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/huzursuz-bacak.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/kuyruk-sokumu-agrisi.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kuyruk-sokumu-agrisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/tailbone-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kuyruk-sokumu-agrisi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1049,5 +1056,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/huzursuz-bacak.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/restless-legs-syndrome.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/huzursuz-bacak.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/tailbone-pain.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kuyruk-sokumu-agrisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/tailbone-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kuyruk-sokumu-agrisi.html"/>
   </url>
 </urlset>
