@@ -381,3 +381,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Dislocated shoulder (16 Eylül 2026), Olds 2015 BJSM özeti (canterbury deposu; sayfa aralığı 913–922 hafızadan), NLG broşürü (Aralık 2025), Worcestershire broşürü, Leicester broşürü (Aralık 2024).
 - Kaynaksız / genel bilgi: koldaki uyuşma/karıncalanma kırmızı bayrağı, 112 (NHS 999 diyor; Türkiye'ye uyarlandı), "en sık öne doğru çıkar" ifadesi.
 - Kartlarda: fb462, fb463.
+
+## Piriformis sendromu rehberi (11 Ekim 2026, 5'in 5.si — 5 rehberlik tur tamam)
+- piriformis-sendromu.html → en/piriformis-syndrome.html (cond27_part.py). Egzersizler: pi_str (yeni, k2c çizimi), slump, bridge, abd, sideplank, hext.
+- Okunan kaynaklar: Hopayian 2010 (UEA deposu + tam rapor PDF: 55 çalışma, ≤%1 tahmini), Hopayian & Danielyan 2018 özeti, NHS Lothian broşürü (Ocak 2025; egzersizler görselde olduğu için okunamadı, yalnızca "30 saniye tut" ve tenis topu masajı), NHS Sciatica (3 Aralık 2024).
+- Kaynaksız / genel bilgi: egzersiz seçimi (piriformis germe, köprü, yan köprü vb.), "sık kalkıp hareket etme" ve "daha yumuşak yüzeyde oturma" önerisi.
+- Kartlarda: fb464.
