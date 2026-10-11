@@ -351,3 +351,9 @@ Kaynaksız/genel: egzersiz dozları, kramp tarifi, "tek taraflı şişlik ve ağ
 - Karekod (fb_qr.py, iletişim bölümü, bilgisayarda sağ altta): dönen altın kenar parıltısı, çapraz cam parıltısı (nq-shine), yıldız kıvılcımları (nq-sp), ışık patlaması (nq-lt) ve imleci izleyen parlama (nq-gl) kaldırıldı; kenar sabit ince altın çizgi.
   Kalan: açılışta iris gibi toplanma + köşe gözleri, ardından 7 sn'de bir beyin hafifçe atar ve sakin bir sinyal dalgası halkalardan dışa akar (renk farkı azaltıldı); eğilme 14°→8°. t_nq3: 43/44 karede okundu (0. kare açılış animasyonu).
 - LinkedIn (11 Ekim 2026): kullanıcı sitede LinkedIn bağlantısı İSTEMİYOR (eklenip aynı gün geri alındı). Profil: https://www.linkedin.com/in/ihsaneren/ (yalnızca bilgi).
+
+## Kuyruk sokumu ağrısı (cond22_part.py) — 11 Ekim 2026
+`kuyruk-sokumu-agrisi.html` / `en/tailbone-pain.html` (Hastalık rehberi, bölge: bel; bel-agrisi'nin ilgili bağlantılarının başına eklendi). Okunan kaynaklar: NHS Tailbone (coccyx) pain (20 Kasım 2025: belirtiler, nedenler, ev önlemleri, fizyoterapi/iğne/ameliyat, ne zaman GP),
+Mazzoleni 2025 Ann Joint sistematik derleme (16 çalışma, 858 hasta, %77 kadın; ESWT, enjeksiyon, ganglion impar, RF, koksijektomi %70,4 MCID; ~%90 ameliyatsız düzelme önceki literatürden), Patel 2008 Curr Rev Musculoskelet Med derlemesi (kullanıcı PDF olarak yükledi: kadınlarda 5 kat, başlangıç 40 yaş, obezite 3 kat, dinamik röntgende %70'e kadar bozukluk, normal 5–25°, Fogel protokolü <2 ay 8 hafta, Wray iğne %59 / iğne+manipülasyon %85, koksijektomi %60–91, yara enfeksiyonu %22'ye kadar).
+Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme" dedi. Kullanıcı PDF'i yükleyince okundu. Kaynaksız: minder biçimi önerisi genel tutuldu, egzersiz dozları. Üslup: karar cümleleri "-ebilirsiniz".
+Çeviri: kuyruk-sokumu-agrisi (62) + fb443–fb456.
