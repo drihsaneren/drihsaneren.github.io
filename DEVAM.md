@@ -375,3 +375,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Lian 2005 özeti (lida.sport-iat.de; yazar baş harfleri hafızadan), Breda 2021 özeti (pure.eur.nl) + Physiotutors program özeti, NHS Borders broşürü (1 Kasım 2024), NHS Knee pain (21 Aralık 2023).
 - Kaynaksız / genel bilgi: "diz önü ağrısından farkı" SSS'si, "aylar sürebilir" ifadesi.
 - Kartlarda: fb460, fb461.
+
+## Omuz çıkığı rehberi (11 Ekim 2026, 5'in 4.sü)
+- omuz-cikigi.html → en/shoulder-dislocation.html (cond26_part.py). Egzersizler: scap2, isoer, di_wall (yeni, wslide çizimi), scaption, row, sler.
+- Okunan kaynaklar: NHS Dislocated shoulder (16 Eylül 2026), Olds 2015 BJSM özeti (canterbury deposu; sayfa aralığı 913–922 hafızadan), NLG broşürü (Aralık 2025), Worcestershire broşürü, Leicester broşürü (Aralık 2024).
+- Kaynaksız / genel bilgi: koldaki uyuşma/karıncalanma kırmızı bayrağı, 112 (NHS 999 diyor; Türkiye'ye uyarlandı), "en sık öne doğru çıkar" ifadesi.
+- Kartlarda: fb462, fb463.
