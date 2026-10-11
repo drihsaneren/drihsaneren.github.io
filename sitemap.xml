@@ -547,6 +547,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalca-sikismasi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/atlet-dizi.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/atlet-dizi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/jumpers-knee.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/atlet-dizi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1091,5 +1098,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kalca-sikismasi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/hip-impingement.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalca-sikismasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/jumpers-knee.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/atlet-dizi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/jumpers-knee.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/atlet-dizi.html"/>
   </url>
 </urlset>
