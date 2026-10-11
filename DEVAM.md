@@ -357,3 +357,9 @@ Kaynaksız/genel: egzersiz dozları, kramp tarifi, "tek taraflı şişlik ve ağ
 Mazzoleni 2025 Ann Joint sistematik derleme (16 çalışma, 858 hasta, %77 kadın; ESWT, enjeksiyon, ganglion impar, RF, koksijektomi %70,4 MCID; ~%90 ameliyatsız düzelme önceki literatürden), Patel 2008 Curr Rev Musculoskelet Med derlemesi (kullanıcı PDF olarak yükledi: kadınlarda 5 kat, başlangıç 40 yaş, obezite 3 kat, dinamik röntgende %70'e kadar bozukluk, normal 5–25°, Fogel protokolü <2 ay 8 hafta, Wray iğne %59 / iğne+manipülasyon %85, koksijektomi %60–91, yara enfeksiyonu %22'ye kadar).
 Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme" dedi. Kullanıcı PDF'i yükleyince okundu. Kaynaksız: minder biçimi önerisi genel tutuldu, egzersiz dozları. Üslup: karar cümleleri "-ebilirsiniz".
 Çeviri: kuyruk-sokumu-agrisi (62) + fb443–fb456.
+
+## Boyun düzleşmesi rehberi (11 Ekim 2026, 5 yeni rehberin 1.si)
+- boyun-duzlesmesi.html → en/straight-neck.html (cond23_part.py). Egzersizler mevcut boyun anahtarları (chin, rot, side, scap, thor, wallpost).
+- Okunan kaynaklar: Grob 2007 ve McAviney 2005 (ikisi de PainScience özetinden; makalelerin tam metni okunamadı), NHS Neck pain (27 Nisan 2023).
+- Kaynaksız / genel bilgi: ekranı göz hizasına yaklaştırma önerisi, baş dönmesi SSS'sindeki ifade, kırmızı bayraklardaki ateş/kilo kaybı/kaza maddesi.
+- Kartlarda yeni metin: fb457. Sıradaki: kalça sıkışması (FAI), atlet dizi, omuz çıkığı, piriformis.
