@@ -363,3 +363,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Grob 2007 ve McAviney 2005 (ikisi de PainScience özetinden; makalelerin tam metni okunamadı), NHS Neck pain (27 Nisan 2023).
 - Kaynaksız / genel bilgi: ekranı göz hizasına yaklaştırma önerisi, baş dönmesi SSS'sindeki ifade, kırmızı bayraklardaki ateş/kilo kaybı/kaza maddesi.
 - Kartlarda yeni metin: fb457. Sıradaki: kalça sıkışması (FAI), atlet dizi, omuz çıkığı, piriformis.
+
+## Kalça sıkışması (FAI) rehberi (11 Ekim 2026, 5'in 2.si)
+- kalca-sikismasi.html → en/hip-impingement.html (cond24_part.py). Egzersizler: ptilt, fai_hslide (yeni metin, hslide çizimi), bridge, abd, sideplank, sls.
+- Okunan kaynaklar: Warwick Agreement 2016 (BJSM tam metin), NIHR Evidence UK FASHIoN özeti (2 Ekim 2018; Lancet makalesi okunmadı), MPFT NHS kalça sıkışması sayfası (tarihsiz), George Eliot NHS broşürü (20 Ağustos 2025).
+- Kaynaksız / genel bilgi: köprü, yan köprü, yan yatarak bacak kaldırma, tek ayak denge seçimi (genel kalça güçlendirme; NHS sayfası pelvik eğme ve topuk kaydırmayı veriyor), "kasıkta sıkışma hissetmeden önce durun", çorap/araba önerisi.
+- Kayıt artık scratchpad/reg_cond.py + cNN.py ile yapılıyor. Kartlarda: fb458, fb459.

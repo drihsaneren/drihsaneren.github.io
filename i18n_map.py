@@ -48,6 +48,7 @@ EN = {
     "bel-kaymasi.html": "spondylolisthesis.html",
     "huzursuz-bacak.html": "restless-legs-syndrome.html",
     "kuyruk-sokumu-agrisi.html": "tailbone-pain.html",
+    "kalca-sikismasi.html": "hip-impingement.html",
     "boyun-duzlesmesi.html": "straight-neck.html",
     "on-capraz-bag.html": "acl-injury.html",
     "romatoid-artrit.html": "rheumatoid-arthritis.html",
