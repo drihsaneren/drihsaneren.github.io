@@ -536,7 +536,7 @@ NEED_BTNS = "".join(f'<button type="button" data-v="{v}" aria-pressed="{"true" i
 SLEEP_FAQ = [
  ("Yetişkinler kaç saat uyumalı?", "Amerikan Uyku Tıbbı Akademisi ile Uyku Araştırmaları Derneği'nin ortak önerisine göre 18–60 yaş arasındaki yetişkinler düzenli olarak gecede 7 saat ya da daha fazla uyumalı. Gecede 9 saatten uzun uykunun sağlık riskiyle ilişkili olup olmadığı ise belirsiz."),
  ("Öğleden sonra içtiğim kahve uykumu etkiler mi?", "Etkileyebilir. Bir çalışmada yatmadan 6 saat önce alınan 400 mg kafein (yaklaşık 2–3 fincan kahve), ölçülen uyku süresini bir saatten fazla kısalttı. Uyku sorununuz varsa kahve ve çayı öğleden sonranın erken saatlerinde bırakmayı deneyin."),
- ("Kronik uykusuzlukta ilk tercih tedavi nedir?", "Amerikan Hekimler Koleji (ACP), kronik uykusuzlukta ilk tedavi olarak uykusuzluğa yönelik bilişsel davranışçı terapiyi öneriyor. Bu tedavi uyku düzenini, yatakla uyku arasındaki bağı ve uykuyla ilgili kaygıları ele alır. Uyku ilacı kullanıp kullanmamaya hekiminizle birlikte karar verin."),
+ ("Kronik uykusuzlukta ilk tercih tedavi nedir?", "Amerikan Hekimler Koleji (ACP), kronik uykusuzlukta ilk tedavi olarak uykusuzluğa yönelik bilişsel davranışçı terapiyi öneriyor. Bu tedavi uyku düzenini, yatakla uyku arasındaki bağı ve uykuyla ilgili kaygıları ele alır. Uyku ilacı kullanıp kullanmamaya hekiminizle birlikte karar verebilirsiniz."),
  ("Horlamak önemli mi?", "Tek başına horlama her zaman bir hastalık işareti değildir. Yüksek sesli horlamaya uykuda nefes durmaları, boğulur gibi uyanma ya da gündüz aşırı uyku hali eşlik ediyorsa uyku apnesi açısından bir hekime başvurun."),
 ]
 

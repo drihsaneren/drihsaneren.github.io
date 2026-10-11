@@ -163,7 +163,7 @@ T = {
 "ind159": "Information and contact",
 "ind160": "Call or message me on WhatsApp. Home physiotherapy service across Istanbul.",
 "ind161": "WhatsApp",
-"ind162": "ihsneren@gmail.com",
+"ind162": "ihsan@drihsaneren.com",
 "ind163": "Digital business card",
 "ind164": "WhatsApp QR code",
 "ind165": "Scan with your phone camera to message me on WhatsApp",

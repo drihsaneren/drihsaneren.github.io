@@ -50,7 +50,7 @@ SEC = f'''  <section id="tanisma" class="book-sec">
             <p class="book-add" id="book-add" hidden>Günlük Hareket Skalası sonucunuz da mesaja eklenecek.</p>
             <div class="book-acts">
               <a class="cta" id="book-wa" href="https://wa.me/905538815568" target="_blank" rel="noopener" aria-disabled="true">WhatsApp’tan gönder {ARR}</a>
-              <a class="cta ghost" id="book-mail" href="mailto:ihsneren@gmail.com" aria-disabled="true">E-postayla gönder</a>
+              <a class="cta ghost" id="book-mail" href="mailto:ihsan@drihsaneren.com" aria-disabled="true">E-postayla gönder</a>
             </div>
             <p class="book-tpl" hidden>Merhaba, ücretsiz ön görüşme için {{day}}, {{time}} arası bana uygun. Görüşme şekli: {{mode}}.</p>
             <p class="book-subj" hidden>Ücretsiz ön görüşme</p>
@@ -172,7 +172,7 @@ JS = r'''<script>
     if (sk) { msg += ' ' + tpl2.replace('{band}', sk.band).replace('{score}', sk.score).replace('{max}', sk.max);
       if (sk.top.length) msg += ' ' + tpl3.replace('{list}', sk.top.join(', ')); }
     wa.href = 'https://wa.me/905538815568?text=' + encodeURIComponent(msg);
-    ml.href = 'mailto:ihsneren@gmail.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(msg);
+    ml.href = 'mailto:ihsan@drihsaneren.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(msg);
   }
   // 30 dakikalık saatler: seçilen gün bölümüne göre
   var slots = document.getElementById('book-slots'), selT = null;

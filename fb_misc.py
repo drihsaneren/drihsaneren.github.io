@@ -30,8 +30,8 @@ rep('''          <p class="eyebrow">Bilgi ve iletişim</p>
           <p class="sub">Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; size en kısa sürede dönüş yapayım. İstanbul içinde evde fizyoterapi hizmeti.</p>''')
 rep(".phone{font-family:var(--display);font-size:clamp(34px,8vw,52px);line-height:1.05;color:var(--foil);text-decoration:none;display:inline-block;margin:6px 0 8px;font-variant-numeric:tabular-nums}",
     ".hello{font-size:clamp(30px,6vw,46px);line-height:1.12;color:var(--foil);margin:8px 0 12px;max-width:18ch}")
-rep('<a class="cta ghost" href="mailto:ihsneren@gmail.com">ihsneren@gmail.com</a>',
-    '<a class="cta ghost" href="mailto:ihsneren@gmail.com">E-posta gönderin</a>')
+rep('<a class="cta ghost" href="mailto:ihsan@drihsaneren.com">ihsan@drihsaneren.com</a>',
+    '<a class="cta ghost" href="mailto:ihsan@drihsaneren.com">E-posta gönderin</a>')
 # FAB: arama düğmesi yok
 i=s.index('  <a class="call" href="tel:+905538815568"'); j=s.index('</a>\n',i)+5; s=s[:i]+s[j:]
 for l in ['  .fab .call{width:44px;background:var(--foil);color:var(--ground)}\n','  .fab .call:active{background:var(--gold)}\n','  .fab .call svg{width:20px;height:20px}\n']:

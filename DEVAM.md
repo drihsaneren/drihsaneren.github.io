@@ -344,3 +344,9 @@ The Bottom Line özeti (Försth 2016 NEJM: 247 hasta, füzyon eklemek 2 yılda f
 AASM özet sayfası (13 Kasım 2024: demir değerlendirmesi herkese; IV ferrik karboksimaltoz güçlü, oral demir koşullu; gabapentinoidler güçlü; dopamin agonistleri çoğu kişide koşullu karşı, kabergolin güçlü karşı; opioid ve iki taraflı yüksek frekanslı peroneal uyarım koşullu),
 HCPLive (Winkelman yazar listesi, augmentasyon yılda %7–10, 5 yılda %35–50; ferritin >100 ve TSAT >20 hedefi — sayfada kullanılmadı), Aukerman 2006 özeti (41 randomize, 23 tamamlayan; 12 hafta, haftada 3 gün aerobik + alt ekstremite direnç; anlamlı düzelme).
 Kaynaksız/genel: egzersiz dozları, kramp tarifi, "tek taraflı şişlik ve ağrı" uyarısı (DVT), "ileri böbrek yetmezliği" vurgusu (AASM'de ESRD özel grubu). Çeviri: huzursuz-bacak (83) + fb440–fb441.
+
+## 11 Ekim 2026 akşam: e-posta, yumuşak dil, karekod
+- Sitedeki e-posta `ihsan@drihsaneren.com` oldu (ImprovMX ile ihsneren@gmail.com'a yönleniyor): fb_misc.py, fb_book.py, schema_home.json, site/index.bak_fb.html, i18n index + manual_index. Sitede Gmail adresi kalmadı.
+- Kullanıcı isteği: "Kararı hekiminizle birlikte verin" gibi keskin emir cümleleri yerine "-ebilirsiniz". Dört yerde değişti (omuz sıkışması, ön çapraz bağ, halluks valgus, uyku); EN karşılıkları "You can …" yapıldı. Yeni yazılarda karar/tercih cümlelerinde bu üslup kullanılmalı (egzersiz tarifleri emir kipinde kalabilir).
+- Karekod (fb_qr.py, iletişim bölümü, bilgisayarda sağ altta): dönen altın kenar parıltısı, çapraz cam parıltısı (nq-shine), yıldız kıvılcımları (nq-sp), ışık patlaması (nq-lt) ve imleci izleyen parlama (nq-gl) kaldırıldı; kenar sabit ince altın çizgi.
+  Kalan: açılışta iris gibi toplanma + köşe gözleri, ardından 7 sn'de bir beyin hafifçe atar ve sakin bir sinyal dalgası halkalardan dışa akar (renk farkı azaltıldı); eğilme 14°→8°. t_nq3: 43/44 karede okundu (0. kare açılış animasyonu).
