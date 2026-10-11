@@ -818,7 +818,9 @@
     transform:rotateX(var(--tx,0deg)) rotateY(var(--ty,0deg)) translateY(var(--up,0px)) scale(var(--sc,1));
     box-shadow:0 0 0 1px rgba(216,178,94,.42),0 14px 40px rgba(0,0,0,.45),0 0 44px rgba(226,171,71,.14);transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
   .qr .code:hover{--up:-4px;--sc:1.025;transition:transform .12s linear,box-shadow .35s;box-shadow:0 0 0 1px rgba(216,178,94,.75),0 22px 50px rgba(0,0,0,.5),0 0 64px rgba(226,171,71,.3)}
-  .qr .code::before{content:"";position:absolute;inset:-7px;z-index:-1;border-radius:24px;border:1px solid rgba(216,178,94,.22)}
+  .qr .code::before{content:"";position:absolute;inset:-7px;z-index:-1;border-radius:24px;padding:2px;
+    background:conic-gradient(from var(--nqa,0deg),transparent 0 12%,rgba(255,215,130,.9) 20%,transparent 30% 55%,rgba(201,201,144,.75) 65%,transparent 75%);
+    -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;filter:blur(1.5px);animation:nq-spin 9s linear infinite}
   .qr .code::after{content:"";position:absolute;inset:-26px;z-index:-2;border-radius:50%;background:radial-gradient(closest-side,rgba(201,201,144,.13),transparent);animation:aura 6s ease-in-out infinite}
   @property --nqa{syntax:"<angle>";inherits:false;initial-value:0deg}
   @keyframes nq-spin{to{--nqa:360deg}}
@@ -829,7 +831,8 @@
   .nq .nq-sp{fill:#fff6d6;stroke:#e9b54f;stroke-width:.09;opacity:0;transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 0 2px rgba(240,184,69,.95))}
   .nq .nq-lt{opacity:0;transform-box:fill-box;transform-origin:center}
   .nq .nq-gl{opacity:0;transition:opacity .4s}
-  .nq .nq-shine,.nq .nq-gl,.nq .nq-sp,.nq .nq-lt{display:none}   /* parıltı, yıldız ve ışık patlaması kaldırıldı (11 Ekim 2026) */
+  .qr .code:hover .nq-gl{opacity:1}
+  .nq .nq-sp,.nq .nq-shine{display:none}   /* minik yıldız parıltıları ve çapraz cam parıltısı kaldırıldı; gerisi eski tasarım (11 Ekim 2026) */
   .nq .nq-logo{transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 .5px .6px rgba(0,0,0,.55))}
   /* 1) görününce: halkalar bir iris gibi dönerek yerine oturur, köşe gözleri sırayla düşer */
   #nq.js:not(.go) .nq-r,#nq.js:not(.go) .nq-e,#nq.js:not(.go) .nq-logo{opacity:0}
@@ -841,12 +844,13 @@
   #nq.lp .nq-r{animation:nq-wave 7s ease-in-out infinite;animation-delay:calc(var(--lb,3.2s) + var(--r)*120ms)}
   #nq.lp .nq-e{animation:none}
   #nq.lp .nq-e>*{animation:nq-wink 7s ease-in-out infinite;animation-delay:calc(var(--lb,3.2s) + 1.25s + var(--e)*.12s)}
+  #nq.lp .nq-lt{animation:nq-lt 7s cubic-bezier(.25,.6,.35,1) var(--lb,3.2s) infinite}
   @keyframes nq-beat{0%{opacity:0;transform:scale(.5) rotate(-12deg)}60%{opacity:1;transform:scale(1.12)}100%{opacity:1;transform:none}}
   @keyframes nq-iris{0%{opacity:0;transform:rotate(var(--a)) scale(.45);fill:#fff0c2}45%{opacity:1;fill:#e9b54f}100%{opacity:1;transform:none;fill:#c9c990}}
   @keyframes nq-drop{0%{opacity:0;transform:scale(1.7) rotate(18deg)}100%{opacity:1;transform:none}}
-  @keyframes nq-wave{0%,26%,100%{fill:#c9c990}9%{fill:#e2d39a}}
-  @keyframes nq-wink{0%,26%,100%{fill:#c9c990}10%{fill:#dccb8f}}
-  @keyframes nq-pulse{0%,16%,100%{transform:none}6%{transform:scale(1.06)}}
+  @keyframes nq-wave{0%,22%,100%{fill:#c9c990}7%{fill:#f6d98f}}
+  @keyframes nq-wink{0%,22%,100%{fill:#c9c990}8%{fill:#f3cf7a}}
+  @keyframes nq-pulse{0%,14%,100%{transform:none}5%{transform:scale(1.1)}}
   @keyframes nq-lt{0%{opacity:0;transform:scale(.12)}4%{opacity:1}30%{opacity:.9}40%{opacity:0;transform:scale(1.15)}100%{opacity:0;transform:scale(1.15)}}
   @keyframes nq-spark{0%{opacity:0;transform:scale(.2) rotate(0)}5%{opacity:1;transform:scale(1.2) rotate(45deg)}15%,100%{opacity:0;transform:scale(.3) rotate(90deg)}}
   @keyframes nq-shine{0%,48%{transform:skewX(-18deg) translateX(0)}70%,100%{transform:skewX(-18deg) translateX(56px)}}
@@ -2355,8 +2359,8 @@
     code.addEventListener('pointermove', function(e){
       if (e.pointerType && e.pointerType !== 'mouse') return;
       var r = code.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
-      code.style.setProperty('--ty', ((x - .5) * 8).toFixed(2) + 'deg');
-      code.style.setProperty('--tx', ((.5 - y) * 8).toFixed(2) + 'deg');
+      code.style.setProperty('--ty', ((x - .5) * 14).toFixed(2) + 'deg');
+      code.style.setProperty('--tx', ((.5 - y) * 14).toFixed(2) + 'deg');
       if (gl) { gl.setAttribute('cx', (x * vb.width).toFixed(2)); gl.setAttribute('cy', (y * vb.height).toFixed(2)); }
     });
     code.addEventListener('pointerleave', function(){ code.style.removeProperty('--tx'); code.style.removeProperty('--ty'); });
