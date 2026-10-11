@@ -561,6 +561,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omuz-cikigi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/piriformis-sendromu.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/piriformis-sendromu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/piriformis-syndrome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/piriformis-sendromu.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1119,5 +1126,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/omuz-cikigi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/shoulder-dislocation.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omuz-cikigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/piriformis-syndrome.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/piriformis-sendromu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/piriformis-syndrome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/piriformis-sendromu.html"/>
   </url>
 </urlset>
