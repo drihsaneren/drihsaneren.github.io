@@ -348,8 +348,8 @@ Kaynaksız/genel: egzersiz dozları, kramp tarifi, "tek taraflı şişlik ve ağ
 ## 11 Ekim 2026 akşam: e-posta, yumuşak dil, karekod
 - Sitedeki e-posta `ihsan@drihsaneren.com` oldu (ImprovMX ile ihsneren@gmail.com'a yönleniyor): fb_misc.py, fb_book.py, schema_home.json, site/index.bak_fb.html, i18n index + manual_index. Sitede Gmail adresi kalmadı.
 - Kullanıcı isteği: "Kararı hekiminizle birlikte verin" gibi keskin emir cümleleri yerine "-ebilirsiniz". Dört yerde değişti (omuz sıkışması, ön çapraz bağ, halluks valgus, uyku); EN karşılıkları "You can …" yapıldı. Yeni yazılarda karar/tercih cümlelerinde bu üslup kullanılmalı (egzersiz tarifleri emir kipinde kalabilir).
-- Karekod (fb_qr.py, iletişim bölümü, bilgisayarda sağ altta): dönen altın kenar parıltısı, çapraz cam parıltısı (nq-shine), yıldız kıvılcımları (nq-sp), ışık patlaması (nq-lt) ve imleci izleyen parlama (nq-gl) kaldırıldı; kenar sabit ince altın çizgi.
-  Kalan: açılışta iris gibi toplanma + köşe gözleri, ardından 7 sn'de bir beyin hafifçe atar ve sakin bir sinyal dalgası halkalardan dışa akar (renk farkı azaltıldı); eğilme 14°→8°. t_nq3: 43/44 karede okundu (0. kare açılış animasyonu).
+- Karekod (fb_qr.py, iletişim bölümü, bilgisayarda sağ altta): ilk denemede çok şey kaldırıldı, kullanıcı beğenmedi ("eskisi çok iyiydi"). SON HÂL: eski tasarım aynen geri alındı; yalnızca minik yıldız parıltıları (nq-sp) ve çapraz cam parıltısı (nq-shine) kaldırıldı. Dönen kenar ışığı, ışık dalgası (nq-lt), imleç parlaması ve 14° eğilme duruyor.
+  t_nq3: 43/44 karede okundu (0. kare açılış animasyonu).
 - LinkedIn (11 Ekim 2026): kullanıcı sitede LinkedIn bağlantısı İSTEMİYOR (eklenip aynı gün geri alındı). Profil: https://www.linkedin.com/in/ihsaneren/ (yalnızca bilgi).
 
 ## Kuyruk sokumu ağrısı (cond22_part.py) — 11 Ekim 2026
