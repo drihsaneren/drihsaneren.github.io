@@ -5,6 +5,7 @@ OLD="$(cd "$(dirname "$0")" && pwd)"; R="${REPO:-/home/claude/drihsaneren.github
 cd $OLD
 cp $1/_home_section.txt $1/_home_css.txt $1/_home_trio.txt site/
 python3 splice_home.py
+python3 fb_tabs.py   # ana sayfa sekmeleri ve katlanan konu listesi
 rm -f site/_home_*.txt $1/_home_*.txt
 python3 to_github.py $R/index.html && cp $1/*.html $R/
 python3 - "$2" <<'PY'

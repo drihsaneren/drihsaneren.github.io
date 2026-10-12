@@ -404,3 +404,10 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Kas gevşetme sayfasındaki "1930'larda" → "1920'lerde" düzeltildi (Jacobson'ın kitabı 1929).
 - Ana sayfa galerisinden omurga maketli kare (p07) kaldırıldı (İhsan istedi); lastik bant karesi (p21) iki sütun kaplıyor, boşluk yok. i18n/js.json'dan ilgili altyazı silindi.
 - Sırada: İhsan'ın kendi klinik gözlemleri için "Klinikten notlar" kutusu (o yazarsa); Üç Kapı için kısa tanıtım videosu.
+
+## Ana sayfa sekmeleri (12 Ekim 2026)
+- Bir arkadaşın yorumu: "sekmeler olsun, çok aşağı iniyoruz, o düğmeler dikkat çekmiyor, bir test daha üstte olsun".
+- fb_tabs.py (publish.sh'te splice_home.py'den sonra çalışır): hero'daki 5 küçük düğme kalktı; hero'nun hemen altında "Keşfedin · Neyi merak ediyorsunuz?" başlıklı 6 büyük sekme var: Hizmetler · Hızlı test (2 dk rozeti) · Longevity analizi · Kişiye özel egzersiz · Uygulama kareleri · Logonun anlamı. Yalnızca seçili bölüm görünür; hızlı test kendi bölümüne (#test) taşındı.
+- Aşağı inince başlığın altına ince bir sekme çubuğu yapışır. Üst menü bağlantıları ve #analiz gibi adresler ilgili sekmeyi açar. JavaScript yoksa bütün bölümler alt alta görünür.
+- Bilgi köşesindeki konu listeleri mobilde "Tüm konuları göster (109 başlık)" ile katlanır; masaüstünde açık.
+- Mobil sayfa boyu 15.377 px → 7.079 px; masaüstü 10.105 → 6.073. Yeni çeviriler fb469–fb474.
