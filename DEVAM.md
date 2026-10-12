@@ -387,3 +387,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Hopayian 2010 (UEA deposu + tam rapor PDF: 55 çalışma, ≤%1 tahmini), Hopayian & Danielyan 2018 özeti, NHS Lothian broşürü (Ocak 2025; egzersizler görselde olduğu için okunamadı, yalnızca "30 saniye tut" ve tenis topu masajı), NHS Sciatica (3 Aralık 2024).
 - Kaynaksız / genel bilgi: egzersiz seçimi (piriformis germe, köprü, yan köprü vb.), "sık kalkıp hareket etme" ve "daha yumuşak yüzeyde oturma" önerisi.
 - Kartlarda: fb464.
+
+## Kambur duruş (kifoz) rehberi (12 Ekim 2026)
+- kambur-durus.html → en/kyphosis.html (cond28_part.py). Egzersizler: pchest, thor, wallpost, row, scap, cat (hepsi mevcut).
+- Okunan kaynaklar: NHS Kyphosis (30 Aralık 2025), SHEAF (Katzman 2017; escholarship özeti), Oliveira-Costa 2025 gençlerde egzersiz derlemesi (SciELO tam metin), Christensen & Hartvigsen 2008 (PainScience özeti).
+- Kaynaksız / genel bilgi: "duruşa bağlı kamburluk esnektir, dikleşince düzelir", "kemik erimesi olan birinde ani sırt ağrısı" uyarısı, pozisyon değiştirme önerisi.
+- reg_cond.py AGR eşleşmesi satır sonu virgülüne göre düzeltildi. Kartlarda: fb465, fb466. masa-basi ilgili listesine de eklendi.
