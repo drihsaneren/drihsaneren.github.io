@@ -2,7 +2,7 @@
 # Ana sayfa: hero altındaki 5 düğmeyi belirgin sekmelere çevirir (12 Ekim 2026).
 # Hizmetler · Hızlı test · Longevity analizi · Kişiye özel egzersiz · Uygulama kareleri · Logonun anlamı
 # Yalnızca seçili bölüm görünür; aşağı inince ince bir sekme çubuğu başlığın altına yapışır.
-# Bilgi köşesindeki uzun konu listeleri mobilde "Tüm konuları göster" ile katlanır.
+# Bilgi köşesindeki uzun konu listeleri her ekranda "Tüm konuları göster" ile katlanır.
 # publish.sh içinde splice_home.py'den sonra çalışır (bilgi bölümü o adımda eklenir).
 import re
 p = "site/index.html"
@@ -55,13 +55,13 @@ TEST = ('  <section id="test" class="kt-p" role="tabpanel" aria-labelledby="kt-t
 rep('<main>\n  <section id="hizmetler"', '<main>\n' + KESFET + '  <section id="hizmetler"')
 rep('  <section id="analiz" class="kt-p"', TEST + '  <section id="analiz" class="kt-p"')
 
-# 4) bilgi köşesi: uzun konu listeleri katlanır (masaüstünde açık başlar)
+# 4) bilgi köşesi: uzun konu listeleri her ekranda katlı başlar
 a = s.index('      <div class="kose-idx">')
 endm = '<a class="all" href="bilgi.html">Tüm konular →</a>\n      </div>'
 b = s.index(endm, a) + len(endm)
 idx = s[a:b]
 total = sum(int(x) for x in re.findall(r'<small>(\d+)</small>', idx))
-s = (s[:a] + f'      <details class="kt-idx" id="kt-idx" open><summary><span>Tüm konuları göster</span><small data-n="{total}"><span>başlık</span></small></summary>\n'
+s = (s[:a] + f'      <details class="kt-idx" id="kt-idx"><summary><span>Tüm konuları göster</span><small data-n="{total}"><span>başlık</span></small></summary>\n'
      + idx + '\n      </details>' + s[b:])
 
 CSS = """
@@ -105,7 +105,6 @@ CSS = """
   .kt-idx[open] > summary small::after{transform:rotate(-135deg) translateY(-3px)}
   .kt-idx[open] > summary{border-color:var(--line)}
   .kt-idx > summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-  @media (min-width:900px){.kt-idx > summary{display:none}}
   @media (prefers-reduced-motion:reduce){.kt-mini,.kt-tabs button,.kt-idx > summary small::after{transition:none}.kt-on section.kt-p.kt-in{animation:none}}
 """
 rep("  section + section{border-top:1px solid var(--line)}", "  section + section{border-top:1px solid var(--line)}" + CSS)
@@ -172,8 +171,6 @@ JS = r"""<script>
   window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } }, {passive: true});
   window.addEventListener('resize', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } });
   if (!go(location.hash, false)) pick(0, true);
-  var d = document.getElementById('kt-idx');
-  if (d && window.matchMedia && !matchMedia('(min-width: 900px)').matches) d.open = false;
 })();
 </script>
 """

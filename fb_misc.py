@@ -17,7 +17,7 @@ for a,b in [("'Temsili görsel: “İntörn Doktor · Fizyoterapist” isimlikli
             ("'Temsili görsel: dizde manuel terapi'","'Dizde manuel terapi'"),
             ("'Temsili görsel: bacağa elektroterapi'","'Bacağa elektroterapi'"),
             ("    [7, 'Temsili görsel: omurga maketiyle anlatım'],\n", ""),  # omurga maketli kare kaldırıldı (12 Ekim 2026)
-            ("'Temsili görsel: lastik bantla egzersiz'","'Lastik bantla egzersiz'"),
+            ("    [21, 'Temsili görsel: lastik bantla egzersiz'],\n", ""),  # yarım görünen geniş kare kaldırıldı (12 Ekim 2026)
             ("'Temsili görsel: kavrama gücü ölçümü'","'Kavrama gücü ölçümü'")]:
     rep(a,b)
 rep('<p>Logo tescillidir. Galerideki görseller temsilidir.</p>','<p>Logo tescillidir.</p>')
@@ -42,10 +42,9 @@ i=s.index("  .methods{margin-top:40px}"); j=s.index("  .m .tag:hover{text-decora
 s=s[:i]+s[j:]
 # galeri: dikey kare (kavrama gücü ölçümü) yatay kutuda kırpılırken yüz görünsün
 rep("  .tile.big{grid-row:span 2;grid-column:span 2}",
-    "  .tile.big{grid-row:span 2;grid-column:span 2}\n  .tile img[src*=\"p03\"]{object-position:50% 18%}\n  .tile.wide{grid-column:span 2}\n  .tile.wide img{object-position:50% 0%}")
-# galeri: 6 kare; lastik bant karesi iki sütun kaplar, ızgarada boşluk kalmaz
-rep("    b.className = 'tile' + (i === 0 ? ' big' : '');", "    var wide = p[0] === 21;\n    b.className = 'tile' + (i === 0 ? ' big' : '') + (wide ? ' wide' : '');")
-rep("    im.src = 'img/p' + pad(p[0]) + (i === 0 ? '.jpg' : '_t.jpg');", "    im.src = 'img/p' + pad(p[0]) + (i === 0 || wide ? '.jpg' : '_t.jpg');")
+    "  .tile.big{grid-row:span 2;grid-column:span 2}\n  .tile img[src*=\"p03\"]{object-position:50% 18%}\n")
+# galeri: 5 kare (1 büyük + 4); masaüstünde 4 sütun, ızgara tam dolar
+rep("    --cols:5;--g:5px;", "    --cols:4;--g:5px;")
 open(p,"w",encoding="utf-8").write(s)
 print("ok")
 

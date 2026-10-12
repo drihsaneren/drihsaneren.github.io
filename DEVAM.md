@@ -411,3 +411,5 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Aşağı inince başlığın altına ince bir sekme çubuğu yapışır. Üst menü bağlantıları ve #analiz gibi adresler ilgili sekmeyi açar. JavaScript yoksa bütün bölümler alt alta görünür.
 - Bilgi köşesindeki konu listeleri mobilde "Tüm konuları göster (109 başlık)" ile katlanır; masaüstünde açık.
 - Mobil sayfa boyu 15.377 px → 7.079 px; masaüstü 10.105 → 6.073. Yeni çeviriler fb469–fb474.
+- (12 Ekim, devam) İhsan: geniş kare (p21, lastik bant) yarım görünüyordu → galeriden kaldırıldı; galeri 1 büyük + 4 kare, masaüstünde 4 sütun (mobil 2), ızgara tam dolu. Konu listesi artık masaüstünde de katlı başlıyor ("Tüm konuları göster").
+- Üç Kapı tanıtım videosu: scratchpad/vid4 (film.py sahneler, music.py özgün müzik, 54 sn, 1080x1920). Tek video yeterli dedi; 4:5 sürüm yapılmadı.
