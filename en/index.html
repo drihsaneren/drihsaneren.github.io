@@ -165,6 +165,49 @@
 
   section{padding-block:clamp(44px,9vw,76px);scroll-margin-top:56px}
   section + section{border-top:1px solid var(--line)}
+  /* keşfet sekmeleri */
+  .kt{padding-block:clamp(30px,6vw,52px) clamp(8px,2vw,16px)}
+  .kt .sec-head{margin-bottom:16px}
+  .kt-tabs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+  @media (max-width:860px){.kt-tabs{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}}
+  .kt-tabs button{all:unset;box-sizing:border-box;cursor:pointer;position:relative;display:grid;justify-items:center;align-content:center;gap:8px;min-height:98px;padding:14px 8px 12px;
+    border:1px solid var(--line);border-radius:16px;text-align:center;color:var(--ink-soft);font-size:14.5px;font-weight:600;line-height:1.25;
+    background:radial-gradient(120% 100% at 50% 0%,rgba(226,171,71,.07),transparent 65%),var(--ground-2);transition:border-color .2s ease,color .2s ease,transform .2s ease,box-shadow .2s ease}
+  .kt-tabs button svg{width:30px;height:30px;fill:none;stroke:var(--sage);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;transition:stroke .2s ease}
+  .kt-tabs button:hover{border-color:var(--line-strong);color:var(--ink);transform:translateY(-2px)}
+  .kt-tabs button[aria-selected="true"]{border-color:var(--foil);color:var(--ink);box-shadow:0 12px 30px rgba(0,0,0,.28),inset 0 0 0 1px rgba(216,178,94,.35);
+    background:radial-gradient(120% 100% at 50% 0%,rgba(226,171,71,.26),rgba(226,171,71,.05) 70%),var(--ground-2)}
+  .kt-tabs button[aria-selected="true"] svg{stroke:var(--gold)}
+  .kt-tabs button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .kt-tabs .new{position:absolute;top:8px;right:8px;font-style:normal;font-size:10.5px;letter-spacing:.04em;font-weight:700;color:var(--ground);background:var(--gold);border-radius:999px;padding:2px 7px;line-height:1.4}
+  @media (max-width:420px){.kt-tabs button{min-height:88px;font-size:13px;padding:12px 6px 10px;gap:6px}.kt-tabs button svg{width:26px;height:26px}.kt-tabs .new{top:6px;right:6px}}
+  .kt-on section.kt-p{border-top:0;padding-top:clamp(22px,4vw,40px)}
+  .kt-on section.kt-p[hidden]{display:none}
+  .kt-on #test{padding-bottom:clamp(30px,6vw,56px)}
+  #test .qt{margin-top:0}
+  .kt-on section.kt-p.kt-in{animation:kt-in .35s ease both}
+  @keyframes kt-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .kt-mini{position:fixed;left:0;right:0;top:var(--kt-top,57px);z-index:39;background:rgba(28,40,25,.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);transform:translateY(-120%);opacity:0;visibility:hidden;transition:transform .25s ease,opacity .25s ease,visibility 0s linear .25s}
+  .kt-mini.show{transform:none;opacity:1;visibility:visible;transition:transform .25s ease,opacity .25s ease}
+  .kt-mini .wrap{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-block:8px}
+  .kt-mini .wrap::-webkit-scrollbar{display:none}
+  .kt-mini button{all:unset;box-sizing:border-box;cursor:pointer;flex:none;padding:7px 14px;border-radius:999px;border:1px solid var(--line);font-size:13.5px;color:var(--ink-soft);white-space:nowrap}
+  .kt-mini button[aria-pressed="true"]{background:var(--foil);border-color:var(--foil);color:var(--ground);font-weight:600}
+  .kt-mini button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .kt-idx{margin-top:20px}
+  .kt-idx > summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border:1px solid var(--line-strong);border-radius:14px;
+    background:var(--ground-2);color:var(--ink);font-weight:600}
+  .kt-idx > summary::-webkit-details-marker{display:none}
+  .kt-idx > summary small{color:var(--muted);font-weight:400;font-size:14px;display:flex;align-items:center;gap:10px}
+  .kt-idx > summary small::before{content:attr(data-n);color:var(--foil);font-weight:600;margin-right:-5px}
+  .kt-idx > summary small::after{content:"";width:9px;height:9px;border-right:2px solid var(--foil);border-bottom:2px solid var(--foil);transform:rotate(45deg) translateY(-3px);transition:transform .2s ease}
+  .kt-idx[open] > summary small::after{transform:rotate(-135deg) translateY(-3px)}
+  .kt-idx[open] > summary{border-color:var(--line)}
+  .kt-idx > summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  @media (min-width:900px){.kt-idx > summary{display:none}}
+  @media (prefers-reduced-motion:reduce){.kt-mini,.kt-tabs button,.kt-idx > summary small::after{transition:none}.kt-on section.kt-p.kt-in{animation:none}}
+
   .sec-head{display:grid;gap:8px;margin-bottom:24px}
   .sec-head h2{font-size:clamp(28px,6.4vw,38px);line-height:1.15}
   .sec-head p.intro{margin:0;color:var(--ink-soft);max-width:60ch}
@@ -1351,18 +1394,25 @@
         <a class="hx-all" href="health-library.html#kendine-iyi-bak">All guides →</a>
       </div>
     </details>
-    <ul class="nav">
-      <li><a href="#hizmetler">Services</a></li>
-      <li><a href="#analiz">Longevity analysis</a></li>
-      <li><a href="#ornek-plan">Personalised exercise</a></li>
-      <li><a href="#kareler">Treatment gallery</a></li>
-      <li><a href="#logo">The meaning of the logo</a></li>
-    </ul>
   </div>
 </div>
 
 <main>
-  <section id="hizmetler">
+  <section id="kesfet" class="kt">
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">Explore</p><h2>What would you like to know?</h2></div>
+      <div class="kt-tabs" role="tablist" aria-label="Sections">
+        <button type="button" role="tab" id="kt-hizmetler" aria-controls="hizmetler" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M12 17.2s-3-1.9-3-4a1.6 1.6 0 0 1 3-.8 1.6 1.6 0 0 1 3 .8c0 2.1-3 4-3 4z"/></svg><span>Services</span></button>
+        <button type="button" role="tab" id="kt-test" aria-controls="test" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 9.5v4l2.6 2.4M10 2.5h4M12 2.5V6M18.5 6.5l1.6-1.6"/></svg><span>Quick test</span><em class="new">2 min</em></button>
+        <button type="button" role="tab" id="kt-analiz" aria-controls="analiz" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17.5a8 8 0 1 1 16 0"/><path d="M12 17.5l4.2-5.2"/><circle cx="12" cy="17.5" r="1.4"/><path d="M6.6 12.2l1.2.8M12 9.4v1.4M17.4 12.2l-1.2.8"/></svg><span>Longevity analysis</span></button>
+        <button type="button" role="tab" id="kt-ornek-plan" aria-controls="ornek-plan" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9.5v5M20.5 9.5v5M6.5 12h11"/></svg><span>Personalised exercise</span></button>
+        <button type="button" role="tab" id="kt-kareler" aria-controls="kareler" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="M21 16l-5-5-8 8"/></svg><span>Treatment gallery</span></button>
+        <button type="button" role="tab" id="kt-logo" aria-controls="logo" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5"/><path d="M12 20V12M12 12L7 6.5M12 12l5-5.5"/></svg><span>The meaning of the logo</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="hizmetler" class="kt-p" role="tabpanel" aria-labelledby="kt-hizmetler">
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Home physiotherapy service</p>
@@ -1380,7 +1430,100 @@
     </div>
   </section>
 
-  <section id="analiz">
+  <section id="test" class="kt-p" role="tabpanel" aria-labelledby="kt-test">
+    <div class="wrap">
+      <div class="qt" id="hizli-test">
+        <p class="eyebrow">Quick test</p>
+        <h3>What’s your real age?</h3>
+        <p class="qt-lede">Four simple tests you can do at home in 2–3 minutes: muscle strength, balance, daily activity and fitness.</p>
+        <div class="qt-bar" aria-hidden="true"><span id="qt-bar"></span></div>
+        <form id="qt-form" novalidate autocomplete="off">
+          <fieldset class="qt-step on" data-s="0">
+            <legend><span class="k">Getting started</span>Your age</legend>
+            <div class="qt-val"><span id="qt-age-v">18</span><small>years</small></div>
+            <input type="range" id="qt-age" min="18" max="90" step="1" value="18" aria-label="Your age">
+            <div class="qt-scale"><span>18</span><span>90</span></div>
+            <ul class="qt-safe">
+              <li>Do the tests next to a sturdy chair and a wall or table you can hold on to.</li>
+              <li>Stop straight away if you feel dizzy, have chest pain or become short of breath.</li>
+              <li>If you have heart disease, skip the stair test.</li>
+            </ul>
+            <div class="qt-nav"><button type="button" class="cta" data-next>Start the test</button></div>
+          </fieldset>
+
+          <fieldset class="qt-step" data-s="1">
+            <legend><span class="k">1 / 4 · Muscle strength</span>Stand up from a chair 5 times</legend>
+            <p class="qt-how">Sit on a sturdy chair with its back against a wall, arms crossed over your chest. Without using your arms, stand up fully and sit back down 5 times, as fast as you can. You can use the stopwatch below.</p>
+            <div class="qt-val"><span id="qt-sts-v">10.0</span><small>seconds</small></div>
+            <input type="range" id="qt-sts" min="4" max="30" step="0.1" value="10" aria-label="Time for 5 sit-to-stands (seconds)">
+            <div class="qt-scale"><span>4 s</span><span>30 s</span></div>
+            <div class="qt-row">
+              <button type="button" class="sw" id="qt-sw" aria-live="polite">Start the stopwatch</button>
+              <label class="qt-check"><input type="checkbox" id="qt-sts-no"> I couldn’t do it without using my arms</label>
+            </div>
+            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next>Next</button></div>
+          </fieldset>
+
+          <fieldset class="qt-step" data-s="2">
+            <legend><span class="k">2 / 4 · Balance</span>Stand on one leg for 10 seconds</legend>
+            <p class="qt-how">Stand next to a wall with your arms by your sides, looking straight ahead. Rest the toes of the lifted foot against the back of your other calf. You have 3 attempts on each foot.</p>
+            <div class="qt-row" style="margin:0 0 14px"><button type="button" class="sw" id="qt-cd">Count 10 seconds</button></div>
+            <div class="qt-opts">
+              <label class="qt-opt"><input type="radio" name="bal" value="2"><span class="dot"></span><span>I managed 10 seconds on both legs</span></label>
+              <label class="qt-opt"><input type="radio" name="bal" value="1"><span class="dot"></span><span>I only managed it on one leg</span></label>
+              <label class="qt-opt"><input type="radio" name="bal" value="0"><span class="dot"></span><span>I couldn’t manage 10 seconds on either leg</span></label>
+            </div>
+            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next data-need="bal">Next</button></div>
+          </fieldset>
+
+          <fieldset class="qt-step" data-s="3">
+            <legend><span class="k">3 / 4 · Daily activity</span>How many steps do you take a day on average?</legend>
+            <p class="qt-how">Check last week’s average in your phone’s health app. If you don’t know, estimate: a brisk 30-minute walk is about 3,000–4,000 steps.</p>
+            <div class="qt-val"><span id="qt-steps-v">5,000</span><small>steps / day</small></div>
+            <input type="range" id="qt-steps" min="0" max="15000" step="500" value="5000" aria-label="Average daily step count">
+            <div class="qt-scale"><span>0</span><span>15,000+</span></div>
+            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next>Next</button></div>
+          </fieldset>
+
+          <fieldset class="qt-step" data-s="4">
+            <legend><span class="k">4 / 4 · Fitness</span>How long does it take you to climb four flights of stairs?</legend>
+            <p class="qt-how">About 60 steps, without stopping: quickly, but without running. If you haven’t tried recently, choose your best estimate.</p>
+            <div class="qt-opts">
+              <label class="qt-opt"><input type="radio" name="stair" value="2"><span class="dot"></span><span>Less than 1 minute</span></label>
+              <label class="qt-opt"><input type="radio" name="stair" value="1"><span class="dot"></span><span>Between 1 and 1.5 minutes</span></label>
+              <label class="qt-opt"><input type="radio" name="stair" value="0"><span class="dot"></span><span>More than 1.5 minutes, or with stops</span></label>
+              <label class="qt-opt"><input type="radio" name="stair" value="x"><span class="dot"></span><span>I haven’t tried, or I can’t</span></label>
+            </div>
+            <p class="qt-note">If you have heart disease, chest pain or shortness of breath, don’t do this test; choose the “I haven’t tried” option.</p>
+            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next data-need="stair">See my result</button></div>
+          </fieldset>
+
+          <fieldset class="qt-step" data-s="5" aria-live="polite">
+            <legend class="sr">Result</legend>
+            <div class="qt-res-head"><span class="qt-badge" id="qt-badge"></span><h4 id="qt-title"></h4></div>
+            <p class="qt-res-text" id="qt-text"></p>
+            <ul class="qt-list" id="qt-list"></ul>
+            <div class="qt-nav">
+              <a class="cta" id="qt-wa" href="#" target="_blank" rel="noopener">Message me about a detailed analysis at home <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              <button type="button" class="cta ghost" id="qt-again">Take the test again</button>
+            </div>
+            <p class="qt-note">This test does not diagnose anything; it is for information only and gives a rough estimate. An accurate assessment comes from a detailed analysis that measures strength, power, balance, gait and flexibility.</p>
+            <details class="qt-src"><summary>The science behind the tests</summary>
+              <ol>
+                <li>Bohannon RW. Reference values for the five-repetition sit-to-stand test. Percept Mot Skills. 2006;103(1):215-222.</li>
+                <li>Tiedemann A, et al. Age Ageing. 2008 · Buatois S, et al. J Am Geriatr Soc. 2008 (five-times sit-to-stand and fall risk).</li>
+                <li>Araújo CG, et al. <a href="https://www.bristol.ac.uk/news/2022/june/tne-second-one-legged-stance.html" target="_blank" rel="noopener">Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals</a>. Br J Sports Med. 2022.</li>
+                <li>Paluch AE, et al. <a href="https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(21)00302-9/fulltext" target="_blank" rel="noopener">Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts</a>. Lancet Public Health. 2022;7(3):e219-e228.</li>
+                <li>Peteiro J. <a href="https://www.sciencedaily.com/releases/2020/12/201211083104.htm" target="_blank" rel="noopener">Stair climbing test and heart health</a>. ESC EACVI Best of Imaging 2020.</li>
+              </ol>
+            </details>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="analiz" class="kt-p" role="tabpanel" aria-labelledby="kt-analiz">
     <div class="wrap">
       <div class="lx" id="lx">
         <p class="eyebrow">Longevity analysis</p>
@@ -1394,7 +1537,7 @@
         </ul>
         <p class="lx-proof"><b>Measured, not guessed.</b> Every indicator is backed by a published study, and you keep your results as a written report.</p>
         <p class="lx-hope"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 15V7.2M8 8.4C8 5.6 6.2 3.8 3.4 3.6c.1 2.7 1.9 4.6 4.6 4.8Zm0 0c0-2.8 1.8-4.6 4.6-4.8-.1 2.7-1.9 4.6-4.6 4.8Z" stroke="currentColor" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg><span><b>The good news:</b> you can’t change your genes, but you can improve your strength, balance and walking at any age.</span></p>
-        <p class="lx-foot"><a href="#hizli-test">Try the 2-minute quick test ↓</a><span>It doesn’t replace lab tests; it complements them.</span></p>
+        <p class="lx-foot"><a href="#hizli-test">Try the 2-minute quick test →</a><span>It doesn’t replace lab tests; it complements them.</span></p>
       </div>
       <div class="steps">
         <div class="step">
@@ -1539,99 +1682,10 @@
           <a class="cta" href="exercise-plan.html">Open the full prescription <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
         </div>
       </div>
-
-      <div class="qt" id="hizli-test">
-        <p class="eyebrow">Quick test</p>
-        <h3>What’s your real age?</h3>
-        <p class="qt-lede">Four simple tests you can do at home in 2–3 minutes: muscle strength, balance, daily activity and fitness.</p>
-        <div class="qt-bar" aria-hidden="true"><span id="qt-bar"></span></div>
-        <form id="qt-form" novalidate autocomplete="off">
-          <fieldset class="qt-step on" data-s="0">
-            <legend><span class="k">Getting started</span>Your age</legend>
-            <div class="qt-val"><span id="qt-age-v">18</span><small>years</small></div>
-            <input type="range" id="qt-age" min="18" max="90" step="1" value="18" aria-label="Your age">
-            <div class="qt-scale"><span>18</span><span>90</span></div>
-            <ul class="qt-safe">
-              <li>Do the tests next to a sturdy chair and a wall or table you can hold on to.</li>
-              <li>Stop straight away if you feel dizzy, have chest pain or become short of breath.</li>
-              <li>If you have heart disease, skip the stair test.</li>
-            </ul>
-            <div class="qt-nav"><button type="button" class="cta" data-next>Start the test</button></div>
-          </fieldset>
-
-          <fieldset class="qt-step" data-s="1">
-            <legend><span class="k">1 / 4 · Muscle strength</span>Stand up from a chair 5 times</legend>
-            <p class="qt-how">Sit on a sturdy chair with its back against a wall, arms crossed over your chest. Without using your arms, stand up fully and sit back down 5 times, as fast as you can. You can use the stopwatch below.</p>
-            <div class="qt-val"><span id="qt-sts-v">10.0</span><small>seconds</small></div>
-            <input type="range" id="qt-sts" min="4" max="30" step="0.1" value="10" aria-label="Time for 5 sit-to-stands (seconds)">
-            <div class="qt-scale"><span>4 s</span><span>30 s</span></div>
-            <div class="qt-row">
-              <button type="button" class="sw" id="qt-sw" aria-live="polite">Start the stopwatch</button>
-              <label class="qt-check"><input type="checkbox" id="qt-sts-no"> I couldn’t do it without using my arms</label>
-            </div>
-            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next>Next</button></div>
-          </fieldset>
-
-          <fieldset class="qt-step" data-s="2">
-            <legend><span class="k">2 / 4 · Balance</span>Stand on one leg for 10 seconds</legend>
-            <p class="qt-how">Stand next to a wall with your arms by your sides, looking straight ahead. Rest the toes of the lifted foot against the back of your other calf. You have 3 attempts on each foot.</p>
-            <div class="qt-row" style="margin:0 0 14px"><button type="button" class="sw" id="qt-cd">Count 10 seconds</button></div>
-            <div class="qt-opts">
-              <label class="qt-opt"><input type="radio" name="bal" value="2"><span class="dot"></span><span>I managed 10 seconds on both legs</span></label>
-              <label class="qt-opt"><input type="radio" name="bal" value="1"><span class="dot"></span><span>I only managed it on one leg</span></label>
-              <label class="qt-opt"><input type="radio" name="bal" value="0"><span class="dot"></span><span>I couldn’t manage 10 seconds on either leg</span></label>
-            </div>
-            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next data-need="bal">Next</button></div>
-          </fieldset>
-
-          <fieldset class="qt-step" data-s="3">
-            <legend><span class="k">3 / 4 · Daily activity</span>How many steps do you take a day on average?</legend>
-            <p class="qt-how">Check last week’s average in your phone’s health app. If you don’t know, estimate: a brisk 30-minute walk is about 3,000–4,000 steps.</p>
-            <div class="qt-val"><span id="qt-steps-v">5,000</span><small>steps / day</small></div>
-            <input type="range" id="qt-steps" min="0" max="15000" step="500" value="5000" aria-label="Average daily step count">
-            <div class="qt-scale"><span>0</span><span>15,000+</span></div>
-            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next>Next</button></div>
-          </fieldset>
-
-          <fieldset class="qt-step" data-s="4">
-            <legend><span class="k">4 / 4 · Fitness</span>How long does it take you to climb four flights of stairs?</legend>
-            <p class="qt-how">About 60 steps, without stopping: quickly, but without running. If you haven’t tried recently, choose your best estimate.</p>
-            <div class="qt-opts">
-              <label class="qt-opt"><input type="radio" name="stair" value="2"><span class="dot"></span><span>Less than 1 minute</span></label>
-              <label class="qt-opt"><input type="radio" name="stair" value="1"><span class="dot"></span><span>Between 1 and 1.5 minutes</span></label>
-              <label class="qt-opt"><input type="radio" name="stair" value="0"><span class="dot"></span><span>More than 1.5 minutes, or with stops</span></label>
-              <label class="qt-opt"><input type="radio" name="stair" value="x"><span class="dot"></span><span>I haven’t tried, or I can’t</span></label>
-            </div>
-            <p class="qt-note">If you have heart disease, chest pain or shortness of breath, don’t do this test; choose the “I haven’t tried” option.</p>
-            <div class="qt-nav"><button type="button" class="cta ghost" data-prev>Back</button><button type="button" class="cta" data-next data-need="stair">See my result</button></div>
-          </fieldset>
-
-          <fieldset class="qt-step" data-s="5" aria-live="polite">
-            <legend class="sr">Result</legend>
-            <div class="qt-res-head"><span class="qt-badge" id="qt-badge"></span><h4 id="qt-title"></h4></div>
-            <p class="qt-res-text" id="qt-text"></p>
-            <ul class="qt-list" id="qt-list"></ul>
-            <div class="qt-nav">
-              <a class="cta" id="qt-wa" href="#" target="_blank" rel="noopener">Message me about a detailed analysis at home <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
-              <button type="button" class="cta ghost" id="qt-again">Take the test again</button>
-            </div>
-            <p class="qt-note">This test does not diagnose anything; it is for information only and gives a rough estimate. An accurate assessment comes from a detailed analysis that measures strength, power, balance, gait and flexibility.</p>
-            <details class="qt-src"><summary>The science behind the tests</summary>
-              <ol>
-                <li>Bohannon RW. Reference values for the five-repetition sit-to-stand test. Percept Mot Skills. 2006;103(1):215-222.</li>
-                <li>Tiedemann A, et al. Age Ageing. 2008 · Buatois S, et al. J Am Geriatr Soc. 2008 (five-times sit-to-stand and fall risk).</li>
-                <li>Araújo CG, et al. <a href="https://www.bristol.ac.uk/news/2022/june/tne-second-one-legged-stance.html" target="_blank" rel="noopener">Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals</a>. Br J Sports Med. 2022.</li>
-                <li>Paluch AE, et al. <a href="https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(21)00302-9/fulltext" target="_blank" rel="noopener">Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts</a>. Lancet Public Health. 2022;7(3):e219-e228.</li>
-                <li>Peteiro J. <a href="https://www.sciencedaily.com/releases/2020/12/201211083104.htm" target="_blank" rel="noopener">Stair climbing test and heart health</a>. ESC EACVI Best of Imaging 2020.</li>
-              </ol>
-            </details>
-          </fieldset>
-        </form>
-      </div>
     </div>
   </section>
 
-  <section id="ornek-plan">
+  <section id="ornek-plan" class="kt-p" role="tabpanel" aria-labelledby="kt-ornek-plan">
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Personalised exercise</p>
@@ -1647,7 +1701,7 @@
     </div>
   </section>
 
-  <section id="kareler">
+  <section id="kareler" class="kt-p" role="tabpanel" aria-labelledby="kt-kareler">
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Gallery</p>
@@ -1660,7 +1714,7 @@
     </div>
   </section>
 
-  <section id="logo">
+  <section id="logo" class="kt-p" role="tabpanel" aria-labelledby="kt-logo">
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">The meaning of the logo</p>
@@ -1795,6 +1849,7 @@
         <a class="kc" href="stress.html"><svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="75" r="58" fill="none" stroke="rgba(216,178,94,.35)"/><circle cx="160" cy="75" r="42" fill="rgba(226,171,71,.22)"/><circle cx="160" cy="75" r="26" fill="rgba(143,164,118,.45)"/><path d="M40 75c20-14 40-14 60 0M220 75c20 14 40 14 60 0" fill="none" stroke="#8fa476" stroke-width="3" stroke-linecap="round"/></svg><span class="b"><span class="k">Look after yourself</span><h3>What can you do in stressful moments?</h3><p>Breathing exercises, five skills from a WHO guide, and a free illustrated guide with audio exercises.</p><span class="go">Read →</span></span></a>
         <a class="kc" href="medical-advances.html"><svg viewBox="0 0 320 150" aria-hidden="true"><g fill="none" stroke-width="4" stroke-linecap="round"><path d="M40 75 C80 35 120 35 160 75 S240 115 280 75" stroke="#8fa476"/><path d="M40 75 C80 115 120 115 160 75 S240 35 280 75" stroke="#ece5cf" opacity=".8"/></g><g stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-linecap="round"><path d="M64 59v32M96 49v52M128 53v44M192 59v32M224 49v52M256 53v44"/></g><path d="M160 61v28" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/></svg><span class="b"><span class="k">Science news</span><h3>The medicine of the future, today</h3><p>Blood tests that detect Alzheimer’s, pig kidney transplants, AI in mammography, gene therapies and new findings in rehabilitation.</p><span class="go">Read →</span></span></a>
       </div>
+      <details class="kt-idx" id="kt-idx" open><summary><span>Show all topics</span><small data-n="109"><span>topics</span></small></summary>
       <div class="kose-idx">
         <div class="kg"><a class="lbl" href="health-library.html#agrilar"><span>Conditions</span><small>48</small></a><div class="pl"><a class="pill" href="low-back-pain.html">Low back pain</a><a class="pill" href="lumbar-disc-herniation.html">Lumbar disc herniation</a><a class="pill" href="piriformis-syndrome.html">Piriformis syndrome</a><a class="pill" href="lumbar-spinal-stenosis.html">Spinal stenosis</a><a class="pill" href="spondylolisthesis.html">Slipped vertebra</a><a class="pill" href="tailbone-pain.html">Tailbone</a><a class="pill" href="ankylosing-spondylitis.html">Ankylosing spondylitis</a><a class="pill" href="scoliosis.html">Scoliosis</a><a class="pill" href="kyphosis.html">Hunched back</a><a class="pill" href="neck-pain.html">Neck pain</a><a class="pill" href="straight-neck.html">Straight neck</a><a class="pill" href="cervical-disc-herniation.html">Cervical disc herniation</a><a class="pill" href="headache.html">Headache</a><a class="pill" href="jaw-joint-tmd.html">Jaw joint</a><a class="pill" href="vertigo-bppv.html">Vertigo</a><a class="pill" href="frozen-shoulder.html">Frozen shoulder</a><a class="pill" href="shoulder-impingement.html">Shoulder impingement</a><a class="pill" href="rotator-cuff-tear.html">Rotator cuff tear</a><a class="pill" href="shoulder-dislocation.html">Dislocated shoulder</a><a class="pill" href="carpal-tunnel-syndrome.html">Carpal tunnel</a><a class="pill" href="tennis-elbow.html">Tennis elbow</a><a class="pill" href="de-quervains-tenosynovitis.html">De Quervain’s</a><a class="pill" href="trigger-finger.html">Trigger finger</a><a class="pill" href="golfers-elbow.html">Golfer’s elbow</a><a class="pill" href="knee-osteoarthritis.html">Knee osteoarthritis</a><a class="pill" href="meniscus-tear.html">Meniscus tear</a><a class="pill" href="acl-injury.html">ACL injury</a><a class="pill" href="anterior-knee-pain.html">Anterior knee pain</a><a class="pill" href="jumpers-knee.html">Jumper’s knee</a><a class="pill" href="hip-osteoarthritis.html">Hip osteoarthritis</a><a class="pill" href="hip-impingement.html">Hip impingement</a><a class="pill" href="lateral-hip-pain.html">Lateral hip pain</a><a class="pill" href="plantar-fasciitis.html">Heel spur</a><a class="pill" href="achilles-tendinopathy.html">Achilles tendinopathy</a><a class="pill" href="ankle-sprain.html">Ankle sprain</a><a class="pill" href="diabetic-neuropathy.html">Diabetic neuropathy</a><a class="pill" href="flat-feet.html">Flat feet</a><a class="pill" href="bunions.html">Hallux valgus</a><a class="pill" href="urinary-incontinence.html">Urinary incontinence</a><a class="pill" href="pregnancy-back-pain.html">Back pain in pregnancy</a><a class="pill" href="osteoporosis.html">Osteoporosis</a><a class="pill" href="sarcopenia.html">Sarcopenia</a><a class="pill" href="fibromyalgia.html">Fibromyalgia</a><a class="pill" href="rheumatoid-arthritis.html">Rheumatoid arthritis</a><a class="pill" href="always-feeling-cold.html">Always feeling cold</a><a class="pill" href="tremor.html">Tremor</a><a class="pill" href="bells-palsy.html">Bell’s palsy</a><a class="pill" href="restless-legs-syndrome.html">Restless legs</a></div></div>
         <div class="kg"><a class="lbl" href="health-library.html#rehabilitasyon"><span>Rehabilitation at home</span><small>13</small></a><div class="pl"><a class="pill" href="fall-prevention.html">Fall prevention</a><a class="pill" href="joint-replacement-rehab.html">After joint replacement</a><a class="pill" href="stroke-rehabilitation.html">After stroke</a><a class="pill" href="spinal-cord-injury.html">Spinal cord injury</a><a class="pill" href="guillain-barre-syndrome.html">Guillain-Barré</a><a class="pill" href="hip-fracture-rehab.html">Hip fracture</a><a class="pill" href="parkinsons-disease.html">Parkinson’s</a><a class="pill" href="dementia-and-exercise.html">Dementia and exercise</a><a class="pill" href="multiple-sclerosis.html">Multiple sclerosis (MS)</a><a class="pill" href="exercise-and-cancer.html">Cancer and exercise</a><a class="pill" href="lymphoedema.html">Lymphoedema</a><a class="pill" href="copd-pulmonary-rehabilitation.html">COPD</a><a class="pill" href="cardiac-rehabilitation.html">Cardiac rehabilitation</a></div></div>
@@ -1802,6 +1857,7 @@
         <div class="kg"><a class="lbl" href="medical-advances.html"><span>Science news</span><small>31</small></a><div class="pl"><ul class="hl"><li><a href="medical-advances.html#h-isik-ayna-ve-buz-2026-nobel-odulleri"><span class="hl-c">Nobel 2026</span><span class="hl-t">Light, a mirror and ice: the 2026 Nobel Prizes</span><small>October 2026</small></a></li><li><a href="medical-advances.html#h-alzheimer-icin-kan-testleri-cogaliyor"><span class="hl-c">Alzheimer's</span><span class="hl-t">More blood tests for Alzheimer's</span><small>September 2026</small></a></li><li><a href="medical-advances.html#h-uykunun-suresi-kadar-evreleri-de-onemli-olabilir"><span class="hl-c">Sleep</span><span class="hl-t">Sleep stages may matter as much as sleep length</span><small>September 2026</small></a></li><li><a href="medical-advances.html#h-yasla-gelen-kas-gucsuzlugunde-gozden-kacan-halka"><span class="hl-c">Sarcopenia</span><span class="hl-t">A missing link in age-related muscle weakness</span><small>September 2026</small></a></li></ul></div></div>
         <a class="all" href="health-library.html">All topics →</a>
       </div>
+      </details>
     </div>
   </section>
 <script>
@@ -2542,6 +2598,72 @@
   var vis=true;
   if('IntersectionObserver' in window)new IntersectionObserver(function(es){vis=es[0].isIntersecting}).observe(svg);
   setInterval(function(){if(vis&&!document.hidden)sweep()},7000);
+})();
+</script>
+<script>
+(function(){
+  var sec = document.getElementById('kesfet'); if (!sec) return;
+  var tabs = [].slice.call(sec.querySelectorAll('[role="tab"]'));
+  var panels = tabs.map(function(t){ return document.getElementById(t.getAttribute('aria-controls')); });
+  if (!panels.every(Boolean)) return;
+  document.documentElement.classList.add('kt-on');
+  var bar = document.querySelector('.bar'), list = sec.querySelector('.kt-tabs'), cur = 0;
+  function off(){ return bar ? bar.getBoundingClientRect().height : 0; }
+  var mini = document.createElement('nav'); mini.className = 'kt-mini'; mini.setAttribute('aria-label', list.getAttribute('aria-label'));
+  var mw = document.createElement('div'); mw.className = 'wrap'; mini.appendChild(mw);
+  var mb = tabs.map(function(t, i){
+    var b = document.createElement('button'); b.type = 'button'; b.textContent = t.querySelector('span').textContent;
+    b.addEventListener('click', function(){ pick(i); toPanel(i, true); }); mw.appendChild(b); return b;
+  });
+  document.body.appendChild(mini);
+  function pick(i, quiet){
+    cur = i;
+    tabs.forEach(function(t, k){ var on = k === i;
+      t.setAttribute('aria-selected', on ? 'true' : 'false'); t.tabIndex = on ? 0 : -1;
+      if (panels[k].hidden !== !on) { panels[k].hidden = !on; if (on && !quiet) { panels[k].classList.remove('kt-in'); void panels[k].offsetWidth; panels[k].classList.add('kt-in'); } }
+      mb[k].setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    var b = mb[i]; mw.scrollLeft = Math.max(0, b.offsetLeft - (mw.clientWidth - b.offsetWidth) / 2);
+    try { window.dispatchEvent(new Event('resize')); } catch (e) {}
+    upd();
+  }
+  function scrollToY(y, smooth){ window.scrollTo({top: Math.max(0, y), behavior: smooth ? 'smooth' : 'auto'}); }
+  function toPanel(i, smooth){ var r = panels[i].getBoundingClientRect(); scrollToY(r.top + window.scrollY - off() - 52, smooth); }
+  tabs.forEach(function(t, i){
+    t.addEventListener('click', function(){ pick(i);
+      var r = panels[i].getBoundingClientRect(); if (r.top > window.innerHeight * .72) scrollToY(sec.getBoundingClientRect().top + window.scrollY - off(), true); });
+    t.addEventListener('keydown', function(e){
+      var k = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0; if (!k && e.key !== 'Home' && e.key !== 'End') return;
+      e.preventDefault(); var n = e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : (i + k + tabs.length) % tabs.length; pick(n); tabs[n].focus(); });
+  });
+  function panelOf(el){ for (var k = 0; k < panels.length; k++) if (panels[k] === el || panels[k].contains(el)) return k; return -1; }
+  function go(hash, smooth){
+    var id = ''; try { id = decodeURIComponent((hash || '').slice(1)); } catch (e) { return false; }
+    var el = id && document.getElementById(id); if (!el) return false;
+    var k = panelOf(el); if (k < 0) return false;
+    pick(k, !smooth);
+    requestAnimationFrame(function(){
+      if (el === panels[k]) scrollToY(sec.getBoundingClientRect().top + window.scrollY - off(), smooth);
+      else scrollToY(el.getBoundingClientRect().top + window.scrollY - off() - 60, smooth);
+    });
+    return true;
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest ? e.target.closest('a[href^="#"]') : null; if (!a) return;
+    var h = a.getAttribute('href'); if (h.length > 1 && go(h, true)) { e.preventDefault(); try { history.pushState(null, '', h); } catch (x) {} }
+  });
+  window.addEventListener('hashchange', function(){ go(location.hash, true); });
+  var tick = false;
+  function upd(){
+    tick = false; var o = off(), tb = list.getBoundingClientRect(), pb = panels[cur].getBoundingClientRect();
+    var show = tb.bottom < o && pb.bottom > o + 90;
+    mini.style.setProperty('--kt-top', o + 'px'); mini.classList.toggle('show', show);
+    if ('inert' in mini) mini.inert = !show;
+  }
+  window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } }, {passive: true});
+  window.addEventListener('resize', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } });
+  if (!go(location.hash, false)) pick(0, true);
+  var d = document.getElementById('kt-idx');
+  if (d && window.matchMedia && !matchMedia('(min-width: 900px)').matches) d.open = false;
 })();
 </script>
 <script src="../ara.js" defer></script>
