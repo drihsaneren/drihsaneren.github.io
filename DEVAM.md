@@ -393,3 +393,14 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Kyphosis (30 Aralık 2025), SHEAF (Katzman 2017; escholarship özeti), Oliveira-Costa 2025 gençlerde egzersiz derlemesi (SciELO tam metin), Christensen & Hartvigsen 2008 (PainScience özeti).
 - Kaynaksız / genel bilgi: "duruşa bağlı kamburluk esnektir, dikleşince düzelir", "kemik erimesi olan birinde ani sırt ağrısı" uyarısı, pozisyon değiştirme önerisi.
 - reg_cond.py AGR eşleşmesi satır sonu virgülüne göre düzeltildi. Kartlarda: fb465, fb466. masa-basi ilgili listesine de eklendi.
+
+## Üç Kapı: beden, nefes, zihin (12 Ekim 2026)
+- uc-kapi.html → en/three-doors.html (kapi_part.py, mind_part.py'den sonra exec). Kendine iyi bak, "Ruh sağlığı için" grubunun başında; kayıt: scratchpad/reg_kapi.py. Kartlarda fb467, fb468.
+- İçerik: kanca giriş + canlandırmalı Venn; sesli seans (giriş ölçümü → beden 90 sn yerinde yürüyüş/oturarak → döngüsel iç çekiş 120 sn → zihin: beden haritası + duygu kelimeleri + "ustaların soruları" (Jung, Gendlin, Slavinski, Frankl) + 3 nefes yanında kalma → çıkış ölçümü, önce/sonra çubukları, geçmiş ve kapı sayaçları, localStorage drihsaneren.ucKapi.v1). Test için ?x=40 hızlandırır (ses kapalı).
+- Kanıt pusulası: 1895–2024 zaman çizelgesi, 5 etiket (Güçlü kanıt / Umut verici / Tartışmalı / Yeterli kanıt yok / Tarihsel fikir), süzgeçli. "Ustalardan öğrendiklerimiz": Jung, Gendlin, Levine, Slavinski, Nelson, Jacobson, Shapiro, Frankl.
+- İhsan'ın isteği: anlaşılır, empatik dil + "Harvard'dan bir hoca baksa sallamış demesin" düzeyinde doğruluk. Seansın bütün olarak sınanmadığı açıkça yazılı.
+- Okunan kaynaklar: Balban 2023 (Stanford haberi + özet), Nummenmaa 2014 (Aalto haberi, özet), Lieberman 2007 (ScienceDaily), Reed & Ones 2006 (UMN özeti), Frattaroli 2006 (özet), EMDR Institute tarihçesi, Brom 2017 (özet), Grossman 2023 (yalnız başlık/kayıt), Giroux 2023 (tam metin), Worcestershire FND broşürü, Peterson & Jung 1907 (kayıt) + Jung'un metni (sidis.net), Carvalho 2016 (Medical News Today), Steffen 2017 (PubMed özeti), Elezović 2016 ve Pinal Villanueva 2024 (kayıtlar), Emotion Code anlatımı (All Within), Schwartz 2014 (SkepDoc özeti), Gendlin/Levine için GoodTherapy sayfaları.
+- Hafızadan: bazı yazar listeleri ve sayfa numaraları (Nummenmaa, Lieberman, Carvalho, Steffen, Schwartz), Porges 1995 künyesi, Breuer-Freud 1895 / Jacobson 1929 / Reich 1933 kitap künyeleri, ustaların doğum-ölüm yılları, Levine'in kurucu olduğu, "deri iletkenliği bugün de kullanılıyor", "bu tablonun bir bölümü bugün FND" ifadesi.
+- Kas gevşetme sayfasındaki "1930'larda" → "1920'lerde" düzeltildi (Jacobson'ın kitabı 1929).
+- Ana sayfa galerisinden omurga maketli kare (p07) kaldırıldı (İhsan istedi); lastik bant karesi (p21) iki sütun kaplıyor, boşluk yok. i18n/js.json'dan ilgili altyazı silindi.
+- Sırada: İhsan'ın kendi klinik gözlemleri için "Klinikten notlar" kutusu (o yazarsa); Üç Kapı için kısa tanıtım videosu.

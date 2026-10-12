@@ -71,6 +71,7 @@ EN = {
     "sarkopeni.html": "sarcopenia.html",
     "demans-egzersiz.html": "dementia-and-exercise.html",
     "dizin-12-sirri.html": "knee-12-secrets.html",
+    "uc-kapi.html": "three-doors.html",
     "kucuk-adimlar.html": "small-steps-planner.html",
     "kas-gevsetme.html": "progressive-muscle-relaxation.html",
     "ruh-hali-olcumu.html": "mood-check.html",

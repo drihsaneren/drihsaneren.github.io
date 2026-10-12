@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "uc-0",
+  "kind": "text",
+  "tr": "Üç Kapı: Beden, Nefes ve Zihinle Duygulara Yaklaşmak | İhsan Eren"
+ },
+ {
+  "id": "uc-1",
+  "kind": "attr",
+  "tr": "Duygular yalnızca kafada yaşamaz. Hareket, nefes ve kelimelerle duyguya üç kapıdan yaklaşın: 6 dakikalık sesli seans, Freud’dan beyin araştırmalarına kanıt pusulası ve ustalardan öğrendiklerimiz."
+ },
+ {
+  "id": "uc-2",
+  "kind": "text",
+  "tr": "Kendine iyi bak · Yeni bir yaklaşım"
+ },
+ {
+  "id": "uc-3",
+  "kind": "text",
+  "tr": "Üç Kapı"
+ },
+ {
+  "id": "uc-4",
+  "kind": "text",
+  "tr": "Beden, nefes, zihin"
+ },
+ {
+  "id": "uc-5",
+  "kind": "text",
+  "tr": "Bazen ne kadar düşünseniz de içinizdeki düğüm çözülmez. Bu, bir şeyi yanlış yaptığınız anlamına gelmez: Duygular yalnızca kafada yaşamaz; göğsünüzde, omuzlarınızda, nefesinizde de yaşar. Üç Kapı, o düğüme üç yoldan yaklaşmanın bir yolu: bedeninizi hareket ettirmek, nefesinizi yavaşlatmak ve hissettiğinize bir isim vermek."
+ },
+ {
+  "id": "uc-6",
+  "kind": "text",
+  "tr": "Fizyoterapiden, psikolojiden ve beyin araştırmalarından gelen bulguları, kendi alanında iz bırakmış ustaların fikirleriyle bir araya getirdik. Neyin araştırmalarla desteklendiğini, neyin yalnızca deneyime dayandığını her adımda açıkça söylüyoruz."
+ },
+ {
+  "id": "uc-7",
+  "kind": "text",
+  "tr": "6 dakikalık seansa başla"
+ },
+ {
+  "id": "uc-8",
+  "kind": "text",
+  "tr": "Kanıt pusulası"
+ },
+ {
+  "id": "uc-9",
+  "kind": "text",
+  "tr": "Nefes"
+ },
+ {
+  "id": "uc-10",
+  "kind": "text",
+  "tr": "Beden"
+ },
+ {
+  "id": "uc-11",
+  "kind": "text",
+  "tr": "Zihin"
+ },
+ {
+  "id": "uc-12",
+  "kind": "text",
+  "tr": "Siz"
+ },
+ {
+  "id": "uc-13",
+  "kind": "text",
+  "tr": "701 kişi"
+ },
+ {
+  "id": "uc-14",
+  "kind": "text",
+  "tr": "Duyguları bedenlerinin neresinde hissettiklerini işaretledi: her duygunun kendine özgü bir haritası çıktı"
+ },
+ {
+  "id": "uc-15",
+  "kind": "text",
+  "tr": "158 çalışma"
+ },
+ {
+  "id": "uc-16",
+  "kind": "text",
+  "tr": "Tek bir egzersiz seansı bile insanı daha canlı hissettiriyor; en iyi sonuç hafif tempoda"
+ },
+ {
+  "id": "uc-17",
+  "kind": "text",
+  "tr": "Her gün iki kez alıp uzun veren nefesle bir ayda olumlu duygular, meditasyona göre daha çok arttı"
+ },
+ {
+  "id": "uc-18",
+  "kind": "text",
+  "tr": "30 kişi"
+ },
+ {
+  "id": "uc-19",
+  "kind": "text",
+  "tr": "Beyin görüntülemede, bir duyguya isim vermek beyindeki tehlike alarmının tepkisini azalttı"
+ },
+ {
+  "id": "uc-20",
+  "kind": "text",
+  "tr": "Üç Kapı seansı"
+ },
+ {
+  "id": "uc-21",
+  "kind": "text",
+  "tr": "Yaklaşık 6 dakika, sadece sizin için. Önce nasıl olduğunuza bakın, sonra üç kapıdan sırayla geçin ve sonunda yeniden bakın. Sesi açarsanız rehber her adımda yanınızda olur; gözlerinizi kapatabilirsiniz."
+ },
+ {
+  "id": "uc-22",
+  "kind": "text",
+  "tr": "Giriş"
+ },
+ {
+  "id": "uc-23",
+  "kind": "text",
+  "tr": "Çıkış"
+ },
+ {
+  "id": "uc-24",
+  "kind": "text",
+  "tr": "Bugün hangi kapı açık?"
+ },
+ {
+  "id": "uc-25",
+  "kind": "text",
+  "tr": "Şu an nasılsınız? 0 ile 10 arasında puanlayın. Doğru ya da yanlış cevap yok; yalnızca şu anı fark ediyoruz."
+ },
+ {
+  "id": "uc-26",
+  "kind": "text",
+  "tr": "Bedenim gergin <small>0 gevşek · 10 çok gergin</small>"
+ },
+ {
+  "id": "uc-27",
+  "kind": "attr",
+  "tr": "Bedenim gergin"
+ },
+ {
+  "id": "uc-28",
+  "kind": "text",
+  "tr": "Nefesim sıkışık <small>0 rahat · 10 çok sıkışık ya da hızlı</small>"
+ },
+ {
+  "id": "uc-29",
+  "kind": "attr",
+  "tr": "Nefesim sıkışık"
+ },
+ {
+  "id": "uc-30",
+  "kind": "text",
+  "tr": "Zihnim dolu <small>0 sakin · 10 çok dolu ya da karışık</small>"
+ },
+ {
+  "id": "uc-31",
+  "kind": "attr",
+  "tr": "Zihnim dolu"
+ },
+ {
+  "id": "uc-32",
+  "kind": "text",
+  "tr": "Tam tur · 6 dakika"
+ },
+ {
+  "id": "uc-33",
+  "kind": "text",
+  "tr": "Ya da yalnızca bir kapı:"
+ },
+ {
+  "id": "uc-34",
+  "kind": "text",
+  "tr": "Beden · 1,5 dk"
+ },
+ {
+  "id": "uc-35",
+  "kind": "text",
+  "tr": "Nefes · 2 dk"
+ },
+ {
+  "id": "uc-36",
+  "kind": "text",
+  "tr": "Zihin · 2 dk"
+ },
+ {
+  "id": "uc-37",
+  "kind": "text",
+  "tr": "Sesli rehber"
+ },
+ {
+  "id": "uc-38",
+  "kind": "text",
+  "tr": "Kapı 1 · Beden"
+ },
+ {
+  "id": "uc-39",
+  "kind": "text",
+  "tr": "Hareket edin"
+ },
+ {
+  "id": "uc-40",
+  "kind": "attr",
+  "tr": "Pozisyon"
+ },
+ {
+  "id": "uc-41",
+  "kind": "text",
+  "tr": "Ayakta"
+ },
+ {
+  "id": "uc-42",
+  "kind": "text",
+  "tr": "Oturarak"
+ },
+ {
+  "id": "uc-43",
+  "kind": "text",
+  "tr": "Sonraki kapı"
+ },
+ {
+  "id": "uc-44",
+  "kind": "text",
+  "tr": "Kapı 2 · Nefes"
+ },
+ {
+  "id": "uc-45",
+  "kind": "text",
+  "tr": "İki kez alın, uzun verin"
+ },
+ {
+  "id": "uc-46",
+  "kind": "text",
+  "tr": "Baş dönmesi olursa normal nefesinize dönün. Daha uzun bir uygulama için <a href=\"ic-cekis.html\">5 dakikalık iç çekiş nefesi</a>."
+ },
+ {
+  "id": "uc-47",
+  "kind": "text",
+  "tr": "Kapı 3 · Zihin"
+ },
+ {
+  "id": "uc-48",
+  "kind": "text",
+  "tr": "Fark edin, adını koyun"
+ },
+ {
+  "id": "uc-49",
+  "kind": "text",
+  "tr": "Bedeninizde nerede hissediyorsunuz? <small>Birden fazla seçebilirsiniz.</small>"
+ },
+ {
+  "id": "uc-50",
+  "kind": "text",
+  "tr": "Baş"
+ },
+ {
+  "id": "uc-51",
+  "kind": "text",
+  "tr": "Boğaz"
+ },
+ {
+  "id": "uc-52",
+  "kind": "text",
+  "tr": "Omuzlar"
+ },
+ {
+  "id": "uc-53",
+  "kind": "text",
+  "tr": "Göğüs"
+ },
+ {
+  "id": "uc-54",
+  "kind": "text",
+  "tr": "Karın"
+ },
+ {
+  "id": "uc-55",
+  "kind": "text",
+  "tr": "Sırt"
+ },
+ {
+  "id": "uc-56",
+  "kind": "text",
+  "tr": "Kollar ve eller"
+ },
+ {
+  "id": "uc-57",
+  "kind": "text",
+  "tr": "Bacaklar"
+ },
+ {
+  "id": "uc-58",
+  "kind": "text",
+  "tr": "Ona bir isim verin <small>En fazla üç kelime.</small>"
+ },
+ {
+  "id": "uc-59",
+  "kind": "text",
+  "tr": "Gerginlik"
+ },
+ {
+  "id": "uc-60",
+  "kind": "text",
+  "tr": "Korku"
+ },
+ {
+  "id": "uc-61",
+  "kind": "text",
+  "tr": "Öfke"
+ },
+ {
+  "id": "uc-62",
+  "kind": "text",
+  "tr": "Üzüntü"
+ },
+ {
+  "id": "uc-63",
+  "kind": "text",
+  "tr": "Yorgunluk"
+ },
+ {
+  "id": "uc-64",
+  "kind": "text",
+  "tr": "Utanç"
+ },
+ {
+  "id": "uc-65",
+  "kind": "text",
+  "tr": "Suçluluk"
+ },
+ {
+  "id": "uc-66",
+  "kind": "text",
+  "tr": "Hayal kırıklığı"
+ },
+ {
+  "id": "uc-67",
+  "kind": "text",
+  "tr": "Huzursuzluk"
+ },
+ {
+  "id": "uc-68",
+  "kind": "text",
+  "tr": "Boşluk"
+ },
+ {
+  "id": "uc-69",
+  "kind": "text",
+  "tr": "Merak"
+ },
+ {
+  "id": "uc-70",
+  "kind": "text",
+  "tr": "Sakinlik"
+ },
+ {
+  "id": "uc-71",
+  "kind": "text",
+  "tr": "Umut"
+ },
+ {
+  "id": "uc-72",
+  "kind": "text",
+  "tr": "Minnet"
+ },
+ {
+  "id": "uc-73",
+  "kind": "text",
+  "tr": "Ustaların soruları <small id=\"k-qsrc\"></small>"
+ },
+ {
+  "id": "uc-74",
+  "kind": "attr",
+  "tr": "İsterseniz buraya yazın; hiçbir yere kaydedilmez."
+ },
+ {
+  "id": "uc-75",
+  "kind": "text",
+  "tr": "Başka bir soru"
+ },
+ {
+  "id": "uc-76",
+  "kind": "text",
+  "tr": "Bu duyguyu değiştirmeye çalışmadan, üç nefes boyunca yanında kalın. Zorlanırsanız dikkatinizi ayaklarınıza götürün."
+ },
+ {
+  "id": "uc-77",
+  "kind": "text",
+  "tr": "Üç nefes yanında kal"
+ },
+ {
+  "id": "uc-78",
+  "kind": "text",
+  "tr": "Çıkışa geç"
+ },
+ {
+  "id": "uc-79",
+  "kind": "text",
+  "tr": "Şimdi nasılsınız?"
+ },
+ {
+  "id": "uc-80",
+  "kind": "text",
+  "tr": "Aynı üç soruyu yeniden puanlayın."
+ },
+ {
+  "id": "uc-81",
+  "kind": "text",
+  "tr": "Seans tamam"
+ },
+ {
+  "id": "uc-82",
+  "kind": "text",
+  "tr": "Gri çizgi seans öncesini, renkli çizgi sonrasını gösterir."
+ },
+ {
+  "id": "uc-83",
+  "kind": "text",
+  "tr": "Yeni seans"
+ },
+ {
+  "id": "uc-84",
+  "kind": "text",
+  "tr": "Son seanslarınız"
+ },
+ {
+  "id": "uc-85",
+  "kind": "text",
+  "tr": "Açtığınız kapılar"
+ },
+ {
+  "id": "uc-86",
+  "kind": "text",
+  "tr": "<b id=\"k-cb\">0</b>Beden"
+ },
+ {
+  "id": "uc-87",
+  "kind": "text",
+  "tr": "<b id=\"k-cn\">0</b>Nefes"
+ },
+ {
+  "id": "uc-88",
+  "kind": "text",
+  "tr": "<b id=\"k-cz\">0</b>Zihin"
+ },
+ {
+  "id": "uc-89",
+  "kind": "text",
+  "tr": "Kayıtları sil"
+ },
+ {
+  "id": "uc-90",
+  "kind": "text",
+  "tr": "Bugün kapılarınız açık görünüyor. Tam tur, iyi hâlinizi pekiştirmek için de güzel bir alışkanlık."
+ },
+ {
+  "id": "uc-91",
+  "kind": "text",
+  "tr": "Bedeniniz gergin görünüyor. Hareket, gerginliği boşaltmanın en doğrudan yolu olabilir."
+ },
+ {
+  "id": "uc-92",
+  "kind": "text",
+  "tr": "Zihniniz çok doluyken düşünerek sakinleşmek zordur. Önce bedenden girmeyi deneyin."
+ },
+ {
+  "id": "uc-93",
+  "kind": "text",
+  "tr": "Nefesiniz sıkışmış görünüyor. Uzun nefes verişler, nefesinizi ve ruh hâlinizi yavaşça toparlayabilir."
+ },
+ {
+  "id": "uc-94",
+  "kind": "text",
+  "tr": "Zihniniz dolu ama ulaşılabilir görünüyor. Hissettiğinize bir isim vermek iyi gelebilir."
+ },
+ {
+  "id": "uc-95",
+  "kind": "text",
+  "tr": "Öneri:"
+ },
+ {
+  "id": "uc-96",
+  "kind": "text",
+  "tr": "Bu bir öneri, kural değil."
+ },
+ {
+  "id": "uc-97",
+  "kind": "text",
+  "tr": "Yerinde canlı bir tempoda yürüyün, kollarınızı serbestçe sallayın."
+ },
+ {
+  "id": "uc-98",
+  "kind": "text",
+  "tr": "Omuzlarınızı kulaklarınıza doğru kaldırıp sıkın… ve bırakın. Farkı hissedin, sonra yürümeye devam edin."
+ },
+ {
+  "id": "uc-99",
+  "kind": "text",
+  "tr": "Ellerinizi silkeleyin; gerginlik parmak uçlarınızdan akıp gitsin."
+ },
+ {
+  "id": "uc-100",
+  "kind": "text",
+  "tr": "Son yarım dakika: biraz daha canlı, dizlerinizi biraz daha yükseğe kaldırın."
+ },
+ {
+  "id": "uc-101",
+  "kind": "text",
+  "tr": "Sandalyede dik oturun; dizlerinizi sırayla kaldırarak yerinde yürüyün, kollarınızı sallayın."
+ },
+ {
+  "id": "uc-102",
+  "kind": "text",
+  "tr": "Omuzlarınızı kulaklarınıza doğru kaldırıp sıkın… ve bırakın. Farkı hissedin, sonra devam edin."
+ },
+ {
+  "id": "uc-103",
+  "kind": "text",
+  "tr": "Son yarım dakika: biraz daha canlı."
+ },
+ {
+  "id": "uc-104",
+  "kind": "text",
+  "tr": "Birinci kapı: beden."
+ },
+ {
+  "id": "uc-105",
+  "kind": "text",
+  "tr": "Beden kapısı tamam. Bir an durun ve kalbinizin atışını fark edin."
+ },
+ {
+  "id": "uc-106",
+  "kind": "text",
+  "tr": "İkinci kapı: nefes. Burundan iki kez alın, ağızdan uzun verin."
+ },
+ {
+  "id": "uc-107",
+  "kind": "text",
+  "tr": "Nefes kapısı tamam."
+ },
+ {
+  "id": "uc-108",
+  "kind": "text",
+  "tr": "Üçüncü kapı: zihin. Bedeninizde bir şey hissettiğiniz yeri seçin ve ona bir isim verin."
+ },
+ {
+  "id": "uc-109",
+  "kind": "text",
+  "tr": "Şu an {loc} {emo} fark ediyorum."
+ },
+ {
+  "id": "uc-110",
+  "kind": "text",
+  "tr": "Şu an {emo} fark ediyorum."
+ },
+ {
+  "id": "uc-111",
+  "kind": "text",
+  "tr": "Şu an {loc} bir şey fark ediyorum."
+ },
+ {
+  "id": "uc-112",
+  "kind": "text",
+  "tr": "Seçtikçe cümleniz burada belirecek."
+ },
+ {
+  "id": "uc-113",
+  "kind": "text",
+  "tr": "Adını koydunuz. Şimdi onu değiştirmeye çalışmadan, üç nefes boyunca yanında kalın. Zorlanırsanız dikkatinizi ayaklarınıza götürün."
+ },
+ {
+  "id": "uc-114",
+  "kind": "text",
+  "tr": "Bu duygu size bir şey söylemek isteseydi, ne derdi?"
+ },
+ {
+  "id": "uc-115",
+  "kind": "text",
+  "tr": "Jung’dan esinlenen bir soru"
+ },
+ {
+  "id": "uc-116",
+  "kind": "text",
+  "tr": "Bu his bedeninizde bir şekil, renk ya da sıcaklık olsaydı, nasıl olurdu?"
+ },
+ {
+  "id": "uc-117",
+  "kind": "text",
+  "tr": "Gendlin’den esinlenen bir soru"
+ },
+ {
+  "id": "uc-118",
+  "kind": "text",
+  "tr": "Bu duygunun karşıtı ne olurdu? İkisini birden fark edebilir misiniz?"
+ },
+ {
+  "id": "uc-119",
+  "kind": "text",
+  "tr": "Slavinski’den esinlenen bir soru"
+ },
+ {
+  "id": "uc-120",
+  "kind": "text",
+  "tr": "Bu durumda neyi değiştiremiyorsunuz, neyi seçebilirsiniz?"
+ },
+ {
+  "id": "uc-121",
+  "kind": "text",
+  "tr": "Frankl’dan esinlenen bir soru"
+ },
+ {
+  "id": "uc-122",
+  "kind": "text",
+  "tr": "{n}. nefes"
+ },
+ {
+  "id": "uc-123",
+  "kind": "text",
+  "tr": "Teşekkürler. Şimdi çıkışa geçelim."
+ },
+ {
+  "id": "uc-124",
+  "kind": "text",
+  "tr": "başımda"
+ },
+ {
+  "id": "uc-125",
+  "kind": "text",
+  "tr": "boğazımda"
+ },
+ {
+  "id": "uc-126",
+  "kind": "text",
+  "tr": "omuzlarımda"
+ },
+ {
+  "id": "uc-127",
+  "kind": "text",
+  "tr": "göğsümde"
+ },
+ {
+  "id": "uc-128",
+  "kind": "text",
+  "tr": "karnımda"
+ },
+ {
+  "id": "uc-129",
+  "kind": "text",
+  "tr": "sırtımda"
+ },
+ {
+  "id": "uc-130",
+  "kind": "text",
+  "tr": "kollarımda ve ellerimde"
+ },
+ {
+  "id": "uc-131",
+  "kind": "text",
+  "tr": "bacaklarımda"
+ },
+ {
+  "id": "uc-132",
+  "kind": "text",
+  "tr": "Şimdi nasılsınız? Aynı üç soruyu yeniden puanlayın."
+ },
+ {
+  "id": "uc-133",
+  "kind": "text",
+  "tr": "Bir kapıyı araladınız. Bedeniniz, nefesiniz ve zihniniz aynı ağın parçaları; birini değiştirince ötekiler de kıpırdar."
+ },
+ {
+  "id": "uc-134",
+  "kind": "text",
+  "tr": "Küçük bir değişim de değişimdir. Yarın aynı saatte yeniden denemeye ne dersiniz?"
+ },
+ {
+  "id": "uc-135",
+  "kind": "text",
+  "tr": "Bugün kapılar ağır açıldı; bu da bir bilgi. Başka bir kapıyla ya da daha uzun bir nefesle yeniden deneyebilirsiniz."
+ },
+ {
+  "id": "uc-136",
+  "kind": "text",
+  "tr": "Bazen bir duyguya yaklaşmak onu önce daha belirgin kılar. Kendinizi zorlamayın; bir yakınınızla konuşmak ya da bir uzmandan destek almak iyi gelebilir."
+ },
+ {
+  "id": "uc-137",
+  "kind": "text",
+  "tr": "aynı"
+ },
+ {
+  "id": "uc-138",
+  "kind": "text",
+  "tr": "Tam tur"
+ },
+ {
+  "id": "uc-139",
+  "kind": "text",
+  "tr": "Henüz kayıtlı bir seansınız yok."
+ },
+ {
+  "id": "uc-140",
+  "kind": "text",
+  "tr": "ortalama {a} → {b}"
+ },
+ {
+  "id": "uc-141",
+  "kind": "text",
+  "tr": "Tüm seans kayıtlarınız bu cihazdan silinsin mi?"
+ },
+ {
+  "id": "uc-142",
+  "kind": "text",
+  "tr": "Seans, tarayıcınızda JavaScript açıkken çalışır."
+ },
+ {
+  "id": "uc-143",
+  "kind": "text",
+  "tr": "Neden üç kapı?"
+ },
+ {
+  "id": "uc-144",
+  "kind": "text",
+  "tr": "Duyguya üç yoldan ulaşılır"
+ },
+ {
+  "id": "uc-145",
+  "kind": "text",
+  "tr": "Duygu yalnızca bir düşünce değildir; kaslarda, nefeste ve kelimelerde de yaşar. Her kapının arkasında farklı bir bilim dalı, farklı bir kanıt düzeyi var."
+ },
+ {
+  "id": "uc-146",
+  "kind": "text",
+  "tr": "Hareket, duyguya en hızlı uzanan yol olabilir"
+ },
+ {
+  "id": "uc-147",
+  "kind": "text",
+  "tr": "158 çalışmayı birleştiren bir analizde tek bir aerobik egzersiz seansı, kendini canlı ve enerjik hissetmeyi orta düzeyde artırdı; etki en az yarım saat sürdü ve en iyi sonuçlar hafif tempoda görüldü. Uzun vadede ise 218 çalışmayı inceleyen 2024 tarihli analizde yürüyüş ya da koşu, yoga ve güç çalışması depresyon belirtilerini azalttı."
+ },
+ {
+  "id": "uc-148",
+  "kind": "text",
+  "tr": "Seanstaki 90 saniyelik yürüyüş bu etkileri tek başına sağlamaz; amacı kapıyı aralamaktır. Daha fazlası için <a href=\"ruh-sagligi-egzersiz.html\">Ruh sağlığı için egzersiz</a> ve <a href=\"kas-gevsetme.html\">Kas gevşetme</a> sayfalarına bakabilirsiniz."
+ },
+ {
+  "id": "uc-149",
+  "kind": "text",
+  "tr": "Hem kendiliğinden hem isteğinizle çalışan sistem"
+ },
+ {
+  "id": "uc-150",
+  "kind": "text",
+  "tr": "Nefes, kendiliğinden işleyen ama istediğimizde yönetebildiğimiz ender bedensel işlevlerden biridir. Stanford’daki bir çalışmada bir ay boyunca her gün 5 dakika döngüsel iç çekiş yapanların olumlu duyguları meditasyon yapanlardan daha çok arttı ve dinlenme hâlindeki solunum hızları düştü. Dakikada yaklaşık 6 nefese yavaşlatılan başka bir çalışmada katılımcılar, stres altında daha düşük büyük tansiyon değerleri gösterdi."
+ },
+ {
+  "id": "uc-151",
+  "kind": "text",
+  "tr": "Tek tek çalışmalar; sonuçlar umut verici ama kesin değil. Daha uzun bir uygulama için <a href=\"ic-cekis.html\">5 dakikalık iç çekiş nefesi</a>."
+ },
+ {
+  "id": "uc-152",
+  "kind": "text",
+  "tr": "Adını koymak"
+ },
+ {
+  "id": "uc-153",
+  "kind": "text",
+  "tr": "UCLA’da 30 kişiyle yapılan bir beyin görüntüleme çalışmasında, öfkeli ya da korkmuş yüzlere bakarken duyguya bir isim vermek, beyindeki tehlike alarmı sayılan bölgenin (amigdala) tepkisini azalttı. Finlandiya’da 701 kişiyle yapılan çalışmada ise her duygu bedende kendine özgü bir harita çizdi. Duyguları yazmak da işe yarayabilir: 146 çalışmayı birleştiren analizde etki küçük ama anlamlıydı."
+ },
+ {
+  "id": "uc-154",
+  "kind": "text",
+  "tr": "Çoğu laboratuvar bulgusu; günlük hayattaki etkileri hâlâ araştırılıyor. Ruh hâlinizi izlemek için <a href=\"ruh-hali-olcumu.html\">Ruh hâlinizi ölçün</a>."
+ },
+ {
+  "id": "uc-155",
+  "kind": "text",
+  "tr": "Yaklaşımımız"
+ },
+ {
+  "id": "uc-156",
+  "kind": "text",
+  "tr": "Üç Kapı’nın beş ilkesi"
+ },
+ {
+  "id": "uc-157",
+  "kind": "text",
+  "tr": "Bilimsel bulgu"
+ },
+ {
+  "id": "uc-158",
+  "kind": "text",
+  "tr": "Duygu bedende yaşar"
+ },
+ {
+  "id": "uc-159",
+  "kind": "text",
+  "tr": "Duygular yalnızca kafada değil; göğüste, karında, omuzlarda hissedilir. Bedeni dinlemek, duyguyu anlamanın bir yoludur."
+ },
+ {
+  "id": "uc-160",
+  "kind": "text",
+  "tr": "Klinik yaklaşım"
+ },
+ {
+  "id": "uc-161",
+  "kind": "text",
+  "tr": "Aşağıdan yukarıya"
+ },
+ {
+  "id": "uc-162",
+  "kind": "text",
+  "tr": "Zihin çok doluyken düşünerek çıkmak zordur. Önce beden ve nefes, sonra kelimeler."
+ },
+ {
+  "id": "uc-163",
+  "kind": "text",
+  "tr": "Bulgu ve yaklaşım"
+ },
+ {
+  "id": "uc-164",
+  "kind": "text",
+  "tr": "Adını koy, yanında kal"
+ },
+ {
+  "id": "uc-165",
+  "kind": "text",
+  "tr": "Bir duyguyu hemen değiştirmeye çalışmak yerine önce fark edip adlandırın ve birkaç nefes boyunca yanında kalın."
+ },
+ {
+  "id": "uc-166",
+  "kind": "text",
+  "tr": "Ölçüm"
+ },
+ {
+  "id": "uc-167",
+  "kind": "text",
+  "tr": "Kendi verinize bakın"
+ },
+ {
+  "id": "uc-168",
+  "kind": "text",
+  "tr": "Her seansın öncesinde ve sonrasında ölçün; size neyin iyi geldiğini zamanla kendi sonuçlarınız gösterir."
+ },
+ {
+  "id": "uc-169",
+  "kind": "text",
+  "tr": "Dürüstlük"
+ },
+ {
+  "id": "uc-170",
+  "kind": "text",
+  "tr": "Kanıtı etiketleyin"
+ },
+ {
+  "id": "uc-171",
+  "kind": "text",
+  "tr": "Bilineni, umulanı ve inanılanı ayırt edin. Merakla bakın, ama kanıt isteyin."
+ },
+ {
+  "id": "uc-172",
+  "kind": "text",
+  "tr": "<strong>Dürüst bir not:</strong> Üç Kapı seansı bir bütün olarak henüz bir araştırmayla sınanmadı; parçaları ayrı ayrı, farklı düzeylerde kanıta dayanıyor. Bu yüzden seansın başında ve sonunda kendi ölçümünüzü yapmanızı istiyoruz: Size neyin iyi geldiğini en iyi kendi verileriniz gösterir."
+ },
+ {
+  "id": "uc-173",
+  "kind": "text",
+  "tr": "Bedenin hafızası: 1895’ten bugüne"
+ },
+ {
+  "id": "uc-174",
+  "kind": "text",
+  "tr": "Freud’dan Jung’a, park yürüyüşünden beyin görüntülemeye: beden ile duygu arasındaki bağı anlamaya çalışan fikirler ve yöntemler. Her birinin yanında, bugün ne kadar kanıtla desteklendiğini gösteren bir etiket var."
+ },
+ {
+  "id": "uc-175",
+  "kind": "text",
+  "tr": "Güçlü kanıt"
+ },
+ {
+  "id": "uc-176",
+  "kind": "text",
+  "tr": "Pek çok araştırmada işe yaradığı görüldü ya da bir sağlık otoritesi öneriyor."
+ },
+ {
+  "id": "uc-177",
+  "kind": "text",
+  "tr": "Umut verici"
+ },
+ {
+  "id": "uc-178",
+  "kind": "text",
+  "tr": "İlk sonuçlar iyi, ama araştırmalar az ya da küçük; daha fazlası gerekiyor."
+ },
+ {
+  "id": "uc-179",
+  "kind": "text",
+  "tr": "Tartışmalı"
+ },
+ {
+  "id": "uc-180",
+  "kind": "text",
+  "tr": "Çok kullanılıyor, ama temel fikri bilim insanları arasında tartışılıyor."
+ },
+ {
+  "id": "uc-181",
+  "kind": "text",
+  "tr": "Yeterli kanıt yok"
+ },
+ {
+  "id": "uc-182",
+  "kind": "text",
+  "tr": "Uygulayanlar var, ama işe yaradığı araştırmalarla yeterince gösterilmedi."
+ },
+ {
+  "id": "uc-183",
+  "kind": "text",
+  "tr": "Tarihsel fikir"
+ },
+ {
+  "id": "uc-184",
+  "kind": "text",
+  "tr": "Bugünkü düşünceyi şekillendirdi, ama kendisi kanıtlanmış değil."
+ },
+ {
+  "id": "uc-185",
+  "kind": "attr",
+  "tr": "Kanıt düzeyi"
+ },
+ {
+  "id": "uc-186",
+  "kind": "text",
+  "tr": "Bastırılmış duygu, bedensel belirti"
+ },
+ {
+  "id": "uc-187",
+  "kind": "text",
+  "tr": "Breuer ve Freud, açıklanamayan bedensel şikâyetlerin bastırılmış acı anılarla ilgili olabileceğini öne sürdü. Bugün bu tablonun bir bölümüne fonksiyonel nörolojik bozukluk deniyor: Beyin sağlam, ama çalışma biçiminde bir aksama var. Tedavide fizyoterapi ve psikoterapi birlikte kullanılıyor."
+ },
+ {
+  "id": "uc-188",
+  "kind": "text",
+  "tr": "Breuer ve Freud, 1895; Worcestershire NHS"
+ },
+ {
+  "id": "uc-189",
+  "kind": "text",
+  "tr": "Duyguyu deride ölçmek"
+ },
+ {
+  "id": "uc-190",
+  "kind": "text",
+  "tr": "Jung, insanlara kelimeler söyleyip akıllarına gelen ilk kelimeyi sordu ve bu sırada derideki elektriksel değişimi ölçtü. Duygusal yükü olan kelimelerde ibre belirgin biçimde oynadı. Psikolojinin bedeni ölçtüğü ilk deneylerden biri; bu ölçüm bugün de araştırmalarda kullanılıyor."
+ },
+ {
+  "id": "uc-191",
+  "kind": "text",
+  "tr": "Peterson ve Jung, Brain, 1907"
+ },
+ {
+  "id": "uc-192",
+  "kind": "text",
+  "tr": "Kasları sıkıp bırakmak"
+ },
+ {
+  "id": "uc-193",
+  "kind": "text",
+  "tr": "Edmund Jacobson, aşamalı kas gevşetmeyi kitaplaştırdı. Kaygıda gevşeme eğitimini inceleyen 27 çalışmalık analizde etki orta-büyük düzeydeydi."
+ },
+ {
+  "id": "uc-194",
+  "kind": "text",
+  "tr": "Jacobson, 1929; Manzoni ve ark., 2008"
+ },
+ {
+  "id": "uc-195",
+  "kind": "text",
+  "tr": "Kas zırhı"
+ },
+ {
+  "id": "uc-196",
+  "kind": "text",
+  "tr": "Wilhelm Reich, Karakter Analizi’nde ve sonraki çalışmalarında, bastırılan duyguların bedende süregiden kas gerginliği olarak bir “zırh” oluşturduğunu öne sürdü. Fikir bilimsel olarak doğrulanmadı; ama beden odaklı pek çok terapiye ilham verdi."
+ },
+ {
+  "id": "uc-197",
+  "kind": "text",
+  "tr": "Reich, Karakter Analizi, 1933"
+ },
+ {
+  "id": "uc-198",
+  "kind": "text",
+  "tr": "Bir park yürüyüşü"
+ },
+ {
+  "id": "uc-199",
+  "kind": "text",
+  "tr": "Francine Shapiro, yürürken göz hareketlerinin rahatsız edici anılarının yükünü hafiflettiğini fark etti. 1989’daki ilk kontrollü çalışmanın ardından gelişen EMDR, 2013’te Dünya Sağlık Örgütü’nün travma sonrası stres bozukluğunda önerdiği tedaviler arasına girdi."
+ },
+ {
+  "id": "uc-200",
+  "kind": "text",
+  "tr": "Shapiro, 1989; EMDR Institute"
+ },
+ {
+  "id": "uc-201",
+  "kind": "text",
+  "tr": "Polivagal teori"
+ },
+ {
+  "id": "uc-202",
+  "kind": "text",
+  "tr": "Stephen Porges, güvende hissetme ile vagus siniri arasında bağ kuran bir kuram öne sürdü. Klinikte çok popüler; ancak temel varsayımları 2023’te ayrıntılı biçimde eleştirildi. Bazı klinisyenler, kuram tartışmalı olsa da önerdiği nefes, ses ve hareket pratiklerini yararlı buluyor."
+ },
+ {
+  "id": "uc-203",
+  "kind": "text",
+  "tr": "Porges, 1995; Grossman, 2023; Giroux ve ark., 2023"
+ },
+ {
+  "id": "uc-204",
+  "kind": "text",
+  "tr": "Ruhsal Teknoloji ve PEAT"
+ },
+ {
+  "id": "uc-205",
+  "kind": "text",
+  "tr": "Živorad Mihajlović Slavinski’nin Sırbistan’da kurduğu topluluk ve geliştirdiği PEAT yöntemi. İşe yaradığını gösteren karşılaştırmalı bir araştırma bulamadık; ne aldığımızı aşağıda anlatıyoruz."
+ },
+ {
+  "id": "uc-206",
+  "kind": "text",
+  "tr": "Pinal Villanueva, 2024"
+ },
+ {
+  "id": "uc-207",
+  "kind": "text",
+  "tr": "Tek bir egzersiz seansı"
+ },
+ {
+  "id": "uc-208",
+  "kind": "text",
+  "tr": "158 çalışmayı ve 13.101 kişiyi bir araya getiren analizde, tek bir egzersiz seansı bile insanları daha canlı ve enerjik hissettirdi. En iyi sonuçlar hafif tempoda ve 35 dakikaya kadar süren seanslarda görüldü."
+ },
+ {
+  "id": "uc-209",
+  "kind": "text",
+  "tr": "Reed ve Ones, 2006"
+ },
+ {
+  "id": "uc-210",
+  "kind": "text",
+  "tr": "Duyguları yazmak"
+ },
+ {
+  "id": "uc-211",
+  "kind": "text",
+  "tr": "Duygularını yazıya döken kişileri inceleyen 146 çalışmanın birlikte değerlendirmesinde küçük ama gerçek bir fayda görüldü."
+ },
+ {
+  "id": "uc-212",
+  "kind": "text",
+  "tr": "Frattaroli, 2006"
+ },
+ {
+  "id": "uc-213",
+  "kind": "text",
+  "tr": "UCLA’da 30 kişiyle yapılan beyin görüntüleme çalışmasında, öfkeli ya da korkmuş bir yüze bakarken duyguya isim vermek, beyindeki tehlike alarmı sayılan bölgenin (amigdala) tepkisini azalttı."
+ },
+ {
+  "id": "uc-214",
+  "kind": "text",
+  "tr": "Lieberman ve ark., 2007"
+ },
+ {
+  "id": "uc-215",
+  "kind": "text",
+  "tr": "Duygu Kodu"
+ },
+ {
+  "id": "uc-216",
+  "kind": "text",
+  "tr": "Bradley Nelson’ın, “hapsolmuş duyguları” kas testi ve mıknatısla bulup serbest bırakmayı öne süren yöntemi. Yöntemi test eden bir araştırma bulamadık; dayandığı kas testi ise çift kör bir araştırmada şanstan iyi sonuç vermedi."
+ },
+ {
+  "id": "uc-217",
+  "kind": "text",
+  "tr": "Schwartz ve ark., 2014"
+ },
+ {
+  "id": "uc-218",
+  "kind": "text",
+  "tr": "Duyguların beden haritası"
+ },
+ {
+  "id": "uc-219",
+  "kind": "text",
+  "tr": "Finlandiya’da 701 kişi, farklı duyguları hissettiklerinde bedenlerinin neresinde bir şeylerin canlandığını ya da söndüğünü boyadı. Her duygunun kendine özgü bir haritası çıktı; haritalar Batı Avrupa ile Doğu Asya’da benzerdi."
+ },
+ {
+  "id": "uc-220",
+  "kind": "text",
+  "tr": "Nummenmaa ve ark., 2014"
+ },
+ {
+  "id": "uc-221",
+  "kind": "text",
+  "tr": "Bilerek alınan plasebo"
+ },
+ {
+  "id": "uc-222",
+  "kind": "text",
+  "tr": "Portekiz’de 97 bel ağrılı hasta, içinde ilaç olmadığını bilerek 3 hafta boyunca hap aldı ve ağrıları yaklaşık %30 azaldı; yalnızca olağan tedaviye devam edenlerde azalma yaklaşık %9’du. Beklenti ve ilişki, iyileşmenin gerçek bir parçası olabilir."
+ },
+ {
+  "id": "uc-223",
+  "kind": "text",
+  "tr": "Carvalho ve ark., 2016"
+ },
+ {
+  "id": "uc-224",
+  "kind": "text",
+  "tr": "Somatik Deneyimleme"
+ },
+ {
+  "id": "uc-225",
+  "kind": "text",
+  "tr": "Beden duyumlarına odaklanan bir travma terapisi, 63 kişilik bir araştırmada 15 seansta, bekleyen gruba göre travma sonrası stres belirtilerini belirgin biçimde azalttı. Tek bir araştırma; tekrarlanması gerekiyor."
+ },
+ {
+  "id": "uc-226",
+  "kind": "text",
+  "tr": "Brom ve ark., 2017"
+ },
+ {
+  "id": "uc-227",
+  "kind": "text",
+  "tr": "Dakikada 6 nefes"
+ },
+ {
+  "id": "uc-228",
+  "kind": "text",
+  "tr": "Nefesini dakikada yaklaşık 6’ya yavaşlatan grup, ardından gelen stresli bir zihin görevinde daha düşük büyük tansiyon değerleri gösterdi ve kendini daha iyi hissettiğini söyledi."
+ },
+ {
+  "id": "uc-229",
+  "kind": "text",
+  "tr": "Front Public Health, 2017"
+ },
+ {
+  "id": "uc-230",
+  "kind": "text",
+  "tr": "Döngüsel iç çekiş"
+ },
+ {
+  "id": "uc-231",
+  "kind": "text",
+  "tr": "Bir ay boyunca her gün 5 dakika iki kez alıp uzun veren kişilerin olumlu duyguları, meditasyon yapanlara göre daha çok arttı ve dinlenirken daha yavaş nefes almaya başladılar."
+ },
+ {
+  "id": "uc-232",
+  "kind": "text",
+  "tr": "Balban ve ark., 2023"
+ },
+ {
+  "id": "uc-233",
+  "kind": "text",
+  "tr": "Egzersiz ve depresyon"
+ },
+ {
+  "id": "uc-234",
+  "kind": "text",
+  "tr": "218 çalışmayı ve 14.170 kişiyi inceleyen analizde yürüyüş ya da koşu, yoga ve güç çalışması depresyon belirtilerini azalttı; önerilen tempo arttıkça fayda da büyüdü."
+ },
+ {
+  "id": "uc-235",
+  "kind": "text",
+  "tr": "Noetel ve ark., 2024"
+ },
+ {
+  "id": "uc-236",
+  "kind": "text",
+  "tr": "Ustalardan öğrendiklerimiz"
+ },
+ {
+  "id": "uc-237",
+  "kind": "text",
+  "tr": "Kitaplarıyla, klinikleriyle iz bırakanlar"
+ },
+ {
+  "id": "uc-238",
+  "kind": "text",
+  "tr": "Bu yaklaşımı kurarken yalnızca araştırma makalelerinden değil, kendi alanında iz bırakmış, kitaplar yazmış, insanlarla yıllarca çalışmış ustalardan da yararlandık. Bazılarının yöntemi araştırmalarla sınandı; bazılarınınki sınanmadı ya da sınavı geçemedi. Her birinden ne aldığımızı ve kanıtın nerede durduğunu açıkça yazıyoruz. Burada yer almaları, yöntemlerinin tümünü önerdiğimiz anlamına gelmez."
+ },
+ {
+  "id": "uc-239",
+  "kind": "text",
+  "tr": "Carl Gustav Jung"
+ },
+ {
+  "id": "uc-240",
+  "kind": "text",
+  "tr": "İsviçreli psikiyatrist, 1875–1961"
+ },
+ {
+  "id": "uc-241",
+  "kind": "text",
+  "tr": "Görmezden geldiğimiz duygular ve yanlarımız kaybolmaz; fark edilmeyi bekler. Jung, insanları iç dünyalarındaki duygu ve imgelerle konuşmaya davet etti."
+ },
+ {
+  "id": "uc-242",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Zihin kapısındaki “Bu duygu size bir şey söylemek isteseydi, ne derdi?” sorusu."
+ },
+ {
+  "id": "uc-243",
+  "kind": "text",
+  "tr": "Eugene Gendlin"
+ },
+ {
+  "id": "uc-244",
+  "kind": "text",
+  "tr": "Amerikalı filozof ve psikolog, 1926–2017"
+ },
+ {
+  "id": "uc-245",
+  "kind": "text",
+  "tr": "“Odaklanma” adını verdiği yöntemde, bir sorunun bedende henüz kelimelere dökülmemiş bulanık bir hissi olduğunu anlattı. O hisse sabırla eşlik edip ona uyan kelimeyi ya da imgeyi bulmak, bedende bir rahatlama getirebilir."
+ },
+ {
+  "id": "uc-246",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Duyguyu önce bedende bulup sonra ona isim vermek ve “Bu his bir şekil ya da renk olsaydı?” sorusu. Yöntem 1980’lerden sonra az araştırıldı."
+ },
+ {
+  "id": "uc-247",
+  "kind": "text",
+  "tr": "Peter Levine"
+ },
+ {
+  "id": "uc-248",
+  "kind": "text",
+  "tr": "Amerikalı psikolog, Somatik Deneyimleme’nin kurucusu"
+ },
+ {
+  "id": "uc-249",
+  "kind": "text",
+  "tr": "Zor yaşantıların yükü bedende kalabilir. Levine bu yükle küçük parçalar hâlinde çalışmayı ve dikkati, zorlayan bir duyum ile rahat hissettiren bir bölge arasında sarkaç gibi gidip getirmeyi önerir."
+ },
+ {
+  "id": "uc-250",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Duygunun yanında kalırken zorlanırsanız dikkatinizi ayaklarınıza götürmeniz. Yöntemi sınayan ilk karşılaştırmalı araştırmanın sonucu umut verici."
+ },
+ {
+  "id": "uc-251",
+  "kind": "text",
+  "tr": "Živorad Mihajlović Slavinski"
+ },
+ {
+  "id": "uc-252",
+  "kind": "text",
+  "tr": "Sırp yazar, 1937 doğumlu"
+ },
+ {
+  "id": "uc-253",
+  "kind": "text",
+  "tr": "Batı ezoterizmi üzerine 30 kadar kitap yazdı ve “ruhsal teknoloji” adını verdiği yirmi kadar yöntem geliştirdi. Bunlardan PEAT’te, bir sorunun altında birbirine zıt kutuplar bulunduğunu ve bunları bulup “nötrleştirmenin” rahatlattığını öne sürer."
+ },
+ {
+  "id": "uc-254",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Zihin kapısındaki “Bu duygunun karşıtı ne olurdu? İkisini birden fark edebilir misiniz?” sorusu. PEAT’in işe yaradığını gösteren bir araştırma bulamadık."
+ },
+ {
+  "id": "uc-255",
+  "kind": "text",
+  "tr": "Bradley Nelson"
+ },
+ {
+  "id": "uc-256",
+  "kind": "text",
+  "tr": "ABD’li kiropraktör, Duygu Kodu’nun kurucusu"
+ },
+ {
+  "id": "uc-257",
+  "kind": "text",
+  "tr": "Yaşanmış zor duyguların bedende “hapsolmuş duygular” olarak kaldığını öne sürer. Uygulayıcı bunları kolu bastırarak yapılan bir kas testiyle arar ve alından enseye doğru gezdirilen bir mıknatısla “serbest bırakmaya” çalışır."
+ },
+ {
+  "id": "uc-258",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Duyguyu bedende aramak fikri bizde de var. Ama kas testi ya da mıknatıs yerine sizin kendi farkındalığınızı kullanıyoruz; çünkü kas testi, 51 kişilik çift kör bir araştırmada şanstan iyi sonuç vermedi."
+ },
+ {
+  "id": "uc-259",
+  "kind": "text",
+  "tr": "Edmund Jacobson"
+ },
+ {
+  "id": "uc-260",
+  "kind": "text",
+  "tr": "Amerikalı hekim, 1888–1983"
+ },
+ {
+  "id": "uc-261",
+  "kind": "text",
+  "tr": "Gerginliği fark etmenin yolunun, kası önce bilerek sıkıp sonra bırakmak olduğunu gösterdi ve aşamalı kas gevşetmeyi geliştirdi."
+ },
+ {
+  "id": "uc-262",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Beden kapısında omuzlarınızı sıkıp bırakarak gerginlik ile gevşeme arasındaki farkı fark etmeniz. Ayrıntılı rehber: <a href=\"kas-gevsetme.html\">Kas gevşetme</a>."
+ },
+ {
+  "id": "uc-263",
+  "kind": "text",
+  "tr": "Francine Shapiro"
+ },
+ {
+  "id": "uc-264",
+  "kind": "text",
+  "tr": "Amerikalı psikolog, 1948–2019"
+ },
+ {
+  "id": "uc-265",
+  "kind": "text",
+  "tr": "Bir park yürüyüşünde fark ettiği küçük bir şeyi ciddiye aldı, sonra sınadı. Bu gözlemden doğan EMDR, bugün travma sonrası stres bozukluğunda önerilen tedaviler arasında."
+ },
+ {
+  "id": "uc-266",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Gözlemi ciddiye almak, sonra sınamak: yaklaşımımızın ruhu."
+ },
+ {
+  "id": "uc-267",
+  "kind": "text",
+  "tr": "Viktor Frankl"
+ },
+ {
+  "id": "uc-268",
+  "kind": "text",
+  "tr": "Avusturyalı psikiyatrist, 1905–1997"
+ },
+ {
+  "id": "uc-269",
+  "kind": "text",
+  "tr": "Toplama kamplarından sağ çıktıktan sonra yazdığı İnsanın Anlam Arayışı’nda, değiştiremediğimiz durumlarda bile o duruma karşı tutumumuzu seçebileceğimizi anlattı."
+ },
+ {
+  "id": "uc-270",
+  "kind": "text",
+  "tr": "<b>Üç Kapı’da:</b> Zihin kapısındaki “Bu durumda neyi değiştiremiyorsunuz, neyi seçebilirsiniz?” sorusu."
+ },
+ {
+  "id": "uc-271",
+  "kind": "text",
+  "tr": "Kanıtı olmayan bir yöntem neden bazı insanlara iyi geliyor?"
+ },
+ {
+  "id": "uc-272",
+  "kind": "text",
+  "tr": "<b>Beklenti ve ilişki:</b> Portekiz’de 97 kişiyle yapılan bir araştırmada, içinde ilaç olmadığını bilerek hap alan bel ağrılı hastaların ağrısı yaklaşık %30 azaldı; yalnızca olağan tedaviye devam edenlerde bu oran yaklaşık %9’du. Araştırmacılar sıcak ve anlayışlı bir ilişkinin önemine dikkat çekti."
+ },
+ {
+  "id": "uc-273",
+  "kind": "text",
+  "tr": "<b>Dikkat ve adlandırma:</b> Bu yöntemlerin çoğu, kişiyi bir duyguyu fark edip adlandırmaya yönlendirir; bunun kendisi bile duygusal tepkiyi azaltabilir."
+ },
+ {
+  "id": "uc-274",
+  "kind": "text",
+  "tr": "<b>Sakin bir ortam:</b> Yavaş nefes, dokunuş ve birinin size zaman ayırması kendi başına rahatlatıcı olabilir."
+ },
+ {
+  "id": "uc-275",
+  "kind": "text",
+  "tr": "<b>Zamanla hafifleme:</b> Pek çok sıkıntı zaman içinde kendiliğinden azalır ve bu, o sırada yapılan şeye mal edilebilir."
+ },
+ {
+  "id": "uc-276",
+  "kind": "text",
+  "tr": "Bir yöntemin iyi hissettirmesi, açıklamasının doğru olduğunu göstermez. Ama bir gözlemin değersiz olduğu anlamına da gelmez."
+ },
+ {
+  "id": "uc-277",
+  "kind": "text",
+  "tr": "EMDR de 1987’de bir park yürüyüşünde yapılan kişisel bir gözlemle başladı; 1989’da ilk karşılaştırmalı araştırmayla sınandı ve 2013’te Dünya Sağlık Örgütü’nün önerdiği tedaviler arasına girdi. <b>Klinik gözlem soruyu sorar; bilim cevabını arar.</b> Üç Kapı’nın yolu da bu."
+ },
+ {
+  "id": "uc-278",
+  "kind": "text",
+  "tr": "<strong>Kanıtı olmayan bir yöntemi denemeyi düşünüyorsanız:</strong> Onu tanı koymak için kullanmayın, hekiminizin önerdiği tedaviyi bırakmayın ve kesin sonuç vaat eden, yüksek ücret isteyen uygulamalara karşı dikkatli olun."
+ },
+ {
+  "id": "uc-279",
+  "kind": "text",
+  "tr": "Üç Kapı bir terapi mi?"
+ },
+ {
+  "id": "uc-280",
+  "kind": "text",
+  "tr": "Hayır. Üç Kapı, günlük hayatta kullanabileceğiniz bir öz bakım pratiğidir; bir tanının ya da tedavinin yerini tutmaz. Haftalardır süren kaygı, çökkünlük ya da travma belirtileriniz varsa bir ruh sağlığı uzmanına başvurabilirsiniz; travma sonrası stres bozukluğunda EMDR gibi etkinliği gösterilmiş tedaviler var."
+ },
+ {
+  "id": "uc-281",
+  "kind": "text",
+  "tr": "Hangi kapıdan başlamalıyım?"
+ },
+ {
+  "id": "uc-282",
+  "kind": "text",
+  "tr": "Seansın başındaki üç soru size bir öneri sunar. Bizim yaklaşımımızda zihin çok doluyken önce beden ve nefesle başlamak, sonra kelimelere geçmek öneriliyor; ama en iyi kapı, sizin için açılandır. Seans sonundaki ölçümlerle hangi kapının size daha çok iyi geldiğini zamanla görebilirsiniz."
+ },
+ {
+  "id": "uc-283",
+  "kind": "text",
+  "tr": "Seans sırasında duygularım yoğunlaşırsa ne yapmalıyım?"
+ },
+ {
+  "id": "uc-284",
+  "kind": "text",
+  "tr": "Durabilirsiniz. Gözlerinizi açıp çevrenize bakın, ayaklarınızın yere bastığını hissedin ve normal nefesinize dönün. Bir duyguya yaklaşmak bazen onu önce daha belirgin kılar; kendinizi zorlamanız gerekmez."
+ },
+ {
+  "id": "uc-285",
+  "kind": "text",
+  "tr": "Başım dönerse ya da dengem zayıfsa?"
+ },
+ {
+  "id": "uc-286",
+  "kind": "text",
+  "tr": "Nefes kapısında baş dönmesi olursa hemen normal nefesinize dönün; ikinci nefes kısa ve hafif olabilir. Beden kapısında dengeniz zayıfsa oturarak yapma seçeneğini kullanabilirsiniz."
+ },
+ {
+  "id": "uc-287",
+  "kind": "text",
+  "tr": "Kanıtı olmayan yöntemleri denemeli miyim?"
+ },
+ {
+  "id": "uc-288",
+  "kind": "text",
+  "tr": "Bu sizin kararınız. Denemeyi düşünüyorsanız hekiminizin önerdiği tedaviyi bırakmayın, bu yöntemleri tanı koymak için kullanmayın ve uygulayıcıya “Bu yöntem bir araştırmayla sınandı mı?” diye sorabilirsiniz. Kesin sonuç vaat eden ve yüksek ücret isteyen uygulamalara karşı dikkatli olabilirsiniz."
+ },
+ {
+  "id": "uc-289",
+  "kind": "text",
+  "tr": "<strong>Destek almak önemlidir:</strong> Haftalardır süren kaygı, çökkünlük ya da uyku sorunları geçmiyorsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa 112'yi arayın."
+ },
+ {
+  "id": "uc-290",
+  "kind": "text",
+  "tr": "Frattaroli J. Experimental disclosure and its moderators: a meta-analysis. Psychol Bull. 2006;132(6):823–865. <a href=\"https://stafforini.com/works/frattaroli-2006-experimental-disclosure-its/\" target=\"_blank\" rel=\"noopener\">Özet</a>."
+ },
+ {
+  "id": "uc-291",
+  "kind": "text",
+  "tr": "Shapiro F. Efficacy of the eye movement desensitization procedure in the treatment of traumatic memories. J Trauma Stress. 1989;2(2):199–223. Tarihçe: <a href=\"https://www.emdr.com/history-of-emdr/\" target=\"_blank\" rel=\"noopener\">EMDR Institute, The history of EMDR therapy</a>."
+ },
+ {
+  "id": "uc-292",
+  "kind": "text",
+  "tr": "Grossman P. <a href=\"https://zenodo.org/records/7955274\" target=\"_blank\" rel=\"noopener\">Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory</a>. 2023."
+ },
+ {
+  "id": "uc-293",
+  "kind": "text",
+  "tr": "Breuer J, Freud S. Studien über Hysterie. Leipzig, Wien: Deuticke; 1895."
+ },
+ {
+  "id": "uc-294",
+  "kind": "text",
+  "tr": "Worcestershire Acute Hospitals NHS Trust. <a href=\"https://www.worcsacute.nhs.uk/leaflets/what-is-functional-neurological-disorder-fnd/\" target=\"_blank\" rel=\"noopener\">What is functional neurological disorder (FND)?</a>."
+ },
+ {
+  "id": "uc-295",
+  "kind": "text",
+  "tr": "Elezović N. <a href=\"https://www.bib.irb.hr/1046538\" target=\"_blank\" rel=\"noopener\">Živorad Mihajlović Slavinski – author of globally influental systems of spiritual technology</a>. CEENASWE konferansı, Belgrad, 2016."
+ },
+ {
+  "id": "uc-296",
+  "kind": "text",
+  "tr": "Mihajlović Slavinski Ž. PEAT: Primordial Energy Activation and Transcendence and the Neutralization of Polarities. Kitap."
+ },
+ {
+  "id": "uc-297",
+  "kind": "text",
+  "tr": "Nelson B. The Emotion Code. Kitap. Yöntemin anlatımı: <a href=\"https://allwithin.substack.com/p/what-is-emotion-code\" target=\"_blank\" rel=\"noopener\">All Within, What is Emotion Code?</a>."
+ },
+ {
+  "id": "uc-298",
+  "kind": "text",
+  "tr": "Schwartz SA, Utts J, Spottiswoode SJP, et al. A double-blind, randomized study to assess the validity of applied kinesiology (AK) as a diagnostic tool and as a nonlocal proximity effect. Explore (NY). 2014;10(2):99–108. Özet: <a href=\"https://skepdoc.info/?p=6276\" target=\"_blank\" rel=\"noopener\">SkepDoc</a>."
+ },
+ {
+  "id": "uc-299",
+  "kind": "ld",
+  "tr": "Duygu düzenleme"
+ }
+]
