@@ -575,6 +575,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kambur-durus.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/uc-kapi.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uc-kapi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/three-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uc-kapi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1147,5 +1154,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kambur-durus.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/kyphosis.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kambur-durus.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/three-doors.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/uc-kapi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/three-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/uc-kapi.html"/>
   </url>
 </urlset>
