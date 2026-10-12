@@ -205,7 +205,6 @@
   .kt-idx[open] > summary small::after{transform:rotate(-135deg) translateY(-3px)}
   .kt-idx[open] > summary{border-color:var(--line)}
   .kt-idx > summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-  @media (min-width:900px){.kt-idx > summary{display:none}}
   @media (prefers-reduced-motion:reduce){.kt-mini,.kt-tabs button,.kt-idx > summary small::after{transition:none}.kt-on section.kt-p.kt-in{animation:none}}
 
   .sec-head{display:grid;gap:8px;margin-bottom:24px}
@@ -500,7 +499,7 @@
   /* gallery mosaic */
   .mosaic-wrap{container-type:inline-size}
   .mosaic{
-    --cols:5;--g:5px;
+    --cols:4;--g:5px;
     display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:var(--g);
     grid-auto-rows:calc((100cqw - (var(--cols) - 1) * var(--g)) / var(--cols) * .75);
     grid-auto-flow:dense;
@@ -510,8 +509,7 @@
   .tile img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
   .tile.big{grid-row:span 2;grid-column:span 2}
   .tile img[src*="p03"]{object-position:50% 18%}
-  .tile.wide{grid-column:span 2}
-  .tile.wide img{object-position:50% 0%}
+
 
   .btn{
     all:unset;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;
@@ -1849,7 +1847,7 @@
         <a class="kc" href="stress.html"><svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="75" r="58" fill="none" stroke="rgba(216,178,94,.35)"/><circle cx="160" cy="75" r="42" fill="rgba(226,171,71,.22)"/><circle cx="160" cy="75" r="26" fill="rgba(143,164,118,.45)"/><path d="M40 75c20-14 40-14 60 0M220 75c20 14 40 14 60 0" fill="none" stroke="#8fa476" stroke-width="3" stroke-linecap="round"/></svg><span class="b"><span class="k">Look after yourself</span><h3>What can you do in stressful moments?</h3><p>Breathing exercises, five skills from a WHO guide, and a free illustrated guide with audio exercises.</p><span class="go">Read →</span></span></a>
         <a class="kc" href="medical-advances.html"><svg viewBox="0 0 320 150" aria-hidden="true"><g fill="none" stroke-width="4" stroke-linecap="round"><path d="M40 75 C80 35 120 35 160 75 S240 115 280 75" stroke="#8fa476"/><path d="M40 75 C80 115 120 115 160 75 S240 35 280 75" stroke="#ece5cf" opacity=".8"/></g><g stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-linecap="round"><path d="M64 59v32M96 49v52M128 53v44M192 59v32M224 49v52M256 53v44"/></g><path d="M160 61v28" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/></svg><span class="b"><span class="k">Science news</span><h3>The medicine of the future, today</h3><p>Blood tests that detect Alzheimer’s, pig kidney transplants, AI in mammography, gene therapies and new findings in rehabilitation.</p><span class="go">Read →</span></span></a>
       </div>
-      <details class="kt-idx" id="kt-idx" open><summary><span>Show all topics</span><small data-n="109"><span>topics</span></small></summary>
+      <details class="kt-idx" id="kt-idx"><summary><span>Show all topics</span><small data-n="109"><span>topics</span></small></summary>
       <div class="kose-idx">
         <div class="kg"><a class="lbl" href="health-library.html#agrilar"><span>Conditions</span><small>48</small></a><div class="pl"><a class="pill" href="low-back-pain.html">Low back pain</a><a class="pill" href="lumbar-disc-herniation.html">Lumbar disc herniation</a><a class="pill" href="piriformis-syndrome.html">Piriformis syndrome</a><a class="pill" href="lumbar-spinal-stenosis.html">Spinal stenosis</a><a class="pill" href="spondylolisthesis.html">Slipped vertebra</a><a class="pill" href="tailbone-pain.html">Tailbone</a><a class="pill" href="ankylosing-spondylitis.html">Ankylosing spondylitis</a><a class="pill" href="scoliosis.html">Scoliosis</a><a class="pill" href="kyphosis.html">Hunched back</a><a class="pill" href="neck-pain.html">Neck pain</a><a class="pill" href="straight-neck.html">Straight neck</a><a class="pill" href="cervical-disc-herniation.html">Cervical disc herniation</a><a class="pill" href="headache.html">Headache</a><a class="pill" href="jaw-joint-tmd.html">Jaw joint</a><a class="pill" href="vertigo-bppv.html">Vertigo</a><a class="pill" href="frozen-shoulder.html">Frozen shoulder</a><a class="pill" href="shoulder-impingement.html">Shoulder impingement</a><a class="pill" href="rotator-cuff-tear.html">Rotator cuff tear</a><a class="pill" href="shoulder-dislocation.html">Dislocated shoulder</a><a class="pill" href="carpal-tunnel-syndrome.html">Carpal tunnel</a><a class="pill" href="tennis-elbow.html">Tennis elbow</a><a class="pill" href="de-quervains-tenosynovitis.html">De Quervain’s</a><a class="pill" href="trigger-finger.html">Trigger finger</a><a class="pill" href="golfers-elbow.html">Golfer’s elbow</a><a class="pill" href="knee-osteoarthritis.html">Knee osteoarthritis</a><a class="pill" href="meniscus-tear.html">Meniscus tear</a><a class="pill" href="acl-injury.html">ACL injury</a><a class="pill" href="anterior-knee-pain.html">Anterior knee pain</a><a class="pill" href="jumpers-knee.html">Jumper’s knee</a><a class="pill" href="hip-osteoarthritis.html">Hip osteoarthritis</a><a class="pill" href="hip-impingement.html">Hip impingement</a><a class="pill" href="lateral-hip-pain.html">Lateral hip pain</a><a class="pill" href="plantar-fasciitis.html">Heel spur</a><a class="pill" href="achilles-tendinopathy.html">Achilles tendinopathy</a><a class="pill" href="ankle-sprain.html">Ankle sprain</a><a class="pill" href="diabetic-neuropathy.html">Diabetic neuropathy</a><a class="pill" href="flat-feet.html">Flat feet</a><a class="pill" href="bunions.html">Hallux valgus</a><a class="pill" href="urinary-incontinence.html">Urinary incontinence</a><a class="pill" href="pregnancy-back-pain.html">Back pain in pregnancy</a><a class="pill" href="osteoporosis.html">Osteoporosis</a><a class="pill" href="sarcopenia.html">Sarcopenia</a><a class="pill" href="fibromyalgia.html">Fibromyalgia</a><a class="pill" href="rheumatoid-arthritis.html">Rheumatoid arthritis</a><a class="pill" href="always-feeling-cold.html">Always feeling cold</a><a class="pill" href="tremor.html">Tremor</a><a class="pill" href="bells-palsy.html">Bell’s palsy</a><a class="pill" href="restless-legs-syndrome.html">Restless legs</a></div></div>
         <div class="kg"><a class="lbl" href="health-library.html#rehabilitasyon"><span>Rehabilitation at home</span><small>13</small></a><div class="pl"><a class="pill" href="fall-prevention.html">Fall prevention</a><a class="pill" href="joint-replacement-rehab.html">After joint replacement</a><a class="pill" href="stroke-rehabilitation.html">After stroke</a><a class="pill" href="spinal-cord-injury.html">Spinal cord injury</a><a class="pill" href="guillain-barre-syndrome.html">Guillain-Barré</a><a class="pill" href="hip-fracture-rehab.html">Hip fracture</a><a class="pill" href="parkinsons-disease.html">Parkinson’s</a><a class="pill" href="dementia-and-exercise.html">Dementia and exercise</a><a class="pill" href="multiple-sclerosis.html">Multiple sclerosis (MS)</a><a class="pill" href="exercise-and-cancer.html">Cancer and exercise</a><a class="pill" href="lymphoedema.html">Lymphoedema</a><a class="pill" href="copd-pulmonary-rehabilitation.html">COPD</a><a class="pill" href="cardiac-rehabilitation.html">Cardiac rehabilitation</a></div></div>
@@ -2115,17 +2113,15 @@
     [13, 'Dry needling on the back'],
     [10, 'Manual therapy on the knee'],
     [2, 'Electrotherapy on the leg'],
-    [21, 'Exercise with a resistance band'],
     [3, 'Measuring grip strength']
   ];
   var m = document.getElementById('mosaic');
   var pad = function(n){ return (n<10?'0':'') + n; };
   picks.forEach(function(p, i){
     var b = document.createElement('div');
-    var wide = p[0] === 21;
-    b.className = 'tile' + (i === 0 ? ' big' : '') + (wide ? ' wide' : '');
+    b.className = 'tile' + (i === 0 ? ' big' : '');
     var im = document.createElement('img');
-    im.src = '../p' + pad(p[0]) + (i === 0 || wide ? '.jpg' : '_t.jpg');
+    im.src = '../p' + pad(p[0]) + (i === 0 ? '.jpg' : '_t.jpg');
     im.alt = p[1];
     im.loading = 'lazy';
     im.decoding = 'async';
@@ -2662,8 +2658,6 @@
   window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } }, {passive: true});
   window.addEventListener('resize', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } });
   if (!go(location.hash, false)) pick(0, true);
-  var d = document.getElementById('kt-idx');
-  if (d && window.matchMedia && !matchMedia('(min-width: 900px)').matches) d.open = false;
 })();
 </script>
 <script src="../ara.js" defer></script>

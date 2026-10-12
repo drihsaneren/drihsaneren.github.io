@@ -205,7 +205,6 @@
   .kt-idx[open] > summary small::after{transform:rotate(-135deg) translateY(-3px)}
   .kt-idx[open] > summary{border-color:var(--line)}
   .kt-idx > summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-  @media (min-width:900px){.kt-idx > summary{display:none}}
   @media (prefers-reduced-motion:reduce){.kt-mini,.kt-tabs button,.kt-idx > summary small::after{transition:none}.kt-on section.kt-p.kt-in{animation:none}}
 
   .sec-head{display:grid;gap:8px;margin-bottom:24px}
@@ -500,7 +499,7 @@
   /* gallery mosaic */
   .mosaic-wrap{container-type:inline-size}
   .mosaic{
-    --cols:5;--g:5px;
+    --cols:4;--g:5px;
     display:grid;grid-template-columns:repeat(var(--cols),1fr);gap:var(--g);
     grid-auto-rows:calc((100cqw - (var(--cols) - 1) * var(--g)) / var(--cols) * .75);
     grid-auto-flow:dense;
@@ -510,8 +509,7 @@
   .tile img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
   .tile.big{grid-row:span 2;grid-column:span 2}
   .tile img[src*="p03"]{object-position:50% 18%}
-  .tile.wide{grid-column:span 2}
-  .tile.wide img{object-position:50% 0%}
+
 
   .btn{
     all:unset;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;
@@ -1848,7 +1846,7 @@
         <a class="kc" href="stres.html"><svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="160" cy="75" r="58" fill="none" stroke="rgba(216,178,94,.35)"/><circle cx="160" cy="75" r="42" fill="rgba(226,171,71,.22)"/><circle cx="160" cy="75" r="26" fill="rgba(143,164,118,.45)"/><path d="M40 75c20-14 40-14 60 0M220 75c20 14 40 14 60 0" fill="none" stroke="#8fa476" stroke-width="3" stroke-linecap="round"/></svg><span class="b"><span class="k">Kendine iyi bak</span><h3>Stresli anlarda ne yapabilirsiniz?</h3><p>Nefes egzersizleri, DSÖ rehberinden beş beceri, Türkçe kitapçık ve ses kayıtları.</p><span class="go">Oku →</span></span></a>
         <a class="kc" href="yenilikler.html"><svg viewBox="0 0 320 150" aria-hidden="true"><g fill="none" stroke-width="4" stroke-linecap="round"><path d="M40 75 C80 35 120 35 160 75 S240 115 280 75" stroke="#8fa476"/><path d="M40 75 C80 115 120 115 160 75 S240 35 280 75" stroke="#ece5cf" opacity=".8"/></g><g stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-linecap="round"><path d="M64 59v32M96 49v52M128 53v44M192 59v32M224 49v52M256 53v44"/></g><path d="M160 61v28" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/></svg><span class="b"><span class="k">Bilim gündemi</span><h3>Geleceğin tıbbı, bugün</h3><p>Alzheimer'ı kandan tanıyan testler, domuz böbreği nakli, mamografide yapay zekâ, gen tedavileri ve rehabilitasyonda yeni bulgular.</p><span class="go">Oku →</span></span></a>
       </div>
-      <details class="kt-idx" id="kt-idx" open><summary><span>Tüm konuları göster</span><small data-n="109"><span>başlık</span></small></summary>
+      <details class="kt-idx" id="kt-idx"><summary><span>Tüm konuları göster</span><small data-n="109"><span>başlık</span></small></summary>
       <div class="kose-idx">
         <div class="kg"><a class="lbl" href="bilgi.html#agrilar"><span>Hastalıklar</span><small>48</small></a><div class="pl"><a class="pill" href="bel-agrisi.html">Bel ağrısı</a><a class="pill" href="bel-fitigi.html">Bel fıtığı</a><a class="pill" href="piriformis-sendromu.html">Piriformis sendromu</a><a class="pill" href="dar-kanal.html">Dar kanal</a><a class="pill" href="bel-kaymasi.html">Bel kayması</a><a class="pill" href="kuyruk-sokumu-agrisi.html">Kuyruk sokumu</a><a class="pill" href="ankilozan-spondilit.html">Ankilozan spondilit</a><a class="pill" href="skolyoz.html">Skolyoz</a><a class="pill" href="kambur-durus.html">Kambur duruş</a><a class="pill" href="boyun-agrisi.html">Boyun ağrısı</a><a class="pill" href="boyun-duzlesmesi.html">Boyun düzleşmesi</a><a class="pill" href="boyun-fitigi.html">Boyun fıtığı</a><a class="pill" href="bas-agrisi.html">Baş ağrısı</a><a class="pill" href="cene-eklemi.html">Çene eklemi</a><a class="pill" href="bas-donmesi.html">Baş dönmesi</a><a class="pill" href="donuk-omuz.html">Donuk omuz</a><a class="pill" href="omuz-sikismasi.html">Omuz sıkışması</a><a class="pill" href="rotator-manset-yirtigi.html">Rotator manşet yırtığı</a><a class="pill" href="omuz-cikigi.html">Omuz çıkığı</a><a class="pill" href="karpal-tunel-sendromu.html">Karpal tünel</a><a class="pill" href="tenisci-dirsegi.html">Tenisçi dirseği</a><a class="pill" href="de-quervain.html">De Quervain</a><a class="pill" href="tetik-parmak.html">Tetik parmak</a><a class="pill" href="golfcu-dirsegi.html">Golfçü dirseği</a><a class="pill" href="diz-kireclenmesi.html">Diz kireçlenmesi</a><a class="pill" href="menisku-yirtigi.html">Menisküs yırtığı</a><a class="pill" href="on-capraz-bag.html">Ön çapraz bağ</a><a class="pill" href="diz-onu-agrisi.html">Diz önü ağrısı</a><a class="pill" href="atlet-dizi.html">Atlet dizi</a><a class="pill" href="kalca-kireclenmesi.html">Kalça kireçlenmesi</a><a class="pill" href="kalca-sikismasi.html">Kalça sıkışması</a><a class="pill" href="kalca-yan-agrisi.html">Kalça yan ağrısı</a><a class="pill" href="topuk-dikeni.html">Topuk dikeni</a><a class="pill" href="asil-tendinopatisi.html">Aşil tendinopatisi</a><a class="pill" href="ayak-bilegi-burkulmasi.html">Ayak bileği burkulması</a><a class="pill" href="diyabetik-noropati.html">Diyabetik nöropati</a><a class="pill" href="duztabanlik.html">Düztabanlık</a><a class="pill" href="halluks-valgus.html">Halluks valgus</a><a class="pill" href="idrar-kacirma.html">İdrar kaçırma</a><a class="pill" href="gebelikte-bel-agrisi.html">Gebelikte bel ağrısı</a><a class="pill" href="kemik-erimesi.html">Kemik erimesi</a><a class="pill" href="sarkopeni.html">Sarkopeni</a><a class="pill" href="fibromiyalji.html">Fibromiyalji</a><a class="pill" href="romatoid-artrit.html">Romatoid artrit</a><a class="pill" href="surekli-usume.html">Sürekli üşüme</a><a class="pill" href="titreme.html">Titreme</a><a class="pill" href="yuz-felci.html">Yüz felci</a><a class="pill" href="huzursuz-bacak.html">Huzursuz bacak</a></div></div>
         <div class="kg"><a class="lbl" href="bilgi.html#rehabilitasyon"><span>Evde rehabilitasyon</span><small>13</small></a><div class="pl"><a class="pill" href="dusme-onleme.html">Düşmeyi önleme</a><a class="pill" href="protez-sonrasi.html">Protez sonrası</a><a class="pill" href="inme-rehabilitasyonu.html">İnme sonrası</a><a class="pill" href="omurilik-yaralanmasi.html">Omurilik yaralanması</a><a class="pill" href="guillain-barre.html">Guillain-Barré</a><a class="pill" href="kalca-kirigi.html">Kalça kırığı</a><a class="pill" href="parkinson.html">Parkinson</a><a class="pill" href="demans-egzersiz.html">Demansta egzersiz</a><a class="pill" href="multipl-skleroz.html">Multipl skleroz (MS)</a><a class="pill" href="kanser-egzersiz.html">Kanser ve egzersiz</a><a class="pill" href="lenfodem.html">Lenfödem</a><a class="pill" href="koah.html">KOAH</a><a class="pill" href="kalp-rehabilitasyonu.html">Kalp rehabilitasyonu</a></div></div>
@@ -2114,17 +2112,15 @@
     [13, 'Sırtta kuru iğneleme'],
     [10, 'Dizde manuel terapi'],
     [2, 'Bacağa elektroterapi'],
-    [21, 'Lastik bantla egzersiz'],
     [3, 'Kavrama gücü ölçümü']
   ];
   var m = document.getElementById('mosaic');
   var pad = function(n){ return (n<10?'0':'') + n; };
   picks.forEach(function(p, i){
     var b = document.createElement('div');
-    var wide = p[0] === 21;
-    b.className = 'tile' + (i === 0 ? ' big' : '') + (wide ? ' wide' : '');
+    b.className = 'tile' + (i === 0 ? ' big' : '');
     var im = document.createElement('img');
-    im.src = 'p' + pad(p[0]) + (i === 0 || wide ? '.jpg' : '_t.jpg');
+    im.src = 'p' + pad(p[0]) + (i === 0 ? '.jpg' : '_t.jpg');
     im.alt = p[1];
     im.loading = 'lazy';
     im.decoding = 'async';
@@ -2661,8 +2657,6 @@
   window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } }, {passive: true});
   window.addEventListener('resize', function(){ if (!tick) { tick = true; requestAnimationFrame(upd); } });
   if (!go(location.hash, false)) pick(0, true);
-  var d = document.getElementById('kt-idx');
-  if (d && window.matchMedia && !matchMedia('(min-width: 900px)').matches) d.open = false;
 })();
 </script>
 <script src="ara.js" defer></script>
