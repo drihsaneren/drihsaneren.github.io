@@ -2483,5 +2483,25 @@
   "id": "fb497",
   "kind": "text",
   "tr": "Spora vakit yok mu? Gün içine serpiştirilmiş birer dakikalık hızlı hareketler: altı atıştırmalık ve bir dakikalık zamanlayıcı."
+ },
+ {
+  "id": "fb498",
+  "kind": "text",
+  "tr": "Egzersiz yaparken ağrı normal mi, ne zaman durmalı? Üç soruyu yanıtlayın: yeşil devam, sarı izle, kırmızı yükü azalt."
+ },
+ {
+  "id": "fb499",
+  "kind": "text",
+  "tr": "Ağrı her zaman gerçektir, ama şiddeti her zaman doku hasarını göstermez. Vücudun alarm sistemi ve ağrısız insanların MR bulguları."
+ },
+ {
+  "id": "fb500",
+  "kind": "text",
+  "tr": "Egzersizde ağrı"
+ },
+ {
+  "id": "fb501",
+  "kind": "text",
+  "tr": "Ağrıyla yaşamak"
  }
 ]

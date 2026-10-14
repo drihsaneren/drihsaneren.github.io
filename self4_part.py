@@ -548,3 +548,399 @@ page("hareket-atistirmaliklari.html", "Hareket Atıştırmalıkları",
      seo_title="Hareket Atıştırmalıkları: Günde 3 × 1 Dakika Hızlı Hareket ve Zamanlayıcı | İhsan Eren",
      about=[{"@type": "Thing", "name": "Fiziksel aktivite"}],
      faq_items=SN_FAQ)
+
+# ------------------------------------------------------------------ 3 · AĞRIYI ANLAMAK
+SELF4_CSS += """
+  /* ağrıyı anlamak */
+  .iasp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:10px}
+  @media (max-width:860px){.iasp{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (max-width:520px){.iasp{grid-template-columns:1fr}}
+  .iasp div{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--ground-2)}
+  .iasp b{display:block;font-family:var(--display);font-weight:400;font-size:20px;color:var(--ink);margin-bottom:4px}
+  .iasp p{margin:0;font-size:15px;color:var(--ink-soft)}
+  .def-q{font-family:var(--display);font-size:clamp(22px,3vw,28px);line-height:1.35;color:var(--ink);border-left:3px solid var(--foil);padding:6px 0 6px 18px;margin:8px 0 6px;max-width:60ch}
+  .al{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"in out" "ch out";gap:4px clamp(18px,4vw,40px);align-items:start}
+  .al-in{grid-area:in}.al-ch{grid-area:ch}.al-o{grid-area:out}
+  @media (max-width:820px){.al{grid-template-columns:1fr;grid-template-areas:"in" "out" "ch"}}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 14px}
+  .chips button{all:unset;cursor:pointer;padding:8px 13px;border-radius:999px;border:1px solid var(--line-strong);font-size:14px;color:var(--ink-soft)}
+  .chips button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .chips.up button[aria-pressed="true"]{background:#c9694f;border-color:#c9694f;color:#fff;font-weight:600}
+  .chips.dn button[aria-pressed="true"]{background:var(--sage);border-color:var(--sage);color:var(--ground);font-weight:600}
+  .meter{margin:10px 0 16px}
+  .meter span{display:flex;justify-content:space-between;font-size:14px;color:var(--ink-soft);margin-bottom:6px}
+  .meter span b{color:var(--ink);font-variant-numeric:tabular-nums}
+  .meter .bar{height:16px;border-radius:8px;background:rgba(236,229,207,.10);overflow:hidden}
+  .meter .bar i{display:block;height:100%;border-radius:8px;transition:width .35s ease,background .35s ease}
+  .meter.in .bar i{background:var(--sage)}
+  .al-out{font-family:var(--display);font-size:clamp(20px,2.6vw,24px);color:var(--ink);line-height:1.35;min-height:3.2em}
+  input[type=range].rng{width:100%;accent-color:var(--foil)}
+"""
+
+AA_UP = ["Kötü uyku", "Stres", "“Hareket zarar verir” korkusu", "Uzun süre hareketsizlik", "Yalnızlık"]
+AA_DN = ["İyi uyku", "Kademeli hareket", "Ağrıyı anlamak", "Güven ve destek", "Keyif veren uğraşlar"]
+AA_UPH = "".join(f'<button type="button" aria-pressed="false">{x}</button>' for x in AA_UP)
+AA_DNH = "".join(f'<button type="button" aria-pressed="false">{x}</button>' for x in AA_DN)
+MR = [("Disk dejenerasyonu", 37, 96), ("Disk taşması (bulging)", 30, 84), ("Disk fıtığı (protrüzyon)", 29, 43), ("Disk zarında yırtık (anüler fissür)", 19, 29)]
+MR_ROWS = "\n".join(f'<div class="row" data-a="{a}" data-b="{b}"><span>{t}</span><span class="bar"><i style="width:{a}%"></i></span><b>%{a}</b></div>' for t, a, b in MR)
+
+AA_FAQ = [
+ ("Yani ağrım hayal ürünü mü?", "Hayır. Ağrı her zaman gerçek bir deneyimdir. Uluslararası Ağrı Araştırmaları Derneği’nin tanımına göre birinin ağrısı olduğunu söylemesi ciddiye alınmalıdır. Ağrının beyinde oluşması, onun “kafada” ya da uydurma olduğu anlamına gelmez; tüm ağrılar beyinde oluşur."),
+ ("Ağrı varsa mutlaka hasar var demek mi?", "Her zaman değil. Ağrı ile dokudan gelen tehlike sinyali aynı şey değildir; ağrının şiddeti her zaman doku hasarının büyüklüğünü göstermez. Örneğin ağrısı olmayan insanların bel MR’larında da disk değişiklikleri çok sık görülür."),
+ ("MR raporumda fıtık ya da dejenerasyon yazıyor; ağrımın nedeni bu mu?", "Olabilir, ama kesin değildir. Bu bulgular ağrısız insanlarda da sık ve yaşla artar. Hekiminiz MR’ı muayene bulgularınız ve şikâyetlerinizle birlikte değerlendirir."),
+ ("Ağrıyı anlamak gerçekten işe yarar mı?", "12 randomize çalışmanın derlemesinde ağrı nörobilimi eğitimi tek başına ağrı ve günlük işlevlerde yalnızca küçük iyileşmeler sağladı; ama kısa vadede hareket etme korkusunu anlamlı ölçüde azalttı. Hastalar, kendi hikâyelerini anlatabildikleri bir eğitimi daha yararlı buldu."),
+]
+
+AA_BODY = f'''<header class="page">
+  <div class="wrap">
+    <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
+    <p class="eyebrow">Kendine iyi bak</p>
+    <h1>Ağrıyı anlamak</h1>
+    <p class="lede">Ağrı gerçektir; her zaman. Ama ağrının şiddeti, her zaman dokudaki hasarın büyüklüğünü göstermez. Beyin, vücuttan gelen sinyalleri uykunuz, stresiniz, korkularınız ve geçmiş deneyimlerinizle birlikte değerlendirir ve sizi korumak için bir karar verir. Ağrının nasıl çalıştığını anlamak, özellikle uzun süren ağrıda hareket etmekten korkmayı azaltabilir.</p>
+    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>2020</b><span>Uluslararası Ağrı Araştırmaları Derneği ağrı tanımını 40 yılı aşkın sürenin ardından yeniledi</span></div>
+        <div class="stat"><b>%37 → %96</b><span>Hiç ağrısı olmayan kişilerin bel MR’larında disk dejenerasyonu: 20 yaşta ve 80 yaşta</span></div>
+        <div class="stat"><b>3.110</b><span>Bu bulguların derlendiği, ağrısı olmayan kişi sayısı</span></div>
+        <div class="stat"><b>12 çalışma</b><span>Ağrı eğitimi hareket korkusunu kısa vadede anlamlı ölçüde azalttı</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Tanım</p>
+      <h2>Ağrı nedir?</h2>
+      <p class="def-q">“Gerçek ya da olası doku hasarıyla ilişkili ya da buna benzeyen, hoş olmayan duyusal ve duygusal bir deneyim.”</p>
+      <p class="soft">Uluslararası Ağrı Araştırmaları Derneği (IASP), 2020. Tanıma eklenen altı not:</p>
+      <div class="iasp">
+        <div><b>Kişiseldir</b><p>Ağrı her zaman kişisel bir deneyimdir; biyolojik, psikolojik ve sosyal etkenlerden farklı ölçülerde etkilenir.</p></div>
+        <div><b>Sinyalle aynı değildir</b><p>Ağrı ile sinirlerin taşıdığı tehlike sinyali farklı şeylerdir. Ağrı, yalnızca duyu sinirlerindeki etkinlikten çıkarılamaz.</p></div>
+        <div><b>Öğrenilir</b><p>İnsanlar ağrı kavramını yaşam deneyimleriyle öğrenir.</p></div>
+        <div><b>Saygı duyulmalıdır</b><p>Birinin bir deneyimi ağrı olarak anlatması ciddiye alınmalıdır.</p></div>
+        <div><b>Korur, ama zarar da verebilir</b><p>Ağrı genellikle koruyucu bir rol oynar; ama işlevi, sosyal ve psikolojik iyi oluşu olumsuz etkileyebilir.</p></div>
+        <div><b>Sözden fazlasıdır</b><p>Sözle anlatmak, ağrıyı ifade etmenin yollarından yalnızca biridir; konuşamamak ağrı yaşanmadığı anlamına gelmez.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="alarm">
+    <div class="wrap">
+      <p class="eyebrow">Deneyin</p>
+      <h2>Vücudunuzun alarm sistemi</h2>
+      <p class="soft">Ağrıyı bir yangın alarmına benzetebiliriz: aynı duman, hassas ayarlanmış bir alarmı çok daha yüksek sesle öttürür. Aşağıdaki etkenleri seçin ve alarmın sesinin nasıl değiştiğini görün. Bu bir öğretici benzetmedir; sayılar temsilidir ve ağrınızı ölçmez.</p>
+      <div class="tool">
+        <div class="al">
+          <div class="al-in">
+            <p class="lbl">Dokudan gelen sinyal</p>
+            <input class="rng" type="range" id="al-in" min="1" max="10" step="1" value="4" aria-label="Dokudan gelen sinyal">
+          </div>
+          <div class="al-ch">
+            <p class="lbl">Alarmı hassaslaştıranlar</p>
+            <div class="chips up" id="al-up">{AA_UPH}</div>
+            <p class="lbl">Alarmı yatıştıranlar</p>
+            <div class="chips dn" id="al-dn">{AA_DNH}</div>
+          </div>
+          <div class="al-o">
+            <div class="meter in"><span>Dokudan gelen sinyal <b id="al-iv">4</b></span><div class="bar"><i id="al-ib" style="width:40%"></i></div></div>
+            <div class="meter"><span>Alarmın sesi (ağrı) <b id="al-ov">4</b></span><div class="bar"><i id="al-ob" style="width:40%;background:var(--foil)"></i></div></div>
+            <p class="al-out" id="al-msg" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="al-strings" hidden>
+          <span data-k="same">Alarm, gelen sinyalle aşağı yukarı aynı düzeyde.</span>
+          <span data-k="loud">Aynı sinyal, hassaslaşmış bir alarmda daha yüksek ses çıkarıyor. Ağrı gerçek; ama doku daha fazla zarar görmüş değil.</span>
+          <span data-k="quiet">Yatıştırıcı etkenler alarmın sesini kısıyor. Doku aynı; ama beyin daha az tehlike algılıyor.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="goruntu">
+    <div class="wrap">
+      <p class="eyebrow">Görüntüler her şeyi anlatmaz</p>
+      <h2>Ağrısı olmayan insanların bel MR’larında</h2>
+      <p class="soft">Hiç bel ağrısı olmayan 3.110 kişiyi kapsayan 33 çalışmanın derlemesi. Bu bulgular yaşla birlikte, çoğu zaman ağrı yapmadan artar.</p>
+      <div class="seg" role="group" aria-label="Yaş" id="mr-age">
+        <button type="button" data-v="a" aria-pressed="true">20 yaşında</button>
+        <button type="button" data-v="b" aria-pressed="false">80 yaşında</button>
+      </div>
+      <div class="cmp" id="mr-cmp">
+{MR_ROWS}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two">
+      <div>
+        <h2>Uzun süren ağrıda neler yardımcı olabilir?</h2>
+        <ul class="dots">
+          <li><b>Kademeli hareket:</b> Ağrıyı izleyerek, az az ve düzenli artırın. <a href="egzersizde-agri.html">Egzersizde ağrı trafik ışığı</a> yol gösterebilir.</li>
+          <li><b>Uyku:</b> <a href="uyku.html">Uyku rehberine</a> bakabilirsiniz.</li>
+          <li><b>Stres:</b> Nefes ve gevşeme için <a href="uc-kapi.html">Üç Kapı</a> ve <a href="stres.html">stres rehberi</a>.</li>
+          <li><b>Anlamak:</b> Ağrınızın ne anlama geldiğini bir hekim ya da fizyoterapistle konuşmak.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Bu sayfa muayenenin yerini tutmaz</h2>
+        <ul class="dots redflags">
+          <li>Yeni başlayan, çok şiddetli ya da giderek artan ağrı</li>
+          <li>Düşme ya da darbeden sonra başlayan ağrı</li>
+          <li>Ateş, açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte ağrı</li>
+          <li>Uyuşma, güçsüzlük, idrar ya da dışkı kontrolünde sorun</li>
+        </ul>
+        <p class="soft">Bu durumlarda beklemeden hekime başvurun.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sık sorulan sorular</h2>
+      {faq(AA_FAQ)}
+      {CTA_CARD("Uzun süren ağrınız", "ağrıyı anlamak ve yönetmek")}
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap col sources">
+      <p class="eyebrow">Kaynaklar</p>
+      {src_list([
+        "International Association for the Study of Pain. " + ext("https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/", "IASP announces revised definition of pain") + ". 16 July 2020.",
+        SRC_BRINJIKJI,
+        "Watson JA, Ryan CG, Cooper L, et al. " + ext("https://research.tees.ac.uk/en/publications/pain-neuroscience-education-for-adults-with-chronic-musculoskelet/", "Pain neuroscience education for adults with chronic musculoskeletal pain: a mixed-methods systematic review and meta-analysis") + ". J Pain. 2019;20(10):1140.e1–1140.e22.",
+      ])}
+    </div>
+  </section>
+</main>'''
+
+AA_JS = '''<script>
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var root = $('alarm');
+  if (root){
+    var S = {}; root.querySelectorAll('.al-strings [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
+    var inp = $('al-in'), up = [].slice.call($('al-up').querySelectorAll('button')), dn = [].slice.call($('al-dn').querySelectorAll('button'));
+    function on(b){ return b.getAttribute('aria-pressed') === 'true'; }
+    function paint(){
+      var x = +inp.value, nu = up.filter(on).length, nd = dn.filter(on).length;
+      var g = Math.max(0.45, Math.min(2.2, 1 + 0.22 * nu - 0.11 * nd)), y = Math.max(0, Math.min(10, x * g));
+      $('al-iv').textContent = x; $('al-ib').style.width = (x * 10) + '%';
+      $('al-ov').textContent = Math.round(y); $('al-ob').style.width = (y * 10).toFixed(0) + '%';
+      $('al-ob').style.background = y > x + 0.6 ? '#c9694f' : (y < x - 0.6 ? 'var(--sage)' : 'var(--foil)');
+      $('al-msg').textContent = y > x + 0.6 ? S.loud : (y < x - 0.6 ? S.quiet : S.same);
+    }
+    up.concat(dn).forEach(function(b){ b.addEventListener('click', function(){ b.setAttribute('aria-pressed', on(b) ? 'false' : 'true'); paint(); }); });
+    inp.addEventListener('input', paint); paint();
+  }
+  var mr = $('mr-age');
+  if (mr){
+    var setAge = function(k){ $('mr-cmp').querySelectorAll('.row').forEach(function(r){ var n = r.getAttribute('data-' + k); r.querySelector('i').style.width = n + '%'; r.querySelector('b').textContent = document.documentElement.lang === 'en' ? n + '%' : '%' + n; }); };
+    mr.addEventListener('click', function(e){
+      var b = e.target.closest('button'); if (!b) return;
+      mr.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      setAge(b.getAttribute('data-v'));
+    });
+    setAge('a');
+  }
+})();
+</script>
+'''
+
+page("agriyi-anlamak.html", "Ağrıyı Anlamak",
+     "Ağrı her zaman gerçektir, ama şiddeti her zaman doku hasarını göstermez. Ağrının yeni tanımı, vücudun alarm sistemi benzetmesi ve ağrısız insanların MR bulguları: etkileşimli bir rehber.",
+     "agriyi-anlamak.html", SELF4_CSS, AA_BODY, AA_JS,
+     seo_title="Ağrıyı Anlamak: Ağrı Nasıl Çalışır, Neden Uzun Sürer? | İhsan Eren",
+     about=[{"@type": "Thing", "name": "Ağrı"}],
+     faq_items=AA_FAQ)
+
+# ------------------------------------------------------------------ 4 · EGZERSİZDE AĞRI TRAFİK IŞIĞI
+SELF4_CSS += """
+  /* trafik ışığı */
+  .tl4{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:start}
+  @media (max-width:820px){.tl4{grid-template-columns:1fr}}
+  .q4{margin-bottom:18px}
+  .q4 h3{font-size:19px;margin:0 0 6px}
+  .q4 output{font-family:var(--display);font-size:24px;color:var(--foil);font-variant-numeric:tabular-nums;margin-left:8px}
+  .scale{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:2px}
+  .light{width:96px;margin:4px auto 14px;padding:10px;border-radius:26px;background:#10170e;border:1px solid var(--line-strong);display:grid;gap:10px}
+  .light i{display:block;width:76px;height:76px;border-radius:50%;opacity:.16;transition:opacity .3s ease,box-shadow .3s ease}
+  .light .r{background:#d9534f}.light .y{background:#e8b83e}.light .g{background:#7fb069}
+  .light i.on{opacity:1}
+  .light .r.on{box-shadow:0 0 28px rgba(217,83,79,.8)}.light .y.on{box-shadow:0 0 28px rgba(232,184,62,.8)}.light .g.on{box-shadow:0 0 28px rgba(127,176,105,.8)}
+  .tl-out{text-align:center}
+  .tl-out .lab{font-family:var(--display);font-size:clamp(24px,3vw,30px);margin:0 0 6px}
+  .tl-out p{margin:0;color:var(--ink-soft)}
+  .zones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:8px}
+  @media (max-width:700px){.zones{grid-template-columns:1fr}}
+  .zones div{border-radius:12px;padding:16px;border:1px solid var(--line);background:var(--ground-2);border-top:5px solid var(--c)}
+  .zones b{display:block;font-family:var(--display);font-weight:400;font-size:21px;color:var(--ink)}
+  .zones small{display:block;font-size:13px;color:var(--muted);margin:2px 0 8px}
+  .zones p{margin:0;font-size:15px;color:var(--ink-soft)}
+"""
+
+EA_FAQ = [
+ ("Egzersiz yaparken hiç ağrı olmamalı mı?", "Gerekmez. Uzun süren kas-iskelet ağrısında yapılan çalışmaların derlemesinde, ağrıya bir ölçüde izin veren egzersiz programları kısa vadede ağrısız programlardan biraz daha iyi sonuç verdi; orta ve uzun vadede ise fark yoktu. Yazarlara göre egzersiz sırasındaki ağrı iyi bir sonuca engel değil."),
+ ("Ertesi gün ağrım arttı, ne yapmalıyım?", "Ağrı ertesi sabaha kadar geçmediyse, bir sonraki seansta yükü azaltın: daha az tekrar, daha hafif ağırlık ya da daha kısa süre. Tamamen bırakmak yerine ağrının kabul edilebilir sınırlarda kaldığı düzeyi bulmaya çalışın."),
+ ("Tamamen dinlenmek daha güvenli değil mi?", "Her zaman değil. Aşil kirişi sorunu olan 38 kişilik bir çalışmada, ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlev açısından anlamlı fark bulunmadı."),
+ ("Bu kurallar her ağrı için geçerli mi?", "Hayır. Bu model kiriş, eklem ve kas kaynaklı, uzun süren ağrılar için kullanılır. Yeni bir yaralanma, ameliyat sonrası dönem ya da sıcak ve şiş bir eklem varsa hekiminizin ya da fizyoterapistinizin önerisine uyun. Göğüs ağrısı, baş dönmesi gibi belirtilerde ise egzersizi hemen bırakın."),
+]
+
+EA_BODY = f'''<header class="page">
+  <div class="wrap">
+    <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
+    <p class="eyebrow">Kendine iyi bak</p>
+    <h1>Egzersizde ağrı trafik ışığı</h1>
+    <p class="lede">Egzersiz yaparken biraz ağrı olması normal mi, yoksa durmalı mıyım? Uzun süren kiriş, eklem ve kas ağrılarında ağrıyı tamamen yok etmeye çalışmak yerine onu izlemek daha iyi bir yol olabilir. Aşağıdaki üç soruyu yanıtlayın; trafik ışığı bugünkü egzersizinizi nasıl ayarlayacağınızı göstersin.</p>
+    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>5’in altı</b><span>Ağrı izleme modelinde egzersiz sırasında izin verilen ağrı (0–10 ölçeğinde)</span></div>
+        <div class="stat"><b>Ertesi sabah</b><span>Egzersizden sonra artan ağrının ertesi sabaha kadar geçmesi beklenir</span></div>
+        <div class="stat"><b>Haftadan haftaya</b><span>Ağrı ve tutukluk haftalar içinde artmamalı</span></div>
+        <div class="stat"><b>7 çalışma</b><span>Ağrıya izin veren egzersiz kısa vadede biraz daha iyi sonuç verdi</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="isik">
+    <div class="wrap">
+      <p class="eyebrow">Kendinizi değerlendirin</p>
+      <h2>Bugünkü trafik ışığınız</h2>
+      <div class="tool">
+        <div class="tl4">
+          <div>
+            <div class="q4">
+              <h3>1. Egzersiz sırasında ağrınız kaç?<output id="ea-v">2</output></h3>
+              <input class="rng" type="range" id="ea-p" min="0" max="10" step="1" value="2" aria-label="Egzersiz sırasındaki ağrı, 0–10">
+              <div class="scale"><span>0 · hiç yok</span><span>10 · dayanılmaz</span></div>
+            </div>
+            <div class="q4">
+              <h3>2. Ertesi sabah ağrınız ve tutukluğunuz?</h3>
+              <div class="seg" role="group" aria-label="Ertesi sabah" id="ea-m">
+                <button type="button" data-v="0" aria-pressed="true">Eski düzeyine döndü</button>
+                <button type="button" data-v="1" aria-pressed="false">Hâlâ artmış durumda</button>
+              </div>
+            </div>
+            <div class="q4">
+              <h3>3. Bu hafta, geçen haftaya göre?</h3>
+              <div class="seg" role="group" aria-label="Haftalık gidiş" id="ea-w">
+                <button type="button" data-v="0" aria-pressed="true">Aynı ya da daha iyi</button>
+                <button type="button" data-v="1" aria-pressed="false">Daha kötü</button>
+              </div>
+            </div>
+          </div>
+          <div class="tl-out">
+            <div class="light" aria-hidden="true"><i class="r" id="ea-r"></i><i class="y" id="ea-y"></i><i class="g" id="ea-g"></i></div>
+            <p class="lab" id="ea-lab" aria-live="polite"></p>
+            <p id="ea-txt"></p>
+          </div>
+        </div>
+        <div class="ea-strings" hidden>
+          <span data-k="g">Yeşil: devam edin</span>
+          <span data-k="gt">Ağrı düşük ve ertesi gün geçiyor. Egzersize devam edebilir, yükü kademeli olarak artırabilirsiniz.</span>
+          <span data-k="y">Sarı: devam edin, izleyin</span>
+          <span data-k="yt">Ağrı kabul edilebilir sınırlarda. Aynı yükte devam edin; ertesi sabah ve hafta sonunda yeniden değerlendirin.</span>
+          <span data-k="r">Kırmızı: yükü azaltın</span>
+          <span data-k="rt">Bir sonraki seansta daha az tekrar, daha hafif ağırlık ya da daha kısa süre deneyin; tamamen bırakmanız gerekmez. Ağrı birkaç haftada düzelmiyorsa bir fizyoterapist ya da hekimle görüşün.</span>
+          <span data-k="r1">Egzersiz sırasındaki ağrı 5’e ulaştı.</span>
+          <span data-k="r2">Ağrı ertesi sabaha kadar geçmedi.</span>
+          <span data-k="r3">Ağrı haftadan haftaya artıyor.</span>
+        </div>
+      </div>
+      <p class="count">Bu araç bir tanı aracı değildir; uzun süren kas-iskelet ağrılarında egzersizi ayarlamaya yardım eder.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Üç bölge</h2>
+      <div class="zones">
+        <div style="--c:#7fb069"><b>Yeşil</b><small>Ağrı 0–2</small><p>Rahatça devam edin. Ertesi gün de sorun yoksa yükü yavaşça artırabilirsiniz.</p></div>
+        <div style="--c:#e8b83e"><b>Sarı</b><small>Ağrı 3–4</small><p>Kabul edilebilir. Ağrı ertesi sabaha kadar geçiyor ve haftadan haftaya artmıyorsa aynı yükte devam edin.</p></div>
+        <div style="--c:#d9534f"><b>Kırmızı</b><small>Ağrı 5 ve üzeri, ertesi sabah geçmeyen ya da haftadan haftaya artan ağrı</small><p>Yükü azaltın, ama tamamen bırakmayın. Düzelmezse bir uzmana danışın.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two">
+      <div>
+        <h2>Araştırmalar ne diyor?</h2>
+        <ul class="dots">
+          <li>Aşil kirişi sorunu olan 38 kişi: ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlevde anlamlı fark çıkmadı. Modelde egzersiz sırasında ağrının 5’e ulaşmasına izin verilmedi; egzersizden sonra 5’e çıkabilen ağrının ertesi sabaha kadar geçmesi ve haftadan haftaya artmaması beklendi.</li>
+          <li>7 çalışma, 385 kişi: ağrıya izin veren egzersiz, uzun süren kas-iskelet ağrısında kısa vadede ağrısız egzersizden biraz daha iyi sonuç verdi; orta ve uzun vadede fark yoktu.</li>
+        </ul>
+        <p class="soft">Ağrının neden her zaman hasar anlamına gelmediğini <a href="agriyi-anlamak.html">ağrıyı anlamak</a> sayfasında bulabilirsiniz.</p>
+      </div>
+      <div>
+        <h2>Hemen durun</h2>
+        <ul class="dots redflags">
+          <li>Göğüs ağrısı, baş dönmesi, çarpıntı ya da alışılmadık nefes darlığı (geçmiyorsa 112)</li>
+          <li>Egzersiz sırasında ani, keskin ağrı ya da “pat” diye bir his, ardından şişlik</li>
+          <li>Yeni başlayan uyuşma, karıncalanma ya da güçsüzlük</li>
+          <li>Sıcak, kızarık ve şiş bir eklem</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sık sorulan sorular</h2>
+      {faq(EA_FAQ)}
+      {CTA_CARD("Ağrınıza göre ayarlanmış bir egzersiz programı", "ağrıya göre egzersiz programı")}
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap col sources">
+      <p class="eyebrow">Kaynaklar</p>
+      {src_list([
+        "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. " + ext("https://myorthoevidence.com/AceReport/Report/850", "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study") + ". Am J Sports Med. 2007;35(6):897–906.",
+        "Smith BE, Hendrick P, Smith TO, et al. " + ext("https://ueaeprints.uea.ac.uk/id/eprint/63158/", "Should exercises be painful in the management of chronic musculoskeletal pain? A systematic review and meta-analysis") + ". Br J Sports Med. 2017;51(23):1679–1687.",
+      ])}
+    </div>
+  </section>
+</main>'''
+
+EA_JS = '''<script>
+(function(){
+  var root = document.getElementById('isik'); if (!root) return;
+  var S = {}; root.querySelectorAll('.ea-strings [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
+  var $ = function(id){ return document.getElementById(id); };
+  var p = $('ea-p'), m = 0, w = 0;
+  function paint(){
+    var v = +p.value; $('ea-v').textContent = v;
+    var why = [];
+    if (v >= 5) why.push(S.r1); if (m) why.push(S.r2); if (w) why.push(S.r3);
+    var z = why.length ? 'r' : (v >= 3 ? 'y' : 'g');
+    ['r', 'y', 'g'].forEach(function(k){ $('ea-' + k).classList.toggle('on', k === z); });
+    $('ea-lab').textContent = S[z]; $('ea-lab').style.color = z === 'r' ? '#e07a5f' : (z === 'y' ? '#e8b83e' : '#9fca8a');
+    $('ea-txt').textContent = (why.length ? why.join(' ') + ' ' : '') + S[z + 't'];
+  }
+  function seg(id, fn){ $(id).addEventListener('click', function(e){ var b = e.target.closest('button'); if (!b) return; this.querySelectorAll('button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); fn(+b.getAttribute('data-v')); paint(); }); }
+  seg('ea-m', function(v){ m = v; }); seg('ea-w', function(v){ w = v; });
+  p.addEventListener('input', paint); paint();
+})();
+</script>
+'''
+
+page("egzersizde-agri.html", "Egzersizde Ağrı Trafik Işığı",
+     "Egzersiz yaparken ağrı normal mi, ne zaman durmalı? Üç soruyu yanıtlayın, trafik ışığı bugünkü egzersizinizi nasıl ayarlayacağınızı göstersin: yeşil devam, sarı izle, kırmızı yükü azalt.",
+     "egzersizde-agri.html", SELF4_CSS, EA_BODY, EA_JS,
+     seo_title="Egzersizde Ağrı Normal mi? Ağrı İzleme Trafik Işığı | İhsan Eren",
+     about=[{"@type": "Thing", "name": "Egzersiz sırasında ağrı"}],
+     faq_items=EA_FAQ)
