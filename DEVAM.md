@@ -492,3 +492,8 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Dumfries & Galloway Right Decisions (12 Aralık 2025; 50 yaş üstü, ≥45 yaş + ≤30 dk sabah tutukluğu ile klinik tanı, ısı/soğuk, mola, yumruk ve başparmakla parmaklara dokunma, sıcak-kabarık şişlikte romatoloji), St George's NHS başparmak OA broşürü (Mayıs 2025; 5 dk ısıtma, 30 sn başparmak arası esnetme, top sıkma), Østerås 2017 Cochrane (ağrıda 0,5 puan, kanıt düşük, yan etki az).
 - Kaynaksız: egzersiz tekrar sayıları; "örgü, bilgisayar, bahçe işi" örnekleri; "sabah tutukluğu 30 dakikadan uzunsa hekime" maddesi (tanı ölçütünden türetildi). Versus Arthritis broşürü bağlantısı 404 verdi.
 - Kartlarda: fb494.
+
+## Bilgi köşesi tanıtım videosu (14 Ekim 2026)
+- scratchpad/vid5: film.py (8 sahne, 50 sn, 1080x1920), music.py (özgün sentez müzik), shot.py (gece-bacak-kramplari mobil tam sayfa görüntüsü + başlık konumları), ex.json (sitedeki 4 egzersiz çizimi). Çıktı: out/bilgi-kosesi-video.mp4 (9,2 MB, ortalama -16,1 dB).
+- Sahneler: "Nereniz ağrıyor?" beden haritası → 6 gerçek soru baloncuğu → 61 hastalık rehberi sayacı + bölge sayıları → telefonda gece bacak krampları rehberinin içi → 4 egzersiz çizimi → "Abartı yok" (sitedeki 3 gerçek cümle) + uyarı işaretleri → TR/EN kart çevirme → kapanış (drihsaneren.com/bilgi).
+- Sayılar sitedeki filtrelerden: Tümü 61, bel 12, boyun 7, omuz-kol-el 12, kalça-diz 11, ayak 8, tüm vücut 10, kadın 2; toplam 122 başlık.
