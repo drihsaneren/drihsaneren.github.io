@@ -638,6 +638,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/osgood-schlatter.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/osgood-schlatter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/osgood-schlatter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/osgood-schlatter.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1273,5 +1280,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sacroiliac-joint-pain.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/osgood-schlatter.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/osgood-schlatter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/osgood-schlatter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/osgood-schlatter.html"/>
   </url>
 </urlset>
