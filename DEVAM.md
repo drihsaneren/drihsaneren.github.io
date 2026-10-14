@@ -474,3 +474,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Morton's neuroma (12 Haziran 2025; belirtiler, nedenler, ayakkabı/ped/kilo önerileri, 2 hafta kuralı, hekime başvuru ölçütleri), Matthews ve ark. 2019 J Foot Ankle Res (25 çalışma; kortizon iğnesi ve mobilizasyon en güçlü kanıt, altın standart yok, ESWT anlamsız).
 - Kaynaksız: egzersizlerin seçimi ve dozları (sayfada "nöromayı geçirdiğine dair kanıt yok" yazıyor); "dar ayakkabılar ayak önündeki baskıyı artırdığı için" gerekçesi.
 - Kartlarda: fb490.
+
+## El bileği kırığı sonrası rehberi (14 Ekim 2026)
+- el-bilegi-kirigi.html → en/wrist-fracture.html (cond39_part.py). Egzersizler (ULH broşüründeki hareketler, hazır çizimler): wb_wrist (dq_wrist), wb_ext (wflex), wb_rot (ge_rot), wb_fist (tglide), wb_thumb (thumb), wb_grip (grip). Bölge "omuz" (kol-el), ganglion kistinden sonra.
+- Okunan kaynaklar: NHS Broken arm or wrist (2 Ekim 2026; 6–12 hafta, alçı uyarı işaretleri, 50 yaş üstü kemik sağlığı), United Lincolnshire NHS broşürü (Ocak 2026; ilk 1–2 ay, günde 3–4 kez ~10 tekrar, atel en kısa süre), Handoll & Elliott 2015 Cochrane (26 çalışma; ev programı ≈ ek fizyoterapi, kanıt düşük), East Kent NHS CRPS broşürü (belirtiler), Royal Osteoporosis Society (egzersizin CRPS riskini azaltmaya yardım edebileceği).
+- Kaynaksız: "wb_ext" broşürdeki "avuç masada, dirseği kaldırma" yerine ön kol germe çizimiyle anlatıldı (aynı hareket yönü); 15–20 saniye seçeneği; Türkiye'de "kırık irtibat hizmeti" olmadığı için "kemik sağlığınızı hekiminizle konuşun" diye uyarlandı.
+- Kartlarda: fb491.
