@@ -687,6 +687,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/egzersizde-agri.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/egzersizde-agri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pain-during-exercise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/egzersizde-agri.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/agriyi-anlamak.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/agriyi-anlamak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/understanding-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/agriyi-anlamak.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1371,5 +1385,19 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-snacks.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/pain-during-exercise.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/egzersizde-agri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pain-during-exercise.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/egzersizde-agri.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/understanding-pain.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/agriyi-anlamak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/understanding-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/agriyi-anlamak.html"/>
   </url>
 </urlset>
