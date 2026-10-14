@@ -456,3 +456,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: nidirect Hamstring injury (19 Aralık 2024; 3 derece, PRICE 48–72 saat, buz 15–20 dk 2–3 saatte bir, ilk 72 saatte HARM'dan kaçınma, ibuprofen 48 saat sonra, birkaç gün sonra hafif germe, spora dönüş ölçütü), van Dyk ve ark. 2019 BJSM meta-analiz (8459 sporcu, Nordic içeren programlar RR 0,49).
 - Kaynaksız: tüm egzersiz doz ve süreleri; Nordic için "haftada 1–2 kez, 2–3 set × 3–6 tekrar" (bellekten, yaygın protokoller); "ağrı ertesi gün artarsa bir önceki seviyeye dönün" kuralı; "pat sesi / bacağı kullanamama / geniş morarma" maddesi nidirect'in 3. derece tanımından türetildi (sayfa bunu ayrıca acil saymıyor).
 - Kartlarda: fb485, fb486.
+
+## Sakroiliak eklem ağrısı rehberi (14 Ekim 2026)
+- sakroiliak-eklem-agrisi.html → en/sacroiliac-joint-pain.html (cond36_part.py). Egzersizler: ptilt, bridge, birddog, si_abd (abd çizimi), k2c, si_walk. Bölge "bel", piriformisten sonra.
+- Okunan kaynaklar: Barros, McGrath, Gelfenbeyn 2019 Federal Practitioner (%15–30, ağrı alanı 3×10 cm PSIS altı, L5 üstüne çıkmaz, risk etkenleri, test kümeleri, tanısal iğne, RF ~2/3'te 6–12 ay, füzyon ölçütleri), HCA Healthcare UK hasta sayfası (otur-kalk ağrısı, bacak boşalması, pelvik stabilizasyon, buz/ağrı kesici; tarih/yazar yok, özel hastane), NICE NG59 (hareketli kalma; sitede zaten kaynak).
+- Kaynak zayıflığı: NHS'te SİE için ayrı sayfa bulamadım; healthdirect sayfası okunamadı. Uyarı işaretleri bel ağrısı ve ankilozan spondilit sayfalarındaki listelerden alındı (bu sayfaya özel kaynak yok). Egzersiz seçimi ve dozları kaynaksız (HCA yalnızca "pelvik stabilizasyon" diyor).
+- Kartlarda: fb487.
