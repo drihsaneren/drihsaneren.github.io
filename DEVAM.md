@@ -524,3 +524,8 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Çeviri: haber metinleri ayrı parti dosyasında: i18n/todo/yen5.json + i18n/done/yen5.json (y5-0…12; kaynak satırları ham HTML, bağlantılar birebir). DİKKAT: export_todo yenilikler.html'i çalıştırınca todo/yenilikler.json yeniden yazılır ve eski done eşleşmesi bozulur; bu sefer eski dosyalar geri yüklendi. Yeni haberlerde aynı yolu izleyin (yeni yenN partisi).
 - Okunan kaynaklar: EurekAlert AAN basın bülteni (7 Ekim 2026), Knowridge (14 Ekim 2026), ScienceDaily/Yale (8 Ekim 2026). Okunamayan: Washington Post, Medscape, Medical Xpress (bağlantı olarak verildi, içerik Knowridge'den), Lancet sayfası (robots).
 - Kaynaksız / yorum: "kanıtı en güçlü yaklaşımlar egzersiz, kilo kontrolü ve hastalığı tanımak" cümlesi (genel kılavuz bilgisi, bu haberin kaynağında yok); OA çizimindeki 1990 sütunu temsilî.
+
+## Logo paneli 4 genişletildi (15 Ekim 2026)
+- "İki Y ve renk geçişi" paneli tek cümleden 4 paragrafa çıktı (Yin–Yang → Doğu/Batı tıbbı → bütüncül tedavi yaklaşımı → pusula bilim). Düzenleme site/index.bak_fb.html'de (rebuild_home.sh index.html'i oradan kopyalıyor; doğrudan site/index.html'e yazılanlar kaybolur).
+- EN çevirisi ayrı parti: i18n/todo/logo4.json + done/logo4.json (lg-0..3). export_todo index.html'de yalnız yeni dizeleri ind0.. kimlikleriyle yazıp eski todo'yu ezdi; eski todo/done geri yüklendi, yeni dizeler ayrı partiye kondu (yen5 ile aynı yöntem).
+- Panel metninde sağlık iddiası yok; "kanıtın desteklediği ölçüde" ilkesi dile getiriliyor.
