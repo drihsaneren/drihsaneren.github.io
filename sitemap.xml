@@ -617,6 +617,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/boyun-tutulmasi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/kaval-kemigi-agrisi.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kaval-kemigi-agrisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/shin-splints.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kaval-kemigi-agrisi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1231,5 +1238,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/boyun-tutulmasi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/wry-neck.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/boyun-tutulmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/shin-splints.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kaval-kemigi-agrisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/shin-splints.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kaval-kemigi-agrisi.html"/>
   </url>
 </urlset>
