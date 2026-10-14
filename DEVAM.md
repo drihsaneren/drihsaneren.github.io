@@ -413,3 +413,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Mobil sayfa boyu 15.377 px → 7.079 px; masaüstü 10.105 → 6.073. Yeni çeviriler fb469–fb474.
 - (12 Ekim, devam) İhsan: geniş kare (p21, lastik bant) yarım görünüyordu → galeriden kaldırıldı; galeri 1 büyük + 4 kare, masaüstünde 4 sütun (mobil 2), ızgara tam dolu. Konu listesi artık masaüstünde de katlı başlıyor ("Tüm konuları göster").
 - Üç Kapı tanıtım videosu: scratchpad/vid4 (film.py sahneler, music.py özgün müzik, 54 sn, 1080x1920). Tek video yeterli dedi; 4:5 sürüm yapılmadı.
+
+## Baker kisti rehberi (14 Ekim 2026)
+- baker-kisti.html → en/bakers-cyst.html (cond29_part.py). Egzersizler: bk_hslide (yeni, hslide çizimi), quad, kext, slr, dn_heel, sts.
+- Okunan kaynaklar: NHS 111 Wales Baker's cyst (6 Kasım 2025), Royal Berkshire NHS broşürü (Şubat 2025; patlama 20'de 1–2), ORS 2025 kongre özeti (diz MR kistleri; yüzde verilmiyor).
+- Kaynaksız / genel bilgi: egzersiz seçimi ve "gerginliği artıran hareketleri azaltın" önerisi; 112 (NHS 999 diyor).
+- Kartlarda: fb475, fb476.
