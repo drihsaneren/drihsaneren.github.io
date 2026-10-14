@@ -48,6 +48,7 @@ EN = {
     "bel-kaymasi.html": "spondylolisthesis.html",
     "huzursuz-bacak.html": "restless-legs-syndrome.html",
     "kuyruk-sokumu-agrisi.html": "tailbone-pain.html",
+    "kurek-kemigi-arasi-agri.html": "pain-between-shoulder-blades.html",
     "baker-kisti.html": "bakers-cyst.html",
     "kambur-durus.html": "kyphosis.html",
     "piriformis-sendromu.html": "piriformis-syndrome.html",
