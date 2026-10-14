@@ -1346,6 +1346,33 @@ IL_RETA = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" hei
 <path d="M238 128a16 16 0 0 1 32 0" fill="none" stroke="#ece5cf" stroke-width="2.5"/><path d="M254 128L246 120" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/>
 <path d="M254 28V88" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/><path d="M240 76l14 14 14-14" fill="none" stroke="#e2ab47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
 
+IL_PDACT = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M30 150 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
+<circle cx="96" cy="44" r="12" fill="#8fa476"/>
+<path d="M96 58 L92 98 M94 66 L78 84 L82 98 M94 66 L112 80 L118 92 M92 98 L76 124 L64 148 M92 98 L108 124 L124 146" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 60 h-16 M58 76 h-22 M62 92 h-14" stroke="rgba(143,164,118,.6)" stroke-width="3" stroke-linecap="round"/>
+<g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M170 70 L200 82 L230 96 L260 112 L286 126" stroke="rgba(181,72,58,.75)"/><path d="M170 70 L200 72 L230 75 L260 79 L286 82" stroke="#e2ab47"/></g>
+<g fill="#e2ab47"><circle cx="170" cy="70" r="4"/><circle cx="286" cy="82" r="5"/></g><circle cx="286" cy="126" r="4" fill="rgba(181,72,58,.85)"/>
+<path d="M166 40 v100 h124" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="2"/></svg>'''
+IL_OA2050 = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M58 14 C64 50 66 70 74 86 M106 14 C100 50 98 70 90 86" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<path d="M70 98 C66 120 64 146 60 168 M94 98 C98 120 100 146 104 168" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<path d="M68 90 Q82 82 96 90 M68 96 Q82 104 96 96" fill="none" stroke="#d8b25e" stroke-width="3"/>
+<circle cx="82" cy="93" r="22" fill="none" stroke="#e2ab47" stroke-width="2" stroke-dasharray="4 4"/>
+<g fill="#8fa476"><rect x="150" y="122" width="26" height="36" rx="3" opacity=".55"/><rect x="190" y="104" width="26" height="54" rx="3" opacity=".7"/><rect x="230" y="78" width="26" height="80" rx="3" fill="#e2ab47"/></g>
+<path d="M140 158 H272" stroke="rgba(236,229,207,.35)" stroke-width="2"/>
+<g font-family="Georgia,serif" font-size="13" fill="#ece5cf" text-anchor="middle"><text x="163" y="174">1990</text><text x="203" y="174">2023</text><text x="243" y="174">2050</text></g>
+<path d="M243 40 V66 M233 56 L243 66 L253 56" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 243 53)"/></svg>'''
+IL_LACO = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M120 10 C126 50 128 70 136 86 M168 10 C162 50 160 70 152 86" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<path d="M132 100 C128 124 126 148 122 172 M156 100 C160 124 162 148 166 172" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<ellipse cx="144" cy="93" rx="26" ry="9" fill="rgba(143,179,196,.35)" stroke="#8fb3c4" stroke-width="2.5"/>
+<g fill="#8fb3c4"><circle cx="132" cy="92" r="2.5"/><circle cx="146" cy="95" r="2"/><circle cx="156" cy="91" r="2.5"/></g>
+<path d="M262 26 L190 80" stroke="#ece5cf" stroke-width="3" stroke-linecap="round"/>
+<rect x="246" y="12" width="40" height="16" rx="4" transform="rotate(-37 266 20)" fill="#d8b25e"/>
+<path d="M190 80 L180 88" stroke="#e2ab47" stroke-width="2" stroke-linecap="round"/>
+<g fill="none" stroke="#e2ab47" stroke-width="2" stroke-linecap="round"><path d="M210 120 h40"/><path d="M210 132 h28"/><path d="M210 144 h36"/></g></svg>'''
+
 NEWS = [
  dict(il=IL_NOBEL, g="beyin", cat="Nobel 2026", feat=True, date="Ekim 2026",
       title="Işık, ayna ve buz: 2026 Nobel ödülleri",
@@ -1353,6 +1380,24 @@ NEWS = [
       point="Üçünün de çıkış noktası, o gün hiçbir işe yaramayacak gibi görünen bir meraktı: bir gölet yosunu, hesaba uymayan bir tepkime ve buzun dibinde çakan bir ışık. Üçünü de canlandırmalarla, sade bir dille anlattım.",
       src=[("STAT, 5 Ekim 2026", "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/"), ("IceCube, 6 Ekim 2026", "https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/"), ("Forbes, 7 Ekim 2026", "https://www.forbes.com/sites/michaeltnietzel/2026/10/07/the-2026-nobel-prize-in-chemistry-is-awarded-to-henri-kagan-and-kenso-soai/")],
       rel=("Canlandırmalı anlatımı aç", "nobel-2026.html")),
+ dict(il=IL_PDACT, g="hareket", cat="Parkinson", date="Ekim 2026",
+      title="Parkinson'da daha çok hareket, daha yavaş ilerleme",
+      text="ABD'de Cincinnati Üniversitesi'nden araştırmacıların 7 Ekim 2026'da Neurology dergisinde yayımladığı çalışmada, hafif ve orta evre Parkinson hastası 294 kişi 7 yıla kadar izlendi. Haftada 8 saatten fazla orta ya da yüksek tempolu fiziksel aktivite (iş, ev işleri ve hobiler dahil) yapanlarda, 4 saatten az yapanlara göre düşünme becerilerindeki gerileme ve hareket belirtilerindeki kötüleşme daha yavaştı. Toplam süreye, yoğunlukla ağırlıklandırılmış miktara ve yalnızca yüksek tempolu aktiviteye bakıldığında da benzer ilişki görüldü.",
+      point="Bu bir gözlem çalışması: Hareketin hastalığı yavaşlattığını kanıtlamıyor. Aktivite, kişilerin kendi beyanıyla anketle ölçüldü ve gruplar arasındaki farklar küçüktü; araştırmacılara göre bu küçük farklar yıllar içinde anlam kazanabilir. Yine de düzenli hareketin Parkinson'da ne kadar değerli olduğunu destekleyen bir veri daha.",
+      src=[("Amerikan Nöroloji Akademisi (EurekAlert), 7 Ekim 2026", "https://www.eurekalert.org/news-releases/1146272"), ("U.S. News, 8 Ekim 2026", "https://www.usnews.com/news/health-news/articles/2026-10-08/exercise-can-slow-parkinsons-progression-study-says")],
+      rel=("Parkinson rehberi", "parkinson.html")),
+ dict(il=IL_OA2050, g="hareket", cat="Kireçlenme", date="Ekim 2026",
+      title="2050'de bir milyar kişide kireçlenme olabilir",
+      text="The Lancet'te Ekim 2026'da yayımlanan ve Avustralya'daki Curtin Üniversitesi'nin öncülük ettiği küresel sağlık politikası yol haritasına göre 2023'te yaklaşık 600 milyon kişide osteoartrit (kireçlenme) vardı; bu sayı 2050'ye kadar bir milyara yaklaşabilir. Kireçlenmenin yol açtığı engellilik yükü 1990–2023 arasında %65 arttı. Yaşlanan nüfus, artan obezite ve eklem yaralanmaları artışın başlıca nedenleri olarak gösteriliyor.",
+      point="Yazarlar kireçlenmenin yaşlanmanın kaçınılmaz bir parçası gibi görülmemesini; birinci basamak sağlık hizmetlerine ve rehabilitasyona dahil edilmesini, düşük değerli tedavilerin azaltılıp hareketi destekleyen yaklaşımların yaygınlaştırılmasını istiyor. Diz kireçlenmesinde fazla kilo ve eklem yaralanmaları değiştirilebilir risk etkenleri. Avustralya'da 2009–10 yıllarına ait bir çalışmada kireçlenme başvurularının yalnızca %43'ü en iyi uygulama standartlarını karşılıyordu.",
+      src=[("Knowridge, 14 Ekim 2026", "https://knowridge.com/2026/10/a-common-form-of-arthritis-could-affect-nearly-a-billion-people-by-2050/"), ("Medical Xpress, Ekim 2026", "https://medicalxpress.com/news/2026-10-billion-people-osteoarthritis-international-experts.html")],
+      rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
+ dict(il=IL_LACO, g="hareket", cat="Kireçlenme", date="Ekim 2026",
+      title="Bir sara ilacı kıkırdağı koruyabilir mi? Şimdilik yalnızca laboratuvarda",
+      text="Yale Tıp Fakültesi'nde yapılan ve Bioactive Materials dergisinde yayımlanan çalışmada, epilepsi tedavisinde kullanılan lakozamid adlı ilacın, kireçlenmiş eklemlerde aşırı çalışan Nav1.7 adlı sodyum kanalını engelleyerek kıkırdak hücrelerini yıkımdan onarıma doğru yönlendirdiği görüldü. Araştırmacılar ilacı, haftalar boyunca yavaşça salan ve vücut ısısında jöleleşen bir kolajen jelin içinde ekleme verdi; dört haftada bir yapılan tek iğne, her gün ağızdan verilen ilaçtan daha iyi korudu.",
+      point="Bulgular yalnızca hücre ve hayvan deneylerinden; ilaç insanda kireçlenme için hiç denenmedi. Etkili doz aralığı dar ve uzun süreli güvenliği bilinmiyor. Yani kireçlenme için kullanmak için henüz çok erken; bugün kanıtı en güçlü yaklaşımlar egzersiz, kilo kontrolü ve hastalığı tanımak.",
+      src=[("ScienceDaily (Yale Tıp Fakültesi), 8 Ekim 2026", "https://www.sciencedaily.com/releases/2026/10/261006234528.htm"), ("Bioactive Materials, 2026", "https://doi.org/10.1016/j.bioactmat.2026.02.045")],
+      rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
  dict(il=IL_BLOOD, g="tani", cat="Alzheimer", feat=True, date="Eylül 2026",
       title="Alzheimer için kan testleri çoğalıyor",
       text="ABD'de Gıda ve İlaç Dairesi (FDA), Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Son ikisi Ağustos 2026'da geldi. Bu testler beyin görüntülemesine ya da bel sıvısı alınmasına gerek kalmadan tanıyı kolaylaştırabilir.",
