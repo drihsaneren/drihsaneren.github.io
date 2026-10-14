@@ -589,6 +589,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/baker-kisti.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/kurek-kemigi-arasi-agri.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kurek-kemigi-arasi-agri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pain-between-shoulder-blades.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kurek-kemigi-arasi-agri.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1175,5 +1182,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/baker-kisti.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/bakers-cyst.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/baker-kisti.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/pain-between-shoulder-blades.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kurek-kemigi-arasi-agri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pain-between-shoulder-blades.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kurek-kemigi-arasi-agri.html"/>
   </url>
 </urlset>
