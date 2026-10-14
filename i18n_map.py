@@ -48,6 +48,7 @@ EN = {
     "bel-kaymasi.html": "spondylolisthesis.html",
     "huzursuz-bacak.html": "restless-legs-syndrome.html",
     "kuyruk-sokumu-agrisi.html": "tailbone-pain.html",
+    "el-kireclenmesi.html": "hand-osteoarthritis.html",
     "eklem-hipermobilitesi.html": "joint-hypermobility.html",
     "el-bilegi-kirigi.html": "wrist-fracture.html",
     "morton-noromasi.html": "mortons-neuroma.html",

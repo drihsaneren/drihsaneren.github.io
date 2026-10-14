@@ -486,3 +486,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Joint hypermobility syndrome (30 Ağustos 2023; belirtiler, nedenler, Beighton, düşük darbeli egzersiz, aşırı germe ve tekrardan kaçınma, molalar, ılık banyo), Engelbert ve ark. (fizyoterapi gerekçesi; ayaktan fizyoterapi hastalarında %30–55, Beighton ≥4/≥5, kanıt sınırlı).
 - Bellekten / kaynaksız: Beighton'un 9 puanlık maddeleri (standart bilgi, bu oturumda okunan sayfada sayılmıyor); Engelbert makalesinin dergi ve yılı (Am J Med Genet C 2017; okunan PDF'te yayın bilgisi yoktu); "ayağa kalkınca baş dönmesi, çarpıntı" uyarısı (hEDS–POTS ilişkisi, NHS sayfasında yok); egzersiz dozları.
 - Kartlarda: fb492, fb493.
+
+## El ve parmak kireçlenmesi rehberi (14 Ekim 2026)
+- el-kireclenmesi.html → en/hand-osteoarthritis.html (cond41_part.py). Egzersizler: ho_fist (tglide), ho_opp (thumb), ho_web (thumb), ho_grip (grip), ho_wrist (dq_wrist), ho_rot (ge_rot). Bölge "omuz" (kol-el), el bileği kırığından sonra.
+- Okunan kaynaklar: NHS Dumfries & Galloway Right Decisions (12 Aralık 2025; 50 yaş üstü, ≥45 yaş + ≤30 dk sabah tutukluğu ile klinik tanı, ısı/soğuk, mola, yumruk ve başparmakla parmaklara dokunma, sıcak-kabarık şişlikte romatoloji), St George's NHS başparmak OA broşürü (Mayıs 2025; 5 dk ısıtma, 30 sn başparmak arası esnetme, top sıkma), Østerås 2017 Cochrane (ağrıda 0,5 puan, kanıt düşük, yan etki az).
+- Kaynaksız: egzersiz tekrar sayıları; "örgü, bilgisayar, bahçe işi" örnekleri; "sabah tutukluğu 30 dakikadan uzunsa hekime" maddesi (tanı ölçütünden türetildi). Versus Arthritis broşürü bağlantısı 404 verdi.
+- Kartlarda: fb494.
