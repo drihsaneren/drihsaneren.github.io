@@ -48,6 +48,7 @@ EN = {
     "bel-kaymasi.html": "spondylolisthesis.html",
     "huzursuz-bacak.html": "restless-legs-syndrome.html",
     "kuyruk-sokumu-agrisi.html": "tailbone-pain.html",
+    "arka-uyluk-zorlanmasi.html": "hamstring-injury.html",
     "kaval-kemigi-agrisi.html": "shin-splints.html",
     "boyun-tutulmasi.html": "wry-neck.html",
     "ganglion-kisti.html": "ganglion-cyst.html",

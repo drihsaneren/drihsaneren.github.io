@@ -450,3 +450,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Shin splints (9 Şubat 2023; buz 20 dk 2–3 saatte bir, birkaç haftada düzelir), nidirect Shin splints (10 Ocak 2025; 2–3 hafta ara, 5 cm kuralı, stres kırığı/kompartman ayrımı, risk etkenleri), Newman ve ark. 2013 OAJSM meta-analiz (%5–35; kadın, yüksek VKİ, navikular düşme, önceki MTSS, tabanlık kullanımı, az koşu deneyimi).
 - Kaynaksız / yorum: tüm egzersiz doz ve süreleri; tek ayakla topuk yükseltmeye geçiş ve göz kapalı denge; tabanlık sorusundaki "risk taşıyanlar kullanıyor olabilir" yorumu (makale nedensellik kurmuyor); "aynı gün" (NHS 111 diyor).
 - Kartlarda: fb483, fb484.
+
+## Arka uyluk zorlanması rehberi (14 Ekim 2026)
+- arka-uyluk-zorlanmasi.html → en/hamstring-injury.html (cond35_part.py). Egzersizler kolaydan zora: hs_slide (hslide), hs_bridge, hs_stretch (lc_ham), hs_walk, hs_hinge, hs_nordic (yeni çizim: Nordic hamstring). Bölge "diz", atlet dizinden sonra.
+- Okunan kaynaklar: nidirect Hamstring injury (19 Aralık 2024; 3 derece, PRICE 48–72 saat, buz 15–20 dk 2–3 saatte bir, ilk 72 saatte HARM'dan kaçınma, ibuprofen 48 saat sonra, birkaç gün sonra hafif germe, spora dönüş ölçütü), van Dyk ve ark. 2019 BJSM meta-analiz (8459 sporcu, Nordic içeren programlar RR 0,49).
+- Kaynaksız: tüm egzersiz doz ve süreleri; Nordic için "haftada 1–2 kez, 2–3 set × 3–6 tekrar" (bellekten, yaygın protokoller); "ağrı ertesi gün artarsa bir önceki seviyeye dönün" kuralı; "pat sesi / bacağı kullanamama / geniş morarma" maddesi nidirect'in 3. derece tanımından türetildi (sayfa bunu ayrıca acil saymıyor).
+- Kartlarda: fb485, fb486.
