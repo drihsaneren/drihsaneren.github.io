@@ -1,0 +1,252 @@
+[
+ {
+  "id": "gan0",
+  "kind": "text",
+  "tr": "Ganglion Kisti (El Bileği Kisti): Nedenleri, Tedavisi ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "gan1",
+  "kind": "attr",
+  "tr": "El bileğinde şişlik: ganglion kisti neden olur, kendiliğinden geçer mi, boşaltmak ya da ameliyat işe yarar mı? Evde yapılabilecekler, uyarı işaretleri ve altı egzersiz."
+ },
+ {
+  "id": "gan2",
+  "kind": "text",
+  "tr": "Ganglion kisti (el bileği kisti)"
+ },
+ {
+  "id": "gan3",
+  "kind": "text",
+  "tr": "Ganglion kisti, çoğunlukla el bileğinde ya da elde, bir eklemin ya da kiriş kılıfının yanında beliren, içi sıvı dolu yumuşak bir şişliktir. Görünümü kaygı verebilir, ama zararsızdır ve çoğu zaman kendiliğinden kaybolur. Ağrı, uyuşma ya da elinizi kullanmanızı kısıtlamıyorsa genellikle tedavi gerekmez."
+ },
+ {
+  "id": "gan4",
+  "kind": "text",
+  "tr": "Aylar – 1 yıl"
+ },
+ {
+  "id": "gan5",
+  "kind": "text",
+  "tr": "Çoğu kistin tedavi gerekmeden kaybolabileceği süre"
+ },
+ {
+  "id": "gan6",
+  "kind": "text",
+  "tr": "Kadınlarda"
+ },
+ {
+  "id": "gan7",
+  "kind": "text",
+  "tr": "Erkeklere göre çok daha sık görülür"
+ },
+ {
+  "id": "gan8",
+  "kind": "text",
+  "tr": "Bilek kistlerinde iğneyle boşaltmanın kalıcı sonuç verdiği oran; çoğu yeniden dolar"
+ },
+ {
+  "id": "gan9",
+  "kind": "text",
+  "tr": "Ameliyattan sonra tekrarlama oranı; kistin yerine göre değişir"
+ },
+ {
+  "id": "gan10",
+  "kind": "text",
+  "tr": "Deri altında, bezelyeden küçükten birkaç santimetreye kadar değişen, düzgün ve yumuşak bir şişlik."
+ },
+ {
+  "id": "gan11",
+  "kind": "text",
+  "tr": "Çoğu zaman ağrısızdır; yakındaki eklemi hareket ettirirken ya da sonrasında ağrıyabilir."
+ },
+ {
+  "id": "gan12",
+  "kind": "text",
+  "tr": "Bazen hareketten sonra uyuşma ya da sızı."
+ },
+ {
+  "id": "gan13",
+  "kind": "text",
+  "tr": "Nerede olur?"
+ },
+ {
+  "id": "gan14",
+  "kind": "text",
+  "tr": "<b>Bileğin sırtı:</b> En sık yerdir; genellikle genç yetişkinlerde görülür."
+ },
+ {
+  "id": "gan15",
+  "kind": "text",
+  "tr": "<b>Bileğin iç yüzü:</b> Başparmak kökünde, nabız alınan atardamara yakın."
+ },
+ {
+  "id": "gan16",
+  "kind": "text",
+  "tr": "<b>Parmak kökü:</b> Avuç tarafında, kiriş kılıfından çıkan küçük bir kist."
+ },
+ {
+  "id": "gan17",
+  "kind": "text",
+  "tr": "<b>Parmak ucundaki eklem:</b> Tırnağa yakın; genellikle orta yaş ve üzerinde, eklem kireçlenmesiyle birlikte."
+ },
+ {
+  "id": "gan18",
+  "kind": "text",
+  "tr": "Nedeni çoğu zaman bilinmez; bazen bir yaralanmadan sonra eklemden sıvı sızmasıyla oluşur."
+ },
+ {
+  "id": "gan19",
+  "kind": "text",
+  "tr": "Evde neler yapabilirim?"
+ },
+ {
+  "id": "gan20",
+  "kind": "text",
+  "tr": "İbuprofen gibi bir ağrı kesici ağrıyı ve şişliği azaltabilir; ilaç kullanmadan önce hekiminize ya da eczacınıza danışabilirsiniz."
+ },
+ {
+  "id": "gan21",
+  "kind": "text",
+  "tr": "Eczanelerde bulunan bir bileklik ya da sargı rahatlatabilir."
+ },
+ {
+  "id": "gan22",
+  "kind": "text",
+  "tr": "Kisti patlatmaya çalışmayın; enfeksiyon ve cilt hasarı yapabilir."
+ },
+ {
+  "id": "gan23",
+  "kind": "text",
+  "tr": "<b>Beklemek:</b> Ağrı, uyuşma ya da kaygı yoksa en sık önerilen yoldur."
+ },
+ {
+  "id": "gan24",
+  "kind": "text",
+  "tr": "<b>İğneyle boşaltma:</b> Belirtiler varsa önerilir; kist sıklıkla yeniden dolar ama ağrısız olabilir."
+ },
+ {
+  "id": "gan25",
+  "kind": "text",
+  "tr": "<b>Ameliyat:</b> Boşaltmaya rağmen ağrı ya da uyuşma sürüyor ve el kullanımı kısıtlanıyorsa düşünülür."
+ },
+ {
+  "id": "gan26",
+  "kind": "text",
+  "tr": "Bileği hareketli tutan altı egzersiz"
+ },
+ {
+  "id": "gan27",
+  "kind": "text",
+  "tr": "Bu hareketlerin kisti küçülttüğüne dair kanıt yoktur. Amaç, kist ağrı ya da tutukluk yapıyorsa bileğinizi ve parmaklarınızı hareketli tutmaktır. Kisti belirgin ağrıtan ya da uyuşmayı artıran hareketleri zorlamayın."
+ },
+ {
+  "id": "gan28",
+  "kind": "text",
+  "tr": "Ön kolunuzu masaya koyun, eliniz masanın kenarından taşsın. Elinizde ağırlık olmadan bileğinizi rahatça yapabildiğiniz kadar yukarı kaldırın, sonra aşağı indirin. Kisti belirgin ağrıtan noktaya kadar zorlamayın."
+ },
+ {
+  "id": "gan29",
+  "kind": "text",
+  "tr": "Her yöne 10 tekrar, günde 2–3 kez"
+ },
+ {
+  "id": "gan30",
+  "kind": "text",
+  "tr": "Ön kolunuz masada dursun. Elinizin sırtı masadayken başlayın, sonra avucunuz aşağı bakacak şekilde yavaşça çevirin ve geri dönün. Ağırlık kullanmanız gerekmez."
+ },
+ {
+  "id": "gan31",
+  "kind": "text",
+  "tr": "Ganglion kisti kendiliğinden geçer mi?"
+ },
+ {
+  "id": "gan32",
+  "kind": "text",
+  "tr": "Çoğu zaman evet. Birçok kist tedavi gerekmeden kaybolur; bu birkaç aydan bir yıla kadar sürebilir. Ağrı, uyuşma ya da kaygı yaratmıyorsa genellikle tedavi önerilmez."
+ },
+ {
+  "id": "gan33",
+  "kind": "text",
+  "tr": "Kisti kitapla vurarak ya da bastırarak patlatabilir miyim?"
+ },
+ {
+  "id": "gan34",
+  "kind": "text",
+  "tr": "Hayır. Kisti kendiniz patlatmaya çalışmak enfeksiyona ve cilt hasarına yol açabilir."
+ },
+ {
+  "id": "gan35",
+  "kind": "text",
+  "tr": "İğneyle boşaltmak işe yarar mı?"
+ },
+ {
+  "id": "gan36",
+  "kind": "text",
+  "tr": "Kistlerin bir kısmı boşaltmayla geçer, ama bilekteki kistlerin çoğu yeniden dolar; yeniden dolan kist ağrısız olabilir. Bileğin iç yüzündeki kistler nabız alınan atardamara yakın olabildiği için boşaltma dikkat gerektirir."
+ },
+ {
+  "id": "gan37",
+  "kind": "text",
+  "tr": "Ameliyattan sonra tekrarlar mı?"
+ },
+ {
+  "id": "gan38",
+  "kind": "text",
+  "tr": "Tekrarlayabilir. El cerrahları derneğinin bilgilendirmesine göre bileğin sırtındaki kistlerde ameliyat sonrası tekrarlama yaklaşık %10, bileğin iç yüzündekilerde yaklaşık %30. Ameliyat sonrası bilek ve el işlevi 4–6 hafta kadar kısıtlı kalabilir; iz, ağrı ve hareket kaybı gibi riskler de vardır."
+ },
+ {
+  "id": "gan39",
+  "kind": "text",
+  "tr": "Bilek ve parmak ağrısının diğer sık nedenleri için <a href=\"de-quervain.html\">De Quervain</a>, <a href=\"tetik-parmak.html\">tetik parmak</a> ve <a href=\"karpal-tunel-sendromu.html\">karpal tünel sendromu</a> rehberlerine bakabilirsiniz."
+ },
+ {
+  "id": "gan40",
+  "kind": "text",
+  "tr": "Bir şişlik sizi kaygılandırıyorsa"
+ },
+ {
+  "id": "gan41",
+  "kind": "text",
+  "tr": "Şişlik büyüyorsa"
+ },
+ {
+  "id": "gan42",
+  "kind": "text",
+  "tr": "Şişlik sert ve yerinden oynamıyorsa"
+ },
+ {
+  "id": "gan43",
+  "kind": "text",
+  "tr": "Elinizde ya da parmaklarınızda uyuşma, karıncalanma ya da güçsüzlük varsa"
+ },
+ {
+  "id": "gan44",
+  "kind": "text",
+  "tr": "Aynı gün: şişlik çok ağrılı, sıcak ya da kızarıksa (esmer tende kızarıklık daha zor görülebilir)"
+ },
+ {
+  "id": "gan45",
+  "kind": "text",
+  "tr": "Bilek ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "gan46",
+  "kind": "wa",
+  "tr": "Merhaba, ganglion kisti için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "gan47",
+  "kind": "text",
+  "tr": "Academy of Medical Royal Colleges. <a href=\"https://ebi.aomrc.org.uk/interventions/ganglion-excision/\" target=\"_blank\" rel=\"noopener\">Evidence-Based Interventions: Ganglion excision</a>. Last reviewed September 2024."
+ },
+ {
+  "id": "gan48",
+  "kind": "text",
+  "tr": "British Society for Surgery of the Hand. <a href=\"https://apps.nhslothian.scot/files/sites/2/ganglion_cyst_leaflet-2016-BSSH.pdf\" target=\"_blank\" rel=\"noopener\">Ganglion cyst</a>. Patient information leaflet, 2016."
+ },
+ {
+  "id": "gan49",
+  "kind": "ld",
+  "tr": "Ganglion kisti"
+ }
+]

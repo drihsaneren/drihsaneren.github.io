@@ -432,3 +432,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: HSE Leg cramps (1 Temmuz 2024; süre, nedenler, statin/diüretik, germe 5 dk günde 3 kez, hekim ölçütleri), Allen & Kirby 2012 AFP (%50–60, ortalama 9 dk, huzursuz bacak/klodikasyon/nöropati ayrımı, kinin FDA uyarısı), Hallegraeff 2012 J Physiother RKÇ (80 kişi >55 yaş, 6 hafta, gecede 1,2 kramp ve 1,3 cm VAS fark), Garrison 2020 Cochrane (magnezyum: yaşlılarda anlamlı fayda yok; gebelikte belirsiz), NHS DVT (30 Nisan 2026).
 - Kaynaksız / genel bilgi: "topuğa basarak birkaç adım atmak" önerisi; soleus, arka uyluk ve havlu germede 20–30 saniye süreleri (Hallegraeff kaydında süre yok); "ilacı kendiniz bırakmayın" uyarısı; "tek bacakta pıhtı belirtisinde aynı gün" (NHS "acil GP / 111" diyor); 112 (NHS 999 diyor).
 - Kartlarda: fb479.
+
+## Ganglion kisti rehberi (14 Ekim 2026)
+- ganglion-kisti.html → en/ganglion-cyst.html (cond32_part.py). Egzersizler: gg_wrist (dq_wrist çizimi), gg_rot (ge_rot çizimi), tglide, wflex, wext_st, grip. Bölge "omuz" (kol ve el), tetik parmaktan sonra.
+- Okunan kaynaklar: NHS Ganglion cyst (16 Temmuz 2025), AoMRC Evidence-Based Interventions: Ganglion excision (Eylül 2024; boşaltma %30 kalıcı, ameliyat sonrası 4–6 hafta kısıtlılık), BSSH hasta broşürü 2016 (ameliyat sonrası tekrarlama: bilek sırtı ~%10, iç yüzü ~%30, parmak ucu ~%10).
+- Kaynaksız: egzersizlerin kendisi (sayfada "kisti küçülttüğüne dair kanıt yok" diye açıkça yazıldı); "kitapla vurma" sorusu halk pratiğinden; uyuşma/güçsüzlükte hekime başvurma maddesi (AoMRC'deki "uyuşma varsa tedavi" ölçütünden türetildi); "aynı gün" (NHS 111 diyor).
+- Kartlarda: fb480.
