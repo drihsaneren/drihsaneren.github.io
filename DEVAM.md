@@ -438,3 +438,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Ganglion cyst (16 Temmuz 2025), AoMRC Evidence-Based Interventions: Ganglion excision (Eylül 2024; boşaltma %30 kalıcı, ameliyat sonrası 4–6 hafta kısıtlılık), BSSH hasta broşürü 2016 (ameliyat sonrası tekrarlama: bilek sırtı ~%10, iç yüzü ~%30, parmak ucu ~%10).
 - Kaynaksız: egzersizlerin kendisi (sayfada "kisti küçülttüğüne dair kanıt yok" diye açıkça yazıldı); "kitapla vurma" sorusu halk pratiğinden; uyuşma/güçsüzlükte hekime başvurma maddesi (AoMRC'deki "uyuşma varsa tedavi" ölçütünden türetildi); "aynı gün" (NHS 111 diyor).
 - Kartlarda: fb480.
+
+## Boyun tutulması rehberi (14 Ekim 2026)
+- boyun-tutulmasi.html → en/wry-neck.html (cond33_part.py). Egzersizler: bt_rot (rot çizimi), bt_side (side), bt_nod (yeni çizim: başı öne-arkaya eğme), bt_shrug (ly_shrug), chin, scap. Bölge "boyun", boyun ağrısından sonra.
+- Okunan kaynaklar: Royal Berkshire NHS acil servis broşürü Acute torticollis (Haziran 2024; belirtiler, nedenler, hekime başvuru ölçütleri), Dorset County Hospital NHS broşürü (Nisan 2014, eski; spazm 24–48 saat, tam iyileşme bir hafta, birkaç saatte bir her yöne hareket, tek sağlam yastık, "hareket boyna zarar vermez"), nidirect Meningitis (23 Temmuz 2026).
+- Kaynaksız / genel bilgi: egzersiz tekrar sayıları (5–10); "boyunluk genellikle gerekmez" (kaynaklar boyunluktan söz etmiyor, hareket öneriyor); sıcak torbayı havluya sarma uyarısı; "kola yayılan ağrı ya da uyuşma olursa egzersizi bırakın"; 112 (kaynak 999 diyor).
+- Kartlarda: fb481, fb482.
