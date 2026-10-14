@@ -480,3 +480,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Broken arm or wrist (2 Ekim 2026; 6–12 hafta, alçı uyarı işaretleri, 50 yaş üstü kemik sağlığı), United Lincolnshire NHS broşürü (Ocak 2026; ilk 1–2 ay, günde 3–4 kez ~10 tekrar, atel en kısa süre), Handoll & Elliott 2015 Cochrane (26 çalışma; ev programı ≈ ek fizyoterapi, kanıt düşük), East Kent NHS CRPS broşürü (belirtiler), Royal Osteoporosis Society (egzersizin CRPS riskini azaltmaya yardım edebileceği).
 - Kaynaksız: "wb_ext" broşürdeki "avuç masada, dirseği kaldırma" yerine ön kol germe çizimiyle anlatıldı (aynı hareket yönü); 15–20 saniye seçeneği; Türkiye'de "kırık irtibat hizmeti" olmadığı için "kemik sağlığınızı hekiminizle konuşun" diye uyarlandı.
 - Kartlarda: fb491.
+
+## Eklem hipermobilitesi rehberi (14 Ekim 2026)
+- eklem-hipermobilitesi.html → en/joint-hypermobility.html (cond40_part.py). Egzersizler: jh_sls, jh_bridge, jh_birddog, jh_wall, jh_scap, jh_walk (hepsi "eklemi kilitlemeden, orta açıklıkta" vurgusuyla). Bölge "genel", gece bacak kramplarından sonra.
+- Okunan kaynaklar: NHS Joint hypermobility syndrome (30 Ağustos 2023; belirtiler, nedenler, Beighton, düşük darbeli egzersiz, aşırı germe ve tekrardan kaçınma, molalar, ılık banyo), Engelbert ve ark. (fizyoterapi gerekçesi; ayaktan fizyoterapi hastalarında %30–55, Beighton ≥4/≥5, kanıt sınırlı).
+- Bellekten / kaynaksız: Beighton'un 9 puanlık maddeleri (standart bilgi, bu oturumda okunan sayfada sayılmıyor); Engelbert makalesinin dergi ve yılı (Am J Med Genet C 2017; okunan PDF'te yayın bilgisi yoktu); "ayağa kalkınca baş dönmesi, çarpıntı" uyarısı (hEDS–POTS ilişkisi, NHS sayfasında yok); egzersiz dozları.
+- Kartlarda: fb492, fb493.

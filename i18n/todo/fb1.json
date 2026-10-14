@@ -2453,5 +2453,15 @@
   "id": "fb491",
   "kind": "text",
   "tr": "Alçı çıktı ama bileğiniz tutuk ve zayıf mı? Neler beklenir, ne zaman normale döner? Uyarı işaretleri ve evde altı egzersiz."
+ },
+ {
+  "id": "fb492",
+  "kind": "text",
+  "tr": "Eklemleriniz çok esnek, ama sık ağrıyor ya da burkuluyor mu? Beighton puanı neyi gösterir, hangi egzersizler eklemleri korur?"
+ },
+ {
+  "id": "fb493",
+  "kind": "text",
+  "tr": "Eklem hipermobilitesi"
  }
 ]
