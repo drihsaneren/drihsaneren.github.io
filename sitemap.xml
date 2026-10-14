@@ -666,6 +666,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/eklem-hipermobilitesi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/el-kireclenmesi.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/el-kireclenmesi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/hand-osteoarthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/el-kireclenmesi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1329,5 +1336,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/eklem-hipermobilitesi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/joint-hypermobility.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/eklem-hipermobilitesi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/hand-osteoarthritis.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/el-kireclenmesi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/hand-osteoarthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/el-kireclenmesi.html"/>
   </url>
 </urlset>
