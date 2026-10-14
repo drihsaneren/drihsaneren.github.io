@@ -497,3 +497,10 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - scratchpad/vid5: film.py (8 sahne, 50 sn, 1080x1920), music.py (özgün sentez müzik), shot.py (gece-bacak-kramplari mobil tam sayfa görüntüsü + başlık konumları), ex.json (sitedeki 4 egzersiz çizimi). Çıktı: out/bilgi-kosesi-video.mp4 (9,2 MB, ortalama -16,1 dB).
 - Sahneler: "Nereniz ağrıyor?" beden haritası → 6 gerçek soru baloncuğu → 61 hastalık rehberi sayacı + bölge sayıları → telefonda gece bacak krampları rehberinin içi → 4 egzersiz çizimi → "Abartı yok" (sitedeki 3 gerçek cümle) + uyarı işaretleri → TR/EN kart çevirme → kapanış (drihsaneren.com/bilgi).
 - Sayılar sitedeki filtrelerden: Tümü 61, bel 12, boyun 7, omuz-kol-el 12, kalça-diz 11, ayak 8, tüm vücut 10, kadın 2; toplam 122 başlık.
+
+## Kendine iyi bak: 10 saniye denge testi (14 Ekim 2026)
+- denge-testi.html → en/balance-test.html (self4_part.py; SELF4_CSS = SELF2_CSS + denge stilleri). Kayıt aracı: scratchpad/reg_self.py (config: s_bal.py). "Kendinizi ölçün" grubunda otur-kalk testinden sonra; C_BAL (C_BT boyun tutulmasında kullanılıyor).
+- Araç: göz açık/kapalı, yaş grubu, 5 sn hazırlık + bip, 45 sn üst sınır, 10 sn işareti, ekrana dokunma / boşluk tuşu ile durdurma, 3 deneme + en iyisi, Springer normlarıyla karşılaştırma; mobilde sıra: seçimler → süreölçer → sonuç. Hiçbir şey kaydedilmez.
+- Okunan kaynaklar: Araujo ve ark. 2022 BJSM (1702 kişi, 51–75 yaş, %20,4 yapamadı, 7 yıl, %17,5 / %4,6, HR 1,84), Springer ve ark. 2007 JGPT (549 kişi, yaş gruplarına göre en iyi 3 deneme, uygulama ve durdurma ölçütleri), Sherrington 2019 Cochrane (%24, düşme önleme sayfasıyla aynı).
+- Kaynaksız / yorum: "ortalamanın %85'i ve üzeri = ortalamaya yakın" eşiği; göz kapalıyken dengenin neden zorlaştığı açıklaması (genel fizyoloji); güvenlik önerileri. Araujo makalesinin bitiş sayfası yazılmadı (okunan özette yoktu). t_ls 4 egzersiz nedeniyle "sorun: 6" verir (beklenen).
+- Kartlarda: fb495, fb496.

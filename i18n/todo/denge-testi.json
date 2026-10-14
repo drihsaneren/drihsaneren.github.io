@@ -1,0 +1,367 @@
+[
+ {
+  "id": "den0",
+  "kind": "text",
+  "tr": "10 Saniye Denge Testi: Tek Ayak Üzerinde Durma Süreölçeri ve Yaş Ortalamaları | İhsan Eren"
+ },
+ {
+  "id": "den1",
+  "kind": "attr",
+  "tr": "Bir ayağınızın üzerinde 10 saniye durabiliyor musunuz? Süreölçerle deneyin, yaşınızdaki ortalamayla karşılaştırın ve dengenizi geliştiren dört egzersizi öğrenin."
+ },
+ {
+  "id": "den2",
+  "kind": "text",
+  "tr": "10 saniye denge testi"
+ },
+ {
+  "id": "den3",
+  "kind": "text",
+  "tr": "Bir ayağınızın üzerinde 10 saniye durabiliyor musunuz? 51–75 yaş arası 1.702 kişinin yaklaşık 7 yıl izlendiği bir araştırmada, her beş kişiden biri bunu yapamadı ve bu kişilerde izlem süresince ölüm oranı belirgin şekilde daha yüksekti. Bu basit test bir tanı değil, ama dengenize dair değerli bir ipucu. Aşağıdaki süreölçerle deneyin ve yaşınızdaki ortalamayla karşılaştırın."
+ },
+ {
+  "id": "den4",
+  "kind": "text",
+  "tr": "5’te 1"
+ },
+ {
+  "id": "den5",
+  "kind": "text",
+  "tr": "51–75 yaş arası katılımcılardan 10 saniye tek ayak üzerinde duramayanların oranı"
+ },
+ {
+  "id": "den6",
+  "kind": "text",
+  "tr": "Yaklaşık 7 yıllık izlemde ölüm oranı: testi yapamayanlar / yapabilenler"
+ },
+ {
+  "id": "den7",
+  "kind": "text",
+  "tr": "1,84 kat"
+ },
+ {
+  "id": "den8",
+  "kind": "text",
+  "tr": "Yaş, cinsiyet, kilo ve hastalıklar hesaba katıldıktan sonra yapamayanlardaki ölüm riski"
+ },
+ {
+  "id": "den9",
+  "kind": "text",
+  "tr": "Denge ve günlük hareket egzersizleriyle yaşlılarda düşme sayısındaki azalma"
+ },
+ {
+  "id": "den10",
+  "kind": "text",
+  "tr": "Süreölçerle deneyin"
+ },
+ {
+  "id": "den11",
+  "kind": "text",
+  "tr": "Bir duvarın ya da sağlam bir tezgâhın yanında, çıplak ayakla durun. Telefonu kolayca dokunabileceğiniz bir yere koyun ya da birinden süreyi tutmasını isteyin. Üç deneme yapın; en iyisi sonucunuzdur."
+ },
+ {
+  "id": "den12",
+  "kind": "text",
+  "tr": "Gözler"
+ },
+ {
+  "id": "den13",
+  "kind": "text",
+  "tr": "Açık"
+ },
+ {
+  "id": "den14",
+  "kind": "text",
+  "tr": "Kapalı"
+ },
+ {
+  "id": "den15",
+  "kind": "attr",
+  "tr": "Yaş grubu"
+ },
+ {
+  "id": "den16",
+  "kind": "text",
+  "tr": "1. deneme"
+ },
+ {
+  "id": "den17",
+  "kind": "text",
+  "tr": "2. deneme"
+ },
+ {
+  "id": "den18",
+  "kind": "text",
+  "tr": "3. deneme"
+ },
+ {
+  "id": "den19",
+  "kind": "text",
+  "tr": "Başlat’a basınca 5 saniyelik hazırlanma süresi başlar."
+ },
+ {
+  "id": "den20",
+  "kind": "text",
+  "tr": "Denemeleri sıfırla"
+ },
+ {
+  "id": "den21",
+  "kind": "text",
+  "tr": "Kollarınızı göğsünüzde çapraz yapın, karşıda bir noktaya bakın. Sinyalle birlikte bir ayağınızı kaldırın."
+ },
+ {
+  "id": "den22",
+  "kind": "text",
+  "tr": "Kollarınızı göğsünüzde çapraz yapın. Sinyalle birlikte gözlerinizi kapatıp bir ayağınızı kaldırın."
+ },
+ {
+  "id": "den23",
+  "kind": "text",
+  "tr": "Ayağınızı kaldırın"
+ },
+ {
+  "id": "den24",
+  "kind": "text",
+  "tr": "Ayağınız yere değince ya da kollarınızı açınca ekrana dokunun."
+ },
+ {
+  "id": "den25",
+  "kind": "text",
+  "tr": "10 saniye! Devam edebildiğiniz kadar durun."
+ },
+ {
+  "id": "den26",
+  "kind": "text",
+  "tr": "Sonraki deneme"
+ },
+ {
+  "id": "den27",
+  "kind": "text",
+  "tr": "{n}. deneme kaydedildi"
+ },
+ {
+  "id": "den28",
+  "kind": "text",
+  "tr": "Kısa bir dinlenmeden sonra bir sonraki denemeye geçin."
+ },
+ {
+  "id": "den29",
+  "kind": "text",
+  "tr": "45 saniye: testin üst sınırına ulaştınız"
+ },
+ {
+  "id": "den30",
+  "kind": "text",
+  "tr": "Üç deneme tamamlandı"
+ },
+ {
+  "id": "den31",
+  "kind": "text",
+  "tr": "En iyi süreniz ve karşılaştırma, deneme kutularının altında. Diğer göz koşulunu da deneyebilirsiniz."
+ },
+ {
+  "id": "den32",
+  "kind": "text",
+  "tr": "En iyi süreniz: {s} saniye"
+ },
+ {
+  "id": "den33",
+  "kind": "text",
+  "tr": "Yaş grubunuzun ortalaması (gözler {e}): {m} saniye."
+ },
+ {
+  "id": "den34",
+  "kind": "text",
+  "tr": "açık"
+ },
+ {
+  "id": "den35",
+  "kind": "text",
+  "tr": "kapalı"
+ },
+ {
+  "id": "den36",
+  "kind": "text",
+  "tr": "Ortalamanın üzerinde ya da yakınındasınız."
+ },
+ {
+  "id": "den37",
+  "kind": "text",
+  "tr": "Ortalamanın altındasınız; denge egzersizleriyle geliştirebilirsiniz."
+ },
+ {
+  "id": "den38",
+  "kind": "text",
+  "tr": "10 saniyeyi geçtiniz"
+ },
+ {
+  "id": "den39",
+  "kind": "text",
+  "tr": "10 saniyenin altında"
+ },
+ {
+  "id": "den40",
+  "kind": "text",
+  "tr": "Bu bir tanı değildir. Denge egzersizlerine başlayabilir, kaygınız varsa hekiminiz ya da fizyoterapistinizle konuşabilirsiniz."
+ },
+ {
+  "id": "den41",
+  "kind": "text",
+  "tr": "Sonuçlarınız yalnızca bu sayfada kalır; hiçbir yere gönderilmez."
+ },
+ {
+  "id": "den42",
+  "kind": "text",
+  "tr": "<strong>Çıplak ayakla</strong>, tutunabileceğiniz bir duvarın ya da tezgâhın yanında durun."
+ },
+ {
+  "id": "den43",
+  "kind": "text",
+  "tr": "Kollarınızı göğsünüzde <strong>çapraz</strong> yapın, karşınızda göz hizasındaki bir noktaya bakın."
+ },
+ {
+  "id": "den44",
+  "kind": "text",
+  "tr": "Bir ayağınızı kaldırın; kaldırdığınız ayak diğer ayak bileğinize <strong>yakın ama değmeden</strong> dursun. Süre, ayağınız yerden kalkınca başlar."
+ },
+ {
+  "id": "den45",
+  "kind": "text",
+  "tr": "Kollarınızı açarsanız, kaldırdığınız ayak yere ya da diğer bacağınıza değerse, duran ayağınız kayar ya da dönerse, gözler kapalı denemede gözünüzü açarsanız <strong>süre durur</strong>. Üst sınır 45 saniyedir."
+ },
+ {
+  "id": "den46",
+  "kind": "text",
+  "tr": "Dengeniz bozulursa hemen tutunabileceğiniz bir yerin yanında yapın."
+ },
+ {
+  "id": "den47",
+  "kind": "text",
+  "tr": "Son zamanlarda düştüyseniz, baş dönmeniz ya da belirgin bir denge sorununuz varsa testi yanınızda biri varken yapın; gözler kapalı denemeyi atlayın."
+ },
+ {
+  "id": "den48",
+  "kind": "text",
+  "tr": "Baş dönmesi, ağrı ya da fenalık hissederseniz durun."
+ },
+ {
+  "id": "den49",
+  "kind": "text",
+  "tr": "Karşılaştırma"
+ },
+ {
+  "id": "den50",
+  "kind": "text",
+  "tr": "Yaşa göre ortalama süreler"
+ },
+ {
+  "id": "den51",
+  "kind": "text",
+  "tr": "Denge sorunu olmayan 549 sağlıklı yetişkinde, üç denemenin en iyisi (saniye; üst sınır 45). Gözler kapalıyken süreler belirgin şekilde kısalır. Yaş grubunuz yukarıdaki seçime göre işaretlenir."
+ },
+ {
+  "id": "den52",
+  "kind": "text",
+  "tr": "Gözler açık"
+ },
+ {
+  "id": "den53",
+  "kind": "text",
+  "tr": "Gözler kapalı"
+ },
+ {
+  "id": "den54",
+  "kind": "text",
+  "tr": "18–39<em class=\"you\">siz</em>"
+ },
+ {
+  "id": "den55",
+  "kind": "text",
+  "tr": "40–49<em class=\"you\">siz</em>"
+ },
+ {
+  "id": "den56",
+  "kind": "text",
+  "tr": "50–59<em class=\"you\">siz</em>"
+ },
+ {
+  "id": "den57",
+  "kind": "text",
+  "tr": "60–69<em class=\"you\">siz</em>"
+ },
+ {
+  "id": "den58",
+  "kind": "text",
+  "tr": "70–79<em class=\"you\">siz</em>"
+ },
+ {
+  "id": "den59",
+  "kind": "text",
+  "tr": "80+<em class=\"you\">siz</em>"
+ },
+ {
+  "id": "den60",
+  "kind": "text",
+  "tr": "Dengenizi geliştirin"
+ },
+ {
+  "id": "den61",
+  "kind": "text",
+  "tr": "Evde dört denge egzersizi"
+ },
+ {
+  "id": "den62",
+  "kind": "text",
+  "tr": "Bir tezgâhın önünde, gerektiğinde tutunarak yapın. Kolaylaştıkça tutunmayı azaltın. Daha fazlası için <a href=\"dusme-onleme.html\">düşmeleri önleme ve denge</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "den63",
+  "kind": "text",
+  "tr": "10 saniye duramazsam erken ölüm riskim mi yüksek?"
+ },
+ {
+  "id": "den64",
+  "kind": "text",
+  "tr": "Bu bir tanı değildir. Araştırma, testi yapamayanlarda sonraki yıllarda ölüm oranının daha yüksek olduğunu gösteriyor; ama bu bir ilişkidir, testin kendisi bir hastalığı göstermez. Araştırmacılar yakın zamanda geçirilen düşmeler ve fiziksel aktivite gibi etkenleri hesaba katamadıklarını belirtiyor. Testi bir uyarı ışığı gibi düşünüp dengenizi çalıştırmaya başlayabilir, kaygınız varsa hekiminizle konuşabilirsiniz."
+ },
+ {
+  "id": "den65",
+  "kind": "text",
+  "tr": "Hangi ayakla yapmalıyım?"
+ },
+ {
+  "id": "den66",
+  "kind": "text",
+  "tr": "Yaş ortalamalarının çıkarıldığı çalışmada katılımcılar ayağı kendileri seçti. İsterseniz iki ayağınızı ayrı ayrı deneyip karşılaştırabilirsiniz."
+ },
+ {
+  "id": "den67",
+  "kind": "text",
+  "tr": "Gözler kapalıyken neden bu kadar zor?"
+ },
+ {
+  "id": "den68",
+  "kind": "text",
+  "tr": "Dengeyi korurken gözlerden, iç kulaktan ve ayak tabanı ile eklemlerdeki duyulardan gelen bilgiyi birlikte kullanırız. Gözleri kapatınca bu bilgilerden biri ortadan kalkar. Ortalamalarda da fark büyük: 18–39 yaşta gözler açıkken 44,7 saniye, kapalıyken 15,2 saniye."
+ },
+ {
+  "id": "den69",
+  "kind": "text",
+  "tr": "Dengemi geliştirebilir miyim?"
+ },
+ {
+  "id": "den70",
+  "kind": "text",
+  "tr": "Evet. Toplumda yaşayan yaşlılarla yapılan çalışmaların Cochrane derlemesinde, denge ve günlük hareketleri çalıştıran egzersizler düşme sayısını %24 azalttı. Yukarıdaki egzersizlerle başlayabilir, düşmeleri önleme rehberine de bakabilirsiniz."
+ },
+ {
+  "id": "den71",
+  "kind": "wa",
+  "tr": "Merhaba, denge değerlendirmesi için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "den72",
+  "kind": "ld",
+  "tr": "Tek ayak üzerinde durma testi"
+ }
+]
