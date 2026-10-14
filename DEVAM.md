@@ -468,3 +468,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: NHS Fife çocuk ortopedi sayfası (Ocak 2022; 10–14 yaş, 12–24 ay, aktivite azaltma), Bradford Teaching Hospitals NHS broşürü (Şubat 2025; 10–16 yaş, erkeklerde daha sık, buz 10 dk, 20–30 sn germeler, 6 haftada düzelmezse hekim), Rathleff ve ark. 2020 OJSM (51 genç, 12 hafta aktivite merdiveni + güçlendirme, %80 başarı, 12 ayda %69 spora dönüş; kontrol grubu yok).
 - Kaynaksız: güçlendirme egzersizlerinin seçimi ve dozları (Rathleff özetinde egzersiz ayrıntısı yok), duvar çömelmesinin "sabit tutma" biçimi; gece ağrısı, ateş/sıcak kızarık diz, topallama/kilitlenme uyarıları (genel çocuk diz ağrısı bilgisi, iki broşür de bunları listelemiyor).
 - Kartlarda: fb488, fb489.
+
+## Morton nöroması rehberi (14 Ekim 2026)
+- morton-noromasi.html → en/mortons-neuroma.html (cond38_part.py). Bilinçli olarak 4 egzersiz ("ex four"): mn_calf, mn_soleus, mn_arch (ff_short), mn_toe (dm_toe). t_ls 6 egzersiz beklediği için "sorun: 6" verir; bu sayfada beklenen durum (taşma/hata/kırık bağlantı yok).
+- Okunan kaynaklar: NHS Morton's neuroma (12 Haziran 2025; belirtiler, nedenler, ayakkabı/ped/kilo önerileri, 2 hafta kuralı, hekime başvuru ölçütleri), Matthews ve ark. 2019 J Foot Ankle Res (25 çalışma; kortizon iğnesi ve mobilizasyon en güçlü kanıt, altın standart yok, ESWT anlamsız).
+- Kaynaksız: egzersizlerin seçimi ve dozları (sayfada "nöromayı geçirdiğine dair kanıt yok" yazıyor); "dar ayakkabılar ayak önündeki baskıyı artırdığı için" gerekçesi.
+- Kartlarda: fb490.

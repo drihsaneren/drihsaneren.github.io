@@ -48,6 +48,7 @@ EN = {
     "bel-kaymasi.html": "spondylolisthesis.html",
     "huzursuz-bacak.html": "restless-legs-syndrome.html",
     "kuyruk-sokumu-agrisi.html": "tailbone-pain.html",
+    "morton-noromasi.html": "mortons-neuroma.html",
     "osgood-schlatter.html": "osgood-schlatter.html",
     "sakroiliak-eklem-agrisi.html": "sacroiliac-joint-pain.html",
     "arka-uyluk-zorlanmasi.html": "hamstring-injury.html",
