@@ -2,6 +2,256 @@
  {
   "id": "kur0",
   "kind": "text",
+  "tr": "Kürek Kemiği Arası Ağrı (Sırt Ağrısı): Nedenleri, Uyarı İşaretleri ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "kur1",
+  "kind": "attr",
+  "tr": "Kürek kemiklerinin arasında ağrı neden olur, ne zaman tehlikelidir? Boyundan ve kalpten gelen ağrıyı ayırmaya yardımcı uyarı işaretleri, iyi gelenler ve evde altı egzersiz."
+ },
+ {
+  "id": "kur2",
+  "kind": "text",
+  "tr": "Kürek kemiği arası ağrı (sırt ağrısı)"
+ },
+ {
+  "id": "kur3",
+  "kind": "text",
+  "tr": "Kürek kemiklerinin arasında ya da sırtın ortasında hissedilen sızı, yanma ya da batma çok sık görülür. Göğüs omurgası güçlü bir yapıdır ve çoğu kişi basit önlemler ve düzenli hareketle iyileşir. Yine de bu bölgeye boyundan ve nadiren kalp gibi iç organlardan ağrı yansıyabildiği için, hangi belirtilerde beklememek gerektiğini bilmek önemlidir."
+ },
+ {
+  "id": "kur4",
+  "kind": "text",
   "tr": "Araştırmalarda bildirilen yaşam boyu görülme oranı; çalışmalar arasında farklar büyük"
+ },
+ {
+  "id": "kur5",
+  "kind": "text",
+  "tr": "Gençlerde daha sık"
+ },
+ {
+  "id": "kur6",
+  "kind": "text",
+  "tr": "Çocuk ve gençlerde, özellikle kızlarda, yetişkinlerden daha sık bildirilmiş"
+ },
+ {
+  "id": "kur7",
+  "kind": "text",
+  "tr": "Haftalar – aylar"
+ },
+ {
+  "id": "kur8",
+  "kind": "text",
+  "tr": "Şikâyetlerin sürebileceği zaman; çoğu kişi basit önlemlerle iyileşir"
+ },
+ {
+  "id": "kur9",
+  "kind": "text",
+  "tr": "Günde 2–3 kez"
+ },
+ {
+  "id": "kur10",
+  "kind": "text",
+  "tr": "Önerilen egzersiz sıklığı, her harekette 10–20 tekrar"
+ },
+ {
+  "id": "kur11",
+  "kind": "text",
+  "tr": "Kürek kemiklerinin arasında sızı ya da batma."
+ },
+ {
+  "id": "kur12",
+  "kind": "text",
+  "tr": "Dönerken ya da sabah uyandığınızda tutukluk."
+ },
+ {
+  "id": "kur13",
+  "kind": "text",
+  "tr": "Sırt kaslarında gerginlik ya da kasılma."
+ },
+ {
+  "id": "kur14",
+  "kind": "text",
+  "tr": "Bir şey kaldırırken, uzanırken ya da uzun süre otururken artan ağrı."
+ },
+ {
+  "id": "kur15",
+  "kind": "text",
+  "tr": "Kaburgalara ya da göğüs duvarına yayılan ağrı."
+ },
+ {
+  "id": "kur16",
+  "kind": "text",
+  "tr": "<b>Kaslar ve eklemler:</b> En sık neden budur. Ağrı hareketle, dönmekle ve pozisyonla değişir."
+ },
+ {
+  "id": "kur17",
+  "kind": "text",
+  "tr": "<b>Boyun:</b> Boyundaki bir sinir kökü sıkıştığında ağrı kürek kemiği bölgesine yansıyabilir."
+ },
+ {
+  "id": "kur18",
+  "kind": "text",
+  "tr": "<b>İlişkili etkenler:</b> Araştırmalarda başka kas ve eklem ağrıları, sırt çantası, duruş, stres ve yaşam tarzı ilişkili bulunmuş; ama bunların hepsi kesin neden değildir."
+ },
+ {
+  "id": "kur19",
+  "kind": "text",
+  "tr": "<b>Nadiren iç organlar:</b> Kalp ve ana atardamar (aort) gibi organlardan da bu bölgeye ağrı yansıyabilir."
+ },
+ {
+  "id": "kur20",
+  "kind": "text",
+  "tr": "Hareketli kalın"
+ },
+ {
+  "id": "kur21",
+  "kind": "text",
+  "tr": "Göğüs omurgası güçlüdür. Ağrının izin verdiği ölçüde günlük işlerinize devam etmek iyileşmeyi destekler."
+ },
+ {
+  "id": "kur22",
+  "kind": "text",
+  "tr": "Uzun süre oturmak ağrıyı artırabilir. Masa başında sık sık kalkıp birkaç adım atabilir, omuzlarınızı gevşetebilirsiniz."
+ },
+ {
+  "id": "kur23",
+  "kind": "text",
+  "tr": "Aşağıdaki hareketleri 10–20 tekrar, günde 2–3 kez yapabilirsiniz. Hafif bir gerginlik normaldir, ağrıyı zorlamayın."
+ },
+ {
+  "id": "kur24",
+  "kind": "text",
+  "tr": "Nefes ve gevşeme"
+ },
+ {
+  "id": "kur25",
+  "kind": "text",
+  "tr": "Stres sırt kaslarını gerebilir. Yavaş nefes ve gevşeme için <a href=\"uc-kapi.html\">Üç Kapı</a> ya da <a href=\"kas-gevsetme.html\">kas gevşetme</a> sayfasını deneyebilirsiniz."
+ },
+ {
+  "id": "kur26",
+  "kind": "text",
+  "tr": "Masa başında çalışıyorsanız <a href=\"masa-basi.html\">masa başı rehberine</a>, duruşunuz öne doğruysa <a href=\"kambur-durus.html\">kambur duruş rehberine</a> de bakabilirsiniz."
+ },
+ {
+  "id": "kur27",
+  "kind": "text",
+  "tr": "Sırtı açan altı egzersiz"
+ },
+ {
+  "id": "kur28",
+  "kind": "text",
+  "tr": "Hareketleri yavaş ve kontrollü, ağrısız bir aralıkta yapın. Göğüste sıkışma, nefes darlığı ya da yeni bir uyuşma olursa egzersizi bırakın."
+ },
+ {
+  "id": "kur29",
+  "kind": "text",
+  "tr": "Oturarak gövde döndürme"
+ },
+ {
+  "id": "kur30",
+  "kind": "text",
+  "tr": "Sandalyeye dik oturun, ayaklarınız yere bassın, kollarınızı göğsünüzde çapraz yapın. Kalçanızı oynatmadan gövdenizi yavaşça sağa çevirin, rahat olan son noktada 2–3 saniye bekleyin, sonra aynı şekilde sola çevirin."
+ },
+ {
+  "id": "kur31",
+  "kind": "text",
+  "tr": "Her yöne 10–20 tekrar, günde 2–3 kez"
+ },
+ {
+  "id": "kur32",
+  "kind": "text",
+  "tr": "Duvarda yana eğilme"
+ },
+ {
+  "id": "kur33",
+  "kind": "text",
+  "tr": "Sırtınızı duvara verin, ayaklarınız kalça genişliğinde açık olsun. Sırtınızı duvardan ayırmadan gövdenizi yavaşça yana eğin; eliniz bacağınızın yanından aşağı kaysın. Gövdenizin yanında hafif bir gerginlik hissedin, doğrulup öbür yana geçin."
+ },
+ {
+  "id": "kur34",
+  "kind": "text",
+  "tr": "Her yana 10 tekrar, günde 2–3 kez"
+ },
+ {
+  "id": "kur35",
+  "kind": "text",
+  "tr": "Kürek kemiklerimin arasındaki ağrı kalpten olabilir mi?"
+ },
+ {
+  "id": "kur36",
+  "kind": "text",
+  "tr": "Nadiren olabilir. Kalp krizinde ağrı genellikle göğüste sıkışma ya da baskı şeklindedir; kola, boyuna ve çeneye yayılabilir, nefes darlığı, terleme ve bulantı eşlik edebilir. Aniden başlayan, yırtılır gibi çok şiddetli göğüs ya da sırt ağrısı ise ana atardamarın (aort) yırtılmasının belirtisi olabilir. Bu belirtilerde beklemeden 112’yi arayın. Hareketle ve pozisyonla değişen ağrı daha çok kas ve eklemlerden kaynaklanır, ama bu tek başına kalbi dışlamaz."
+ },
+ {
+  "id": "kur37",
+  "kind": "text",
+  "tr": "Ağrı boyundan gelebilir mi?"
+ },
+ {
+  "id": "kur38",
+  "kind": "text",
+  "tr": "Evet. Boyundaki bir sinir kökü sıkıştığında kürek kemiği bölgesinde ağrı sık görülür ve bazen kol ağrısından haftalar önce başlayabilir. Kola yayılan ağrı, uyuşma ya da güçsüzlük varsa boyun fıtığı rehberine bakabilir, bir hekime ya da fizyoterapiste başvurabilirsiniz."
+ },
+ {
+  "id": "kur39",
+  "kind": "text",
+  "tr": "Göğüs omurgası güçlü bir yapıdır ve çoğu kişi basit önlemlerle iyileşir. Şikâyetler birkaç hafta, bazen birkaç ay sürebilir. Hareketli kalmak ve egzersizleri düzenli yapmak iyileşmeyi destekler."
+ },
+ {
+  "id": "kur40",
+  "kind": "text",
+  "tr": "Çocuğumun sırtı ağrıyor, çantadan mı?"
+ },
+ {
+  "id": "kur41",
+  "kind": "text",
+  "tr": "Olabilir, ama tek neden olmayabilir. Araştırmalarda sırt ağrısı çocuk ve gençlerde, özellikle kızlarda, yetişkinlerden daha sık bildirilmiş; sırt çantası kullanımı ilişkili bulunan etkenlerden biri. Stres, uyku ve hareket alışkanlıkları gibi etkenlere de bakmak gerekir. Ağrı geçmiyorsa ya da uyarı işaretleri varsa çocuğunuzu bir hekime gösterebilirsiniz."
+ },
+ {
+  "id": "kur42",
+  "kind": "text",
+  "tr": "Acil: göğüste sıkışma ya da baskı, kola, boyuna ya da çeneye yayılan ağrı, nefes darlığı, terleme ya da bulantı varsa hemen 112’yi arayın"
+ },
+ {
+  "id": "kur43",
+  "kind": "text",
+  "tr": "Acil: aniden başlayan, yırtılır gibi çok şiddetli göğüs ya da sırt ağrısında hemen 112’yi arayın"
+ },
+ {
+  "id": "kur44",
+  "kind": "text",
+  "tr": "Acil: iki bacakta güçsüzlük, uyuşma ya da karıncalanma, yürümede zorluk, apış arasında uyuşma, idrar ya da dışkı kontrolünde sorun varsa"
+ },
+ {
+  "id": "kur45",
+  "kind": "text",
+  "tr": "Açıklanamayan kilo kaybı, geçmeyen şiddetli ağrı, gece ağrısı ya da kendinizi hasta hissediyorsanız"
+ },
+ {
+  "id": "kur46",
+  "kind": "text",
+  "tr": "Kola yayılan ağrı, uyuşma ya da güçsüzlük varsa (<a href=\"boyun-fitigi.html\">boyun fıtığı</a> rehberine bakabilirsiniz)"
+ },
+ {
+  "id": "kur47",
+  "kind": "text",
+  "tr": "Sırt ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "kur48",
+  "kind": "wa",
+  "tr": "Merhaba, kürek kemiği arası ağrı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "kur49",
+  "kind": "text",
+  "tr": "HSE. <a href=\"https://www.hse.ie/conditions/aortic-dissection/symptoms-of-aortic-dissection\" target=\"_blank\" rel=\"noopener\">Symptoms of aortic dissection</a>."
+ },
+ {
+  "id": "kur50",
+  "kind": "ld",
+  "tr": "Kürek kemiği arası ağrı (torakal sırt ağrısı)"
  }
 ]
