@@ -462,3 +462,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Barros, McGrath, Gelfenbeyn 2019 Federal Practitioner (%15–30, ağrı alanı 3×10 cm PSIS altı, L5 üstüne çıkmaz, risk etkenleri, test kümeleri, tanısal iğne, RF ~2/3'te 6–12 ay, füzyon ölçütleri), HCA Healthcare UK hasta sayfası (otur-kalk ağrısı, bacak boşalması, pelvik stabilizasyon, buz/ağrı kesici; tarih/yazar yok, özel hastane), NICE NG59 (hareketli kalma; sitede zaten kaynak).
 - Kaynak zayıflığı: NHS'te SİE için ayrı sayfa bulamadım; healthdirect sayfası okunamadı. Uyarı işaretleri bel ağrısı ve ankilozan spondilit sayfalarındaki listelerden alındı (bu sayfaya özel kaynak yok). Egzersiz seçimi ve dozları kaynaksız (HCA yalnızca "pelvik stabilizasyon" diyor).
 - Kartlarda: fb487.
+
+## Osgood-Schlatter rehberi (14 Ekim 2026)
+- osgood-schlatter.html → en/osgood-schlatter.html (cond37_part.py). Egzersizler: os_qstr (yeni çizim: ayakta ön uyluk germe), os_ham (lc_ham), os_wall, os_slr, os_abd, os_bridge. Bölge "diz", diz önü ağrısından sonra.
+- Okunan kaynaklar: NHS Fife çocuk ortopedi sayfası (Ocak 2022; 10–14 yaş, 12–24 ay, aktivite azaltma), Bradford Teaching Hospitals NHS broşürü (Şubat 2025; 10–16 yaş, erkeklerde daha sık, buz 10 dk, 20–30 sn germeler, 6 haftada düzelmezse hekim), Rathleff ve ark. 2020 OJSM (51 genç, 12 hafta aktivite merdiveni + güçlendirme, %80 başarı, 12 ayda %69 spora dönüş; kontrol grubu yok).
+- Kaynaksız: güçlendirme egzersizlerinin seçimi ve dozları (Rathleff özetinde egzersiz ayrıntısı yok), duvar çömelmesinin "sabit tutma" biçimi; gece ağrısı, ateş/sıcak kızarık diz, topallama/kilitlenme uyarıları (genel çocuk diz ağrısı bilgisi, iki broşür de bunları listelemiyor).
+- Kartlarda: fb488, fb489.
