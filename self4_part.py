@@ -311,3 +311,240 @@ page("denge-testi.html", "10 Saniye Denge Testi",
      seo_title="10 Saniye Denge Testi: Tek Ayak Üzerinde Durma Süreölçeri ve Yaş Ortalamaları | İhsan Eren",
      about={"@type": "MedicalTest", "name": "Tek ayak üzerinde durma testi"},
      faq_items=BT_FAQ)
+
+# ------------------------------------------------------------------ 2 · HAREKET ATIŞTIRMALIKLARI
+import re
+SV["sn_stair"] = fig(GRD +
+    '<path class="obj" d="M8 112 H30 V96 H52 V80 H74 V64 H96 V48 H114"/>'
+    f'<g>{anim_t("0 0;0 -4;0 0", dur="1.2s")}'
+    f'<path class="fig hl" d="M62 56 L56 72 L46 80">{anim_d("M62 56 L56 72 L46 80;M62 56 L72 58 L74 64;M62 56 L56 72 L46 80", dur="1.2s")}</path>'
+    '<path class="fig" d="M62 56 L64 70 L64 80"/>'
+    '<path class="fig" d="M62 26 L62 56"/>'
+    f'<path class="fig" d="M62 32 L52 44 L56 54">{anim_d("M62 32 L52 44 L56 54;M62 32 L72 42 L76 50;M62 32 L52 44 L56 54", dur="1.2s")}</path>'
+    '<circle class="hd" cx="64" cy="18" r="7"/></g>',
+    "Merdiven çıkma")
+EXT["sn_stair"] = ("Merdiveni hızlı çıkın", "Asansör yerine merdiveni, nefesiniz hızlanacak bir tempoda çıkın. Korkuluğa yakın durun, gerekirse tutunun. İnişi yavaş yapın.", "1–2 dakika ya da 3 kat")
+_ex2("sn_walk", "walk", "Otobüse yetişir gibi yürüyün", "Bir sonraki yürüyüşünüzün bir dakikasını hızlandırın: otobüse yetişmeye çalışır gibi, konuşmakta zorlanacağınız bir tempoda yürüyün, sonra normal tempoya dönün.", "1–2 dakika")
+_ex2("sn_sts", "sts", "Bir dakika kalk-otur", "Sağlam bir sandalyeden kollarınızı göğsünüzde çaprazlayarak kalkın ve kontrollü oturun. Bir dakika boyunca rahat edebildiğiniz bir hızda tekrarlayın.", "1 dakika")
+_ex2("sn_push", "sk_push", "Duvar şınavı", "Duvardan bir kol boyu uzakta durun, ellerinizi göğüs hizasında duvara koyun. Sırtınız düz kalsın; dirseklerinizi bükerek göğsünüzü duvara yaklaştırın ve itin.", "1 dakika")
+_ex2("sn_march", "dm_march", "Oturarak tempolu yerinde yürüyüş", "Eklem ağrısı ya da denge sorunu varsa iyi bir seçenek. Sağlam bir sandalyede dik oturun, dizlerinizi sırayla hızlıca kaldırıp indirin, kollarınızı da sallayın.", "1 dakika")
+_ex2("sn_heel", "heel2", "Topuk yükseltme", "Tezgâha tutunarak dik durun. Topuklarınızı kaldırıp parmak uçlarınızda yükselin ve inin. Çaydanlık kaynarken yapmak için ideal.", "1 dakika")
+
+SN_LIST = ["sn_stair", "sn_walk", "sn_sts", "sn_push", "sn_march", "sn_heel"]
+SN_PICK = "".join(f'<button type="button" class="pk" data-i="{i}" aria-pressed="{"true" if i == 0 else "false"}"><span class="pk-f an">{re.search(r"<svg.*?</svg>", SV[k], re.S).group(0)}</span><span class="pk-t">{EXT[k][0]}</span></button>' for i, k in enumerate(SN_LIST))
+
+SELF4_CSS += """
+  /* hareket atıştırmalıkları */
+  .sn{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(18px,4vw,40px);align-items:start}
+  @media (max-width:860px){.sn{grid-template-columns:1fr}}
+  .pks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  @media (max-width:520px){.pks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  .pk{all:unset;box-sizing:border-box;cursor:pointer;border:1px solid var(--line);border-radius:12px;overflow:hidden;display:grid;background:var(--ground-2)}
+  .pk-f{background:var(--paper);display:grid;place-items:center;padding:4px 0 0}
+  .pk-f svg{width:100%;max-width:120px;height:auto}
+  .pk-t{padding:8px 10px;font-size:14px;line-height:1.3;color:var(--ink-soft)}
+  .pk[aria-pressed="true"]{border-color:var(--foil);box-shadow:0 0 0 2px var(--foil)}
+  .pk[aria-pressed="true"] .pk-t{color:var(--ink);font-weight:600}
+  .pk:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .today{display:flex;align-items:center;gap:12px;margin:4px 0 14px;font-size:15px;color:var(--ink-soft)}
+  .today .wkdots{margin:0}
+  .rem{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+  .rem p{margin:6px 0 0;font-size:14px;color:var(--muted)}
+  .rem-msg{margin-top:10px;padding:12px 14px;border-radius:12px;background:rgba(143,164,118,.18);border:1px solid var(--sage);color:var(--ink);font-size:15px}
+"""
+
+SN_FAQ = [
+ ("Bu kadar kısa hareketler gerçekten işe yarar mı?", "Ölüm riskiyle ilgili bulgular gözlemseldir; yani kısa hareket patlamaları yapanlarda riskin daha düşük olduğu görülmüş, ama bunun tamamen hareketin sonucu olduğu kanıtlanmış değil. Öte yandan küçük deneysel çalışmalarda da merdiven atıştırmalıklarının kondisyonu artırdığı ve oturmayı kısa yürüyüşlerle bölmenin tansiyonu ve kan şekerini olumlu etkilediği görüldü."),
+ ("Ne kadar zorlanmalıyım?", "Araştırmadaki hareketler “yüksek tempolu”ydu: nefesinizin hızlandığı ve konuşmakta zorlandığınız bir düzey. Yeni başlıyorsanız, eklem ağrınız ya da kalp hastalığınız varsa daha hafif başlayıp zamanla artırabilirsiniz."),
+ ("Düzenli egzersizin yerine geçer mi?", "Hayır, ama iyi bir başlangıç ya da tamamlayıcıdır. Araştırmaya katılanlar boş zamanlarında egzersiz yapmayan kişilerdi; egzersiz yapanlarda yüksek tempolu hareketle benzer ilişki görüldü. Kısa hareketler, egzersize zaman bulamadığınız günlerde hareketsiz kalmamanızı sağlar."),
+ ("Masa başında çalışıyorum, ne yapabilirim?", "Küçük bir çalışmada her 30 dakikada bir 5 dakika hafif yürüyüş, kan şekerindeki yükselmeyi azalttı; daha kısa ve seyrek molalar bile büyük tansiyonu düşürdü. Yukarıdaki hatırlatıcıyı açabilir, masa başı rehberine de bakabilirsiniz."),
+]
+
+SN_BODY = f'''<header class="page">
+  <div class="wrap">
+    <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
+    <p class="eyebrow">Kendine iyi bak</p>
+    <h1>Hareket atıştırmalıkları</h1>
+    <p class="lede">Spora vakit yok mu? Belki gerek de yok, en azından başlamak için. Egzersiz yapmayan 25 bin kişinin bilekteki cihazlarla izlendiği bir araştırmada, gün içine serpiştirilmiş birer ikişer dakikalık hızlı hareketler (merdiveni koşar adım çıkmak, otobüse yetişmeye çalışmak gibi) çok daha düşük ölüm riskiyle ilişkiliydi. Aşağıdan bir “atıştırmalık” seçin, bir dakikalık zamanlayıcıyla birlikte yapın.</p>
+    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>Günde 3 kez</b><span>Araştırmada ortanca: günde 3 kez, birer ikişer dakikalık hızlı hareket</span></div>
+        <div class="stat"><b>%38–40</b><span>Bu düzeyde, hiç yapmayanlara göre tüm nedenlerden ve kanserden ölüm riskinde daha düşük oran</span></div>
+        <div class="stat"><b>%48–49</b><span>Aynı düzeyde kalp-damar hastalığından ölüm riskinde daha düşük oran</span></div>
+        <div class="stat"><b>30 dk’da 5 dk</b><span>Oturmayı yürüyüşle bölmek kan şekerindeki yükselmeyi azalttı</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="atistirmalik">
+    <div class="wrap">
+      <p class="eyebrow">Birlikte yapalım</p>
+      <h2>Bir atıştırmalık seçin</h2>
+      <p class="soft">Hepsi bir dakikalık. Hedef: gün içine yayılmış üç atıştırmalık. Nefesiniz hızlansın, ama konuşamayacak kadar değil.</p>
+      <div class="tool">
+        <div class="sn">
+          <div>
+            <div class="pks" id="sn-pks">{SN_PICK}</div>
+            <div class="controls" style="margin-top:12px"><button type="button" class="cta ghost" id="sn-rand">Benim için seç</button></div>
+          </div>
+          <div>
+            <div class="today"><span id="sn-today">Bugün: 0 / 3</span><span class="wkdots" id="sn-dots"><i></i><i></i><i></i></span></div>
+            <div class="bt-ring" id="sn-ring"><svg viewBox="0 0 132 132" aria-hidden="true"><circle class="bg" cx="66" cy="66" r="58"/><circle class="fg" id="sn-arc" cx="66" cy="66" r="58" stroke-dasharray="364.4" stroke-dashoffset="0"/></svg>
+              <div class="c"><b id="sn-sec">1:00</b><span id="sn-name"></span></div></div>
+            <p class="bt-phase" id="sn-phase" aria-live="polite">Hazır</p>
+            <p class="bt-cue" id="sn-cue"></p>
+            <button type="button" class="bt-tap" id="sn-go">Başlat</button>
+            <label class="snd"><input type="checkbox" id="sn-sound" checked> Sesli uyarı</label>
+            <div class="rem">
+              <label class="snd" style="margin:0"><input type="checkbox" id="sn-rem"> 30 dakikada bir hareket molası hatırlat</label>
+              <p>Sayfa açık kaldığı sürece çalışır; ses ve titreşimle haber verir.</p>
+              <p class="rem-msg" id="sn-msg" hidden></p>
+            </div>
+          </div>
+        </div>
+        <div class="sn-strings" hidden>
+          <span data-k="ready">Hazır</span>
+          <span data-k="readyc">Başlat’a basınca 3 saniyelik hazırlık, ardından 1 dakika.</span>
+          <span data-k="prep">Hazırlanın</span>
+          <span data-k="go">Başlayın</span>
+          <span data-k="half">Yarısı bitti, temponuzu koruyun.</span>
+          <span data-k="last">Son 10 saniye!</span>
+          <span data-k="done">Afiyet olsun!</span>
+          <span data-k="donec">Bir atıştırmalık daha tamam. Birkaç saat sonra bir tane daha yapabilirsiniz.</span>
+          <span data-k="start">Başlat</span>
+          <span data-k="stop">Durdur</span>
+          <span data-k="today">Bugün: {{n}} / 3</span>
+          <span data-k="today3">Bugün: {{n}} atıştırmalık, hedef tamam!</span>
+          <span data-k="rem">Hareket molası: kalkın ve 5 dakika yürüyün ya da bir atıştırmalık yapın.</span>
+        </div>
+      </div>
+      <p class="count">Günlük sayacınız yalnızca bu cihazda saklanır.</p>
+    </div>
+  </section>
+
+  <section id="egzersizler">
+    <div class="wrap">
+      <p class="eyebrow">Atıştırmalık menüsü</p>
+      <h2>Altı atıştırmalık, nasıl yapılır?</h2>
+      <p class="soft">Gün içindeki fırsatları kullanın: merdiven, otobüs durağı, çaydanlığın kaynaması. Kalp hastalığınız, kontrolsüz tansiyonunuz ya da eklem sorununuz varsa önce hekiminize danışın ve hafif seçeneklerle başlayın.</p>
+      {ex_grid(SN_LIST)}
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two">
+      <div>
+        <h2>Araştırmalar ne diyor?</h2>
+        <ul class="dots">
+          <li>25.241 kişi, ortalama 6,9 yıl: gün içindeki kısa ve yüksek tempolu hareketler, ölüm riskiyle neredeyse doğrusal biçimde ters ilişkiliydi. Günde ortanca 4,4 dakika bile tüm nedenlerden ölüm riskinde %26–30 daha düşük oranla ilişkiliydi.</li>
+          <li>Hareketsiz gençlerde 6 hafta boyunca haftada 3 gün, günde 3 kez 60 basamaklık merdiveni hızla çıkmak kondisyonu artırdı; artış küçüktü.</li>
+          <li>Orta yaş ve üzeri 11 kişide 8 saatlik oturma 30 dakikada bir 5 dakikalık yürüyüşle bölündüğünde kan şekeri yükselmesi azaldı; tüm mola türleri büyük tansiyonu düşürdü.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Güvenle yapmak için</h2>
+        <ul class="dots">
+          <li>Yeni başlıyorsanız tempoyu yavaş yavaş artırın.</li>
+          <li>Merdivende korkuluğa yakın durun; inişi yavaş yapın.</li>
+          <li>Eklem ağrısı varsa oturarak yapılan ya da duvara dayanarak yapılan seçenekleri tercih edin.</li>
+        </ul>
+        <div class="note warn" style="margin-top:14px"><strong>Hemen durun:</strong> Göğüs ağrısı, baş dönmesi, çarpıntı ya da alışılmadık nefes darlığı olursa hareketi bırakın; geçmiyorsa 112’yi arayın.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sık sorulan sorular</h2>
+      {faq(SN_FAQ)}
+      <p class="soft" style="margin-top:18px">Daha fazlası için <a href="hareket.html">hareket</a> ve <a href="masa-basi.html">masa başı</a> rehberlerine bakabilirsiniz.</p>
+      {CTA_CARD("Günlük hayatınıza uyan bir hareket planı", "hareket planı")}
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap col sources">
+      <p class="eyebrow">Kaynaklar</p>
+      {src_list([
+        "Stamatakis E, Ahmadi MN, Gill JMR, et al. " + ext("https://www.ukbiobank.ac.uk/publications/association-of-wearable-device-measured-vigorous-intermittent-lifestyle-physical-activity-with-mortality/", "Association of wearable device-measured vigorous intermittent lifestyle physical activity with mortality") + ". Nature Medicine. 2022.",
+        "Jenkins EM, Nairn LN, Skelly LE, Little JP, Gibala MJ. " + ext("https://search.pedro.org.au/search-results/record-detail/57594", "Do stair climbing exercise “snacks” improve cardiorespiratory fitness?") + ". Appl Physiol Nutr Metab. 2019;44(6):681–684.",
+        "Duran AT, Friel CP, Serafini MA, et al. " + ext("https://scholars.mssm.edu/en/publications/breaking-up-prolonged-sitting-to-improve-cardiometabolic-risk-dos/", "Breaking up prolonged sitting to improve cardiometabolic risk: dose–response analysis of a randomized crossover trial") + ". Med Sci Sports Exerc. 2023;55(5):847–855.",
+      ])}
+    </div>
+  </section>
+</main>'''
+
+SN_JS = '''<script>
+(function(){
+  var root = document.getElementById('atistirmalik'); if (!root) return;
+  var S = {}; root.querySelectorAll('.sn-strings [data-k]').forEach(function(e){ S[e.getAttribute('data-k')] = e.textContent; });
+  var $ = function(id){ return document.getElementById(id); };
+  var pks = [].slice.call(root.querySelectorAll('.pk')), names = pks.map(function(p){ return p.querySelector('.pk-t').textContent; });
+  var go = $('sn-go'), secEl = $('sn-sec'), arc = $('sn-arc'), phaseEl = $('sn-phase'), cue = $('sn-cue'), snd = $('sn-sound'), nameEl = $('sn-name');
+  var C = 364.4, DUR = 60, PREP = 3, cur = 0, phase = 'idle', t0 = 0, iv = null, half = false, last10 = false, ctx = null, lock = null;
+  var KEY = 'drihsaneren.atistirmalik.v1', remOn = false, due = 0, riv = null;
+''' + WAKE_JS + '''
+  function day(){ var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
+  function getN(){ try { var o = JSON.parse(localStorage.getItem(KEY)); return o && o.d === day() ? o.n : 0; } catch (e) { return 0; } }
+  function setN(n){ try { localStorage.setItem(KEY, JSON.stringify({d: day(), n: n})); } catch (e) {} }
+  var mem = getN();
+  function paintToday(){
+    $('sn-today').textContent = (mem >= 3 ? S.today3 : S.today).replace('{n}', mem);
+    $('sn-dots').querySelectorAll('i').forEach(function(d, j){ d.classList.toggle('on', j < mem); });
+  }
+  function mmss(s){ s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + s % 60).slice(-2); }
+  function pick(i){ cur = i; pks.forEach(function(p, j){ p.setAttribute('aria-pressed', j === i ? 'true' : 'false'); }); nameEl.textContent = names[i]; }
+  function idle(){ phase = 'idle'; clearInterval(iv); wake(false); go.textContent = S.start; go.classList.remove('stop'); secEl.textContent = mmss(DUR); arc.style.strokeDashoffset = 0; phaseEl.textContent = S.ready; cue.textContent = S.readyc; }
+  function done(){
+    clearInterval(iv); phase = 'idle'; wake(false); mem += 1; setN(mem); paintToday();
+    go.textContent = S.start; go.classList.remove('stop'); secEl.textContent = '✓'; arc.style.strokeDashoffset = 0;
+    phaseEl.textContent = S.done; cue.textContent = S.donec; beep(660, 0.15); setTimeout(function(){ beep(880, 0.35); }, 200);
+  }
+  function start(){
+    phase = 'prep'; t0 = performance.now(); half = last10 = false; wake(true);
+    go.textContent = S.stop; go.classList.add('stop'); phaseEl.textContent = S.prep; cue.textContent = names[cur];
+    var lastS = PREP + 1; clearInterval(iv);
+    iv = setInterval(function(){
+      var el = (performance.now() - t0) / 1000;
+      if (phase === 'prep'){
+        var s = Math.ceil(PREP - el); if (s !== lastS && s > 0){ lastS = s; beep(520, 0.08); }
+        secEl.textContent = String(Math.max(1, s)); arc.style.strokeDashoffset = 0;
+        if (el >= PREP){ phase = 'run'; t0 = performance.now(); beep(880, 0.3); phaseEl.textContent = S.go; }
+        return;
+      }
+      var left = DUR - el;
+      if (left <= 0){ done(); return; }
+      if (!half && left <= DUR / 2){ half = true; cue.textContent = S.half; beep(520, 0.1); }
+      if (!last10 && left <= 10){ last10 = true; cue.textContent = S.last; beep(660, 0.1); }
+      secEl.textContent = mmss(left); arc.style.strokeDashoffset = (C * (1 - left / DUR)).toFixed(1);
+    }, 100);
+  }
+  go.addEventListener('click', function(){ if (phase === 'idle') start(); else idle(); });
+  pks.forEach(function(p, i){ p.addEventListener('click', function(){ if (phase !== 'idle') idle(); pick(i); }); });
+  $('sn-rand').addEventListener('click', function(){ if (phase !== 'idle') idle(); var i; do { i = Math.floor(Math.random() * pks.length); } while (i === cur); pick(i); });
+  $('sn-rem').addEventListener('change', function(){
+    remOn = this.checked; clearInterval(riv); $('sn-msg').hidden = true;
+    if (remOn){ due = Date.now() + 30 * 60 * 1000; riv = setInterval(function(){
+      if (Date.now() >= due){ due = Date.now() + 30 * 60 * 1000; var m = $('sn-msg'); m.textContent = S.rem; m.hidden = false;
+        beep(660, 0.15); setTimeout(function(){ beep(880, 0.15); }, 220); setTimeout(function(){ beep(990, 0.3); }, 440);
+        try { navigator.vibrate && navigator.vibrate([200, 100, 200]); } catch (e) {} }
+    }, 5000); }
+  });
+  document.addEventListener('visibilitychange', function(){ if (!document.hidden && phase !== 'idle') wake(true); });
+  pick(0); paintToday(); idle();
+})();
+</script>
+'''
+
+page("hareket-atistirmaliklari.html", "Hareket Atıştırmalıkları",
+     "Spora vakit yok mu? Gün içine serpiştirilmiş birer dakikalık hızlı hareketler çok daha düşük ölüm riskiyle ilişkili. Altı atıştırmalık, bir dakikalık zamanlayıcı ve oturma molası hatırlatıcısı.",
+     "hareket-atistirmaliklari.html", SELF4_CSS, SN_BODY, SN_JS,
+     seo_title="Hareket Atıştırmalıkları: Günde 3 × 1 Dakika Hızlı Hareket ve Zamanlayıcı | İhsan Eren",
+     about=[{"@type": "Thing", "name": "Fiziksel aktivite"}],
+     faq_items=SN_FAQ)

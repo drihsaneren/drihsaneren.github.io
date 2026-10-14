@@ -85,6 +85,7 @@ EN = {
     "demans-egzersiz.html": "dementia-and-exercise.html",
     "dizin-12-sirri.html": "knee-12-secrets.html",
     "uc-kapi.html": "three-doors.html",
+    "hareket-atistirmaliklari.html": "exercise-snacks.html",
     "denge-testi.html": "balance-test.html",
     "kucuk-adimlar.html": "small-steps-planner.html",
     "kas-gevsetme.html": "progressive-muscle-relaxation.html",

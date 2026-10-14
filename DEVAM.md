@@ -504,3 +504,10 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Araujo ve ark. 2022 BJSM (1702 kişi, 51–75 yaş, %20,4 yapamadı, 7 yıl, %17,5 / %4,6, HR 1,84), Springer ve ark. 2007 JGPT (549 kişi, yaş gruplarına göre en iyi 3 deneme, uygulama ve durdurma ölçütleri), Sherrington 2019 Cochrane (%24, düşme önleme sayfasıyla aynı).
 - Kaynaksız / yorum: "ortalamanın %85'i ve üzeri = ortalamaya yakın" eşiği; göz kapalıyken dengenin neden zorlaştığı açıklaması (genel fizyoloji); güvenlik önerileri. Araujo makalesinin bitiş sayfası yazılmadı (okunan özette yoktu). t_ls 4 egzersiz nedeniyle "sorun: 6" verir (beklenen).
 - Kartlarda: fb495, fb496.
+
+## Kendine iyi bak: Hareket atıştırmalıkları (14 Ekim 2026)
+- hareket-atistirmaliklari.html → en/exercise-snacks.html (self4_part.py, 2. sayfa). "Zamanlayıcıyla birlikte yapın" grubunun sonunda; C_SNACK. Yeni çizim: sn_stair (merdiven). Atıştırmalıklar: sn_stair, sn_walk, sn_sts, sn_push (sk_push), sn_march (dm_march), sn_heel (heel2).
+- Araç: 6 kartlı seçici (svg'ler .an sınıfıyla), "Benim için seç", 3 sn hazırlık + 60 sn halka, günlük 0/3 sayacı (localStorage drihsaneren.atistirmalik.v1, try/catch), 30 dakikada bir mola hatırlatıcı (sayfa açıkken, bip + titreşim).
+- Okunan kaynaklar: Stamatakis ve ark. 2022 Nature Medicine (UK Biobank sayfası; 25.241 egzersiz yapmayan, 6,9 yıl, günde ortanca 3 nöbet → %38–40 / KVH %48–49; 4,4 dk/gün → %26–30; gözlemsel), Jenkins ve ark. 2019 APNM (merdiven atıştırmalıkları, 60 basamak, günde 3, haftada 3, 6 hafta; VO2peak arttı, küçük), Duran ve ark. 2023 MSSE (11 kişi; 30 dk'da 5 dk yürüyüş glukozu düşürdü; tüm molalar sistolik tansiyonu düşürdü).
+- Kaynaksız / yorum: "merdiveni koşar adım çıkmak, otobüse yetişmek" örnekleri (çalışmanın basın açıklamalarındaki örnekler; okunan özette yok); "konuşmakta zorlanma" tempo tarifi; atıştırmalık seçimi ve süreleri; Stamatakis makalesinin cilt/sayfası yazılmadı.
+- Kartlarda: fb497.
