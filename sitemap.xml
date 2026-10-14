@@ -652,6 +652,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/morton-noromasi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/el-bilegi-kirigi.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/el-bilegi-kirigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/wrist-fracture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/el-bilegi-kirigi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1301,5 +1308,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/morton-noromasi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/mortons-neuroma.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/morton-noromasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/wrist-fracture.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/el-bilegi-kirigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/wrist-fracture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/el-bilegi-kirigi.html"/>
   </url>
 </urlset>
