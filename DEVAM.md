@@ -426,3 +426,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Kaynaksız / klinik bilgi: "hareketle ve pozisyonla değişen ağrı daha çok kas-eklem kaynaklı" cümlesi (tek başına kalbi dışlamaz diye yumuşatıldı); "duvarda yana eğilme" tarifinin ayrıntısı (Berkshire yalnızca adını veriyor); "stres sırt kaslarını gerebilir"; çocuk sorusundaki uyku ve hareket alışkanlıkları; 112 (NHS 999 diyor).
 - Kartlarda: fb477, fb478.
 - Ders: çevrilmiş bir sayfada TR metni değişince i18n/todo ve done/<sayfa>.json silinip tam export/import yapılmalı (tek satırlık import done'ı ezer).
+
+## Gece bacak krampları rehberi (14 Ekim 2026)
+- gece-bacak-kramplari.html → en/night-leg-cramps.html (cond31_part.py). Egzersizler: lc_relief (towelst2 çizimi), lc_calf, lc_soleus, lc_ham (yeni çizim: sandalyede arka uyluk germe), lc_towel, lc_walk. Bölge "genel", huzursuz bacaktan sonra. reg_cond.py artık satır sonundaki ")]" ile biten AGR öğesini de buluyor.
+- Okunan kaynaklar: HSE Leg cramps (1 Temmuz 2024; süre, nedenler, statin/diüretik, germe 5 dk günde 3 kez, hekim ölçütleri), Allen & Kirby 2012 AFP (%50–60, ortalama 9 dk, huzursuz bacak/klodikasyon/nöropati ayrımı, kinin FDA uyarısı), Hallegraeff 2012 J Physiother RKÇ (80 kişi >55 yaş, 6 hafta, gecede 1,2 kramp ve 1,3 cm VAS fark), Garrison 2020 Cochrane (magnezyum: yaşlılarda anlamlı fayda yok; gebelikte belirsiz), NHS DVT (30 Nisan 2026).
+- Kaynaksız / genel bilgi: "topuğa basarak birkaç adım atmak" önerisi; soleus, arka uyluk ve havlu germede 20–30 saniye süreleri (Hallegraeff kaydında süre yok); "ilacı kendiniz bırakmayın" uyarısı; "tek bacakta pıhtı belirtisinde aynı gün" (NHS "acil GP / 111" diyor); 112 (NHS 999 diyor).
+- Kartlarda: fb479.
