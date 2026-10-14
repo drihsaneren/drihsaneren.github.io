@@ -631,6 +631,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/arka-uyluk-zorlanmasi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/sakroiliak-eklem-agrisi.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sacroiliac-joint-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1259,5 +1266,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/arka-uyluk-zorlanmasi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/hamstring-injury.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/arka-uyluk-zorlanmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/sacroiliac-joint-pain.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/sacroiliac-joint-pain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sakroiliak-eklem-agrisi.html"/>
   </url>
 </urlset>
