@@ -680,6 +680,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/denge-testi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/hareket-atistirmaliklari.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-snacks.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1357,5 +1364,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/denge-testi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/balance-test.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/denge-testi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/exercise-snacks.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/exercise-snacks.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/hareket-atistirmaliklari.html"/>
   </url>
 </urlset>
