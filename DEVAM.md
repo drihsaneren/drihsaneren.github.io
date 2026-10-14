@@ -444,3 +444,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Okunan kaynaklar: Royal Berkshire NHS acil servis broşürü Acute torticollis (Haziran 2024; belirtiler, nedenler, hekime başvuru ölçütleri), Dorset County Hospital NHS broşürü (Nisan 2014, eski; spazm 24–48 saat, tam iyileşme bir hafta, birkaç saatte bir her yöne hareket, tek sağlam yastık, "hareket boyna zarar vermez"), nidirect Meningitis (23 Temmuz 2026).
 - Kaynaksız / genel bilgi: egzersiz tekrar sayıları (5–10); "boyunluk genellikle gerekmez" (kaynaklar boyunluktan söz etmiyor, hareket öneriyor); sıcak torbayı havluya sarma uyarısı; "kola yayılan ağrı ya da uyuşma olursa egzersizi bırakın"; 112 (kaynak 999 diyor).
 - Kartlarda: fb481, fb482.
+
+## Kaval kemiği ağrısı rehberi (14 Ekim 2026)
+- kaval-kemigi-agrisi.html → en/shin-splints.html (cond34_part.py). Egzersizler: ss_calf, ss_soleus, ss_toe (dm_toe çizimi), ss_heel, ss_arch (ff_short), ss_sls. Bölge "ayak", aşilden sonra.
+- Okunan kaynaklar: NHS Shin splints (9 Şubat 2023; buz 20 dk 2–3 saatte bir, birkaç haftada düzelir), nidirect Shin splints (10 Ocak 2025; 2–3 hafta ara, 5 cm kuralı, stres kırığı/kompartman ayrımı, risk etkenleri), Newman ve ark. 2013 OAJSM meta-analiz (%5–35; kadın, yüksek VKİ, navikular düşme, önceki MTSS, tabanlık kullanımı, az koşu deneyimi).
+- Kaynaksız / yorum: tüm egzersiz doz ve süreleri; tek ayakla topuk yükseltmeye geçiş ve göz kapalı denge; tabanlık sorusundaki "risk taşıyanlar kullanıyor olabilir" yorumu (makale nedensellik kurmuyor); "aynı gün" (NHS 111 diyor).
+- Kartlarda: fb483, fb484.
