@@ -645,6 +645,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/osgood-schlatter.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/morton-noromasi.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/morton-noromasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/mortons-neuroma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/morton-noromasi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-14</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1287,5 +1294,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/osgood-schlatter.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/osgood-schlatter.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/osgood-schlatter.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/mortons-neuroma.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/morton-noromasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/mortons-neuroma.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/morton-noromasi.html"/>
   </url>
 </urlset>
