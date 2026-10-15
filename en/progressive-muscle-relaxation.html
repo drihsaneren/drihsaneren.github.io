@@ -880,7 +880,7 @@
   var segs = [], total = 0, el = 0, si = -1, running = false, state = 'idle', raf = 0, last = 0, ctx = null, lock = null, snd = $('pm-voice');
   function wake(on){
     try {
-      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; }).catch(function(){});
+      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; l.addEventListener('release', function(){ if (lock === l) lock = null; }); }).catch(function(){});
       if (!on && lock){ lock.release(); lock = null; }
     } catch (e) {}
   }

@@ -870,6 +870,8 @@
           <span data-k="gocam">Stand up fully, then sit back down. You will hear a beep each time you stand.</span>
           <span data-k="gotap">Tap the large button at each full stand.</span>
           <span data-k="lost">Your legs are out of view</span>
+          <span data-k="broke">The test was interrupted</span>
+          <span data-k="brokec">The screen turned off or you switched to another app, so the time could not be measured correctly; the result was not saved. You can turn the camera back on and try again.</span>
           <span data-k="start">Start</span>
           <span data-k="stop">Stop</span>
           <span data-k="again">Try again</span>
@@ -1046,10 +1048,10 @@
   var C = 364.4, DUR = 30, snd = $('cs-sound'), ctx = null, lock = null;
   var mode = 'cam', sex = 'f', phase = 'idle', n = 0, t0 = 0, iv = null, last = null, halfAdded = false;
   var video = $('cs-video'), canvas = $('cs-canvas'), cx = canvas.getContext('2d'), stage = $('cs-stage');
-  var pl = null, mod = null, deleg = 'GPU', dly = [], stream = null, facing = 'user', raf = 0, lastTs = 0, fr = 0, tr = [], ema = null, prevEma = null, state = null, lastFlip = 0, seen = 0, lostAt = 0;
+  var pl = null, mod = null, deleg = 'GPU', dly = [], stream = null, facing = 'user', raf = 0, lastTs = 0, fr = 0, tr = [], seen = 0, nsv = null, broke = false, lockP = false;
   function wake(on){
     try {
-      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; }).catch(function(){});
+      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; l.addEventListener('release', function(){ if (lock === l) lock = null; }); }).catch(function(){});
       if (!on && lock){ lock.release(); lock = null; }
     } catch (e) {}
   }
@@ -1127,6 +1129,19 @@
     $('cs-arc').style.strokeDashoffset = (C * (1 - Math.min(el, DUR) / DUR)).toFixed(1);
     $('cs-ht').textContent = String(Math.ceil(left));
   }
+  function vid(on){
+    if (on){
+      if (!nsv){ nsv = document.createElement('video'); nsv.setAttribute('playsinline', ''); nsv.setAttribute('muted', ''); nsv.muted = true; nsv.loop = true;
+        nsv.src = MP + 'awake.mp4'; nsv.style.cssText = 'position:fixed;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none'; document.body.appendChild(nsv); }
+      var pp = nsv.play(); if (pp && pp.catch) pp.catch(function(){});
+    } else if (nsv) nsv.pause();
+  }
+  function awake(on){
+    if (on){
+      if (navigator.wakeLock){ if (!lock && !lockP){ lockP = true; navigator.wakeLock.request('screen').then(function(l){ lockP = false; lock = l; l.addEventListener('release', function(){ if (lock === l) lock = null; }); }).catch(function(){ lockP = false; vid(true); }); } }
+      else vid(true);
+    } else { if (lock){ try { lock.release(); } catch (e) {} lock = null; } vid(false); }
+  }
   function setPhase(p, c){ $('cs-phase').textContent = p; $('cs-cue').textContent = c; }
   function buttons(){
     var cam = mode === 'cam', on = !!stream;
@@ -1142,23 +1157,23 @@
     $('cs-chips').hidden = !cam || !on;
   }
   function idle(){
-    phase = 'idle'; clearInterval(iv); iv = null; wake(false);
+    phase = 'idle'; clearInterval(iv); iv = null; awake(!!stream);
     if (mode === 'cam') stream ? setPhase(S.camready, S.camreadyc) : setPhase(S.ready, S.readycam);
     else setPhase(S.ready, S.readytap);
     buttons();
   }
   function finish(){
     clearInterval(iv); iv = null; halfAdded = false;
-    if (mode === 'cam' && state === 'down' && ema != null && ema > 0.5 && prevEma != null && ema >= prevEma){ n++; halfAdded = true; paintCount(); }
+    if (mode === 'cam' && CT.state === 'down' && CT.sm != null && CT.sm > 0.5 && CT.prev != null && CT.sm >= CT.prev){ n++; halfAdded = true; paintCount(); }
     last = n; var h = store(); h.push({t: new Date().toISOString(), n: n, m: mode}); save(h);
     beep(660, 0.2); setTimeout(function(){ beep(880, 0.5); }, 220);
-    phase = 'idle'; wake(false); paintRes(); setPhase(S.done, S.donec); buttons();
+    phase = 'idle'; awake(!!stream); paintRes(); setPhase(S.done, S.donec); buttons();
     if (window.innerWidth <= 820) $('cs-res').scrollIntoView({behavior: 'smooth', block: 'center'});
   }
   function start(){
     var prep = mode === 'cam' ? 10 : 5;
     n = 0; paintCount(); paintTime(0); halfAdded = false;
-    phase = 'prep'; t0 = performance.now(); wake(true);
+    phase = 'prep'; t0 = performance.now(); awake(true);
     setPhase(S.prep, mode === 'cam' ? S.prepcam : S.preptap); buttons();
     var lastS = prep; $('cs-ht').textContent = String(prep); if (mode === 'tap') $('cs-n').textContent = String(prep);
     beep(520, 0.08);
@@ -1170,7 +1185,7 @@
         if (s !== lastS && s > 0){ lastS = s; if (s <= 3) beep(520, 0.1); }
         $('cs-ht').textContent = String(Math.max(1, s)); if (mode === 'tap') $('cs-n').textContent = String(Math.max(1, s));
         if (el >= prep){
-          phase = 'run'; t0 = performance.now(); state = ema != null && ema > 0.6 ? 'up' : 'down';
+          phase = 'run'; t0 = performance.now(); CT.reset();
           paintCount(); beep(880, 0.4); setPhase(S.go, mode === 'cam' ? S.gocam : S.gotap); buttons();
         }
         return;
@@ -1181,24 +1196,47 @@
   }
   function count(){ if (phase !== 'run') return; n++; paintCount(); beep(990, 0.12, 0.25); }
   // ---------- kamera ve hareket algılama
-  var UP = 0.78, DOWN = 0.42;
-  function feed(r, t){
-    prevEma = ema; ema = ema == null ? r : ema * 0.45 + r * 0.55;
-    if (state == null) state = ema > 0.6 ? 'up' : 'down';
-    if (t - lastFlip < 300) return;
-    if (state === 'down' && ema > UP){ state = 'up'; lastFlip = t; count(); }
-    else if (state === 'up' && ema < DOWN){ state = 'down'; lastFlip = t; }
+  // Sayaç: son 5 ölçümün medyanı (anlık sıçramaları siler) + yumuşatma; eşiğin ötesinde en az 120–150 ms kalmalı.
+  // Kısa süren 'oturma'lar (takılma) sayılmaz. 0 ≈ oturuyor, 1 ≈ ayakta.
+  function mkCounter(onUp){
+    var UP = 0.75, DOWN = 0.40, buf = [], sm = null, prev = null, st = null, cand = null, candT = 0, lastUp = -1e9, downAt = -1e9;
+    function med(a){ var b = a.slice().sort(function(x, y){ return x - y; }); return b[b.length >> 1]; }
+    return {
+      feed: function(r, t){
+        buf.push(r); if (buf.length > 5) buf.shift();
+        var m = med(buf); prev = sm; sm = sm == null ? m : sm * 0.4 + m * 0.6;
+        if (st == null){ st = sm > 0.6 ? 'up' : 'down'; return; }
+        var want = st === 'down' ? (sm > UP ? 'up' : null) : (sm < DOWN ? 'down' : null);
+        if (!want){ cand = null; return; }
+        if (cand !== want){ cand = want; candT = t; return; }
+        if (t - candT < (want === 'up' ? 120 : 150)) return;
+        if (want === 'up'){
+          // Oturma 200 ms'den kısa sürdüyse ya da son sayımdan beri 500 ms geçmediyse bu bir takılmadır: sayma
+          var real = (candT - downAt) >= 200 && (t - lastUp) >= 500;
+          st = 'up'; cand = null; if (real){ lastUp = t; onUp(); }
+        } else { st = 'down'; downAt = candT; cand = null; }
+      },
+      reset: function(){ st = sm == null ? null : (sm > 0.6 ? 'up' : 'down'); cand = null; },
+      clear: function(){ buf = []; sm = null; prev = null; st = null; cand = null; },
+      get state(){ return st; }, get sm(){ return sm; }, get prev(){ return prev; }
+    };
   }
+  var CT = mkCounter(function(){ count(); });
   function sideMetric(L, w, h){
-    var sum = 0, acc = 0, q = 0;
+    var sides = [];
     [[23, 25, 27], [24, 26, 28]].forEach(function(s){
       var a = L[s[0]], k = L[s[1]], f = L[s[2]];
       var v = Math.min(a.visibility || 0, k.visibility || 0, f.visibility || 0);
       var shin = Math.hypot((k.x - f.x) * w, (k.y - f.y) * h);
       if (v < 0.15 || shin < 4) return;
-      acc += v * ((k.y - a.y) * h / shin); sum += v; q = Math.max(q, v);
+      // diz–kalça ve ayak bileği–kalça yüksekliklerinin ortalaması (baldır boyuna oranla)
+      var r = 0.5 * ((k.y - a.y) * h / shin) + 0.5 * ((f.y - a.y) * h / shin - 1);
+      sides.push({r: r, v: v});
     });
-    return sum ? {r: acc / sum, q: q} : null;
+    if (!sides.length) return null;
+    sides.sort(function(x, y){ return y.v - x.v; });
+    if (sides.length > 1 && sides[1].v > 0.6) return {r: (sides[0].r * sides[0].v + sides[1].r * sides[1].v) / (sides[0].v + sides[1].v), q: sides[0].v};
+    return {r: sides[0].r, q: sides[0].v};
   }
   var BONES = [[11, 12], [11, 23], [12, 24], [23, 24], [23, 25], [25, 27], [24, 26], [26, 28], [27, 31], [28, 32], [11, 13], [13, 15], [12, 14], [14, 16]];
   function draw(L){
@@ -1230,8 +1268,8 @@
     var inF = function(i){ return L[i].y > -0.02 && L[i].y < 1.02 && (L[i].visibility || 0) > 0.15; };
     var full = !!m && inF(0) && (inF(27) || inF(28)) && (inF(23) || inF(24));
     if (!m){ chips(false, null); lost(now); return; }
-    seen = now; chips(full, ema == null ? m.r : ema);
-    feed(m.r, now); if (tr.length < 600) tr.push([Math.round(now), +m.r.toFixed(2), +ema.toFixed(2)]);
+    seen = now; CT.feed(m.r, now); chips(full, CT.sm == null ? m.r : CT.sm);
+    if (tr.length < 600) tr.push([Math.round(now), +m.r.toFixed(2), +CT.sm.toFixed(2)]);
   }
   function lost(now){ if (phase === 'run' && now - seen > 800) $('cs-cue').textContent = S.lost; }
   var FS = {wasmLoaderPath: MP + 'vision_wasm_internal.js', wasmBinaryPath: MP + 'vision_wasm_internal.wasm'};
@@ -1258,7 +1296,7 @@
         stream = s; video.srcObject = s; stage.classList.toggle('mir', facing === 'user');
         return video.play();
       }).then(function(){
-        msg(''); ema = null; state = null; idle();
+        msg(''); CT.clear(); idle();
         cancelAnimationFrame(raf); raf = requestAnimationFrame(loop);
       }).catch(function(){ closeCam(); msg(S.denied); setPhase(S.ready, S.denied); });
     }, function(){ msg(S.failed); setPhase(S.ready, S.failed); })
@@ -1286,11 +1324,14 @@
   $('cs-plus').addEventListener('click', function(){ setLast(last + 1); });
   $('cs-num').addEventListener('input', function(){ var v = parseInt(this.value, 10); if (!isNaN(v)) setLast(v); });
   document.addEventListener('visibilitychange', function(){
-    if (document.hidden && stream && phase === 'idle') closeCam();
-    else if (!document.hidden && phase !== 'idle') wake(true);
+    if (document.hidden){
+      if (phase !== 'idle'){ clearInterval(iv); iv = null; phase = 'idle'; n = 0; paintCount(); paintTime(0); broke = true; }
+      if (stream) closeCam();
+      awake(false);
+    } else if (broke){ broke = false; setPhase(S.broke, S.brokec); buttons(); }
   });
   window.addEventListener('pagehide', function(){ if (stream) stream.getTracks().forEach(function(t){ t.stop(); }); });
-  window.__cs = {get n(){ return n; }, get state(){ return state; }, get phase(){ return phase; }, get fr(){ return fr; }, get deleg(){ return deleg; }, get tr(){ return tr; }};
+  window.__cs = {mk: mkCounter, get n(){ return n; }, get state(){ return CT.state; }, get phase(){ return phase; }, get fr(){ return fr; }, get deleg(){ return deleg; }, get tr(){ return tr; }};
   if (EN) $('cs-nt').querySelectorAll('td').forEach(function(td){ td.textContent = td.textContent.replace(/(\d),(\d)/g, '$1.$2'); });
   paintCount(); paintTime(0); paintNorm(); paintHist(); idle();
 })();

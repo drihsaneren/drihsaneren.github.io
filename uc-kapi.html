@@ -1320,7 +1320,7 @@
   var KEY = 'drihsaneren.ucKapi.v1', snd = $('k-voice'), ctx = null, lock = null;
   function wake(on){
     try {
-      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; }).catch(function(){});
+      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; l.addEventListener('release', function(){ if (lock === l) lock = null; }); }).catch(function(){});
       if (!on && lock){ lock.release(); lock = null; }
     } catch (e) {}
   }

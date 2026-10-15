@@ -865,7 +865,7 @@
   var phase = 'idle', i = 0, left = 0, tot = 1, running = false, t = null, last = 0, halfDone = false, ctx = null, lock = null;
   function wake(on){
     try {
-      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; }).catch(function(){});
+      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; l.addEventListener('release', function(){ if (lock === l) lock = null; }); }).catch(function(){});
       if (!on && lock){ lock.release(); lock = null; }
     } catch (e) {}
   }
