@@ -2503,5 +2503,20 @@
   "id": "fb501",
   "kind": "text",
   "tr": "Ağrıyla yaşamak"
+ },
+ {
+  "id": "fb502",
+  "kind": "text",
+  "tr": "30 saniyede sandalyeden kaç kez kalkabiliyorsunuz? Telefonunuzun kamerası saysın, sonucunuzu yaşıtlarınızla karşılaştırın."
+ },
+ {
+  "id": "fb503",
+  "kind": "text",
+  "tr": "30 saniye sandalye testi"
+ },
+ {
+  "id": "fb504",
+  "kind": "text",
+  "tr": "Sandalye testi"
  }
 ]
