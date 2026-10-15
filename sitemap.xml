@@ -736,6 +736,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/boyun-incinmesi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/agri-gunlugu.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/agri-gunlugu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pain-diary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/agri-gunlugu.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/yurume-hizi-testi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/gait-speed-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1469,5 +1483,19 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/boyun-incinmesi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/whiplash.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/boyun-incinmesi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/pain-diary.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/agri-gunlugu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pain-diary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/agri-gunlugu.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/gait-speed-test.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/gait-speed-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
   </url>
 </urlset>
