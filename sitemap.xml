@@ -701,6 +701,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/agriyi-anlamak.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/sandalye-testi.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sandalye-testi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/chair-stand-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sandalye-testi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-15</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1399,5 +1406,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/agriyi-anlamak.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/understanding-pain.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/agriyi-anlamak.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/chair-stand-test.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/sandalye-testi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/chair-stand-test.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/sandalye-testi.html"/>
   </url>
 </urlset>
