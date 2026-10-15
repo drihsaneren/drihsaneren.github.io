@@ -12,530 +12,535 @@
  {
   "id": "san2",
   "kind": "text",
-  "tr": "30 saniye sandalye testi"
+  "tr": "30 saniyede bir sandalyeden kaç kez kalkabiliyorsunuz? Bu basit test bacaklarınızın gücünü ve dayanıklılığını ölçer. ABD Hastalık Kontrol ve Önleme Merkezi (CDC), yaşlılarda düşme riskini değerlendirirken bu testi kullanıyor. Telefonunuzun kamerası tekrarlarınızı sizin yerinize sayabilir; görüntünüz cihazınızdan dışarı çıkmaz."
  },
  {
   "id": "san3",
   "kind": "text",
-  "tr": "30 saniyede bir sandalyeden kaç kez kalkabiliyorsunuz? Bu basit test bacaklarınızın gücünü ve dayanıklılığını ölçer. ABD Hastalık Kontrol ve Önleme Merkezi (CDC), yaşlılarda düşme riskini değerlendirirken bu testi kullanıyor. Telefonunuzun kamerası tekrarlarınızı sizin yerinize sayabilir; görüntünüz cihazınızdan dışarı çıkmaz."
+  "tr": "Son güncelleme: 15 Ekim 2026"
  },
  {
   "id": "san4",
   "kind": "text",
-  "tr": "Son güncelleme: 15 Ekim 2026"
+  "tr": "Testin süresi; kollar göğüste çapraz, kalkışlar sayılır"
  },
  {
   "id": "san5",
   "kind": "text",
-  "tr": "Testin süresi; kollar göğüste çapraz, kalkışlar sayılır"
+  "tr": "43 cm"
  },
  {
   "id": "san6",
   "kind": "text",
-  "tr": "43 cm"
+  "tr": "Önerilen sandalye yüksekliği (yaklaşık); kolçaksız, sırtı düz"
  },
  {
   "id": "san7",
   "kind": "text",
-  "tr": "Önerilen sandalye yüksekliği (yaklaşık); kolçaksız, sırtı düz"
+  "tr": "7.183 kişi"
  },
  {
   "id": "san8",
   "kind": "text",
-  "tr": "7.183 kişi"
+  "tr": "60–94 yaş için karşılaştırma değerlerinin dayandığı araştırmadaki katılımcı sayısı"
  },
  {
   "id": "san9",
   "kind": "text",
-  "tr": "60–94 yaş için karşılaştırma değerlerinin dayandığı araştırmadaki katılımcı sayısı"
+  "tr": "2 tekrar"
  },
  {
   "id": "san10",
   "kind": "text",
-  "tr": "2 tekrar"
+  "tr": "Kalça kireçlenmesinde anlamlı kabul edilen en küçük iyileşme"
  },
  {
   "id": "san11",
   "kind": "text",
-  "tr": "Kalça kireçlenmesinde anlamlı kabul edilen en küçük iyileşme"
+  "tr": "Kamerayla ya da kamerasız deneyin"
  },
  {
   "id": "san12",
   "kind": "text",
-  "tr": "Kamerayla ya da kamerasız deneyin"
+  "tr": "Kamerayla: telefonu 2–3 metre uzağa, bel hizasında bir yere koyun; sizi yandan, başınızdan ayaklarınıza kadar görsün. Kamerasız: yanınızdaki biri her kalkışınızda ekrana dokunsun; yalnızsanız kalkışlarınızı kendiniz sayın ve süre bitince sonucu girin."
  },
  {
   "id": "san13",
   "kind": "text",
-  "tr": "Kamerayla: telefonu 2–3 metre uzağa, bel hizasında bir yere koyun; sizi yandan, başınızdan ayaklarınıza kadar görsün. Kamerasız: yanınızdaki biri her kalkışınızda ekrana dokunsun; yalnızsanız kalkışlarınızı kendiniz sayın ve süre bitince sonucu girin."
+  "tr": "Yöntem"
  },
  {
   "id": "san14",
   "kind": "text",
-  "tr": "Yöntem"
+  "tr": "Kamerayla"
  },
  {
   "id": "san15",
   "kind": "text",
-  "tr": "Kamerayla"
+  "tr": "Kamerasız"
  },
  {
   "id": "san16",
   "kind": "text",
-  "tr": "Kamerasız"
+  "tr": "Cinsiyet"
  },
  {
   "id": "san17",
   "kind": "text",
-  "tr": "Cinsiyet"
+  "tr": "Kadın"
  },
  {
   "id": "san18",
   "kind": "text",
-  "tr": "Kadın"
- },
- {
-  "id": "san19",
-  "kind": "text",
   "tr": "Erkek"
  },
  {
-  "id": "san20",
+  "id": "san19",
   "kind": "attr",
   "tr": "ör. 65"
  },
  {
-  "id": "san21",
+  "id": "san20",
   "kind": "text",
   "tr": "Sayımı düzeltin:"
  },
  {
-  "id": "san22",
+  "id": "san21",
   "kind": "attr",
   "tr": "Bir eksilt"
  },
  {
-  "id": "san23",
+  "id": "san22",
   "kind": "attr",
   "tr": "Bir artır"
  },
  {
-  "id": "san24",
+  "id": "san23",
   "kind": "text",
   "tr": "Sonucumu WhatsApp’tan gönder"
  },
  {
-  "id": "san25",
+  "id": "san24",
   "kind": "text",
   "tr": "Önceki sonuçlarınız (bu cihazda)"
  },
  {
-  "id": "san26",
+  "id": "san25",
   "kind": "text",
   "tr": "Baştan ayağa görünün"
  },
  {
-  "id": "san27",
+  "id": "san26",
   "kind": "text",
   "tr": "Kamerayı açınca görüntünüz burada görünür. Görüntü cihazınızdan çıkmaz."
  },
  {
-  "id": "san28",
+  "id": "san27",
   "kind": "text",
   "tr": "tekrar"
  },
  {
-  "id": "san29",
+  "id": "san28",
   "kind": "text",
   "tr": "Kamerayı açın, sandalyenizi ve telefonu yerleştirin."
  },
  {
-  "id": "san30",
+  "id": "san29",
   "kind": "text",
   "tr": "Kamerayı aç"
  },
  {
-  "id": "san31",
+  "id": "san30",
   "kind": "text",
   "tr": "Kalktı · +1"
  },
  {
-  "id": "san32",
+  "id": "san31",
   "kind": "text",
   "tr": "Kamerayı çevir"
  },
  {
-  "id": "san33",
+  "id": "san32",
   "kind": "text",
   "tr": "Kamerayı kapat"
  },
  {
-  "id": "san34",
+  "id": "san33",
   "kind": "text",
   "tr": "Hareket algılama yükleniyor (ilk seferde yaklaşık 17 MB)…"
  },
  {
-  "id": "san35",
+  "id": "san34",
   "kind": "text",
   "tr": "Kamera izni bekleniyor…"
  },
  {
-  "id": "san36",
+  "id": "san35",
   "kind": "text",
   "tr": "Kamera açılamadı. Tarayıcı ayarlarından kamera izni verebilir ya da kamerasız yöntemi kullanabilirsiniz."
  },
  {
-  "id": "san37",
+  "id": "san36",
   "kind": "text",
   "tr": "Hareket algılama bu cihazda yüklenemedi. Kamerasız yöntemi kullanabilirsiniz."
  },
  {
-  "id": "san38",
+  "id": "san37",
   "kind": "text",
   "tr": "Kamera hazır"
  },
  {
-  "id": "san39",
+  "id": "san38",
   "kind": "text",
   "tr": "Sandalyeye oturun ve baştan ayağa göründüğünüzden emin olun. Hazır olunca Başlat’a basın; 10 saniye sonra test başlar."
  },
  {
-  "id": "san40",
+  "id": "san39",
   "kind": "text",
   "tr": "Baştan ayağa görünüyorsunuz"
  },
  {
-  "id": "san41",
+  "id": "san40",
   "kind": "text",
   "tr": "Oturuyorsunuz"
  },
  {
-  "id": "san42",
+  "id": "san41",
   "kind": "text",
   "tr": "Ayaktasınız"
  },
  {
-  "id": "san43",
+  "id": "san42",
   "kind": "text",
   "tr": "Sandalyenize oturun, kollarınızı göğsünüzde çapraz yapın. Sinyalle birlikte kalkıp oturmaya başlayın."
  },
  {
-  "id": "san44",
+  "id": "san43",
   "kind": "text",
   "tr": "Kollarınızı göğsünüzde çapraz yapın. Sinyalle birlikte kalkıp oturmaya başlayın."
  },
  {
-  "id": "san45",
+  "id": "san44",
   "kind": "text",
   "tr": "Kalkın ve oturun"
  },
  {
-  "id": "san46",
+  "id": "san45",
   "kind": "text",
   "tr": "Tam ayağa kalkın, sonra tekrar oturun. Her kalkışta bip sesi duyacaksınız."
  },
  {
-  "id": "san47",
+  "id": "san46",
   "kind": "text",
   "tr": "Her tam kalkışta büyük düğmeye dokunun."
  },
  {
-  "id": "san48",
+  "id": "san47",
   "kind": "text",
   "tr": "Bacaklarınız görüntüden çıktı"
  },
  {
+  "id": "san48",
+  "kind": "text",
+  "tr": "Test yarıda kaldı"
+ },
+ {
   "id": "san49",
   "kind": "text",
-  "tr": "Yeniden dene"
+  "tr": "Ekran kapandığı ya da başka bir uygulamaya geçildiği için süre doğru ölçülemedi; sonuç kaydedilmedi. Kamerayı yeniden açıp tekrar deneyebilirsiniz."
  },
  {
   "id": "san50",
   "kind": "text",
-  "tr": "Süre doldu"
+  "tr": "Yeniden dene"
  },
  {
   "id": "san51",
   "kind": "text",
-  "tr": "Sonucunuz ve yaşınıza göre karşılaştırma hazır. Sayım yanlışsa düzeltebilirsiniz."
+  "tr": "Süre doldu"
  },
  {
   "id": "san52",
   "kind": "text",
-  "tr": "Süre biterken yarıdan fazla doğrulmuştunuz; kurala göre bu da sayıldı."
+  "tr": "Sonucunuz ve yaşınıza göre karşılaştırma hazır. Sayım yanlışsa düzeltebilirsiniz."
  },
  {
   "id": "san53",
   "kind": "text",
-  "tr": "Sonucunuz: {n} tekrar"
+  "tr": "Süre biterken yarıdan fazla doğrulmuştunuz; kurala göre bu da sayıldı."
  },
  {
   "id": "san54",
   "kind": "text",
-  "tr": "Karşılaştırma için yaşınızı girin."
+  "tr": "Sonucunuz: {n} tekrar"
  },
  {
   "id": "san55",
   "kind": "text",
-  "tr": "Bu yaş için güvenilir bir karşılaştırma değeri yok; sonucunuzu zaman içinde kendinizle karşılaştırabilirsiniz."
+  "tr": "Karşılaştırma için yaşınızı girin."
  },
  {
   "id": "san56",
   "kind": "text",
-  "tr": "Yaşıtlarınızın ortadaki yarısı {lo}–{hi} tekrar yapıyor; siz bunun altındasınız. CDC’nin STEADI aracına göre bu, ortalamanın altı demek ve düşme riskine işaret eder."
+  "tr": "Bu yaş için güvenilir bir karşılaştırma değeri yok; sonucunuzu zaman içinde kendinizle karşılaştırabilirsiniz."
  },
  {
   "id": "san57",
   "kind": "text",
-  "tr": "Yaşıtlarınızın ortadaki yarısıyla aynı aralıktasınız ({lo}–{hi} tekrar)."
+  "tr": "Yaşıtlarınızın ortadaki yarısı {lo}–{hi} tekrar yapıyor; siz bunun altındasınız. CDC’nin STEADI aracına göre bu, ortalamanın altı demek ve düşme riskine işaret eder."
  },
  {
   "id": "san58",
   "kind": "text",
-  "tr": "Yaşıtlarınızın ortadaki yarısı {lo}–{hi} tekrar yapıyor; siz üst çeyrektesiniz."
+  "tr": "Yaşıtlarınızın ortadaki yarısıyla aynı aralıktasınız ({lo}–{hi} tekrar)."
  },
  {
   "id": "san59",
   "kind": "text",
-  "tr": "Yaş grubunuzda ortalama {m} tekrar; çoğu kişi {a}–{b} arasında. Siz bu aralığın altındasınız."
+  "tr": "Yaşıtlarınızın ortadaki yarısı {lo}–{hi} tekrar yapıyor; siz üst çeyrektesiniz."
  },
  {
   "id": "san60",
   "kind": "text",
-  "tr": "Yaş grubunuzda ortalama {m} tekrar; çoğu kişi {a}–{b} arasında. Siz bu aralıktasınız."
+  "tr": "Yaş grubunuzda ortalama {m} tekrar; çoğu kişi {a}–{b} arasında. Siz bu aralığın altındasınız."
  },
  {
   "id": "san61",
   "kind": "text",
-  "tr": "Yaş grubunuzda ortalama {m} tekrar; çoğu kişi {a}–{b} arasında. Siz bu aralığın üzerindesiniz."
+  "tr": "Yaş grubunuzda ortalama {m} tekrar; çoğu kişi {a}–{b} arasında. Siz bu aralıktasınız."
  },
  {
   "id": "san62",
   "kind": "text",
-  "tr": "Ortalamanın altında"
+  "tr": "Yaş grubunuzda ortalama {m} tekrar; çoğu kişi {a}–{b} arasında. Siz bu aralığın üzerindesiniz."
  },
  {
   "id": "san63",
   "kind": "text",
-  "tr": "Ortalama aralıkta"
+  "tr": "Ortalamanın altında"
  },
  {
   "id": "san64",
   "kind": "text",
-  "tr": "Ortalamanın üzerinde"
+  "tr": "Ortalama aralıkta"
  },
  {
   "id": "san65",
   "kind": "text",
-  "tr": "Bu bir tanı değildir. Bacak gücü egzersizle gelişir; aşağıdaki egzersizlerle başlayabilir, düşme kaygınız varsa hekiminiz ya da fizyoterapistinizle konuşabilirsiniz."
+  "tr": "Ortalamanın üzerinde"
  },
  {
   "id": "san66",
   "kind": "text",
-  "tr": "Kalkmak için kollarınızı kullanmanız gerektiyse sonuç 0 kaydedilir. Bir fizyoterapist ya da hekimle değerlendirme yaptırmanız iyi olur."
+  "tr": "Bu bir tanı değildir. Bacak gücü egzersizle gelişir; aşağıdaki egzersizlerle başlayabilir, düşme kaygınız varsa hekiminiz ya da fizyoterapistinizle konuşabilirsiniz."
  },
  {
   "id": "san67",
   "kind": "text",
-  "tr": "Önceki sonucunuza göre {d}"
+  "tr": "Kalkmak için kollarınızı kullanmanız gerektiyse sonuç 0 kaydedilir. Bir fizyoterapist ya da hekimle değerlendirme yaptırmanız iyi olur."
  },
  {
   "id": "san68",
   "kind": "text",
-  "tr": "Merhaba, drihsaneren.com’daki 30 saniye sandalye testini yaptım: {n} tekrar ({s}, {a} yaş). Değerlendirme hakkında bilgi almak istiyorum."
+  "tr": "Önceki sonucunuza göre {d}"
  },
  {
   "id": "san69",
   "kind": "text",
-  "tr": "Merhaba, drihsaneren.com’daki 30 saniye sandalye testini yaptım: {n} tekrar. Değerlendirme hakkında bilgi almak istiyorum."
+  "tr": "Merhaba, drihsaneren.com’daki 30 saniye sandalye testini yaptım: {n} tekrar ({s}, {a} yaş). Değerlendirme hakkında bilgi almak istiyorum."
  },
  {
   "id": "san70",
   "kind": "text",
-  "tr": "kadın"
+  "tr": "Merhaba, drihsaneren.com’daki 30 saniye sandalye testini yaptım: {n} tekrar. Değerlendirme hakkında bilgi almak istiyorum."
  },
  {
   "id": "san71",
   "kind": "text",
-  "tr": "erkek"
+  "tr": "kadın"
  },
  {
   "id": "san72",
   "kind": "text",
-  "tr": "Kameralı sayım"
+  "tr": "erkek"
  },
  {
   "id": "san73",
   "kind": "text",
-  "tr": "Elle sayım"
+  "tr": "Kameralı sayım"
  },
  {
   "id": "san74",
   "kind": "text",
-  "tr": "Kamera görüntünüz yalnızca bu cihazda işlenir; kaydedilmez, hiçbir yere gönderilmez. Sonuçlarınız yalnızca bu cihazda saklanır."
+  "tr": "Elle sayım"
  },
  {
   "id": "san75",
   "kind": "text",
-  "tr": "Kolçaksız, sırtı düz, <strong>sağlam bir sandalyeyi</strong> kaymaması için duvara dayayın (oturak yüksekliği yaklaşık 43 cm)."
+  "tr": "Kamera görüntünüz yalnızca bu cihazda işlenir; kaydedilmez, hiçbir yere gönderilmez. Sonuçlarınız yalnızca bu cihazda saklanır."
  },
  {
   "id": "san76",
   "kind": "text",
-  "tr": "Sandalyenin ortasına oturun, ayaklarınız yere düz bassın. Kollarınızı <strong>göğsünüzde çapraz</strong> yapın, elleriniz karşı omuzlarınızda dursun."
+  "tr": "Kolçaksız, sırtı düz, <strong>sağlam bir sandalyeyi</strong> kaymaması için duvara dayayın (oturak yüksekliği yaklaşık 43 cm)."
  },
  {
   "id": "san77",
   "kind": "text",
-  "tr": "Sinyalle birlikte <strong>tam ayağa kalkın</strong>, sonra tekrar oturun. 30 saniye boyunca tekrarlayın."
+  "tr": "Sandalyenin ortasına oturun, ayaklarınız yere düz bassın. Kollarınızı <strong>göğsünüzde çapraz</strong> yapın, elleriniz karşı omuzlarınızda dursun."
  },
  {
   "id": "san78",
   "kind": "text",
-  "tr": "Yalnızca tam kalkışlar sayılır. Süre bittiğinde <strong>yarıdan fazla doğrulmuşsanız</strong> o kalkış da sayılır. Kalkmak için kollarınızı kullanmanız gerekirse test durur ve sonuç 0 olur."
+  "tr": "Sinyalle birlikte <strong>tam ayağa kalkın</strong>, sonra tekrar oturun. 30 saniye boyunca tekrarlayın."
  },
  {
   "id": "san79",
   "kind": "text",
-  "tr": "CDC, test sırasında yanınızda birinin durmasını öneriyor. Yakın zamanda düştüyseniz, baş dönmeniz ya da denge sorununuz varsa testi yalnız yapmayın."
+  "tr": "Yalnızca tam kalkışlar sayılır. Süre bittiğinde <strong>yarıdan fazla doğrulmuşsanız</strong> o kalkış da sayılır. Kalkmak için kollarınızı kullanmanız gerekirse test durur ve sonuç 0 olur."
  },
  {
   "id": "san80",
   "kind": "text",
-  "tr": "Göğüs ağrısı, nefes darlığı, baş dönmesi ya da belirgin diz veya kalça ağrısı olursa hemen durun."
+  "tr": "CDC, test sırasında yanınızda birinin durmasını öneriyor. Yakın zamanda düştüyseniz, baş dönmeniz ya da denge sorununuz varsa testi yalnız yapmayın."
  },
  {
   "id": "san81",
   "kind": "text",
-  "tr": "Kamera için arkanızda parlak bir pencere olmasın; bol kıyafet kalça ve dizlerinizi gizleyebilir."
+  "tr": "Göğüs ağrısı, nefes darlığı, baş dönmesi ya da belirgin diz veya kalça ağrısı olursa hemen durun."
  },
  {
   "id": "san82",
   "kind": "text",
-  "tr": "Yarışmayın: hızlı ama kontrollü kalkıp oturun, sandalyeye kendinizi bırakmayın."
+  "tr": "Kamera için arkanızda parlak bir pencere olmasın; bol kıyafet kalça ve dizlerinizi gizleyebilir."
  },
  {
   "id": "san83",
   "kind": "text",
-  "tr": "Yaşa göre tekrar sayıları"
+  "tr": "Yarışmayın: hızlı ama kontrollü kalkıp oturun, sandalyeye kendinizi bırakmayın."
  },
  {
   "id": "san84",
   "kind": "text",
-  "tr": "60–94 yaş: 7.183 kişilik bir araştırmada yaşıtların ortadaki yarısının (%25–75) yaptığı tekrar aralığı. Bu aralığın altı, CDC’nin STEADI aracında “ortalamanın altı” kabul edilir ve düşme riskine işaret eder. 20–59 yaş: 400 sağlıklı yetişkinde ortalama ± standart sapma. Yaş grubunuz yukarıdaki yaşa göre işaretlenir."
+  "tr": "Yaşa göre tekrar sayıları"
  },
  {
   "id": "san85",
   "kind": "text",
-  "tr": "Bacaklarınızı güçlendirin"
+  "tr": "60–94 yaş: 7.183 kişilik bir araştırmada yaşıtların ortadaki yarısının (%25–75) yaptığı tekrar aralığı. Bu aralığın altı, CDC’nin STEADI aracında “ortalamanın altı” kabul edilir ve düşme riskine işaret eder. 20–59 yaş: 400 sağlıklı yetişkinde ortalama ± standart sapma. Yaş grubunuz yukarıdaki yaşa göre işaretlenir."
  },
  {
   "id": "san86",
   "kind": "text",
-  "tr": "Evde dört egzersiz"
+  "tr": "Bacaklarınızı güçlendirin"
  },
  {
   "id": "san87",
   "kind": "text",
-  "tr": "Haftada 2–3 gün, ağrısız bir aralıkta yapın. Birkaç hafta sonra testi tekrarlayıp ilerlemenizi görebilirsiniz. Denge için <a href=\"denge-testi.html\">10 saniye denge testine</a>, düşme riskiniz için <a href=\"dusme-onleme.html\">düşmeleri önleme</a> rehberine bakabilirsiniz."
+  "tr": "Evde dört egzersiz"
  },
  {
   "id": "san88",
   "kind": "text",
-  "tr": "Testin kendisi en iyi egzersizidir. Sağlam, kolsuz bir sandalyede kollarınız göğsünüzde çapraz, kontrollü bir hızla kalkın ve oturun. Zor geliyorsa önce kollarınızdan destek alarak ya da daha yüksek bir sandalyeyle başlayın."
+  "tr": "Haftada 2–3 gün, ağrısız bir aralıkta yapın. Birkaç hafta sonra testi tekrarlayıp ilerlemenizi görebilirsiniz. Denge için <a href=\"denge-testi.html\">10 saniye denge testine</a>, düşme riskiniz için <a href=\"dusme-onleme.html\">düşmeleri önleme</a> rehberine bakabilirsiniz."
  },
  {
   "id": "san89",
   "kind": "text",
-  "tr": "8–12 tekrar, 2–3 set, haftada 2–3 gün"
+  "tr": "Testin kendisi en iyi egzersizidir. Sağlam, kolsuz bir sandalyede kollarınız göğsünüzde çapraz, kontrollü bir hızla kalkın ve oturun. Zor geliyorsa önce kollarınızdan destek alarak ya da daha yüksek bir sandalyeyle başlayın."
  },
  {
   "id": "san90",
   "kind": "text",
-  "tr": "Duvarda oturma"
+  "tr": "8–12 tekrar, 2–3 set, haftada 2–3 gün"
  },
  {
   "id": "san91",
   "kind": "text",
-  "tr": "Sırtınızı duvara dayayın, ayaklarınızı biraz öne alın ve dizlerinizi rahat edebildiğiniz kadar bükerek kayın. Dizleriniz ayak bileklerinizin üzerinde kalsın; nefesinizi tutmayın."
+  "tr": "Duvarda oturma"
  },
  {
   "id": "san92",
   "kind": "text",
-  "tr": "20–30 saniye, 3–4 kez"
+  "tr": "Sırtınızı duvara dayayın, ayaklarınızı biraz öne alın ve dizlerinizi rahat edebildiğiniz kadar bükerek kayın. Dizleriniz ayak bileklerinizin üzerinde kalsın; nefesinizi tutmayın."
  },
  {
   "id": "san93",
   "kind": "text",
-  "tr": "Sırtüstü yatın, dizleriniz bükülü ve ayaklarınız yerde olsun. Kalçanızı sıkarak yerden kaldırın, omuzlarınızdan dizlerinize düz bir çizgi oluşsun; yavaşça indirin."
+  "tr": "20–30 saniye, 3–4 kez"
  },
  {
   "id": "san94",
   "kind": "text",
-  "tr": "10–12 tekrar, 2–3 set"
+  "tr": "Sırtüstü yatın, dizleriniz bükülü ve ayaklarınız yerde olsun. Kalçanızı sıkarak yerden kaldırın, omuzlarınızdan dizlerinize düz bir çizgi oluşsun; yavaşça indirin."
  },
  {
   "id": "san95",
   "kind": "text",
-  "tr": "Bir tezgâha hafifçe tutunarak dik durun. Topuklarınızı kaldırıp parmak uçlarınızda yükselin, yavaşça inin. Kolaylaşınca tek ayakla deneyin."
+  "tr": "10–12 tekrar, 2–3 set"
  },
  {
   "id": "san96",
   "kind": "text",
-  "tr": "Kamera görüntüm bir yere gönderiliyor mu?"
+  "tr": "Bir tezgâha hafifçe tutunarak dik durun. Topuklarınızı kaldırıp parmak uçlarınızda yükselin, yavaşça inin. Kolaylaşınca tek ayakla deneyin."
  },
  {
   "id": "san97",
   "kind": "text",
-  "tr": "Hayır. Görüntü yalnızca sizin cihazınızda, tarayıcınızın içinde işlenir; kaydedilmez ve hiçbir sunucuya gönderilmez. Kamerayı ilk açtığınızda hareket algılama programı (Google’ın açık kaynaklı MediaPipe modeli, toplam yaklaşık 17 MB) cihazınıza indirilir; sayma işi tamamen cihazınızda yapılır. Sonuçlarınız da yalnızca bu cihazda saklanır."
+  "tr": "Kamera görüntüm bir yere gönderiliyor mu?"
  },
  {
   "id": "san98",
   "kind": "text",
-  "tr": "Kamera yanlış sayarsa ne olur?"
+  "tr": "Hayır. Görüntü yalnızca sizin cihazınızda, tarayıcınızın içinde işlenir; kaydedilmez ve hiçbir sunucuya gönderilmez. Kamerayı ilk açtığınızda hareket algılama programı (Google’ın açık kaynaklı MediaPipe modeli, toplam yaklaşık 17 MB) cihazınıza indirilir; sayma işi tamamen cihazınızda yapılır. Sonuçlarınız da yalnızca bu cihazda saklanır."
  },
  {
   "id": "san99",
   "kind": "text",
-  "tr": "Kamera sayacı bir yardımcıdır, kusursuz değildir. Bol kıyafet, kötü ışık ya da bacaklarınızın görüntüden çıkması sayımı bozabilir. Test bitince sayıyı kendiniz düzeltebilirsiniz. En güvenilir yol, yanınızdaki birinin de saymasıdır."
+  "tr": "Kamera yanlış sayarsa ne olur?"
  },
  {
   "id": "san100",
   "kind": "text",
-  "tr": "Kollarımı kullanmadan kalkamıyorsam?"
+  "tr": "Kamera sayacı bir yardımcıdır, kusursuz değildir. Bol kıyafet, kötü ışık ya da bacaklarınızın görüntüden çıkması sayımı bozabilir. Test bitince sayıyı kendiniz düzeltebilirsiniz. En güvenilir yol, yanınızdaki birinin de saymasıdır."
  },
  {
   "id": "san101",
   "kind": "text",
-  "tr": "CDC’nin STEADI protokolüne göre kalkmak için kollarınızı kullanmanız gerekiyorsa test durdurulur ve sonuç 0 kaydedilir. Bu, bacak gücünüzün desteğe ihtiyacı olduğunu gösterir; bir fizyoterapist ya da hekimle değerlendirme yaptırmanız iyi olur."
+  "tr": "Kollarımı kullanmadan kalkamıyorsam?"
  },
  {
   "id": "san102",
   "kind": "text",
-  "tr": "Sonucumu geliştirebilir miyim?"
+  "tr": "CDC’nin STEADI protokolüne göre kalkmak için kollarınızı kullanmanız gerekiyorsa test durdurulur ve sonuç 0 kaydedilir. Bu, bacak gücünüzün desteğe ihtiyacı olduğunu gösterir; bir fizyoterapist ya da hekimle değerlendirme yaptırmanız iyi olur."
  },
  {
   "id": "san103",
   "kind": "text",
-  "tr": "Evet. Bacak gücü her yaşta egzersizle gelişebilir. Aşağıdaki egzersizlerle başlayabilir, testi birkaç haftada bir tekrarlayarak ilerlemenizi izleyebilirsiniz. Kalça kireçlenmesi olanlarda yapılan bir çalışmada 2 tekrarlık artış anlamlı bir iyileşme olarak kabul edildi."
+  "tr": "Sonucumu geliştirebilir miyim?"
  },
  {
   "id": "san104",
   "kind": "text",
-  "tr": "Bacak gücünüz ve düşme riskiniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+  "tr": "Evet. Bacak gücü her yaşta egzersizle gelişebilir. Aşağıdaki egzersizlerle başlayabilir, testi birkaç haftada bir tekrarlayarak ilerlemenizi izleyebilirsiniz. Kalça kireçlenmesi olanlarda yapılan bir çalışmada 2 tekrarlık artış anlamlı bir iyileşme olarak kabul edildi."
  },
  {
   "id": "san105",
+  "kind": "text",
+  "tr": "Bacak gücünüz ve düşme riskiniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "san106",
   "kind": "wa",
   "tr": "Merhaba, bacak gücü ve denge değerlendirmesi için evde değerlendirme ve seans planlamak istiyorum."
  },
  {
-  "id": "san106",
+  "id": "san107",
   "kind": "text",
   "tr": "Shirley Ryan AbilityLab. <a href=\"https://www.sralab.org/rehabilitation-measures/30-second-sit-stand-test\" target=\"_blank\" rel=\"noopener\">30 Second Sit to Stand Test</a>. Rehabilitation Measures Database."
  },
  {
-  "id": "san107",
+  "id": "san108",
   "kind": "ld",
   "tr": "30 saniye sandalyeden kalkma testi"
  }

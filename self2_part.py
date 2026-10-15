@@ -148,7 +148,7 @@ def STEPPER(key, mx=2, label=""):
 
 WAKE_JS = """  function wake(on){
     try {
-      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; }).catch(function(){});
+      if (on && navigator.wakeLock && !lock) navigator.wakeLock.request('screen').then(function(l){ lock = l; l.addEventListener('release', function(){ if (lock === l) lock = null; }); }).catch(function(){});
       if (!on && lock){ lock.release(); lock = null; }
     } catch (e) {}
   }
