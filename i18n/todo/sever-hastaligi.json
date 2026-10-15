@@ -1,0 +1,267 @@
+[
+ {
+  "id": "sev0",
+  "kind": "text",
+  "tr": "Çocuklarda Topuk Ağrısı (Sever Hastalığı): Belirtiler, Tedavi ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "sev1",
+  "kind": "attr",
+  "tr": "Çocuğunuzun topuğu koşup zıpladıktan sonra mı ağrıyor? Sever hastalığı nedir, ne kadar sürer, spor bırakılmalı mı, topukluk işe yarar mı? Uyarı işaretleri ve evde üç egzersiz."
+ },
+ {
+  "id": "sev2",
+  "kind": "text",
+  "tr": "Çocuklarda topuk ağrısı (Sever hastalığı)"
+ },
+ {
+  "id": "sev3",
+  "kind": "text",
+  "tr": "Çocuğunuz koşup zıpladıktan sonra topuğunun ağrıdığını mı söylüyor, aksıyor ya da parmak uçlarında mı yürüyor? Büyüme döneminde topuk kemiğinin büyüme bölgesinin tahriş olmasına Sever hastalığı denir. Adı ürkütücü olsa da büyümeyle ilgili, sık görülen ve geçici bir durumdur; büyüme tamamlanınca topuk ağrısı geçer."
+ },
+ {
+  "id": "sev4",
+  "kind": "text",
+  "tr": "Son güncelleme: 16 Ekim 2026"
+ },
+ {
+  "id": "sev5",
+  "kind": "text",
+  "tr": "8–10 yaş"
+ },
+ {
+  "id": "sev6",
+  "kind": "text",
+  "tr": "Kızlarda en sık görüldüğü dönem"
+ },
+ {
+  "id": "sev7",
+  "kind": "text",
+  "tr": "10–14 yaş"
+ },
+ {
+  "id": "sev8",
+  "kind": "text",
+  "tr": "Erkeklerde en sık görüldüğü dönem"
+ },
+ {
+  "id": "sev9",
+  "kind": "text",
+  "tr": "Bekleyip izleme, topukluk ve fizyoterapinin bu sürede aynı sonucu verdiği araştırma bulgusu"
+ },
+ {
+  "id": "sev10",
+  "kind": "text",
+  "tr": "Önerilere rağmen düzelme yoksa bir uzmana görünme süresi"
+ },
+ {
+  "id": "sev11",
+  "kind": "text",
+  "tr": "Koşma, zıplama gibi etkinliklerle artan, dinlenince azalan topuk ağrısı."
+ },
+ {
+  "id": "sev12",
+  "kind": "text",
+  "tr": "Aksama ya da parmak uçlarında yürüme."
+ },
+ {
+  "id": "sev13",
+  "kind": "text",
+  "tr": "Topuk iki yandan sıkıldığında hassasiyet; aşil tendonunun kemiğe yapıştığı yerde hafif şişlik."
+ },
+ {
+  "id": "sev14",
+  "kind": "text",
+  "tr": "Baldır kaslarında gerginlik; tek ya da iki topukta birden."
+ },
+ {
+  "id": "sev15",
+  "kind": "text",
+  "tr": "Hızlı büyüme dönemlerinde kemikler, baldır kasları ve aşil tendonundan daha hızlı uzar."
+ },
+ {
+  "id": "sev16",
+  "kind": "text",
+  "tr": "Gerilen aşil tendonu, topuk kemiğinin büyüme bölgesini tekrar tekrar çeker ve tahriş eder."
+ },
+ {
+  "id": "sev17",
+  "kind": "text",
+  "tr": "Bu yüzden her yeni büyüme atağında yeniden ortaya çıkabilir."
+ },
+ {
+  "id": "sev18",
+  "kind": "text",
+  "tr": "Etkinliği ayarlayın"
+ },
+ {
+  "id": "sev19",
+  "kind": "text",
+  "tr": "Ağrı şiddetliyse koşma ve zıplamaya ara verin; yüzme ve bisiklet iyi seçeneklerdir. Spordan sonra bacağı yükseğe kaldırarak dinlendirin."
+ },
+ {
+  "id": "sev20",
+  "kind": "text",
+  "tr": "Buz uygulayın"
+ },
+ {
+  "id": "sev21",
+  "kind": "text",
+  "tr": "Havluya sarılı buzu, özellikle etkinlikten sonra 10–15 dakika topuğa koyabilirsiniz."
+ },
+ {
+  "id": "sev22",
+  "kind": "text",
+  "tr": "Topukluk ve ayakkabı"
+ },
+ {
+  "id": "sev23",
+  "kind": "text",
+  "tr": "Şok emici tabanlık ya da jel topukluk ve destekleyici bir ayakkabı kullanın; çıplak ayakla dolaşmaktan kaçının."
+ },
+ {
+  "id": "sev24",
+  "kind": "text",
+  "tr": "Baldırları esnetin"
+ },
+ {
+  "id": "sev25",
+  "kind": "text",
+  "tr": "Baldır germe egzersizleri gerginliği azaltır. Yeni bir büyüme atağında ağrı dönerse esnemelere yeniden başlayın."
+ },
+ {
+  "id": "sev26",
+  "kind": "text",
+  "tr": "Baldırı rahatlatan üç egzersiz"
+ },
+ {
+  "id": "sev27",
+  "kind": "text",
+  "tr": "Germeleri yavaşça ve zorlamadan yapın. Bir egzersiz ağrıyı artırıyor ya da yeni bir ağrı yapıyorsa bırakın ve bir uzmana danışın."
+ },
+ {
+  "id": "sev28",
+  "kind": "text",
+  "tr": "Düz dizle baldır germe"
+ },
+ {
+  "id": "sev29",
+  "kind": "text",
+  "tr": "Bir duvara dönük durun, ellerinizi duvara koyun. Bir bacağınız arkada ve dizi düz olsun; arkadaki topuğu yere bastırarak öne doğru eğilin, baldırınızda gerilme hissedene kadar."
+ },
+ {
+  "id": "sev30",
+  "kind": "text",
+  "tr": "20–30 saniye, günde 3–4 kez"
+ },
+ {
+  "id": "sev31",
+  "kind": "text",
+  "tr": "Diz bükülü baldır germe"
+ },
+ {
+  "id": "sev32",
+  "kind": "text",
+  "tr": "Bir ayağınız önde, diğeri arkada dursun; iki topuk da yerde kalsın. İki dizinizi birden hafifçe bükün; gerilmeyi baldırın alt kısmında, topuğa yakın hissedersiniz."
+ },
+ {
+  "id": "sev33",
+  "kind": "text",
+  "tr": "Ayak bileği hareketi"
+ },
+ {
+  "id": "sev34",
+  "kind": "text",
+  "tr": "Oturun ya da uzanın. Ayağınızı kendinize doğru çekin ve 5 saniye tutun, sonra parmaklarınızı yere doğru uzatın ve 5 saniye tutun."
+ },
+ {
+  "id": "sev35",
+  "kind": "text",
+  "tr": "Çocuğum sporu bırakmalı mı?"
+ },
+ {
+  "id": "sev36",
+  "kind": "text",
+  "tr": "Tamamen bırakması gerekmez. Ağrı şiddetliyse koşma ve zıplama içeren sporlara, ağrı yatışana kadar ara verebilir; bu sürede yüzme ve bisiklet gibi daha az yüklenen etkinlikler iyi bir seçenektir. Ağrı geçince etkinliğini kademeli olarak artırabilir."
+ },
+ {
+  "id": "sev37",
+  "kind": "text",
+  "tr": "Topuk ağrısı genellikle büyüme tamamlanınca geçer. Büyüme dönemlerinde birkaç kez tekrarlayabilir. Önerilere rağmen 6 hafta içinde düzelme yoksa bir uzmana görünebilirsiniz."
+ },
+ {
+  "id": "sev38",
+  "kind": "text",
+  "tr": "Topukluk ya da tabanlık işe yarar mı?"
+ },
+ {
+  "id": "sev39",
+  "kind": "text",
+  "tr": "Küçük çalışmalarda jel topukluk ve şok emici tabanlıkların kısa vadede ağrıyı azalttığı görüldü. 124 çocuğun katıldığı bir araştırmada tüm gruplar 2 ayda belirgin şekilde iyileşti; topukluğun sağladığı ek fark küçüktü, ayakkabı değişikliği ise ek bir fark yaratmadı."
+ },
+ {
+  "id": "sev40",
+  "kind": "text",
+  "tr": "Fizyoterapi gerekli mi?"
+ },
+ {
+  "id": "sev41",
+  "kind": "text",
+  "tr": "101 çocuğun katıldığı bir araştırmada bekleyip izlemek, şok emici topukluk ve baldır güçlendirmeli fizyoterapi arasında 3 ayda fark bulunmadı. Yani çoğu çocuk basit önlemlerle iyileşir. Ağrı geçmiyor ya da sık tekrarlıyorsa kişiye özel bir değerlendirme yol gösterici olabilir."
+ },
+ {
+  "id": "sev42",
+  "kind": "text",
+  "tr": "Neden bazen iki topuk birden ağrıyor?"
+ },
+ {
+  "id": "sev43",
+  "kind": "text",
+  "tr": "Durum büyümeyle ilgili olduğu için tek ya da iki topukta birden görülebilir."
+ },
+ {
+  "id": "sev44",
+  "kind": "text",
+  "tr": "Büyüme dönemindeki diz ağrısı için <a href=\"osgood-schlatter.html\">Osgood-Schlatter</a>, yetişkinlerde topuk ağrısı için <a href=\"topuk-dikeni.html\">topuk dikeni</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "sev45",
+  "kind": "text",
+  "tr": "Bir yaralanmadan sonra şiddetli topuk ağrısı başladıysa ya da o sırada çatırtı, kırılma sesi duyulduysa"
+ },
+ {
+  "id": "sev46",
+  "kind": "text",
+  "tr": "Çocuğunuz yürüyemiyor, parmak ucunda duramıyor ya da merdiven çıkamıyorsa"
+ },
+ {
+  "id": "sev47",
+  "kind": "text",
+  "tr": "Ayak ya da ayak bileğinde şekil bozukluğu, baldırda ve bilekte şişlik ve morluk varsa"
+ },
+ {
+  "id": "sev48",
+  "kind": "text",
+  "tr": "Ayakta uyuşma ya da karıncalanma varsa"
+ },
+ {
+  "id": "sev49",
+  "kind": "text",
+  "tr": "Ağrı çok şiddetliyse, günlük hayatı engelliyorsa ya da evde bakıma rağmen düzelmiyorsa"
+ },
+ {
+  "id": "sev50",
+  "kind": "text",
+  "tr": "Çocuğunuzun topuk ağrısı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "sev51",
+  "kind": "wa",
+  "tr": "Merhaba, çocuğumun topuk ağrısı (Sever hastalığı) için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "sev52",
+  "kind": "ld",
+  "tr": "Sever hastalığı"
+ }
+]

@@ -2518,5 +2518,50 @@
   "id": "fb504",
   "kind": "text",
   "tr": "Sandalye testi"
+ },
+ {
+  "id": "fb505",
+  "kind": "text",
+  "tr": "Doğumdan sonra karnınızın ortasında kabarıklık mı var? Ne kadar sık, kendiliğinden kapanır mı, hangi egzersizler güvenli? Kendi kendine kontrol."
+ },
+ {
+  "id": "fb506",
+  "kind": "text",
+  "tr": "Doğum sonrası karın kası ayrılması"
+ },
+ {
+  "id": "fb507",
+  "kind": "text",
+  "tr": "Çocuğunuzun topuğu koşup zıpladıktan sonra mı ağrıyor? Ne kadar sürer, spor bırakılmalı mı, topukluk işe yarar mı? Evde üç egzersiz."
+ },
+ {
+  "id": "fb508",
+  "kind": "text",
+  "tr": "Çocuklarda topuk ağrısı (Sever)"
+ },
+ {
+  "id": "fb509",
+  "kind": "text",
+  "tr": "Omzunuzda birdenbire başlayan şiddetli ağrı ve röntgende kireç mi var? Kendiliğinden geçer mi, hangi tedaviler var? Evde altı egzersiz."
+ },
+ {
+  "id": "fb510",
+  "kind": "text",
+  "tr": "Omuzda kireç birikmesi"
+ },
+ {
+  "id": "fb511",
+  "kind": "text",
+  "tr": "Kaza ya da düşme sonrası boyun ağrısı mı? Ne kadar sürer, boyunluk gerekir mi, ne zaman hekime gitmeli? Evde altı egzersiz."
+ },
+ {
+  "id": "fb512",
+  "kind": "text",
+  "tr": "Karın kası ayrılması"
+ },
+ {
+  "id": "fb513",
+  "kind": "text",
+  "tr": "Boyun incinmesi"
  }
 ]
