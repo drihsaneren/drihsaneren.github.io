@@ -89,6 +89,8 @@ EN = {
     "demans-egzersiz.html": "dementia-and-exercise.html",
     "dizin-12-sirri.html": "knee-12-secrets.html",
     "uc-kapi.html": "three-doors.html",
+    "agri-gunlugu.html": "pain-diary.html",
+    "yurume-hizi-testi.html": "gait-speed-test.html",
     "sandalye-testi.html": "chair-stand-test.html",
     "egzersizde-agri.html": "pain-during-exercise.html",
     "agriyi-anlamak.html": "understanding-pain.html",

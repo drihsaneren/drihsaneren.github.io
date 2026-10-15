@@ -1,0 +1,302 @@
+[
+ {
+  "id": "yur0",
+  "kind": "text",
+  "tr": "Yürüme Hızı Testi: 4 Metre Süreölçer ve Yaşa Göre Ortalamalar | İhsan Eren"
+ },
+ {
+  "id": "yur1",
+  "kind": "attr",
+  "tr": "Her zamanki temponuzla 4 metreyi kaç saniyede yürüyorsunuz? Süreölçerle yürüme hızınızı ölçün, yaşınızdaki ortalamayla karşılaştırın ve yürüyüşünüzü destekleyen dört egzersizi öğrenin."
+ },
+ {
+  "id": "yur2",
+  "kind": "text",
+  "tr": "Yürüme hızı testi"
+ },
+ {
+  "id": "yur3",
+  "kind": "text",
+  "tr": "Her zamanki temponuzla 4 metreyi kaç saniyede yürüyorsunuz? Yürüme hızı, yaşlılarda genel sağlığın basit bir göstergesi olarak kullanılıyor: 65 yaş üstü 34.485 kişinin verilerinin birleştirildiği bir analizde, daha hızlı yürüyenlerin daha uzun yaşadığı görüldü. Bu bir tanı değil, ama izlemeye değer bir ölçü. Aşağıdaki süreölçerle ölçün ve yaşınızdaki ortalamayla karşılaştırın."
+ },
+ {
+  "id": "yur4",
+  "kind": "text",
+  "tr": "4 metre"
+ },
+ {
+  "id": "yur5",
+  "kind": "text",
+  "tr": "Testin mesafesi; yeriniz darsa 3 metre de kullanılabilir"
+ },
+ {
+  "id": "yur6",
+  "kind": "text",
+  "tr": "Her 0,1 m/sn daha hızlı yürüyüşle ilişkili ölüm riski azalması (65 yaş üstü)"
+ },
+ {
+  "id": "yur7",
+  "kind": "text",
+  "tr": "1,0 m/sn"
+ },
+ {
+  "id": "yur8",
+  "kind": "text",
+  "tr": "Bu hız ve üzeri, beklenenden daha uzun yaşamla ilişkiliydi"
+ },
+ {
+  "id": "yur9",
+  "kind": "text",
+  "tr": "0,8 m/sn"
+ },
+ {
+  "id": "yur10",
+  "kind": "text",
+  "tr": "Yaklaşık olarak ortalama yaşam beklentisine karşılık gelen hız"
+ },
+ {
+  "id": "yur11",
+  "kind": "text",
+  "tr": "Süreölçerle ölçün"
+ },
+ {
+  "id": "yur12",
+  "kind": "text",
+  "tr": "Yerde başlangıç ve bitiş çizgilerini işaretleyin. Süreyi yanınızdaki biri tutsun: “Başla” dediği anda süreölçeri başlatsın, bir ayağınız bitiş çizgisini tamamen geçince durdursun. İki deneme yapın; hızlı olanı sonucunuzdur."
+ },
+ {
+  "id": "yur13",
+  "kind": "text",
+  "tr": "Mesafe"
+ },
+ {
+  "id": "yur14",
+  "kind": "text",
+  "tr": "3 metre"
+ },
+ {
+  "id": "yur15",
+  "kind": "text",
+  "tr": "5 metre"
+ },
+ {
+  "id": "yur16",
+  "kind": "attr",
+  "tr": "ör. 70"
+ },
+ {
+  "id": "yur17",
+  "kind": "text",
+  "tr": "Kişi iki ayağı başlangıç çizgisinde dursun. “Başla” derken süreölçeri başlatın."
+ },
+ {
+  "id": "yur18",
+  "kind": "text",
+  "tr": "Başla"
+ },
+ {
+  "id": "yur19",
+  "kind": "text",
+  "tr": "Yürüyor"
+ },
+ {
+  "id": "yur20",
+  "kind": "text",
+  "tr": "Bir ayak bitiş çizgisini tamamen geçince durdurun."
+ },
+ {
+  "id": "yur21",
+  "kind": "text",
+  "tr": "Bitti"
+ },
+ {
+  "id": "yur22",
+  "kind": "text",
+  "tr": "2. denemeyi başlat"
+ },
+ {
+  "id": "yur23",
+  "kind": "text",
+  "tr": "1. deneme kaydedildi"
+ },
+ {
+  "id": "yur24",
+  "kind": "text",
+  "tr": "Başlangıç çizgisine dönün; hazır olunca ikinci denemeyi başlatın."
+ },
+ {
+  "id": "yur25",
+  "kind": "text",
+  "tr": "İki deneme tamamlandı"
+ },
+ {
+  "id": "yur26",
+  "kind": "text",
+  "tr": "Hızlı olan deneme sonucunuzdur; hızınız ve karşılaştırma hazır."
+ },
+ {
+  "id": "yur27",
+  "kind": "text",
+  "tr": "En iyi süreniz: {s} saniye ({d} metre)"
+ },
+ {
+  "id": "yur28",
+  "kind": "text",
+  "tr": "yaklaşık {k} km/sa"
+ },
+ {
+  "id": "yur29",
+  "kind": "text",
+  "tr": "m/sn"
+ },
+ {
+  "id": "yur30",
+  "kind": "text",
+  "tr": "Bu yaş için güvenilir bir karşılaştırma değeri yok."
+ },
+ {
+  "id": "yur31",
+  "kind": "text",
+  "tr": "Yaş grubunuzun ortalaması {m} m/sn."
+ },
+ {
+  "id": "yur32",
+  "kind": "text",
+  "tr": "1,0 m/sn ve üzeri, 65 yaş üstü kişilerde beklenenden daha uzun yaşamla ilişkiliydi."
+ },
+ {
+  "id": "yur33",
+  "kind": "text",
+  "tr": "0,8 m/sn civarı, 65 yaş üstü kişilerde yaklaşık ortalama yaşam beklentisine karşılık geliyordu; 1,0 m/sn ve üzeri daha uzun yaşamla ilişkiliydi."
+ },
+ {
+  "id": "yur34",
+  "kind": "text",
+  "tr": "0,8 m/sn’nin altındaki hızlar, 65 yaş üstü kişilerde daha kısa yaşam beklentisiyle ilişkiliydi. Bu bir tanı değildir; güç, denge ve yürüyüş çalışmalarıyla başlayabilir, bir hekim ya da fizyoterapistle konuşabilirsiniz."
+ },
+ {
+  "id": "yur35",
+  "kind": "text",
+  "tr": "Ortalamanın üzerinde ya da yakınında"
+ },
+ {
+  "id": "yur36",
+  "kind": "text",
+  "tr": "Merhaba, drihsaneren.com’daki yürüme hızı testini yaptım: {v} m/sn ({d} metre, {s} saniye). Değerlendirme hakkında bilgi almak istiyorum."
+ },
+ {
+  "id": "yur37",
+  "kind": "text",
+  "tr": "Sonuçlarınız yalnızca bu cihazda saklanır; hiçbir yere gönderilmez."
+ },
+ {
+  "id": "yur38",
+  "kind": "text",
+  "tr": "Düz ve boş bir zeminde <strong>4 metreyi</strong> (yer darsa 3 metreyi) ölçün; başlangıç ve bitiş çizgilerini bantla işaretleyin."
+ },
+ {
+  "id": "yur39",
+  "kind": "text",
+  "tr": "Kişi <strong>iki ayağı başlangıç çizgisinde</strong> dursun. Bitiş çizgisinden sonra da birkaç adım yürüyebileceği boş alan olsun."
+ },
+ {
+  "id": "yur40",
+  "kind": "text",
+  "tr": "“Başla” deyin ve süreölçeri başlatın. Kişi <strong>her zamanki temposuyla</strong> bitiş çizgisini geçene kadar yürüsün."
+ },
+ {
+  "id": "yur41",
+  "kind": "text",
+  "tr": "Bir ayak bitiş çizgisini <strong>tamamen geçtiği anda</strong> durdurun. İki deneme yapın; hızlı olanı sayılır."
+ },
+ {
+  "id": "yur42",
+  "kind": "text",
+  "tr": "Halı kenarı, kablo gibi takılabileceğiniz şeyleri yoldan kaldırın; rahat ve kaymayan ayakkabı giyin."
+ },
+ {
+  "id": "yur43",
+  "kind": "text",
+  "tr": "Günlük hayatta baston ya da yürüteç kullanıyorsanız testi onunla yapın."
+ },
+ {
+  "id": "yur44",
+  "kind": "text",
+  "tr": "Dengeniz zayıfsa ya da yakın zamanda düştüyseniz yanınızda biri yürüsün."
+ },
+ {
+  "id": "yur45",
+  "kind": "text",
+  "tr": "Yaşa göre ortalama yürüme hızı"
+ },
+ {
+  "id": "yur46",
+  "kind": "text",
+  "tr": "Sağlıklı yetişkinlerde yapılan çalışmaların birleştirildiği bir analizden ortalama değerler (metre/saniye). Yaş grubunuz yukarıdaki yaşa göre işaretlenir."
+ },
+ {
+  "id": "yur47",
+  "kind": "text",
+  "tr": "Yürüyüşünüzü destekleyin"
+ },
+ {
+  "id": "yur48",
+  "kind": "text",
+  "tr": "Güçlü bacaklar ve iyi bir denge, rahat ve güvenli yürüyüşün temelidir. Bacak gücünüz için <a href=\"sandalye-testi.html\">30 saniye sandalye testine</a>, dengeniz için <a href=\"denge-testi.html\">10 saniye denge testine</a> de bakabilirsiniz."
+ },
+ {
+  "id": "yur49",
+  "kind": "text",
+  "tr": "Neden yürüme hızı önemli?"
+ },
+ {
+  "id": "yur50",
+  "kind": "text",
+  "tr": "Yürümek; kaslarınızı, eklemlerinizi, dengenizi, kalbinizi, akciğerlerinizi ve sinir sisteminizi birlikte kullanmayı gerektirir. Bu yüzden yürüme hızı, yaşlılarda genel sağlığın basit bir göstergesi olarak kullanılıyor. 65 yaş üstü 34.485 kişinin izlendiği dokuz çalışmanın birleştirildiği analizde, daha hızlı yürüyenlerin daha uzun yaşadığı görüldü. Bu bir ilişkidir; test tek başına bir hastalığı göstermez."
+ },
+ {
+  "id": "yur51",
+  "kind": "text",
+  "tr": "Hızlı mı yürümeliyim?"
+ },
+ {
+  "id": "yur52",
+  "kind": "text",
+  "tr": "Hayır. Testte her zamanki, rahat temponuzla yürüyün. Amaç günlük yürüyüşünüzü ölçmektir; yarışmayın."
+ },
+ {
+  "id": "yur53",
+  "kind": "text",
+  "tr": "Baston ya da yürüteçle yapabilir miyim?"
+ },
+ {
+  "id": "yur54",
+  "kind": "text",
+  "tr": "Evet. Günlük hayatta kullandığınız baston ya da yürüme yardımcısıyla yapabilirsiniz. Karşılaştırma için her seferinde aynı şekilde yapmanız yeterli."
+ },
+ {
+  "id": "yur55",
+  "kind": "text",
+  "tr": "Hızım düşük çıktı, ne yapmalıyım?"
+ },
+ {
+  "id": "yur56",
+  "kind": "text",
+  "tr": "Bu bir tanı değildir. Bacak gücü, denge ve düzenli yürüyüş yürüme hızını destekler; aşağıdaki egzersizlerle başlayabilirsiniz. Son zamanlarda yürüyüşünüz belirgin yavaşladıysa, sık düşüyorsanız ya da nefes darlığı ve göğüs ağrısı gibi yakınmalarınız varsa bir hekime görünün."
+ },
+ {
+  "id": "yur57",
+  "kind": "text",
+  "tr": "Yürüyüşünüz ve dengeniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "yur58",
+  "kind": "wa",
+  "tr": "Merhaba, yürüme ve denge değerlendirmesi için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "yur59",
+  "kind": "text",
+  "tr": "Harvard eFrailty. <a href=\"https://efrailty.hsl.harvard.edu/ToolSPPB.html\" target=\"_blank\" rel=\"noopener\">Short Physical Performance Battery (SPPB)</a>: gait speed test instructions."
+ }
+]
