@@ -551,3 +551,10 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - yurume-hizi-testi.html → en/gait-speed-test.html (C_YH, "Kendinizi ölçün", sandalye testinden sonra). 3/4/5 m seçimi, iki deneme (hızlı olanı), m/sn ve km/sa, Bohannon & Andrews 2011 ortalamaları (utoronto PDF'inden okundu), 65+ için Studenski 2011 eşikleri (ACP özeti: 34.485 kişi, 9 kohort, HR 0,88/0,1 m/sn, 0,8 ≈ ortanca yaşam beklentisi, ≥1,0 beklenenden uzun). Protokol Harvard eFrailty SPPB sayfasından. Studenski cilt/sayfa mitofit kaydından (305:50–58). localStorage drihsaneren.yuruyus.v1.
 - agri-gunlugu.html → en/pain-diary.html (C_AG, "Ağrıyla yaşamak"). Günlük kayıt (0–10, yer, uyku, hareket, not), son 30 gün SVG grafik, 7 günlük ortalama ve önceki haftaya fark, uyku/hareket gözlemleri (≥5 kayıt ve her grupta ≥3 gün), WhatsApp özeti, CSV indirme, silme. localStorage drihsaneren.agri.v1. Farrar 2001 (chiro.org özeti: 2.724 kişi, ~2 puan / ~%30).
 - reg_self.py EXEC'i kapi_part.py'den sonra ekliyor; sıra elle "self4", "self5", "self6" yapıldı.
+
+## Bilim gündemi, 3 haber daha (16 Ekim 2026)
+- Egzersiz ve ağrı (IL_EXPAIN): Adelaide Üniversitesi şemsiye derlemesi, PAIN Reports Ağustos 2026 (DOI 10.1097/PR9.0000000000001455); SciTechDaily 6 Ekim 2026'dan okundu (157 derleme, 2.736 RKÇ, 221.279 kişi, ortalama 1,1 puan, ~%60 ilaçlardan büyük ama dolaylı karşılaştırma).
+- 47 yıllık İsveç SPAF (IL_SPAF): ScienceDaily 14 Ekim 2026 (Karolinska; 427 kişi, 16–63 yaş, zirve 26–36, 63'te %30–48 düşük, %5–10 artış). Asıl makale J Cachexia Sarcopenia Muscle 2025;16(6) — DOI'si okunmadı, yalnızca ScienceDaily bağlantısı var.
+- Tai chi 20 yıl (IL_TAICHI): Mark & Wang, Curr Rheumatol Rep 2026;28:30, çevrimiçi 9 Ekim 2026 (Springer sayfası okundu: 19 RKÇ/2.031 kişi + 34 derleme, diz-kalça OA en güçlü, RA yetersiz, anlatısal derleme).
+- GAE haberi (Radiology, Charité 194 hasta) Ekim'de yeniden basına çıktı ama Haziran 2026'da zaten eklenmişti; tekrar eklenmedi.
+- Çeviri: i18n/todo/yen6.json + done/yen6.json (y6-0…14), yen5 ile aynı yöntem (export_todo yenilikler.html çalıştırılmadı).

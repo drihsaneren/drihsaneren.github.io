@@ -1387,6 +1387,29 @@ IL_LACO = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" hei
 <path d="M190 80 L180 88" stroke="#e2ab47" stroke-width="2" stroke-linecap="round"/>
 <g fill="none" stroke="#e2ab47" stroke-width="2" stroke-linecap="round"><path d="M210 120 h40"/><path d="M210 132 h28"/><path d="M210 144 h36"/></g></svg>'''
 
+IL_EXPAIN = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M30 156 H170" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
+<circle cx="92" cy="40" r="12" fill="#8fa476"/>
+<path d="M92 54 L88 96 M90 62 L70 50 M90 62 L112 76 M88 96 L70 124 L60 154 M88 96 L108 120 L128 150" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Georgia,serif" font-size="12" fill="#ece5cf" text-anchor="end"><text x="214" y="38">10</text><text x="214" y="158">0</text></g>
+<rect x="222" y="26" width="18" height="132" rx="9" fill="rgba(236,229,207,.08)" stroke="rgba(236,229,207,.25)"/>
+<rect x="222" y="68" width="18" height="90" rx="9" fill="#e2ab47" opacity=".85"/>
+<rect x="250" y="88" width="18" height="70" rx="9" fill="#8fa476"/>
+<path d="M231 60 C246 52 256 66 259 80 M259 80 l-7 -3 M259 80 l3 -7" fill="none" stroke="#ece5cf" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="none" stroke="rgba(226,171,71,.55)" stroke-width="2.5" stroke-linecap="round"><path d="M44 70 q8 -8 0 -16"/><path d="M36 76 q14 -14 0 -28"/></g></svg>'''
+IL_SPAF = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M40 24 V146 H292" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="2"/>
+<path d="M48 120 C80 70 104 48 128 46 C156 44 176 60 206 82 C236 104 260 118 284 130" fill="none" stroke="rgba(181,72,58,.75)" stroke-width="4" stroke-linecap="round"/>
+<path d="M48 120 C80 70 104 48 128 46 C156 44 176 54 206 66 C236 78 260 88 284 96" fill="none" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"/>
+<circle cx="128" cy="46" r="6" fill="#ece5cf"/>
+<g font-family="Georgia,serif" font-size="13" fill="#ece5cf" text-anchor="middle"><text x="48" y="164">16</text><text x="128" y="164">~35</text><text x="284" y="164">63</text></g>
+<circle cx="284" cy="96" r="5" fill="#e2ab47"/><circle cx="284" cy="130" r="5" fill="rgba(181,72,58,.85)"/></svg>'''
+IL_TAICHI = '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M60 156 H260" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
+<path d="M92 92 C120 40 200 40 228 92" fill="none" stroke="rgba(226,171,71,.45)" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+<circle cx="160" cy="46" r="12" fill="#8fa476"/>
+<path d="M160 60 V100 M160 70 C140 70 122 76 108 66 M160 70 C182 74 196 88 212 82 M160 100 L136 124 L124 154 M160 100 L184 122 L206 152" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="108" cy="64" r="5" fill="#d8b25e"/><circle cx="212" cy="82" r="5" fill="#d8b25e"/></svg>'''
 NEWS = [
  dict(il=IL_NOBEL, g="beyin", cat="Nobel 2026", feat=True, date="Ekim 2026",
       title="Işık, ayna ve buz: 2026 Nobel ödülleri",
@@ -1394,6 +1417,24 @@ NEWS = [
       point="Üçünün de çıkış noktası, o gün hiçbir işe yaramayacak gibi görünen bir meraktı: bir gölet yosunu, hesaba uymayan bir tepkime ve buzun dibinde çakan bir ışık. Üçünü de canlandırmalarla, sade bir dille anlattım.",
       src=[("STAT, 5 Ekim 2026", "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/"), ("IceCube, 6 Ekim 2026", "https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/"), ("Forbes, 7 Ekim 2026", "https://www.forbes.com/sites/michaeltnietzel/2026/10/07/the-2026-nobel-prize-in-chemistry-is-awarded-to-henri-kagan-and-kenso-soai/")],
       rel=("Canlandırmalı anlatımı aç", "nobel-2026.html")),
+ dict(il=IL_EXPAIN, g="hareket", cat="Ağrı", date="Ekim 2026",
+      title="Egzersiz birçok ağrı türünü azaltıyor: 221 bin kişilik büyük derleme",
+      text="Avustralya'daki Adelaide Üniversitesi'nden araştırmacılar, egzersizin ağrıya etkisini inceleyen 157 sistematik derlemeyi bir araya getirdi: toplam 2.736 randomize çalışma ve 221.279 katılımcı. PAIN Reports dergisinde yayımlanan analizde egzersiz; kireçlenme, migren, nörolojik ve romatizmal hastalıklar ile kansere bağlı ağrı dahil hem kısa süreli hem uzun süreli ağrıda azalmayla ilişkiliydi. Ağrı 0–10 ölçeğinde ortalama 1,1 puan azaldı. Aerobik egzersiz, direnç çalışması, yoga, pilates ve tai chi'nin hepsinde yarar görüldü; daha düşük yoğunluklu ve haftada toplam 2 saatten kısa programlar da anlamlı fayda sağladı.",
+      point="Bu, var olan derlemelerin bir araya getirildiği bir analiz; hangi egzersizin kime en uygun olduğunu söylemiyor. Araştırmacılar bu azalmanın, yaygın ağrı ilaçlarıyla bildirilen ortalama etkiden yaklaşık %60 daha büyük olduğunu belirtiyor; ancak bu karşılaştırma farklı çalışmalardan yapıldı, doğrudan bir karşılaştırma değil. Mesaj yine de net: Ağrıda hareket, tedavinin temel parçalarından biri.",
+      src=[("SciTechDaily (Adelaide Üniversitesi), 6 Ekim 2026", "https://scitechdaily.com/study-finds-exercise-may-be-a-surprisingly-powerful-treatment-for-pain/"), ("PAIN Reports, Ağustos 2026", "https://doi.org/10.1097/PR9.0000000000001455")],
+      rel=("Ağrıyı anlamak", "agriyi-anlamak.html")),
+ dict(il=IL_SPAF, g="hareket", cat="Kas gücü", date="Ekim 2026",
+      title="Kondisyon 30'ların ortasında azalmaya başlıyor; hareket bu düşüşü yavaşlatıyor",
+      text="İsveç'teki Karolinska Enstitüsü'nün yürüttüğü SPAF çalışmasında, 1958 doğumlu, rastgele seçilmiş 427 kişinin aerobik kondisyonu, kas dayanıklılığı ve patlayıcı kas gücü 16 yaşından 63 yaşına kadar, 47 yıl boyunca tekrar tekrar ölçüldü. Aerobik kondisyon ve kas dayanıklılığı 26–36 yaş arasında zirveye ulaştı ve 30'ların ortasında azalmaya başladı; patlayıcı güç daha da erken zirve yaptı. Düşüş önce yavaştı, yaş ilerledikçe hızlandı: 63 yaşında performans zirvenin ortalama %30–48 altındaydı. Düşüş kadınlarda ve erkeklerde benzerdi. Yetişkinlikte düzenli harekete başlayanların fiziksel kapasitesi yaklaşık %5–10 arttı.",
+      point="Bunlar ortalamalar; herkes 35 yaşında birden güçsüzleşmiyor. Hareket düşüşü tamamen durduramasa da yavaşlatabiliyor ve başlamak için hiçbir yaş geç değil. Ergenlikte aktif olanlar yetişkinlikte de daha iyi kondisyonu korudu. Araştırmacılar katılımcıları 68 yaşında yeniden ölçmeyi planlıyor.",
+      src=[("ScienceDaily (Karolinska Enstitüsü), 14 Ekim 2026", "https://www.sciencedaily.com/releases/2026/10/261014000912.htm")],
+      rel=("Sarkopeni rehberi", "sarkopeni.html")),
+ dict(il=IL_TAICHI, g="hareket", cat="Tai chi", date="Ekim 2026",
+      title="Tai chi'nin 20 yılı: Kas-iskelet ağrısında en güçlü kanıt kireçlenmede",
+      text="ABD'deki Tufts Medicine'den araştırmacılar, 9 Ekim 2026'da Current Rheumatology Reports'ta yayımlanan derlemede tai chi'nin kronik kas-iskelet ağrısındaki son 12 yıllık çalışmalarını inceledi: 2.031 katılımcılı 19 randomize çalışma ve 34 derleme. Kanıt en güçlü diz ve kalça kireçlenmesindeydi: 28 çalışmayı birleştiren bir analizde tai chi; ağrıda, hareketlilikte, işlevde ve tutuklukta egzersiz yapmayan gruplara göre iyileşme sağladı ve haftalık sıklık ve süre arttıkça ağrıdaki fayda büyüdü. Fibromiyalji ve kronik bel ağrısında sonuçlar umut verici ama çalışmalar arasında farklılık büyük; romatoid artritte kanıt yetersiz.",
+      point="Tai chi genel olarak güvenli ve uygulanabilir bir seçenek; Doğu'nun hareket geleneğinin bilimsel yöntemle sınanmasının güzel bir örneği. Ancak bu sistematik değil, anlatısal bir derleme: Çalışmalarda tai chi'nin stili, dozu ve karşılaştırma grupları çok farklı, izlem süreleri çoğunlukla kısa. Faydanın büyüklüğünü kesinleştirmek için daha iyi çalışmalara ihtiyaç var.",
+      src=[("Current Rheumatology Reports, 9 Ekim 2026", "https://link.springer.com/article/10.1007/s11926-026-01239-7")],
+      rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
  dict(il=IL_PDACT, g="hareket", cat="Parkinson", date="Ekim 2026",
       title="Parkinson'da daha çok hareket, daha yavaş ilerleme",
       text="ABD'de Cincinnati Üniversitesi'nden araştırmacıların 7 Ekim 2026'da Neurology dergisinde yayımladığı çalışmada, hafif ve orta evre Parkinson hastası 294 kişi 7 yıla kadar izlendi. Haftada 8 saatten fazla orta ya da yüksek tempolu fiziksel aktivite (iş, ev işleri ve hobiler dahil) yapanlarda, 4 saatten az yapanlara göre düşünme becerilerindeki gerileme ve hareket belirtilerindeki kötüleşme daha yavaştı. Toplam süreye, yoğunlukla ağırlıklandırılmış miktara ve yalnızca yüksek tempolu aktiviteye bakıldığında da benzer ilişki görüldü.",
