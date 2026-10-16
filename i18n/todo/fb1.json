@@ -2573,5 +2573,35 @@
   "id": "fb515",
   "kind": "text",
   "tr": "Her zamanki temponuzla 4 metreyi kaç saniyede yürüyorsunuz? Süreölçerle ölçün, yaşınızdaki ortalamayla karşılaştırın."
+ },
+ {
+  "id": "fb516",
+  "kind": "text",
+  "tr": "Bacağın arkasında “çat” sesi ve ani ağrı mı? Ameliyat mı bot mu, iyileşme ne kadar sürer? Bot döneminde beş egzersiz."
+ },
+ {
+  "id": "fb517",
+  "kind": "text",
+  "tr": "Diz kapağınız yerinden mi çıktı? İlk anda ne yapmalı, yeniden çıkar mı, spora ne zaman dönülür? Evde dört egzersiz."
+ },
+ {
+  "id": "fb518",
+  "kind": "text",
+  "tr": "Diz kapağı çıkığı"
+ },
+ {
+  "id": "fb519",
+  "kind": "text",
+  "tr": "Serçe ve yüzük parmağınız mı uyuşuyor? Dirsekte sinir sıkışması, gece ateli, ameliyat ne zaman gerekir? Evde iki egzersiz."
+ },
+ {
+  "id": "fb520",
+  "kind": "text",
+  "tr": "Aşil kopması"
+ },
+ {
+  "id": "fb521",
+  "kind": "text",
+  "tr": "Kübital tünel"
  }
 ]

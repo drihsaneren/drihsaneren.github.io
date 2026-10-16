@@ -558,3 +558,11 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Tai chi 20 yıl (IL_TAICHI): Mark & Wang, Curr Rheumatol Rep 2026;28:30, çevrimiçi 9 Ekim 2026 (Springer sayfası okundu: 19 RKÇ/2.031 kişi + 34 derleme, diz-kalça OA en güçlü, RA yetersiz, anlatısal derleme).
 - GAE haberi (Radiology, Charité 194 hasta) Ekim'de yeniden basına çıktı ama Haziran 2026'da zaten eklenmişti; tekrar eklenmedi.
 - Çeviri: i18n/todo/yen6.json + done/yen6.json (y6-0…14), yen5 ile aynı yöntem (export_todo yenilikler.html çalıştırılmadı).
+
+## Bilgi köşesi, 3 rehber daha (16 Ekim 2026): cond46–48
+- Siyatik istenmişti ama "Bel fıtığı ve siyatik" (bel-fitigi.html) zaten var; yerine diz kapağı çıkığı eklendi (kullanıcıya söylendi).
+- cond46 diz-kapagi-cikigi.html → en/dislocated-kneecap.html (PD, diz, C_ACL'den sonra). NHS Dislocated kneecap (10 Mart 2026), Sherwood Forest PIL202607-03-PD (Temmuz 2026), RUH Bath PHY/035 (2020), Cochrane Smith 2023 (CD008106.pub4: 10 çalışma/519 kişi, ameliyatsız 348/1000 yeniden çıkma, ameliyat 157/1000 daha az, çok düşük kesinlik). Egzersiz: dk_quad, dk_slr, dk_bend(hslide), dk_bridge.
+- cond47 kubital-tunel-sendromu.html → en/cubital-tunnel-syndrome.html (CU, omuz, C_CTS'den sonra). EKHUFT Web 597 (Mart 2025), Royal Berkshire (Ocak 2024), Right Decision Service (NHS Scotland; kurum/tarih yazmıyor), Cochrane Caliandro 2016 (51 kişi bilgilendirme; 55 kişi kortizon %28/%30; gevşetme ~%70 / taşıma ~%75, enfeksiyon ~%4/%12). Yeni çizim SV["uglide"] (ulnar sinir kaydırma, dirsek bükülüp el başa). Egzersiz: cu_glide, cu_roll(ly_shrug).
+- cond48 asil-tendonu-kopmasi.html → en/achilles-tendon-rupture.html (AR, ayak, C_ACHILLES'ten sonra). Royal Berkshire (Ekim 2025), Sherwood Forest PIL202606-03-ATR (Haziran 2026; bot dönemi egzersizleri 10×3 sn), NHS Fife (Şubat 2024; spora dönüş süreleri), Myhrvold NEJM 2022 (554 kişi; yeniden kopma %6,2/%0,6; sinir hasarı %0,6/%2,8/%5,2). Egzersiz: ar_quad, ar_slr, ar_kext, ar_hext, ar_sabd.
+- "Norveç'te" bilgisi (Myhrvold) bellekten; NEJM sayfası okunmadı.
+- fb516–521 (kart açıklamaları, haplar).

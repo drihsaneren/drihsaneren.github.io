@@ -1,0 +1,307 @@
+[
+ {
+  "id": "diz0",
+  "kind": "text",
+  "tr": "Diz Kapağı Çıkığı (Patella Çıkığı): İlk Yardım, İyileşme ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "diz1",
+  "kind": "attr",
+  "tr": "Diz kapağınız yerinden mi çıktı? İlk anda ne yapmalı, dizlik ne kadar takılır, yeniden çıkar mı, spora ne zaman dönülür? Uyarı işaretleri ve evde dört egzersiz."
+ },
+ {
+  "id": "diz2",
+  "kind": "text",
+  "tr": "Diz kapağı çıkığı (patella çıkığı)"
+ },
+ {
+  "id": "diz3",
+  "kind": "text",
+  "tr": "Ani bir dönüşte ya da dizinize aldığınız bir darbede diz kapağınızın yerinden kaydığını mı hissettiniz? Diz kapağı, uyluk kemiğindeki oluğundan çoğu zaman dışa doğru çıkar ve sıklıkla kendiliğinden yerine döner. Yerine dönmüş olsa bile bir hekimin muayenesi gerekir. İyileşmenin anahtarı, uyluk ve kalça kaslarınızı yeniden güçlendirmektir."
+ },
+ {
+  "id": "diz4",
+  "kind": "text",
+  "tr": "Günlük işlere dönüş için gereken yaklaşık süre"
+ },
+ {
+  "id": "diz5",
+  "kind": "text",
+  "tr": "12–24 hafta"
+ },
+ {
+  "id": "diz6",
+  "kind": "text",
+  "tr": "Spora tam dönüşün sürebileceği süre"
+ },
+ {
+  "id": "diz7",
+  "kind": "text",
+  "tr": "Üçte bir"
+ },
+ {
+  "id": "diz8",
+  "kind": "text",
+  "tr": "İlk çıkıktan sonra ameliyatsız izlenenlerde 2–9 yılda yeniden çıkma oranı"
+ },
+ {
+  "id": "diz9",
+  "kind": "text",
+  "tr": "Beşte bir"
+ },
+ {
+  "id": "diz10",
+  "kind": "text",
+  "tr": "Ameliyat olanlarda aynı oran; kanıtın kesinliği çok düşük"
+ },
+ {
+  "id": "diz11",
+  "kind": "text",
+  "tr": "Diz kapağının yerinden çıkmış ya da garip bir açıda durması."
+ },
+ {
+  "id": "diz12",
+  "kind": "text",
+  "tr": "Dizde “pat” diye bir his, dizi düzeltememe."
+ },
+ {
+  "id": "diz13",
+  "kind": "text",
+  "tr": "Ağrı, şişlik ve bacağa basamama."
+ },
+ {
+  "id": "diz14",
+  "kind": "text",
+  "tr": "Diz kapağı kendiliğinden yerine dönmüş olabilir; şişlik ve ağrı yine de sürer."
+ },
+ {
+  "id": "diz15",
+  "kind": "text",
+  "tr": "Ayak yerdeyken yapılan ani bir dönüş ya da dize doğrudan bir darbe."
+ },
+ {
+  "id": "diz16",
+  "kind": "text",
+  "tr": "Zayıf bacak kasları ve eklemlerin olağandan gevşek olması riski artırır."
+ },
+ {
+  "id": "diz17",
+  "kind": "text",
+  "tr": "Diz kapağının şekli de rol oynar: küçük ya da yüksekte duran bir diz kapağı daha kolay çıkabilir."
+ },
+ {
+  "id": "diz18",
+  "kind": "text",
+  "tr": "İlk anda ne yapmalı?"
+ },
+ {
+  "id": "diz19",
+  "kind": "text",
+  "tr": "Dizinizi hareket ettirmeyin; otururken ya da uzanırken rulo yapılmış havlu, giysi ya da yastıkla destekleyin."
+ },
+ {
+  "id": "diz20",
+  "kind": "text",
+  "tr": "Bacağınıza basmayın ve üzerinde yürümeyin."
+ },
+ {
+  "id": "diz21",
+  "kind": "text",
+  "tr": "Diz kapağını kendiniz yerine itmeye çalışmayın."
+ },
+ {
+  "id": "diz22",
+  "kind": "text",
+  "tr": "Diz kapağı yerine dönmüş olsa bile en kısa sürede bir hekime görünün; genellikle röntgen gerekir."
+ },
+ {
+  "id": "diz23",
+  "kind": "text",
+  "tr": "İyileşme döneminde neler iyi gelir?"
+ },
+ {
+  "id": "diz24",
+  "kind": "text",
+  "tr": "Buz ve yükseltme"
+ },
+ {
+  "id": "diz25",
+  "kind": "text",
+  "tr": "Havluya sarılı buzu 10–15 dakika, günde en az 3 kez uygulayabilirsiniz. Dinlenirken bacağınızı yüksekte ve destekli tutun."
+ },
+ {
+  "id": "diz26",
+  "kind": "text",
+  "tr": "Hekiminize ya da eczacınıza danışarak ağrı kesici kullanabilirsiniz. Ağrının azalması egzersizleri kolaylaştırır."
+ },
+ {
+  "id": "diz27",
+  "kind": "text",
+  "tr": "Tutukluğu önlemek için diz egzersizlerini gün boyunca yapın. Dizliği ekibinizin söylediği süre ve hareket sınırıyla kullanın."
+ },
+ {
+  "id": "diz28",
+  "kind": "text",
+  "tr": "Dizinizi burkmayın"
+ },
+ {
+  "id": "diz29",
+  "kind": "text",
+  "tr": "Dizinizi döndürme ve burkma hareketlerinden kaçının. Diz eski gücüne kavuşmadan spora dönmeyin."
+ },
+ {
+  "id": "diz30",
+  "kind": "text",
+  "tr": "Dizi güçlendiren dört egzersiz"
+ },
+ {
+  "id": "diz31",
+  "kind": "text",
+  "tr": "Bu egzersizler ilk dönem içindir; dizlik kullanıyorsanız hekiminizin ya da fizyoterapistinizin izin verdiği sınırlar içinde yapın. Uyluk kasınız yorulduğunda dinlenin. Güçlendikçe fizyoterapistiniz sizi basamak çıkma gibi ayakta yapılan egzersizlere geçirir."
+ },
+ {
+  "id": "diz32",
+  "kind": "text",
+  "tr": "Uyluğu sıkıp topuğu kaldırma"
+ },
+ {
+  "id": "diz33",
+  "kind": "text",
+  "tr": "Bacaklarınız düz olacak şekilde oturun ya da uzanın, dizinizin altına rulo yapılmış bir havlu koyun. Uyluğunuzu sıkarak dizinizin arkasını havluya bastırın ve topuğunuzu kaldırın. 3 saniye tutun, yavaşça indirin."
+ },
+ {
+  "id": "diz34",
+  "kind": "text",
+  "tr": "Sırtüstü uzanın ya da bacaklarınız düz oturun. Ayak ucunuzu kendinize çekin, uyluğunuzu sıkın ve dizinizi düz tutarak bacağınızı yaklaşık 15 cm kaldırın. 3 saniye tutun, yavaşça indirin."
+ },
+ {
+  "id": "diz35",
+  "kind": "text",
+  "tr": "Diz bükme"
+ },
+ {
+  "id": "diz36",
+  "kind": "text",
+  "tr": "Sırtüstü uzanın ya da oturun. Topuğunuzu kaydırarak dizinizi rahat ettiğiniz kadar bükün, kısa bir süre tutun ve düzeltin. Dizlik kullanıyorsanız hekiminizin ya da fizyoterapistinizin belirlediği sınırı aşmayın."
+ },
+ {
+  "id": "diz37",
+  "kind": "text",
+  "tr": "5 dakika boyunca"
+ },
+ {
+  "id": "diz38",
+  "kind": "text",
+  "tr": "Sırtüstü uzanın, ayaklarınız yerde, dizleriniz bükülü olsun; dizlik kullanıyorsanız izin verilen sınıra kadar bükün. Kalçanızı ve belinizi yerden kaldırın, sonra yavaşça indirin."
+ },
+ {
+  "id": "diz39",
+  "kind": "text",
+  "tr": "Her seferde 5–10 saniye tutun"
+ },
+ {
+  "id": "diz40",
+  "kind": "text",
+  "tr": "Diz kapağım yeniden çıkar mı?"
+ },
+ {
+  "id": "diz41",
+  "kind": "text",
+  "tr": "Olabilir. 519 kişiyi kapsayan 10 araştırmayı inceleyen bir Cochrane derlemesine göre ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık üçte birinde, 2–9 yıl içinde diz kapağı yeniden çıktı. Ameliyat olanlarda bu oran yaklaşık beşte birdi; ancak kanıtın kesinliği çok düşük ve ameliyatın günlük işlevi belirgin şekilde iyileştirip iyileştirmediği belli değil."
+ },
+ {
+  "id": "diz42",
+  "kind": "text",
+  "tr": "Çoğu zaman gerekmez. Diz içinde başka yapılar da hasar gördüyse ya da diz kapağı tekrar tekrar çıkıyorsa ameliyat düşünülebilir. Karar, muayene ve görüntüleme sonrası hekiminizle birlikte verilir."
+ },
+ {
+  "id": "diz43",
+  "kind": "text",
+  "tr": "Dizlik ne kadar takılır?"
+ },
+ {
+  "id": "diz44",
+  "kind": "text",
+  "tr": "İlk çıkıktan sonra dizlik verilebilir. Ne kadar süre takacağınıza ve dizinizi ne kadar bükebileceğinize ekibiniz karar verir. Bir NHS broşürüne göre dizlik iki haftaya kadar kullanılabilir ve gece, kişisel bakım ve egzersiz sırasında çıkarılabilir. Dizlik çıkınca bir süre tutukluk olması normaldir."
+ },
+ {
+  "id": "diz45",
+  "kind": "text",
+  "tr": "Spora ne zaman dönebilirim?"
+ },
+ {
+  "id": "diz46",
+  "kind": "text",
+  "tr": "Dizinizin hareketi ve uyluk, arka uyluk ve baldır kaslarınızın gücü sağlam tarafla aynı düzeye gelince; koşma, yön değiştirme ve sıçrama gibi sporunuzun gerektirdiği hareketleri güvenle yapabildiğinizde. Kaynaklarda bu süre 6–8 haftadan 12–24 haftaya kadar değişiyor. Günlük işlere dönüş genellikle 6–12 hafta sürer."
+ },
+ {
+  "id": "diz47",
+  "kind": "text",
+  "tr": "Koltuk değneği olmadan yürüyebildiğinizde ve ani frene güvenle basabildiğinizde."
+ },
+ {
+  "id": "diz48",
+  "kind": "text",
+  "tr": "Dizde boşalma hissi için <a href=\"on-capraz-bag.html\">ön çapraz bağ</a>, merdivende ve çömelince artan ağrı için <a href=\"diz-onu-agrisi.html\">diz önü ağrısı</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "diz49",
+  "kind": "text",
+  "tr": "Ne zaman acile ya da hekime başvurmalı?"
+ },
+ {
+  "id": "diz50",
+  "kind": "text",
+  "tr": "Dizinizin şekli değiştiyse, dizinizde “pat” diye bir his olduysa ya da diz hızla şiştiyse"
+ },
+ {
+  "id": "diz51",
+  "kind": "text",
+  "tr": "Kemik görünüyorsa ya da çok kanama varsa"
+ },
+ {
+  "id": "diz52",
+  "kind": "text",
+  "tr": "Bacağınıza basamıyorsanız ya da basınca keskin ağrı oluyorsa"
+ },
+ {
+  "id": "diz53",
+  "kind": "text",
+  "tr": "Yürürken zonklayan ağrı, baldırda şişlik, kızarıklık ya da sıcaklık varsa"
+ },
+ {
+  "id": "diz54",
+  "kind": "text",
+  "tr": "Diz ağrınız ateşle birlikte aniden ve şiddetle arttıysa"
+ },
+ {
+  "id": "diz55",
+  "kind": "text",
+  "tr": "Uykunuzu ciddi şekilde bölen, sürekli ve şiddetli gece ağrısı varsa"
+ },
+ {
+  "id": "diz56",
+  "kind": "text",
+  "tr": "İlk iki durumda acil servise gidin; ağrı nedeniyle bacağınızı hareket ettiremiyorsanız 112’yi arayın. Kendiniz araç kullanmayın. Hareketiniz ve gücünüz tam döndüğü halde ağrı, boşalma hissi ya da işlerinize dönmekte güçlük sürüyorsa da bir uzmana görünebilirsiniz."
+ },
+ {
+  "id": "diz57",
+  "kind": "text",
+  "tr": "Diz kapağı çıkığı sonrası iyileşmeniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "diz58",
+  "kind": "wa",
+  "tr": "Merhaba, diz kapağı çıkığı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "diz59",
+  "kind": "text",
+  "tr": "Smith TO, Gaukroger A, Metcalfe A, Hing CB. <a href=\"https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008106.pub4/full\" target=\"_blank\" rel=\"noopener\">Surgical versus non-surgical interventions for treating patellar dislocation</a>. Cochrane Database Syst Rev. 2023;(1):CD008106."
+ },
+ {
+  "id": "diz60",
+  "kind": "ld",
+  "tr": "Patella çıkığı"
+ }
+]
