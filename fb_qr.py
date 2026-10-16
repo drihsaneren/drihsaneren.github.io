@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # İletişim karekodu (kullanıcının gönderdiği tasarıma göre): koyu yeşil zemin, kum rengi kabartma
 # kareler, ortada logo. Görününce halkalar bir iris gibi dönerek yerine oturur; sonra ara ara altın
-# bir dalga beyinden kenarlara akar. İmleçle eğilir, ışık imleci izler. Kurulduktan sonra kod hep okunur
+# bir dalga beyinden kenarlara akar. Kurulduktan sonra kod hep okunur
 # (yalnızca renk açılır; biçim ve yer değişmez).
 import math, qrcode
 
@@ -128,9 +128,9 @@ rep('<figure class="qr">', '<figure class="qr" id="nq">')
 CSS = r'''  /* karekod: koyu yeşil zemin, kum rengi kabartma kareler */
   .qr{perspective:800px}
   .qr .code{position:relative;display:block;width:232px;height:232px;padding:0;background:none;border-radius:18px;isolation:isolate;
-    transform:rotateX(var(--tx,0deg)) rotateY(var(--ty,0deg)) translateY(var(--up,0px)) scale(var(--sc,1));
-    box-shadow:0 0 0 1px rgba(216,178,94,.42),0 14px 40px rgba(0,0,0,.45),0 0 44px rgba(226,171,71,.14);transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
-  .qr .code:hover{--up:-4px;--sc:1.025;transition:transform .12s linear,box-shadow .35s;box-shadow:0 0 0 1px rgba(216,178,94,.75),0 22px 50px rgba(0,0,0,.5),0 0 64px rgba(226,171,71,.3)}
+    box-shadow:0 0 0 1px rgba(216,178,94,.42),0 14px 40px rgba(0,0,0,.45),0 0 44px rgba(226,171,71,.14);transition:box-shadow .35s}
+  /* imleç üstündeyken yalnızca çerçeve ve ışıltı güçlenir; eğme, büyütme ve imleci izleyen ışık bulanıklık yaptığı için kaldırıldı (16 Ekim 2026) */
+  .qr .code:hover{box-shadow:0 0 0 1px rgba(216,178,94,.75),0 22px 50px rgba(0,0,0,.5),0 0 64px rgba(226,171,71,.3)}
   .qr .code::before{content:"";position:absolute;inset:-7px;z-index:-1;border-radius:24px;padding:2px;
     background:conic-gradient(from var(--nqa,0deg),transparent 0 12%,rgba(255,215,130,.9) 20%,transparent 30% 55%,rgba(201,201,144,.75) 65%,transparent 75%);
     -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;filter:blur(1.5px);animation:nq-spin 9s linear infinite}
@@ -144,7 +144,6 @@ CSS = r'''  /* karekod: koyu yeşil zemin, kum rengi kabartma kareler */
   .nq .nq-sp{fill:#fff6d6;stroke:#e9b54f;stroke-width:.09;opacity:0;transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 0 2px rgba(240,184,69,.95))}
   .nq .nq-lt{opacity:0;transform-box:fill-box;transform-origin:center}
   .nq .nq-gl{opacity:0;transition:opacity .4s}
-  .qr .code:hover .nq-gl{opacity:1}
   .nq .nq-sp,.nq .nq-shine{display:none}   /* minik yıldız parıltıları ve çapraz cam parıltısı kaldırıldı; gerisi eski tasarım (11 Ekim 2026) */
   .nq .nq-logo{transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 .5px .6px rgba(0,0,0,.55))}
   /* 1) görününce: halkalar bir iris gibi dönerek yerine oturur, köşe gözleri sırayla düşer */
@@ -167,7 +166,7 @@ CSS = r'''  /* karekod: koyu yeşil zemin, kum rengi kabartma kareler */
   @keyframes nq-lt{0%{opacity:0;transform:scale(.12)}4%{opacity:1}30%{opacity:.9}40%{opacity:0;transform:scale(1.15)}100%{opacity:0;transform:scale(1.15)}}
   @keyframes nq-spark{0%{opacity:0;transform:scale(.2) rotate(0)}5%{opacity:1;transform:scale(1.2) rotate(45deg)}15%,100%{opacity:0;transform:scale(.3) rotate(90deg)}}
   @keyframes nq-shine{0%,48%{transform:skewX(-18deg) translateX(0)}70%,100%{transform:skewX(-18deg) translateX(56px)}}
-  @media (prefers-reduced-motion:reduce){.qr .code::before,.qr .code::after,#nq .nq-r,#nq .nq-e,#nq .nq-e>*,#nq .nq-logo,#nq .nq-lt,#nq .nq-sp,#nq .nq-shine{animation:none!important}.qr .code{transform:none}}
+  @media (prefers-reduced-motion:reduce){.qr .code::before,.qr .code::after,#nq .nq-r,#nq .nq-e,#nq .nq-e>*,#nq .nq-logo,#nq .nq-lt,#nq .nq-sp,#nq .nq-shine{animation:none!important}}
 '''
 rep("  footer{border-top:1px solid var(--line);padding-block:28px 36px;", CSS + "  footer{border-top:1px solid var(--line);padding-block:28px 36px;")
 rep("  .qr .code{width:150px;height:150px;background:var(--paper);color:#1c2819;border-radius:10px;padding:12px}\n  .qr .code svg{width:100%;height:100%;display:block}\n", "")
@@ -176,24 +175,8 @@ JS = r'''<script>
 (function(){
   var fig = document.getElementById('nq'); if (!fig) return;
   fig.classList.add('js');
-  var code = fig.querySelector('.code'), gl = fig.querySelector('.nq-gl'), vb = fig.querySelector('.nq').viewBox.baseVal;
-  var last = 0, still = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var still = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   function go(){ fig.classList.add('go'); setTimeout(function(){ fig.classList.add('lp'); }, still ? 0 : 2600); }
-  // imleç üstündeyken: dalga hemen başlar, kart imlece doğru eğilir, ışık imleci izler
-  code.addEventListener('mouseenter', function(){
-    if (!fig.classList.contains('lp') || Date.now() - last < 2000) return; last = Date.now();
-    fig.style.setProperty('--lb', '0s'); fig.classList.remove('lp'); void fig.offsetWidth; fig.classList.add('lp');
-  });
-  if (!still) {
-    code.addEventListener('pointermove', function(e){
-      if (e.pointerType && e.pointerType !== 'mouse') return;
-      var r = code.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
-      code.style.setProperty('--ty', ((x - .5) * 14).toFixed(2) + 'deg');
-      code.style.setProperty('--tx', ((.5 - y) * 14).toFixed(2) + 'deg');
-      if (gl) { gl.setAttribute('cx', (x * vb.width).toFixed(2)); gl.setAttribute('cy', (y * vb.height).toFixed(2)); }
-    });
-    code.addEventListener('pointerleave', function(){ code.style.removeProperty('--tx'); code.style.removeProperty('--ty'); });
-  }
   if (still) { go(); return; }
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function(es){ if (es[0].isIntersecting) { io.disconnect(); go(); } }, {threshold: .5});
