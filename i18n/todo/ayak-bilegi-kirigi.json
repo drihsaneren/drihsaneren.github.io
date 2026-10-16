@@ -1,0 +1,277 @@
+[
+ {
+  "id": "aya0",
+  "kind": "text",
+  "tr": "Ayak Bileği Kırığı Sonrası: İyileşme Süresi ve Evde Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "aya1",
+  "kind": "attr",
+  "tr": "Ayak bileği kırığından sonra bot ne kadar kullanılır, şişlik ne zaman geçer, ne zaman araba kullanılır? İyileşmeyi hızlandıran öneriler, uyarı işaretleri ve evde altı egzersiz."
+ },
+ {
+  "id": "aya2",
+  "kind": "text",
+  "tr": "Ayak bileği kırığı sonrası"
+ },
+ {
+  "id": "aya3",
+  "kind": "text",
+  "tr": "Ayak bileğiniz kırıldı ve şimdi bot ya da alçıyla mı yürüyorsunuz? Dış bilekteki ince kemiğin (fibula) dengeli kırıkları neredeyse her zaman ameliyatsız iyileşir. Kemik genellikle 6–12 haftada kaynar; asıl iş ondan sonra başlar: ayak bileğinin hareketini, gücünü ve dengesini geri kazanmak. Bu rehber, bot ya da alçı döneminden sonra evde yapabileceğiniz egzersizleri anlatıyor."
+ },
+ {
+  "id": "aya4",
+  "kind": "text",
+  "tr": "Kırığın genellikle kaynadığı süre"
+ },
+ {
+  "id": "aya5",
+  "kind": "text",
+  "tr": "6–12 ay"
+ },
+ {
+  "id": "aya6",
+  "kind": "text",
+  "tr": "Ağrı, tutukluk ve şişliğin tamamen geçmesi için gerekebilecek süre"
+ },
+ {
+  "id": "aya7",
+  "kind": "text",
+  "tr": "3 hafta"
+ },
+ {
+  "id": "aya8",
+  "kind": "text",
+  "tr": "Dengeli dış bilek kırığında, 6 haftalık alçı kadar iyi sonuç veren hareketsizlik süresi"
+ },
+ {
+  "id": "aya9",
+  "kind": "text",
+  "tr": "1–2 hafta"
+ },
+ {
+  "id": "aya10",
+  "kind": "text",
+  "tr": "Dengeli dış bilek kırığında masa başı işe dönüş için genellikle gereken süre"
+ },
+ {
+  "id": "aya11",
+  "kind": "text",
+  "tr": "Dış bilekteki dengeli kırıklar çoğu zaman bir bot ya da destekleyici çorapla, ayağa basılarak tedavi edilir."
+ },
+ {
+  "id": "aya12",
+  "kind": "text",
+  "tr": "Bazı kırıklarda bir süre ayağa basmadan alçı gerekir; eklemin dengesi bozulmuşsa ameliyat yapılır, ardından alçı ve bot kullanılır."
+ },
+ {
+  "id": "aya13",
+  "kind": "text",
+  "tr": "Egzersizlere ne zaman başlayacağınızı ve ne zaman ilerleyeceğinizi ekibiniz söyler."
+ },
+ {
+  "id": "aya14",
+  "kind": "text",
+  "tr": "İyileşmeyi yavaşlatanlar"
+ },
+ {
+  "id": "aya15",
+  "kind": "text",
+  "tr": "Sigara kemiğin kaynamasını yavaşlatır; bırakmak iyileşmeye yardım eder."
+ },
+ {
+  "id": "aya16",
+  "kind": "text",
+  "tr": "Şeker hastalığı da iyileşmeyi yavaşlatabilir."
+ },
+ {
+  "id": "aya17",
+  "kind": "text",
+  "tr": "Hareketsizlik bacakta pıhtı riskini artırır; erken ve düzenli hareket bu yüzden önemlidir."
+ },
+ {
+  "id": "aya18",
+  "kind": "text",
+  "tr": "İlk 24–72 saat dinlenin ve ayağınızı yüksekte tutun. Gerekirse havluya sarılı buzu saatte en fazla 15 dakika uygulayın; hissiniz azsa ya da cildinizde sorun varsa buz kullanmayın."
+ },
+ {
+  "id": "aya19",
+  "kind": "text",
+  "tr": "Şişliği yönetin"
+ },
+ {
+  "id": "aya20",
+  "kind": "text",
+  "tr": "Dinlenirken ayağınızı yükseltin, ayakta kalma sürenizi kademeli artırın. Hekiminize ya da eczacınıza danışarak ağrı kesici kullanabilirsiniz."
+ },
+ {
+  "id": "aya21",
+  "kind": "text",
+  "tr": "Değnekleri kademeli bırakın"
+ },
+ {
+  "id": "aya22",
+  "kind": "text",
+  "tr": "Önce iki değnekten bire geçin; tek değneği sağlam tarafınızdaki elinizde tutun. Sonra değneksiz yürüyün ve topuktan parmağa basarak yürümeyi hedefleyin."
+ },
+ {
+  "id": "aya23",
+  "kind": "text",
+  "tr": "Kırık kaynadıktan sonra, genellikle 6. haftadan itibaren, güçlendirme ve denge egzersizleri eklenir. Spora ağrısız ve tam hareketle dönün."
+ },
+ {
+  "id": "aya24",
+  "kind": "text",
+  "tr": "Ayak bileğini yeniden güçlendiren altı egzersiz"
+ },
+ {
+  "id": "aya25",
+  "kind": "text",
+  "tr": "İlk üç egzersiz bot ya da alçı döneminden sonra, ekibiniz izin verdiğinde başlar; son üçü genellikle 6. haftadan sonra eklenir. Hafif rahatsızlık normaldir ama 2 saat içinde geçmelidir."
+ },
+ {
+  "id": "aya26",
+  "kind": "text",
+  "tr": "Ayak bileğini yukarı aşağı oynatma"
+ },
+ {
+  "id": "aya27",
+  "kind": "text",
+  "tr": "Oturun ya da uzanın. Ayağınızı rahat ettiğiniz aralıkta yukarı doğru çekin, sonra aşağı doğru itin. Bot kullanıyorsanız ekibiniz izin verdiyse botu çıkarıp yapabilirsiniz."
+ },
+ {
+  "id": "aya28",
+  "kind": "text",
+  "tr": "Ağrı yatıştıktan sonra başlayın. Bacağınız düz oturun, havluyu ayağınızın ön kısmına dolayıp uçlarından tutun ve ayağınızı kendinize doğru çekin."
+ },
+ {
+  "id": "aya29",
+  "kind": "text",
+  "tr": "20–30 saniye tutun, günde 3 kez"
+ },
+ {
+  "id": "aya30",
+  "kind": "text",
+  "tr": "Duvara dönük durun, ellerinizi duvara koyun. Ağrılı ayağınızı geriye alın; dizi düz, topuğu yerde kalsın. Öndeki dizinizi bükerek rahat ettiğiniz kadar öne eğilin."
+ },
+ {
+  "id": "aya31",
+  "kind": "text",
+  "tr": "Rahat ettiğiniz kadar, günde 3–4 kez"
+ },
+ {
+  "id": "aya32",
+  "kind": "text",
+  "tr": "Topuk kaldırma"
+ },
+ {
+  "id": "aya33",
+  "kind": "text",
+  "tr": "Bir tezgâha tutunarak dik durun. Topuklarınızı kaldırıp parmak uçlarınızda yükselin, 3 saniye tutun ve yavaşça inin. Kendinize güvendiğinizde tek ayakla, tutunarak yapın."
+ },
+ {
+  "id": "aya34",
+  "kind": "text",
+  "tr": "Ağrınızın izin verdiği kadar, gün içinde"
+ },
+ {
+  "id": "aya35",
+  "kind": "text",
+  "tr": "Genellikle 6. haftadan sonra başlanır. Ellerinizi kullanmadan sandalyeden kalkın ve kontrollü şekilde oturun."
+ },
+ {
+  "id": "aya36",
+  "kind": "text",
+  "tr": "Genellikle 6. haftadan sonra başlanır. Bir tezgâha tutunarak ağrılı ayağınızın üzerinde durun. Kolaylaştıkça tutunmayı azaltın, sonra gözleriniz kapalı deneyin."
+ },
+ {
+  "id": "aya37",
+  "kind": "text",
+  "tr": "20–30 saniye"
+ },
+ {
+  "id": "aya38",
+  "kind": "text",
+  "tr": "Ne kadar süre bot ya da alçı kullanacağım?"
+ },
+ {
+  "id": "aya39",
+  "kind": "text",
+  "tr": "Kırığın türüne göre değişir. Dış bilekteki dengeli kırıklarda bot genellikle ayaktayken 1 ile 4 hafta kullanılır ve 6 haftada bot ve koltuk değneği bırakılır. Alçıyla tedavi edilen kırıklarda bu süre çoğu zaman 6 haftadır. Finlandiya’da yapılan randomize bir çalışmada, dış bilekteki dengeli kırıklarda 3 haftalık alçı ya da ortez, alışılmış 6 haftalık alçı kadar iyi sonuç verdi."
+ },
+ {
+  "id": "aya40",
+  "kind": "text",
+  "tr": "Şişlik ne zaman geçer?"
+ },
+ {
+  "id": "aya41",
+  "kind": "text",
+  "tr": "Kırık genellikle 6–12 haftada kaynar, ama ağrı, tutukluk, şişlik ve güç kaybının tamamen geçmesi 6–12 ayı bulabilir. Gün sonunda biraz şişlik ve sızı olması normaldir. Dinlenirken ayağınızı yüksekte tutun."
+ },
+ {
+  "id": "aya42",
+  "kind": "text",
+  "tr": "Egzersiz ağrıtırsa ne yapmalıyım?"
+ },
+ {
+  "id": "aya43",
+  "kind": "text",
+  "tr": "Egzersiz sırasında hafif rahatsızlık olabilir, ama 2 saat içinde geçmeli ve belirtilerinizi genel olarak kötüleştirmemeli. Ağrı uzun sürüyorsa tekrar sayısını azaltın ve fizyoterapistinize danışın."
+ },
+ {
+  "id": "aya44",
+  "kind": "text",
+  "tr": "Bot ya da alçıyla araç kullanmayın. Botu bıraktığınızda, normal yürüyebildiğinizde ve ani frene güvenle basabildiğinizde başlayabilirsiniz; önce sakin bir yerde deneyin. Kırık sol ayağınızdaysa ve otomatik vitesli araç kullanıyorsanız daha erken mümkün olabilir."
+ },
+ {
+  "id": "aya45",
+  "kind": "text",
+  "tr": "İşe ne zaman dönebilirim?"
+ },
+ {
+  "id": "aya46",
+  "kind": "text",
+  "tr": "Dış bilekteki dengeli kırıklarda masa başı işlere genellikle 1–2 hafta, bedensel işlere 4–6 hafta sonra dönülebilir. İşinizi yapabildiğinizi hissettiğinizde, mümkünse kademeli dönün."
+ },
+ {
+  "id": "aya47",
+  "kind": "text",
+  "tr": "Kırık olmadan burkulan bilek için <a href=\"ayak-bilegi-burkulmasi.html\">ayak bileği burkulması</a>, kolda benzer süreç için <a href=\"el-bilegi-kirigi.html\">el bileği kırığı sonrası</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "aya48",
+  "kind": "text",
+  "tr": "Bir bacakta zonklayan ağrı, şişlik, kızarık ya da koyulaşmış cilt veya şişkin damarlar varsa (pıhtı belirtisi olabilir)"
+ },
+ {
+  "id": "aya49",
+  "kind": "text",
+  "tr": "Bu belirtilerle birlikte göğüs ağrısı ya da nefes darlığı varsa: hemen 112’yi arayın"
+ },
+ {
+  "id": "aya50",
+  "kind": "text",
+  "tr": "6. haftada hâlâ bot ya da koltuk değneğine ihtiyacınız varsa"
+ },
+ {
+  "id": "aya51",
+  "kind": "text",
+  "tr": "12. haftada hâlâ belirgin ağrınız ya da tutukluğunuz varsa"
+ },
+ {
+  "id": "aya52",
+  "kind": "text",
+  "tr": "Ayak bileği kırığı sonrası rehabilitasyonunuz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "aya53",
+  "kind": "wa",
+  "tr": "Merhaba, ayak bileği kırığı sonrası rehabilitasyon için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "aya54",
+  "kind": "ld",
+  "tr": "Ayak bileği kırığı"
+ }
+]

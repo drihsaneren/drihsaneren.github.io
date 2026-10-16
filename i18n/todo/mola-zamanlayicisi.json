@@ -1,0 +1,272 @@
+[
+ {
+  "id": "mol0",
+  "kind": "text",
+  "tr": "Masa Başı Mola Zamanlayıcısı: 20-20-20 Göz Molası ve Hareket Molası | İhsan Eren"
+ },
+ {
+  "id": "mol1",
+  "kind": "attr",
+  "tr": "Ekran başında göz ve hareket molalarını unutmayın: her 20 dakikada 20 saniyelik göz molası, her 30 dakikada 5 dakikalık hareket molası için sesli hatırlatıcı."
+ },
+ {
+  "id": "mol2",
+  "kind": "text",
+  "tr": "Masa başı mola zamanlayıcısı"
+ },
+ {
+  "id": "mol3",
+  "kind": "text",
+  "tr": "Ekran başında saatler nasıl geçiyor? Bu zamanlayıcı size iki küçük molayı hatırlatır: her 20 dakikada gözleriniz için 20 saniyelik bir uzağa bakma molası, her 30 dakikada bedeniniz için 5 dakikalık bir hareket molası. Başlatın, sayfayı açık bırakın ve işinize dönün; zamanı gelince sesli uyarı alırsınız."
+ },
+ {
+  "id": "mol4",
+  "kind": "text",
+  "tr": "Her 20 dakikada, en az 6 metre uzağa, en az 20 saniye bakın"
+ },
+ {
+  "id": "mol5",
+  "kind": "text",
+  "tr": "Ekrana bakarken dakikadaki göz kırpma sayısının düştüğü aralık"
+ },
+ {
+  "id": "mol6",
+  "kind": "text",
+  "tr": "30 dk · 5 dk"
+ },
+ {
+  "id": "mol7",
+  "kind": "text",
+  "tr": "Küçük bir çalışmada kan şekeri yükselmesini azaltan mola düzeni"
+ },
+ {
+  "id": "mol8",
+  "kind": "text",
+  "tr": "4 mmHg"
+ },
+ {
+  "id": "mol9",
+  "kind": "text",
+  "tr": "Aynı mola düzeniyle büyük tansiyonda görülen düşüş"
+ },
+ {
+  "id": "mol10",
+  "kind": "text",
+  "tr": "Molalarınızı hatırlatsın"
+ },
+ {
+  "id": "mol11",
+  "kind": "text",
+  "tr": "Hangi molaları istediğinizi seçin ve başlatın. Mola zamanı gelince ne yapacağınız ekranda yazar; mola bitince sayaç kendiliğinden yeniden başlar."
+ },
+ {
+  "id": "mol12",
+  "kind": "text",
+  "tr": "Hatırlatmalar"
+ },
+ {
+  "id": "mol13",
+  "kind": "text",
+  "tr": "Göz molası: her 20 dakikada 20 saniye"
+ },
+ {
+  "id": "mol14",
+  "kind": "text",
+  "tr": "Hareket molası: 5 dakika"
+ },
+ {
+  "id": "mol15",
+  "kind": "attr",
+  "tr": "Hareket molası sıklığı"
+ },
+ {
+  "id": "mol16",
+  "kind": "text",
+  "tr": "Her 30 dakikada"
+ },
+ {
+  "id": "mol17",
+  "kind": "text",
+  "tr": "Her 60 dakikada"
+ },
+ {
+  "id": "mol18",
+  "kind": "text",
+  "tr": "Tarayıcı bildirimi gönder"
+ },
+ {
+  "id": "mol19",
+  "kind": "text",
+  "tr": "Göz molasına"
+ },
+ {
+  "id": "mol20",
+  "kind": "text",
+  "tr": "Hareket molasına"
+ },
+ {
+  "id": "mol21",
+  "kind": "text",
+  "tr": "Başlat’a basın ve işinize dönün."
+ },
+ {
+  "id": "mol22",
+  "kind": "text",
+  "tr": "Çalışıyor"
+ },
+ {
+  "id": "mol23",
+  "kind": "text",
+  "tr": "Sayfayı açık bırakın; mola zamanı gelince uyarı alırsınız."
+ },
+ {
+  "id": "mol24",
+  "kind": "text",
+  "tr": "Hazır olduğunuzda devam edin."
+ },
+ {
+  "id": "mol25",
+  "kind": "text",
+  "tr": "Göz molası"
+ },
+ {
+  "id": "mol26",
+  "kind": "text",
+  "tr": "Ekrandan başınızı kaldırın, en az 6 metre uzaktaki bir noktaya bakın ve gözlerinizi sık sık kırpın."
+ },
+ {
+  "id": "mol27",
+  "kind": "text",
+  "tr": "Hareket molası"
+ },
+ {
+  "id": "mol28",
+  "kind": "text",
+  "tr": "Kalkın ve 5 dakika hafif tempoda yürüyün, merdiven inip çıkın ya da birkaç germe hareketi yapın."
+ },
+ {
+  "id": "mol29",
+  "kind": "text",
+  "tr": "Molayı bitir"
+ },
+ {
+  "id": "mol30",
+  "kind": "text",
+  "tr": "Molanın bitmesine"
+ },
+ {
+  "id": "mol31",
+  "kind": "text",
+  "tr": "Bugün: {e} göz molası, {m} hareket molası"
+ },
+ {
+  "id": "mol32",
+  "kind": "text",
+  "tr": "Sayaçlar yalnızca bu cihazda çalışır; hiçbir yere bilgi gönderilmez."
+ },
+ {
+  "id": "mol33",
+  "kind": "text",
+  "tr": "Gözleriniz için"
+ },
+ {
+  "id": "mol34",
+  "kind": "text",
+  "tr": "Her 20 dakikada en az 6 metre uzaktaki bir noktaya en az 20 saniye bakın."
+ },
+ {
+  "id": "mol35",
+  "kind": "text",
+  "tr": "Bilinçli olarak sık sık göz kırpın: ekrana bakarken kırpma sayısı dakikada yaklaşık 15’ten 5–7’ye düşer."
+ },
+ {
+  "id": "mol36",
+  "kind": "text",
+  "tr": "Ekranı yaklaşık bir kol boyu (63 cm) uzağa koyun; gözleriniz ekrana hafifçe aşağı baksın."
+ },
+ {
+  "id": "mol37",
+  "kind": "text",
+  "tr": "Ekran parlaklığını odanın ışığına uydurun, kontrastı artırın; parlamayı azaltmak için mat bir ekran filtresi kullanabilirsiniz."
+ },
+ {
+  "id": "mol38",
+  "kind": "text",
+  "tr": "Gözleriniz kuruysa suni gözyaşı, kuru ve sıcak odada nemlendirici işe yarayabilir."
+ },
+ {
+  "id": "mol39",
+  "kind": "text",
+  "tr": "Bedeniniz için"
+ },
+ {
+  "id": "mol40",
+  "kind": "text",
+  "tr": "Oturarak geçen zamanın yerine, hangi yoğunlukta olursa olsun hareket koyun."
+ },
+ {
+  "id": "mol41",
+  "kind": "text",
+  "tr": "Hareket molasında hafif tempoda yürüyün ya da merdiven inip çıkın."
+ },
+ {
+  "id": "mol42",
+  "kind": "text",
+  "tr": "Molada yapabileceğiniz kısa hareketler için <a href=\"hareket-atistirmaliklari.html\">hareket atıştırmalıkları</a>, çalışma düzeniniz için <a href=\"masa-basi.html\">masa başında çalışanlar için</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "mol43",
+  "kind": "text",
+  "tr": "Ekranlar gözlerime kalıcı zarar verir mi?"
+ },
+ {
+  "id": "mol44",
+  "kind": "text",
+  "tr": "Hayır. Amerikan Oftalmoloji Akademisi, uzun ekran kullanımının gözlere kalıcı zarar verdiği düşüncesinin yanlış olduğunu belirtiyor. Ancak ekran başında uzun süre kalmak bulanık görme, ağrı ve kuruluk gibi geçici rahatsızlıklara yol açabilir."
+ },
+ {
+  "id": "mol45",
+  "kind": "text",
+  "tr": "Neden 30 dakikada bir 5 dakika?"
+ },
+ {
+  "id": "mol46",
+  "kind": "text",
+  "tr": "Orta yaş ve üzeri 11 kişinin katıldığı bir araştırmada 8 saatlik oturma farklı mola düzenleriyle bölündü. Kan şekerindeki yükselmeyi yalnızca her 30 dakikada 5 dakikalık hafif yürüyüş anlamlı olarak azalttı; bu düzen büyük tansiyonu da yaklaşık 4 mmHg düşürdü. Saatte bir 1 dakikalık yürüyüş dahil, denenen tüm mola türleri büyük tansiyonu düşürdü. Küçük bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı."
+ },
+ {
+  "id": "mol47",
+  "kind": "text",
+  "tr": "Sekmeyi arka plana alırsam çalışır mı?"
+ },
+ {
+  "id": "mol48",
+  "kind": "text",
+  "tr": "Sayfa açık kaldığı sürece çalışır. Bazı tarayıcılar arka plandaki sekmelerde zamanlayıcıları yavaşlatabilir; bu durumda uyarı birkaç saniye ile bir dakika arasında gecikebilir. Bildirimlere izin verirseniz uyarıyı başka bir pencerede çalışırken de görürsünüz."
+ },
+ {
+  "id": "mol49",
+  "kind": "text",
+  "tr": "Molada ne yapabilirim?"
+ },
+ {
+  "id": "mol50",
+  "kind": "text",
+  "tr": "Hafif tempolu yürüyüş, merdiven inip çıkmak, ayakta telefon görüşmesi yapmak ya da birkaç germe hareketi. Dünya Sağlık Örgütü, oturarak geçen zamanın yerine hangi yoğunlukta olursa olsun hareket koymayı öneriyor."
+ },
+ {
+  "id": "mol51",
+  "kind": "text",
+  "tr": "Masa başı çalışmaya bağlı boyun, sırt ve bel ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "mol52",
+  "kind": "wa",
+  "tr": "Merhaba, masa başı çalışmaya bağlı ağrılar için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "mol53",
+  "kind": "text",
+  "tr": "American Academy of Ophthalmology. <a href=\"https://www.aao.org/eye-health/diseases/computer-usage\" target=\"_blank\" rel=\"noopener\">Computers, digital devices and eye strain</a>."
+ }
+]

@@ -2618,5 +2618,40 @@
   "id": "fb524",
   "kind": "text",
   "tr": "Nabız ölçer"
+ },
+ {
+  "id": "fb525",
+  "kind": "text",
+  "tr": "Bot ne kadar kullanılır, şişlik ne zaman geçer, ne zaman araba kullanılır? İyileşmeyi hızlandıran öneriler ve evde altı egzersiz."
+ },
+ {
+  "id": "fb526",
+  "kind": "text",
+  "tr": "Baldırınıza ani, keskin bir ağrı mı girdi? İlk 72 saatte ne yapmalı, ne zaman spora dönülür? Evde altı egzersiz."
+ },
+ {
+  "id": "fb527",
+  "kind": "text",
+  "tr": "Omzunuz ağrıyor, tutuk ve hareket ederken takılıyor mu? Kortizon iğnesi ve ameliyat ne zaman düşünülür? Evde dört egzersiz."
+ },
+ {
+  "id": "fb528",
+  "kind": "text",
+  "tr": "Sandalyeden kalkıp 3 metre yürüyüp geri oturmanız kaç saniye sürüyor? Süreölçerle ölçün, yaşınızdaki ortalamayla karşılaştırın."
+ },
+ {
+  "id": "fb529",
+  "kind": "text",
+  "tr": "Kalk ve yürü testi (TUG)"
+ },
+ {
+  "id": "fb530",
+  "kind": "text",
+  "tr": "Her 20 dakikada göz molası, her 30 dakikada 5 dakikalık hareket molası: ekran başında sesli hatırlatıcı."
+ },
+ {
+  "id": "fb531",
+  "kind": "text",
+  "tr": "Mola zamanlayıcısı"
  }
 ]

@@ -572,3 +572,20 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - nabiz-olcer.html → en/pulse-check.html (C_PULSE, "Kendinizi ölçün" 5. sıra). 30/60 sn geri sayım (WAKE_JS, bip, titreşim, sekme gizlenince iptal), atım sayısı → atım/dk, dinlenme/egzersiz, ritim (düzenli/düzensiz/emin değilim), 220−yaş ve %50–70 / %70–85 (AHA 12 Ağu 2024), 60–100 ve düşük/yüksek/düzensiz mesajları (BHF 18 Eki 2024), acil listesi NHS Heart palpitations (17 Mart 2026; 999 → 112). localStorage drihsaneren.nabiz.v1, WhatsApp.
 - bel-boy-orani.html → en/waist-to-height-ratio.html (C_WHTR, 6. sıra). NICE NG246 sınırları 0,4–0,49 / 0,5–0,59 / ≥0,6, ölçüm yöntemi, BKİ<35, 5 yaş+ çocuklar, etnik köken notu; CG189 "Other information". Gösterge çubuğu 0,35–0,75, hedef bel = boy/2, kaydet → localStorage drihsaneren.belboy.v1 (+ .h boy hatırlanır), WhatsApp.
 - reg_self EXEC'i kapi_part'tan sonra ekledi; sıra elle self4, self5, self6, self7 yapıldı. fb522–524.
+
+## Bilim gündemi, 3 haber (16 Ekim 2026, ikinci tur)
+- IL_DEMPA (beyin, Ağustos 2026): Feter ve ark., The Lancet Public Health 2026, "Domain-specific physical activity levels and risk of dementia" (74 çalışma, 4,2 milyon kişi; boş zaman −%24, iş +%20, ev işi −%15, işe aktif ulaşım +%10). PsyPost 8 Eylül 2026'dan okundu. DOI (10.1016/S2468-2667(26)00142-8) The Conversation'daki PII'den türetildi, açılıp doğrulanmadı.
+- IL_REACT (kalp, Ağustos 2026): Bundgaard ve ark., NEJM 2026 (DOI 10.1056/NEJMoa2609059), ESC 2026 Hot Line 29 Ağustos; 16.808 kişi, %57,1 plak, 18–29 yaşta 1/13. News-Medical ve ScienceDaily'den okundu.
+- IL_CAVD (hareket, Mayıs 2026): The BMJ 2026, DOI 10.1136/bmj-2025-088050 (69 RKÇ, 153.902 kişi); BMJ basın bülteni 20 Mayıs 2026'dan okundu.
+- Çeviri: i18n/todo/yen7.json + done/yen7.json (y7-0…15).
+- Ekim'deki ScienceDaily haberlerinin çoğu eski çalışmaların yeniden yayımıydı (ör. yürüyüş değiştirme Lancet Rheum 2025 — Ekim 2025'te zaten eklenmişti); eklenmedi.
+
+## Bilgi köşesi, 3 rehber (16 Ekim 2026, ikinci tur): cond49–51
+- cond49 omuz-kireclenmesi.html → en/shoulder-osteoarthritis.html (SO, omuz, C_SHOULDER'dan sonra). Northern Devon leaflet 527, RUH PHY/024 (2020), NHS Lothian (Mayıs 2024), ELHT PHYSIO-001. Egzersiz: so_pend(cf_pendf), so_stick(cf_stickf), so_table(towel), so_back (EX "Havlu ile germe" çizimi → SV["so_backf"]).
+- cond50 baldir-kasi-zorlanmasi.html → en/calf-strain.html (CZ, ayak, C_SS'ten sonra). HEY231/2025, Plymouth (Şubat 2025), Royal Free RFL1181 (Haziran 2026), NHS DVT (30 Nisan 2026). Egzersiz: cz_pump, cz_towel, cz_calf, cz_sol, cz_heel, cz_sls.
+- cond51 ayak-bilegi-kirigi.html → en/ankle-fracture.html (AK, ayak, C_ANKLE'dan sonra). WWL Musc 080 v3 (Temmuz 2026), NHS Lothian v2.1 (Haziran 2025), RUH (2017), ULHT (Haziran 2025), Kortekangas BMJ 2019;364:k5432 (yalnızca özet bloğundan; n okunmadı), NHS DVT. Egzersiz: ak_pump, ak_towel, ak_calf, ak_heel, ak_sts, ak_sls.
+
+## Kendine iyi bak, 8. tur (16 Ekim 2026): self8_part.py
+- kalk-yuru-testi.html → en/timed-up-and-go.html (C_TUG, "Kendinizi ölçün" yürüme hızından sonra). CDC STEADI TUG (2017; ≥12 sn risk, gözlem listesi), Bohannon 2006 (8,1/9,2/11,3 sn ve GA üst sınırları). Gözlem kutuları sonucu "Değerlendirme önerilir"e çevirir. localStorage drihsaneren.tug.v1.
+- mola-zamanlayicisi.html → en/desk-break-timer.html (C_MOLA, "Zamanlayıcıyla birlikte yapın" sonu). 20 dk göz (20 sn) + 30/60 dk hareket (5 dk) molası, Date.now tabanlı, ses/titreşim/sekme başlığı/isteğe bağlı Notification, günlük sayaç drihsaneren.mola.v1. Test kancası window.__mz (set/st/end). Kaynak: AAO computer usage, Duran 2023, WHO 2020.
+- reg_self sırası elle self4…self8. fb525–531. bel-boy-orani EN "movement snacks" → "activity snacks" düzeltildi.
