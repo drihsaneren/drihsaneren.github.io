@@ -785,6 +785,41 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/nabiz-olcer.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/ayak-bilegi-kirigi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ayak-bilegi-kirigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/ankle-fracture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ayak-bilegi-kirigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/baldir-kasi-zorlanmasi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/baldir-kasi-zorlanmasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/calf-strain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/baldir-kasi-zorlanmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/omuz-kireclenmesi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/omuz-kireclenmesi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/shoulder-osteoarthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omuz-kireclenmesi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/mola-zamanlayicisi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/mola-zamanlayicisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/desk-break-timer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/mola-zamanlayicisi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/kalk-yuru-testi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kalk-yuru-testi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/timed-up-and-go.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalk-yuru-testi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1567,5 +1602,40 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/nabiz-olcer.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/pulse-check.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/nabiz-olcer.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/ankle-fracture.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/ayak-bilegi-kirigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/ankle-fracture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/ayak-bilegi-kirigi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/calf-strain.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/baldir-kasi-zorlanmasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/calf-strain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/baldir-kasi-zorlanmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/shoulder-osteoarthritis.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/omuz-kireclenmesi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/shoulder-osteoarthritis.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/omuz-kireclenmesi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/desk-break-timer.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/mola-zamanlayicisi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/desk-break-timer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/mola-zamanlayicisi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/timed-up-and-go.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kalk-yuru-testi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/timed-up-and-go.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kalk-yuru-testi.html"/>
   </url>
 </urlset>
