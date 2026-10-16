@@ -2603,5 +2603,20 @@
   "id": "fb521",
   "kind": "text",
   "tr": "Kübital tünel"
+ },
+ {
+  "id": "fb522",
+  "kind": "text",
+  "tr": "Bel çevreniz boyunuzun yarısından az mı? Oranınızı hesaplayın, NICE sınırlarıyla karşılaştırın, belinizi doğru ölçün."
+ },
+ {
+  "id": "fb523",
+  "kind": "text",
+  "tr": "Nabzınızı elle sayın, ritmin düzenini kontrol edin; yaşınıza göre egzersizde hedef nabız aralığınızı öğrenin."
+ },
+ {
+  "id": "fb524",
+  "kind": "text",
+  "tr": "Nabız ölçer"
  }
 ]

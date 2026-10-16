@@ -566,3 +566,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - cond48 asil-tendonu-kopmasi.html → en/achilles-tendon-rupture.html (AR, ayak, C_ACHILLES'ten sonra). Royal Berkshire (Ekim 2025), Sherwood Forest PIL202606-03-ATR (Haziran 2026; bot dönemi egzersizleri 10×3 sn), NHS Fife (Şubat 2024; spora dönüş süreleri), Myhrvold NEJM 2022 (554 kişi; yeniden kopma %6,2/%0,6; sinir hasarı %0,6/%2,8/%5,2). Egzersiz: ar_quad, ar_slr, ar_kext, ar_hext, ar_sabd.
 - "Norveç'te" bilgisi (Myhrvold) bellekten; NEJM sayfası okunmadı.
 - fb516–521 (kart açıklamaları, haplar).
+
+## Kendine iyi bak, 7. tur (16 Ekim 2026): self7_part.py
+- Adım hedefi ve oturma–hareket dengesi düşünülmüştü; hareket.html (Ding 2025 adım), masa-basi.html (Ekelund 2016) ve hareket-atistirmaliklari (Duran 2023) zaten kapsıyor. Yerine nabız ölçer ve bel–boy oranı yapıldı.
+- nabiz-olcer.html → en/pulse-check.html (C_PULSE, "Kendinizi ölçün" 5. sıra). 30/60 sn geri sayım (WAKE_JS, bip, titreşim, sekme gizlenince iptal), atım sayısı → atım/dk, dinlenme/egzersiz, ritim (düzenli/düzensiz/emin değilim), 220−yaş ve %50–70 / %70–85 (AHA 12 Ağu 2024), 60–100 ve düşük/yüksek/düzensiz mesajları (BHF 18 Eki 2024), acil listesi NHS Heart palpitations (17 Mart 2026; 999 → 112). localStorage drihsaneren.nabiz.v1, WhatsApp.
+- bel-boy-orani.html → en/waist-to-height-ratio.html (C_WHTR, 6. sıra). NICE NG246 sınırları 0,4–0,49 / 0,5–0,59 / ≥0,6, ölçüm yöntemi, BKİ<35, 5 yaş+ çocuklar, etnik köken notu; CG189 "Other information". Gösterge çubuğu 0,35–0,75, hedef bel = boy/2, kaydet → localStorage drihsaneren.belboy.v1 (+ .h boy hatırlanır), WhatsApp.
+- reg_self EXEC'i kapi_part'tan sonra ekledi; sıra elle self4, self5, self6, self7 yapıldı. fb522–524.

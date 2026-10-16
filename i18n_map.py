@@ -92,6 +92,8 @@ EN = {
     "demans-egzersiz.html": "dementia-and-exercise.html",
     "dizin-12-sirri.html": "knee-12-secrets.html",
     "uc-kapi.html": "three-doors.html",
+    "bel-boy-orani.html": "waist-to-height-ratio.html",
+    "nabiz-olcer.html": "pulse-check.html",
     "agri-gunlugu.html": "pain-diary.html",
     "yurume-hizi-testi.html": "gait-speed-test.html",
     "sandalye-testi.html": "chair-stand-test.html",
