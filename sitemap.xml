@@ -750,6 +750,27 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/asil-tendonu-kopmasi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/asil-tendonu-kopmasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/achilles-tendon-rupture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/asil-tendonu-kopmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/kubital-tunel-sendromu.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kubital-tunel-sendromu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/cubital-tunnel-syndrome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kubital-tunel-sendromu.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/diz-kapagi-cikigi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/diz-kapagi-cikigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/dislocated-kneecap.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/diz-kapagi-cikigi.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-10-16</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -1497,5 +1518,26 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/gait-speed-test.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/yurume-hizi-testi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/achilles-tendon-rupture.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/asil-tendonu-kopmasi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/achilles-tendon-rupture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/asil-tendonu-kopmasi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/cubital-tunnel-syndrome.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kubital-tunel-sendromu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/cubital-tunnel-syndrome.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kubital-tunel-sendromu.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/dislocated-kneecap.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/diz-kapagi-cikigi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/dislocated-kneecap.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/diz-kapagi-cikigi.html"/>
   </url>
 </urlset>
