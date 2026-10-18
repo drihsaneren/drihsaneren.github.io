@@ -1,0 +1,412 @@
+[
+ {
+  "id": "dus0",
+  "kind": "text",
+  "tr": "Düşme Riski Testi: 12 Soruluk Öz Değerlendirme (CDC) | İhsan Eren"
+ },
+ {
+  "id": "dus1",
+  "kind": "attr",
+  "tr": "On iki soruya evet ya da hayır deyin, düşme riskinizi bir dakikada öğrenin. CDC’nin yaşlılarda kullandığı öz değerlendirme listesi, puanlama ve düşmeleri önleme önerileri."
+ },
+ {
+  "id": "dus2",
+  "kind": "text",
+  "tr": "Düşme riskinizi değerlendirin"
+ },
+ {
+  "id": "dus3",
+  "kind": "text",
+  "tr": "On iki kısa soruya “evet” ya da “hayır” deyin, düşme riskinizi bir dakikada öğrenin. Bu soru listesini ABD Hastalık Kontrol ve Önleme Merkezleri (CDC) yaşlılarda düşmeleri önleme programında kullanıyor. 4 puan ve üzeri, düşme riskiniz olabileceğini gösterir. Sonucunuzu hekiminizle ya da fizyoterapistinizle paylaşabilirsiniz."
+ },
+ {
+  "id": "dus4",
+  "kind": "text",
+  "tr": "Son güncelleme: 18 Ekim 2026"
+ },
+ {
+  "id": "dus5",
+  "kind": "text",
+  "tr": "12 soru"
+ },
+ {
+  "id": "dus6",
+  "kind": "text",
+  "tr": "Her biri düşmelerle ilişkili bir etkeni yokluyor"
+ },
+ {
+  "id": "dus7",
+  "kind": "text",
+  "tr": "4 puan"
+ },
+ {
+  "id": "dus8",
+  "kind": "text",
+  "tr": "Bu puan ve üzeri, düşme riski olabileceğini gösterir"
+ },
+ {
+  "id": "dus9",
+  "kind": "text",
+  "tr": "2 puan"
+ },
+ {
+  "id": "dus10",
+  "kind": "text",
+  "tr": "Son bir yılda düşmüş olmak ve baston ya da yürüteç kullanmak"
+ },
+ {
+  "id": "dus11",
+  "kind": "text",
+  "tr": "Soruları yanıtlamak için gereken yaklaşık süre"
+ },
+ {
+  "id": "dus12",
+  "kind": "text",
+  "tr": "Soruları yanıtlayın"
+ },
+ {
+  "id": "dus13",
+  "kind": "text",
+  "tr": "Her cümle için size uyuyorsa “Evet”, uymuyorsa “Hayır”ı seçin."
+ },
+ {
+  "id": "dus14",
+  "kind": "text",
+  "tr": "Son bir yıl içinde düştüm.<small>2 puan</small>"
+ },
+ {
+  "id": "dus15",
+  "kind": "attr",
+  "tr": "Son bir yıl içinde düştüm."
+ },
+ {
+  "id": "dus16",
+  "kind": "text",
+  "tr": "Bir kez düşen kişilerin yeniden düşme olasılığı yüksektir."
+ },
+ {
+  "id": "dus17",
+  "kind": "text",
+  "tr": "Güvenle dolaşabilmek için baston ya da yürüteç kullanıyorum ya da kullanmam önerildi.<small>2 puan</small>"
+ },
+ {
+  "id": "dus18",
+  "kind": "attr",
+  "tr": "Güvenle dolaşabilmek için baston ya da yürüteç kullanıyorum ya da kullanmam önerildi."
+ },
+ {
+  "id": "dus19",
+  "kind": "text",
+  "tr": "Baston ya da yürüteç kullanması önerilen kişilerin düşme olasılığı zaten daha yüksek olabilir."
+ },
+ {
+  "id": "dus20",
+  "kind": "text",
+  "tr": "Yürürken bazen dengemi kaybedecek gibi oluyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus21",
+  "kind": "attr",
+  "tr": "Yürürken bazen dengemi kaybedecek gibi oluyorum."
+ },
+ {
+  "id": "dus22",
+  "kind": "text",
+  "tr": "Yürürken sendeleme ya da desteğe ihtiyaç duyma, zayıf dengenin işaretidir."
+ },
+ {
+  "id": "dus23",
+  "kind": "text",
+  "tr": "Evde yürürken eşyalara tutunarak dengemi sağlıyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus24",
+  "kind": "attr",
+  "tr": "Evde yürürken eşyalara tutunarak dengemi sağlıyorum."
+ },
+ {
+  "id": "dus25",
+  "kind": "text",
+  "tr": "Bu da zayıf dengenin bir işaretidir."
+ },
+ {
+  "id": "dus26",
+  "kind": "text",
+  "tr": "Düşmekten endişe ediyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus27",
+  "kind": "attr",
+  "tr": "Düşmekten endişe ediyorum."
+ },
+ {
+  "id": "dus28",
+  "kind": "text",
+  "tr": "Düşmekten endişe eden kişilerin düşme olasılığı daha yüksektir."
+ },
+ {
+  "id": "dus29",
+  "kind": "text",
+  "tr": "Sandalyeden kalkmak için ellerimle itmem gerekiyor.<small>1 puan</small>"
+ },
+ {
+  "id": "dus30",
+  "kind": "attr",
+  "tr": "Sandalyeden kalkmak için ellerimle itmem gerekiyor."
+ },
+ {
+  "id": "dus31",
+  "kind": "text",
+  "tr": "Bacak kaslarının zayıfladığını gösterir; bu, düşmelerin başlıca nedenlerinden biridir."
+ },
+ {
+  "id": "dus32",
+  "kind": "text",
+  "tr": "Kaldırıma çıkmakta biraz zorlanıyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus33",
+  "kind": "attr",
+  "tr": "Kaldırıma çıkmakta biraz zorlanıyorum."
+ },
+ {
+  "id": "dus34",
+  "kind": "text",
+  "tr": "Bu da bacak kaslarının zayıflığının bir işaretidir."
+ },
+ {
+  "id": "dus35",
+  "kind": "text",
+  "tr": "Sık sık tuvalete yetişmek için acele etmem gerekiyor.<small>1 puan</small>"
+ },
+ {
+  "id": "dus36",
+  "kind": "attr",
+  "tr": "Sık sık tuvalete yetişmek için acele etmem gerekiyor."
+ },
+ {
+  "id": "dus37",
+  "kind": "text",
+  "tr": "Özellikle gece tuvalete acele etmek düşme olasılığını artırır."
+ },
+ {
+  "id": "dus38",
+  "kind": "text",
+  "tr": "Ayaklarımda his kaybı var.<small>1 puan</small>"
+ },
+ {
+  "id": "dus39",
+  "kind": "attr",
+  "tr": "Ayaklarımda his kaybı var."
+ },
+ {
+  "id": "dus40",
+  "kind": "text",
+  "tr": "Ayaklardaki uyuşukluk tökezlemeye ve düşmelere yol açabilir."
+ },
+ {
+  "id": "dus41",
+  "kind": "text",
+  "tr": "Bazen başımı döndüren ya da beni olağandan yorgun hissettiren bir ilaç kullanıyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus42",
+  "kind": "attr",
+  "tr": "Bazen başımı döndüren ya da beni olağandan yorgun hissettiren bir ilaç kullanıyorum."
+ },
+ {
+  "id": "dus43",
+  "kind": "text",
+  "tr": "İlaçların yan etkileri bazen düşme olasılığını artırabilir."
+ },
+ {
+  "id": "dus44",
+  "kind": "text",
+  "tr": "Uykuma ya da ruh hâlime yardımcı olan bir ilaç kullanıyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus45",
+  "kind": "attr",
+  "tr": "Uykuma ya da ruh hâlime yardımcı olan bir ilaç kullanıyorum."
+ },
+ {
+  "id": "dus46",
+  "kind": "text",
+  "tr": "Bu ilaçlar bazen düşme olasılığını artırabilir."
+ },
+ {
+  "id": "dus47",
+  "kind": "text",
+  "tr": "Sık sık kendimi üzgün ya da çökkün hissediyorum.<small>1 puan</small>"
+ },
+ {
+  "id": "dus48",
+  "kind": "attr",
+  "tr": "Sık sık kendimi üzgün ya da çökkün hissediyorum."
+ },
+ {
+  "id": "dus49",
+  "kind": "text",
+  "tr": "Halsizlik ya da yavaşlamış hissetme gibi depresyon belirtileri düşmelerle ilişkilidir."
+ },
+ {
+  "id": "dus50",
+  "kind": "text",
+  "tr": "Puanınız"
+ },
+ {
+  "id": "dus51",
+  "kind": "text",
+  "tr": "Yanıtlanmayan soru: {n}"
+ },
+ {
+  "id": "dus52",
+  "kind": "text",
+  "tr": "Tüm soruları yanıtladınız."
+ },
+ {
+  "id": "dus53",
+  "kind": "text",
+  "tr": "Düşme riskiniz olabilir"
+ },
+ {
+  "id": "dus54",
+  "kind": "text",
+  "tr": "4 puanın altındasınız"
+ },
+ {
+  "id": "dus55",
+  "kind": "text",
+  "tr": "4 puan ve üzeri, düşme riskiniz olabileceğini gösterir. Sonucunuzu hekiminizle konuşun. “Evet” dediğiniz maddelerin neden önemli olduğu:"
+ },
+ {
+  "id": "dus56",
+  "kind": "text",
+  "tr": "Bu, düşme riskinizin hiç olmadığı anlamına gelmez. Hareketli kalın, bacak gücünüzü ve dengenizi koruyun."
+ },
+ {
+  "id": "dus57",
+  "kind": "text",
+  "tr": "Hekiminizle konuşun"
+ },
+ {
+  "id": "dus58",
+  "kind": "text",
+  "tr": "4 puanın altında"
+ },
+ {
+  "id": "dus59",
+  "kind": "text",
+  "tr": "Merhaba, drihsaneren.com’daki düşme riski öz değerlendirmesinde {s} puan aldım. Değerlendirme hakkında bilgi almak istiyorum."
+ },
+ {
+  "id": "dus60",
+  "kind": "text",
+  "tr": "Yanıtlarınız hiçbir yere gönderilmez ve kaydedilmez."
+ },
+ {
+  "id": "dus61",
+  "kind": "text",
+  "tr": "Düşmeleri önlemek için"
+ },
+ {
+  "id": "dus62",
+  "kind": "text",
+  "tr": "Bacak gücü ve denge egzersizlerini düzenli yapın."
+ },
+ {
+  "id": "dus63",
+  "kind": "text",
+  "tr": "Kullandığınız ilaçları hekiminizle ya da eczacınızla gözden geçirin."
+ },
+ {
+  "id": "dus64",
+  "kind": "text",
+  "tr": "Gözlerinizi düzenli muayene ettirin, ayaklarınıza ve ayakkabılarınıza dikkat edin."
+ },
+ {
+  "id": "dus65",
+  "kind": "text",
+  "tr": "Evinizdeki tehlikeleri azaltın: takılabileceğiniz halılar, kablolar, karanlık koridorlar."
+ },
+ {
+  "id": "dus66",
+  "kind": "text",
+  "tr": "Ayrıntılar için <a href=\"dusme-onleme.html\">düşmeleri önleme</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "dus67",
+  "kind": "text",
+  "tr": "Bir de ölçerek bakın"
+ },
+ {
+  "id": "dus68",
+  "kind": "text",
+  "tr": "<a href=\"dort-asamali-denge-testi.html\">4 aşamalı denge testi</a>: duruş dengenizi dört adımda ölçün."
+ },
+ {
+  "id": "dus69",
+  "kind": "text",
+  "tr": "<a href=\"kalk-yuru-testi.html\">Kalk ve yürü testi</a>: kalkma, yürüme ve dönme sürenizi ölçün."
+ },
+ {
+  "id": "dus70",
+  "kind": "text",
+  "tr": "<a href=\"sandalye-testi.html\">30 saniye sandalye testi</a>: bacak gücünüzü ölçün."
+ },
+ {
+  "id": "dus71",
+  "kind": "text",
+  "tr": "Bu test ne kadar güvenilir?"
+ },
+ {
+  "id": "dus72",
+  "kind": "text",
+  "tr": "Bu soru listesi ABD’de bir gaziler hastanesinin yaşlı sağlığı merkezinde geliştirildi ve yaşlılarda düşme riskini öz değerlendirme için doğrulandı. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), bu listeyi düşmeleri önleme programında kullanıyor. Bir tanı aracı değildir; sonucunuzu hekiminizle konuşmanız için bir başlangıç noktasıdır."
+ },
+ {
+  "id": "dus73",
+  "kind": "text",
+  "tr": "Puanım 4’ün altında, içim rahat olabilir mi?"
+ },
+ {
+  "id": "dus74",
+  "kind": "text",
+  "tr": "Düşük puan düşme riskinizin hiç olmadığı anlamına gelmez. Bacak gücünüzü ve dengenizi korumak için hareketli kalmanız ve bu soruları yılda bir yeniden yanıtlamanız iyi olur."
+ },
+ {
+  "id": "dus75",
+  "kind": "text",
+  "tr": "Puanım yüksek çıktı, ne yapabilirim?"
+ },
+ {
+  "id": "dus76",
+  "kind": "text",
+  "tr": "Sonucunuzu hekiminizle konuşun; kullandığınız ilaçları, görmenizi ve ayaklarınızı gözden geçirmek isteyebilir. Güç ve denge egzersizleri düşmeleri önlemenin en etkili yollarından biridir. Bir fizyoterapist size özel bir program hazırlayabilir."
+ },
+ {
+  "id": "dus77",
+  "kind": "text",
+  "tr": "Düşme riskiniz, dengeniz ve bacak gücünüz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "dus78",
+  "kind": "wa",
+  "tr": "Merhaba, düşme riski ve denge değerlendirmesi için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "dus79",
+  "kind": "text",
+  "tr": "Centers for Disease Control and Prevention (STEADI). <a href=\"https://www.cdc.gov/steadi/pdf/steadi-brochure-stayindependent-508.pdf\" target=\"_blank\" rel=\"noopener\">Stay Independent: check your risk for falling</a>. 2023. Türkçe çeviri sitemize aittir."
+ },
+ {
+  "id": "dus80",
+  "kind": "text",
+  "tr": "4 aşamalı denge testi"
+ },
+ {
+  "id": "dus81",
+  "kind": "ld",
+  "tr": "Düşme riski öz değerlendirmesi"
+ }
+]

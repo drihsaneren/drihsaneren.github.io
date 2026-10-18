@@ -591,3 +591,9 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - reg_self sırası elle self4…self8. fb525–531. bel-boy-orani EN "movement snacks" → "activity snacks" düzeltildi.
 - Kendine iyi bak tanıtım videosu (16 Ekim 2026): scratchpad /tmp/claude-0/-home-claude/b0063e9c-5c48-589d-b9ce-8371b9238425/scratchpad/vid7 (film.py 7 sahne 44 sn 1080x1920, music.py özgün sentez, timing.json). Örnek ekranlar: sandalye 13, denge 10 sn, yürüme 1,12 m/sn, TUG 9,4 sn, nabız 72, bel–boy 0,47 ("Örnek ekranlar" yazılı). Çıktı: out/kendine-iyi-bak-video.mp4 (6,8 MB, ortalama -17,5 dB).
 - Karekod (fb_qr.py, 16 Ekim 2026): imleç üstündeyken eğme/büyütme (rotateX/Y, scale), imleci izleyen ışık (nq-gl) ve mouseenter'da dalgayı yeniden başlatma kaldırıldı; kullanıcı bulanık göründüğünü söyledi. Hover'da yalnızca çerçeve/ışıltı güçleniyor.
+
+## 18 Ekim 2026 turu (3 rehber, 2 araç, 3 haber)
+- Rehberler: cond52 köprücük kemiği kırığı (KL, en/broken-collarbone), cond53 büyüme ağrıları (GRP, en/growing-pains), cond54 bel fıtığı ameliyatı sonrası (BFA, en/after-lumbar-disc-surgery). İT bant sendromu kaynak zayıf olduğu için yapılmadı.
+- self9_part.py: dusme-riski-testi (C_FR, CDC STEADI Stay Independent 12 madde, ≥4 puan) ve dort-asamali-denge-testi (C_B4, CDC 4-Stage; süre ileri sayar, test hook window.__b4). SVG'lerde gizleme toggleAttribute ile (svg.hidden özelliği yok).
+- Haberler (yen8, y8-0…14): gençlerde inme (Neurology), yalnızlık (Nature Communications), İngiltere'de tansiyon (BMJ Public Health). fb532–536 kart açıklamaları.
+- Sonraki yen batch: yen9. Son fb: fb536.

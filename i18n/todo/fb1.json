@@ -2653,5 +2653,30 @@
   "id": "fb531",
   "kind": "text",
   "tr": "Mola zamanlayıcısı"
+ },
+ {
+  "id": "fb532",
+  "kind": "text",
+  "tr": "On iki soruya evet ya da hayır deyin, düşme riskinizi bir dakikada öğrenin. CDC’nin öz değerlendirme listesi."
+ },
+ {
+  "id": "fb533",
+  "kind": "text",
+  "tr": "Giderek zorlaşan dört duruşta 10’ar saniye kalabiliyor musunuz? CDC’nin düşme riski testini süreölçerle yapın."
+ },
+ {
+  "id": "fb534",
+  "kind": "text",
+  "tr": "Çocuğunuz gece bacak ağrısıyla mı uyanıyor? Neden olur, ne iyi gelir, ne zaman hekime gidilmeli? Evde dört germe."
+ },
+ {
+  "id": "fb535",
+  "kind": "text",
+  "tr": "Askı ne kadar takılır, iyileşme ne kadar sürer, spora ne zaman dönülür? İlk yardım, uyarı işaretleri ve evde altı egzersiz."
+ },
+ {
+  "id": "fb536",
+  "kind": "text",
+  "tr": "Mikrodiskektomiden sonra ne zaman yürünür, oturulur, işe ve spora dönülür? Uyarı işaretleri ve ilk haftalar için altı egzersiz."
  }
 ]

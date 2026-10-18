@@ -1,0 +1,317 @@
+[
+ {
+  "id": "dor0",
+  "kind": "text",
+  "tr": "4 Aşamalı Denge Testi: Süreölçer ve Düşme Riski Eşiği (CDC) | İhsan Eren"
+ },
+ {
+  "id": "dor1",
+  "kind": "attr",
+  "tr": "Giderek zorlaşan dört duruşta 10’ar saniye kalabiliyor musunuz? CDC’nin düşme riskini değerlendirmek için kullandığı 4 aşamalı denge testini süreölçerle yapın."
+ },
+ {
+  "id": "dor2",
+  "kind": "text",
+  "tr": "4 aşamalı denge testi"
+ },
+ {
+  "id": "dor3",
+  "kind": "text",
+  "tr": "Ayakta dururken dengeniz ne kadar sağlam? Bu testte giderek zorlaşan dört duruşta 10’ar saniye kalmaya çalışırsınız. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), yaşlılarda düşme riskini değerlendirirken bu testi kullanıyor: üçüncü aşamadaki tandem duruşu 10 saniye koruyamamak, düşme riskinin arttığını gösteriyor. Yanınızda biriyle, aşağıdaki süreölçerle deneyin."
+ },
+ {
+  "id": "dor4",
+  "kind": "text",
+  "tr": "Son güncelleme: 18 Ekim 2026"
+ },
+ {
+  "id": "dor5",
+  "kind": "text",
+  "tr": "4 duruş"
+ },
+ {
+  "id": "dor6",
+  "kind": "text",
+  "tr": "Her biri öncekinden daha zor"
+ },
+ {
+  "id": "dor7",
+  "kind": "text",
+  "tr": "Her duruşta kalınması gereken süre"
+ },
+ {
+  "id": "dor8",
+  "kind": "text",
+  "tr": "3. aşama"
+ },
+ {
+  "id": "dor9",
+  "kind": "text",
+  "tr": "Tandem duruşu 10 saniye koruyamamak, düşme riski işareti"
+ },
+ {
+  "id": "dor10",
+  "kind": "text",
+  "tr": "Baston ya da yürüteç kullanmadan"
+ },
+ {
+  "id": "dor11",
+  "kind": "text",
+  "tr": "Bir duvarın ya da tezgâhın yanında durun, yanınızdaki kişi gerektiğinde sizi tutabilecek mesafede olsun. Pozisyona yerleşip dengenizi bulunca süreyi başlatın."
+ },
+ {
+  "id": "dor12",
+  "kind": "text",
+  "tr": "1. aşama"
+ },
+ {
+  "id": "dor13",
+  "kind": "text",
+  "tr": "Ayaklar yan yana"
+ },
+ {
+  "id": "dor14",
+  "kind": "text",
+  "tr": "İki ayağınızı yan yana, birbirine değecek şekilde koyun."
+ },
+ {
+  "id": "dor15",
+  "kind": "text",
+  "tr": "<b>–</b>Ayaklar yan yana"
+ },
+ {
+  "id": "dor16",
+  "kind": "text",
+  "tr": "<b>–</b>Yarı tandem"
+ },
+ {
+  "id": "dor17",
+  "kind": "text",
+  "tr": "<b>–</b>Tandem duruş"
+ },
+ {
+  "id": "dor18",
+  "kind": "text",
+  "tr": "<b>–</b>Tek ayak"
+ },
+ {
+  "id": "dor19",
+  "kind": "text",
+  "tr": "Pozisyona yerleşin, dengenizi bulunca başlatın."
+ },
+ {
+  "id": "dor20",
+  "kind": "text",
+  "tr": "Yarı tandem"
+ },
+ {
+  "id": "dor21",
+  "kind": "text",
+  "tr": "Bir ayağınızın iç kenarını, öbür ayağınızın başparmağına değecek şekilde biraz öne alın."
+ },
+ {
+  "id": "dor22",
+  "kind": "text",
+  "tr": "Tandem duruş"
+ },
+ {
+  "id": "dor23",
+  "kind": "text",
+  "tr": "Bir ayağınızı tam öbürünün önüne koyun; öndeki ayağın topuğu arkadakinin parmaklarına değsin."
+ },
+ {
+  "id": "dor24",
+  "kind": "text",
+  "tr": "Tek ayak"
+ },
+ {
+  "id": "dor25",
+  "kind": "text",
+  "tr": "Bir ayağınızın üzerinde durun."
+ },
+ {
+  "id": "dor26",
+  "kind": "text",
+  "tr": "{n}. aşama"
+ },
+ {
+  "id": "dor27",
+  "kind": "text",
+  "tr": "Dengede kalın"
+ },
+ {
+  "id": "dor28",
+  "kind": "text",
+  "tr": "Ayaklarınız oynarsa ya da tutunursanız hemen “Ayak oynadı”ya basın."
+ },
+ {
+  "id": "dor29",
+  "kind": "text",
+  "tr": "Ayak oynadı"
+ },
+ {
+  "id": "dor30",
+  "kind": "text",
+  "tr": "Aşama tamam"
+ },
+ {
+  "id": "dor31",
+  "kind": "text",
+  "tr": "Bir sonraki duruşa geçin; hazır olunca başlatın."
+ },
+ {
+  "id": "dor32",
+  "kind": "text",
+  "tr": "Test bitti"
+ },
+ {
+  "id": "dor33",
+  "kind": "text",
+  "tr": "Sonucunuz aşağıda."
+ },
+ {
+  "id": "dor34",
+  "kind": "text",
+  "tr": "Dört aşamayı da tamamladınız"
+ },
+ {
+  "id": "dor35",
+  "kind": "text",
+  "tr": "Tandem duruşu 10 saniye korudunuz"
+ },
+ {
+  "id": "dor36",
+  "kind": "text",
+  "tr": "Tandem duruşu 10 saniye koruyamadınız"
+ },
+ {
+  "id": "dor37",
+  "kind": "text",
+  "tr": "Dengeniz bu testte iyi görünüyor. Dengenizi korumak için hareketli kalın."
+ },
+ {
+  "id": "dor38",
+  "kind": "text",
+  "tr": "Tandem duruşu 10 saniye korumanız, bu testin düşme riski eşiğini geçtiğiniz anlamına gelir. Tek ayak üzerinde denge çalışmasına devam edebilirsiniz."
+ },
+ {
+  "id": "dor39",
+  "kind": "text",
+  "tr": "CDC’ye göre tandem duruşu en az 10 saniye koruyamayan yaşlıların düşme riski artmıştır. Bu bir tanı değildir; denge ve yürüyüş egzersizleri için bir fizyoterapistle konuşabilirsiniz."
+ },
+ {
+  "id": "dor40",
+  "kind": "text",
+  "tr": "Düşme riski eşiğinin üzerinde"
+ },
+ {
+  "id": "dor41",
+  "kind": "text",
+  "tr": "Merhaba, drihsaneren.com’daki 4 aşamalı denge testini yaptım: {r}. Değerlendirme hakkında bilgi almak istiyorum."
+ },
+ {
+  "id": "dor42",
+  "kind": "text",
+  "tr": "sn"
+ },
+ {
+  "id": "dor43",
+  "kind": "text",
+  "tr": "Sonuçlarınız hiçbir yere gönderilmez."
+ },
+ {
+  "id": "dor44",
+  "kind": "text",
+  "tr": "<strong>Ayaklar yan yana:</strong> İki ayağınızı yan yana, birbirine değecek şekilde koyun."
+ },
+ {
+  "id": "dor45",
+  "kind": "text",
+  "tr": "<strong>Yarı tandem:</strong> Bir ayağınızın iç kenarını, öbür ayağınızın başparmağına değecek şekilde biraz öne alın."
+ },
+ {
+  "id": "dor46",
+  "kind": "text",
+  "tr": "<strong>Tandem duruş:</strong> Bir ayağınızı tam öbürünün önüne koyun; öndeki ayağın topuğu arkadakinin parmaklarına değsin."
+ },
+ {
+  "id": "dor47",
+  "kind": "text",
+  "tr": "<strong>Tek ayak:</strong> Bir ayağınızın üzerinde durun."
+ },
+ {
+  "id": "dor48",
+  "kind": "text",
+  "tr": "Her duruşta 10 saniye kalabildiyseniz bir sonrakine geçin; kalamadıysanız test orada biter."
+ },
+ {
+  "id": "dor49",
+  "kind": "text",
+  "tr": "Yanınızda biri dursun; ilk anda kolunuzdan tutup pozisyona yerleşmenize yardım edebilir."
+ },
+ {
+  "id": "dor50",
+  "kind": "text",
+  "tr": "Baston ya da yürüteç kullanmayın, gözleriniz açık olsun."
+ },
+ {
+  "id": "dor51",
+  "kind": "text",
+  "tr": "Kollarınızı açabilir, gövdenizi oynatabilirsiniz; ayaklarınızı oynatmayın."
+ },
+ {
+  "id": "dor52",
+  "kind": "text",
+  "tr": "Bir duvarın ya da tezgâhın yanında yapın; başınız dönerse hemen tutunun."
+ },
+ {
+  "id": "dor53",
+  "kind": "text",
+  "tr": "Ayrıntılı öneriler için <a href=\"dusme-onleme.html\">düşmeleri önleme</a> rehberine, düşme riskinizi soru listesiyle değerlendirmek için <a href=\"dusme-riski-testi.html\">düşme riski testine</a> bakabilirsiniz."
+ },
+ {
+  "id": "dor54",
+  "kind": "text",
+  "tr": "Neden tandem duruş bu kadar önemli?"
+ },
+ {
+  "id": "dor55",
+  "kind": "text",
+  "tr": "ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), tandem duruşu (bir ayak tam öbürünün önünde) en az 10 saniye koruyamayan yaşlıların düşme riskinin arttığını belirtiyor. Bu durumda denge ve yürüyüş egzersizleri için bir fizyoterapiste ya da tai chi gibi kanıtlanmış bir düşme önleme programına yönlendirme öneriliyor."
+ },
+ {
+  "id": "dor56",
+  "kind": "text",
+  "tr": "Ayaklarımı oynatırsam ne olur?"
+ },
+ {
+  "id": "dor57",
+  "kind": "text",
+  "tr": "Ayaklarınız yer değiştirirse ya da bir yere tutunmak zorunda kalırsanız o aşamada süre durur ve test biter. Kollarınızı açabilir, gövdenizi oynatabilirsiniz; yalnızca ayaklarınız yerinde kalmalı."
+ },
+ {
+  "id": "dor58",
+  "kind": "text",
+  "tr": "Tek ayak aşamasını geçemedim, sorun mu?"
+ },
+ {
+  "id": "dor59",
+  "kind": "text",
+  "tr": "Tek ayak üzerinde durmak dördünün en zorudur. Yaşınıza göre karşılaştırma için <a href=\"denge-testi.html\">10 saniye denge testi</a> sayfamıza bakabilirsiniz."
+ },
+ {
+  "id": "dor60",
+  "kind": "wa",
+  "tr": "Merhaba, 4 aşamalı denge testi ve denge değerlendirmesi için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "dor61",
+  "kind": "text",
+  "tr": "Centers for Disease Control and Prevention (STEADI). <a href=\"https://www.cdc.gov/steadi/media/pdfs/STEADI-Assessment-4Stage-508.pdf\" target=\"_blank\" rel=\"noopener\">Assessment: The 4-Stage Balance Test</a>. 2017."
+ },
+ {
+  "id": "dor62",
+  "kind": "text",
+  "tr": "Düşme riski testi"
+ }
+]
