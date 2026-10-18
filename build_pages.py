@@ -1906,6 +1906,16 @@ TH_IDEA = """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M136 44a24 2
 HOME_CSS = HOME_CSS + """
   .pill{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--line-strong);border-radius:999px;color:var(--ink-soft);text-decoration:none;font-size:14px}
   .pill:hover{color:var(--foil);border-color:var(--foil)}
+  /* öne çıkan (premium) içerikler: Dizin 12 Sırrı, Üç Kapı */
+  .kc.prem{position:relative;border-color:rgba(216,178,94,.4)}
+  .kc.prem:hover{border-color:rgba(216,178,94,.75)}
+  .kc.prem::before{content:"";position:absolute;top:10px;right:10px;z-index:1;width:30px;height:30px;border-radius:50%;
+    background:rgba(18,26,16,.78) url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%23f6dc8e%22/%3E%3Cstop offset=%22.55%22 stop-color=%22%23d8b25e%22/%3E%3Cstop offset=%221%22 stop-color=%22%23a87f2c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d=%22M12 2.4l2.95 6.02 6.63.94-4.8 4.66 1.14 6.6L12 17.5l-5.92 3.12 1.14-6.6-4.8-4.66 6.63-.94z%22 fill=%22url%28%23g%29%22/%3E%3C/svg%3E") center/16px no-repeat;border:1px solid rgba(216,178,94,.65);
+    box-shadow:0 4px 14px rgba(0,0,0,.35);animation:premGlow 3.6s ease-in-out infinite}
+  @keyframes premGlow{0%,100%{box-shadow:0 4px 14px rgba(0,0,0,.35),0 0 0 0 rgba(216,178,94,0)}50%{box-shadow:0 4px 14px rgba(0,0,0,.35),0 0 0 5px rgba(216,178,94,.14)}}
+  .pill.prem{border-color:rgba(216,178,94,.5)}
+  .pill.prem::after{content:"";flex:none;width:12px;height:12px;margin-left:6px;background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%23f6dc8e%22/%3E%3Cstop offset=%22.55%22 stop-color=%22%23d8b25e%22/%3E%3Cstop offset=%221%22 stop-color=%22%23a87f2c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d=%22M12 2.4l2.95 6.02 6.63.94-4.8 4.66 1.14 6.6L12 17.5l-5.92 3.12 1.14-6.6-4.8-4.66 6.63-.94z%22 fill=%22url%28%23g%29%22/%3E%3C/svg%3E") center/contain no-repeat}
+  @media (prefers-reduced-motion:reduce){.kc.prem::before{animation:none}}
   /* konu dizini: kategoriye göre gruplanmış haplar */
   .kose-idx{display:grid;gap:14px;margin-top:22px}
   .kg{display:grid;grid-template-columns:215px minmax(0,1fr);gap:8px 18px;align-items:start;padding-top:14px;border-top:1px solid var(--line)}
@@ -1973,9 +1983,13 @@ HOME_CSS = HOME_CSS + """
   .hero .trio-k,.hero .trio,.hero .hx{animation:rise calc(.85s*var(--k)) cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(1.35s*var(--k))}
 """ + HL_CSS
 
+PREM = {"dizin-12-sirri.html", "uc-kapi.html"}
+def _pc(h):
+    return "pill prem" if h in PREM else "pill"
+
 def KC(href, th, k, title, text, go="Oku →", ext_link=False):
     tgt = ' target="_blank" rel="noopener"' if ext_link else ""
-    return f'<a class="kc" href="{href}"{tgt}>{th}<span class="b"><span class="k">{k}</span><h3>{title}</h3><p>{text}</p><span class="go">{go}</span></span></a>'
+    return f'<a class="{"kc prem" if href in PREM else "kc"}" href="{href}"{tgt}>{th}<span class="b"><span class="k">{k}</span><h3>{title}</h3><p>{text}</p><span class="go">{go}</span></span></a>'
 
 TH_BACK = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="156" cy="24" r="13" fill="#8fa476"/><path d="M156 40 Q146 72 156 104" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round"/><path d="M152 50 L170 80 M156 104 L146 146 M156 104 L168 146" stroke="#8fa476" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M149 80 Q147 92 153 104" fill="none" stroke="#e2ab47" stroke-width="7" stroke-linecap="round"/><circle cx="151" cy="92" r="20" fill="none" stroke="#d8b25e" stroke-width="2.5" stroke-dasharray="4 5"/><path d="M122 84h-12M124 98l-11 5M180 84h12M178 98l11 5" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>"""
 TH_SCIATICA = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="150" cy="22" r="13" fill="#8fa476"/><path d="M150 38 Q140 66 150 94" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round"/><path d="M146 48 L164 76 M150 94 L140 144" stroke="#8fa476" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M150 94 L166 118 L162 144" stroke="#d8b25e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M146 84 L158 100 L168 112 L170 126 L168 138" fill="none" stroke="#e2ab47" stroke-width="2.5" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M178 140l10 2M176 130l10-4M170 148l8 2" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/><circle cx="147" cy="86" r="4" fill="#e2ab47"/></svg>"""
@@ -2330,7 +2344,7 @@ PILL = {
     "ruh-sagligi-egzersiz.html": "Ruh sağlığı için egzersiz",
 }
 def pill_group(label, anchor, cards):
-    pills = "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cards))
+    pills = "".join(f'<a class="{_pc(h)}" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cards))
     return (f'<div class="kg"><a class="lbl" href="bilgi.html#{anchor}"><span>{label}</span><small>{len(cards)}</small></a>'
             f'<div class="pl">{pills}</div></div>')
 HUB_JS = """<script>
@@ -2371,18 +2385,17 @@ HUB_JS = """<script>
   }
   window.addEventListener('scroll', function(){ if (!tick) { tick = true; requestAnimationFrame(spy); } }, {passive: true});
   spy();
-  // liste / kart görünümü (seçim bu tarayıcıda hatırlanır)
+  // liste / kart görünümü: sayfa her açıldığında liste görünümüyle başlar; kart görünümü yalnızca o ziyarette geçerli
   var vb = document.querySelectorAll('.view button');
   function setView(v, user){
     hub.setAttribute('data-view', v);
     [].forEach.call(vb, function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-v') === v ? 'true' : 'false'); });
     if (!user) return;
-    try { localStorage.setItem('bk-view', v); } catch (e) {}
     var el = cur && document.getElementById(cur);
     if (el && tabs.getBoundingClientRect().top <= (top ? top.offsetHeight : 0) + 2) el.scrollIntoView();
   }
-  var v0 = null; try { v0 = localStorage.getItem('bk-view'); } catch (e) {}
-  if (v0 === 'grid' || v0 === 'list') setView(v0, false);
+  try { localStorage.removeItem('bk-view'); } catch (e) {}
+  setView('list', false);
   [].forEach.call(vb, function(b){ b.addEventListener('click', function(){ setView(b.getAttribute('data-v'), true); }); });
 })();
 </script>
@@ -2474,6 +2487,7 @@ HUB_CSS = HOME_CSS + """
   .hub[data-view="list"] .kc p{font-size:13.5px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .hub[data-view="list"] .kc::after{content:"";width:7px;height:7px;border-top:2px solid var(--foil);border-right:2px solid var(--foil);transform:rotate(45deg);opacity:.75}
   .hub[data-view="list"] .kc:hover h3{color:var(--foil)}
+  .hub[data-view="list"] .kc.prem::before{top:5px;right:auto;left:50px;width:20px;height:20px;background-size:11px}
   .hub[data-view="list"] .kose > .grp{display:flex;align-items:baseline;gap:8px;grid-column:1/-1;margin-top:24px;padding-bottom:7px;border-bottom:1px solid var(--line-strong);
     font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--foil)}
   .hub[data-view="list"] .kose > .grp:first-child{margin-top:2px}
@@ -2558,7 +2572,7 @@ def hx_groups():
             out.append((names[r0], cs))
     out.append(("Evde rehabilitasyon", REHAB))
     return "\n".join('        <div class="hx-g"><span>' + n + '</span><div>' +
-                     "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cs)) + '</div></div>'
+                     "".join(f'<a class="{_pc(h)}" href="{h}">{PILL[h]}</a>' for h, _ in map(_kc_info, cs)) + '</div></div>'
                      for n, cs in out)
 SELF_GROUPS = [
     ("Kendinizi ölçün", ["otur-kalk-testi.html", "denge-testi.html", "dort-asamali-denge-testi.html", "sandalye-testi.html", "yurume-hizi-testi.html", "kalk-yuru-testi.html", "dusme-riski-testi.html", "nabiz-olcer.html", "bel-boy-orani.html", "hareket.html"]),
@@ -2575,7 +2589,7 @@ def hx_self():
     groups = [(n, list(hs)) for n, hs in SELF_GROUPS]
     groups[-1][1].extend(h for h in hrefs if h not in used)
     return "\n".join('        <div class="hx-g"><span>' + n + '</span><div>' +
-                     "".join(f'<a class="pill" href="{h}">{PILL[h]}</a>' for h in hs) + '</div></div>'
+                     "".join(f'<a class="{_pc(h)}" href="{h}">{PILL[h]}</a>' for h in hs) + '</div></div>'
                      for n, hs in groups)
 HOME_TRIO = f"""    <p class="trio-k">Bilgi köşesi</p>
     <ul class="trio">

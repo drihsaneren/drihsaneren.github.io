@@ -597,3 +597,5 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - self9_part.py: dusme-riski-testi (C_FR, CDC STEADI Stay Independent 12 madde, ≥4 puan) ve dort-asamali-denge-testi (C_B4, CDC 4-Stage; süre ileri sayar, test hook window.__b4). SVG'lerde gizleme toggleAttribute ile (svg.hidden özelliği yok).
 - Haberler (yen8, y8-0…14): gençlerde inme (Neurology), yalnızlık (Nature Communications), İngiltere'de tansiyon (BMJ Public Health). fb532–536 kart açıklamaları.
 - Sonraki yen batch: yen9. Son fb: fb536.
+- Öne çıkan yıldız: PREM = {"dizin-12-sirri.html", "uc-kapi.html"} (build_pages.py). KC kartında "kc prem" (sağ üst köşede altın yıldız rozeti, ::before; liste görünümünde küçük resmin köşesinde), hap linklerinde "pill prem" (yazının yanında küçük yıldız, ::after). Yıldız CSS'te data-URI SVG, çeviriye etkisi yok.
+- Bilgi köşesi her açılışta liste görünümüyle başlar; kart görünümü yalnızca o ziyarette geçerli (eski bk-view kaydı siliniyor).
