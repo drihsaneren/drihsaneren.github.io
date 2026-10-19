@@ -229,7 +229,7 @@ SRT_ROWS = "\n".join(
 
 SRT_FAQ = [
  ("Puanım düşük çıktı, endişelenmeli miyim?", "Düşük puan tek başına bir teşhis değildir; kas gücü, esneklik, denge ve vücut ağırlığı gibi pek çok özelliği birlikte yansıtır. Araştırmalardaki ilişki gözleme dayanır. Puanınızı, bu özellikler üzerinde çalışmak için bir başlangıç noktası olarak görün. Kalp-damar hastalığı için risk etkenleriniz varsa ya da yakın zamanda zorlanmaya başladıysanız hekiminizle de konuşun."),
- ("Puanımı yükseltebilir miyim?", "Evet. Bacak kuvveti, kalça esnekliği ve denge düzenli egzersizle her yaşta gelişir; aşağıdaki altı egzersiz iyi bir başlangıçtır. Puanı yükseltmenin ömrü uzatıp uzatmadığı ise henüz ayrıca araştırılmadı; ama yerden kalkabilmek günlük hayatta, özellikle düştükten sonra kalkarken çok değerlidir."),
+ ("Puanımı yükseltebilir miyim?", "Evet. Bacak kuvveti, kalça esnekliği ve denge düzenli egzersizle her yaşta gelişir; aşağıdaki altı egzersiz iyi bir başlangıçtır. Puanı yükseltmenin ömrü uzatıp uzatmadığı ise henüz ayrıca araştırılmadı; ama yerden kalkabilmek günlük hayatta, özellikle düştükten sonra kalkarken çok değerlidir. Dünya Sağlık Örgütü yetişkinlere haftada en az 2 gün kas güçlendirme, 65 yaş üstüne ise haftada en az 3 gün denge ve kuvvet içeren çok bileşenli etkinlik öneriyor."),
  ("Kimler bu testi yapmamalı?", "Kalça ya da diz protezi ameliyatınız yeni olduysa, kalçada ya da dizde şiddetli ağrınız varsa, baş dönmesi ya da sık düşme öykünüz varsa testi tek başınıza yapmayın; önce fizyoterapistinize ya da hekiminize danışın. Kalça protezi olanlar cerrahları izin vermeden bacak çaprazlamamalıdır."),
  ("Test neden bu kadar çok şey anlatıyor?", "Yere desteksiz oturup kalkmak için vücut ağırlığınıza göre yeterli kas gücü, kalça ve dizlerde esneklik, iyi bir denge ve koordinasyon gerekir. Bunların hepsi yaşla birlikte azalabilir ve bağımsız yaşamla, düşme riskiyle yakından ilişkilidir."),
 ]
@@ -350,6 +350,8 @@ SRT_BODY = f'''<header class="page">
       {src_list([
         "Araújo CGS, et al. " + ext("https://academic.oup.com/eurjpc/article/33/12/2170/8163161", "Sitting–rising test scores predict natural and cardiovascular causes of deaths in middle-aged and older men and women") + ". Eur J Prev Cardiol. 2026;33(12):2170-2178.",
         "Brito LBB, Ricardo DR, Araújo DSMS, Ramos PS, Myers J, Araújo CGS. " + ext("https://academic.oup.com/eurjpc/article-abstract/21/7/892/5925784", "Ability to sit and rise from the floor as a predictor of all-cause mortality") + ". Eur J Prev Cardiol. 2014;21(7):892-898.",
+        "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
+        "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
       ])}
     </div>
   </section>
@@ -661,6 +663,7 @@ page("duvar-oturusu.html", "Tansiyon İçin Duvar Oturuşu",
 SIGH_FAQ = [
  ("Günün hangi saatinde yapmalıyım?", "Çalışmada katılımcılar günün istedikleri bir saatinde yaptı. Kendinize bir alışkanlık zamanı seçin: sabah kahvesinden önce, öğle arasında ya da yatmadan önce. Gergin bir anda birkaç tur da yapabilirsiniz."),
  ("Meditasyondan daha mı iyi?", "Bu çalışmada olumlu duygulardaki artış ve solunum hızındaki düşüş döngüsel iç çekişte daha belirgindi; kaygı ise tüm gruplarda benzer şekilde azaldı. Bu tek bir çalışmadır ve meditasyon da yararlı bir yöntem olmayı sürdürüyor. Size iyi geleni seçin."),
+ ("Nefes egzersizlerinin yararı kanıtlandı mı?", "785 yetişkini kapsayan randomize çalışmaların 2023 tarihli bir meta-analizinde nefes çalışmaları, stres, kaygı ve depresif belirtilerde küçük ile orta düzeyde azalma sağladı. Çalışmaların yanlılık riski orta düzeydeydi; daha iyi tasarlanmış araştırmalara ihtiyaç var."),
  ("Başım dönerse ne yapmalıyım?", "Hemen normal nefesinize dönün. Nefesi zorlamayın; ikinci nefes kısa ve hafif olabilir. Astım ya da KOAH gibi bir akciğer hastalığınız varsa rahat olduğunuz bir tempoda yapın."),
  ("Stres sayfasındaki nefes egzersizlerinden farkı ne?", "Stresli anlarda sayfasında 4-6, kutu ve 4-7-8 nefesleri var. Döngüsel iç çekişte fark, üst üste iki kez nefes alıp uzun bir nefes vermektir. Hepsi nefes verişi uzatmaya dayanır; hangisini daha rahat yapıyorsanız onu seçin."),
 ]
@@ -805,6 +808,7 @@ SIGH_BODY = f'''<header class="page">
       {src_list([
         "Balban MY, Neri E, Kogon MM, et al. " + ext("https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(22)00474-8", "Brief structured respiration practices enhance mood and reduce physiological arousal") + ". Cell Rep Med. 2023;4(1):100895.",
         "Li P, Janczewski WA, Yackle K, et al. " + ext("https://www.nature.com/articles/nature16964", "The peptidergic control circuit for sighing") + ". Nature. 2016;530(7590):293-297.",
+        "Fincham GW, Strauss C, Montero-Marin J, Cavanagh K. " + ext("https://www.nature.com/articles/s41598-022-27247-y", "Effect of breathwork on stress and mental health: a meta-analysis of randomised-controlled trials") + ". Sci Rep. 2023;13:432.",
       ])}
     </div>
   </section>

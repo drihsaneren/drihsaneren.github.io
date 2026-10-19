@@ -228,6 +228,7 @@ TM_FAQ = [
 TM_SRC = [
  "Valesan LF, Da-Cas CD, Réus JC, et al. " + ext("https://link.springer.com/article/10.1007/s00784-020-03710-w", "Prevalence of temporomandibular joint disorders: a systematic review and meta-analysis") + ". Clin Oral Investig. 2021;25(2):441-453.",
  "Armijo-Olivo S, Pitance L, Singh V, et al. " + ext("https://academic.oup.com/ptj/article-abstract/96/1/9/2686339", "Effectiveness of manual therapy and therapeutic exercise for temporomandibular disorders: systematic review and meta-analysis") + ". Phys Ther. 2016;96(1):9-25.",
+ "NHS. " + ext("https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/", "Temporomandibular disorder (TMD)") + ". Page last reviewed 20 June 2023.",
 ]
 
 TM_BODY = f'''<header class="page">

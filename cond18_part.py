@@ -36,12 +36,14 @@ GE_FAQ = [
  ("Golfçü dirseği ile tenisçi dirseği arasındaki fark nedir?", "İkisi de dirseğe yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır; fark yerindedir. Golfçü dirseğinde ağrı dirseğin iç yanındadır ve bileği ile parmakları büken kaslar etkilenir. Tenisçi dirseğinde ağrı dış yandadır ve bileği kaldıran kaslar etkilenir."),
  ("Golf oynamıyorum; neden bende oldu?", "Golfçü dirseği aslında spor yapmayanlarda daha sık görülür. Bahçe işleri, boya, el aletleri kullanmak, uzun süre klavye kullanmak gibi bileği ve parmakları tekrar tekrar ve kuvvetle büken her iş neden olabilir. Bazen dirseğe alınan tek bir darbeden sonra da başlar."),
  ("Dirsek bandı işe yarar mı?", "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. Eczanelerden alınabilir. Tek başına bir tedavi değildir; yükü azaltma ve egzersizle birlikte kullanılır."),
+ ("Egzersizin yararı kanıtlandı mı?", "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "İğne ilk seçenek değildir. Az sayıda kişide kısa vadede ağrıyı azaltabilir ve diğer yöntemler işe yaramadığında düşünülür. Ameliyat ise nadiren gerekir. Tedavinin temeli yükü azaltmak, germe ve kademeli güçlendirmedir."),
 ]
 
 GE_SRC = [
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/golfers-elbow/", "Golfer's elbow (medial epicondylosis/itis)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-golfers-elbow-4078", "Golfer's elbow") + ". Patient information leaflet B-275. September 2019.",
+ "See ZH, Loo CE, Jaafar Z. " + ext("https://doi.org/10.1016/j.ctim.2026.103364", "Eccentric exercise therapy for medial epicondylitis: a systematic review of clinical outcomes") + ". Complement Ther Med. 2026;98:103364.",
 ]
 
 GE_BODY = f'''<header class="page">

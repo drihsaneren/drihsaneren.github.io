@@ -47,6 +47,7 @@ FR_LIST = "\n".join(
 
 FR_FAQ = [
  ("Bu test ne kadar güvenilir?", "Bu soru listesi ABD’de bir gaziler hastanesinin yaşlı sağlığı merkezinde geliştirildi ve yaşlılarda düşme riskini öz değerlendirme için doğrulandı. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), bu listeyi düşmeleri önleme programında kullanıyor. Bir tanı aracı değildir; sonucunuzu hekiminizle konuşmanız için bir başlangıç noktasıdır."),
+ ("Bu liste düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir soru listesi ya da puanlama aracı kullanılmamasını öneriyor; 2022 tarihli Dünya Düşme Kılavuzu da değerlendirmeye son 12 ayda düşüp düşmediğinizi sorarak başlıyor. Bu yüzden son bir yılda düştüyseniz, puanınız ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
  ("Puanım 4’ün altında, içim rahat olabilir mi?", "Düşük puan düşme riskinizin hiç olmadığı anlamına gelmez. Bacak gücünüzü ve dengenizi korumak için hareketli kalmanız ve bu soruları yılda bir yeniden yanıtlamanız iyi olur."),
  ("Puanım yüksek çıktı, ne yapabilirim?", "Sonucunuzu hekiminizle konuşun; kullandığınız ilaçları, görmenizi ve ayaklarınızı gözden geçirmek isteyebilir. Güç ve denge egzersizleri düşmeleri önlemenin en etkili yollarından biridir. Bir fizyoterapist size özel bir program hazırlayabilir."),
 ]
@@ -147,6 +148,8 @@ FR_BODY = f'''<header class="page">
       {src_list([
         "Centers for Disease Control and Prevention (STEADI). " + ext("https://www.cdc.gov/steadi/pdf/steadi-brochure-stayindependent-508.pdf", "Stay Independent: check your risk for falling") + ". 2023. Türkçe çeviri sitemize aittir.",
         "Rubenstein LZ, Vivrette R, Harker JO, Stevens JA, Kramer BJ. Validating an evidence-based, self-rated fall risk questionnaire (FRQ) for older adults. J Safety Res. 2011;42(6):493–499.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
+        "Montero-Odasso M, van der Velde N, Martin FC, et al. " + ext("https://doi.org/10.1093/ageing/afac205", "World guidelines for falls prevention and management for older adults: a global initiative") + ". Age Ageing. 2022;51(9):afac205.",
       ])}
     </div>
   </section>
@@ -218,6 +221,7 @@ B4_DESC = ["İki ayağınızı yan yana, birbirine değecek şekilde koyun.",
 
 B4_FAQ = [
  ("Neden tandem duruş bu kadar önemli?", "ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), tandem duruşu (bir ayak tam öbürünün önünde) en az 10 saniye koruyamayan yaşlıların düşme riskinin arttığını belirtiyor. Bu durumda denge ve yürüyüş egzersizleri için bir fizyoterapiste ya da tai chi gibi kanıtlanmış bir düşme önleme programına yönlendirme öneriliyor."),
+ ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
  ("Ayaklarımı oynatırsam ne olur?", "Ayaklarınız yer değiştirirse ya da bir yere tutunmak zorunda kalırsanız o aşamada süre durur ve test biter. Kollarınızı açabilir, gövdenizi oynatabilirsiniz; yalnızca ayaklarınız yerinde kalmalı."),
  ("Tek ayak aşamasını geçemedim, sorun mu?", "Tek ayak üzerinde durmak dördünün en zorudur. Yaşınıza göre karşılaştırma için <a href=\"denge-testi.html\">10 saniye denge testi</a> sayfamıza bakabilirsiniz."),
 ]
@@ -349,6 +353,9 @@ B4_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "Centers for Disease Control and Prevention (STEADI). " + ext("https://www.cdc.gov/steadi/media/pdfs/STEADI-Assessment-4Stage-508.pdf", "Assessment: The 4-Stage Balance Test") + ". 2017.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
+        "Montero-Odasso M, van der Velde N, Martin FC, et al. " + ext("https://doi.org/10.1093/ageing/afac205", "World guidelines for falls prevention and management for older adults: a global initiative") + ". Age Ageing. 2022;51(9):afac205.",
+        "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
       ])}
     </div>
   </section>

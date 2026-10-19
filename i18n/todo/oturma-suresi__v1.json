@@ -1,0 +1,327 @@
+[
+ {
+  "id": "otu0",
+  "kind": "text",
+  "tr": "Oturma Süresi Hesaplayıcısı: Günde Kaç Saat Oturuyorsunuz? | İhsan Eren"
+ },
+ {
+  "id": "otu1",
+  "kind": "attr",
+  "tr": "Günde kaç saat oturuyorsunuz, ne kadar hareket ediyorsunuz? Bir milyondan fazla kişiyi inceleyen araştırmaya göre oturma ve hareket dengenizi görün; günde 60–75 dakikanın önemi."
+ },
+ {
+  "id": "otu2",
+  "kind": "text",
+  "tr": "Günlük oturma süresi hesaplayıcısı"
+ },
+ {
+  "id": "otu3",
+  "kind": "text",
+  "tr": "Günde kaç saat oturuyorsunuz? Bir milyondan fazla kişinin verisini inceleyen büyük bir araştırma, uzun oturmanın sağlık üzerindeki olumsuz etkisinin, ne kadar hareket ettiğinize göre çok değiştiğini gösterdi: günde 60–75 dakika orta tempolu hareket edenlerde, günde 8 saatten fazla oturmak bile ölüm riskinde belirgin bir artışla ilişkili değildi. Oturma ve hareket sürelerinizi girin, araştırmada sizinkine benzer gruptaki kişilerde ne bulunduğunu görün."
+ },
+ {
+  "id": "otu4",
+  "kind": "text",
+  "tr": "1 milyon"
+ },
+ {
+  "id": "otu5",
+  "kind": "text",
+  "tr": "16 çalışmada incelenen yetişkin sayısı"
+ },
+ {
+  "id": "otu6",
+  "kind": "text",
+  "tr": "Uzun oturmanın etkisini ortadan kaldıran günlük orta tempolu hareket"
+ },
+ {
+  "id": "otu7",
+  "kind": "text",
+  "tr": "En az hareket edip günde 8 saatten fazla oturanlarda, en hareketli ve en az oturanlara göre ölüm riski artışı"
+ },
+ {
+  "id": "otu8",
+  "kind": "text",
+  "tr": "4’te 3"
+ },
+ {
+  "id": "otu9",
+  "kind": "text",
+  "tr": "Katılımcılardan günde 60–75 dakikaya ulaşamayanların oranı"
+ },
+ {
+  "id": "otu10",
+  "kind": "text",
+  "tr": "Oturma ve hareket dengeniz"
+ },
+ {
+  "id": "otu11",
+  "kind": "text",
+  "tr": "İş, yolculuk, yemek ve ekran başında geçen tüm oturma sürenizi düşünün. Hareket için yalnızca nefesinizi hızlandıran tempolu yürüyüş, bisiklet gibi etkinlikleri sayın."
+ },
+ {
+  "id": "otu12",
+  "kind": "text",
+  "tr": "Günde oturarak geçen süre"
+ },
+ {
+  "id": "otu13",
+  "kind": "text",
+  "tr": "<span id=\"st-sv\">8</span> sa"
+ },
+ {
+  "id": "otu14",
+  "kind": "attr",
+  "tr": "Günde oturarak geçen süre (saat)"
+ },
+ {
+  "id": "otu15",
+  "kind": "text",
+  "tr": "Günde orta tempolu hareket"
+ },
+ {
+  "id": "otu16",
+  "kind": "text",
+  "tr": "<span id=\"st-mv\">20</span> dk"
+ },
+ {
+  "id": "otu17",
+  "kind": "attr",
+  "tr": "Günde orta tempolu hareket (dakika)"
+ },
+ {
+  "id": "otu18",
+  "kind": "text",
+  "tr": "Günde televizyon izleme"
+ },
+ {
+  "id": "otu19",
+  "kind": "text",
+  "tr": "1 saatten az"
+ },
+ {
+  "id": "otu20",
+  "kind": "text",
+  "tr": "1–2 saat"
+ },
+ {
+  "id": "otu21",
+  "kind": "text",
+  "tr": "3–4 saat"
+ },
+ {
+  "id": "otu22",
+  "kind": "text",
+  "tr": "5 saat ve üzeri"
+ },
+ {
+  "id": "otu23",
+  "kind": "text",
+  "tr": "Araştırmada, aynı hareket grubunda en az oturanlara (4 saatten az) göre ölüm riskindeki fark"
+ },
+ {
+  "id": "otu24",
+  "kind": "text",
+  "tr": "4 saatten az"
+ },
+ {
+  "id": "otu25",
+  "kind": "text",
+  "tr": "4–6 saat"
+ },
+ {
+  "id": "otu26",
+  "kind": "text",
+  "tr": "6–8 saat"
+ },
+ {
+  "id": "otu27",
+  "kind": "text",
+  "tr": "8 saatten fazla"
+ },
+ {
+  "id": "otu28",
+  "kind": "text",
+  "tr": "Günde 60–75 dk ve üzeri"
+ },
+ {
+  "id": "otu29",
+  "kind": "text",
+  "tr": "Günde yaklaşık 50–65 dk"
+ },
+ {
+  "id": "otu30",
+  "kind": "text",
+  "tr": "Günde yaklaşık 25–35 dk"
+ },
+ {
+  "id": "otu31",
+  "kind": "text",
+  "tr": "Günde yaklaşık 5 dk"
+ },
+ {
+  "id": "otu32",
+  "kind": "text",
+  "tr": "Renkli kutular istatistiksel olarak anlamlı farkları gösterir. Çerçeveli kutu sizin grubunuz. Girdiğiniz hareket süresi, araştırmadaki dört gruptan size en yakın olanla yaklaşık olarak eşleştirilir."
+ },
+ {
+  "id": "otu33",
+  "kind": "text",
+  "tr": "Hareket grubunuz: en az hareket edenler (günde yaklaşık 5 dakika)"
+ },
+ {
+  "id": "otu34",
+  "kind": "text",
+  "tr": "Hareket grubunuz: günde yaklaşık 25–35 dakika"
+ },
+ {
+  "id": "otu35",
+  "kind": "text",
+  "tr": "Hareket grubunuz: günde yaklaşık 50–65 dakika"
+ },
+ {
+  "id": "otu36",
+  "kind": "text",
+  "tr": "Hareket grubunuz: en hareketliler (günde 60–75 dakika ve üzeri)"
+ },
+ {
+  "id": "otu37",
+  "kind": "text",
+  "tr": "Bu grupta en az oturanlarla aynı düzeydesiniz."
+ },
+ {
+  "id": "otu38",
+  "kind": "text",
+  "tr": "Sizinkine benzer hareket düzeyindeki kişilerde bu kadar oturmak, 4 saatten az oturmaya göre ölüm riskinde yaklaşık %{p} artışla ilişkiliydi."
+ },
+ {
+  "id": "otu39",
+  "kind": "text",
+  "tr": "Sizinkine benzer hareket düzeyindeki kişilerde bu kadar oturmak, ölüm riskinde istatistiksel olarak anlamlı bir artışla ilişkili değildi."
+ },
+ {
+  "id": "otu40",
+  "kind": "text",
+  "tr": "Günde 1 saatten az televizyon izlemek, karşılaştırmanın temel alındığı gruptur."
+ },
+ {
+  "id": "otu41",
+  "kind": "text",
+  "tr": "Televizyon: aynı hareket grubunda günde 1 saatten az izleyenlere göre ölüm riskinde yaklaşık %{p} artış."
+ },
+ {
+  "id": "otu42",
+  "kind": "text",
+  "tr": "Televizyon: aynı hareket grubunda belirgin bir fark görülmedi."
+ },
+ {
+  "id": "otu43",
+  "kind": "text",
+  "tr": "Günde 60 dakikaya ulaşmak için {m} dakika daha orta tempolu hareket gerekiyor."
+ },
+ {
+  "id": "otu44",
+  "kind": "text",
+  "tr": "Günlük hareket süreniz, uzun oturmanın etkisini dengeleyen düzeyde."
+ },
+ {
+  "id": "otu45",
+  "kind": "text",
+  "tr": "Fark yok"
+ },
+ {
+  "id": "otu46",
+  "kind": "text",
+  "tr": "Girdiğiniz değerler hiçbir yere gönderilmez ve kaydedilmez."
+ },
+ {
+  "id": "otu47",
+  "kind": "text",
+  "tr": "Oturmayı nasıl azaltırım?"
+ },
+ {
+  "id": "otu48",
+  "kind": "text",
+  "tr": "Uzun oturmaları sık sık bölün: her yarım saatte birkaç dakika kalkıp yürüyün."
+ },
+ {
+  "id": "otu49",
+  "kind": "text",
+  "tr": "Kısa mesafeleri yürüyerek ya da bisikletle gidin."
+ },
+ {
+  "id": "otu50",
+  "kind": "text",
+  "tr": "Televizyon izlerken reklam aralarında kalkın."
+ },
+ {
+  "id": "otu51",
+  "kind": "text",
+  "tr": "<a href=\"mola-zamanlayicisi.html\">Masa başı mola zamanlayıcısı</a>: oturma molalarınızı hatırlatır."
+ },
+ {
+  "id": "otu52",
+  "kind": "text",
+  "tr": "<a href=\"tempolu-yuruyus.html\">Tempolu yürüyüş metronomu</a>: yürüyüşünüzü orta tempoya taşır."
+ },
+ {
+  "id": "otu53",
+  "kind": "text",
+  "tr": "Bu sonuçlar ne kadar güvenilir?"
+ },
+ {
+  "id": "otu54",
+  "kind": "text",
+  "tr": "Hesaplayıcı, 16 çalışmadan bir milyondan fazla yetişkinin verisini aynı yöntemle yeniden analiz eden ve The Lancet’te yayımlanan bir meta-analize dayanıyor. Ancak bunlar gözlem çalışmaları: oturmanın ya da hareketsizliğin ölüme yol açtığını kanıtlamıyor. Oturma ve hareket süreleri çoğunlukla kişilerin kendi beyanıyla ölçüldü; katılımcıların çoğu 45 yaş üzerindeydi ve Batı Avrupa, ABD ya da Avustralya’da yaşıyordu. Sonuçları kişisel bir risk hesabı olarak değil, genel bir yol gösterici olarak okuyun."
+ },
+ {
+  "id": "otu55",
+  "kind": "text",
+  "tr": "Orta tempolu hareket ne demek?"
+ },
+ {
+  "id": "otu56",
+  "kind": "text",
+  "tr": "Araştırmada orta yoğunluk, örneğin saatte yaklaşık 5,6 km hızla tempolu yürümek ya da saatte 16 km hızla bisiklet sürmek gibi etkinliklerdi. Dakikada yaklaşık 100 adımlık bir yürüyüş de orta yoğunluğa karşılık gelir."
+ },
+ {
+  "id": "otu57",
+  "kind": "text",
+  "tr": "Neden televizyon ayrıca soruluyor?"
+ },
+ {
+  "id": "otu58",
+  "kind": "text",
+  "tr": "Aynı araştırmada televizyon izleme süresi ayrıca incelendi. Günde 3 saat ve üzeri televizyon izlemek, en hareketli grup dışında daha yüksek riskle ilişkiliydi; günde 5 saat ve üzeri izlemek ise en hareketli grupta bile riskte artışla ilişkiliydi."
+ },
+ {
+  "id": "otu59",
+  "kind": "text",
+  "tr": "Günde 60 dakikaya nasıl ulaşırım?"
+ },
+ {
+  "id": "otu60",
+  "kind": "text",
+  "tr": "Bu hareketin tek seferde yapılması gerekmez. Örneğin işe giderken 20 dakika tempolu yürüyüş, öğle arasında 15 dakika ve akşam 25 dakika yürüyüş ya da bisiklet. Uzun oturmaları sık sık bölmek de önerilir; mola zamanlayıcısı ve tempolu yürüyüş metronomu yardımcı olabilir."
+ },
+ {
+  "id": "otu61",
+  "kind": "text",
+  "tr": "Daha hareketli bir gün planı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "otu62",
+  "kind": "wa",
+  "tr": "Merhaba, oturma süremi azaltma ve kişiye özel hareket programı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "otu63",
+  "kind": "text",
+  "tr": "MRC Epidemiology Unit, University of Cambridge. <a href=\"https://www.epi.ims.cam.ac.uk/blog/2016/07/28/hour-moderate-exercise-day-enough-counter-health-risks-prolonged-sitting/\" target=\"_blank\" rel=\"noopener\">An hour of moderate exercise a day enough to counter health risks from prolonged sitting</a>. 28 July 2016."
+ },
+ {
+  "id": "otu64",
+  "kind": "ld",
+  "tr": "Oturma süresi ve hareket dengesi"
+ }
+]

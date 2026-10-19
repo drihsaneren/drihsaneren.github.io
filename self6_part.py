@@ -313,7 +313,7 @@ AG_PLACEH = "".join(f'<button type="button" data-v="{i}" aria-pressed="false">{p
 AG_FAQ = [
  ("Günlüğü ne sıklıkla doldurmalıyım?", "Günde bir kez, her gün yaklaşık aynı saatte doldurmanız karşılaştırmayı kolaylaştırır. Bir günü atlamanız sorun değil; aynı güne yeniden kayıt yaparsanız o günün kaydı güncellenir."),
  ("Verilerim nerede saklanıyor?", "Yalnızca bu cihazda, tarayıcınızın içinde saklanır; hiçbir sunucuya gönderilmez. Tarayıcı verilerini silerseniz ya da başka bir cihaz kullanırsanız kayıtlar görünmez. Kayıtlarınızı CSV dosyası olarak indirip saklayabilirsiniz."),
- ("Ağrım ne kadar azalırsa anlamlı bir iyileşmedir?", "Uzun süreli ağrısı olan 2.724 kişinin verileriyle yapılan bir çalışmada, 0–10 ölçeğinde ortalama 2 puanlık ya da yaklaşık %30’luk bir azalma, kişilerin kendilerini anlamlı ölçüde daha iyi hissetmelerine karşılık geliyordu. Bu bir ortalama; sizin için önemli olan, günlük hayatınızda neyin değiştiğidir."),
+ ("Ağrım ne kadar azalırsa anlamlı bir iyileşmedir?", "Uzun süreli ağrısı olan 2.724 kişinin verileriyle yapılan bir çalışmada, 0–10 ölçeğinde ortalama 2 puanlık ya da yaklaşık %30’luk bir azalma, kişilerin kendilerini anlamlı ölçüde daha iyi hissetmelerine karşılık geliyordu. Bu bir ortalama; sizin için önemli olan, günlük hayatınızda neyin değiştiğidir. Uluslararası bir uzman grubu (IMMPACT) da iyileşmeyi değerlendirirken ağrı şiddetinin yanında günlük işlevi, duygu durumunu ve kişinin kendi genel değerlendirmesini birlikte dikkate almayı öneriyor."),
  ("Ağrım artarsa ne yapmalıyım?", "Ağrınız yeni başladıysa, giderek kötüleşiyorsa ya da başka yakınmalar eşlik ediyorsa bir hekime görünün. Bilgi köşesindeki rehberlerde her durum için ne zaman beklemeden başvurmanız gerektiğini bulabilirsiniz."),
 ]
 
@@ -435,6 +435,8 @@ AG_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "Farrar JT, Young JP Jr, LaMoreaux L, Werth JL, Poole RM. " + ext("https://chiro.org/LINKS/ABSTRACTS/Clinical_Importance_of_Changes.shtml", "Clinical importance of changes in chronic pain intensity measured on an 11-point numerical pain rating scale") + ". Pain. 2001;94(2):149–158.",
+        "Dworkin RH, Turk DC, Wyrwich KW, et al. " + ext("https://scholars.duke.edu/publication/734891", "Interpreting the clinical importance of treatment outcomes in chronic pain clinical trials: IMMPACT recommendations") + ". J Pain. 2008;9(2):105–121.",
+        "Redelmeier DA, Kahneman D. " + ext("https://doi.org/10.1016/0304-3959(96)02994-6", "Patients’ memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures") + ". Pain. 1996;66(1):3–8.",
       ])}
     </div>
   </section>

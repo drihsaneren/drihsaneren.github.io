@@ -45,6 +45,7 @@ EXT["ly_arm"] = ("Elleri dizlerden omuzlara", "Dik oturun, elleriniz dizlerinizd
 GT_FAQ = [
  ("Kalça yan ağrısı bursit midir?", "Çoğu zaman tek başına bursit değildir. Ağrının kaynağı genellikle kalçanın yan tarafındaki kemik çıkıntısına yapışan kirişlerin aşırı yüklenmesidir (tendinopati); bazen oradaki kesecik (bursa) de iltihaplanır. Bu yüzden bugün “büyük trokanter ağrı sendromu” adı kullanılıyor."),
  ("Kortizon iğnesi işe yarar mı?", "204 kişilik LEAP çalışmasında iğne, sekizinci haftada beklemekten daha iyi, eğitim ve egzersizden ise daha kötü sonuç verdi. Bir yıl sonra iğne yapılanlarla bekleyenler arasında anlamlı fark kalmadı. Bu yüzden iğne ilk seçenek sayılmıyor; ağrı egzersiz yapmayı engelleyecek kadar şiddetliyse kısa süreli rahatlama için düşünülebilir."),
+ ("Egzersizin etkisi kanıtlandı mı?", "Beş çalışmayı inceleyen 2024 tarihli bir meta-analizde egzersiz, hiçbir şey yapmamaya ya da en az müdahaleye göre günlük işlevi hem kısa hem uzun vadede daha çok iyileştirdi. Ağrı üzerindeki etkisi kortizon iğnesinden farklı değildi; ancak bir çalışmada egzersizle tedavi başarısı daha yüksekti."),
  ("Kalça yan ağrısı ne kadar sürede geçer?", "Sabır gerektirir: Toparlanma çoğu zaman 6–12 ay sürer. Yine de LEAP çalışmasında eğitim ve egzersiz alanların yaklaşık dörtte üçü sekizinci haftada belirgin biçimde iyileştiğini bildirdi. Alevlenme olursa tekrarları azaltın ya da birkaç gün ara verip yeniden başlayın."),
  ("Hangi yanıma yatmalıyım?", "Ağrılı tarafın üzerine yatmayın. Sırtüstü yatıp dizlerinizin altına yastık koyabilir ya da sağlam yanınıza yatıp dizlerinizin arasına yastık yerleştirebilirsiniz; böylece üstteki bacak öne düşmez ve kalçanın yanı gerilmez."),
 ]
@@ -52,6 +53,8 @@ GT_FAQ = [
 GT_SRC = [
  "Mellor R, Bennell K, Grimaldi A, et al. " + ext("https://www.bmj.com/content/361/bmj.k1662", "Education plus exercise versus corticosteroid injection use versus a wait and see approach on global outcome and pain from gluteal tendinopathy: prospective, single blinded, randomised clinical trial") + ". BMJ. 2018;361:k1662.",
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/greater-trochanteric-pain-syndrome/", "Greater trochanteric pain syndrome (GTPS)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
+ "Cordeiro TTP, Rocha EAB, Scattone Silva R. " + ext("https://www.nature.com/articles/s41598-024-53283-x", "Effects of exercise-based interventions on gluteal tendinopathy: systematic review with meta-analysis") + ". Sci Rep. 2024;14:3343.",
+ "NHS Ayrshire and Arran, RefHelp. " + ext("https://www.rightdecisions.scot.nhs.uk/refhelp-nhs-ayrshire-and-arran/orthopaedicsmsk/hip/lateral-thigh-pain-trochanteric-bursitis-greater-trochanter-pain-syndrome/", "Lateral thigh pain/trochanteric bursitis (greater trochanter pain syndrome)") + ". Version 1.0.",
 ]
 
 GT_BODY = f'''<header class="page">

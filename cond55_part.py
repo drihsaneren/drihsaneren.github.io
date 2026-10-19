@@ -30,12 +30,15 @@ KB_FAQ = [
  ("Neden nefes egzersizleri bu kadar önemli?", "Ağrı, derin nefes almanızı ve öksürmenizi engelleyebilir. Akciğerleriniz tam havalanmaz ve balgam birikirse göğüs enfeksiyonu riski artar. Düzenli derin nefes, gerektiğinde öksürme ve hareketli kalmak bunu önlemeye yardım eder."),
  ("Ne zaman işe ve spora dönerim?", "Gerekirse işe ara verip dinlenin. Bir NHS broşürüne göre ağır yük kaldırma ve bedensel işlerden en az 4 hafta, temas sporlarından en az 6 hafta uzak durun. Ağrınızı artıran spor ve egzersizleri yapmayın."),
  ("İyileşme ne kadar sürer?", "Kaburga kırığı ya da morarması genellikle 2–6 haftada iyileşir; kırıklar için bu süre çoğunlukla 4–6 haftadır. Bu süreden sonra da bir süre hafif bir sızı kalabilir. Ağrınız birkaç hafta içinde azalmıyorsa hekiminize başvurun."),
+ ("Kimler daha dikkatli olmalı?", "Göğüs duvarı yaralanmalarını inceleyen sistematik derlemelere göre 65 yaş ve üstü olmak, üç ya da daha fazla kaburganın kırılması ve önceden var olan bir hastalık, özellikle kalp ya da akciğer hastalığı, ciddi sonuç riskini yaklaşık iki kat artırıyor; sonradan gelişen zatürre de riski belirgin şekilde yükseltiyor. Bu gruptaysanız hekiminizle bir takip planı konuşabilir; ateş, renkli balgam ya da artan nefes darlığında beklemeden başvurabilirsiniz."),
  ("Sigara içiyorum, önemli mi?", "Evet. Sigara göğüs enfeksiyonu riskini artırır; iyileşme döneminde içmeyin. Bırakmak için hekiminizden destek isteyebilirsiniz."),
 ]
 
 KB_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/rib-injuries", "Broken or bruised ribs") + ". Page last reviewed: 10 January 2024.",
  "Worcestershire Acute Hospitals NHS Trust. " + ext("https://www.worcsacute.nhs.uk/leaflets/physiotherapy-advice-and-exercises-following-rib-fractures/", "Physiotherapy advice and exercises following rib fractures") + ". Version 2.1.",
+ "Battle CE, Hutchings H, Evans PA. " + ext("https://doi.org/10.1016/j.injury.2011.01.004", "Risk factors that predict mortality in patients with blunt chest wall trauma: a systematic review and meta-analysis") + ". Injury. 2012;43(1):8–17.",
+ "Battle C, Carter K, Newey L, Giamello JD, Melchio R, Hutchings H. " + ext("https://emj.bmj.com/content/40/5/369", "Risk factors that predict mortality in patients with blunt chest wall trauma: an updated systematic review and meta-analysis") + ". Emerg Med J. 2023;40(5):369.",
 ]
 
 KB_BODY = f'''<header class="page">

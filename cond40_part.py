@@ -19,6 +19,7 @@ JH_FAQ = [
 JH_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/joint-hypermobility/", "Joint hypermobility syndrome") + ". Page last reviewed 30 August 2023.",
  "Engelbert RHH, Juul-Kristensen B, Pacey V, et al. " + ext("https://discovery-pp.ucl.ac.uk/id/eprint/1556240/1/Engelbert_Evidence-Based_Rationale.pdf", "The evidence-based rationale for physical therapy treatment of children, adolescents and adults diagnosed with joint hypermobility syndrome/hypermobile Ehlers Danlos syndrome") + ". American Journal of Medical Genetics Part C. 2017.",
+ "Castori M, Tinkle B, Levy H, Grahame R, Malfait F, Hakim A. " + ext("https://www.ehlers-danlos.com/2017-eds-classification-non-experts/framework-classification-joint-hypermobility-related-conditions/", "A framework for the classification of joint hypermobility and related conditions") + ". Am J Med Genet C Semin Med Genet. 2017;175(1):148–157.",
 ]
 
 JH_BODY = f'''<header class="page">

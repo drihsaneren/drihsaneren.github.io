@@ -36,6 +36,8 @@ BILEK_FAQ = [
 
 BILEK_SRC = [
  "Martin RL, et al. " + ext("https://www.jospt.org/doi/10.2519/jospt.2021.0302", "Ankle stability and movement coordination impairments: lateral ankle ligament sprains revision 2021. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health") + ". J Orthop Sports Phys Ther. 2021;51(4).",
+ "Vuurberg G, Hoorntje A, Wink LM, et al. " + ext("https://bjsm.bmj.com/content/52/15/956", "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline") + ". Br J Sports Med. 2018;52(15):956.",
+ "NHS. " + ext("https://www.nhs.uk/conditions/sprains-and-strains/", "Sprains and strains") + ". Page last reviewed 23 April 2024.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Ottawa_Ankle_Rules", "Ottawa Ankle Rules") + ".",
 ]
 

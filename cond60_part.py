@@ -43,6 +43,7 @@ _ex2("tor_t", "tor_tummy", "Karın üstü oyun", "Bebeğiniz uyanıkken ve siz y
 TOR_FAQ = [
  ("Tortikolis bebeğimi acıtır mı?", "Çoğu bebek tortikolisten ağrı duymaz. Germeler sırasında bebeğiniz itiraz edebilir, ama canı yanmamalıdır; hareketleri yavaş ve nazik yapın."),
  ("Düzelir mi, ne kadar sürer?", "Tedaviyle çoğu bebek boynunu tam olarak hareket ettirebilir hâle gelir; kas büyüdükçe ve gerildikçe esner. Tedavi edilmezse boyun hareketlerinde kalıcı kısıtlılık kalabilir ve ileride ameliyat gerekebilir. Fizyoterapiyle 3 ay içinde düzelme olmazsa ortopedi değerlendirmesi istenebilir."),
+ ("Fizyoterapi ne zaman biter?", "Amerikan Fizyoterapi Derneği’nin kılavuzuna göre, bebeğin boynu sağlam tarafla arasında 5 dereceden az fark kalacak kadar hareket ettiğinde, başında görünür bir eğiklik kalmadığında, yaşına uygun hareketleri yapabildiğinde ve iki yana eşit hareket ettiğinde, siz de egzersizleri ve neye dikkat edeceğinizi öğrendiğinizde tedavi sonlandırılabilir."),
  ("Boynundaki şişlik nedir?", "Etkilenen kasta küçük bir şişlik olabilir. Genellikle ilk ayda en büyük hâline ulaşır, sonra yavaş yavaş küçülür. Geçmezse ultrason istenebilir."),
  ("Başının arkası düzleşti, bu tehlikeli mi?", "Tortikolis, bebeğin hep aynı tarafa yatmasına ve başın o tarafta düzleşmesine (plajiyosefali) yol açabilir. Bu yalnızca görünümle ilgilidir, başka belirtisi yoktur ve beyni etkilemez. Fizyoterapistiniz gerekirse ayrıca önerilerde bulunur."),
  ("Nasıl beslemeliyim?", "Biberonla besliyorsanız bebeğinizi, başını zorlandığı tarafa çevirmesini gerektirecek kolunuzda tutun. Emziriyorsanız iki taraftan da emzirmeyi sürdürün ve bu tarafa dönmesini teşvik eden farklı tutuşlar deneyin."),
@@ -51,6 +52,7 @@ TOR_FAQ = [
 TOR_SRC = [
  "Royal Berkshire NHS Foundation Trust, Paediatric Physiotherapy. " + ext("https://royalberkshire.nhs.uk/media/4r0hxeui/congenital-muscular-torticollis-affecting-the-left_jun25.pdf", "Congenital muscular torticollis affecting the left") + ". June 2025.",
  "NHS Lothian, Royal Hospital for Children and Young People. " + ext("https://apps.nhslothian.scot/files/sites/2/Congenital-Torticollis-left-RHCYP-V4.0.pdf", "Congenital torticollis (left side)") + ". Version 4.0, September 2023.",
+ "Kaplan SL, Coulter C, Sargent B. " + ext("https://www.apta.org/patient-care/evidence-based-practice-resources/cpgs/physical-therapy-management-of-congenital-muscular-torticollis-a-2018-evidence-based-clinical-practice-guideline-from-the-apta-academy-of-pediatric-physical-therapy-cpg", "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2018;30(4):240–290.",
 ]
 
 TOR_BODY = f'''<header class="page">

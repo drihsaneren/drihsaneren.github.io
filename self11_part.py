@@ -64,6 +64,7 @@ GU_FAQ = [
  ("Düştükten sonra 112’yi aramak doğru mu?", "Evet. Başınızı, boynunuzu, sırtınızı ya da kalçanızı incitmiş olabileceğinizi düşünüyorsanız ya da kalkamıyorsanız 112’yi arayın. Düştükten sonra yardım istemekte bir sakınca yoktur."),
  ("Neden hemen kalkmamalıyım?", "Düşmenin şokuyla hızla kalkmaya çalışmak yeniden düşmenize ya da bir yaralanmanın kötüleşmesine yol açabilir. Önce sakin kalın, birkaç dakika olduğunuz yerde durun, bir yerinizin ağrıyıp ağrımadığını kontrol edin ve kalkıp kalkamayacağınızı düşünün."),
  ("Kalkamıyorsam neden hareket etmeliyim?", "Yandan yana yuvarlanmak, kollarınızı ve bacaklarınızı oynatmak sizi sıcak tutar, dolaşımı destekler, tutulmayı ve uzun süre aynı pozisyonda kalmaya bağlı bası yarası riskini azaltır."),
+ ("Kalkmayı neden önceden öğrenmeliyim?", "İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riski olan kişilerle düştükten sonra ne yapacaklarının ve yerden nasıl kalkacaklarının konuşulmasını öneriyor. Adımları önceden, yanınızda biri varken denemek, gerçek bir düşmede ne yapacağınızı bilmenizi kolaylaştırır."),
  ("Kalktım ve iyiyim, yine de hekime gitmeli miyim?", "Evet, hekiminize düştüğünüzü söyleyin. Düşme değerlendirmesinde denge testleri yapılabilir, ilaçlarınız gözden geçirilebilir, göz muayenesi, kalp ritmi kaydı (EKG) ve yatarken ve ayaktayken tansiyon ölçümü istenebilir. Evinizdeki tehlikeler için bir sağlık profesyonelinin ziyareti ve kuvvet ve denge egzersizleri de önerilebilir."),
 ]
 
@@ -172,6 +173,7 @@ GU_BODY = f'''<header class="page">
         "Guy’s and St Thomas’ NHS Foundation Trust. " + ext("https://guysandstthomas.nhs.uk/health-information/falls/what-do-if-you-fall", "What to do if you fall") + ". Resource 5320/VER2, last reviewed July 2026.",
         "nidirect (Northern Ireland). " + ext("https://www.nidirect.gov.uk/conditions/falls", "Falls") + ". Last modified 3 March 2026.",
         "Torbay and South Devon NHS Foundation Trust. " + ext("https://www.torbayandsouthdevon.nhs.uk/services/falls-fracture-prevention-bone-health/what-to-do-if-a-fall-occurs", "What to do if a fall occurs") + ".",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
       ])}
     </div>
   </section>
@@ -224,6 +226,7 @@ ST_FAQ = [
  ("Bu sonuçlar ne kadar güvenilir?", "Hesaplayıcı, 16 çalışmadan bir milyondan fazla yetişkinin verisini aynı yöntemle yeniden analiz eden ve The Lancet’te yayımlanan bir meta-analize dayanıyor. Ancak bunlar gözlem çalışmaları: oturmanın ya da hareketsizliğin ölüme yol açtığını kanıtlamıyor. Oturma ve hareket süreleri çoğunlukla kişilerin kendi beyanıyla ölçüldü; katılımcıların çoğu 45 yaş üzerindeydi ve Batı Avrupa, ABD ya da Avustralya’da yaşıyordu. Sonuçları kişisel bir risk hesabı olarak değil, genel bir yol gösterici olarak okuyun."),
  ("Orta tempolu hareket ne demek?", "Araştırmada orta yoğunluk, örneğin saatte yaklaşık 5,6 km hızla tempolu yürümek ya da saatte 16 km hızla bisiklet sürmek gibi etkinliklerdi. Dakikada yaklaşık 100 adımlık bir yürüyüş de orta yoğunluğa karşılık gelir."),
  ("Neden televizyon ayrıca soruluyor?", "Aynı araştırmada televizyon izleme süresi ayrıca incelendi. Günde 3 saat ve üzeri televizyon izlemek, en hareketli grup dışında daha yüksek riskle ilişkiliydi; günde 5 saat ve üzeri izlemek ise en hareketli grupta bile riskte artışla ilişkiliydi."),
+ ("Hareket ölçerle yapılan araştırmalar ne gösteriyor?", "Hareket ölçer takan 44.000’den fazla orta yaşlı ve yaşlı yetişkinin verisini birleştiren 2020 tarihli bir meta-analizde, günde yaklaşık 30–40 dakika orta ya da yüksek yoğunlukta hareket, uzun oturmayla ilişkili ölüm riskindeki artışı azaltıyordu; bu süre, kişilerin kendi beyanına dayanan önceki tahminlerden kısaydı. Dünya Sağlık Örgütü de 2020 kılavuzunda oturma süresini azaltmayı ve yerine hangi yoğunlukta olursa olsun hareket koymayı öneriyor; çok oturanların önerilen hareket miktarının üzerine çıkmaya çalışmasını tavsiye ediyor."),
  ("Günde 60 dakikaya nasıl ulaşırım?", "Bu hareketin tek seferde yapılması gerekmez. Örneğin işe giderken 20 dakika tempolu yürüyüş, öğle arasında 15 dakika ve akşam 25 dakika yürüyüş ya da bisiklet. Uzun oturmaları sık sık bölmek de önerilir; mola zamanlayıcısı ve tempolu yürüyüş metronomu yardımcı olabilir."),
 ]
 
@@ -342,6 +345,8 @@ ST_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "Ekelund U, Steene-Johannessen J, Brown WJ, et al. " + ext("https://doi.org/10.1016/S0140-6736(16)30370-1", "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women") + ". Lancet. 2016;388(10051):1302–1310.",
+        "Ekelund U, Tarp J, Fagerland MW, et al. " + ext("https://bjsm.bmj.com/content/54/24/1499", "Joint associations of accelerometer-measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals") + ". Br J Sports Med. 2020;54(24):1499–1506.",
+        "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
         "MRC Epidemiology Unit, University of Cambridge. " + ext("https://www.epi.ims.cam.ac.uk/blog/2016/07/28/hour-moderate-exercise-day-enough-counter-health-risks-prolonged-sitting/", "An hour of moderate exercise a day enough to counter health risks from prolonged sitting") + ". 28 July 2016.",
       ])}
     </div>

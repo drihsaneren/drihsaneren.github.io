@@ -232,7 +232,11 @@ MORNING_BODY = f'''<header class="page">
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
-      {src_list(["Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/33239350/", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451-1462."])}
+      {src_list([
+        "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/33239350/", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451-1462.",
+        "Brooke-Wavell K, Skelton DA, Barker KL, et al. " + ext("https://bjsm.bmj.com/content/56/15/837", "Strong, steady and straight: UK consensus statement on physical activity and exercise for osteoporosis") + ". Br J Sports Med. 2022;56(15):837–846.",
+        "NHS. " + ext("https://www.nhs.uk/conditions/low-blood-pressure-hypotension/", "Low blood pressure (hypotension)") + ". Page last reviewed 11 July 2023.",
+      ])}
     </div>
   </section>
 </main>'''

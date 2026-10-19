@@ -1,0 +1,312 @@
+[
+ {
+  "id": "egz0",
+  "kind": "text",
+  "tr": "Egzersizde Ağrı Normal mi? Ağrı İzleme Trafik Işığı | İhsan Eren"
+ },
+ {
+  "id": "egz1",
+  "kind": "attr",
+  "tr": "Egzersiz yaparken ağrı normal mi, ne zaman durmalı? Üç soruyu yanıtlayın, trafik ışığı bugünkü egzersizinizi nasıl ayarlayacağınızı göstersin: yeşil devam, sarı izle, kırmızı yükü azalt."
+ },
+ {
+  "id": "egz2",
+  "kind": "text",
+  "tr": "Egzersizde ağrı trafik ışığı"
+ },
+ {
+  "id": "egz3",
+  "kind": "text",
+  "tr": "Egzersiz yaparken biraz ağrı olması normal mi, yoksa durmalı mıyım? Uzun süren kiriş, eklem ve kas ağrılarında ağrıyı tamamen yok etmeye çalışmak yerine onu izlemek daha iyi bir yol olabilir. Aşağıdaki üç soruyu yanıtlayın; trafik ışığı bugünkü egzersizinizi nasıl ayarlayacağınızı göstersin."
+ },
+ {
+  "id": "egz4",
+  "kind": "text",
+  "tr": "5’in altı"
+ },
+ {
+  "id": "egz5",
+  "kind": "text",
+  "tr": "Ağrı izleme modelinde egzersiz sırasında izin verilen ağrı (0–10 ölçeğinde)"
+ },
+ {
+  "id": "egz6",
+  "kind": "text",
+  "tr": "Ertesi sabah"
+ },
+ {
+  "id": "egz7",
+  "kind": "text",
+  "tr": "Egzersizden sonra artan ağrının ertesi sabaha kadar geçmesi beklenir"
+ },
+ {
+  "id": "egz8",
+  "kind": "text",
+  "tr": "Haftadan haftaya"
+ },
+ {
+  "id": "egz9",
+  "kind": "text",
+  "tr": "Ağrı ve tutukluk haftalar içinde artmamalı"
+ },
+ {
+  "id": "egz10",
+  "kind": "text",
+  "tr": "7 çalışma"
+ },
+ {
+  "id": "egz11",
+  "kind": "text",
+  "tr": "Ağrıya izin veren egzersiz kısa vadede biraz daha iyi sonuç verdi"
+ },
+ {
+  "id": "egz12",
+  "kind": "text",
+  "tr": "Kendinizi değerlendirin"
+ },
+ {
+  "id": "egz13",
+  "kind": "text",
+  "tr": "Bugünkü trafik ışığınız"
+ },
+ {
+  "id": "egz14",
+  "kind": "text",
+  "tr": "1. Egzersiz sırasında ağrınız kaç?"
+ },
+ {
+  "id": "egz15",
+  "kind": "attr",
+  "tr": "Egzersiz sırasındaki ağrı, 0–10"
+ },
+ {
+  "id": "egz16",
+  "kind": "text",
+  "tr": "0 · hiç yok"
+ },
+ {
+  "id": "egz17",
+  "kind": "text",
+  "tr": "10 · dayanılmaz"
+ },
+ {
+  "id": "egz18",
+  "kind": "text",
+  "tr": "2. Ertesi sabah ağrınız ve tutukluğunuz?"
+ },
+ {
+  "id": "egz19",
+  "kind": "text",
+  "tr": "Eski düzeyine döndü"
+ },
+ {
+  "id": "egz20",
+  "kind": "text",
+  "tr": "Hâlâ artmış durumda"
+ },
+ {
+  "id": "egz21",
+  "kind": "text",
+  "tr": "3. Bu hafta, geçen haftaya göre?"
+ },
+ {
+  "id": "egz22",
+  "kind": "attr",
+  "tr": "Haftalık gidiş"
+ },
+ {
+  "id": "egz23",
+  "kind": "text",
+  "tr": "Aynı ya da daha iyi"
+ },
+ {
+  "id": "egz24",
+  "kind": "text",
+  "tr": "Daha kötü"
+ },
+ {
+  "id": "egz25",
+  "kind": "text",
+  "tr": "Yeşil: devam edin"
+ },
+ {
+  "id": "egz26",
+  "kind": "text",
+  "tr": "Ağrı düşük ve ertesi gün geçiyor. Egzersize devam edebilir, yükü kademeli olarak artırabilirsiniz."
+ },
+ {
+  "id": "egz27",
+  "kind": "text",
+  "tr": "Sarı: devam edin, izleyin"
+ },
+ {
+  "id": "egz28",
+  "kind": "text",
+  "tr": "Ağrı kabul edilebilir sınırlarda. Aynı yükte devam edin; ertesi sabah ve hafta sonunda yeniden değerlendirin."
+ },
+ {
+  "id": "egz29",
+  "kind": "text",
+  "tr": "Kırmızı: yükü azaltın"
+ },
+ {
+  "id": "egz30",
+  "kind": "text",
+  "tr": "Bir sonraki seansta daha az tekrar, daha hafif ağırlık ya da daha kısa süre deneyin; tamamen bırakmanız gerekmez. Ağrı birkaç haftada düzelmiyorsa bir fizyoterapist ya da hekimle görüşün."
+ },
+ {
+  "id": "egz31",
+  "kind": "text",
+  "tr": "Egzersiz sırasındaki ağrı 5’e ulaştı."
+ },
+ {
+  "id": "egz32",
+  "kind": "text",
+  "tr": "Ağrı ertesi sabaha kadar geçmedi."
+ },
+ {
+  "id": "egz33",
+  "kind": "text",
+  "tr": "Ağrı haftadan haftaya artıyor."
+ },
+ {
+  "id": "egz34",
+  "kind": "text",
+  "tr": "Bu araç bir tanı aracı değildir; uzun süren kas-iskelet ağrılarında egzersizi ayarlamaya yardım eder."
+ },
+ {
+  "id": "egz35",
+  "kind": "text",
+  "tr": "Üç bölge"
+ },
+ {
+  "id": "egz36",
+  "kind": "text",
+  "tr": "Ağrı 0–2"
+ },
+ {
+  "id": "egz37",
+  "kind": "text",
+  "tr": "Rahatça devam edin. Ertesi gün de sorun yoksa yükü yavaşça artırabilirsiniz."
+ },
+ {
+  "id": "egz38",
+  "kind": "text",
+  "tr": "Ağrı 3–4"
+ },
+ {
+  "id": "egz39",
+  "kind": "text",
+  "tr": "Kabul edilebilir. Ağrı ertesi sabaha kadar geçiyor ve haftadan haftaya artmıyorsa aynı yükte devam edin."
+ },
+ {
+  "id": "egz40",
+  "kind": "text",
+  "tr": "Ağrı 5 ve üzeri, ertesi sabah geçmeyen ya da haftadan haftaya artan ağrı"
+ },
+ {
+  "id": "egz41",
+  "kind": "text",
+  "tr": "Yükü azaltın, ama tamamen bırakmayın. Düzelmezse bir uzmana danışın."
+ },
+ {
+  "id": "egz42",
+  "kind": "text",
+  "tr": "Aşil kirişi sorunu olan 38 kişi: ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlevde anlamlı fark çıkmadı. Modelde egzersiz sırasında ağrının 5’e ulaşmasına izin verilmedi; egzersizden sonra 5’e çıkabilen ağrının ertesi sabaha kadar geçmesi ve haftadan haftaya artmaması beklendi."
+ },
+ {
+  "id": "egz43",
+  "kind": "text",
+  "tr": "7 çalışma, 385 kişi: ağrıya izin veren egzersiz, uzun süren kas-iskelet ağrısında kısa vadede ağrısız egzersizden biraz daha iyi sonuç verdi; orta ve uzun vadede fark yoktu."
+ },
+ {
+  "id": "egz44",
+  "kind": "text",
+  "tr": "Ağrının neden her zaman hasar anlamına gelmediğini <a href=\"agriyi-anlamak.html\">ağrıyı anlamak</a> sayfasında bulabilirsiniz."
+ },
+ {
+  "id": "egz45",
+  "kind": "text",
+  "tr": "Hemen durun"
+ },
+ {
+  "id": "egz46",
+  "kind": "text",
+  "tr": "Göğüs ağrısı, baş dönmesi, çarpıntı ya da alışılmadık nefes darlığı (geçmiyorsa 112)"
+ },
+ {
+  "id": "egz47",
+  "kind": "text",
+  "tr": "Egzersiz sırasında ani, keskin ağrı ya da “pat” diye bir his, ardından şişlik"
+ },
+ {
+  "id": "egz48",
+  "kind": "text",
+  "tr": "Yeni başlayan uyuşma, karıncalanma ya da güçsüzlük"
+ },
+ {
+  "id": "egz49",
+  "kind": "text",
+  "tr": "Sıcak, kızarık ve şiş bir eklem"
+ },
+ {
+  "id": "egz50",
+  "kind": "text",
+  "tr": "Egzersiz yaparken hiç ağrı olmamalı mı?"
+ },
+ {
+  "id": "egz51",
+  "kind": "text",
+  "tr": "Gerekmez. Uzun süren kas-iskelet ağrısında yapılan çalışmaların derlemesinde, ağrıya bir ölçüde izin veren egzersiz programları kısa vadede ağrısız programlardan biraz daha iyi sonuç verdi; orta ve uzun vadede ise fark yoktu. Yazarlara göre egzersiz sırasındaki ağrı iyi bir sonuca engel değil."
+ },
+ {
+  "id": "egz52",
+  "kind": "text",
+  "tr": "Ertesi gün ağrım arttı, ne yapmalıyım?"
+ },
+ {
+  "id": "egz53",
+  "kind": "text",
+  "tr": "Ağrı ertesi sabaha kadar geçmediyse, bir sonraki seansta yükü azaltın: daha az tekrar, daha hafif ağırlık ya da daha kısa süre. Tamamen bırakmak yerine ağrının kabul edilebilir sınırlarda kaldığı düzeyi bulmaya çalışın."
+ },
+ {
+  "id": "egz54",
+  "kind": "text",
+  "tr": "Tamamen dinlenmek daha güvenli değil mi?"
+ },
+ {
+  "id": "egz55",
+  "kind": "text",
+  "tr": "Her zaman değil. Aşil kirişi sorunu olan 38 kişilik bir çalışmada, ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlev açısından anlamlı fark bulunmadı."
+ },
+ {
+  "id": "egz56",
+  "kind": "text",
+  "tr": "Bu kurallar her ağrı için geçerli mi?"
+ },
+ {
+  "id": "egz57",
+  "kind": "text",
+  "tr": "Hayır. Bu model kiriş, eklem ve kas kaynaklı, uzun süren ağrılar için kullanılır. Yeni bir yaralanma, ameliyat sonrası dönem ya da sıcak ve şiş bir eklem varsa hekiminizin ya da fizyoterapistinizin önerisine uyun. Göğüs ağrısı, baş dönmesi gibi belirtilerde ise egzersizi hemen bırakın."
+ },
+ {
+  "id": "egz58",
+  "kind": "text",
+  "tr": "Ağrınıza göre ayarlanmış bir egzersiz programı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "egz59",
+  "kind": "wa",
+  "tr": "Merhaba, ağrıya göre egzersiz programı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "egz60",
+  "kind": "text",
+  "tr": "Ağrıyı anlamak"
+ },
+ {
+  "id": "egz61",
+  "kind": "ld",
+  "tr": "Egzersiz sırasında ağrı"
+ }
+]

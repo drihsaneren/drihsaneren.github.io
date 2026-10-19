@@ -299,7 +299,7 @@ page("nabiz-olcer.html", "Nabız Ölçer ve Hedef Nabız",
 # ------------------------------------------------------------------ 2 · BEL–BOY ORANI
 BB_FAQ = [
  ("Kimler için uygun?", "NICE bu oranı beden kitle indeksi (BKİ) 35’in altında olan yetişkinler için öneriyor. Aynı sınırlar kadın ve erkekte, her etnik kökende kullanılabilir. 5 yaş ve üzeri çocuklarda ve gençlerde de aynı sınırlar geçerlidir."),
- ("BKİ’m normal, yine de ölçmeli miyim?", "Evet. BKİ fazla kiloyu gösterir ama yağın nerede toplandığını göstermez. Bel–boy oranı, göbek çevresindeki yağlanmanın pratik bir tahminidir. Bazı etnik kökenlerden insanlar karın çevresinde yağlanmaya daha yatkındır ve kiloyla ilişkili hastalıkların riski onlarda daha düşük BKİ’de artar."),
+ ("BKİ’m normal, yine de ölçmeli miyim?", "Evet. BKİ fazla kiloyu gösterir ama yağın nerede toplandığını göstermez. Bel–boy oranı, göbek çevresindeki yağlanmanın pratik bir tahminidir. Çalışmaları birleştiren 2012 tarihli bir meta-analizde bel–boy oranı, yetişkinlerde kalp-damar ve metabolik risk etkenlerini taramada bel çevresinden ve BKİ’den daha başarılıydı. Bazı etnik kökenlerden insanlar karın çevresinde yağlanmaya daha yatkındır ve kiloyla ilişkili hastalıkların riski onlarda daha düşük BKİ’de artar."),
  ("Oranım 0,5’in üzerinde çıktı, ne yapmalıyım?", "Bu bir tanı değildir, ama sağlık riskinizin arttığını gösterir. Hedef, belinizi boyunuzun yarısının altında tutmaktır. Düzenli hareket ve beslenme alışkanlıklarınız üzerine bir hekim ya da diyetisyenle konuşabilir, tansiyon, kan şekeri ve kolesterol gibi değerlerinizi kontrol ettirebilirsiniz."),
 ]
 
@@ -421,6 +421,7 @@ BB_BODY = f'''<header class="page">
       {src_list([
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity", "Overweight and obesity management: identifying and assessing overweight, obesity and central adiposity") + ". NICE guideline NG246.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/cg189/chapter/3-Other-information", "Obesity: identification, assessment and management (CG189): other information") + ".",
+        "Ashwell M, Gunn P, Gibson S. " + ext("https://doi.org/10.1111/j.1467-789X.2011.00952.x", "Waist-to-height ratio is a better screening tool than waist circumference and BMI for adult cardiometabolic risk factors: systematic review and meta-analysis") + ". Obes Rev. 2012;13(3):275–286.",
       ])}
     </div>
   </section>

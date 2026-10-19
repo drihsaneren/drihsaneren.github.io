@@ -790,6 +790,7 @@ EA_FAQ = [
  ("Egzersiz yaparken hiç ağrı olmamalı mı?", "Gerekmez. Uzun süren kas-iskelet ağrısında yapılan çalışmaların derlemesinde, ağrıya bir ölçüde izin veren egzersiz programları kısa vadede ağrısız programlardan biraz daha iyi sonuç verdi; orta ve uzun vadede ise fark yoktu. Yazarlara göre egzersiz sırasındaki ağrı iyi bir sonuca engel değil."),
  ("Ertesi gün ağrım arttı, ne yapmalıyım?", "Ağrı ertesi sabaha kadar geçmediyse, bir sonraki seansta yükü azaltın: daha az tekrar, daha hafif ağırlık ya da daha kısa süre. Tamamen bırakmak yerine ağrının kabul edilebilir sınırlarda kaldığı düzeyi bulmaya çalışın."),
  ("Tamamen dinlenmek daha güvenli değil mi?", "Her zaman değil. Aşil kirişi sorunu olan 38 kişilik bir çalışmada, ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlev açısından anlamlı fark bulunmadı."),
+ ("Egzersiz uzun süren ağrıya gerçekten iyi gelir mi?", "21 Cochrane derlemesini bir araya getiren 2017 tarihli bir özet, egzersizin yan etkisinin az olduğunu ve ağrı şiddeti ile günlük işlevde küçük ya da orta düzeyde iyileşme sağlayabileceğini gösterdi. En sık görülen yan etki kas ağrısıydı ve birkaç hafta içinde geçti. Kanıtların kalitesi düşüktü; çalışmaların çoğu küçük ve kısa süreliydi."),
  ("Bu kurallar her ağrı için geçerli mi?", "Hayır. Bu model kiriş, eklem ve kas kaynaklı, uzun süren ağrılar için kullanılır. Yeni bir yaralanma, ameliyat sonrası dönem ya da sıcak ve şiş bir eklem varsa hekiminizin ya da fizyoterapistinizin önerisine uyun. Göğüs ağrısı, baş dönmesi gibi belirtilerde ise egzersizi hemen bırakın."),
 ]
 
@@ -911,6 +912,7 @@ EA_BODY = f'''<header class="page">
       {src_list([
         "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. " + ext("https://myorthoevidence.com/AceReport/Report/850", "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study") + ". Am J Sports Med. 2007;35(6):897–906.",
         "Smith BE, Hendrick P, Smith TO, et al. " + ext("https://ueaeprints.uea.ac.uk/id/eprint/63158/", "Should exercises be painful in the management of chronic musculoskeletal pain? A systematic review and meta-analysis") + ". Br J Sports Med. 2017;51(23):1679–1687.",
+        "Geneen LJ, Moore RA, Clarke C, et al. " + ext("https://www.cochrane.org/evidence/CD011279_physical-activity-and-exercise-chronic-pain-adults-overview-cochrane-reviews", "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews") + ". Cochrane Database Syst Rev. 2017;4:CD011279.",
       ])}
     </div>
   </section>

@@ -29,7 +29,7 @@ SELF10_CSS = SELF9_CSS + """
 PF_FAQ = [
  ("Pelvik taban egzersizleri kimler için?", "Kadınlar ve erkekler için. Öksürürken, hapşırırken ya da gülerken idrar kaçırma, sık ve ani tuvalete gitme isteği, doğum sonrası dönem ve prostat ameliyatı sonrası bu egzersizlerin en sık önerildiği durumlardır. Bir ameliyat, doğum ya da tedavi geçirdiyseniz ekibinizin size özel önerileri olabilir; önce onlara uyun."),
  ("İşe yarıyor mu?", "Evet. 31 randomize çalışmayı ve 1.817 kadını kapsayan bir Cochrane derlemesinde, öksürük ve zorlanmayla idrar kaçırma yaşayan kadınlarda pelvik taban egzersizi yapanların %56’sı iyileştiğini bildirdi; egzersiz yapmayanlarda bu oran %6’ydı. İyileşme ya da belirgin düzelme bildirenlerin oranı ise %74’e karşı %11’di. Derleme yalnızca kadınlarda yapıldı ve çoğu çalışmanın izlem süresi bir yıldan kısaydı."),
- ("Ne zaman fark ederim?", "Kasların güçlenmesi zaman alır: en az 3 ay düzenli çalışın. Başta yalnızca birkaç saniye tutabiliyor ya da birkaç tekrar yapabiliyorsanız sorun değil; devam edin ve kademeli artırın."),
+ ("Ne zaman fark ederim?", "Kasların güçlenmesi zaman alır: en az 3 ay düzenli çalışın. İngiltere’nin ulusal sağlık kılavuzu NICE de öksürük ve zorlanmayla ya da karışık tipte idrar kaçırması olan kadınlara, bir fizyoterapistin gözetiminde en az 3 ay sürecek bir pelvik taban programı öneriyor. Başta yalnızca birkaç saniye tutabiliyor ya da birkaç tekrar yapabiliyorsanız sorun değil; devam edin ve kademeli artırın."),
  ("Kasları doğru çalıştırdığımı nasıl anlarım?", "Bir elinizi anüs ile cinsel organlar arasındaki bölgeye (perine) koyun: kasları sıktığınızda bu bölge elinizden uzaklaşacak şekilde yukarı kalkmalı. Kalçanızı, uyluklarınızı ya da çenenizi sıkmayın, nefesinizi tutmayın ve karnınızı içeri çekmeyin."),
 ]
 
@@ -180,6 +180,7 @@ PF_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "St George’s University Hospitals NHS Foundation Trust, Physiotherapy. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2026/05/PHY_PFEA_01.pdf", "Pelvic floor exercises for all") + ". PHY_PFEA_01, May 2026.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng210/chapter/Recommendations", "Pelvic floor dysfunction: prevention and non-surgical management") + ". NICE guideline NG210, December 2021.",
         "Dumoulin C, Cacciari LP, Hay-Smith EJC. Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women. Cochrane Database Syst Rev. 2018;(10):CD005654. Özet: " + ext("https://evidence.nihr.ac.uk/alert/pelvic-floor-muscle-training-can-improve-symptoms-of-urinary-incontinence/", "NIHR Evidence, 2 January 2019") + ".",
       ])}
     </div>

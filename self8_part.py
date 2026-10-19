@@ -22,6 +22,7 @@ TUG_FAQ = [
  ("Testi tek başıma yapabilir miyim?", "Hayır. Süreyi tutacak ve güvenliğiniz için yanınızda yürüyecek birinin olması gerekir."),
  ("Baston ya da yürüteçle yapabilir miyim?", "Evet. Her zamanki ayakkabılarınızla ve günlük hayatta kullandığınız yürüme yardımcısıyla yapın. Zaman içinde karşılaştırmak için her seferinde aynı şekilde yapmanız yeterli."),
  ("Sürem 12 saniyenin üzerinde çıktı, ne yapmalıyım?", "Bu bir tanı değildir. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), testi 12 saniye ya da daha uzun sürede tamamlayan yaşlıları düşme açısından riskli kabul ediyor ve daha ayrıntılı değerlendirme öneriyor. Bir hekim ya da fizyoterapistle konuşabilir, aşağıdaki güç ve denge egzersizleriyle başlayabilirsiniz."),
+ ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Sağlıklı ve bağımsız yaşayan yaşlılarda yapılan çalışmalar da bu testin tek başına düşmeleri öngörmediğini gösteriyor. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
  ("Daha genç yaştaysam ne olacak?", "Buradaki karşılaştırma değerleri 60 yaş ve üstü kişilerden elde edildi. Daha genç yaştaysanız sürenizi kaydedip zaman içindeki değişimini izleyebilirsiniz."),
 ]
 
@@ -158,6 +159,8 @@ TUG_BODY = f'''<header class="page">
       {src_list([
         "Centers for Disease Control and Prevention (STEADI). " + ext("https://www.cdc.gov/steadi/pdf/steadi-assessment-tug-508.pdf", "Assessment: Timed Up & Go (TUG)") + ". 2017.",
         "Bohannon RW. " + ext("https://read.qxmd.com/doi/10.1519/00139143-200608000-00004", "Reference values for the timed up and go test: a descriptive meta-analysis") + ". J Geriatr Phys Ther. 2006.",
+        "Browne W, Nair BR. " + ext("https://doi.org/10.5694/mja2.12045", "The Timed Up and Go test") + ". Med J Aust. 2019;210(1):13–14.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
       ])}
     </div>
   </section>
