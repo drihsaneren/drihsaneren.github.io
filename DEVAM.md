@@ -607,3 +607,10 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Haberler (yen9, y9-0…13): genikülat arter embolizasyonu (Radiology), robotik protez (The BMJ), haftada 1 duvar oturuşu (BMJ OSEM). fb537–542.
 - Dikkat: publish.sh'den önce her zaman rebuild_home.sh çalıştırılmalı (yoksa splice_home END işaretini bulamaz).
 - Sonraki yen batch: yen10. Son fb: fb542.
+
+## 19 Ekim 2026 akşam turu (3 rehber, 2 araç, 3 haber)
+- Rehberler: cond58 omuz ucu (AC eklem) yaralanması (ACJ, en/ac-joint-injury; ac_assist yeni çizim), cond59 5. metatars kırığı (MT5, en/fifth-metatarsal-fracture; mt_circle, mt_toes, mt_inout yeni), cond60 bebeklerde tortikolis (TOR, en/torticollis-in-babies; tor_side, tor_rot, tor_carry, tor_tummy yeni; bölge boyun).
+- self11_part.py: dustukten-sonra-kalkma (C_GETUP, "Günlük hayat için" grubunun başında; soru → yardım/8 adım/bitti akışı, __gu) ve oturma-suresi (C_SIT, Ekelund 2016 Lancet Tablo 2 ve 3; hücre metinleri JS ile dile göre yazılır).
+- Haberler (yen10, y10-0…12): VITAL anestezi (JAMA), DBS depresyon yolları (Am J Psychiatry), kanserde yapılandırılmış egzersiz (BJSM). fb543–551.
+- DÜZELTME: Önceki turda eklenen Ekim 2026 GAE haberi, Haziran 2026'daki aynı Charité çalışmasının tekrarıydı; kaldırıldı ve ikinci IL_GAE tanımı silindi (Haziran haberi kendi çizimine döndü). Yeni haber eklerken NEWS listesinde aynı çalışma var mı diye başlık/kurum/örneklem ile kontrol et.
+- Sonraki yen batch: yen11. Son fb: fb551.
