@@ -600,3 +600,10 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Öne çıkan yıldız: PREM = {"dizin-12-sirri.html", "uc-kapi.html"} (build_pages.py). KC kartında "kc prem" (sağ üst köşede altın yıldız rozeti, ::before; liste görünümünde küçük resmin köşesinde), hap linklerinde "pill prem" (yazının yanında küçük yıldız, ::after). Yıldız CSS'te data-URI SVG, çeviriye etkisi yok.
 - Bilgi köşesi her açılışta liste görünümüyle başlar; kart görünümü yalnızca o ziyarette geçerli (eski bk-view kaydı siliniyor).
 - 19 Ekim: yıldız artık satır içi SVG (STAR sabiti, .prem-s); data-URI arka plan kaldırıldı. Kartlarda <span class="kc-star">, haplarda yazının yanında, haber başlık listesinde (hl-c) ve haber kartı etiketinde Nobel için (_nprem: cat "Nobel" ile başlıyorsa). PREM'e nobel-2026.html eklendi.
+
+## 19 Ekim 2026 turu (3 rehber, 2 araç, 3 haber)
+- Rehberler: cond55 kaburga kırığı (KB, en/broken-ribs; kb_breath, kb_cough yeni çizim), cond56 kasık zorlanması (KS, en/groin-strain; ks_ball, ks_bridge, ks_low, ks_band yeni çizim), cond57 çekiç parmak (MF, en/mallet-finger; mf_pip, mf_spread, mf_hook, mf_fist yeni çizim).
+- self10_part.py: pelvik-taban-zamanlayicisi (C_PFT, drihsaneren.pelvik.v1, test hook __pf) ve tempolu-yuruyus (C_TEMPO, Web Audio metronom, drihsaneren.tempo.v1, __tp). Grup: "Zamanlayıcıyla birlikte yapın".
+- Haberler (yen9, y9-0…13): genikülat arter embolizasyonu (Radiology), robotik protez (The BMJ), haftada 1 duvar oturuşu (BMJ OSEM). fb537–542.
+- Dikkat: publish.sh'den önce her zaman rebuild_home.sh çalıştırılmalı (yoksa splice_home END işaretini bulamaz).
+- Sonraki yen batch: yen10. Son fb: fb542.
