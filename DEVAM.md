@@ -599,3 +599,4 @@ Not: Springer sayfası WebFetch'te 429 verdi; proxy "bu sayfayı yeniden çekme"
 - Sonraki yen batch: yen9. Son fb: fb536.
 - Öne çıkan yıldız: PREM = {"dizin-12-sirri.html", "uc-kapi.html"} (build_pages.py). KC kartında "kc prem" (sağ üst köşede altın yıldız rozeti, ::before; liste görünümünde küçük resmin köşesinde), hap linklerinde "pill prem" (yazının yanında küçük yıldız, ::after). Yıldız CSS'te data-URI SVG, çeviriye etkisi yok.
 - Bilgi köşesi her açılışta liste görünümüyle başlar; kart görünümü yalnızca o ziyarette geçerli (eski bk-view kaydı siliniyor).
+- 19 Ekim: yıldız artık satır içi SVG (STAR sabiti, .prem-s); data-URI arka plan kaldırıldı. Kartlarda <span class="kc-star">, haplarda yazının yanında, haber başlık listesinde (hl-c) ve haber kartı etiketinde Nobel için (_nprem: cat "Nobel" ile başlıyorsa). PREM'e nobel-2026.html eklendi.
