@@ -632,3 +632,5 @@ Okunmuş kaynaklar:
 - 54 sayfaya kaynak eklendi; artık hiçbir sayfa 4'ten az kaynaklı değil (67 sayfa 4, kalanlar 5+). 13 sayfaya kısa TR SSS/cümle (__v1). Beighton eşiği 2017 ölçütlerine göre düzeltildi (çocuk 6, ≤50 yaş 5, >50 4).
 - Yalnız İngilizce kaynak satırı eklenen sayfalarda make_en "eksik" verirse: i18n'i __vN yap, export_todo çalıştır (identity'ye otomatik ekler), boş kalanları geri adlandır; kalanları "==" ile çevir.
 - SIRADA: Bilim gündemi — tek kaynaklı / dergi kaynağı olmayan 26 habere birincil yayın + bağımsız kaynak.
+- 20 Ekim: Bilim gündemi tamam. 21 habere birincil yayın (DOI) ya da bağımsız kaynak eklendi; artık tüm haberlerde en az 2 kaynak var. Çeviriler yenilikler__v1/__v2 yöntemiyle.
+- DİKKAT: yenilikler.html için export_todo'dan ÖNCE yenilikler.json'u __vN yap; yoksa done id'leri kayar.
