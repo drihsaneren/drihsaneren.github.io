@@ -250,7 +250,7 @@ SRT_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>10 puan</b><span>Testin en yüksek puanı: oturma için 5, kalkma için 5</span></div>
         <div class="stat"><b>4.282 kişi</b><span>46–75 yaş arası yetişkinlerin yaklaşık 12 yıl izlendiği 2026 tarihli araştırma</span></div>
-        <div class="stat"><b>6 kat</b><span>0–4 puan alanlarda, tam puan alanlara göre daha yüksek kalp-damar kaynaklı ölüm riski</span></div>
+        <div class="stat"><b>6 kat</b><span>Bu gözlem çalışmasında 0–4 puan alanlarda, tam puan alanlara göre daha yüksek kalp-damar kaynaklı ölüm riski</span></div>
         <div class="stat"><b>%21</b><span>İlk araştırmada (2.002 kişi) her 1 puanlık artışla ilişkili daha düşük ölüm riski</span></div>
       </div>
     </div>
@@ -665,7 +665,7 @@ SIGH_FAQ = [
  ("Meditasyondan daha mı iyi?", "Bu çalışmada olumlu duygulardaki artış ve solunum hızındaki düşüş döngüsel iç çekişte daha belirgindi; kaygı ise tüm gruplarda benzer şekilde azaldı. Bu tek bir çalışmadır ve meditasyon da yararlı bir yöntem olmayı sürdürüyor. Size iyi geleni seçin."),
  ("Nefes egzersizlerinin yararı kanıtlandı mı?", "785 yetişkini kapsayan randomize çalışmaların 2023 tarihli bir meta-analizinde nefes çalışmaları, stres, kaygı ve depresif belirtilerde küçük ile orta düzeyde azalma sağladı. Çalışmaların yanlılık riski orta düzeydeydi; daha iyi tasarlanmış araştırmalara ihtiyaç var."),
  ("Başım dönerse ne yapmalıyım?", "Hemen normal nefesinize dönün. Nefesi zorlamayın; ikinci nefes kısa ve hafif olabilir. Astım ya da KOAH gibi bir akciğer hastalığınız varsa rahat olduğunuz bir tempoda yapın."),
- ("Stres sayfasındaki nefes egzersizlerinden farkı ne?", "Stresli anlarda sayfasında 4-6, kutu ve 4-7-8 nefesleri var. Döngüsel iç çekişte fark, üst üste iki kez nefes alıp uzun bir nefes vermektir. Hepsi nefes verişi uzatmaya dayanır; hangisini daha rahat yapıyorsanız onu seçin."),
+ ("Stres sayfasındaki nefes egzersizlerinden farkı ne?", "Stresli anlarda sayfasında 4-6, kutu ve 4-7-8 nefesleri var. Döngüsel iç çekişte fark, üst üste iki kez nefes alıp uzun bir nefes vermektir. 4-6 ve 4-7-8 nefeslerinde nefes verişi alıştan uzundur; kutu nefesinde ise dört aşama eşit sürer. Hangisini daha rahat yapıyorsanız onu seçin."),
 ]
 
 SIGH_BODY = f'''<header class="page">
@@ -935,9 +935,9 @@ NATURE_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>120 dk</b><span>Haftalık eşik: bu sürenin altında belirgin bir fark görülmedi (19.806 kişi)</span></div>
+        <div class="stat"><b>120 dk</b><span>Bu sürenin altında iyi sağlık bildirmede belirgin bir fark görülmedi (19.806 kişilik anket; kesin bir doz değil)</span></div>
         <div class="stat"><b>1,59</b><span>Olasılık oranı: haftada 120–179 dk doğada vakit geçirenlerde iyi sağlık bildirme, hiç çıkmayanlara göre</span></div>
-        <div class="stat"><b>200–300 dk</b><span>Faydanın en yüksek görüldüğü aralık; daha fazlasında ek fayda görülmedi</span></div>
+        <div class="stat"><b>200–300 dk</b><span>İyi sağlık bildirmenin en yüksek olduğu aralık; daha fazlasında ek fark görülmedi</span></div>
         <div class="stat"><b>20–30 dk</b><span>Stres hormonu kortizolün en verimli düştüğü doğa molası süresi</span></div>
       </div>
     </div>

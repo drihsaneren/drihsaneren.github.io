@@ -38,7 +38,7 @@ SV["tor_tummy"] = fig(GRD +
 _ex2("tor_s", "tor_side", "Yana eğme germesi", "Bebeğinizi sırtüstü yatırın. Etkilenen taraftaki omzunu bir elinizle nazikçe sabitleyin, diğer elinizle başını kavrayın ve karşı taraftaki kulağını karşı omzuna doğru yavaşça yaklaştırın.", "10–15 saniye tutun, gün içinde birkaç kez")
 _ex2("tor_r", "tor_rot", "Başı çevirme germesi", "Bebeğiniz sırtüstüyken karşı taraftaki omzunu nazikçe sabitleyin ve başını yavaşça etkilenen tarafa, o omzun üzerinden bakacak şekilde çevirin.", "10–15 saniye tutun, gün içinde birkaç kez")
 _ex2("tor_c", "tor_carry", "Kolda yan yatırarak taşıma", "Bebeğinizi yüzü sizden uzağa bakacak şekilde, etkilenen taraftaki kulağı ön kolunuza gelecek biçimde yan yatırarak taşıyın. Ön kolunuz başını omzundan hafifçe uzaklaştırarak yana eğme germesi yapar; diğer kolunuzla gövdesini destekleyin.", "Gün içinde taşırken")
-_ex2("tor_t", "tor_tummy", "Karın üstü oyun", "Bebeğiniz uyanıkken ve siz yanındayken her gün karın üstünde zaman geçirmesini sağlayın. Oyuncakları ve yüzünüzü, başını çevirmekte zorlandığı tarafa koyun; dirsekleri omuzlarının altında olsun, göğsünün altına rulo yapılmış bir havlu koyabilirsiniz.", "Her gün, uyanıkken")
+_ex2("tor_t", "tor_tummy", "Karın üstü oyun", "Bebeğiniz uyanıkken ve siz yanındayken günde en az 3 kez karın üstünde zaman geçirmesini sağlayın. Oyuncakları ve yüzünüzü, başını çevirmekte zorlandığı tarafa koyun; dirsekleri omuzlarının altında olsun, göğsünün altına rulo yapılmış bir havlu koyabilirsiniz. Uyurken ise her zaman sırtüstü yatırın.", "Günde en az 3 kez, uyanıkken")
 
 TOR_FAQ = [
  ("Tortikolis bebeğimi acıtır mı?", "Çoğu bebek tortikolisten ağrı duymaz. Germeler sırasında bebeğiniz itiraz edebilir, ama canı yanmamalıdır; hareketleri yavaş ve nazik yapın."),
@@ -54,6 +54,7 @@ TOR_SRC = [
  "NHS Lothian, Royal Hospital for Children and Young People. " + ext("https://apps.nhslothian.scot/files/sites/2/Congenital-Torticollis-left-RHCYP-V4.0.pdf", "Congenital torticollis (left side)") + ". Version 4.0, September 2023.",
  "Kaplan SL, Coulter C, Sargent B. " + ext("https://www.apta.org/patient-care/evidence-based-practice-resources/cpgs/physical-therapy-management-of-congenital-muscular-torticollis-a-2018-evidence-based-clinical-practice-guideline-from-the-apta-academy-of-pediatric-physical-therapy-cpg", "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2018;30(4):240–290.",
  "Sargent B, Coulter C, Cannoy J, Kaplan SL. " + ext("https://doi.org/10.1097/pep.0000000000001114", "Physical therapy management of congenital muscular torticollis: a 2024 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2024;36(4):370–421",
+ "NHS. " + ext("https://www.nhs.uk/baby/caring-for-a-newborn/reduce-the-risk-of-sudden-infant-death-syndrome/", "Reduce the risk of sudden infant death syndrome (SIDS)") + ". Page last reviewed: 25 November 2025.",
 ]
 
 TOR_BODY = f'''<header class="page">
@@ -72,7 +73,7 @@ TOR_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>0–3 ay</b><span>Tortikolisin ortaya çıktığı dönem</span></div>
         <div class="stat"><b>10–15 saniye</b><span>Her germenin tutulduğu süre</span></div>
-        <div class="stat"><b>Her gün</b><span>Uyanıkken, gözetim altında karın üstü oyun</span></div>
+        <div class="stat"><b>Günde 3+</b><span>Uyanıkken, gözetim altında karın üstü oyun; uykuda her zaman sırtüstü</span></div>
         <div class="stat"><b>3 ay</b><span>Düzelme olmazsa ortopedi değerlendirmesi düşünülür</span></div>
       </div>
     </div>
@@ -98,7 +99,7 @@ TOR_BODY = f'''<header class="page">
           <li>Bebeğin dikkatinin hep aynı tarafa çekilmesi, örneğin arabasında hep aynı yerde duran sevdiği bir oyuncak.</li>
           <li>Bazen nedeni bilinmez.</li>
         </ul>
-        <p class="soft">Bebeklerde baş eğikliğinin başka nedenleri de olabileceği için önce bir hekimin ve çocuk fizyoterapistinin değerlendirmesi gerekir.</p>
+        <p class="soft">Bebeklerde baş eğikliğinin başka nedenleri de olabileceği için önce bir hekimin ve çocuk fizyoterapistinin değerlendirmesi gerekir. Amerikan Fizyoterapi Derneği'nin kılavuzu, baş eğikliği ya da tek tarafa bakma fark edilir edilmez bebeğin, bebeklerle çalışan bir fizyoterapiste yönlendirilmesini öneriyor.</p>
       </div>
     </div>
   </section>
@@ -139,7 +140,8 @@ TOR_BODY = f'''<header class="page">
       <ul class="dots redflags">
         <li>Bebeğinizin başındaki eğiklik ya da tek tarafa bakma isteği artıyorsa</li>
         <li>Germeleri yapmakta zorlanıyorsanız ya da bebeğinizin canı yanıyor gibi görünüyorsa</li>
-        <li>Boynundaki şişlik küçülmüyorsa</li>
+        <li>Boynundaki şişlik küçülmüyor ya da büyüyorsa, eğikliğin tarafı değişiyorsa</li>
+        <li>Bebeğiniz gözleriyle sizi ya da oyuncakları izlemekte zorlanıyorsa, kasları aşırı gevşek ya da sert görünüyorsa</li>
         <li>Başının arkasında ya da yanında belirgin bir düzleşme fark ediyorsanız</li>
       </ul>
       {CTA_CARD("Bebeğinizin tortikolisi", "bebeğimin tortikolisi")}

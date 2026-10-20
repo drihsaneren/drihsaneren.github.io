@@ -865,7 +865,7 @@ EA_BODY = f'''<header class="page">
           <span data-k="r3">Ağrı haftadan haftaya artıyor.</span>
         </div>
       </div>
-      <p class="count">Bu araç bir tanı aracı değildir; uzun süren kas-iskelet ağrılarında egzersizi ayarlamaya yardım eder.</p>
+      <p class="count">Bu araç bir tanı aracı değildir; uzun süren kas-iskelet ağrılarında egzersizi ayarlamaya yardım eder. Eşikler en çok kiriş (tendon) sorunlarında sınandı. Yeni bir yaralanmada ya da ameliyattan sonra bu araç yerine tedavi ekibinizin önerilerine uyun.</p>
     </div>
   </section>
 

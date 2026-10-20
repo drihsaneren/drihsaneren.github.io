@@ -14,7 +14,7 @@ EXT["bext"] = ("Ayakta arkaya esneme", "Ayağa kalkın, ayaklarınız omuz geni�
 DESK_FAQ = [
  ("Dik oturmak zorunda mıyım?", "Hayır. Tek bir ideal duruşun var olduğunu ya da 'yanlış' duruşlardan kaçınmanın bel ağrısını önlediğini gösteren güçlü bir kanıt yok. Omurga sağlam bir yapıdır; farklı pozisyonlarda rahatça oturabilirsiniz. Önemli olan uzun süre aynı pozisyonda kalmamak ve sık sık hareket etmektir."),
  ("Ayakta çalışma masası işe yarar mı?", "Oturma süresini azaltmaya yardım eder. İngiltere'de yapılan bir çalışmada ayarlanabilir masa ve destek programı, 12. ayda iş gününde oturma süresini yaklaşık 82 dakika azalttı; kas-iskelet şikâyetlerine etkisi ise tutarlı değildi. Uzun süre ayakta durmak da yorucudur; amaç oturma ve ayakta durma arasında dönüşümlü çalışmaktır."),
- ("Spor yapıyorum, uzun süre oturmak yine de zararlı mı?", "Günde 8 saatten fazla oturan kişilerde günde 60–75 dakika orta yoğunlukta hareket, uzun oturmayla ilişkili artmış ölüm riskini ortadan kaldırıyor. Dünya Sağlık Örgütü de oturma süresini sınırlamayı ve bu süreyi her yoğunlukta hareketle değiştirmeyi öneriyor."),
+ ("Spor yapıyorum, uzun süre oturmak yine de zararlı mı?", "Günde 8 saatten fazla oturan ama günde 60–75 dakika orta yoğunlukta hareket eden kişilerde, uzun oturma ölüm riskinde belirgin bir artışla ilişkili bulunmadı. Bu bir gözlem çalışmasıdır; riskin tamamen ortadan kalktığını göstermez. Dünya Sağlık Örgütü de oturma süresini sınırlamayı ve bu süreyi her yoğunlukta hareketle değiştirmeyi öneriyor."),
  ("Ne sıklıkla mola vermeliyim?", "Kesin bir süre için güçlü bir kanıt yok. Pratikte yarım saatte bir, en azından saatte bir kalkıp birkaç dakika hareket etmek iyi bir hedeftir. Telefonla konuşurken ayağa kalkmak, su almaya yürümek gibi küçük alışkanlıklar da sayılır."),
  ("Boynum ya da belim ağrıyorsa ne yapmalıyım?", "Çoğu boyun ve bel ağrısı ciddi bir nedene bağlı değildir ve hareketle azalır. <a href=\"boyun-agrisi.html\">Boyun ağrısı</a> ve <a href=\"bel-agrisi.html\">bel ağrısı</a> rehberlerindeki egzersizleri deneyebilirsiniz. Ağrı birkaç haftada düzelmiyorsa bir fizyoterapiste başvurun."),
 ]
@@ -43,7 +43,7 @@ DESK_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>150–300 dk</b><span>Dünya Sağlık Örgütü'nün yetişkinler için önerdiği haftalık orta yoğunlukta hareket</span></div>
         <div class="stat"><b>2 gün</b><span>Haftada en az kas güçlendirme egzersizi yapılması önerilen gün sayısı</span></div>
-        <div class="stat"><b>60–75 dk</b><span>Günde 8 saatten fazla oturanlarda artan ölüm riskini ortadan kaldıran günlük hareket</span></div>
+        <div class="stat"><b>60–75 dk</b><span>Bu kadar hareket edenlerde günde 8 saatten fazla oturmak, ölüm riskinde belirgin bir artışla ilişkili değildi</span></div>
         <div class="stat"><b>82 dk</b><span>Ayarlanabilir masa ve destek programıyla iş gününde azalan oturma süresi</span></div>
       </div>
     </div>

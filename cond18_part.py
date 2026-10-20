@@ -176,7 +176,7 @@ page("golfcu-dirsegi.html", "Golfçü Dirseği",
 
 # ============================================================== GUILLAIN-BARRÉ
 GB_FAQ = [
- ("Guillain-Barré sendromu tamamen geçer mi?", "Çoğu kişi, ağır geçirenler de dahil, tamamen iyileşir. Bazı kişilerde ise güçsüzlük, uyuşma, yorgunluk ya da ağrı uzun süre kalabilir. İyileşme birkaç haftadan birkaç yıla kadar sürebilir; bu yüzden rehabilitasyon ve düzenli kontrol önemlidir."),
+ ("Guillain-Barré sendromu tamamen geçer mi?", "Çoğu kişi tamamen iyileşir; NHS'ye göre çoğu kişi 6 ay içinde yürüyebilir hâle gelir ve bir yıl içinde iyileşir. Bazı kişilerde ise güçsüzlük, uyuşma, yorgunluk ya da ağrı uzun süre kalabilir. İyileşme birkaç haftadan birkaç yıla kadar sürebilir; bu yüzden rehabilitasyon ve düzenli kontrol önemlidir."),
  ("Ne kadar sürede yeniden yürürüm?", "Çoğu kişi altı ay içinde yürür ve bir yıl içinde toparlanır. Güçsüzlük genellikle ilk iki-dört hafta içinde en ağır düzeyine ulaşır, sonra yavaş yavaş geri döner. Süre kişiden kişiye çok değişir; güç her kasa aynı hızda dönmeyebilir."),
  ("Hastalık tekrarlar mı?", "Tekrarlayabilir; bu yüzden iyileştikten sonra önce birkaç ayda bir, sonra yılda bir kontrol önerilir. Uzun süredir devam eden belirtileriniz kötüleşirse ya da iyileştikten sonra belirtiler geri dönerse beklemeden uzmanınıza başvurun."),
  ("İyileşirken egzersiz yapmak zarar verir mi?", "Eldeki araştırmalar egzersizin yararlı olabileceğini gösteriyor: 16 çalışmayı inceleyen 2025 tarihli derlemeye göre egzersiz gücü artırabilir, yorgunluğu azaltabilir ve bağımsızlığı destekleyebilir. Yine de çalışmalar küçük ve kesin konuşmak için yeterli değil. Programı fizyoterapistinizle, yorgunluğunuza göre ayarlayın."),

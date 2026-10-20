@@ -259,7 +259,7 @@ _ex2("fb_cat", "cat", "Kedi-deve", "Ellerinizin ve dizlerinizin üzerinde durun.
 _ex2("fb_side", "side", "Boyun yana germe", "Dik oturun. Bir elinizle sandalyenin kenarını tutun ve kulağınızı karşı omzunuza doğru yavaşça yaklaştırın. Boynunuzun yanında hafif bir gerginlik hissedin; omzunuzu kaldırmayın.", "20–30 saniye, her iki yana 2 kez")
 
 FB_FAQ = [
- ("Fibromiyalji gerçek bir hastalık mı?", "Evet. Ağrı gerçektir; ancak kaynağı kaslarda ya da eklemlerde bir hasar değil, sinir sisteminin ağrı sinyallerini işleme biçimindeki değişikliktir. Bu yüzden kan tahlilleri ve görüntülemeler çoğunlukla normal çıkar."),
+ ("Fibromiyalji gerçek bir hastalık mı?", "Evet. Ağrı gerçektir; fibromiyaljideki ağrının kaynağı kaslarda ya da eklemlerde bir hasar değil, sinir sisteminin ağrı sinyallerini işleme biçimindeki değişikliktir. Bu yüzden kan tahlilleri ve görüntülemeler çoğunlukla normal çıkar. Yine de kireçlenme gibi başka bir ağrı nedeni de eşlik edebilir; yeni ya da farklı bir ağrıyı hekiminize gösterin."),
  ("Egzersiz yapınca ağrım artıyor, yine de devam etmeli miyim?", "Evet, ama dozu ayarlayarak. İlk haftalarda hafif bir artış olağandır ve vücut alıştıkça azalır. Ağrı ertesi gün belirgin şekilde artmışsa bir sonraki seansta süreyi ve yoğunluğu azaltın; tamamen bırakmayın."),
  ("Hangi egzersiz daha iyi?", "Düzenli yapabileceğiniz egzersiz. Aerobik egzersizin, güçlendirmenin ve su içi egzersizin faydası gösterildi; tai chi de bir çalışmada aerobik egzersiz kadar ya da daha etkili bulundu. Yürüyüşü birkaç güçlendirme hareketiyle birleştirmek iyi bir başlangıçtır."),
  ("Fibromiyalji geçer mi?", "Genellikle uzun süreli bir durumdur ve şikâyetler dönem dönem artıp azalabilir. Düzenli egzersiz, uyku düzeni ve ağrıyla başa çıkma becerileriyle belirtiler çoğu zaman belirgin şekilde hafifler."),
@@ -271,6 +271,7 @@ FB_SRC = [
  "Wang C, Schmid CH, Fielding RA, et al. " + ext("https://www.nccih.nih.gov/research/research-results/tai-chi-has-similar-or-greater-benefits-than-aerobic-exercise-for-fibromyalgia-study-shows", "Effect of tai chi versus aerobic exercise for fibromyalgia: comparative effectiveness randomized controlled trial") + ". BMJ. 2018;360:k851.",
  "Deare JC, Zheng Z, Xue CCL, et al. " + ext("https://www.cochrane.org/CD007070/MUSKEL_acupuncture-for-fibromyalgia", "Acupuncture for treating fibromyalgia") + ". Cochrane Database Syst Rev. 2013;(5):CD007070.",
  "Heidari F, Afshari M, Moosazadeh M. " + ext("https://link.springer.com/article/10.1007/s00296-017-3725-2", "Prevalence of fibromyalgia in general population and patients, a systematic review and meta-analysis") + ". Rheumatol Int. 2017;37(9):1527-1539.",
+ "Wolfe F, Clauw DJ, Fitzcharles MA, et al. " + ext("https://doi.org/10.1016/j.semarthrit.2016.08.012", "2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria") + ". Semin Arthritis Rheum. 2016;46(3):319–329.",
 ]
 
 FB_BODY = f'''<header class="page">
@@ -278,7 +279,7 @@ FB_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Fibromiyalji</h1>
-    <p class="lede">Vücudun birçok yerinde süren yaygın ağrı, yorgunluk ve dinlendirmeyen uykuyla seyreden bir durumdur. Ağrı gerçektir, ama kaslarda ya da eklemlerde bir hasar yoktur; sinir sisteminin ağrıyı işleme biçimi değişmiştir. Tedavide en güçlü kanıta sahip yöntem egzersizdir.</p>
+    <p class="lede">Vücudun birçok yerinde süren yaygın ağrı, yorgunluk ve dinlendirmeyen uykuyla seyreden bir durumdur. Ağrı gerçektir; fibromiyalji kaslarda ya da eklemlerde hasar yapmaz, sinir sisteminin ağrıyı işleme biçimi değişmiştir. Tedavide en güçlü kanıta sahip yöntem egzersizdir.</p>
     <p class="meta">Son güncelleme: 29 Eylül 2026</p>
   </div>
 </header>
@@ -300,7 +301,7 @@ FB_BODY = f'''<header class="page">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Fibromiyaljide beyin ve omurilik ağrı sinyallerine karşı aşırı duyarlı hale gelir; normalde rahatsız etmeyecek uyarılar ağrılı algılanır. Neden tam olarak bilinmiyor; genetik yatkınlık, uzun süreli stres, uyku bozukluğu, geçirilmiş enfeksiyonlar ya da başka ağrılı hastalıklar tetikleyici olabilir.</p>
-        <p class="soft">Tanı; belirtilerin en az 3 aydır sürmesi, muayene ve benzer belirtilere yol açabilecek diğer hastalıkların (tiroit hastalıkları, romatizmal hastalıklar, vitamin eksiklikleri gibi) dışlanmasıyla konur. Tanıyı koyduracak tek bir kan testi ya da görüntüleme yoktur.</p>
+        <p class="soft">Tanı; belirtilerin en az 3 aydır sürmesine, yaygın ağrının ve eşlik eden belirtilerin muayenede değerlendirilmesine dayanır. Benzer belirtilere yol açabilecek hastalıklar (tiroit hastalıkları, romatizmal hastalıklar, vitamin eksiklikleri gibi) muayene ve gerekirse kan testleriyle araştırılır. Ancak 2016'da güncellenen tanı ölçütlerine göre fibromiyalji başka bir hastalıkla birlikte de bulunabilir; başka bir tanının olması fibromiyalji tanısını geçersiz kılmaz. Tanıyı koyduracak tek bir kan testi ya da görüntüleme yoktur.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>

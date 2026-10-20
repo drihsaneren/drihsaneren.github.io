@@ -20,6 +20,7 @@ SL_SRC = [
  "Moley PJ. " + ext("https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/neck-and-back-pain/spondylolisthesis", "Spondylolisthesis") + ". MSD Manual Professional Version. Reviewed November 2024.",
  "Försth P, Ólafsson G, Carlsson T, et al. A randomized, controlled trial of fusion surgery for lumbar spinal stenosis. N Engl J Med. 2016;374(15):1413–1423. Özet: " + ext("https://www.thebottomline.org.uk/summaries/ssss/", "The Bottom Line, The Swedish Spinal Stenosis Study") + ".",
  "Matz PG, Meagher RJ, Lamer T, et al. " + ext("https://doi.org/10.1016/j.spinee.2015.11.055", "Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis") + ". Spine J. 2016;16(3):439–448",
+ "Margetis K, Gillis CC. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK430767/", "Spondylolisthesis") + ". In: StatPearls. Treasure Island (FL): StatPearls Publishing; last update 28 March 2025.",
 ]
 
 SL_BODY = f'''<header class="page">
@@ -27,7 +28,7 @@ SL_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel kayması (spondilolistezis)</h1>
-    <p class="lede">Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt seviyesinde görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda tedavinin temeli ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir.</p>
+    <p class="lede">Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt iki seviyesinde (L4–L5 ve L5–S1) görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda tedavinin temeli ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir.</p>
     <p class="meta">Son güncelleme: 11 Ekim 2026</p>
   </div>
 </header>
@@ -36,7 +37,7 @@ SL_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>L5–S1</b><span>En sık kaymanın görüldüğü seviye: belin en alt omuru ile kuyruk sokumu arası</span></div>
+        <div class="stat"><b>L4–L5</b><span>Yaşa bağlı kaymada en sık seviye; istmik kaymada ise L5–S1, yani belin en alt omuru ile kuyruk sokumu arası</span></div>
         <div class="stat"><b>4 derece</b><span>Kayma miktarına göre: I. derece %0–25, IV. derece %75–100</span></div>
         <div class="stat"><b>6 kat</b><span>Yaşa bağlı (dejeneratif) kaymanın kadınlarda erkeklere göre sıklığı</span></div>
         <div class="stat"><b>247 hasta</b><span>Ameliyata vida eklemenin yararını sınayan İsveç çalışması; 2 yılda fark yoktu</span></div>
@@ -49,8 +50,8 @@ SL_BODY = f'''<header class="page">
       <div>
         <h2>Neden olur?</h2>
         <ul class="tx">
-          <li><b>Yaşa bağlı (dejeneratif)</b><span>En sık türdür. Omurlar arasındaki disklerin ve eklemlerin yıpranmasıyla ortaya çıkar; genellikle 50–60 yaşın üzerinde ve kadınlarda görülür.</span></li>
-          <li><b>İstmik</b><span>Omurun arka kısmındaki ince kemik köprüde (pars interartikülaris) yorgunluk çatlağı oluşur ve omur kayar. Daha çok gençlerde ve sporcularda, tekrarlayan zorlanmaya bağlı görülür.</span></li>
+          <li><b>Yaşa bağlı (dejeneratif)</b><span>En sık türdür. Omurlar arasındaki disklerin ve eklemlerin yıpranmasıyla ortaya çıkar; genellikle 50–60 yaşın üzerinde ve kadınlarda görülür; en sık L4–L5 seviyesindedir.</span></li>
+          <li><b>İstmik</b><span>Omurun arka kısmındaki ince kemik köprüde (pars interartikülaris) yorgunluk çatlağı oluşur ve omur kayar. Daha çok gençlerde ve sporcularda, tekrarlayan zorlanmaya bağlı görülür; en sık L5–S1 seviyesindedir.</span></li>
           <li><b>Diğerleri</b><span>Doğuştan omur gelişim farkı, kaza ya da düşme, kemiği zayıflatan hastalıklar ve nadiren omurga ameliyatı sonrası.</span></li>
         </ul>
       </div>

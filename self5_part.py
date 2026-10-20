@@ -89,7 +89,7 @@ CS_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Kendinizi ölçün</p>
       <h2>Kamerayla ya da kamerasız deneyin</h2>
-      <p class="soft">Kamerayla: telefonu 2–3 metre uzağa, bel hizasında bir yere koyun; sizi yandan, başınızdan ayaklarınıza kadar görsün. Kamerasız: yanınızdaki biri her kalkışınızda ekrana dokunsun; yalnızsanız kalkışlarınızı kendiniz sayın ve süre bitince sonucu girin.</p>
+      <p class="soft">Kamerayla: telefonu 2–3 metre uzağa, bel hizasında bir yere koyun; sizi yandan, başınızdan ayaklarınıza kadar görsün. Kamerasız: yanınızdaki biri her kalkışınızda ekrana dokunsun; yalnızsanız kalkışlarınızı kendiniz sayın ve süre bitince sonucu girin. Kamera sayımı bir kalkışı atlayabilir ya da fazladan sayabilir; test bitince sayıyı kontrol edin, gerekirse − ve + ile düzeltin.</p>
       <div class="tool">
         <div class="bt">
           <div class="bt-opt">

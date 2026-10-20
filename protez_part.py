@@ -64,8 +64,8 @@ PROTEZ_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>1–3 gün</b><span>Kalça protezinde genel durumu iyi olanlarda taburculuk zamanı</span></div>
-        <div class="stat"><b>6 hafta</b><span>Diz protezinde yardımcısız yürümeyi denemek için yaklaşık süre</span></div>
-        <div class="stat"><b>En az 6 hafta</b><span>Tam diz ve kalça protezinden sonra araç kullanmadan önce</span></div>
+        <div class="stat"><b>6 hafta</b><span>Diz protezinde yardımcısız yürümeyi denemek için yaklaşık süre; kişiden kişiye değişir</span></div>
+        <div class="stat"><b>En az 6 hafta</b><span>Tam diz ve kalça protezinden sonra araç kullanmadan önce; kesin zamanı cerrahınız belirler</span></div>
         <div class="stat"><b>6–12 hafta</b><span>Diz protezinden sonra işe dönüş için genel süre</span></div>
       </div>
     </div>

@@ -9,7 +9,7 @@ _ex2("dr_pfq", "pf_stand", "Pelvik taban: hızlı kasılma", "Aynı kasları hı
 
 DR_FAQ = [
  ("Ayrılmayı kendim nasıl kontrol ederim?", "Sırtüstü yatın, dizleriniz bükülü olsun. Bir elinizin parmaklarını göbeğinizin hemen altına koyun. Karın kaslarınızı içeri çekip başınızı ve omuzlarınızı yavaşça kaldırın; iki kas şeridinin ortada sıkılaştığını hissedersiniz. Aradaki boşluğun kaç parmak genişliğinde olduğunu sayın."),
- ("Mekik ve diğer karın egzersizlerini yapabilir miyim?", "Aralık iki parmaktan genişse diğer karın egzersizlerini, aralık daralana kadar erteleyip yukarıdaki egzersizlere odaklanmanız öneriliyor. Gövdeyi aşırı burkan ya da yana büken hareketlerden kaçının. Spora ve ağır egzersize kademeli dönmek, bel ve leğen ağrısı riskini azaltır."),
+ ("Mekik ve diğer karın egzersizlerini yapabilir miyim?", "Bir NHS hastane broşürü, aralık iki parmaktan genişse diğer karın egzersizlerini aralık daralana kadar erteleyip yukarıdaki egzersizlere odaklanmayı öneriyor. Bu bir uygulama önerisidir; hangi karın egzersizinin ne zaman güvenli olduğunu gösteren güçlü araştırma kanıtı henüz yok. Gövdeyi aşırı burkan ya da yana büken hareketlerden kaçının. Spora ve ağır egzersize kademeli dönmek, bel ve leğen ağrısı riskini azaltır."),
  ("Egzersiz aralığı kapatır mı?", "Belirli bir egzersiz programının aralığı kapattığına dair kanıt şu an çok zayıf: 381 annenin katıldığı 7 çalışmayı inceleyen bir derleme, belirli bir program önermek için yeterli kanıt bulamadı. Yine de derin karın ve pelvik taban egzersizleri güvenli ve kasları güçlendirmek için iyi bir başlangıçtır."),
  ("Bel ağrısına yol açar mı?", "300 annenin izlendiği bir araştırmada, doğumdan 12 ay sonra karın kası ayrılması olan ve olmayan anneler aynı düzeyde bel ve leğen ağrısı bildirdi."),
  ("Korse işe yarar mı?", "Sıkı giysiler, korse ya da karın bandı iyileşme döneminde destek sağlayabilir. Ancak kaslarınızı çalıştırmanın yerini tutmaz."),
@@ -39,7 +39,7 @@ DR_BODY = f'''<header class="page">
         <div class="stat"><b>%60</b><span>İlk doğumunu yapan annelerde doğumdan 6 hafta sonra görülme oranı</span></div>
         <div class="stat"><b>%33</b><span>Aynı annelerde doğumdan 12 ay sonraki oran</span></div>
         <div class="stat"><b>6–8 hafta</b><span>Küçük ayrılmaların çoğu zaman kapandığı süre</span></div>
-        <div class="stat"><b>2 parmak</b><span>Aralık bundan genişse diğer karın egzersizlerini ertelemek öneriliyor</span></div>
+        <div class="stat"><b>2 parmak</b><span>Bir NHS broşürüne göre aralık bundan genişse diğer karın egzersizlerini ertelemek öneriliyor</span></div>
       </div>
     </div>
   </section>

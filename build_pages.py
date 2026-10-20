@@ -1598,7 +1598,7 @@ NEWS = [
       src=[("Current Rheumatology Reports, 9 Ekim 2026", "https://link.springer.com/article/10.1007/s11926-026-01239-7"), ("Amerikan Romatoloji Koleji kireçlenme kılavuzu, 2020", "https://doi.org/10.1002/acr.24131")],
       rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
  dict(il=IL_PDACT, g="hareket", cat="Parkinson", date="Ekim 2026",
-      title="Parkinson'da daha çok hareket, daha yavaş ilerleme",
+      title="Parkinson'da daha çok hareket, daha yavaş ilerlemeyle ilişkili",
       text="ABD'de Cincinnati Üniversitesi'nden araştırmacıların 7 Ekim 2026'da Neurology dergisinde yayımladığı çalışmada, hafif ve orta evre Parkinson hastası 294 kişi 7 yıla kadar izlendi. Haftada 8 saatten fazla orta ya da yüksek tempolu fiziksel aktivite (iş, ev işleri ve hobiler dahil) yapanlarda, 4 saatten az yapanlara göre düşünme becerilerindeki gerileme ve hareket belirtilerindeki kötüleşme daha yavaştı. Toplam süreye, yoğunlukla ağırlıklandırılmış miktara ve yalnızca yüksek tempolu aktiviteye bakıldığında da benzer ilişki görüldü.",
       point="Bu bir gözlem çalışması: Hareketin hastalığı yavaşlattığını kanıtlamıyor. Aktivite, kişilerin kendi beyanıyla anketle ölçüldü ve gruplar arasındaki farklar küçüktü; araştırmacılara göre bu küçük farklar yıllar içinde anlam kazanabilir. Yine de düzenli hareketin Parkinson'da ne kadar değerli olduğunu destekleyen bir veri daha.",
       src=[("Amerikan Nöroloji Akademisi (EurekAlert), 7 Ekim 2026", "https://www.eurekalert.org/news-releases/1146272"), ("U.S. News, 8 Ekim 2026", "https://www.usnews.com/news/health-news/articles/2026-10-08/exercise-can-slow-parkinsons-progression-study-says"), ("Neurology, 7 Ekim 2026", "https://doi.org/10.1212/WNL.0000000000218682")],
@@ -1609,12 +1609,6 @@ NEWS = [
       point="Yazarlar kireçlenmenin yaşlanmanın kaçınılmaz bir parçası gibi görülmemesini; birinci basamak sağlık hizmetlerine ve rehabilitasyona dahil edilmesini, düşük değerli tedavilerin azaltılıp hareketi destekleyen yaklaşımların yaygınlaştırılmasını istiyor. Diz kireçlenmesinde fazla kilo ve eklem yaralanmaları değiştirilebilir risk etkenleri. Avustralya'da 2009–10 yıllarına ait bir çalışmada kireçlenme başvurularının yalnızca %43'ü en iyi uygulama standartlarını karşılıyordu.",
       src=[("Knowridge, 14 Ekim 2026", "https://knowridge.com/2026/10/a-common-form-of-arthritis-could-affect-nearly-a-billion-people-by-2050/"), ("Medical Xpress, Ekim 2026", "https://medicalxpress.com/news/2026-10-billion-people-osteoarthritis-international-experts.html"), ("Curtin Üniversitesi, 12 Ekim 2026", "https://www.curtin.edu.au/research/news/nearly-one-billion-people-could-live-with-osteoarthritis-by-2050-international-experts-warn?type=media")],
       rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
- dict(il=IL_LACO, g="hareket", cat="Kireçlenme", date="Ekim 2026",
-      title="Bir sara ilacı kıkırdağı koruyabilir mi? Şimdilik yalnızca laboratuvarda",
-      text="Yale Tıp Fakültesi'nde yapılan ve Bioactive Materials dergisinde yayımlanan çalışmada, epilepsi tedavisinde kullanılan lakozamid adlı ilacın, kireçlenmiş eklemlerde aşırı çalışan Nav1.7 adlı sodyum kanalını engelleyerek kıkırdak hücrelerini yıkımdan onarıma doğru yönlendirdiği görüldü. Araştırmacılar ilacı, haftalar boyunca yavaşça salan ve vücut ısısında jöleleşen bir kolajen jelin içinde ekleme verdi; dört haftada bir yapılan tek iğne, her gün ağızdan verilen ilaçtan daha iyi korudu.",
-      point="Bulgular yalnızca hücre ve hayvan deneylerinden; ilaç insanda kireçlenme için hiç denenmedi. Etkili doz aralığı dar ve uzun süreli güvenliği bilinmiyor. Yani kireçlenme için kullanmak için henüz çok erken; bugün kanıtı en güçlü yaklaşımlar egzersiz, kilo kontrolü ve hastalığı tanımak.",
-      src=[("ScienceDaily (Yale Tıp Fakültesi), 8 Ekim 2026", "https://www.sciencedaily.com/releases/2026/10/261006234528.htm"), ("Bioactive Materials, 2026", "https://doi.org/10.1016/j.bioactmat.2026.02.045")],
-      rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
  dict(il=IL_ISOWEEK, g="kalp", cat="Tansiyon", date="Eylül 2026",
       title="Duvar oturuşunun tansiyona etkisi haftada bir seansla da sürebilir",
       text="BMJ Open Sport & Exercise Medicine dergisinde yayımlanan randomize kontrollü çalışmaya, büyük tansiyonu 120–140 mmHg arasında olan, düzenli egzersiz yapmayan ve yaş ortalaması 37 olan 100 yetişkin katıldı. Katılımcılar 4 hafta boyunca haftada 3 kez evde duvar oturuşu yaptı: her seansta 4 tekrar, aralarında 2 dakika oturarak dinlenme. Ardından 4 hafta boyunca haftada 3, 2 ya da 1 seansa devam ettiler ya da bıraktılar. 8. haftada büyük tansiyon başlangıca göre haftada 3 seansla 13,7, 2 seansla 7,0, 1 seansla 6,6 mmHg daha düşüktü; bırakanlarda ise tansiyon kontrol grubundan farksız düzeye döndü.",
@@ -1622,15 +1616,15 @@ NEWS = [
       src=[("BMJ Group, 29 Eylül 2026", "https://bmjgroup.com/a-weekly-session-of-isometric-exercise-training-may-maintain-lower-blood-pressure/"), ("BMJ Open Sport & Exercise Medicine, 2026", "https://doi.org/10.1136/bmjsem-2025-003172")],
       rel=("Tansiyon için duvar oturuşu", "duvar-oturusu.html")),
  dict(il=IL_YSTROKE, g="beyin", cat="İnme", date="Eylül 2026",
-      title="Gençlerde inme 30 yılda neredeyse iki katına çıktı",
+      title="ABD'nin bir bölgesinde gençlerde inme 30 yılda neredeyse iki katına çıktı",
       text="ABD'de Cincinnati ve Kuzey Kentucky bölgesinde 1993–2020 arasında 20–54 yaş arası yetişkinlerde görülen 2.076 inmenin incelendiği ve 23 Eylül 2026'da Neurology dergisinde yayımlanan çalışmada, bu yaş grubunda inme sıklığı 100 binde 33,9'dan 62,2'ye, yaklaşık %83 arttı. Damar tıkanmasına bağlı (iskemik) inme 100 binde 23,8'den 47,3'e çıktı. İnme geçirenler arasında madde kullanımı bildirenlerin oranı %4,6'dan %40,2'ye yükseldi; bu artışın büyük kısmı esrardan kaynaklanıyordu. Aynı dönemde inmeden sonraki 30 gün içinde ölüm oranı %11,7'den %9,4'e geriledi.",
       point="Çalışma tek bir bölgeden ve gözleme dayalı; madde kullanımının ya da başka bir etkenin bu artışa yol açtığını kanıtlamıyor. Yine de inme yalnızca yaşlıların sorunu değil: Yüzde kayma, kolda güçsüzlük ya da konuşma bozukluğu gibi ani belirtilerde, yaşınız ne olursa olsun hemen 112'yi arayın.",
       src=[("ScienceDaily, 15 Ekim 2026", "https://www.sciencedaily.com/releases/2026/10/261014015459.htm"), ("Neurology, 23 Eylül 2026", "https://doi.org/10.1212/WNL.0000000000218622")],
       rel=("İnme sonrası rehabilitasyon", "inme-rehabilitasyonu.html")),
  dict(il=IL_BLOOD, g="tani", cat="Alzheimer", feat=True, date="Eylül 2026",
       title="Alzheimer için kan testleri çoğalıyor",
-      text="ABD'de Gıda ve İlaç Dairesi (FDA), Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Son ikisi Ağustos 2026'da geldi. Bu testler beyin görüntülemesine ya da bel sıvısı alınmasına gerek kalmadan tanıyı kolaylaştırabilir.",
-      point="Önemli: Testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı. Şikâyeti olmayan sağlıklı kişilerde tarama için uygun değiller.",
+      text="ABD'de Gıda ve İlaç Dairesi (FDA), Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testin kullanımına izin verdi. Son ikisi Ağustos 2026'da geldi. Bu testler beyin görüntülemesine ya da bel sıvısı alınmasına gerek kalmadan tanıyı kolaylaştırabilir.",
+      point="Önemli: Testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak üzere izin aldı. Şikâyeti olmayan sağlıklı kişilerde tarama için uygun değiller.",
       src=[("TIME, 22 Eylül 2026", "https://time.com/article/2026/09/22/who-should-get-new-blood-tests-for-alzheimers-disease/"), ("Healio, 21 Ağustos 2026", "https://www.healio.com/news/neurology/20260821/fda-clears-precivityad2-alzheimers-disease-blood-test-as-early-as-age-40-years"), ("Pharmacy Times, 25 Ağustos 2026", "https://www.pharmacytimes.com/view/fda-clears-elecsys-phospho-tau-blood-test-for-alzheimer-disease")]),
  dict(il=IL_ONCOEX, g="hareket", cat="Kanser", date="Eylül 2026",
       title="Kanser tedavisinde yapılandırılmış egzersiz: daha uzun yaşam, daha az nüks",
@@ -1656,9 +1650,9 @@ NEWS = [
       point="Organ bekleme listelerinin uzunluğu düşünüldüğünde umut verici bir adım. Ancak şimdilik az sayıda hastadan elde edilen deneyimler var; genetiği düzenlenmiş domuz böbreklerinin güvenliği ve kalıcılığı klinik çalışmalarda araştırılıyor.",
       src=[("The Lancet, 9 Eylül 2026", "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01295-X/abstract"), ("Mass General Brigham", "https://news.massgeneralbrigham.org/en/pig-kidney-xenotransplant-bridge-to-human-transplant")]),
  dict(il=IL_HD, g="beyin", cat="Huntington", date="Eylül 2026",
-      title='Huntington hastalığında ilk gen tedavisi onay kapısında',
+      title="Huntington'da ilk gen tedavisi için onay başvurusu: 4. yıl verileri karışık",
       text="Huntington, kalıtsal ve ilerleyici bir beyin hastalığı; hareketi, düşünmeyi ve duygu durumunu etkiliyor ve gidişini yavaşlattığı kanıtlanmış bir tedavisi yok. uniQure'un geliştirdiği AMT-130, MR eşliğinde yapılan tek seferlik bir ameliyatla beynin derinindeki striatum bölgesine veriliyor ve hastalığa yol açan hatalı huntingtin proteininin üretimini azaltmayı hedefliyor. Yüksek dozu alan hastalarda 3. yılda hastalığın ilerlemesi, karşılaştırma grubuna göre %75 daha yavaştı; şirket Eylül 2026'da ABD ve İngiltere'de onay başvurusu yaptı.",
-      point="Sonuçlar az sayıda hastaya ve plasebo grubu yerine hastalık kayıtlarından seçilen benzer hastalarla karşılaştırmaya dayanıyor. 29 Eylül'de açıklanan 4. yıl verilerinde ana ölçekteki fark %44'e indi ve istatistiksel olarak anlamlı değildi; günlük işlev ölçeğinde %61'lik yavaşlama sürüyordu. Yüksek dozu alanların %17'sinde beyinde iltihapla ilişkili ciddi yan etki görüldü; bunların hepsi düzeldi.",
+      point="Sonuçlar faz I/II çalışmalardaki az sayıda hastaya ve plasebo grubu yerine hastalık kayıtlarından seçilen benzer hastalarla karşılaştırmaya dayanıyor. 29 Eylül'de açıklanan 4. yıl verilerinde ana ölçekteki fark %44'e indi ve istatistiksel olarak anlamlı değildi; günlük işlev ölçeğinde %61'lik yavaşlama sürüyordu. Yüksek dozu alanların %17'sinde beyinde iltihapla ilişkili ciddi yan etki görüldü; bunların hepsi düzeldi.",
       src=[('uniQure, 29 Eylül 2026', 'https://www.globenewswire.com/news-release/2026/09/29/3370692/0/en/uniqure-announces-additional-data-from-ongoing-phase-i-ii-studies-of-ifezuntirgene-inilparvovec-amt-130-in-huntington-s-disease-showing-continued-slowing-of-disease-progression.html'), ('BioPharm International, 2 Eylül 2026', 'https://www.biopharminternational.com/view/uniqure-submits-bla-and-maa-for-amt-130-gene-therapy-in-huntington-s-disease')]),
  dict(il=IL_TAVA, g="beyin", cat="Parkinson", date="Eylül 2026",
       title="Parkinson'da yeni etki biçimli ilaç: tavapadon",
@@ -1689,9 +1683,9 @@ NEWS = [
       point="Günde bir kez tablet olarak alınıyor. En sık yan etkiler döküntü, ishal, ağız yaraları ve bulantı. STAT'a konuşan bir onkolog onu pankreas kanserinde onlarca yılın en önemli gelişmesi olarak niteledi; ilacın ilk basamak tedavide kullanıldığı çalışmalar sürüyor.",
       src=[('FDA, 26 Ağustos 2026', 'https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer'), ('STAT', 'https://www.statnews.com/2026/08/26/pancreatic-cancer-drug-rasonque-approved/')]),
  dict(il=IL_VACCINE, g="gen", cat="Kanser", date="Ağustos 2026",
-      title="Kişiye özel mRNA kanser aşısı ilk kez faz III'te başarılı",
+      title="Kişiye özel mRNA kanser aşısı melanomda ilk kez bir faz III çalışmasının hedefine ulaştı",
       text="Merck ve Moderna'nın geliştirdiği intismeran, her hastanın tümöründeki mutasyonlara göre ayrı ayrı üretilen bir mRNA aşısı. Ameliyatla tümörü tamamen çıkarılmış evre IIB–IV melanomlu 1.137 hastanın katıldığı INTerpath-001 çalışmasında aşı, bir bağışıklık ilacıyla (pembrolizumab) birlikte verildi ve tek başına ilaca göre hastalığın geri dönmesini ve uzak organlara yayılmasını geciktirdi.",
-      point="Ayrıntılı sayılar henüz açıklanmadı; sonuçlar bir tıp kongresinde sunulacak. Önceki faz IIb çalışmasında nüks ya da ölüm riski %49 daha düşük bulunmuştu. Yeni bir güvenlik sorunu görülmedi.",
+      point="Ayrıntılı sayılar henüz açıklanmadı; sonuçlar bir tıp kongresinde sunulacak. Önceki faz IIb çalışmasında nüks ya da ölüm riski %49 daha düşük bulunmuştu. Yeni bir güvenlik sorunu görülmedi. Yaşam süresine etkisi henüz bilinmiyor; çalışma bunu izlemeyi sürdürüyor. Aşı hâlâ deneysel, hiçbir ülkede onaylı değil ve sonuç yalnızca ameliyat edilmiş ileri evre melanom için geçerli.",
       src=[("Merck, 19 Ağustos 2026", "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"), ("STAT", "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/")]),
  dict(il=IL_PARK, g="beyin", cat="Parkinson", date="Temmuz 2026",
       title="Parkinson'da kök hücreden beyin hücresi nakli",
@@ -1737,7 +1731,7 @@ NEWS = [
       src=[('Eli Lilly, 11 Aralık 2025', 'https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average'), ('Eli Lilly, 6 Haziran 2026', 'https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-drove-substantial-improvements'), ('Healio, 20 Ocak 2026', 'https://www.healio.com/news/endocrinology/20260120/retatrutide-confers-up-to-287-weight-loss-reduction-in-knee-osteoarthritis-pain')],
       rel=('Diz kireçlenmesi rehberi', 'diz-kireclenmesi.html')),
  dict(il=IL_CAVD, g="hareket", cat="Kemik sağlığı", date="Mayıs 2026",
-      title="Kalsiyum ve D vitamini takviyesi kırıkları ve düşmeleri önlemiyor",
+      title="Kalsiyum ve D vitamini takviyesi çoğu yaşlıda kırık ve düşmeleri azaltmadı",
       text="Kanadalı araştırmacıların The BMJ'de yayımladığı sistematik derlemede, kalsiyum, D vitamini ya da ikisinin birlikte kullanımını plasebo ya da tedavisizlikle karşılaştıran 69 randomize çalışma ve 153.902 yetişkinin verisi incelendi. Kalsiyum (11 çalışma, 9.067 kişi), D vitamini (36 çalışma, 92.045 kişi) ve ikisinin birlikte kullanımı (15 çalışma, 51.126 kişi) kırıkları, kalça kırığını ve düşmeleri anlamlı ölçüde azaltmadı. Sonuçlar yaş, cinsiyet, önceki kırık ya da düşme ve beslenmeyle alınan kalsiyum miktarından bağımsız olarak benzerdi; kanıtın kesinliği çoğunlukla orta ile yüksek düzeydeydi.",
       point="Bu sonuçlar herkese rutin takviye önermeyi desteklemiyor. Ancak kemik hastalığı olanlar ve osteoporoz ilacı kullananlar için geçerli olmayabilir; hekiminizin önerdiği takviyeyi kendi başınıza bırakmayın. Araştırmacılar kaynakların, düşmeyi önlediği kanıtlanmış denge ve kuvvet egzersizlerine ve kişiye özel düşme önleme programlarına yönlendirilmesini öneriyor.",
       src=[("BMJ basın bülteni, 20 Mayıs 2026", "https://bmjgroup.com/calcium-and-vitamin-d-supplements-offer-little-to-no-meaningful-benefit-on-fracture-and-fall-prevention/"), ("The BMJ, 2026", "https://doi.org/10.1136/bmj-2025-088050")],
@@ -1929,7 +1923,7 @@ def card(n):
 </article>'''
 
 NEWS_FAQ = [
- ("Alzheimer kan testiyle anlaşılabilir mi?", "ABD'de FDA, Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testi onayladı. Ancak bu testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak için onaylandı; şikâyeti olmayan sağlıklı kişilerde tarama için uygun değildir."),
+ ("Alzheimer kan testiyle anlaşılabilir mi?", "ABD'de FDA, Mayıs 2025'ten bu yana beyindeki amiloid ve tau değişikliklerini kandan ölçen dört testin kullanımına izin verdi. Ancak bu testler yalnızca hafıza şikâyeti olan kişilerde, hekim değerlendirmesinin parçası olarak kullanılmak üzere izin aldı; şikâyeti olmayan sağlıklı kişilerde tarama için uygun değildir."),
  ("Trontinemab onaylı bir Alzheimer ilacı mı?", "Hayır, henüz onaylı değildir; büyük faz III çalışmaları sürmektedir. Erken faz verilerine göre yüksek dozu alan hastaların %92'sinde 28 haftada beyindeki amiloid birikimi eşik değerin altına indi. Az sayıda hastada beyinde mikro kanama gibi yan etkiler izlendi."),
  ("Mamografiyi artık yapay zekâ mı okuyacak?", "Hayır. İsveç'teki MASAI çalışmasında yapay zekâ radyologların yerine değil, onlara destek olarak kullanıldı. Bu düzende kanserlerin daha fazlası taramada yakalandı, iki tarama arasında ortaya çıkan kanserler %12 azaldı ve yanlış alarm oranı artmadı."),
  ("Domuz organları insanlara nakledilebiliyor mu?", "Henüz deneysel. ABD'de bir hastaya nakledilen genetiği düzenlenmiş domuz böbreği onu 271 gün diyalizden uzak tuttu ve ardından insan böbreği nakline köprü oldu. Bu yöntemin güvenliği ve kalıcılığı klinik çalışmalarda araştırılıyor."),
@@ -1946,7 +1940,7 @@ NEWS_BODY = f'''<header class="page">
     <p class="eyebrow">Bilim gündemi</p>
     <h1>Geleceğin tıbbı, bugün</h1>
     <p class="lede">Tıbbın öncü alanlarındaki önemli gelişmelerin kısa ve anlaşılır özetleri. Her haberin altında kaynağı var.</p>
-    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 20 Ekim 2026</p>
   </div>
 </header>
 <main>

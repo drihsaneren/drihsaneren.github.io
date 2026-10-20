@@ -96,7 +96,7 @@ TOPUK_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>10'da 1</b><span>Hayatının bir döneminde topuk dikeni yaşayan kişi</span></div>
+        <div class="stat"><b>10'da 1</b><span>Hayatının bir döneminde plantar fasiit (topuk ağrısı) yaşayan kişi</span></div>
         <div class="stat"><b>%80</b><span>Uygun tedaviyle 12 ay içinde iyileşenler</span></div>
         <div class="stat"><b>40–60</b><span>En sık görüldüğü yaş aralığı</span></div>
         <div class="stat"><b>3,7 kat</b><span>Beden kitle indeksi 27'nin üzerinde olanlarda artan risk</span></div>

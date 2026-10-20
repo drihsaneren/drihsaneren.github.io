@@ -14,6 +14,7 @@ BFA_FAQ = [
  ("İşe ne zaman dönerim?", "İşinize göre değişir. NHS genellikle 4–6 hafta diyor; bir NHS broşürüne göre masa başı işlere 6–8 hafta, ağır bedensel işlere en az 3 ay, bazen 6 ay sonra dönülebilir. Kararı cerrahınızla birlikte verin."),
  ("Spora ne zaman başlayabilirim?", "Bir NHS broşürüne göre yara iyileştikten sonra 4. haftadan itibaren serbest stil ya da sırtüstü yüzme, 4–6 haftadan itibaren bisiklet ve tempolu yürüyüş, 3 aydan itibaren golf ve hafif tenis yapılabilir. İlk 6 ay koşudan ve ağır yük kaldırmaktan kaçının."),
  ("Ameliyattan sonra egzersiz programı işe yarar mı?", "22 randomize çalışmayı ve 2.503 kişiyi inceleyen bir Cochrane derlemesine göre ameliyattan 4–6 hafta sonra başlayan egzersiz programları, kısa vadede ağrıyı ve günlük işlevi hiç tedavi almamaya göre daha çok iyileştirdi. Yoğun programlar hafiflerden biraz daha etkiliydi; gözetimli program ile evde yapılan program arasında fark yoktu. Hiçbir çalışmada egzersiz yeniden ameliyat oranını artırmadı. Kanıtın kalitesi düşük ile çok düşük arasında."),
+ ("Bu kısıtlamalara uymak şart mı?", "Broşürlerdeki süreler genel önerilerdir ve cerrahtan cerraha değişir. Tek taraflı mikrodiskektomi olan 200 kişinin katıldığı ve 2026'da yayımlanan randomize bir çalışmada, ilk iki hafta oturma süresini, 5 kg'dan ağır kaldırmayı ve yorucu etkinliği kısıtlamak ile rahat ettiği ölçüde olağan etkinliğe dönmek arasında bir yılın sonunda fark bulunmadı; yeniden fıtıklaşma, ağrı, işlev ve yeniden ameliyat oranları benzerdi. Bu sonuç yalnızca bu ameliyat türü için geçerlidir, diğer omurga ameliyatlarına genellenemez. Size özel kısıtlamaları cerrahınıza sorun."),
  ("Hangi riskler var?", "Ciddi komplikasyonlar nadirdir. Bunlar arasında omurilik sıvısı sızıntısı, sinir hasarı, geçmeyen bel ağrısı ve omurların yerinden kayması sayılabilir; bazıları yeniden ameliyat gerektirebilir. Bacak ağrısı çoğu zaman hemen azalır, ama bel kaslarında bir süre sızı olabilir."),
 ]
 
@@ -22,6 +23,7 @@ BFA_SRC = [
  "Royal Berkshire NHS Foundation Trust. " + ext("https://www.royalberkshire.nhs.uk/media/3o2oorsg/information-and-exercises-following-microdiscectomy_sep25.pdf", "Information and exercises following microdiscectomy") + ". September 2025.",
  "James Paget University Hospitals NHS Foundation Trust. " + ext("https://www.jpaget.nhs.uk/media/pcuj555q/ph-37-lumbar-discectomy-decompression-advice-v1-web.pdf", "Lumbar discectomy / decompression advice") + ". PH 37.",
  "Oosterhuis T, Costa LOP, Maher CG, de Vet HCW, van Tulder MW, Ostelo RWJG. " + ext("https://www.cochrane.org/CD003007/rehabilitation-after-lumbar-disc-surgery", "Rehabilitation after lumbar disc surgery") + ". Cochrane Database Syst Rev. 2014;(3):CD003007.",
+ "Roadley J, Daly C, Rogers M, et al. " + ext("https://doi.org/10.1097/BRS.0000000000005720", "Lumbar microdiscectomy and post-operative activity restrictions: a randomised controlled trial") + ". Spine. 2026 (çevrimiçi 29 Nisan 2026).",
 ]
 
 BFA_BODY = f'''<header class="page">
@@ -40,7 +42,7 @@ BFA_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>Ameliyat günü</b><span>Cerrahınız onaylarsa yürümeye başlanabilir</span></div>
         <div class="stat"><b>4–6 hafta</b><span>İşinize göre işe dönüş için genellikle gereken süre</span></div>
-        <div class="stat"><b>6 hafta</b><span>Yük kaldırmaktan ve uzun süre öne eğilmekten kaçınma süresi</span></div>
+        <div class="stat"><b>6 hafta</b><span>Hastane broşürlerinde yük kaldırmaktan ve uzun süre öne eğilmekten kaçınma için önerilen süre</span></div>
         <div class="stat"><b>12 hafta</b><span>Tüm olağan etkinliklere dönmenin sürebileceği süre</span></div>
       </div>
     </div>

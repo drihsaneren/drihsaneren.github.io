@@ -76,7 +76,7 @@ PF_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>%22,7</b><span>Toplumda bir yıl içinde diz önü ağrısı yaşayanların oranı</span></div>
         <div class="stat"><b>%28,9</b><span>Ergenlerde bir yıl içindeki görülme sıklığı</span></div>
-        <div class="stat"><b>%57</b><span>Tanıdan 5–8 yıl sonra ulaşılabilen hastalarda iyileşmediğini bildirenler</span></div>
+        <div class="stat"><b>%57</b><span>Bir izlem çalışmasında 5–8 yıl sonra yanıt veren 60 hastadan iyileşmediğini bildirenler</span></div>
         <div class="stat"><b>Kalça + diz</b><span>Uluslararası uzlaşı raporunun önerdiği egzersiz birlikteliği</span></div>
       </div>
     </div>
@@ -106,7 +106,7 @@ PF_BODY = f'''<header class="page">
       <h2>Tedavide ne işe yarar?</h2>
       <p class="soft">2018'de uluslararası araştırmacıların hazırladığı uzlaşı raporu egzersiz tedavisini, özellikle kalça ve diz egzersizlerinin birlikte yapılmasını öneriyor. Egzersizin başka yöntemlerle birleştirilmesi ve ayak tabanlıkları da önerilenler arasında. Buna karşılık dize ya da bele tek başına uygulanan mobilizasyonlar ve elektroterapi yöntemleri önerilmiyor; bantlama, dizlik, kuru iğneleme ve koşu tekniğinin değiştirilmesi konusunda ise kanıt yetersiz.</p>
       <div class="callout">
-        <p>Diz önü ağrısı kendiliğinden her zaman geçmeyebilir. Hollanda'da yapılan bir izlem çalışmasında tanıdan 5–8 yıl sonra ulaşılabilen hastaların %57'si iyileşmediğini bildirdi; ağrının başlangıçta 12 aydan uzun süredir devam ediyor olması kötü sonucun en güçlü göstergesiydi. Bu yüzden erken ve düzenli tedavi önemli.</p>
+        <p>Diz önü ağrısı kendiliğinden her zaman geçmeyebilir. Hollanda'da yapılan bir izlem çalışmasında, başlangıçtaki 310 hastadan 5–8 yıl sonra soruları yanıtlayan 60'ının (%19) %57'si iyileşmediğini bildirdi. Yanıt verenler küçük ve seçilmiş bir grup olduğu için bu oran herkes için bir tahmin değildir. Çalışmada ağrının başlangıçta 12 aydan uzun süredir devam ediyor olması kötü sonucun en güçlü göstergesiydi. Bu yüzden erken ve düzenli tedavi önemli.</p>
       </div>
     </div>
   </section>
@@ -550,7 +550,7 @@ SC_BODY = f'''<header class="page">
       </div>
       <ul class="tx" style="margin-top:22px">
         <li><b>Gözlem</b><span>Küçük eğriliklerde, büyüme süresince düzenli aralıklarla muayene ve gerektiğinde röntgen.</span></li>
-        <li><b>Skolyoza özgü egzersizler</b><span>Schroth gibi yöntemlerle, eğriliğin tipine göre kişiye özel program; ilk basamak tedavi.</span></li>
+        <li><b>Skolyoza özgü egzersizler</b><span>Schroth gibi yöntemlerle, eğriliğin tipine göre kişiye özel program; küçük eğriliklerde ilk basamak, korse gerektiğinde korsenin yerine değil yanında.</span></li>
         <li><b>Korse</b><span>Büyümesi süren ve eğriliği ilerleyen ya da 20–25 dereceyi aşan ergenlerde; egzersizlerle birlikte.</span></li>
         <li><b>Ameliyat</b><span>İleri eğriliklerde ortopedi uzmanınca değerlendirilir.</span></li>
         <li><b>Spor</b><span>Genel sağlık ve psikolojik faydaları nedeniyle, korse tedavisi sırasında da bırakılmamalıdır; ancak tek başına tedavi yerine geçmez.</span></li>

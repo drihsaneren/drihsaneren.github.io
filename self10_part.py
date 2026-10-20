@@ -47,7 +47,7 @@ PF_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>10 × 10 sn</b><span>Hedef: 10 saniyelik 10 yavaş sıkma</span></div>
+        <div class="stat"><b>10 × 10 sn</b><span>Ulaşılacak hedef: 10 saniyelik 10 yavaş sıkma; başta daha azıyla başlanır</span></div>
         <div class="stat"><b>10 hızlı</b><span>Ardından 10 kısa ve hızlı sıkma</span></div>
         <div class="stat"><b>Günde 3–4 kez</b><span>Kaslar yorulana kadar çalışın</span></div>
         <div class="stat"><b>En az 3 ay</b><span>Kasların güçlenmesi için gereken düzenli çalışma süresi</span></div>
@@ -168,6 +168,7 @@ PF_BODY = f'''<header class="page">
       <ul class="dots redflags">
         <li>8–12 hafta düzenli çalıştığınız hâlde belirtilerinizde değişiklik yoksa</li>
         <li>Kasların sıkıştığını ya da yukarı kalktığını hissedemiyorsanız</li>
+        <li>Egzersiz sırasında ya da sonrasında leğen, kuyruk sokumu ya da cinsel organlarda ağrı oluyorsa, tuvalette ağrınız varsa ya da mesanenizi tam boşaltmakta zorlanıyorsanız: kaslar fazla gergin olabilir; bu durumda önce gevşemeyi öğrenmek gerekir</li>
         <li>Egzersizleri yaparken belirtileriniz artıyorsa</li>
       </ul>
       <p class="soft">Bu durumlarda hekiminizle konuşabilir ve pelvik sağlık alanında çalışan bir fizyoterapistten değerlendirme isteyebilirsiniz.</p>
@@ -180,6 +181,7 @@ PF_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "St George’s University Hospitals NHS Foundation Trust, Physiotherapy. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2026/05/PHY_PFEA_01.pdf", "Pelvic floor exercises for all") + ". PHY_PFEA_01, May 2026.",
+        "St George’s University Hospitals NHS Foundation Trust, Pelvic Health Physiotherapy. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2025/05/PHP_PFR.pdf", "Pelvic floor muscle overactivity") + ". PHP_PFR_04, May 2025.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng210/chapter/Recommendations", "Pelvic floor dysfunction: prevention and non-surgical management") + ". NICE guideline NG210, December 2021.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng123", "Urinary incontinence and pelvic organ prolapse in women: management") + ". NICE guideline NG123, 2019",
         "Dumoulin C, Cacciari LP, Hay-Smith EJC. Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women. Cochrane Database Syst Rev. 2018;(10):CD005654. Özet: " + ext("https://evidence.nihr.ac.uk/alert/pelvic-floor-muscle-training-can-improve-symptoms-of-urinary-incontinence/", "NIHR Evidence, 2 January 2019") + ".",

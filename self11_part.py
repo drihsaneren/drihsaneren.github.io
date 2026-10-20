@@ -245,7 +245,7 @@ ST_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>1 milyon</b><span>16 çalışmada incelenen yetişkin sayısı</span></div>
-        <div class="stat"><b>60–75 dk</b><span>Uzun oturmanın etkisini ortadan kaldıran günlük orta tempolu hareket</span></div>
+        <div class="stat"><b>60–75 dk</b><span>Bu kadar orta tempolu hareket edenlerde uzun oturma, ölüm riskinde belirgin bir artışla ilişkili değildi</span></div>
         <div class="stat"><b>%59</b><span>En az hareket edip günde 8 saatten fazla oturanlarda, en hareketli ve en az oturanlara göre ölüm riski artışı</span></div>
         <div class="stat"><b>4’te 3</b><span>Katılımcılardan günde 60–75 dakikaya ulaşamayanların oranı</span></div>
       </div>

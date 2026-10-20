@@ -14,6 +14,7 @@ PI_FAQ = [
 PI_SRC = [
  "Hopayian K, Song F, Riera R, Sambandan S. The clinical features of the piriformis syndrome: a systematic review. Eur Spine J. 2010;19(12):2095–2109. " + ext("https://ueaeprints.uea.ac.uk/id/eprint/34961/", "ueaeprints.uea.ac.uk") + ".",
  "Hopayian K, Danielyan A. Four symptoms define the piriformis syndrome: an updated systematic review of its clinical features. Eur J Orthop Surg Traumatol. 2018;28(2):155–164. " + ext("https://ueaeprints.uea.ac.uk/id/eprint/92822", "ueaeprints.uea.ac.uk") + ".",
+ "Martin HD, Reddy M, Gómez-Hoyos J. " + ext("https://doi.org/10.1093/jhps/hnv029", "Deep gluteal syndrome") + ". J Hip Preserv Surg. 2015;2(2):99–107.",
  "NHS Lothian. " + ext("https://policyonline.nhslothian.scot/wp-content/uploads/2025/02/Piriformis-Syndrome.pdf", "Piriformis syndrome") + ". January 2025.",
  "NHS. " + ext("https://www.nhs.uk/conditions/sciatica/", "Sciatica") + ". Page last reviewed 3 December 2024.",
 ]
@@ -71,6 +72,7 @@ PI_BODY = f'''<header class="page">
         <h2>Tanı neden zor?</h2>
         <p class="soft">2010’da 55 çalışmayı inceleyen sistematik derlemede kanıtların çoğu olgu sunumları ve derlemelerden oluşuyordu. En sık bildirilen dört bulgu kalça ağrısı, kalçada siyatik çentik üzerinde basınca hassasiyet, oturunca artan ağrı ve piriformis kasını geren hareketlerle ortaya çıkan ağrıydı.</p>
         <p class="soft">2018’deki güncel derlemeye göre muayene testlerinin doğruluğu henüz bilinmiyor; düz bacak kaldırma testinin normal çıkması bu tanıyı dışlamıyor.</p>
+        <p class="soft">Siyatik sinir kalçanın derininde yalnızca piriformis kasıyla değil; başka kaslar, lifli bantlar ya da damarlarla da sıkışabilir. Bu yüzden uzmanlar bugün bu tabloyu daha geniş bir adla, “derin gluteal sendrom” olarak ele almayı tercih ediyor.</p>
       </div>
       <div>
         <h2>Ne kadar sık?</h2>
