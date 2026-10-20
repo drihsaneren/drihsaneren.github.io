@@ -1,0 +1,302 @@
+[
+ {
+  "id": "har0",
+  "kind": "text",
+  "tr": "Hareket Atıştırmalıkları: Günde 3 × 1 Dakika Hızlı Hareket ve Zamanlayıcı | İhsan Eren"
+ },
+ {
+  "id": "har1",
+  "kind": "attr",
+  "tr": "Spora vakit yok mu? Gün içine serpiştirilmiş birer dakikalık hızlı hareketler çok daha düşük ölüm riskiyle ilişkili. Altı atıştırmalık, bir dakikalık zamanlayıcı ve oturma molası hatırlatıcısı."
+ },
+ {
+  "id": "har2",
+  "kind": "text",
+  "tr": "Spora vakit yok mu? Belki gerek de yok, en azından başlamak için. Egzersiz yapmayan 25 bin kişinin bilekteki cihazlarla izlendiği bir araştırmada, gün içine serpiştirilmiş birer ikişer dakikalık hızlı hareketler (merdiveni koşar adım çıkmak, otobüse yetişmeye çalışmak gibi) çok daha düşük ölüm riskiyle ilişkiliydi. Aşağıdan bir “atıştırmalık” seçin, bir dakikalık zamanlayıcıyla birlikte yapın."
+ },
+ {
+  "id": "har3",
+  "kind": "text",
+  "tr": "Araştırmada ortanca: günde 3 kez, birer ikişer dakikalık hızlı hareket"
+ },
+ {
+  "id": "har4",
+  "kind": "text",
+  "tr": "Bu düzeyde, hiç yapmayanlara göre tüm nedenlerden ve kanserden ölüm riskinde daha düşük oran"
+ },
+ {
+  "id": "har5",
+  "kind": "text",
+  "tr": "Aynı düzeyde kalp-damar hastalığından ölüm riskinde daha düşük oran"
+ },
+ {
+  "id": "har6",
+  "kind": "text",
+  "tr": "30 dk’da 5 dk"
+ },
+ {
+  "id": "har7",
+  "kind": "text",
+  "tr": "Oturmayı yürüyüşle bölmek kan şekerindeki yükselmeyi azalttı"
+ },
+ {
+  "id": "har8",
+  "kind": "text",
+  "tr": "Bir atıştırmalık seçin"
+ },
+ {
+  "id": "har9",
+  "kind": "text",
+  "tr": "Hepsi bir dakikalık. Hedef: gün içine yayılmış üç atıştırmalık. Nefesiniz hızlansın, ama konuşamayacak kadar değil."
+ },
+ {
+  "id": "har10",
+  "kind": "text",
+  "tr": "Merdiveni hızlı çıkın"
+ },
+ {
+  "id": "har11",
+  "kind": "text",
+  "tr": "Otobüse yetişir gibi yürüyün"
+ },
+ {
+  "id": "har12",
+  "kind": "text",
+  "tr": "Bir dakika kalk-otur"
+ },
+ {
+  "id": "har13",
+  "kind": "text",
+  "tr": "Oturarak tempolu yerinde yürüyüş"
+ },
+ {
+  "id": "har14",
+  "kind": "text",
+  "tr": "Benim için seç"
+ },
+ {
+  "id": "har15",
+  "kind": "text",
+  "tr": "Bugün: 0 / 3"
+ },
+ {
+  "id": "har16",
+  "kind": "text",
+  "tr": "30 dakikada bir hareket molası hatırlat"
+ },
+ {
+  "id": "har17",
+  "kind": "text",
+  "tr": "Sayfa açık kaldığı sürece çalışır; ses ve titreşimle haber verir."
+ },
+ {
+  "id": "har18",
+  "kind": "text",
+  "tr": "Başlat’a basınca 3 saniyelik hazırlık, ardından 1 dakika."
+ },
+ {
+  "id": "har19",
+  "kind": "text",
+  "tr": "Başlayın"
+ },
+ {
+  "id": "har20",
+  "kind": "text",
+  "tr": "Yarısı bitti, temponuzu koruyun."
+ },
+ {
+  "id": "har21",
+  "kind": "text",
+  "tr": "Son 10 saniye!"
+ },
+ {
+  "id": "har22",
+  "kind": "text",
+  "tr": "Afiyet olsun!"
+ },
+ {
+  "id": "har23",
+  "kind": "text",
+  "tr": "Bir atıştırmalık daha tamam. Birkaç saat sonra bir tane daha yapabilirsiniz."
+ },
+ {
+  "id": "har24",
+  "kind": "text",
+  "tr": "Bugün: {n} / 3"
+ },
+ {
+  "id": "har25",
+  "kind": "text",
+  "tr": "Bugün: {n} atıştırmalık, hedef tamam!"
+ },
+ {
+  "id": "har26",
+  "kind": "text",
+  "tr": "Hareket molası: kalkın ve 5 dakika yürüyün ya da bir atıştırmalık yapın."
+ },
+ {
+  "id": "har27",
+  "kind": "text",
+  "tr": "Günlük sayacınız yalnızca bu cihazda saklanır."
+ },
+ {
+  "id": "har28",
+  "kind": "text",
+  "tr": "Atıştırmalık menüsü"
+ },
+ {
+  "id": "har29",
+  "kind": "text",
+  "tr": "Altı atıştırmalık, nasıl yapılır?"
+ },
+ {
+  "id": "har30",
+  "kind": "text",
+  "tr": "Gün içindeki fırsatları kullanın: merdiven, otobüs durağı, çaydanlığın kaynaması. Kalp hastalığınız, kontrolsüz tansiyonunuz ya da eklem sorununuz varsa önce hekiminize danışın ve hafif seçeneklerle başlayın."
+ },
+ {
+  "id": "har31",
+  "kind": "text",
+  "tr": "Merdiven çıkma"
+ },
+ {
+  "id": "har32",
+  "kind": "text",
+  "tr": "Asansör yerine merdiveni, nefesiniz hızlanacak bir tempoda çıkın. Korkuluğa yakın durun, gerekirse tutunun. İnişi yavaş yapın."
+ },
+ {
+  "id": "har33",
+  "kind": "text",
+  "tr": "1–2 dakika ya da 3 kat"
+ },
+ {
+  "id": "har34",
+  "kind": "text",
+  "tr": "Bir sonraki yürüyüşünüzün bir dakikasını hızlandırın: otobüse yetişmeye çalışır gibi, konuşmakta zorlanacağınız bir tempoda yürüyün, sonra normal tempoya dönün."
+ },
+ {
+  "id": "har35",
+  "kind": "text",
+  "tr": "1–2 dakika"
+ },
+ {
+  "id": "har36",
+  "kind": "text",
+  "tr": "Sağlam bir sandalyeden kollarınızı göğsünüzde çaprazlayarak kalkın ve kontrollü oturun. Bir dakika boyunca rahat edebildiğiniz bir hızda tekrarlayın."
+ },
+ {
+  "id": "har37",
+  "kind": "text",
+  "tr": "1 dakika"
+ },
+ {
+  "id": "har38",
+  "kind": "text",
+  "tr": "Duvardan bir kol boyu uzakta durun, ellerinizi göğüs hizasında duvara koyun. Sırtınız düz kalsın; dirseklerinizi bükerek göğsünüzü duvara yaklaştırın ve itin."
+ },
+ {
+  "id": "har39",
+  "kind": "text",
+  "tr": "Eklem ağrısı ya da denge sorunu varsa iyi bir seçenek. Sağlam bir sandalyede dik oturun, dizlerinizi sırayla hızlıca kaldırıp indirin, kollarınızı da sallayın."
+ },
+ {
+  "id": "har40",
+  "kind": "text",
+  "tr": "Tezgâha tutunarak dik durun. Topuklarınızı kaldırıp parmak uçlarınızda yükselin ve inin. Çaydanlık kaynarken yapmak için ideal."
+ },
+ {
+  "id": "har41",
+  "kind": "text",
+  "tr": "Araştırmalar ne diyor?"
+ },
+ {
+  "id": "har42",
+  "kind": "text",
+  "tr": "25.241 kişi, ortalama 6,9 yıl: gün içindeki kısa ve yüksek tempolu hareketler, ölüm riskiyle neredeyse doğrusal biçimde ters ilişkiliydi. Günde ortanca 4,4 dakika bile tüm nedenlerden ölüm riskinde %26–30 daha düşük oranla ilişkiliydi."
+ },
+ {
+  "id": "har43",
+  "kind": "text",
+  "tr": "Hareketsiz gençlerde 6 hafta boyunca haftada 3 gün, günde 3 kez 60 basamaklık merdiveni hızla çıkmak kondisyonu artırdı; artış küçüktü."
+ },
+ {
+  "id": "har44",
+  "kind": "text",
+  "tr": "Orta yaş ve üzeri 11 kişide 8 saatlik oturma 30 dakikada bir 5 dakikalık yürüyüşle bölündüğünde kan şekeri yükselmesi azaldı; tüm mola türleri büyük tansiyonu düşürdü."
+ },
+ {
+  "id": "har45",
+  "kind": "text",
+  "tr": "Yeni başlıyorsanız tempoyu yavaş yavaş artırın."
+ },
+ {
+  "id": "har46",
+  "kind": "text",
+  "tr": "Merdivende korkuluğa yakın durun; inişi yavaş yapın."
+ },
+ {
+  "id": "har47",
+  "kind": "text",
+  "tr": "Eklem ağrısı varsa oturarak yapılan ya da duvara dayanarak yapılan seçenekleri tercih edin."
+ },
+ {
+  "id": "har48",
+  "kind": "text",
+  "tr": "<strong>Hemen durun:</strong> Göğüs ağrısı, baş dönmesi, çarpıntı ya da alışılmadık nefes darlığı olursa hareketi bırakın; geçmiyorsa 112’yi arayın."
+ },
+ {
+  "id": "har49",
+  "kind": "text",
+  "tr": "Bu kadar kısa hareketler gerçekten işe yarar mı?"
+ },
+ {
+  "id": "har50",
+  "kind": "text",
+  "tr": "Ölüm riskiyle ilgili bulgular gözlemseldir; yani kısa hareket patlamaları yapanlarda riskin daha düşük olduğu görülmüş, ama bunun tamamen hareketin sonucu olduğu kanıtlanmış değil. Öte yandan küçük deneysel çalışmalarda da merdiven atıştırmalıklarının kondisyonu artırdığı ve oturmayı kısa yürüyüşlerle bölmenin tansiyonu ve kan şekerini olumlu etkilediği görüldü."
+ },
+ {
+  "id": "har51",
+  "kind": "text",
+  "tr": "Ne kadar zorlanmalıyım?"
+ },
+ {
+  "id": "har52",
+  "kind": "text",
+  "tr": "Araştırmadaki hareketler “yüksek tempolu”ydu: nefesinizin hızlandığı ve konuşmakta zorlandığınız bir düzey. Yeni başlıyorsanız, eklem ağrınız ya da kalp hastalığınız varsa daha hafif başlayıp zamanla artırabilirsiniz."
+ },
+ {
+  "id": "har53",
+  "kind": "text",
+  "tr": "Düzenli egzersizin yerine geçer mi?"
+ },
+ {
+  "id": "har54",
+  "kind": "text",
+  "tr": "Hayır, ama iyi bir başlangıç ya da tamamlayıcıdır. Araştırmaya katılanlar boş zamanlarında egzersiz yapmayan kişilerdi; egzersiz yapanlarda yüksek tempolu hareketle benzer ilişki görüldü. Kısa hareketler, egzersize zaman bulamadığınız günlerde hareketsiz kalmamanızı sağlar."
+ },
+ {
+  "id": "har55",
+  "kind": "text",
+  "tr": "Masa başında çalışıyorum, ne yapabilirim?"
+ },
+ {
+  "id": "har56",
+  "kind": "text",
+  "tr": "Küçük bir çalışmada her 30 dakikada bir 5 dakika hafif yürüyüş, kan şekerindeki yükselmeyi azalttı; daha kısa ve seyrek molalar bile büyük tansiyonu düşürdü. Yukarıdaki hatırlatıcıyı açabilir, masa başı rehberine de bakabilirsiniz."
+ },
+ {
+  "id": "har57",
+  "kind": "text",
+  "tr": "Daha fazlası için <a href=\"hareket.html\">hareket</a> ve <a href=\"masa-basi.html\">masa başı</a> rehberlerine bakabilirsiniz."
+ },
+ {
+  "id": "har58",
+  "kind": "text",
+  "tr": "Günlük hayatınıza uyan bir hareket planı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "har59",
+  "kind": "wa",
+  "tr": "Merhaba, hareket planı için evde değerlendirme ve seans planlamak istiyorum."
+ }
+]

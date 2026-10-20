@@ -44,6 +44,7 @@ GE_SRC = [
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/golfers-elbow/", "Golfer's elbow (medial epicondylosis/itis)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-golfers-elbow-4078", "Golfer's elbow") + ". Patient information leaflet B-275. September 2019.",
  "See ZH, Loo CE, Jaafar Z. " + ext("https://doi.org/10.1016/j.ctim.2026.103364", "Eccentric exercise therapy for medial epicondylitis: a systematic review of clinical outcomes") + ". Complement Ther Med. 2026;98:103364.",
+ "Amin NH, Kumar NS, Schickendantz MS. " + ext("https://sogacot.org/articulos/medial-epicondylitis-evaluation-and-management/", "Medial epicondylitis: evaluation and management") + ". J Am Acad Orthop Surg. 2015;23(6)",
 ]
 
 GE_BODY = f'''<header class="page">

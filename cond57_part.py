@@ -42,6 +42,7 @@ MF_FAQ = [
 MF_SRC = [
  "Royal United Hospitals Bath NHS Foundation Trust. " + ext("https://www.ruh.nhs.uk/patients/patient_information/ORT056_Advice_after_a_mallet_finger_injury.pdf", "Advice after a mallet finger injury") + ". ORT056, June 2025.",
  "Hull University Teaching Hospitals NHS Trust. " + ext("https://www.hey.nhs.uk/patient-leaflet/hand-therapy-mallet-injury-of-the-finger-pifu/", "Hand therapy: mallet injury of the finger") + ". HEY1342/2025, updated 30 June 2025.",
+ "Handoll HHG, Vaghela MV. " + ext("https://doi.org/10.1002/14651858.CD004574.pub2", "Interventions for treating mallet finger injuries") + ". Cochrane Database Syst Rev. 2004;(3):CD004574",
  "University Hospitals Coventry and Warwickshire NHS Trust. " + ext("https://www.uhcw.nhs.uk/download/clientfiles/files/Patient%20Information%20Leaflets/Trauma%20and%20Neuro%20services/Trauma%20and%20Orthopaedics/Mallet%20Finger.pdf", "Mallet finger") + ". Version 5, February 2025.",
 ]
 

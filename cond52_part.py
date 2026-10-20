@@ -22,6 +22,7 @@ KL_SRC = [
  "East Sussex Healthcare NHS Trust. " + ext("https://www.esht.nhs.uk/wp-content/uploads/2026/01/2025.pdf", "Clavicle (collar bone) fracture (displaced)") + ". November 2025.",
  "Oxford University Hospitals NHS Foundation Trust. " + ext("https://www.ouh.nhs.uk/media/mlfjrk0i/116943clavicle.pdf", "Clavicle fracture") + ". October 2025.",
  "United Lincolnshire Teaching Hospitals NHS Trust. " + ext("https://www.ulh.nhs.uk/wp-content/uploads/2025/07/Clavicle-fracture.pdf", "Clavicle fracture") + ". ULHT-LFT-4054, June 2025.",
+ "Lenza M, Faloppa F. " + ext("https://www.cochrane.org/evidence/CD007121_non-surgical-interventions-treating-broken-collarbone-adolescents-and-adults", "Conservative interventions for treating middle third clavicle fractures in adolescents and adults") + ". Cochrane Database Syst Rev. 2016;(12):CD007121",
 ]
 
 KL_BODY = f'''<header class="page">

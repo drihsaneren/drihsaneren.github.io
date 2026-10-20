@@ -627,3 +627,8 @@ Okunmuş kaynaklar:
 Önemli: düşme riski testi, 4 aşamalı denge ve TUG sayfalarına NICE NG249'un "bu testler riski tek başına tahmin etmez" notu eklenmeli.
 - 19 Ekim gece: TAMAMLANDI. 21 sayfanın hepsi ≥3 kaynak, her birinde en az 1 kılavuz/derleme. Yeni TR cümleler (SSS) 16 sayfada; __v1 yöntemiyle çevrildi. Kaynaklar: NICE NG249 + Dünya Düşme Kılavuzu (düşme/denge/TUG/kalkma), Browne&Nair 2019 (TUG), NICE NG210 (pelvik), Battle 2012/2023 (kaburga), APTA CMT 2018 (tortikolis), Ekelund 2020 BJSM + WHO 2020 (oturma, otur-kalk), Fincham 2023 (iç çekiş), IMMPACT 2008 + Redelmeier 1996 (ağrı günlüğü), Geneen 2017 Cochrane özet (egzersizde ağrı), Ashwell 2012 (bel-boy), Paton 2023 (arka uyluk), See 2026 (golfçü), Cordeiro 2024 + NHS Ayrshire (kalça yan), Vuurberg 2018 + NHS (ayak bileği), NHS TMD (çene), Castori 2017 (hipermobilite), NHS Tayside (Morton), Brooke-Wavell 2022 + NHS düşük tansiyon (sabah rutini).
 - DİKKAT: export_todo'yu __v1 yapmadan çalıştırma; mevcut todo'yu yalnız yeni cümlelerle ezer (git checkout ile düzeltildi).
+
+## 20 Ekim — KAYNAK TURU 2 (sayfalar tamam, haberler sırada)
+- 54 sayfaya kaynak eklendi; artık hiçbir sayfa 4'ten az kaynaklı değil (67 sayfa 4, kalanlar 5+). 13 sayfaya kısa TR SSS/cümle (__v1). Beighton eşiği 2017 ölçütlerine göre düzeltildi (çocuk 6, ≤50 yaş 5, >50 4).
+- Yalnız İngilizce kaynak satırı eklenen sayfalarda make_en "eksik" verirse: i18n'i __vN yap, export_todo çalıştır (identity'ye otomatik ekler), boş kalanları geri adlandır; kalanları "==" ile çevir.
+- SIRADA: Bilim gündemi — tek kaynaklı / dergi kaynağı olmayan 26 habere birincil yayın + bağımsız kaynak.

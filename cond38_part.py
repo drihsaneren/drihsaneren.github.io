@@ -18,6 +18,7 @@ MN_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/mortons-neuroma/", "Morton’s neuroma") + ". Page last reviewed 12 June 2025.",
  "Matthews BG, Hurn SE, Harding MP, et al. " + ext("https://link.springer.com/doi/10.1186/s13047-019-0320-7", "The effectiveness of non-surgical interventions for common plantar digital compressive neuropathy (Morton’s neuroma): a systematic review and meta-analysis") + ". Journal of Foot and Ankle Research. 2019;12:12.",
  "NHS Tayside, Referral Help System. " + ext("https://www.nhstayside.scot.nhs.uk/WorkingWithUs/ReferralHelpSystem/PROD_351192", "Morton’s neuroma") + ".",
+ "Matthews BG, Thomson CE, Harding MP, McKinley JC, Ware RS. " + ext("https://doi.org/10.1002/14651858.CD014687.pub2", "Treatments for Morton’s neuroma") + ". Cochrane Database Syst Rev. 2024;CD014687",
 ]
 
 MN_BODY = f'''<header class="page">

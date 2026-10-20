@@ -15,6 +15,7 @@ GG_FAQ = [
 GG_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/ganglion-cyst/", "Ganglion cyst") + ". Page last reviewed 16 July 2025.",
  "Academy of Medical Royal Colleges. " + ext("https://ebi.aomrc.org.uk/interventions/ganglion-excision/", "Evidence-Based Interventions: Ganglion excision") + ". Last reviewed September 2024.",
+ "Lyon C, Eldred SV, DeSanto K. " + ext("https://mdedge.com/content/what-best-treatment-wrist-ganglion-cysts", "What is the best treatment for wrist ganglion cysts?") + ". J Fam Pract. 2020;69(1):E23–E24",
  "British Society for Surgery of the Hand. " + ext("https://apps.nhslothian.scot/files/sites/2/ganglion_cyst_leaflet-2016-BSSH.pdf", "Ganglion cyst") + ". Patient information leaflet, 2016.",
 ]
 

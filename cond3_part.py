@@ -57,6 +57,7 @@ PF_SRC = [
  "Collins NJ, Barton CJ, van Middelkoop M, et al. " + ext("https://pure.eur.nl/en/publications/2018-consensus-statement-on-exercise-therapy-and-physical-interve/", "2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain: recommendations from the 5th International Patellofemoral Pain Research Retreat, Gold Coast, Australia, 2017") + ". Br J Sports Med. 2018;52(18):1170-1178.",
  "Smith BE, Selfe J, Thacker D, et al. " + ext("https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190892", "Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis") + ". PLoS One. 2018;13(1):e0190892.",
  "Lankhorst NE, van Middelkoop M, Crossley KM, et al. " + ext("https://repub.eur.nl/pub/97015", "Factors that predict a poor outcome 5-8 years after the diagnosis of patellofemoral pain: a multicentre observational analysis") + ". Br J Sports Med. 2016;50(14):881-886.",
+ "Willy RW, Hoglund LT, Barton CJ, et al. " + ext("https://doi.org/10.2519/jospt.2019.0302", "Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2019;49(9)",
 ]
 
 PF_BODY = f'''<header class="page">
@@ -207,6 +208,7 @@ AC_SRC = [
  "Martin RL, Chimenti R, Cuddeford T, et al. " + ext("https://www.jospt.org/doi/10.2519/jospt.2018.0302", "Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision 2018") + ". J Orthop Sports Phys Ther. 2018;48(5):A1-A38.",
  "Beyer R, Kongsgaard M, Hougs Kjær B, et al. " + ext("https://journals.sagepub.com/doi/abs/10.1177/0363546515584760", "Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial") + ". Am J Sports Med. 2015;43(7):1704-1711.",
  "Alfredson H, Pietilä T, Jonsson P, Lorentzon R. " + ext("https://journals.sagepub.com/doi/10.1177/03635465980260030301", "Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis") + ". Am J Sports Med. 1998;26(3):360-366.",
+ "Silbernagel KG, Hanlon S, Sprague A. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC7249277", "Current clinical concepts: conservative management of Achilles tendinopathy") + ". J Athl Train. 2020;55(5)",
 ]
 
 AC_BODY = f'''<header class="page">
@@ -359,6 +361,7 @@ HA_SRC = [
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/headache-disorders", "Migraine and other headache disorders") + ". Fact sheet.",
  "Jull G, Trott P, Potter H, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/12221344/", "A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache") + ". Spine. 2002;27(17):1835-1843.",
  "Headache Classification Committee of the International Headache Society. " + ext("https://ichd-3.org/", "The International Classification of Headache Disorders, 3rd edition") + ". Cephalalgia. 2018;38(1):1-211.",
+ "NICE. " + ext("https://www.nice.org.uk/guidance/cg150", "Headaches in over 12s: diagnosis and management") + ". NICE clinical guideline CG150, 2012",
 ]
 
 HA_BODY = f'''<header class="page">
@@ -492,6 +495,7 @@ SC_SRC = [
  "Negrini S, Donzelli S, Aulisa AG, et al. " + ext("https://link.springer.com/article/10.1186/s13013-017-0145-8", "2016 SOSORT guidelines: orthopaedic and rehabilitation treatment of idiopathic scoliosis during growth") + ". Scoliosis Spinal Disord. 2018;13:3.",
  "Weinstein SL, Dolan LA, Wright JG, Dobbs MB. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa1307337", "Effects of bracing in adolescents with idiopathic scoliosis") + ". N Engl J Med. 2013;369(16):1512-1521.",
  "Kuru T, Yeldan İ, Dereli EE, et al. " + ext("https://journals.sagepub.com/doi/abs/10.1177/0269215515575745", "The efficacy of three-dimensional Schroth exercises in adolescent idiopathic scoliosis: a randomised controlled clinical trial") + ". Clin Rehabil. 2016;30(2):181-190.",
+ "Romano M, Minozzi S, Bettany-Saltikov J, et al. " + ext("https://doi.org/10.1002/14651858.CD007837.pub3", "Therapeutic exercises for idiopathic scoliosis in adolescents") + ". Cochrane Database Syst Rev. 2024;CD007837",
 ]
 
 SC_BODY = f'''<header class="page">

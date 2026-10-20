@@ -8,7 +8,7 @@ _ex2("gr_k2c", "k2c", "Dizi göğse çekme", "Sırtüstü, bacaklarınız düz u
 _ex2("gr_calf", "calf", "Duvarda baldır germe", "Duvara dönük durun. Bir ayağınız önde, dizi hafif bükülü olsun; arkadaki bacağınız düz, topuğu yerde kalsın. Kalçanızı duvara doğru itin.", "30 saniye, her bacakla 2–3 kez")
 
 GRP_FAQ = [
- ("Gerçekten büyümeden mi oluyor?", "Hayır. Adı böyle olsa da büyüme ağrılarının büyümeyle bir ilgisi yoktur ve ciddi bir hastalığın işareti değildir. Nedeni bilinmiyor. Aktif çocuklarda ve çok spor yapılan günlerden sonra daha sık görülür; eklemleri çok esnek olan çocuklarda da sıktır."),
+ ("Gerçekten büyümeden mi oluyor?", "Hayır. Adı böyle olsa da büyüme ağrılarının büyümeyle bir ilgisi yoktur ve ciddi bir hastalığın işareti değildir. Nedeni bilinmiyor. Aktif çocuklarda ve çok spor yapılan günlerden sonra daha sık görülür; eklemleri çok esnek olan çocuklarda da sıktır. 147 çalışmayı inceleyen 2022 tarihli bir derlemede, büyüme ağrısını tanımlayan çalışmaların %90’ından fazlası tanımında büyümeden hiç söz etmiyordu."),
  ("Kan testi ya da röntgen gerekir mi?", "Genellikle gerekmez. Hekim ya da fizyoterapist, öyküyü dinleyip muayene ederek tanı koyabilir. Bu çocuklarda kan testleri ve röntgen normaldir; yalnızca başka bir nedenden şüphelenilirse istenir."),
  ("Ne kadar sürer?", "Ağrılar aylarca, hatta yıllarca gelip gidebilir, sonra kendiliğinden geçer. Kalıcı bir hasar bırakmaz ve ileride kireçlenme riskini artırmaz."),
  ("Çocuğum sporu bırakmalı mı?", "Bırakması gerekmez. Aktif kalmak ve kasları nazikçe güçlendirmek çoğu zaman ağrıyı azaltır. Ağrının hangi günlerde ve hangi etkinliklerden sonra geldiğini bir günlükle izlemek, düzeni görmeye yardımcı olur. Destekleyici, iyi oturan ve sıkıca bağlanan ayakkabılar da işe yarayabilir."),
@@ -19,6 +19,7 @@ GRP_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/growing-pains/", "Growing pains") + ". Page last reviewed: 16 June 2026.",
  "NHS Lothian, Royal Hospital for Children and Young People. " + ext("https://children.nhslothian.scot/nhs-leaflets/childhood-growing-pains/", "Childhood growing pains") + ". November 2024.",
  "Cambridge University Hospitals NHS Foundation Trust. " + ext("https://www.cuh.nhs.uk/patient-information/benign-nocturnal-idiopathic-limb-pains/", "Benign nocturnal idiopathic limb pains") + ". Version 2, September 2024.",
+ "O’Keeffe M, Kamper SJ, et al. " + ext("https://doi.org/10.1542/peds.2021-052578", "Defining growing pains: a scoping review") + ". Pediatrics. 2022;150(2):e2021052578",
  "Royal Berkshire NHS Foundation Trust. " + ext("https://royalberkshire.nhs.uk/media/xbdm44wd/growing-pains_apr25.pdf", "Growing pains") + ". April 2025.",
 ]
 

@@ -59,6 +59,7 @@ CS_FAQ = [
  ("Kamera görüntüm bir yere gönderiliyor mu?", "Hayır. Görüntü yalnızca sizin cihazınızda, tarayıcınızın içinde işlenir; kaydedilmez ve hiçbir sunucuya gönderilmez. Kamerayı ilk açtığınızda hareket algılama programı (Google’ın açık kaynaklı MediaPipe modeli, toplam yaklaşık 17 MB) cihazınıza indirilir; sayma işi tamamen cihazınızda yapılır. Sonuçlarınız da yalnızca bu cihazda saklanır."),
  ("Kamera yanlış sayarsa ne olur?", "Kamera sayacı bir yardımcıdır, kusursuz değildir. Bol kıyafet, kötü ışık ya da bacaklarınızın görüntüden çıkması sayımı bozabilir. Test bitince sayıyı kendiniz düzeltebilirsiniz. En güvenilir yol, yanınızdaki birinin de saymasıdır."),
  ("Kollarımı kullanmadan kalkamıyorsam?", "CDC’nin STEADI protokolüne göre kalkmak için kollarınızı kullanmanız gerekiyorsa test durdurulur ve sonuç 0 kaydedilir. Bu, bacak gücünüzün desteğe ihtiyacı olduğunu gösterir; bir fizyoterapist ya da hekimle değerlendirme yaptırmanız iyi olur."),
+ ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
  ("Sonucumu geliştirebilir miyim?", "Evet. Bacak gücü her yaşta egzersizle gelişebilir. Aşağıdaki egzersizlerle başlayabilir, testi birkaç haftada bir tekrarlayarak ilerlemenizi izleyebilirsiniz. Kalça kireçlenmesi olanlarda yapılan bir çalışmada 2 tekrarlık artış anlamlı bir iyileşme olarak kabul edildi."),
 ]
 
@@ -263,6 +264,8 @@ CS_BODY = f'''<header class="page">
         "McKay MJ, Baldwin JN, Ferreira P, et al. Reference values for developing responsive functional outcome measures across the lifespan. Neurology. 2017;88:1512–1519.",
         "Wright AA, Cook CE, et al. A comparison of 3 methodological approaches to defining major clinically important improvement of 4 performance measures in patients with hip osteoarthritis. J Orthop Sports Phys Ther. 2011;41(5):319–327.",
         "Shirley Ryan AbilityLab. " + ext("https://www.sralab.org/rehabilitation-measures/30-second-sit-stand-test", "30 Second Sit to Stand Test") + ". Rehabilitation Measures Database.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025",
+        "Montero-Odasso M, van der Velde N, Martin FC, et al. " + ext("https://doi.org/10.1093/ageing/afac205", "World guidelines for falls prevention and management for older adults: a global initiative") + ". Age Ageing. 2022;51(9):afac205",
       ])}
     </div>
   </section>

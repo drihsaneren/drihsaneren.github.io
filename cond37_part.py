@@ -28,6 +28,7 @@ OS_SRC = [
  "NHS Fife, Paediatric Orthopaedic Service. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/osgood-schlatter-s-disease", "Osgood Schlatter’s disease") + ". Reviewed January 2022.",
  "Bradford Teaching Hospitals NHS Foundation Trust. " + ext("https://bradfordhospitals.nhs.uk/wp-content/uploads/2025/02/25011305-Osgood-Schlatters-Disease-Leaflet-2.pdf", "Osgood Schlatter’s disease") + ". Patient leaflet, February 2025.",
  "Rathleff MS, Winiarski L, Krommes K, et al. " + ext("https://research.regionh.dk/en/publications/activity-modification-and-knee-strengthening-for-osgood-schlatter/", "Activity modification and knee strengthening for Osgood-Schlatter disease: a prospective cohort study") + ". Orthopaedic Journal of Sports Medicine. 2020;8(4):2325967120911106.",
+ "Neuhaus C, Appenzeller-Herzog C, Faude O. " + ext("https://doi.org/10.1016/j.ptsp.2021.03.002", "A systematic review on conservative treatment options for Osgood-Schlatter disease") + ". Phys Ther Sport. 2021;49:178–187",
 ]
 
 OS_BODY = f'''<header class="page">

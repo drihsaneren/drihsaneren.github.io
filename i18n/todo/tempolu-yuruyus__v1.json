@@ -1,0 +1,312 @@
+[
+ {
+  "id": "tem0",
+  "kind": "text",
+  "tr": "Tempolu Yürüyüş Metronomu: Dakikada 100 Adım | İhsan Eren"
+ },
+ {
+  "id": "tem1",
+  "kind": "attr",
+  "tr": "Yürüyüşünüz gerçekten tempolu mu? Dakikada 100 adım orta yoğunluğun eşiği. Seçtiğiniz tempoda adım sesi çalan metronom, 15 saniyelik tempo ölçümü ve haftalık takip."
+ },
+ {
+  "id": "tem2",
+  "kind": "text",
+  "tr": "Tempolu yürüyüş metronomu"
+ },
+ {
+  "id": "tem3",
+  "kind": "text",
+  "tr": "Yürüyüşünüz gerçekten “tempolu” mu? Araştırmalar, dakikada yaklaşık 100 adımın orta yoğunlukta egzersize karşılık geldiğini gösteriyor. Bu metronom seçtiğiniz tempoda her adımınız için bir ses çalar; siz de adımlarınızı sese uydurursunuz. Önce 15 saniyede kaç adım attığınızı sayarak bugünkü temponuzu ölçebilirsiniz."
+ },
+ {
+  "id": "tem4",
+  "kind": "text",
+  "tr": "Son güncelleme: 19 Ekim 2026"
+ },
+ {
+  "id": "tem5",
+  "kind": "text",
+  "tr": "100 adım/dk"
+ },
+ {
+  "id": "tem6",
+  "kind": "text",
+  "tr": "Orta yoğunluğun yaklaşık eşiği (3 MET)"
+ },
+ {
+  "id": "tem7",
+  "kind": "text",
+  "tr": "130 adım/dk"
+ },
+ {
+  "id": "tem8",
+  "kind": "text",
+  "tr": "Yüksek yoğunluğun yaklaşık eşiği (6 MET)"
+ },
+ {
+  "id": "tem9",
+  "kind": "text",
+  "tr": "+10 adım"
+ },
+ {
+  "id": "tem10",
+  "kind": "text",
+  "tr": "Dakikadaki her 10 adım, yaklaşık 1 MET daha fazla efor"
+ },
+ {
+  "id": "tem11",
+  "kind": "text",
+  "tr": "Haftalık en az orta yoğunlukta aktivite önerisi"
+ },
+ {
+  "id": "tem12",
+  "kind": "text",
+  "tr": "Adımlarınızı sese uydurun"
+ },
+ {
+  "id": "tem13",
+  "kind": "text",
+  "tr": "Tempoyu ve süreyi seçin, Başla’ya basın ve her seste bir adım atın. Sesi açın; ekran açık kalır."
+ },
+ {
+  "id": "tem14",
+  "kind": "text",
+  "tr": "Tempo (adım/dakika)"
+ },
+ {
+  "id": "tem15",
+  "kind": "text",
+  "tr": "10 dk"
+ },
+ {
+  "id": "tem16",
+  "kind": "text",
+  "tr": "20 dk"
+ },
+ {
+  "id": "tem17",
+  "kind": "text",
+  "tr": "30 dk"
+ },
+ {
+  "id": "tem18",
+  "kind": "text",
+  "tr": "Adım sesi"
+ },
+ {
+  "id": "tem19",
+  "kind": "text",
+  "tr": "Geçen süre"
+ },
+ {
+  "id": "tem20",
+  "kind": "text",
+  "tr": "kalan"
+ },
+ {
+  "id": "tem21",
+  "kind": "text",
+  "tr": "Başla’ya basın ve her seste bir adım atın."
+ },
+ {
+  "id": "tem22",
+  "kind": "text",
+  "tr": "Orta yoğunluk (yaklaşık 3 MET): tempolu yürüyüş."
+ },
+ {
+  "id": "tem23",
+  "kind": "text",
+  "tr": "Orta yoğunluk (yaklaşık 4 MET)."
+ },
+ {
+  "id": "tem24",
+  "kind": "text",
+  "tr": "Orta-yüksek yoğunluk (yaklaşık 5 MET)."
+ },
+ {
+  "id": "tem25",
+  "kind": "text",
+  "tr": "Yüksek yoğunluk (yaklaşık 6 MET): çok hızlı yürüyüş."
+ },
+ {
+  "id": "tem26",
+  "kind": "text",
+  "tr": "Yürüyün"
+ },
+ {
+  "id": "tem27",
+  "kind": "text",
+  "tr": "Her seste bir adım. Dik durun, kollarınızı sallayın."
+ },
+ {
+  "id": "tem28",
+  "kind": "text",
+  "tr": "Durduruldu"
+ },
+ {
+  "id": "tem29",
+  "kind": "text",
+  "tr": "Devam etmek için Başla’ya basın."
+ },
+ {
+  "id": "tem30",
+  "kind": "text",
+  "tr": "Yürüyüş tamam"
+ },
+ {
+  "id": "tem31",
+  "kind": "text",
+  "tr": "Birkaç dakika yavaş yürüyerek soğuyun."
+ },
+ {
+  "id": "tem32",
+  "kind": "text",
+  "tr": "Son 7 günde metronomla: {m} dakika / 150"
+ },
+ {
+  "id": "tem33",
+  "kind": "text",
+  "tr": "Temponuzu ölçün"
+ },
+ {
+  "id": "tem34",
+  "kind": "text",
+  "tr": "Her zamanki tempolu yürüyüşünüzle yürürken Başla’ya basın ve 15 saniye boyunca attığınız adımları sayın. Bitiş sesinden sonra sayıyı yazın."
+ },
+ {
+  "id": "tem35",
+  "kind": "text",
+  "tr": "15 saniyeyi başlat"
+ },
+ {
+  "id": "tem36",
+  "kind": "text",
+  "tr": "15 saniyedeki adım sayınız"
+ },
+ {
+  "id": "tem37",
+  "kind": "attr",
+  "tr": "ör. 27"
+ },
+ {
+  "id": "tem38",
+  "kind": "text",
+  "tr": "Temponuz: <b>{c} adım/dakika</b>. {t}"
+ },
+ {
+  "id": "tem39",
+  "kind": "text",
+  "tr": "Bu tempo orta yoğunluğun altında; dakikada 100 adıma doğru yavaş yavaş hızlanmayı deneyebilirsiniz."
+ },
+ {
+  "id": "tem40",
+  "kind": "text",
+  "tr": "Orta yoğunluktasınız: bu bir tempolu yürüyüş."
+ },
+ {
+  "id": "tem41",
+  "kind": "text",
+  "tr": "Yüksek yoğunluğa yakın ya da üstündesiniz."
+ },
+ {
+  "id": "tem42",
+  "kind": "text",
+  "tr": "Lütfen 5 ile 60 arasında bir sayı yazın."
+ },
+ {
+  "id": "tem43",
+  "kind": "text",
+  "tr": "Yürüyüş süreleriniz yalnızca bu cihazda saklanır; hiçbir yere gönderilmez."
+ },
+ {
+  "id": "tem44",
+  "kind": "text",
+  "tr": "Nasıl yürümeli?"
+ },
+ {
+  "id": "tem45",
+  "kind": "text",
+  "tr": "İlk 2–3 dakikayı rahat bir tempoyla yürüyerek ısının, sonra metronoma geçin."
+ },
+ {
+  "id": "tem46",
+  "kind": "text",
+  "tr": "Adımlarınızı uzatmaya çalışmayın; temponuzu artırmak için adım sıklığınızı artırın."
+ },
+ {
+  "id": "tem47",
+  "kind": "text",
+  "tr": "Dik durun, kollarınızı dirsekten bükerek doğal sallayın."
+ },
+ {
+  "id": "tem48",
+  "kind": "text",
+  "tr": "Rahat ayakkabı giyin ve düz, güvenli bir yol seçin."
+ },
+ {
+  "id": "tem49",
+  "kind": "text",
+  "tr": "<a href=\"yurume-hizi-testi.html\">Yürüme hızı testi</a>: her zamanki temponuzla 4 metreyi kaç saniyede yürüdüğünüzü ölçün."
+ },
+ {
+  "id": "tem50",
+  "kind": "text",
+  "tr": "<a href=\"hareket.html\">Ne kadar hareket?</a>: haftalık hareketinizi önerilerle karşılaştırın."
+ },
+ {
+  "id": "tem51",
+  "kind": "text",
+  "tr": "<a href=\"hareket-atistirmaliklari.html\">Hareket atıştırmalıkları</a>: gün içine serpiştirilmiş kısa hareket molaları."
+ },
+ {
+  "id": "tem52",
+  "kind": "text",
+  "tr": "Neden dakikada 100 adım?"
+ },
+ {
+  "id": "tem53",
+  "kind": "text",
+  "tr": "ABD’de laboratuvarda yapılan iki çalışmada (21–40 ve 41–60 yaş arası yetişkinler), dakikada yaklaşık 100 adımlık yürüyüşün orta yoğunluğa (3 MET), yaklaşık 130 adımın ise yüksek yoğunluğa (6 MET) karşılık geldiği görüldü. Her 10 adımlık artış yaklaşık 1 MET daha fazla eforu gösterir. Adım sayarak yürüyüşünüzün “tempolu” olup olmadığını pratik olarak anlayabilirsiniz."
+ },
+ {
+  "id": "tem54",
+  "kind": "text",
+  "tr": "Bu tempo herkes için aynı mı?"
+ },
+ {
+  "id": "tem55",
+  "kind": "text",
+  "tr": "Hayır. Bu değerler sağlıklı yetişkinlerin ortalamasıdır ve kişiden kişiye değişir. Kondisyonu düşük, yaşı ileri ya da kilosu fazla biri için dakikada 100 adım daha zorlayıcı olabilir. Rahat ettiğiniz bir tempoyla başlayın ve kademeli artırın. Kalp hastalığınız varsa ya da yürürken göğüs ağrısı, baş dönmesi veya konuşmanızı engelleyen nefes darlığı olursa durun ve hekiminize danışın."
+ },
+ {
+  "id": "tem56",
+  "kind": "text",
+  "tr": "Telefon cebimdeyken çalışır mı?"
+ },
+ {
+  "id": "tem57",
+  "kind": "text",
+  "tr": "Sayfa açıkken ekran kapanmasın diye ekran kilidi engellenir; sesler de bu sayede devam eder. Bazı telefonlarda ekran kilitlenirse ya da başka bir uygulamaya geçerseniz ses duraksayabilir. En iyisi ses açıkken ekranı açık bırakıp telefonu cebinizde taşımaktır."
+ },
+ {
+  "id": "tem58",
+  "kind": "text",
+  "tr": "Haftada ne kadar yürümeliyim?"
+ },
+ {
+  "id": "tem59",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü yetişkinlere haftada en az 150–300 dakika orta yoğunlukta ya da 75–150 dakika yüksek yoğunlukta aerobik aktivite öneriyor. Bu, haftada 5 gün günde 30 dakikalık tempolu yürüyüşle karşılanabilir; daha kısa yürüyüşler de sayılır."
+ },
+ {
+  "id": "tem60",
+  "kind": "text",
+  "tr": "Size uygun bir yürüyüş programı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "tem61",
+  "kind": "wa",
+  "tr": "Merhaba, kişiye özel yürüyüş ve egzersiz programı için evde değerlendirme ve seans planlamak istiyorum."
+ }
+]

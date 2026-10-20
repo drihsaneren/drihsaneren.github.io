@@ -24,6 +24,7 @@ BT_FAQ = [
 BT_SRC = [
  "Royal Berkshire NHS Foundation Trust, Emergency Department. " + ext("https://royalberkshire.nhs.uk/media/ufzl1bno/acute-torticollis-wry-neck-_jun24.pdf", "Acute torticollis (wry neck)") + ". June 2024.",
  "Dorset County Hospital NHS Foundation Trust. " + ext("https://www.dchft.nhs.uk/wp-content/uploads/2020/10/ED-Acute-Torticollis-0414.pdf", "Acute torticollis (wryneck)") + ". Patient information, April 2014.",
+ "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
  "nidirect. " + ext("https://www.nidirect.gov.uk/node/10321", "Meningitis") + ". Last updated 23 July 2026.",
 ]
 

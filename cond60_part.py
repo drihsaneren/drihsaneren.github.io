@@ -53,6 +53,7 @@ TOR_SRC = [
  "Royal Berkshire NHS Foundation Trust, Paediatric Physiotherapy. " + ext("https://royalberkshire.nhs.uk/media/4r0hxeui/congenital-muscular-torticollis-affecting-the-left_jun25.pdf", "Congenital muscular torticollis affecting the left") + ". June 2025.",
  "NHS Lothian, Royal Hospital for Children and Young People. " + ext("https://apps.nhslothian.scot/files/sites/2/Congenital-Torticollis-left-RHCYP-V4.0.pdf", "Congenital torticollis (left side)") + ". Version 4.0, September 2023.",
  "Kaplan SL, Coulter C, Sargent B. " + ext("https://www.apta.org/patient-care/evidence-based-practice-resources/cpgs/physical-therapy-management-of-congenital-muscular-torticollis-a-2018-evidence-based-clinical-practice-guideline-from-the-apta-academy-of-pediatric-physical-therapy-cpg", "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2018;30(4):240–290.",
+ "Sargent B, Coulter C, Cannoy J, Kaplan SL. " + ext("https://doi.org/10.1097/pep.0000000000001114", "Physical therapy management of congenital muscular torticollis: a 2024 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2024;36(4):370–421",
 ]
 
 TOR_BODY = f'''<header class="page">

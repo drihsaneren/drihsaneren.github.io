@@ -41,6 +41,7 @@ MT5_SRC = [
  "University Hospitals Sussex NHS Foundation Trust, Physiotherapy. " + ext("https://www.uhsussex.nhs.uk/wp-content/uploads/2025/06/2559-Base-of-5th-metatarsal-fracture-no-follow-up-appointment-2025.pdf", "Base of 5th metatarsal fracture") + ". 2559, August 2025.",
  "Royal Free London NHS Foundation Trust, Virtual fracture clinic. " + ext("https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/fifth-metatarsal-fractures", "Fifth metatarsal fractures") + ". RFL949 version 4, June 2025.",
  "East Sussex Healthcare NHS Trust. " + ext("https://www.esht.nhs.uk/wp-content/uploads/2026/01/2033.pdf", "Fracture of the base of the 5th metatarsal (Jones)") + ". November 2025.",
+ "Vu D, McDiarmid T, Brown M. " + ext("https://mdedge.com/content/what-most-effective-management-acute-fractures-base-fifth-metatarsal", "What is the most effective management of acute fractures of the base of the fifth metatarsal?") + ". J Fam Pract. 2006;55(8):713–717",
 ]
 
 MT5_BODY = f'''<header class="page">

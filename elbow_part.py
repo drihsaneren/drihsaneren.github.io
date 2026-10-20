@@ -53,6 +53,7 @@ DIRSEK_FAQ = [
 DIRSEK_SRC = [
  "Coombes BK, Bisset L, Brooks P, Khan A, Vicenzino B. " + ext("https://jamanetwork.com/journals/jama/fullarticle/1568252", "Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial") + ". JAMA. 2013;309(5):461-469.",
  "Lucado AM, Day JM, et al. " + ext("https://www.jospt.org/doi/10.2519/jospt.2022.0302", "Lateral elbow pain and muscle function impairments: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health") + ". J Orthop Sports Phys Ther. 2022;52(12).",
+ "Bisset LM, Vicenzino B. " + ext("https://pubmed.ncbi.nlm.nih.gov/26361816/", "Physiotherapy management of lateral epicondylalgia") + ". J Physiother. 2015;61(4):174–181",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Lateral_Epicondylitis", "Lateral Epicondylitis") + ".",
 ]
 

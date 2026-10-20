@@ -22,6 +22,7 @@ SO_SRC = [
  "Royal United Hospitals Bath NHS Foundation Trust. " + ext("https://ruh.nhs.uk/patients/patient_information/PHY024_Shoulder_Osteoarthritis.pdf", "Shoulder osteoarthritis") + ". RUH PHY/024, April 2020.",
  "NHS Lothian. " + ext("https://policyonline.nhslothian.scot/wp-content/uploads/2024/05/Shoulder-osteoarthritis.pdf", "Shoulder osteoarthritis") + ". Version 1.0, May 2024.",
  "East Lancashire Hospitals NHS Trust. " + ext("https://www.elht.nhs.uk/application/files/3415/2293/8362/Osteoarthritis_of_the_Shoulder_-_Patient__Information_and_Exercises_-_PHYSIO_001.pdf", "Osteoarthritis of the shoulder: patient information and exercises") + ". PHYSIO-001.",
+ "NICE. " + ext("https://www.nice.org.uk/guidance/ng226", "Osteoarthritis in over 16s: diagnosis and management") + ". NICE guideline NG226, 2022",
 ]
 
 SO_BODY = f'''<header class="page">

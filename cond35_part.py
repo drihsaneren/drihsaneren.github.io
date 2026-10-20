@@ -29,6 +29,7 @@ HS_SRC = [
  "nidirect. " + ext("https://nidirect.gov.uk/conditions/hamstring-injury-muscle-strain", "Hamstring injury (muscle strain)") + ". Last updated 19 December 2024.",
  "van Dyk N, Behan FP, Whiteley R. " + ext("https://bjsm.bmj.com/content/53/21/1362", "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes") + ". British Journal of Sports Medicine. 2019;53(21):1362.",
  "Paton BM, Read P, van Dyk N, et al. " + ext("https://bjsm.bmj.com/content/57/5/278", "London International Consensus and Delphi study on hamstring injuries part 3: rehabilitation, running and return to sport") + ". Br J Sports Med. 2023;57(5):278.",
+ "NHS. " + ext("https://www.nhs.uk/conditions/hamstring-injury", "Hamstring injury") + ". Page last reviewed 28 July 2025",
 ]
 
 HS_BODY = f'''<header class="page">

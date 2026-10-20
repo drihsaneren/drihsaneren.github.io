@@ -12,6 +12,7 @@ BD_FAQ = [
 BD_SRC = [
  "Grob D, Frauenfelder H, Mannion AF. The association between cervical spine curvature and neck pain. Eur Spine J. 2007;16(5):669–678. Özet: " + ext("https://www.painscience.com/biblio/detailed-study-of-correlations-between-neck-pain-and-curvature-finds-none.html", "PainScience, Detailed study of correlations between neck pain and curvature finds none") + ".",
  "McAviney J, Schulz D, Bock R, Harrison DE, Holland B. Determining the relationship between cervical lordosis and neck complaints. J Manipulative Physiol Ther. 2005;28(3):187–193. Özet: " + ext("https://www.painscience.com/biblio/painful-necks-about-10-degree-straighter-in-x-rays.html", "PainScience, Painful necks about 10 degree straighter in X-rays") + ".",
+ "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
  "NHS. " + ext("https://www.nhs.uk/conditions/neck-pain/", "Neck pain") + ". Page last reviewed 27 April 2023.",
 ]
 

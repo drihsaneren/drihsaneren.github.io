@@ -210,6 +210,7 @@ YH_BODY = f'''<header class="page">
         "Studenski S, Perera S, Patel K, et al. " + ext("https://immattersacp.org/weekly/archives/2011/01/11/4.htm", "Gait speed and survival in older adults") + ". JAMA. 2011;305:50–58.",
         "Bohannon RW, Andrews AW. " + ext("https://www.physicaltherapy.utoronto.ca/sites/default/files/assets/files/11walking-speed-age-and-sex-specific-normative-values-final.pdf", "Normal walking speed: a descriptive meta-analysis") + ". Physiotherapy. 2011;97:182–189.",
         "Harvard eFrailty. " + ext("https://efrailty.hsl.harvard.edu/ToolSPPB.html", "Short Physical Performance Battery (SPPB)") + ": gait speed test instructions.",
+        "Middleton A, Fritz SL, Lusardi M. " + ext("https://pubmed.ncbi.nlm.nih.gov/24812254/", "Walking speed: the functional vital sign") + ". J Aging Phys Act. 2015;23(2):314–322",
       ])}
     </div>
   </section>
@@ -437,6 +438,7 @@ AG_BODY = f'''<header class="page">
         "Farrar JT, Young JP Jr, LaMoreaux L, Werth JL, Poole RM. " + ext("https://chiro.org/LINKS/ABSTRACTS/Clinical_Importance_of_Changes.shtml", "Clinical importance of changes in chronic pain intensity measured on an 11-point numerical pain rating scale") + ". Pain. 2001;94(2):149–158.",
         "Dworkin RH, Turk DC, Wyrwich KW, et al. " + ext("https://scholars.duke.edu/publication/734891", "Interpreting the clinical importance of treatment outcomes in chronic pain clinical trials: IMMPACT recommendations") + ". J Pain. 2008;9(2):105–121.",
         "Redelmeier DA, Kahneman D. " + ext("https://doi.org/10.1016/0304-3959(96)02994-6", "Patients’ memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures") + ". Pain. 1996;66(1):3–8.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng193", "Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain") + ". NICE guideline NG193, 2021",
       ])}
     </div>
   </section>

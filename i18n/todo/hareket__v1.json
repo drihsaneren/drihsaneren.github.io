@@ -1,0 +1,327 @@
+[
+ {
+  "id": "har0",
+  "kind": "text",
+  "tr": "Ne Kadar Hareket Yeterli? Haftalık Hareket Ölçer ve Adım Sayısı | İhsan Eren"
+ },
+ {
+  "id": "har1",
+  "kind": "attr",
+  "tr": "Dünya Sağlık Örgütü önerilerine göre haftada ne kadar hareket etmelisiniz? Haftalık hareket ölçer, günde kaç adım gerektiği ve gün içine yayılan kısa hareketler hakkında güncel bulgular."
+ },
+ {
+  "id": "har2",
+  "kind": "text",
+  "tr": "Hareketin faydasını görmek için spor salonuna gitmek şart değil. Dünya Sağlık Örgütü'nün önerileri, günlük adım sayısı ve gün içine serpiştirilen kısa hareketler hakkındaki güncel bulgular. Kendi haftanızı da aşağıdaki ölçerle hesaplayın."
+ },
+ {
+  "id": "har3",
+  "kind": "text",
+  "tr": "Yetişkinler için önerilen haftalık orta yoğunlukta hareket"
+ },
+ {
+  "id": "har4",
+  "kind": "text",
+  "tr": "Günde 7.000 adım atanlarda, 2.000 adım atanlara göre daha düşük ölüm riski"
+ },
+ {
+  "id": "har5",
+  "kind": "text",
+  "tr": "3 × 1–2 dk"
+ },
+ {
+  "id": "har6",
+  "kind": "text",
+  "tr": "Gün içine yayılan kısa ve tempolu hareket: egzersiz yapmayanlarda daha düşük ölüm riskiyle ilişkili"
+ },
+ {
+  "id": "har7",
+  "kind": "text",
+  "tr": "Hemen hesaplayın"
+ },
+ {
+  "id": "har8",
+  "kind": "text",
+  "tr": "Haftalık hareket ölçer"
+ },
+ {
+  "id": "har9",
+  "kind": "text",
+  "tr": "Sıradan bir haftanızı düşünün. Dünya Sağlık Örgütü'ne göre 1 dakika yüksek yoğunlukta hareket, 2 dakika orta yoğunlukta harekete denk sayılır."
+ },
+ {
+  "id": "har10",
+  "kind": "text",
+  "tr": "Orta yoğunlukta hareket:"
+ },
+ {
+  "id": "har11",
+  "kind": "text",
+  "tr": "dk / hafta"
+ },
+ {
+  "id": "har12",
+  "kind": "attr",
+  "tr": "Haftalık orta yoğunlukta hareket (dakika)"
+ },
+ {
+  "id": "har13",
+  "kind": "text",
+  "tr": "Tempolu yürüyüş, bisiklet, dans, bahçe işleri. Konuşabilirsiniz ama şarkı söyleyemezsiniz."
+ },
+ {
+  "id": "har14",
+  "kind": "text",
+  "tr": "Yüksek yoğunlukta hareket:"
+ },
+ {
+  "id": "har15",
+  "kind": "attr",
+  "tr": "Haftalık yüksek yoğunlukta hareket (dakika)"
+ },
+ {
+  "id": "har16",
+  "kind": "text",
+  "tr": "Koşu, yokuş yukarı hızlı yürüyüş, tempolu yüzme. Nefes nefese kalır, ancak birkaç kelime söyleyebilirsiniz."
+ },
+ {
+  "id": "har17",
+  "kind": "text",
+  "tr": "Kas güçlendirme: haftada kaç gün?"
+ },
+ {
+  "id": "har18",
+  "kind": "text",
+  "tr": "65 yaş ve üstündeyim"
+ },
+ {
+  "id": "har19",
+  "kind": "text",
+  "tr": "Denge ve kuvvet çalışması: haftada kaç gün?"
+ },
+ {
+  "id": "har20",
+  "kind": "text",
+  "tr": "dakika / hafta, orta yoğunluk eşdeğeri"
+ },
+ {
+  "id": "har21",
+  "kind": "text",
+  "tr": "Temel hedefe {n} dakika kaldı. Her dakika sayılır; haftaya 10–15 dakika ekleyerek başlayabilirsiniz."
+ },
+ {
+  "id": "har22",
+  "kind": "text",
+  "tr": "Temel hedefe ulaştınız: haftada en az 150 dakika."
+ },
+ {
+  "id": "har23",
+  "kind": "text",
+  "tr": "Ek fayda aralığındasınız: haftada 300 dakika ve üstü."
+ },
+ {
+  "id": "har24",
+  "kind": "text",
+  "tr": "Kas güçlendirme: haftada en az 2 gün önerilir; {n} gün daha ekleyin."
+ },
+ {
+  "id": "har25",
+  "kind": "text",
+  "tr": "Kas güçlendirme hedefi tamam: haftada 2 gün ve üstü."
+ },
+ {
+  "id": "har26",
+  "kind": "text",
+  "tr": "Denge ve kuvvet: 65 yaş ve üstünde haftada en az 3 gün önerilir; {n} gün daha ekleyin."
+ },
+ {
+  "id": "har27",
+  "kind": "text",
+  "tr": "Denge ve kuvvet hedefi tamam: haftada 3 gün ve üstü."
+ },
+ {
+  "id": "har28",
+  "kind": "text",
+  "tr": "Halkadaki ince yeşil çizgi 150 dakikayı, halkanın tamamı 300 dakikayı gösterir. Bu ölçer bilgilendirme amaçlıdır; kişisel bir egzersiz reçetesi değildir."
+ },
+ {
+  "id": "har29",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü ne öneriyor?"
+ },
+ {
+  "id": "har30",
+  "kind": "text",
+  "tr": "2020'de güncellenen öneriler, hareketin her yaşta ve her miktarda fayda sağladığını vurguluyor: az da olsa hareket, hiç hareket etmemekten iyidir."
+ },
+ {
+  "id": "har31",
+  "kind": "text",
+  "tr": "<strong>Yetişkinler:</strong> haftada 150–300 dakika orta yoğunlukta ya da 75–150 dakika yüksek yoğunlukta hareket veya ikisinin eşdeğer bir karışımı."
+ },
+ {
+  "id": "har32",
+  "kind": "text",
+  "tr": "<strong>Kas güçlendirme:</strong> tüm büyük kas gruplarını çalıştıran egzersizler, haftada en az 2 gün."
+ },
+ {
+  "id": "har33",
+  "kind": "text",
+  "tr": "<strong>65 yaş ve üstü:</strong> bunlara ek olarak, düşmeleri önlemek için denge ve kuvveti birlikte çalıştıran hareketler, haftada en az 3 gün."
+ },
+ {
+  "id": "har34",
+  "kind": "text",
+  "tr": "<strong>Oturma süresi:</strong> uzun oturmaları sınırlayıp yerine her yoğunlukta hareket koymak."
+ },
+ {
+  "id": "har35",
+  "kind": "text",
+  "tr": "Adım sayısı: 10.000 sihirli bir sayı değil"
+ },
+ {
+  "id": "har36",
+  "kind": "text",
+  "tr": "57 çalışmayı bir araya getiren ve 2025'te <em>The Lancet Public Health</em>'te yayımlanan bir derlemede, günde 7.000 adım atanlar 2.000 adım atanlarla karşılaştırıldı:"
+ },
+ {
+  "id": "har37",
+  "kind": "text",
+  "tr": "Daha düşük ölüm riski"
+ },
+ {
+  "id": "har38",
+  "kind": "text",
+  "tr": "Daha düşük kalp-damar hastalığından ölüm riski"
+ },
+ {
+  "id": "har39",
+  "kind": "text",
+  "tr": "Daha düşük kalp-damar hastalığı riski"
+ },
+ {
+  "id": "har40",
+  "kind": "text",
+  "tr": "Daha düşük demans riski"
+ },
+ {
+  "id": "har41",
+  "kind": "text",
+  "tr": "Ölüm riskindeki azalma, günde 10.000 adım atanlardakine çok yakındı; bazı sonuçlarda 7.000 adımdan sonra fayda düzleşiyor. Bu bulgular gözlem çalışmalarına dayanır, yani ilişki gösterir; yine de az adım atan biri için her artış anlamlıdır."
+ },
+ {
+  "id": "har42",
+  "kind": "text",
+  "tr": "Hareket atıştırmalıkları"
+ },
+ {
+  "id": "har43",
+  "kind": "text",
+  "tr": "Egzersiz yapmayan ve ortalama 62 yaşındaki 25.241 kişinin bileklerine takılan cihazlarla ölçülen bir çalışmada, günlük hayatın içindeki kısa ve tempolu hareket patlamaları incelendi. Ortalama 7 yıllık izlemde, günde 1–2 dakikalık 3 kısa hareket yapanlarda hiç yapmayanlara göre genel ve kanser kaynaklı ölüm riski %38–40, kalp-damar kaynaklı ölüm riski %48–49 daha düşüktü."
+ },
+ {
+  "id": "har44",
+  "kind": "text",
+  "tr": "Merdivenleri tempolu çıkın."
+ },
+ {
+  "id": "har45",
+  "kind": "text",
+  "tr": "Otobüse ya da işe giderken birkaç dakika çok hızlı yürüyün."
+ },
+ {
+  "id": "har46",
+  "kind": "text",
+  "tr": "Alışveriş torbalarını taşıyın, çocuklarla ya da torunlarla hareketli oyunlar oynayın."
+ },
+ {
+  "id": "har47",
+  "kind": "text",
+  "tr": "Bu bir gözlem çalışmasıdır; neden-sonuç ilişkisini kanıtlamaz, ama egzersize vakit bulamayanlar için umut verici bir başlangıç noktasıdır."
+ },
+ {
+  "id": "har48",
+  "kind": "text",
+  "tr": "Günün 23,5 saati"
+ },
+ {
+  "id": "har49",
+  "kind": "text",
+  "tr": "Kanadalı aile hekimi Mike Evans'ın çizimlerle anlattığı, çok izlenen kısa videosu: günün yalnızca yarım saatini harekete ayırmak sağlığımızı nasıl etkiler? Video İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "har50",
+  "kind": "attr",
+  "tr": "23,5 saat videosunu oynat"
+ },
+ {
+  "id": "har51",
+  "kind": "text",
+  "tr": "23,5 saat: sağlığımız için yapabileceğimiz en iyi şey"
+ },
+ {
+  "id": "har52",
+  "kind": "text",
+  "tr": "Hareketin kalp, eklem, ruh sağlığı ve uzun yaşam üzerindeki etkilerini araştırmalarla anlatıyor."
+ },
+ {
+  "id": "har53",
+  "kind": "text",
+  "tr": "Günde 10.000 adım atmak şart mı?"
+ },
+ {
+  "id": "har54",
+  "kind": "text",
+  "tr": "Hayır. 57 çalışmayı bir araya getiren 2025 tarihli bir derlemede günde 7.000 adım atanlarda ölüm riski, 2.000 adım atanlara göre %47 daha düşüktü ve bu fayda 10.000 adımdakine çok yakındı. Bazı sonuçlarda 7.000 adımdan sonra fayda düzleşiyor. Az adım atıyorsanız her artış değerlidir."
+ },
+ {
+  "id": "har55",
+  "kind": "text",
+  "tr": "Ev işleri ve merdiven çıkmak sayılır mı?"
+ },
+ {
+  "id": "har56",
+  "kind": "text",
+  "tr": "Evet. Dünya Sağlık Örgütü her hareketin sayıldığını vurguluyor. Egzersiz yapmayan 25 binden fazla kişinin izlendiği bir çalışmada, günde 1–2 dakikalık üç kısa ve tempolu hareket (merdiven çıkmak, çok hızlı yürümek gibi) yapanlarda ölüm riski belirgin şekilde daha düşük bulundu."
+ },
+ {
+  "id": "har57",
+  "kind": "text",
+  "tr": "Kas güçlendirme için spor salonu gerekir mi?"
+ },
+ {
+  "id": "har58",
+  "kind": "text",
+  "tr": "Hayır. Sandalyeden kalkıp oturma, duvar şınavı, lastik bantla egzersizler ya da ağır alışveriş torbalarını taşımak da kaslarınızı çalıştırır. Önemli olan, tüm büyük kas gruplarını haftada en az 2 gün yormaktır."
+ },
+ {
+  "id": "har59",
+  "kind": "text",
+  "tr": "Hiç hareket etmiyorum, nereden başlamalıyım?"
+ },
+ {
+  "id": "har60",
+  "kind": "text",
+  "tr": "Az da olsa hareket, hiç hareket etmemekten iyidir. Küçük başlayın ve süreyi, sıklığı ve yoğunluğu zamanla artırın; örneğin günlük kısa bir yürüyüşle başlayıp her hafta birkaç dakika ekleyebilirsiniz. Kalp hastalığınız ya da yeni başlayan bir şikâyetiniz varsa önce hekiminize danışın."
+ },
+ {
+  "id": "har61",
+  "kind": "text",
+  "tr": "<strong>Dikkat:</strong> Hareket sırasında göğüs ağrısı, alışılmadık nefes darlığı, baş dönmesi ya da çarpıntı olursa durun ve bir hekime başvurun. Kalp hastalığınız varsa yeni bir programa başlamadan önce hekiminize danışın."
+ },
+ {
+  "id": "har62",
+  "kind": "text",
+  "tr": "Size uygun bir hareket programı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "har63",
+  "kind": "wa",
+  "tr": "Merhaba, kişiye özel egzersiz programı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "har64",
+  "kind": "ld",
+  "tr": "Fiziksel aktivite"
+ }
+]

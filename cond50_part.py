@@ -21,6 +21,7 @@ CZ_SRC = [
  "Hull University Teaching Hospitals NHS Trust. " + ext("https://hey.nhs.uk/patient-leaflet/soft-tissue-injury-calf-strain", "Soft tissue injury: calf strain") + ". HEY231/2025, updated June 2025.",
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-calf-muscle-tears-and-strains-6064", "Calf muscle tears and strains") + ". February 2025.",
  "Royal Free London NHS Foundation Trust. " + ext("https://royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/calf-muscle-tear", "Calf muscle tear") + ". RFL1181, June 2026.",
+ "Green B, Pizzari T. " + ext("https://bjsm.bmj.com/content/51/16/1189", "Calf muscle strain injuries in sport: a systematic review of risk factors for injury") + ". Br J Sports Med. 2017;51(16):1189–1194",
  "NHS. " + ext("https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/", "DVT (deep vein thrombosis)") + ". Page last reviewed: 30 April 2026.",
 ]
 

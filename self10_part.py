@@ -181,6 +181,7 @@ PF_BODY = f'''<header class="page">
       {src_list([
         "St George’s University Hospitals NHS Foundation Trust, Physiotherapy. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2026/05/PHY_PFEA_01.pdf", "Pelvic floor exercises for all") + ". PHY_PFEA_01, May 2026.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng210/chapter/Recommendations", "Pelvic floor dysfunction: prevention and non-surgical management") + ". NICE guideline NG210, December 2021.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng123", "Urinary incontinence and pelvic organ prolapse in women: management") + ". NICE guideline NG123, 2019",
         "Dumoulin C, Cacciari LP, Hay-Smith EJC. Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women. Cochrane Database Syst Rev. 2018;(10):CD005654. Özet: " + ext("https://evidence.nihr.ac.uk/alert/pelvic-floor-muscle-training-can-improve-symptoms-of-urinary-incontinence/", "NIHR Evidence, 2 January 2019") + ".",
       ])}
     </div>
@@ -284,6 +285,7 @@ TP_FAQ = [
  ("Neden dakikada 100 adım?", "ABD’de laboratuvarda yapılan iki çalışmada (21–40 ve 41–60 yaş arası yetişkinler), dakikada yaklaşık 100 adımlık yürüyüşün orta yoğunluğa (3 MET), yaklaşık 130 adımın ise yüksek yoğunluğa (6 MET) karşılık geldiği görüldü. Her 10 adımlık artış yaklaşık 1 MET daha fazla eforu gösterir. Adım sayarak yürüyüşünüzün “tempolu” olup olmadığını pratik olarak anlayabilirsiniz."),
  ("Bu tempo herkes için aynı mı?", "Hayır. Bu değerler sağlıklı yetişkinlerin ortalamasıdır ve kişiden kişiye değişir. Kondisyonu düşük, yaşı ileri ya da kilosu fazla biri için dakikada 100 adım daha zorlayıcı olabilir. Rahat ettiğiniz bir tempoyla başlayın ve kademeli artırın. Kalp hastalığınız varsa ya da yürürken göğüs ağrısı, baş dönmesi veya konuşmanızı engelleyen nefes darlığı olursa durun ve hekiminize danışın."),
  ("Telefon cebimdeyken çalışır mı?", "Sayfa açıkken ekran kapanmasın diye ekran kilidi engellenir; sesler de bu sayede devam eder. Bazı telefonlarda ekran kilitlenirse ya da başka bir uygulamaya geçerseniz ses duraksayabilir. En iyisi ses açıkken ekranı açık bırakıp telefonu cebinizde taşımaktır."),
+ ("Adım sayısı mı önemli, tempo mu?", "15 çalışmayı birleştiren 2022 tarihli bir meta-analizde günlük adım sayısı arttıkça ölüm riski azaldı; azalma 60 yaş ve üstünde yaklaşık 6.000–8.000, daha gençlerde 8.000–10.000 adımda düzleşti. Toplam adım sayısı hesaba katıldığında tempoyla ilişki zayıfladı. Yani önce gün içindeki toplam yürüyüşü artırmak, tempoyu ise kondisyonu geliştirmek için kullanmak mantıklı görünüyor."),
  ("Haftada ne kadar yürümeliyim?", "Dünya Sağlık Örgütü yetişkinlere haftada en az 150–300 dakika orta yoğunlukta ya da 75–150 dakika yüksek yoğunlukta aerobik aktivite öneriyor. Bu, haftada 5 gün günde 30 dakikalık tempolu yürüyüşle karşılanabilir; daha kısa yürüyüşler de sayılır."),
 ]
 
@@ -434,6 +436,7 @@ TP_BODY = f'''<header class="page">
         "Tudor-Locke C, Aguiar EJ, Han H, et al. " + ext("https://ijbnpa.biomedcentral.com/track/pdf/10.1186/s12966-019-0769-6", "Walking cadence (steps/min) and intensity in 21–40 year olds: CADENCE-adults") + ". Int J Behav Nutr Phys Act. 2019;16:8.",
         "Tudor-Locke C, Ducharme SW, Aguiar EJ, et al. " + ext("https://doi.org/10.1186/s12966-020-01045-z", "Walking cadence (steps/min) and intensity in 41 to 60-year-old adults: the CADENCE-adults study") + ". Int J Behav Nutr Phys Act. 2020;17.",
         "World Health Organization. " + ext("https://www.who.int/publications/i/item/9789240015128", "WHO guidelines on physical activity and sedentary behaviour") + ". 2020.",
+        "Paluch AE, Bajpai S, Bassett DR, et al. " + ext("https://doi.org/10.1016/S2468-2667(21)00302-9", "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts") + ". Lancet Public Health. 2022;7(3):e219–e228",
       ])}
     </div>
   </section>

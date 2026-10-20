@@ -11,7 +11,7 @@ _ex2("jh_walk", "walk", "Düşük darbeli hareket", "Yürüyüş, yüzme ve bisi
 
 JH_FAQ = [
  ("Esnek olmak hastalık mı?", "Hayır. Eklemleri esnek olan birçok kişinin hiçbir şikâyeti yoktur. Ancak bazı kişilerde esneklik ağrı, sık burkulma ya da çıkıklar ve yorgunlukla birlikte görülür; bu durumda eklem hipermobilite sendromu ya da hipermobilite spektrum bozukluğu adı kullanılır."),
- ("Beighton puanı nedir?", "Hekimlerin eklem esnekliğini değerlendirmek için kullandığı 9 puanlık basit bir muayenedir: serçe parmağın geriye 90 dereceden fazla bükülmesi, başparmağın ön kola değmesi, dirseğin ve dizin 10 dereceden fazla geriye açılması (her biri sağ ve sol için birer puan) ve dizler düzken avuçların yere düz basması (bir puan). Yetişkinlerde genellikle 4 ve üzeri puan esneklik olarak kabul edilir. Bu bir kendi kendine tanı testi değildir; tanıyı bir hekim koyar."),
+ ("Beighton puanı nedir?", "Hekimlerin eklem esnekliğini değerlendirmek için kullandığı 9 puanlık basit bir muayenedir: serçe parmağın geriye 90 dereceden fazla bükülmesi, başparmağın ön kola değmesi, dirseğin ve dizin 10 dereceden fazla geriye açılması (her biri sağ ve sol için birer puan) ve dizler düzken avuçların yere düz basması (bir puan). 2017 uluslararası ölçütlerine göre yaygın eklem esnekliği için eşik, çocuk ve ergenlerde 6, 50 yaşına kadar yetişkinlerde 5, 50 yaş üstünde 4 puandır. Bu bir kendi kendine tanı testi değildir; tanıyı bir hekim koyar."),
  ("Esneme egzersizleri yapmalı mıyım?", "Eklemleriniz zaten fazla açılıyorsa, onları sona kadar zorlayan esnemeler genellikle önerilmez. Amaç esnekliği artırmak değil, eklemleri çevresindeki kaslarla güçlendirip korumaktır. Aynı hareketi uzun süre tekrarlamaktan da kaçınmanız önerilir."),
  ("Egzersizin yararı kanıtlanmış mı?", "Kanıtlar sınırlı ama umut verici. Az sayıdaki çalışmada güç, denge ve dayanıklılık egzersizleri ağrıyı azalttı ve gücü artırdı; ancak hangi egzersiz türünün en iyi olduğu henüz bilinmiyor. Bu yüzden program kişiye göre, kademeli artırılarak hazırlanır."),
 ]
@@ -20,6 +20,7 @@ JH_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/joint-hypermobility/", "Joint hypermobility syndrome") + ". Page last reviewed 30 August 2023.",
  "Engelbert RHH, Juul-Kristensen B, Pacey V, et al. " + ext("https://discovery-pp.ucl.ac.uk/id/eprint/1556240/1/Engelbert_Evidence-Based_Rationale.pdf", "The evidence-based rationale for physical therapy treatment of children, adolescents and adults diagnosed with joint hypermobility syndrome/hypermobile Ehlers Danlos syndrome") + ". American Journal of Medical Genetics Part C. 2017.",
  "Castori M, Tinkle B, Levy H, Grahame R, Malfait F, Hakim A. " + ext("https://www.ehlers-danlos.com/2017-eds-classification-non-experts/framework-classification-joint-hypermobility-related-conditions/", "A framework for the classification of joint hypermobility and related conditions") + ". Am J Med Genet C Semin Med Genet. 2017;175(1):148–157.",
+ "Malfait F, Francomano C, Byers P, et al. " + ext("https://www.ehlers-danlos.com/wp-content/uploads/2017/03/2017-EDS-Classification_March_2017.pdf", "The 2017 international classification of the Ehlers–Danlos syndromes") + ". Am J Med Genet C Semin Med Genet. 2017;175(1):8–26",
 ]
 
 JH_BODY = f'''<header class="page">
@@ -37,7 +38,7 @@ JH_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>9 puan</b><span>Eklem esnekliğini değerlendiren Beighton muayenesinin toplam puanı</span></div>
-        <div class="stat"><b>4 ve üzeri</b><span>Yetişkinlerde genellikle esneklik kabul edilen puan</span></div>
+        <div class="stat"><b>5 ve üzeri</b><span>50 yaşına kadar yetişkinlerde uluslararası eşik puan (50 yaş üstünde 4, çocuklarda 6)</span></div>
         <div class="stat"><b>%30–55</b><span>Fizyoterapiye kas-iskelet şikâyetiyle başvuran yetişkinlerde bildirilen oran</span></div>
         <div class="stat"><b>Güç ve denge</b><span>Tedavinin temeli: eklemleri kaslarla desteklemek</span></div>
       </div>

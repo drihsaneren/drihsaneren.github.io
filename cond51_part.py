@@ -23,6 +23,7 @@ AK_SRC = [
  "Royal United Hospitals Bath NHS Foundation Trust. " + ext("https://www.ruh.nhs.uk/patients/patient_information/ORT037_Advice_after_breaking_your_ankle.pdf", "Advice after an ankle fracture") + ". 2017.",
  "United Lincolnshire Teaching Hospitals NHS Trust. " + ext("https://www.ulh.nhs.uk/wp-content/uploads/2025/07/Ankle-Fracture-Exercises.pdf", "Ankle fracture exercises") + ". June 2025.",
  "Kortekangas T, et al. " + ext("https://www.bmj.com/content/364/bmj.k5432", "Three week versus six week immobilisation for stable Weber B type ankle fractures: randomised, multicentre, non-inferiority clinical trial") + ". BMJ. 2019;364:k5432.",
+ "NICE. " + ext("https://www.nice.org.uk/guidance/ng38", "Fractures (non-complex): assessment and management") + ". NICE guideline NG38, 2016",
  "NHS. " + ext("https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/", "DVT (deep vein thrombosis)") + ". Page last reviewed: 30 April 2026.",
 ]
 

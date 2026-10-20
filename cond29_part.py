@@ -15,6 +15,7 @@ BK_SRC = [
  "NHS 111 Wales. " + ext("https://111.wales.nhs.uk/bakerscyst/?locale=en", "Baker’s cyst") + ". Last updated 6 November 2025.",
  "Royal Berkshire NHS Foundation Trust. " + ext("https://www.royalberkshire.nhs.uk/media/llfjmsmb/bakers-cyst_feb25.pdf", "Baker’s cyst") + ". Venous Thrombosis Clinic, February 2025.",
  "Prevalence and associated injuries in patients with knee cysts: an epidemiological study. Orthopaedic Research Society 2025 Annual Meeting, conference abstract. " + ext("https://scholarlyworks.corewellhealth.org/orthopaedic_surgery_confabstract/138", "scholarlyworks.corewellhealth.org") + ".",
+ "Herman AM, Marzo JM. " + ext("https://doi.org/10.3928/01477447-20140728-52", "Popliteal cysts: a current review") + ". Orthopedics. 2014;37(8):e678–e684",
 ]
 
 BK_BODY = f'''<header class="page">

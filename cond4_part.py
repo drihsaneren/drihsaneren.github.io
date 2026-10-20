@@ -83,6 +83,7 @@ RC_SRC = [
  "Kuhn JE, Dunn WR, Sanders R, et al. " + ext("https://www.sciencedirect.com/science/article/abs/pii/S1058274613000839", "Effectiveness of physical therapy in treating atraumatic full-thickness rotator cuff tears: a multicenter prospective cohort study") + ". J Shoulder Elbow Surg. 2013;22(10):1371-1379.",
  "Kukkonen J, Joukainen A, Lehtinen J, et al. " + ext("https://www.sciencedirect.com/science/article/pii/S105827462100330X", "Operative versus conservative treatment of small, nontraumatic supraspinatus tears in patients older than 55 years: over 5-year follow-up of a randomized controlled trial") + ". J Shoulder Elbow Surg. 2021.",
  "Moosmayer S, Lund G, Seljom US, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/31220021/", "At a 10-year follow-up, tendon repair is superior to physiotherapy in the treatment of small and medium-sized rotator cuff tears") + ". J Bone Joint Surg Am. 2019.",
+ "Ryösä A, Laimi K, Äärimaa V, et al. " + ext("https://doi.org/10.1080/09638288.2016.1198431", "Surgery or conservative treatment for rotator cuff tear: a meta-analysis") + ". Disabil Rehabil. 2017;39(14)",
 ]
 
 RC_BODY = f'''<header class="page">
@@ -222,6 +223,7 @@ TM_FAQ = [
  ("Çenemden ses geliyor, tedavi gerekir mi?", "Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez. Sesle birlikte ağrı, ağız açmada kısıtlılık ya da takılma varsa değerlendirme yapılmalıdır."),
  ("Diş sıkmak çene ağrısı yapar mı?", "Gündüz ya da gece dişleri sıkmak çiğneme kaslarını yorar ve ağrıyı artırabilir. Gün içinde dişlerinizin birbirine değip değmediğini fark etmeye çalışın; gece sıkma için diş hekiminiz gece plağı önerebilir."),
  ("Çene eklemi rahatsızlığı geçer mi?", "Çoğu kişide şikâyetler basit önlemler ve egzersizlerle zamanla hafifler. Uzun süren ya da giderek artan şikâyetlerde diş hekimi ve fizyoterapist birlikte değerlendirme yapar."),
+ ("Uzun süren çene ağrısında hangi tedaviler öneriliyor?", "BMJ’de 2023’te yayımlanan bir klinik kılavuz; bilişsel davranışçı terapiyi, gevşeme tekniklerini, terapistin uyguladığı eklem mobilizasyonu ve tetik nokta tedavisini, gözetimli duruş ve çene egzersizlerini güçlü biçimde öneriyor. Dişlerin kapanışını kalıcı olarak değiştiren plaklara ve eklem diskini çıkaran ameliyata karşı ise güçlü öneride bulunuyor."),
  ("Ameliyat gerekir mi?", "Çok nadiren. Ameliyat, ilaç dışı tedavilere yanıt vermeyen belirli eklem sorunlarında düşünülür; çoğu hastada ilk seçenek basit önlemler, egzersiz ve fizyoterapidir."),
 ]
 
@@ -229,6 +231,7 @@ TM_SRC = [
  "Valesan LF, Da-Cas CD, Réus JC, et al. " + ext("https://link.springer.com/article/10.1007/s00784-020-03710-w", "Prevalence of temporomandibular joint disorders: a systematic review and meta-analysis") + ". Clin Oral Investig. 2021;25(2):441-453.",
  "Armijo-Olivo S, Pitance L, Singh V, et al. " + ext("https://academic.oup.com/ptj/article-abstract/96/1/9/2686339", "Effectiveness of manual therapy and therapeutic exercise for temporomandibular disorders: systematic review and meta-analysis") + ". Phys Ther. 2016;96(1):9-25.",
  "NHS. " + ext("https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/", "Temporomandibular disorder (TMD)") + ". Page last reviewed 20 June 2023.",
+ "Busse JW, et al. " + ext("https://www.bmj.com/content/383/bmj-2023-076227", "Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline") + ". BMJ. 2023;383:e076227",
 ]
 
 TM_BODY = f'''<header class="page">
@@ -355,6 +358,7 @@ UI_SRC = [
  "Dumoulin C, Cacciari LP, Hay-Smith EJC. " + ext("https://www.cochrane.org/evidence/CD005654_pelvic-floor-muscle-training-urinary-incontinence-women", "Pelvic floor muscle training versus no treatment, or inactive control treatments, for urinary incontinence in women") + ". Cochrane Database Syst Rev. 2018;10:CD005654.",
  "National Institute for Health and Care Excellence. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK542416/", "Urinary incontinence and pelvic organ prolapse in women: management (NG123)") + ". London: NICE; 2019.",
  "NIHR Evidence. " + ext("https://evidence.nihr.ac.uk/alert/pelvic-floor-muscle-training-can-improve-symptoms-of-urinary-incontinence/", "Pelvic floor muscle training can improve symptoms of urinary incontinence") + ".",
+ "NICE. " + ext("https://www.nice.org.uk/guidance/ng210", "Pelvic floor dysfunction: prevention and non-surgical management") + ". NICE guideline NG210, December 2021",
 ]
 
 UI_BODY = f'''<header class="page">

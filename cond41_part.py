@@ -20,6 +20,7 @@ HO_SRC = [
  "NHS Dumfries & Galloway, Right Decisions. " + ext("https://rightdecisions.scot.nhs.uk/nhs-dumfries-galloway-refhelp/musculoskeletal-system/hand/hand-osteoarthritis", "Hand osteoarthritis") + ". Last reviewed 12 December 2025.",
  "St George’s University Hospitals NHS Foundation Trust. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2025/05/HAN_ESTO.pdf", "Exercises and strengthening for thumb osteoarthritis") + ". May 2025.",
  "Østerås N, Kjeken I, Smedslund G, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/48861", "Exercise for hand osteoarthritis") + ". Cochrane Database of Systematic Reviews. 2017;(1):CD010388.",
+ "NICE. " + ext("https://www.nice.org.uk/guidance/ng226", "Osteoarthritis in over 16s: diagnosis and management") + ". NICE guideline NG226, 2022",
 ]
 
 HO_BODY = f'''<header class="page">

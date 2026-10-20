@@ -19,6 +19,7 @@ SL_SRC = [
  "Cleveland Clinic. " + ext("https://my.clevelandclinic.org/health/diseases/10302-spondylolisthesis", "Spondylolisthesis") + ". Medically reviewed 15 August 2024.",
  "Moley PJ. " + ext("https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/neck-and-back-pain/spondylolisthesis", "Spondylolisthesis") + ". MSD Manual Professional Version. Reviewed November 2024.",
  "Försth P, Ólafsson G, Carlsson T, et al. A randomized, controlled trial of fusion surgery for lumbar spinal stenosis. N Engl J Med. 2016;374(15):1413–1423. Özet: " + ext("https://www.thebottomline.org.uk/summaries/ssss/", "The Bottom Line, The Swedish Spinal Stenosis Study") + ".",
+ "Matz PG, Meagher RJ, Lamer T, et al. " + ext("https://doi.org/10.1016/j.spinee.2015.11.055", "Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis") + ". Spine J. 2016;16(3):439–448",
 ]
 
 SL_BODY = f'''<header class="page">

@@ -15,6 +15,7 @@ JK_FAQ = [
 JK_SRC = [
  "Lian ØB, Engebretsen L, Bahr R. Prevalence of jumper’s knee among elite athletes from different sports: a cross-sectional study. Am J Sports Med. 2005;33(4):561–567. " + ext("https://lida.sport-iat.de/twm/Record/4009854?lng=en", "Özet") + ".",
  "Breda SJ, Oei EHG, Zwerver J, et al. Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial. Br J Sports Med. 2021;55(9):501–509. " + ext("https://pure.eur.nl/en/publications/effectiveness-of-progressive-tendon-loading-exercise-therapy-in-p/", "Özet") + "; program ayrıntıları: " + ext("https://www.physiotutors.com/research/progressive-tendon-loading-vs-eccentric-exercise", "Physiotutors") + ".",
+ "Challoumas D, Pedret C, Biddle M, et al. " + ext("https://bmjopensem.bmj.com/content/7/4/e001110", "Management of patellar tendinopathy: a systematic review and network meta-analysis of randomised studies") + ". BMJ Open Sport Exerc Med. 2021;7(4):e001110",
  "NHS Borders. " + ext("https://rightdecisions.scot.nhs.uk/patient-information-leaflets/primary-community-services/physiotherapy/patellar-tendinopathy-a-guide-for-patients", "Patellar tendinopathy – a guide for patients") + ". Last reviewed 1 November 2024.",
  "NHS. " + ext("https://www.nhs.uk/conditions/knee-pain/", "Knee pain") + ". Page last reviewed 21 December 2023.",
 ]

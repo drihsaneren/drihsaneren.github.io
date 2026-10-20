@@ -9,7 +9,7 @@ _ex2("ar_hext", "hext", "Kalçayı arkaya açma", "Bir tezgâha ya da sandalye a
 _ex2("ar_sabd", "sabd", "Kalçayı yana açma", "Bir tezgâha tutunarak dik durun. Bacağınızı yana doğru kaydırın, 3 saniye tutun ve başlangıca dönün.", "10 tekrar, bot takılıyken")
 
 AR_FAQ = [
- ("Ameliyat mı, bot mu?", "Norveç’te 18–60 yaş arası 554 kişinin katıldığı bir araştırmada ameliyatsız tedavi, açık ameliyat ve küçük kesili ameliyat bir yıl sonra benzer sonuç verdi. Tendonun yeniden kopması ameliyatsız grupta %6,2, ameliyatlı gruplarda %0,6 oldu; sinir hasarı ise ameliyatsız grupta %0,6, açık ameliyatta %2,8, küçük kesili ameliyatta %5,2’ydi. Geç başvuru (2–3 haftadan fazla), yeniden kopma, tendonun kemikten kopması ve üst düzey sporcularda ameliyat daha çok düşünülür. Karar hekiminizle birlikte verilir."),
+ ("Ameliyat mı, bot mu?", "Norveç’te 18–60 yaş arası 554 kişinin katıldığı bir araştırmada ameliyatsız tedavi, açık ameliyat ve küçük kesili ameliyat bir yıl sonra benzer sonuç verdi. Tendonun yeniden kopması ameliyatsız grupta %6,2, ameliyatlı gruplarda %0,6 oldu; sinir hasarı ise ameliyatsız grupta %0,6, açık ameliyatta %2,8, küçük kesili ameliyatta %5,2’ydi. Geç başvuru (2–3 haftadan fazla), yeniden kopma, tendonun kemikten kopması ve üst düzey sporcularda ameliyat daha çok düşünülür. 29 çalışmayı birleştiren 2019 tarihli bir meta-analizde de ameliyatta yeniden kopma daha az, diğer komplikasyonlar daha sıktı; erken hareketli (fonksiyonel) rehabilitasyon uygulanan çalışmalarda ise yeniden kopma oranı iki grupta farklı değildi. Karar hekiminizle birlikte verilir."),
  ("Ağrım geçti, yine de doktora gitmeli miyim?", "Evet. Kopmadan sonra ağrı hafifleyebilir, hatta geçebilir; bu tendonun sağlam olduğu anlamına gelmez. Tanı ve tedavi gecikirse ameliyatsız tedavi seçeneği daralabilir."),
  ("Yeniden kopmayı nasıl önlerim?", "Botu çıkardıktan sonraki ilk 6 hafta, yeniden kopma riskinin en yüksek olduğu dönemdir; bu sürede tendonu ani germekten kaçının. İki tekinin yüksekliği aynı, topuğu en az 2,5 cm olan ayakkabı giyin. Engebeli zeminde dikkatli olun; merdivende ve kaldırımda ayağınızı topuğunuzla birlikte basamağa tam basın."),
  ("Ne zaman araba kullanabilirim?", "Alçı ya da botla araç kullanmayın. Bot dönemi bitip ani frene ağrısız ve güvenle basabildiğinizde başlayabilirsiniz. Sol tarafınızda kopma varsa ve otomatik vitesli araç kullanıyorsanız daha erken mümkün olabilir; hekiminize danışın."),
@@ -21,6 +21,7 @@ AR_SRC = [
  "Sherwood Forest Hospitals NHS Foundation Trust. " + ext("https://www.sfh-tr.nhs.uk/media/uz3il1th/pil202606-03-atr-achilles-tendon-rupture.pdf", "Achilles tendon rupture") + ". PIL202606-03-ATR, June 2026.",
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/achilles-tendon-rupture/", "Achilles tendon rupture") + ". February 2024.",
  "Myhrvold SB, Brouwer EF, Andresen TKM, et al. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa2108447", "Nonoperative or surgical treatment of acute Achilles’ tendon rupture") + ". N Engl J Med. 2022;386(15):1409–1420.",
+ "Ochen Y, Beks RB, van Heijl M, et al. " + ext("https://www.bmj.com/content/364/bmj.k5120", "Operative treatment versus nonoperative treatment of Achilles tendon ruptures: systematic review and meta-analysis") + ". BMJ. 2019;364:k5120",
 ]
 
 AR_BODY = f'''<header class="page">

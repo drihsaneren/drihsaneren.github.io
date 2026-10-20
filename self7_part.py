@@ -28,6 +28,7 @@ NB_FAQ = [
  ("Ne zaman ölçmeliyim?", "Amerikan Kalp Derneği, dinlenme nabzını sabah iyi bir uykudan sonra, yataktan kalkmadan ve kahve içmeden ölçmeyi öneriyor. İngiltere Kalp Vakfı da doğru bir sonuç için her gün aynı saatte ölçmenizi öneriyor. Ölçümden önce 5 dakika oturun ya da uzanın; öncesinde sigara ve kafeinden uzak durun."),
  ("Egzersize yeni başlıyorum, hangi aralıkta çalışmalıyım?", "Hedef aralığın alt ucuyla, en yüksek nabzınızın yaklaşık %50’siyle başlayıp yavaş yavaş artırabilirsiniz. Zamanla en yüksek nabzınızın %85’ine kadar rahatça çalışabilirsiniz."),
  ("220 eksi yaş formülü herkes için doğru mu?", "Hayır, kaba bir tahmindir. Bazı ilaçlar nabzı düşürür; bu durumda en yüksek nabzınız ve hedef aralığınız da daha düşük olabilir. Kalp hastalığınız varsa ya da düzenli ilaç kullanıyorsanız hedef nabzınızı hekiminize sorun."),
+ ("Nabzım düzensizse ne yapmalıyım?", "İngiltere’nin ulusal sağlık kılavuzu NICE, nefes darlığı, çarpıntı, baş dönmesi ya da bayılma, göğüste rahatsızlık gibi yakınmaları olanlarda nabzın elle kontrol edilmesini, nabız düzensizse atriyal fibrilasyon için 12 derivasyonlu EKG çekilmesini öneriyor. Nabzınız düzensizse hekiminize başvurabilirsiniz; göğüs ağrısı, ciddi nefes darlığı ya da bayılma varsa 112’yi arayın."),
  ("Akıllı saatimle ölçebilir miyim?", "Egzersiz sırasında nabzınızı izlemek için giyilebilir bir cihaz da kullanabilirsiniz. Elle saymak, cihazınızın gösterdiği değeri ara sıra kontrol etmenin basit bir yoludur."),
 ]
 
@@ -195,6 +196,7 @@ NB_BODY = f'''<header class="page">
         "British Heart Foundation. " + ext("https://www.bhf.org.uk/informationsupport/tests/checking-your-pulse", "Checking your pulse") + ". Published 18 October 2024.",
         "American Heart Association. " + ext("https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates", "Target heart rates chart") + ". Last reviewed 12 August 2024.",
         "NHS. " + ext("https://www.nhs.uk/symptoms/heart-palpitations/", "Heart palpitations") + ". Page last reviewed: 17 March 2026.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng196", "Atrial fibrillation: diagnosis and management") + ". NICE guideline NG196, 2021",
       ])}
     </div>
   </section>
@@ -422,6 +424,7 @@ BB_BODY = f'''<header class="page">
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity", "Overweight and obesity management: identifying and assessing overweight, obesity and central adiposity") + ". NICE guideline NG246.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/cg189/chapter/3-Other-information", "Obesity: identification, assessment and management (CG189): other information") + ".",
         "Ashwell M, Gunn P, Gibson S. " + ext("https://doi.org/10.1111/j.1467-789X.2011.00952.x", "Waist-to-height ratio is a better screening tool than waist circumference and BMI for adult cardiometabolic risk factors: systematic review and meta-analysis") + ". Obes Rev. 2012;13(3):275–286.",
+        "Browning LM, Hsieh SD, Ashwell M. " + ext("https://doi.org/10.1017/S0954422410000144", "A systematic review of waist-to-height ratio as a screening tool for the prediction of cardiovascular disease and diabetes: 0·5 could be a suitable global boundary value") + ". Nutr Res Rev. 2010;23(2):247–269",
       ])}
     </div>
   </section>

@@ -367,6 +367,7 @@ MZ_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "American Academy of Ophthalmology. " + ext("https://www.aao.org/eye-health/diseases/computer-usage", "Computers, digital devices and eye strain") + ".",
+        "Ekelund U, Tarp J, Fagerland MW, et al. " + ext("https://bjsm.bmj.com/content/54/24/1499", "Joint associations of accelerometer-measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals") + ". Br J Sports Med. 2020;54(24):1499–1506",
         "Duran AT, Friel CP, Serafini MA, Ensari I, Cheung YK, Diaz KM. " + ext("https://scholars.mssm.edu/en/publications/breaking-up-prolonged-sitting-to-improve-cardiometabolic-risk-dos/", "Breaking up prolonged sitting to improve cardiometabolic risk: dose-response analysis of a randomized crossover trial") + ". Med Sci Sports Exerc. 2023;55(5):847–855.",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/33239350/", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
       ])}

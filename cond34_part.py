@@ -20,6 +20,7 @@ SS_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/shin-splints", "Shin splints") + ". Page last reviewed 9 February 2023.",
  "nidirect. " + ext("https://nidirect.gov.uk/conditions/shin-splints", "Shin splints") + ". Last updated 10 January 2025.",
  "Newman P, Witchalls J, Waddington G, Adams R. " + ext("https://doaj.org/article/63035df9eaf04e42ac9b4e87e645fcc3", "Risk factors associated with medial tibial stress syndrome in runners: a systematic review and meta-analysis") + ". Open Access Journal of Sports Medicine. 2013;4:229–241.",
+ "Winters M, Eskes M, Weir A, et al. " + ext("https://doi.org/10.1007/s40279-013-0087-0", "Treatment of medial tibial stress syndrome: a systematic review") + ". Sports Med. 2013;43(12):1315–1333",
 ]
 
 SS_BODY = f'''<header class="page">

@@ -22,6 +22,7 @@ WH_SRC = [
  "Berkshire Healthcare NHS Foundation Trust. " + ext("https://www.berkshirehealthcare.nhs.uk/media/b3ygh1f0/bh1165u-whiplash-v1-feb-2026.pdf", "Whiplash: physiotherapy advice and exercises") + ". February 2026.",
  "NHS Fife. " + ext("https://www.nhsfife.org/media/33112/whiplash_neck_pain_v7.pdf", "Whiplash neck pain") + ". 2016.",
  "Lamb SE, Gates S, Williams MA, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/35109", "Emergency department treatments and physiotherapy for acute whiplash: a pragmatic, two-step, randomised controlled trial") + ". Lancet. 2013;381(9866):546–556.",
+ "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
 ]
 
 WH_BODY = f'''<header class="page">

@@ -15,6 +15,7 @@ SI_FAQ = [
 SI_SRC = [
  "Barros G, McGrath L, Gelfenbeyn M. " + ext("https://community.the-hospitalist.org/content/sacroiliac-joint-dysfunction-patients-low-back-pain", "Sacroiliac joint dysfunction in patients with low back pain") + ". Federal Practitioner. 2019;36(8):370–375.",
  "HCA Healthcare UK. " + ext("https://www.hcahealthcare.co.uk/conditions/sacroiliac-joint-pain", "Sacroiliac (SI) joint pain") + ".",
+ "Szadek KM, van der Wurff P, van Tulder MW, Zuurmond WWA, Perez RSGM. " + ext("https://doi.org/10.1016/j.jpain.2008.09.014", "Diagnostic validity of criteria for sacroiliac joint pain: a systematic review") + ". J Pain. 2009;10(4):354–368",
  SRC_NICE59,
 ]
 

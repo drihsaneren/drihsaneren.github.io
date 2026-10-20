@@ -205,6 +205,7 @@ BT_BODY = f'''<header class="page">
       {src_list([
         "Araujo CG, de Souza e Silva CG, Laukkanen JA, et al. " + ext("https://bjsm.bmj.com/content/56/17/975", "Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals") + ". Br J Sports Med. 2022;56(17):975.",
         "Springer BA, Marin R, Cyhan T, Roberts H, Gill NW. " + ext("https://geriatrictoolkit.missouri.edu/balance/Normative_Values_for_the_Unipedal_Stance_Test_Springer-JGPT.pdf", "Normative values for the unipedal stance test with eyes open and closed") + ". J Geriatr Phys Ther. 2007;30(1).",
+        "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462",
         "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
       ])}
     </div>
@@ -354,7 +355,7 @@ SELF4_CSS += """
 """
 
 SN_FAQ = [
- ("Bu kadar kısa hareketler gerçekten işe yarar mı?", "Ölüm riskiyle ilgili bulgular gözlemseldir; yani kısa hareket patlamaları yapanlarda riskin daha düşük olduğu görülmüş, ama bunun tamamen hareketin sonucu olduğu kanıtlanmış değil. Öte yandan küçük deneysel çalışmalarda da merdiven atıştırmalıklarının kondisyonu artırdığı ve oturmayı kısa yürüyüşlerle bölmenin tansiyonu ve kan şekerini olumlu etkilediği görüldü."),
+ ("Bu kadar kısa hareketler gerçekten işe yarar mı?", "Ölüm riskiyle ilgili bulgular gözlemseldir; yani kısa hareket patlamaları yapanlarda riskin daha düşük olduğu görülmüş, ama bunun tamamen hareketin sonucu olduğu kanıtlanmış değil. Öte yandan küçük deneysel çalışmalarda da merdiven atıştırmalıklarının kondisyonu artırdığı ve oturmayı kısa yürüyüşlerle bölmenin tansiyonu ve kan şekerini olumlu etkilediği görüldü. Hareketsiz yetişkinlerde yapılan 11 randomize çalışmayı birleştiren 2025 tarihli bir meta-analizde, günde en az iki kez yapılan ve 5 dakikayı geçmeyen kısa egzersizler 4–12 haftada kondisyonu artırdı; katılımcıların %83’ü programı sürdürebildi. Tansiyon, kan yağları ve vücut bileşiminde ise belirgin bir etki görülmedi."),
  ("Ne kadar zorlanmalıyım?", "Araştırmadaki hareketler “yüksek tempolu”ydu: nefesinizin hızlandığı ve konuşmakta zorlandığınız bir düzey. Yeni başlıyorsanız, eklem ağrınız ya da kalp hastalığınız varsa daha hafif başlayıp zamanla artırabilirsiniz."),
  ("Düzenli egzersizin yerine geçer mi?", "Hayır, ama iyi bir başlangıç ya da tamamlayıcıdır. Araştırmaya katılanlar boş zamanlarında egzersiz yapmayan kişilerdi; egzersiz yapanlarda yüksek tempolu hareketle benzer ilişki görüldü. Kısa hareketler, egzersize zaman bulamadığınız günlerde hareketsiz kalmamanızı sağlar."),
  ("Masa başında çalışıyorum, ne yapabilirim?", "Küçük bir çalışmada her 30 dakikada bir 5 dakika hafif yürüyüş, kan şekerindeki yükselmeyi azalttı; daha kısa ve seyrek molalar bile büyük tansiyonu düşürdü. Yukarıdaki hatırlatıcıyı açabilir, masa başı rehberine de bakabilirsiniz."),
@@ -475,6 +476,7 @@ SN_BODY = f'''<header class="page">
         "Stamatakis E, Ahmadi MN, Gill JMR, et al. " + ext("https://www.ukbiobank.ac.uk/publications/association-of-wearable-device-measured-vigorous-intermittent-lifestyle-physical-activity-with-mortality/", "Association of wearable device-measured vigorous intermittent lifestyle physical activity with mortality") + ". Nature Medicine. 2022.",
         "Jenkins EM, Nairn LN, Skelly LE, Little JP, Gibala MJ. " + ext("https://search.pedro.org.au/search-results/record-detail/57594", "Do stair climbing exercise “snacks” improve cardiorespiratory fitness?") + ". Appl Physiol Nutr Metab. 2019;44(6):681–684.",
         "Duran AT, Friel CP, Serafini MA, et al. " + ext("https://scholars.mssm.edu/en/publications/breaking-up-prolonged-sitting-to-improve-cardiometabolic-risk-dos/", "Breaking up prolonged sitting to improve cardiometabolic risk: dose–response analysis of a randomized crossover trial") + ". Med Sci Sports Exerc. 2023;55(5):847–855.",
+        "Rodríguez MÁ, Quintana-Cepedal M, Cheval B, et al. " + ext("https://bjsm.bmj.com/content/60/2/133", "Effect of exercise snacks on fitness and cardiometabolic health in physically inactive individuals: systematic review and meta-analysis") + ". Br J Sports Med. 2026;60(2):133",
       ])}
     </div>
   </section>
@@ -588,6 +590,7 @@ AA_FAQ = [
  ("Yani ağrım hayal ürünü mü?", "Hayır. Ağrı her zaman gerçek bir deneyimdir. Uluslararası Ağrı Araştırmaları Derneği’nin tanımına göre birinin ağrısı olduğunu söylemesi ciddiye alınmalıdır. Ağrının beyinde oluşması, onun “kafada” ya da uydurma olduğu anlamına gelmez; tüm ağrılar beyinde oluşur."),
  ("Ağrı varsa mutlaka hasar var demek mi?", "Her zaman değil. Ağrı ile dokudan gelen tehlike sinyali aynı şey değildir; ağrının şiddeti her zaman doku hasarının büyüklüğünü göstermez. Örneğin ağrısı olmayan insanların bel MR’larında da disk değişiklikleri çok sık görülür."),
  ("MR raporumda fıtık ya da dejenerasyon yazıyor; ağrımın nedeni bu mu?", "Olabilir, ama kesin değildir. Bu bulgular ağrısız insanlarda da sık ve yaşla artar. Hekiminiz MR’ı muayene bulgularınız ve şikâyetlerinizle birlikte değerlendirir."),
+ ("Uzun süren ağrıda hangi tedaviler öneriliyor?", "İngiltere’nin ulusal sağlık kılavuzu NICE (2021), nedeni başka bir hastalıkla açıklanamayan uzun süreli ağrıda gözetimli grup egzersiz programlarını, hareketli kalmayı ve bilişsel davranışçı terapi ya da kabul ve kararlılık terapisi gibi psikolojik yaklaşımları öneriyor. Bu tür ağrı için parasetamol, iltihap giderici ağrı kesiciler ya da opioidlerle yeni bir tedaviye başlanmamasını tavsiye ediyor."),
  ("Ağrıyı anlamak gerçekten işe yarar mı?", "12 randomize çalışmanın derlemesinde ağrı nörobilimi eğitimi tek başına ağrı ve günlük işlevlerde yalnızca küçük iyileşmeler sağladı; ama kısa vadede hareket etme korkusunu anlamlı ölçüde azalttı. Hastalar, kendi hikâyelerini anlatabildikleri bir eğitimi daha yararlı buldu."),
 ]
 
@@ -716,6 +719,7 @@ AA_BODY = f'''<header class="page">
         "International Association for the Study of Pain. " + ext("https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/", "IASP announces revised definition of pain") + ". 16 July 2020.",
         SRC_BRINJIKJI,
         "Watson JA, Ryan CG, Cooper L, et al. " + ext("https://research.tees.ac.uk/en/publications/pain-neuroscience-education-for-adults-with-chronic-musculoskelet/", "Pain neuroscience education for adults with chronic musculoskeletal pain: a mixed-methods systematic review and meta-analysis") + ". J Pain. 2019;20(10):1140.e1–1140.e22.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng193", "Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain") + ". NICE guideline NG193, 2021",
       ])}
     </div>
   </section>
@@ -913,6 +917,7 @@ EA_BODY = f'''<header class="page">
         "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. " + ext("https://myorthoevidence.com/AceReport/Report/850", "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study") + ". Am J Sports Med. 2007;35(6):897–906.",
         "Smith BE, Hendrick P, Smith TO, et al. " + ext("https://ueaeprints.uea.ac.uk/id/eprint/63158/", "Should exercises be painful in the management of chronic musculoskeletal pain? A systematic review and meta-analysis") + ". Br J Sports Med. 2017;51(23):1679–1687.",
         "Geneen LJ, Moore RA, Clarke C, et al. " + ext("https://www.cochrane.org/evidence/CD011279_physical-activity-and-exercise-chronic-pain-adults-overview-cochrane-reviews", "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews") + ". Cochrane Database Syst Rev. 2017;4:CD011279.",
+        "NICE. " + ext("https://www.nice.org.uk/guidance/ng193", "Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain") + ". NICE guideline NG193, 2021",
       ])}
     </div>
   </section>

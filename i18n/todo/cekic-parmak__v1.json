@@ -1,0 +1,292 @@
+[
+ {
+  "id": "cek0",
+  "kind": "text",
+  "tr": "Çekiç Parmak (Mallet Finger): Atel Süresi, Bakım ve Egzersizler | İhsan Eren"
+ },
+ {
+  "id": "cek1",
+  "kind": "attr",
+  "tr": "Parmak ucu düştü ve düzelmiyor mu? Çekiç parmak nedir, atel ne kadar takılır, nasıl temizlenir, ne zaman ameliyat gerekir? Atel dönemi ve sonrası için dört egzersiz."
+ },
+ {
+  "id": "cek2",
+  "kind": "text",
+  "tr": "Çekiç parmak (mallet finger)"
+ },
+ {
+  "id": "cek3",
+  "kind": "text",
+  "tr": "Parmak ucunuza bir top çarptı ya da parmağınızı bir yere sert vurdunuz ve şimdi parmak ucunuz aşağı düşük duruyor, kendi başınıza düzeltemiyor musunuz? Uç eklemi düzelten tendon kopmuş ya da bağlandığı yerden küçük bir kemik parçasıyla birlikte ayrılmış olabilir. Tedavi çoğunlukla basittir ama sabır ister: parmak ucu haftalarca, hiç bükülmeden bir atelle düz tutulur."
+ },
+ {
+  "id": "cek4",
+  "kind": "text",
+  "tr": "Son güncelleme: 19 Ekim 2026"
+ },
+ {
+  "id": "cek5",
+  "kind": "text",
+  "tr": "Kemik parçalı tipte kesintisiz atel süresi"
+ },
+ {
+  "id": "cek6",
+  "kind": "text",
+  "tr": "Tendon kopmasında kesintisiz atel süresi"
+ },
+ {
+  "id": "cek7",
+  "kind": "text",
+  "tr": "Sonrasında ateli gece ve riskli işlerde takma süresi"
+ },
+ {
+  "id": "cek8",
+  "kind": "text",
+  "tr": "10 derece"
+ },
+ {
+  "id": "cek9",
+  "kind": "text",
+  "tr": "Uç eklemde kalabilen ve sık görülen hafif düşüklük"
+ },
+ {
+  "id": "cek10",
+  "kind": "text",
+  "tr": "Yaralanmadan hemen sonra parmak ucunda ağrı ve şişlik."
+ },
+ {
+  "id": "cek11",
+  "kind": "text",
+  "tr": "Parmak ucu avuca doğru bükük durur."
+ },
+ {
+  "id": "cek12",
+  "kind": "text",
+  "tr": "Uç eklemi kendi başınıza düzeltemezsiniz, ama elinizle düzeltilebilir."
+ },
+ {
+  "id": "cek13",
+  "kind": "text",
+  "tr": "Kemik parçası olup olmadığını anlamak için röntgen çekilir; tedavi buna göre belirlenir. Bu yüzden yaralanmadan sonra kısa sürede bir hekime başvurun."
+ },
+ {
+  "id": "cek14",
+  "kind": "text",
+  "tr": "Neden atel bu kadar önemli?"
+ },
+ {
+  "id": "cek15",
+  "kind": "text",
+  "tr": "Atel, uç eklemi düz tutarak kopan tendonun ya da kemik parçasının yerinde iyileşmesini sağlar."
+ },
+ {
+  "id": "cek16",
+  "kind": "text",
+  "tr": "Ateli banyoda ve yatakta da, gece gündüz çıkarmadan takın."
+ },
+ {
+  "id": "cek17",
+  "kind": "text",
+  "tr": "Atel sıkıca oturmalı, parmak ucu atelin sonuna kadar ulaşmalı ve atel orta eklemin bükülmesini engellememeli."
+ },
+ {
+  "id": "cek18",
+  "kind": "text",
+  "tr": "Sigara ve diyabet iyileşmeyi yavaşlatabilir."
+ },
+ {
+  "id": "cek19",
+  "kind": "text",
+  "tr": "Ateli günde bir kez temizleyin"
+ },
+ {
+  "id": "cek20",
+  "kind": "text",
+  "tr": "Atelin altında ıslak kalan cilt çok çabuk tahriş olur. Parmağınızı ve ateli kuru tutun; atelin havalandırma deliklerini bantla kapatmayın. Bu adımlarda biri size yardım edebilir."
+ },
+ {
+  "id": "cek21",
+  "kind": "text",
+  "tr": "Parmağınızı uç eklem düz kalacak şekilde masaya düz yaslayın."
+ },
+ {
+  "id": "cek22",
+  "kind": "text",
+  "tr": "Bandı kesin ve ateli kaydırarak çıkarın; parmak ucunuz masada düz kalsın."
+ },
+ {
+  "id": "cek23",
+  "kind": "text",
+  "tr": "Parmağınızı ve ateli sabunlu suyla yıkayıp kurulayın; bu sırada parmak ucunuzu hiç bükmeyin."
+ },
+ {
+  "id": "cek24",
+  "kind": "text",
+  "tr": "Ateli parmak ucunuz düzken geri kaydırın ve esnemeyen bir bantla sabitleyin; bant atelin ortasını sarsın, orta eklemi kapatmasın."
+ },
+ {
+  "id": "cek25",
+  "kind": "text",
+  "tr": "Atel döneminde ve sonrasında dört egzersiz"
+ },
+ {
+  "id": "cek26",
+  "kind": "text",
+  "tr": "İlk egzersizi atel takılıyken yapın. Diğer üçüne, kesintisiz atel dönemi (6 ya da 8 hafta) bittiğinde ve ekibiniz onayladığında başlayın; bu dönemde ateli 2–4 hafta daha gece ve ağır ya da riskli işlerde takmayı sürdürün. Egzersiz sırasında parmak ucunuz yeniden düşmeye başlarsa durun, ateli sürekli takın ve ekibinize başvurun."
+ },
+ {
+  "id": "cek27",
+  "kind": "text",
+  "tr": "Atelle orta eklemi bükme"
+ },
+ {
+  "id": "cek28",
+  "kind": "text",
+  "tr": "Atel takılıyken orta eklemi bükme"
+ },
+ {
+  "id": "cek29",
+  "kind": "text",
+  "tr": "Ateli çıkarmadan, yaralı parmağınızın orta eklemini tam bükün ve düzeltin; uç eklem atelin içinde düz kalsın. Diğer parmaklarınızı da tam hareket ettirin, tutulmasınlar."
+ },
+ {
+  "id": "cek30",
+  "kind": "text",
+  "tr": "Parmakları açma"
+ },
+ {
+  "id": "cek31",
+  "kind": "text",
+  "tr": "Parmakları açıp germe"
+ },
+ {
+  "id": "cek32",
+  "kind": "text",
+  "tr": "Kesintisiz atel dönemi bittikten sonra başlayın. Parmaklarınızı ve başparmağınızı olabildiğince düzeltin ve birbirinden ayırın."
+ },
+ {
+  "id": "cek33",
+  "kind": "text",
+  "tr": "10–20 saniye tutun, az ve sık"
+ },
+ {
+  "id": "cek34",
+  "kind": "text",
+  "tr": "Kanca yumruk"
+ },
+ {
+  "id": "cek35",
+  "kind": "text",
+  "tr": "Parmak diplerinizdeki eklemleri düz tutarak yalnızca orta ve uç eklemlerinizi bükün, sonra parmaklarınızı düzeltin. Uç eklem düşmeye başlarsa durun."
+ },
+ {
+  "id": "cek36",
+  "kind": "text",
+  "tr": "Tam yumruk"
+ },
+ {
+  "id": "cek37",
+  "kind": "text",
+  "tr": "Elinizi yavaşça tam bir yumruk yapın, sonra parmaklarınızı tamamen açın. İlk günlerde parmağınız tutuk olabilir; zorlamadan, az ve sık çalışın."
+ },
+ {
+  "id": "cek38",
+  "kind": "text",
+  "tr": "Çoğu zaman gerekmez; çekiç parmakların çoğu yalnızca atelle iyi sonuç verir. Tendonla birlikte büyük bir kemik parçası koptuysa ameliyat gerekebilir. Bu genellikle bölgesel uyuşturmayla, günübirlik yapılan ve ince tellerle tespit edilen bir işlemdir; teller 3–4 hafta kalır."
+ },
+ {
+  "id": "cek39",
+  "kind": "text",
+  "tr": "Atel takılıyken parmak ucum bükülürse ne olur?"
+ },
+ {
+  "id": "cek40",
+  "kind": "text",
+  "tr": "Kesintisiz atel döneminde uç eklemin bir kez bile bükülmesi iyileşen tendona zarar verebilir ve iyileşmeyi geciktirir; atel süresi çoğu zaman baştan başlar. Ateli yalnızca temizlik için, parmağınız masaya düz yaslanmışken çıkarın. Böyle bir şey olduysa ekibinize haber verin."
+ },
+ {
+  "id": "cek41",
+  "kind": "text",
+  "tr": "Parmak ucum tamamen düzelir mi?"
+ },
+ {
+  "id": "cek42",
+  "kind": "text",
+  "tr": "Çoğu kişide iyi düzelir, ama en iyi tedaviyle bile uç eklemde 10 dereceye kadar düzelmeme sık görülür. Parmağın arkasındaki şişlik, hassasiyet ve kızarıklığın geçmesi birkaç ay sürebilir. Kemik parçalı tipte eklemin üzerinde küçük bir şişkinlik kalabilir; bu genellikle elin işlevini etkilemez."
+ },
+ {
+  "id": "cek43",
+  "kind": "text",
+  "tr": "Ne zaman araba kullanabilir, spora dönebilirim?"
+ },
+ {
+  "id": "cek44",
+  "kind": "text",
+  "tr": "Direksiyonu ağrı dikkatinizi dağıtmadan sıkıca kavrayabildiğinizde araç kullanabilirsiniz; atelle araç kullanmak için sigorta şirketinize danışın. Bir NHS broşürü spora en az 8 hafta ara vermeyi öneriyor; dönüş zamanını ekibinizle birlikte belirleyin."
+ },
+ {
+  "id": "cek45",
+  "kind": "text",
+  "tr": "Neden yüzük takmamalıyım?"
+ },
+ {
+  "id": "cek46",
+  "kind": "text",
+  "tr": "Parmak şişebilir; yüzük kan dolaşımını ve iyileşmeyi olumsuz etkileyebilir. Atel döneminde yaralı parmağa yüzük takmayın."
+ },
+ {
+  "id": "cek47",
+  "kind": "text",
+  "tr": "Parmağın takılıp kilitlenmesi için <a href=\"tetik-parmak.html\">tetik parmak</a>, parmak eklemlerinde ağrı ve sertlik için <a href=\"el-kireclenmesi.html\">el kireçlenmesi</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "cek48",
+  "kind": "text",
+  "tr": "Ne zaman ekibinize başvurmalı?"
+ },
+ {
+  "id": "cek49",
+  "kind": "text",
+  "tr": "Şişlik indikçe atel gevşediyse ve parmak ucunu artık düz tutmuyorsa: beklemeden"
+ },
+ {
+  "id": "cek50",
+  "kind": "text",
+  "tr": "Ağrı ve şişlik belirgin şekilde artıyorsa"
+ },
+ {
+  "id": "cek51",
+  "kind": "text",
+  "tr": "Atel çok sıkı ya da çok gevşekse, orta eklemin bükülmesini engelliyorsa ya da süre dolmadan çıktıysa"
+ },
+ {
+  "id": "cek52",
+  "kind": "text",
+  "tr": "Egzersizlere başladıktan sonra parmak ucu yeniden düşmeye başladıysa"
+ },
+ {
+  "id": "cek53",
+  "kind": "text",
+  "tr": "Egzersizlere başlamanızın üzerinden 2 hafta geçtiği hâlde yumruk yapamıyor ya da parmak ucunu avucunuza değdiremiyorsanız"
+ },
+ {
+  "id": "cek54",
+  "kind": "text",
+  "tr": "12. haftada hâlâ işinize ya da hobilerinize dönmekte zorlanıyorsanız"
+ },
+ {
+  "id": "cek55",
+  "kind": "text",
+  "tr": "Çekiç parmak sonrası el rehabilitasyonunuz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "cek56",
+  "kind": "wa",
+  "tr": "Merhaba, çekiç parmak sonrası el rehabilitasyonu için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "cek57",
+  "kind": "ld",
+  "tr": "Çekiç parmak"
+ }
+]

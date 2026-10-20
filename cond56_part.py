@@ -50,6 +50,7 @@ KS_SRC = [
  "Berkshire Healthcare NHS Foundation Trust, Physiotherapy. " + ext("https://www.berkshirehealthcare.nhs.uk/media/109514456/groin-strain-physio-leaflet-berkshire-healthcare.pdf", "Groin strain: exercises") + ".",
  "NHS. " + ext("https://www.nhs.uk/conditions/sprains-and-strains/", "Sprains and strains") + ". Page last reviewed: 23 April 2024.",
  "East Lancashire Hospitals NHS Trust, Integrated Musculoskeletal Service. " + ext("https://elht.nhs.uk/download_file/view/577", "Groin pain: patient information and exercises") + ". November 2014.",
+ "Weir A, Brukner P, Delahunt E, et al. " + ext("https://doi.org/10.1136/bjsports-2015-094869", "Doha agreement meeting on terminology and definitions in groin pain in athletes") + ". Br J Sports Med. 2015;49(12):768–774",
 ]
 
 KS_BODY = f'''<header class="page">

@@ -17,6 +17,7 @@ CR_SRC = [
  "Dibben G, de Vries FBG, Faulkner J, et al. " + ext("https://www.cochrane.org/CD001800", "Exercise-based cardiac rehabilitation for coronary heart disease") + ". Cochrane Database Syst Rev. 2026;(9):CD001800.",
  "McDonagh STJ, Dalal H, Moore S, et al. " + ext("https://www.cochrane.org/CD007130", "Home-based versus centre-based cardiac rehabilitation") + ". Cochrane Database Syst Rev. 2023;(10):CD007130.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)", "Cardiovascular diseases (CVDs)") + ". Fact sheet. 31 July 2025.",
+ "NICE. " + ext("https://www.nice.org.uk/guidance/qs99/chapter/quality-statement-2-referral-for-cardiac-rehabilitation", "Acute coronary syndromes in adults: quality statement 2, referral for cardiac rehabilitation") + ". NICE quality standard QS99, based on NICE guideline NG185 (2020)",
 ]
 
 CR_BODY = f'''<header class="page">

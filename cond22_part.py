@@ -20,6 +20,7 @@ CX_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/tailbone-coccyx-pain/", "Tailbone (coccyx) pain") + ". Page last reviewed 20 November 2025.",
  "Patel R, Appannagari A, Whang PG. " + ext("https://link.springer.com/article/10.1007/s12178-008-9028-1", "Coccydynia") + ". Curr Rev Musculoskelet Med. 2008;1(3–4):223–226.",
  "Mazzoleni MG, Maffulli N, Bardazzi T, Memminger M, Bertini FA, Migliorini F. " + ext("https://aoj.amegroups.org/article/view/9061/html", "Management of coccygodynia: talking points from a systematic review of recent clinical trials") + ". Ann Joint. 2025;10:9.",
+ "Lirette LS, Chaiban G, Tolba R, Eissa H. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC3963058", "Coccydynia: an overview of the anatomy, etiology, and treatment of coccyx pain") + ". Ochsner J. 2014;14(1):84–87",
 ]
 
 CX_BODY = f'''<header class="page">

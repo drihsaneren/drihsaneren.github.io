@@ -18,7 +18,7 @@ _ex2("ac_lift", "ac_assist", "Destekli kol kaldırma", "3. haftadan itibaren ba�
 _ex2("ac_rot", "cf_stickf", "Sopayla dışa döndürme", "3. haftadan itibaren başlayın. Dirseğinizi gövdenizin yanında bükülü tutun, bir sopa ya da şemsiyeyle ön kolunuzu dışa doğru itin. Sopa yoksa sağlam elinizle bileğinizi dışa doğru yönlendirin.", "10 tekrar, günde 5 kez")
 
 ACJ_FAQ = [
- ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez; omuz ucu yaralanmalarının çoğu askı, egzersiz ve fizyoterapiyle iyileşir. Bağların ciddi yırtıldığı ve eklemin belirgin şekilde ayrıldığı bazı durumlarda ameliyat düşünülebilir. Ameliyattan sonra askı genellikle 6 hafta takılır ve temas sporlarına dönüş 12 haftayı bulur."),
+ ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez; omuz ucu yaralanmalarının çoğu askı, egzersiz ve fizyoterapiyle iyileşir. Bağların ciddi yırtıldığı ve eklemin belirgin şekilde ayrıldığı bazı durumlarda ameliyat düşünülebilir. Ameliyattan sonra askı genellikle 6 hafta takılır ve temas sporlarına dönüş 12 haftayı bulur. Altı çalışmayı inceleyen 2019 tarihli bir Cochrane derlemesi, yetişkinlerde ameliyatın ameliyatsız tedaviden daha iyi sonuç verdiğini göstermedi; yan etkilerin çoğu ameliyat grubunda görüldü."),
  ("Omzumdaki tümsek geçer mi?", "Hafif yaralanmalarda iyileşmeden sonra köprücük kemiğinin ucunda küçük ve ağrısız bir tümsek kalması normaldir; günlük işlerinizi etkilemez. Belirtiler 3–6 ay sürebilir."),
  ("Ne zaman işe dönebilirim?", "İşinize göre değişir. Bir NHS broşürüne göre kaldırma gerektirmeyen hafif işlere 1–3 hafta, omuz hizasının altında hafif kaldırma gerektiren işlere 3–6 hafta, omuz hizasının üstünde çalışılan ağır işlere 6–12 hafta sonra dönülebilir."),
  ("Ne zaman araba kullanabilirim?", "Askıyı bıraktığınızda, direksiyonu ağrısız çevirebildiğinizde ve ani fren gibi acil durumlarda ağrı ya da tereddüt olmadan tepki verebildiğinizde. Askıyla araç kullanmayın, önce güvenli bir yerde deneyin ve sigortanızın sizi kapsadığından emin olun."),
@@ -29,6 +29,7 @@ ACJ_SRC = [
  "University Hospitals Sussex NHS Foundation Trust, Physiotherapy. " + ext("https://www.uhsussex.nhs.uk/wp-content/uploads/2025/11/2654-Minor-injury-to-acromioclavicular-joint-ACJ-grade-1-to-2-injury-2025.pdf", "Minor injury to acromioclavicular joint (ACJ): grade 1 to 2 injury") + ". 2654, November 2025.",
  "Sherwood Forest Hospitals NHS Foundation Trust. " + ext("https://sfh-tr.nhs.uk/media/s0rej40i/pil202511-01-acji-acromioclavicular-joint-injury.pdf", "Acromioclavicular (AC) joint injury") + ". PIL202511-01-ACJI, November 2025.",
  "King’s College Hospital NHS Foundation Trust. " + ext("https://kch.nhs.uk/wp-content/uploads/2025/01/4132-Acromioclavicular-joint-patient-leaflet-v5_FINAL.pdf", "Acromioclavicular joint stabilisation") + ". PL1217.1, January 2025.",
+ "Tamaoki MJS, Lenza M, Matsunaga FT, et al. " + ext("https://doi.org/10.1002/14651858.CD007429.pub3", "Surgical versus conservative interventions for treating acromioclavicular dislocation of the shoulder in adults") + ". Cochrane Database Syst Rev. 2019;(10):CD007429",
 ]
 
 ACJ_BODY = f'''<header class="page">

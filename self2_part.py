@@ -809,6 +809,7 @@ SIGH_BODY = f'''<header class="page">
         "Balban MY, Neri E, Kogon MM, et al. " + ext("https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(22)00474-8", "Brief structured respiration practices enhance mood and reduce physiological arousal") + ". Cell Rep Med. 2023;4(1):100895.",
         "Li P, Janczewski WA, Yackle K, et al. " + ext("https://www.nature.com/articles/nature16964", "The peptidergic control circuit for sighing") + ". Nature. 2016;530(7590):293-297.",
         "Fincham GW, Strauss C, Montero-Marin J, Cavanagh K. " + ext("https://www.nature.com/articles/s41598-022-27247-y", "Effect of breathwork on stress and mental health: a meta-analysis of randomised-controlled trials") + ". Sci Rep. 2023;13:432.",
+        "Zaccaro A, Piarulli A, Laurino M, et al. " + ext("https://www.frontiersin.org/articles/10.3389/fnhum.2018.00353/full", "How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing") + ". Front Hum Neurosci. 2018;12:353",
       ])}
     </div>
   </section>
@@ -915,6 +916,7 @@ NT_ROWS = "\n".join(
 NATURE_FAQ = [
  ("Mutlaka ormana ya da kıra mı gitmeliyim?", "Hayır. Araştırmada şehir parkları, korular, sahiller ve kırlar gibi açık yeşil ve mavi alanlara yapılan ziyaretler birlikte sayıldı. Mahallenizdeki park ya da deniz kenarı da işe yarar."),
  ("Spor yapmam gerekir mi?", "Hayır. Doğada oturmak ya da yavaş yürümek de sayılır. Stres hormonunu ölçen çalışmada katılımcılardan özellikle tempolu egzersiz yapmamaları, telefonla uğraşmamaları istendi. Yürürseniz hareketin faydası da eklenir."),
+ ("Doğanın sağlığa yararı kanıtlandı mı?", "143 çalışmayı inceleyen 2018 tarihli bir sistematik derlemede yeşil alanla daha çok temas; daha düşük stres hormonu (kortizol), kalp hızı ve küçük tansiyonla, daha az tip 2 diyabetle ve daha düşük ölüm oranıyla ilişkiliydi. Çalışmaların çoğu gözleme dayanıyordu ve kaliteleri değişkendi; bu yüzden bulgular neden-sonuç ilişkisini kanıtlamıyor."),
  ("120 dakikayı tek seferde mi geçirmeliyim?", "Gerekmez. Araştırmada haftalık sürenin tek uzun ziyaretle ya da birkaç kısa ziyaretle tamamlanması fark etmedi. Örneğin 4 gün 30 dakika da olur."),
  ("Evden çıkamıyorum, ne yapabilirim?", "Pencereden yeşil görmek bile iyileşmeyle ilişkili bulundu. Perdeleri açın, mümkünse pencereye yakın oturun, balkonda ya da pencere önünde bitki yetiştirin. Evden çıkmakta zorlanıyorsanız yeniden güvenle yürümek için fizyoterapiden destek alabilirsiniz."),
 ]
@@ -1029,6 +1031,7 @@ NATURE_BODY = f'''<header class="page">
         "Hunter MR, Gillespie BW, Chen SY. " + ext("https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00722/full", "Urban nature experiences reduce stress in the context of daily life based on salivary biomarkers") + ". Front Psychol. 2019;10:722.",
         "Ulrich RS. " + ext("https://www.science.org/doi/10.1126/science.6143402", "View through a window may influence recovery from surgery") + ". Science. 1984;224(4647):420-421.",
         "Sturm VE, Datta S, Roy ARK, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/32955293/", "Big smile, small self: awe walks promote prosocial positive emotions in older adults") + ". Emotion. 2022;22(5):1044-1058.",
+        "Twohig-Bennett C, Jones A. " + ext("https://doi.org/10.1016/j.envres.2018.06.030", "The health benefits of the great outdoors: a systematic review and meta-analysis of greenspace exposure and health outcomes") + ". Environ Res. 2018;166:628–637",
       ])}
     </div>
   </section>

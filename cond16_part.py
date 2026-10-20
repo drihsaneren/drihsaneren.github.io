@@ -69,6 +69,7 @@ FF_SRC = [
  "Evans AM, Rome K, Carroll M, Hawke F. " + ext("https://www.cochrane.org/CD006311/MUSKEL_non-surgical-treatments-flat-feet-children", "Foot orthoses for treating paediatric flat feet") + ". Cochrane Database Syst Rev. 2022;(1):CD006311.",
  "NHS. " + ext("https://www.nhs.uk/conditions/flat-feet/", "Flat feet") + ". Page last reviewed 24 June 2025.",
  "NHS Borders. " + ext("https://rightdecisions.scot.nhs.uk/patient-information-leaflets/primary-community-services/physiotherapy/posterior-tibial-tendon-dysfunction-pttd", "Posterior tibial tendon dysfunction (PTTD)") + ". Patient information leaflet.",
+ "Dars S, Uden H, Banwell HA, Kumar S. " + ext("https://doi.org/10.1371/journal.pone.0193060", "The effectiveness of non-surgical intervention (foot orthoses) for paediatric flexible pes planus: a systematic review: update") + ". PLoS One. 2018;13(2):e0193060",
 ]
 
 FF_BODY = f'''<header class="page">

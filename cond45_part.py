@@ -18,6 +18,7 @@ SV_SRC = [
  "Cambridge University Hospitals NHS Foundation Trust. " + ext("https://www.cuh.nhs.uk/patient-information/severs-diseasesevers-disease", "Sever’s disease") + ". Version 3, September 2024.",
  "NHS Lothian. " + ext("https://policyonline.nhslothian.scot/wp-content/uploads/2023/03/Severs_Disease_self-management_guide.pdf", "Sever’s disease: self-management guide") + ". May 2022.",
  "Uvelli K, Neher JO, Safranek S. " + ext("https://www.aafp.org/pubs/afp/issues/2017/0715/p126.html", "Treatment for calcaneal apophysitis") + ". Am Fam Physician. 2017;96(2):126–127.",
+ "James AM, Williams CM, Haines TP. " + ext("https://doi.org/10.1186/1757-1146-6-16", "Effectiveness of interventions in reducing pain and maintaining physical activity in children and adolescents with calcaneal apophysitis (Sever’s disease): a systematic review") + ". J Foot Ankle Res. 2013;6:16",
  "NHS. " + ext("https://www.nhs.uk/conditions/heel-pain/", "Heel pain") + ". Page last reviewed: 24 October 2025.",
 ]
 
