@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Yeni sayfaları ve haberleri build_pages.py / i18n_map.py'ye kaydeder (22 Ekim 2026 turu).
+"""Yeni sayfaları ve haberleri build_pages.py / i18n_map.py'ye kaydeder (22 Ekim 2026 1. tur, 23 Ekim 2026 2. tur).
 Kullanım: python3 reg_tur.py   (çalışma dizininde; tekrar çalıştırılırsa zaten eklenenleri atlar)
 Sonraki turlarda: CONDS / SELFS / NEWS_ADD listelerini yeni sayfalara göre değiştirip yeniden kullanın.
 Her eklemede "çapa" (anchor) metninin build_pages.py'de tam bir kez geçtiği denetlenir."""
@@ -44,56 +44,58 @@ def add_to_list_after(list_name, after_item, new_item):
     s = s[:m.start()] + line2 + s[line_end:]
 
 
-# ------------------------------------------------------------------ sayfalar
+# ------------------------------------------------------------------ sayfalar (23 Ekim 2026, 2. tur; 1. turun listeleri git geçmişinde: fcf2047)
 CONDS = [
     # dosya, en, part, kategori, başlık, hap, C_, TH, kısa açıklama, bölge (None = REHAB), (AGR'de/REHAB'da kimden sonra)
-    ("periferik-arter-hastaligi.html", "peripheral-arterial-disease.html", "cond61_part.py", "Rehabilitasyon rehberi",
-     "Periferik arter hastalığı ve yürüyüş egzersizi", "Periferik arter hastalığı", "C_PAD",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="118" cy="30" r="11" fill="#8fa476"/><path d="M118 44 L114 84 L98 108 L92 132 M114 84 L132 106 L144 130 M116 54 L100 74 M116 54 L136 66" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M134 108 C138 116 140 122 142 128" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/><path d="M196 42 C214 42 222 54 230 54 C238 54 246 42 264 42 M196 74 C214 74 222 62 230 62 C238 62 246 74 264 74" fill="none" stroke="#d8b25e" stroke-width="4" stroke-linecap="round"/><path d="M200 58 H222 M238 58 H260" stroke="rgba(181,72,58,.8)" stroke-width="4" stroke-linecap="round"/><path d="M206 104 V126 M218 104 V126" stroke="#ece5cf" stroke-width="5" stroke-linecap="round" opacity=".7"/></svg>""",
-     "Yürürken baldırda kramp gibi ağrı, birkaç dakika durunca geçiyor mu? Ağrıya kadar yürüyüp dinlenerek yürüme mesafenizi uzatan program ve uyarı işaretleri.",
-     None, "C_CARDIAC"),
-    ("beyin-sarsintisi.html", "concussion.html", "cond62_part.py", "Hastalık rehberi",
-     "Beyin sarsıntısı (konküzyon)", "Beyin sarsıntısı", "C_CONC",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M134 128 C120 128 112 116 112 100 V86 C98 84 96 76 104 70 L112 62 C112 34 136 18 162 18 C192 18 212 40 212 68 C212 92 200 104 192 112 V128" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M150 52 C158 44 172 44 178 54 C186 50 196 58 192 68 C198 74 192 86 182 84 C178 92 164 92 160 84 C150 88 140 80 146 70 C138 64 142 54 150 52 Z" fill="#d8b25e" opacity=".85"/><g fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"><path d="M226 40 l12 -8 M230 60 h14 M226 80 l12 8"/></g><path d="M234 126 h10 v-10 h10 v-10 h10 v-10" fill="none" stroke="#ece5cf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/></svg>""",
-     "Kafa darbesinden sonra baş ağrısı, sersemlik, baş dönmesi? Acil belirtiler, ilk 48 saat ve okula, işe, spora altı aşamada kademeli dönüş.",
-     "boyun", "C_VERTIGO"),
-    ("pelvik-organ-sarkmasi.html", "pelvic-organ-prolapse.html", "cond63_part.py", "Hastalık rehberi",
-     "Pelvik organ sarkması (rahim sarkması)", "Rahim sarkması", "C_POP",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M104 36 C96 84 124 120 160 120 C196 120 224 84 216 36" fill="none" stroke="#8fa476" stroke-width="8" stroke-linecap="round"/><path d="M122 104 C140 116 180 116 198 104" fill="none" stroke="#d8b25e" stroke-width="6" stroke-linecap="round"/><ellipse cx="160" cy="80" rx="20" ry="16" fill="#e2ab47" opacity=".8"/><path d="M160 136 V126 M152 132 l8 -8 l8 8" fill="none" stroke="#ece5cf" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M236 52 c10 -12 24 -12 34 0 M240 62 c8 -8 18 -8 26 0" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" opacity=".6"/></svg>""",
-     "Haznede ağırlık ya da aşağı inme hissi mi var? Rahim, mesane ve bağırsak sarkması: pelvik taban egzersizleri, pesser ve günlük öneriler.",
-     "kadin", "C_UI"),
+    ("kalp-yetmezligi.html", "heart-failure.html", "cond64_part.py", "Rehabilitasyon rehberi",
+     "Kalp yetmezliğinde egzersiz", "Kalp yetmezliği", "C_HF",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="104" cy="34" r="11" fill="#8fa476"/><path d="M104 48 L100 88 L86 110 L82 134 M100 88 L116 108 L122 132 M102 58 L88 78 M102 58 L120 72" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M214 112 C186 92 166 74 166 54 C166 40 176 30 190 30 C200 30 208 36 214 46 C220 36 228 30 238 30 C252 30 262 40 262 54 C262 74 242 92 214 112 Z" fill="none" stroke="#d8b25e" stroke-width="6" stroke-linejoin="round"/><path d="M174 70 H196 L204 54 L214 88 L224 62 L230 70 H254" fill="none" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>""",
+     "Nefes darlığı ve yorgunluk varken egzersiz güvenli mi? Kimler başlayabilir, nasıl ilerlenir, her gün tartılmak ve altı ev egzersizi.",
+     None, "C_PAD"),
+    ("dupuytren-kontrakturu.html", "dupuytrens-contracture.html", "cond65_part.py", "Hastalık rehberi",
+     "Dupuytren kontraktürü", "Dupuytren", "C_DUP",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M120 136 V96 C120 84 126 76 136 74 L196 70 C206 70 212 78 212 88 V136" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M140 74 V28 M160 72 V20 M180 71 V26" stroke="#8fa476" stroke-width="12" stroke-linecap="round"/><path d="M200 72 C206 58 212 54 220 60 C226 66 222 78 214 82" fill="none" stroke="#8fa476" stroke-width="12" stroke-linecap="round"/><path d="M206 120 C206 104 208 90 212 82" fill="none" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"/><circle cx="208" cy="104" r="5" fill="#d8b25e"/><path d="M236 104 H282" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M240 100 C252 84 268 84 280 100" fill="none" stroke="#ece5cf" stroke-width="3" stroke-dasharray="4 5" stroke-linecap="round" opacity=".7"/></svg>""",
+     "Avuç içinde sertlik, parmak bükülüp düzelmiyor mu? Masa testi, tedavi seçenekleri, işlemden sonra el egzersizleri ve atel.",
+     "omuz", "C_TF"),
+    ("omurga-kirigi.html", "vertebral-fracture.html", "cond66_part.py", "Hastalık rehberi",
+     "Kemik erimesine bağlı omurga kırığı", "Omurga kırığı", "C_VF",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><g fill="#8fa476"><rect x="128" y="14" width="44" height="16" rx="5"/><rect x="126" y="36" width="48" height="17" rx="5"/><rect x="124" y="82" width="52" height="18" rx="5"/><rect x="122" y="106" width="56" height="19" rx="5"/></g><path d="M124 60 L176 60 L176 76 L124 72 Z" fill="#e2ab47"/><path d="M180 66 H198" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/><g fill="none" stroke="#d8b25e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="242" cy="40" r="10" fill="#d8b25e" stroke="none"/><path d="M240 54 V96 L232 132 M240 96 L250 132 M240 64 L224 82 M240 64 L258 80"/></g><path d="M214 40 V132" stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-dasharray="5 6"/></svg>""",
+     "Ani sırt ağrısı, boy kısalması? Kemik erimesine bağlı omurga kırığında tanı, ağrıyla başa çıkma, güvenli egzersizler ve uyarı işaretleri.",
+     "bel", "C_KY"),
 ]
 SELFS = [
     # dosya, en, part, başlık, hap, C_, TH, açıklama, SELF'te kimden sonra, SELF_GROUPS grubu, grupta kimden sonra
-    ("guc-devresi.html", "home-strength-circuit.html", "self12_part.py", "Evde güç devresi", "Güç devresi", "C_GD",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M90 136 V98 H132 V136 M90 98 V56" stroke="#8a6a44" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="148" cy="38" r="11" fill="#8fa476"/><path d="M146 52 L138 86 L156 108 L152 134 M138 86 L122 100 M144 62 L166 78 M144 62 L164 58" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="226" cy="74" r="30" fill="none" stroke="rgba(236,229,207,.25)" stroke-width="6"/><path d="M226 44 A30 30 0 1 1 196 74" fill="none" stroke="#e2ab47" stroke-width="6" stroke-linecap="round"/><path d="M226 74 V58 M226 74 L238 80" stroke="#ece5cf" stroke-width="3.5" stroke-linecap="round"/></svg>""",
-     "Haftada 2 gün kas güçlendirme: 4 ya da 6 hareketlik ev devresi, sesli çalışma-dinlenme zamanlayıcısı ve haftalık takip.",
-     "C_SNACK", "Zamanlayıcıyla birlikte yapın", "hareket-atistirmaliklari.html"),
-    ("iki-dakika-adim-testi.html", "two-minute-step-test.html", "self12_part.py", "2 dakika adım testi", "2 dakika adım testi", "C_AD",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M96 20 V136" stroke="rgba(236,229,207,.35)" stroke-width="5" stroke-linecap="round"/><path d="M96 84 H188" stroke="#e2ab47" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/><circle cx="150" cy="26" r="11" fill="#8fa476"/><path d="M150 40 V84 M150 84 L148 110 L150 134 M150 84 L176 84 L172 110 M148 50 L132 70 M150 50 L168 64" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="208" y="44" width="56" height="70" rx="9" fill="none" stroke="rgba(236,229,207,.35)" stroke-width="4"/><text x="236" y="86" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#ece5cf">2:00</text></svg>""",
-     "2 dakika yerinde adım atarak kondisyonunuzu ölçün: adım sayacı, yaşa ve cinsiyete göre değerler ve bağımsızlık eşiği.",
-     "C_YH", "Kendinizi ölçün", "yurume-hizi-testi.html"),
+    ("yemek-sonrasi-yuruyus.html", "walk-after-meals.html", "self13_part.py", "Yemek sonrası yürüyüş", "Yemek sonrası yürüyüş", "C_YY",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><ellipse cx="104" cy="104" rx="42" ry="12" fill="none" stroke="rgba(236,229,207,.35)" stroke-width="4"/><ellipse cx="104" cy="100" rx="26" ry="6" fill="#d8b25e" opacity=".75"/><path d="M58 70 V96 M54 70 V80 M62 70 V80 M150 70 V96" stroke="rgba(236,229,207,.45)" stroke-width="3" stroke-linecap="round"/><circle cx="214" cy="32" r="11" fill="#8fa476"/><path d="M214 46 L210 86 L196 108 L192 132 M210 86 L226 106 L232 130 M212 56 L198 76 M212 56 L230 70" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M252 54 A16 16 0 1 1 252 86 A16 16 0 1 1 252 54" fill="none" stroke="#e2ab47" stroke-width="4"/><path d="M252 70 V60 M252 70 L260 74" stroke="#ece5cf" stroke-width="3" stroke-linecap="round"/></svg>""",
+     "Yemekten sonra 10 dakika yürüyüş kan şekerinin yükselmesini yumuşatır: öğün ve süre seçimi, zamanlayıcı ve günlük takip.",
+     "C_GD", "Zamanlayıcıyla birlikte yapın", "tempolu-yuruyus.html"),
+    ("denge-antrenmani.html", "balance-training.html", "self13_part.py", "Denge antrenmanı", "Denge antrenmanı", "C_DB",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M188 76 H260 M200 76 V136 M250 76 V136" stroke="#8a6a44" stroke-width="6" stroke-linecap="round" fill="none"/><circle cx="146" cy="26" r="11" fill="#8fa476"/><path d="M146 40 V88 M146 88 L142 134 M146 88 L152 110 L150 134 M146 50 L174 72 L190 74 M146 50 L124 66" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M134 136 H162" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/><path d="M96 48 C88 60 88 76 96 88 M84 56 C80 64 80 72 84 80" fill="none" stroke="#d8b25e" stroke-width="3" stroke-linecap="round" opacity=".7"/></svg>""",
+     "Düşmeleri önlemek için Otago programından uyarlanmış altı denge hareketi: üç destek seviyesi, duruş zamanlayıcısı ve 12 haftalık takip.",
+     "C_YY", "Zamanlayıcıyla birlikte yapın", "yemek-sonrasi-yuruyus.html"),
 ]
 RELATED_NEW = {
-    "periferik-arter-hastaligi.html": ["kalp-rehabilitasyonu.html", "dar-kanal.html", "tempolu-yuruyus.html"],
-    "beyin-sarsintisi.html": ["boyun-incinmesi.html", "bas-agrisi.html", "bas-donmesi.html"],
-    "pelvik-organ-sarkmasi.html": ["idrar-kacirma.html", "pelvik-taban-zamanlayicisi.html", "karin-kasi-ayrilmasi.html"],
-    "guc-devresi.html": ["sandalye-testi.html", "hareket-atistirmaliklari.html", "sarkopeni.html"],
-    "iki-dakika-adim-testi.html": ["sandalye-testi.html", "yurume-hizi-testi.html", "tempolu-yuruyus.html"],
+    "kalp-yetmezligi.html": ["kalp-rehabilitasyonu.html", "tempolu-yuruyus.html", "koah.html"],
+    "dupuytren-kontrakturu.html": ["tetik-parmak.html", "el-kireclenmesi.html", "karpal-tunel-sendromu.html"],
+    "omurga-kirigi.html": ["kemik-erimesi.html", "kambur-durus.html", "dusme-onleme.html"],
+    "yemek-sonrasi-yuruyus.html": ["tempolu-yuruyus.html", "oturma-suresi.html", "guc-devresi.html"],
+    "denge-antrenmani.html": ["dort-asamali-denge-testi.html", "dusme-onleme.html", "guc-devresi.html"],
 }
 RELATED_ADD = [  # (var olan sayfa, eklenecek)
-    ("kalp-rehabilitasyonu.html", "periferik-arter-hastaligi.html"),
-    ("gece-bacak-kramplari.html", "periferik-arter-hastaligi.html"),
-    ("boyun-incinmesi.html", "beyin-sarsintisi.html"),
-    ("idrar-kacirma.html", "pelvik-organ-sarkmasi.html"),
-    ("pelvik-taban-zamanlayicisi.html", "pelvik-organ-sarkmasi.html"),
-    ("sandalye-testi.html", "guc-devresi.html"),
-    ("yurume-hizi-testi.html", "iki-dakika-adim-testi.html"),
+    ("kalp-rehabilitasyonu.html", "kalp-yetmezligi.html"),
+    ("koah.html", "kalp-yetmezligi.html"),
+    ("tetik-parmak.html", "dupuytren-kontrakturu.html"),
+    ("kemik-erimesi.html", "omurga-kirigi.html"),
+    ("kambur-durus.html", "omurga-kirigi.html"),
+    ("dusme-onleme.html", "denge-antrenmani.html"),
+    ("dort-asamali-denge-testi.html", "denge-antrenmani.html"),
+    ("tempolu-yuruyus.html", "yemek-sonrasi-yuruyus.html"),
 ]
 
 # exec listesi
-# cond61, sn_stair çizimi self4_part.py'de tanımlandığı için self12_part.py'den SONRA exec edilir.
-for part, after in (("self12_part.py", "self11_part.py"), ("cond61_part.py", "self12_part.py"), ("cond62_part.py", "cond61_part.py"), ("cond63_part.py", "cond62_part.py")):
+# cond61, sn_stair çizimi self4_part.py'de tanımlandığı için self12_part.py'den SONRA exec edilir. Yeni partlar zincirin sonuna eklenir.
+for part, after in (("self12_part.py", "self11_part.py"), ("cond61_part.py", "self12_part.py"), ("cond62_part.py", "cond61_part.py"), ("cond63_part.py", "cond62_part.py"),
+                    ("self13_part.py", "cond63_part.py"), ("cond64_part.py", "self13_part.py"), ("cond65_part.py", "cond64_part.py"), ("cond66_part.py", "cond65_part.py")):
     if f'"{part}"' not in s:
         once(f'"{after}", ', f'"{part}", ')
 
@@ -159,57 +161,55 @@ for row in CONDS + SELFS:
 open(M, "w", encoding="utf-8").write(t)
 print("tamam")
 
-# ------------------------------------------------------------------ Bilim gündemi (yen11)
+# ------------------------------------------------------------------ Bilim gündemi (2. tur, 23 Ekim 2026)
 s = open(B, encoding="utf-8").read()
 IL_NEW = {
-"IL_ACLX": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
-<path d="M40 156 H280" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
-<path d="M118 22 C112 54 116 74 130 90 M130 90 C146 108 146 128 136 156" fill="none" stroke="#8fa476" stroke-width="16" stroke-linecap="round"/>
-<ellipse cx="134" cy="92" rx="15" ry="11" fill="#d8b25e"/>
-<path d="M120 84 L148 102" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 4"/>
-<rect x="196" y="58" width="16" height="64" rx="6" fill="rgba(236,229,207,.25)"/><rect x="220" y="40" width="16" height="82" rx="6" fill="#8fa476"/>
-<path d="M188 122 H246" stroke="rgba(236,229,207,.35)" stroke-width="2"/></svg>''',
-"IL_HIPOA": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
-<path d="M58 40 C82 30 118 34 132 54" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
-<circle cx="120" cy="74" r="20" fill="#d8b25e"/>
-<path d="M120 94 L104 156" stroke="#8fa476" stroke-width="16" stroke-linecap="round"/>
-<path d="M40 156 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
-<path d="M190 40 V150 H290" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="2"/>
-<rect x="208" y="118" width="24" height="32" rx="5" fill="#e2ab47"/>
-<path d="M196 94 H286" stroke="rgba(236,229,207,.6)" stroke-width="2" stroke-dasharray="5 5"/>
-<g font-family="Georgia,serif" font-size="12" fill="#ece5cf" text-anchor="middle"><text x="220" y="112">7</text><text x="268" y="88">12</text></g></svg>''',
-"IL_FAST4": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+"IL_ESTEPS": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M30 156 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
-<g fill="none" stroke="#8fa476" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-<circle cx="56" cy="74" r="8" fill="#8fa476" stroke="none"/><path d="M56 84 L54 112 L46 138 M54 112 L64 138 M56 92 L74 98"/>
-<circle cx="124" cy="62" r="8" fill="#8fa476" stroke="none"/><path d="M122 72 L116 100 L130 116 L128 138 M116 100 L104 110 M120 80 L138 90"/>
-<circle cx="188" cy="64" r="8" fill="#8fa476" stroke="none"/><path d="M188 74 V108 L184 138 M188 108 L194 138 M188 84 L172 92 M188 84 L204 92"/>
-<circle cx="252" cy="62" r="8" fill="#8fa476" stroke="none"/><path d="M252 72 L250 106 L262 118 L262 138 M250 106 L240 138 M250 82 L236 98 M250 82 L266 94"/></g>
-<path d="M232 138 H276 V124 H262" fill="none" stroke="#d8b25e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M76 98 C90 96 100 90 104 84" fill="none" stroke="#e2ab47" stroke-width="2.5" stroke-dasharray="3 4"/>
-<circle cx="160" cy="28" r="14" fill="none" stroke="#e2ab47" stroke-width="3"/><path d="M160 28 V20 M160 28 L166 32" stroke="#ece5cf" stroke-width="2.5" stroke-linecap="round"/></svg>''',
+<rect x="44" y="34" width="112" height="78" rx="8" fill="none" stroke="rgba(236,229,207,.4)" stroke-width="3"/>
+<path d="M84 112 L78 132 H122 L116 112" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linejoin="round"/>
+<g stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M60 56 l5 5 l9 -10" stroke="#8fa476" stroke-width="3.5"/><path d="M82 56 H140" stroke="rgba(236,229,207,.35)" stroke-width="3"/>
+<path d="M60 76 l5 5 l9 -10" stroke="#8fa476" stroke-width="3.5"/><path d="M82 76 H130" stroke="rgba(236,229,207,.35)" stroke-width="3"/>
+<path d="M60 96 l5 5 l9 -10" stroke="#e2ab47" stroke-width="3.5"/><path d="M82 96 H124" stroke="rgba(236,229,207,.35)" stroke-width="3"/></g>
+<path d="M192 92 H284 M204 92 V156 M276 92 V156" stroke="#8a6a44" stroke-width="5" stroke-linecap="round" fill="none"/>
+<circle cx="236" cy="44" r="9" fill="#8fa476"/>
+<path d="M236 56 V104 M236 104 L232 156 M236 104 L242 128 L240 156 M236 66 L262 86 L274 90 M236 66 L218 80" fill="none" stroke="#8fa476" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>''',
+"IL_BELT": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M124 22 C116 52 112 76 114 100 C116 124 112 146 108 164 M196 22 C204 52 208 76 206 100 C204 124 208 146 212 164" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<path d="M110 86 C140 96 180 96 210 86 L212 124 C180 134 140 134 108 124 Z" fill="#d8b25e" opacity=".85"/>
+<path d="M150 92 V130 M170 92 V130" stroke="#223020" stroke-width="2.5" stroke-dasharray="4 4"/>
+<path d="M240 60 C256 72 256 92 240 104 M254 52 C276 70 276 98 254 116" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+<path d="M40 164 H280" stroke="rgba(236,229,207,.18)" stroke-width="2"/></svg>''',
+"IL_PACBACK": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M30 156 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
+<circle cx="96" cy="40" r="10" fill="#8fa476"/>
+<path d="M96 54 L94 104 L82 130 L80 156 M94 104 L108 130 L112 156 M96 64 L78 86 M96 64 L118 80" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="94" cy="98" r="11" fill="none" stroke="#e2ab47" stroke-width="3"/>
+<rect x="170" y="36" width="96" height="104" rx="10" fill="none" stroke="rgba(236,229,207,.4)" stroke-width="3"/>
+<g stroke-linecap="round"><path d="M186 62 H250" stroke="#d8b25e" stroke-width="4"/><path d="M186 84 H240" stroke="rgba(236,229,207,.35)" stroke-width="4"/><path d="M186 106 H232" stroke="rgba(236,229,207,.35)" stroke-width="4"/></g>
+<path d="M190 124 C204 114 218 132 232 120 C240 114 248 118 252 122" fill="none" stroke="#8fa476" stroke-width="3.5" stroke-linecap="round"/></svg>''',
 }
 NEWS_ADD = [
-("IL_ISOWEEK", ''' dict(il=IL_ACLX, g="hareket", cat="Diz", date="Eylül 2026",
-      title="Ön çapraz bağ ameliyatından sonra süren diz yakınmalarında gözetimli egzersiz güvenli, yararı ılımlı",
-      text="Avustralya'da La Trobe Üniversitesi'nin yürüttüğü ve 29 Eylül 2026'da Annals of Internal Medicine'de yayımlanan SUPER-Knee çalışmasına, ön çapraz bağ ameliyatından 9–36 ay sonra hâlâ diz yakınmaları olan 18–40 yaş arası 184 kişi katıldı. Yarısı 4 ay boyunca fizyoterapist gözetiminde ilerleyici egzersiz ve eğitim aldı; diğer yarısı tek bir eğitim seansı ve kendi başına egzersiz için kaynaklar. 4. ayda diz yakınma ve işlev puanı (KOOS4, 0–100) gözetimli grupta 14,1, diğer grupta 9,4 puan iyileşti; aradaki fark 4,8 puandı. Ağrıda anlamlı düzelme bildirenler %73'e karşı %40'tı ve uyluk kas gücü gözetimli grupta daha çok arttı. MR'da kıkırdak kalınlığı ve yapısında iki grup arasında 4. ve 12. ayda fark görülmedi.",
-      point="Aradaki fark ılımlı ve 12. ayda, kontrol grubu da iyileşmeye devam ettiği için daraldı. Çalışma körlenmemişti; katılımcılar hangi grupta olduklarını biliyordu ve sonuçların çoğu kendi bildirimlerine dayanıyor. Ön çapraz bağ ameliyatı olan genç yetişkinler erken diz kireçlenmesi açısından risk altında; bu çalışmada yoğun egzersizin kıkırdağa zarar verdiğine dair bir işaret görülmedi.",
-      src=[("Annals of Internal Medicine, 29 Eylül 2026", "https://doi.org/10.7326/ANNALS-26-02460"), ("News-Medical, 29 Eylül 2026", "https://news-medical.net/news/20260929/Exercise-therapy-reduces-knee-osteoarthritis-risk-after-ACL-surgery.aspx"), ("Medical Dialogues, 5 Ekim 2026", "https://medicaldialogues.in/orthopaedics/news/supervised-physical-therapy-provides-greater-pain-relief-after-acl-surgery-jama-180518")],
-      rel=("Ön çapraz bağ rehberi", "on-capraz-bag.html")),
+("IL_VITAL", ''' dict(il=IL_ESTEPS, g="hareket", cat="Düşme", date="Ekim 2026",
+      title="Aile hekimliğinde elektronik kayıt üzerinden önerilen ev egzersizleri düşmeleri biraz azalttı",
+      text="ABD'de Brigham and Women's Hastanesi ve Teksas Üniversitesi Tıp Fakültesi'nden (UTMB) araştırmacıların 16 Ekim 2026'da JAMA Network Open'da yayımladığı eSTEPS çalışmasında, tek bir sağlık sistemine bağlı 22 aile hekimliği muayenehanesi rastgele iki gruba ayrıldı. Düşme riski taramasında riskli çıkan 65 yaş üstü 11.945 kişi (yaş ortalaması 77, üçte ikisi kadın) 12–23 ay izlendi. Müdahale grubundaki muayenehanelerde elektronik hasta kaydına eklenen bir araç, hekimlere hastaya göre ayarlanmış ev egzersizleri önermeyi hatırlattı. Egzersizler Otago programından sadeleştirilmişti: dört zorluk seviyesi, yaklaşık 10 dakika süren ve ekipman gerektirmeyen bir program; hastalara el kitabı, web sitesi ve videolu bir uygulama da sunuldu. Kayıtlara geçen düşmeler müdahale grubunda 100 hasta-yılında 19,3, olağan bakım grubunda 21,2 oldu; yani %9 daha azdı. Düşmeye bağlı yaralanmalar 15,7'ye karşı 16,7 idi; ölümlerde fark görülmedi.",
+      point="Etki küçük; üstelik müdahale grubundaki hastaların yalnızca yaklaşık %22'sine egzersiz reçetesi verildi ve hastaların egzersizleri yapıp yapmadığı izlenmedi. Düşmeler tanı kodlarından sayıldığı için bildirilmeyen düşmeler gözden kaçmış olabilir; çalışma tek bir sağlık sisteminde yapıldı ve gruplar başlangıçta bazı açılardan farklıydı. Yine de sonuç, kısa ve düzenli ev egzersizlerinin günlük muayene akışı içinde, çok sayıda kişiye önerilebileceğini gösteriyor. Benzer hareketleri Kendine iyi bak bölümündeki denge antrenmanıyla yapabilirsiniz.",
+      src=[("JAMA Network Open, 16 Ekim 2026", "https://doi.org/10.1001/jamanetworkopen.2026.39240"), ("Medical Daily, 17 Ekim 2026", "https://www.medicaldaily.com/older-adults-falls-home-strength-balance-exercise-trial-480083"), ("UTMB, 19 Ekim 2026", "https://www.utmb.edu/scoa/news-and-events/archive/2026/10/19/study-finds-electronic-health-record-tool-can-help-reduce-falls-among-older-adults")],
+      rel=("Denge antrenmanı", "denge-antrenmani.html")),
 '''),
-("IL_PARK", ''' dict(il=IL_HIPOA, g="hareket", cat="Kireçlenme", date="Temmuz 2026",
-      title="Kalça kireçlenmesinde egzersizin ortalama etkisi beklenenden küçük: Cochrane güncellemesi",
-      text="Sidney ve Melbourne üniversitelerinden araştırmacıların 23 Temmuz 2026'da yayımladığı Cochrane derlemesi, kalça kireçlenmesi olan 1.368 kişiyle yapılmış 18 çalışmayı inceledi; programlar 2 ile 52 hafta sürdü ve güçlendirme, aerobik ve beden-zihin egzersizlerini kapsıyordu. Hiç tedavi almama, olağan bakım ya da yalnızca bilgilendirmeyle karşılaştırıldığında egzersiz ağrıyı 100 puanlık ölçekte ortalama 7,2, işlevi 8,8 puan iyileştirdi; oysa kişinin günlük hayatta fark etmesi için genellikle 12–13 puanlık bir iyileşme gerektiği kabul ediliyor. Sahte tedaviyle karşılaştırıldığında ağrıda etki çok az ya da hiç yoktu; başka bir tedaviye eklenen egzersiz de ağrı ve işlevi belirgin değiştirmedi. Yaşam kalitesinde de anlamlı bir iyileşme görülmedi.",
-      point="Bu, egzersizin işe yaramadığı anlamına gelmiyor: Yazarlar egzersizin kalça kireçlenmesinde temel tedavi olarak önerilmeye devam etmesi gerektiğini, ucuz ve zararının az olduğunu vurguluyor. Ancak hastalara beklentilerin gerçekçi anlatılması ve kimin hangi egzersizden yarar gördüğünü gösterecek daha büyük çalışmalar gerektiğini söylüyorlar. Çalışmaların çoğu küçüktü, katılımcılar hangi grupta olduklarını biliyordu ve katılımcıların %63'ü kadın, yaşları 53 ile 74 arasındaydı.",
-      src=[("Cochrane Library, 23 Temmuz 2026", "https://doi.org/10.1002/14651858.CD007912.pub3"), ("Cochrane sade dil özeti", "https://www.cochrane.org/evidence/CD007912_exercise-osteoarthritis-hip"), ("Sidney Üniversitesi, 23 Temmuz 2026", "https://www.sydney.edu.au/news-opinion/news/2026/07/23/exercise-benefit-for-hip-arthritis-pain-may-be-more-modest-than-expected.html")],
-      rel=("Kalça kireçlenmesi rehberi", "kalca-kireclenmesi.html")),
+("IL_DEMPA", ''' dict(il=IL_BELT, g="hareket", cat="Bel ağrısı", date="Ağustos 2026",
+      title="Bel ağrısında yumuşak bel korsesi: 12 haftada günlük işlevde ılımlı ek iyileşme",
+      text="Fransa'da 17 merkezde yürütülen ve 19 Ağustos 2026'da JAMA Network Open'da yayımlanan LOMBACT çalışmasına, 1–6 aydır süren ve belirli bir nedene bağlanamayan bel ağrısı olan 168 yetişkin (yaş ortalaması 49) katıldı. Katılımcıların yarısı olağan bakımın yanında gün içinde 4–8 saat yumuşak, ayarlanabilir bir bel korsesi taktı; diğer yarısı yalnızca olağan bakım aldı. İki gruba da aktif kalmaları önerildi. 12 haftada günlük kısıtlılık puanı (Oswestry, 0–100) korse grubunda 10, diğer grupta 5,3 puan iyileşti; kısıtlılığı en az %30 azalanlar korse grubunda yaklaşık %61, diğer grupta %41 oldu. Korse grubunda ağrı, özellikle hareket sırasındaki ağrı, daha çok azaldı; ağrı kesici kullananların oranı da daha düşüktü (yaklaşık yarıya karşı üçte iki). Korsenin sensör verilerine göre katılımcılar onu taktıkları günlerde ortalama 4 saat kadar kullandı; altı kişide rahatsızlık ya da ciltte tahriş gibi hafif sorunlar görüldü.",
+      point="Katılımcılar hangi grupta olduklarını biliyordu ve sahte bir korseyle karşılaştırma yapılmadı; beklentiler sonucu etkilemiş olabilir. İzlem yalnızca 12 hafta sürdü, korse bırakıldıktan sonraki durum incelenmedi ve çalışmayı korseyi üreten şirket finanse etti. Dünya Sağlık Örgütü 2023'te, kronik bel ağrısında korse ya da destek kemerlerinin rutin olarak önerilmemesini tavsiye etmişti. Araştırmacılar da korsenin aktif tedavinin yerine geçmemesi gerektiğini, hareket sırasındaki rahatsızlığı azaltarak bazı hastaların aktif kalmasına yardımcı olabileceğini vurguluyor.",
+      src=[("JAMA Network Open, 19 Ağustos 2026", "https://doi.org/10.1001/jamanetworkopen.2026.29793"), ("ScienceAlert, 5 Eylül 2026", "https://www.sciencealert.com/?p=217137"), ("Harvard Health Publishing, 16 Ekim 2026", "https://www.health.harvard.edu/bones-and-joints/a-lumbar-belt-may-help-ease-low-back-pain")],
+      rel=("Bel ağrısı rehberi", "bel-agrisi.html")),
 '''),
-("IL_CART", ''' dict(il=IL_FAST4, g="hareket", cat="Kas gücü", date="Haziran 2026",
-      title="65 yaş üstünde günde 4 dakikalık güç egzersizi bacak gücünü ve dengeyi artırdı",
-      text="ABD'de Penn State Tıp Fakültesi'nden araştırmacıların 2026'da PLOS One'da yayımladığı FAST-2 çalışmasında, haftada ortalama yalnızca 18 dakika egzersiz yapan, yaş ortalaması 74 olan 97 kişi rastgele iki gruba ayrıldı. Egzersiz grubu her gün yaklaşık 4 dakika süren bir program yaptı: şınav, sandalyeden kalkma, lastik bantla kürek çekme ve basamak çıkma; her hareket 30 saniye, ardından 30 saniye dinlenme. Katılımcılara lastik bantlar ve yüksekliği ayarlanabilen bir basamak verildi, hareketler güç arttıkça zorlaştırıldı. Egzersiz yapmayan gruba göre 30 saniyede sandalyeden kalkma sayısı 4,2 tekrar, tek ayak üstünde durma süresi 3,6 saniye arttı; oturup kalkma 2,3 saniye hızlandı. Katılımcılar programı günlerin %81'inde yaptı.",
-      point="Haberlerde grupların başlangıç ve son değerleri ile güven aralıkları yer almıyor; bazı başlıklardaki “zindeliği dört katına çıkardı” ifadesi de verilen sayılarla desteklenmiyor. Yine de sonuç, kısa ama her gün yapılan güçlendirmenin yaşlılarda işe yarayabileceğini gösteren randomize bir kanıt. Benzer bir devreyi evde yapmak için Kendine iyi bak bölümündeki güç devresini kullanabilirsiniz.",
-      src=[("PLOS One, 2026", "https://doi.org/10.1371/journal.pone.0336748"), ("Penn State, 9 Haziran 2026", "https://www.psu.edu/news/research/story/four-minute-daily-workout-improves-strength-balance-older-adults"), ("Penn State Health News, 12 Haziran 2026", "https://pennstatehealthnews.org/2026/06/four-minutes-of-daily-resistance-training-can-quadruple-fitness-in-older-adults/")],
-      rel=("Evde güç devresi", "guc-devresi.html")),
+("IL_FAST4", ''' dict(il=IL_PACBACK, g="hareket", cat="Bel ağrısı", date="Haziran 2026",
+      title="Yeni başlayan bel ağrısında destekli kendi kendine yönetim, ağrının bir yıl sonraki etkisini biraz azalttı",
+      text="ABD'de Minnesota ve Pittsburgh üniversitelerinde yürütülen ve Haziran 2026'da JAMA Internal Medicine'de yayımlanan PACBACK çalışmasına, yeni başlamış ya da birkaç haftadır süren bel ağrısı olan ve bir tarama testine göre ağrısı kronikleşme riski orta ya da yüksek bulunan 1.000 yetişkin katıldı. Katılımcılar 8 hafta boyunca dört yaklaşımdan birine ayrıldı: kılavuzlara dayalı tıbbi bakım (çoğunlukla ağrı kesici ve kas gevşetici ilaçlar), omurga manipülasyonu, klinisyen destekli kendi kendine yönetim (ağrı eğitimi, egzersiz, gevşeme, olumsuz düşünceleri yeniden çerçeveleme ve aktif kalma) ya da son ikisinin birlikte uygulanması. 10–12. aylarda ağrının günlük hayata etkisi (8–50 puanlık bir ölçekte) destekli kendi kendine yönetim grubunda tıbbi bakıma göre ortalama 1,7 puan daha düşüktü; ağrının etkisi en az yarı yarıya azalanlar %64'e karşı %55 oldu. Omurga manipülasyonu tek başına tıbbi bakımdan farklı değildi ve kendi kendine yönetime eklendiğinde ek yarar sağlamadı.",
+      point="Araştırmacılar ortalama farkın küçük olduğunu belirtiyor. Kendi kendine yönetimin etkisinin yaklaşık %76'sı, katılımcıların 6. aya kadar hareket etmekten daha az korkması, ağrıyla başa çıkabileceğine daha çok güvenmesi ve ağrıyla ilgili olumsuz düşüncelerinin azalmasıyla açıklandı. Sonuçlar katılımcıların kendi bildirimlerine dayanıyor ve katılımcılar hangi yaklaşımı aldıklarını biliyordu. Bulgu, yeni başlayan bel ağrısında yalnızca ilaca değil, hareket etmeye ve ağrıyı anlamaya dayalı bir yaklaşıma da yer verilmesini destekliyor.",
+      src=[("JAMA Internal Medicine, Haziran 2026", "https://doi.org/10.1001/jamainternmed.2026.1893"), ("ReachMD, 9 Haziran 2026", "https://reachmd.com/news/pacback-prevention-chronic-back-pain/2487393/"), ("News-Medical, 1 Temmuz 2026", "https://www.news-medical.net/news/20260701/Personalized-self-management-effectively-prevents-chronic-back-pain.aspx")],
+      rel=("Bel ağrısı rehberi", "bel-agrisi.html")),
 '''),
 ]
 for name, svg in IL_NEW.items():
