@@ -24,7 +24,7 @@ MX_ROWS = "\n".join(
     for i, (t, n, v) in enumerate(MX_ROWS_DATA))
 
 MX_FAQ = [
- ("Egzersiz ilacın ya da terapinin yerine geçer mi?", "Hafif depresyonda egzersiz, önerilen seçeneklerden biridir. Orta ve ağır depresyonda genellikle terapi ve ilaç önerilir; egzersiz bunlara eklenebilir. Araştırmalarda egzersiz, ilaç ya da terapiyle birlikte yapıldığında da etkiliydi. Kullandığınız ilacı kendi başınıza bırakmayın; değişiklik için hekiminizle konuşun."),
+ ("Egzersiz ilacın ya da terapinin yerine geçer mi?", "Hafif depresyonda egzersiz, önerilen seçeneklerden biridir. Orta ve ağır depresyonda genellikle terapi ve ilaç önerilir; egzersiz bunlara eklenebilir. Araştırmalarda egzersiz, ilaç ya da terapiyle birlikte yapıldığında da etkiliydi. Kullandığınız ilacı kendi başınıza bırakmayın; değişiklik için hekiminizle konuşun. 2026'da güncellenen Cochrane derlemesinde egzersiz, karşılaştırıldığı az sayıda çalışmada psikoterapi ve ilaç tedavisiyle benzer sonuç verdi; ancak bu çalışmalar küçüktü ve kanıt sınırlı."),
  ("Ne kadar sürede fark ederim?", "İngiltere'deki kılavuzda önerilen grup programı 10 hafta, kaygı çalışmasındaki program 12 hafta sürdü. Sonucu birkaç haftalık düzenli egzersizden sonra değerlendirin. Bu arada tek bir tempolu yürüyüş bile zihni toparlamaya yardımcı olabilir."),
  ("Hiç enerjim yok; nasıl başlayayım?", "Çok küçük başlayın: 10 dakikalık bir yürüyüş ya da tek bir şarkı boyunca hareket. Hafif egzersiz de işe yarıyor. Ne zaman yapacağınızı önceden belirleyin, mümkünse biriyle birlikte yapın. Yapamadığınız günler için kendinize yüklenmeyin; ertesi gün kaldığınız yerden devam edin."),
  ("En iyi egzersiz hangisi?", "Araştırmalarda yürüyüş ya da koşu, yoga ve güç çalışması öne çıktı. Ama en iyi egzersiz, düzenli yapabileceğiniz ve sevdiğiniz egzersizdir. Yoga ve güç çalışmasında yarıda bırakma daha azdı."),
@@ -32,6 +32,7 @@ MX_FAQ = [
 
 MX_SRC = [
  "Noetel M, Sanders T, Gallardo-Gómez D, et al. " + ext("https://www.bmj.com/content/384/bmj-2023-075847", "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials") + ". BMJ. 2024;384:e075847.",
+ "Clegg AJ, et al. " + ext("https://doi.org/10.1002/14651858.CD004366.pub7", "Exercise for depression") + ". Cochrane Database Syst Rev. 2026. Uzman görüşleri: " + ext("https://www.sciencemediacentre.org/expert-reaction-to-exercise-having-similar-results-as-therapy-for-treating-depression/", "Science Media Centre") + ", 8 January 2026.",
  "Singh B, Olds T, Curtis R, et al. " + ext("https://bjsm.bmj.com/content/57/18/1203", "Effectiveness of physical activity interventions for improving depression, anxiety and distress: an overview of systematic reviews") + ". Br J Sports Med. 2023;57(18):1203–1209.",
  "Pearce M, Garcia L, Abbas A, et al. " + ext("https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2790780", "Association between physical activity and risk of depression: a systematic review and meta-analysis") + ". JAMA Psychiatry. 2022;79(6):550–559.",
  "Henriksson M, Wall A, Nyberg J, et al. Effects of exercise on symptoms of anxiety in primary care patients: a randomized controlled trial. J Affect Disord. 2022;297:26–34. Özet: " + ext("https://www.gu.se/en/news/anxiety-effectively-treated-with-exercise", "University of Gothenburg, Anxiety effectively treated with exercise") + ", 9 November 2021.",
@@ -47,7 +48,7 @@ MX_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Ruh sağlığı için egzersiz</h1>
     <p class="lede">Egzersiz yalnızca bedene değil, ruh hâline de iyi gelir. Yüzlerce çalışmayı bir araya getiren analizlere göre depresyon ve kaygı belirtilerini azaltır; düzenli hareket edenlerde depresyon da daha seyrek görülür. Bu rehber hangi egzersizin, ne kadar ve nasıl yapıldığında işe yaradığını anlatır. Egzersiz tedavinin yerine geçmez; onu tamamlar.</p>
-    <p class="meta">Son güncelleme: 10 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 23 Ekim 2026</p>
   </div>
 </header>
 

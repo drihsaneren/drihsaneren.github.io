@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Yeni sayfaları ve haberleri build_pages.py / i18n_map.py'ye kaydeder (22 Ekim 2026 1. tur, 23 Ekim 2026 2. tur).
+"""Yeni sayfaları ve haberleri build_pages.py / i18n_map.py'ye kaydeder (22 Ekim 2026 1. tur, 23 Ekim 2026 2. ve 3. tur).
 Kullanım: python3 reg_tur.py   (çalışma dizininde; tekrar çalıştırılırsa zaten eklenenleri atlar)
 Sonraki turlarda: CONDS / SELFS / NEWS_ADD listelerini yeni sayfalara göre değiştirip yeniden kullanın.
 Her eklemede "çapa" (anchor) metninin build_pages.py'de tam bir kez geçtiği denetlenir."""
@@ -44,58 +44,58 @@ def add_to_list_after(list_name, after_item, new_item):
     s = s[:m.start()] + line2 + s[line_end:]
 
 
-# ------------------------------------------------------------------ sayfalar (23 Ekim 2026, 2. tur; 1. turun listeleri git geçmişinde: fcf2047)
+# ------------------------------------------------------------------ sayfalar (23 Ekim 2026, 3. tur; önceki turların listeleri git geçmişinde: fcf2047, 2. tur kaynak dalındaki önceki commit)
 CONDS = [
     # dosya, en, part, kategori, başlık, hap, C_, TH, kısa açıklama, bölge (None = REHAB), (AGR'de/REHAB'da kimden sonra)
-    ("kalp-yetmezligi.html", "heart-failure.html", "cond64_part.py", "Rehabilitasyon rehberi",
-     "Kalp yetmezliğinde egzersiz", "Kalp yetmezliği", "C_HF",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="104" cy="34" r="11" fill="#8fa476"/><path d="M104 48 L100 88 L86 110 L82 134 M100 88 L116 108 L122 132 M102 58 L88 78 M102 58 L120 72" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M214 112 C186 92 166 74 166 54 C166 40 176 30 190 30 C200 30 208 36 214 46 C220 36 228 30 238 30 C252 30 262 40 262 54 C262 74 242 92 214 112 Z" fill="none" stroke="#d8b25e" stroke-width="6" stroke-linejoin="round"/><path d="M174 70 H196 L204 54 L214 88 L224 62 L230 70 H254" fill="none" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>""",
-     "Nefes darlığı ve yorgunluk varken egzersiz güvenli mi? Kimler başlayabilir, nasıl ilerlenir, her gün tartılmak ve altı ev egzersizi.",
-     None, "C_PAD"),
-    ("dupuytren-kontrakturu.html", "dupuytrens-contracture.html", "cond65_part.py", "Hastalık rehberi",
-     "Dupuytren kontraktürü", "Dupuytren", "C_DUP",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M120 136 V96 C120 84 126 76 136 74 L196 70 C206 70 212 78 212 88 V136" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M140 74 V28 M160 72 V20 M180 71 V26" stroke="#8fa476" stroke-width="12" stroke-linecap="round"/><path d="M200 72 C206 58 212 54 220 60 C226 66 222 78 214 82" fill="none" stroke="#8fa476" stroke-width="12" stroke-linecap="round"/><path d="M206 120 C206 104 208 90 212 82" fill="none" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"/><circle cx="208" cy="104" r="5" fill="#d8b25e"/><path d="M236 104 H282" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M240 100 C252 84 268 84 280 100" fill="none" stroke="#ece5cf" stroke-width="3" stroke-dasharray="4 5" stroke-linecap="round" opacity=".7"/></svg>""",
-     "Avuç içinde sertlik, parmak bükülüp düzelmiyor mu? Masa testi, tedavi seçenekleri, işlemden sonra el egzersizleri ve atel.",
-     "omuz", "C_TF"),
-    ("omurga-kirigi.html", "vertebral-fracture.html", "cond66_part.py", "Hastalık rehberi",
-     "Kemik erimesine bağlı omurga kırığı", "Omurga kırığı", "C_VF",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><g fill="#8fa476"><rect x="128" y="14" width="44" height="16" rx="5"/><rect x="126" y="36" width="48" height="17" rx="5"/><rect x="124" y="82" width="52" height="18" rx="5"/><rect x="122" y="106" width="56" height="19" rx="5"/></g><path d="M124 60 L176 60 L176 76 L124 72 Z" fill="#e2ab47"/><path d="M180 66 H198" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/><g fill="none" stroke="#d8b25e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle cx="242" cy="40" r="10" fill="#d8b25e" stroke="none"/><path d="M240 54 V96 L232 132 M240 96 L250 132 M240 64 L224 82 M240 64 L258 80"/></g><path d="M214 40 V132" stroke="rgba(236,229,207,.35)" stroke-width="3" stroke-dasharray="5 6"/></svg>""",
-     "Ani sırt ağrısı, boy kısalması? Kemik erimesine bağlı omurga kırığında tanı, ağrıyla başa çıkma, güvenli egzersizler ve uyarı işaretleri.",
-     "bel", "C_KY"),
+    ("diyabette-egzersiz.html", "exercise-and-diabetes.html", "cond67_part.py", "Rehabilitasyon rehberi",
+     "Tip 2 diyabette egzersiz", "Diyabet", "C_DIA",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><circle cx="112" cy="30" r="11" fill="#8fa476"/><path d="M112 44 L108 84 L94 106 L90 132 M108 84 L124 104 L130 130 M110 54 L94 74 M110 54 L130 66" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M212 28 C200 46 184 64 184 84 C184 100 197 112 212 112 C227 112 240 100 240 84 C240 64 224 46 212 28 Z" fill="none" stroke="#d8b25e" stroke-width="5" stroke-linejoin="round"/><path d="M212 60 V94 M201 83 L212 94 L223 83" fill="none" stroke="#e2ab47" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M146 62 H170" stroke="rgba(236,229,207,.4)" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 5"/></svg>""",
+     "Kan şekeri kontrolü için yürüyüş ve güç çalışması: ne kadar, ne zaman, düşük şekerden ve ayak sorunlarından korunma, altı ev egzersizi.",
+     None, "C_HF"),
+    ("yogun-bakim-sonrasi.html", "recovery-after-intensive-care.html", "cond68_part.py", "Rehabilitasyon rehberi",
+     "Yoğun bakımdan sonra iyileşme", "Yoğun bakım sonrası", "C_ICU",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M40 136 H280" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M60 98 H196 M60 98 V136 M196 98 V136 M60 78 V98" fill="none" stroke="#8a6a44" stroke-width="6" stroke-linecap="round"/><rect x="66" y="84" width="42" height="11" rx="5" fill="rgba(236,229,207,.35)"/><circle cx="168" cy="36" r="10" fill="#8fa476"/><path d="M168 48 L170 90 M170 90 L200 92 L202 134 M168 58 L184 80 L188 94" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="220" y="22" width="68" height="46" rx="7" fill="none" stroke="rgba(236,229,207,.45)" stroke-width="3"/><path d="M226 46 H240 L247 34 L255 58 L262 46 H282" fill="none" stroke="#e2ab47" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>""",
+     "Yoğun bakımdan sonra güçsüzlük, yorgunluk ve unutkanlık sık görülür: ilk haftalarda neler beklenir, nasıl güçlenilir, hangi destekler var.",
+     None, "C_DIA"),
+    ("yuksek-tansiyon.html", "high-blood-pressure.html", "cond69_part.py", "Rehabilitasyon rehberi",
+     "Yüksek tansiyonda egzersiz", "Yüksek tansiyon", "C_HT",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M50 136 H270" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M66 20 V136" stroke="rgba(236,229,207,.45)" stroke-width="5" stroke-linecap="round"/><circle cx="84" cy="38" r="10" fill="#8fa476"/><path d="M80 50 V92 L118 92 L118 134 M80 62 L104 80" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="216" cy="70" r="42" fill="none" stroke="#d8b25e" stroke-width="5"/><path d="M186 92 L192 88 M216 34 V40 M246 92 L240 88 M184 58 L190 60 M248 58 L242 60" stroke="#ece5cf" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M216 70 L240 50" stroke="#e2ab47" stroke-width="4.5" stroke-linecap="round"/><circle cx="216" cy="70" r="5" fill="#ece5cf"/></svg>""",
+     "Düzenli egzersiz tansiyonu birkaç puan düşürür: yürüyüş, güç çalışması ve izometrik duvar oturuşu, evde doğru ölçüm ve dikkat edilecekler.",
+     None, "C_ICU"),
 ]
 SELFS = [
     # dosya, en, part, başlık, hap, C_, TH, açıklama, SELF'te kimden sonra, SELF_GROUPS grubu, grupta kimden sonra
-    ("yemek-sonrasi-yuruyus.html", "walk-after-meals.html", "self13_part.py", "Yemek sonrası yürüyüş", "Yemek sonrası yürüyüş", "C_YY",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><ellipse cx="104" cy="104" rx="42" ry="12" fill="none" stroke="rgba(236,229,207,.35)" stroke-width="4"/><ellipse cx="104" cy="100" rx="26" ry="6" fill="#d8b25e" opacity=".75"/><path d="M58 70 V96 M54 70 V80 M62 70 V80 M150 70 V96" stroke="rgba(236,229,207,.45)" stroke-width="3" stroke-linecap="round"/><circle cx="214" cy="32" r="11" fill="#8fa476"/><path d="M214 46 L210 86 L196 108 L192 132 M210 86 L226 106 L232 130 M212 56 L198 76 M212 56 L230 70" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M252 54 A16 16 0 1 1 252 86 A16 16 0 1 1 252 54" fill="none" stroke="#e2ab47" stroke-width="4"/><path d="M252 70 V60 M252 70 L260 74" stroke="#ece5cf" stroke-width="3" stroke-linecap="round"/></svg>""",
-     "Yemekten sonra 10 dakika yürüyüş kan şekerinin yükselmesini yumuşatır: öğün ve süre seçimi, zamanlayıcı ve günlük takip.",
-     "C_GD", "Zamanlayıcıyla birlikte yapın", "tempolu-yuruyus.html"),
-    ("denge-antrenmani.html", "balance-training.html", "self13_part.py", "Denge antrenmanı", "Denge antrenmanı", "C_DB",
-     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M60 136 H260" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M188 76 H260 M200 76 V136 M250 76 V136" stroke="#8a6a44" stroke-width="6" stroke-linecap="round" fill="none"/><circle cx="146" cy="26" r="11" fill="#8fa476"/><path d="M146 40 V88 M146 88 L142 134 M146 88 L152 110 L150 134 M146 50 L174 72 L190 74 M146 50 L124 66" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M134 136 H162" stroke="#e2ab47" stroke-width="5" stroke-linecap="round"/><path d="M96 48 C88 60 88 76 96 88 M84 56 C80 64 80 72 84 80" fill="none" stroke="#d8b25e" stroke-width="3" stroke-linecap="round" opacity=".7"/></svg>""",
-     "Düşmeleri önlemek için Otago programından uyarlanmış altı denge hareketi: üç destek seviyesi, duruş zamanlayıcısı ve 12 haftalık takip.",
-     "C_YY", "Zamanlayıcıyla birlikte yapın", "yemek-sonrasi-yuruyus.html"),
+    ("tansiyon-gunlugu.html", "blood-pressure-diary.html", "self14_part.py", "Ev tansiyon günlüğü", "Tansiyon günlüğü", "C_TG",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><rect x="70" y="40" width="92" height="80" rx="12" fill="none" stroke="#8fa476" stroke-width="5"/><rect x="84" y="54" width="64" height="32" rx="5" fill="rgba(236,229,207,.12)"/><path d="M94 64 H122 M94 76 H112" stroke="#e2ab47" stroke-width="4" stroke-linecap="round"/><circle cx="116" cy="104" r="6" fill="#d8b25e"/><path d="M162 80 C178 80 176 112 192 112" fill="none" stroke="rgba(236,229,207,.4)" stroke-width="3"/><rect x="206" y="24" width="72" height="104" rx="8" fill="none" stroke="rgba(236,229,207,.45)" stroke-width="3"/><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M218 48 l4 4 l8 -9" stroke="#8fa476" stroke-width="3.5"/><path d="M238 48 H266" stroke="rgba(236,229,207,.4)" stroke-width="3"/><path d="M218 74 l4 4 l8 -9" stroke="#8fa476" stroke-width="3.5"/><path d="M238 74 H262" stroke="rgba(236,229,207,.4)" stroke-width="3"/><path d="M218 100 l4 4 l8 -9" stroke="#e2ab47" stroke-width="3.5"/><path d="M238 100 H258" stroke="rgba(236,229,207,.4)" stroke-width="3"/></g></svg>""",
+     "Evde doğru tansiyon ölçümü: 5 dakika dinlenme ve 1 dakika ara zamanlayıcısı, sabah-akşam kayıt, ilk gün hariç ortalama ve hekime götürülecek dosya.",
+     "C_PULSE", "Kendinizi ölçün", "nabiz-olcer.html"),
+    ("alti-dakika-yurume-testi.html", "six-minute-walk-test.html", "self14_part.py", "6 dakika yürüme testi", "6 dk yürüme testi", "C_AW",
+     """<svg viewBox="0 0 320 150" aria-hidden="true"><path d="M40 136 H280" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round"/><path d="M50 134 L60 108 L70 134 Z M250 134 L260 108 L270 134 Z" fill="#e2ab47"/><path d="M80 124 H240" stroke="rgba(236,229,207,.4)" stroke-width="3" stroke-dasharray="6 7" stroke-linecap="round"/><path d="M228 116 L240 124 L228 132 M92 116 L80 124 L92 132" fill="none" stroke="rgba(236,229,207,.5)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="150" cy="30" r="10" fill="#8fa476"/><path d="M150 42 L146 78 L134 96 L130 116 M146 78 L160 96 L166 114 M148 52 L134 70 M148 52 L166 64" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="240" cy="54" r="22" fill="none" stroke="#d8b25e" stroke-width="4"/><path d="M240 54 V40 M240 54 L250 60 M234 28 H246" stroke="#ece5cf" stroke-width="3" stroke-linecap="round"/></svg>""",
+     "6 dakikada ne kadar yürüyebiliyorsunuz? Standart yönlendirmeli süreölçer, parkur sayacı, yaşa göre beklenen mesafe ve sonuç kaydı.",
+     "C_AD", "Kendinizi ölçün", "iki-dakika-adim-testi.html"),
 ]
 RELATED_NEW = {
-    "kalp-yetmezligi.html": ["kalp-rehabilitasyonu.html", "tempolu-yuruyus.html", "koah.html"],
-    "dupuytren-kontrakturu.html": ["tetik-parmak.html", "el-kireclenmesi.html", "karpal-tunel-sendromu.html"],
-    "omurga-kirigi.html": ["kemik-erimesi.html", "kambur-durus.html", "dusme-onleme.html"],
-    "yemek-sonrasi-yuruyus.html": ["tempolu-yuruyus.html", "oturma-suresi.html", "guc-devresi.html"],
-    "denge-antrenmani.html": ["dort-asamali-denge-testi.html", "dusme-onleme.html", "guc-devresi.html"],
+    "diyabette-egzersiz.html": ["yemek-sonrasi-yuruyus.html", "diyabetik-noropati.html", "guc-devresi.html"],
+    "yogun-bakim-sonrasi.html": ["sarkopeni.html", "ic-cekis.html", "alti-dakika-yurume-testi.html"],
+    "yuksek-tansiyon.html": ["duvar-oturusu.html", "tansiyon-gunlugu.html", "tempolu-yuruyus.html"],
+    "tansiyon-gunlugu.html": ["yuksek-tansiyon.html", "duvar-oturusu.html", "nabiz-olcer.html"],
+    "alti-dakika-yurume-testi.html": ["iki-dakika-adim-testi.html", "kalp-yetmezligi.html", "koah.html"],
 }
 RELATED_ADD = [  # (var olan sayfa, eklenecek)
-    ("kalp-rehabilitasyonu.html", "kalp-yetmezligi.html"),
-    ("koah.html", "kalp-yetmezligi.html"),
-    ("tetik-parmak.html", "dupuytren-kontrakturu.html"),
-    ("kemik-erimesi.html", "omurga-kirigi.html"),
-    ("kambur-durus.html", "omurga-kirigi.html"),
-    ("dusme-onleme.html", "denge-antrenmani.html"),
-    ("dort-asamali-denge-testi.html", "denge-antrenmani.html"),
-    ("tempolu-yuruyus.html", "yemek-sonrasi-yuruyus.html"),
+    ("yemek-sonrasi-yuruyus.html", "diyabette-egzersiz.html"),
+    ("diyabetik-noropati.html", "diyabette-egzersiz.html"),
+    ("duvar-oturusu.html", "yuksek-tansiyon.html"),
+    ("nabiz-olcer.html", "tansiyon-gunlugu.html"),
+    ("kalp-yetmezligi.html", "alti-dakika-yurume-testi.html"),
+    ("koah.html", "alti-dakika-yurume-testi.html"),
+    ("sarkopeni.html", "yogun-bakim-sonrasi.html"),
 ]
 
 # exec listesi
 # cond61, sn_stair çizimi self4_part.py'de tanımlandığı için self12_part.py'den SONRA exec edilir. Yeni partlar zincirin sonuna eklenir.
 for part, after in (("self12_part.py", "self11_part.py"), ("cond61_part.py", "self12_part.py"), ("cond62_part.py", "cond61_part.py"), ("cond63_part.py", "cond62_part.py"),
-                    ("self13_part.py", "cond63_part.py"), ("cond64_part.py", "self13_part.py"), ("cond65_part.py", "cond64_part.py"), ("cond66_part.py", "cond65_part.py")):
+                    ("self13_part.py", "cond63_part.py"), ("cond64_part.py", "self13_part.py"), ("cond65_part.py", "cond64_part.py"), ("cond66_part.py", "cond65_part.py"),
+                    ("cond67_part.py", "cond66_part.py"), ("cond68_part.py", "cond67_part.py"), ("cond69_part.py", "cond68_part.py"), ("self14_part.py", "cond69_part.py")):
     if f'"{part}"' not in s:
         once(f'"{after}", ', f'"{part}", ')
 
@@ -161,55 +161,60 @@ for row in CONDS + SELFS:
 open(M, "w", encoding="utf-8").write(t)
 print("tamam")
 
-# ------------------------------------------------------------------ Bilim gündemi (2. tur, 23 Ekim 2026)
+# ------------------------------------------------------------------ Bilim gündemi (3. tur, 23 Ekim 2026)
 s = open(B, encoding="utf-8").read()
 IL_NEW = {
-"IL_ESTEPS": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+"IL_ESPRESSO": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<path d="M30 160 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
+<rect x="160" y="30" width="130" height="86" rx="8" fill="none" stroke="rgba(236,229,207,.4)" stroke-width="3"/>
+<path d="M172 94 C192 78 212 98 232 84 C248 74 264 84 278 76" fill="none" stroke="rgba(143,164,118,.5)" stroke-width="3" stroke-linecap="round"/>
+<path d="M196 70 C206 56 230 52 246 62 C252 66 256 66 262 62 C260 70 254 74 246 74 C232 82 212 82 196 70 Z" fill="#d8b25e"/>
+<path d="M222 58 L226 48 L232 58" fill="#d8b25e"/>
+<path d="M206 136 V116 M244 136 V116" stroke="rgba(236,229,207,.3)" stroke-width="3"/>
+<path d="M44 110 H112 M56 110 V160 M104 110 V160" stroke="#8a6a44" stroke-width="5" stroke-linecap="round" fill="none"/>
+<circle cx="84" cy="44" r="10" fill="#8fa476"/>
+<path d="M84 58 L86 104 L120 106 L122 158 M84 70 L118 78 L148 72" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="148" cy="72" r="5" fill="#e2ab47"/></svg>''',
+"IL_OAEX": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M30 156 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
-<rect x="44" y="34" width="112" height="78" rx="8" fill="none" stroke="rgba(236,229,207,.4)" stroke-width="3"/>
-<path d="M84 112 L78 132 H122 L116 112" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linejoin="round"/>
-<g stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M60 56 l5 5 l9 -10" stroke="#8fa476" stroke-width="3.5"/><path d="M82 56 H140" stroke="rgba(236,229,207,.35)" stroke-width="3"/>
-<path d="M60 76 l5 5 l9 -10" stroke="#8fa476" stroke-width="3.5"/><path d="M82 76 H130" stroke="rgba(236,229,207,.35)" stroke-width="3"/>
-<path d="M60 96 l5 5 l9 -10" stroke="#e2ab47" stroke-width="3.5"/><path d="M82 96 H124" stroke="rgba(236,229,207,.35)" stroke-width="3"/></g>
-<path d="M192 92 H284 M204 92 V156 M276 92 V156" stroke="#8a6a44" stroke-width="5" stroke-linecap="round" fill="none"/>
-<circle cx="236" cy="44" r="9" fill="#8fa476"/>
-<path d="M236 56 V104 M236 104 L232 156 M236 104 L242 128 L240 156 M236 66 L262 86 L274 90 M236 66 L218 80" fill="none" stroke="#8fa476" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>''',
-"IL_BELT": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
-<path d="M124 22 C116 52 112 76 114 100 C116 124 112 146 108 164 M196 22 C204 52 208 76 206 100 C204 124 208 146 212 164" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
-<path d="M110 86 C140 96 180 96 210 86 L212 124 C180 134 140 134 108 124 Z" fill="#d8b25e" opacity=".85"/>
-<path d="M150 92 V130 M170 92 V130" stroke="#223020" stroke-width="2.5" stroke-dasharray="4 4"/>
-<path d="M240 60 C256 72 256 92 240 104 M254 52 C276 70 276 98 254 116" fill="none" stroke="#e2ab47" stroke-width="3" stroke-linecap="round" opacity=".7"/>
-<path d="M40 164 H280" stroke="rgba(236,229,207,.18)" stroke-width="2"/></svg>''',
-"IL_PACBACK": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="40" y="40" width="96" height="110" rx="8" stroke="rgba(236,229,207,.25)" stroke-width="3"/><rect x="50" y="30" width="96" height="110" rx="8" stroke="rgba(236,229,207,.35)" stroke-width="3" fill="#223020"/><rect x="60" y="20" width="96" height="110" rx="8" stroke="rgba(236,229,207,.5)" stroke-width="3" fill="#223020"/>
+<path d="M76 44 H140 M76 60 H132 M76 76 H136" stroke="rgba(236,229,207,.35)" stroke-width="3"/></g>
+<path d="M76 116 V108 M92 116 V102 M108 116 V110 M124 116 V106" stroke="#e2ab47" stroke-width="7" stroke-linecap="round"/>
+<path d="M198 24 C194 50 194 70 202 86 M246 24 C252 50 252 70 244 86" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<path d="M202 96 C196 116 196 136 200 158 M244 96 C250 116 250 136 246 158" fill="none" stroke="#8fa476" stroke-width="10" stroke-linecap="round"/>
+<path d="M200 88 C214 96 232 96 246 88 M200 94 C214 102 232 102 246 94" fill="none" stroke="#d8b25e" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="276" cy="56" r="8" fill="none" stroke="#e2ab47" stroke-width="3"/><path d="M282 62 L292 72" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/></svg>''',
+"IL_DEPEX": '''<svg viewBox="0 0 320 180" aria-hidden="true"><rect width="320" height="180" fill="#223020"/>
 <path d="M30 156 H290" stroke="rgba(236,229,207,.18)" stroke-width="2"/>
-<circle cx="96" cy="40" r="10" fill="#8fa476"/>
-<path d="M96 54 L94 104 L82 130 L80 156 M94 104 L108 130 L112 156 M96 64 L78 86 M96 64 L118 80" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="94" cy="98" r="11" fill="none" stroke="#e2ab47" stroke-width="3"/>
-<rect x="170" y="36" width="96" height="104" rx="10" fill="none" stroke="rgba(236,229,207,.4)" stroke-width="3"/>
-<g stroke-linecap="round"><path d="M186 62 H250" stroke="#d8b25e" stroke-width="4"/><path d="M186 84 H240" stroke="rgba(236,229,207,.35)" stroke-width="4"/><path d="M186 106 H232" stroke="rgba(236,229,207,.35)" stroke-width="4"/></g>
-<path d="M190 124 C204 114 218 132 232 120 C240 114 248 118 252 122" fill="none" stroke="#8fa476" stroke-width="3.5" stroke-linecap="round"/></svg>''',
+<path d="M58 70 C50 70 44 64 44 57 C44 49 51 43 59 44 C62 36 70 31 79 32 C89 33 96 41 96 50 C103 50 108 55 108 62 C108 66 104 70 99 70 Z" fill="rgba(236,229,207,.22)"/>
+<path d="M56 82 L52 92 M72 82 L68 92 M88 82 L84 92" stroke="rgba(236,229,207,.25)" stroke-width="3" stroke-linecap="round"/>
+<circle cx="250" cy="48" r="18" fill="#d8b25e"/>
+<path d="M250 18 V24 M250 72 V78 M220 48 H226 M274 48 H280 M229 27 L233 31 M267 65 L271 69 M271 27 L267 31 M229 69 L233 65" stroke="#e2ab47" stroke-width="3" stroke-linecap="round"/>
+<circle cx="164" cy="54" r="10" fill="#8fa476"/>
+<path d="M164 68 L160 108 L146 130 L142 156 M160 108 L176 128 L182 154 M162 78 L146 98 M162 78 L182 90" fill="none" stroke="#8fa476" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 116 C128 104 134 104 140 110" fill="none" stroke="rgba(236,229,207,.3)" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 5"/></svg>''',
 }
 NEWS_ADD = [
-("IL_VITAL", ''' dict(il=IL_ESTEPS, g="hareket", cat="Düşme", date="Ekim 2026",
-      title="Aile hekimliğinde elektronik kayıt üzerinden önerilen ev egzersizleri düşmeleri biraz azalttı",
-      text="ABD'de Brigham and Women's Hastanesi ve Teksas Üniversitesi Tıp Fakültesi'nden (UTMB) araştırmacıların 16 Ekim 2026'da JAMA Network Open'da yayımladığı eSTEPS çalışmasında, tek bir sağlık sistemine bağlı 22 aile hekimliği muayenehanesi rastgele iki gruba ayrıldı. Düşme riski taramasında riskli çıkan 65 yaş üstü 11.945 kişi (yaş ortalaması 77, üçte ikisi kadın) 12–23 ay izlendi. Müdahale grubundaki muayenehanelerde elektronik hasta kaydına eklenen bir araç, hekimlere hastaya göre ayarlanmış ev egzersizleri önermeyi hatırlattı. Egzersizler Otago programından sadeleştirilmişti: dört zorluk seviyesi, yaklaşık 10 dakika süren ve ekipman gerektirmeyen bir program; hastalara el kitabı, web sitesi ve videolu bir uygulama da sunuldu. Kayıtlara geçen düşmeler müdahale grubunda 100 hasta-yılında 19,3, olağan bakım grubunda 21,2 oldu; yani %9 daha azdı. Düşmeye bağlı yaralanmalar 15,7'ye karşı 16,7 idi; ölümlerde fark görülmedi.",
-      point="Etki küçük; üstelik müdahale grubundaki hastaların yalnızca yaklaşık %22'sine egzersiz reçetesi verildi ve hastaların egzersizleri yapıp yapmadığı izlenmedi. Düşmeler tanı kodlarından sayıldığı için bildirilmeyen düşmeler gözden kaçmış olabilir; çalışma tek bir sağlık sisteminde yapıldı ve gruplar başlangıçta bazı açılardan farklıydı. Yine de sonuç, kısa ve düzenli ev egzersizlerinin günlük muayene akışı içinde, çok sayıda kişiye önerilebileceğini gösteriyor. Benzer hareketleri Kendine iyi bak bölümündeki denge antrenmanıyla yapabilirsiniz.",
-      src=[("JAMA Network Open, 16 Ekim 2026", "https://doi.org/10.1001/jamanetworkopen.2026.39240"), ("Medical Daily, 17 Ekim 2026", "https://www.medicaldaily.com/older-adults-falls-home-strength-balance-exercise-trial-480083"), ("UTMB, 19 Ekim 2026", "https://www.utmb.edu/scoa/news-and-events/archive/2026/10/19/study-finds-electronic-health-record-tool-can-help-reduce-falls-among-older-adults")],
-      rel=("Denge antrenmanı", "denge-antrenmani.html")),
+("IL_BCI", ''' dict(il=IL_ESPRESSO, g="beyin", cat="İnme", date="Mart 2026",
+      title="İnmeden hemen sonra üç kat fazla kol terapisi, üç ayda ek yarar sağlamadı",
+      text="Yeni Zelanda'da Auckland Üniversitesi'nden araştırmacıların Mart 2026'da Brain Communications'ta yayımladığı ESPRESSO çalışmasına, inmeden sonraki ilk iki hafta içindeki 64 hasta katıldı; katılımcılar kol ve elin toparlanma potansiyelini gösteren bir biyobelirteçle seçildi. Hastalar olağan bakımlarına ek olarak 3 hafta boyunca, hafta içi her gün 90 dakika daha terapi aldı: yarısı ekranda bir yunus gibi deniz canlısını kol hareketleriyle yönlendirdiği oyun tabanlı bir terapi, diğer yarısı aynı sürede klasik terapi. İki grup da terapi süresince belirgin iyileşti; 3. ayda kol ve el işlevini ölçen testte (ARAT) aralarında fark yoktu. Yaklaşık üç kat daha fazla terapi almalarına karşın, aynı merkezde daha önce yalnızca olağan bakım almış hastalardan da daha iyi değillerdi.",
+      point="Araştırmacılara göre inmeden sonraki ilk haftalarda kol ve eldeki toparlanma büyük ölçüde beynin kendiliğinden onarım süreçlerine bağlı; bu dönemde terapinin miktarını artırmak sonucu belirgin değiştirmeyebilir. Çalışma küçük, tek merkezli ve keşif amaçlı (faz IIa); olağan bakım grubu aynı dönemde değil, daha önce izlenmiş hastalardan oluşuyordu. Bulgu erken dönemde terapinin gereksiz olduğu anlamına gelmiyor; hangi hastada, hangi zamanlamada ve ne kadar terapinin fark yarattığı daha büyük çalışmalarla netleşecek.",
+      src=[("Brain Communications, Mart 2026", "https://academic.oup.com/braincomms/article/8/2/fcag057/8553076"), ("Neuroscience News (Auckland Üniversitesi), 26 Mart 2026", "https://neurosciencenews.com/stroke-rehab-early-intensity-recovery-30396"), ("Auckland Üniversitesi, 22 Nisan 2026", "https://www.auckland.ac.nz/en/news/2026/04/22/-more-therapy--earlier--didn-t-boost--stroke-recovery-.html")],
+      rel=("İnme rehabilitasyonu", "inme-rehabilitasyonu.html")),
 '''),
-("IL_DEMPA", ''' dict(il=IL_BELT, g="hareket", cat="Bel ağrısı", date="Ağustos 2026",
-      title="Bel ağrısında yumuşak bel korsesi: 12 haftada günlük işlevde ılımlı ek iyileşme",
-      text="Fransa'da 17 merkezde yürütülen ve 19 Ağustos 2026'da JAMA Network Open'da yayımlanan LOMBACT çalışmasına, 1–6 aydır süren ve belirli bir nedene bağlanamayan bel ağrısı olan 168 yetişkin (yaş ortalaması 49) katıldı. Katılımcıların yarısı olağan bakımın yanında gün içinde 4–8 saat yumuşak, ayarlanabilir bir bel korsesi taktı; diğer yarısı yalnızca olağan bakım aldı. İki gruba da aktif kalmaları önerildi. 12 haftada günlük kısıtlılık puanı (Oswestry, 0–100) korse grubunda 10, diğer grupta 5,3 puan iyileşti; kısıtlılığı en az %30 azalanlar korse grubunda yaklaşık %61, diğer grupta %41 oldu. Korse grubunda ağrı, özellikle hareket sırasındaki ağrı, daha çok azaldı; ağrı kesici kullananların oranı da daha düşüktü (yaklaşık yarıya karşı üçte iki). Korsenin sensör verilerine göre katılımcılar onu taktıkları günlerde ortalama 4 saat kadar kullandı; altı kişide rahatsızlık ya da ciltte tahriş gibi hafif sorunlar görüldü.",
-      point="Katılımcılar hangi grupta olduklarını biliyordu ve sahte bir korseyle karşılaştırma yapılmadı; beklentiler sonucu etkilemiş olabilir. İzlem yalnızca 12 hafta sürdü, korse bırakıldıktan sonraki durum incelenmedi ve çalışmayı korseyi üreten şirket finanse etti. Dünya Sağlık Örgütü 2023'te, kronik bel ağrısında korse ya da destek kemerlerinin rutin olarak önerilmemesini tavsiye etmişti. Araştırmacılar da korsenin aktif tedavinin yerine geçmemesi gerektiğini, hareket sırasındaki rahatsızlığı azaltarak bazı hastaların aktif kalmasına yardımcı olabileceğini vurguluyor.",
-      src=[("JAMA Network Open, 19 Ağustos 2026", "https://doi.org/10.1001/jamanetworkopen.2026.29793"), ("ScienceAlert, 5 Eylül 2026", "https://www.sciencealert.com/?p=217137"), ("Harvard Health Publishing, 16 Ekim 2026", "https://www.health.harvard.edu/bones-and-joints/a-lumbar-belt-may-help-ease-low-back-pain")],
-      rel=("Bel ağrısı rehberi", "bel-agrisi.html")),
+("IL_MAMMO", ''' dict(il=IL_OAEX, g="hareket", cat="Kireçlenme", date="Şubat 2026",
+      title="Kireçlenmede egzersizin ağrıya etkisi küçük ve kısa süreli olabilir: büyük bir derleme tartışma başlattı",
+      text="Şubat 2026'da RMD Open'da yayımlanan bir şemsiye derlemede, kireçlenmede egzersiz tedavisini inceleyen 5 sistematik derleme (8.631 katılımcı) ve 28 randomize çalışma (4.360 katılımcı) bir araya getirildi; çalışmaların 23'ü diz ya da kalça, 3'ü el, 2'si ayak bileği kireçlenmesiyle ilgiliydi. Sahte tedaviye ya da tedavisizliğe göre egzersiz dizde ağrıyı az ve kısa süreli azalttı; kanıtın güvenilirliği çok düşüktü ve büyük, uzun çalışmalarda etki daha da küçüktü. Kalçada etki ihmal edilebilir düzeydeydi (orta güvenilirlik), elde küçüktü. Egzersiz; hasta eğitimi, manuel terapi, ağrı kesiciler, eklem içi kortizon ya da hyaluronik asit iğneleri ve artroskopik diz cerrahisiyle benzer sonuç verdi. Tek tek çalışmalarda, seçilmiş hastalarda uzun vadede diz osteotomisi ve protezden daha az etkiliydi.",
+      point="Yazarlar sonuçlarının egzersizin genel sağlığa yararlarını ya da hastaların egzersizi tercih etmesini geçersiz kılmadığını, ancak egzersizin her hastada tek başına ilk basamak tedavi olarak öne çıkarılmasını sorguladığını belirtiyor ve ortak karar vermeyi öneriyor. Derleme bazı sistematik derlemeleri önceliklendirdi; doğrudan karşılaştırmalar azdı, hastaların belirti şiddeti çok farklıydı ve bazı çalışmalarda egzersizle birlikte başka tedaviler de uygulandı. 2025 sonunda The BMJ'de yayımlanan ve 217 çalışmayı kapsayan bir ağ meta-analizi ise diz kireçlenmesinde özellikle aerobik egzersizin ağrıyı ve işlevi orta güvenilirlikle iyileştirdiğini bildirmişti. Egzersiz ucuz ve güvenli; ama beklentiyi gerçekçi tutmak ve programı kişiye göre seçmek önemli.",
+      src=[("RMD Open, Şubat 2026", "https://doi.org/10.1136/rmdopen-2025-006275"), ("BMJ Group, 17 Şubat 2026", "https://bmjgroup.com/effectiveness-of-exercise-to-ease-osteoarthritis-symptoms-likely-minimal-and-transient/"), ("Medical Republic, 19 Şubat 2026", "https://www.medicalrepublic.com.au/?p=123345"), ("ScienceDaily, 25 Şubat 2026", "https://www.sciencedaily.com/releases/2026/02/260225081208.htm"), ("The BMJ, 2025 (diz kireçlenmesinde egzersiz türleri)", "https://doi.org/10.1136/bmj-2025-085242")],
+      rel=("Diz kireçlenmesi rehberi", "diz-kireclenmesi.html")),
 '''),
-("IL_FAST4", ''' dict(il=IL_PACBACK, g="hareket", cat="Bel ağrısı", date="Haziran 2026",
-      title="Yeni başlayan bel ağrısında destekli kendi kendine yönetim, ağrının bir yıl sonraki etkisini biraz azalttı",
-      text="ABD'de Minnesota ve Pittsburgh üniversitelerinde yürütülen ve Haziran 2026'da JAMA Internal Medicine'de yayımlanan PACBACK çalışmasına, yeni başlamış ya da birkaç haftadır süren bel ağrısı olan ve bir tarama testine göre ağrısı kronikleşme riski orta ya da yüksek bulunan 1.000 yetişkin katıldı. Katılımcılar 8 hafta boyunca dört yaklaşımdan birine ayrıldı: kılavuzlara dayalı tıbbi bakım (çoğunlukla ağrı kesici ve kas gevşetici ilaçlar), omurga manipülasyonu, klinisyen destekli kendi kendine yönetim (ağrı eğitimi, egzersiz, gevşeme, olumsuz düşünceleri yeniden çerçeveleme ve aktif kalma) ya da son ikisinin birlikte uygulanması. 10–12. aylarda ağrının günlük hayata etkisi (8–50 puanlık bir ölçekte) destekli kendi kendine yönetim grubunda tıbbi bakıma göre ortalama 1,7 puan daha düşüktü; ağrının etkisi en az yarı yarıya azalanlar %64'e karşı %55 oldu. Omurga manipülasyonu tek başına tıbbi bakımdan farklı değildi ve kendi kendine yönetime eklendiğinde ek yarar sağlamadı.",
-      point="Araştırmacılar ortalama farkın küçük olduğunu belirtiyor. Kendi kendine yönetimin etkisinin yaklaşık %76'sı, katılımcıların 6. aya kadar hareket etmekten daha az korkması, ağrıyla başa çıkabileceğine daha çok güvenmesi ve ağrıyla ilgili olumsuz düşüncelerinin azalmasıyla açıklandı. Sonuçlar katılımcıların kendi bildirimlerine dayanıyor ve katılımcılar hangi yaklaşımı aldıklarını biliyordu. Bulgu, yeni başlayan bel ağrısında yalnızca ilaca değil, hareket etmeye ve ağrıyı anlamaya dayalı bir yaklaşıma da yer verilmesini destekliyor.",
-      src=[("JAMA Internal Medicine, Haziran 2026", "https://doi.org/10.1001/jamainternmed.2026.1893"), ("ReachMD, 9 Haziran 2026", "https://reachmd.com/news/pacback-prevention-chronic-back-pain/2487393/"), ("News-Medical, 1 Temmuz 2026", "https://www.news-medical.net/news/20260701/Personalized-self-management-effectively-prevents-chronic-back-pain.aspx")],
-      rel=("Bel ağrısı rehberi", "bel-agrisi.html")),
+("IL_MAMMO", ''' dict(il=IL_DEPEX, g="beyin", cat="Depresyon", date="Ocak 2026",
+      title="Cochrane: Egzersiz depresyon belirtilerini azaltıyor, etkisi psikoterapiye yakın olabilir",
+      text="Ocak 2026'da güncellenen Cochrane derlemesinde, depresyonu olan 4.985 kişiyle yapılmış 73 randomize çalışma incelendi. Hiç tedavi almama ya da kontrol koşullarıyla karşılaştırıldığında egzersiz depresyon belirtilerini orta düzeyde azalttı (standart ortalama fark −0,67; düşük güvenilirlik); yalnızca yöntemi en sağlam 7 çalışmaya bakıldığında etki küçüldü (−0,46) ama sürdü. Psikoterapiyle karşılaştırıldığında egzersiz benzer sonuç verdi (10 çalışma, 414 kişi; orta güvenilirlik); ilaç tedavisiyle karşılaştırıldığında da belirgin fark yoktu (5 çalışma, 330 kişi; düşük güvenilirlik). Orta yoğunlukta, toplam 13–36 seanslık programlar ve karma ya da direnç egzersizleri, yalnızca aerobik egzersize göre biraz daha yararlı görünüyordu.",
+      point="Çalışmaların çoğu küçüktü ve yanlılık riski yüksekti; uzun vadeli veriler az. Bağımsız uzmanlar, egzersizin psikoterapi ve ilaçla benzer olduğu sonucunun az sayıda çalışmaya dayandığını, denetimli programların motivasyonu yüksek gönüllüleri çektiğini ve egzersizin en iyi var olan tedavilere ek olarak düşünülebileceğini vurguluyor. Egzersizin yan etkisi azdır; ama tedavinizi değiştirmeden ya da ilacınızı bırakmadan önce mutlaka hekiminizle konuşun.",
+      src=[("Cochrane Library, Ocak 2026", "https://doi.org/10.1002/14651858.CD004366.pub7"), ("ScienceDaily, 8 Ocak 2026", "https://www.sciencedaily.com/releases/2026/01/260107225516.htm"), ("Science Media Centre uzman görüşleri, 8 Ocak 2026", "https://www.sciencemediacentre.org/expert-reaction-to-exercise-having-similar-results-as-therapy-for-treating-depression/"), ("HCPLive", "https://www.hcplive.com/view/exercise-may-be-effective-therapy-for-alleviating-depression-symptoms"), ("Medicine Today, Şubat 2026", "https://medicinetoday.com.au/mt/2026/february/in-brief/exercise-depression-similar-effects-other-active-treatments-finds-review")],
+      rel=("Ruh sağlığı için egzersiz", "ruh-sagligi-egzersiz.html")),
 '''),
 ]
 for name, svg in IL_NEW.items():
@@ -222,5 +227,17 @@ for anchor_il, entry in NEWS_ADD:
     anchor = f" dict(il={anchor_il},"
     assert s.count(anchor) == 1, anchor
     s = s.replace(anchor, entry + anchor, 1)
+
+# Var olan Parkinson haberini (IL_PDACT) sayılarla ve iki ek kaynakla güncelle
+PD_OLD_TEXT = "Haftada 8 saatten fazla orta ya da yüksek tempolu fiziksel aktivite (iş, ev işleri ve hobiler dahil) yapanlarda, 4 saatten az yapanlara göre düşünme becerilerindeki gerileme ve hareket belirtilerindeki kötüleşme daha yavaştı. Toplam süreye, yoğunlukla ağırlıklandırılmış miktara ve yalnızca yüksek tempolu aktiviteye bakıldığında da benzer ilişki görüldü."
+PD_NEW_TEXT = "Katılımcılar iş, ev işleri ve hobiler dahil haftada kaç saat orta ya da yüksek tempolu aktivite yaptıklarını bildirdi ve üç gruba ayrıldı: 4 saate kadar, 4–8 saat ve 8 saatten fazla. 30 puanlık düşünme testinde yıllık düşüş en az hareket edenlerde 0,478 puan, en çok hareket edenlerde yalnızca 0,007 puandı. Hareket belirtileri puanı (0–132; başlangıç ortalaması 23) en az hareket edenlerde yılda 0,143 puan kötüleşirken en çok hareket edenlerde yılda 0,783 puan hafifledi. Toplam süreye, yoğunlukla ağırlıklandırılmış miktara ve yalnızca yüksek tempolu aktiviteye bakıldığında da benzer ilişki görüldü."
+PD_OLD_POINT = "Aktivite, kişilerin kendi beyanıyla anketle ölçüldü ve gruplar arasındaki farklar küçüktü; araştırmacılara göre bu küçük farklar yıllar içinde anlam kazanabilir."
+PD_NEW_POINT = "Aktivite, kişilerin kendi beyanıyla anketle ölçüldü ve gruplar arasındaki farklar küçüktü; araştırmacılara göre bu küçük farklar yıllar içinde anlam kazanabilir. Katılımcıların düşünme becerileri başlangıçta iyiydi; %98'i beyaz ve üçte ikisi erkekti. Healio'nun aktardığına göre yoğunluk tek başına ele alındığında puanlardaki değişimle anlamlı ilişki göstermedi; araştırmacılar toplam sürenin yoğunluktan daha belirleyici olabileceğini düşünüyor. Yüksek tempolu egzersizin etkisini sınayan SPARX3 adlı randomize çalışma sürüyor."
+PD_OLD_SRC = '("Neurology, 7 Ekim 2026", "https://doi.org/10.1212/WNL.0000000000218682")],'
+PD_NEW_SRC = '("Neurology, 7 Ekim 2026", "https://doi.org/10.1212/WNL.0000000000218682"), ("Healio, 14 Ekim 2026", "https://www.healio.com/news/neurology/20261014/physical-activity-associated-with-slower-cognitive-motor-decline-in-parkinsons-disease"), ("ScienceDaily, 23 Ekim 2026", "https://www.sciencedaily.com/releases/2026/10/261022081306.htm")],'
+if PD_NEW_TEXT not in s:
+    for a, b in ((PD_OLD_TEXT, PD_NEW_TEXT), (PD_OLD_POINT, PD_NEW_POINT), (PD_OLD_SRC, PD_NEW_SRC)):
+        assert s.count(a) == 1, a[:60]
+        s = s.replace(a, b, 1)
 open(B, "w", encoding="utf-8").write(s)
 print("haberler tamam")
