@@ -55,6 +55,8 @@ GT_SRC = [
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/greater-trochanteric-pain-syndrome/", "Greater trochanteric pain syndrome (GTPS)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
  "Cordeiro TTP, Rocha EAB, Scattone Silva R. " + ext("https://www.nature.com/articles/s41598-024-53283-x", "Effects of exercise-based interventions on gluteal tendinopathy: systematic review with meta-analysis") + ". Sci Rep. 2024;14:3343.",
  "NHS Ayrshire and Arran, RefHelp. " + ext("https://www.rightdecisions.scot.nhs.uk/refhelp-nhs-ayrshire-and-arran/orthopaedicsmsk/hip/lateral-thigh-pain-trochanteric-bursitis-greater-trochanter-pain-syndrome/", "Lateral thigh pain/trochanteric bursitis (greater trochanter pain syndrome)") + ". Version 1.0.",
+ "Grimaldi A, Fearon A. " + ext("https://doi.org/10.2519/jospt.2015.5829", "Gluteal tendinopathy: integrating pathomechanics and clinical features in its management") + ". J Orthop Sports Phys Ther. 2015;45(11):910–922.",
+ "Royal Berkshire NHS Foundation Trust, Physiotherapy. " + ext("https://www.royalberkshire.nhs.uk/media/g5mfdnrr/greater-trochanteric-pain-syndrome_nov24.pdf", "Greater trochanteric pain syndrome") + ". November 2024.",
 ]
 
 GT_BODY = f'''<header class="page">
@@ -115,7 +117,7 @@ GT_BODY = f'''<header class="page">
       <h2>Kalçayı rahatlatan alışkanlıklar</h2>
       <ul class="tx">
         <li><b>İki ayağa eşit basın</b><span>Ayakta dururken ağırlığınızı tek bacağa verip kalçanızı yana çıkarmayın.</span></li>
-        <li><b>Bacak bacak üstüne atmayın</b><span>Otururken dizlerinizi yan yana tutun; alçak koltuklardan kaçının.</span></li>
+        <li><b>Bacak bacak üstüne atmayın</b><span>Otururken dizlerinizi yan yana tutun; alçak koltuklardan kaçının. Ayakta dururken ağırlığınızı tek kalçanıza verip o tarafa “asılmayın”, iki ayağınıza eşit basın. Kalçayı içe doğru getiren bu pozisyonlar, kirişleri kemik çıkıntısına doğru sıkıştırır.</span></li>
         <li><b>Ağrılı yanınıza yatmayın</b><span>Sırtüstü yatıp dizlerinizin altına ya da sağlam yanınıza yatıp dizlerinizin arasına yastık koyun.</span></li>
         <li><b>Hareketi bırakmayın</b><span>Ağrıyı artıran etkinlikleri azaltın ama hareketsiz kalmayın; merdivende tırabzanı kullanın.</span></li>
         <li><b>Kilo</b><span>Fazla kilonuz varsa vermek, kalçanın dış yanına binen yükü azaltır.</span></li>

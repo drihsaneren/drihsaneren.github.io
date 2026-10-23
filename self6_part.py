@@ -45,7 +45,7 @@ YH_NORM = [("20–29", 1.36, 1.34), ("30–39", 1.43, 1.34), ("40–49", 1.43, 1
 YH_ROWS = "\n".join(f'<tr data-i="{i}"><td>{a}</td><td>{str(w).replace(".", ",")}</td><td>{str(m).replace(".", ",")}</td></tr>' for i, (a, m, w) in enumerate(YH_NORM))
 
 YH_FAQ = [
- ("Neden yürüme hızı önemli?", "Yürümek; kaslarınızı, eklemlerinizi, dengenizi, kalbinizi, akciğerlerinizi ve sinir sisteminizi birlikte kullanmayı gerektirir. Bu yüzden yürüme hızı, yaşlılarda genel sağlığın basit bir göstergesi olarak kullanılıyor. 65 yaş üstü 34.485 kişinin izlendiği dokuz çalışmanın birleştirildiği analizde, daha hızlı yürüyenlerin daha uzun yaşadığı görüldü. Bu bir ilişkidir; test tek başına bir hastalığı göstermez."),
+ ("Neden yürüme hızı önemli?", "Yürümek; kaslarınızı, eklemlerinizi, dengenizi, kalbinizi, akciğerlerinizi ve sinir sisteminizi birlikte kullanmayı gerektirir. Bu yüzden yürüme hızı, yaşlılarda genel sağlığın basit bir göstergesi olarak kullanılıyor. 65 yaş üstü 34.485 kişinin izlendiği dokuz çalışmanın birleştirildiği analizde, daha hızlı yürüyenlerin daha uzun yaşadığı görüldü. Bu bir ilişkidir; test tek başına bir hastalığı göstermez. Bazı uzmanlar yürüme hızını nabız ve tansiyon gibi bir “yaşam bulgusu” olarak da tanımlıyor."),
  ("Hızlı mı yürümeliyim?", "Hayır. Testte her zamanki, rahat temponuzla yürüyün. Amaç günlük yürüyüşünüzü ölçmektir; yarışmayın."),
  ("Baston ya da yürüteçle yapabilir miyim?", "Evet. Günlük hayatta kullandığınız baston ya da yürüme yardımcısıyla yapabilirsiniz. Karşılaştırma için her seferinde aynı şekilde yapmanız yeterli."),
  ("Hızım düşük çıktı, ne yapmalıyım?", "Bu bir tanı değildir. Bacak gücü, denge ve düzenli yürüyüş yürüme hızını destekler; aşağıdaki egzersizlerle başlayabilirsiniz. Son zamanlarda yürüyüşünüz belirgin yavaşladıysa, sık düşüyorsanız ya da nefes darlığı ve göğüs ağrısı gibi yakınmalarınız varsa bir hekime görünün."),
@@ -211,6 +211,7 @@ YH_BODY = f'''<header class="page">
         "Bohannon RW, Andrews AW. " + ext("https://www.physicaltherapy.utoronto.ca/sites/default/files/assets/files/11walking-speed-age-and-sex-specific-normative-values-final.pdf", "Normal walking speed: a descriptive meta-analysis") + ". Physiotherapy. 2011;97:182–189.",
         "Harvard eFrailty. " + ext("https://efrailty.hsl.harvard.edu/ToolSPPB.html", "Short Physical Performance Battery (SPPB)") + ": gait speed test instructions.",
         "Middleton A, Fritz SL, Lusardi M. " + ext("https://pubmed.ncbi.nlm.nih.gov/24812254/", "Walking speed: the functional vital sign") + ". J Aging Phys Act. 2015;23(2):314–322",
+        "Fritz S, Lusardi M. " + ext("https://scholarcommons.sc.edu/sph_physical_therapy_facpub/4", "White paper: “walking speed: the sixth vital sign”") + ". J Geriatr Phys Ther. 2009;32(2):2–5.",
       ])}
     </div>
   </section>
@@ -315,7 +316,7 @@ AG_FAQ = [
  ("Günlüğü ne sıklıkla doldurmalıyım?", "Günde bir kez, her gün yaklaşık aynı saatte doldurmanız karşılaştırmayı kolaylaştırır. Bir günü atlamanız sorun değil; aynı güne yeniden kayıt yaparsanız o günün kaydı güncellenir."),
  ("Verilerim nerede saklanıyor?", "Yalnızca bu cihazda, tarayıcınızın içinde saklanır; hiçbir sunucuya gönderilmez. Tarayıcı verilerini silerseniz ya da başka bir cihaz kullanırsanız kayıtlar görünmez. Kayıtlarınızı CSV dosyası olarak indirip saklayabilirsiniz."),
  ("Ağrım ne kadar azalırsa anlamlı bir iyileşmedir?", "Uzun süreli ağrısı olan 2.724 kişinin verileriyle yapılan bir çalışmada, 0–10 ölçeğinde ortalama 2 puanlık ya da yaklaşık %30’luk bir azalma, kişilerin kendilerini anlamlı ölçüde daha iyi hissetmelerine karşılık geliyordu. Bu bir ortalama; sizin için önemli olan, günlük hayatınızda neyin değiştiğidir. Uluslararası bir uzman grubu (IMMPACT) da iyileşmeyi değerlendirirken ağrı şiddetinin yanında günlük işlevi, duygu durumunu ve kişinin kendi genel değerlendirmesini birlikte dikkate almayı öneriyor."),
- ("Ağrım artarsa ne yapmalıyım?", "Ağrınız yeni başladıysa, giderek kötüleşiyorsa ya da başka yakınmalar eşlik ediyorsa bir hekime görünün. Bilgi köşesindeki rehberlerde her durum için ne zaman beklemeden başvurmanız gerektiğini bulabilirsiniz."),
+ ("Ağrım artarsa ne yapmalıyım?", "Ağrınız yeni başladıysa, giderek kötüleşiyorsa ya da başka yakınmalar eşlik ediyorsa bir hekime görünün. Bilgi köşesindeki rehberlerde her durum için ne zaman beklemeden başvurmanız gerektiğini bulabilirsiniz. Uzun süren ağrıda “çok yapıp sonra çökme” döngüsü sık görülür: iyi bir günde fazla yapılır, ağrı alevlenir ve ardından günlerce daha az hareket edilir. Bir NHS broşürü, önemli etkinlikler için ağrıyı artırmadan yapabildiğiniz bir başlangıç düzeyi bulmayı ve onu çok kademeli artırmayı öneriyor; günlüğünüz bu döngüyü fark etmenize yardım edebilir."),
 ]
 
 AG_BODY = f'''<header class="page">
@@ -439,6 +440,7 @@ AG_BODY = f'''<header class="page">
         "Dworkin RH, Turk DC, Wyrwich KW, et al. " + ext("https://scholars.duke.edu/publication/734891", "Interpreting the clinical importance of treatment outcomes in chronic pain clinical trials: IMMPACT recommendations") + ". J Pain. 2008;9(2):105–121.",
         "Redelmeier DA, Kahneman D. " + ext("https://doi.org/10.1016/0304-3959(96)02994-6", "Patients’ memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures") + ". Pain. 1996;66(1):3–8.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng193", "Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain") + ". NICE guideline NG193, 2021",
+        "The Royal Wolverhampton NHS Trust. " + ext("https://royalwolverhampton.nhs.uk/wp-content/uploads/2025/10/Pacing.pdf", "Pacing") + ". Patient information leaflet MI_156514, version 2, 2025.",
       ])}
     </div>
   </section>

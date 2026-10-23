@@ -198,7 +198,7 @@ _ex("hf_heel", "heel2", "Tezgâha tutunarak topuk yükseltme",
     "10 tekrar, günde 2 kez")
 
 HF_FAQ = [
- ("Ameliyattan sonra ne zaman yürüyebilirim?", "Çoğu hastada ameliyattan sonraki gün, fizyoterapist eşliğinde ve yürüteçle ayağa kalkılır. İngiltere'nin kalça kırığı kılavuzu, tıbbi bir engel yoksa ameliyattan sonraki gün fizyoterapi değerlendirmesi ve ayağa kaldırma, sonrasında da en az günde bir kez hareket ettirme öneriyor. Bacağınıza ne kadar yük verebileceğinizi cerrahınız belirler."),
+ ("Ameliyattan sonra ne zaman yürüyebilirim?", "Çoğu hastada ameliyattan sonraki gün, fizyoterapist eşliğinde ve yürüteçle ayağa kalkılır. İngiltere'nin kalça kırığı kılavuzu, tıbbi bir engel yoksa ameliyattan sonraki gün fizyoterapi değerlendirmesi ve ayağa kaldırma, sonrasında da en az günde bir kez hareket ettirme öneriyor. Bacağınıza ne kadar yük verebileceğinizi cerrahınız belirler. NICE kalite standardı, rehabilitasyonun en geç ameliyattan sonraki gün başlamasını ve hastanede her gün sürdürülmesini, taburculuktan sonra da desteğin devam etmesini öngörüyor."),
  ("Evde egzersize devam etmek gerçekten fark eder mi?", "Evet. 40 çalışmayı inceleyen Cochrane derlemesi, hastaneden çıktıktan sonra yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini anlamlı şekilde artırdığını gösterdi. ABD'de 232 hastayla yapılan bir çalışmada 6 ay süren ev egzersiz programı, rehabilitasyonu tamamlamış hastalarda bile işlevi daha da iyileştirdi."),
  ("Kırığım protezle mi, vidayla mı tedavi edildi; fark eder mi?", "Evet. Kırığın türüne göre kırık vida ya da çivi ile sabitlenebilir ya da kalçanın bir kısmı protezle değiştirilebilir. Protez uygulandıysa bazı pozisyonlardan bir süre kaçınmanız gerekebilir. Hangi hareketlerin sizin için güvenli olduğunu cerrahınıza sorun; ayrıntılar için protez sonrası rehberine bakabilirsiniz."),
  ("Yeniden kırılmaması için ne yapmalıyım?", "Kalça kırıkları çoğu zaman bir düşme ve kemik erimesi birlikteliğinde ortaya çıkar. Kemik sağlığınızın değerlendirilmesini isteyin, düzenli denge ve güçlendirme egzersizleri yapın ve evinizi düşmelere karşı güvenli hale getirin."),
@@ -209,6 +209,7 @@ HF_SRC = [
  "Fairhall NJ, Dyer SM, Mak JCS, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001704.pub5/full", "Interventions for improving mobility after hip fracture surgery in adults") + ". Cochrane Database Syst Rev. 2022;9:CD001704.",
  "Latham NK, Harris BA, Bean JF, et al. " + ext("https://jamanetwork.com/journals/jama/fullarticle/1829991", "Effect of a home-based exercise program on functional recovery following rehabilitation after hip fracture: a randomized clinical trial") + ". JAMA. 2014;311(7):700-708.",
  "The Chartered Society of Physiotherapy. " + ext("https://www.csp.org.uk/frontline/article/mobility-strategies-are-effective-adults-after-hip-fracture-surgery", "Mobility strategies are effective in adults after hip fracture surgery") + ".",
+ "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/QS16/chapter/quality-statement-6-rehabilitation-after-surgery", "Hip fracture in adults. Quality statement 6: rehabilitation after surgery") + ". NICE quality standard QS16, 2012, updated 2016.",
 ]
 
 HF_BODY = f'''<header class="page">

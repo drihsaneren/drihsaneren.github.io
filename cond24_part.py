@@ -16,6 +16,7 @@ FAI_SRC = [
  "NIHR Evidence. " + ext("https://evidence.nihr.ac.uk/alert/keyhole-surgery-is-more-effective-than-physiotherapy-for-hip-impingement/", "Keyhole surgery is more effective than physiotherapy for hip impingement") + ". 2 October 2018 (UK FASHIoN çalışmasının özeti: Griffin DR, et al. Lancet. 2018).",
  "Midlands Partnership University NHS Foundation Trust. " + ext("https://mpft.nhs.uk/services/msk/self-help/hip/hip-impingement-fai", "Hip impingement (FAI)") + ".",
  "George Eliot Hospital NHS Trust. " + ext("https://www.geh.nhs.uk/patients-and-visitors/patients/patient-leaflets/hip-impingement-fai", "Hip impingement (FAI)") + ". GEH-5029-1-2025, approved 20 August 2025.",
+ "Kemp JL, Risberg MA, Mosler A, et al. " + ext("https://bjsm.bmj.com/content/54/9/504", "Physiotherapist-led treatment for young to middle-aged active adults with hip-related pain: consensus recommendations from the International Hip-related Pain Research Network, Zurich 2018") + ". Br J Sports Med. 2020;54(9):504–511.",
 ]
 
 FAI_BODY = f'''<header class="page">
@@ -68,6 +69,7 @@ FAI_BODY = f'''<header class="page">
       <div>
         <h2>Fizyoterapi mi, ameliyat mı?</h2>
         <p class="soft">İngiltere’de 23 hastanede yapılan bir çalışmada 348 kişi ya kalça artroskopisine (kapalı ameliyat) ya da kişiye özel fizyoterapiye ayrıldı. 12 ay sonra iki grup da iyileşti; artroskopi grubunda yaşam kalitesi puanı 6,8 puan daha fazla arttı. Ancak sahte ameliyat grubu yoktu, yarar en çok cam tipinde görüldü ve uzun dönem sonuçlar henüz bilinmiyor.</p>
+        <p class="soft">Uluslararası Kalça Ağrısı Araştırma Ağı’nın 2018 uzlaşısı, genç ve orta yaşlı aktif yetişkinlerde kalça, gövde ve işlevsel güçlendirmeye dayanan, en az 3 ay süren, fizyoterapist eşliğinde bir egzersiz programını öneriyor; daha uzun programlar daha büyük etki gösterdi.</p>
         <p class="soft">Ameliyat genellikle diğer tedavilerle geçmeyen belirtilerde düşünülür; herkesin ameliyata ihtiyacı yoktur.</p>
       </div>
     </div>

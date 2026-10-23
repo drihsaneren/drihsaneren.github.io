@@ -16,7 +16,7 @@ _ex2("bt_shrug", "ly_shrug", "Omuz kaldırma ve çevirme", "Dik oturun. Omuzlar�
 
 BT_FAQ = [
  ("Boyun tutulması ne kadar sürer?", "Genellikle birkaç gün içinde düzelir. Kas spazmı çoğu zaman 24–48 saatte gevşer, tam iyileşme ise bir haftayı bulabilir. Bazen daha uzun sürebilir ya da ilerde belirgin bir neden olmadan tekrarlayabilir."),
- ("Boynumu hareket ettirmem zarar verir mi?", "Hayır. Boynu yavaşça hareket ettirmek ona zarar vermez; tersine, hareketi gün gün artırmak iyileşmeyi destekler. Ağrı çok şiddetliyse bir gün kadar dinlenip sonra yavaşça hareket etmeye başlayabilirsiniz."),
+ ("Boynumu hareket ettirmem zarar verir mi?", "Hayır. Boynu yavaşça hareket ettirmek ona zarar vermez; tersine, hareketi gün gün artırmak iyileşmeyi destekler. Ağrı çok şiddetliyse bir gün kadar dinlenip sonra yavaşça hareket etmeye başlayabilirsiniz. ABD fizyoterapi kılavuzu, ani başlayan ve hareket kısıtlılığı olan boyun ağrısında boyun hareket egzersizlerini ve kazanımları korumak için kürek kemiği ve kol güçlendirmesini öneriyor."),
  ("Sıcak mı soğuk mu?", "Sıcak uygulama birçok kişide kas tutukluğunu rahatlatır. Cildinizi yakmamak için sıcak torbayı bir havluya sararak kullanabilirsiniz."),
  ("Boyunluk takmalı mıyım?", "Genellikle gerekmez. Önerilen, boynu kademeli olarak hareket ettirmek ve günlük işlere elden geldiğince devam etmektir. Ağrı kesicileri ağrı şiddetlenmeden düzenli almak, egzersizleri yapmayı kolaylaştırabilir."),
 ]
@@ -26,6 +26,7 @@ BT_SRC = [
  "Dorset County Hospital NHS Foundation Trust. " + ext("https://www.dchft.nhs.uk/wp-content/uploads/2020/10/ED-Acute-Torticollis-0414.pdf", "Acute torticollis (wryneck)") + ". Patient information, April 2014.",
  "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
  "nidirect. " + ext("https://www.nidirect.gov.uk/node/10321", "Meningitis") + ". Last updated 23 July 2026.",
+ "Blanpied PR, Gross AR, Elliott JM, et al. " + ext("https://doi.org/10.2519/jospt.2017.0302", "Neck pain: revision 2017. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Orthopaedic Section of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2017;47(7):A1–A83.",
 ]
 
 BT_BODY = f'''<header class="page">

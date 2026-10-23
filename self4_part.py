@@ -41,7 +41,7 @@ BT_ROWS = "\n".join(
     for a, o, c in BT_NORM)
 
 BT_FAQ = [
- ("10 saniye duramazsam erken ölüm riskim mi yüksek?", "Bu bir tanı değildir. Araştırma, testi yapamayanlarda sonraki yıllarda ölüm oranının daha yüksek olduğunu gösteriyor; ama bu bir ilişkidir, testin kendisi bir hastalığı göstermez. Araştırmacılar yakın zamanda geçirilen düşmeler ve fiziksel aktivite gibi etkenleri hesaba katamadıklarını belirtiyor. Testi bir uyarı ışığı gibi düşünüp dengenizi çalıştırmaya başlayabilir, kaygınız varsa hekiminizle konuşabilirsiniz."),
+ ("10 saniye duramazsam erken ölüm riskim mi yüksek?", "Bu bir tanı değildir. Araştırma, testi yapamayanlarda sonraki yıllarda ölüm oranının daha yüksek olduğunu gösteriyor; ama bu bir ilişkidir, testin kendisi bir hastalığı göstermez. Araştırmacılar yakın zamanda geçirilen düşmeler ve fiziksel aktivite gibi etkenleri hesaba katamadıklarını belirtiyor. Testi bir uyarı ışığı gibi düşünüp dengenizi çalıştırmaya başlayabilir, kaygınız varsa hekiminizle konuşabilirsiniz. İngiltere’nin 2025 düşme kılavuzu (NICE) da düşme riskini tahmin etmek için tek bir testin tek başına kullanılmamasını öneriyor; bu tür testler dengeyle ilgili sorunları fark etmeye yardım eder."),
  ("Hangi ayakla yapmalıyım?", "Yaş ortalamalarının çıkarıldığı çalışmada katılımcılar ayağı kendileri seçti. İsterseniz iki ayağınızı ayrı ayrı deneyip karşılaştırabilirsiniz."),
  ("Gözler kapalıyken neden bu kadar zor?", "Dengeyi korurken gözlerden, iç kulaktan ve ayak tabanı ile eklemlerdeki duyulardan gelen bilgiyi birlikte kullanırız. Gözleri kapatınca bu bilgilerden biri ortadan kalkar. Ortalamalarda da fark büyük: 18–39 yaşta gözler açıkken 44,7 saniye, kapalıyken 15,2 saniye."),
  ("Dengemi geliştirebilir miyim?", "Evet. Toplumda yaşayan yaşlılarla yapılan çalışmaların Cochrane derlemesinde, denge ve günlük hareketleri çalıştıran egzersizler düşme sayısını %24 azalttı. Yukarıdaki egzersizlerle başlayabilir, düşmeleri önleme rehberine de bakabilirsiniz."),
@@ -207,6 +207,7 @@ BT_BODY = f'''<header class="page">
         "Springer BA, Marin R, Cyhan T, Roberts H, Gill NW. " + ext("https://geriatrictoolkit.missouri.edu/balance/Normative_Values_for_the_Unipedal_Stance_Test_Springer-JGPT.pdf", "Normative values for the unipedal stance test with eyes open and closed") + ". J Geriatr Phys Ther. 2007;30(1).",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462",
         "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
+        "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng249/resources/falls-assessment-and-prevention-in-older-people-and-in-people-50-and-over-at-higher-risk-pdf-66143964997573", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
       ])}
     </div>
   </section>
@@ -357,7 +358,7 @@ SELF4_CSS += """
 SN_FAQ = [
  ("Bu kadar kısa hareketler gerçekten işe yarar mı?", "Ölüm riskiyle ilgili bulgular gözlemseldir; yani kısa hareket patlamaları yapanlarda riskin daha düşük olduğu görülmüş, ama bunun tamamen hareketin sonucu olduğu kanıtlanmış değil. Öte yandan küçük deneysel çalışmalarda da merdiven atıştırmalıklarının kondisyonu artırdığı ve oturmayı kısa yürüyüşlerle bölmenin tansiyonu ve kan şekerini olumlu etkilediği görüldü. Hareketsiz yetişkinlerde yapılan 11 randomize çalışmayı birleştiren 2025 tarihli bir meta-analizde, günde en az iki kez yapılan ve 5 dakikayı geçmeyen kısa egzersizler 4–12 haftada kondisyonu artırdı; katılımcıların %83’ü programı sürdürebildi. Tansiyon, kan yağları ve vücut bileşiminde ise belirgin bir etki görülmedi."),
  ("Ne kadar zorlanmalıyım?", "Araştırmadaki hareketler “yüksek tempolu”ydu: nefesinizin hızlandığı ve konuşmakta zorlandığınız bir düzey. Yeni başlıyorsanız, eklem ağrınız ya da kalp hastalığınız varsa daha hafif başlayıp zamanla artırabilirsiniz."),
- ("Düzenli egzersizin yerine geçer mi?", "Hayır, ama iyi bir başlangıç ya da tamamlayıcıdır. Araştırmaya katılanlar boş zamanlarında egzersiz yapmayan kişilerdi; egzersiz yapanlarda yüksek tempolu hareketle benzer ilişki görüldü. Kısa hareketler, egzersize zaman bulamadığınız günlerde hareketsiz kalmamanızı sağlar."),
+ ("Düzenli egzersizin yerine geçer mi?", "Hayır, ama iyi bir başlangıç ya da tamamlayıcıdır. Araştırmaya katılanlar boş zamanlarında egzersiz yapmayan kişilerdi; egzersiz yapanlarda yüksek tempolu hareketle benzer ilişki görüldü. Kısa hareketler, egzersize zaman bulamadığınız günlerde hareketsiz kalmamanızı sağlar. Dünya Sağlık Örgütü’nün 2020 kılavuzu da her hareketin sayıldığını ve hareketin tek seferde değil, gün içine yayılarak da yapılabileceğini vurguluyor; hedef yine haftada en az 150 dakika orta yoğunlukta hareket."),
  ("Masa başında çalışıyorum, ne yapabilirim?", "Küçük bir çalışmada her 30 dakikada bir 5 dakika hafif yürüyüş, kan şekerindeki yükselmeyi azalttı; daha kısa ve seyrek molalar bile büyük tansiyonu düşürdü. Yukarıdaki hatırlatıcıyı açabilir, masa başı rehberine de bakabilirsiniz."),
 ]
 
@@ -477,6 +478,7 @@ SN_BODY = f'''<header class="page">
         "Jenkins EM, Nairn LN, Skelly LE, Little JP, Gibala MJ. " + ext("https://search.pedro.org.au/search-results/record-detail/57594", "Do stair climbing exercise “snacks” improve cardiorespiratory fitness?") + ". Appl Physiol Nutr Metab. 2019;44(6):681–684.",
         "Duran AT, Friel CP, Serafini MA, et al. " + ext("https://scholars.mssm.edu/en/publications/breaking-up-prolonged-sitting-to-improve-cardiometabolic-risk-dos/", "Breaking up prolonged sitting to improve cardiometabolic risk: dose–response analysis of a randomized crossover trial") + ". Med Sci Sports Exerc. 2023;55(5):847–855.",
         "Rodríguez MÁ, Quintana-Cepedal M, Cheval B, et al. " + ext("https://bjsm.bmj.com/content/60/2/133", "Effect of exercise snacks on fitness and cardiometabolic health in physically inactive individuals: systematic review and meta-analysis") + ". Br J Sports Med. 2026;60(2):133",
+        "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
       ])}
     </div>
   </section>
@@ -591,7 +593,7 @@ AA_FAQ = [
  ("Ağrı varsa mutlaka hasar var demek mi?", "Her zaman değil. Ağrı ile dokudan gelen tehlike sinyali aynı şey değildir; ağrının şiddeti her zaman doku hasarının büyüklüğünü göstermez. Örneğin ağrısı olmayan insanların bel MR’larında da disk değişiklikleri çok sık görülür."),
  ("MR raporumda fıtık ya da dejenerasyon yazıyor; ağrımın nedeni bu mu?", "Olabilir, ama kesin değildir. Bu bulgular ağrısız insanlarda da sık ve yaşla artar. Hekiminiz MR’ı muayene bulgularınız ve şikâyetlerinizle birlikte değerlendirir."),
  ("Uzun süren ağrıda hangi tedaviler öneriliyor?", "İngiltere’nin ulusal sağlık kılavuzu NICE (2021), nedeni başka bir hastalıkla açıklanamayan uzun süreli ağrıda gözetimli grup egzersiz programlarını, hareketli kalmayı ve bilişsel davranışçı terapi ya da kabul ve kararlılık terapisi gibi psikolojik yaklaşımları öneriyor. Bu tür ağrı için parasetamol, iltihap giderici ağrı kesiciler ya da opioidlerle yeni bir tedaviye başlanmamasını tavsiye ediyor."),
- ("Ağrıyı anlamak gerçekten işe yarar mı?", "12 randomize çalışmanın derlemesinde ağrı nörobilimi eğitimi tek başına ağrı ve günlük işlevlerde yalnızca küçük iyileşmeler sağladı; ama kısa vadede hareket etme korkusunu anlamlı ölçüde azalttı. Hastalar, kendi hikâyelerini anlatabildikleri bir eğitimi daha yararlı buldu."),
+ ("Ağrıyı anlamak gerçekten işe yarar mı?", "12 randomize çalışmanın derlemesinde ağrı nörobilimi eğitimi tek başına ağrı ve günlük işlevlerde yalnızca küçük iyileşmeler sağladı; ama kısa vadede hareket etme korkusunu anlamlı ölçüde azalttı. Hastalar, kendi hikâyelerini anlatabildikleri bir eğitimi daha yararlı buldu. Bu yaklaşımın 15 yılını değerlendiren bir derlemeye göre ağrıyı açıklamaya dayalı eğitim bugün pek çok ülkenin kanıta dayalı kılavuzunda yer alıyor; en iyi sonuç, eğitim hareket ve egzersizle birlikte kullanıldığında bekleniyor."),
 ]
 
 AA_BODY = f'''<header class="page">
@@ -719,6 +721,7 @@ AA_BODY = f'''<header class="page">
         "International Association for the Study of Pain. " + ext("https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/", "IASP announces revised definition of pain") + ". 16 July 2020.",
         SRC_BRINJIKJI,
         "Watson JA, Ryan CG, Cooper L, et al. " + ext("https://research.tees.ac.uk/en/publications/pain-neuroscience-education-for-adults-with-chronic-musculoskelet/", "Pain neuroscience education for adults with chronic musculoskeletal pain: a mixed-methods systematic review and meta-analysis") + ". J Pain. 2019;20(10):1140.e1–1140.e22.",
+        "Moseley GL, Butler DS. " + ext("https://doi.org/10.1016/j.jpain.2015.05.005", "Fifteen years of explaining pain: the past, present, and future") + ". J Pain. 2015;16(9):807–813.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng193", "Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain") + ". NICE guideline NG193, 2021",
       ])}
     </div>
@@ -794,7 +797,7 @@ EA_FAQ = [
  ("Egzersiz yaparken hiç ağrı olmamalı mı?", "Gerekmez. Uzun süren kas-iskelet ağrısında yapılan çalışmaların derlemesinde, ağrıya bir ölçüde izin veren egzersiz programları kısa vadede ağrısız programlardan biraz daha iyi sonuç verdi; orta ve uzun vadede ise fark yoktu. Yazarlara göre egzersiz sırasındaki ağrı iyi bir sonuca engel değil."),
  ("Ertesi gün ağrım arttı, ne yapmalıyım?", "Ağrı ertesi sabaha kadar geçmediyse, bir sonraki seansta yükü azaltın: daha az tekrar, daha hafif ağırlık ya da daha kısa süre. Tamamen bırakmak yerine ağrının kabul edilebilir sınırlarda kaldığı düzeyi bulmaya çalışın."),
  ("Tamamen dinlenmek daha güvenli değil mi?", "Her zaman değil. Aşil kirişi sorunu olan 38 kişilik bir çalışmada, ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlev açısından anlamlı fark bulunmadı."),
- ("Egzersiz uzun süren ağrıya gerçekten iyi gelir mi?", "21 Cochrane derlemesini bir araya getiren 2017 tarihli bir özet, egzersizin yan etkisinin az olduğunu ve ağrı şiddeti ile günlük işlevde küçük ya da orta düzeyde iyileşme sağlayabileceğini gösterdi. En sık görülen yan etki kas ağrısıydı ve birkaç hafta içinde geçti. Kanıtların kalitesi düşüktü; çalışmaların çoğu küçük ve kısa süreliydi."),
+ ("Egzersiz uzun süren ağrıya gerçekten iyi gelir mi?", "21 Cochrane derlemesini bir araya getiren 2017 tarihli bir özet, egzersizin yan etkisinin az olduğunu ve ağrı şiddeti ile günlük işlevde küçük ya da orta düzeyde iyileşme sağlayabileceğini gösterdi. En sık görülen yan etki kas ağrısıydı ve birkaç hafta içinde geçti. Kanıtların kalitesi düşüktü; çalışmaların çoğu küçük ve kısa süreliydi. Uzun süren bel ağrısında 249 çalışmayı inceleyen 2021 tarihli Cochrane derlemesinde egzersiz, hiç tedavi almamaya göre ağrıyı 100 üzerinden ortalama 15 puan azalttı (orta düzeyde kanıt); günlük işlevdeki iyileşme daha küçüktü."),
  ("Bu kurallar her ağrı için geçerli mi?", "Hayır. Bu model kiriş, eklem ve kas kaynaklı, uzun süren ağrılar için kullanılır. Yeni bir yaralanma, ameliyat sonrası dönem ya da sıcak ve şiş bir eklem varsa hekiminizin ya da fizyoterapistinizin önerisine uyun. Göğüs ağrısı, baş dönmesi gibi belirtilerde ise egzersizi hemen bırakın."),
 ]
 
@@ -917,6 +920,7 @@ EA_BODY = f'''<header class="page">
         "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. " + ext("https://myorthoevidence.com/AceReport/Report/850", "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study") + ". Am J Sports Med. 2007;35(6):897–906.",
         "Smith BE, Hendrick P, Smith TO, et al. " + ext("https://ueaeprints.uea.ac.uk/id/eprint/63158/", "Should exercises be painful in the management of chronic musculoskeletal pain? A systematic review and meta-analysis") + ". Br J Sports Med. 2017;51(23):1679–1687.",
         "Geneen LJ, Moore RA, Clarke C, et al. " + ext("https://www.cochrane.org/evidence/CD011279_physical-activity-and-exercise-chronic-pain-adults-overview-cochrane-reviews", "Physical activity and exercise for chronic pain in adults: an overview of Cochrane Reviews") + ". Cochrane Database Syst Rev. 2017;4:CD011279.",
+        "Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW. " + ext("https://pedro.org.au/english/systematic-review-found-that-exercise-reduces-pain-more-than-no-treatment-in-adults-with-chronic-non-specific-low-back-pain", "Exercise therapy for chronic low back pain") + ". Cochrane Database Syst Rev. 2021;(9):CD009790.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng193", "Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain") + ". NICE guideline NG193, 2021",
       ])}
     </div>

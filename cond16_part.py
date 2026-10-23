@@ -70,6 +70,7 @@ FF_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/flat-feet/", "Flat feet") + ". Page last reviewed 24 June 2025.",
  "NHS Borders. " + ext("https://rightdecisions.scot.nhs.uk/patient-information-leaflets/primary-community-services/physiotherapy/posterior-tibial-tendon-dysfunction-pttd", "Posterior tibial tendon dysfunction (PTTD)") + ". Patient information leaflet.",
  "Dars S, Uden H, Banwell HA, Kumar S. " + ext("https://doi.org/10.1371/journal.pone.0193060", "The effectiveness of non-surgical intervention (foot orthoses) for paediatric flexible pes planus: a systematic review: update") + ". PLoS One. 2018;13(2):e0193060",
+ "Kulig K, Reischl SF, Pomrantz AB, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/19022863/", "Nonsurgical management of posterior tibial tendon dysfunction with orthoses and resistive exercise: a randomized controlled trial") + ". Phys Ther. 2009;89(1):26–37.",
 ]
 
 FF_BODY = f'''<header class="page">
@@ -124,7 +125,7 @@ FF_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Yetişkinde sonradan düşen kavis</h2>
-      <p class="soft">Yetişkinlikte ortaya çıkan düztabanlığın en sık nedeni, iç ayak bileği kemiğinin arkasından geçip ayak tabanına uzanan ve kavsi yukarıda tutan kirişin (tibialis posterior) zorlanıp zayıflamasıdır. Yaş ilerledikçe risk artar; orta yaşlı kadınlarda daha sık görülür. Fazla kilo, diyabet, iltihaplı romatizma ve bölgeye alınan darbe ya da burkulma zemin hazırlar.</p>
+      <p class="soft">Yetişkinlikte ortaya çıkan düztabanlığın en sık nedeni, iç ayak bileği kemiğinin arkasından geçip ayak tabanına uzanan ve kavsi yukarıda tutan kirişin (tibialis posterior) zorlanıp zayıflamasıdır. Bu kirişin erken evre sorunu olan 36 kişiyle yapılan bir çalışmada, tabanlığa eklenen 12 haftalık direnç egzersizleri ağrıyı ve işlevi, yalnızca tabanlık ve germeye göre daha çok iyileştirdi. Yaş ilerledikçe risk artar; orta yaşlı kadınlarda daha sık görülür. Fazla kilo, diyabet, iltihaplı romatizma ve bölgeye alınan darbe ya da burkulma zemin hazırlar.</p>
       <div class="callout">
         <p>Bu durumda ilk adım yükü azaltmaktır: ağrıyı artıran yürüyüş ve sporu bir süre azaltmak, araya havlu koyarak buz uygulamak, bağcıklı ve sağlam tabanlı bir ayakkabı giymek ve gerekirse tabanlık kullanmak. Kiriş yırtılmışsa ameliyat gündeme gelebilir.</p>
       </div>

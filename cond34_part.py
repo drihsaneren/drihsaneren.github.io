@@ -11,7 +11,7 @@ _ex2("ss_sls", "sls", "Tek ayak üzerinde durma", "Tezgâhın önünde dik durun
 
 SS_FAQ = [
  ("Ne kadar dinlenmeliyim?", "Ağrıya yol açan aktiviteye en az iki-üç hafta ara verip sonra kademeli olarak dönmeniz önerilir. Bu sürede yüzme, bisiklet, eliptik bisiklet ya da yoga gibi kaval kemiğini daha az zorlayan hareketlerle aktif kalabilirsiniz."),
- ("Stres kırığı olup olmadığını nasıl anlarım?", "Kaval kemiği ağrısı genellikle iki bacakta ve 5 santimetreden geniş bir alanda olur. Ağrı küçük bir noktada toplanıyorsa, çoğunlukla tek bacaktaysa ve şişlik varsa stres kırığı olabilir. Röntgen başlangıçta normal görünebilir; bu durumda hekiminize başvurabilirsiniz."),
+ ("Stres kırığı olup olmadığını nasıl anlarım?", "Kaval kemiği ağrısı genellikle iki bacakta ve 5 santimetreden geniş bir alanda olur. Ağrı küçük bir noktada toplanıyorsa, çoğunlukla tek bacaktaysa ve şişlik varsa stres kırığı olabilir. Röntgen başlangıçta normal görünebilir; bu durumda hekiminize başvurabilirsiniz. Kaval kemiği ağrısının tanısı çoğunlukla öykü ve muayeneyle konur: 46 sporcuyla yapılan bir çalışmada iki hekim birbirinden habersiz olarak hastaların %96’sında aynı tanıya vardı."),
  ("Tabanlık kullanmalı mıyım?", "Düz tabanlık ya da içe basma varsa bir ayak uzmanı tabanlık önerebilir. Ancak bir araştırmada tabanlık kullananlarda kaval kemiği ağrısı daha sık görülmüştü; bu, tabanlığın ağrıya yol açtığını değil, zaten risk taşıyan kişilerin tabanlık kullandığını gösteriyor olabilir. Kararı bir uzmanla birlikte verebilirsiniz."),
  ("Kimlerde daha sık görülür?", "Koşucuların yüzde 5 ile 35’inde görülür. Araştırmalarda kadınlarda, vücut kitle indeksi yüksek olanlarda, ayak kavsi belirgin çökenlerde, daha önce aynı ağrıyı yaşamış olanlarda ve koşuya yeni başlayanlarda daha sık bulunmuştur."),
 ]
@@ -21,6 +21,7 @@ SS_SRC = [
  "nidirect. " + ext("https://nidirect.gov.uk/conditions/shin-splints", "Shin splints") + ". Last updated 10 January 2025.",
  "Newman P, Witchalls J, Waddington G, Adams R. " + ext("https://doaj.org/article/63035df9eaf04e42ac9b4e87e645fcc3", "Risk factors associated with medial tibial stress syndrome in runners: a systematic review and meta-analysis") + ". Open Access Journal of Sports Medicine. 2013;4:229–241.",
  "Winters M, Eskes M, Weir A, et al. " + ext("https://doi.org/10.1007/s40279-013-0087-0", "Treatment of medial tibial stress syndrome: a systematic review") + ". Sports Med. 2013;43(12):1315–1333",
+ "Winters M, Bakker EWP, Moen MH, Barten CC, Teeuwen R, Weir A. " + ext("https://bjsm.bmj.com/content/52/19/1267", "Medial tibial stress syndrome can be diagnosed reliably using history and physical examination") + ". Br J Sports Med. 2018;52(19):1267.",
 ]
 
 SS_BODY = f'''<header class="page">

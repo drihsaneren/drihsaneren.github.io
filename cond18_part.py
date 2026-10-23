@@ -36,7 +36,7 @@ GE_FAQ = [
  ("Golfçü dirseği ile tenisçi dirseği arasındaki fark nedir?", "İkisi de dirseğe yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır; fark yerindedir. Golfçü dirseğinde ağrı dirseğin iç yanındadır ve bileği ile parmakları büken kaslar etkilenir. Tenisçi dirseğinde ağrı dış yandadır ve bileği kaldıran kaslar etkilenir."),
  ("Golf oynamıyorum; neden bende oldu?", "Golfçü dirseği aslında spor yapmayanlarda daha sık görülür. Bahçe işleri, boya, el aletleri kullanmak, uzun süre klavye kullanmak gibi bileği ve parmakları tekrar tekrar ve kuvvetle büken her iş neden olabilir. Bazen dirseğe alınan tek bir darbeden sonra da başlar."),
  ("Dirsek bandı işe yarar mı?", "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. Eczanelerden alınabilir. Tek başına bir tedavi değildir; yükü azaltma ve egzersizle birlikte kullanılır."),
- ("Egzersizin yararı kanıtlandı mı?", "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük."),
+ ("Egzersizin yararı kanıtlandı mı?", "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük. Bir NHS broşürüne göre doğru egzersizler ve küçük etkinlik değişiklikleriyle çoğu kişi 8–12 haftada düzelir; aylardır süren ağrıda iyileşme daha uzun sürebilir. Tam dinlenme önerilmez, dirseği nazikçe hareket ettirmeyi sürdürmek önemlidir."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "İğne ilk seçenek değildir. Az sayıda kişide kısa vadede ağrıyı azaltabilir ve diğer yöntemler işe yaramadığında düşünülür. Ameliyat ise nadiren gerekir. Tedavinin temeli yükü azaltmak, germe ve kademeli güçlendirmedir."),
 ]
 
@@ -45,6 +45,7 @@ GE_SRC = [
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-golfers-elbow-4078", "Golfer's elbow") + ". Patient information leaflet B-275. September 2019.",
  "See ZH, Loo CE, Jaafar Z. " + ext("https://doi.org/10.1016/j.ctim.2026.103364", "Eccentric exercise therapy for medial epicondylitis: a systematic review of clinical outcomes") + ". Complement Ther Med. 2026;98:103364.",
  "Amin NH, Kumar NS, Schickendantz MS. " + ext("https://sogacot.org/articulos/medial-epicondylitis-evaluation-and-management/", "Medial epicondylitis: evaluation and management") + ". J Am Acad Orthop Surg. 2015;23(6)",
+ "Leicestershire Partnership NHS Trust. " + ext("https://www.leicspart.nhs.uk/wp-content/uploads/2026/06/LPT-CHSMSK15-Golfers-Elbow.pdf", "Golfer’s elbow (medial epicondylitis)") + ". CHS MSK 15, May 2026.",
 ]
 
 GE_BODY = f'''<header class="page">

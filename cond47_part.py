@@ -16,7 +16,7 @@ _ex2("cu_roll", "ly_shrug", "Omuz çevirme", "Dik oturun ya da ayakta durun, omu
 
 CU_FAQ = [
  ("Karpal tünel sendromundan farkı ne?", "Karpal tünel sendromunda bilekteki median sinir sıkışır ve daha çok başparmak, işaret ve orta parmak uyuşur. Kübital tünel sendromunda ise dirsekteki ulnar sinir etkilenir; uyuşma serçe parmakta ve yüzük parmağının serçe parmak tarafındaki yarısındadır."),
- ("Gece ateli işe yarar mı?", "Dirseği gece daha düz tutmak sinirin gerilmesini azaltır. Bir NHS broşürü, atelin ya da havlu sargısının 6–8 hafta her gece kullanılmasını, düzelme sürüyorsa 12 haftaya kadar devam edilmesini öneriyor. Hafif ve orta düzeyde belirtisi olan 51 kişide yapılan küçük bir araştırmada ise yalnızca yazılı bilgilendirme, iş etkinliklerini iyileştirmede ve gece ağrısını azaltmada atel ya da sinir kaydırma eklemek kadar etkili bulundu; kanıtın kalitesi düşük."),
+ ("Gece ateli işe yarar mı?", "Dirseği gece daha düz tutmak sinirin gerilmesini azaltır. Bir NHS broşürü, atelin ya da havlu sargısının 6–8 hafta her gece kullanılmasını, düzelme sürüyorsa 12 haftaya kadar devam edilmesini öneriyor. Hafif ve orta düzeyde belirtisi olan 51 kişide yapılan küçük bir araştırmada ise yalnızca yazılı bilgilendirme, iş etkinliklerini iyileştirmede ve gece ağrısını azaltmada atel ya da sinir kaydırma eklemek kadar etkili bulundu; kanıtın kalitesi düşük. Bu çalışmanın yayınında 6. ayda hastaların yaklaşık %90’ının düzeldiği bildirildi; araştırmacılara göre şikâyetin nedenlerini ve onu artıran hareketleri öğrenmek, bu hastalarda iyi sonucun anahtarı."),
  ("Kortizon iğnesi yardımcı olur mu?", "55 kişilik bir araştırmada kortizon iğnesi 3. ayda plaseboya göre fark yaratmadı: olumlu sonuç oranı iğne grubunda %28, plasebo grubunda %30’du."),
  ("Ameliyat ne zaman gerekir?", "Belirtiler ağırsa ya da atel, öneriler ve egzersizlere rağmen ilerliyorsa ameliyat düşünülebilir. Ameliyatın asıl amacı güçsüzlüğün ve kas erimesinin ilerlemesini önlemektir. Araştırmalarda sinir üzerindeki dokuyu gevşetmek ile siniri yerinden taşımak benzer sonuç verdi (6–12 ayda yaklaşık %70’e karşı %75 düzelme); siniri taşımada yara enfeksiyonu daha sıktı."),
  ("Ameliyattan sonra ne zaman işe dönerim?", "Bir NHS broşürüne göre hafif işlere 1–2 hafta, ağır işlere yaklaşık 3–6 hafta sonra dönülebilir; ilk 4 hafta ağır kaldırma ve sıkı kavramadan kaçınılır. Uyuşma çoğu zaman düzelir ama bu yavaş olabilir; güç kaybının toparlanması da zaman alır ve tam olmayabilir."),
@@ -27,6 +27,7 @@ CU_SRC = [
  "Royal Berkshire NHS Foundation Trust. " + ext("https://royalberkshire.nhs.uk/media/svmk5mdd/cubital-tunnel-syndrome_jan24.pdf", "Cubital tunnel syndrome") + ". January 2024.",
  "Right Decision Service, NHS Scotland. " + ext("https://www.rightdecisions.scot.nhs.uk/media/dscm3fzw/cubital-tunnel-syndrome.pdf", "Cubital tunnel syndrome") + ".",
  "Caliandro P, La Torre G, Padua R, Giannini F, Padua L. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC6734129/", "Treatment for ulnar neuropathy at the elbow") + ". Cochrane Database Syst Rev. 2016;(11):CD006839.",
+ "Svernlöv B, Larsson M, Rehn K, Adolfsson L. " + ext("https://www.qxmd.com/r/19282413", "Conservative treatment of the cubital tunnel syndrome") + ". J Hand Surg Eur Vol. 2009;34(2):201–207.",
 ]
 
 CU_BODY = f'''<header class="page">

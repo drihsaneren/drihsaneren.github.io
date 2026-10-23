@@ -3,7 +3,7 @@
 # Egzersizler boyun ağrısı ve ankilozan spondilit rehberlerindekilerle aynı (çevirileri hazır).
 
 BD_FAQ = [
- ("Boyun düzleşmesi düzelir mi?", "Asıl hedef eğriliği değiştirmek değil, ağrıyı azaltmak ve boynun rahat hareket etmesini sağlamaktır; bunun için düzenli egzersiz ve gün içinde boynu hareketli tutmak işe yarar."),
+ ("Boyun düzleşmesi düzelir mi?", "Asıl hedef eğriliği değiştirmek değil, ağrıyı azaltmak ve boynun rahat hareket etmesini sağlamaktır; bunun için düzenli egzersiz ve gün içinde boynu hareketli tutmak işe yarar. ABD fizyoterapi kılavuzu da uyarı işareti olmayan, hareket kısıtlılığıyla seyreden boyun ağrısında görüntülemenin gerekmediğini; boyun hareket egzersizleri ile kürek kemiği ve kol güçlendirmesini öneriyor."),
  ("Özel yastık ya da boyunluk kullanmalı mıyım?", "İngiltere Ulusal Sağlık Sistemi (NHS) boyun ağrısında alçak ve sert bir yastık öneriyor; boyunluk ise önerilmiyor, çünkü boynu hareketli tutmak daha iyi. Size rahat gelen bir yastığı deneyerek seçebilirsiniz."),
  ("Baş dönmesi ve baş ağrısı boyun düzleşmesinden mi?", "Boyun kaynaklı baş ağrısı olabilir, ancak baş dönmesinin pek çok başka nedeni vardır. Bu belirtileri yalnızca röntgendeki düzleşmeye bağlamak yerine bir hekimin değerlendirmesi daha doğru olur. Baş ağrısı ve baş dönmesi rehberlerimize de bakabilirsiniz."),
  ("Telefona eğilmek boyun düzleşmesi yapar mı?", "Uzun süre aynı pozisyonda öne eğik durmak boyunda gerginlik ve ağrıya yol açabilir. Ekranı göz hizasına yaklaştırmak, sık mola vermek ve boynu farklı yönlere hareket ettirmek rahatlatır."),
@@ -14,6 +14,7 @@ BD_SRC = [
  "McAviney J, Schulz D, Bock R, Harrison DE, Holland B. Determining the relationship between cervical lordosis and neck complaints. J Manipulative Physiol Ther. 2005;28(3):187–193. Özet: " + ext("https://www.painscience.com/biblio/painful-necks-about-10-degree-straighter-in-x-rays.html", "PainScience, Painful necks about 10 degree straighter in X-rays") + ".",
  "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
  "NHS. " + ext("https://www.nhs.uk/conditions/neck-pain/", "Neck pain") + ". Page last reviewed 27 April 2023.",
+ "Blanpied PR, Gross AR, Elliott JM, et al. " + ext("https://doi.org/10.2519/jospt.2017.0302", "Neck pain: revision 2017. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Orthopaedic Section of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2017;47(7):A1–A83.",
 ]
 
 BD_BODY = f'''<header class="page">

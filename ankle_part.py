@@ -30,7 +30,7 @@ BILEK_FAQ = [
  ("Burkulan ayağıma basmalı mıyım?", "Evet, ağrının izin verdiği ölçüde. Amerikan Fizyoterapi Derneği'nin kılavuzu, yeni burkulmada ayak bileğini bant ya da bileklik gibi bir destekle korumayı ve ayağa kademeli olarak yük vermeyi öneriyor. Uzun süre hiç basmamak iyileşmeyi geciktirebilir."),
  ("Röntgen çektirmem gerekir mi?", "Çoğu burkulmada gerekmez. Ottawa kurallarına göre, yaralanmadan hemen sonra ve muayenede 4 adım atamıyorsanız ya da ayak bileğinin iç veya dış kemik çıkıntısının arka kenarında, alttaki 6 santimlik bölümde kemik üzerinde hassasiyet varsa röntgen gerekir. Bu kurallar kırıkların neredeyse tamamını yakalıyor."),
  ("Buz mu uygulamalıyım?", "Egzersiz programıyla birlikte, aralıklı ve tekrarlayan buz uygulaması kılavuzda ağrı ve şişliği azaltmak için kullanılabilecek yöntemler arasında yer alıyor. Buzu doğrudan cilde koymayın, arada ince bir bez bulundurun."),
- ("Bileklik kullanmalı mıyım?", "Yeni burkulmada destek kullanmak önerilir. Burkulma geçirmiş kişilerde yeni burkulmaları önlemek için de spor sırasında bileklik kullanmak ve denge egzersizleri yapmak öneriliyor."),
+ ("Bileklik kullanmalı mıyım?", "Yeni burkulmada destek kullanmak önerilir. Burkulma geçirmiş kişilerde yeni burkulmaları önlemek için de spor sırasında bileklik kullanmak ve denge egzersizleri yapmak öneriliyor. 46 sistematik derlemeyi bir araya getiren bir çalışmada, tekrar burkulmayı önlemede bileklik için güçlü, denge ve koordinasyon çalışmaları için orta düzeyde kanıt bulundu; yeni burkulmada iltihap giderici ağrı kesiciler ve erken hareket için kanıt güçlüydü."),
  ("Neden sürekli aynı ayağımı burkuyorum?", "Burkulma sonrasında denge, kas gücü ve ayak bileğinin konum algısı tam olarak toparlanmadıysa bilek yeniden burkulmaya yatkın hale gelir. Ağrı geçse de denge ve güçlendirme egzersizlerine devam etmek ve spora kademeli dönmek bu döngüyü kırmanın yoludur."),
 ]
 
@@ -39,6 +39,7 @@ BILEK_SRC = [
  "Vuurberg G, Hoorntje A, Wink LM, et al. " + ext("https://bjsm.bmj.com/content/52/15/956", "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline") + ". Br J Sports Med. 2018;52(15):956.",
  "NHS. " + ext("https://www.nhs.uk/conditions/sprains-and-strains/", "Sprains and strains") + ". Page last reviewed 23 April 2024.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Ottawa_Ankle_Rules", "Ottawa Ankle Rules") + ".",
+ "Doherty C, Bleakley C, Delahunt E, Holden S. " + ext("https://bjsm.bmj.com/content/51/2/113", "Treatment and prevention of acute and recurrent ankle sprain: an overview of systematic reviews with meta-analysis") + ". Br J Sports Med. 2017;51(2):113–125.",
 ]
 
 BILEK_BODY = f'''<header class="page">

@@ -27,6 +27,7 @@ HF_SRC = [
  "British Heart Foundation. " + ext("https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/exercise-for-heart-failure", "Exercise for heart failure") + ". Heart Matters, updated 27 January 2026.",
  "University Hospitals Birmingham NHS Foundation Trust. " + ext("https://www.uhb.nhs.uk/media/eqhbajpm/heart-failure-cardiac-patients-top-ten-tips-cardiology-pi.pdf", "Top tips for heart failure patients") + ". PI25/3263/04, June 2025.",
  "Queensland Heart Failure Services. " + ext("https://www.health.qld.gov.au/heart_failure/pdf/hf_exercise_sheets.pdf", "Heart failure patient information: exercise sheets") + ". Revised May 2010.",
+ "Berkshire Healthcare NHS Foundation Trust. " + ext("https://www.berkshirehealthcare.nhs.uk/conditions/heart-failure", "Heart failure") + ". 2026.",
  "Liu Z, Li Z, Li X, et al. " + ext("https://doi.org/10.1002/ehf2.14915", "Global trends in heart failure from 1990 to 2019: an age-period-cohort analysis from the Global Burden of Disease study") + ". ESC Heart Fail. 2024;11(5):3264–3278.",
 ]
 
@@ -139,7 +140,7 @@ HF_BODY = f'''<header class="page">
         <li>Şiddetli nefes darlığı: soluk soluğa kalma, boğulur gibi olma, konuşamama (acil)</li>
         <li>Dudaklarda ya da deride solukluk, morarma ya da grileşme (acil)</li>
         <li>Bayılma ya da çevresine normal tepki vermeme (acil)</li>
-        <li>Dinlenmekle geçmeyen göğüs ağrısı ya da baskı hissi (acil)</li>
+        <li>Ani ya da çok şiddetli belirtiler, örneğin göğüs ağrısı ya da soluk soluğa kalma (acil)</li>
         <li>Yatarken ya da günlük işlerde nefes darlığı, köpüklü pembe balgam, ani kilo artışı (aynı gün hekime)</li>
         <li>Yeni ya da artan bilek-bacak şişliği, gece nefes darlığıyla uyanma ya da rahat nefes almak için daha fazla yastık gerekmesi</li>
       </ul>

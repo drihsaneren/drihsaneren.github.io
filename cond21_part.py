@@ -11,7 +11,7 @@ _ex2("rl_soleus", "soleus", "Alt baldır esnetme", "Baldır esnetmesindeki gibi 
 RL_FAQ = [
  ("Gebelikte huzursuz bacak olur mu?", "Evet, gebelikte sık görülür ve genellikle doğumdan sonra geçer. Demir eksikliği eşlik edebileceği için hekiminize söyleyin; gebelikte ilaç ve takviyeleri hekime danışmadan kullanmayın."),
  ("Demir hapını kendim başlayabilir miyim?", "Önce kan değerlerinize bakılması gerekir. Amerikan Uyku Tıbbı Akademisi'nin 2024 kılavuzu, huzursuz bacak sendromu olan herkesin demir değerlerinin ölçülmesini ve takviyenin bu değerlere göre verilmesini öneriyor. Gereksiz demir kullanımı zararlı olabilir."),
- ("Kahve ve alkol etkiler mi?", "Belirtileri artırabilirler. İngiltere Ulusal Sağlık Sistemi (NHS), öğleden sonra kafeinden ve yatmadan önceki 2 saat içinde alkolden kaçınmayı, sigarayı bırakmayı öneriyor."),
+ ("Kahve ve alkol etkiler mi?", "Belirtileri artırabilirler. İngiltere Ulusal Sağlık Sistemi (NHS), öğleden sonra kafeinden ve yatmadan önceki 2 saat içinde alkolden kaçınmayı, sigarayı bırakmayı öneriyor. İlaç dışı tedavileri inceleyen 11 çalışmalık bir derlemede egzersiz, belirtilerin şiddetini kontrol gruplarına göre azaltan yöntemler arasındaydı; ancak çalışma sayısı az ve kanıt kalitesi yüksek değildi."),
  ("Kramptan farkı nedir?", "Kramp, kasın ağrılı ve istem dışı kasılmasıdır ve genellikle kısa sürer. Huzursuz bacakta ise bacakları hareket ettirme dürtüsü ve rahatsız edici bir his vardır; dinlenirken başlar ve hareketle hafifler. Sinir hasarı (nöropati) da benzer belirtiler verebilir; ayırımı hekim yapar."),
 ]
 
@@ -20,6 +20,7 @@ RL_SRC = [
  "Winkelman JW, Berkowski JA, DelRosso LM, et al. Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. 2024. doi:10.5664/jcsm.11390. Özet: " + ext("https://aasm.org/summary-of-new-clinical-practice-guideline-for-rls-and-plmd/", "AASM, Summary of new clinical practice guideline for RLS and PLMD") + ", 13 November 2024.",
  "HCPLive. " + ext("https://www.hcplive.com/view/aasm-updates-clinical-guidelines-restless-legs-syndrome", "AASM updates clinical guidelines for restless legs syndrome") + ". 22 November 2024.",
  "Aukerman MM, Aukerman D, Bayard M, Tudiver F, Thorp L, Bailey B. " + ext("https://www.jabfm.org/content/19/5/487.short", "Exercise and restless legs syndrome: a randomized controlled trial") + ". J Am Board Fam Med. 2006;19(5):487–493.",
+ "Harrison EG, Keating JL, Morgan PE. " + ext("https://search.pedro.org.au/search-results/record-detail/57803", "Non-pharmacological interventions for restless legs syndrome: a systematic review of randomised controlled trials") + ". Disabil Rehabil. 2019;41(17):2006–2014.",
 ]
 
 RL_BODY = f'''<header class="page">

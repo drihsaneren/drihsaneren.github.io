@@ -19,7 +19,7 @@ TUG_OBS = ["Yavaş, çekingen adımlar", "Denge kaybı", "Kısa adımlar", "Koll
 TUG_OBSH = "\n".join(f'<label class="mz-chk"><input type="checkbox" class="tug-o"> {o}</label>' for o in TUG_OBS)
 
 TUG_FAQ = [
- ("Testi tek başıma yapabilir miyim?", "Hayır. Süreyi tutacak ve güvenliğiniz için yanınızda yürüyecek birinin olması gerekir."),
+ ("Testi tek başıma yapabilir miyim?", "Hayır. Süreyi tutacak ve güvenliğiniz için yanınızda yürüyecek birinin olması gerekir. Test 1991’de bir geriatri gündüz hastanesine başvuran 60 yaşlıyla geliştirildi; süre, denge ölçeği ve günlük yaşamda bağımsızlıkla güçlü bir ilişki gösterdi."),
  ("Baston ya da yürüteçle yapabilir miyim?", "Evet. Her zamanki ayakkabılarınızla ve günlük hayatta kullandığınız yürüme yardımcısıyla yapın. Zaman içinde karşılaştırmak için her seferinde aynı şekilde yapmanız yeterli."),
  ("Sürem 12 saniyenin üzerinde çıktı, ne yapmalıyım?", "Bu bir tanı değildir. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), testi 12 saniye ya da daha uzun sürede tamamlayan yaşlıları düşme açısından riskli kabul ediyor ve daha ayrıntılı değerlendirme öneriyor. Bir hekim ya da fizyoterapistle konuşabilir, aşağıdaki güç ve denge egzersizleriyle başlayabilirsiniz."),
  ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Sağlıklı ve bağımsız yaşayan yaşlılarda yapılan çalışmalar da bu testin tek başına düşmeleri öngörmediğini gösteriyor. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
@@ -161,6 +161,7 @@ TUG_BODY = f'''<header class="page">
         "Bohannon RW. " + ext("https://read.qxmd.com/doi/10.1519/00139143-200608000-00004", "Reference values for the timed up and go test: a descriptive meta-analysis") + ". J Geriatr Phys Ther. 2006.",
         "Browne W, Nair BR. " + ext("https://doi.org/10.5694/mja2.12045", "The Timed Up and Go test") + ". Med J Aust. 2019;210(1):13–14.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
+        "Podsiadlo D, Richardson S. " + ext("https://doi.org/10.1111/j.1532-5415.1991.tb01616.x", "The timed “Up & Go”: a test of basic functional mobility for frail elderly persons") + ". J Am Geriatr Soc. 1991;39(2):142–148.",
       ])}
     </div>
   </section>
@@ -243,7 +244,7 @@ page("kalk-yuru-testi.html", "Kalk ve Yürü Testi (TUG)",
 
 # ------------------------------------------------------------------ 2 · MASA BAŞI MOLA ZAMANLAYICISI
 MZ_FAQ = [
- ("Ekranlar gözlerime kalıcı zarar verir mi?", "Hayır. Amerikan Oftalmoloji Akademisi, uzun ekran kullanımının gözlere kalıcı zarar verdiği düşüncesinin yanlış olduğunu belirtiyor. Ancak ekran başında uzun süre kalmak bulanık görme, ağrı ve kuruluk gibi geçici rahatsızlıklara yol açabilir."),
+ ("Ekranlar gözlerime kalıcı zarar verir mi?", "Hayır. Amerikan Oftalmoloji Akademisi, uzun ekran kullanımının gözlere kalıcı zarar verdiği düşüncesinin yanlış olduğunu belirtiyor. Ancak ekran başında uzun süre kalmak bulanık görme, ağrı ve kuruluk gibi geçici rahatsızlıklara yol açabilir. Bir derlemeye göre bilgisayar kullananların yarısı ya da daha fazlasında dijital göz yorgunluğu görülebiliyor; düzenli ekran molaları, gerekiyorsa gözlük numarasının düzeltilmesi ve göz kuruluğunun tedavisi önerilen yöntemler arasında."),
  ("Neden 30 dakikada bir 5 dakika?", "Orta yaş ve üzeri 11 kişinin katıldığı bir araştırmada 8 saatlik oturma farklı mola düzenleriyle bölündü. Kan şekerindeki yükselmeyi yalnızca her 30 dakikada 5 dakikalık hafif yürüyüş anlamlı olarak azalttı; bu düzen büyük tansiyonu da yaklaşık 4 mmHg düşürdü. Saatte bir 1 dakikalık yürüyüş dahil, denenen tüm mola türleri büyük tansiyonu düşürdü. Küçük bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı."),
  ("Sekmeyi arka plana alırsam çalışır mı?", "Sayfa açık kaldığı sürece çalışır. Bazı tarayıcılar arka plandaki sekmelerde zamanlayıcıları yavaşlatabilir; bu durumda uyarı birkaç saniye ile bir dakika arasında gecikebilir. Bildirimlere izin verirseniz uyarıyı başka bir pencerede çalışırken de görürsünüz."),
  ("Molada ne yapabilirim?", "Hafif tempolu yürüyüş, merdiven inip çıkmak, ayakta telefon görüşmesi yapmak ya da birkaç germe hareketi. Dünya Sağlık Örgütü, oturarak geçen zamanın yerine hangi yoğunlukta olursa olsun hareket koymayı öneriyor."),
@@ -370,6 +371,7 @@ MZ_BODY = f'''<header class="page">
         "Ekelund U, Tarp J, Fagerland MW, et al. " + ext("https://bjsm.bmj.com/content/54/24/1499", "Joint associations of accelerometer-measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals") + ". Br J Sports Med. 2020;54(24):1499–1506",
         "Duran AT, Friel CP, Serafini MA, Ensari I, Cheung YK, Diaz KM. " + ext("https://scholars.mssm.edu/en/publications/breaking-up-prolonged-sitting-to-improve-cardiometabolic-risk-dos/", "Breaking up prolonged sitting to improve cardiometabolic risk: dose-response analysis of a randomized crossover trial") + ". Med Sci Sports Exerc. 2023;55(5):847–855.",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/33239350/", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
+        "Sheppard AL, Wolffsohn JS. " + ext("https://doi.org/10.1136/bmjophth-2018-000146", "Digital eye strain: prevalence, measurement and amelioration") + ". BMJ Open Ophthalmol. 2018;3(1):e000146.",
       ])}
     </div>
   </section>

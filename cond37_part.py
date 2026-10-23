@@ -19,7 +19,7 @@ _ex2("os_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 
 OS_FAQ = [
  ("Çocuğum spor yapmayı bırakmalı mı?", "Genellikle tamamen bırakması gerekmez. Spor kalıcı bir hasar yapmaz, ama ağrıyı artırabilir. Ağrı kontrol altına girene kadar özellikle koşu ve sıçrama gibi zorlayıcı aktivitelerin süresini, sıklığını ve toplam miktarını azaltmak önerilir. Ağrı çok şiddetliyse bir süre tam ara gerekebilir."),
- ("Ne kadar sürer?", "Ağrı çoğu zaman birkaç ayda azalır, ama bazı belirtiler 12–24 ay sürebilir. Kemik büyümesi tamamlanınca geçer. Yeni bir büyüme atağında ya da yoğun sporla yeniden alevlenebilir."),
+ ("Ne kadar sürer?", "Ağrı çoğu zaman birkaç ayda azalır, ama bazı belirtiler 12–24 ay sürebilir. Kemik büyümesi tamamlanınca geçer. Yeni bir büyüme atağında ya da yoğun sporla yeniden alevlenebilir. Ancak her zaman kısa sürmeyebilir: Danimarka’da tanıdan ortalama 3,75 yıl sonra ulaşılabilen 43 gencin %60’ında diz ağrısı sürüyordu ve ağrısı olanların yaşam kalitesi daha düşüktü; ankete yanıt oranının düşük olması sonucu etkilemiş olabilir."),
  ("Dizin altındaki sert şişlik nedir?", "Ön uyluk kası, diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çeker; bu bölge zorlanıp iltihaplanır. İyileşme sırasında burada sert bir kemik çıkıntısı oluşabilir. Çıkıntı dokununca ya da diz çökerken hassas olabilir."),
  ("Dinlenmek mi, egzersiz mi?", "10–14 yaş arası 51 gençle yapılan bir çalışmada, ağrıya göre ayarlanan bir aktivite merdiveni, diz güçlendirme ve kademeli spora dönüşten oluşan 12 haftalık programdan sonra gençlerin %80’i iyileşme bildirdi; 12 ayda %69’u spora döndü. Kontrol grubu olmayan bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı, ama yalnızca dinlenip beklemeye bir alternatif sunuyor."),
 ]
@@ -29,6 +29,7 @@ OS_SRC = [
  "Bradford Teaching Hospitals NHS Foundation Trust. " + ext("https://bradfordhospitals.nhs.uk/wp-content/uploads/2025/02/25011305-Osgood-Schlatters-Disease-Leaflet-2.pdf", "Osgood Schlatter’s disease") + ". Patient leaflet, February 2025.",
  "Rathleff MS, Winiarski L, Krommes K, et al. " + ext("https://research.regionh.dk/en/publications/activity-modification-and-knee-strengthening-for-osgood-schlatter/", "Activity modification and knee strengthening for Osgood-Schlatter disease: a prospective cohort study") + ". Orthopaedic Journal of Sports Medicine. 2020;8(4):2325967120911106.",
  "Neuhaus C, Appenzeller-Herzog C, Faude O. " + ext("https://doi.org/10.1016/j.ptsp.2021.03.002", "A systematic review on conservative treatment options for Osgood-Schlatter disease") + ". Phys Ther Sport. 2021;49:178–187",
+ "Guldhammer C, Rathleff MS, Jensen HP, Holden S. " + ext("https://vbn.aau.dk/ws/files/315510202/2325967119878136.pdf", "Long-term prognosis and impact of Osgood-Schlatter disease 4 years after diagnosis: a retrospective study") + ". Orthop J Sports Med. 2019;7(10):2325967119878136.",
 ]
 
 OS_BODY = f'''<header class="page">

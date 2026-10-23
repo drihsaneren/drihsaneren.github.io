@@ -30,7 +30,7 @@ _ex2("mt_stand", "sls", "Yaralı bacak üzerinde durma", "Rahatça yürüyebildi
 _ex2("mt_toe", "heel2", "Parmak ucunda yükselme", "Tutunarak iki ayağınızın parmak uçlarında yükselin ve yavaşça inin. Çok rahatsız edici olmadan yapın.", "8–12 tekrar, günde 3–4 kez")
 
 MT5_FAQ = [
- ("Bot kırığın iyileşmesine yardım eder mi?", "Kemiğin tabanındaki kırıklarda bot ya da sert tabanlı ayakkabı yalnızca rahat etmeniz için verilir; iyileşmeyi hızlandırmaz. Yürürken giyin, dinlenirken ve gece çıkarabilirsiniz. Sağlam ayağınıza destekleyici bir ayakkabı giymek diğer eklemlerinizi korur."),
+ ("Bot kırığın iyileşmesine yardım eder mi?", "Kemiğin tabanındaki kırıklarda bot ya da sert tabanlı ayakkabı yalnızca rahat etmeniz için verilir; iyileşmeyi hızlandırmaz. Yürürken giyin, dinlenirken ve gece çıkarabilirsiniz. Sağlam ayağınıza destekleyici bir ayakkabı giymek diğer eklemlerinizi korur. Taban çıkıntısındaki kopma kırığı olan 78 hastayla yapılan çok merkezli bir çalışmada, sert tabanlı ayakkabıyla tedavi edilenlerde 6. aydaki ağrı alçıyla tedavi edilenlerden farklı değildi (iki grupta da ağrının izin verdiği ölçüde basılabiliyordu) ve önceki etkinliklere dönüş daha erkendi (ortalama 37’ye karşı 43 gün)."),
  ("Jones kırığı nedir, neden farklı tedavi edilir?", "Jones kırığı, 5. tarak kemiğinin tabanına yakın ama biraz daha ileride olan bir kırıktır ve daha yavaş iyileşebilir. Bir NHS broşürüne göre ilk 6 hafta alçı ve koltuk değnekleriyle ayağa yük verilmez; daha sonra bota geçilebilir. Bu kırıkların küçük bir kısmı kendiliğinden kaynamaz ve ameliyat düşünülebilir. Kırık tipinizi ve ne kadar yük verebileceğinizi ekibiniz söyler."),
  ("Ne zaman araba kullanabilirim?", "Bottan ya da sert tabanlı ayakkabıdan çıktığınızda, rahat yürüyebildiğinizde, ani fren gibi acil manevraları ağrı ya da tereddüt olmadan yapabildiğinizde ve sigortanız sizi kapsadığında. Önce güvenli bir yerde deneyin."),
  ("Ne zaman spora dönebilirim?", "Ağrısız çömelebildiğiniz, sekebildiğiniz, zıplayabildiğiniz ve koşabildiğiniz zaman. Çoğu kişi 6–12 hafta içinde olağan etkinliklerine döner; koşu gibi daha zorlu etkinlikler bir süre daha rahatsızlık verebilir. Yapamıyorsanız fizyoterapi için hekiminize başvurun."),
@@ -42,6 +42,7 @@ MT5_SRC = [
  "Royal Free London NHS Foundation Trust, Virtual fracture clinic. " + ext("https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/fifth-metatarsal-fractures", "Fifth metatarsal fractures") + ". RFL949 version 4, June 2025.",
  "East Sussex Healthcare NHS Trust. " + ext("https://www.esht.nhs.uk/wp-content/uploads/2026/01/2033.pdf", "Fracture of the base of the 5th metatarsal (Jones)") + ". November 2025.",
  "Vu D, McDiarmid T, Brown M. " + ext("https://mdedge.com/content/what-most-effective-management-acute-fractures-base-fifth-metatarsal", "What is the most effective management of acute fractures of the base of the fifth metatarsal?") + ". J Fam Pract. 2006;55(8):713–717",
+ "Choi YR, Kim BS, Kim YM, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/33252586/", "Hard-soled shoe versus short leg cast for a fifth metatarsal base avulsion fracture: a multicenter, noninferiority, randomized controlled trial") + ". J Bone Joint Surg Am. 2021;103(1):23–29.",
 ]
 
 MT5_BODY = f'''<header class="page">

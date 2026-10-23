@@ -44,7 +44,7 @@ EXT.update({
 
 DIRSEK_FAQ = [
  ("Tenis oynamıyorum, neden tenisçi dirseği oldum?", "Adına rağmen hastaların çoğu tenis oynamaz. Sorun, bileği ve parmakları açan kasların dirseğin dış yüzüne yapıştığı ortak kirişin aşırı yüklenmesidir. El ve bileğin yoğun kullanıldığı işlerde görülme sıklığı %29'a kadar çıkabiliyor; en sık 40–60 yaş arasında görülür."),
- ("Kortizon iğnesi yaptırmalı mıyım?", "Kortizon iğnesi kısa sürede ağrıyı azaltabilir, ancak uzun vadede sonuçları kötüleştirebilir. 165 hastalık bir çalışmada 1 yılın sonunda tamamen ya da çok iyileşenlerin oranı kortizon grubunda %83, plasebo iğne grubunda %96 oldu; nüks ise kortizon grubunda %54, plasebo grubunda %12 idi."),
+ ("Kortizon iğnesi yaptırmalı mıyım?", "Kortizon iğnesi kısa sürede ağrıyı azaltabilir, ancak uzun vadede sonuçları kötüleştirebilir. 165 hastalık bir çalışmada 1 yılın sonunda tamamen ya da çok iyileşenlerin oranı kortizon grubunda %83, plasebo iğne grubunda %96 oldu; nüks ise kortizon grubunda %54, plasebo grubunda %12 idi. 30 çalışmayı ve 2.123 kişiyi kapsayan bir meta-analizde egzersiz, kısa dönem ağrı dışında tüm sonuçlarda kortizon iğnesinden daha iyiydi; ancak egzersizin pasif tedavilere üstünlüğü küçüktü ve kanıtın kesinliği düşük ile çok düşük arasındaydı."),
  ("Dirsek bandı işe yarar mı?", "Ön kola takılan bant ya da bilek desteği, aktivite sırasında kullanıldığında ağrıyı hemen hafifletebilir. Uzun vadeli etkisi konusunda ise kılavuz bir öneride bulunamıyor. Bant tedavinin tamamı değil, yük ayarlamaya yardımcı bir araçtır."),
  ("Ne kadar sürede geçer?", "Sabır gerektirir. Genel sağlık hizmetine başvuranların yarısından fazlasında şikâyetler 1 yıl sonra da sürebiliyor ve 6–12 ay içinde nüks oranı %20–38 arasında bildiriliyor. Yükü kademeli artırılan bir egzersiz programına düzenli devam etmek bu süreci yönetmenin temelidir."),
  ("Kolumu tamamen dinlendirmeli miyim?", "Hayır. Ağrıyı belirgin artıran kavrama ve kaldırma işlerini geçici olarak azaltın, ama kolu askıya almayın. Kiriş, kademeli olarak artırılan yüke uyum sağlayarak güçlenir; kılavuz da yükün aşamalı olarak yeniden artırılmasını öneriyor."),
@@ -55,6 +55,7 @@ DIRSEK_SRC = [
  "Lucado AM, Day JM, et al. " + ext("https://www.jospt.org/doi/10.2519/jospt.2022.0302", "Lateral elbow pain and muscle function impairments: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health") + ". J Orthop Sports Phys Ther. 2022;52(12).",
  "Bisset LM, Vicenzino B. " + ext("https://pubmed.ncbi.nlm.nih.gov/26361816/", "Physiotherapy management of lateral epicondylalgia") + ". J Physiother. 2015;61(4):174–181",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Lateral_Epicondylitis", "Lateral Epicondylitis") + ".",
+ "Karanasios S, Korakakis V, Whiteley R, et al. " + ext("https://bjsm.bmj.com/content/55/9/477", "Exercise interventions in lateral elbow tendinopathy have better outcomes than passive interventions, but the effects are small: a systematic review and meta-analysis of 2123 subjects in 30 trials") + ". Br J Sports Med. 2021;55(9):477–485.",
 ]
 
 DIRSEK_BODY = f'''<header class="page">

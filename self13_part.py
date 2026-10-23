@@ -21,7 +21,7 @@ YY_FAQ = [
  ("Yemekten ne kadar sonra yürümeliyim?", "Yemeği bitirdikten kısa süre sonra başlamak iyi bir alışkanlık. Analizin yazarlarına göre kan şekeri genellikle yemekten 60–90 dakika sonra zirveye çıkıyor; bu zirveden önce yapılan hareket en iyi sonucu veriyor."),
  ("Ne kadar yürümek yeterli?", "Çalışmada her öğünden sonra 10 dakika yürüyüş kullanıldı. Yemekten sonraki 2–5 dakikalık kısa ve hafif yürüyüşlerin de kan şekerini düşürdüğü görüldü; ayakta durmak da oturmaktan iyiydi ama yürümek kadar etkili değildi. Zamanınız azsa kısa bir yürüyüş bile hiç yürümemekten iyidir."),
  ("Günlük egzersizimin yerine geçer mi?", "Tek başına yetmez, ama ona katkı sağlar. Dünya Sağlık Örgütü yetişkinlere haftada en az 150 dakika orta yoğunlukta hareket ve haftada en az 2 gün kas güçlendirme öneriyor ve her hareketin sayıldığını vurguluyor. Amerikan Diyabet Derneği de diyabeti olanlara düzenli egzersizin yanında, uzun oturmanın her 30 dakikada bir birkaç dakikalık hafif hareketle bölünmesini öneriyor."),
- ("İnsülin ya da şeker ilacı kullanıyorsam?", "İnsülin ya da bazı şeker düşürücü ilaçları kullanıyorsanız egzersiz sırasında ve sonrasında şekeriniz düşebilir. Yürüyüş planınızı hekiminizle konuşun, şekerinizi ölçüyorsanız yürüyüşten önce ve sonra bakın, titreme, terleme, baş dönmesi gibi düşük şeker belirtilerinde durun ve yanınızda hızlı etkili bir şeker bulundurun."),
+ ("İnsülin ya da şeker ilacı kullanıyorsam?", "İnsülin ya da gliklazid gibi bazı şeker tabletlerini kullanıyorsanız egzersiz şekerinizi düşürebilir. Düzenli yürümeye başlayınca ilaç dozunun azaltılması gerekebileceği için planınızı diyabet ekibinizle konuşun. Şekerinizi ölçüyorsanız yürüyüşten önce, sırasında ve sonra bakın; yanınızda her zaman hızlı etkili bir şeker bulundurun. Terleme, titreme, baş dönmesi, açlık ya da çarpıntı gibi düşük şeker belirtilerinde durun ve şeker alın."),
 ]
 
 YY_BODY = f'''<header class="page">
@@ -143,6 +143,8 @@ YY_BODY = f'''<header class="page">
         "Buffey AJ, Herring MP, Langley CK, et al. The acute effects of interrupting prolonged sitting time in adults with standing and light-intensity walking on biomarkers of cardiometabolic health: a systematic review and meta-analysis. Sports Med. 2022;52:1765–1787. Haber: " + ext("https://mdedge.com/fedprac/article/256982/diabetes/short-walks-after-meals-can-cut-diabetes-risk", "MDedge, 11 August 2022") + ".",
         "Colberg SR, Sigal RJ, Yardley JE, et al. " + ext("https://doi.org/10.2337/dc16-1728", "Physical activity/exercise and diabetes: a position statement of the American Diabetes Association") + ". Diabetes Care. 2016;39(11):2065–2079. Haber: " + ext("https://www.ajmc.com/view/american-diabetes-association-issues-recommendations-for-physical-activity-exercise", "AJMC") + ".",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
+        "Know Diabetes (NHS West and North London). " + ext("https://www.knowdiabetes.org.uk/be-healthier/move-more/exercise-and-staying-safe/", "Exercise and staying safe") + ".",
+        "NHS 111 Wales. " + ext("https://111.wales.nhs.uk/hypoglycaemia", "Hypoglycaemia (low blood sugar)") + ". Updated 6 June 2025.",
       ])}
     </div>
   </section>
@@ -351,7 +353,7 @@ DB_BODY = f'''<header class="page">
           <li><b>2. seviye</b><span>Tek elle hafifçe tutunarak.</span></li>
           <li><b>3. seviye</b><span>Tutunmadan; sabit yüzey yine elinizin yetişeceği yerde.</span></li>
         </ul>
-        <p class="soft" style="margin-top:12px">Otago programında destek, kişinin dengesine ve güvenine göre ayarlanır. Buradaki üç seviye bu ilkenin basitleştirilmiş bir uyarlamasıdır; size özel ilerlemeyi bir fizyoterapist belirleyebilir.</p>
+        <p class="soft" style="margin-top:12px">Otago programında destek, kişinin dengesine ve güvenine göre ayarlanır. Buradaki üç seviye bu ilkenin basitleştirilmiş bir uyarlamasıdır; size özel ilerlemeyi bir fizyoterapist belirleyebilir. İngiltere’nin 2025 tarihli düşme kılavuzu (NICE) da denge, koordinasyon ve kas gücünü birlikte çalıştıran, kademeli zorlaşan programlar öneriyor.</p>
       </div>
       <div>
         <h2>Güvenlik</h2>
@@ -383,6 +385,7 @@ DB_BODY = f'''<header class="page">
         "Thomas S, Mackintosh S, Halbert J. " + ext("https://academic.oup.com/ageing/article/39/6/681/9467", "Does the ‘Otago exercise programme’ reduce mortality and falls in older adults? A systematic review and meta-analysis") + ". Age Ageing. 2010;39(6):681–687.",
         "Montero-Odasso M, van der Velde N, Martin FC, et al. " + ext("https://doi.org/10.1093/ageing/afac205", "World guidelines for falls prevention and management for older adults: a global initiative") + ". Age Ageing. 2022;51(9):afac205. Özet: " + ext("https://www.rospa.com/getattachment/aed8d4ea-ae48-4456-8893-e925a46c4dc6/World-Falls-Guidelines.pdf?lang=en-US", "RoSPA") + ".",
         "Royal Orthopaedic Hospital NHS Foundation Trust. " + ext("https://roh.nhs.uk/services-information/therapy/otago-strength-and-balance-exercises", "Otago strength and balance exercises") + ".",
+        "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng249/resources/falls-assessment-and-prevention-in-older-people-and-in-people-50-and-over-at-higher-risk-pdf-66143964997573", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
       ])}
     </div>
   </section>

@@ -202,7 +202,7 @@ page("de-quervain.html", "De Quervain: Başparmak Tarafında Bilek Ağrısı",
 DN_FAQ = [
  ("Diyabetik nöropati geçer mi?", "Sinirde oluşan hasar geri döndürülemez; ilaçlar ağrıyı azaltır ama siniri onarmaz. Buna karşılık kan şekerini, tansiyonu ve kolesterolü hedef değerlere yakın tutmak hasarın ilerlemesini önlemeye yardım eder. Bu yüzden erken fark etmek ve ayakları korumak önemlidir."),
  ("Ayaklarım uyuşukken egzersiz yapmak güvenli mi?", "Evet, birkaç önlemle. Sekiz çalışmayı (457 kişi) inceleyen derlemede denge ve kuvvet egzersizleri dengeyi ve düşme korkusunu bir miktar iyileştirdi. Ayağınıza iyi oturan ayakkabı giyin, egzersizden sonra ayaklarınızı kontrol edin ve tutunabileceğiniz bir yerin yanında çalışın. Ayağınızda açık yara varsa önce hekiminize danışın."),
- ("Yanan ayaklarım için sıcak su torbası kullanabilir miyim?", "Hayır. Sıcağı ve ağrıyı hissetme azaldığı için cildiniz fark etmeden yanabilir. Ayaklarınızı sıcak su torbasından, ısıtıcıdan ve açık ateşten uzak tutun; banyo suyunu dirseğinizle ya da termometreyle kontrol edin. Ayaklarınız üşüyorsa yatakta çorap giyin."),
+ ("Yanan ayaklarım için sıcak su torbası kullanabilir miyim?", "Hayır. Sıcağı ve ağrıyı hissetme azaldığı için cildiniz fark etmeden yanabilir. Ayaklarınızı sıcak su torbasından, ısıtıcıdan ve açık ateşten uzak tutun; banyo suyunu dirseğinizle ya da termometreyle kontrol edin. Ayaklarınız üşüyorsa yatakta çorap giyin. Ayaklarınızı her gün kesik, morluk, şişlik, yara, renk değişikliği ve nasır açısından kontrol edin; zorlanıyorsanız birinden yardım isteyin. Evde de dışarıda da çıplak ayakla yürümeyin, ayakkabınızı giymeden önce içini kontrol edin."),
  ("Uyuşmanın nedeni B12 eksikliği olabilir mi?", "Olabilir; bu yüzden hekimler nöropatiyi araştırırken tiroid ve böbrek sorunlarıyla birlikte B12 düzeyine de bakar. Metformin B12 düşüklüğünün nedenleri arasındadır; böyle bir durumda ilaç B12 takviyesiyle sürdürülebilir. Kararı hekiminiz verir; ilacınızı kendiniz kesmeyin."),
 ]
 
@@ -211,6 +211,7 @@ DN_SRC = [
  "National Institute of Diabetes and Digestive and Kidney Diseases. " + ext("https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/peripheral-neuropathy", "Peripheral neuropathy") + ". Last reviewed February 2018.",
  "National Institute of Diabetes and Digestive and Kidney Diseases. " + ext("https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/foot-problems", "Diabetes and foot problems") + ". Last reviewed January 2017.",
  "Wang D, Pang X, Shen P, Mao D, Song Q. " + ext("https://search.pedro.org.au/search-results/record-detail/84239", "Effectiveness of various exercise types in reducing fall risk among older adults with diabetic peripheral neuropathy: a systematic review and meta-analysis") + ". J Exerc Sci Fit. 2025;23(3):157-166.",
+ "NHS Orthotic Managers Group; Royal Berkshire NHS Foundation Trust. " + ext("https://royalberkshire.nhs.uk/media/2lypw13q/foot-care-advice-for-people-with-diabetes_may25.pdf", "Foot care advice for people with diabetes") + ". May 2025.",
 ]
 
 DN_BODY = f'''<header class="page">

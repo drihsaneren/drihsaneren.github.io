@@ -11,7 +11,7 @@ _ex2("ho_rot", "ge_rot", "Ön kolu çevirme", "Ön kolunuz masada dursun. Avucun
 
 HO_FAQ = [
  ("Parmaklarımdaki sert şişlikler nedir?", "Parmak ucuna yakın eklemlerdeki sert, boğumlu şişliklere Heberden nodülü, orta eklemlerdekilere Bouchard nodülü denir. El kireçlenmesinin tipik bulgularıdır."),
- ("Egzersiz gerçekten işe yarar mı?", "Bir Cochrane derlemesine göre egzersiz el ağrısını, işlevini ve parmak tutukluğunu biraz iyileştirir; 0–10 ölçekte ağrıda ortalama yarım puanlık bir azalma. Etki küçük ve kanıtların kalitesi düşük, ama yan etkiler az ve hafif. Düzenli yapıldığında elinizi hareketli tutmanın güvenli bir yoludur."),
+ ("Egzersiz gerçekten işe yarar mı?", "Bir Cochrane derlemesine göre egzersiz el ağrısını, işlevini ve parmak tutukluğunu biraz iyileştirir; 0–10 ölçekte ağrıda ortalama yarım puanlık bir azalma. Etki küçük ve kanıtların kalitesi düşük, ama yan etkiler az ve hafif. Düzenli yapıldığında elinizi hareketli tutmanın güvenli bir yoludur. Avrupa Romatoloji Derneği’nin (EULAR) önerileri de her hastaya el egzersizlerinin düşünülmesini, eklemi koruyan kullanım eğitimi ve yardımcı araçları öneriyor; egzersizin etkisi küçük ve bırakılınca azalıyor. Başparmak kökü kireçlenmesinde en az yaklaşık 3 ay takılan atel ağrıyı hafifletebiliyor."),
  ("Sıcak mı soğuk mu?", "Elleriniz tutuk ya da sızlıyorsa sıcak, bir eklem şiş ya da sıcaksa soğuk uygulama önerilir. Egzersizden önce elinizi birkaç dakika ılık suda ya da sıcak torbayla ısıtmak hareketi kolaylaştırabilir."),
  ("Romatizmadan nasıl ayırt edilir?", "El kireçlenmesinde ağrı genellikle hareketle artar ve sabah tutukluğu en fazla yarım saat sürer; 45 yaş ve üzerinde bu tablo çoğu zaman tetkik gerekmeden tanı koymaya yeter. Eklemlerde yumuşak, sıcak ve kabarık şişlik ise romatoid artrit gibi iltihaplı bir romatizmayı düşündürür ve romatoloji değerlendirmesi gerektirir."),
 ]
@@ -21,6 +21,7 @@ HO_SRC = [
  "St George’s University Hospitals NHS Foundation Trust. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2025/05/HAN_ESTO.pdf", "Exercises and strengthening for thumb osteoarthritis") + ". May 2025.",
  "Østerås N, Kjeken I, Smedslund G, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/48861", "Exercise for hand osteoarthritis") + ". Cochrane Database of Systematic Reviews. 2017;(1):CD010388.",
  "NICE. " + ext("https://www.nice.org.uk/guidance/ng226", "Osteoarthritis in over 16s: diagnosis and management") + ". NICE guideline NG226, 2022",
+ "Kloppenburg M, Kroon FPB, Blanco FJ, et al. " + ext("https://ard.bmj.com/content/78/1/16", "2018 update of the EULAR recommendations for the management of hand osteoarthritis") + ". Ann Rheum Dis. 2019;78(1):16–24.",
 ]
 
 HO_BODY = f'''<header class="page">

@@ -222,7 +222,7 @@ page("rotator-manset-yirtigi.html", "Rotator Manşet Yırtığı",
 TM_FAQ = [
  ("Çenemden ses geliyor, tedavi gerekir mi?", "Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez. Sesle birlikte ağrı, ağız açmada kısıtlılık ya da takılma varsa değerlendirme yapılmalıdır."),
  ("Diş sıkmak çene ağrısı yapar mı?", "Gündüz ya da gece dişleri sıkmak çiğneme kaslarını yorar ve ağrıyı artırabilir. Gün içinde dişlerinizin birbirine değip değmediğini fark etmeye çalışın; gece sıkma için diş hekiminiz gece plağı önerebilir."),
- ("Çene eklemi rahatsızlığı geçer mi?", "Çoğu kişide şikâyetler basit önlemler ve egzersizlerle zamanla hafifler. Uzun süren ya da giderek artan şikâyetlerde diş hekimi ve fizyoterapist birlikte değerlendirme yapar."),
+ ("Çene eklemi rahatsızlığı geçer mi?", "Çoğu kişide şikâyetler basit önlemler ve egzersizlerle zamanla hafifler. Uzun süren ya da giderek artan şikâyetlerde diş hekimi ve fizyoterapist birlikte değerlendirme yapar. ABD Ulusal Diş ve Kraniyofasiyal Araştırma Enstitüsü de pek çok kişide belirtilerin tedavi olmadan geçtiğini belirtiyor; dişleri törpüleme, kron ya da ortodontik tedavi gibi ısırığı kalıcı olarak değiştiren işlemlerin yeterli kanıtı olmadığını ve sorunu kötüleştirebileceğini, bu tür kalıcı işlemlerden önce ikinci bir görüş alınmasını öneriyor."),
  ("Uzun süren çene ağrısında hangi tedaviler öneriliyor?", "BMJ’de 2023’te yayımlanan bir klinik kılavuz; bilişsel davranışçı terapiyi, gevşeme tekniklerini, terapistin uyguladığı eklem mobilizasyonu ve tetik nokta tedavisini, gözetimli duruş ve çene egzersizlerini güçlü biçimde öneriyor. Dişlerin kapanışını kalıcı olarak değiştiren plaklara ve eklem diskini çıkaran ameliyata karşı ise güçlü öneride bulunuyor."),
  ("Ameliyat gerekir mi?", "Çok nadiren. Ameliyat, ilaç dışı tedavilere yanıt vermeyen belirli eklem sorunlarında düşünülür; çoğu hastada ilk seçenek basit önlemler, egzersiz ve fizyoterapidir."),
 ]
@@ -232,6 +232,7 @@ TM_SRC = [
  "Armijo-Olivo S, Pitance L, Singh V, et al. " + ext("https://academic.oup.com/ptj/article-abstract/96/1/9/2686339", "Effectiveness of manual therapy and therapeutic exercise for temporomandibular disorders: systematic review and meta-analysis") + ". Phys Ther. 2016;96(1):9-25.",
  "NHS. " + ext("https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/", "Temporomandibular disorder (TMD)") + ". Page last reviewed 20 June 2023.",
  "Busse JW, et al. " + ext("https://www.bmj.com/content/383/bmj-2023-076227", "Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline") + ". BMJ. 2023;383:e076227",
+ "National Institute of Dental and Craniofacial Research. " + ext("https://nidcr.nih.gov/health-info/tmd", "TMD (temporomandibular disorders)") + ". Last reviewed September 2026.",
 ]
 
 TM_BODY = f'''<header class="page">
@@ -349,7 +350,7 @@ _ex2("ui_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 
 UI_FAQ = [
  ("İdrar kaçırma yaşlanmanın doğal bir sonucu mu?", "Sık görülse de kaçınılmaz değildir ve çoğu zaman tedavi edilebilir. Utanmadan hekiminize ya da fizyoterapistinize başvurun; ilk basamak tedavi çoğu kadında pelvik taban egzersizleridir."),
- ("Egzersizlerin etkisini ne zaman görürüm?", "Kasların güçlenmesi zaman alır; kılavuz en az 3 ay düzenli egzersiz öneriyor. Fayda görürseniz egzersizlere devam etmeniz gerekir."),
+ ("Egzersizlerin etkisini ne zaman görürüm?", "Kasların güçlenmesi zaman alır; kılavuz en az 3 ay düzenli egzersiz öneriyor. Fayda görürseniz egzersizlere devam etmeniz gerekir. Avrupa Üroloji Derneği’nin kılavuzu da stres tipi kaçırmada ilk tedavi olarak en az üç ay süren, gözetim altında yoğun pelvik taban egzersizini; fazla kilolu kadınlara kilo vermeyi öneriyor."),
  ("Kasları doğru çalıştırdığımdan nasıl emin olabilirim?", "Pek çok kişi başlangıçta karın, kalça ya da uyluk kaslarını sıkar ya da nefesini tutar. Kılavuz, egzersizlerin bir uzman eşliğinde öğretilmesini öneriyor; fizyoterapist doğru kası bulmanıza ve programı ayarlamanıza yardım eder. Tuvalette idrarı yarıda kesmeyi egzersiz olarak yapmayın."),
  ("Erkeklerde de işe yarar mı?", "Pelvik taban egzersizleri erkeklerde de, özellikle prostat ameliyatından sonra kullanılır. Programı ürolojik değerlendirmeyle birlikte planlamak gerekir."),
 ]
@@ -359,6 +360,7 @@ UI_SRC = [
  "National Institute for Health and Care Excellence. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK542416/", "Urinary incontinence and pelvic organ prolapse in women: management (NG123)") + ". London: NICE; 2019.",
  "NIHR Evidence. " + ext("https://evidence.nihr.ac.uk/alert/pelvic-floor-muscle-training-can-improve-symptoms-of-urinary-incontinence/", "Pelvic floor muscle training can improve symptoms of urinary incontinence") + ".",
  "NICE. " + ext("https://www.nice.org.uk/guidance/ng210", "Pelvic floor dysfunction: prevention and non-surgical management") + ". NICE guideline NG210, December 2021",
+ "European Association of Urology. " + ext("https://uroweb.org/guideline/non-neurogenic-female-luts", "EAU Guidelines on Management of Non-neurogenic Female Lower Urinary Tract Symptoms") + ". EAU Guidelines Office, 2021–2026.",
 ]
 
 UI_BODY = f'''<header class="page">
@@ -480,7 +482,7 @@ _ex2("pg_pf", "pf_sit", "Oturarak pelvik taban kasılması", "Dik oturun. Pelvik
 _ex2("pg_walk", "walk", "Yürüyüş", "Konuşabileceğiniz bir tempoda, düz zeminde yürüyün. Leğen kemiği ağrınız varsa adımlarınızı kısa tutun ve ağrıyı artıran uzun yürüyüşleri bölün.", "Günde 20–30 dakika, bölerek yapılabilir")
 
 PG_FAQ = [
- ("Gebelikte egzersiz yapmak güvenli mi?", "Sağlıklı, komplikasyonsuz gebeliklerde evet. Amerikan Kadın Doğum Uzmanları Derneği (ACOG) haftada 150 dakika orta yoğunlukta egzersiz öneriyor. Başlamadan önce kadın doğum uzmanınıza danışın; özel bir risk durumu varsa program buna göre ayarlanır."),
+ ("Gebelikte egzersiz yapmak güvenli mi?", "Sağlıklı, komplikasyonsuz gebeliklerde evet. Amerikan Kadın Doğum Uzmanları Derneği (ACOG) haftada 150 dakika orta yoğunlukta egzersiz öneriyor. Başlamadan önce kadın doğum uzmanınıza danışın; özel bir risk durumu varsa program buna göre ayarlanır. 32 çalışmayı ve 52.297 gebeyi kapsayan bir meta-analizde gebelikte egzersiz bel ve leğen kemiği ağrısının ortaya çıkma olasılığını belirgin azaltmadı, ama ağrının şiddetini gebelikte ve doğumdan sonra azalttı; kanıtın kesinliği düşük ile çok düşük arasındaydı."),
  ("Hangi aktivitelerden kaçınmalıyım?", "Temas sporlarından, ata binme, kayak ve jimnastik gibi düşme riski yüksek aktivitelerden ve dalıştan kaçının. İlerleyen gebelikte uzun süre sırtüstü yatarak egzersiz yapmayın. Yüzme, su içi egzersiz ve sabit bisiklet gebelik boyunca vücudu en az zorlayan seçeneklerdir."),
  ("Doğumdan sonra ağrı geçer mi?", "Çoğu kadında bel ve leğen kemiği ağrısı doğumdan sonraki haftalar ve aylar içinde azalır; bir kısmında ise sürebilir. Devam eden ağrıda doğum sonrası fizyoterapi değerlendirmesi faydalıdır."),
  ("Destek kemeri kullanmalı mıyım?", "Bazı kadınlarda, özellikle leğen kemiği ağrısında, destek kemeri yürürken rahatlama sağlayabilir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır."),
@@ -491,6 +493,7 @@ PG_SRC = [
  "Shiri R, Coggon D, Falah-Hassani K. " + ext("https://onlinelibrary.wiley.com/doi/10.1002/ejp.1096", "Exercise for the prevention of low back and pelvic girdle pain in pregnancy: a meta-analysis of randomized controlled trials") + ". Eur J Pain. 2018;22(1):19-27.",
  "American College of Obstetricians and Gynecologists. " + ext("https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period", "Physical activity and exercise during pregnancy and the postpartum period. Committee Opinion No. 804") + ". Obstet Gynecol. 2020;135(4):e178-e188.",
  "MotherToBaby. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK582697/", "Exercise") + ". Fact sheet.",
+ "Davenport MH, Marchand AA, Mottola MF, et al. " + ext("https://bjsm.bmj.com/content/53/2/90", "Exercise for the prevention and treatment of low back, pelvic girdle and lumbopelvic pain during pregnancy: a systematic review and meta-analysis") + ". Br J Sports Med. 2019;53(2):90–98.",
 ]
 
 PG_BODY = f'''<header class="page">

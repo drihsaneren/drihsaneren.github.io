@@ -229,7 +229,7 @@ SRT_ROWS = "\n".join(
 
 SRT_FAQ = [
  ("Puanım düşük çıktı, endişelenmeli miyim?", "Düşük puan tek başına bir teşhis değildir; kas gücü, esneklik, denge ve vücut ağırlığı gibi pek çok özelliği birlikte yansıtır. Araştırmalardaki ilişki gözleme dayanır. Puanınızı, bu özellikler üzerinde çalışmak için bir başlangıç noktası olarak görün. Kalp-damar hastalığı için risk etkenleriniz varsa ya da yakın zamanda zorlanmaya başladıysanız hekiminizle de konuşun."),
- ("Puanımı yükseltebilir miyim?", "Evet. Bacak kuvveti, kalça esnekliği ve denge düzenli egzersizle her yaşta gelişir; aşağıdaki altı egzersiz iyi bir başlangıçtır. Puanı yükseltmenin ömrü uzatıp uzatmadığı ise henüz ayrıca araştırılmadı; ama yerden kalkabilmek günlük hayatta, özellikle düştükten sonra kalkarken çok değerlidir. Dünya Sağlık Örgütü yetişkinlere haftada en az 2 gün kas güçlendirme, 65 yaş üstüne ise haftada en az 3 gün denge ve kuvvet içeren çok bileşenli etkinlik öneriyor."),
+ ("Puanımı yükseltebilir miyim?", "Evet. Bacak kuvveti, kalça esnekliği ve denge düzenli egzersizle her yaşta gelişir; aşağıdaki altı egzersiz iyi bir başlangıçtır. Puanı yükseltmenin ömrü uzatıp uzatmadığı ise henüz ayrıca araştırılmadı; ama yerden kalkabilmek günlük hayatta, özellikle düştükten sonra kalkarken çok değerlidir. Dünya Sağlık Örgütü yetişkinlere haftada en az 2 gün kas güçlendirme, 65 yaş üstüne ise haftada en az 3 gün denge ve kuvvet içeren çok bileşenli etkinlik öneriyor. İngiltere’nin 2025 düşme kılavuzu (NICE) da düşme riski olan kişilere yerden nasıl kalkılacağının anlatılmasını öneriyor."),
  ("Kimler bu testi yapmamalı?", "Kalça ya da diz protezi ameliyatınız yeni olduysa, kalçada ya da dizde şiddetli ağrınız varsa, baş dönmesi ya da sık düşme öykünüz varsa testi tek başınıza yapmayın; önce fizyoterapistinize ya da hekiminize danışın. Kalça protezi olanlar cerrahları izin vermeden bacak çaprazlamamalıdır."),
  ("Test neden bu kadar çok şey anlatıyor?", "Yere desteksiz oturup kalkmak için vücut ağırlığınıza göre yeterli kas gücü, kalça ve dizlerde esneklik, iyi bir denge ve koordinasyon gerekir. Bunların hepsi yaşla birlikte azalabilir ve bağımsız yaşamla, düşme riskiyle yakından ilişkilidir."),
 ]
@@ -352,6 +352,7 @@ SRT_BODY = f'''<header class="page">
         "Brito LBB, Ricardo DR, Araújo DSMS, Ramos PS, Myers J, Araújo CGS. " + ext("https://academic.oup.com/eurjpc/article-abstract/21/7/892/5925784", "Ability to sit and rise from the floor as a predictor of all-cause mortality") + ". Eur J Prev Cardiol. 2014;21(7):892-898.",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
         "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
+        "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng249/resources/falls-assessment-and-prevention-in-older-people-and-in-people-50-and-over-at-higher-risk-pdf-66143964997573", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
       ])}
     </div>
   </section>
@@ -422,7 +423,7 @@ WS_FAQ = [
  ("Hareketsiz bir egzersiz tansiyonu nasıl düşürüyor?", "Mekanizma tam olarak bilinmiyor. Evde yapılan bir çalışmada tansiyondaki düşüş, çoğunlukla dinlenme nabzındaki ve kalbin dakikada pompaladığı kan miktarındaki azalmayla ilişkiliydi. Kasılma sırasında sıkışan damarların bırakınca genişlemesinin damar sağlığına etkisi de araştırılıyor."),
  ("Tansiyon ilacı kullanıyorum, yapabilir miyim?", "Çoğu kişi yapabilir, ama önce hekiminize danışın ve ilacınızı kendi başınıza bırakmayın ya da azaltmayın. Egzersiz tedavinin yerine değil, yanına eklenir. Evde tansiyonunuzu düzenli ölçüp sonuçları hekiminizle paylaşın."),
  ("Yürüyüşü bırakıp sadece duvar oturuşu mu yapmalıyım?", "Hayır. Analizde tüm egzersiz türleri tansiyonu düşürdü. Yürüyüş gibi aerobik egzersiz kalp, kilo, kan şekeri ve ruh sağlığı için de önemlidir. Duvar oturuşu, haftalık hareketinize eklenebilecek kısa ve etkili bir parçadır."),
- ("Ne kadar sürede etkisini görürüm?", "Evde yapılan küçük çalışmalarda 4 haftalık programın sonunda büyük tansiyonda ortalama 4 ile 9 mmHg arasında düşüşler ölçüldü. Etkinin sürmesi için egzersize devam etmek gerekir."),
+ ("Ne kadar sürede etkisini görürüm?", "Evde yapılan küçük çalışmalarda 4 haftalık programın sonunda büyük tansiyonda ortalama 4 ile 9 mmHg arasında düşüşler ölçüldü. Etkinin sürmesi için egzersize devam etmek gerekir. Tansiyonu yüksek 1.143 yetişkini kapsayan 24 çalışmalık bir meta-analizde izometrik egzersiz büyük tansiyonu ortalama 7, küçük tansiyonu 4 mmHg düşürdü ve yan etki riskini artırmadı."),
 ]
 
 WS_BODY = f'''<header class="page">
@@ -563,6 +564,7 @@ WS_BODY = f'''<header class="page">
         "Wiles JD, et al. " + ext("https://link.springer.com/article/10.1007/s00421-016-3501-0", "Home-based isometric exercise training induced reductions resting blood pressure") + ". Eur J Appl Physiol. 2017;117(1):83-93.",
         "Lea JWD, O'Driscoll JM, Wiles JD. " + ext("https://link.springer.com/article/10.1007/s00421-023-05269-2", "The implementation of a home-based isometric wall squat intervention using ratings of perceived exertion to select and control exercise intensity: a pilot study in normotensive and pre-hypertensive adults") + ". Eur J Appl Physiol. 2024;124(1):281-293.",
         "Blood Pressure Lowering Treatment Trialists' Collaboration. " + ext("https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00590-0/fulltext", "Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure: an individual participant-level data meta-analysis") + ". Lancet. 2021;397(10285):1625-1636.",
+        "Hansford HJ, Parmenter BJ, McLeod KA, et al. " + ext("https://doi.org/10.1038/s41440-021-00720-3", "The effectiveness and safety of isometric resistance training for adults with high blood pressure: a systematic review and meta-analysis") + ". Hypertens Res. 2021;44(11):1373–1384.",
       ])}
     </div>
   </section>
@@ -663,7 +665,7 @@ page("duvar-oturusu.html", "Tansiyon İçin Duvar Oturuşu",
 SIGH_FAQ = [
  ("Günün hangi saatinde yapmalıyım?", "Çalışmada katılımcılar günün istedikleri bir saatinde yaptı. Kendinize bir alışkanlık zamanı seçin: sabah kahvesinden önce, öğle arasında ya da yatmadan önce. Gergin bir anda birkaç tur da yapabilirsiniz."),
  ("Meditasyondan daha mı iyi?", "Bu çalışmada olumlu duygulardaki artış ve solunum hızındaki düşüş döngüsel iç çekişte daha belirgindi; kaygı ise tüm gruplarda benzer şekilde azaldı. Bu tek bir çalışmadır ve meditasyon da yararlı bir yöntem olmayı sürdürüyor. Size iyi geleni seçin."),
- ("Nefes egzersizlerinin yararı kanıtlandı mı?", "785 yetişkini kapsayan randomize çalışmaların 2023 tarihli bir meta-analizinde nefes çalışmaları, stres, kaygı ve depresif belirtilerde küçük ile orta düzeyde azalma sağladı. Çalışmaların yanlılık riski orta düzeydeydi; daha iyi tasarlanmış araştırmalara ihtiyaç var."),
+ ("Nefes egzersizlerinin yararı kanıtlandı mı?", "785 yetişkini kapsayan randomize çalışmaların 2023 tarihli bir meta-analizinde nefes çalışmaları, stres, kaygı ve depresif belirtilerde küçük ile orta düzeyde azalma sağladı. Çalışmaların yanlılık riski orta düzeydeydi; daha iyi tasarlanmış araştırmalara ihtiyaç var. NHS de stres için burundan alıp ağızdan verilen, nefes alırken ve verirken 1’den 5’e kadar sayılabilen sakin bir nefesin en az 5 dakika ve tercihen her gün yapılmasını öneriyor."),
  ("Başım dönerse ne yapmalıyım?", "Hemen normal nefesinize dönün. Nefesi zorlamayın; ikinci nefes kısa ve hafif olabilir. Astım ya da KOAH gibi bir akciğer hastalığınız varsa rahat olduğunuz bir tempoda yapın."),
  ("Stres sayfasındaki nefes egzersizlerinden farkı ne?", "Stresli anlarda sayfasında 4-6, kutu ve 4-7-8 nefesleri var. Döngüsel iç çekişte fark, üst üste iki kez nefes alıp uzun bir nefes vermektir. 4-6 ve 4-7-8 nefeslerinde nefes verişi alıştan uzundur; kutu nefesinde ise dört aşama eşit sürer. Hangisini daha rahat yapıyorsanız onu seçin."),
 ]
@@ -810,6 +812,7 @@ SIGH_BODY = f'''<header class="page">
         "Li P, Janczewski WA, Yackle K, et al. " + ext("https://www.nature.com/articles/nature16964", "The peptidergic control circuit for sighing") + ". Nature. 2016;530(7590):293-297.",
         "Fincham GW, Strauss C, Montero-Marin J, Cavanagh K. " + ext("https://www.nature.com/articles/s41598-022-27247-y", "Effect of breathwork on stress and mental health: a meta-analysis of randomised-controlled trials") + ". Sci Rep. 2023;13:432.",
         "Zaccaro A, Piarulli A, Laurino M, et al. " + ext("https://www.frontiersin.org/articles/10.3389/fnhum.2018.00353/full", "How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing") + ". Front Hum Neurosci. 2018;12:353",
+        "NHS. " + ext("https://nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress", "Breathing exercises for stress") + ". Page last reviewed 12 June 2026.",
       ])}
     </div>
   </section>

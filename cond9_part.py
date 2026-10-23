@@ -9,7 +9,7 @@ _ex2("cr_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayay�
 CR_FAQ = [
  ("Kalp krizinden sonra egzersiz yapmak güvenli mi?", "Kardiyoloğunuzun onayıyla ve kademeli olarak yapıldığında evet. 85 çalışmanın derlemesinde egzersize dayalı rehabilitasyona katılanlarda yeniden kalp krizi ve hastaneye yatış daha az görüldü. Hangi şiddette başlayacağınızı hekiminiz belirler."),
  ("Ne zaman başlayabilirim?", "Bu, geçirdiğiniz olaya ve yapılan işleme göre değişir; kararı kardiyoloğunuz verir. Genellikle hastanede kısa yürüyüşlerle başlanır, taburcu olduktan sonra program kademeli olarak ilerletilir."),
- ("Evde mi, merkezde mi yapmalıyım?", "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir."),
+ ("Evde mi, merkezde mi yapmalıyım?", "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir. İngiltere’deki ulusal kalp rehabilitasyonu denetimine göre programa başlayanların yaklaşık %70–80’i programı tamamlıyor; NHS’nin hedefi kalp krizi geçirenlerin %85’inin programa katılması."),
  ("Egzersiz sırasında nabzım kaç olmalı?", "Hedef nabız kişiye göre değişir ve kullandığınız ilaçlardan etkilenir; bu yüzden herkese tek bir sayı vermek doğru olmaz. Hekiminiz size bir aralık belirlemediyse konuşma testini kullanın: konuşabiliyor ama şarkı söyleyemiyorsanız orta şiddettesiniz."),
 ]
 
@@ -18,6 +18,7 @@ CR_SRC = [
  "McDonagh STJ, Dalal H, Moore S, et al. " + ext("https://www.cochrane.org/CD007130", "Home-based versus centre-based cardiac rehabilitation") + ". Cochrane Database Syst Rev. 2023;(10):CD007130.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)", "Cardiovascular diseases (CVDs)") + ". Fact sheet. 31 July 2025.",
  "NICE. " + ext("https://www.nice.org.uk/guidance/qs99/chapter/quality-statement-2-referral-for-cardiac-rehabilitation", "Acute coronary syndromes in adults: quality statement 2, referral for cardiac rehabilitation") + ". NICE quality standard QS99, based on NICE guideline NG185 (2020)",
+ "British Heart Foundation; National Audit of Cardiac Rehabilitation (NACR). " + ext("https://www.wchc.nhs.uk/wp-content/uploads/2021/01/NACR-Quality-and-Outcomes-Report-2023-Final.pdf", "Quality and outcomes report 2023") + ". University of York, 2023.",
 ]
 
 CR_BODY = f'''<header class="page">

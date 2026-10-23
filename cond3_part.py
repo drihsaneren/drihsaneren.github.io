@@ -49,7 +49,7 @@ _ex2("pf_sls", "sls", "Tek ayak üzerinde denge", "Tezgâha hafifçe tutunarak t
 PF_FAQ = [
  ("Diz kapağımdan ses geliyor, zarar mı veriyor?", "Çoğu zaman hayır. Ağrısız çıtırtılar diz ağrısı olmayan pek çok kişide de vardır ve tek başına bir hastalık belirtisi değildir. Sesle birlikte ağrı ya da şişlik varsa değerlendirme yapılmalıdır."),
  ("Koşmayı bırakmalı mıyım?", "Genellikle tamamen bırakmak gerekmez. Ağrıyı belirgin artırmayan bir mesafe ve hızda devam edip egzersizlerle birlikte yükü kademeli olarak artırabilirsiniz. Yokuş aşağı koşuyu ve merdiven antrenmanlarını bir süre azaltın."),
- ("Dizlik ya da bant işe yarar mı?", "Bazı kişilerde ağrıyı kısa sürede hafifletebilir; ancak uluslararası uzlaşı raporuna göre bu konudaki kanıt yetersizdir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır."),
+ ("Dizlik ya da bant işe yarar mı?", "Bazı kişilerde ağrıyı kısa sürede hafifletebilir; ancak uluslararası uzlaşı raporuna göre bu konudaki kanıt yetersizdir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır. 2024’te yayımlanan bir en iyi uygulama rehberi, bandı yalnızca ağrı rehabilitasyonu zorlaştıracak kadar şiddetliyse öneriyor; tedavinin merkezinde dize yönelik egzersiz ve eğitim duruyor, en az 6 haftada yanıt yoksa değerlendirmenin gözden geçirilmesi gerekiyor."),
  ("MR çektirmem gerekiyor mu?", "Genellikle hayır. Tanı muayeneyle konur ve görüntülemede çoğu zaman ağrıyı açıklayan bir bulgu çıkmaz. Yaralanma sonrası başlayan ağrı, kilitlenme ya da belirgin şişlik gibi durumlarda görüntüleme gerekebilir."),
 ]
 
@@ -58,6 +58,7 @@ PF_SRC = [
  "Smith BE, Selfe J, Thacker D, et al. " + ext("https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190892", "Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis") + ". PLoS One. 2018;13(1):e0190892.",
  "Lankhorst NE, van Middelkoop M, Crossley KM, et al. " + ext("https://repub.eur.nl/pub/97015", "Factors that predict a poor outcome 5-8 years after the diagnosis of patellofemoral pain: a multicentre observational analysis") + ". Br J Sports Med. 2016;50(14):881-886.",
  "Willy RW, Hoglund LT, Barton CJ, et al. " + ext("https://doi.org/10.2519/jospt.2019.0302", "Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2019;49(9)",
+ "Neal BS, Lack SD, Bartholomew C, Morrissey D. " + ext("https://bjsm.bmj.com/content/58/24/1486", "Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning") + ". Br J Sports Med. 2024;58(24):1486.",
 ]
 
 PF_BODY = f'''<header class="page">
@@ -209,6 +210,7 @@ AC_SRC = [
  "Beyer R, Kongsgaard M, Hougs Kjær B, et al. " + ext("https://journals.sagepub.com/doi/abs/10.1177/0363546515584760", "Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial") + ". Am J Sports Med. 2015;43(7):1704-1711.",
  "Alfredson H, Pietilä T, Jonsson P, Lorentzon R. " + ext("https://journals.sagepub.com/doi/10.1177/03635465980260030301", "Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis") + ". Am J Sports Med. 1998;26(3):360-366.",
  "Silbernagel KG, Hanlon S, Sprague A. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC7249277", "Current clinical concepts: conservative management of Achilles tendinopathy") + ". J Athl Train. 2020;55(5)",
+ "Chimenti RL, Neville C, Houck J, Cuddeford T, Carreira D, Martin RL. " + ext("https://doi.org/10.2519/jospt.2024.0302", "Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision – 2024") + ". J Orthop Sports Phys Ther. 2024;54(12):CPG1–CPG32.",
 ]
 
 AC_BODY = f'''<header class="page">
@@ -255,7 +257,7 @@ AC_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Yüklenme egzersizleri neden temel tedavi?</h2>
-      <p class="soft">Kirişler, kademeli olarak artırılan yüke uyum sağlayarak güçlenir. Amerikan Fizyoterapi Derneği'nin 2018 kılavuzu da yüklenme egzersizlerini tedavinin temeli olarak öneriyor. Klasik yöntem, İsveçli ortopedist Alfredson'un geliştirdiği eksantrik programdır: 12 hafta boyunca, günde iki kez, basamaktan topuğu yavaşça indirmek.</p>
+      <p class="soft">Kirişler, kademeli olarak artırılan yüke uyum sağlayarak güçlenir. Amerikan Fizyoterapi Derneği'nin 2018 kılavuzu ve 2024 güncellemesi de yüklenme egzersizlerini tedavinin temeli olarak öneriyor; güncelleme, egzersizin dayanılabilen en yüksek yükte ve haftada en az 3 kez yapılmasını, tam dinlenme yerine ağrı sınırları içinde aktif kalmayı öneriyor. Klasik yöntem, İsveçli ortopedist Alfredson'un geliştirdiği eksantrik programdır: 12 hafta boyunca, günde iki kez, basamaktan topuğu yavaşça indirmek.</p>
       <p class="soft">Danimarka'da 58 hastayla yapılan bir çalışmada bu eksantrik program ile haftada üç gün yapılan ağır ve yavaş direnç egzersizleri karşılaştırıldı. İki program da ağrıyı ve işlevi belirgin şekilde iyileştirdi ve kazanımlar 1 yıl sonra da sürdü. Ağır ve yavaş direnç grubunda 12. haftada memnuniyet (%100'e karşı %80) ve programa uyum (%92'ye karşı %78) daha yüksekti.</p>
       <div class="callout">
         <p>Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir. Önemli olan ağrının ertesi sabah artmamasıdır; artıyorsa bir sonraki seansta tekrar sayısını ya da yükü azaltın.</p>
@@ -354,7 +356,7 @@ HA_FAQ = [
  ("Baş ağrım için MR ya da tomografi gerekir mi?", "Tipik gerilim tipi ya da boyun kaynaklı baş ağrısında genellikle gerekmez. Aşağıdaki uyarı işaretlerinden biri varsa ya da ağrının özellikleri değiştiyse hekiminiz görüntüleme isteyebilir."),
  ("Ağrı kesiciyi ne sıklıkla kullanabilirim?", "Ara sıra kullanım sorun değildir. Ancak ağrı kesicileri ayda 10–15 günden fazla kullanmak, ilaç aşırı kullanımına bağlı baş ağrısına yol açabilir. Bu kadar sık ihtiyaç duyuyorsanız hekiminize başvurun."),
  ("Boyun egzersizleri migrene iyi gelir mi?", "Migrenin asıl tedavisi hekim tarafından planlanır. Düzenli aerobik egzersiz, uyku düzeni ve stres yönetimi atakları azaltmaya yardım edebilir; migrene boyun ağrısı da eşlik ediyorsa boyun egzersizleri ek fayda sağlayabilir."),
- ("Yastık ve uyku pozisyonu önemli mi?", "Boynunuzu gövdenizle aynı hizada tutan bir yastık, sabah başlayan boyun kaynaklı ağrılarda rahatlatabilir. Yüzüstü yatmak boynu uzun süre döndürdüğü için ağrıyı artırabilir."),
+ ("Yastık ve uyku pozisyonu önemli mi?", "Boynunuzu gövdenizle aynı hizada tutan bir yastık, sabah başlayan boyun kaynaklı ağrılarda rahatlatabilir. Yüzüstü yatmak boynu uzun süre döndürdüğü için ağrıyı artırabilir. Egzersizin gerilim tipi baş ağrısındaki yeri için kanıt hâlâ zayıf: bir meta-analizde kuvvet egzersizleri ağrı şiddetini orta düzeyde azalttı, ama kanıtın kesinliği çok düşüktü. ABD fizyoterapi kılavuzu ise uzun süren boyun kaynaklı baş ağrısında boyun eklemlerine yönelik manuel tedaviyi boyun ve omuz kuşağı germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte öneriyor."),
 ]
 
 HA_SRC = [
@@ -362,6 +364,8 @@ HA_SRC = [
  "Jull G, Trott P, Potter H, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/12221344/", "A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache") + ". Spine. 2002;27(17):1835-1843.",
  "Headache Classification Committee of the International Headache Society. " + ext("https://ichd-3.org/", "The International Classification of Headache Disorders, 3rd edition") + ". Cephalalgia. 2018;38(1):1-211.",
  "NICE. " + ext("https://www.nice.org.uk/guidance/cg150", "Headaches in over 12s: diagnosis and management") + ". NICE clinical guideline CG150, 2012",
+ "Varangot-Reille C, Suso-Martí L, Romero-Palau M, Suárez-Pastor P, Cuenca-Martínez F. " + ext("https://pubmed.ncbi.nlm.nih.gov/34929374/", "Effects of different therapeutic exercise modalities on migraine or tension-type headache: a systematic review and meta-analysis with a replicability analysis") + ". J Pain. 2022.",
+ "Blanpied PR, Gross AR, Elliott JM, et al. " + ext("https://doi.org/10.2519/jospt.2017.0302", "Neck pain: revision 2017. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Orthopaedic Section of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2017;47(7):A1–A83.",
 ]
 
 HA_BODY = f'''<header class="page">
@@ -488,7 +492,7 @@ SC_FAQ = [
  ("Ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Hayır. Ergenlik döneminde görülen skolyozun nedeni bilinmiyor; ağır çanta ya da kötü duruş skolyoza yol açmaz. Ancak dik durunca düzelen duruş bozukluğu ile gerçek skolyozun birbirinden ayırt edilmesi gerekir."),
  ("Yüzme skolyozu düzeltir mi?", "Hayır. Uluslararası kılavuz, sporun skolyoz tedavisi olarak önerilmemesini, ama genel sağlık ve psikolojik faydaları nedeniyle bırakılmamasını öneriyor. Yüzme de dahil hiçbir spor tek başına eğriliği düzeltmez."),
  ("Egzersizle skolyoz tamamen düzelir mi?", "Skolyoza özgü egzersizler küçük eğriliklerde ilerlemeyi önlemeye ve bazı hastalarda açıyı birkaç derece azaltmaya yardım edebilir; ancak eğriliği tamamen ortadan kaldırması beklenmez. Hangi tedavinin gerektiğine eğrilik açısı ve büyüme durumu birlikte değerlendirilerek karar verilir."),
- ("Korse ne kadar süre takılmalı?", "Korsenin etkisi takılan süreye bağlıdır. BrAIST çalışmasında korseyi günde ortalama 13 saat ve üzerinde takanlarda başarı oranı %90'ın üzerindeydi; 6 saatten az takanlarda ise sonuç korse takmayanlardan farksızdı. Süreyi hekiminiz belirler."),
+ ("Korse ne kadar süre takılmalı?", "Korsenin etkisi takılan süreye bağlıdır. BrAIST çalışmasında korseyi günde ortalama 13 saat ve üzerinde takanlarda başarı oranı %90'ın üzerindeydi; 6 saatten az takanlarda ise sonuç korse takmayanlardan farksızdı. Süreyi hekiminiz belirler. 7 çalışmayı ve 662 ergeni kapsayan Cochrane derlemesinde sert korse, 20–40 derecelik eğriliklerde izlemeye göre 2 yılda başarı oranını artırdı; çalışmaların tümü korsenin eğriliğin ilerlemesini önlediğini gösterdi, ancak kanıtın kalitesi düşük ile çok düşük arasındaydı."),
 ]
 
 SC_SRC = [
@@ -496,6 +500,7 @@ SC_SRC = [
  "Weinstein SL, Dolan LA, Wright JG, Dobbs MB. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa1307337", "Effects of bracing in adolescents with idiopathic scoliosis") + ". N Engl J Med. 2013;369(16):1512-1521.",
  "Kuru T, Yeldan İ, Dereli EE, et al. " + ext("https://journals.sagepub.com/doi/abs/10.1177/0269215515575745", "The efficacy of three-dimensional Schroth exercises in adolescent idiopathic scoliosis: a randomised controlled clinical trial") + ". Clin Rehabil. 2016;30(2):181-190.",
  "Romano M, Minozzi S, Bettany-Saltikov J, et al. " + ext("https://doi.org/10.1002/14651858.CD007837.pub3", "Therapeutic exercises for idiopathic scoliosis in adolescents") + ". Cochrane Database Syst Rev. 2024;CD007837",
+ "Negrini S, Minozzi S, Bettany-Saltikov J, et al. " + ext("https://www.cochrane.org/evidence/CD006850_braces-idiopathic-scoliosis-adolescents", "Braces for idiopathic scoliosis in adolescents") + ". Cochrane Database Syst Rev. 2015;(6):CD006850.",
 ]
 
 SC_BODY = f'''<header class="page">

@@ -116,7 +116,7 @@ MR_BAR = "".join("<i></i>" for _ in MR_STEPS)
 
 MORNING_FAQ = [
  ("Sabah mı egzersiz yapmalıyım, akşam mı?", "Herkes için tek bir en iyi saat yok. En iyi zaman, düzenli olarak yapabildiğiniz zamandır. Sabah yapılan kısa bir rutin güne hareketle başlamayı kolaylaştırır; akşam yapmayı tercih ediyorsanız bu da işe yarar."),
- ("Her gün yapabilir miyim?", "Evet. Bu rutindeki hareketler hafif ve kontrollüdür; her gün yapılabilir. Hareketleri rahat olduğunuz aralıkta yapın. Bir hareket ağrınızı belirgin şekilde artırıyorsa onu atlayın. Yeni bir davranışı her gün aynı durumda tekrarlayan gönüllülerin izlendiği bir araştırmada davranışın otomatikleşmesi ortalama 66 gün sürdü; tek bir günü kaçırmak bu süreci belirgin şekilde bozmadı."),
+ ("Her gün yapabilir miyim?", "Evet. Bu rutindeki hareketler hafif ve kontrollüdür; her gün yapılabilir. Hareketleri rahat olduğunuz aralıkta yapın. Bir hareket ağrınızı belirgin şekilde artırıyorsa onu atlayın. Yeni bir davranışı her gün aynı durumda tekrarlayan gönüllülerin izlendiği bir araştırmada davranışın otomatikleşmesi ortalama 66 gün sürdü; tek bir günü kaçırmak bu süreci belirgin şekilde bozmadı. Alışkanlık araştırmalarını özetleyen bir yazı, yeni davranışı her gün karşılaştığınız bir ipucuna, örneğin sabah kahvesine ya da diş fırçalamaya bağlamayı ve ilerlemeyi basit bir işaret çizelgesiyle izlemeyi öneriyor."),
  ("Sabahları çok tutuk kalkıyorum, bu normal mi?", "Uyandıktan sonra kısa süren tutukluk, özellikle kireçlenmede sık görülür ve hareket ettikçe açılır. Tutukluk yarım saatten uzun sürüyorsa, eklemlerde şişlik ve kızarıklık varsa ya da gece ağrısıyla uyanıyorsanız iltihaplı bir romatizmal hastalık açısından hekime başvurun."),
  ("Bu rutin spor yerine geçer mi?", "Hayır, bu rutin bir ısınma ve hareketlenme alışkanlığıdır. Dünya Sağlık Örgütü yetişkinler için haftada 150–300 dakika orta yoğunlukta hareket ve en az 2 gün kas güçlendirme öneriyor. Ayrıntılar için Ne kadar hareket yeterli? sayfasına bakabilirsiniz."),
 ]
@@ -237,6 +237,7 @@ MORNING_BODY = f'''<header class="page">
         "Brooke-Wavell K, Skelton DA, Barker KL, et al. " + ext("https://bjsm.bmj.com/content/56/15/837", "Strong, steady and straight: UK consensus statement on physical activity and exercise for osteoporosis") + ". Br J Sports Med. 2022;56(15):837–846.",
         "NHS. " + ext("https://www.nhs.uk/conditions/low-blood-pressure-hypotension/", "Low blood pressure (hypotension)") + ". Page last reviewed 11 July 2023.",
         "Lally P, van Jaarsveld CHM, Potts HWW, Wardle J. " + ext("https://doi.org/10.1002/ejsp.674", "How are habits formed: modelling habit formation in the real world") + ". Eur J Soc Psychol. 2010;40(6):998–1009",
+        "Gardner B, Lally P, Wardle J. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/", "Making health habitual: the psychology of ‘habit-formation’ and general practice") + ". Br J Gen Pract. 2012;62(605):664–666.",
       ])}
     </div>
   </section>
@@ -340,7 +341,7 @@ def DAYS(name, sel):
             '</div>')
 
 MOVE_FAQ = [
- ("Günde 10.000 adım atmak şart mı?", "Hayır. 57 çalışmayı bir araya getiren 2025 tarihli bir derlemede günde 7.000 adım atanlarda ölüm riski, 2.000 adım atanlara göre %47 daha düşüktü ve bu fayda 10.000 adımdakine çok yakındı. Bazı sonuçlarda 7.000 adımdan sonra fayda düzleşiyor. Az adım atıyorsanız her artış değerlidir."),
+ ("Günde 10.000 adım atmak şart mı?", "Hayır. 57 çalışmayı bir araya getiren 2025 tarihli bir derlemede günde 7.000 adım atanlarda ölüm riski, 2.000 adım atanlara göre %47 daha düşüktü ve bu fayda 10.000 adımdakine çok yakındı. Bazı sonuçlarda 7.000 adımdan sonra fayda düzleşiyor. Az adım atıyorsanız her artış değerlidir. 15 kohortu birleştiren 2022 tarihli bir başka analizde yarar, 60 yaş üstünde günde yaklaşık 6.000–8.000, daha gençlerde 8.000–10.000 adımda düzleşti."),
  ("Ev işleri ve merdiven çıkmak sayılır mı?", "Evet. Dünya Sağlık Örgütü her hareketin sayıldığını vurguluyor. Egzersiz yapmayan 25 binden fazla kişinin izlendiği bir çalışmada, günde 1–2 dakikalık üç kısa ve tempolu hareket (merdiven çıkmak, çok hızlı yürümek gibi) yapanlarda ölüm riski belirgin şekilde daha düşük bulundu."),
  ("Kas güçlendirme için spor salonu gerekir mi?", "Hayır. Sandalyeden kalkıp oturma, duvar şınavı, lastik bantla egzersizler ya da ağır alışveriş torbalarını taşımak da kaslarınızı çalıştırır. Önemli olan, tüm büyük kas gruplarını haftada en az 2 gün yormaktır."),
  ("Hiç hareket etmiyorum, nereden başlamalıyım?", "Az da olsa hareket, hiç hareket etmemekten iyidir. Küçük başlayın ve süreyi, sıklığı ve yoğunluğu zamanla artırın; örneğin günlük kısa bir yürüyüşle başlayıp her hafta birkaç dakika ekleyebilirsiniz. Kalp hastalığınız ya da yeni başlayan bir şikâyetiniz varsa önce hekiminize danışın."),
@@ -492,6 +493,7 @@ MOVE_BODY = f'''<header class="page">
         "Ding D, et al. " + ext("https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(25)00164-1/fulltext", "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis") + ". Lancet Public Health. 2025.",
         "Department of Health and Social Care. " + ext("https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report", "UK Chief Medical Officers’ physical activity guidelines") + ". 7 September 2019",
         "Stamatakis E, Ahmadi MN, Gill JMR, et al. " + ext("https://www.nature.com/articles/s41591-022-02100-x", "Association of wearable device-measured vigorous intermittent lifestyle physical activity with mortality") + ". Nat Med. 2022;28:2521-2529.",
+        "Paluch AE, Bajpai S, Bassett DR, et al. " + ext("https://doi.org/10.1016/S2468-2667(21)00302-9", "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts") + ". Lancet Public Health. 2022;7(3):e219–e228.",
       ])}
     </div>
   </section>

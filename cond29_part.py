@@ -7,7 +7,7 @@ _ex2("bk_hslide", "hslide", "Topuk kaydırma", "Sırtüstü yatın, bacakların�
 BK_FAQ = [
  ("Baker kisti kendiliğinden geçer mi?", "Geçebilir; özellikle çocuklarda sık görülür. Yetişkinlerde kist çoğu zaman dizdeki başka bir sorundan kaynaklandığı için, o sorun tedavi edildiğinde belirtiler de genellikle düzelir. İyileşme birkaç aydan birkaç yıla kadar sürebilir."),
  ("Kisti iğneyle boşaltmak işe yarar mı?", "Boşaltmak belirtileri rahatlatabilir, ancak kist sıklıkla yeniden dolar ve uzun süredir var olan kistlerde işe yaramayabilir. Boşaltmanın ardından yapılabilen kortizon iğnesi ağrıyı ve iltihabı azaltabilir, ama kistin tekrarlamasını önlemez."),
- ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez. Kistin kendisinin çıkarılması nadirdir; ameliyat daha çok dizin içindeki menisküs yırtığı gibi önemli bir hasarı onarmak için ya da diğer tedavilerle geçmeyen büyük ve ağrılı kistlerde düşünülür."),
+ ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez. Kistin kendisinin çıkarılması nadirdir; ameliyat daha çok dizin içindeki menisküs yırtığı gibi önemli bir hasarı onarmak için ya da diğer tedavilerle geçmeyen büyük ve ağrılı kistlerde düşünülür. Bir derlemeye göre yetişkinlerdeki Baker kistlerinin %94’e varan kısmı diz içindeki bir sorunla, en sık da menisküs yırtığıyla ilişkili; kisti tek başına çıkarmanın ardından kistin yeniden oluşma oranı yüksek."),
  ("Egzersiz yapabilir miyim?", "Evet. Dizi hareketli tutmak ve çevresindeki kasları güçlendirmek önerilir. Dizin arkasındaki gerginliği belirgin artıran hareketleri bir süre azaltabilir, ağrısız bir aralıkta çalışabilirsiniz."),
 ]
 
@@ -16,6 +16,7 @@ BK_SRC = [
  "Royal Berkshire NHS Foundation Trust. " + ext("https://www.royalberkshire.nhs.uk/media/llfjmsmb/bakers-cyst_feb25.pdf", "Baker’s cyst") + ". Venous Thrombosis Clinic, February 2025.",
  "Prevalence and associated injuries in patients with knee cysts: an epidemiological study. Orthopaedic Research Society 2025 Annual Meeting, conference abstract. " + ext("https://scholarlyworks.corewellhealth.org/orthopaedic_surgery_confabstract/138", "scholarlyworks.corewellhealth.org") + ".",
  "Herman AM, Marzo JM. " + ext("https://doi.org/10.3928/01477447-20140728-52", "Popliteal cysts: a current review") + ". Orthopedics. 2014;37(8):e678–e684",
+ "Frush TJ, Noyes FR. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC4481672", "Baker’s cyst: diagnostic and surgical considerations") + ". Sports Health. 2015;7(4):359–365.",
 ]
 
 BK_BODY = f'''<header class="page">

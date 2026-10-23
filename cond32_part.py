@@ -6,7 +6,7 @@ _ex2("gg_wrist", "dq_wrist", "Bileği aşağı yukarı hareket ettirme", "Ön ko
 _ex2("gg_rot", "ge_rot", "Ön kolu içe-dışa çevirme", "Ön kolunuz masada dursun. Elinizin sırtı masadayken başlayın, sonra avucunuz aşağı bakacak şekilde yavaşça çevirin ve geri dönün. Ağırlık kullanmanız gerekmez.", "10 tekrar, günde 2–3 kez")
 
 GG_FAQ = [
- ("Ganglion kisti kendiliğinden geçer mi?", "Çoğu zaman evet. Birçok kist tedavi gerekmeden kaybolur; bu birkaç aydan bir yıla kadar sürebilir. Ağrı, uyuşma ya da kaygı yaratmıyorsa genellikle tedavi önerilmez."),
+ ("Ganglion kisti kendiliğinden geçer mi?", "Çoğu zaman evet. Birçok kist tedavi gerekmeden kaybolur; bu birkaç aydan bir yıla kadar sürebilir. Ağrı, uyuşma ya da kaygı yaratmıyorsa genellikle tedavi önerilmez. 236 hastanın ortalama 6 yıl izlendiği bir çalışmada, tedavi edilmeyen bilek kistlerinin %58’i kendiliğinden kayboldu; kist boşaltılanların %58’inde, ameliyatla alınanların %39’unda yeniden oluştu ve uzun dönemde iki tedavi de belirtiler açısından tedavisiz izlemeye üstün değildi."),
  ("Kisti kitapla vurarak ya da bastırarak patlatabilir miyim?", "Hayır. Kisti kendiniz patlatmaya çalışmak enfeksiyona ve cilt hasarına yol açabilir."),
  ("İğneyle boşaltmak işe yarar mı?", "Kistlerin bir kısmı boşaltmayla geçer, ama bilekteki kistlerin çoğu yeniden dolar; yeniden dolan kist ağrısız olabilir. Bileğin iç yüzündeki kistler nabız alınan atardamara yakın olabildiği için boşaltma dikkat gerektirir."),
  ("Ameliyattan sonra tekrarlar mı?", "Tekrarlayabilir. El cerrahları derneğinin bilgilendirmesine göre bileğin sırtındaki kistlerde ameliyat sonrası tekrarlama yaklaşık %10, bileğin iç yüzündekilerde yaklaşık %30. Ameliyat sonrası bilek ve el işlevi 4–6 hafta kadar kısıtlı kalabilir; iz, ağrı ve hareket kaybı gibi riskler de vardır."),
@@ -17,6 +17,7 @@ GG_SRC = [
  "Academy of Medical Royal Colleges. " + ext("https://ebi.aomrc.org.uk/interventions/ganglion-excision/", "Evidence-Based Interventions: Ganglion excision") + ". Last reviewed September 2024.",
  "Lyon C, Eldred SV, DeSanto K. " + ext("https://mdedge.com/content/what-best-treatment-wrist-ganglion-cysts", "What is the best treatment for wrist ganglion cysts?") + ". J Fam Pract. 2020;69(1):E23–E24",
  "British Society for Surgery of the Hand. " + ext("https://apps.nhslothian.scot/files/sites/2/ganglion_cyst_leaflet-2016-BSSH.pdf", "Ganglion cyst") + ". Patient information leaflet, 2016.",
+ "Dias JJ, Dhukaram V, Kumar P. " + ext("https://www.qxmd.com/r/17950209", "The natural history of untreated dorsal wrist ganglia and patient reported outcome 6 years after intervention") + ". J Hand Surg Eur Vol. 2007;32(5):502–508.",
 ]
 
 GG_BODY = f'''<header class="page">

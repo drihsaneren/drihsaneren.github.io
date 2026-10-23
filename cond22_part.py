@@ -10,7 +10,7 @@ _ex2("cx_cat", "cat", "Kedi-deve", "Ellerinizin ve dizlerinizin üzerinde durun.
 _ex2("cx_walk", "walk", "Kısa yürüyüş molaları", "Uzun süre oturmak ağrıyı artırabileceği için her 30–45 dakikada bir kalkıp birkaç dakika yürüyebilirsiniz.", "Gün içinde sık sık")
 
 CX_FAQ = [
- ("Kuyruk sokumu ağrısı ne kadar sürer?", "Ağrı çoğu zaman birkaç haftada azalır, ancak bazen daha uzun sürebilir. Uzun süredir devam eden ağrısı olan hastaların izlendiği bir çalışmada, kişilerin yarısından fazlasında 3 yıl sonra da belirgin yakınma sürüyordu. Bu yüzden geçmeyen ağrıda erken değerlendirme yararlı olabilir."),
+ ("Kuyruk sokumu ağrısı ne kadar sürer?", "Ağrı çoğu zaman birkaç haftada azalır, ancak bazen daha uzun sürebilir. Uzun süredir devam eden ağrısı olan hastaların izlendiği bir çalışmada, kişilerin yarısından fazlasında 3 yıl sonra da belirgin yakınma sürüyordu. Bu yüzden geçmeyen ağrıda erken değerlendirme yararlı olabilir. Fizyoterapi yöntemlerini inceleyen 9 çalışmalık bir derlemede şok dalga tedavisi ağrıyı azaltıp işlevi iyileştirdi; manuel tedavi en çok yeni başlayan ağrıda etkiliydi, ama etkisi zamanla azaldı. Çalışmalar küçük ve izlem süreleri kısa olduğu için kesin bir öneri yapılamıyor."),
  ("Nasıl bir minder kullanmalıyım?", "Kuyruk sokumu için özel tasarlanmış minderler otururken baskıyı azaltabilir. Kuyruk sokumunu boşta bırakan farklı biçimleri var; size en rahat geleni deneyerek seçebilirsiniz."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "Ev önlemleri ve fizyoterapiye rağmen geçmeyen ağrıda, kuyruk sokumunun eklemine ya da çevresindeki sinir düğümüne (ganglion impar) yapılan enjeksiyonlar seçenekler arasında yer alır ve çalışmalarda ağrıyı azalttığı görülmüştür. Bu kararı, ağrınızın süresini ve şiddetini göz önüne alarak hekiminizle birlikte verebilirsiniz."),
  ("Ameliyat gerekir mi?", "Nadiren. Ameliyat (kuyruk sokumunun bir kısmının ya da tamamının alınması), diğer tedavilerin işe yaramadığı durumlarda gündeme gelir. Bir çalışmada ameliyat olanların yaklaşık %70'inde 2 yılda anlamlı düzelme görüldü; yara sorunları ise ameliyatın bilinen riskleri arasında."),
@@ -21,6 +21,7 @@ CX_SRC = [
  "Patel R, Appannagari A, Whang PG. " + ext("https://link.springer.com/article/10.1007/s12178-008-9028-1", "Coccydynia") + ". Curr Rev Musculoskelet Med. 2008;1(3–4):223–226.",
  "Mazzoleni MG, Maffulli N, Bardazzi T, Memminger M, Bertini FA, Migliorini F. " + ext("https://aoj.amegroups.org/article/view/9061/html", "Management of coccygodynia: talking points from a systematic review of recent clinical trials") + ". Ann Joint. 2025;10:9.",
  "Lirette LS, Chaiban G, Tolba R, Eissa H. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC3963058", "Coccydynia: an overview of the anatomy, etiology, and treatment of coccyx pain") + ". Ochsner J. 2014;14(1):84–87",
+ "Blanco-Diaz M, Palacios LR, Martinez-Cerón MDR, Perez-Dominguez B, Diaz-Mohedo E. " + ext("https://riuma.uma.es/entities/publication/74b1eb03-af91-4c44-98cf-c4c99a3b016f", "Physiotherapy approaches for coccydynia: evaluating effectiveness and clinical outcomes") + ". BMC Musculoskelet Disord. 2025;26(1):514.",
 ]
 
 CX_BODY = f'''<header class="page">

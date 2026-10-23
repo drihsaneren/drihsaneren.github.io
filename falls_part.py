@@ -49,7 +49,7 @@ EXT.update({
 DUSME_FAQ = [
  ("Düştüğümde nasıl kalkmalıyım?", "Önce sakin olun ve bir yerinizin ağrıyıp ağrımadığını kontrol edin. Yaralanmadıysanız yan dönün, yavaşça ellerinizin ve dizlerinizin üzerine gelin, sağlam bir sandalyeye ya da merdivene doğru emekleyin. Ona tutunarak bir ayağınızı yere basın, kollarınız ve bacaklarınızla itip yavaşça ayağa kalkın ya da oturun, sonra dinlenin. Yaralandıysanız ya da kalkamıyorsanız yardım çağırın, üşümemek için üzerinizi örtün ve yardım gelene kadar bacaklarınızı hafifçe hareket ettirin."),
  ("Düşme korkum var, hareket etmemek daha güvenli değil mi?", "Hayır. Hareketsizlik kasları zayıflatır ve dengeyi bozar; bu da düşme riskini artırır. Güvenli bir ortamda, destekle ve kademeli olarak hareket etmek hem gücü hem de güveni geri kazandırır."),
- ("Denge egzersizlerini ne sıklıkla yapmalıyım?", "Etkili programlarda denge ve güçlendirme egzersizleri haftada birkaç kez, aylarca düzenli olarak yapılır ve zorluğu kademeli olarak artırılır. Kısa süreli ya da düzensiz egzersizin etkisi sınırlı kalır."),
+ ("Denge egzersizlerini ne sıklıkla yapmalıyım?", "Etkili programlarda denge ve güçlendirme egzersizleri haftada birkaç kez, aylarca düzenli olarak yapılır ve zorluğu kademeli olarak artırılır. Kısa süreli ya da düzensiz egzersizin etkisi sınırlı kalır. İngiltere’nin 2025 düşme kılavuzu (NICE) da denge, koordinasyon ve kas gücünü birlikte çalıştıran, kademeli zorlaşan programlar öneriyor. Yeni Zelanda’da geliştirilen Otago ev programıyla ilgili 7 çalışmanın analizinde düşmeler %32 azaldı."),
  ("Baston ya da yürüteç kullanmalı mıyım?", "Doğru seçilip doğru ayarlandığında yürüme yardımcıları güvenliği artırır. Boyu yanlış ayarlanmış ya da ihtiyaca uymayan bir baston ise dengeyi bozabilir. Hangi yardımcının size uygun olduğunu fizyoterapistinizle birlikte belirleyin."),
  ("Düştükten sonra hekime söylemeli miyim?", "Evet. Yaralanmamış olsanız bile düştüğünüzü hekiminize söyleyin. Düşmelerin altında yatan birçok neden, örneğin ilaç yan etkileri, tansiyon düşmesi ya da görme sorunları tedavi edilebilir ya da düzeltilebilir."),
 ]
@@ -59,6 +59,8 @@ DUSME_SRC = [
  "NHS inform. " + ext("https://www.nhsinform.scot/healthy-living/preventing-falls/dealing-with-a-fall/what-to-do-if-you-fall/", "What to do if you fall") + ".",
  "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/falls", "Falls") + ". Fact sheet.",
+ "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng249/resources/falls-assessment-and-prevention-in-older-people-and-in-people-50-and-over-at-higher-risk-pdf-66143964997573", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
+ "Thomas S, Mackintosh S, Halbert J. " + ext("https://academic.oup.com/ageing/article/39/6/681/9467", "Does the ‘Otago exercise programme’ reduce mortality and falls in older adults? A systematic review and meta-analysis") + ". Age Ageing. 2010;39(6):681–687.",
 ]
 
 DUSME_BODY = f'''<header class="page">

@@ -27,6 +27,8 @@ VF_SRC = [
  "Vertebral Fractures Study (University of Bristol, Keele University, University of the West of England). " + ext("https://www.bristol.ac.uk/media-library/sites/medical-school/a%20guide%20to%20diagnosis%20for%20healthcare%20professionals%20in%20primary%20care.pdf", "Osteoporotic vertebral fractures: a guide to diagnosis for healthcare professionals in primary care") + ". 25 November 2022.",
  "Leyland S (Royal Osteoporosis Society). " + ext("https://backcare.org.uk/i-have-back-or-neck-pain/library/osteoporosis-the-facts-behind-fractures/", "Osteoporosis: the facts behind spinal fractures and back pain") + ". BackCare, TalkBack 2021; updated 5 June 2024.",
  "Leeds Community Healthcare NHS Trust. " + ext("https://leedscommunityhealthcare.nhs.uk/our-services-a-z/musculoskeletal-msk/back-problems/known-and-diagnosed-back-problems/spinal-fractures", "Spinal fractures advice and exercises") + ". Updated 12 March 2026.",
+ "Health Service Executive (HSE). " + ext("https://www.hse.ie/conditions/back-pain/", "Back pain") + ". Last reviewed 14 July 2026.",
+ "Henschke N, Maher CG, Ostelo RWJG, et al. " + ext("https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008686.pub2", "Red flags to screen for malignancy in patients with low-back pain") + ". Cochrane Database Syst Rev. 2013;(2):CD008686.",
  "Royal Osteoporosis Society. " + ext("https://theros.org.uk/information-and-support/osteoporosis/living-with-osteoporosis/exercise-and-physical-activity-for-osteoporosis/caring-for-your-back/exercises-for-back-pain-after-spinal-fractures/", "Exercises for back pain after spinal fractures") + ". Reviewed February 2019.",
 ]
 
@@ -131,8 +133,8 @@ VF_BODY = f'''<header class="page">
       <ul class="dots redflags">
         <li>Kemik erimesi ya da risk etkenleriniz varken yeni başlayan ani sırt ağrısı: yeni bir kırığı değerlendirmek için</li>
         <li>Boyunuzun kısaldığını ya da sırtınızın kamburlaştığını fark ettiyseniz</li>
-        <li>Bacaklarda yeni uyuşma ya da güçsüzlük, idrar ya da dışkıyı tutamama: hemen acile başvurun (bu belirtiler kemik erimesi kırığında beklenmez)</li>
-        <li>Ateş, açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte sırt ağrısı</li>
+        <li>Genital bölge ya da makat çevresinde uyuşma veya karıncalanma, idrar ya da dışkıyı kontrol etmede sorun, bacaklarda yeni güçsüzlük: hemen acile başvurun (kemik erimesine bağlı kırıklar omuriliği etkilemediği için bu belirtiler başka bir nedeni düşündürür)</li>
+        <li>38 °C ve üzeri ateş, titreme ya da açıklanamayan kilo kaybıyla birlikte sırt ağrısı; daha önce kanser geçirdiyseniz yeni başlayan sırt ağrısı (omurgada kanser yayılımını düşündüren işaretler arasında en anlamlısı budur)</li>
       </ul>
       {CTA_CARD("Omurga kırığı sonrası rehabilitasyonunuz", "kemik erimesine bağlı omurga kırığı sonrası rehabilitasyon")}
     </div>

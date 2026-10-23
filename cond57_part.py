@@ -34,7 +34,7 @@ _ex2("mf_fs", "mf_fist", "Yumruk yapıp açma", "Elinizi yavaşça tam bir yumru
 MF_FAQ = [
  ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez; çekiç parmakların çoğu yalnızca atelle iyi sonuç verir. Tendonla birlikte büyük bir kemik parçası koptuysa ameliyat gerekebilir. Bu genellikle bölgesel uyuşturmayla, günübirlik yapılan ve ince tellerle tespit edilen bir işlemdir; teller 3–4 hafta kalır."),
  ("Atel takılıyken parmak ucum bükülürse ne olur?", "Kesintisiz atel döneminde uç eklemin bir kez bile bükülmesi iyileşen tendona zarar verebilir ve iyileşmeyi geciktirir; atel süresi çoğu zaman baştan başlar. Ateli yalnızca temizlik için, parmağınız masaya düz yaslanmışken çıkarın. Böyle bir şey olduysa ekibinize haber verin."),
- ("Parmak ucum tamamen düzelir mi?", "Çoğu kişide iyi düzelir, ama en iyi tedaviyle bile uç eklemde 10 dereceye kadar düzelmeme sık görülür. Parmağın arkasındaki şişlik, hassasiyet ve kızarıklığın geçmesi birkaç ay sürebilir. Kemik parçalı tipte eklemin üzerinde küçük bir şişkinlik kalabilir; bu genellikle elin işlevini etkilemez."),
+ ("Parmak ucum tamamen düzelir mi?", "Çoğu kişide iyi düzelir, ama en iyi tedaviyle bile uç eklemde 10 dereceye kadar düzelmeme sık görülür. Parmağın arkasındaki şişlik, hassasiyet ve kızarıklığın geçmesi birkaç ay sürebilir. Kemik parçalı tipte eklemin üzerinde küçük bir şişkinlik kalabilir; bu genellikle elin işlevini etkilemez. İngiliz El Cerrahisi Derneği’ne göre atel genellikle 6–8 hafta kesintisiz takılır, ardından 1–2 hafta yalnızca geceleri ve parmağın zorlanabileceği durumlarda kullanılır; uç eklem biraz sarkık kalsa bile çoğu kişi parmağını iyi kullanır."),
  ("Ne zaman araba kullanabilir, spora dönebilirim?", "Direksiyonu ağrı dikkatinizi dağıtmadan sıkıca kavrayabildiğinizde araç kullanabilirsiniz; atelle araç kullanmak için sigorta şirketinize danışın. Bir NHS broşürü spora en az 8 hafta ara vermeyi öneriyor; dönüş zamanını ekibinizle birlikte belirleyin."),
  ("Neden yüzük takmamalıyım?", "Parmak şişebilir; yüzük kan dolaşımını ve iyileşmeyi olumsuz etkileyebilir. Atel döneminde yaralı parmağa yüzük takmayın."),
 ]
@@ -44,6 +44,7 @@ MF_SRC = [
  "Hull University Teaching Hospitals NHS Trust. " + ext("https://www.hey.nhs.uk/patient-leaflet/hand-therapy-mallet-injury-of-the-finger-pifu/", "Hand therapy: mallet injury of the finger") + ". HEY1342/2025, updated 30 June 2025.",
  "Handoll HHG, Vaghela MV. " + ext("https://doi.org/10.1002/14651858.CD004574.pub2", "Interventions for treating mallet finger injuries") + ". Cochrane Database Syst Rev. 2004;(3):CD004574",
  "University Hospitals Coventry and Warwickshire NHS Trust. " + ext("https://www.uhcw.nhs.uk/download/clientfiles/files/Patient%20Information%20Leaflets/Trauma%20and%20Neuro%20services/Trauma%20and%20Orthopaedics/Mallet%20Finger.pdf", "Mallet finger") + ". Version 5, February 2025.",
+ "British Society for Surgery of the Hand. " + ext("https://www.BSSH.ac.uk/_userfiles/pages/files/Patients/Conditions/Trauma/mallet_finger_leaflet_2016.pdf", "Mallet finger: patient information") + ". 2016.",
 ]
 
 MF_BODY = f'''<header class="page">

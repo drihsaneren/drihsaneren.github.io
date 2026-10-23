@@ -11,7 +11,7 @@ _ex2("ra_eccwe", "eccwe", "Bilek güçlendirme", "Ön kolunuzu masaya koyun, avu
 RA_FAQ = [
  ("Egzersiz eklemlerimi daha çok yıpratır mı?", "Çalışmalar bunu göstermiyor. Sekiz çalışmanın derlemesinde egzersiz programlarının hiçbirinde zararlı etki görülmedi; kas gücü ve dayanıklılık arttı. Programı hastalığınızın dönemine göre ayarlamak yeterlidir."),
  ("Alevlenme dönemindeyken egzersiz yapmalı mıyım?", "Şiddeti azaltın ama hareketi tamamen bırakmayın. Şiş ve sıcak eklemleri dirence karşı çalıştırmayın; ağrısız aralıkta nazikçe hareket ettirin ve dinlenme aralarını artırın. Alevlenme uzun sürüyor ya da her zamankinden şiddetliyse romatoloğunuza haber verin."),
- ("El egzersizleri gerçekten işe yarıyor mu?", "490 hastalık SARAH çalışmasında, olağan bakıma eklenen kişiye özel el egzersiz programı bir yıl sonra el işlevini daha fazla iyileştirdi ve programa bağlı ciddi yan etki kaydedilmedi. Araştırmacılar programı, ilaç tedavisine eklenebilecek düşük maliyetli ve yararlı bir yöntem olarak değerlendirdi."),
+ ("El egzersizleri gerçekten işe yarıyor mu?", "490 hastalık SARAH çalışmasında, olağan bakıma eklenen kişiye özel el egzersiz programı bir yıl sonra el işlevini daha fazla iyileştirdi ve programa bağlı ciddi yan etki kaydedilmedi. Araştırmacılar programı, ilaç tedavisine eklenebilecek düşük maliyetli ve yararlı bir yöntem olarak değerlendirdi. Bu çalışmaya dayanarak İngiltere’de NICE, el ve bilekte ağrı ve işlev kaybı olan, ilaç tedavisi almayan ya da en az 3 aydır aynı ilaç tedavisini sürdüren kişilere kişiye özel güçlendirme ve germe el egzersiz programı düşünülmesini öneriyor."),
  ("Kireçlenmeden farkı nedir?", "Kireçlenme (osteoartrit) eklem kıkırdağının yıpranmasıyla ilgilidir; genellikle hareketle artan ağrıya ve kısa süren sabah sertliğine yol açar. Romatoid artrit ise bağışıklık sisteminin yol açtığı iltihaplı bir hastalıktır; eklemler şişer, sabah sertliği uzun sürer ve çoğunlukla iki taraf birden tutulur. Ayrımı muayene ve kan testleriyle hekim yapar."),
 ]
 
@@ -20,6 +20,7 @@ RA_SRC = [
  "Lamb SE, Williamson EM, Heine PJ, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/42037", "Exercises to improve function of the rheumatoid hand (SARAH): a randomised controlled trial") + ". Lancet. 2015;385(9966):421-429.",
  "Rausch Osthoff AK, Niedermann K, Braun J, et al. " + ext("https://ard.bmj.com/content/77/9/1251", "2018 EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis") + ". Ann Rheum Dis. 2018;77(9):1251-1260.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis", "Rheumatoid arthritis") + ". Fact sheet. 28 June 2023.",
+ "Chartered Society of Physiotherapy. " + ext("https://acpopc.csp.org.uk/node/1119647", "Clinical update: rheumatoid arthritis hand exercises") + ".",
 ]
 
 RA_BODY = f'''<header class="page">

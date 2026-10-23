@@ -25,6 +25,7 @@ SELF11_CSS = SELF10_CSS + """
   .st-tab th{font-weight:500;color:var(--muted);text-align:center;padding:4px 2px}
   .st-tab th[scope=row]{text-align:left;white-space:nowrap}
   .st-tab td{text-align:center;border-radius:8px;padding:9px 2px;font-variant-numeric:tabular-nums;color:var(--ink);background:rgba(236,229,207,.05)}
+  @media (max-width:380px){.st-tab{font-size:11.5px;border-spacing:2px}.st-tab th{padding:4px 1px;font-size:11px}.st-tab td{padding:8px 1px}}
   .st-tab td.h1{background:rgba(216,178,94,.14)}.st-tab td.h2{background:rgba(226,171,71,.26)}.st-tab td.h3{background:rgba(201,107,90,.38)}
   .st-tab td.me{outline:2px solid var(--foil);outline-offset:1px;font-weight:700}
   .st-big{font-family:var(--display);font-size:clamp(46px,6vw,64px);line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
@@ -64,7 +65,7 @@ GU_FAQ = [
  ("Düştükten sonra 112’yi aramak doğru mu?", "Evet. Başınızı, boynunuzu, sırtınızı ya da kalçanızı incitmiş olabileceğinizi düşünüyorsanız ya da kalkamıyorsanız 112’yi arayın. Düştükten sonra yardım istemekte bir sakınca yoktur."),
  ("Neden hemen kalkmamalıyım?", "Düşmenin şokuyla hızla kalkmaya çalışmak yeniden düşmenize ya da bir yaralanmanın kötüleşmesine yol açabilir. Önce sakin kalın, birkaç dakika olduğunuz yerde durun, bir yerinizin ağrıyıp ağrımadığını kontrol edin ve kalkıp kalkamayacağınızı düşünün."),
  ("Kalkamıyorsam neden hareket etmeliyim?", "Yandan yana yuvarlanmak, kollarınızı ve bacaklarınızı oynatmak sizi sıcak tutar, dolaşımı destekler, tutulmayı ve uzun süre aynı pozisyonda kalmaya bağlı bası yarası riskini azaltır."),
- ("Kalkmayı neden önceden öğrenmeliyim?", "İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riski olan kişilerle düştükten sonra ne yapacaklarının ve yerden nasıl kalkacaklarının konuşulmasını öneriyor. Adımları önceden, yanınızda biri varken denemek, gerçek bir düşmede ne yapacağınızı bilmenizi kolaylaştırır."),
+ ("Kalkmayı neden önceden öğrenmeliyim?", "İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riski olan kişilerle düştükten sonra ne yapacaklarının ve yerden nasıl kalkacaklarının konuşulmasını öneriyor. Adımları önceden, yanınızda biri varken denemek, gerçek bir düşmede ne yapacağınızı bilmenizi kolaylaştırır. 90 yaş üstü 110 kişinin bir yıl izlendiği bir çalışmada düşenlerin %80’i en az bir düşmede yardımsız kalkamadı, %30’u bir saat ya da daha uzun yerde kaldı; uzun süre yerde kalmak ciddi yaralanma, hastaneye yatış ve bakımevine geçişle ilişkiliydi. Çağrı cihazları yaygın olsa da bu düşmelerin çoğunda kullanılmadı."),
  ("Kalktım ve iyiyim, yine de hekime gitmeli miyim?", "Evet, hekiminize düştüğünüzü söyleyin. Düşme değerlendirmesinde denge testleri yapılabilir, ilaçlarınız gözden geçirilebilir, göz muayenesi, kalp ritmi kaydı (EKG) ve yatarken ve ayaktayken tansiyon ölçümü istenebilir. Evinizdeki tehlikeler için bir sağlık profesyonelinin ziyareti ve kuvvet ve denge egzersizleri de önerilebilir."),
 ]
 
@@ -174,6 +175,7 @@ GU_BODY = f'''<header class="page">
         "nidirect (Northern Ireland). " + ext("https://www.nidirect.gov.uk/conditions/falls", "Falls") + ". Last modified 3 March 2026.",
         "Torbay and South Devon NHS Foundation Trust. " + ext("https://www.torbayandsouthdevon.nhs.uk/services/falls-fracture-prevention-bone-health/what-to-do-if-a-fall-occurs", "What to do if a fall occurs") + ".",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
+        "Fleming J, Brayne C. " + ext("https://www.bmj.com/content/337/bmj.a2227.abstract", "Inability to get up after falling, subsequent time on floor, and summoning help: prospective cohort study in people over 90") + ". BMJ. 2008;337:a2227.",
       ])}
     </div>
   </section>
@@ -223,7 +225,7 @@ ST_ROWS = "\n".join(
     for q, lab in ST_Q)
 
 ST_FAQ = [
- ("Bu sonuçlar ne kadar güvenilir?", "Hesaplayıcı, 16 çalışmadan bir milyondan fazla yetişkinin verisini aynı yöntemle yeniden analiz eden ve The Lancet’te yayımlanan bir meta-analize dayanıyor. Ancak bunlar gözlem çalışmaları: oturmanın ya da hareketsizliğin ölüme yol açtığını kanıtlamıyor. Oturma ve hareket süreleri çoğunlukla kişilerin kendi beyanıyla ölçüldü; katılımcıların çoğu 45 yaş üzerindeydi ve Batı Avrupa, ABD ya da Avustralya’da yaşıyordu. Sonuçları kişisel bir risk hesabı olarak değil, genel bir yol gösterici olarak okuyun."),
+ ("Bu sonuçlar ne kadar güvenilir?", "Hesaplayıcı, 16 çalışmadan bir milyondan fazla yetişkinin verisini aynı yöntemle yeniden analiz eden ve The Lancet’te yayımlanan bir meta-analize dayanıyor. Ancak bunlar gözlem çalışmaları: oturmanın ya da hareketsizliğin ölüme yol açtığını kanıtlamıyor. Oturma ve hareket süreleri çoğunlukla kişilerin kendi beyanıyla ölçüldü; katılımcıların çoğu 45 yaş üzerindeydi ve Batı Avrupa, ABD ya da Avustralya’da yaşıyordu. Sonuçları kişisel bir risk hesabı olarak değil, genel bir yol gösterici olarak okuyun. Başka bir meta-analizde de, hareket düzeyinden bağımsız olarak, günde yaklaşık 6–8 saati aşan toplam oturma ve 3–4 saati aşan televizyon süresiyle ölüm riskindeki artış belirginleşiyordu."),
  ("Orta tempolu hareket ne demek?", "Araştırmada orta yoğunluk, örneğin saatte yaklaşık 5,6 km hızla tempolu yürümek ya da saatte 16 km hızla bisiklet sürmek gibi etkinliklerdi. Dakikada yaklaşık 100 adımlık bir yürüyüş de orta yoğunluğa karşılık gelir."),
  ("Neden televizyon ayrıca soruluyor?", "Aynı araştırmada televizyon izleme süresi ayrıca incelendi. Günde 3 saat ve üzeri televizyon izlemek, en hareketli grup dışında daha yüksek riskle ilişkiliydi; günde 5 saat ve üzeri izlemek ise en hareketli grupta bile riskte artışla ilişkiliydi."),
  ("Hareket ölçerle yapılan araştırmalar ne gösteriyor?", "Hareket ölçer takan 44.000’den fazla orta yaşlı ve yaşlı yetişkinin verisini birleştiren 2020 tarihli bir meta-analizde, günde yaklaşık 30–40 dakika orta ya da yüksek yoğunlukta hareket, uzun oturmayla ilişkili ölüm riskindeki artışı azaltıyordu; bu süre, kişilerin kendi beyanına dayanan önceki tahminlerden kısaydı. Dünya Sağlık Örgütü de 2020 kılavuzunda oturma süresini azaltmayı ve yerine hangi yoğunlukta olursa olsun hareket koymayı öneriyor; çok oturanların önerilen hareket miktarının üzerine çıkmaya çalışmasını tavsiye ediyor."),
@@ -348,6 +350,7 @@ ST_BODY = f'''<header class="page">
         "Ekelund U, Tarp J, Fagerland MW, et al. " + ext("https://bjsm.bmj.com/content/54/24/1499", "Joint associations of accelerometer-measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals") + ". Br J Sports Med. 2020;54(24):1499–1506.",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
         "MRC Epidemiology Unit, University of Cambridge. " + ext("https://www.epi.ims.cam.ac.uk/blog/2016/07/28/hour-moderate-exercise-day-enough-counter-health-risks-prolonged-sitting/", "An hour of moderate exercise a day enough to counter health risks from prolonged sitting") + ". 28 July 2016.",
+        "Patterson R, McNamara E, Tainio M, et al. " + ext("https://researchonline.lshtm.ac.uk/id/eprint/4647208", "Sedentary behaviour and risk of all-cause, cardiovascular and cancer mortality, and incident type 2 diabetes: a systematic review and dose response meta-analysis") + ". Eur J Epidemiol. 2018;33(9):811–829.",
       ])}
     </div>
   </section>

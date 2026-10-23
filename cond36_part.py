@@ -8,7 +8,7 @@ _ex2("si_walk", "walk", "Yürüyüş", "Rahat ayakkabılarla, ağrının izin ve
 SI_FAQ = [
  ("Sakroiliak eklem nerede?", "Omurganın en alt kısmındaki üçgen kemik (sakrum) ile leğen kemiğinin arasında, belin iki yanında, kalçanın üst-arka kısmındaki iki küçük çukurun hemen altındadır. Gövdenin yükünü bacaklara aktarır ve çok az hareket eder."),
  ("Ağrının bu eklemden geldiği nasıl anlaşılır?", "Kolay değildir. Ağrı belden, kalçadan ya da siyatik sinirden gelen ağrılara çok benzer. Tek bir muayene testi ya da görüntüleme kesin sonuç vermez; hekimler birkaç ağrı tetikleme testini birlikte değerlendirir. En güvenilir yöntem genellikle ekleme uyuşturucu iğne yapıp ağrının geçip geçmediğine bakmaktır."),
- ("Kemer işe yarar mı?", "Sakroiliak kemerler egzersiz, fizyoterapi ve iğne tedavileriyle birlikte kullanılan seçenekler arasında; ama sonuçlar kişiden kişiye değişiyor. Kemerin işinize yarayıp yaramadığını bir fizyoterapistle birlikte değerlendirebilirsiniz."),
+ ("Kemer işe yarar mı?", "Sakroiliak kemerler egzersiz, fizyoterapi ve iğne tedavileriyle birlikte kullanılan seçenekler arasında; ama sonuçlar kişiden kişiye değişiyor. Kemerin işinize yarayıp yaramadığını bir fizyoterapistle birlikte değerlendirebilirsiniz. 8 çalışmayı ve 422 kişiyi kapsayan 2023 tarihli bir meta-analizde egzersiz, manuel tedaviye göre ağrıda fark yaratmadı ama kısıtlılığı daha çok azalttı; kanıtın kesinliği düşüktü."),
  ("Ameliyat gerekir mi?", "Çok az kişide. Eklemi dondurma (füzyon) ameliyatı, en az 6 ay süren ameliyatsız tedaviye rağmen geçmeyen, testlerle ve tanısal iğneyle eklemden kaynaklandığı gösterilmiş ağrıda düşünülür. Bazı kişilerde sinir uçlarını ısıyla etkisizleştiren radyofrekans tedavisi 6–12 ay süren rahatlama sağlayabilir."),
 ]
 
@@ -17,6 +17,7 @@ SI_SRC = [
  "HCA Healthcare UK. " + ext("https://www.hcahealthcare.co.uk/conditions/sacroiliac-joint-pain", "Sacroiliac (SI) joint pain") + ".",
  "Szadek KM, van der Wurff P, van Tulder MW, Zuurmond WWA, Perez RSGM. " + ext("https://doi.org/10.1016/j.jpain.2008.09.014", "Diagnostic validity of criteria for sacroiliac joint pain: a systematic review") + ". J Pain. 2009;10(4):354–368",
  SRC_NICE59,
+ "Ramírez Ramírez C, Ramírez Muñoz PC. " + ext("https://resed.es/index.php/resed/en/article/view/1076", "Effect of therapeutic exercise in persons with sacroiliac joint dysfunction: a systematic review and meta-analysis") + ". Rev Soc Esp Dolor. 2023;30(2).",
 ]
 
 SI_BODY = f'''<header class="page">

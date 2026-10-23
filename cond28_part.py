@@ -6,7 +6,7 @@ KY_FAQ = [
  ("Kambur duruş düzelir mi?", "Duruşa bağlı kamburluk esnektir; kişi dikleşmeye çalıştığında sırt düzelebilir. Egzersizle sırttaki eğrilik açısında birkaç derecelik azalmalar bildirilmiştir. NHS ise fizyoterapinin duruşu iyileştirip ağrıyı ve tutukluğu azaltabileceğini, ancak yapısal bir eğriliği düzeltmeyeceğini belirtiyor."),
  ("Dik duruş korsesi kullanmalı mıyım?", "NHS, duruşa bağlı kamburluk için korse önermiyor. Korse yalnızca çocuklarda hafif ve orta düzey Scheuermann kifozunda, uzman kontrolünde kullanılır. Duruş için sırt kaslarınızı güçlendirmeyi ve gün içinde sık pozisyon değiştirmeyi tercih edebilirsiniz."),
  ("Kambur durmak sırt ağrısı yapar mı?", "54 çalışmayı inceleyen bir derleme, omurganın yandan görünen eğrileri ile sırt ağrısı arasında güçlü bir ilişki bulamadı. Uzun süre aynı pozisyonda kalmak ise tutukluk ve rahatsızlık yaratabilir; pozisyonunuzu sık değiştirmek iyi gelebilir."),
- ("İleri yaşta kamburluk neden artar?", "Kemik erimesi ve kireçlenme gibi durumlar ve omurga kırıkları kamburluğu artırabilir. Kemik sağlığı için kemik erimesi rehberimize bakabilirsiniz."),
+ ("İleri yaşta kamburluk neden artar?", "Kemik erimesi ve kireçlenme gibi durumlar ve omurga kırıkları kamburluğu artırabilir. Kemik sağlığı için kemik erimesi rehberimize bakabilirsiniz. 45 yaş üstünde belirgin kamburluğu olanlarda egzersizi inceleyen 13 çalışmanın 8’inde duruşta en az bir ölçümde iyileşme görüldü; çalışmaların az ve küçük olması nedeniyle kesin bir sonuca varılamadı."),
 ]
 
 KY_SRC = [
@@ -14,6 +14,7 @@ KY_SRC = [
  "Katzman WB, Vittinghoff E, Lin F, et al. Targeted spine strengthening exercise and posture training program to reduce hyperkyphosis in older adults: results from the study of hyperkyphosis, exercise, and function (SHEAF) randomized controlled trial. Osteoporos Int. 2017;28(10):2831–2841. " + ext("https://beta.escholarship.org/uc/item/0bf5w0h5", "escholarship.org") + ".",
  "Oliveira-Costa E, Alonso-Fernández D, Gutiérrez-Sánchez Á. The impact of exercise on spinal posture in adolescents: a systematic review. Rev Paul Pediatr. 2025;43:e2025013. " + ext("https://www.scielo.br/j/rpp/a/LLrncxbBfMVvXTJfL4kswZC/?lang=en", "scielo.br") + ".",
  "Christensen ST, Hartvigsen J. Spinal curves and health: a systematic critical review of the epidemiological literature dealing with associations between sagittal spinal curves and health. J Manipulative Physiol Ther. 2008;31(9):690–714. Özet: " + ext("https://www.painscience.com/biblio/no-association-between-measurements-of-spinal-curves-and-pain-review.html", "PainScience, No association between measurements of spinal curves and pain") + ".",
+ "Bansal S, Katzman WB, Giangregorio LM. " + ext("https://search.pedro.org.au/search-results/record-detail/36465", "Exercise for improving age-related hyperkyphotic posture: a systematic review") + ". Arch Phys Med Rehabil. 2014;95(1):129–140.",
 ]
 
 KY_BODY = f'''<header class="page">

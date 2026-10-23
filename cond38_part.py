@@ -10,7 +10,7 @@ _ex2("mn_toe", "dm_toe", "Ayak ucu ve topuk kaldırma", "Oturun, ayaklarınız y
 MN_FAQ = [
  ("Gerçekten bir tümör mü?", "Hayır. Adındaki “nöroma” sözcüğüne rağmen bir tümör değildir. Ayak parmağı kemikleri arasındaki bir sinirin tahriş olması ya da zarar görmesiyle çevresindeki dokunun kalınlaşmasıdır."),
  ("Hangi ayakkabıları giymeliyim?", "Geniş burunlu, alçak topuklu ve yumuşak tabanlı rahat ayakkabılar önerilir. Dar ve sivri burunlu ayakkabılar, yüksek topuklar ve ince tabanlı ayakkabılar ayak önündeki baskıyı artırdığı için bir süre kaçınmanız iyi olur. Eczanelerde bulunan ayak önü pedleri ya da yumuşak tabanlıklar da rahatlatabilir."),
- ("İğne tedavisi işe yarar mı?", "Belirtiler çok şiddetliyse ya da diğer tedaviler işe yaramadıysa kortizon iğnesi düşünülebilir. 25 çalışmayı inceleyen bir derlemede ameliyatsız tedaviler arasında ağrıyı azaltmada en güçlü kanıt kortizon iğnesi ve fizyoterapistin uyguladığı ayak eklemi mobilizasyonu için bulundu; ama altın standart sayılabilecek bir tedavi gösterilemedi."),
+ ("İğne tedavisi işe yarar mı?", "Belirtiler çok şiddetliyse ya da diğer tedaviler işe yaramadıysa kortizon iğnesi düşünülebilir. 25 çalışmayı inceleyen bir derlemede ameliyatsız tedaviler arasında ağrıyı azaltmada en güçlü kanıt kortizon iğnesi ve fizyoterapistin uyguladığı ayak eklemi mobilizasyonu için bulundu; ama altın standart sayılabilecek bir tedavi gösterilemedi. 131 hastayla yapılan, hastaların hangi iğneyi aldığını bilmediği bir çalışmada kortizonlu iğne, yalnızca uyuşturucu içeren iğneye göre 3 ayda ayak sağlığını ve ağrıyı daha çok iyileştirdi."),
  ("Ameliyat gerekir mi?", "Çoğu kişi ayakkabı değişikliği ve pedlerle rahatlar. Ameliyat, çok şiddetli belirtilerde ya da diğer tedaviler işe yaramadığında bir ayak cerrahıyla birlikte değerlendirilen bir seçenektir."),
 ]
 
@@ -19,6 +19,7 @@ MN_SRC = [
  "Matthews BG, Hurn SE, Harding MP, et al. " + ext("https://link.springer.com/doi/10.1186/s13047-019-0320-7", "The effectiveness of non-surgical interventions for common plantar digital compressive neuropathy (Morton’s neuroma): a systematic review and meta-analysis") + ". Journal of Foot and Ankle Research. 2019;12:12.",
  "NHS Tayside, Referral Help System. " + ext("https://www.nhstayside.scot.nhs.uk/WorkingWithUs/ReferralHelpSystem/PROD_351192", "Morton’s neuroma") + ".",
  "Matthews BG, Thomson CE, Harding MP, McKinley JC, Ware RS. " + ext("https://doi.org/10.1002/14651858.CD014687.pub2", "Treatments for Morton’s neuroma") + ". Cochrane Database Syst Rev. 2024;CD014687",
+ "Thomson CE, Beggs I, Martin DJ, et al. " + ext("https://doi.org/10.2106/JBJS.I.01780", "Methylprednisolone injections for the treatment of Morton neuroma: a patient-blinded randomized trial") + ". J Bone Joint Surg Am. 2013;95(9):790–798.",
 ]
 
 MN_BODY = f'''<header class="page">
