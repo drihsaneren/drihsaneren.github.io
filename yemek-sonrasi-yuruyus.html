@@ -804,6 +804,7 @@
   .st-tab th{font-weight:500;color:var(--muted);text-align:center;padding:4px 2px}
   .st-tab th[scope=row]{text-align:left;white-space:nowrap}
   .st-tab td{text-align:center;border-radius:8px;padding:9px 2px;font-variant-numeric:tabular-nums;color:var(--ink);background:rgba(236,229,207,.05)}
+  @media (max-width:380px){.st-tab{font-size:11.5px;border-spacing:2px}.st-tab th{padding:4px 1px;font-size:11px}.st-tab td{padding:8px 1px}}
   .st-tab td.h1{background:rgba(216,178,94,.14)}.st-tab td.h2{background:rgba(226,171,71,.26)}.st-tab td.h3{background:rgba(201,107,90,.38)}
   .st-tab td.me{outline:2px solid var(--foil);outline-offset:1px;font-weight:700}
   .st-big{font-family:var(--display);font-size:clamp(46px,6vw,64px);line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
@@ -913,7 +914,7 @@
       "name": "İnsülin ya da şeker ilacı kullanıyorsam?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "İnsülin ya da bazı şeker düşürücü ilaçları kullanıyorsanız egzersiz sırasında ve sonrasında şekeriniz düşebilir. Yürüyüş planınızı hekiminizle konuşun, şekerinizi ölçüyorsanız yürüyüşten önce ve sonra bakın, titreme, terleme, baş dönmesi gibi düşük şeker belirtilerinde durun ve yanınızda hızlı etkili bir şeker bulundurun."
+        "text": "İnsülin ya da gliklazid gibi bazı şeker tabletlerini kullanıyorsanız egzersiz şekerinizi düşürebilir. Düzenli yürümeye başlayınca ilaç dozunun azaltılması gerekebileceği için planınızı diyabet ekibinizle konuşun. Şekerinizi ölçüyorsanız yürüyüşten önce, sırasında ve sonra bakın; yanınızda her zaman hızlı etkili bir şeker bulundurun. Terleme, titreme, baş dönmesi, açlık ya da çarpıntı gibi düşük şeker belirtilerinde durun ve şeker alın."
       }
     }
   ]
@@ -1045,7 +1046,7 @@
 <details><summary>Yemekten ne kadar sonra yürümeliyim?</summary><p>Yemeği bitirdikten kısa süre sonra başlamak iyi bir alışkanlık. Analizin yazarlarına göre kan şekeri genellikle yemekten 60–90 dakika sonra zirveye çıkıyor; bu zirveden önce yapılan hareket en iyi sonucu veriyor.</p></details>
 <details><summary>Ne kadar yürümek yeterli?</summary><p>Çalışmada her öğünden sonra 10 dakika yürüyüş kullanıldı. Yemekten sonraki 2–5 dakikalık kısa ve hafif yürüyüşlerin de kan şekerini düşürdüğü görüldü; ayakta durmak da oturmaktan iyiydi ama yürümek kadar etkili değildi. Zamanınız azsa kısa bir yürüyüş bile hiç yürümemekten iyidir.</p></details>
 <details><summary>Günlük egzersizimin yerine geçer mi?</summary><p>Tek başına yetmez, ama ona katkı sağlar. Dünya Sağlık Örgütü yetişkinlere haftada en az 150 dakika orta yoğunlukta hareket ve haftada en az 2 gün kas güçlendirme öneriyor ve her hareketin sayıldığını vurguluyor. Amerikan Diyabet Derneği de diyabeti olanlara düzenli egzersizin yanında, uzun oturmanın her 30 dakikada bir birkaç dakikalık hafif hareketle bölünmesini öneriyor.</p></details>
-<details><summary>İnsülin ya da şeker ilacı kullanıyorsam?</summary><p>İnsülin ya da bazı şeker düşürücü ilaçları kullanıyorsanız egzersiz sırasında ve sonrasında şekeriniz düşebilir. Yürüyüş planınızı hekiminizle konuşun, şekerinizi ölçüyorsanız yürüyüşten önce ve sonra bakın, titreme, terleme, baş dönmesi gibi düşük şeker belirtilerinde durun ve yanınızda hızlı etkili bir şeker bulundurun.</p></details>
+<details><summary>İnsülin ya da şeker ilacı kullanıyorsam?</summary><p>İnsülin ya da gliklazid gibi bazı şeker tabletlerini kullanıyorsanız egzersiz şekerinizi düşürebilir. Düzenli yürümeye başlayınca ilaç dozunun azaltılması gerekebileceği için planınızı diyabet ekibinizle konuşun. Şekerinizi ölçüyorsanız yürüyüşten önce, sırasında ve sonra bakın; yanınızda her zaman hızlı etkili bir şeker bulundurun. Terleme, titreme, baş dönmesi, açlık ya da çarpıntı gibi düşük şeker belirtilerinde durun ve şeker alın.</p></details>
       </div>
       <p class="soft" style="margin-top:18px">Adımlarınızı bir tempoya oturtmak için <a href="tempolu-yuruyus.html">tempolu yürüyüş metronomunu</a>, gün içinde oturma sürenizi görmek için <a href="oturma-suresi.html">oturma süresi hesaplayıcısını</a>, kas güçlendirme için <a href="guc-devresi.html">evde güç devresini</a> kullanabilirsiniz.</p>
       <aside class="ctacard" aria-label="Hızlı iletişim">
@@ -1068,6 +1069,8 @@
         <li>Buffey AJ, Herring MP, Langley CK, et al. The acute effects of interrupting prolonged sitting time in adults with standing and light-intensity walking on biomarkers of cardiometabolic health: a systematic review and meta-analysis. Sports Med. 2022;52:1765–1787. Haber: <a href="https://mdedge.com/fedprac/article/256982/diabetes/short-walks-after-meals-can-cut-diabetes-risk" target="_blank" rel="noopener">MDedge, 11 August 2022</a>.</li>
         <li>Colberg SR, Sigal RJ, Yardley JE, et al. <a href="https://doi.org/10.2337/dc16-1728" target="_blank" rel="noopener">Physical activity/exercise and diabetes: a position statement of the American Diabetes Association</a>. Diabetes Care. 2016;39(11):2065–2079. Haber: <a href="https://www.ajmc.com/view/american-diabetes-association-issues-recommendations-for-physical-activity-exercise" target="_blank" rel="noopener">AJMC</a>.</li>
         <li>Bull FC, Al-Ansari SS, Biddle S, et al. <a href="https://bjsm.bmj.com/content/54/24/1451" target="_blank" rel="noopener">World Health Organization 2020 guidelines on physical activity and sedentary behaviour</a>. Br J Sports Med. 2020;54(24):1451–1462.</li>
+        <li>Know Diabetes (NHS West and North London). <a href="https://www.knowdiabetes.org.uk/be-healthier/move-more/exercise-and-staying-safe/" target="_blank" rel="noopener">Exercise and staying safe</a>.</li>
+        <li>NHS 111 Wales. <a href="https://111.wales.nhs.uk/hypoglycaemia" target="_blank" rel="noopener">Hypoglycaemia (low blood sugar)</a>. Updated 6 June 2025.</li>
       </ol>
     </div>
   </section>
