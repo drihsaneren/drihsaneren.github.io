@@ -10,7 +10,7 @@ _ex2("rl_soleus", "soleus", "Alt baldır esnetme", "Baldır esnetmesindeki gibi 
 
 RL_FAQ = [
  ("Gebelikte huzursuz bacak olur mu?", "Evet, gebelikte sık görülür ve genellikle doğumdan sonra geçer. Demir eksikliği eşlik edebileceği için hekiminize söyleyin; gebelikte ilaç ve takviyeleri hekime danışmadan kullanmayın."),
- ("Demir hapını kendim başlayabilir miyim?", "Önce kan değerlerinize bakılması gerekir. Amerikan Uyku Tıbbı Akademisi'nin 2024 kılavuzu, huzursuz bacak sendromu olan herkesin demir değerlerinin ölçülmesini ve takviyenin bu değerlere göre verilmesini öneriyor. Gereksiz demir kullanımı zararlı olabilir."),
+ ("Demir hapını kendim başlayabilir miyim?", "Önce kan değerlerinize bakılması gerekir. Amerikan Uyku Tıbbı Akademisi'nin 2024 kılavuzu, huzursuz bacak sendromu olan herkesin demir değerlerinin ölçülmesini ve takviyenin bu değerlere göre verilmesini öneriyor. Gereksiz demir kullanımı zararlı olabilir. Uluslararası Huzursuz Bacak Sendromu Çalışma Grubu'nun (IRLSSG) 2018 kılavuzuna göre ağızdan demir, ferritin değeri 75 µg/l ya da altında olanlarda muhtemelen etkili; orta ve ağır belirtilerde damardan demir (ferrik karboksimaltoz) ferritini 300 µg/l'nin altında olanlarda etkili bulundu. Hangi yolun uygun olduğuna hekiminiz karar verir."),
  ("Kahve ve alkol etkiler mi?", "Belirtileri artırabilirler. İngiltere Ulusal Sağlık Sistemi (NHS), öğleden sonra kafeinden ve yatmadan önceki 2 saat içinde alkolden kaçınmayı, sigarayı bırakmayı öneriyor. İlaç dışı tedavileri inceleyen 11 çalışmalık bir derlemede egzersiz, belirtilerin şiddetini kontrol gruplarına göre azaltan yöntemler arasındaydı; ancak çalışma sayısı az ve kanıt kalitesi yüksek değildi."),
  ("Kramptan farkı nedir?", "Kramp, kasın ağrılı ve istem dışı kasılmasıdır ve genellikle kısa sürer. Huzursuz bacakta ise bacakları hareket ettirme dürtüsü ve rahatsız edici bir his vardır; dinlenirken başlar ve hareketle hafifler. Sinir hasarı (nöropati) da benzer belirtiler verebilir; ayırımı hekim yapar."),
 ]
@@ -21,6 +21,7 @@ RL_SRC = [
  "HCPLive. " + ext("https://www.hcplive.com/view/aasm-updates-clinical-guidelines-restless-legs-syndrome", "AASM updates clinical guidelines for restless legs syndrome") + ". 22 November 2024.",
  "Aukerman MM, Aukerman D, Bayard M, Tudiver F, Thorp L, Bailey B. " + ext("https://www.jabfm.org/content/19/5/487.short", "Exercise and restless legs syndrome: a randomized controlled trial") + ". J Am Board Fam Med. 2006;19(5):487–493.",
  "Harrison EG, Keating JL, Morgan PE. " + ext("https://search.pedro.org.au/search-results/record-detail/57803", "Non-pharmacological interventions for restless legs syndrome: a systematic review of randomised controlled trials") + ". Disabil Rehabil. 2019;41(17):2006–2014.",
+ "Allen RP, Picchietti DL, Auerbach M, et al. " + ext("https://doi.org/10.1016/j.sleep.2017.11.1126", "Evidence-based and consensus clinical practice guidelines for the iron treatment of restless legs syndrome/Willis-Ekbom disease in adults and children: an IRLSSG task force report") + ". Sleep Med. 2018;41:27–44.",
 ]
 
 RL_BODY = f'''<header class="page">
@@ -29,7 +30,7 @@ RL_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Huzursuz bacak sendromu</h1>
     <p class="lede">Huzursuz bacak sendromu, bacakları hareket ettirmeye yönelik güçlü bir dürtüdür; çoğu zaman karıncalanma, zonklama ya da ağrı gibi rahatsız edici bir hisle birlikte gelir. Akşamları ve dinlenirken artar, hareket edince hafifler ve uykuyu bozabilir. Demir eksikliğinin düzeltilmesi, yaşam alışkanlıkları ve düzenli egzersiz tedavinin önemli parçalarıdır.</p>
-    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

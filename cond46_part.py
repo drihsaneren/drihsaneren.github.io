@@ -8,7 +8,7 @@ _ex2("dk_bend", "hslide", "Diz bükme", "Sırtüstü uzanın ya da oturun. Topu�
 _ex2("dk_bridge", "bridge", "Köprü", "Sırtüstü uzanın, ayaklarınız yerde, dizleriniz bükülü olsun; dizlik kullanıyorsanız izin verilen sınıra kadar bükün. Kalçanızı ve belinizi yerden kaldırın, sonra yavaşça indirin.", "Her seferde 5–10 saniye tutun")
 
 PD_FAQ = [
- ("Diz kapağım yeniden çıkar mı?", "Olabilir. 519 kişiyi kapsayan 10 araştırmayı inceleyen bir Cochrane derlemesine göre ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık üçte birinde, 2–9 yıl içinde diz kapağı yeniden çıktı. Ameliyat olanlarda bu oran yaklaşık beşte birdi; ancak kanıtın kesinliği çok düşük ve ameliyatın günlük işlevi belirgin şekilde iyileştirip iyileştirmediği belli değil. Çocuk ve gençlerde oran daha yüksek olabilir: 16 yaşından küçük, diz kapağı ilk kez çıkmış 64 dizle yapılan ve ortalama 14 yıl izlenen bir çalışmada diz kapağı ameliyatsız izlenenlerin %71’inde, iç bağları onarılanların %67’sinde yeniden çıktı; ameliyat uzun dönem sonucu iyileştirmedi ve tekrarı öngören tek etken ailede diz kapağı çıkığı olmasıydı."),
+ ("Diz kapağım yeniden çıkar mı?", "Olabilir. 519 kişiyi kapsayan 10 araştırmayı inceleyen bir Cochrane derlemesine göre ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık üçte birinde, 2–9 yıl içinde diz kapağı yeniden çıktı. Ameliyat olanlarda bu oran yaklaşık beşte birdi; ancak kanıtın kesinliği çok düşük ve ameliyatın günlük işlevi belirgin şekilde iyileştirip iyileştirmediği belli değil. Çocuk ve gençlerde oran daha yüksek olabilir: 16 yaşından küçük, diz kapağı ilk kez çıkmış 64 dizle yapılan ve ortalama 14 yıl izlenen bir çalışmada diz kapağı ameliyatsız izlenenlerin %71’inde, iç bağları onarılanların %67’sinde yeniden çıktı; ameliyat uzun dönem sonucu iyileştirmedi ve tekrarı öngören tek etken ailede diz kapağı çıkığı olmasıydı. Ameliyatsız tedaviyi inceleyen 25 çalışmayı (920 hasta) kapsayan bir sistematik derlemede de yeniden çıkma oranı %31 bulundu; hiçbir ameliyatsız yöntemin diğerinden üstün olduğu gösterilemedi."),
  ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez. Diz içinde başka yapılar da hasar gördüyse ya da diz kapağı tekrar tekrar çıkıyorsa ameliyat düşünülebilir. Karar, muayene ve görüntüleme sonrası hekiminizle birlikte verilir."),
  ("Dizlik ne kadar takılır?", "İlk çıkıktan sonra dizlik verilebilir. Ne kadar süre takacağınıza ve dizinizi ne kadar bükebileceğinize ekibiniz karar verir. Bir NHS broşürüne göre dizlik iki haftaya kadar kullanılabilir ve gece, kişisel bakım ve egzersiz sırasında çıkarılabilir. Dizlik çıkınca bir süre tutukluk olması normaldir."),
  ("Spora ne zaman dönebilirim?", "Dizinizin hareketi ve uyluk, arka uyluk ve baldır kaslarınızın gücü sağlam tarafla aynı düzeye gelince; koşma, yön değiştirme ve sıçrama gibi sporunuzun gerektirdiği hareketleri güvenle yapabildiğinizde. Kaynaklarda bu süre 6–8 haftadan 12–24 haftaya kadar değişiyor. Günlük işlere dönüş genellikle 6–12 hafta sürer."),
@@ -21,6 +21,7 @@ PD_SRC = [
  "Royal United Hospitals Bath NHS Foundation Trust. " + ext("https://www.ruh.nhs.uk/patients/patient_information/PHY035_Patella_dislocation.pdf", "Dislocated knee cap (patella)") + ". RUH PHY/035, August 2020.",
  "Smith TO, Gaukroger A, Metcalfe A, Hing CB. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008106.pub4/full", "Surgical versus non-surgical interventions for treating patellar dislocation") + ". Cochrane Database Syst Rev. 2023;(1):CD008106.",
  "Palmu S, Kallio PE, Donell ST, Helenius I, Nietosvaara Y. " + ext("https://ueaeprints.uea.ac.uk/13408", "Acute patellar dislocation in children and adolescents: a randomized clinical trial") + ". J Bone Joint Surg Am. 2008;90(3):463–470.",
+ "Moiz M, Smith N, Smith TO, Chawla A, Thompson P, Metcalfe A. " + ext("https://ora.ox.ac.uk/objects/uuid:81381995-a360-4d23-8b66-21c3b13e1eb7", "Clinical outcomes following nonoperative management of lateral patellar dislocation: a systematic review") + ". Orthop J Sports Med. 2018;6(6):2325967118766275.",
 ]
 
 PD_BODY = f'''<header class="page">
@@ -29,7 +30,7 @@ PD_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diz kapağı çıkığı (patella çıkığı)</h1>
     <p class="lede">Ani bir dönüşte ya da dizinize aldığınız bir darbede diz kapağınızın yerinden kaydığını mı hissettiniz? Diz kapağı, uyluk kemiğindeki oluğundan çoğu zaman dışa doğru çıkar ve sıklıkla kendiliğinden yerine döner. Yerine dönmüş olsa bile bir hekimin muayenesi gerekir. İyileşmenin anahtarı, uyluk ve kalça kaslarınızı yeniden güçlendirmektir.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

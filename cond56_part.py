@@ -41,7 +41,7 @@ _ex2("ks_bd", "ks_band", "Lastik bantla bacağı içe çekme", "Lastik bandı sa
 KS_FAQ = [
  ("Egzersiz yaparken ağrı olursa ne yapmalıyım?", "Hafif bir rahatsızlık kabul edilebilir, ama egzersizler belirtilerinizi belirgin şekilde artırmamalı. Bir egzersiz çok ağrıtıyorsa tekrar sayısını ya da sıklığını azaltın; yine de ağrıtıyorsa bırakın ve bir hekime ya da fizyoterapiste danışın."),
  ("Buz mu, sıcak mı?", "İlk 2–3 günde buz kullanın: nemli bir havluya sarılı buzu ya da donmuş bezelye paketini 15–20 dakika, 2–3 saatte bir uygulayın; buz yanığına dikkat edin. Bu dönemde sıcak banyo, sıcak uygulama, alkol ve masajdan kaçının; şişliği artırabilirler."),
- ("Ne zaman koşabilirim, spora dönebilirim?", "Zorlanmaların çoğu yaklaşık 2 haftada belirgin şekilde düzelir. Yeniden zarar görmemek için koşu gibi zorlu egzersizlerden 8 haftaya kadar kaçınmanız önerilir; ciddi zorlanmaların iyileşmesi aylar sürebilir. Spora, ağrısız yürüyebildiğinizde ve gücünüz neredeyse tamamen geri döndüğünde, bir fizyoterapistle birlikte kademeli dönmek en güvenlisidir."),
+ ("Ne zaman koşabilirim, spora dönebilirim?", "Zorlanmaların çoğu yaklaşık 2 haftada belirgin şekilde düzelir. Yeniden zarar görmemek için koşu gibi zorlu egzersizlerden 8 haftaya kadar kaçınmanız önerilir; ciddi zorlanmaların iyileşmesi aylar sürebilir. Spora, ağrısız yürüyebildiğinizde ve gücünüz neredeyse tamamen geri döndüğünde, bir fizyoterapistle birlikte kademeli dönmek en güvenlisidir. Norveç'te 35 yarı profesyonel futbol takımıyla (652 oyuncu) yapılan bir çalışmada, sezon öncesinde haftada üç, sezon boyunca haftada bir kez yapılan Kopenhag addüksiyon egzersizi programı kasık sorunlarının görülme olasılığını %41 azalttı; spora döndükten sonra bu tür bir güçlendirme programına devam etmek yararlı olabilir."),
  ("Koltuk değneği kullanmalı mıyım?", "Gerekirse ilk birkaç gün kısa süreliğine koltuk değneği ya da başka bir yürüme yardımcısı kullanabilirsiniz. Rahat ettikçe bacağınızı korurken nazikçe hareket ettirmeye başlayın; erken ve hafif hareket iyileşmeyi destekler, tutukluğu ve güç kaybını önler."),
 ]
 
@@ -51,6 +51,7 @@ KS_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/sprains-and-strains/", "Sprains and strains") + ". Page last reviewed: 23 April 2024.",
  "East Lancashire Hospitals NHS Trust, Integrated Musculoskeletal Service. " + ext("https://elht.nhs.uk/download_file/view/577", "Groin pain: patient information and exercises") + ". November 2014.",
  "Weir A, Brukner P, Delahunt E, et al. " + ext("https://doi.org/10.1136/bjsports-2015-094869", "Doha agreement meeting on terminology and definitions in groin pain in athletes") + ". Br J Sports Med. 2015;49(12):768–774",
+ "Harøy J, Clarsen B, Wiger EG, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/55148", "The Adductor Strengthening Programme prevents groin problems among male football players: a cluster-randomised controlled trial") + ". Br J Sports Med. 2019;53(3):150–157.",
 ]
 
 KS_BODY = f'''<header class="page">
@@ -59,7 +60,7 @@ KS_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Kasık zorlanması</h1>
     <p class="lede">Futbolda ani bir yön değiştirme, dönme ya da tekme atma ya da ıslak zeminde kayma sırasında kasıkta veya iç uylukta ağrı mı başladı? Bu genellikle iç uyluk kaslarının fazla gerilmesiyle olan bir kasık zorlanmasıdır. İlk günlerde doğru bakım ve ardından kademeli güçlendirme egzersizleriyle çoğu kişi birkaç hafta içinde belirgin şekilde düzelir.</p>
-    <p class="meta">Son güncelleme: 19 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

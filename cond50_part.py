@@ -11,7 +11,7 @@ _ex2("cz_sls", "sls", "Tek ayak üzerinde denge", "Yaralanmadan önce tek ayak �
 
 CZ_FAQ = [
  ("Aşil tendonu kopmasından nasıl ayırt ederim?", "Her zaman kolay değildir. Topuğun üstünde “çat” diye bir ses, bacağın arkasına darbe almış gibi bir his, tendonda boşluk hissi, düztaban yürüme ve parmak ucuna hiç kalkamama aşil tendonu kopmasını düşündürür. Bu durumda beklemeden acil servise başvurun."),
- ("Ne zaman koşuya ve spora dönebilirim?", "Çoğu kişi yaklaşık 2 haftada kendini daha iyi hisseder, ama yeniden sakatlanmamak için 8 haftaya kadar ağır egzersizden kaçınmak önerilir. Tam güce, tam harekete kavuşup hızlı tempoda ağrısız ve şişliksiz yürüyebildiğinizde sporunuza özgü hareketlere başlayın ve antrenmanı kademeli artırın."),
+ ("Ne zaman koşuya ve spora dönebilirim?", "Çoğu kişi yaklaşık 2 haftada kendini daha iyi hisseder, ama yeniden sakatlanmamak için 8 haftaya kadar ağır egzersizden kaçınmak önerilir. Tam güce, tam harekete kavuşup hızlı tempoda ağrısız ve şişliksiz yürüyebildiğinizde sporunuza özgü hareketlere başlayın ve antrenmanı kademeli artırın. Ani bir hareketle kas yırtığı yaşayan amatör sporcularla yapılan bir çalışmada, yüklenme egzersizlerine yaralanmadan 2 gün sonra başlayanlar, 9 gün sonra başlayanlara göre yaklaşık 3 hafta daha erken ağrısız iyileşti; yeniden yaralanma yalnızca bir sporcuda görüldü."),
  ("Bandaj kullanmalı mıyım?", "Şişliği kontrol etmek için baldıra bası bandajı ya da çorap kullanılabilir. Uyurken çıkarın. Ayağınızda karıncalanma, uyuşma, morarma ya da artan ağrı olursa bandajı hemen çıkarın."),
  ("Fizyoterapi gerekli mi?", "Her zaman gerekmez; çoğu kişi bu önerilerle iyileşir. Yaralanmadan 10 gün sonra hâlâ ayağınıza basamıyorsanız ve baldırınız ağrılı ve şişse bir fizyoterapiste başvurun."),
  ("Ne kadar sürer?", "Çoğu kişi yaklaşık 2 haftada kendini daha iyi hisseder; iyileşme genellikle 6 hafta kadar sürer. Ciddi yırtıkların tam iyileşmesi 3 aya kadar sürebilir; hafif ağrı ve şişlik bazen 3–6 ay devam eder."),
@@ -22,6 +22,7 @@ CZ_SRC = [
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-calf-muscle-tears-and-strains-6064", "Calf muscle tears and strains") + ". February 2025.",
  "Royal Free London NHS Foundation Trust. " + ext("https://royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/calf-muscle-tear", "Calf muscle tear") + ". RFL1181, June 2026.",
  "Green B, Pizzari T. " + ext("https://bjsm.bmj.com/content/51/16/1189", "Calf muscle strain injuries in sport: a systematic review of risk factors for injury") + ". Br J Sports Med. 2017;51(16):1189–1194",
+ "Bayer ML, et al. Early versus delayed rehabilitation after acute muscle injury. N Engl J Med. 2017;377(13):1300–1301. Özet: " + ext("https://medicalresearch.com/?p=37335", "MedicalResearch.com, 4 October 2017") + ".",
  "NHS. " + ext("https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/", "DVT (deep vein thrombosis)") + ". Page last reviewed: 30 April 2026.",
 ]
 
@@ -31,7 +32,7 @@ CZ_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Baldır kası zorlanması</h1>
     <p class="lede">Koşarken, sıçrarken ya da ani bir hamlede baldırınıza bıçak saplanmış gibi keskin bir ağrı mı girdi? Baldırdaki iki büyük kasın birinde küçük bir yırtık olduğunda baldır kası zorlanması ortaya çıkar. Sık görülen bir spor yaralanmasıdır ve çoğu zaman birkaç hafta içinde düzelir. İlk günlerde doğru bakım ve sonra kademeli egzersiz, iyileşmeyi hızlandırır ve yeniden sakatlanmayı önler.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

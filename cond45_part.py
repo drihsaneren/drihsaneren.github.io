@@ -10,7 +10,7 @@ SV_FAQ = [
  ("Çocuğum sporu bırakmalı mı?", "Tamamen bırakması gerekmez. Ağrı şiddetliyse koşma ve zıplama içeren sporlara, ağrı yatışana kadar ara verebilir; bu sürede yüzme ve bisiklet gibi daha az yüklenen etkinlikler iyi bir seçenektir. Ağrı geçince etkinliğini kademeli olarak artırabilir."),
  ("Ne kadar sürer?", "Topuk ağrısı genellikle büyüme tamamlanınca geçer. Büyüme dönemlerinde birkaç kez tekrarlayabilir. Önerilere rağmen 6 hafta içinde düzelme yoksa bir uzmana görünebilirsiniz."),
  ("Topukluk ya da tabanlık işe yarar mı?", "Küçük çalışmalarda jel topukluk ve şok emici tabanlıkların kısa vadede ağrıyı azalttığı görüldü. 124 çocuğun katıldığı bir araştırmada tüm gruplar 2 ayda belirgin şekilde iyileşti; topukluğun sağladığı ek fark küçüktü, ayakkabı değişikliği ise ek bir fark yaratmadı."),
- ("Fizyoterapi gerekli mi?", "101 çocuğun katıldığı bir araştırmada bekleyip izlemek, şok emici topukluk ve baldır güçlendirmeli fizyoterapi arasında 3 ayda fark bulunmadı. Yani çoğu çocuk basit önlemlerle iyileşir. Ağrı geçmiyor ya da sık tekrarlıyorsa kişiye özel bir değerlendirme yol gösterici olabilir."),
+ ("Fizyoterapi gerekli mi?", "101 çocuğun katıldığı bir araştırmada bekleyip izlemek, şok emici topukluk ve baldır güçlendirmeli fizyoterapi arasında 3 ayda fark bulunmadı. 6. haftada şok emici topukluk kullanan çocuklar en memnun gruptu; üç grupta da topuk ağrısı belirgin şekilde azaldı. Yani çoğu çocuk basit önlemlerle iyileşir. Ağrı geçmiyor ya da sık tekrarlıyorsa kişiye özel bir değerlendirme yol gösterici olabilir."),
  ("Neden bazen iki topuk birden ağrıyor?", "Durum büyümeyle ilgili olduğu için tek ya da iki topukta birden görülebilir."),
 ]
 
@@ -19,6 +19,7 @@ SV_SRC = [
  "NHS Lothian. " + ext("https://policyonline.nhslothian.scot/wp-content/uploads/2023/03/Severs_Disease_self-management_guide.pdf", "Sever’s disease: self-management guide") + ". May 2022.",
  "Uvelli K, Neher JO, Safranek S. " + ext("https://www.aafp.org/pubs/afp/issues/2017/0715/p126.html", "Treatment for calcaneal apophysitis") + ". Am Fam Physician. 2017;96(2):126–127.",
  "James AM, Williams CM, Haines TP. " + ext("https://doi.org/10.1186/1757-1146-6-16", "Effectiveness of interventions in reducing pain and maintaining physical activity in children and adolescents with calcaneal apophysitis (Sever’s disease): a systematic review") + ". J Foot Ankle Res. 2013;6:16",
+ "Wiegerinck JI, Zwiers R, Sierevelt IN, van Weert HC, van Dijk CN, Struijs PA. " + ext("https://search.pedro.org.au/search-results/record-detail/42748", "Treatment of calcaneal apophysitis: wait and see versus orthotic device versus physical therapy: a pragmatic therapeutic randomized clinical trial") + ". J Pediatr Orthop. 2016;36(2):152–157.",
  "NHS. " + ext("https://www.nhs.uk/conditions/heel-pain/", "Heel pain") + ". Page last reviewed: 24 October 2025.",
 ]
 
@@ -28,7 +29,7 @@ SV_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Çocuklarda topuk ağrısı (Sever hastalığı)</h1>
     <p class="lede">Çocuğunuz koşup zıpladıktan sonra topuğunun ağrıdığını mı söylüyor, aksıyor ya da parmak uçlarında mı yürüyor? Büyüme döneminde topuk kemiğinin büyüme bölgesinin tahriş olmasına Sever hastalığı denir. Adı ürkütücü olsa da büyümeyle ilgili, sık görülen ve geçici bir durumdur; büyüme tamamlanınca topuk ağrısı geçer.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

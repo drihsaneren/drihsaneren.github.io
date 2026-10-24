@@ -12,7 +12,7 @@ _ex2("wh_child", "childp", "Sırtı açan esneme", "Diz çökün ve kalçanızı
 WH_FAQ = [
  ("Boyunluk takmalı mıyım?", "Hayır. NHS, boyunluğun iyileşmeye yardım etmediğini belirtiyor; bir NHS fizyoterapi broşüründe araştırmaların boyunluğun iyileşmeyi geciktirdiğini gösterdiği yazıyor. Boynunuzu uzun süre dinlendirmek yerine günlük işlerinize devam etmeniz önerilir."),
  ("Ne kadar sürer?", "Whiplash çoğu zaman 2–3 ay içinde iyileşir, ama bazı kişilerde belirtiler daha uzun sürebilir. Bir hafta içinde düzelme yoksa ya da 6 hafta içinde günlük işlerinizin çoğuna dönemediyseniz hekiminize başvurabilirsiniz."),
- ("Fizyoterapi gerekli mi?", "Çoğu kişi basit önerilerle ve hareketli kalarak iyileşir. İngiltere’de yapılan büyük bir araştırmada belirtileri süren 599 kişide, altı seansa kadar fizyoterapi, tek seanslık danışmanlığa göre 4. ayda biraz daha hızlı iyileşme sağladı; 8. ve 12. aylarda fark kalmadı. Belirtileriniz geçmiyorsa kişiye özel bir değerlendirme yol gösterici olabilir."),
+ ("Fizyoterapi gerekli mi?", "Çoğu kişi basit önerilerle ve hareketli kalarak iyileşir. İngiltere’de yapılan büyük bir araştırmada belirtileri süren 599 kişide, altı seansa kadar fizyoterapi, tek seanslık danışmanlığa göre 4. ayda biraz daha hızlı iyileşme sağladı; 8. ve 12. aylarda fark kalmadı. Belirtileriniz geçmiyorsa kişiye özel bir değerlendirme yol gösterici olabilir. Belirtileri 3 aydan uzun süren 172 kişiyle Avustralya'da yapılan bir çalışmada da 20 seanslık kapsamlı bir fizyoterapi egzersiz programı, tek seanslık danışmanlık ve telefon desteğine göre ağrıyı 14. haftada, 6. ayda ve 12. ayda daha fazla azaltmadı."),
  ("Ne zaman araba kullanabilirim?", "Başınızı çevirip iki omzunuzun üzerinden rahatça ve güvenle bakabildiğinizde. Kollarınızda ya da bacaklarınızda uyuşma, güçsüzlük gibi uyarı belirtileri varsa hekiminizle konuşmadan araç ya da bisiklet kullanmayın."),
  ("Nasıl uyumalıyım?", "Sırtüstü ya da yan yatmak boynunuz için daha iyi bir pozisyondur. Boynunuzu yastıklarla destekleyebilirsiniz."),
 ]
@@ -22,6 +22,7 @@ WH_SRC = [
  "Berkshire Healthcare NHS Foundation Trust. " + ext("https://www.berkshirehealthcare.nhs.uk/media/b3ygh1f0/bh1165u-whiplash-v1-feb-2026.pdf", "Whiplash: physiotherapy advice and exercises") + ". February 2026.",
  "NHS Fife. " + ext("https://www.nhsfife.org/media/33112/whiplash_neck_pain_v7.pdf", "Whiplash neck pain") + ". 2016.",
  "Lamb SE, Gates S, Williams MA, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/35109", "Emergency department treatments and physiotherapy for acute whiplash: a pragmatic, two-step, randomised controlled trial") + ". Lancet. 2013;381(9866):546–556.",
+ "Michaleff ZA, Maher CG, Lin CWC, et al. " + ext("https://research.bond.edu.au/en/publications/comprehensive-physiotherapy-exercise-programme-or-advice-for-chro/", "Comprehensive physiotherapy exercise programme or advice for chronic whiplash (PROMISE): a pragmatic randomised controlled trial") + ". Lancet. 2014;384(9938):133–141.",
  "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
 ]
 
@@ -31,7 +32,7 @@ WH_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun incinmesi (whiplash)</h1>
     <p class="lede">Bir trafik kazasında, düşmede ya da spor sırasında başınız ani bir hareketle öne arkaya mı savruldu? Bu tür boyun incinmesine whiplash (kamçı yaralanması) denir. Çoğu zaman 2–3 ay içinde iyileşir. Boyunluk takmak yerine hareketli kalmak, iyileşmenin en önemli parçasıdır.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

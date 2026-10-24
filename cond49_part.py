@@ -12,7 +12,7 @@ _ex2("so_back", "so_backf", "Havluyla eli sırta kaydırma", "Bir havluyu sırt�
 SO_FAQ = [
  ("Kortizon iğnesi yapılabilir mi?", "Eklem içine yapılan kortizon iğnesi bazı kişilerde ağrıyı bir süre azaltabilir, ama etkisi kişiden kişiye değişir ve herkes için uygun değildir. Uzun süre tekrar tekrar yapılamaz, çünkü zamanla omuz kirişlerine zarar verir."),
  ("Kapalı (artroskopik) ameliyat işe yarar mı?", "Bir NHS broşürüne göre kapalı ameliyat omuz kireçlenmesinde yararlı değildir. Çoğu kişi fizyoterapi, ağrı kesiciler, kendi kendine bakım ve gerekirse iğnelerle ameliyatsız tedavi edilir."),
- ("Protez ne zaman gerekir?", "Ağrı belirginse ve ameliyatsız tedaviler yeterince yardımcı olmadıysa omuz protezi düşünülebilir. Hangi protezin uygun olduğuna cerrahınız karar verir."),
+ ("Protez ne zaman gerekir?", "Ağrı belirginse ve ameliyatsız tedaviler yeterince yardımcı olmadıysa omuz protezi düşünülebilir. Hangi protezin uygun olduğuna cerrahınız karar verir. 20 randomize çalışmayı (1.083 kişi) inceleyen 2020 tarihli bir Cochrane derlemesinde, omuz protezini fizyoterapi ya da başka tedavilerle karşılaştıran bir çalışma bulunmadı. Kireçlenmede tam omuz protezi yarım proteze göre ağrı ve işlevde küçük bir yarar sağlıyor olabilir, ancak kanıtın kesinliği düşük."),
  ("Donuk omuzdan farkı ne?", "İkisinde de omuz ağrılı ve tutuktur. Ayırt etmek için hekiminiz sizi muayene eder ve kireçlenmeyi görmek için röntgen ister."),
  ("Hangi sporları yapabilirim?", "Yürüyüş, bisiklet, yüzme ve düşük tempolu aerobik, tai chi, yoga, pilates gibi eklemi zorlamayan etkinlikler uygundur. Egzersiz ağrıyı ve tutukluğu azaltır, kasları güçlendirir ve genel kondisyonu artırır."),
 ]
@@ -22,6 +22,7 @@ SO_SRC = [
  "Royal United Hospitals Bath NHS Foundation Trust. " + ext("https://ruh.nhs.uk/patients/patient_information/PHY024_Shoulder_Osteoarthritis.pdf", "Shoulder osteoarthritis") + ". RUH PHY/024, April 2020.",
  "NHS Lothian. " + ext("https://policyonline.nhslothian.scot/wp-content/uploads/2024/05/Shoulder-osteoarthritis.pdf", "Shoulder osteoarthritis") + ". Version 1.0, May 2024.",
  "East Lancashire Hospitals NHS Trust. " + ext("https://www.elht.nhs.uk/application/files/3415/2293/8362/Osteoarthritis_of_the_Shoulder_-_Patient__Information_and_Exercises_-_PHYSIO_001.pdf", "Osteoarthritis of the shoulder: patient information and exercises") + ". PHYSIO-001.",
+ "Craig RS, Goodier H, Singh JA, Hopewell S, Rees JL. " + ext("https://www.cochrane.org/evidence/CD012879_shoulder-replacement-surgery-osteoarthritis-and-arthritis-associated-torn-rotator-cuff-tendons", "Shoulder replacement surgery for osteoarthritis and rotator cuff tear arthropathy") + ". Cochrane Database Syst Rev. 2020;(4):CD012879.",
  "NICE. " + ext("https://www.nice.org.uk/guidance/ng226", "Osteoarthritis in over 16s: diagnosis and management") + ". NICE guideline NG226, 2022",
 ]
 
@@ -31,7 +32,7 @@ SO_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuz kireçlenmesi</h1>
     <p class="lede">Omzunuz hareket ettikçe ağrıyor, uzanmak zorlaşıyor ya da hareket ederken eklemden takılma ve sürtünme sesleri mi geliyor? Omuz kireçlenmesi, eklemi kaplayan kıkırdağın zamanla incelmesiyle ortaya çıkar. Kalça, diz ve ellere göre daha seyrek görülür ve genellikle 50 yaşından sonra başlar. Çoğu kişi ameliyatsız; hareket, egzersiz ve doğru günlük alışkanlıklarla durumunu yönetir.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

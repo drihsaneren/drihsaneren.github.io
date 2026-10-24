@@ -12,7 +12,7 @@ SL_FAQ = [
  ("Bel kayması geçer mi, düzelir mi?", "Kayan omur genellikle yerine geri gitmez; ancak çoğu kişide kayma zamanla ilerlemez ve belirtiler ameliyatsız tedaviyle azalır. Hafif kaymalar hiç belirti vermeyebilir; birçok kişi bunu başka bir nedenle çekilen röntgende öğrenir."),
  ("Egzersiz yapmak kaymayı artırır mı?", "Gövdeyi ve karın kaslarını güçlendiren egzersizler tedavinin temel parçasıdır. Ağrınızı belirgin biçimde artıran hareketleri bir süre bırakın ve programınızı bir fizyoterapistle planlayın."),
  ("Korse kullanmalı mıyım?", "Korse genellikle omurda bir çatlak (kırık) olduğunda önerilir. Hekiminiz önermediyse kullanmanız gerekmez; gövde kaslarını egzersizle güçlendirmek tedavinin temelidir."),
- ("Ameliyatta vida (füzyon) şart mı?", "Yürürken bacak ağrısına yol açan dar kanalla birlikte hafif bel kayması olan hastalarda yapılan bir İsveç çalışmasında, sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış ve maliyet ise arttı. Hangi ameliyatın uygun olduğuna, kaymanın derecesine ve kararlılığına bakılarak cerrahınızla birlikte karar verilir."),
+ ("Ameliyatta vida (füzyon) şart mı?", "Yürürken bacak ağrısına yol açan dar kanalla birlikte hafif bel kayması olan hastalarda yapılan bir İsveç çalışmasında, sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış ve maliyet ise arttı. Hangi ameliyatın uygun olduğuna, kaymanın derecesine ve kararlılığına bakılarak cerrahınızla birlikte karar verilir. Norveç'te dar kanal ve tek seviyede en az 3 mm bel kayması olan 262 hastanın değerlendirildiği NORDSTEN-DS çalışmasında da yalnızca sinirleri rahatlatan ameliyat, vidalı sabitleme eklenen ameliyattan geri kalmadı: 2 yılda engellilik puanı en az %30 azalanların oranı %71,4'e karşı %72,9'du. Yeniden ameliyat oranı ise yalnızca rahatlatma yapılanlarda biraz daha yüksekti (%12,5'e karşı %9,1)."),
 ]
 
 SL_SRC = [
@@ -21,6 +21,7 @@ SL_SRC = [
  "Försth P, Ólafsson G, Carlsson T, et al. A randomized, controlled trial of fusion surgery for lumbar spinal stenosis. N Engl J Med. 2016;374(15):1413–1423. Özet: " + ext("https://www.thebottomline.org.uk/summaries/ssss/", "The Bottom Line, The Swedish Spinal Stenosis Study") + ".",
  "Matz PG, Meagher RJ, Lamer T, et al. " + ext("https://doi.org/10.1016/j.spinee.2015.11.055", "Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis") + ". Spine J. 2016;16(3):439–448",
  "Margetis K, Gillis CC. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK430767/", "Spondylolisthesis") + ". In: StatPearls. Treasure Island (FL): StatPearls Publishing; last update 28 March 2025.",
+ "Austevoll IM, Hermansen E, Fagerland MW, et al. " + ext("https://ninum.uit.no/handle/10037/24174", "Decompression with or without fusion in degenerative lumbar spondylolisthesis") + ". N Engl J Med. 2021;385(6):526–538.",
 ]
 
 SL_BODY = f'''<header class="page">
@@ -29,7 +30,7 @@ SL_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel kayması (spondilolistezis)</h1>
     <p class="lede">Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt iki seviyesinde (L4–L5 ve L5–S1) görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda tedavinin temeli ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir.</p>
-    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

@@ -6,7 +6,7 @@ _ex2("fai_hslide", "hslide", "Topuk kaydırma", "Sırtüstü yatın, bacakların
 
 FAI_FAQ = [
  ("Kalça sıkışması kireçlenmeye yol açar mı?", "Bu konu henüz netleşmedi. Uluslararası uzman görüşüne göre, ağrısı olmayan kişilerde bu kemik şeklini ameliyatla düzeltmenin kireçlenme riskini değiştirdiğine dair kanıt yok. Kireçlenme hakkında kalça kireçlenmesi rehberimize bakabilirsiniz."),
- ("Ameliyat olmam gerekir mi?", "Herkesin ameliyata ihtiyacı yoktur. Genellikle önce fizyoterapi, zorlayan hareketleri azaltma ve ağrı kesicilerle başlanır; belirtiler bunlarla geçmezse ameliyat düşünülebilir. Kararı, olası yararları ve riskleri konuşarak cerrahınızla birlikte verebilirsiniz."),
+ ("Ameliyat olmam gerekir mi?", "Herkesin ameliyata ihtiyacı yoktur. Genellikle önce fizyoterapi, zorlayan hareketleri azaltma ve ağrı kesicilerle başlanır; belirtiler bunlarla geçmezse ameliyat düşünülebilir. Kararı, olası yararları ve riskleri konuşarak cerrahınızla birlikte verebilirsiniz. İngiltere'de 222 kişiyle yapılan UK FAIT çalışmasında kapalı kalça ameliyatı olanların 8. aydaki günlük işlev puanı, 5 ay boyunca en fazla 8 seanslık fizyoterapi ve etkinlik düzenlemesi alanlardan ortalama 10 puan daha iyiydi (0–100 ölçekte)."),
  ("Spor yapmayı bırakmalı mıyım?", "Çoğu zaman tamamen bırakmanız gerekmez. Ağrıyı artıran derin çömelme, hamle ve sıçrama gibi hareketleri bir süre azaltıp yüzme gibi kalçayı daha az zorlayan sporlara yönelebilirsiniz."),
  ("Röntgende sıkışma görüldü ama ağrım yok, ne yapmalıyım?", "Bu kemik şekli ağrısı olmayan pek çok kişide de görülür. Uluslararası uzman görüşüne göre ağrısı olmayan kişilere ameliyat nadiren önerilir; düzenli egzersizle aktif kalmaya devam edebilirsiniz."),
 ]
@@ -17,6 +17,7 @@ FAI_SRC = [
  "Midlands Partnership University NHS Foundation Trust. " + ext("https://mpft.nhs.uk/services/msk/self-help/hip/hip-impingement-fai", "Hip impingement (FAI)") + ".",
  "George Eliot Hospital NHS Trust. " + ext("https://www.geh.nhs.uk/patients-and-visitors/patients/patient-leaflets/hip-impingement-fai", "Hip impingement (FAI)") + ". GEH-5029-1-2025, approved 20 August 2025.",
  "Kemp JL, Risberg MA, Mosler A, et al. " + ext("https://bjsm.bmj.com/content/54/9/504", "Physiotherapist-led treatment for young to middle-aged active adults with hip-related pain: consensus recommendations from the International Hip-related Pain Research Network, Zurich 2018") + ". Br J Sports Med. 2020;54(9):504–511.",
+ "Palmer AJR, Ayyar Gupta V, Fernquest S, et al. " + ext("https://eprints.whiterose.ac.uk/180198", "Arthroscopic hip surgery compared with physiotherapy and activity modification for the treatment of symptomatic femoroacetabular impingement: multicentre randomised controlled trial") + ". BMJ. 2019;364:l185.",
 ]
 
 FAI_BODY = f'''<header class="page">
@@ -25,7 +26,7 @@ FAI_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Kalça sıkışması (FAI)</h1>
     <p class="lede">Kalça sıkışması (femoroasetabular sıkışma, FAI), uyluk kemiğinin başı ya da leğen kemiğindeki yuvası farklı şekilli olduğu için kalçanın hareket ederken düzgün kayamaması ve çevresindeki dokuların tahriş olmasıdır. En sık kasıkta, hareketle artan bir ağrıya yol açar. Bu kemik şekli ağrısı olmayan pek çok kişide de görülür; bu yüzden tanı, şikâyetler, muayene ve görüntüleme birlikte değerlendirilerek konur. Tedavi çoğu zaman fizyoterapi ve zorlayan hareketleri azaltmakla başlar.</p>
-    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

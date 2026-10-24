@@ -22,7 +22,7 @@ TUG_FAQ = [
  ("Testi tek başıma yapabilir miyim?", "Hayır. Süreyi tutacak ve güvenliğiniz için yanınızda yürüyecek birinin olması gerekir. Test 1991’de bir geriatri gündüz hastanesine başvuran 60 yaşlıyla geliştirildi; süre, denge ölçeği ve günlük yaşamda bağımsızlıkla güçlü bir ilişki gösterdi."),
  ("Baston ya da yürüteçle yapabilir miyim?", "Evet. Her zamanki ayakkabılarınızla ve günlük hayatta kullandığınız yürüme yardımcısıyla yapın. Zaman içinde karşılaştırmak için her seferinde aynı şekilde yapmanız yeterli."),
  ("Sürem 12 saniyenin üzerinde çıktı, ne yapmalıyım?", "Bu bir tanı değildir. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), testi 12 saniye ya da daha uzun sürede tamamlayan yaşlıları düşme açısından riskli kabul ediyor ve daha ayrıntılı değerlendirme öneriyor. Bir hekim ya da fizyoterapistle konuşabilir, aşağıdaki güç ve denge egzersizleriyle başlayabilirsiniz."),
- ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Sağlıklı ve bağımsız yaşayan yaşlılarda yapılan çalışmalar da bu testin tek başına düşmeleri öngörmediğini gösteriyor. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
+ ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Sağlıklı ve bağımsız yaşayan yaşlılarda yapılan çalışmalar da bu testin tek başına düşmeleri öngörmediğini gösteriyor. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz. 25 çalışmayı inceleyen bir derlemede, 13,5 saniye eşiği kullanıldığında test düşen kişilerin yalnızca yaklaşık üçte birini (%31) doğru belirledi; yazarlar testin tek başına kullanılmamasını öneriyor."),
  ("Daha genç yaştaysam ne olacak?", "Buradaki karşılaştırma değerleri 60 yaş ve üstü kişilerden elde edildi. Daha genç yaştaysanız sürenizi kaydedip zaman içindeki değişimini izleyebilirsiniz."),
 ]
 
@@ -32,7 +32,7 @@ TUG_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Kalk ve yürü testi</h1>
     <p class="lede">Sandalyeden kalkıp 3 metre yürümek, dönüp geri gelmek ve yeniden oturmak kaç saniyenizi alıyor? “Süreli kalk ve yürü testi” (Timed Up and Go, kısaca TUG), hareketliliği ve düşme riskini değerlendirmek için kullanılan basit bir test. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), testi 12 saniye ya da daha uzun sürede tamamlayan yaşlıları düşme açısından riskli kabul ediyor. Yanınızda biriyle, aşağıdaki süreölçerle deneyin.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -162,6 +162,7 @@ TUG_BODY = f'''<header class="page">
         "Browne W, Nair BR. " + ext("https://doi.org/10.5694/mja2.12045", "The Timed Up and Go test") + ". Med J Aust. 2019;210(1):13–14.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
         "Podsiadlo D, Richardson S. " + ext("https://doi.org/10.1111/j.1532-5415.1991.tb01616.x", "The timed “Up & Go”: a test of basic functional mobility for frail elderly persons") + ". J Am Geriatr Soc. 1991;39(2):142–148.",
+        "Barry E, Galvin R, Keogh C, Horgan F, Fahey T. " + ext("https://doi.org/10.1186/1471-2318-14-14", "Is the Timed Up and Go test a useful predictor of risk of falls in community dwelling older adults: a systematic review and meta-analysis") + ". BMC Geriatr. 2014;14:14.",
       ])}
     </div>
   </section>
