@@ -199,7 +199,7 @@ _ex2("ac_calf", "calf", "Duvarda baldır germe", "Ellerinizi duvara dayayın, a�
 _ex2("ac_sls", "sls", "Tek ayak üzerinde denge", "Tezgâha hafifçe tutunarak ağrılı taraftaki ayağınızın üzerinde durun. Kolaylaştıkça tutunmayı azaltın ya da gözlerinizi kısa süre kapatın.", "30 saniye, 3 kez")
 
 AC_FAQ = [
- ("Koşmaya devam edebilir miyim?", "Çoğu zaman evet, ama yükü azaltarak. Koşu sırasındaki ağrı hafif düzeyde kalıyor ve ertesi sabah artmıyorsa devam edebilirsiniz. Yokuş, tempo ve hız antrenmanlarını bir süre azaltın."),
+ ("Koşmaya devam edebilir miyim?", "Çoğu zaman evet, ama yükü azaltarak. Koşu sırasındaki ağrı hafif düzeyde kalıyor ve ertesi sabah artmıyorsa devam edebilirsiniz. Yokuş, tempo ve hız antrenmanlarını bir süre azaltın. 38 hastayla yapılan randomize bir çalışmada, ağrıyı izleyerek koşu ve sıçramaya devam edenler ile ilk 6 hafta bu etkinliklere ara verenler aynı egzersiz programıyla benzer şekilde iyileşti; etkinliğe devam etmenin olumsuz bir etkisi görülmedi."),
  ("Ne kadar sürede iyileşir?", "Sabır gerektirir. Çalışmalarda egzersiz programları 12 hafta sürdü ve kazanımlar 1 yıl sonra da korundu. Bazı kişilerde tam iyileşme birkaç ay daha sürebilir."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "Aşil kirişine kortizon iğnesi, kirişi zayıflatıp yırtılma riskini artırabileceği için genellikle önerilmez. Önce düzenli yüklenme egzersizlerinin denenmesi gerekir."),
  ("Germe egzersizleri yeterli mi?", "Tek başına genellikle yeterli değildir. Kirişin iyileşmesi için asıl gereken, kademeli olarak artırılan yüklenme egzersizleridir; germe hareketleri bunlara eklenebilir."),
@@ -211,6 +211,7 @@ AC_SRC = [
  "Alfredson H, Pietilä T, Jonsson P, Lorentzon R. " + ext("https://journals.sagepub.com/doi/10.1177/03635465980260030301", "Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis") + ". Am J Sports Med. 1998;26(3):360-366.",
  "Silbernagel KG, Hanlon S, Sprague A. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC7249277", "Current clinical concepts: conservative management of Achilles tendinopathy") + ". J Athl Train. 2020;55(5)",
  "Chimenti RL, Neville C, Houck J, Cuddeford T, Carreira D, Martin RL. " + ext("https://doi.org/10.2519/jospt.2024.0302", "Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision – 2024") + ". J Orthop Sports Phys Ther. 2024;54(12):CPG1–CPG32.",
+ "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. " + ext("https://search.pedro.org.au/search-results/record-detail/18389", "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study") + ". Am J Sports Med. 2007;35(6):897–906.",
 ]
 
 AC_BODY = f'''<header class="page">
@@ -219,7 +220,7 @@ AC_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Aşil tendinopatisi</h1>
     <p class="lede">Topuğun hemen üstünde, aşil kirişinde ağrı, sabah tutukluğu ve kalınlaşmayla kendini gösterir. Özellikle koşucularda ve orta yaşta sık görülür. Sorun iltihaptan çok kirişin aşırı yüke uyum sağlayamamasıdır; tedavinin temeli kademeli olarak artırılan yüklenme egzersizleridir.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

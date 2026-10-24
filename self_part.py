@@ -344,7 +344,7 @@ MOVE_FAQ = [
  ("Günde 10.000 adım atmak şart mı?", "Hayır. 57 çalışmayı bir araya getiren 2025 tarihli bir derlemede günde 7.000 adım atanlarda ölüm riski, 2.000 adım atanlara göre %47 daha düşüktü ve bu fayda 10.000 adımdakine çok yakındı. Bazı sonuçlarda 7.000 adımdan sonra fayda düzleşiyor. Az adım atıyorsanız her artış değerlidir. 15 kohortu birleştiren 2022 tarihli bir başka analizde yarar, 60 yaş üstünde günde yaklaşık 6.000–8.000, daha gençlerde 8.000–10.000 adımda düzleşti."),
  ("Ev işleri ve merdiven çıkmak sayılır mı?", "Evet. Dünya Sağlık Örgütü her hareketin sayıldığını vurguluyor. Egzersiz yapmayan 25 binden fazla kişinin izlendiği bir çalışmada, günde 1–2 dakikalık üç kısa ve tempolu hareket (merdiven çıkmak, çok hızlı yürümek gibi) yapanlarda ölüm riski belirgin şekilde daha düşük bulundu."),
  ("Kas güçlendirme için spor salonu gerekir mi?", "Hayır. Sandalyeden kalkıp oturma, duvar şınavı, lastik bantla egzersizler ya da ağır alışveriş torbalarını taşımak da kaslarınızı çalıştırır. Önemli olan, tüm büyük kas gruplarını haftada en az 2 gün yormaktır."),
- ("Hiç hareket etmiyorum, nereden başlamalıyım?", "Az da olsa hareket, hiç hareket etmemekten iyidir. Küçük başlayın ve süreyi, sıklığı ve yoğunluğu zamanla artırın; örneğin günlük kısa bir yürüyüşle başlayıp her hafta birkaç dakika ekleyebilirsiniz. Kalp hastalığınız ya da yeni başlayan bir şikâyetiniz varsa önce hekiminize danışın."),
+ ("Hiç hareket etmiyorum, nereden başlamalıyım?", "Az da olsa hareket, hiç hareket etmemekten iyidir. Küçük başlayın ve süreyi, sıklığı ve yoğunluğu zamanla artırın; örneğin günlük kısa bir yürüyüşle başlayıp her hafta birkaç dakika ekleyebilirsiniz. Kalp hastalığınız ya da yeni başlayan bir şikâyetiniz varsa önce hekiminize danışın. 2026'da The Lancet'te yayımlanan ve 135 binden fazla kişinin hareketinin cihazla ölçüldüğü bir analizde, en az hareket eden %20'lik grubun günde yalnızca 5 dakika daha tempolu yürümesinin ölümlerin tahminen %6'sını önleyebileceği hesaplandı."),
 ]
 
 MOVE_BODY = f'''<header class="page">
@@ -353,7 +353,7 @@ MOVE_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Ne kadar hareket yeterli?</h1>
     <p class="lede">Hareketin faydasını görmek için spor salonuna gitmek şart değil. Dünya Sağlık Örgütü'nün önerileri, günlük adım sayısı ve gün içine serpiştirilen kısa hareketler hakkındaki güncel bulgular. Kendi haftanızı da aşağıdaki ölçerle hesaplayın.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -494,6 +494,7 @@ MOVE_BODY = f'''<header class="page">
         "Department of Health and Social Care. " + ext("https://www.gov.uk/government/publications/physical-activity-guidelines-uk-chief-medical-officers-report", "UK Chief Medical Officers’ physical activity guidelines") + ". 7 September 2019",
         "Stamatakis E, Ahmadi MN, Gill JMR, et al. " + ext("https://www.nature.com/articles/s41591-022-02100-x", "Association of wearable device-measured vigorous intermittent lifestyle physical activity with mortality") + ". Nat Med. 2022;28:2521-2529.",
         "Paluch AE, Bajpai S, Bassett DR, et al. " + ext("https://doi.org/10.1016/S2468-2667(21)00302-9", "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts") + ". Lancet Public Health. 2022;7(3):e219–e228.",
+        "Ekelund U, Tarp J, Ding D, et al. Deaths potentially averted by small changes in physical activity and sedentary time: an individual participant data meta-analysis of prospective cohort studies. Lancet. 2026;407(10526):339–349. Özet: " + ext("https://news.ki.se/five-extra-minutes-of-movement-a-day-can-save-lives-study-in-the-lancet-finds", "Karolinska Institutet, 14 January 2026") + ".",
       ])}
     </div>
   </section>
@@ -542,7 +543,7 @@ NEEDS = [(7, "7 saat"), (7.5, "7,5 saat"), (8, "8 saat"), (8.5, "8,5 saat"), (9,
 NEED_BTNS = "".join(f'<button type="button" data-v="{v}" aria-pressed="{"true" if v == 8 else "false"}">{t}</button>' for v, t in NEEDS)
 
 SLEEP_FAQ = [
- ("Yetişkinler kaç saat uyumalı?", "Amerikan Uyku Tıbbı Akademisi ile Uyku Araştırmaları Derneği'nin ortak önerisine göre 18–60 yaş arasındaki yetişkinler düzenli olarak gecede 7 saat ya da daha fazla uyumalı. Gecede 9 saatten uzun uykunun sağlık riskiyle ilişkili olup olmadığı ise belirsiz."),
+ ("Yetişkinler kaç saat uyumalı?", "Amerikan Uyku Tıbbı Akademisi ile Uyku Araştırmaları Derneği'nin ortak önerisine göre 18–60 yaş arasındaki yetişkinler düzenli olarak gecede 7 saat ya da daha fazla uyumalı. Gecede 9 saatten uzun uykunun sağlık riskiyle ilişkili olup olmadığı ise belirsiz. UK Biobank'ta yaklaşık 96 bin kişinin bileklik verileriyle yapılan 2026 tarihli bir çalışmada, gecede 5 saatten az uyumak 37 hastalıkla ilişkiliydi ve çoğu hastalıkta risk 6–8 saat uyuyanlarda en düşüktü; bu bir gözlem çalışmasıdır."),
  ("Öğleden sonra içtiğim kahve uykumu etkiler mi?", "Etkileyebilir. Bir çalışmada yatmadan 6 saat önce alınan 400 mg kafein (yaklaşık 2–3 fincan kahve), ölçülen uyku süresini bir saatten fazla kısalttı. Uyku sorununuz varsa kahve ve çayı öğleden sonranın erken saatlerinde bırakmayı deneyin."),
  ("Kronik uykusuzlukta ilk tercih tedavi nedir?", "Amerikan Hekimler Koleji (ACP), kronik uykusuzlukta ilk tedavi olarak uykusuzluğa yönelik bilişsel davranışçı terapiyi öneriyor. Bu tedavi uyku düzenini, yatakla uyku arasındaki bağı ve uykuyla ilgili kaygıları ele alır. Uyku ilacı kullanıp kullanmamaya hekiminizle birlikte karar verebilirsiniz."),
  ("Horlamak önemli mi?", "Tek başına horlama her zaman bir hastalık işareti değildir. Yüksek sesli horlamaya uykuda nefes durmaları, boğulur gibi uyanma ya da gündüz aşırı uyku hali eşlik ediyorsa uyku apnesi açısından bir hekime başvurun."),
@@ -554,7 +555,7 @@ SLEEP_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>İyi uyku için</h1>
     <p class="lede">Uyku, iyileşmenin en az konuşulan parçası. Kaç saat uyumalı, kahve uykuyu nasıl etkiler, uyku ile ağrı arasında nasıl bir ilişki var? Aşağıdaki planlayıcıyla kendi yatma saatinizi de hesaplayın.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -670,6 +671,7 @@ SLEEP_BODY = f'''<header class="page">
         "Qaseem A, Kansagara D, Forciea MA, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27136449/", "Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians") + ". Ann Intern Med. 2016;165(2):125-133.",
         "Krause AJ, Prather AA, Wager TD, Lindquist MA, Walker MP. " + ext("https://www.jneurosci.org/content/39/12/2291", "The pain of sleep loss: a brain characterization in humans") + ". J Neurosci. 2019;39(12):2291-2300.",
         "Staffe AT, Bech MW, Clemmensen SLK, et al. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC6892491/", "Total sleep deprivation increases pain sensitivity, impairs conditioned pain modulation and facilitates temporal summation of pain in healthy participants") + ". PLoS One. 2019.",
+        "Luo J, et al. PLOS Med. 2026. doi:10.1371/journal.pmed.1005213. Özet: " + ext("https://www.healio.com/news/primary-care/20260923/sleep-patterns-may-influence-over-150-diseases", "Healio, 23 September 2026") + ".",
       ])}
     </div>
   </section>

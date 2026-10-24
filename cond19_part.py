@@ -54,7 +54,7 @@ _ex2("dm_walk", "walk", "Birlikte yürüyüş", "Bildiğiniz bir yolda, rahat bi
 
 # ============================================================== SARKOPENİ
 SK_FAQ = [
- ("Kaybedilen kas geri kazanılır mı?", "Yaşa bağlı kas kaybı tümüyle önlenemez; ancak yavaşlatılabilir ve kas gücü ileri yaşta da artırılabilir. 121 çalışmayı inceleyen Cochrane derlemesinde, kaslarını dirence karşı çalıştıran yaşlıların kas gücü belirgin biçimde arttı; sandalyeden kalkmaları hızlandı."),
+ ("Kaybedilen kas geri kazanılır mı?", "Yaşa bağlı kas kaybı tümüyle önlenemez; ancak yavaşlatılabilir ve kas gücü ileri yaşta da artırılabilir. 121 çalışmayı inceleyen Cochrane derlemesinde, kaslarını dirence karşı çalıştıran yaşlıların kas gücü belirgin biçimde arttı; sandalyeden kalkmaları hızlandı. İsveç'te rastgele seçilmiş yüzlerce kişinin 16'dan 63 yaşına kadar 47 yıl izlendiği bir çalışmada kondisyon ve kas gücü 35 yaş civarında azalmaya başladı; ama yetişkinlikte düzenli harekete başlayanların fiziksel kapasitesi yaklaşık %5–10 arttı."),
  ("Yürüyüş yapıyorum; yeterli değil mi?", "Yürüyüş kalbiniz ve dayanıklılığınız için değerlidir, bırakmayın. Ancak sarkopenide önerilen egzersiz türü, kasları bir dirence karşı çalıştıran güçlendirme egzersizleridir: kendi vücut ağırlığınız, lastik bantlar ya da ağırlıklarla yapılan hareketler. İkisini birlikte yapın."),
  ("Protein tozu kullanmalı mıyım?", "En iyi kaynak besinlerdir: et, balık, yumurta, süt ürünleri, kuru baklagiller ve kuruyemişler. Proteini tek öğüne yığmak yerine güne yayın. Besinlerle yeterince alamıyorsanız takviye yardımcı olabilir; önce hekiminize danışın. Tek başına protein yetmez, egzersizle birlikte işe yarar. Böbrek hastalığınız ya da böbrek taşı öykünüz varsa proteini hekiminize danışmadan artırmayın."),
  ("İleri yaşta ağırlık çalışmak güvenli mi?", "Cochrane derlemesine göre dirençli egzersizde ciddi yan etkiler nadirdir; en sık bildirilen sorun kas ağrısıdır. Hafif başlayın, yavaş yavaş artırın. Kalp hastalığınız, kontrol altında olmayan tansiyonunuz ya da yeni bir ameliyatınız varsa başlamadan önce hekiminize danışın."),
@@ -66,6 +66,7 @@ SK_SRC = [
  "Cleveland Clinic. " + ext("https://my.clevelandclinic.org/health/diseases/23167-sarcopenia", "Sarcopenia") + ". Last updated 2 April 2026.",
  "Restivo J. " + ext("https://www.health.harvard.edu/healthy-aging-and-longevity/muscle-loss-and-protein-needs-in-older-adults", "Muscle loss and protein needs in older adults") + ". Harvard Health Publishing. 14 August 2024.",
  "NHS. " + ext("https://www.nhs.uk/live-well/exercise/strength-exercises/", "Strength exercises") + ". Page last reviewed 28 February 2024.",
+ "Westerståhl M, et al. Journal of Cachexia, Sarcopenia and Muscle. 2025. doi:10.1002/jcsm.70134 (47 yıllık SPAF çalışması). Özet: " + ext("https://news.ki.se/long-term-study-reveals-physical-ability-peaks-at-age-35", "Karolinska Institutet, 16 December 2025") + ".",
 ]
 
 SK_BODY = f'''<header class="page">
@@ -74,7 +75,7 @@ SK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Sarkopeni: yaşa bağlı kas kaybı</h1>
     <p class="lede">Sarkopeni, yaş ilerledikçe kas kütlesinin, gücünün ve işlevinin azalmasıdır. Sandalyeden kalkmak, merdiven çıkmak, alışveriş torbası taşımak zorlaşır; düşme ve kırık riski artar. Onaylı bir ilacı yoktur; en etkili tedavi kasları dirence karşı çalıştıran egzersiz ve yeterli proteindir.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -246,7 +247,7 @@ page("sarkopeni.html", "Sarkopeni: Yaşa Bağlı Kas Kaybı",
 
 # ============================================================== DEMANSTA EGZERSİZ
 DM_FAQ = [
- ("Egzersiz demansı durdurur ya da yavaşlatır mı?", "Eldeki kanıtlara göre hayır: Egzersizin demansın ilerlemesini yavaşlattığı ya da durdurduğu gösterilmemiştir. Cochrane derlemesinde bellek ve düşünme üzerinde belirgin bir yarar bulunmadı. Buna karşın egzersiz günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler."),
+ ("Egzersiz demansı durdurur ya da yavaşlatır mı?", "Eldeki kanıtlara göre hayır: Egzersizin demansın ilerlemesini yavaşlattığı ya da durdurduğu gösterilmemiştir. Cochrane derlemesinde bellek ve düşünme üzerinde belirgin bir yarar bulunmadı. Buna karşın egzersiz günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler. Risk taşıyan ama demansı olmayan 513 kişinin iki yıl izlendiği 2026 tarihli bir çalışmada (rrAD), aerobik egzersiz düşünme ve hafıza testlerindeki puanları olağan bakıma göre belirgin değiştirmedi. 4,2 milyondan fazla kişiyi kapsayan bir derlemede ise boş zamanlarında spor ve egzersiz yapanlarda demans riski %24 daha düşüktü; bunlar gözlem çalışmalarıdır."),
  ("Ne kadar egzersiz yapılmalı?", "Hedef, yapabilenler için haftada toplam 150 dakika orta şiddette hareket ve haftada en az iki gün güç, denge ve esneklik çalışmasıdır. Bu bir zorunluluk değil, ulaşılabilirse iyi bir hedeftir. Az da olsa her hareket yararlıdır; kısa ve sık seanslar uzun tek bir seanstan daha kolay uygulanır."),
  ("Yakınım egzersiz yapmak istemiyor; ne yapabilirim?", "“Egzersiz” demek yerine sevdiği bir işi birlikte yapın: yürüyüş, bahçe işi, müzik eşliğinde dans. Geçmişte keyif aldığı uğraşlara dönün. Hedef ve sayı koymayın; düzenli ve keyifli olması yeterlidir. Televizyondaki reklam arasında ayağa kalkmak gibi küçük hareketler de sayılır."),
  ("Tek başına yürüyüşe çıkabilir mi?", "Hastalığın evresine bağlıdır. Tek başına çıkıyorsa bildiği yollarda yürümesi, yanında telefon ya da konum bildiren bir cihaz taşıması ve birine nereye gittiğini söylemesi önerilir. Üzerinde, yakınlarının telefon numarasının yazılı olduğu bir kimlik kartı bulunsun. Yolunu şaşırmaya başladıysa birlikte yürümek daha güvenlidir."),
@@ -258,6 +259,8 @@ DM_SRC = [
  "Alzheimer's Society. " + ext("https://www.alzheimers.org.uk/get-support/daily-living/exercise", "Physical activity, movement and exercise for people with dementia") + ".",
  "Alzheimer's Society. " + ext("https://www.alzheimers.org.uk/get-support/living-with-dementia/exercise-types-ideas", "Exercise types and ideas for people with dementia") + ".",
  "Alzheimer's Society. " + ext("https://www.alzheimers.org.uk/get-support/daily-living/starting-exercise", "Getting started with exercise as a person with dementia") + ".",
+ "Zhang R, et al. " + ext("https://jamanetwork.com/journals/jamaneurology/article-abstract/2846826", "Effects of exercise and intensive vascular risk reduction on cognitive function in older adults: a randomized clinical trial") + ". JAMA Neurol. 2026;83(5):424–434.",
+ "Feter N, Raichlen DA, et al. Fiziksel aktivite türleri ve demans riski: 74 çalışmanın sistematik derlemesi ve meta-analizi. Lancet Public Health. 2026. doi:10.1016/S2468-2667(26)00142-8. Özet: " + ext("https://today.usc.edu/why-you-move-not-just-how-often-could-affect-dementia-risk/", "University of Southern California, 18 August 2026") + ".",
 ]
 
 DM_BODY = f'''<header class="page">
@@ -266,7 +269,7 @@ DM_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Demansta egzersiz</h1>
     <p class="lede">Demans; belleği, düşünmeyi ve günlük işleri yapabilmeyi zamanla etkileyen hastalıkların ortak adıdır. Egzersiz demansı iyileştirmez ve ilerlemesini durdurmaz. Ancak günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler. Bu rehber hem demansla yaşayan kişiler hem de bakım veren yakınları içindir.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

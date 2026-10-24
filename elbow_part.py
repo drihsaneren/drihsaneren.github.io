@@ -46,7 +46,7 @@ DIRSEK_FAQ = [
  ("Tenis oynamıyorum, neden tenisçi dirseği oldum?", "Adına rağmen hastaların çoğu tenis oynamaz. Sorun, bileği ve parmakları açan kasların dirseğin dış yüzüne yapıştığı ortak kirişin aşırı yüklenmesidir. El ve bileğin yoğun kullanıldığı işlerde görülme sıklığı %29'a kadar çıkabiliyor; en sık 40–60 yaş arasında görülür."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "Kortizon iğnesi kısa sürede ağrıyı azaltabilir, ancak uzun vadede sonuçları kötüleştirebilir. 165 hastalık bir çalışmada 1 yılın sonunda tamamen ya da çok iyileşenlerin oranı kortizon grubunda %83, plasebo iğne grubunda %96 oldu; nüks ise kortizon grubunda %54, plasebo grubunda %12 idi. 30 çalışmayı ve 2.123 kişiyi kapsayan bir meta-analizde egzersiz, kısa dönem ağrı dışında tüm sonuçlarda kortizon iğnesinden daha iyiydi; ancak egzersizin pasif tedavilere üstünlüğü küçüktü ve kanıtın kesinliği düşük ile çok düşük arasındaydı."),
  ("Dirsek bandı işe yarar mı?", "Ön kola takılan bant ya da bilek desteği, aktivite sırasında kullanıldığında ağrıyı hemen hafifletebilir. Uzun vadeli etkisi konusunda ise kılavuz bir öneride bulunamıyor. Bant tedavinin tamamı değil, yük ayarlamaya yardımcı bir araçtır."),
- ("Ne kadar sürede geçer?", "Sabır gerektirir. Genel sağlık hizmetine başvuranların yarısından fazlasında şikâyetler 1 yıl sonra da sürebiliyor ve 6–12 ay içinde nüks oranı %20–38 arasında bildiriliyor. Yükü kademeli artırılan bir egzersiz programına düzenli devam etmek bu süreci yönetmenin temelidir."),
+ ("Ne kadar sürede geçer?", "Sabır gerektirir. Genel sağlık hizmetine başvuranların yarısından fazlasında şikâyetler 1 yıl sonra da sürebiliyor ve 6–12 ay içinde nüks oranı %20–38 arasında bildiriliyor. Yükü kademeli artırılan bir egzersiz programına düzenli devam etmek bu süreci yönetmenin temelidir. 198 kişiyle yapılan bir çalışmada fizyoterapi alanların da bekleyip izleyenlerin de çoğu 1 yılın sonunda iyileşmişti; kortizon iğnesiyle ilk 6 haftada düzelen 65 kişinin 47'sinde ise şikâyetler sonradan geri döndü."),
  ("Kolumu tamamen dinlendirmeli miyim?", "Hayır. Ağrıyı belirgin artıran kavrama ve kaldırma işlerini geçici olarak azaltın, ama kolu askıya almayın. Kiriş, kademeli olarak artırılan yüke uyum sağlayarak güçlenir; kılavuz da yükün aşamalı olarak yeniden artırılmasını öneriyor."),
 ]
 
@@ -56,6 +56,7 @@ DIRSEK_SRC = [
  "Bisset LM, Vicenzino B. " + ext("https://pubmed.ncbi.nlm.nih.gov/26361816/", "Physiotherapy management of lateral epicondylalgia") + ". J Physiother. 2015;61(4):174–181",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Lateral_Epicondylitis", "Lateral Epicondylitis") + ".",
  "Karanasios S, Korakakis V, Whiteley R, et al. " + ext("https://bjsm.bmj.com/content/55/9/477", "Exercise interventions in lateral elbow tendinopathy have better outcomes than passive interventions, but the effects are small: a systematic review and meta-analysis of 2123 subjects in 30 trials") + ". Br J Sports Med. 2021;55(9):477–485.",
+ "Bisset L, Beller E, Jull G, Brooks P, Darnell R, Vicenzino B. " + ext("https://doi.org/10.1136/bmj.38961.584653.AE", "Mobilisation with movement and exercise, corticosteroid injection, or wait and see for tennis elbow: randomised trial") + ". BMJ. 2006;333(7575):939.",
 ]
 
 DIRSEK_BODY = f'''<header class="page">
@@ -64,7 +65,7 @@ DIRSEK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Tenisçi dirseği (lateral epikondilit)</h1>
     <p class="lede">Dirseğin dış yüzünde, kavramakla ve bileği kaldırmakla artan ağrıdır. Adına rağmen hastaların çoğu tenis oynamaz: bileği açan kasların ortak kirişinin aşırı yüklenmesiyle ortaya çıkar. Kademeli güçlendirme egzersizleri tedavinin temelidir; sabır gerektirir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

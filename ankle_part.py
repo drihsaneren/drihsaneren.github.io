@@ -31,7 +31,7 @@ BILEK_FAQ = [
  ("Röntgen çektirmem gerekir mi?", "Çoğu burkulmada gerekmez. Ottawa kurallarına göre, yaralanmadan hemen sonra ve muayenede 4 adım atamıyorsanız ya da ayak bileğinin iç veya dış kemik çıkıntısının arka kenarında, alttaki 6 santimlik bölümde kemik üzerinde hassasiyet varsa röntgen gerekir. Bu kurallar kırıkların neredeyse tamamını yakalıyor."),
  ("Buz mu uygulamalıyım?", "Egzersiz programıyla birlikte, aralıklı ve tekrarlayan buz uygulaması kılavuzda ağrı ve şişliği azaltmak için kullanılabilecek yöntemler arasında yer alıyor. Buzu doğrudan cilde koymayın, arada ince bir bez bulundurun."),
  ("Bileklik kullanmalı mıyım?", "Yeni burkulmada destek kullanmak önerilir. Burkulma geçirmiş kişilerde yeni burkulmaları önlemek için de spor sırasında bileklik kullanmak ve denge egzersizleri yapmak öneriliyor. 46 sistematik derlemeyi bir araya getiren bir çalışmada, tekrar burkulmayı önlemede bileklik için güçlü, denge ve koordinasyon çalışmaları için orta düzeyde kanıt bulundu; yeni burkulmada iltihap giderici ağrı kesiciler ve erken hareket için kanıt güçlüydü."),
- ("Neden sürekli aynı ayağımı burkuyorum?", "Burkulma sonrasında denge, kas gücü ve ayak bileğinin konum algısı tam olarak toparlanmadıysa bilek yeniden burkulmaya yatkın hale gelir. Ağrı geçse de denge ve güçlendirme egzersizlerine devam etmek ve spora kademeli dönmek bu döngüyü kırmanın yoludur."),
+ ("Neden sürekli aynı ayağımı burkuyorum?", "Burkulma sonrasında denge, kas gücü ve ayak bileğinin konum algısı tam olarak toparlanmadıysa bilek yeniden burkulmaya yatkın hale gelir. Ağrı geçse de denge ve güçlendirme egzersizlerine devam etmek ve spora kademeli dönmek bu döngüyü kırmanın yoludur. Futbolcularla yapılan 4 çalışmayı birleştiren bir meta-analizde, antrenman öncesi düzenli yapılan yapılandırılmış bir ısınma programı (FIFA 11+) ayak bileği sakatlıklarını %32 azalttı."),
 ]
 
 BILEK_SRC = [
@@ -40,6 +40,7 @@ BILEK_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/sprains-and-strains/", "Sprains and strains") + ". Page last reviewed 23 April 2024.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Ottawa_Ankle_Rules", "Ottawa Ankle Rules") + ".",
  "Doherty C, Bleakley C, Delahunt E, Holden S. " + ext("https://bjsm.bmj.com/content/51/2/113", "Treatment and prevention of acute and recurrent ankle sprain: an overview of systematic reviews with meta-analysis") + ". Br J Sports Med. 2017;51(2):113–125.",
+ "Thorborg K, Krommes KK, Esteve E, et al. " + ext("https://bjsm.bmj.com/content/51/7/562", "Effect of specific exercise-based football injury prevention programmes on the overall injury rate in football: a systematic review and meta-analysis of the FIFA 11 and 11+ programmes") + ". Br J Sports Med. 2017;51(7):562–571.",
 ]
 
 BILEK_BODY = f'''<header class="page">
@@ -48,7 +49,7 @@ BILEK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Ayak bileği burkulması</h1>
     <p class="lede">Ayak bileği çoğunlukla içe doğru burkulur ve dış yandaki bağlar zorlanır ya da yırtılır. Çoğu burkulma ameliyatsız iyileşir. Erken ve kademeli yük verme, egzersiz ve denge çalışmaları hem iyileşmeyi destekler hem de aynı bileğin yeniden burkulmasını önler.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

@@ -9,13 +9,14 @@ _ex2("cr_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayay�
 CR_FAQ = [
  ("Kalp krizinden sonra egzersiz yapmak güvenli mi?", "Kardiyoloğunuzun onayıyla ve kademeli olarak yapıldığında evet. 85 çalışmanın derlemesinde egzersize dayalı rehabilitasyona katılanlarda yeniden kalp krizi ve hastaneye yatış daha az görüldü. Hangi şiddette başlayacağınızı hekiminiz belirler."),
  ("Ne zaman başlayabilirim?", "Bu, geçirdiğiniz olaya ve yapılan işleme göre değişir; kararı kardiyoloğunuz verir. Genellikle hastanede kısa yürüyüşlerle başlanır, taburcu olduktan sonra program kademeli olarak ilerletilir."),
- ("Evde mi, merkezde mi yapmalıyım?", "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir. İngiltere’deki ulusal kalp rehabilitasyonu denetimine göre programa başlayanların yaklaşık %70–80’i programı tamamlıyor; NHS’nin hedefi kalp krizi geçirenlerin %85’inin programa katılması."),
+ ("Evde mi, merkezde mi yapmalıyım?", "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir. İngiltere’deki ulusal kalp rehabilitasyonu denetimine göre programa başlayanların yaklaşık %70–80’i programı tamamlıyor; NHS’nin hedefi kalp krizi geçirenlerin %85’inin programa katılması. ABD'de kalp rehabilitasyonuna yönlendirilen 1.120 kişinin yaklaşık 4 yıl izlendiği bir çalışmada, ev temelli programa katılanlarda ölüm oranı %12, katılmayanlarda %20 idi; bu bir gözlem çalışması olduğu için sonuçta başka etkenler de rol oynamış olabilir."),
  ("Egzersiz sırasında nabzım kaç olmalı?", "Hedef nabız kişiye göre değişir ve kullandığınız ilaçlardan etkilenir; bu yüzden herkese tek bir sayı vermek doğru olmaz. Hekiminiz size bir aralık belirlemediyse konuşma testini kullanın: konuşabiliyor ama şarkı söyleyemiyorsanız orta şiddettesiniz."),
 ]
 
 CR_SRC = [
  "Dibben G, de Vries FBG, Faulkner J, et al. " + ext("https://www.cochrane.org/CD001800", "Exercise-based cardiac rehabilitation for coronary heart disease") + ". Cochrane Database Syst Rev. 2026;(9):CD001800.",
  "McDonagh STJ, Dalal H, Moore S, et al. " + ext("https://www.cochrane.org/CD007130", "Home-based versus centre-based cardiac rehabilitation") + ". Cochrane Database Syst Rev. 2023;(10):CD007130.",
+ "Krishnamurthi N, Schopfer DW, Shen H, Rohrbach G, Elnaggar A, Whooley MA. " + ext("https://doi.org/10.1161/JAHA.122.025856", "Association of home-based cardiac rehabilitation with lower mortality in patients with cardiovascular disease: results from the Veterans Health Administration Healthy Heart Program") + ". J Am Heart Assoc. 2023;12(5):e025856.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)", "Cardiovascular diseases (CVDs)") + ". Fact sheet. 31 July 2025.",
  "NICE. " + ext("https://www.nice.org.uk/guidance/qs99/chapter/quality-statement-2-referral-for-cardiac-rehabilitation", "Acute coronary syndromes in adults: quality statement 2, referral for cardiac rehabilitation") + ". NICE quality standard QS99, based on NICE guideline NG185 (2020)",
  "British Heart Foundation; National Audit of Cardiac Rehabilitation (NACR). " + ext("https://www.wchc.nhs.uk/wp-content/uploads/2021/01/NACR-Quality-and-Outcomes-Report-2023-Final.pdf", "Quality and outcomes report 2023") + ". University of York, 2023.",
@@ -27,7 +28,7 @@ CR_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Kalp rehabilitasyonu</h1>
     <p class="lede">Kalp krizi, stent ya da bypass ameliyatından sonra pek çok kişi hareket etmekten korkar. Oysa doğru ayarlanmış egzersiz tedavinin parçasıdır: 85 çalışmanın derlemesinde egzersize dayalı kalp rehabilitasyonu yeniden kalp krizi ve hastaneye yatış riskini azalttı. Program kardiyoloğunuzun onayıyla başlar ve adım adım ilerler.</p>
-    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

@@ -423,7 +423,7 @@ WS_FAQ = [
  ("Hareketsiz bir egzersiz tansiyonu nasıl düşürüyor?", "Mekanizma tam olarak bilinmiyor. Evde yapılan bir çalışmada tansiyondaki düşüş, çoğunlukla dinlenme nabzındaki ve kalbin dakikada pompaladığı kan miktarındaki azalmayla ilişkiliydi. Kasılma sırasında sıkışan damarların bırakınca genişlemesinin damar sağlığına etkisi de araştırılıyor."),
  ("Tansiyon ilacı kullanıyorum, yapabilir miyim?", "Çoğu kişi yapabilir, ama önce hekiminize danışın ve ilacınızı kendi başınıza bırakmayın ya da azaltmayın. Egzersiz tedavinin yerine değil, yanına eklenir. Evde tansiyonunuzu düzenli ölçüp sonuçları hekiminizle paylaşın."),
  ("Yürüyüşü bırakıp sadece duvar oturuşu mu yapmalıyım?", "Hayır. Analizde tüm egzersiz türleri tansiyonu düşürdü. Yürüyüş gibi aerobik egzersiz kalp, kilo, kan şekeri ve ruh sağlığı için de önemlidir. Duvar oturuşu, haftalık hareketinize eklenebilecek kısa ve etkili bir parçadır."),
- ("Ne kadar sürede etkisini görürüm?", "Evde yapılan küçük çalışmalarda 4 haftalık programın sonunda büyük tansiyonda ortalama 4 ile 9 mmHg arasında düşüşler ölçüldü. Etkinin sürmesi için egzersize devam etmek gerekir. Tansiyonu yüksek 1.143 yetişkini kapsayan 24 çalışmalık bir meta-analizde izometrik egzersiz büyük tansiyonu ortalama 7, küçük tansiyonu 4 mmHg düşürdü ve yan etki riskini artırmadı."),
+ ("Ne kadar sürede etkisini görürüm?", "Evde yapılan küçük çalışmalarda 4 haftalık programın sonunda büyük tansiyonda ortalama 4 ile 9 mmHg arasında düşüşler ölçüldü. Etkinin sürmesi için egzersize devam etmek gerekir. Tansiyonu yüksek 1.143 yetişkini kapsayan 24 çalışmalık bir meta-analizde izometrik egzersiz büyük tansiyonu ortalama 7, küçük tansiyonu 4 mmHg düşürdü ve yan etki riskini artırmadı. 2026'da yayımlanan 100 kişilik bir çalışmada, haftada 3 seanslık 4 haftalık programdan sonra haftada tek seansa inmek bile büyük tansiyondaki düşüşü sonraki 4 hafta boyunca korudu (başlangıca göre yaklaşık 6,6 mmHg daha düşük); tamamen bırakanlarda ise tansiyon kontrol grubundan farksız düzeye döndü."),
 ]
 
 WS_BODY = f'''<header class="page">
@@ -432,7 +432,7 @@ WS_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Tansiyon için duvar oturuşu</h1>
     <p class="lede">270 çalışmayı bir araya getiren büyük bir analizde, tansiyonu en çok düşüren egzersiz türü koşu ya da bisiklet değil, duvara yaslanıp hareketsiz beklemek gibi “izometrik” egzersizler çıktı. Haftada 3 gün, seans başına yaklaşık 14 dakika. Aşağıdaki zamanlayıcıyla birlikte yapabilirsiniz.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -565,6 +565,7 @@ WS_BODY = f'''<header class="page">
         "Lea JWD, O'Driscoll JM, Wiles JD. " + ext("https://link.springer.com/article/10.1007/s00421-023-05269-2", "The implementation of a home-based isometric wall squat intervention using ratings of perceived exertion to select and control exercise intensity: a pilot study in normotensive and pre-hypertensive adults") + ". Eur J Appl Physiol. 2024;124(1):281-293.",
         "Blood Pressure Lowering Treatment Trialists' Collaboration. " + ext("https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00590-0/fulltext", "Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure: an individual participant-level data meta-analysis") + ". Lancet. 2021;397(10285):1625-1636.",
         "Hansford HJ, Parmenter BJ, McLeod KA, et al. " + ext("https://doi.org/10.1038/s41440-021-00720-3", "The effectiveness and safety of isometric resistance training for adults with high blood pressure: a systematic review and meta-analysis") + ". Hypertens Res. 2021;44(11):1373–1384.",
+        "Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial. BMJ Open Sport Exerc Med. 2026. doi:10.1136/bmjsem-2025-003172. Basın bülteni: " + ext("https://bmjgroup.com/a-weekly-session-of-isometric-exercise-training-may-maintain-lower-blood-pressure/", "BMJ Group, 29 September 2026") + ".",
       ])}
     </div>
   </section>

@@ -297,7 +297,7 @@ LEG = f'''<svg class="hand" viewBox="0 0 200 270" role="img" aria-label="Sağ ba
 </svg>'''
 
 FITIK_FAQ2 = [
- ("Bel fıtığı kendiliğinden geçer mi?", "Çoğu kişide evet. Bacak ağrısı genellikle haftalar ya da birkaç ay içinde azalır. Üstelik fıtık MR'da da küçülebilir: dışarı taşmış fıtıkların yaklaşık %70'inde, tamamen kopmuş parçaların ise %96'sında kendiliğinden gerileme görülmüş."),
+ ("Bel fıtığı kendiliğinden geçer mi?", "Çoğu kişide evet. Bacak ağrısı genellikle haftalar ya da birkaç ay içinde azalır. Üstelik fıtık MR'da da küçülebilir: dışarı taşmış fıtıkların yaklaşık %70'inde, tamamen kopmuş parçaların ise %96'sında kendiliğinden gerileme görülmüş. Amerikan Ağrı Tıbbı Akademisi'nin 2026 kılavuzu da 6 haftadan kısa süren, bacağa yayılan ya da yayılmayan bel ağrısında, ciddi bir hastalık belirtisi yoksa rutin erken görüntüleme yapılmamasını ve opioidlerin ilk tedavi olarak kullanılmamasını öneriyor."),
  ("Ameliyat şart mı?", "Çoğu zaman hayır. 6–12 haftadır siyatiği olan hastaların karşılaştırıldığı bir çalışmada erken ameliyat bacak ağrısını daha hızlı geçirdi, ama bir yılın sonunda iki grubun sonuçları benzerdi ve her iki grupta da hastaların %95'i kendini iyileşmiş hissetti. İdrar ya da dışkı kontrolü kaybı ve ilerleyen güç kaybı ise acil ameliyat gerektirebilir."),
  ("Oturmak mı, ayakta durmak mı daha iyi?", "Bel fıtığında uzun süre oturmak çoğu kişide ağrıyı artırır. Oturma sürelerini kısa tutun, sık sık kalkıp birkaç adım yürüyün. Kısa ve sık yürüyüşler genellikle iyi gelir."),
  ("Bel fıtığında spor yapabilir miyim?", "Evet, ağrının izin verdiği ölçüde. Yürüyüş ve yüzme gibi hafif aktivitelerle başlayıp bel ve kalça kaslarını güçlendiren egzersizlere geçmek iyileşmeyi destekler. Ağrıyı bacağa doğru yayan hareketlerden bir süre kaçının."),
@@ -309,6 +309,7 @@ FITIK_SRC2 = [
  SRC_NICE59,
  "Peul WC, van Houwelingen HC, van den Hout WB, et al. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa064039", "Surgery versus prolonged conservative treatment for sciatica") + ". N Engl J Med. 2007;356(22):2245-2256.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Lumbar_Radiculopathy", "Lumbar Radiculopathy") + ".",
+ "American Academy of Pain Medicine. " + ext("https://www.painmed.org/news/acute-low-backpain-guideline-systematic-review-available", "New acute low back pain guideline and systematic review") + ". 5 October 2026. Sistematik derleme: Skelly AC, Chou R, et al. Pain Med. 2026. doi:10.1093/pm/pnag131.",
 ]
 
 BELF_BODY = f'''<header class="page">
@@ -317,7 +318,7 @@ BELF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel fıtığı ve siyatik</h1>
     <p class="lede">Beldeki bir diskin taşarak bacağa giden sinir kökünü sıkıştırmasıyla ortaya çıkar. Ağrı kalçadan bacağa, bazen ayağa kadar vurur. İyi haber: çoğu kişi ameliyatsız iyileşir, fıtık çoğu zaman kendiliğinden küçülür.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

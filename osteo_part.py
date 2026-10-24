@@ -46,6 +46,7 @@ KEMIK_SRC = [
  "Royal Osteoporosis Society. " + ext("https://www.bgs.org.uk/strong-steady-straight-nos-exercise-and-osteoporosis-consensus-statement", "Strong, Steady and Straight: an expert consensus statement on physical activity and exercise for osteoporosis") + ". 2019.",
  "Watson SL, Weeks BK, Weis LJ, et al. " + ext("https://academic.oup.com/jbmr/article-abstract/33/2/211/7605709", "High-intensity resistance and impact training improves bone mineral density and physical function in postmenopausal women with osteopenia and osteoporosis: the LIFTMOR randomized controlled trial") + ". J Bone Miner Res. 2018;33(2):211-220.",
  "Gregson CL, Armstrong DJ, Bowden J, et al. " + ext("https://eprints.whiterose.ac.uk/185838", "UK clinical guideline for the prevention and treatment of osteoporosis") + ". Arch Osteoporos. 2022;17(1):58.",
+ "Massé O, et al. Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis. BMJ. 2026;393:e088050. Özet: " + ext("https://bmjgroup.com/calcium-and-vitamin-d-supplements-offer-little-to-no-meaningful-benefit-on-fracture-and-fall-prevention/", "BMJ Group, 20 May 2026") + ".",
 ]
 
 KEMIK_BODY = f'''<header class="page">
@@ -54,7 +55,7 @@ KEMIK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Kemik erimesi (osteoporoz)</h1>
     <p class="lede">Kemiklerin yoğunluğunun ve iç yapısının zayıflayarak kolay kırılır hale gelmesidir. Çoğu zaman bir kırık olana kadar belirti vermez. İyi haber: doğru egzersiz, düşmeleri önleme ve gerektiğinde ilaç tedavisiyle kırık riski azaltılabilir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -103,7 +104,7 @@ KEMIK_BODY = f'''<header class="page">
         <li><b>Gözetimli yoğun programlar</b><span>Menopoz sonrası kemik yoğunluğu düşük kadınlarda uzman gözetiminde yapılan yüksek yoğunluklu kuvvet ve darbe egzersizi, 8 ayda omurga kemik yoğunluğunu kontrol grubuna göre belirgin şekilde artırdı. Bu tür programlar yalnızca kişiye göre planlanıp gözetim altında uygulanmalıdır.</span></li>
       </ul>
       <div class="callout">
-        <p>İlaç tedavisi, kalsiyum ve D vitamini ihtiyacı kişiye göre değişir; bunlara hekiminiz karar verir. Sigarayı bırakmak ve alkolü sınırlamak da kemikleri korur.</p>
+        <p>İlaç tedavisi, kalsiyum ve D vitamini ihtiyacı kişiye göre değişir; bunlara hekiminiz karar verir. 2026'da The BMJ'de yayımlanan ve 69 çalışmayı kapsayan bir derlemede, osteoporoz ilacı kullanmayan yetişkinlerde kalsiyum ve D vitamini takviyeleri kırıkları ve düşmeleri klinik açıdan anlamlı ölçüde azaltmadı. Sigarayı bırakmak ve alkolü sınırlamak da kemikleri korur.</p>
       </div>
     </div>
   </section>

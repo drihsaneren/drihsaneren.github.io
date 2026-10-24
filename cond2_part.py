@@ -105,7 +105,7 @@ _ex2("mn_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayay�
 _ex2("mn_sls", "sls", "Tek ayak üzerinde denge", "Mutfak tezgâhına hafifçe tutunarak tek ayağınızın üzerinde durun, dizinizi hafifçe bükülü tutun. Kolaylaştıkça tutunmayı azaltın.", "30 saniye, her bacakta 3 kez")
 
 MN_FAQ = [
- ("MR'ımda menisküs yırtığı çıktı, ameliyat olmam gerekiyor mu?", "Çoğu zaman hayır. 50 yaşın üzerinde MR'da menisküs yırtığı çok sık görülür ve bu kişilerin yarısından fazlasında hiç diz şikâyeti yoktur. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulundu. Karar MR görüntüsüne göre değil, şikâyetlerinize ve muayeneye göre verilir."),
+ ("MR'ımda menisküs yırtığı çıktı, ameliyat olmam gerekiyor mu?", "Çoğu zaman hayır. 50 yaşın üzerinde MR'da menisküs yırtığı çok sık görülür ve bu kişilerin yarısından fazlasında hiç diz şikâyeti yoktur. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulundu. Karar MR görüntüsüne göre değil, şikâyetlerinize ve muayeneye göre verilir. Menisküs yırtığı ve diz kireçlenmesi olan 879 kişiyle yapılan TeMPO çalışmasında, evde video ve broşürle yapılan egzersiz programına fizyoterapi seansları eklemek 3. ayda ağrıda anlamlı ek fark yaratmadı; 6. ve 12. ayda ise seans alan gruplarda (sahte uygulama yapılan grup dahil) ağrı biraz daha fazla azaldı."),
  ("Menisküs kendiliğinden iyileşir mi?", "Menisküsün yalnızca dış kenarı kanlanır; bu bölgedeki küçük yırtıklar iyileşebilir, iç kısımdaki yırtıklar ise genellikle kendiliğinden kaynamaz. Ancak yırtık yerinde kalsa bile ağrı ve işlev çoğu zaman egzersizle belirgin şekilde düzelir."),
  ("Dizim takılıyor ya da kilitleniyor, ne yapmalıyım?", "Kısa süreli takılma hissi sık görülür ve çoğu zaman egzersizle azalır. Dizin bir konumda takılıp kalması ve düzeltilememesi ise yırtık bir parçanın eklemin arasına sıkışmasına bağlı olabilir. Bu durumda bir ortopedi uzmanına başvurun."),
  ("Koşabilir, spor yapabilir miyim?", "Ağrı ve şişlik kontrol altına alınıp uyluk kas gücü diğer bacağa yaklaştığında sporlara kademeli olarak dönülebilir. Önce yürüyüş, bisiklet ve yüzme gibi düşük yüklü aktivitelerle başlayın; zıplama ve ani dönüş gerektiren sporları en sona bırakın."),
@@ -117,6 +117,7 @@ MN_SRC = [
  "van de Graaf VA, Noorduyn JCA, Willigenburg NW, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/30285177/", "Effect of early surgery vs physical therapy on knee function among patients with nonobstructive meniscal tears: the ESCAPE randomized clinical trial") + ". JAMA. 2018;320(13):1328-1337.",
  "Noorduyn JCA, van de Graaf VA, Willigenburg NW, et al. " + ext("https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2794027", "Effect of physical therapy vs arthroscopic partial meniscectomy in people with degenerative meniscal tears: five-year follow-up of the ESCAPE randomized clinical trial") + ". JAMA Netw Open. 2022.",
  "Siemieniuk RAC, Harris IA, Agoritsas T, et al. " + ext("https://www.bmj.com/content/357/bmj.j1982", "Arthroscopic surgery for degenerative knee arthritis and meniscal tears: a clinical practice guideline") + ". BMJ. 2017;357:j1982.",
+ "Katz JN, et al. A randomized trial of physical therapy for meniscal tear and knee pain. N Engl J Med. 2025. doi:10.1056/NEJMoa2503385. Özet: " + ext("https://news.massgeneralbrigham.org/en/home-exercise-improves-knee-pain", "Mass General Brigham") + ".",
 ]
 
 MN_BODY = f'''<header class="page">
@@ -125,7 +126,7 @@ MN_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Menisküs yırtığı</h1>
     <p class="lede">Menisküs, dizde uyluk kemiği ile kaval kemiği arasında yastık görevi gören C şeklindeki kıkırdaktır. Gençlerde çoğunlukla dizin burkulmasıyla, 40 yaşından sonra ise çoğunlukla yıpranmayla yırtılır. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulunuyor.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

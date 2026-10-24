@@ -10,7 +10,7 @@ _ex2("kl_slide", "towel", "Masada kaydırma", "Masaya oturun, kollarınızı mas
 _ex2("kl_stick", "cf_stickf", "Sopa ile dışa döndürme", "3. haftadan sonra başlayın. Dirseğiniz gövdenize yapışık ve bükülü olsun. Bir sopayla ya da diğer elinizle kolunuzu dışa doğru itin.", "5 saniye tutun, 10 tekrar")
 
 KL_FAQ = [
- ("Ameliyat gerekir mi?", "Nadiren. Köprücük kemiği kırıklarının çoğu kol askısı ve egzersizlerle iyileşir; ameliyat yalnızca çok kötü kırıklarda gerekir. Karar röntgen ve muayene sonrası hekiminizle birlikte verilir."),
+ ("Ameliyat gerekir mi?", "Nadiren. Köprücük kemiği kırıklarının çoğu kol askısı ve egzersizlerle iyileşir; ameliyat yalnızca çok kötü kırıklarda gerekir. Karar röntgen ve muayene sonrası hekiminizle birlikte verilir. İngiltere'de yerinden oynamış orta bölüm kırığı olan 301 yetişkinle yapılan bir çalışmada, 9. ayda kemiğin kaynamama oranı ameliyat edilenlerde %0,8, ameliyatsız izlenenlerde %11 oldu; omuz işlevi puanları ise yalnızca 6. hafta ve 3. ayda ameliyat grubunda daha iyiydi."),
  ("Kırık yerindeki şişlik kalıcı mı?", "Kırığın üzerinde bir tümsek oluşması beklenen bir durumdur. Bu tümsek 12 ay içinde küçülür, ama küçük bir tümsek kalabilir."),
  ("Ne zaman araba kullanabilirim?", "Bir NHS broşürüne göre kendinizi yeterli ve güvende hissediyorsanız 4. haftadan itibaren. Askıyı takarken araç kullanmayın."),
  ("Spora ne zaman dönebilirim?", "Bir NHS broşürüne göre kurbağalama yüzmeye 6–8 hafta, serbest stil yüzme ve golfe 3 ay, futbol, raket sporları ve binicilik gibi temas ve düşme riski olan sporlara 6 ay sonra dönülebilir. Ağır yük kaldırmaya en az 3 ay ara verin. Kesin süreyi hekiminiz belirler."),
@@ -23,6 +23,7 @@ KL_SRC = [
  "Oxford University Hospitals NHS Foundation Trust. " + ext("https://www.ouh.nhs.uk/media/mlfjrk0i/116943clavicle.pdf", "Clavicle fracture") + ". October 2025.",
  "United Lincolnshire Teaching Hospitals NHS Trust. " + ext("https://www.ulh.nhs.uk/wp-content/uploads/2025/07/Clavicle-fracture.pdf", "Clavicle fracture") + ". ULHT-LFT-4054, June 2025.",
  "Lenza M, Faloppa F. " + ext("https://www.cochrane.org/evidence/CD007121_non-surgical-interventions-treating-broken-collarbone-adolescents-and-adults", "Conservative interventions for treating middle third clavicle fractures in adolescents and adults") + ". Cochrane Database Syst Rev. 2016;(12):CD007121",
+ "Ahrens PM, Garlick NI, Barber J, Tims EM. " + ext("https://discovery.ucl.ac.uk/id/eprint/1571994/", "The Clavicle Trial: a multicenter randomized controlled trial comparing operative with nonoperative treatment of displaced midshaft clavicle fractures") + ". J Bone Joint Surg Am. 2017;99(16):1345–1354.",
 ]
 
 KL_BODY = f'''<header class="page">
@@ -31,7 +32,7 @@ KL_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Köprücük kemiği kırığı</h1>
     <p class="lede">Düşerken omzunuzun ya da elinizin üzerine mi geldiniz, omzunuzda şişlik ve şekil değişikliği mi var? Köprücük kemiği kırıklarının çoğu ameliyatsız, kol askısıyla iyileşir. Yetişkinlerde iyileşme yaklaşık 6–8 hafta, çocuklarda 3–4 hafta sürer. Bu dönemde dirsek, el ve omuz egzersizleri tutukluğu önler ve kolunuzu yeniden kullanmanızı kolaylaştırır.</p>
-    <p class="meta">Son güncelleme: 18 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

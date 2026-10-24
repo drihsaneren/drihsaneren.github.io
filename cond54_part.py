@@ -11,7 +11,7 @@ _ex2("bfa_ankle", "apump", "Ayak bileği hareketleri", "Uzanırken ya da otururk
 
 BFA_FAQ = [
  ("Ne zaman araba kullanabilirim?", "Ani frene basabildiğinizde ve yolculuk boyunca rahat oturabildiğinizde; bu genellikle en az 4–6 hafta sürer. Ağrınızın iyi kontrol altında olduğundan emin olun ve kesin zamanı cerrahınıza sorun."),
- ("İşe ne zaman dönerim?", "İşinize göre değişir. NHS genellikle 4–6 hafta diyor; bir NHS broşürüne göre masa başı işlere 6–8 hafta, ağır bedensel işlere en az 3 ay, bazen 6 ay sonra dönülebilir. Kararı cerrahınızla birlikte verin."),
+ ("İşe ne zaman dönerim?", "İşinize göre değişir. NHS genellikle 4–6 hafta diyor; bir NHS broşürüne göre masa başı işlere 6–8 hafta, ağır bedensel işlere en az 3 ay, bazen 6 ay sonra dönülebilir. Kararı cerrahınızla birlikte verin. Ameliyattan sonra hiçbir hareket kısıtlaması verilmeyen 152 kişinin izlendiği eski bir çalışmada (1999) kişilerin %98'i işe döndü ve ortalama iş kaybı 1,2 hafta oldu; erken dönmek yeniden fıtıklaşma ya da yeniden ameliyatla ilişkili bulunmadı. Bu, karşılaştırma grubu olmayan bir gözlem çalışmasıdır."),
  ("Spora ne zaman başlayabilirim?", "Bir NHS broşürüne göre yara iyileştikten sonra 4. haftadan itibaren serbest stil ya da sırtüstü yüzme, 4–6 haftadan itibaren bisiklet ve tempolu yürüyüş, 3 aydan itibaren golf ve hafif tenis yapılabilir. İlk 6 ay koşudan ve ağır yük kaldırmaktan kaçının."),
  ("Ameliyattan sonra egzersiz programı işe yarar mı?", "22 randomize çalışmayı ve 2.503 kişiyi inceleyen bir Cochrane derlemesine göre ameliyattan 4–6 hafta sonra başlayan egzersiz programları, kısa vadede ağrıyı ve günlük işlevi hiç tedavi almamaya göre daha çok iyileştirdi. Yoğun programlar hafiflerden biraz daha etkiliydi; gözetimli program ile evde yapılan program arasında fark yoktu. Hiçbir çalışmada egzersiz yeniden ameliyat oranını artırmadı. Kanıtın kalitesi düşük ile çok düşük arasında."),
  ("Bu kısıtlamalara uymak şart mı?", "Broşürlerdeki süreler genel önerilerdir ve cerrahtan cerraha değişir. Tek taraflı mikrodiskektomi olan 200 kişinin katıldığı ve 2026'da yayımlanan randomize bir çalışmada, ilk iki hafta oturma süresini, 5 kg'dan ağır kaldırmayı ve yorucu etkinliği kısıtlamak ile rahat ettiği ölçüde olağan etkinliğe dönmek arasında bir yılın sonunda fark bulunmadı; yeniden fıtıklaşma, ağrı, işlev ve yeniden ameliyat oranları benzerdi. Bu sonuç yalnızca bu ameliyat türü için geçerlidir, diğer omurga ameliyatlarına genellenemez. Size özel kısıtlamaları cerrahınıza sorun."),
@@ -24,6 +24,7 @@ BFA_SRC = [
  "James Paget University Hospitals NHS Foundation Trust. " + ext("https://www.jpaget.nhs.uk/media/pcuj555q/ph-37-lumbar-discectomy-decompression-advice-v1-web.pdf", "Lumbar discectomy / decompression advice") + ". PH 37.",
  "Oosterhuis T, Costa LOP, Maher CG, de Vet HCW, van Tulder MW, Ostelo RWJG. " + ext("https://www.cochrane.org/CD003007/rehabilitation-after-lumbar-disc-surgery", "Rehabilitation after lumbar disc surgery") + ". Cochrane Database Syst Rev. 2014;(3):CD003007.",
  "Roadley J, Daly C, Rogers M, et al. " + ext("https://doi.org/10.1097/BRS.0000000000005720", "Lumbar microdiscectomy and post-operative activity restrictions: a randomised controlled trial") + ". Spine. 2026 (çevrimiçi 29 Nisan 2026).",
+ "Carragee EJ, Han MY, Yang B, Kim DH, Kraemer H, Billys J. " + ext("https://stanfordhealthcare.org/publications/405/4054.html", "Activity restrictions after posterior lumbar discectomy: a prospective study of outcomes in 152 cases with no postoperative restrictions") + ". Spine. 1999;24(22):2346–2351.",
 ]
 
 BFA_BODY = f'''<header class="page">
@@ -32,7 +33,7 @@ BFA_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel fıtığı ameliyatı sonrası</h1>
     <p class="lede">Bel fıtığı ameliyatı (mikrodiskektomi) oldunuz ya da olacak mısınız? Bu ameliyatta sinire baskı yapan disk parçası, küçük bir kesiden mikroskop yardımıyla çıkarılır. Bacak ağrısı çoğu zaman hemen azalır, ama bel kaslarında bir süre sızı olabilir. Ameliyattan sonraki haftalarda hareketli kalmak ve doğru egzersizler, iyileşmenin en önemli parçasıdır.</p>
-    <p class="meta">Son güncelleme: 18 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

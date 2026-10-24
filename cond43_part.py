@@ -16,7 +16,7 @@ CF_FAQ = [
  ("Röntgende kireç çıktı; ağrımın nedeni bu mu?", "Her zaman değil. Belirtisi olmayan yetişkinlerin yaklaşık %8’inde de omuz tendonlarında kireç birikimi görülebiliyor. Bu yüzden röntgendeki kireç tek başına ağrının nedenini göstermez; muayeneyle birlikte değerlendirilmesi gerekir."),
  ("Kireç kendiliğinden kaybolur mu?", "Çoğu kireç birikimi zamanla kendiliğinden kaybolur. Şiddetli ağrı çoğu zaman birkaç hafta içinde yatışır, ama kirecin tamamen erimesi 9 ay ya da daha uzun sürebilir; bu sürede daha hafif bir ağrı devam edebilir."),
  ("Ağrı neden birdenbire bu kadar şiddetlendi?", "Ani ve çok şiddetli ağrı çoğu zaman vücudun kireci emmeye başladığı dönemde ortaya çıkar. Yani bu evre ne kadar zorlu olsa da çoğu zaman iyileşmenin bir parçasıdır."),
- ("Hangi tedaviler var?", "İlk adım ağrı kontrolü ve kolu ağrının izin verdiği kadar hareketli tutmaktır. Ağrı yatışmazsa hekiminiz kortizon iğnesi, ultrason eşliğinde kirecin iğneyle parçalanıp yıkanması (lavaj) ya da şok dalga tedavisi önerebilir. Bir derlemede lavajın şok dalgaya ve tek başına kortizona göre daha etkili olabileceği bulundu, ancak kanıtların kalitesi düşük. Ameliyat, başka yöntemlerle kontrol edilemeyen ağrının olduğu nadir durumlara ayrılır."),
+ ("Hangi tedaviler var?", "İlk adım ağrı kontrolü ve kolu ağrının izin verdiği kadar hareketli tutmaktır. Ağrı yatışmazsa hekiminiz kortizon iğnesi, ultrason eşliğinde kirecin iğneyle parçalanıp yıkanması (lavaj) ya da şok dalga tedavisi önerebilir. Bir derlemede lavajın şok dalgaya ve tek başına kortizona göre daha etkili olabileceği bulundu, ancak kanıtların kalitesi düşük. Ameliyat, başka yöntemlerle kontrol edilemeyen ağrının olduğu nadir durumlara ayrılır. Diğer tedavilere rağmen ağrısı süren 48 hastayla yapılan randomize bir çalışmada, lavaja ek olarak kortizon iğnesi yapılanlar 1 yılın sonunda yalnızca kortizon iğnesi yapılanlardan daha fazla iyileşti ve komplikasyon riski düşüktü."),
  ("Askı kullanmalı mıyım?", "Askıyı yalnızca rahatlamak için kısa süre kullanın ve mümkün olan en kısa sürede bırakın. Omzunuzu ağrıyı artırmadan hareket ettirmek tutukluğu önler. Uyurken yastıklarla desteklenmiş yarı oturur bir pozisyon daha rahat olabilir."),
 ]
 
@@ -25,6 +25,7 @@ CF_SRC = [
  "Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust. " + ext("https://www.dbth.nhs.uk/wp-content/uploads/2023/08/WPR45490-Shoulder-Calcific-Tendonitus.pdf", "Shoulder calcific tendonitis") + ". WPR45490, 2017.",
  "Whittington Health NHS Trust. " + ext("https://www.whittington.nhs.uk/mini-apps/leaflet/?id=501", "Calcific tendinopathy") + ". 2025.",
  "Lafrance S, Doiron-Cadrin P, Saulnier M, et al. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC6539165", "Is ultrasound-guided lavage an effective intervention for rotator cuff calcific tendinopathy? A systematic review with a meta-analysis of randomised controlled trials") + ". BMJ Open Sport Exerc Med. 2019;5(1):e000506.",
+ "de Witte PB, Selten JW, Navas A, et al. " + ext("https://doi.org/10.1177/0363546513487066", "Calcific tendinitis of the rotator cuff: a randomized controlled trial of ultrasound-guided needling and lavage versus subacromial corticosteroids") + ". Am J Sports Med. 2013;41(7):1665–1673.",
  "NHS. " + ext("https://www.nhs.uk/conditions/shoulder-pain/", "Shoulder pain") + ".",
 ]
 
@@ -34,7 +35,7 @@ CF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuzda kireç birikmesi (kalsifik tendinit)</h1>
     <p class="lede">Omzunuzda birdenbire başlayan, geceleri uyutmayan şiddetli bir ağrı mı var, röntgende “kireç” mi görüldü? Omzu çevreleyen tendonlarda kalsiyum birikmesine kalsifik tendinit denir. Ağrı çok yoğun olabilir, ama ciddi ya da zararlı bir durum değildir; çoğu kireç birikimi zamanla kendiliğinden kaybolur.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

@@ -14,7 +14,7 @@ EXT["bext"] = ("Ayakta arkaya esneme", "Ayağa kalkın, ayaklarınız omuz geni�
 DESK_FAQ = [
  ("Dik oturmak zorunda mıyım?", "Hayır. Tek bir ideal duruşun var olduğunu ya da 'yanlış' duruşlardan kaçınmanın bel ağrısını önlediğini gösteren güçlü bir kanıt yok. Omurga sağlam bir yapıdır; farklı pozisyonlarda rahatça oturabilirsiniz. Önemli olan uzun süre aynı pozisyonda kalmamak ve sık sık hareket etmektir."),
  ("Ayakta çalışma masası işe yarar mı?", "Oturma süresini azaltmaya yardım eder. İngiltere'de yapılan bir çalışmada ayarlanabilir masa ve destek programı, 12. ayda iş gününde oturma süresini yaklaşık 82 dakika azalttı; kas-iskelet şikâyetlerine etkisi ise tutarlı değildi. Uzun süre ayakta durmak da yorucudur; amaç oturma ve ayakta durma arasında dönüşümlü çalışmaktır."),
- ("Spor yapıyorum, uzun süre oturmak yine de zararlı mı?", "Günde 8 saatten fazla oturan ama günde 60–75 dakika orta yoğunlukta hareket eden kişilerde, uzun oturma ölüm riskinde belirgin bir artışla ilişkili bulunmadı. Bu bir gözlem çalışmasıdır; riskin tamamen ortadan kalktığını göstermez. Dünya Sağlık Örgütü de oturma süresini sınırlamayı ve bu süreyi her yoğunlukta hareketle değiştirmeyi öneriyor."),
+ ("Spor yapıyorum, uzun süre oturmak yine de zararlı mı?", "Günde 8 saatten fazla oturan ama günde 60–75 dakika orta yoğunlukta hareket eden kişilerde, uzun oturma ölüm riskinde belirgin bir artışla ilişkili bulunmadı. Bu bir gözlem çalışmasıdır; riskin tamamen ortadan kalktığını göstermez. Dünya Sağlık Örgütü de oturma süresini sınırlamayı ve bu süreyi her yoğunlukta hareketle değiştirmeyi öneriyor. 2026'da The Lancet'te yayımlanan ve hareketin cihazla ölçüldüğü 135 binden fazla kişiyi kapsayan analizde, günde 30 dakika daha az oturmanın ölümlerin tahminen %7'sini önleyebileceği hesaplandı."),
  ("Ne sıklıkla mola vermeliyim?", "Kesin bir süre için güçlü bir kanıt yok. Pratikte yarım saatte bir, en azından saatte bir kalkıp birkaç dakika hareket etmek iyi bir hedeftir. Telefonla konuşurken ayağa kalkmak, su almaya yürümek gibi küçük alışkanlıklar da sayılır."),
  ("Boynum ya da belim ağrıyorsa ne yapmalıyım?", "Çoğu boyun ve bel ağrısı ciddi bir nedene bağlı değildir ve hareketle azalır. <a href=\"boyun-agrisi.html\">Boyun ağrısı</a> ve <a href=\"bel-agrisi.html\">bel ağrısı</a> rehberlerindeki egzersizleri deneyebilirsiniz. Ağrı birkaç haftada düzelmiyorsa bir fizyoterapiste başvurun."),
 ]
@@ -25,6 +25,7 @@ DESK_SRC = [
  "NIHR Evidence. " + ext("https://evidence.nihr.ac.uk/alert/standing-desks-with-a-support-package-reduce-time-sitting-at-work", "Standing desks with a support package reduce time sitting at work") + ".",
  "Slater D, et al. " + ext("https://www.jospt.org/doi/10.2519/jospt.2019.0610", "\"Sit up straight\": time to re-evaluate") + ". J Orthop Sports Phys Ther. 2019.",
  "The Rotherham NHS Foundation Trust. " + ext("https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/posture", "Posture") + ".",
+ "Ekelund U, Tarp J, Ding D, et al. Deaths potentially averted by small changes in physical activity and sedentary time: an individual participant data meta-analysis of prospective cohort studies. Lancet. 2026;407(10526):339–349. Özet: " + ext("https://news.ki.se/five-extra-minutes-of-movement-a-day-can-save-lives-study-in-the-lancet-finds", "Karolinska Institutet, 14 January 2026") + ".",
 ]
 
 DESK_BODY = f'''<header class="page">
@@ -33,7 +34,7 @@ DESK_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Masa başında çalışanlar için</h1>
     <p class="lede">Birçoğumuz günün büyük kısmını bilgisayar başında, oturarak geçiriyor. Boyun ve bel sağlığı için "mükemmel duruş"tan daha önemli olan şey sık sık hareket etmek, pozisyon değiştirmek ve gün içinde kısa hareket molaları vermek.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

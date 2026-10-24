@@ -33,7 +33,7 @@ EXT.update({
 })
 
 PROTEZ_FAQ = [
- ("Ne zaman yürümeye başlayabilirim?", "Yürümeye genellikle ameliyattan kısa süre sonra, hastanede, koltuk değneği ya da yürüteçle başlanır. Diz protezinde güvendikçe önce tek değneğe, sonra bastona geçilir; yaklaşık 6 hafta sonra, kendinizi hazır hissediyorsanız yardımcısız yürümeyi deneyebilirsiniz."),
+ ("Ne zaman yürümeye başlayabilirim?", "Yürümeye genellikle ameliyattan kısa süre sonra, hastanede, koltuk değneği ya da yürüteçle başlanır. Diz protezinde güvendikçe önce tek değneğe, sonra bastona geçilir; yaklaşık 6 hafta sonra, kendinizi hazır hissediyorsanız yardımcısız yürümeyi deneyebilirsiniz. Diz protezi olan 165 kişiyle yapılan bir çalışmada, taburculuktan sonra 10 gün yatarak rehabilitasyon almak, yalnızca evde izlenen 8 haftalık programa göre 26. haftada yürüme mesafesinde ek bir fark yaratmadı."),
  ("Ne zaman araba kullanabilirim?", "Tam diz ve kalça protezinden sonra en az 6 hafta beklemeniz önerilir; yarım (kısmi) diz protezinde bu süre 3 hafta olabilir. Araç kullanmaya başlamadan önce hekiminizden onay alın."),
  ("Kalça protezinden sonra hangi hareketlerden kaçınmalıyım?", "Birçok merkez ilk haftalarda bacak bacak üstüne atmamayı, kalçayı 90 dereceden fazla bükmemeyi ve alçak koltuklardan kaçınmayı önerir. Ancak 8.835 hastayı kapsayan bir derlemede bu kısıtlamaların rutin olarak uygulanmasının çıkık riskini azalttığı gösterilemedi; bu yüzden bazı merkezler kısıtlamaları azaltıyor. Hangi hareketlerden kaçınmanız gerektiğine ameliyat tekniğinize göre cerrahınız karar verir."),
  ("Dizimin altına yastık koyabilir miyim?", "Uyurken dizinizin altına yastık koymayın. Diz bükük pozisyonda uzun süre kalırsa tam düzleşmesi zorlaşır. Bacağınızı yükseltmek istiyorsanız yastığı dizin değil, baldır ve topuğun altına koyun."),
@@ -44,6 +44,7 @@ PROTEZ_FAQ = [
 PROTEZ_SRC = [
  "Jette DU, Hunter SJ, et al. " + ext("https://academic.oup.com/ptj/article/100/9/1603/5857258", "Physical therapist management of total knee arthroplasty") + ". Phys Ther. 2020;100(9):1603.",
  "Korfitsen CB, et al. " + ext("https://actaorthop.org/actao/article/view/11958", "Hip precautions after posterior-approach total hip arthroplasty among patients with primary hip osteoarthritis do not influence early recovery: a systematic review and meta-analysis of randomized and non-randomized studies with 8,835 patients") + ". Acta Orthop. 2023;94.",
+ "Buhagiar MA, Naylor JM, Harris IA, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/58246", "Effect of inpatient rehabilitation vs a monitored home-based program on mobility in patients with total knee arthroplasty: the HIHO randomized clinical trial") + ". JAMA. 2017;317(10):1037–1046.",
  "NHS. " + ext("https://www.nhs.uk/tests-and-treatments/knee-replacement/recovery/", "Recovering from a knee replacement") + ".",
  "NHS. " + ext("https://www.nhs.uk/tests-and-treatments/knee-replacement/complications/", "Complications of a knee replacement") + ".",
  "NHS. " + ext("https://www.nhs.uk/tests-and-treatments/hip-replacement/recovering-from-a-hip-replacement/", "Recovering from a hip replacement") + ".",
@@ -55,7 +56,7 @@ PROTEZ_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Diz ve kalça protezi sonrası evde rehabilitasyon</h1>
     <p class="lede">Protez ameliyatı ağrıyı azaltmak ve hareketi geri kazandırmak için yapılır; sonucun önemli bir kısmı ise ameliyattan sonraki haftalarda yapılan egzersizlere bağlıdır. Evde doğru egzersiz, güvenli bir ev düzeni ve kademeli olarak artan aktivite bu sürecin temelidir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

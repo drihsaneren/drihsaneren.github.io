@@ -26,7 +26,7 @@ _ex("pd_wshift", "wshift", "Ağırlık aktarma",
     "Her yöne 10 kez")
 
 PD_FAQ = [
- ("Egzersiz Parkinson'un ilerlemesini yavaşlatır mı?", "Umut verici bulgular var ama henüz kesin değil. Yeni tanı almış ve ilaç kullanmayan 128 kişilik SPARX çalışmasında haftada 3 kez, maksimum kalp hızının %80–85'ine ulaşan koşu bandı egzersizi yapanların hareket puanı 6 ayda neredeyse değişmedi; egzersiz yapmayanlarda ise 3 puan kötüleşti. Bu bulgu daha büyük bir faz III çalışmasında (SPARX3) test ediliyor."),
+ ("Egzersiz Parkinson'un ilerlemesini yavaşlatır mı?", "Umut verici bulgular var ama henüz kesin değil. Yeni tanı almış ve ilaç kullanmayan 128 kişilik SPARX çalışmasında haftada 3 kez, maksimum kalp hızının %80–85'ine ulaşan koşu bandı egzersizi yapanların hareket puanı 6 ayda neredeyse değişmedi; egzersiz yapmayanlarda ise 3 puan kötüleşti. Bu bulgu daha büyük bir faz III çalışmasında (SPARX3) test ediliyor. 294 hastanın 7 yıla kadar izlendiği 2026 tarihli bir gözlem çalışmasında, haftada 8 saatten fazla orta ya da yüksek tempolu aktivite yapanlarda düşünme becerilerindeki gerileme ve hareket belirtilerindeki kötüleşme, 4 saatten az yapanlara göre daha yavaştı."),
  ("Hangi egzersiz en iyisi?", "154 çalışmayı inceleyen Cochrane derlemesi, egzersiz türleri arasında belirgin bir fark bulmadı: dans ile yürüme, denge ve günlük işlev eğitimi hareket belirtilerinde muhtemelen orta düzeyde fayda sağlıyor. Araştırmacılara göre asıl önemli olan egzersiz yapmak; tür ikinci planda. Keyif aldığınız ve düzenli yapabileceğiniz bir hareketi seçin."),
  ("Yürürken ayaklarım yere yapışıyor, ne yapabilirim?", "Buna donma denir. Durun, dik durup ağırlığınızı bir ayağınıza aktarın, sonra büyük bir adımla başlayın. Yere çizilmiş bir çizgiyi ya da ayağınızın önündeki hayali bir engeli adımlamayı düşünmek, içinizden ya da yüksek sesle ritim saymak ya da müzik dinlemek adım başlatmayı kolaylaştırabilir."),
  ("Günün hangi saatinde egzersiz yapmalıyım?", "Genellikle ilaçlarınızın en iyi etki ettiği saatler egzersiz için en uygun zamandır; hareketleriniz daha rahat olur. Önemli olan haftanın çoğu günü düzenli hareket etmektir."),
@@ -38,6 +38,7 @@ PD_SRC = [
  "Schenkman M, Moore CG, Kohrt WM, et al. " + ext("https://jamanetwork.com/journals/jamaneurology/fullarticle/2664948", "Effect of high-intensity treadmill exercise on motor symptoms in patients with de novo Parkinson disease: a phase 2 randomized clinical trial") + ". JAMA Neurol. 2018;75(2):219-226.",
  "Osborne JA, Botkin R, Colon-Semenza C, et al. " + ext("https://academic.oup.com/ptj/article/102/4/pzab302/6485202", "Physical therapist management of Parkinson disease: a clinical practice guideline from the American Physical Therapy Association") + ". Phys Ther. 2022;102(4):pzab302.",
  "Van Bladel A, Herssens N, Bouche K, et al. " + ext("https://journals.sagepub.com/doi/abs/10.1177/02692155231158565", "Proportion of falls reported in persons with Parkinson's disease: a meta-analysis") + ". Clin Rehabil. 2023.",
+ "Ryu D, et al. Neurology. 2026. doi:10.1212/WNL.0000000000218682. Özet: " + ext("https://www.healio.com/news/neurology/20261014/physical-activity-associated-with-slower-cognitive-motor-decline-in-parkinsons-disease", "Healio, 14 October 2026") + ".",
 ]
 
 PD_BODY = f'''<header class="page">
@@ -46,7 +47,7 @@ PD_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Parkinson hastalığında egzersiz ve evde rehabilitasyon</h1>
     <p class="lede">Parkinson ilerleyici bir hastalık; ama düzenli egzersiz, ilaç tedavisinin yanında hareket belirtilerini ve yaşam kalitesini iyileştirmenin en önemli yollarından biri. Araştırmaların ortak mesajı: hangi egzersizi seçtiğinizden çok, düzenli yapmanız önemli.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -199,7 +200,7 @@ _ex("hf_heel", "heel2", "Tezgâha tutunarak topuk yükseltme",
 
 HF_FAQ = [
  ("Ameliyattan sonra ne zaman yürüyebilirim?", "Çoğu hastada ameliyattan sonraki gün, fizyoterapist eşliğinde ve yürüteçle ayağa kalkılır. İngiltere'nin kalça kırığı kılavuzu, tıbbi bir engel yoksa ameliyattan sonraki gün fizyoterapi değerlendirmesi ve ayağa kaldırma, sonrasında da en az günde bir kez hareket ettirme öneriyor. Bacağınıza ne kadar yük verebileceğinizi cerrahınız belirler. NICE kalite standardı, rehabilitasyonun en geç ameliyattan sonraki gün başlamasını ve hastanede her gün sürdürülmesini, taburculuktan sonra da desteğin devam etmesini öngörüyor."),
- ("Evde egzersize devam etmek gerçekten fark eder mi?", "Evet. 40 çalışmayı inceleyen Cochrane derlemesi, hastaneden çıktıktan sonra yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini anlamlı şekilde artırdığını gösterdi. ABD'de 232 hastayla yapılan bir çalışmada 6 ay süren ev egzersiz programı, rehabilitasyonu tamamlamış hastalarda bile işlevi daha da iyileştirdi."),
+ ("Evde egzersize devam etmek gerçekten fark eder mi?", "Evet. 40 çalışmayı inceleyen Cochrane derlemesi, hastaneden çıktıktan sonra yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini anlamlı şekilde artırdığını gösterdi. ABD'de 232 hastayla yapılan bir çalışmada 6 ay süren ev egzersiz programı, rehabilitasyonu tamamlamış hastalarda bile işlevi daha da iyileştirdi. Her program aynı ölçüde etkili değildir: 210 hastayla yapılan CAP çalışmasında 16 haftalık ev programının sonunda toplum içinde bağımsız yürüyebilme ölçütüne (6 dakikada 300 metreden fazla) ulaşanların oranı aerobik, kuvvet ve denge egzersizi yapan grupta %23, hareket açıklığı egzersizi ve elektrikle sinir uyarımı uygulanan grupta %18 oldu. Fark anlamlı değildi, ama iki grupta da yürüme belirgin şekilde iyileşti."),
  ("Kırığım protezle mi, vidayla mı tedavi edildi; fark eder mi?", "Evet. Kırığın türüne göre kırık vida ya da çivi ile sabitlenebilir ya da kalçanın bir kısmı protezle değiştirilebilir. Protez uygulandıysa bazı pozisyonlardan bir süre kaçınmanız gerekebilir. Hangi hareketlerin sizin için güvenli olduğunu cerrahınıza sorun; ayrıntılar için protez sonrası rehberine bakabilirsiniz."),
  ("Yeniden kırılmaması için ne yapmalıyım?", "Kalça kırıkları çoğu zaman bir düşme ve kemik erimesi birlikteliğinde ortaya çıkar. Kemik sağlığınızın değerlendirilmesini isteyin, düzenli denge ve güçlendirme egzersizleri yapın ve evinizi düşmelere karşı güvenli hale getirin."),
 ]
@@ -208,6 +209,7 @@ HF_SRC = [
  "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/cg124/chapter/recommendations", "Hip fracture: management (CG124)") + ". London: NICE; 2011, updated 2023.",
  "Fairhall NJ, Dyer SM, Mak JCS, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001704.pub5/full", "Interventions for improving mobility after hip fracture surgery in adults") + ". Cochrane Database Syst Rev. 2022;9:CD001704.",
  "Latham NK, Harris BA, Bean JF, et al. " + ext("https://jamanetwork.com/journals/jama/fullarticle/1829991", "Effect of a home-based exercise program on functional recovery following rehabilitation after hip fracture: a randomized clinical trial") + ". JAMA. 2014;311(7):700-708.",
+ "Magaziner J, Mangione KK, Orwig D, et al. " + ext("https://doi.org/10.1001/jama.2019.12964", "Effect of a multicomponent home-based physical therapy intervention on ambulation after hip fracture in older adults: the CAP randomized clinical trial") + ". JAMA. 2019;322(10):946–956.",
  "The Chartered Society of Physiotherapy. " + ext("https://www.csp.org.uk/frontline/article/mobility-strategies-are-effective-adults-after-hip-fracture-surgery", "Mobility strategies are effective in adults after hip fracture surgery") + ".",
  "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/QS16/chapter/quality-statement-6-rehabilitation-after-surgery", "Hip fracture in adults. Quality statement 6: rehabilitation after surgery") + ". NICE quality standard QS16, 2012, updated 2016.",
 ]
@@ -218,7 +220,7 @@ HF_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Kalça kırığı sonrası evde rehabilitasyon</h1>
     <p class="lede">Kalça kırığı, özellikle ileri yaşta bağımsızlığı tehdit eden ciddi bir yaralanma. Ameliyattan sonra ne kadar erken ve düzenli hareket edilirse toparlanma o kadar iyi olur; evde sürdürülen egzersiz programı, hastaneden sonra da kazanım sağlıyor.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -356,7 +358,7 @@ CX_FAQ = [
  ("Kemoterapi sırasında egzersiz yapabilir miyim?", "Çoğu kişi için evet; kılavuzlar tedavi sırasında da egzersizi öneriyor. Yorgun hissettiğiniz günlerde süreyi ve yoğunluğu azaltın. Ateşiniz, bir enfeksiyonunuz varsa ya da kan değerleriniz çok düşükse egzersize ara verin ve tedavi ekibinize danışın."),
  ("Çok yorgunum, dinlenmem daha iyi değil mi?", "Uzun süre dinlenmek yorgunluğu çoğu zaman artırır. 113 çalışmayı ve 11.525 kişiyi kapsayan bir meta-analizde egzersiz ve psikolojik destek, kansere bağlı yorgunlukta ilaçlardan daha etkili bulundu; araştırmacılar bu yaklaşımları ilk tercih olarak öneriyor. Kısa ve hafif başlayın, yavaş yavaş artırın."),
  ("Lenfödem riskim var, ağırlık kaldırabilir miyim?", "Yavaş yavaş artırılan ağırlık çalışması güvenli görünüyor. Koltuk altından lenf bezi alınmış 154 meme kanseri hastasıyla yapılan bir çalışmada, kontrollü ağırlık programına katılanlarda lenfödem gelişme oranı %11, katılmayanlarda %17 oldu. Başlarken bir fizyoterapist eşliğinde, hafif ağırlıklarla başlayın."),
- ("Hangi egzersizi seçmeliyim?", "En iyisi, yürüyüş gibi aerobik bir egzersizi kas güçlendirme hareketleriyle birleştirmek. Kılavuz haftada üç kez, yaklaşık 30 dakikalık aerobik ve direnç egzersizini öneriyor. Bu hedef size uzak geliyorsa daha kısa sürelerle başlayın; az da olsa hareket, hiç hareket etmemekten iyidir."),
+ ("Hangi egzersizi seçmeliyim?", "En iyisi, yürüyüş gibi aerobik bir egzersizi kas güçlendirme hareketleriyle birleştirmek. Kılavuz haftada üç kez, yaklaşık 30 dakikalık aerobik ve direnç egzersizini öneriyor. Bu hedef size uzak geliyorsa daha kısa sürelerle başlayın; az da olsa hareket, hiç hareket etmemekten iyidir. 21 randomize çalışmayı ve 8.449 hastayı kapsayan 2026 tarihli bir meta-analizde, yapılandırılmış egzersiz programlarına katılanlarda ölüm olasılığı %23, nüks olasılığı %17 daha düşüktü; aerobik egzersiz tek başına ya da kuvvet egzersiziyle birlikte daha iyi sağkalımla ilişkiliydi."),
 ]
 
 CX_SRC = [
@@ -365,6 +367,7 @@ CX_SRC = [
  "Schmitz KH, Ahmed RL, Troxel AB, et al. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa0810118", "Weight lifting in women with breast-cancer-related lymphedema") + ". N Engl J Med. 2009;361(7):664-673.",
  "Schmitz KH, et al. " + ext("https://ecancer.org/en/news/1437-weight-lifting-reduces-risk-of-lymphedema-among-breast-cancer-survivors", "Weight lifting for women at risk for breast cancer-related lymphedema: a randomized trial") + ". JAMA. 2010.",
  "Courneya KS, Vardy JL, O'Callaghan CJ, et al. " + ext("https://www.nejm.org/doi/abs/10.1056/NEJMoa2502760", "Structured exercise after adjuvant chemotherapy for colon cancer") + ". N Engl J Med. 2025.",
+ "Br J Sports Med. 2026. doi:10.1136/bjsports-2026-111664 (21 randomize çalışmanın meta-analizi). Basın bülteni: " + ext("https://bmjgroup.com/structured-exercise-linked-to-longer-cancer-survival-and-time-free-of-disease/", "BMJ Group, 15 September 2026") + ".",
 ]
 
 CX_BODY = f'''<header class="page">
@@ -373,7 +376,7 @@ CX_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Kanser tedavisi sırasında ve sonrasında egzersiz</h1>
     <p class="lede">Eskiden kanser tedavisi sırasında dinlenmek önerilirdi. Bugün kılavuzlar tersini söylüyor: uygun dozda egzersiz yorgunluğu, kaygıyı ve çökkünlüğü azaltıyor, beden işlevini ve yaşam kalitesini iyileştiriyor. Bazı kanserlerde hastalığın seyrini de olumlu etkileyebiliyor.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

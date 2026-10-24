@@ -33,7 +33,7 @@ _ex2("copd_walk", "walk", "Aralıklı yürüyüş", "Orta düzeyde nefes darlı�
 COPD_FAQ = [
  ("Nefes darlığım varken egzersiz yapmak zararlı mı?", "Hayır. Egzersizde nefes nefese kalmak akciğerlerinize zarar vermez; hareketsiz kalmak ise kasları zayıflatır ve aynı iş için daha çok nefes harcamanıza yol açar. Egzersizde orta düzeyde nefes darlığı hedeflenir. Nefes darlığınız her zamankinden belirgin şekilde fazlaysa ya da alevlenme belirtileriniz varsa o gün egzersizi erteleyip hekiminize danışın."),
  ("Rehabilitasyonla akciğerlerim düzelir mi?", "Rehabilitasyon akciğerdeki hasarı geri çevirmez. Güçlenen kaslar ve artan dayanıklılık sayesinde aynı akciğerle daha uzun yürüyebilir, günlük işleri daha az nefes darlığıyla yapabilirsiniz. Derlemede 6 dakikada yürünen mesafe ortalama 44 metre arttı."),
- ("Rehabilitasyonu evde yapabilir miyim?", "Evet. 166 hastalık bir çalışmada, bir fizyoterapist ev ziyareti ve ardından haftalık telefon görüşmeleriyle yürütülen 8 haftalık ev programı kısa vadede hastanedeki programla eşdeğer sonuç verdi. Programın size göre ayarlanması ve düzenli izlenmesi önemlidir."),
+ ("Rehabilitasyonu evde yapabilir miyim?", "Evet. 166 hastalık bir çalışmada, bir fizyoterapist ev ziyareti ve ardından haftalık telefon görüşmeleriyle yürütülen 8 haftalık ev programı kısa vadede hastanedeki programla eşdeğer sonuç verdi. Programın size göre ayarlanması ve düzenli izlenmesi önemlidir. 15 çalışmayı ve 1.904 kişiyi inceleyen 2021 tarihli bir Cochrane derlemesinde de internet ya da telefonla uzaktan yürütülen rehabilitasyon, yürüme mesafesinde merkezdeki programla benzer sonuç verdi; programı tamamlayanların oranı uzaktan programda %93, merkezde %70 idi ve ek bir güvenlik sorunu bildirilmedi."),
  ("Oksijen kullanıyorum, egzersiz yapabilir miyim?", "Çoğu zaman evet; ancak egzersiz sırasında oksijen akışının ne olacağına hekiminiz karar verir. Ayarı kendiniz değiştirmeyin; programınızı hekiminiz ve fizyoterapistinizle birlikte planlayın."),
 ]
 
@@ -42,6 +42,7 @@ COPD_SRC = [
  "Puhan MA, Gimeno-Santos E, Cates CJ, Troosters T. " + ext("https://www.cochrane.org/CD005305/AIRWAYS_pulmonary-rehabilitation-following-exacerbations-chronic-obstructive-pulmonary-disease", "Pulmonary rehabilitation following exacerbations of chronic obstructive pulmonary disease") + ". Cochrane Database Syst Rev. 2016;(12):CD005305.",
  "Holland AE, Mahal A, Hill CJ, et al. " + ext("https://thorax.bmj.com/content/72/1/57", "Home-based rehabilitation for COPD using minimal resources: a randomised, controlled equivalence trial") + ". Thorax. 2017;72(1):57-65.",
  "Holland AE, Hill CJ, Jones AY, McDonald CF. " + ext("https://www.cochrane.org/CD008250/AIRWAYS_breathing-exercises-for-chronic-obstructive-pulmonary-disease", "Breathing exercises for chronic obstructive pulmonary disease") + ". Cochrane Database Syst Rev. 2012;(10):CD008250.",
+ "Cox NS, Dal Corso S, Hansen H, et al. " + ext("https://www.cochrane.org/evidence/CD013040_telerehabilitation-people-chronic-obstructive-pulmonary-disease-copd", "Telerehabilitation for chronic respiratory disease") + ". Cochrane Database Syst Rev. 2021;(1):CD013040.",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)", "Chronic obstructive pulmonary disease (COPD)") + ". Fact sheet. 10 June 2026.",
 ]
 
@@ -51,7 +52,7 @@ COPD_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>KOAH'ta akciğer rehabilitasyonu</h1>
     <p class="lede">KOAH (kronik obstrüktif akciğer hastalığı), hava yollarının kalıcı olarak daraldığı ve en çok nefes darlığı, öksürük ve çabuk yorulmayla kendini gösteren bir akciğer hastalığıdır. Nefes darlığı insanı hareketten uzaklaştırır; hareketsizlik de kasları zayıflatıp nefes darlığını artırır. Akciğer rehabilitasyonu bu döngüyü kırmayı hedefler: 65 çalışmanın derlemesinde nefes darlığını ve yorgunluğu azalttı, yürüme mesafesini artırdı.</p>
-    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

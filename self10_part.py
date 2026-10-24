@@ -287,7 +287,7 @@ TP_FAQ = [
  ("Neden dakikada 100 adım?", "ABD’de laboratuvarda yapılan iki çalışmada (21–40 ve 41–60 yaş arası yetişkinler), dakikada yaklaşık 100 adımlık yürüyüşün orta yoğunluğa (3 MET), yaklaşık 130 adımın ise yüksek yoğunluğa (6 MET) karşılık geldiği görüldü. Her 10 adımlık artış yaklaşık 1 MET daha fazla eforu gösterir. Adım sayarak yürüyüşünüzün “tempolu” olup olmadığını pratik olarak anlayabilirsiniz. Konuyu inceleyen bir derleme de dakikada 100 adımı, sağlıklı yetişkinlerde orta yoğunluk için tutarlı bir pratik eşik olarak görüyor; yaşlılarda daha düşük bir tempo yetebilir, ama bu konudaki veriler sınırlı."),
  ("Bu tempo herkes için aynı mı?", "Hayır. Bu değerler sağlıklı yetişkinlerin ortalamasıdır ve kişiden kişiye değişir. Kondisyonu düşük, yaşı ileri ya da kilosu fazla biri için dakikada 100 adım daha zorlayıcı olabilir. Rahat ettiğiniz bir tempoyla başlayın ve kademeli artırın. Kalp hastalığınız varsa ya da yürürken göğüs ağrısı, baş dönmesi veya konuşmanızı engelleyen nefes darlığı olursa durun ve hekiminize danışın."),
  ("Telefon cebimdeyken çalışır mı?", "Sayfa açıkken ekran kapanmasın diye ekran kilidi engellenir; sesler de bu sayede devam eder. Bazı telefonlarda ekran kilitlenirse ya da başka bir uygulamaya geçerseniz ses duraksayabilir. En iyisi ses açıkken ekranı açık bırakıp telefonu cebinizde taşımaktır."),
- ("Adım sayısı mı önemli, tempo mu?", "15 çalışmayı birleştiren 2022 tarihli bir meta-analizde günlük adım sayısı arttıkça ölüm riski azaldı; azalma 60 yaş ve üstünde yaklaşık 6.000–8.000, daha gençlerde 8.000–10.000 adımda düzleşti. Toplam adım sayısı hesaba katıldığında tempoyla ilişki zayıfladı. Yani önce gün içindeki toplam yürüyüşü artırmak, tempoyu ise kondisyonu geliştirmek için kullanmak mantıklı görünüyor."),
+ ("Adım sayısı mı önemli, tempo mu?", "15 çalışmayı birleştiren 2022 tarihli bir meta-analizde günlük adım sayısı arttıkça ölüm riski azaldı; azalma 60 yaş ve üstünde yaklaşık 6.000–8.000, daha gençlerde 8.000–10.000 adımda düzleşti. Toplam adım sayısı hesaba katıldığında tempoyla ilişki zayıfladı. Yani önce gün içindeki toplam yürüyüşü artırmak, tempoyu ise kondisyonu geliştirmek için kullanmak mantıklı görünüyor. 57 çalışmayı inceleyen 2025 tarihli bir derlemede ise günde 7.000 adım atanlarda ölüm riski 2.000 adım atanlara göre %47 daha düşüktü ve yararın büyük kısmı 5.000–7.000 adım civarında ortaya çıkıyordu."),
  ("Haftada ne kadar yürümeliyim?", "Dünya Sağlık Örgütü yetişkinlere haftada en az 150–300 dakika orta yoğunlukta ya da 75–150 dakika yüksek yoğunlukta aerobik aktivite öneriyor. Bu, haftada 5 gün günde 30 dakikalık tempolu yürüyüşle karşılanabilir; daha kısa yürüyüşler de sayılır."),
 ]
 
@@ -297,7 +297,7 @@ TP_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Tempolu yürüyüş metronomu</h1>
     <p class="lede">Yürüyüşünüz gerçekten “tempolu” mu? Araştırmalar, dakikada yaklaşık 100 adımın orta yoğunlukta egzersize karşılık geldiğini gösteriyor. Bu metronom seçtiğiniz tempoda her adımınız için bir ses çalar; siz de adımlarınızı sese uydurursunuz. Önce 15 saniyede kaç adım attığınızı sayarak bugünkü temponuzu ölçebilirsiniz.</p>
-    <p class="meta">Son güncelleme: 19 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -440,6 +440,7 @@ TP_BODY = f'''<header class="page">
         "World Health Organization. " + ext("https://www.who.int/publications/i/item/9789240015128", "WHO guidelines on physical activity and sedentary behaviour") + ". 2020.",
         "Paluch AE, Bajpai S, Bassett DR, et al. " + ext("https://doi.org/10.1016/S2468-2667(21)00302-9", "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts") + ". Lancet Public Health. 2022;7(3):e219–e228",
         "Tudor-Locke C, Han H, Aguiar EJ, et al. " + ext("https://bjsm.bmj.com/content/52/12/776", "How fast is fast enough? Walking cadence (steps/min) as a practical estimate of intensity in adults: a narrative review") + ". Br J Sports Med. 2018;52(12):776–788.",
+        "Ding D, et al. " + ext("https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(25)00164-1/fulltext", "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis") + ". Lancet Public Health. 2025.",
       ])}
     </div>
   </section>

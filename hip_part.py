@@ -28,7 +28,7 @@ SV["k2c2"] = SV["k2c"]; EXT["k2c2"] = ("Dizi göğse çekme", "Sırtüstü yatı
 
 KALCA_FAQ = [
  ("Kalça kireçlenmesinde yürümek zararlı mı?", "Hayır. Egzersiz ve düzenli hareket kireçlenmede tedavinin temelidir. Ağrıyı belirgin artırmayacak bir mesafe ve tempoyla yürüyün; ağrılı dönemlerde süreyi kısaltıp sıklığı artırın. Bisiklet ve suda egzersiz de eklemi daha az yükleyen iyi seçeneklerdir."),
- ("Egzersiz gerçekten işe yarıyor mu?", "2026'da güncellenen Cochrane derlemesine göre egzersiz kalça kireçlenmesinde ağrıyı ve işlevi hafifçe iyileştiriyor; ortalama etki küçük. Buna rağmen yan etkisi az ve genel sağlığa pek çok faydası olduğu için Amerikan Romatoloji Koleji egzersizi güçlü şekilde öneriyor. Egzersiz; kilo kontrolü, baston ve hastalığı doğru anlamakla birlikte bir tedavi paketinin parçasıdır. İngiltere’nin 2022 kılavuzu (NICE) da herkese kişiye göre ayarlanmış egzersiz, fazla kilosu olanlara kilo vermeyi (az miktarda kilo kaybı bile yararlı) ve gerekirse baston öneriyor; tanı için genellikle görüntüleme gerekmediğini, glukozamin ve güçlü opioidlerin önerilmediğini belirtiyor."),
+ ("Egzersiz gerçekten işe yarıyor mu?", "2026'da güncellenen Cochrane derlemesine göre egzersiz kalça kireçlenmesinde ağrıyı ve işlevi hafifçe iyileştiriyor; ortalama etki küçük. Buna rağmen yan etkisi az ve genel sağlığa pek çok faydası olduğu için Amerikan Romatoloji Koleji egzersizi güçlü şekilde öneriyor. Egzersiz; kilo kontrolü, baston ve hastalığı doğru anlamakla birlikte bir tedavi paketinin parçasıdır. İngiltere’nin 2022 kılavuzu (NICE) da herkese kişiye göre ayarlanmış egzersiz, fazla kilosu olanlara kilo vermeyi (az miktarda kilo kaybı bile yararlı) ve gerekirse baston öneriyor; tanı için genellikle görüntüleme gerekmediğini, glukozamin ve güçlü opioidlerin önerilmediğini belirtiyor. 2026'da yayımlanan ve 5 sistematik derleme ile 28 randomize çalışmayı bir araya getiren bir şemsiye derlemede de egzersizin kalça ağrısına etkisi ihmal edilebilir düzeyde bulundu; yazarlar egzersizin genel sağlığa yararlarını ve hastaların tercihini göz ardı etmeden ortak karar verilmesini öneriyor."),
  ("Glukozamin ya da eklem iğneleri işe yarar mı?", "Amerikan Romatoloji Koleji'nin kılavuzu kalça kireçlenmesinde glukozamin, kondroitin, hyaluronik asit iğnesi, PRP ve kök hücre iğnelerine karşı güçlü öneride bulunuyor. Ultrason eşliğinde yapılan kortizon iğnesi ise kısa süreli rahatlama için önerilen seçeneklerden biridir."),
  ("Baston hangi elde tutulur?", "Ağrılı kalçanın karşı tarafındaki elde. Baston ağrılı bacakla aynı anda yere basar ve kalçanın taşıdığı yükü azaltır. Boyunun doğru ayarlanması önemlidir."),
  ("Kalça protezi ne zaman gerekir?", "Egzersiz, kilo kontrolü ve ilaç tedavisine rağmen ağrı ve kısıtlılık günlük yaşamı ciddi şekilde bozuyorsa ortopedi değerlendirmesi gerekir. Karar yalnızca röntgene göre değil, yaşam kalitenize göre verilir."),
@@ -40,6 +40,7 @@ KALCA_SRC = [
  ext("https://www.arthroplastytoday.org/article/S2352-3441(17)30073-0/fulltext", "Don't forget the hip! Hip arthritis masquerading as knee pain") + ". Arthroplasty Today. 2017.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Hip_Osteoarthritis", "Hip Osteoarthritis") + ".",
  "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng226/chapter/Recommendations", "Osteoarthritis in over 16s: diagnosis and management") + ". NICE guideline NG226, 19 October 2022.",
+ "Schleimer T, Teichert F, Henriksen M, et al. Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials. RMD Open. 2026;12(1):e006275. Özet: " + ext("https://bmjgroup.com/effectiveness-of-exercise-to-ease-osteoarthritis-symptoms-likely-minimal-and-transient/", "BMJ Group, 17 February 2026") + ".",
 ]
 
 KALCA_BODY = f'''<header class="page">
@@ -48,7 +49,7 @@ KALCA_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Kalça kireçlenmesi (koksartroz)</h1>
     <p class="lede">Kalça eklemindeki kıkırdağın zamanla incelmesiyle ortaya çıkar. Ağrı çoğunlukla kasıkta hissedilir; çorap giymek, ayakkabı bağlamak ve arabaya binmek zorlaşabilir. Egzersiz, kilo kontrolü ve doğru yardımcılarla birçok kişi uzun yıllar aktif kalabilir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

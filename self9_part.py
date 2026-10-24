@@ -49,7 +49,7 @@ FR_FAQ = [
  ("Bu test ne kadar güvenilir?", "Bu soru listesi ABD’de bir gaziler hastanesinin yaşlı sağlığı merkezinde geliştirildi ve yaşlılarda düşme riskini öz değerlendirme için doğrulandı. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), bu listeyi düşmeleri önleme programında kullanıyor. Bir tanı aracı değildir; sonucunuzu hekiminizle konuşmanız için bir başlangıç noktasıdır."),
  ("Bu liste düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir soru listesi ya da puanlama aracı kullanılmamasını öneriyor; 2022 tarihli Dünya Düşme Kılavuzu da değerlendirmeye son 12 ayda düşüp düşmediğinizi sorarak başlıyor. Bu yüzden son bir yılda düştüyseniz, puanınız ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
  ("Puanım 4’ün altında, içim rahat olabilir mi?", "Düşük puan düşme riskinizin hiç olmadığı anlamına gelmez. Bacak gücünüzü ve dengenizi korumak için hareketli kalmanız ve bu soruları yılda bir yeniden yanıtlamanız iyi olur."),
- ("Puanım yüksek çıktı, ne yapabilirim?", "Sonucunuzu hekiminizle konuşun; kullandığınız ilaçları, görmenizi ve ayaklarınızı gözden geçirmek isteyebilir. Güç ve denge egzersizleri düşmeleri önlemenin en etkili yollarından biridir. Bir fizyoterapist size özel bir program hazırlayabilir. 108 çalışmayı kapsayan Cochrane derlemesinde egzersiz, toplumda yaşayan yaşlılarda düşme sıklığını %23 azalttı."),
+ ("Puanım yüksek çıktı, ne yapabilirim?", "Sonucunuzu hekiminizle konuşun; kullandığınız ilaçları, görmenizi ve ayaklarınızı gözden geçirmek isteyebilir. Güç ve denge egzersizleri düşmeleri önlemenin en etkili yollarından biridir. Bir fizyoterapist size özel bir program hazırlayabilir. 108 çalışmayı kapsayan Cochrane derlemesinde egzersiz, toplumda yaşayan yaşlılarda düşme sıklığını %23 azalttı. ABD'de 22 aile hekimliği muayenehanesinde düşme riski taşıyan yaklaşık 12 bin yaşlıyla yapılan 2026 tarihli bir çalışmada, elektronik hasta kaydı üzerinden önerilen kısa ev egzersizleri kayıtlara geçen düşmeleri %9 azalttı."),
 ]
 
 FR_BODY = f'''<header class="page">
@@ -58,7 +58,7 @@ FR_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Düşme riskinizi değerlendirin</h1>
     <p class="lede">On iki kısa soruya “evet” ya da “hayır” deyin, düşme riskinizi bir dakikada öğrenin. Bu soru listesini ABD Hastalık Kontrol ve Önleme Merkezleri (CDC) yaşlılarda düşmeleri önleme programında kullanıyor. 4 puan ve üzeri, düşme riskiniz olabileceğini gösterir. Sonucunuzu hekiminizle ya da fizyoterapistinizle paylaşabilirsiniz.</p>
-    <p class="meta">Son güncelleme: 18 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -147,6 +147,7 @@ FR_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "Centers for Disease Control and Prevention (STEADI). " + ext("https://www.cdc.gov/steadi/pdf/steadi-brochure-stayindependent-508.pdf", "Stay Independent: check your risk for falling") + ". 2023. Türkçe çeviri sitemize aittir.",
+        "eSTEPS: JAMA Netw Open. 2026. doi:10.1001/jamanetworkopen.2026.39240. Özet: " + ext("https://www.utmb.edu/scoa/news-and-events/archive/2026/10/19/study-finds-electronic-health-record-tool-can-help-reduce-falls-among-older-adults", "UTMB, 19 October 2026") + ".",
         "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;(1):CD012424.",
         "Rubenstein LZ, Vivrette R, Harker JO, Stevens JA, Kramer BJ. Validating an evidence-based, self-rated fall risk questionnaire (FRQ) for older adults. J Safety Res. 2011;42(6):493–499.",
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng249", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",

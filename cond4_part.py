@@ -72,7 +72,7 @@ EXT.update({
 
 # ============================================================== ROTATOR MANŞET YIRTIĞI
 RC_FAQ = [
- ("MR'da yırtık çıktı, ameliyat olmalı mıyım?", "Her zaman değil. Yaşla birlikte omuzda yırtık görülmesi sıktır ve yırtıkların çoğu şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda genellikle önce fizyoterapi denenir; düzelmeyen ya da ani bir yaralanmayla oluşan yırtıklarda ameliyat değerlendirilir."),
+ ("MR'da yırtık çıktı, ameliyat olmalı mıyım?", "Her zaman değil. Yaşla birlikte omuzda yırtık görülmesi sıktır ve yırtıkların çoğu şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda genellikle önce fizyoterapi denenir; düzelmeyen ya da ani bir yaralanmayla oluşan yırtıklarda ameliyat değerlendirilir. 9 çalışmayı ve 1.007 kişiyi kapsayan 2019 tarihli bir Cochrane derlemesine göre, yırtık onarımı ameliyatı egzersize dayalı tedaviyle karşılaştırıldığında bir yılın sonunda ağrı ve işlevde klinik açıdan önemli bir ek yarar sağlamıyor olabilir; bu sonuç darbeye bağlı yırtıklar ve gençler için geçerli olmayabilir."),
  ("Yırtık fizyoterapiyle kapanır mı?", "Tam kat bir yırtık genellikle kendiliğinden kapanmaz. Ancak rotator manşetin sağlam kısımları ve kürek kemiği kasları güçlendiğinde omuz, yırtığa rağmen çoğu zaman ağrısız ve işlevsel hale gelebilir."),
  ("Geceleri hangi tarafa yatmalıyım?", "Ağrılı omzun üzerine yatmak ağrıyı artırabilir. Sağlam tarafınıza yatıp ağrılı kolunuzu önünüzdeki bir yastığa koymak ya da sırtüstü yatarken kolunuzu yastıkla desteklemek rahatlatabilir."),
  ("Egzersiz yırtığı büyütür mü?", "Kontrollü ve kademeli olarak artırılan egzersizler güvenli kabul edilir ve tedavinin temelidir. Ağrıyı belirgin artıran ağır kaldırma ve baş üstü zorlamaları bir süre azaltın; egzersizleri ağrının izin verdiği ölçüde sürdürün."),
@@ -83,6 +83,7 @@ RC_SRC = [
  "Kuhn JE, Dunn WR, Sanders R, et al. " + ext("https://www.sciencedirect.com/science/article/abs/pii/S1058274613000839", "Effectiveness of physical therapy in treating atraumatic full-thickness rotator cuff tears: a multicenter prospective cohort study") + ". J Shoulder Elbow Surg. 2013;22(10):1371-1379.",
  "Kukkonen J, Joukainen A, Lehtinen J, et al. " + ext("https://www.sciencedirect.com/science/article/pii/S105827462100330X", "Operative versus conservative treatment of small, nontraumatic supraspinatus tears in patients older than 55 years: over 5-year follow-up of a randomized controlled trial") + ". J Shoulder Elbow Surg. 2021.",
  "Moosmayer S, Lund G, Seljom US, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/31220021/", "At a 10-year follow-up, tendon repair is superior to physiotherapy in the treatment of small and medium-sized rotator cuff tears") + ". J Bone Joint Surg Am. 2019.",
+ "Karjalainen TV, Jain NB, Heikkinen J, Johnston RV, Page CM, Buchbinder R. " + ext("https://www.cochrane.org/CD013502/MUSKEL_does-repair-torn-rotator-cuff-tendons-work", "Surgery for rotator cuff tears") + ". Cochrane Database Syst Rev. 2019;(12):CD013502.",
  "Ryösä A, Laimi K, Äärimaa V, et al. " + ext("https://doi.org/10.1080/09638288.2016.1198431", "Surgery or conservative treatment for rotator cuff tear: a meta-analysis") + ". Disabil Rehabil. 2017;39(14)",
 ]
 
@@ -92,7 +93,7 @@ RC_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Rotator manşet yırtığı</h1>
     <p class="lede">Rotator manşet, omuz eklemini saran ve kolu kaldırıp döndürmemizi sağlayan dört kasın kirişlerinden oluşur. Yırtıklar çoğunlukla yaşla birlikte, yıpranmayla ortaya çıkar ve birçoğu hiç şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda fizyoterapi çoğu hastada ilk ve etkili tedavidir.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
@@ -349,7 +350,7 @@ page("cene-eklemi.html", "Çene Eklemi Rahatsızlıkları",
 _ex2("ui_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Önce pelvik taban kaslarınızı sıkın, sonra kalçanızı yavaşça kaldırın; 3 saniye bekleyip indirin ve kasları gevşetin.", "10 tekrar")
 
 UI_FAQ = [
- ("İdrar kaçırma yaşlanmanın doğal bir sonucu mu?", "Sık görülse de kaçınılmaz değildir ve çoğu zaman tedavi edilebilir. Utanmadan hekiminize ya da fizyoterapistinize başvurun; ilk basamak tedavi çoğu kadında pelvik taban egzersizleridir."),
+ ("İdrar kaçırma yaşlanmanın doğal bir sonucu mu?", "Sık görülse de kaçınılmaz değildir ve çoğu zaman tedavi edilebilir. Utanmadan hekiminize ya da fizyoterapistinize başvurun; ilk basamak tedavi çoğu kadında pelvik taban egzersizleridir. 60 yaş ve üstü 362 kadınla yapılan bir çalışmada, 12 haftalık pelvik taban egzersiz programından 1 yıl sonra idrar kaçırma atakları grup derslerine katılanlarda %74, bireysel seans alanlarda %70 azaldı; grup halinde yapılan program bireysel programdan geri kalmadı."),
  ("Egzersizlerin etkisini ne zaman görürüm?", "Kasların güçlenmesi zaman alır; kılavuz en az 3 ay düzenli egzersiz öneriyor. Fayda görürseniz egzersizlere devam etmeniz gerekir. Avrupa Üroloji Derneği’nin kılavuzu da stres tipi kaçırmada ilk tedavi olarak en az üç ay süren, gözetim altında yoğun pelvik taban egzersizini; fazla kilolu kadınlara kilo vermeyi öneriyor."),
  ("Kasları doğru çalıştırdığımdan nasıl emin olabilirim?", "Pek çok kişi başlangıçta karın, kalça ya da uyluk kaslarını sıkar ya da nefesini tutar. Kılavuz, egzersizlerin bir uzman eşliğinde öğretilmesini öneriyor; fizyoterapist doğru kası bulmanıza ve programı ayarlamanıza yardım eder. Tuvalette idrarı yarıda kesmeyi egzersiz olarak yapmayın."),
  ("Erkeklerde de işe yarar mı?", "Pelvik taban egzersizleri erkeklerde de, özellikle prostat ameliyatından sonra kullanılır. Programı ürolojik değerlendirmeyle birlikte planlamak gerekir."),
@@ -361,6 +362,7 @@ UI_SRC = [
  "NIHR Evidence. " + ext("https://evidence.nihr.ac.uk/alert/pelvic-floor-muscle-training-can-improve-symptoms-of-urinary-incontinence/", "Pelvic floor muscle training can improve symptoms of urinary incontinence") + ".",
  "NICE. " + ext("https://www.nice.org.uk/guidance/ng210", "Pelvic floor dysfunction: prevention and non-surgical management") + ". NICE guideline NG210, December 2021",
  "European Association of Urology. " + ext("https://uroweb.org/guideline/non-neurogenic-female-luts", "EAU Guidelines on Management of Non-neurogenic Female Lower Urinary Tract Symptoms") + ". EAU Guidelines Office, 2021–2026.",
+ "Dumoulin C, Morin M, Danieli C, et al. Group-based vs individual pelvic floor muscle training to treat urinary incontinence in older women: a randomized clinical trial. JAMA Intern Med. 2020;180(10):1284–1293. Özet: " + ext("https://pedro.org.au/english/group-based-pelvic-floor-muscle-training-is-not-inferior-to-individual-training-for-urinary-incontinence-in-older-women/", "PEDro") + ".",
 ]
 
 UI_BODY = f'''<header class="page">
@@ -369,7 +371,7 @@ UI_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>İdrar kaçırma ve pelvik taban egzersizleri</h1>
     <p class="lede">Öksürürken, hapşırırken, gülerken ya da zorlanırken idrar kaçırmak, özellikle doğum yapmış ve orta yaşın üzerindeki kadınlarda çok sıktır ve çoğu zaman utanıldığı için konuşulmaz. İyi haber: düzenli pelvik taban egzersizleri bu tür idrar kaçırmada ilk basamak ve çok etkili bir tedavidir.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 

@@ -7,13 +7,14 @@ _ex2("di_wall", "wslide", "Duvarda parmak yürütme", "Yüzünüz duvara dönük
 DI_FAQ = [
  ("Omzumu kendim yerine takabilir miyim?", "Hayır, omzu kendiniz yerine takmaya çalışmayın. En kısa sürede acil servise gidin; araba kullanmayın, gerekirse 112’yi arayın."),
  ("Askıyı ne kadar takmalıyım?", "Askı rahatlık içindir. Ağrı azaldıkça çıkarabilir, otururken kolunuzu bir yastığa destekleyebilirsiniz. Kırık yoksa genellikle 2 haftadan sonra askı kullanılmaz; size özel bir süre verildiyse ona uyabilirsiniz."),
- ("Omzum yeniden çıkar mı?", "Olabilir. Çalışmaların ortak değerlendirmesinde ilk kez öne çıkan omuzların yaklaşık %39’unda yeniden çıkma ya da yerinden kayma görüldü. 40 yaş ve altında olmak, erkek olmak ve eklemlerin doğuştan gevşek olması bu olasılığı artırıyor. Fizyoterapi omuz kaslarını güçlendirir; gençlerde ve tekrarlayan çıkıklarda ameliyat da konuşulabilir."),
+ ("Omzum yeniden çıkar mı?", "Olabilir. Çalışmaların ortak değerlendirmesinde ilk kez öne çıkan omuzların yaklaşık %39’unda yeniden çıkma ya da yerinden kayma görüldü. 40 yaş ve altında olmak, erkek olmak ve eklemlerin doğuştan gevşek olması bu olasılığı artırıyor. Fizyoterapi omuz kaslarını güçlendirir; gençlerde ve tekrarlayan çıkıklarda ameliyat da konuşulabilir. 22 randomize çalışmayı birleştiren 2018 tarihli bir analizde, ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık %47'sinde 2 yıl içinde yeniden çıkık görülmedi. Kolun dışa dönük pozisyonda özel bir askıyla tutulması yeniden çıkmayı azaltmadı; yazarlar rahatlık için sıradan bir kol askısını yeterli buluyor."),
  ("Ne zaman araba kullanabilir ve spora dönebilirim?", "Askı takılıyken araba kullanılmaz; çoğu kişi 4–6 hafta sonra, kolunun gücü ve hareketi yeterli olunca araba kullanabilir. Hafif etkinliklere yaklaşık 6 hafta sonra dönülebilir; bazı sporlara tam dönüş 16 haftayı bulabilir. Ne zaman güvenli olduğunu hekiminiz ya da fizyoterapistiniz söyleyecektir."),
 ]
 
 DI_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/dislocated-shoulder/", "Dislocated shoulder") + ". Page last reviewed 16 September 2026.",
  "Olds M, Ellis R, Donaldson K, Parmar P, Kersten P. Risk factors which predispose first-time anterior traumatic shoulder dislocations to recurrent instability in adults: a systematic review and meta-analysis. Br J Sports Med. 2015;49(14):913–922. " + ext("https://repository.canterbury.ac.uk/item/91826/-risk-factors-which-predispose-first-time-anterior-traumatic-shoulder-dislocations-to-recurrent-instability-in-adults-a-systematic-review-and-meta-analysis", "Özet") + ".",
+ "Kavaja L, Lähdeoja T, Malmivaara A, Paavola M. " + ext("https://bjsm.bmj.com/content/52/23/1498", "Treatment after traumatic shoulder dislocation: a systematic review with a network meta-analysis") + ". Br J Sports Med. 2018;52(23):1498.",
  "Northern Lincolnshire and Goole NHS Foundation Trust. " + ext("https://www.nlg.nhs.uk/resources/anterior-shoulder-dislocation-patients-under-40-years-old-and-no-fracture/", "Anterior shoulder dislocation: patients under 40 years old and no fracture") + ". December 2025.",
  "Worcestershire Acute Hospitals NHS Trust. " + ext("https://www.worcsacute.nhs.uk/leaflets/shoulder-dislocation/", "Shoulder dislocation") + ".",
  "University Hospitals of Leicester NHS Trust. " + ext("https://www.uhleicester.nhs.uk/wp-content/uploads/2025/06/1158_122024-Advice-and-exercises-for-a-dislocated-shoulder.pdf", "Advice and exercises for a dislocated shoulder") + ". Last reviewed December 2024.",
@@ -25,7 +26,7 @@ DI_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuz çıkığı (omuz instabilitesi)</h1>
     <p class="lede">Omuz çıkığı, kol kemiğinin başının omuzdaki yuvasından çıkmasıdır; çoğunlukla düşme ya da spor sırasında olur ve en sık öne doğru çıkar. Omuz bir kez çıktıktan sonra yeniden çıkma ya da yerinden kayma eğilimi gösterebilir; buna omuz instabilitesi denir. Yerine takıldıktan sonra yapılan egzersizler, omzun gücünü ve hareketini geri kazandırmanın temelidir.</p>
-    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
   </div>
 </header>
 
