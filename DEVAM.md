@@ -727,3 +727,10 @@ Kullanıcı: "Haftalık limite göre bir şeyler daha ekleyebilirsin." Hasta bro
 - Çeviri tur20 (27 birim), check 0 sorun, make_en eksik 0. Sonraki batch: tur21.
 - Testler: t_ls sorun 0; değişen 11 sayfa + yenilikler/index/bilgi TR+EN 360/390/1366/1440'ta taşma yok. Yerel sunucu konteyner yeniden başlayınca kapanıyor: `cd /home/claude/main && python3 -m http.server 8765 --bind 127.0.0.1`.
 - Sırada: 5 kaynaklı kalan ~57 sayfa (kübital tünel, golfçü dirseği, kürek kemiği arası, boyun tutulması, omuz ucu, 5. metatars, bebeklerde tortikolis, büyüme ağrıları, el bileği kırığı…).
+
+## 25 Ekim 2026 — HİZMET YERİ GEÇİCİ OLARAK KÜTAHYA MERKEZ
+Kullanıcı şu an Kütahya'da (belki Mayıs–Haziran 2027'ye kadar). İsteği: İstanbul etiketini kaldırıp hem sitede hem Google İşletme Profili'nde Kütahya yapmak. Seçimleri: hizmet alanı yalnızca "Kütahya merkez", sitede İstanbul hiç geçmesin (dönüşte geri çevrilecek).
+- Değişen kaynaklar: site/index.bak_fb.html (title, description, hero "where", intro, iletişim cümlesi), fb_misc.py, fb_trim.py, to_github.py (og/twitter), schema_home.json (description, PostalAddress Kütahya, areaServed City @id #kutahya, geo 39.4167/29.9833). Çeviri tur21 (8 birim; check.py'nin "Türkçe karakter" uyarıları yalnızca "Kütahya" adından). Sonraki batch: tur22.
+- İstanbul'a dönüşte geri almak için: bu dosyalarda "Kütahya merkezde" → "İstanbul içinde", "Kütahya merkezde evde fizyoterapi:" → "İstanbul'da evde fizyoterapi:", title/hero "Kütahya" → "İstanbul", schema'yı git geçmişinden (24 Ekim sürümü) geri yükleyin; EN eşleri bellekte duruyor.
+- Dokunulmadı: doga-recetesi.html'deki "İstanbul'dan öneriler / İstanbul'da doğa" bölümü (içerik sayfası; istenirse Kütahya önerileri eklenebilir) ve bilgi.html'deki kart cümlesi.
+- Google İşletme Profili kullanıcıda; erişimimiz yok. Önerilen yol: mevcut (aktif olmayan) İstanbul profilini düzenleyip adres gizli hizmet bölgesi işletmesi olarak Kütahya adresine ve "Kütahya" hizmet alanına çevirmek (yeniden doğrulama, çoğunlukla video ile, beklenir); ikinci bir profil açmamak.

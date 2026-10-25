@@ -3,8 +3,8 @@
 p = "site/index.html"
 s = open(p, encoding="utf-8").read()
 T = [
- ("İstanbul içinde evinize gelerek değerlendirme, tedavi ve egzersiz sürecinizi bulunduğunuz ortamda planlıyorum. Uygulanacak program; ihtiyaçlarınız, günlük yaşamınız ve değerlendirme bulgularınız doğrultusunda kişiye özel olarak oluşturulur.",
-  "İstanbul içinde evinize geliyorum; değerlendirme, tedavi ve egzersiz programınız ihtiyaçlarınıza ve günlük yaşamınıza göre kişiye özel hazırlanır."),
+ ("Kütahya merkezde evinize gelerek değerlendirme, tedavi ve egzersiz sürecinizi bulunduğunuz ortamda planlıyorum. Uygulanacak program; ihtiyaçlarınız, günlük yaşamınız ve değerlendirme bulgularınız doğrultusunda kişiye özel olarak oluşturulur.",
+  "Kütahya merkezde evinize geliyorum; değerlendirme, tedavi ve egzersiz programınız ihtiyaçlarınıza ve günlük yaşamınıza göre kişiye özel hazırlanır."),
  ("Kavrama gücü, yürüme hızı, denge ve yerden kalkabilmek; büyük bilimsel çalışmalarda uzun yaşamla en güçlü ilişkili göstergeler arasında. Bunları evinizde ölçüyor, fonksiyonel yaşınızı çıkarıyor ve size özel bir egzersiz reçetesine dönüştürüyorum.",
   "Bu göstergeleri evinizde ölçüyor, fonksiyonel yaşınızı çıkarıyor ve size özel bir egzersiz reçetesine dönüştürüyorum."),
  ("Kısa ve ücretsiz bir ön görüşmede neler yaşadığınızı dinleyeyim, evde nasıl bir yol izleyebileceğimizi birlikte konuşalım. Size uygun günü ve saat aralığını seçin; onaylayıp size dönüş yapayım.",
