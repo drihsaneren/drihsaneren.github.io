@@ -8,12 +8,10 @@
       "url": "https://drihsaneren.com/",
       "image": "https://drihsaneren.com/logo.png",
       "logo": "https://drihsaneren.com/logo.png",
-      "description": "Kütahya merkezde evde fizyoterapi, rehabilitasyon, kişiye özel egzersiz ve fonksiyonel değerlendirme hizmetleri.",
+      "description": "Evde fizyoterapi, rehabilitasyon, kişiye özel egzersiz ve fonksiyonel değerlendirme hizmetleri.",
       "email": "ihsan@drihsaneren.com",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Kütahya",
-        "addressRegion": "Kütahya",
         "addressCountry": "TR"
       },
       "priceRange": "₺₺–₺₺₺",
@@ -22,16 +20,6 @@
       },
       "employee": {
         "@id": "https://drihsaneren.com/#ihsan-eren"
-      },
-      "areaServed": {
-        "@type": "City",
-        "@id": "https://drihsaneren.com/#kutahya",
-        "name": "Kütahya",
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 39.4167,
-          "longitude": 29.9833
-        }
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -46,9 +34,6 @@
               "serviceType": "Evde fizyoterapi ve rehabilitasyon",
               "provider": {
                 "@id": "https://drihsaneren.com/#business"
-              },
-              "areaServed": {
-                "@id": "https://drihsaneren.com/#kutahya"
               },
               "audience": {
                 "@type": "PeopleAudience",
@@ -83,9 +68,6 @@
               "serviceType": "Kişiye özel egzersiz ve rehabilitasyon programı",
               "provider": {
                 "@id": "https://drihsaneren.com/#business"
-              },
-              "areaServed": {
-                "@id": "https://drihsaneren.com/#kutahya"
               }
             }
           },
@@ -118,7 +100,8 @@
         "@type": "Occupation",
         "name": "Fizyoterapist",
         "occupationLocation": {
-          "@id": "https://drihsaneren.com/#kutahya"
+          "@type": "Country",
+          "name": "Türkiye"
         }
       },
       "hasCredential": [

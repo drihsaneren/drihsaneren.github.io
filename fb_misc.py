@@ -24,10 +24,10 @@ rep('<p>Logo tescillidir. Galerideki görseller temsilidir.</p>','<p>Logo tescil
 # iletişim: numara yok, sıcak bir başlık
 rep('''          <p class="eyebrow">Bilgi ve iletişim</p>
           <a class="phone" href="tel:+905538815568">0553 881 55 68</a>
-          <p class="sub">Arayın ya da WhatsApp'tan yazın. Kütahya merkezde evde fizyoterapi hizmeti.</p>''',
+          <p class="sub">Arayın ya da WhatsApp'tan yazın. Evde fizyoterapi hizmeti.</p>''',
 '''          <p class="eyebrow">Bilgi ve iletişim</p>
           <h2 class="hello">Hikâyenizi dinleyerek başlayalım.</h2>
-          <p class="sub">Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; size en kısa sürede dönüş yapayım. Kütahya merkezde evde fizyoterapi hizmeti.</p>''')
+          <p class="sub">Ne yaşadığınızı, neyi yeniden yapabilmek istediğinizi bir mesajla anlatın; size en kısa sürede dönüş yapayım. Evde fizyoterapi hizmeti.</p>''')
 rep(".phone{font-family:var(--display);font-size:clamp(34px,8vw,52px);line-height:1.05;color:var(--foil);text-decoration:none;display:inline-block;margin:6px 0 8px;font-variant-numeric:tabular-nums}",
     ".hello{font-size:clamp(30px,6vw,46px);line-height:1.12;color:var(--foil);margin:8px 0 12px;max-width:18ch}")
 rep('<a class="cta ghost" href="mailto:ihsan@drihsaneren.com">ihsan@drihsaneren.com</a>',

@@ -734,3 +734,8 @@ Kullanıcı şu an Kütahya'da (belki Mayıs–Haziran 2027'ye kadar). İsteği:
 - İstanbul'a dönüşte geri almak için: bu dosyalarda "Kütahya merkezde" → "İstanbul içinde", "Kütahya merkezde evde fizyoterapi:" → "İstanbul'da evde fizyoterapi:", title/hero "Kütahya" → "İstanbul", schema'yı git geçmişinden (24 Ekim sürümü) geri yükleyin; EN eşleri bellekte duruyor.
 - Dokunulmadı: doga-recetesi.html'deki "İstanbul'dan öneriler / İstanbul'da doğa" bölümü (içerik sayfası; istenirse Kütahya önerileri eklenebilir) ve bilgi.html'deki kart cümlesi.
 - Google İşletme Profili kullanıcıda; erişimimiz yok. Önerilen yol: mevcut (aktif olmayan) İstanbul profilini düzenleyip adres gizli hizmet bölgesi işletmesi olarak Kütahya adresine ve "Kütahya" hizmet alanına çevirmek (yeniden doğrulama, çoğunlukla video ile, beklenir); ikinci bir profil açmamak.
+
+## 26 Ekim 2026 — ANA SAYFADA ŞEHİR ADI YOK
+Kullanıcı: "Kütahya evde fizyoterapi hizmeti yazma", ardından seçim: "Evde fizyoterapi, konumsuz". Ana sayfada (TR+EN) hiçbir şehir adı geçmiyor: başlık "İhsan Eren · Evde Fizyoterapi", hero "Evde fizyoterapi hizmeti", intro "Evinize geliyorum; …", iletişim "… Evde fizyoterapi hizmeti.", og/twitter "Evde fizyoterapi: …". Şemada (schema_home.json) areaServed kaldırıldı, adres yalnızca addressCountry TR, occupationLocation Country "Türkiye". Çeviri tur22 (7 birim). Sonraki batch: tur23.
+- Kural: kullanıcı açıkça istemedikçe ana sayfaya şehir adı (İstanbul/Kütahya) yazılmaz. Doğa reçetesi sayfasındaki İstanbul önerileri içerik olarak duruyor.
+- Bir önceki bölümdeki "geri alma" notu artık geçersiz; şehir eklenecekse yukarıdaki dosyalar düzenlenir.

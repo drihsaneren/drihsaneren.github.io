@@ -21,14 +21,14 @@ old = 'href="https://claude.ai/artifact/EwXHr8e7gUFxdpY8Xev6A7" target="_blank" 
 assert body.count(old) == 1; body = body.replace(old, 'href="recete.html"')
 meta = '''<meta property="og:type" content="website">
 <meta property="og:title" content="İhsan Eren · Evde fizyoterapi">
-<meta property="og:description" content="Kütahya merkezde evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı.">
+<meta property="og:description" content="Evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı.">
 <meta property="og:image" content="https://drihsaneren.com/logo.png">
 <meta property="og:locale" content="tr_TR">
 <meta name="theme-color" content="#1c2819">
 <meta property="og:url" content="https://drihsaneren.com/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="İhsan Eren · Evde fizyoterapi">
-<meta name="twitter:description" content="Kütahya merkezde evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı.">
+<meta name="twitter:description" content="Evde fizyoterapi: kapsamlı değerlendirme, kişiye özel tedavi ve egzersiz programı.">
 <meta name="twitter:image" content="https://drihsaneren.com/logo.png">
 <link rel="canonical" href="https://drihsaneren.com/">'''
 meta += '\n' + hreflang('index.html').rstrip()
