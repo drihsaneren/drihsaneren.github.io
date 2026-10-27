@@ -73,7 +73,7 @@ SI_BODY = f'''<header class="page">
         <ul class="dots">
           <li>Hareketli kalmaya ve günlük işlerinize elden geldiğince devam etmeye çalışın.</li>
           <li>Uzun süre oturmaktan kaçınıp sık sık kalkabilir, kısa yürüyüşler yapabilirsiniz.</li>
-          <li>Buz ya da ağrı kesici rahatlatabilir; ilaç kullanmadan önce hekiminize ya da eczacınıza danışabilirsiniz.</li>
+          <li>Buz ya da ağrı kesici rahatlatabilir; ilaç kullanmadan önce hekiminize danışabilirsiniz.</li>
           <li>Aşağıdaki egzersizlerle leğen kemiğini dengeleyen kasları güçlendirebilirsiniz.</li>
         </ul>
       </div>

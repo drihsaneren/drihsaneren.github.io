@@ -104,7 +104,7 @@ COLD_BODY = f'''<header class="page">
         <li>Düşük düzeyli lazer: üç çalışmada atak sayısını biraz azalttı; farkın klinik önemi belirsiz.</li>
         <li>Ginkgo biloba, antioksidanlar ve esansiyel yağ asitleri: anlamlı bir yarar gösterilemedi ya da veri yetersiz.</li>
       </ul>
-      <p class="soft" style="margin-top:14px">Derlemenin sonucu açık: iyi tasarlanmış çalışmalara ihtiyaç var ve biyogeribildirimin işe yaramadığı dışında kesin bir şey söylenemiyor. Bitkisel ürünler ilaçlarla etkileşebilir; kullanmadan önce hekiminize ya da eczacınıza danışın.</p>
+      <p class="soft" style="margin-top:14px">Derlemenin sonucu açık: iyi tasarlanmış çalışmalara ihtiyaç var ve biyogeribildirimin işe yaramadığı dışında kesin bir şey söylenemiyor. Bitkisel ürünler ilaçlarla etkileşebilir; kullanmadan önce hekiminize danışın.</p>
       <div class="callout">
         <p>Tamamlayıcı bir yöntem denemek isterseniz önce altta yatan nedenin araştırıldığından emin olun ve yöntemi tıbbi tedavinin yerine değil, yanında düşünün.</p>
       </div>

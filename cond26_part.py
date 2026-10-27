@@ -90,7 +90,7 @@ DI_BODY = f'''<header class="page">
         <div class="kind"><span class="n">1</span><h3>Askı</h3><p>Askı rahatlık içindir. Otururken çıkarıp kolunuzu bir yastığa destekleyebilirsiniz; kırık yoksa genellikle 2 haftadan sonra kullanılmaz.</p></div>
         <div class="kind"><span class="n">2</span><h3>Kaçınılacak pozisyon</h3><p>İlk haftalarda kolunuzu omuz hizasının üstüne kaldırmaktan ve kolunuzu yana açıp elinizi tavana doğru döndürmekten, özellikle zorlayarak, kaçınabilirsiniz.</p></div>
         <div class="kind"><span class="n">3</span><h3>Dirsek ve bilek</h3><p>Dirsek bükme, avuç çevirme ve bilek hareketlerine hemen başlayabilirsiniz.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Buz ve ağrı kesici</h3><p>Havluya sarılı buz ağrıyı hafifletebilir; ağrı kesici için hekiminize ya da eczacınıza danışın.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Buz ve ağrı kesici</h3><p>Havluya sarılı buz ağrıyı hafifletebilir; ağrı kesici için hekiminize danışın.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Omuz ağrısının diğer nedenleri için <a href="rotator-manset-yirtigi.html">rotator manşet yırtığı</a> ve <a href="donuk-omuz.html">donuk omuz</a> rehberlerine bakabilirsiniz.</p>
     </div>

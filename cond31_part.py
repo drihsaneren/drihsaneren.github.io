@@ -17,7 +17,7 @@ _ex2("lc_towel", "towelst2", "Yatakta havluyla baldır germe", "Yatağa bacaklar
 _ex2("lc_walk", "walk", "Yatmadan önce hafif hareket", "Yatmadan önce birkaç dakika sakin bir tempoda yürüyebilir ya da sabit bisiklet çevirebilirsiniz. Bunun yararı araştırmalarla kanıtlanmış değil; bazı kişiler fayda gördüğünü söylüyor.", "Birkaç dakika")
 
 LC_FAQ = [
- ("Magnezyum işe yarar mı?", "Büyük bir Cochrane derlemesine göre belirgin bir neden olmadan kramp yaşayan yaşlı yetişkinlerde magnezyumun krampları anlamlı ölçüde azaltması beklenmiyor. Gebelikteki kramplar için ise araştırmalar çelişkili ve kanıt çok belirsiz. Takviye kullanmadan önce hekiminize ya da eczacınıza danışabilirsiniz."),
+ ("Magnezyum işe yarar mı?", "Büyük bir Cochrane derlemesine göre belirgin bir neden olmadan kramp yaşayan yaşlı yetişkinlerde magnezyumun krampları anlamlı ölçüde azaltması beklenmiyor. Gebelikteki kramplar için ise araştırmalar çelişkili ve kanıt çok belirsiz. Takviye kullanmadan önce hekiminize danışabilirsiniz."),
  ("Kinin ya da tonik suyu kullanmalı mıyım?", "Kendi başınıza kullanmayın. Kinin bazı ülkelerde egzersiz işe yaramadığında hekim kontrolünde verilebiliyor; ama kan pulcuklarında düşme ve kalp ritim bozukluğu gibi ciddi yan etkileri olabildiği için ABD’de bacak krampı için kullanılması önerilmiyor."),
  ("Kullandığım ilaç kramp yapabilir mi?", "Yapabilir. Kolesterol için kullanılan statinler ve tansiyon için kullanılan idrar söktürücüler kramplarla ilişkilendirilen ilaçlar arasında. Kramplarınız yeni bir ilaçtan sonra başladıysa ilacı kendiniz bırakmayın; hekiminizle konuşabilirsiniz."),
  ("Kramp mı, huzursuz bacak mı?", "Kramp ani, ağrılı bir kasılmadır; kas sertleşir ve gözle görülebilir. Huzursuz bacak sendromunda ise bacakları hareket ettirmek için karşı konulamaz bir istek olur, genellikle akşamları artar, hareketle rahatlar ve ağrılı bir kasılma yoktur."),
@@ -85,7 +85,7 @@ LC_BODY = f'''<header class="page">
         <ul class="dots">
           <li>Kası germek ya da ovmak ağrıyı hafifletebilir; kramp çoğu zaman tedavi gerekmeden geçer.</li>
           <li>Bacağınızı düz uzatıp ayak ucunuzu kendinize doğru çekebilirsiniz.</li>
-          <li>Ağrı kesiciler kramp anında etki etmek için çok yavaştır; sonrasında kalan ağrı için ilaç kullanmadan önce hekiminize ya da eczacınıza danışın.</li>
+          <li>Ağrı kesiciler kramp anında etki etmek için çok yavaştır; sonrasında kalan ağrı için ilaç kullanmadan önce hekiminize danışın.</li>
         </ul>
       </div>
       <div>

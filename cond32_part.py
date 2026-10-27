@@ -70,7 +70,7 @@ GG_BODY = f'''<header class="page">
       <div>
         <h2>Evde neler yapabilirim?</h2>
         <ul class="dots">
-          <li>Ağrı kesici kullanmadan önce hekiminize ya da eczacınıza danışın.</li>
+          <li>Ağrı kesici kullanmadan önce hekiminize danışın.</li>
           <li>Eczanelerde bulunan bir bileklik ya da sargı rahatlatabilir.</li>
           <li>Kisti patlatmaya çalışmayın; enfeksiyon ve cilt hasarı yapabilir.</li>
         </ul>

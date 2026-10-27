@@ -12,7 +12,7 @@ GRP_FAQ = [
  ("Kan testi ya da röntgen gerekir mi?", "Genellikle gerekmez. Hekim ya da fizyoterapist, öyküyü dinleyip muayene ederek tanı koyabilir. Bu çocuklarda kan testleri ve röntgen normaldir; yalnızca başka bir nedenden şüphelenilirse istenir."),
  ("Ne kadar sürer?", "Ağrılar aylarca, hatta yıllarca gelip gidebilir, sonra kendiliğinden geçer. Kalıcı bir hasar bırakmaz ve ileride kireçlenme riskini artırmaz."),
  ("Çocuğum sporu bırakmalı mı?", "Bırakması gerekmez. Aktif kalmak ve kasları nazikçe güçlendirmek çoğu zaman ağrıyı azaltır. Ağrının hangi günlerde ve hangi etkinliklerden sonra geldiğini bir günlükle izlemek, düzeni görmeye yardımcı olur. Destekleyici, iyi oturan ve sıkıca bağlanan ayakkabılar da işe yarayabilir."),
- ("Ağrı kesici verebilir miyim?", "Ağrı kesici vermeden önce çocuğunuzun hekimine ya da eczacınıza danışın; ilacın türü ve dozu çocuğun yaşına ve kilosuna göre belirlenir. 16 yaşından küçük çocuklara, hekim önermedikçe aspirin vermeyin."),
+ ("Ağrı kesici verebilir miyim?", "Ağrı kesici vermeden önce çocuğunuzun hekimine danışın; ilacın türü ve dozu çocuğun yaşına ve kilosuna göre belirlenir. 16 yaşından küçük çocuklara, hekim önermedikçe aspirin vermeyin."),
 ]
 
 GRP_SRC = [

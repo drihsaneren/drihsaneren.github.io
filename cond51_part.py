@@ -75,7 +75,7 @@ AK_BODY = f'''<header class="page">
       <h2>Neler iyi gelir?</h2>
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>İlk günler</h3><p>İlk 24–72 saat dinlenin ve ayağınızı yüksekte tutun. Gerekirse havluya sarılı buzu saatte en fazla 15 dakika uygulayın; hissiniz azsa ya da cildinizde sorun varsa buz kullanmayın.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Şişliği yönetin</h3><p>Dinlenirken ayağınızı yükseltin, ayakta kalma sürenizi kademeli artırın. Hekiminize ya da eczacınıza danışarak ağrı kesici kullanabilirsiniz.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Şişliği yönetin</h3><p>Dinlenirken ayağınızı yükseltin, ayakta kalma sürenizi kademeli artırın. Hekiminize danışarak ağrı kesici kullanabilirsiniz.</p></div>
         <div class="kind"><span class="n">3</span><h3>Değnekleri kademeli bırakın</h3><p>Önce iki değnekten bire geçin; tek değneği sağlam tarafınızdaki elinizde tutun. Sonra değneksiz yürüyün ve topuktan parmağa basarak yürümeyi hedefleyin.</p></div>
         <div class="kind"><span class="n">4</span><h3>Güç ve denge</h3><p>Kırık kaynadıktan sonra, genellikle 6. haftadan itibaren, güçlendirme ve denge egzersizleri eklenir. Spora ağrısız ve tam hareketle dönün.</p></div>
       </div>

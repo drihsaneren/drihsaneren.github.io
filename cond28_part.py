@@ -83,7 +83,7 @@ KY_BODY = f'''<header class="page">
         <div class="kind"><span class="n">1</span><h3>Sırtınızı güçlendirin</h3><p>Sırt ve gövde kaslarını güçlendiren egzersizler duruşu destekler. Uzun süredir egzersiz yapmıyorsanız önce bir sağlık profesyoneline danışabilirsiniz.</p></div>
         <div class="kind"><span class="n">2</span><h3>Pozisyon değiştirin</h3><p>Masa başında ya da telefon kullanırken uzun süre aynı pozisyonda kalmamaya çalışabilir, sık sık kalkıp gerinebilirsiniz.</p></div>
         <div class="kind"><span class="n">3</span><h3>Göğsü açın</h3><p>Göğüs kafesini açan ve kürek kemiklerini geriye toplayan hareketler, öne düşen omuzlarda rahatlama sağlayabilir.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Ağrı kesici</h3><p>Ağrı varsa ağrı kesici kullanıp kullanmayacağınızı hekiminize ya da eczacınıza danışın.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Ağrı kesici</h3><p>Ağrı varsa ağrı kesici kullanıp kullanmayacağınızı hekiminize danışın.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Uzun saatler bilgisayar başında çalışıyorsanız <a href="masa-basi.html">masa başında çalışanlar için</a>, ileri yaşta kemik sağlığı için <a href="kemik-erimesi.html">kemik erimesi</a> rehberine bakabilirsiniz.</p>
     </div>

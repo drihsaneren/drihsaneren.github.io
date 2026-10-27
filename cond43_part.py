@@ -77,7 +77,7 @@ CF_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Neler iyi gelir?</h2>
       <div class="kinds">
-        <div class="kind"><span class="n">1</span><h3>Ağrıyı kontrol edin</h3><p>Hekiminize ya da eczacınıza danışarak ağrı kesici ya da iltihap giderici ilaç kullanabilirsiniz. Buz uygulaması da ağrıyı hafifletebilir.</p></div>
+        <div class="kind"><span class="n">1</span><h3>Ağrıyı kontrol edin</h3><p>Hekiminize danışarak ağrı kesici ya da iltihap giderici ilaç kullanabilirsiniz. Buz uygulaması da ağrıyı hafifletebilir.</p></div>
         <div class="kind"><span class="n">2</span><h3>Yükü azaltın</h3><p>İlk birkaç hafta işleri biraz hafifletin, ağrıyı artıran hareketleri değiştirin.</p></div>
         <div class="kind"><span class="n">3</span><h3>Kolu hareketli tutun</h3><p>Omzunuzu ağrının izin verdiği kadar hareket ettirin; bu tutukluğu önler. Askıyı yalnızca kısa süre, rahatlamak için kullanın.</p></div>
         <div class="kind"><span class="n">4</span><h3>Adım adım güçlenin</h3><p>Şiddetli ağrı yatıştıktan sonra esneme ve güçlendirme egzersizlerine geçin. Belirtiler sürerse fizyoterapi destek olabilir.</p></div>

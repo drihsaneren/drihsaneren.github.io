@@ -104,7 +104,7 @@ COPD_BODY = f'''<header class="page">
       <h2>Tedavi</h2>
       <ul class="tx">
         <li><b>Sigarayı bırakmak</b><span>Hastalığın seyrini değiştiren en önemli adımdır; hangi evrede olursanız olun yararlıdır. Bırakmak için hekiminizden destek isteyin.</span></li>
-        <li><b>İlaçlar</b><span>Hava yollarını genişleten soluk ilaçları tedavinin temelidir. Cihazı doğru kullanmak ilacın kendisi kadar önemlidir; tekniğinizi hekiminize ya da eczacınıza gösterin.</span></li>
+        <li><b>İlaçlar</b><span>Hava yollarını genişleten soluk ilaçları tedavinin temelidir. Cihazı doğru kullanmak ilacın kendisi kadar önemlidir; tekniğinizi hekiminize gösterin.</span></li>
         <li><b>Akciğer rehabilitasyonu</b><span>Egzersiz eğitimi, nefes teknikleri ve hastalıkla yaşama eğitiminden oluşur; nefes darlığını ve yorgunluğu azaltır, yürüme mesafesini artırır.</span></li>
         <li><b>Nefes teknikleri</b><span>Büzük dudak nefesi ve diyafram nefesi gibi teknikler, 16 çalışmanın derlemesinde yürüme mesafesini 35–50 metre artırdı; nefes darlığı ve yaşam kalitesi üzerindeki etkileri ise çalışmadan çalışmaya değişti.</span></li>
         <li><b>Aşılar</b><span>Göğüs enfeksiyonları alevlenmeye yol açabilir; size önerilen aşıları hekiminize sorun.</span></li>

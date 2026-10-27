@@ -91,7 +91,7 @@ JK_BODY = f'''<header class="page">
         <div class="kind"><span class="n">1</span><h3>Yükü ayarlayın</h3><p>Koşu, sıçrama, uzun ve yokuşlu yürüyüş gibi ağrıyı artıran etkinlikleri azaltabilirsiniz. Kiriş iyileşmek için yüke ihtiyaç duyar, fazlası ise ağrıyı artırır.</p></div>
         <div class="kind"><span class="n">2</span><h3>Ağrıyı izleyin</h3><p>Egzersiz sırasında ağrının 10 üzerinden 3’ü geçmemesine dikkat edebilirsiniz. Bir egzersiz ağrısız hâle gelince bir sonrakine geçin.</p></div>
         <div class="kind"><span class="n">3</span><h3>Buz</h3><p>Havluya sardığınız buzu 10–15 dakika, günde 2–3 kez uygulayabilirsiniz.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Bant ve ağrı kesici</h3><p>Diz kapağının altına takılan atlet dizi bandı kirişin yükünü azaltabilir. Uygun ağrı kesiciyi eczacınıza sorabilirsiniz.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Bant ve ağrı kesici</h3><p>Diz kapağının altına takılan atlet dizi bandı kirişin yükünü azaltabilir. Ağrı kesici kullanmanız gerekiyorsa hekiminize danışın.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Diz kapağının çevresindeki ağrı için <a href="diz-onu-agrisi.html">diz önü ağrısı</a>, topuğun üstündeki kiriş ağrısı için <a href="asil-tendinopatisi.html">Aşil tendinopatisi</a> rehberine bakabilirsiniz.</p>
     </div>

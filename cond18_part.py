@@ -98,7 +98,7 @@ GE_BODY = f'''<header class="page">
       <ul class="tx">
         <li><b>Soğuk</b><span>İlk günlerde havluya sarılı buz torbasını 10 dakika, günde 3–4 kez uygulayın.</span></li>
         <li><b>Dirsek bandı</b><span>Ön kola takılan bant ağrılı noktadaki baskıyı azaltabilir.</span></li>
-        <li><b>İlaç</b><span>Ağrı kesici ve iltihap giderici ilaçlar için eczacınıza danışın.</span></li>
+        <li><b>İlaç</b><span>Ağrı kesici ve iltihap giderici ilaçlar için hekiminize danışın.</span></li>
         <li><b>Isınma</b><span>Spordan ve işten önce ısının, ön kolunuzu nazikçe gerin.</span></li>
         <li><b>Teknik</b><span>Golf oynuyorsanız sopa boyunu, tutuşunuzu ve vuruş tekniğinizi bir eğitmene değerlendirtin.</span></li>
         <li><b>Kademeli dönüş</b><span>Kısa ve hafif çalışmalarla başlayıp yükü yavaş yavaş artırın.</span></li>

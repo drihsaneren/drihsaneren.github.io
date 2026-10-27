@@ -126,7 +126,7 @@ HV_BODY = f'''<header class="page">
         <li><b>Ped</b><span>Eczaneden alınan çıkıntı pedleri sürtünmeyi azaltır.</span></li>
         <li><b>Parmak arası silikon</b><span>Başparmağınızı ağrısız biçimde düzeltebiliyorsanız işe yarayabilir; bir hafta içinde yavaş yavaş alışın.</span></li>
         <li><b>Tabanlık</b><span>Ayağınız içe basıyorsa eklemdeki baskıyı azaltabilir; çıkıntıyı düzeltmez.</span></li>
-        <li><b>Buz ve ağrı kesici</b><span>Beze sarılı buz torbasını bir seferde en fazla 5 dakika uygulayın; ilaç için eczacınıza danışın.</span></li>
+        <li><b>Buz ve ağrı kesici</b><span>Beze sarılı buz torbasını bir seferde en fazla 5 dakika uygulayın; ilaç için hekiminize danışın.</span></li>
         <li><b>Kilo</b><span>Fazla kilonuz varsa vermek, başparmak eklemine binen yükü azaltır.</span></li>
       </ul>
       <div class="callout">
@@ -277,7 +277,7 @@ TF_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>İlk adım: kirişi dinlendirmek</h2>
       <p class="soft">Belirtileri artıran işleri, özellikle tekrarlı ve sıkı kavramayı, düzelene kadar azaltın. Parmak ne kadar uzun süre bükülü takılı kalırsa kiriş o kadar tahriş olup kalınlaşır; bu yüzden erken davranmak önemlidir.</p>
-      <p class="soft">Gece ateli bu dönemin en etkili aracıdır: Parmağın dibindeki hareketi sınırlayan kısa bir atel, kirişi ve halkayı dinlendirir, sabahki takılmayı azaltır. Gece boyunca takılır; el terapisti size uygun olanı yapabilir. Geceleri parmak dibine iltihap giderici jel sürmek de yardımcı olabilir; önce eczacınıza danışın.</p>
+      <p class="soft">Gece ateli bu dönemin en etkili aracıdır: Parmağın dibindeki hareketi sınırlayan kısa bir atel, kirişi ve halkayı dinlendirir, sabahki takılmayı azaltır. Gece boyunca takılır; el terapisti size uygun olanı yapabilir. Geceleri parmak dibine iltihap giderici jel sürmek de yardımcı olabilir; önce hekiminize danışın.</p>
       <div class="callout">
         <p>Atel ve hareketlerle düzelme 12 haftayı bulabilir. Parmak sürekli takılıyorsa ya da düzeltmek için diğer elinizi kullanmak zorunda kalıyorsanız kortizon iğnesi düşünülür; iğne de yetmezse halkayı gevşeten küçük bir ameliyat yapılır.</p>
       </div>
@@ -291,7 +291,7 @@ TF_BODY = f'''<header class="page">
         <li><b>Dinlendirme</b><span>Tekrarlı ve sıkı kavrama gerektiren işleri azaltmak.</span></li>
         <li><b>Gece ateli</b><span>Parmağı düz tutarak kirişi dinlendirir; hafif ve gece olan takılmalarda çok etkilidir.</span></li>
         <li><b>Hareket</b><span>Kirişin kaymasını koruyan nazik hareketler, günde 4–5 kez.</span></li>
-        <li><b>İlaç</b><span>Ağrı için ağrı kesici ya da iltihap giderici jel; eczacınıza danışın.</span></li>
+        <li><b>İlaç</b><span>Ağrı için ağrı kesici ya da iltihap giderici jel; hekiminize danışın.</span></li>
         <li><b>Kortizon iğnesi</b><span>Şişliği azaltır; diyabeti olanlarda başarı daha düşüktür.</span></li>
         <li><b>Ameliyat</b><span>Diğer yöntemler işe yaramadığında; lokal anesteziyle, günübirlik.</span></li>
       </ul>

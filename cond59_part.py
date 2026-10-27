@@ -93,7 +93,7 @@ MT5_BODY = f'''<header class="page">
       <div>
         <h2>Neler iyi gelir?</h2>
         <ul class="dots">
-          <li>Ağrı kesici kullanmanız gerekiyorsa hangisinin ve nasıl kullanılacağını hekiminize ya da eczacınıza sorun; ağrınız geçmiyorsa yeniden başvurun.</li>
+          <li>Ağrı kesici kullanmanız gerekiyorsa hangisinin ve nasıl kullanılacağını hekiminize sorun; ağrınız geçmiyorsa yeniden başvurun.</li>
           <li>Gün sonunda artan şişlik için ayağınızı yükseğe kaldırın.</li>
           <li>Sağlam ayağınıza destekleyici bir ayakkabı ya da spor ayakkabı giyin.</li>
           <li>Sigara içiyorsanız bırakın ya da azaltın; özellikle ilk 2 hafta önemlidir.</li>

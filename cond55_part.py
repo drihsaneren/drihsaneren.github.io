@@ -78,7 +78,7 @@ KB_BODY = f'''<header class="page">
       <div>
         <h2>Neler iyi gelir?</h2>
         <ul class="dots">
-          <li>Hekiminize ya da eczacınıza danışarak düzenli ağrı kesici kullanın; ağrı kontrol altındayken nefes almak ve hareket etmek kolaylaşır.</li>
+          <li>Hekiminize danışarak düzenli ağrı kesici kullanın; ağrı kontrol altındayken nefes almak ve hareket etmek kolaylaşır.</li>
           <li>İlk günlerde havluya sarılı buzu ya da donmuş bezelye paketini düzenli olarak kaburgalarınıza tutun.</li>
           <li>Normal nefes alın ve öksürmeniz gerektiğinde öksürün; göğsünüze bir yastık bastırın.</li>
           <li>İlk birkaç gece biraz daha dik uyuyun.</li>

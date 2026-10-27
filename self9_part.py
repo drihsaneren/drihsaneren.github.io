@@ -117,7 +117,7 @@ FR_BODY = f'''<header class="page">
         <h2>Düşmeleri önlemek için</h2>
         <ul class="dots">
           <li>Bacak gücü ve denge egzersizlerini düzenli yapın.</li>
-          <li>Kullandığınız ilaçları hekiminizle ya da eczacınızla gözden geçirin.</li>
+          <li>Kullandığınız ilaçları hekiminizle gözden geçirin.</li>
           <li>Gözlerinizi düzenli muayene ettirin, ayaklarınıza ve ayakkabılarınıza dikkat edin.</li>
           <li>Evinizdeki tehlikeleri azaltın: takılabileceğiniz halılar, kablolar, karanlık koridorlar.</li>
         </ul>

@@ -88,7 +88,7 @@ BK_BODY = f'''<header class="page">
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>Dinlendirin, yükseltin</h3><p>Ağrılı dönemde dizinizi dinlendirebilir, otururken bacağınızı bir yastıkla yükseltebilirsiniz.</p></div>
         <div class="kind"><span class="n">2</span><h3>Buz</h3><p>Havluya sardığınız buzu doğrudan cilde değdirmeden 10–20 dakika uygulayabilirsiniz.</p></div>
-        <div class="kind"><span class="n">3</span><h3>Ağrı kesici</h3><p>Ağrı kesici kullanmanız gerekip gerekmediğini ve hangisinin size uygun olduğunu hekiminize ya da eczacınıza sorun; astım, yüksek tansiyon, böbrek, kalp ya da mide sorununuz varsa bu özellikle önemlidir.</p></div>
+        <div class="kind"><span class="n">3</span><h3>Ağrı kesici</h3><p>Ağrı kesici kullanmanız gerekip gerekmediğini ve hangisinin size uygun olduğunu hekiminize sorun; astım, yüksek tansiyon, böbrek, kalp ya da mide sorununuz varsa bu özellikle önemlidir.</p></div>
         <div class="kind"><span class="n">4</span><h3>Dizlik ve hareket</h3><p>Eczanelerde bulunan bir dizlik destek sağlayabilir. Şikâyetler azaldıkça dizinizi hareketli tutmak ve kaslarınızı güçlendirmek önemlidir.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Kistin sık nedenleri için <a href="diz-kireclenmesi.html">diz kireçlenmesi</a> ve <a href="menisku-yirtigi.html">menisküs yırtığı</a> rehberlerine bakabilirsiniz.</p>

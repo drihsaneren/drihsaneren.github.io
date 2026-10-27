@@ -83,7 +83,7 @@ FAI_BODY = f'''<header class="page">
         <div class="kind"><span class="n">1</span><h3>Aktif kalın</h3><p>Düzenli hareket ağrıyı ve tutukluğu azaltır, kaslarınızı güçlendirir. Yüzme gibi kalçayı daha az zorlayan egzersizleri deneyebilirsiniz.</p></div>
         <div class="kind"><span class="n">2</span><h3>Zorlayan hareketleri azaltın</h3><p>Derin çömelme, hamle (lunge), leg press, deadlift, yüksek kutu sıçraması ve kürek makinesi ağrıyı artırabilir. Ağrı yatışana kadar bunlara ara verebilirsiniz.</p></div>
         <div class="kind"><span class="n">3</span><h3>Günlük hayatta</h3><p>Bağdaş kurmak ve kalçayı derin bükmek rahatsızlık verebilir. Çorap giyerken ya da arabaya binerken kalçanızı fazla bükmeden hareket etmeyi deneyebilirsiniz.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Ağrı kesici, sıcak, soğuk</h3><p>Sıcak ya da soğuk uygulama rahatlatabilir; ağrı kesici ya da ağrı kesici jel için hekiminize ya da eczacınıza danışın.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Ağrı kesici, sıcak, soğuk</h3><p>Sıcak ya da soğuk uygulama rahatlatabilir; ağrı kesici ya da ağrı kesici jel için hekiminize danışın.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Kalçanın dış yanındaki ağrı için <a href="kalca-yan-agrisi.html">kalça yan ağrısı</a>, ileri yaşta kasık ağrısı için <a href="kalca-kireclenmesi.html">kalça kireçlenmesi</a> rehberine bakabilirsiniz.</p>
     </div>
