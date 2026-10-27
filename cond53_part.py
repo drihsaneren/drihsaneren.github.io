@@ -12,7 +12,7 @@ GRP_FAQ = [
  ("Kan testi ya da röntgen gerekir mi?", "Genellikle gerekmez. Hekim ya da fizyoterapist, öyküyü dinleyip muayene ederek tanı koyabilir. Bu çocuklarda kan testleri ve röntgen normaldir; yalnızca başka bir nedenden şüphelenilirse istenir."),
  ("Ne kadar sürer?", "Ağrılar aylarca, hatta yıllarca gelip gidebilir, sonra kendiliğinden geçer. Kalıcı bir hasar bırakmaz ve ileride kireçlenme riskini artırmaz."),
  ("Çocuğum sporu bırakmalı mı?", "Bırakması gerekmez. Aktif kalmak ve kasları nazikçe güçlendirmek çoğu zaman ağrıyı azaltır. Ağrının hangi günlerde ve hangi etkinliklerden sonra geldiğini bir günlükle izlemek, düzeni görmeye yardımcı olur. Destekleyici, iyi oturan ve sıkıca bağlanan ayakkabılar da işe yarayabilir."),
- ("Ağrı kesici verebilir miyim?", "Gerektiğinde çocuklara uygun parasetamol ya da ibuprofen verebilirsiniz; dozu için ambalajı okuyun ya da eczacınıza danışın. 16 yaşından küçük çocuklara, hekim önermedikçe aspirin vermeyin."),
+ ("Ağrı kesici verebilir miyim?", "Ağrı kesici vermeden önce çocuğunuzun hekimine ya da eczacınıza danışın; ilacın türü ve dozu çocuğun yaşına ve kilosuna göre belirlenir. 16 yaşından küçük çocuklara, hekim önermedikçe aspirin vermeyin."),
 ]
 
 GRP_SRC = [
@@ -29,7 +29,7 @@ GRP_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Çocuklarda büyüme ağrıları</h1>
     <p class="lede">Çocuğunuz akşamları ya da gece bacak ağrısıyla mı uyanıyor, sabah ise hiçbir şey olmamış gibi koşup oynuyor mu? Buna halk arasında büyüme ağrısı denir. Adı yanıltıcıdır: büyümeyle ilgisi yoktur ve ciddi bir hastalığın işareti değildir. 3–12 yaş arası çocuklarda sık görülür; masaj, ılık uygulama ve basit germelerle rahatlar.</p>
-    <p class="meta">Son güncelleme: 18 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 

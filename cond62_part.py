@@ -24,6 +24,7 @@ BS_SRC = [
  "Patricios JS, Schneider KJ, Dvorak J, et al. " + ext("https://doi.org/10.1136/bjsports-2023-106898", "Consensus statement on concussion in sport: the 6th International Conference on Concussion in Sport – Amsterdam, October 2022") + ". Br J Sports Med. 2023;57(11):695–711. Özet: " + ext("https://bmjgroup.com/international-expert-panel-revises-management-of-concussion-in-sport", "BMJ Group, 14 June 2023") + ".",
  "Sport and Recreation Alliance, UK Government. " + ext("https://sportandrecreation.org.uk/campaigns-and-policy/concussion/concussion-guidelines-for-grassroots-sport-html-version", "UK Concussion Guidelines for Non-Elite (Grassroots) Sport") + ". November 2024 update.",
  "NHS 111 Wales. " + ext("https://111.wales.nhs.uk/headinjuryandconcussion", "Head injury and concussion") + ". Last updated 19 November 2024.",
+ "HSE (Health Service Executive, Ireland). " + ext("https://www2.hse.ie/conditions/head-injury-concussion/", "Head injury and concussion") + ". Last reviewed 20 September 2024.",
  "Leddy JJ, Haider MN, Ellis MJ, et al. " + ext("https://doi.org/10.1001/jamapediatrics.2018.4397", "Early subthreshold aerobic exercise for sport-related concussion: a randomized clinical trial") + ". JAMA Pediatr. 2019;173(4):319–325. Özet: " + ext("https://www.buffalo.edu/news/releases/2019/02/002.html", "University at Buffalo, February 2019") + ".",
  "Thomas DG, et al. Benefits of strict rest after acute concussion: a randomized controlled trial. Pediatrics. 2015;135(2):213–223. Özet: " + ext("https://www.contemporarypediatrics.com/view/prolonged-rest-does-not-improve-acute-concussion-outcomes-adolescents", "Contemporary Pediatrics") + ".",
  "Schneider KJ, Meeuwisse WH, Nettel-Aguirre A, et al. " + ext("https://doi.org/10.1136/bjsports-2013-093267", "Cervicovestibular rehabilitation in sport-related concussion: a randomised controlled trial") + ". Br J Sports Med. 2014;48(17):1294–1298.",
@@ -36,7 +37,7 @@ BS_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Beyin sarsıntısı: iyileşme ve harekete kademeli dönüş</h1>
     <p class="lede">Başınıza aldığınız bir darbe, düşme ya da ani bir sarsıntıdan sonra baş ağrısı, baş dönmesi, sersemlik ya da odaklanma güçlüğü mü yaşıyorsunuz? Beyin sarsıntısı (konküzyon), beynin geçici olarak etkilendiği bir yaralanmadır. Belirtiler çoğu zaman birkaç gün ile birkaç hafta içinde geçer. Eskiden önerilen uzun ve sıkı dinlenme artık önerilmiyor: ilk 24–48 saatlik görece dinlenmenin ardından günlük işlere ve hafif harekete adım adım dönmek iyileşmeye yardım ediyor.</p>
-    <p class="meta">Son güncelleme: 22 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 
@@ -102,7 +103,7 @@ BS_BODY = f'''<header class="page">
           <li>İhtiyaç duyduğunuz kadar dinlenin ve uyuyun; telefon, bilgisayar ve ekran süresini en aza indirin.</li>
           <li>Alkol almayın; hekiminiz önermedikçe uyku ilacı kullanmayın.</li>
           <li>İlk 24 saatte bisiklete binmeyin, makine kullanmayın; tamamen iyileşene kadar araç kullanmayın.</li>
-          <li>Baş ağrısı için parasetamol ya da ibuprofeni kutusundaki dozda kullanabilirsiniz; şişlik olan yere havluya sarılı buz koyabilirsiniz.</li>
+          <li>Baş ağrısı için ağrı kesici kullanmadan önce hekiminize ya da eczacınıza danışın; İrlanda sağlık servisi (HSE), kanamayı artırabileceği için bu dönemde ibuprofen ve aspirin yerine parasetamolü öneriyor. Şişlik olan yere havluya sarılı buz koyabilirsiniz.</li>
         </ul>
       </div>
     </div>

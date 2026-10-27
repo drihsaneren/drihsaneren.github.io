@@ -51,7 +51,7 @@ MT5_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Ayak dış kenarı (5. tarak kemiği) kırığı</h1>
     <p class="lede">Ayağınızı burktuktan sonra ayağınızın dış kenarında, küçük parmağa giden uzun kemikte ağrı ve şişlik mi var? Bu kemik 5. metatars ya da 5. tarak kemiğidir. Kırıkların çoğu sorunsuz iyileşir: kemik yaklaşık 6 haftada kaynar, ağrının izin verdiği ölçüde yürümek de iyileşmeye yardım eder. Bu sayfa hangi kırıkta neye dikkat etmeniz gerektiğini ve evde yapabileceğiniz egzersizleri anlatıyor.</p>
-    <p class="meta">Son güncelleme: 19 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 
@@ -93,7 +93,7 @@ MT5_BODY = f'''<header class="page">
       <div>
         <h2>Neler iyi gelir?</h2>
         <ul class="dots">
-          <li>Ağrı kesicinizi kutusundaki dozda kullanın; ağrınız geçmiyorsa hekiminize ya da eczacınıza danışın.</li>
+          <li>Ağrı kesici kullanmanız gerekiyorsa hangisinin ve nasıl kullanılacağını hekiminize ya da eczacınıza sorun; ağrınız geçmiyorsa yeniden başvurun.</li>
           <li>Gün sonunda artan şişlik için ayağınızı yükseğe kaldırın.</li>
           <li>Sağlam ayağınıza destekleyici bir ayakkabı ya da spor ayakkabı giyin.</li>
           <li>Sigara içiyorsanız bırakın ya da azaltın; özellikle ilk 2 hafta önemlidir.</li>

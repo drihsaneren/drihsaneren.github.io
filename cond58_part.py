@@ -39,7 +39,7 @@ ACJ_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuz ucu (AC eklem) yaralanması</h1>
     <p class="lede">Bisikletten ya da sporda omzunuzun üzerine düştünüz ve omzunuzun en üst ucunda ağrı, şişlik ya da bir tümsek mi var? Köprücük kemiğinin kürek kemiğiyle birleştiği bu küçük eklemin bağları burkulmuş ya da yırtılmış olabilir. Hafif yaralanmalar genellikle 3–6 haftada iyileşir; çoğu yaralanma ameliyat gerektirmez, askı ve egzersizlerle düzelir.</p>
-    <p class="meta">Son güncelleme: 19 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 
@@ -70,7 +70,7 @@ ACJ_BODY = f'''<header class="page">
         <h2>İlk günlerde</h2>
         <ul class="dots">
           <li>Havluya sarılı buzu 15 dakika, birkaç saatte bir uygulayın; buzu doğrudan cildinize koymayın.</li>
-          <li>Ağrı kesicinizi kutusundaki dozda kullanın; ağrınız geçmiyorsa hekiminize ya da eczacınıza danışın.</li>
+          <li>Ağrı kesici kullanmanız gerekiyorsa hangisinin ve nasıl kullanılacağını hekiminize ya da eczacınıza sorun; ağrınız geçmiyorsa yeniden başvurun.</li>
           <li>Askıyı ağrıyı azaltmak için kullanın. Yemek yemek, giyinmek ve duş almak için rahat ettiğinizde çıkarabilirsiniz; bu yaralanmayı kötüleştirmez.</li>
           <li>Kolunuzu 24–72 saat dinlendirin, ama parmaklarınızı, bileğinizi ve omzunuzu nazikçe hareket ettirmeyi sürdürün.</li>
         </ul>

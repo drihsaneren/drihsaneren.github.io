@@ -37,7 +37,7 @@ LC_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Gece bacak krampları</h1>
     <p class="lede">Gece uykudan baldırınızdaki ani ve sert bir kasılmayla uyanmak çok yorucu olabilir. Bacak krampları çok yaygındır ve çoğu zaman zararsızdır. Çoğu zaman belirgin bir nedeni bulunmaz, ama yaş, bazı ilaçlar, gebelik ve sıvı kaybı riski artırabilir. Yatmadan önce düzenli germe, araştırmalarda krampları azaltmaya yardımcı olmuştur.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 
@@ -85,7 +85,7 @@ LC_BODY = f'''<header class="page">
         <ul class="dots">
           <li>Kası germek ya da ovmak ağrıyı hafifletebilir; kramp çoğu zaman tedavi gerekmeden geçer.</li>
           <li>Bacağınızı düz uzatıp ayak ucunuzu kendinize doğru çekebilirsiniz.</li>
-          <li>Parasetamol ya da ibuprofen sonrasında kalan ağrıyı hafifletebilir, ama kramp anında etki etmek için çok yavaştır.</li>
+          <li>Ağrı kesiciler kramp anında etki etmek için çok yavaştır; sonrasında kalan ağrı için ilaç kullanmadan önce hekiminize ya da eczacınıza danışın.</li>
         </ul>
       </div>
       <div>

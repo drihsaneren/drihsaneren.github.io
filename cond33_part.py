@@ -18,7 +18,7 @@ BT_FAQ = [
  ("Boyun tutulması ne kadar sürer?", "Genellikle birkaç gün içinde düzelir. Kas spazmı çoğu zaman 24–48 saatte gevşer, tam iyileşme ise bir haftayı bulabilir. Bazen daha uzun sürebilir ya da ilerde belirgin bir neden olmadan tekrarlayabilir."),
  ("Boynumu hareket ettirmem zarar verir mi?", "Hayır. Boynu yavaşça hareket ettirmek ona zarar vermez; tersine, hareketi gün gün artırmak iyileşmeyi destekler. Ağrı çok şiddetliyse bir gün kadar dinlenip sonra yavaşça hareket etmeye başlayabilirsiniz. ABD fizyoterapi kılavuzu, ani başlayan ve hareket kısıtlılığı olan boyun ağrısında boyun hareket egzersizlerini ve kazanımları korumak için kürek kemiği ve kol güçlendirmesini öneriyor."),
  ("Sıcak mı soğuk mu?", "Sıcak uygulama birçok kişide kas tutukluğunu rahatlatır. Cildinizi yakmamak için sıcak torbayı bir havluya sararak kullanabilirsiniz."),
- ("Boyunluk takmalı mıyım?", "Genellikle gerekmez. Önerilen, boynu kademeli olarak hareket ettirmek ve günlük işlere elden geldiğince devam etmektir. Ağrı kesicileri ağrı şiddetlenmeden düzenli almak, egzersizleri yapmayı kolaylaştırabilir."),
+ ("Boyunluk takmalı mıyım?", "Genellikle gerekmez. Önerilen, boynu kademeli olarak hareket ettirmek ve günlük işlere elden geldiğince devam etmektir. Ağrı kontrol altındayken egzersizleri yapmak kolaylaşır; ağrı kesici kullanacaksanız hekiminize ya da eczacınıza danışın."),
 ]
 
 BT_SRC = [
@@ -35,7 +35,7 @@ BT_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun tutulması (akut tortikolis)</h1>
     <p class="lede">Sabah uyandığınızda başınızı çeviremiyor, boynunuz bir yana kilitlenmiş gibi mi? Boyun tutulması, boyun kaslarının bir tarafındaki ani spazmla başın bir yana eğik ve dönük kalmasıdır. Çok ağrılı ve korkutucu olabilir, ama genellikle birkaç gün içinde kendiliğinden düzelir. Yavaş ve düzenli hareket, iyileşmeyi hızlandırmanın en iyi yoludur.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 
@@ -83,7 +83,7 @@ BT_BODY = f'''<header class="page">
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>Yavaşça hareket</h3><p>Boynunuzu birkaç saatte bir her yöne yavaşça hareket ettirebilir, hareketi gün gün artırabilirsiniz. Hareket boyna zarar vermez.</p></div>
         <div class="kind"><span class="n">2</span><h3>Sıcak uygulama</h3><p>Havluya sarılı bir sıcak torba kas tutukluğunu birçok kişide rahatlatır.</p></div>
-        <div class="kind"><span class="n">3</span><h3>Ağrı kesici</h3><p>Parasetamol ya da ibuprofen ağrı şiddetlenmeden düzenli alındığında egzersizleri kolaylaştırabilir. Başka hastalığınız ya da ilacınız varsa önce hekiminize veya eczacınıza danışabilirsiniz.</p></div>
+        <div class="kind"><span class="n">3</span><h3>Ağrı kesici</h3><p>Ağrı kontrol altındayken egzersizleri yapmak kolaylaşır. Ağrı kesici kullanacaksanız hangisinin ve nasıl kullanılacağını hekiminize ya da eczacınıza sorun; başka bir hastalığınız varsa ya da başka ilaç kullanıyorsanız bu özellikle önemlidir.</p></div>
         <div class="kind"><span class="n">4</span><h3>Duruş ve yastık</h3><p>Otururken ve çalışırken boynunuzu ve sırtınızı dik tutabilirsiniz. Tek, sağlam ve destekleyici bir yastık işe yarayabilir.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Ağrı haftalarca sürüyor ya da sık tekrarlıyorsa <a href="boyun-agrisi.html">boyun ağrısı</a> ve <a href="masa-basi.html">masa başı</a> rehberlerine bakabilirsiniz.</p>

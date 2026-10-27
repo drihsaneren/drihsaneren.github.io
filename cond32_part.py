@@ -26,7 +26,7 @@ GG_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Ganglion kisti (el bileği kisti)</h1>
     <p class="lede">Ganglion kisti, çoğunlukla el bileğinde ya da elde, bir eklemin ya da kiriş kılıfının yanında beliren, içi sıvı dolu yumuşak bir şişliktir. Görünümü kaygı verebilir, ama zararsızdır ve çoğu zaman kendiliğinden kaybolur. Ağrı, uyuşma ya da elinizi kullanmanızı kısıtlamıyorsa genellikle tedavi gerekmez.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
   </div>
 </header>
 
@@ -70,7 +70,7 @@ GG_BODY = f'''<header class="page">
       <div>
         <h2>Evde neler yapabilirim?</h2>
         <ul class="dots">
-          <li>İbuprofen gibi bir ağrı kesici ağrıyı ve şişliği azaltabilir; ilaç kullanmadan önce hekiminize ya da eczacınıza danışabilirsiniz.</li>
+          <li>Ağrı kesici kullanmadan önce hekiminize ya da eczacınıza danışın.</li>
           <li>Eczanelerde bulunan bir bileklik ya da sargı rahatlatabilir.</li>
           <li>Kisti patlatmaya çalışmayın; enfeksiyon ve cilt hasarı yapabilir.</li>
         </ul>
