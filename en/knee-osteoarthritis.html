@@ -233,6 +233,16 @@
   .faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .faq details p{margin:0 0 16px;color:var(--ink-soft)}
 
+  main section[id]{scroll-margin-top:calc(var(--barh,57px) + 4px)}
+  .g-toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .g-toc a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;text-decoration:none;color:var(--ink-soft)}
+  .g-toc a:hover{color:var(--ink);border-color:var(--gold)}
+  .g-tl{list-style:none;margin:8px 0 0;padding:0 0 0 18px;max-width:820px;border-left:2px solid var(--line)}
+  .g-tl li{position:relative;padding:10px 0 10px 4px}
+  .g-tl li::before{content:"";position:absolute;left:-25px;top:17px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+  .g-tl b{font-family:var(--display);color:var(--foil);font-size:18px;margin-right:6px}
+  .g-tl span{color:var(--ink-soft)}
+
   .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:4px}
   @media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
   .stat{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
@@ -428,7 +438,7 @@
     <p class="eyebrow">Condition guide</p>
     <h1>Knee osteoarthritis</h1>
     <p class="lede">A common knee problem, especially after the age of 45, that makes itself felt on stairs, when squatting and on long walks. Osteoarthritis does not mean "that's it, nothing can be done": with the right exercise and weight control, pain can ease considerably.</p>
-    <p class="meta">Last updated: 28 September 2026</p>
+    <p class="meta">Last updated: 28 October 2026</p>
   </div>
 </header>
 
@@ -441,10 +451,12 @@
         <div class="stat"><b>1 kg → 4 kg</b><span>In overweight people with knee osteoarthritis, every kilo lost took about 4 kg of load off the knee with each step</span></div>
         <div class="stat"><b>12 points</b><span>Average reduction in pain with exercise (out of 100)</span></div>
       </div>
+      <p class="eyebrow" style="margin-top:26px">On this page</p>
+      <nav class="g-toc" aria-label="On this page"><a href="#nedir">What is it?</a><a href="#rontgen">X-rays and pain</a><a href="#tarihce">Past to present</a><a href="#tedavi">Treatment</a><a href="#egzersizler">Exercises</a><a href="#gunluk">In daily life</a><a href="#videolar">Videos</a><a href="#sss">Frequently asked questions</a><a href="#uyari">Warning signs</a></nav>
     </div>
   </section>
 
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>What is it?</h2>
@@ -464,7 +476,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="rontgen">
     <div class="wrap">
       <h2>Your X-ray and your pain do not always match</h2>
       <p class="soft">Being told "your X-ray looks really bad" often causes needless fear. In a review that pooled the research, only 15–76% of people with knee pain had osteoarthritis on their X-ray, while 15–81% of people with osteoarthritis on their X-ray had pain.</p>
@@ -474,7 +486,24 @@
     </div>
   </section>
 
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Past to present</p>
+      <h2>A short history of knee osteoarthritis treatment</h2>
+      <p class="soft">Knee replacement has been widely performed for more than 50 years. Studies over the last 25 years, however, have shown that some common operations do not work as well as was thought, and that exercise and education are the foundation of treatment.</p>
+      <ol class="g-tl">
+        <li><b>1890s</b><span>The first knee replacements were hinge-like parts made of ivory.</span></li>
+        <li><b>1974</b><span>The total condylar prosthesis, which covers the joint surfaces of the thigh bone and shin bone and was one of the first successful knee replacement designs to come into wide use, was developed.</span></li>
+        <li><b>2002</b><span>In a US study of 180 patients, arthroscopic debridement and washing out of the knee was no better over 2 years than sham surgery in which only small skin incisions were made.</span></li>
+        <li><b>2008</b><span>In a Canadian study of 178 patients, arthroscopic surgery gave no additional benefit at 2 years over physiotherapy and medical treatment.</span></li>
+        <li><b>2013</b><span>The GLA:D programme started in Denmark: 3 education sessions over 2 weeks and 12 exercise sessions supervised by a physiotherapist over 6 weeks. In 9,825 people with knee and hip osteoarthritis, pain fell by an average of 12 points out of 100 at 3 months; the study had no comparison group.</span></li>
+        <li><b>2015</b><span>In a Danish study of 100 patients, knee replacement followed by a 12-week non-surgical programme gave greater improvement in pain and function than the non-surgical programme alone; however, serious adverse events were more common in the replacement group (24 versus 6). About three quarters of those given only the non-surgical programme did not have a knee replacement within 1 year.</span></li>
+        <li><b>2022</b><span>The UK NICE guideline was updated: exercise tailored to the person is recommended for everyone, people who are overweight are told that losing weight will reduce pain, and arthroscopic washing out and debridement are not recommended.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="tedavi">
     <div class="wrap">
       <h2>Treatment</h2>
       <p class="soft">Guidelines put three things at the centre of treatment: exercise, weight control and understanding the condition properly.</p>
@@ -487,7 +516,7 @@
         <li><b>Joint replacement surgery</b><span>This is considered if pain and restricted movement seriously affect your quality of life despite non-surgical treatment.</span></li>
       </ul>
       <div class="callout">
-        <p><strong>Not recommended in the guidelines:</strong> glucosamine supplements, hyaluronic acid injections into the joint, and arthroscopic "washing out" or "cleaning" of the knee (except in special cases such as a locking knee).</p>
+        <p><strong>Not recommended in guidelines:</strong> Glucosamine supplements, hyaluronic acid injections into the joint, and arthroscopic “washing out / cleaning” of the knee to treat osteoarthritis.</p>
       </div>
     </div>
   </section>
@@ -509,7 +538,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="gunluk">
     <div class="wrap two">
       <div>
         <h2>Looking after your knees in daily life</h2>
@@ -546,7 +575,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Frequently asked questions</h2>
       <div class="faq">
@@ -559,7 +588,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>When to seek help right away</h2>
       <p class="soft">The following may point to a problem other than osteoarthritis. See a doctor without delay:</p>
@@ -589,9 +618,14 @@
         <li>Bedson J, Croft PR. <a href="https://link.springer.com/article/10.1186/1471-2474-9-116" target="_blank" rel="noopener">The discordance between clinical and radiographic knee osteoarthritis: a systematic search and summary of the literature</a>. BMC Musculoskelet Disord. 2008;9:116.</li>
         <li>Fransen M, McConnell S, Harmer AR, Van der Esch M, Simic M, Bennell KL. <a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004376.pub3/full" target="_blank" rel="noopener">Exercise for osteoarthritis of the knee</a>. Cochrane Database Syst Rev. 2015;1:CD004376.</li>
         <li>GBD 2021 Osteoarthritis Collaborators. <a href="https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00163-7/fulltext" target="_blank" rel="noopener">Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050</a>. Lancet Rheumatol. 2023;5(9):e508-e522.</li>
+        <li>Kirkley A, Birmingham TB, Litchfield RB, et al. <a href="https://doi.org/10.1056/NEJMoa0708333" target="_blank" rel="noopener">A randomized trial of arthroscopic surgery for osteoarthritis of the knee</a>. N Engl J Med. 2008;359(11):1097–1107.</li>
         <li>Messier SP, Gutekunst DJ, Davis C, DeVita P. Weight loss reduces knee-joint loads in overweight and obese older adults with knee osteoarthritis. Arthritis Rheum. 2005;52(7):2026-2032.</li>
+        <li>Moseley JB, O'Malley K, Petersen NJ, et al. <a href="https://doi.org/10.1056/NEJMoa013259" target="_blank" rel="noopener">A controlled trial of arthroscopic surgery for osteoarthritis of the knee</a>. N Engl J Med. 2002;347(2):81–88.</li>
         <li>National Institute for Health and Care Excellence. <a href="https://www.nice.org.uk/guidance/ng226" target="_blank" rel="noopener">Osteoarthritis in over 16s: diagnosis and management (NG226)</a>. London: NICE; 2022.</li>
+        <li>Patel NG, Waterson HB, Phillips JRA, Toms AD. <a href="https://boneandjoint.org.uk/Article/10.1302/2048-0105.82.360688" target="_blank" rel="noopener">50 years of total knee arthroplasty</a>. Bone Joint 360. 2019;8(3):3–7.</li>
         <li>Physiopedia. <a href="https://www.physio-pedia.com/Knee_Osteoarthritis" target="_blank" rel="noopener">Knee Osteoarthritis</a>.</li>
+        <li>Skou ST, Roos EM, Laursen MB, et al. <a href="https://doi.org/10.1056/NEJMoa1505467" target="_blank" rel="noopener">A randomized, controlled trial of total knee replacement</a>. N Engl J Med. 2015;373(17):1597–1606.</li>
+        <li>Skou ST, Roos EM. <a href="https://link.springer.com/article/10.1186/s12891-017-1439-y" target="_blank" rel="noopener">Good Life with osteoArthritis in Denmark (GLA:D™): evidence-based education and supervised neuromuscular exercise delivered by certified physiotherapists nationwide</a>. BMC Musculoskelet Disord. 2017;18:72.</li>
       </ol>
     </div>
   </section>

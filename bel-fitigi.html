@@ -232,6 +232,16 @@
   .faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .faq details p{margin:0 0 16px;color:var(--ink-soft)}
 
+  main section[id]{scroll-margin-top:calc(var(--barh,57px) + 4px)}
+  .g-toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .g-toc a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;text-decoration:none;color:var(--ink-soft)}
+  .g-toc a:hover{color:var(--ink);border-color:var(--gold)}
+  .g-tl{list-style:none;margin:8px 0 0;padding:0 0 0 18px;max-width:820px;border-left:2px solid var(--line)}
+  .g-tl li{position:relative;padding:10px 0 10px 4px}
+  .g-tl li::before{content:"";position:absolute;left:-25px;top:17px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+  .g-tl b{font-family:var(--display);color:var(--foil);font-size:18px;margin-right:6px}
+  .g-tl span{color:var(--ink-soft)}
+
   .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:4px}
   @media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
   .stat{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
@@ -426,7 +436,7 @@
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel fıtığı ve siyatik</h1>
     <p class="lede">Beldeki bir diskin taşarak bacağa giden sinir kökünü sıkıştırmasıyla ortaya çıkar. Ağrı kalçadan bacağa, bazen ayağa kadar vurur. İyi haber: çoğu kişi ameliyatsız iyileşir, fıtık çoğu zaman kendiliğinden küçülür.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 28 Ekim 2026</p>
   </div>
 </header>
 
@@ -439,10 +449,12 @@
         <div class="stat"><b>%95</b><span>Bir yılın sonunda kendini iyileşmiş hisseden siyatik hastası</span></div>
         <div class="stat"><b>%29</b><span>Hiç ağrısı olmayan 20 yaşındakilerin MR'ında disk fıtığı</span></div>
       </div>
+      <p class="eyebrow" style="margin-top:26px">Bu sayfada</p>
+      <nav class="g-toc" aria-label="Bu sayfada"><a href="#nedir">Nedir?</a><a href="#sinirler">Hangi sinir nereye vurur?</a><a href="#tani">MR ne zaman gerekir?</a><a href="#tarihce">Geçmişten bugüne</a><a href="#tedavi">Seyri ve tedavi</a><a href="#egzersizler">Egzersizler</a><a href="#videolar">Videolar</a><a href="#sss">Sık sorulan sorular</a><a href="#uyari">Acil uyarı işaretleri</a></nav>
     </div>
   </section>
 
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -462,7 +474,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="sinirler">
     <div class="wrap roots">
       <div>
         <h2>Hangi sinir nereye vurur?</h2>
@@ -494,7 +506,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="tani">
     <div class="wrap">
       <h2>Tanı: MR ne zaman gerekir?</h2>
       <p class="soft">Tanı önce muayeneyle konur. Sırtüstü yatarken düz bacağın kaldırılmasıyla bacak ağrısının tetiklenmesi (düz bacak kaldırma testi), kas gücü, refleksler ve duyu muayenesi en önemli ipuçlarıdır.</p>
@@ -504,7 +516,26 @@
     </div>
   </section>
 
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Bel fıtığı ve siyatiğin kısa tarihi</h2>
+      <p class="soft">Bacağa vuran siyatik ağrısı yüzyıllardır biliniyor, ama sık bir nedeninin bel fıtığı olduğu ancak 1934'te gösterildi. Sonraki çalışmalar, çoğu kişinin ameliyatsız da iyileştiğini ve uzun yatak istirahatinin gerekmediğini ortaya koydu.</p>
+      <ol class="g-tl">
+        <li><b>1764</b><span>İtalyan hekim Domenico Cotugno, kalçadan bacağa yayılan ağrıyı kalça eklemi ağrısından ayırarak siyatik sinirle ilişkilendirdi.</span></li>
+        <li><b>1864</b><span>Fransız hekim Charles Lasègue siyatik üzerine yazdı; bugün muayenede kullanılan düz bacak kaldırma testi onun adıyla da anılır (Lasègue testi).</span></li>
+        <li><b>1934</b><span>ABD'li cerrahlar William Mixter ve Joseph Barr, siyatiğin sık bir nedeninin yerinden taşan disk olduğunu gösterdi; bel fıtığı ameliyatı bundan sonra yaygınlaştı.</span></li>
+        <li><b>1977</b><span>Türk beyin cerrahı Gazi Yaşargil ve Wolfhard Caspar, mikroskopla yapılan, daha küçük kesili fıtık ameliyatını (mikrodiskektomi) tanımladı.</span></li>
+        <li><b>1983</b><span>Norveç'te 126 hastanın 10 yıl izlendiği çalışmada ameliyat olanlar 1. yılda daha iyiydi; 4. yılda iki grup arasındaki fark artık anlamlı değildi.</span></li>
+        <li><b>1986</b><span>Akut bel ağrısı olan 203 kişiyle yapılan çalışmada 2 günlük yatak istirahati 7 gün kadar etkiliydi ve işe gidilemeyen gün sayısı %45 daha azdı. Uzun yatak istirahati önerisi zamanla bırakıldı.</span></li>
+        <li><b>2007</b><span>Hollanda'da 6–12 haftadır şiddetli siyatiği olan 283 hastayla yapılan çalışmada erken ameliyat ağrıyı daha hızlı geçirdi, ama 1. yılın sonunda iki grubun sonuçları benzerdi.</span></li>
+        <li><b>2015</b><span>Derlemeler, dışarı taşmış fıtıkların yaklaşık %70'inin kendiliğinden gerilediğini ve ağrısı olmayan kişilerde de disk bombeleşmesinin yaşla sıklaştığını gösterdi (20 yaşında %30, 80 yaşında %84). MR bulgusu tek başına ağrının nedeni sayılmamalı.</span></li>
+        <li><b>2026</b><span>Amerikan Ağrı Tıbbı Akademisi'nin kılavuzu, 6 haftadan kısa süren bel ağrısında ciddi bir hastalık belirtisi yoksa rutin erken görüntüleme yapılmamasını ve opioidlerin ilk tedavi olarak kullanılmamasını önerdi.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="tedavi">
     <div class="wrap">
       <h2>Seyri ve tedavi</h2>
       <p class="soft">Bel fıtığının doğal seyri çoğu zaman iyidir. Vücut taşan disk parçasını zamanla temizleyebilir; ne kadar büyük taşmışsa gerileme olasılığı o kadar yüksektir. 6–12 haftadır şiddetli siyatiği olan 283 hastanın karşılaştırıldığı çalışmada, ameliyatsız izlenen grubun %39'u sonunda ameliyat oldu; bir yılın sonunda iki grubun sonuçları benzerdi.</p>
@@ -553,7 +584,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       <div class="faq">
@@ -566,7 +597,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
       <p class="soft">Şu belirtiler kauda ekina sendromu denen ve acil ameliyat gerektirebilen bir tabloyu ya da ciddi sinir hasarını gösterebilir. Beklemeden acile başvurun:</p>
@@ -597,9 +628,13 @@
       <ol>
         <li>Brinjikji W, Luetmer PH, Comstock B, et al. <a href="https://www.ajnr.org/content/36/4/811" target="_blank" rel="noopener">Systematic literature review of imaging features of spinal degeneration in asymptomatic populations</a>. AJNR Am J Neuroradiol. 2015;36(4):811-816.</li>
         <li>Chiu CC, Chuang TY, Chang KH, Wu CH, Lin PW, Hsu WY. The probability of spontaneous regression of lumbar herniated disc: a systematic review. Clin Rehabil. 2015;29(2):184-195.</li>
+        <li>Deyo RA, Diehl AK, Rosenthal M. <a href="https://www.qxmd.com/r/2945109" target="_blank" rel="noopener">How many days of bed rest for acute low back pain? A randomized clinical trial</a>. N Engl J Med. 1986;315(17):1064–1070.</li>
+        <li>Gusmão S, Arantes A, Pinheiro-Franco JL. <a href="https://link.springer.com/chapter/10.1007/978-3-662-47756-4_2" target="_blank" rel="noopener">A historical overview of sciatica</a>. In: Pinheiro-Franco JL, Vaccaro AR, Benzel EC, Mayer HM, eds. Advanced Concepts in Lumbar Degenerative Disk Disease. Berlin: Springer; 2016.</li>
+        <li>Mixter WJ, Barr JS. Rupture of the intervertebral disc with involvement of the spinal canal. N Engl J Med. 1934;211:210–215.</li>
         <li>National Institute for Health and Care Excellence. <a href="https://www.nice.org.uk/guidance/ng59" target="_blank" rel="noopener">Low back pain and sciatica in over 16s: assessment and management (NG59)</a>. Londra: NICE; 2016, güncelleme 2020.</li>
         <li>Peul WC, van Houwelingen HC, van den Hout WB, et al. <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa064039" target="_blank" rel="noopener">Surgery versus prolonged conservative treatment for sciatica</a>. N Engl J Med. 2007;356(22):2245-2256.</li>
         <li>Physiopedia. <a href="https://www.physio-pedia.com/Lumbar_Radiculopathy" target="_blank" rel="noopener">Lumbar Radiculopathy</a>.</li>
+        <li>Weber H. <a href="https://search.pedro.org.au/search-results/record-detail/2195" target="_blank" rel="noopener">Lumbar disc herniation: a controlled, prospective study with ten years of observation</a>. Spine. 1983;8(2):131–140.</li>
         <li>American Academy of Pain Medicine. <a href="https://www.painmed.org/news/acute-low-backpain-guideline-systematic-review-available" target="_blank" rel="noopener">New acute low back pain guideline and systematic review</a>. 5 October 2026. Sistematik derleme: Skelly AC, Chou R, et al. Pain Med. 2026. doi:10.1093/pm/pnag131.</li>
       </ol>
     </div>
