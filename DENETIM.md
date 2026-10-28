@@ -11,6 +11,16 @@ Kullanıcı isteği (28 Ekim 2026): "bundan böyle düzenli denetleme çalışma
 6. Klinik deneyim kutuları kullanıcının gözlemidir: kaynak istenmez, ama araştırma gibi sunulmuşsa ya da araştırmayla çeliştiği söylenmiyorsa işaretlenir.
 Kontrol listesi: DEVAM.md › İÇERİK KALİTE KONTROLÜ.
 
+## Günlük zamanlanmış denetim (kullanıcı seçimi, 28 Ekim 2026)
+Her gün 06:39 (İstanbul) yeni bir oturum açılır ve tablodaki öncelik sırasıyla "denetlenmedi" durumundaki ilk 3 sayfayı denetler. Kullanıcının seçimi: **kesin hatalar hemen düzeltilip yayımlanır, yorum gerektirenler kullanıcıya sorulur.**
+1. Kurulum: `bash /home/claude/drihsaneren.github.io/denetim/kurulum.sh` (yoksa: repoyu klonla, `denetim/kurulum.sh`'i çalıştır). Sonra DEVAM.md (özellikle İÇERİK KALİTE KONTROLÜ ve kurallar) ve bu dosya okunur. Yerel sunucu: `cd /home/claude/main && python3 -m http.server 8765 --bind 127.0.0.1` (arka planda).
+2. Her sayfa: `python3 denetim/sayfa_metni.py <sayfa>.html <scratchpad>/<sayfa>.txt` → her sayı/yıl/isim/oran/kılavuz önerisi kaynağından (WebFetch/WebSearch; PubMed engelliyse PMC, yayıncı, PEDro, kurum siteleri) kontrol edilir; ifade gücü, Türkçe terim, hasta gözüyle anlaşılırlık, site kuralları, iç tutarlılık, kaynak künyeleri ve bağlantılar, İngilizce sürümün anlam uyumu (göz atarak).
+3. **Hemen düzeltilecek kesin hatalar:** kaynakla çelişen ya da kaynakta bulunmayan sayı/yıl/isim/oran; yanlış kuruma/çalışmaya atıf; gözlemsel çalışmanın nedensel anlatılması; çizimde anatomik hata; kırık ya da yanlış kaynak bağlantısı/künye; site kuralı ihlali (randevu, eczacı, doktor→hekim, ilaç/doz önerisi, telefon, akupunktur hizmeti vb.). Düzeltme TR+EN birlikte (collect_todo → i18n/done/turNN.json → check.py → make_en "toplam eksik: 0" → search_index → t_ls "sorun: 0" → denetim/sw.py taşma yok) ve iki dal push (önce `git fetch`).
+4. **Kullanıcıya sorulacaklar (değiştirilmez):** klinik deneyim kutuları ve kullanıcının kendi terimleri/ifadeleri; içerik çıkarma ya da büyük ekleme; tartışmalı yorumlar; tasarım. Bunlar bu dosyaya "soruldu" diye yazılır.
+5. Bu dosyaya: tablo satırı (durum, tarih, bulgu Y/O/D, not) + sayfa başına kısa bulgu/düzeltme özeti. Çeviri tur numarası DEVAM.md'deki "Sonraki batch" ile ilerletilir.
+6. Bitişte kullanıcıya kısa Türkçe rapor (yumuşak "-ebilirsiniz" üslubu): denetlenen sayfalar, düzeltilen kesin hatalar (önce → sonra, kaynak), soruları, açık kalanlar. Kota sınırlıysa 3 yerine 2 sayfa yapılabilir; bu raporda söylenir.
+Değişiklik/iptal: kullanıcı isterse zamanlanmış görev ayarlarından.
+
 ## Site geneli otomatik taramalar (her denetim turunda tekrarlanır)
 randevu/appointment, eczacı/pharmacist, tel: bağlantısı, "eklem esnekliği", Biruni, YouTube'da izle/Spotify'da aç, LinkedIn, belirli ilaç adı + "kullanabilirsiniz", ana sayfada şehir adı.
 - 28 Ekim 2026: temiz. Not: stres.html'de iki yerde "doktorunuza danışın" var (site kuralı "hekim"; o sayfanın denetiminde düzeltilecek). Ayrıca: omuzda-kirec-birikmesi "Hekiminize danışarak ağrı kesici ya da iltihap giderici ilaç kullanabilirsiniz" → kural kalıbına çevrilecek (o sayfanın denetiminde). index.html'deki "randevu" yalnızca kod yorumu; 5. metatars EN'deki "appointment" kaynak URL'si.
