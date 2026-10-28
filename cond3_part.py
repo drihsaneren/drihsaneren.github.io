@@ -490,7 +490,7 @@ _ex2("sc_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 _ex2("sc_scap", "scap", "Kürek kemiği sıkıştırma", "Dik oturun ya da durun. Omuzlarınızı kaldırmadan kürek kemiklerinizi geriye ve aşağıya doğru yaklaştırın, 5 saniye tutup bırakın.", "10–15 tekrar")
 
 SC_FAQ = [
- ("Ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Araştırmalara göre hayır: Skolyoz Araştırma Derneği (SRS), ağır çantanın, kötü duruşun ve sporun skolyoza yol açmadığını ve eğriliği kötüleştirmediğini belirtiyor; Portekiz'de 966 öğrenciyle yapılan bir çalışmada da çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı. Ağır çanta ise bel ve sırt ağrısına yol açabilir. Klinik deneyimimizde, büyüme atağındaki ve bağ dokusu esnek olan gençlerde tek taraflı yüklenmenin duruş asimetrisini ve ağrıyı belirginleştirebildiğini görüyoruz; bu yüzden çantanın iki omuzda taşınmasını öneriyoruz."),
+ ("Tek taraflı alışkanlıklar, ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Bunu gösteren güçlü bir kanıt yok: Skolyoz Araştırma Derneği (SRS), ağır çantanın, kötü duruşun ve sporun skolyoza yol açmadığını ve eğriliği kötüleştirmediğini belirtiyor; Portekiz'de 966 öğrenciyle yapılan bir çalışmada da çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı. Çin'de okul taramalarına dayanan bazı çalışmalarda ise tek tarafa yaslanarak ya da sıraya kapanarak oturmak ve boya uygun olmayan sıra skolyozla ilişkili bulundu; bu çalışmalar neden-sonuç ilişkisi göstermiyor. Ağır çanta sırt ağrısına yol açabilir; yanlış oturma alışkanlıkları da bel ağrısıyla ilişkili bulundu. Klinik deneyimimizde, okul çağında sırada hep bir yana yaslanarak oturmak ya da çantayı hep aynı omuzda taşımak gibi tek taraflı alışkanlıkların, büyüme atağındaki ve bağ dokusu esnek olan gençlerde duruş asimetrisini ve ağrıyı belirginleştirebildiğini görüyoruz; bu yüzden yükü iki tarafa dağıtmayı öneriyoruz."),
  ("C ve S eğrilik arasındaki fark nedir?", "C eğrilikte omurgada tek bir yay vardır. S eğrilikte ise biri göğüs, diğeri bel bölgesinde, ters yönlere bakan iki yay bulunur. İkisinde de eğriliğin büyüklüğü röntgende Cobb açısıyla ölçülür; tedavi kararında eğrilik tipi, açı ve kalan büyüme birlikte değerlendirilir."),
  ("Skolyozlu çocuğum spor yapabilir mi?", "Evet. SRS'ye göre sırt ağrısı olmadıkça skolyozlu çocuklar her sporu yapabilir; uluslararası kılavuz (SOSORT) da sporun genel sağlık ve psikolojik faydaları nedeniyle korse tedavisi sırasında bile bırakılmamasını öneriyor. Ancak hiçbir spor tek başına eğriliği düzeltmez."),
  ("Yüzme skolyozu düzeltir mi?", "Hayır. Uluslararası kılavuz, sporun skolyoz tedavisi olarak önerilmemesini, ama genel sağlık ve psikolojik faydaları nedeniyle bırakılmamasını öneriyor. Yüzme de dahil hiçbir spor tek başına eğriliği düzeltmez."),
@@ -515,6 +515,8 @@ SC_SRC = [
  "Weinstein SL, Dolan LA, Spratt KF, et al. Health and function of patients with untreated idiopathic scoliosis: a 50-year natural history study. JAMA. 2003;289(5):559-567. Özet: " + ext("https://www.aafp.org/afp/2003/0601/p2391a", "American Family Physician") + ".",
  "Dragsted C, Ragborg L, Ohrt-Nissen S, et al. " + ext("https://actaorthop.org/actao/article/download/42659/48814?inline=1", "Curve progression in non-surgically treated patients with idiopathic scoliosis: a cohort study with 40-year follow-up") + ". Acta Orthop. 2025;96:110-115.",
  "Minghelli B, Oliveira R, Nunes C. " + ext("https://journals.sagepub.com/doi/10.3233/WOR-162284", "Postural habits and weight of backpacks of Portuguese adolescents: are they associated with scoliosis and low back pain?") + ". Work. 2016;54(1):197-208.",
+ "Yang J, Huang S, Cheng M, Tan W, Yang J. " + ext("https://link.springer.com/article/10.1186/s13018-022-03366-0", "Postural habits and lifestyle factors associated with adolescent idiopathic scoliosis (AIS) in China: results from a big case–control study") + ". J Orthop Surg Res. 2022;17:472.",
+ "Xu R, Li J, Wang W, Zhang L, Liu H. " + ext("https://www.frontiersin.org/articles/10.3389/fped.2025.1524073/full", "Prevalence of and risk factors for adolescent scoliosis from a multi-year school screening programme in Eastern China") + ". Front Pediatr. 2025;13:1524073.",
  "Czaprowski D, Kotwicki T, Pawłowska P, Stoliński L. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC3204294", "Joint hypermobility in children with idiopathic scoliosis: SOSORT award 2011 winner") + ". Scoliosis. 2011;6:22.",
  "Tanchev PI, Dzherov AD, Parushev AD, Dikov DM, Todorov MB. " + ext("https://sponet.de/sponet/Record/4004104", "Scoliosis in rhythmic gymnasts") + ". Spine. 2000;25(11):1367-1372.",
  "Moramarco K, Borysov M. " + ext("https://openorthopaedicsjournal.com/VOLUME/11/PAGE/1452/ABSTRACT/", "A modern historical perspective of Schroth scoliosis rehabilitation and corrective bracing techniques for idiopathic scoliosis") + ". Open Orthop J. 2017;11:1452.",
@@ -696,7 +698,7 @@ SC_BODY = f'''<header class="page">
       </div>
       <p class="eyebrow" style="margin-top:26px">Bu sayfada</p>
       <nav class="sk-toc" aria-label="Bu sayfada">
-        <a href="#nedir">Skolyoz nedir?</a><a href="#egrilik">C ve S eğrilik</a><a href="#cobb">Röntgen ve Cobb açısı</a><a href="#turler">Türleri</a><a href="#buyume">İlerleme riski</a><a href="#risk">Çanta, alışkanlıklar, esneklik</a><a href="#tarihce">Geçmişten bugüne</a><a href="#tedavi">Tedaviler</a><a href="#ameliyat">Ameliyat ve denge</a><a href="#egzersizler">Egzersizler</a>
+        <a href="#nedir">Skolyoz nedir?</a><a href="#egrilik">C ve S eğrilik</a><a href="#cobb">Röntgen ve Cobb açısı</a><a href="#turler">Türleri</a><a href="#buyume">İlerleme riski</a><a href="#risk">Tek taraflı alışkanlıklar</a><a href="#tarihce">Geçmişten bugüne</a><a href="#tedavi">Tedaviler</a><a href="#ameliyat">Ameliyat ve denge</a><a href="#egzersizler">Egzersizler</a>
       </nav>
     </div>
   </section>
@@ -796,7 +798,16 @@ SC_BODY = f'''<header class="page">
 
   <section id="risk">
     <div class="wrap">
-      <h2>Çanta, tek taraflı alışkanlıklar ve bağ dokusu esnekliği</h2>
+      <h2>Tek taraflı alışkanlıklar ve bağ dokusu esnekliği</h2>
+      <p class="soft">Tek taraflı alışkanlık derken yalnızca çantayı tek omuzda taşımayı değil, gövdeyi her gün uzun süre aynı tarafa yükleyen alışkanlıkları kastediyoruz. Okul çağında en sık gördüklerimiz:</p>
+      <ul class="dots">
+        <li>Sırada hep aynı yana, duvara ya da bir dirseğe dayanarak oturmak</li>
+        <li>Ağırlığı hep aynı kalçaya vererek ya da bir bacağı hep altına alarak oturmak</li>
+        <li>Yazarken gövdeyi bir yana kaydırıp bir omzu düşürmek</li>
+        <li>Sınıfta yıl boyunca aynı yerde oturup tahtaya hep aynı yöne dönmek</li>
+        <li>Ayakta hep aynı bacağa yüklenmek</li>
+        <li>Çantayı hep tek omuzda, ağır bir eşyayı ya da çalgıyı hep aynı tarafta taşımak</li>
+      </ul>
       <p class="soft">Bu konu ailelerin en çok sorduğu konulardan biri. Araştırmaların gösterdikleriyle klinikte gördüklerimizi ayrı ayrı yazıyoruz.</p>
       <div class="sk-split" style="margin-top:12px">
         <div>
@@ -804,14 +815,20 @@ SC_BODY = f'''<header class="page">
           <ul class="dots">
             <li>SRS'ye göre ağır çanta, kötü duruş ve spor skolyoza yol açmaz ya da eğriliği kötüleştirmez; ancak ağır çanta sırt ve bel ağrısına yol açabilir.</li>
             <li>Portekiz'de 10–16 yaş arası 966 öğrencide çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı; yanlış oturma ve ayakta durma alışkanlıkları ise bel ağrısıyla ilişkiliydi. Bu bir kesitsel çalışmadır; neden-sonuç ilişkisi göstermez.</li>
+            <li>Çin'de okul taramasına katılan 2.538 öğrenciyle (yaş ortalaması 13) yapılan bir vaka-kontrol çalışmasında, dik oturduğunu söyleyenlerde taramada skolyoz şüphesi %31, sınıfta oturduğu yeri düzenli olarak değiştirenlerde %28 daha azdı; okul sırası boyuna göre çok alçak olanlarda ise %40 daha sıktı. Sola ya da sağa yaslanarak oturmakla anlamlı bir ilişki bulunmadı. Alışkanlıklar öğrencilerin kendi beyanına dayanıyor ve skolyoz röntgenle doğrulanmadı.</li>
+            <li>Yine Çin'de 90.635 öğrencinin tarandığı bir çalışmada, röntgen çekilen 1.458 öğrenci arasında tek tarafa yaslanma ya da eğilme alışkanlığı olanlarda skolyoz olasılığı yaklaşık 2 kat, sıraya kapanarak oturanlarda yaklaşık 1,5 kat yüksekti; çanta taşıma şekliyle ise ilişki bulunmadı. Bu da kesitsel bir çalışmadır: eğriliği olan çocuğun zaten bir yana yaslanıyor olması da mümkündür.</li>
             <li>Bir çalışmada idiyopatik skolyozlu 70 çocuğun %51,4'ünde, sağlıklı akranlarının ise %19'unda yaygın eklem hipermobilitesi (bağ dokusu gevşekliğine bağlı aşırı eklem hareketliliği) vardı; gevşeklik eğriliğin derecesiyle ilişkili değildi. Yazarlar, fizyoterapi planlanırken bu çocuklarda eklem gevşekliğine bakılmasını öneriyor.</li>
             <li>Ritmik cimnastik yapan 100 kız çocukta skolyoz sıklığı %12, akranlarında %1,1'di. Yazarlar; eklem gevşekliği, gecikmiş ergenlik ve büyüyen omurgaya tekrar tekrar binen tek taraflı yükün birlikteliğini “tehlikeli üçlü” olarak tanımladı. Bu da bir gözlem çalışmasıdır.</li>
           </ul>
+          <p class="soft"><strong>Özetle:</strong> Tek taraflı alışkanlıkların tek başına skolyoza yol açtığı gösterilmedi; ama bazı oturma alışkanlıklarıyla ilişki bulan çalışmalar var ve bu alışkanlıklar sırt ve bel ağrısıyla da ilişkili.</p>
         </div>
         <div>
           <h3>Klinikte ne görüyoruz?</h3>
-          {SK_CLIN("Büyüme atağındaki gençlerde çantayı hep aynı omuzda taşımak, ağır bir eşyayı ya da çalgıyı sürekli aynı tarafta taşımak ve tek tarafı yükleyen alışkanlıklar duruş asimetrisini belirginleştirebiliyor. Benign eklem hipermobilite sendromunda olduğu gibi bağ dokusu esnekliği de eşlik ediyorsa bu asimetrilerin ve sırt ağrısının daha belirgin olabildiğini görüyoruz. Bu, tek taraflı yükün yapısal skolyoza yol açtığı anlamına gelmez; ama büyüme döneminde yükü iki tarafa dağıtmak için iyi bir neden.")}
+          {SK_CLIN("Büyüme atağındaki gençlerde sırada hep aynı yana ya da duvara dayanarak oturmak, ağırlığı hep aynı kalçaya vermek, çantayı hep aynı omuzda ya da ağır bir eşyayı, çalgıyı sürekli aynı tarafta taşımak gibi tek taraflı alışkanlıklar duruş asimetrisini belirginleştirebiliyor. Benign eklem hipermobilite sendromunda olduğu gibi bağ dokusu esnekliği de eşlik ediyorsa bu asimetrilerin ve sırt ağrısının daha belirgin olabildiğini görüyoruz. Bu, tek taraflı alışkanlıkların yapısal skolyoza yol açtığı anlamına gelmez; ama büyüme döneminde yükü iki tarafa dağıtmak için iyi bir neden.")}
           <ul class="dots" style="margin-top:14px">
+            <li>Sırada iki kalçaya eşit ağırlık vererek, sırtı destekli oturmaya özen gösterin; uzun derslerde ve ödev sırasında ara ara kalkıp hareket edin.</li>
+            <li>Sıra ve sandalye çocuğun boyuna uygun olsun: ayaklar yere bassın, dirsekler masada rahatça dursun.</li>
+            <li>Mümkünse sınıfta oturulan yer dönem içinde değiştirilsin; böylece tahtaya hep aynı yöne dönülmez.</li>
             <li>Çantayı iki askısıyla, iki omuzda taşıyın; ağırlık vücut ağırlığının %10–15'ini geçmesin, ağır eşyalar sırta yakın dursun.</li>
             <li>Tek taraflı bir spor ya da etkinlik yapılıyorsa sporu bırakmak gerekmez; karşı tarafı da çalıştıran dengeleyici egzersizler eklenebilir.</li>
             <li>Bağ dokusu çok esnek olan çocuklarda germe yerine güçlendirme ve duruş kontrolü ön plana çıkar.</li>
@@ -946,7 +963,7 @@ SC_BODY = f'''<header class="page">
 </main>'''
 
 page("skolyoz.html", "Skolyoz",
-     "Skolyoz nedir, C ve S eğrilik, Cobb açısı, boy uzaması döneminde ilerleme riski; çanta, tek taraflı alışkanlıklar ve bağ dokusu esnekliği; geçmişten bugüne tedaviler, egzersiz, korse ve ameliyatın karşılaştırması.",
+     "Skolyoz nedir, C ve S eğrilik, Cobb açısı, boy uzaması döneminde ilerleme riski; tek taraflı oturma ve taşıma alışkanlıkları, bağ dokusu esnekliği; geçmişten bugüne tedaviler, egzersiz, korse ve ameliyatın karşılaştırması.",
      "skolyoz.html", SC_CSS, SC_BODY, "",
      seo_title="Skolyoz: C ve S Eğrilik, Cobb Açısı, Egzersiz, Korse ve Ameliyat | İhsan Eren",
      condition="Skolyoz", faq_items=SC_FAQ)

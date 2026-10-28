@@ -2479,7 +2479,7 @@ TH_SCOLIOSIS = """<svg viewBox="0 0 320 150" aria-hidden="true"><circle cx="161"
 C_PFP = KC("diz-onu-agrisi.html", TH_PFP, "Hastalık rehberi", "Diz önü ağrısı", "Merdiven inerken ve çömelirken diz kapağı çevresinde ağrı: neden olur, hangi egzersizler işe yarar? Evde altı egzersiz ve videolar.")
 C_ACHILLES = KC("asil-tendinopatisi.html", TH_ACHILLES, "Hastalık rehberi", "Aşil tendinopatisi", "Topuğun üstünde ağrı ve sabah tutukluğu: kirişi iyileştiren yüklenme egzersizleri ve basamaktan topuk indirme programı.")
 C_HEADACHE = KC("bas-agrisi.html", TH_HEADACHE, "Hastalık rehberi", "Baş ağrısı", "Gerilim tipi ve boyun kaynaklı baş ağrısında egzersizin etkisi, ağrı kesici uyarıları ve acil başvuru gerektiren belirtiler.")
-C_SCOLIOSIS = KC("skolyoz.html", TH_SCOLIOSIS, "Hastalık rehberi", "Skolyoz", "C ve S eğrilik, Cobb açısı, boy uzaması döneminde ilerleme riski; çanta ve bağ dokusu esnekliği; egzersiz, korse ve ameliyatın karşılaştırması.")
+C_SCOLIOSIS = KC("skolyoz.html", TH_SCOLIOSIS, "Hastalık rehberi", "Skolyoz", "C ve S eğrilik, Cobb açısı, boy uzaması döneminde ilerleme riski; tek taraflı alışkanlıklar ve bağ dokusu esnekliği; egzersiz, korse ve ameliyatın karşılaştırması.")
 C_BACK = KC("bel-agrisi.html", TH_BACK, "Hastalık rehberi", "Bel ağrısı", "MR'daki aşınma ne anlama gelir, yatak istirahati gerekir mi? Evde altı egzersiz ve günlük hayat önerileri.")
 C_SCIATICA = KC("bel-fitigi.html", TH_SCIATICA, "Hastalık rehberi", "Bel fıtığı ve siyatik", "Bacağa vuran ağrı, fıtık kendiliğinden geçer mi, ameliyat ne zaman gerekir?")
 C_KNEE = KC("diz-kireclenmesi.html", TH_KNEE, "Hastalık rehberi", "Diz kireçlenmesi", "Röntgen ne anlatır, kilo ve egzersiz neden önemli? Evde altı egzersiz ve merdiven, baston önerileri.")
