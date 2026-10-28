@@ -99,7 +99,7 @@ JS = {
    "'Breathe in through your nose for 4 seconds, hold for 7, then breathe out through slightly parted lips with a “whoosh” sound over 8 seconds. Rest the tip of your tongue behind your upper front teeth. To begin with, 3–4 rounds twice a day.'"],
   ["'Bir tur 19 saniye. 4 turdan sonra kendiliğinden durur.'", "'One round takes 19 seconds. It stops by itself after 4 rounds.'"],
   ["w.textContent='Hazır'", "w.textContent='Ready'"],
-  ["\"Başlat'a basın\"", "\"Press Start\""],
+  ["'Başlamak için dokunun'", "'Tap to begin'"],
   ["rounds+' tur tamamlandı'", "rounds+(rounds===1?' round completed':' rounds completed')"],
   ["m.max+' tur tamamlandı. Normal nefesinize dönün.'", "m.max+' rounds completed. Return to your normal breathing.'"],
   ["+' sn'", "+' s'"],

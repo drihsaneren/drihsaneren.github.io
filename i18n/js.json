@@ -41,8 +41,8 @@
    "w.textContent='Ready'"
   ],
   [
-   "\"Başlat'a basın\"",
-   "\"Press Start\""
+   "'Başlamak için dokunun'",
+   "'Tap to begin'"
   ],
   [
    "rounds+' tur tamamlandı'",

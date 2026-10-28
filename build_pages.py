@@ -638,6 +638,8 @@ STRES_CSS = """
   .modes button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .steps-mini{font-size:14px;color:var(--muted);margin:0 0 14px}
   .orb .say{position:absolute;inset:0;display:grid;place-content:center;text-align:center;pointer-events:none}
+  .orb.idle{cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .orb.idle:hover .ring{border-color:var(--foil)}
   .orb .say b{font-family:var(--display);font-weight:400;font-size:clamp(24px,4vw,30px);color:var(--ink)}
   .orb .say span{font-size:14px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
   .controls{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
@@ -721,10 +723,10 @@ STRES_BODY = f'''<header class="page">
           <p class="count" id="b-count" aria-live="polite">Bir tur 10 saniye. 6 tur yaklaşık 1 dakika sürer.</p>
         </div>
         <p class="count b-note">Tutma aşamalarını zorlamadan yapın. Başınız döner ya da nefesiniz daralırsa Sakin tempoya ya da normal nefesinize dönün. Ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri hekiminize danışın.</p>
-        <div class="orb" id="orb" aria-hidden="true">
+        <div class="orb idle" id="orb" aria-hidden="true">
           <div class="ring"></div>
           <div class="ball"></div>
-          <div class="say"><b id="b-word">Hazır</b><span id="b-sec">Başlat'a basın</span></div>
+          <div class="say"><b id="b-word">Hazır</b><span id="b-sec">Başlamak için dokunun</span></div>
         </div>
       </div>
     </div>
@@ -876,7 +878,7 @@ STRES_JS = '''<script>
   function setBall(scale,sec){ball.style.transition='transform '+sec+'s ease-in-out'; ball.style.transform='scale('+scale+')';}
   function halt(msg){
     clearInterval(t); t=null; cur=-1; orb.classList.remove('hold'); setBall(.5,1);
-    w.textContent='Hazır'; s.textContent="Başlat'a basın";
+    w.textContent='Hazır'; s.textContent='Başlamak için dokunun'; orb.classList.add('idle');
     if(msg){cnt.textContent=msg;}
     stop.hidden=true; start.hidden=false;
   }
@@ -897,8 +899,10 @@ STRES_JS = '''<script>
   start.addEventListener('click',function(){
     ball.style.transition='none'; ball.style.transform='scale(.5)'; void ball.offsetWidth;
     t0=Date.now(); rounds=0; cur=-1; cnt.textContent='Başladı'; tick(); clearInterval(t); t=setInterval(tick,100);
-    start.hidden=true; stop.hidden=false; stop.focus();
+    start.hidden=true; stop.hidden=false; stop.focus(); orb.classList.remove('idle');
   });
+  // Çemberin ortasına dokunmak da başlatır (yalnızca dururken)
+  orb.addEventListener('click',function(){ if(!t){ start.click(); } });
   Array.prototype.forEach.call(document.querySelectorAll('.modes button'),function(b){
     b.addEventListener('click',function(){
       var running=!!t; if(running){halt();}

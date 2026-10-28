@@ -796,3 +796,6 @@ Kullanıcı daha fazla titizlik istedi; başa "İÇERİK KALİTE KONTROLÜ" list
 
 ## 28 Ekim 2026 öğle — skolyoz denetimi düzeltmeleri (tur32, tur33), stres sayfasında "doktorunuza" → "hekiminize" (tur34)
 Ayrıntılar DENETIM.md'de. Günlük zamanlanmış denetim kuruldu (her gün 06:39 İstanbul, 3 sayfa). Sonraki batch: tur35.
+
+## 28 Ekim 2026 — stres: nefes çemberine dokunmak da başlatır
+Kullanıcı: "şu yuvarlağın ortasına tıklayınca da başlasın". #orb tıklaması yalnızca dururken Başlat ile aynı işi yapar (çalışırken dokunmak bir şey yapmaz; durdurma yine "Durdur" düğmesiyle). Bekleme yazısı "Başlat'a basın" → "Başlamak için dokunun" (EN "Tap to begin"; i18n/manual_stres.py ve i18n/js.json güncellendi), boşta imleç el. Çeviri tur35. Sonraki batch: tur36.
