@@ -793,3 +793,6 @@ Kullanıcı: "tek taraflı çanta takmak, tek taraflı alışkanlıklar anlamın
 
 ## 28 Ekim 2026 — kalite kontrol kuralı + donuk omuz tarihçesinde iki düzeltme
 Kullanıcı daha fazla titizlik istedi; başa "İÇERİK KALİTE KONTROLÜ" listesi eklendi. Bu kurala göre bugünkü tarihçeler yeniden gözden geçirildi: "Julius Neviaser" adındaki ilk ad kaynakta doğrulanamadığı için "Neviaser" yapıldı; Reeves 1975 satırı ikincil kaynak (IASP) yerine dergi özetinden (Scand J Rheumatol 4(4):193–196: 49 hasta, 41'i 5–10 yıl izlendi, ağrı-katılaşma-düzelme evreleri, ortalama 30,1 ay, en iyi düzelmeden sonra yarıdan fazlasında hafif kısıtlılık, 3'ünde işlevsel kayıp) yeniden yazıldı. Duplay (Fransız cerrah, 1836–1924; 1872 makalesi) doğrulandı. Çeviri tur31 (2 birim). Sonraki batch: tur32.
+
+## 28 Ekim 2026 öğle — skolyoz denetimi düzeltmeleri (tur32, tur33), stres sayfasında "doktorunuza" → "hekiminize" (tur34)
+Ayrıntılar DENETIM.md'de. Günlük zamanlanmış denetim kuruldu (her gün 06:39 İstanbul, 3 sayfa). Sonraki batch: tur35.
