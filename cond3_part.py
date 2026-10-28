@@ -680,7 +680,7 @@ SC_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Skolyoz</h1>
-    <p class="lede">Omurganın yana doğru eğrilmesi ve aynı zamanda kendi etrafında dönmesidir. En sık ergenlik döneminde, nedeni bilinmeyen (idiyopatik) tipte görülür ve çoğu zaman ağrısızdır. Hızlı büyüme döneminde ilerleyebildiği için erken fark etmek önemlidir. Bu rehberde eğrilik tiplerini, röntgende ölçümü, büyümenin önemini ve geçmişten bugüne tedavileri araştırmalarla ve klinik deneyimle birlikte, ayrımını yaparak anlatıyoruz.</p>
+    <p class="lede">Omurganın yana doğru eğrilmesi ve aynı zamanda kendi etrafında dönmesidir. En sık ergenlik döneminde, nedeni bilinmeyen (idiyopatik) tipte görülür ve çoğu zaman ağrısızdır. Eğrilik en çok ergenlikteki hızlı boy uzaması döneminde ilerlediği için erken fark etmek önemlidir. Bu rehberde eğrilik tiplerini, röntgende ölçümü, eğriliğin hangi dönemde ilerlediğini ve geçmişten bugüne tedavileri anlatıyoruz; araştırma bulgularını ve klinik deneyimi ayrı ayrı gösteriyoruz.</p>
     <p class="meta">Son güncelleme: 28 Ekim 2026</p>
   </div>
 </header>
@@ -696,7 +696,7 @@ SC_BODY = f'''<header class="page">
       </div>
       <p class="eyebrow" style="margin-top:26px">Bu sayfada</p>
       <nav class="sk-toc" aria-label="Bu sayfada">
-        <a href="#nedir">Skolyoz nedir?</a><a href="#egrilik">C ve S eğrilik</a><a href="#cobb">Röntgen ve Cobb açısı</a><a href="#turler">Türleri</a><a href="#buyume">Büyüme dönemi</a><a href="#risk">Çanta, alışkanlıklar, esneklik</a><a href="#tarihce">Geçmişten bugüne</a><a href="#tedavi">Tedaviler</a><a href="#ameliyat">Ameliyat ve denge</a><a href="#egzersizler">Egzersizler</a>
+        <a href="#nedir">Skolyoz nedir?</a><a href="#egrilik">C ve S eğrilik</a><a href="#cobb">Röntgen ve Cobb açısı</a><a href="#turler">Türleri</a><a href="#buyume">İlerleme riski</a><a href="#risk">Çanta, alışkanlıklar, esneklik</a><a href="#tarihce">Geçmişten bugüne</a><a href="#tedavi">Tedaviler</a><a href="#ameliyat">Ameliyat ve denge</a><a href="#egzersizler">Egzersizler</a>
       </nav>
     </div>
   </section>
@@ -783,7 +783,7 @@ SC_BODY = f'''<header class="page">
 
   <section id="buyume">
     <div class="wrap">
-      <h2>Büyüme dönemi neden bu kadar önemli?</h2>
+      <h2>Eğrilik ne zaman ilerler?</h2>
       <p class="soft">Eğrilik en çok ergenlikteki hızlı büyüme atağında ilerler. Büyüme atağının zirvesi kızlarda erkeklerden daha erken gelir; kızlarda ilk adetten önceki dönem en riskli dönemdir. Bu yüzden büyüme atağındaki gençlerde (kabaca 10–18 yaş arası) eğrilik birkaç ay gibi kısa sürelerde de artabilir.</p>
       <ul class="tx" style="margin-top:14px">
         <li><b>727 çocuk</b><span>Eğriliği 5–29 derece olan ve tedavi almayan çocukların büyüme bitene kadar izlendiği klasik çalışmada %23'ünde eğrilik ilerledi. İlerlemeyi en iyi eğriliğin büyüklüğü, yaş, Risser işareti ve ilk adetin olup olmadığı öngördü.</span></li>
@@ -946,7 +946,7 @@ SC_BODY = f'''<header class="page">
 </main>'''
 
 page("skolyoz.html", "Skolyoz",
-     "Skolyoz nedir, C ve S eğrilik, Cobb açısı ve büyüme döneminin önemi; çanta, tek taraflı alışkanlıklar ve bağ dokusu esnekliği; geçmişten bugüne tedaviler, egzersiz, korse ve ameliyatın karşılaştırması.",
+     "Skolyoz nedir, C ve S eğrilik, Cobb açısı, boy uzaması döneminde ilerleme riski; çanta, tek taraflı alışkanlıklar ve bağ dokusu esnekliği; geçmişten bugüne tedaviler, egzersiz, korse ve ameliyatın karşılaştırması.",
      "skolyoz.html", SC_CSS, SC_BODY, "",
      seo_title="Skolyoz: C ve S Eğrilik, Cobb Açısı, Egzersiz, Korse ve Ameliyat | İhsan Eren",
      condition="Skolyoz", faq_items=SC_FAQ)
