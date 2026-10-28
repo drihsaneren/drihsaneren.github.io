@@ -682,7 +682,7 @@ STRES_CSS = """
 STRES_HELP = ("Ne zaman destek almalı?", "Stres, kaygı ya da çökkünlük haftalardır uykunuzu, işinizi veya ilişkilerinizi etkiliyorsa bir hekime ya da ruh sağlığı uzmanına başvurun. Kendinize zarar verme düşünceleriniz varsa hemen <strong>112</strong>'yi arayın.")
 STRES_FAQ = [
  ("Stres anında nefes egzersizi nasıl yapılır?", "Rahat bir yere oturun ve omuzlarınızı bırakın. Burnunuzdan 4 saniye nefes alın, 6 saniyede yavaşça verin. Bir tur 10 saniye sürer; 6 tur yaklaşık 1 dakikadır. Nefesi yavaşlatmak bedenin sakinleşmesine yardım eder."),
- ("Kutu nefesi ve 4-7-8 nefesi nasıl yapılır?", "Kutu nefesinde 4 saniye nefes alın, 4 saniye tutun, 4 saniye verin ve 4 saniye tutun. 4-7-8 tekniğinde burnunuzdan 4 saniye alın, 7 saniye tutun ve dudaklarınız hafif aralık, 8 saniyede verin. Tutma aşamalarını zorlamadan yapın; ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri doktorunuza danışın."),
+ ("Kutu nefesi ve 4-7-8 nefesi nasıl yapılır?", "Kutu nefesinde 4 saniye nefes alın, 4 saniye tutun, 4 saniye verin ve 4 saniye tutun. 4-7-8 tekniğinde burnunuzdan 4 saniye alın, 7 saniye tutun ve dudaklarınız hafif aralık, 8 saniyede verin. Tutma aşamalarını zorlamadan yapın; ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri hekiminize danışın."),
  ("Nefes egzersizlerinin yararı kanıtlandı mı?", "785 yetişkini kapsayan randomize çalışmaların 2023 tarihli bir meta-analizinde nefes çalışmaları, stres, kaygı ve depresif belirtilerde küçük ile orta düzeyde azalma sağladı. Çalışmaların yanlılık riski orta düzeydeydi; daha iyi tasarlanmış araştırmalara ihtiyaç var."),
  ("Dünya Sağlık Örgütü'nün stres rehberindeki beş beceri nedir?", "Ayağınızı yere basmak, zor düşüncelerden sıyrılmak, değerlerinize göre davranmak, kendinize nazik olmak ve duygulara yer açmaktır. Amaç stresi tamamen yok etmek değil, zor duygular varken de sizin için önemli olana dönebilmektir."),
 ]
@@ -720,7 +720,7 @@ STRES_BODY = f'''<header class="page">
           </div>
           <p class="count" id="b-count" aria-live="polite">Bir tur 10 saniye. 6 tur yaklaşık 1 dakika sürer.</p>
         </div>
-        <p class="count b-note">Tutma aşamalarını zorlamadan yapın. Başınız döner ya da nefesiniz daralırsa Sakin tempoya ya da normal nefesinize dönün. Ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri doktorunuza danışın.</p>
+        <p class="count b-note">Tutma aşamalarını zorlamadan yapın. Başınız döner ya da nefesiniz daralırsa Sakin tempoya ya da normal nefesinize dönün. Ciddi kalp ya da akciğer hastalığınız varsa tutmalı teknikleri hekiminize danışın.</p>
         <div class="orb" id="orb" aria-hidden="true">
           <div class="ring"></div>
           <div class="ball"></div>

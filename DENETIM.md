@@ -23,7 +23,7 @@ Değişiklik/iptal: kullanıcı isterse zamanlanmış görev ayarlarından.
 
 ## Site geneli otomatik taramalar (her denetim turunda tekrarlanır)
 randevu/appointment, eczacı/pharmacist, tel: bağlantısı, "eklem esnekliği", Biruni, YouTube'da izle/Spotify'da aç, LinkedIn, belirli ilaç adı + "kullanabilirsiniz", ana sayfada şehir adı.
-- 28 Ekim 2026: temiz. Not: stres.html'de iki yerde "doktorunuza danışın" var (site kuralı "hekim"; o sayfanın denetiminde düzeltilecek). Ayrıca: omuzda-kirec-birikmesi "Hekiminize danışarak ağrı kesici ya da iltihap giderici ilaç kullanabilirsiniz" → kural kalıbına çevrilecek (o sayfanın denetiminde). index.html'deki "randevu" yalnızca kod yorumu; 5. metatars EN'deki "appointment" kaynak URL'si.
+- 28 Ekim 2026: temiz. Not: stres.html'deki iki "doktorunuza danışın" 28 Ekim'de "hekiminize danışın" yapıldı (tur34). Ayrıca: omuzda-kirec-birikmesi "Hekiminize danışarak ağrı kesici ya da iltihap giderici ilaç kullanabilirsiniz" → kural kalıbına çevrilecek (o sayfanın denetiminde). index.html'deki "randevu" yalnızca kod yorumu; 5. metatars EN'deki "appointment" kaynak URL'si.
 
 ## Sayfa durumu (öncelik sırasıyla; 1 = yüksek risk / çok okunan / çocuk / ilaç geçen)
 | Öncelik | Sayfa | Başlık | Tür | Durum | Tarih | Bulgu (Y/O/D) | Not |
