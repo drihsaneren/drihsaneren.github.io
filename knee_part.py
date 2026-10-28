@@ -65,9 +65,24 @@ KNEE_SRC = [
  "Bedson J, Croft PR. " + ext("https://link.springer.com/article/10.1186/1471-2474-9-116", "The discordance between clinical and radiographic knee osteoarthritis: a systematic search and summary of the literature") + ". BMC Musculoskelet Disord. 2008;9:116.",
  "Fransen M, McConnell S, Harmer AR, Van der Esch M, Simic M, Bennell KL. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004376.pub3/full", "Exercise for osteoarthritis of the knee") + ". Cochrane Database Syst Rev. 2015;1:CD004376.",
  "GBD 2021 Osteoarthritis Collaborators. " + ext("https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00163-7/fulltext", "Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050") + ". Lancet Rheumatol. 2023;5(9):e508-e522.",
+ "Kirkley A, Birmingham TB, Litchfield RB, et al. " + ext("https://doi.org/10.1056/NEJMoa0708333", "A randomized trial of arthroscopic surgery for osteoarthritis of the knee") + ". N Engl J Med. 2008;359(11):1097–1107.",
  "Messier SP, Gutekunst DJ, Davis C, DeVita P. Weight loss reduces knee-joint loads in overweight and obese older adults with knee osteoarthritis. Arthritis Rheum. 2005;52(7):2026-2032.",
+ "Moseley JB, O'Malley K, Petersen NJ, et al. " + ext("https://doi.org/10.1056/NEJMoa013259", "A controlled trial of arthroscopic surgery for osteoarthritis of the knee") + ". N Engl J Med. 2002;347(2):81–88.",
  "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng226", "Osteoarthritis in over 16s: diagnosis and management (NG226)") + ". Londra: NICE; 2022.",
+ "Patel NG, Waterson HB, Phillips JRA, Toms AD. " + ext("https://boneandjoint.org.uk/Article/10.1302/2048-0105.82.360688", "50 years of total knee arthroplasty") + ". Bone Joint 360. 2019;8(3):3–7.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Knee_Osteoarthritis", "Knee Osteoarthritis") + ".",
+ "Skou ST, Roos EM, Laursen MB, et al. " + ext("https://doi.org/10.1056/NEJMoa1505467", "A randomized, controlled trial of total knee replacement") + ". N Engl J Med. 2015;373(17):1597–1606.",
+ "Skou ST, Roos EM. " + ext("https://link.springer.com/article/10.1186/s12891-017-1439-y", "Good Life with osteoArthritis in Denmark (GLA:D™): evidence-based education and supervised neuromuscular exercise delivered by certified physiotherapists nationwide") + ". BMC Musculoskelet Disord. 2017;18:72.",
+]
+
+KNEE_TL = [
+ ("1890'lar", "İlk diz protezleri fildişinden yapılmış, menteşe gibi çalışan parçalardı."),
+ ("1974", "Uyluk ve kaval kemiğinin eklem yüzeylerini kaplayan ve yaygın kullanıma giren ilk başarılı diz protezi tasarımlarından biri (total kondiler protez) geliştirildi."),
+ ("2002", "ABD'de 180 hastayla yapılan çalışmada artroskopik temizleme ve yıkama ameliyatı, yalnızca deride küçük kesiler yapılan sahte ameliyattan 2 yıl boyunca daha iyi sonuç vermedi."),
+ ("2008", "Kanada'da 178 hastayla yapılan çalışmada artroskopik ameliyat, fizyoterapi ve ilaç tedavisine 2 yılda ek bir yarar sağlamadı."),
+ ("2013", "Danimarka'da GLA:D programı başladı: 2 haftada 3 bilgilendirme oturumu ve 6 haftada fizyoterapist eşliğinde 12 egzersiz seansı. 9.825 diz ve kalça kireçlenmesi hastasında 3. ayda ağrı 100 üzerinden ortalama 12 puan azaldı; karşılaştırma grubu olmayan bir çalışmaydı."),
+ ("2015", "Danimarka'da 100 hastayla yapılan çalışmada protez ve ardından 12 haftalık ameliyatsız program, yalnızca ameliyatsız programa göre ağrı ve işlevde daha fazla düzelme sağladı; ancak ciddi yan etkiler protez grubunda daha sıktı (24'e karşı 6). Yalnızca ameliyatsız programa alınanların yaklaşık dörtte üçü 1 yıl içinde protez olmadı."),
+ ("2022", "İngiltere'nin NICE kılavuzu güncellendi: kişiye göre ayarlanmış egzersiz herkese öneriliyor, fazla kilolu olanlara kilo vermenin ağrıyı azaltacağı anlatılıyor; artroskopik yıkama ve temizleme ise önerilmiyor."),
 ]
 
 KNEE_BODY = f'''<header class="page">
@@ -76,7 +91,7 @@ KNEE_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diz kireçlenmesi (osteoartrit)</h1>
     <p class="lede">Özellikle 45 yaşından sonra sık görülen, merdivende, çömelirken ve uzun yürüyüşlerde kendini gösteren bir diz sorunu. Kireçlenme "bitti, yapacak bir şey yok" demek değildir: doğru egzersiz ve kilo kontrolüyle ağrı belirgin şekilde azalabilir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 28 Ekim 2026</p>
   </div>
 </header>
 
@@ -89,10 +104,11 @@ KNEE_BODY = f'''<header class="page">
         <div class="stat"><b>1 kg → 4 kg</b><span>Fazla kilolu diz kireçlenmesi hastalarında verilen her kilo, her adımda dize binen yükü yaklaşık 4 kg azalttı</span></div>
         <div class="stat"><b>12 puan</b><span>Egzersizle ağrıdaki ortalama azalma (100 üzerinden)</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("rontgen", "Röntgen ve ağrı"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi"), ("egzersizler", "Egzersizler"), ("gunluk", "Günlük hayatta"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
 
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -112,7 +128,7 @@ KNEE_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="rontgen">
     <div class="wrap">
       <h2>Röntgen ile ağrı her zaman örtüşmez</h2>
       <p class="soft">"Röntgenim çok kötüymüş" cümlesi çoğu zaman gereksiz bir korku yaratır. Çalışmaların derlendiği bir incelemede diz ağrısı olanların yalnızca %15–76'sında röntgende kireçlenme görüldü; röntgende kireçlenmesi olanların ise %15–81'inde ağrı vardı.</p>
@@ -122,7 +138,16 @@ KNEE_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Diz kireçlenmesi tedavisinin kısa tarihi</h2>
+      <p class="soft">Diz protezi 50 yılı aşkın süredir yaygın olarak uygulanıyor. Son 25 yılda yapılan çalışmalar ise bazı yaygın ameliyatların sanıldığı kadar işe yaramadığını, egzersiz ve bilgilendirmenin tedavinin temeli olduğunu gösterdi.</p>
+      {g_tl(KNEE_TL)}
+    </div>
+  </section>
+
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
       <p class="soft">Kılavuzlar tedavinin merkezine üç şeyi koyar: egzersiz, kilo kontrolü ve hastalığı doğru anlamak.</p>
@@ -135,7 +160,7 @@ KNEE_BODY = f'''<header class="page">
         <li><b>Protez ameliyatı</b><span>Ameliyatsız tedaviye rağmen ağrı ve kısıtlılık yaşam kalitesini ciddi şekilde bozuyorsa düşünülür.</span></li>
       </ul>
       <div class="callout">
-        <p><strong>Kılavuzlarda önerilmeyenler:</strong> Glukozamin takviyeleri, eklem içine hyaluronik asit iğnesi ve dizin artroskopik olarak "yıkanması / temizlenmesi" (kilitlenme gibi özel durumlar dışında).</p>
+        <p><strong>Kılavuzlarda önerilmeyenler:</strong> Glukozamin takviyeleri, eklem içine hyaluronik asit iğnesi ve kireçlenme tedavisi için dizin artroskopik olarak "yıkanması / temizlenmesi".</p>
       </div>
     </div>
   </section>
@@ -150,7 +175,7 @@ KNEE_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="gunluk">
     <div class="wrap two">
       <div>
         <h2>Günlük hayatta dizleriniz için</h2>
@@ -187,14 +212,14 @@ KNEE_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(KNEE_FAQ)}
     </div>
   </section>
 
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
       <p class="soft">Şu durumlar kireçlenme dışında bir soruna işaret edebilir. Beklemeden bir hekime başvurun:</p>

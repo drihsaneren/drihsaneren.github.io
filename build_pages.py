@@ -34,6 +34,27 @@ def faq(items):
         f'<details><summary>{q}</summary><p>{a}</p></details>' for q, a in items) + '\n      </div>'
 def pick(items, *idx):
     return [items[i] for i in idx]
+
+# ------------------------------------------------------------------ Hastalık rehberleri: "Bu sayfada" + "Geçmişten bugüne"
+# Kullanıcı isteği (28 Ekim 2026): tüm hastalık rehberlerine, 3–5 sayfalık partilerle.
+# g_toc: istatistik kutularının hemen altına; g_tl: tarihçe çizelgesi (her satır kaynaklı olmalı).
+G_CSS = """
+  main section[id]{scroll-margin-top:calc(var(--barh,57px) + 4px)}
+  .g-toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .g-toc a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;text-decoration:none;color:var(--ink-soft)}
+  .g-toc a:hover{color:var(--ink);border-color:var(--gold)}
+  .g-tl{list-style:none;margin:8px 0 0;padding:0 0 0 18px;max-width:820px;border-left:2px solid var(--line)}
+  .g-tl li{position:relative;padding:10px 0 10px 4px}
+  .g-tl li::before{content:"";position:absolute;left:-25px;top:17px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+  .g-tl b{font-family:var(--display);color:var(--foil);font-size:18px;margin-right:6px}
+  .g-tl span{color:var(--ink-soft)}
+"""
+def g_toc(items):
+    links = "".join(f'<a href="#{i}">{t}</a>' for i, t in items)
+    return ('<p class="eyebrow" style="margin-top:26px">Bu sayfada</p>\n'
+            f'      <nav class="g-toc" aria-label="Bu sayfada">{links}</nav>')
+def g_tl(rows):
+    return '<ol class="g-tl">\n' + "\n".join(f'        <li><b>{y}</b><span>{t}</span></li>' for y, t in rows) + '\n      </ol>'
 def _plain(s):
     return _re.sub(r"\s+", " ", _html.unescape(_re.sub(r"<[^>]+>", "", s))).strip()
 HOME = "https://drihsaneren.com/"
@@ -537,6 +558,8 @@ def page(fname, title, desc, current, head_extra_css, body, script="", seo_title
     if MODE == "github" and (condition or about):
         ldj = schema(fname, full_title, desc, about if about is not None else cond(condition), faq_items)
     faq_css = FAQ_CSS if '<div class="faq">' in body else ""
+    if 'class="g-toc"' in body or 'class="g-tl"' in body:
+        faq_css += G_CSS
     seo = ""
     if MODE == "github":
         seo = (f'<link rel="canonical" href="{SITE}{fname}">\n'
@@ -1039,13 +1062,22 @@ OMUZ_FAQ = [
  ("Donuk omuz için MR gerekir mi?", "Tanı çoğunlukla muayeneyle konur: omuz hem sizin kaldırdığınızda hem de başkası kaldırdığında aynı şekilde kısıtlıdır. Röntgen, ultrason veya MR tanı için şart değildir ama kireçlenme ya da yırtık gibi başka nedenleri dışlamak için istenebilir."),
  ("Kortizon iğnesi işe yarar mı?", "Eklem içi kortizon iğnesi özellikle erken, ağrılı evrede ağrıyı birkaç hafta içinde belirgin azaltabilir. Etkisi daha çok kısa vadelidir ve hekim kararıyla yapılır. Tedavinin temeli ise fizyoterapi ve düzenli egzersizdir."),
 ]
+OMUZ_TL = [
+ ("1872", "Fransız cerrah Simon Duplay, omuzda ağrı ve hareket kısıtlılığıyla seyreden bu tabloyu omuz çevresi iltihabı (periartrit) olarak tanımladı."),
+ ("1934", "ABD'li cerrah Ernest Codman, röntgeni normal olan ve yavaş başlayan bu ağrı ve kısıtlılık için “donuk omuz” (frozen shoulder) adını kullandı."),
+ ("1945", "Julius Neviaser, omuz kapsülündeki iltihap ve kalınlaşmayı vurgulamak için “adeziv kapsülit” adını önerdi."),
+ ("1975", "Reeves'in 41 hastayı yıllarca izlediği çalışmada donma, donmuş ve çözülme evreleri tanımlandı. “Kendiliğinden geçer” görüşü en çok bu çalışmaya dayandırılır."),
+ ("1995", "Bunker ve Anthony, donuk omuzdaki kapsül değişikliklerinin avuç içinde görülen <a href=\"dupuytren-kontrakturu.html\">Dupuytren hastalığına</a> benzediğini gösterdi."),
+ ("2017", "7 çalışmayı inceleyen sistematik bir derleme, tedavi edilmeyen donuk omzun evrelerden geçerek tamamen düzeldiğine dair kanıt bulamadı: hareket zamanla bir miktar artsa da 1–4 yıllık izlemde çoğu zaman tam düzelme olmadı ve düzelmenin büyük kısmı erken dönemde görüldü."),
+ ("2020", "İngiltere'de 503 kişiyle yapılan UK FROST çalışmasında narkoz altında manipülasyon, kapalı kapsül gevşetme ameliyatı ve kortizon iğnesiyle birlikte erken fizyoterapi 1. yılda birbirinden klinik olarak üstün bulunmadı; ciddi yan etkiler kapsül gevşetme ameliyatında daha sıktı."),
+]
 OMUZ_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Donuk omuz (adeziv kapsülit)</h1>
-    <p class="lede">Omzun önce ağrıdığı, sonra giderek kilitlendiği bir durum. Çoğu zaman kendi seyrinde düzelir ama bu aylar, hatta yıllar sürebilir. Doğru egzersiz ve tedaviyle bu süreci daha rahat geçirmek mümkün.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="lede">Omzun önce ağrıdığı, sonra giderek kilitlendiği bir durum. Çoğu zaman zamanla düzelir ama bu aylar, hatta yıllar sürebilir ve bazı kişilerde bir miktar kısıtlılık kalabilir. Doğru egzersiz ve tedaviyle bu süreci daha rahat geçirmek mümkün.</p>
+    <p class="meta">Son güncelleme: 28 Ekim 2026</p>
   </div>
 </header>
 
@@ -1058,10 +1090,11 @@ OMUZ_BODY = f'''<header class="page">
         <div class="stat"><b>3–10 kat</b><span>Diyabetlilerde daha sık görülür</span></div>
         <div class="stat"><b>1–3 yıl</b><span>Hastalığın tipik süresi</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("evreler", "Üç evre"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tanı ve tedavi"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
 
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -1082,7 +1115,7 @@ OMUZ_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="evreler">
     <div class="wrap">
       <h2>Üç evre</h2>
       <p class="soft">Süreler kişiden kişiye değişir; diyabetlilerde genellikle daha uzundur.</p>
@@ -1094,7 +1127,16 @@ OMUZ_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Donuk omzun kısa tarihi</h2>
+      <p class="soft">Hastalığın adı bile zaman içinde değişti: önce omuz çevresinin iltihabı sanıldı, sonra asıl sorunun omuz kapsülünün kalınlaşıp büzüşmesi olduğu anlaşıldı. “Nasılsa kendiliğinden geçer” görüşü de son yıllarda sorgulanıyor.</p>
+      {g_tl(OMUZ_TL)}
+    </div>
+  </section>
+
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tanı ve tedavi</h2>
       <p class="soft">Tanı çoğunlukla muayeneyle konur: omuz hem sizin kaldırdığınızda hem de başkası kaldırdığında aynı şekilde kısıtlıdır. Röntgen, ultrason veya MR tanı için şart değildir ama kireçlenme ya da yırtık gibi başka nedenleri dışlamak için istenebilir.</p>
@@ -1141,14 +1183,14 @@ OMUZ_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(OMUZ_FAQ)}
     </div>
   </section>
 
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
       <p class="soft">Omuz ağrısı her zaman donuk omuz değildir. Şu durumlarda beklemeden bir hekime başvurun:</p>
@@ -1170,16 +1212,21 @@ OMUZ_BODY = f'''<header class="page">
         <li>American Academy of Orthopaedic Surgeons. <a href="https://www.orthoinfo.org/diseases--conditions/frozen-shoulder" target="_blank" rel="noopener">Frozen Shoulder</a>. OrthoInfo.</li>
         <li>Bal A, Eksioglu E, Gulec B, Aydog E, Gurcay E, Cakci A. Effectiveness of corticosteroid injection in adhesive capsulitis. Clin Rehabil. 2008;22:503-512.</li>
         <li>Boyles RE, Flynn TW, Whitman JM. Manipulation following regional interscalene anesthetic block for shoulder adhesive capsulitis: a case series. Man Ther. 2005;10:164-171.</li>
+        <li>Bunker TD, Anthony PP. The pathology of frozen shoulder: a Dupuytren-like disease. J Bone Joint Surg Br. 1995;77(5):677–683.</li>
         <li>Chen M-H, Chen W-S. <a href="https://www.mdpi.com/2077-0383/13/19/5696" target="_blank" rel="noopener">A narrative review of adhesive capsulitis with diabetes</a>. J Clin Med. 2024;13(19):5696.</li>
         <li>Cleland J, Durall CJ. Physical therapy for adhesive capsulitis: systematic review. Physiotherapy. 2002;88:450-457.</li>
         <li>Dias R, Cutts S, Massoud S. Frozen shoulder. BMJ. 2005;331:1453-1456.</li>
+        <li>D'Orsi GM, Giai Via A, Frizziero A, Oliva F. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3666515" target="_blank" rel="noopener">Treatment of adhesive capsulitis: a review</a>. Muscles Ligaments Tendons J. 2012;2(2):70–78.</li>
         <li>Gaspar PD, Willis FB. Adhesive capsulitis and dynamic splinting: a controlled, cohort study. BMC Musculoskelet Disord. 2009;10:111.</li>
         <li>Hakim AJ, Cherkas LF, Spector TD, MacGregor AJ. Genetic associations between frozen shoulder and tennis elbow: a female twin study. Rheumatology (Oxford). 2003;42:739-742.</li>
         <li>Kelley MJ, McClure PW, Leggin BG. Frozen shoulder: evidence and a proposed model guiding rehabilitation. J Orthop Sports Phys Ther. 2009;39:135-148.</li>
         <li>NHS. <a href="https://www.nhs.uk/conditions/frozen-shoulder/" target="_blank" rel="noopener">Frozen shoulder</a>.</li>
         <li>Physiopedia. <a href="https://www.physio-pedia.com/Adhesive_Capsulitis" target="_blank" rel="noopener">Frozen Shoulder</a>.</li>
+        <li>Rangan A, Brealey SD, Keding A, et al. <a href="https://search.pedro.org.au/search-results/record-detail/62618" target="_blank" rel="noopener">Management of adults with primary frozen shoulder in secondary care (UK FROST): a multicentre, pragmatic, three-arm, superiority randomised clinical trial</a>. Lancet. 2020;396(10256):977–989.</li>
+        <li>Reeves B. The natural history of the frozen shoulder syndrome. Scand J Rheumatol. 1975;4(4):193–196.</li>
         <li>Vermeulen HM, Rozing PM, Obermann WR, le Cessie S, Vliet Vlieland TP. Comparison of high-grade and low-grade mobilization techniques in the management of adhesive capsulitis of the shoulder: randomized controlled trial. Phys Ther. 2006;86:355-368.</li>
         <li>Walmsley S, Rivett DA, Osmotherly PG. Adhesive capsulitis: establishing consensus on clinical identifiers for stage 1 using the Delphi technique. Phys Ther. 2009;89:906-917.</li>
+        <li>Wong CK, Levine WN, Deo K, et al. <a href="https://www.csp.org.uk/node/1039653" target="_blank" rel="noopener">Natural history of frozen shoulder: fact or fiction? A systematic review</a>. Physiotherapy. 2017;103(1):40–47.</li>
       </ol>
     </div>
   </section>
