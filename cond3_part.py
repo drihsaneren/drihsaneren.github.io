@@ -482,7 +482,7 @@ page("bas-agrisi.html", "Baş Ağrısı",
      about=[cond("Gerilim tipi baş ağrısı"), cond("Servikojenik baş ağrısı")], faq_items=HA_FAQ)
 
 # ============================================================== SKOLYOZ
-EXT["adams"] = ("Öne eğilme testi (evde kontrol)", "Çocuğunuz ayakları bitişik, dizleri düz şekilde öne eğilsin, kolları serbestçe sarksın. Arkasından bakarak sırtın iki yanının aynı yükseklikte olup olmadığını kontrol edin. Bir tarafta belirgin bir kabarıklık varsa bir uzmana başvurun.", "Büyüme döneminde birkaç ayda bir")
+EXT["adams"] = ("Öne eğilme testi (evde kontrol)", "Çocuğunuz ayakları bitişik, dizleri düz şekilde öne eğilsin, kolları serbestçe sarksın. Arkasından bakarak sırtın iki yanının aynı yükseklikte olup olmadığını kontrol edin. Bir tarafta belirgin bir kabarıklık varsa bir hekime başvurun. Test normal görünse de omuz ya da bel hizasında belirgin fark varsa hekiminize danışın.", "Büyüme döneminde birkaç ayda bir")
 _ex2("sc_bird", "birddog", "Kuş-köpek", "Ellerinizin ve dizlerinizin üzerinde, sırtınız düz durun. Bir kolunuzu öne, karşı bacağınızı arkaya uzatın; beliniz çukurlaşmasın. 5 saniye tutun, sonra taraf değiştirin.", "Her iki yana 8–10 tekrar")
 _ex2("sc_side", "sideplank", "Dizler üstünde yan köprü", "Yan yatın; dirseğiniz omzunuzun altında, dizleriniz bükülü olsun. Kalçanızı kaldırarak başınızdan dizlerinize kadar düz bir çizgi oluşturun, sonra yavaşça inin. İki tarafa da eşit yapın; eğriliğinize göre bir tarafa ağırlık verilmesi gerekiyorsa bunu fizyoterapistiniz belirler.", "10–20 saniye, her iki yana 3 kez")
 _ex2("sc_cat", "cat", "Kedi-deve", "Ellerinizin ve dizlerinizin üzerinde durun. Nefes verirken sırtınızı yukarı doğru yuvarlayın, nefes alırken belinizi yavaşça aşağı bırakın. Hareketi yavaş ve ağrısız aralıkta yapın.", "10 tekrar")
@@ -490,14 +490,14 @@ _ex2("sc_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 _ex2("sc_scap", "scap", "Kürek kemiği sıkıştırma", "Dik oturun ya da durun. Omuzlarınızı kaldırmadan kürek kemiklerinizi geriye ve aşağıya doğru yaklaştırın, 5 saniye tutup bırakın.", "10–15 tekrar")
 
 SC_FAQ = [
- ("Tek taraflı alışkanlıklar, ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Bunu gösteren güçlü bir kanıt yok: Skolyoz Araştırma Derneği (SRS), ağır çantanın, kötü duruşun ve sporun skolyoza yol açmadığını ve eğriliği kötüleştirmediğini belirtiyor; Portekiz'de 966 öğrenciyle yapılan bir çalışmada da çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı. Çin'de okul taramalarına dayanan bazı çalışmalarda ise tek tarafa yaslanarak ya da sıraya kapanarak oturmak ve boya uygun olmayan sıra skolyozla ilişkili bulundu; bu çalışmalar neden-sonuç ilişkisi göstermiyor. Ağır çanta sırt ağrısına yol açabilir; yanlış oturma alışkanlıkları da bel ağrısıyla ilişkili bulundu. Klinik deneyimimizde, okul çağında sırada hep bir yana yaslanarak oturmak ya da çantayı hep aynı omuzda taşımak gibi tek taraflı alışkanlıkların, büyüme atağındaki ve bağ dokusu esnek olan gençlerde duruş asimetrisini ve ağrıyı belirginleştirebildiğini görüyoruz; bu yüzden yükü iki tarafa dağıtmayı öneriyoruz."),
+ ("Tek taraflı alışkanlıklar, ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Bunu gösteren güçlü bir kanıt yok: Skolyoz Araştırma Derneği (SRS), ağır çantanın ve sporun skolyoza yol açmadığını ya da eğriliği kötüleştirmediğini, kötü duruşun da skolyoza yol açmadığını belirtiyor; Portekiz'de 966 öğrenciyle yapılan bir çalışmada da çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı. Çin'de okul taramalarına dayanan bazı çalışmalarda ise tek tarafa yaslanarak ya da sıraya kapanarak oturmak ve boya uygun olmayan sıra skolyozla ilişkili bulundu; bu çalışmalar neden-sonuç ilişkisi göstermiyor. Ağır çanta sırt ağrısına yol açabilir; yanlış oturma alışkanlıkları da bel ağrısıyla ilişkili bulundu. Klinik deneyimimizde, okul çağında sırada hep bir yana yaslanarak oturmak ya da çantayı hep aynı omuzda taşımak gibi tek taraflı alışkanlıkların, büyüme atağındaki ve bağ dokusu esnek olan gençlerde duruş asimetrisini ve ağrıyı belirginleştirebildiğini görüyoruz; bu yüzden yükü iki tarafa dağıtmayı öneriyoruz. Bu bir araştırma sonucu değil, klinik gözlemdir."),
  ("C ve S eğrilik arasındaki fark nedir?", "C eğrilikte omurgada tek bir yay vardır. S eğrilikte ise biri göğüs, diğeri bel bölgesinde, ters yönlere bakan iki yay bulunur. İkisinde de eğriliğin büyüklüğü röntgende Cobb açısıyla ölçülür; tedavi kararında eğrilik tipi, açı ve kalan büyüme birlikte değerlendirilir."),
- ("Skolyozlu çocuğum spor yapabilir mi?", "Evet. SRS'ye göre sırt ağrısı olmadıkça skolyozlu çocuklar her sporu yapabilir; uluslararası kılavuz (SOSORT) da sporun genel sağlık ve psikolojik faydaları nedeniyle korse tedavisi sırasında bile bırakılmamasını öneriyor. Ancak hiçbir spor tek başına eğriliği düzeltmez."),
+ ("Skolyozlu çocuğum spor yapabilir mi?", "Evet. SRS'ye göre sırt ağrısı olmadıkça skolyozlu çocuklar her sporu yapabilir; uluslararası kılavuz (SOSORT) da sporun genel sağlık ve psikolojik faydaları nedeniyle korse tedavisi sırasında bile bırakılmamasını öneriyor. Korse döneminde temaslı ya da çok hareketli sporlar dikkatle yapılmalı; ilerleme riski yüksekse yarışma düzeyindeki sporları hekiminizle konuşun. Hiçbir spor tek başına eğriliği düzeltmez."),
  ("Yüzme skolyozu düzeltir mi?", "Hayır. Uluslararası kılavuz, sporun skolyoz tedavisi olarak önerilmemesini, ama genel sağlık ve psikolojik faydaları nedeniyle bırakılmamasını öneriyor. Yüzme de dahil hiçbir spor tek başına eğriliği düzeltmez."),
- ("Egzersizle skolyoz tamamen düzelir mi?", "Skolyoza özgü egzersizler küçük eğriliklerde ilerlemeyi önlemeye ve bazı hastalarda açıyı birkaç derece azaltmaya yardım edebilir; ancak eğriliği tamamen ortadan kaldırması beklenmez. 13 çalışmayı inceleyen 2024 tarihli Cochrane derlemesine göre egzersizin yararına ilişkin kanıtların güvenilirliği düşük ya da çok düşük. Hangi tedavinin gerektiğine eğrilik açısı ve büyüme durumu birlikte değerlendirilerek karar verilir."),
- ("Korse ne kadar süre takılmalı?", "Korsenin etkisi takılan süreye bağlıdır. BrAIST çalışmasında korseyi günde ortalama 13 saat ve üzerinde takanlarda başarı oranı %90'ın üzerindeydi; 6 saatten az takanlarda ise sonuç korse takmayanlardan farksızdı. Süreyi hekiminiz belirler. 7 çalışmayı ve 662 ergeni kapsayan Cochrane derlemesinde sert korse, 20–40 derecelik eğriliklerde izlemeye göre 2 yılda başarı oranını artırdı; çalışmaların tümü korsenin eğriliğin ilerlemesini önlediğini gösterdi, ancak kanıtın kalitesi düşük ile çok düşük arasındaydı."),
- ("Eğriliğim 50 derecenin üzerinde; ameliyat şart mı?", "Her zaman değil. Büyümesi süren ve eğriliği 45 derecenin üzerinde ilerleyen gençlerde ameliyat genellikle önerilir. Büyümesi tamamlanmış kişilerde ise karar yalnızca dereceye göre değil; eğriliğin ilerleyip ilerlemediğine, gövde dengesine, ağrıya, akciğer işlevine ve kişinin beklentisine göre verilir. Gövdesi dengeli, eğriliği ilerlemeyen ve günlük hayatı kısıtlanmayan bazı hastalarda cerrahlar düzenli izlemi önerebilir. Kararı omurga cerrahınızla birlikte verirsiniz."),
- ("Büyüme bittikten sonra skolyoz ilerler mi?", "Küçük eğrilikler genellikle ilerlemez. Danimarka'da korse ya da izlemle tedavi edilmiş hastaların ortalama 41 yıl izlendiği bir çalışmada eğrilikler yetişkinlikte yılda ortalama 0,2–0,5 derece arttı; ancak kişiler arasındaki fark büyüktü. Yazarlar, büyüme sonunda eğriliği orta düzeyde olanların erken yetişkinlikte bir kez daha röntgenle kontrol edilmesini öneriyor."),
+ ("Egzersizle skolyoz tamamen düzelir mi?", "Skolyoza özgü egzersizler küçük eğriliklerde ilerlemeyi önlemeye ve bazı hastalarda açıyı biraz azaltmaya yardım edebilir (farklar çoğu zaman ölçüm payı içinde); ancak eğriliği tamamen ortadan kaldırması beklenmez. 13 çalışmayı inceleyen 2024 tarihli Cochrane derlemesine göre egzersizin yararına ilişkin kanıtların güvenilirliği düşük ya da çok düşük. Hangi tedavinin gerektiğine eğrilik açısı ve büyüme durumu birlikte değerlendirilerek karar verilir."),
+ ("Korse ne kadar süre takılmalı?", "Korsenin etkisi takılan süreye bağlıdır. BrAIST çalışmasında korse günde en az 18 saat takılmak üzere verildi; fiilen günde ortalama 13 saat ve üzeri takanlarda başarı oranı %90–93'tü; 6 saatten az takanlarda ise sonuç korse takmayanlardan farksızdı. Süreyi hekiminiz belirler. 7 çalışmayı ve 662 ergeni kapsayan Cochrane derlemesinde sert korse, 20–40 derecelik eğriliklerde izlemeye göre 2 yılda başarı oranını artırdı; çalışmaların tümü korsenin eğriliğin ilerlemesini önlediğini gösterdi, ancak kanıtın kalitesi düşük ile çok düşük arasındaydı."),
+ ("Eğriliğim 50 derecenin üzerinde; ameliyat şart mı?", "Her zaman değil. Büyümesi süren ve eğriliği 45 derecenin üzerinde ilerleyen gençlerde ameliyat genellikle önerilir. Büyümesi tamamlanmış kişilerde ise karar yalnızca dereceye göre değil; eğriliğin ilerleyip ilerlemediğine, gövde dengesine, ağrıya, akciğer işlevine ve kişinin beklentisine göre verilir. Klinik deneyimimizde, gövdesi dengeli, eğriliği ilerlemeyen ve günlük hayatı kısıtlanmayan bazı hastalarda cerrahların düzenli izlemi önerebildiğini görüyoruz (bu bir araştırma sonucu değil, klinik gözlemdir). Ancak büyüme sonunda 50 dereceyi aşan eğrilikler yetişkinlikte de genellikle yavaşça ilerler; ameliyat önerilmese bile düzenli röntgen kontrolü gerekir. Kararı omurga cerrahınızla birlikte verirsiniz."),
+ ("Büyüme bittikten sonra skolyoz ilerler mi?", "30 derecenin altındaki eğrilikler genellikle ya hiç ilerlemez ya da çok yavaş ilerler. Danimarka'da korse ya da izlemle tedavi edilmiş hastaların ortalama 41 yıl izlendiği bir çalışmada eğrilikler yetişkinlikte yılda ortalama 0,2–0,5 derece arttı; 25 derecenin altındaki eğriliklerde bile 40 yılda ortalama yaklaşık 7 derecelik artış görüldü ve kişiler arasındaki fark büyüktü. Yazarlar, büyüme sonunda eğriliği orta düzeyde olanların erken yetişkinlikte bir kez daha röntgenle kontrol edilmesini öneriyor."),
  ("Skolyoz gebeliği etkiler mi?", "SRS'ye göre gebelik, ameliyat edilmemiş bir omurgada eğriliği genellikle artırmaz ve skolyoz doğumu zorlaştırmaz. Gebelikte egzersize başlamadan önce kadın doğum hekiminize danışın."),
 ]
 
@@ -523,7 +523,7 @@ SC_SRC = [
  "Scoliosis Research Society. " + ext("https://www.srs.org/About-SRS/SRS-History/Historical-Timeline", "Historical timeline") + ".",
  "National Scoliosis Foundation. " + ext("https://www.scoliosis.org/resources/medicalupdates/bracingworks.php", "Bracing works: report from the 1993 SRS annual meeting") + ".",
  "MD+DI. " + ext("https://www.mddionline.com/orthopedic/scoliosis-win-fda-approves-vertebral-body-tethering", "Scoliosis win: FDA approves vertebral body tethering") + ". 16 August 2019.",
- "Radiopaedia. " + ext("https://images.radiopaedia.org/articles/cobb-angle/changesets/171866/edits?lang=us", "Cobb angle") + "; " + ext("https://radiopaedia.org/articles/scoliosis-surgery-overview?lang=gb", "Scoliosis surgery overview") + ".",
+ "Radiopaedia. " + ext("https://radiopaedia.org/articles/cobb-angle", "Cobb angle") + "; " + ext("https://radiopaedia.org/articles/scoliosis-surgery-overview?lang=gb", "Scoliosis surgery overview") + ".",
  "Children's Hospital Los Angeles. " + ext("https://chla.org/blog/rn-remedies/do-you-know-how-heavy-your-childs-backpack", "Do you know how heavy your child's backpack is?") + ".",
 ]
 
@@ -618,8 +618,8 @@ def SK_RISSER():
     cols = ["#5e6b4f", "#8fa476", "#b5b46a", "#e2ab47"]
     for k in range(4):
         (xa, ya), (xb, yb) = pts[k], pts[k + 1]
-        segs += f'<path d="M{xa} {ya} L{xb} {yb}" stroke="{cols[k]}" stroke-width="9" stroke-linecap="round"/>'
-        segs += f'<text x="{(xa + xb) / 2:.0f}" y="{(ya + yb) / 2 - 12:.0f}" fill="#ece5cf" font-size="14" text-anchor="middle" font-family="sans-serif">{k + 1}</text>'
+        segs += f'<path d="M{xa} {ya} L{xb} {yb}" stroke="{cols[3 - k]}" stroke-width="9" stroke-linecap="round"/>'
+        segs += f'<text x="{(xa + xb) / 2:.0f}" y="{(ya + yb) / 2 - 12:.0f}" fill="#ece5cf" font-size="14" text-anchor="middle" font-family="sans-serif">{4 - k}</text>'
     return ('<svg viewBox="0 0 320 190" role="img" aria-hidden="true">'
             '<path d="M150 70 L124 44 L88 32 L52 40 L26 62 C14 92 34 124 68 150 L90 170" fill="none" stroke="rgba(236,229,207,.35)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
             '<path d="M150 74 C144 120 124 150 104 170" fill="none" stroke="rgba(236,229,207,.35)" stroke-width="5" stroke-linecap="round"/>'
@@ -692,9 +692,9 @@ SC_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>%2–3</b><span>Ergenlerde 10 dereceden büyük skolyozun en sık bildirilen görülme sıklığı</span></div>
-        <div class="stat"><b>%10</b><span>Tanı alan ergenlerden egzersiz ya da korse tedavisi gerekenler; ameliyat gerekenler %0,1–0,3</span></div>
+        <div class="stat"><b>%10</b><span>Tanı alan ergenlerden korse ya da egzersiz tedavisi gerekenlerin yaklaşık oranı</span></div>
         <div class="stat"><b>7'ye 1</b><span>30 derecenin üzerindeki eğriliklerde kızların erkeklere oranı</span></div>
-        <div class="stat"><b>%72</b><span>Korse takan ergenlerde eğriliğin ameliyat sınırına ulaşmasının önlenme oranı; izlenenlerde %48</span></div>
+        <div class="stat"><b>%72</b><span>BrAIST'te 20–40 derecelik eğriliği olan, büyümesi süren ergenlerden korse takanlarda eğriliği 50 dereceye ulaşmayanların oranı; yalnızca izlenenlerde %48</span></div>
       </div>
       <p class="eyebrow" style="margin-top:26px">Bu sayfada</p>
       <nav class="sk-toc" aria-label="Bu sayfada">
@@ -746,14 +746,14 @@ SC_BODY = f'''<header class="page">
       <h2>Röntgen ve Cobb açısı</h2>
       <div class="sk-split">
         <div>
-          <p class="soft">Skolyozun büyüklüğü ayakta çekilen tüm omurga röntgeninde <strong>Cobb açısı</strong> ile ölçülür. Eğriliğin iki ucunda, birbirine doğru en çok eğilmiş omurlar (uç omurlar) seçilir; bu omurların üst ve alt yüzeylerinden çizilen çizgiler arasındaki açı eğriliğin derecesidir. 10 derece ve üzeri skolyoz kabul edilir.</p>
+          <p class="soft">Skolyozun büyüklüğü ayakta çekilen tüm omurga röntgeninde <strong>Cobb açısı</strong> ile ölçülür. Eğriliğin iki ucunda, birbirine doğru en çok eğilmiş omurlar (uç omurlar) seçilir; üstteki uç omurun üst yüzeyi ile alttaki uç omurun alt yüzeyi boyunca çizilen çizgiler arasındaki açı eğriliğin derecesidir. 10 derece ve üzeri skolyoz kabul edilir.</p>
           <p class="soft">Ölçümün bir payı vardır: Aynı röntgende farklı ölçümler arasında 5–10 derecelik fark olabilir, açı gün içinde de yaklaşık 5 derece değişebilir. Bu yüzden birkaç derecelik bir değişiklik tek başına ilerleme sayılmaz; karar, zaman içindeki ölçümlerin ve muayenenin birlikte değerlendirilmesiyle verilir.</p>
           <ul class="tx" style="margin-top:14px">
-            <li><b>25 derecenin altı</b><span>Büyümesi süren çocuklarda genellikle yakın izlem; skolyoza özgü egzersizler ilk basamak olabilir.</span></li>
-            <li><b>20–25 ile 40–45 derece</b><span>Büyümesi süren çocuklarda genellikle korse önerilir; egzersizler korsenin yanında sürdürülür.</span></li>
+            <li><b>25 derecenin altı</b><span>Büyümesi süren çocuklarda genellikle yakın izlem. Uluslararası SOSORT kılavuzu bu aşamada skolyoza özgü egzersizleri de önerir; SRS ise eğriliğin seyrini değiştirdiği gösterilmiş tedavilerin korse ve ameliyat olduğunu belirtir.</span></li>
+            <li><b>20–25 ile 40–45 derece</b><span>Büyümesi süren çocuklarda genellikle korse önerilir; 20–25 derece arasında izlem ya da korse kararı eğriliğin ilerleyip ilerlemediğine ve kalan büyümeye göre verilir. SOSORT, egzersizlerin korsenin yanında sürdürülmesini önerir.</span></li>
             <li><b>45–50 derecenin üzeri</b><span>Büyümesi süren çocuklarda ameliyat değerlendirilir. Bel eğriliklerinde eşik daha düşüktür (35–40 derece); bu sınırları aşan eğrilikler yetişkinlikte de ilerleme eğilimindedir.</span></li>
           </ul>
-          <p class="sk-key" style="margin-top:10px">Bu sınırlar SRS hasta el kitabındaki genel yaklaşımdır; kesin karar hekiminizindir.</p>
+          <p class="sk-key" style="margin-top:10px">Derece sınırları SRS hasta el kitabından, egzersiz önerileri SOSORT kılavuzundan alınmıştır; kesin karar hekiminizindir.</p>
         </div>
         <div>
           <div class="sk-figs one">
@@ -764,10 +764,10 @@ SC_BODY = f'''<header class="page">
       <h3 style="margin-top:26px">Evde kontrol ve kalan büyümenin ölçülmesi</h3>
       <div class="sk-figs two">
         <figure>{SK_ADAMS()}<figcaption><b>Öne eğilme testi</b>Öne eğilince sırtın bir tarafı yükselirse dönme vardır. Skolyometre bu farkı derece olarak ölçer.</figcaption></figure>
-        <figure>{SK_RISSER()}<figcaption><b>Risser işareti</b>Leğen kemiği kenarındaki büyüme kıkırdağının kemikleşmesi 1'den 4'e ilerler, 5'te kaynaşır. 0–1 daha çok büyüme kaldığını gösterir.</figcaption></figure>
+        <figure>{SK_RISSER()}<figcaption><b>Risser işareti</b>Leğen kemiği kenarındaki büyüme kıkırdağı dış uçtan içe doğru kemikleşir: 0'da kemikleşme yoktur, 1'den 4'e ilerler, 5'te kaynaşır. 0–1 daha çok büyüme kaldığını gösterir.</figcaption></figure>
       </div>
       <p class="soft" style="margin-top:14px">Okul taramalarında gövdedeki dönme skolyometreyle ölçülür; Portekiz'de 966 öğrenciyle yapılan çalışmada 7 derece ve üzeri belirgin dönme olarak kabul edildi ve öğrencilerin %4,2'sinde görüldü. Risser işareti ise röntgende leğen kemiğinin kenarına bakılarak belirlenir ve kalan büyümeyi tahmin etmek için kullanılır.</p>
-      <p class="sk-more">Ayrıntılı bilgi: <a href="https://images.radiopaedia.org/articles/cobb-angle/changesets/171866/edits?lang=us" target="_blank" rel="noopener">Radiopaedia, Cobb açısı (İngilizce)</a></p>
+      <p class="sk-more">Ayrıntılı bilgi: <a href="https://radiopaedia.org/articles/cobb-angle" target="_blank" rel="noopener">Radiopaedia, Cobb açısı (İngilizce)</a></p>
     </div>
   </section>
 
@@ -786,13 +786,13 @@ SC_BODY = f'''<header class="page">
   <section id="buyume">
     <div class="wrap">
       <h2>Eğrilik ne zaman ilerler?</h2>
-      <p class="soft">Eğrilik en çok ergenlikteki hızlı büyüme atağında ilerler. Büyüme atağının zirvesi kızlarda erkeklerden daha erken gelir; kızlarda ilk adetten önceki dönem en riskli dönemdir. Bu yüzden büyüme atağındaki gençlerde (kabaca 10–18 yaş arası) eğrilik birkaç ay gibi kısa sürelerde de artabilir.</p>
+      <p class="soft">Eğrilik en çok ergenlikteki hızlı büyüme atağında ilerler. Büyüme atağının zirvesi kızlarda erkeklerden daha erken gelir; kızlarda ilk adetten önceki dönem en riskli dönemdir. Bu yüzden büyüme atağındaki gençlerde (SRS'ye göre genellikle 10–15 yaş arası) eğrilik birkaç ay gibi kısa sürelerde de artabilir.</p>
       <ul class="tx" style="margin-top:14px">
         <li><b>727 çocuk</b><span>Eğriliği 5–29 derece olan ve tedavi almayan çocukların büyüme bitene kadar izlendiği klasik çalışmada %23'ünde eğrilik ilerledi. İlerlemeyi en iyi eğriliğin büyüklüğü, yaş, Risser işareti ve ilk adetin olup olmadığı öngördü.</span></li>
         <li><b>%68'e karşı %23</b><span>20–29 derecelik eğriliklerde ilerleme olasılığı, büyümenin çoğu önünde olan çocuklarda (Risser 0–1) %68, büyümesi daha ilerlemiş olanlarda (Risser 2–4) yaklaşık %23 olarak bildirildi.</span></li>
         <li><b>%83'e karşı %4</b><span>Korse kullanan 120 kız çocukta, büyüme atağının zirvesinde eğriliği 30 dereceyi aşanların %83'ünde eğrilik 45 dereceye ve üzerine ilerledi; 30 derece ve altında olanlarda bu oran %4'tü. Çocukların %90'ında büyüme, zirveden sonraki 3,6 yıl içinde durdu.</span></li>
       </ul>
-      <p class="soft" style="margin-top:14px">Büyüme bittikten sonra 30 derecenin altındaki eğrilikler nadiren ilerler. Daha büyük eğrilikler yetişkinlikte yavaş ilerleyebilir: Danimarka'da ortalama 41 yıl izlenen hastalarda eğrilikler yılda ortalama 0,2–0,5 derece arttı, ama kişiler arasındaki fark büyüktü. Büyüme sonunda eğriliği 50 dereceyi aşanlarda ileri yaşta nefes darlığı riski artıyor.</p>
+      <p class="soft" style="margin-top:14px">Büyüme bittikten sonra küçük eğrilikler genellikle az ilerler, 50 dereceyi aşan eğrilikler ise yetişkinlikte de genellikle yavaşça ilerler. Danimarka'da korse ya da izlemle tedavi edilen hastaların ortalama 41 yıl izlendiği bir çalışmada eğrilikler yılda ortalama 0,2–0,5 derece arttı; 25 derecenin altındaki eğriliklerde bile bazı hastalarda 10 dereceyi aşan artış görüldü ve kişiler arasındaki fark büyüktü. Tedavi edilmemiş hastaların yaklaşık 50 yıllık izleminde nefes darlığı, özellikle göğüs bölgesindeki çok büyük (80 dereceyi aşan) eğriliklerde daha sık görüldü.</p>
     </div>
   </section>
 
@@ -820,7 +820,7 @@ SC_BODY = f'''<header class="page">
             <li>Bir çalışmada idiyopatik skolyozlu 70 çocuğun %51,4'ünde, sağlıklı akranlarının ise %19'unda yaygın eklem hipermobilitesi (bağ dokusu gevşekliğine bağlı aşırı eklem hareketliliği) vardı; gevşeklik eğriliğin derecesiyle ilişkili değildi. Yazarlar, fizyoterapi planlanırken bu çocuklarda eklem gevşekliğine bakılmasını öneriyor.</li>
             <li>Ritmik cimnastik yapan 100 kız çocukta skolyoz sıklığı %12, akranlarında %1,1'di. Yazarlar; eklem gevşekliği, gecikmiş ergenlik ve büyüyen omurgaya tekrar tekrar binen tek taraflı yükün birlikteliğini “tehlikeli üçlü” olarak tanımladı. Bu da bir gözlem çalışmasıdır.</li>
           </ul>
-          <p class="soft"><strong>Özetle:</strong> Tek taraflı alışkanlıkların tek başına skolyoza yol açtığı gösterilmedi; ama bazı oturma alışkanlıklarıyla ilişki bulan çalışmalar var ve bu alışkanlıklar sırt ve bel ağrısıyla da ilişkili.</p>
+          <p class="soft"><strong>Özetle:</strong> Tek taraflı alışkanlıkların skolyoza yol açtığı gösterilmedi. Bazı çalışmalarda belirli oturma alışkanlıklarıyla ilişki bulundu; ancak bu ilişki eğriliğin kendisinin duruşu değiştirmesinden de kaynaklanabilir. Yanlış oturma ve ayakta durma alışkanlıkları ise bel ağrısıyla ilişkili bulundu.</p>
         </div>
         <div>
           <h3>Klinikte ne görüyoruz?</h3>
@@ -843,20 +843,20 @@ SC_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Geçmişten bugüne</p>
       <h2>Skolyoz tedavisinin kısa tarihi</h2>
-      <p class="soft">Skolyoz tedavisi germe masalarından bilgisayarla tasarlanan korselere ve büyümeyi yönlendiren ameliyatlara uzanan uzun bir yol izledi. Bazı yöntemler denendi ve bırakıldı; bugün kullanılanların çoğu son 30 yılda randomize çalışmalarla sınandı.</p>
+      <p class="soft">Skolyoz tedavisi germe masalarından bilgisayarla tasarlanan korselere ve büyümeyi yönlendiren ameliyatlara uzanan uzun bir yol izledi. Bazı yöntemler denendi ve bırakıldı; korse ve egzersiz son 30 yılda randomize çalışmalarla da sınandı; ameliyat yöntemleri ise çoğunlukla gözlemsel çalışmalara dayanıyor.</p>
       <ol class="sk-tl">
         <li><b>Antik çağ</b><span>Hipokrat, omurgayı germe ve bastırmaya dayanan bir masa kullandı.</span></li>
         <li><b>1911</b><span>İlk omurga füzyonu ameliyatı yapıldı (önce omurga tüberkülozunda).</span></li>
         <li><b>1921</b><span>Katharina Schroth, kendi skolyozlu gövdesinin nefesle nasıl değiştiğini gözlemleyerek nefes ve duruşa dayalı üç boyutlu egzersiz yöntemini geliştirdi.</span></li>
         <li><b>1945</b><span>Milwaukee korsesi kullanılmaya başlandı.</span></li>
-        <li><b>1950</b><span>Risser alçısı ve kalan büyümeyi gösteren Risser işareti tanımlandı.</span></li>
+        <li><b>1950</b><span>Risser alçısı kullanılmaya başlandı; kalan büyümeyi gösteren Risser işareti 1958'de yayımlandı.</span></li>
         <li><b>1960</b><span>Harrington çubukları ile metal implantla düzeltme dönemi başladı.</span></li>
         <li><b>1972</b><span>Koltuk altına kadar uzanan, daha az göze batan Boston korsesi geliştirildi.</span></li>
         <li><b>1980'ler</b><span>Kaslara elektrik uyarımı denendi; 1993'te sunulan çok merkezli çalışmada korse takan kızların yaklaşık %80'inde ilerleme durdu, elektrik uyarımı ve yalnızca izlem gruplarında ise yaklaşık %70'inde eğrilik 5 yılda 6 derece ya da daha fazla arttı. Yöntem bırakıldı.</span></li>
-        <li><b>1983</b><span>Cotrel-Dubousset sistemiyle omurganın üç boyutlu düzeltilmesi yaygınlaştı; 1990'larda göğüs omurlarına pedikül vidaları uygulanmaya başlandı.</span></li>
-        <li><b>2013</b><span>BrAIST, korsenin ameliyat gereksinimini azalttığını gösteren ilk büyük randomize çalışma oldu.</span></li>
-        <li><b>2016–2018</b><span>Uluslararası SOSORT kılavuzu skolyoza özgü fizyoterapi egzersizlerini ve korseyi büyüme dönemindeki tedavinin temeline yerleştirdi.</span></li>
-        <li><b>2019</b><span>ABD'de, büyüyen çocuklarda eğriliği omurgayı kaynaştırmadan düzeltmeyi amaçlayan omurga bağlama (tethering) cihazına insani kullanım izni verildi.</span></li>
+        <li><b>1983</b><span>Cotrel-Dubousset sistemi ilk kez uygulandı ve omurganın üç boyutlu düzeltilmesi sonraki yıllarda yaygınlaştı; 1990'larda göğüs omurlarına pedikül vidaları uygulanmaya başlandı.</span></li>
+        <li><b>2013</b><span>Randomize ve tercih gruplarından oluşan BrAIST çalışması, korsenin eğriliğin ameliyat sınırı kabul edilen 50 dereceye ulaşmasını azalttığını gösterdi.</span></li>
+        <li><b>2016–2018</b><span>Uluslararası SOSORT kılavuzu güncellendi; skolyoza özgü fizyoterapi egzersizleri ve korse büyüme dönemindeki ameliyatsız tedavinin temel seçenekleri olarak yer aldı.</span></li>
+        <li><b>2019</b><span>ABD'de, büyüyen çocuklarda eğriliği omurgayı kaynaştırmadan düzeltmeyi amaçlayan omurga bağlama (tethering) cihazına İnsani Cihaz Muafiyeti (HDE) kapsamında, etkinliği değil olası yararı gösterilerek sınırlı onay verildi.</span></li>
         <li><b>2024</b><span>Cochrane egzersiz derlemesi güncellendi; İsveç'teki CONTRAIS çalışması gece korsesinin orta derecedeki eğriliklerde ilerlemeyi azaltabildiğini gösterdi.</span></li>
       </ol>
     </div>
@@ -868,16 +868,16 @@ SC_BODY = f'''<header class="page">
       <p class="soft">Uluslararası Skolyoz Ortopedik ve Rehabilitasyon Tedavisi Derneği'nin (SOSORT) kılavuzuna göre büyüme dönemindeki tedavinin amacı eğriliğin ilerlemesini önlemek ya da sınırlamaktır. Tedavi; eğrilik açısına, eğrilik tipine, kalan büyümeye, gövde görünümüne ve kişinin tercihine göre planlanır.</p>
       <div class="sk-cmp">
         <div class="kind"><h3>İzlem</h3><dl><dt>Kime</dt><dd>Küçük eğrilikler; büyümesi bitmiş ve ilerlemeyen eğrilikler.</dd><dt>Amaç</dt><dd>İlerlemeyi zamanında fark etmek.</dd><dt>Dikkat</dt><dd>Büyüme atağında kontroller sık olmalı.</dd></dl></div>
-        <div class="kind"><h3>Skolyoza özgü egzersiz</h3><dl><dt>Kime</dt><dd>Küçük ve orta eğrilikler; korse kullananlarda korsenin yanında.</dd><dt>Amaç</dt><dd>İlerlemeyi sınırlamak, duruşu ve gövde görünümünü iyileştirmek.</dd><dt>Kanıt</dt><dd>Düşük ya da çok düşük güvenilirlikte; bazı çalışmalar yararlı, bazıları genel egzersizden farksız.</dd></dl></div>
-        <div class="kind"><h3>Gece korsesi</h3><dl><dt>Kime</dt><dd>Orta derecede, büyümesi süren ve tam gün korse istemeyen gençler.</dd><dt>Amaç</dt><dd>Yalnızca uykuda takılarak ilerlemeyi durdurmak.</dd><dt>Kanıt</dt><dd>CONTRAIS çalışmasında başarı %76; yalnızca fiziksel aktivitede %53.</dd></dl></div>
-        <div class="kind"><h3>Tam gün korse</h3><dl><dt>Kime</dt><dd>Büyümesi süren, eğriliği 20–25 ile 40–45 derece arasında olanlar.</dd><dt>Amaç</dt><dd>Ameliyat sınırına ulaşmayı önlemek; eğriliği düzeltmez.</dd><dt>Kanıt</dt><dd>BrAIST'te başarı %72, izlemde %48; günde 13 saat ve üzeri takanlarda %90'ın üzerinde.</dd></dl></div>
-        <div class="kind"><h3>Füzyon ameliyatı</h3><dl><dt>Kime</dt><dd>İlerleyen ileri eğrilikler; korsenin yetmediği durumlar.</dd><dt>Amaç</dt><dd>Eğriliği kısmen düzeltip kaynaştırarak sabitlemek.</dd><dt>Dikkat</dt><dd>En sık yapılan ameliyat; düzeltme genellikle kısmidir.</dd></dl></div>
-        <div class="kind"><h3>Omurga bağlama (tethering)</h3><dl><dt>Kime</dt><dd>Seçilmiş, büyümesi süren gençler.</dd><dt>Amaç</dt><dd>Büyümeyi yönlendirerek kaynaştırmadan düzeltmek.</dd><dt>Kanıt</dt><dd>Onaya dayanak olan 57 hastanın 43'ü 2 yılda füzyondan kaçındı; kordon kopması ve aşırı düzelme gibi sorunlar bildirildi.</dd></dl></div>
+        <div class="kind"><h3>Skolyoza özgü egzersiz</h3><dl><dt>Kime</dt><dd>Küçük eğrilikler (yaklaşık 25 derecenin altı); orta eğriliklerde tek başına değil, korsenin yanında.</dd><dt>Amaç</dt><dd>İlerlemeyi sınırlamak, duruşu ve gövde görünümünü iyileştirmek.</dd><dt>Kanıt</dt><dd>Düşük ya da çok düşük güvenilirlikte; bazı çalışmalar yararlı, bazıları genel egzersizden farksız.</dd></dl></div>
+        <div class="kind"><h3>Gece korsesi</h3><dl><dt>Kime</dt><dd>Orta derecede (25–40 derece) eğriliği olan, büyümesi süren gençler; korse tipine hekim karar verir.</dd><dt>Amaç</dt><dd>Yalnızca uykuda takılarak ilerlemeyi durdurmak.</dd><dt>Kanıt</dt><dd>CONTRAIS'te 6 dereceden fazla ilerlemeyi önlemede başarı %76, yalnızca fiziksel aktivitede %53. Bu oran BrAIST'teki başarı oranıyla karşılaştırılamaz: başarı tanımları ve hasta grupları farklıdır ve gece korsesi tam gün korseyle doğrudan karşılaştırılmadı.</dd></dl></div>
+        <div class="kind"><h3>Tam gün korse</h3><dl><dt>Kime</dt><dd>Büyümesi süren, eğriliği 20–25 ile 40–45 derece arasında olanlar.</dd><dt>Amaç</dt><dd>Ameliyat sınırına ulaşmayı önlemek; eğriliği düzeltmez.</dd><dt>Kanıt</dt><dd>BrAIST'te eğriliğin 50 dereceye ulaşmaması korse takanlarda %72, izlemde %48. Korse günde en az 18 saat için verildi; fiilen günde ortalama 13 saat ve üzeri takanlarda başarı %90–93'tü.</dd><dt>Dikkat</dt><dd>Uzun saatler takılması gerekir; cilt sorunları ve psikolojik yük olabilir.</dd></dl></div>
+        <div class="kind"><h3>Füzyon ameliyatı</h3><dl><dt>Kime</dt><dd>İlerleyen ileri eğrilikler; korsenin yetmediği durumlar.</dd><dt>Amaç</dt><dd>Eğriliği kısmen düzeltip kaynaştırarak sabitlemek.</dd><dt>Dikkat</dt><dd>En sık yapılan ameliyat; düzeltme genellikle kısmidir. Kaynaşan bölgede hareket kaybı olur; enfeksiyon, kanama ve nadiren sinir hasarı riski vardır, ileride ek ameliyat gerekebilir.</dd></dl></div>
+        <div class="kind"><h3>Omurga bağlama (tethering)</h3><dl><dt>Kime</dt><dd>Seçilmiş, büyümesi süren gençler.</dd><dt>Amaç</dt><dd>Büyümeyi yönlendirerek kaynaştırmadan düzeltmek.</dd><dt>Kanıt</dt><dd>Onaya dayanak olan 57 hastanın 43'ü 2 yılda füzyondan kaçındı; kordon kopması ve aşırı düzelme gibi sorunlar bildirildi. Veriler kısa süreli ve karşılaştırmasız; uzun dönem sonuçları henüz bilinmiyor.</dd></dl></div>
       </div>
 
       <h3 style="margin-top:30px">Skolyoza özgü fizyoterapi egzersizleri</h3>
       <p class="soft">Bu egzersizler üç temel ilkeye dayanır: gövdeyi üç boyutlu olarak kendi kendine düzeltmek, düzeltilmiş duruşu sabit tutmak ve bu duruşu günlük hayata (oturma, çanta taşıma, ders çalışma) taşımak. Bunlara eğitim ve gerektiğinde psikolojik destek eşlik eder. Dünyada en bilinen yedi okul vardır: Lyon (Fransa), Schroth (Almanya), SEAS (İtalya), Barselona (BSPTS, İspanya), Dobomed ve FITS (Polonya) ve Side Shift (İngiltere). Schroth yönteminde dönme yönüne göre yönlendirilen nefes de programın parçasıdır.</p>
-      <p class="soft">Kanıtlar karışık. Türkiye'de 45 ergenle yapılan bir çalışmada klinikte fizyoterapist eşliğinde yapılan Schroth egzersizleri 24 haftada eğrilik açısını, omurga rotasyonunu ve kaburga kamburunu azalttı; evde tek başına egzersiz yapan ve egzersiz yapmayan gruplarda ise bulgular kötüleşti. 13 çalışmayı ve 583 ergeni kapsayan 2024 tarihli Cochrane derlemesinde ise kanıtların güvenilirliği düşük ya da çok düşüktü: Skolyoza özgü egzersizler genel egzersize göre gövde rotasyonunu muhtemelen azaltıyor ve korseyle birlikte yapıldığında ilerlemeyi biraz azaltabiliyor. İsveç'te 135 ergenle yapılan CONTRAIS çalışmasında ise orta derecedeki eğriliklerde skolyoza özgü egzersiz, yalnızca fiziksel aktiviteden daha iyi sonuç vermedi (başarı %58'e karşı %53).</p>
+      <p class="soft">Kanıtlar karışık. Türkiye'de 45 ergenle yapılan bir çalışmada klinikte fizyoterapist eşliğinde Schroth egzersizi yapan grupta 24 haftada eğrilik açısı egzersiz yapmayanlara göre yaklaşık 2,5 derece (ölçüm payının altında) daha az bulundu, kaburga kamburu ve bel asimetrisi düzeldi; evde tek başına yapan grubun sonuçları ise egzersiz yapmayan grupla benzerdi. Çalışma küçük ve kısa sürelidir. 13 çalışmayı ve 583 ergeni kapsayan 2024 tarihli Cochrane derlemesinde ise kanıtların güvenilirliği çoğunlukla düşük ya da çok düşüktü: Skolyoza özgü egzersizler genel egzersize göre gövde rotasyonunu muhtemelen azaltıyor (orta güvenilirlik) ve korseyle birlikte yapıldığında ilerlemeyi biraz azaltabiliyor; açıdaki farklar ise ölçüm payı içinde kaldı. İsveç'te 135 ergenle yapılan CONTRAIS çalışmasında ise orta derecedeki eğriliklerde skolyoza özgü egzersiz, yalnızca fiziksel aktiviteden daha iyi sonuç vermedi (başarı %58'e karşı %53).</p>
       {SK_CLIN("Egzersizden en çok yarar görenler, programı düzenli sürdüren ve düzeltilmiş duruşu günlük hayatına taşıyabilen gençler oluyor. Egzersizin katkısı yalnızca açıda değil; duruş farkındalığında, ağrıda ve gencin kendi bedenine güveninde de görülüyor. Korse gereken bir eğrilikte egzersiz korsenin yerine geçmez.")}
 
       <h3 style="margin-top:30px">Korse</h3>
@@ -891,7 +891,7 @@ SC_BODY = f'''<header class="page">
       <div class="sk-split">
         <div>
           <p class="soft">Ameliyat genellikle ameliyatsız tedavinin yetmediği durumlarda düşünülür. Büyümesi süren gençlerde eğriliğin 45 dereceyi aşması, büyümesi bitmiş kişilerde 40–50 dereceyi aşması ve ilerlemesi en sık ölçütlerdir. Ağrının ameliyatsız tedaviyle geçmemesi, akciğer işlevinin etkilenmesi ve görünüm de kararda yer alır. En sık yapılan ameliyat, omurgayı vida ve çubuklarla düzeltip kaynaştıran füzyondur.</p>
-          <p class="soft">Yüksek derece tek başına ameliyat demek değildir. ABD'de tedavi edilmeden yaklaşık 50 yıl izlenen 117 hastada sırt ağrısı akranlarından daha sık görüldü, ama günlük işleri yapabilme yetenekleri farklı değildi ve ölüm oranı artmamıştı; büyüme sonunda 50 dereceyi aşan eğrilik ise ileri yaşta nefes darlığı riskini artırıyordu. Bu yüzden karar; eğriliğin ilerleyip ilerlemediğine, gövdenin dengeli olup olmadığına, ağrıya, akciğer işlevine ve kişinin beklentisine göre omurga cerrahıyla birlikte verilir.</p>
+          <p class="soft">Yüksek derece tek başına ameliyat demek değildir. ABD'de tedavi edilmeden yaklaşık 50 yıl izlenen 117 hastada sırt ağrısı akranlarından daha sık görüldü, ama günlük işleri yapabilme yetenekleri farklı değildi ve ölüm oranı artmamıştı; nefes darlığı ise özellikle göğüs bölgesindeki 80 dereceyi aşan eğriliklerde daha sıktı. Büyüme sonunda 50 dereceyi aşan eğrilikler yetişkinlikte de genellikle yavaşça ilerlediği için, ameliyat önerilmese bile düzenli röntgen kontrolü gerekir. Bu yüzden karar; eğriliğin ilerleyip ilerlemediğine, gövdenin dengeli olup olmadığına, ağrıya, akciğer işlevine ve kişinin beklentisine göre omurga cerrahıyla birlikte verilir.</p>
           {SK_CLIN("Büyümesi tamamlanmış, gövdesi dengede (vücudu eğriliği dengelemiş), eğriliği ilerlemeyen ve günlük hayatı kısıtlanmayan bazı hastalarda, açı yüksek olsa bile cerrahların ameliyatı önermediğini ya da ertelediğini görüyoruz. Bu hastalarda düzenli kontrol, güçlendirme ve duruş egzersizleri ön planda kalıyor. Gövde dengesinin bozulması, ağrının artması ya da eğriliğin ilerlemesi kararı değiştirebilir.")}
         </div>
         <div>
@@ -927,7 +927,7 @@ SC_BODY = f'''<header class="page">
       </div>
       <div>
         <h2>Sporu bırakmayın</h2>
-        <p class="soft">SRS'ye göre sırt ağrısı olmadıkça skolyozlu çocuklar her sporu yapabilir. Uluslararası kılavuz da sporun genel sağlık ve psikolojik faydaları nedeniyle korse tedavisi sırasında bile bırakılmamasını öneriyor; ancak hiçbir spor tek başına tedavi yerine geçmez.</p>
+        <p class="soft">SRS'ye göre sırt ağrısı olmadıkça skolyozlu çocuklar her sporu yapabilir. Uluslararası kılavuz da sporun genel sağlık ve psikolojik faydaları nedeniyle korse tedavisi sırasında bile bırakılmamasını öneriyor; ancak hiçbir spor tek başına tedavi yerine geçmez. Aynı kılavuza göre korse döneminde temaslı ya da çok hareketli sporlar dikkatle yapılmalı; ilerleme riski yüksek gençlerde omurgayı aşırı hareket ettiren yarışma sporları (örneğin ritmik cimnastik) için hekiminizle ve fizyoterapistinizle konuşun. Ameliyattan sonra spora dönüşü cerrahınız belirler.</p>
       </div>
     </div>
   </section>
@@ -945,7 +945,8 @@ SC_BODY = f'''<header class="page">
       <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
       <ul class="dots redflags">
         <li>Belirgin ya da geceleri uyandıran sırt ağrısı (ergenlik skolyozu genellikle ağrısızdır)</li>
-        <li>Kol ya da bacaklarda uyuşma, güçsüzlük, yürüme bozukluğu; idrar ya da dışkı kontrolünde sorun</li>
+        <li>Kol ya da bacaklarda uyuşma, güçsüzlük, yürüme bozukluğu</li>
+        <li>Ani idrar ya da dışkı kontrolü kaybı ya da bacaklarda hızla artan güçsüzlük: aynı gün acil servise başvurun</li>
         <li>Eğriliğin ya da kamburluğun kısa sürede belirgin artması</li>
         <li>10 yaşından önce fark edilen eğrilik</li>
         <li>Nefes darlığı</li>
