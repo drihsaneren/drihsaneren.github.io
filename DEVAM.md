@@ -758,3 +758,6 @@ Kullanıcı skolyoz sayfasını yetersiz buldu; istedikleri: C/S eğrilik, rönt
 - Hafızadan künye: Lonstein & Carlson 66(7):1061–1071; Little DG ve ark. 82(5):685–693; Tanchev yazar listesi; Czaprowski yazar listesi; Weinstein 2003 yazar listesi (AAFP özetinde 289:559-67).
 - Çeviri tur25 (159 birim; check'in tek uyarısı "Türkiye") + tur26 (kart metni). Sonraki batch: tur27.
 - Testler: TR+EN 360/390/1366/1440 taşma yok, 360'ta öğe taşması yok, t_ls sorun 0, JSON-LD geçerli; çizimler ekran görüntüsüyle kontrol edildi (scratchpad sk/shot.py).
+
+## 28 Ekim 2026 — "eklem esnekliği" → "bağ dokusu esnekliği"
+Kullanıcı: "eklem esnekliği ifadesi Türkçede ne kadar doğru, bağ doku esnekliği demek daha doğru değil mi". Kural: altta yatan özellik için "bağ dokusu esnekliği / gevşekliği", tıbbi bulgu için "eklem hipermobilitesi", ölçülen şey için "eklem hareketliliği" yazılır; "eklem esnekliği" kullanılmaz (TDK yazımı "bağ dokusu"). Değişenler: skolyoz (başlık, açıklama, SSS, Czaprowski cümlesi, öneri maddesi), bilgi köşesi skolyoz kartı, eklem hipermobilitesi (Beighton cümlesi), büyüme ağrıları SSS. Çalışmaların kendi terimi olan "eklem gevşekliği" (Tanchev "generalized joint laxity") yerinde bırakıldı. Çeviri tur27 (8 birim; EN "connective tissue flexibility/laxity", "joint mobility"). Sonraki batch: tur28.

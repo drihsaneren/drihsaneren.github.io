@@ -490,7 +490,7 @@ _ex2("sc_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 _ex2("sc_scap", "scap", "Kürek kemiği sıkıştırma", "Dik oturun ya da durun. Omuzlarınızı kaldırmadan kürek kemiklerinizi geriye ve aşağıya doğru yaklaştırın, 5 saniye tutup bırakın.", "10–15 tekrar")
 
 SC_FAQ = [
- ("Ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Araştırmalara göre hayır: Skolyoz Araştırma Derneği (SRS), ağır çantanın, kötü duruşun ve sporun skolyoza yol açmadığını ve eğriliği kötüleştirmediğini belirtiyor; Portekiz'de 966 öğrenciyle yapılan bir çalışmada da çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı. Ağır çanta ise bel ve sırt ağrısına yol açabilir. Klinik deneyimimizde, büyüme atağındaki ve eklemleri esnek gençlerde tek taraflı yüklenmenin duruş asimetrisini ve ağrıyı belirginleştirebildiğini görüyoruz; bu yüzden çantanın iki omuzda taşınmasını öneriyoruz."),
+ ("Ağır çanta ya da kötü duruş skolyoza yol açar mı?", "Araştırmalara göre hayır: Skolyoz Araştırma Derneği (SRS), ağır çantanın, kötü duruşun ve sporun skolyoza yol açmadığını ve eğriliği kötüleştirmediğini belirtiyor; Portekiz'de 966 öğrenciyle yapılan bir çalışmada da çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı. Ağır çanta ise bel ve sırt ağrısına yol açabilir. Klinik deneyimimizde, büyüme atağındaki ve bağ dokusu esnek olan gençlerde tek taraflı yüklenmenin duruş asimetrisini ve ağrıyı belirginleştirebildiğini görüyoruz; bu yüzden çantanın iki omuzda taşınmasını öneriyoruz."),
  ("C ve S eğrilik arasındaki fark nedir?", "C eğrilikte omurgada tek bir yay vardır. S eğrilikte ise biri göğüs, diğeri bel bölgesinde, ters yönlere bakan iki yay bulunur. İkisinde de eğriliğin büyüklüğü röntgende Cobb açısıyla ölçülür; tedavi kararında eğrilik tipi, açı ve kalan büyüme birlikte değerlendirilir."),
  ("Skolyozlu çocuğum spor yapabilir mi?", "Evet. SRS'ye göre sırt ağrısı olmadıkça skolyozlu çocuklar her sporu yapabilir; uluslararası kılavuz (SOSORT) da sporun genel sağlık ve psikolojik faydaları nedeniyle korse tedavisi sırasında bile bırakılmamasını öneriyor. Ancak hiçbir spor tek başına eğriliği düzeltmez."),
  ("Yüzme skolyozu düzeltir mi?", "Hayır. Uluslararası kılavuz, sporun skolyoz tedavisi olarak önerilmemesini, ama genel sağlık ve psikolojik faydaları nedeniyle bırakılmamasını öneriyor. Yüzme de dahil hiçbir spor tek başına eğriliği düzeltmez."),
@@ -796,7 +796,7 @@ SC_BODY = f'''<header class="page">
 
   <section id="risk">
     <div class="wrap">
-      <h2>Çanta, tek taraflı alışkanlıklar ve eklem esnekliği</h2>
+      <h2>Çanta, tek taraflı alışkanlıklar ve bağ dokusu esnekliği</h2>
       <p class="soft">Bu konu ailelerin en çok sorduğu konulardan biri. Araştırmaların gösterdikleriyle klinikte gördüklerimizi ayrı ayrı yazıyoruz.</p>
       <div class="sk-split" style="margin-top:12px">
         <div>
@@ -804,7 +804,7 @@ SC_BODY = f'''<header class="page">
           <ul class="dots">
             <li>SRS'ye göre ağır çanta, kötü duruş ve spor skolyoza yol açmaz ya da eğriliği kötüleştirmez; ancak ağır çanta sırt ve bel ağrısına yol açabilir.</li>
             <li>Portekiz'de 10–16 yaş arası 966 öğrencide çanta ağırlığı ve duruş alışkanlıkları skolyozla ilişkili bulunmadı; yanlış oturma ve ayakta durma alışkanlıkları ise bel ağrısıyla ilişkiliydi. Bu bir kesitsel çalışmadır; neden-sonuç ilişkisi göstermez.</li>
-            <li>Bir çalışmada idiyopatik skolyozlu 70 çocuğun %51,4'ünde, sağlıklı akranlarının ise %19'unda yaygın eklem gevşekliği (hipermobilite) vardı; gevşeklik eğriliğin derecesiyle ilişkili değildi. Yazarlar, fizyoterapi planlanırken bu çocuklarda eklem gevşekliğine bakılmasını öneriyor.</li>
+            <li>Bir çalışmada idiyopatik skolyozlu 70 çocuğun %51,4'ünde, sağlıklı akranlarının ise %19'unda yaygın eklem hipermobilitesi (bağ dokusu gevşekliğine bağlı aşırı eklem hareketliliği) vardı; gevşeklik eğriliğin derecesiyle ilişkili değildi. Yazarlar, fizyoterapi planlanırken bu çocuklarda eklem gevşekliğine bakılmasını öneriyor.</li>
             <li>Ritmik cimnastik yapan 100 kız çocukta skolyoz sıklığı %12, akranlarında %1,1'di. Yazarlar; eklem gevşekliği, gecikmiş ergenlik ve büyüyen omurgaya tekrar tekrar binen tek taraflı yükün birlikteliğini “tehlikeli üçlü” olarak tanımladı. Bu da bir gözlem çalışmasıdır.</li>
           </ul>
         </div>
@@ -814,7 +814,7 @@ SC_BODY = f'''<header class="page">
           <ul class="dots" style="margin-top:14px">
             <li>Çantayı iki askısıyla, iki omuzda taşıyın; ağırlık vücut ağırlığının %10–15'ini geçmesin, ağır eşyalar sırta yakın dursun.</li>
             <li>Tek taraflı bir spor ya da etkinlik yapılıyorsa sporu bırakmak gerekmez; karşı tarafı da çalıştıran dengeleyici egzersizler eklenebilir.</li>
-            <li>Eklemleri çok esnek çocuklarda germe yerine güçlendirme ve duruş kontrolü ön plana çıkar.</li>
+            <li>Bağ dokusu çok esnek olan çocuklarda germe yerine güçlendirme ve duruş kontrolü ön plana çıkar.</li>
           </ul>
           <p class="sk-more">Ayrıntılı bilgi: <a href="eklem-hipermobilitesi.html">Eklem hipermobilitesi rehberi</a></p>
         </div>
@@ -946,7 +946,7 @@ SC_BODY = f'''<header class="page">
 </main>'''
 
 page("skolyoz.html", "Skolyoz",
-     "Skolyoz nedir, C ve S eğrilik, Cobb açısı ve büyüme döneminin önemi; çanta, tek taraflı alışkanlıklar ve eklem esnekliği; geçmişten bugüne tedaviler, egzersiz, korse ve ameliyatın karşılaştırması.",
+     "Skolyoz nedir, C ve S eğrilik, Cobb açısı ve büyüme döneminin önemi; çanta, tek taraflı alışkanlıklar ve bağ dokusu esnekliği; geçmişten bugüne tedaviler, egzersiz, korse ve ameliyatın karşılaştırması.",
      "skolyoz.html", SC_CSS, SC_BODY, "",
      seo_title="Skolyoz: C ve S Eğrilik, Cobb Açısı, Egzersiz, Korse ve Ameliyat | İhsan Eren",
      condition="Skolyoz", faq_items=SC_FAQ)
