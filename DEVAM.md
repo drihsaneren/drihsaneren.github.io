@@ -3,6 +3,17 @@
 Site `main` dalından yayınlanır (GitHub Pages, drihsaneren.com). Bu `kaynak` dalı,
 `main`'deki hazır sayfaları üreten araçları saklar. Yeni bir oturumda buradan devam edilir.
 
+## İÇERİK KALİTE KONTROLÜ (her yeni metin için ZORUNLU — kullanıcı isteği, 28 Ekim 2026)
+Kullanıcı skolyoz sayfasında art arda hata buldu (belirsiz "büyümenin önemi" girişi, "eklem esnekliği" terimi, kurum adının yanlış çevrilmesi, "tek taraflı alışkanlık"ın yalnızca çantaya daraltılması, çizimde açı hatası) ve "diğer çalışmalarda ve bilgilerde de böyle titizlik ve dikkat istiyorum" dedi. Yayından önce şu adımlar atlanmaz:
+1. **Her sayı, yıl, isim, oran** bir kaynakta (tercihen birincil: makale özeti, kılavuz metni) açıkça görülerek yazılır. Kaynakta görülmeyen ayrıntı (ilk ad, milliyet, cilt/sayı, yüzde) hafızadan EKLENMEZ; doğrulanamıyorsa çıkarılır ya da daha genel yazılır. İkincil kaynaktan gelen bilgi mümkünse birincilden kontrol edilir.
+2. **Sonuç ifadesinin gücü** çalışma tasarımına uyar: kesitsel/vaka-kontrol → "ilişkili bulundu", neden-sonuç yok; ters yön olasılığı varsa yazılır; beyana dayalı ölçüm, röntgensiz tanı gibi sınırlılıklar belirtilir.
+3. **Kurum, terim ve kavram adları** Türkçe tıbbi kullanıma göre kontrol edilir (ör. "Skolyoz Araştırma Derneği (SRS)", "bağ dokusu esnekliği"); kelime kelime çeviri yapılmaz.
+4. **Kullanıcının söylediği** daraltılmadan ve genişletilmeden uygulanır; ifade iki anlama gelebiliyorsa yazmadan önce sorulur. Klinik deneyim kutusu kullanıcının kendi gözlemini yansıtır, araştırmadan ayrı ve etiketli kalır.
+5. **Hasta gözüyle okuma**: giriş paragrafı, başlıklar, içindekiler, kart metni ve sayfa açıklaması ayrıca okunur; tek başına okunduğunda yanlış ya da belirsiz anlam veren cümle kalmaz.
+6. **Sayfa içi tutarlılık**: yeni eklenen bilgi sayfanın geri kalanıyla (istatistik kutuları, giriş, SSS) çelişmez; çelişki varsa eski metin düzeltilir ve kullanıcıya söylenir.
+7. **Görseller/çizimler** ekran görüntüsüyle bakılarak anatomik doğruluk açısından kontrol edilir.
+8. Raporda neyin birincil kaynaktan, neyin ikincil kaynaktan doğrulandığı ve neyin çıkarıldığı açıkça yazılır.
+
 ## Kurulum (yeni oturum)
 
 ```bash
@@ -779,3 +790,6 @@ Kullanıcı: "o tarihi çizelgeleri çok seviyorum hastanın anlaması açısın
 
 ## 28 Ekim 2026 — skolyoz: "tek taraflı alışkanlıklar" netleştirildi
 Kullanıcı: "tek taraflı çanta takmak, tek taraflı alışkanlıklar anlamında demiştim; mesela okul çağında bir yere dayanarak oturmak". Bölüm (id="risk") başlığı "Tek taraflı alışkanlıklar ve bağ dokusu esnekliği" oldu; girişte okul çağı örnekleri listesi (sırada aynı yana/duvara/dirseğe dayanmak, hep aynı kalçaya yüklenmek, yazarken omzu düşürmek, sınıfta hep aynı yerde oturup tahtaya aynı yöne dönmek, ayakta tek bacağa yüklenmek, çanta/çalgı tek tarafta). Araştırmalara iki Çin okul taraması çalışması eklendi: Yang 2022 J Orthop Surg Res 17:472 (2.538 öğrenci vaka-kontrol; dik oturma aOR 0,69, sınıfta yer değiştirme 0,72, okul sırası çok alçak 1,40; yana yaslanma anlamlı değil; beyan + röntgensiz) ve Xu 2025 Front Pediatr 13:1524073 (90.635 tarama, röntgenli 1.458; tek tarafa yaslanma aOR 2,13, sıraya kapanma 1,52; çanta ilişkisiz; kesitsel, ters yön mümkün) + "Özetle" cümlesi. Klinik deneyim kutusu ve SSS (soru: "Tek taraflı alışkanlıklar, ağır çanta ya da kötü duruş skolyoza yol açar mı?") oturma örnekleriyle güncellendi; önerilere oturma, sıra-sandalye yüksekliği, sınıfta yer değiştirme eklendi. İçindekiler: "Tek taraflı alışkanlıklar"; sayfa açıklaması ve bilgi köşesi kartı güncellendi. Betik: scratchpad g1/sk_habit.py. Çeviri tur30 (20 birim). Sonraki batch: tur31.
+
+## 28 Ekim 2026 — kalite kontrol kuralı + donuk omuz tarihçesinde iki düzeltme
+Kullanıcı daha fazla titizlik istedi; başa "İÇERİK KALİTE KONTROLÜ" listesi eklendi. Bu kurala göre bugünkü tarihçeler yeniden gözden geçirildi: "Julius Neviaser" adındaki ilk ad kaynakta doğrulanamadığı için "Neviaser" yapıldı; Reeves 1975 satırı ikincil kaynak (IASP) yerine dergi özetinden (Scand J Rheumatol 4(4):193–196: 49 hasta, 41'i 5–10 yıl izlendi, ağrı-katılaşma-düzelme evreleri, ortalama 30,1 ay, en iyi düzelmeden sonra yarıdan fazlasında hafif kısıtlılık, 3'ünde işlevsel kayıp) yeniden yazıldı. Duplay (Fransız cerrah, 1836–1924; 1872 makalesi) doğrulandı. Çeviri tur31 (2 birim). Sonraki batch: tur32.

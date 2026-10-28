@@ -1065,8 +1065,8 @@ OMUZ_FAQ = [
 OMUZ_TL = [
  ("1872", "Fransız cerrah Simon Duplay, omuzda ağrı ve hareket kısıtlılığıyla seyreden bu tabloyu omuz çevresi iltihabı (periartrit) olarak tanımladı."),
  ("1934", "ABD'li cerrah Ernest Codman, röntgeni normal olan ve yavaş başlayan bu ağrı ve kısıtlılık için “donuk omuz” (frozen shoulder) adını kullandı."),
- ("1945", "Julius Neviaser, omuz kapsülündeki iltihap ve kalınlaşmayı vurgulamak için “adeziv kapsülit” adını önerdi."),
- ("1975", "Reeves'in 41 hastayı yıllarca izlediği çalışmada donma, donmuş ve çözülme evreleri tanımlandı. “Kendiliğinden geçer” görüşü en çok bu çalışmaya dayandırılır."),
+ ("1945", "Neviaser, omuz kapsülündeki iltihap ve kalınlaşmayı vurgulamak için “adeziv kapsülit” adını önerdi."),
+ ("1975", "Reeves, 41 hastayı 5–10 yıl izlediği çalışmada ağrı, katılaşma ve düzelme evrelerini tanımladı; hastalık ortalama 30 ay sürdü ve en iyi düzelmeden sonra da hastaların yarısından fazlasında hafif kısıtlılık kaldı. “Kendiliğinden geçer” görüşü en çok bu çalışmaya dayandırılır."),
  ("1995", "Bunker ve Anthony, donuk omuzdaki kapsül değişikliklerinin avuç içinde görülen <a href=\"dupuytren-kontrakturu.html\">Dupuytren hastalığına</a> benzediğini gösterdi."),
  ("2017", "7 çalışmayı inceleyen sistematik bir derleme, tedavi edilmeyen donuk omzun evrelerden geçerek tamamen düzeldiğine dair kanıt bulamadı: hareket zamanla bir miktar artsa da 1–4 yıllık izlemde çoğu zaman tam düzelme olmadı ve düzelmenin büyük kısmı erken dönemde görüldü."),
  ("2020", "İngiltere'de 503 kişiyle yapılan UK FROST çalışmasında narkoz altında manipülasyon, kapalı kapsül gevşetme ameliyatı ve kortizon iğnesiyle birlikte erken fizyoterapi 1. yılda birbirinden klinik olarak üstün bulunmadı; ciddi yan etkiler kapsül gevşetme ameliyatında daha sıktı."),
