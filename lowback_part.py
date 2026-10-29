@@ -92,14 +92,14 @@ EXT.update({
 })
 
 BACK_SVC = "Evde değerlendirme, manuel terapi ve kişiye özel egzersiz programı"
-SRC_NICE59 = ("National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng59", "Low back pain and sciatica in over 16s: assessment and management (NG59)") + ". Londra: NICE; 2016, güncelleme 2020.")
+SRC_NICE59 = ("National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng59", "Low back pain and sciatica in over 16s: assessment and management (NG59)") + ". Londra: NICE; 2016, güncelleme 2020 ve 2026.")
 SRC_BRINJIKJI = ("Brinjikji W, Luetmer PH, Comstock B, et al. " + ext("https://www.ajnr.org/content/36/4/811", "Systematic literature review of imaging features of spinal degeneration in asymptomatic populations") + ". AJNR Am J Neuroradiol. 2015;36(4):811-816.")
 
 # ------------------------------------------------------------------ BEL AĞRISI
 BEL_FAQ = [
- ("Yatak istirahati yapmalı mıyım?", "Hayır. Kılavuzlar hareketli kalmayı öneriyor. Çok ağrılı ilk bir iki günde dinlenmek doğaldır ama uzun süre yatmak kasları zayıflatır ve iyileşmeyi geciktirir. Ağrının izin verdiği ölçüde yürüyün ve günlük işlerinize devam edin."),
+ ("Yatak istirahati yapmalı mıyım?", "Hayır. Kılavuzlar hareketli kalmayı öneriyor. Çok ağrılı ilk bir iki günde dinlenmek doğaldır ama uzun süre yatmak kasları zayıflatır ve iyileşmeyi geciktirebilir. Ağrının izin verdiği ölçüde yürüyün ve günlük işlerinize devam edin."),
  ("Bel korsesi takmalı mıyım?", "Genellikle hayır. Bel ağrısı ve siyatik için hazırlanan İngiltere kılavuzu (NICE) korse, tabanlık ve bel çekme (traksiyon) tedavilerini önermiyor. Korseyi uzun süre kullanmak kasların çalışmasını azaltabilir."),
- ("MR çektirmem gerekir mi?", "Çoğu zaman gerekmez. Ağrısı olmayan kişilerde de disk dejenerasyonu ve disk taşması çok sık görülür; MR'da bir bulgu çıkması ağrının nedeninin o olduğu anlamına gelmez. Uyarı işaretleri varsa ya da ameliyat düşünülüyorsa hekiminiz karar verir."),
+ ("MR çektirmem gerekir mi?", "Çoğu zaman gerekmez. Ağrısı olmayan kişilerde de disk dejenerasyonu ve disk bombeleşmesi çok sık görülür; MR'da bir bulgu çıkması ağrının nedeninin o olduğu anlamına gelmez. Uyarı işaretleri varsa ya da ameliyat düşünülüyorsa hekiminiz karar verir."),
  ("Sert yatak mı daha iyi?", "Çok sert yatak şart değil. Uzun süren bel ağrısı olan kişilerle yapılan bir çalışmada orta sertlikteki yatak, sert yataktan daha iyi sonuç verdi. Rahat uyuduğunuz, sabah daha az ağrıyla kalktığınız yatak en uygunudur."),
  ("Ağrım geçti, egzersize devam etmeli miyim?", "Evet. Bel ağrısı sık tekrarlar: bir çalışmada ağrısı geçenlerin %69'u bir yıl içinde yeniden bel ağrısı yaşadı. Düzenli egzersiz ve hareketli bir yaşam tekrar riskini azaltmanın en iyi yoludur."),
 ]
@@ -108,6 +108,7 @@ BEL_SRC = [
  "da Silva T, Mills K, Brown BT, et al. Recurrence of low back pain is common: a prospective inception cohort study. J Physiother. 2019;65(3):159-165.",
  "GBD 2021 Low Back Pain Collaborators. " + ext("https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00098-X/fulltext", "Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050") + ". Lancet Rheumatol. 2023;5(6):e316-e329.",
  "Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009790.pub2/full", "Exercise therapy for chronic low back pain") + ". Cochrane Database Syst Rev. 2021;9:CD009790.",
+ "Chiarotto A, Koes BW. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMcp2032396", "Nonspecific low back pain") + ". N Engl J Med. 2022;386(18):1732-1740.",
  "Koes BW, van Tulder MW, Thomas S. Diagnosis and treatment of low back pain. BMJ. 2006;332(7555):1430-1434.",
  "Kovacs FM, Abraira V, Peña A, et al. Effect of firmness of mattress on chronic non-specific low-back pain: randomised, double-blind, controlled, multicentre trial. Lancet. 2003;362(9396):1599-1604.",
  SRC_NICE59,
@@ -121,8 +122,8 @@ BEL_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel ağrısı</h1>
-    <p class="lede">Dünyada iş göremezliğin bir numaralı nedeni. Kulağa korkutucu gelse de çoğu bel ağrısının altında ciddi bir hastalık yoktur ve yeni başlayan ağrıların çoğu birkaç haftada belirgin şekilde azalır. İyileşmenin anahtarı dinlenmek değil, hareket etmektir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="lede">Dünyada yeti yitimiyle (sakatlıkla) geçirilen yılların bir numaralı nedeni. Kulağa korkutucu gelse de çoğu bel ağrısının altında ciddi bir hastalık yoktur ve yeni başlayan ağrıların çoğu birkaç haftada belirgin şekilde azalır. İyileşmenin anahtarı dinlenmek değil, hareket etmektir.</p>
+    <p class="meta">Son güncelleme: 29 Ekim 2026</p>
   </div>
 </header>
 
@@ -131,8 +132,8 @@ BEL_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>619 milyon</b><span>Dünyada bel ağrısı yaşayan kişi (2020)</span></div>
-        <div class="stat"><b>1. sırada</b><span>Dünyada iş göremezliğe en çok yol açan neden</span></div>
-        <div class="stat"><b>%90+</b><span>Belirli bir yapısal neden bulunamayan bel ağrısı</span></div>
+        <div class="stat"><b>1. sırada</b><span>Dünyada yeti yitimiyle geçen yıllara en çok yol açan neden</span></div>
+        <div class="stat"><b>%80–90</b><span>Belirli bir yapısal neden bulunamayan bel ağrısı</span></div>
         <div class="stat"><b>%69</b><span>Ağrısı geçenlerde bir yıl içinde tekrar</span></div>
       </div>
     </div>
@@ -142,7 +143,7 @@ BEL_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
-        <p class="soft">Kaburgaların alt sınırı ile kalça kıvrımı arasındaki ağrıdır. Bel ağrılarının %90'dan fazlasında belirli bir yapısal neden bulunamaz; buna <em>nonspesifik</em> ya da mekanik bel ağrısı denir. Ağrı gerçektir ama beldeki bir "kırılma" ya da "kayma"yı göstermez. Kaslar, bağlar, eklemler ve sinir sisteminin ağrıya duyarlılığı birlikte rol oynar.</p>
+        <p class="soft">Kaburgaların alt sınırı ile kalça kıvrımı arasındaki ağrıdır. Bel ağrılarının yaklaşık %80–90'ında belirli bir yapısal neden bulunamaz; buna <em>nonspesifik</em> ya da mekanik bel ağrısı denir. Ağrı gerçektir ama beldeki bir "kırılma" ya da "kayma"yı göstermez. Kaslar, bağlar, eklemler ve sinir sisteminin ağrıya duyarlılığı birlikte rol oynar.</p>
         <p class="soft">Ağrı dizin altına, bacağa ve ayağa uyuşma ya da karıncalanmayla yayılıyorsa bir sinir kökü etkileniyor olabilir: <a href="bel-fitigi.html">Bel fıtığı ve siyatik →</a></p>
       </div>
       <div>
@@ -155,7 +156,7 @@ BEL_BODY = f'''<header class="page">
           <li>Stres, kaygı, yorgunluk ve uykusuzluk</li>
           <li>Fiziksel olarak ağır işler</li>
         </ul>
-        <p class="soft">İş kaynaklı etkenler, sigara ve yüksek vücut ağırlığı bel ağrısına bağlı iş göremezliğin yaklaşık %39'undan sorumlu; yani önemli bir kısmı önlenebilir.</p>
+        <p class="soft">Küresel hastalık yükü hesaplarına göre bel ağrısına bağlı yeti yitiminin yaklaşık %39'u iş kaynaklı etkenlere, sigaraya ve yüksek vücut ağırlığına bağlanıyor; bu, yükün bir kısmının önlenebilir olabileceğini düşündürüyor.</p>
       </div>
     </div>
   </section>
@@ -181,10 +182,10 @@ BEL_BODY = f'''<header class="page">
       <h2>Seyri ve tedavi</h2>
       <p class="soft">Yeni başlayan bel ağrısında ağrı ve kısıtlılık genellikle ilk 6 haftada belirgin şekilde azalır; çalışmalarda ağrı puanı ortalama yarıdan fazla düştü. Üç aydan uzun süren ağrıda düzelme daha yavaştır; burada düzenli egzersiz ve yönlendirilmiş bir tedavi programı daha da önem kazanır.</p>
       <ul class="tx">
-        <li><b>Hareketli kalmak</b><span>Yatak istirahati önerilmez. Yürümek ve günlük işlere ağrının izin verdiği ölçüde devam etmek iyileşmeyi hızlandırır; mümkünse işten uzun süre uzak kalmayın.</span></li>
-        <li><b>Egzersiz</b><span>Tedavinin temelidir. Uzun süren bel ağrısında egzersiz, ağrıyı 100 üzerinden ortalama 15 puan azaltıyor. En iyi egzersiz, düzenli yapabildiğiniz egzersizdir.</span></li>
-        <li><b>Manuel terapi</b><span>Mobilizasyon, manipülasyon ve yumuşak doku teknikleri, kılavuzlara göre egzersizle birlikte bir tedavi paketinin parçası olarak uygulandığında faydalıdır.</span></li>
-        <li><b>Ağrıyla baş etme</b><span>Uzun süren ağrıda korku, kaygı ve uykusuzluk ağrıyı besler. Bilişsel davranışçı yaklaşımlar egzersizle birlikte önerilir. <a href="stres.html">Nefes egzersizlerine göz atın →</a></span></li>
+        <li><b>Hareketli kalmak</b><span>Yatak istirahati önerilmez. Yürümek ve günlük işlere ağrının izin verdiği ölçüde devam etmek iyileşmeyi destekler; mümkünse işten uzun süre uzak kalmayın.</span></li>
+        <li><b>Egzersiz</b><span>Tedavinin temelidir. Uzun süren bel ağrısında egzersiz yapanların ağrısı, tedavi almayan, olağan bakım ya da plasebo alanlara göre 3. ayda 100 üzerinden ortalama 15 puan daha az bulundu. En iyi egzersiz, düzenli yapabildiğiniz egzersizdir.</span></li>
+        <li><b>Manuel terapi</b><span>Mobilizasyon, manipülasyon ve yumuşak doku teknikleri, kılavuzlarda tek başına değil, yalnızca egzersizi içeren bir tedavi paketinin parçası olarak düşünülebilecek bir seçenektir.</span></li>
+        <li><b>Ağrıyla baş etme</b><span>Uzun süren ağrıda korku, kaygı ve uykusuzluk ağrıyı besler. Kaygı ya da çökkünlük belirginse destek seçeneklerini hekiminizle konuşabilirsiniz. <a href="stres.html">Nefes egzersizlerine göz atın →</a></span></li>
         <li><b>İlaçlar</b><span>Hekiminizin önerdiği ağrı kesiciler en düşük dozda ve en kısa süre kullanılmalıdır.</span></li>
         <li><b>Önerilmeyenler</b><span>Korse, tabanlık ve bel çekme (traksiyon) tedavileri kılavuzlarda önerilmiyor.</span></li>
       </ul>
@@ -298,13 +299,15 @@ LEG = f'''<svg class="hand" viewBox="0 0 200 270" role="img" aria-label="Sağ ba
 
 FITIK_FAQ2 = [
  ("Bel fıtığı kendiliğinden geçer mi?", "Çoğu kişide evet. Bacak ağrısı genellikle haftalar ya da birkaç ay içinde azalır. Üstelik fıtık MR'da da küçülebilir: dışarı taşmış fıtıkların yaklaşık %70'inde, tamamen kopmuş parçaların ise %96'sında kendiliğinden gerileme görülmüş. Amerikan Ağrı Tıbbı Akademisi'nin 2026 kılavuzu da 6 haftadan kısa süren, bacağa yayılan ya da yayılmayan bel ağrısında, ciddi bir hastalık belirtisi yoksa rutin erken görüntüleme yapılmamasını ve opioidlerin ilk tedavi olarak kullanılmamasını öneriyor."),
- ("Ameliyat şart mı?", "Çoğu zaman hayır. 6–12 haftadır siyatiği olan hastaların karşılaştırıldığı bir çalışmada erken ameliyat bacak ağrısını daha hızlı geçirdi, ama bir yılın sonunda iki grubun sonuçları benzerdi ve her iki grupta da hastaların %95'i kendini iyileşmiş hissetti. İdrar ya da dışkı kontrolü kaybı ve ilerleyen güç kaybı ise acil ameliyat gerektirebilir."),
+ ("Ameliyat şart mı?", "Çoğu zaman hayır. 6–12 haftadır şiddetli siyatiği olan hastaların karşılaştırıldığı bir çalışmada erken ameliyat bacak ağrısını daha hızlı geçirdi, ama bir yılın sonunda iki grubun sonuçları benzerdi ve her iki grupta da hastaların %95'i kendini iyileşmiş hissetti. İdrar ya da dışkı kontrolü kaybı ve ilerleyen güç kaybı ise acil ameliyat gerektirebilir."),
  ("Oturmak mı, ayakta durmak mı daha iyi?", "Bel fıtığında uzun süre oturmak çoğu kişide ağrıyı artırır. Oturma sürelerini kısa tutun, sık sık kalkıp birkaç adım yürüyün. Kısa ve sık yürüyüşler genellikle iyi gelir."),
  ("Bel fıtığında spor yapabilir miyim?", "Evet, ağrının izin verdiği ölçüde. Yürüyüş ve yüzme gibi hafif aktivitelerle başlayıp bel ve kalça kaslarını güçlendiren egzersizlere geçmek iyileşmeyi destekler. Ağrıyı bacağa doğru yayan hareketlerden bir süre kaçının."),
  ("MR'da fıtığım var ama ağrım yok. Ne yapmalıyım?", "Endişelenmeyin. Hiç ağrısı olmayan 20 yaşındakilerin yaklaşık üçte birinde bile MR'da disk fıtığı (protrüzyon) görülür. Şikâyetiniz yoksa tedavi gerekmez; düzenli egzersizle bel sağlığınızı koruyun."),
 ]
 FITIK_SRC2 = [
  SRC_BRINJIKJI,
+ "de Castro I, dos Santos DP, Christoph DH, Landeiro JA. " + ext("https://www.scielo.br/j/anp/a/Lv8HLX6cMBMJrgt9BFyJfGQ/?lang=en", "The history of spinal surgery for disc disease: an illustrated timeline") + ". SciELO; 2005.",
+ "Jordan JL, Konstantinou K, O'Dowd J. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC3275148/", "Herniated lumbar disc") + ". BMJ Clin Evid. 2011;2011:1118.",
  "Chiu CC, Chuang TY, Chang KH, Wu CH, Lin PW, Hsu WY. The probability of spontaneous regression of lumbar herniated disc: a systematic review. Clin Rehabil. 2015;29(2):184-195.",
  "Deyo RA, Diehl AK, Rosenthal M. " + ext("https://www.qxmd.com/r/2945109", "How many days of bed rest for acute low back pain? A randomized clinical trial") + ". N Engl J Med. 1986;315(17):1064–1070.",
  "Gusmão S, Arantes A, Pinheiro-Franco JL. " + ext("https://link.springer.com/chapter/10.1007/978-3-662-47756-4_2", "A historical overview of sciatica") + ". In: Pinheiro-Franco JL, Vaccaro AR, Benzel EC, Mayer HM, eds. Advanced Concepts in Lumbar Degenerative Disk Disease. Berlin: Springer; 2016.",
@@ -320,7 +323,7 @@ BELF_TL = [
  ("1764", "İtalyan hekim Domenico Cotugno, kalçadan bacağa yayılan ağrıyı kalça eklemi ağrısından ayırarak siyatik sinirle ilişkilendirdi."),
  ("1864", "Fransız hekim Charles Lasègue siyatik üzerine yazdı; bugün muayenede kullanılan düz bacak kaldırma testi onun adıyla da anılır (Lasègue testi)."),
  ("1934", "ABD'li cerrahlar William Mixter ve Joseph Barr, siyatiğin sık bir nedeninin yerinden taşan disk olduğunu gösterdi; bel fıtığı ameliyatı bundan sonra yaygınlaştı."),
- ("1977", "Türk beyin cerrahı Gazi Yaşargil ve Wolfhard Caspar, mikroskopla yapılan, daha küçük kesili fıtık ameliyatını (mikrodiskektomi) tanımladı."),
+ ("1977", "Türk beyin cerrahı Gazi Yaşargil ve Caspar, aynı yıl ayrı ayrı yayımladıkları çalışmalarda mikroskopla yapılan, daha küçük kesili fıtık ameliyatının (mikrodiskektomi) sonuçlarını bildirdi."),
  ("1983", "Norveç'te 126 hastanın 10 yıl izlendiği çalışmada ameliyat olanlar 1. yılda daha iyiydi; 4. yılda iki grup arasındaki fark artık anlamlı değildi."),
  ("1986", "Akut bel ağrısı olan 203 kişiyle yapılan çalışmada 2 günlük yatak istirahati 7 gün kadar etkiliydi ve işe gidilemeyen gün sayısı %45 daha azdı. Uzun yatak istirahati önerisi zamanla bırakıldı."),
  ("2007", "Hollanda'da 6–12 haftadır şiddetli siyatiği olan 283 hastayla yapılan çalışmada erken ameliyat ağrıyı daha hızlı geçirdi, ama 1. yılın sonunda iki grubun sonuçları benzerdi."),
@@ -334,7 +337,7 @@ BELF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel fıtığı ve siyatik</h1>
     <p class="lede">Beldeki bir diskin taşarak bacağa giden sinir kökünü sıkıştırmasıyla ortaya çıkar. Ağrı kalçadan bacağa, bazen ayağa kadar vurur. İyi haber: çoğu kişi ameliyatsız iyileşir, fıtık çoğu zaman kendiliğinden küçülür.</p>
-    <p class="meta">Son güncelleme: 28 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 29 Ekim 2026</p>
   </div>
 </header>
 
@@ -344,7 +347,7 @@ BELF_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>%95</b><span>Bel fıtıklarının L4–L5 ya da L5–S1 seviyesinde görülme oranı</span></div>
         <div class="stat"><b>%70</b><span>Dışarı taşmış fıtıklarda kendiliğinden gerileme</span></div>
-        <div class="stat"><b>%95</b><span>Bir yılın sonunda kendini iyileşmiş hisseden siyatik hastası</span></div>
+        <div class="stat"><b>%95</b><span>Şiddetli siyatikte bir yıl sonra kendini iyileşmiş hisseden (bir çalışmada, ameliyatlı ve ameliyatsız)</span></div>
         <div class="stat"><b>%29</b><span>Hiç ağrısı olmayan 20 yaşındakilerin MR'ında disk fıtığı</span></div>
       </div>
       {g_toc([("nedir", "Nedir?"), ("sinirler", "Hangi sinir nereye vurur?"), ("tani", "MR ne zaman gerekir?"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Seyri ve tedavi"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Acil uyarı işaretleri")])}
@@ -408,11 +411,11 @@ BELF_BODY = f'''<header class="page">
   <section id="tedavi">
     <div class="wrap">
       <h2>Seyri ve tedavi</h2>
-      <p class="soft">Bel fıtığının doğal seyri çoğu zaman iyidir. Vücut taşan disk parçasını zamanla temizleyebilir; ne kadar büyük taşmışsa gerileme olasılığı o kadar yüksektir. 6–12 haftadır şiddetli siyatiği olan 283 hastanın karşılaştırıldığı çalışmada, ameliyatsız izlenen grubun %39'u sonunda ameliyat oldu; bir yılın sonunda iki grubun sonuçları benzerdi.</p>
+      <p class="soft">Bel fıtığının doğal seyri çoğu zaman iyidir. Vücut taşan disk parçasını zamanla temizleyebilir; fıtık ne kadar dışarı taşmış ya da kopmuşsa kendiliğinden gerileme olasılığı o kadar yüksektir (bir derlemede kopmuş parçalarda %96, dışarı taşmış fıtıkta %70, daha hafif taşmada (protrüzyon) %41). 6–12 haftadır şiddetli siyatiği olan 283 hastanın karşılaştırıldığı çalışmada, ameliyatsız izlenen grubun %39'u sonunda ameliyat oldu; bir yılın sonunda iki grubun sonuçları benzerdi.</p>
       <ul class="tx">
         <li><b>Hareketli kalmak</b><span>Yatak istirahati önerilmez. Ağrıyı çok artıran pozisyonlardan kaçınarak kısa ve sık yürüyüşler yapın.</span></li>
         <li><b>Egzersiz</b><span>Ağrıyı bacaktan bele doğru çeken hareketler, sinir kaydırma egzersizleri ve zamanla bel-kalça kaslarını güçlendirme tedavinin temelidir.</span></li>
-        <li><b>Manuel terapi</b><span>Egzersizle birlikte uygulanan manuel terapi, kılavuzlarda tedavi paketinin parçası olarak önerilir.</span></li>
+        <li><b>Manuel terapi</b><span>Manuel terapi, kılavuzlarda tek başına değil, yalnızca egzersizi içeren bir tedavi paketinin parçası olarak düşünülebilecek bir seçenektir.</span></li>
         <li><b>İlaç ve enjeksiyon</b><span>Hekiminizin önerdiği ağrı kesiciler. Akut ve şiddetli siyatikte seçilmiş hastalarda sinir köküne yönelik epidural enjeksiyon hekim kararıyla uygulanabilir.</span></li>
         <li><b>Ameliyat</b><span>Ameliyatsız tedaviye rağmen ağrı ve kısıtlılık sürüyorsa ve MR bulguları şikâyetlerle uyuşuyorsa düşünülür. İdrar ya da dışkı kontrolü kaybı ve ilerleyen güç kaybı ise acil değerlendirme gerektirir.</span></li>
       </ul>

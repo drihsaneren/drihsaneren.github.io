@@ -371,8 +371,8 @@ def root_row(color, name, area, move, note=""):
 DUZ_LINK = '<a href="boyun-agrisi.html#duzlesme">Boyun düzleşmesi hakkında →</a>'
 BOYUN_FITIK_FAQ = [
  ("Boyun fıtığı kendiliğinden geçer mi?", "Çoğu kişide evet. Belirtiler genellikle ilk haftalarda en yoğundur ve çoğu kişi 4–6 ay içinde belirgin şekilde düzelir. Bu süreçte egzersiz ve fizyoterapi hem ağrıyı azaltır hem de günlük yaşama dönüşü kolaylaştırır."),
- ("Ameliyat ne zaman gerekir?", "Kolda giderek artan güç kaybı, ellerde beceriksizlik ve yürüme bozukluğu gibi omurilik basısı belirtileri ya da 6–12 haftalık uygun tedaviye rağmen günlük yaşamı bozan ağrı varsa cerrahi değerlendirme gerekir. Uzun dönemde hastaların yaklaşık dörtte biri ameliyat olur."),
- ("MR'ımda fıtık var ama ağrım yok. Ne yapmalıyım?", "Endişelenmeyin. Ağrısı olmayan kişilerin büyük çoğunluğunda MR'da disk taşması görülür. Şikâyetiniz yoksa tedavi gerekmez; düzenli egzersizle boyun sağlığınızı koruyabilirsiniz."),
+ ("Ameliyat ne zaman gerekir?", "Kolda giderek artan güç kaybı, ellerde beceriksizlik ve yürüme bozukluğu gibi omurilik basısı belirtileri ya da 6–12 haftalık uygun tedaviye rağmen günlük yaşamı bozan ağrı varsa cerrahi değerlendirme gerekir. Kola yayılan sinir sıkışması olan hastaların izlendiği bir nüfus çalışmasında yaklaşık dörtte biri izlem süresinde ameliyat olmuştu; çoğu kişi ameliyatsız iyileşir."),
+ ("MR'ımda fıtık var ama ağrım yok. Ne yapmalıyım?", "Endişelenmeyin. Ağrısı olmayan kişilerin büyük çoğunluğunda MR'da disk bombeleşmesi (bulging) görülür; bu bulgu tek başına hastalık anlamına gelmez. Şikâyetiniz yoksa tedavi gerekmez; düzenli egzersizle boyun sağlığınızı koruyabilirsiniz."),
  ("Boyun fıtığında masaj ya da kütletme yapılır mı?", "Yumuşak doku çalışması ve nazik mobilizasyon genellikle güvenlidir. Hızlı ve kuvvetli boyun manipülasyonu (kütletme) ise kola yayılan sinir belirtileri varken ancak ayrıntılı muayeneden sonra ve eğitimli bir uygulayıcı tarafından düşünülmelidir."),
  ("Nasıl yatmalıyım?", "Sırtüstü ya da ağrısız tarafınıza yan yatmak çoğu kişiye daha rahat gelir. Yastık boynunuzu omurganızla aynı hizada tutmalı. Yüzüstü yatmaktan kaçının."),
  ("Boyun fıtığı ile boyun düzleşmesi aynı şey mi?", "Hayır. Boyun düzleşmesi, röntgende boyun omurgasının doğal hafif kavisinin azalmasıdır ve ağrısı olmayan kişilerde de sık görülür. Fıtık ise diskin taşmasıdır. " + DUZ_LINK),
@@ -383,7 +383,7 @@ FITIK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun fıtığı ve sinir sıkışması</h1>
     <p class="lede">Boyundaki disklerden birinin taşması ya da omurgadaki kireçlenmenin bir sinir kökünü sıkıştırmasıyla ortaya çıkar. Ağrı kola ve parmaklara vurur; uyuşma ve güçsüzlük olabilir. Çoğu kişi ameliyatsız iyileşir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 29 Ekim 2026</p>
   </div>
 </header>
 
@@ -393,8 +393,8 @@ FITIK_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>83</b><span>Her yıl 100.000 kişide yeni kola yayılan sinir sıkışması</span></div>
         <div class="stat"><b>4–6 ay</b><span>Çoğu kişide belirgin düzelme süresi</span></div>
-        <div class="stat"><b>%90</b><span>Uzun dönemde yakınması olmayan ya da hafif kalan</span></div>
-        <div class="stat"><b>%87,6</b><span>Hiç ağrısı olmayanların MR'ında disk taşması</span></div>
+        <div class="stat"><b>%90</b><span>Uzun dönemde yakınması olmayan ya da hafif kalan (ameliyat olanlar dahil)</span></div>
+        <div class="stat"><b>%87,6</b><span>Hiç ağrısı olmayanların MR'ında disk bombeleşmesi</span></div>
       </div>
     </div>
   </section>
@@ -441,7 +441,7 @@ FITIK_BODY = f'''<header class="page">
       <h2>Tanı: MR her şey değil</h2>
       <p class="soft">Tanı önce muayeneyle konur. Fizyoterapist ya da hekim boyun hareketlerini, kol kaslarının gücünü, refleksleri ve duyuyu değerlendirir. Sinir kökünü zorlayan ya da rahatlatan özel testler yapar; Spurling testi, sinir germe testi ve boyun çekme testi bunlardan bazılarıdır.</p>
       <div class="callout">
-        <p>MR fıtığın yerini gösterir ama tek başına karar verdirmez. Hiçbir şikâyeti olmayan 1211 kişinin %87,6'sında MR'da disk taşması görüldü; 20'li yaşlarda bile bu oran %73–78'di. Önemli olan, MR bulgusunun şikâyetler ve muayeneyle uyuşup uyuşmadığıdır.</p>
+        <p>MR fıtığın yerini gösterir ama tek başına karar verdirmez. Hiçbir şikâyeti olmayan 1211 kişinin %87,6'sında MR'da disk bombeleşmesi (bulging) görüldü; 20'li yaşlarda bile bu oran %73–78'di. Önemli olan, MR bulgusunun şikâyetler ve muayeneyle uyuşup uyuşmadığıdır.</p>
       </div>
     </div>
   </section>
@@ -449,10 +449,10 @@ FITIK_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Seyri ve tedavi</h2>
-      <p class="soft">Belirtiler genellikle ilk haftalarda en yoğundur. Çoğu kişi 4–6 ay içinde belirgin şekilde düzelir ve bu düzelme 2–3 yıllık izlemde de korunur. 561 hastanın yaklaşık 5 yıl izlendiği bir çalışmada son kontrolde hastaların %90'ında hiç yakınma yoktu ya da yakınmalar hafifti; dörtte biri ameliyat olmuştu.</p>
+      <p class="soft">Belirtiler genellikle ilk haftalarda en yoğundur. Çoğu kişi 4–6 ay içinde belirgin şekilde düzelir; az sayıdaki çalışmada bu düzelme 2–3 yıllık izlemde genellikle korundu. ABD'de 1976–1990 yıllarında kola yayılan sinir sıkışması (fıtık ya da kireçlenmeye bağlı) tanısı alan 561 hastanın yaklaşık 5 yıl izlendiği bir nüfus çalışmasında son kontrolde, ameliyat olanlar dahil hastaların %90'ında hiç yakınma yoktu ya da yakınmalar hafifti; hastaların dörtte biri izlem süresinde ameliyat olmuştu.</p>
       <ul class="tx">
         <li><b>Hareketli kalmak</b><span>Ağrıyı çok artıran hareketlerden birkaç gün kaçınmak yeterlidir. Tam yatak istirahati önerilmez.</span></li>
-        <li><b>Egzersiz</b><span>Derin boyun kaslarını ve kürek kemiği çevresini güçlendiren, boynu dengeleyen egzersizler ile sinir kaydırma egzersizleri tedavinin temelidir.</span></li>
+        <li><b>Egzersiz</b><span>Derin boyun kaslarını ve kürek kemiği çevresini güçlendiren, boynu dengeleyen egzersizler ile sinir kaydırma egzersizleri tedavinin önemli bir parçasıdır.</span></li>
         <li><b>Manuel terapi ve traksiyon</b><span>Egzersizle birlikte uygulanan manuel terapi ve aralıklı boyun traksiyonu (boynun kontrollü çekilmesi), uzun süren kola yayılan ağrıda kılavuzlarda önerilir.</span></li>
         <li><b>Boyunluk</b><span>Ağrının çok şiddetli olduğu ilk günlerde kısa süreli kullanılabilir. Uzun süreli kullanım önerilmez.</span></li>
         <li><b>İlaç ve enjeksiyon</b><span>Hekiminizin önerdiği ağrı kesiciler. Seçilmiş hastalarda sinir köküne yönelik enjeksiyonlar hekim kararıyla uygulanabilir.</span></li>

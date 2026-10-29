@@ -799,3 +799,6 @@ Ayrıntılar DENETIM.md'de. Günlük zamanlanmış denetim kuruldu (her gün 06:
 
 ## 28 Ekim 2026 — stres: nefes çemberine dokunmak da başlatır
 Kullanıcı: "şu yuvarlağın ortasına tıklayınca da başlasın". #orb tıklaması yalnızca dururken Başlat ile aynı işi yapar (çalışırken dokunmak bir şey yapmaz; durdurma yine "Durdur" düğmesiyle). Bekleme yazısı "Başlat'a basın" → "Başlamak için dokunun" (EN "Tap to begin"; i18n/manual_stres.py ve i18n/js.json güncellendi), boşta imleç el. Çeviri tur35. Sonraki batch: tur36.
+
+## 29 Ekim 2026 — günlük denetim (bel fıtığı, bel ağrısı, boyun fıtığı)
+Ayrıntılar DENETIM.md'de. Önemli: NICE NG59 29 Temmuz 2026'da BDT/psikolojik terapi önerilerini (1.2.13, 1.2.14) kaldırdı; sitede NICE'a dayanarak BDT öneren başka cümle varsa (ör. fibromiyalji dışı bel/siyatik sayfaları) ilgili denetimde düzeltilmeli. SRC_NICE59 künyesi "2016, güncelleme 2020 ve 2026". Çeviri tur36. Sonraki batch: tur37.
