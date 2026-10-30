@@ -55,11 +55,11 @@ EXT.update({
 
 KNEE_SVC = "Evde değerlendirme ve kişiye özel egzersiz programı"
 KNEE_FAQ = [
- ("Kireçlenmiş dizimi dinlendirmeli miyim?", "Uzun süreli dinlenme önerilmez. Eklem kıkırdağı hareketle beslenir; düzenli yürüyüş ve güçlendirme egzersizleri ağrıyı azaltır ve dizi korur. Ağrının çok arttığı günlerde yükü azaltın ama tamamen durmayın."),
+ ("Kireçlenmiş dizimi dinlendirmeli miyim?", "Uzun süreli dinlenme önerilmez. Eklem kıkırdağı hareketle beslenir; düzenli yürüyüş ve güçlendirme egzersizleri ağrıyı azaltır ve günlük işleri kolaylaştırır. Ağrının çok arttığı günlerde yükü azaltın ama tamamen durmayın."),
  ("Merdiveni nasıl inip çıkmalıyım?", "Tırabzana tutunun. Çıkarken önce sağlam bacağınızla, inerken önce ağrılı bacağınızla adım atın. Baston kullanıyorsanız bastonu ağrılı bacakla birlikte hareket ettirin."),
  ("Baston hangi elde tutulur?", "Ağrılı dizin karşı tarafındaki elde. Baston ağrılı bacakla aynı anda yere basar ve dizin taşıdığı yükü azaltır."),
  ("Glukozamin, kolajen ya da diz iğnesi işe yarar mı?", "İngiltere'nin kireçlenme kılavuzu (NICE) glukozamin takviyelerini ve eklem içine hyaluronik asit iğnesini önermiyor. Eklem içine kortizon iğnesi ise diğer tedaviler yetmediğinde 2–10 haftalık kısa süreli rahatlama için düşünülebilir."),
- ("Diz protezi ne zaman gerekir?", "Egzersiz, kilo kontrolü ve ilaç tedavisine rağmen ağrı ve kısıtlılık günlük yaşamı ciddi şekilde bozuyorsa ortopedi değerlendirmesi gerekir. Karar röntgendeki görüntüye göre değil, yaşam kalitenize göre verilir. Ameliyattan önce ve sonra yapılan egzersizler iyileşmeyi hızlandırır."),
+ ("Diz protezi ne zaman gerekir?", "Egzersiz, kilo kontrolü ve ilaç tedavisine rağmen ağrı ve kısıtlılık günlük yaşamı ciddi şekilde bozuyorsa ortopedi değerlendirmesi gerekir. Karar röntgendeki görüntüye göre değil, yaşam kalitenize göre verilir. Ameliyattan önce ve sonra yapılan egzersizler toparlanmaya yardımcı olabilir."),
 ]
 KNEE_SRC = [
  "Bedson J, Croft PR. " + ext("https://link.springer.com/article/10.1186/1471-2474-9-116", "The discordance between clinical and radiographic knee osteoarthritis: a systematic search and summary of the literature") + ". BMC Musculoskelet Disord. 2008;9:116.",
@@ -91,7 +91,7 @@ KNEE_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diz kireçlenmesi (osteoartrit)</h1>
     <p class="lede">Özellikle 45 yaşından sonra sık görülen, merdivende, çömelirken ve uzun yürüyüşlerde kendini gösteren bir diz sorunu. Kireçlenme "bitti, yapacak bir şey yok" demek değildir: doğru egzersiz ve kilo kontrolüyle ağrı belirgin şekilde azalabilir.</p>
-    <p class="meta">Son güncelleme: 28 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 30 Ekim 2026</p>
   </div>
 </header>
 
@@ -100,8 +100,8 @@ KNEE_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>595 milyon</b><span>Dünyada kireçlenmesi olan kişi (2020); nüfusun %7,6'sı</span></div>
-        <div class="stat"><b>%75</b><span>Diz kireçlenmesinde 2050'ye kadar beklenen artış</span></div>
-        <div class="stat"><b>1 kg → 4 kg</b><span>Fazla kilolu diz kireçlenmesi hastalarında verilen her kilo, her adımda dize binen yükü yaklaşık 4 kg azalttı</span></div>
+        <div class="stat"><b>%75</b><span>2050'ye kadar diz kireçlenmesi vaka sayısında beklenen artış</span></div>
+        <div class="stat"><b>1 kg → 4 kg</b><span>Fazla kilolu diz kireçlenmesi hastalarında verilen her kilo, her adımda dize binen yükte yaklaşık 4 kg azalmayla ilişkiliydi</span></div>
         <div class="stat"><b>12 puan</b><span>Egzersizle ağrıdaki ortalama azalma (100 üzerinden)</span></div>
       </div>
       {g_toc([("nedir", "Nedir?"), ("rontgen", "Röntgen ve ağrı"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi"), ("egzersizler", "Egzersizler"), ("gunluk", "Günlük hayatta"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
@@ -113,7 +113,7 @@ KNEE_BODY = f'''<header class="page">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Eklem yüzeylerini kaplayan kıkırdağın incelmesiyle başlayan, ama yalnızca kıkırdağı değil kemiği, eklem zarını, bağları ve çevredeki kasları da etkileyen bir süreçtir. Eklem kenarlarında kemik çıkıntıları oluşabilir, eklem zaman zaman şişebilir.</p>
-        <p class="soft">45 yaş üstünde, hareketle artan diz ağrısı ve 30 dakikadan kısa süren sabah tutukluğu varsa tanı çoğu zaman muayeneyle konur; kılavuzlar rutin görüntüleme önermez.</p>
+        <p class="soft">45 yaş üstünde hareketle artan diz ağrısı varsa ve sabah tutukluğu hiç yoksa ya da 30 dakikayı geçmiyorsa tanı çoğu zaman muayeneyle konur; kılavuzlar rutin görüntüleme önermez.</p>
       </div>
       <div>
         <h2>Belirtiler ve risk etkenleri</h2>
@@ -123,7 +123,7 @@ KNEE_BODY = f'''<header class="page">
           <li>Dizde çıtırtı, zaman zaman şişlik, hareket kısıtlılığı</li>
           <li>Risk etkenleri: ileri yaş, kadın olmak, fazla kilo, önceki diz yaralanmaları, ağır diz zorlaması gerektiren işler, O ya da X bacak</li>
         </ul>
-        <p class="soft">Yüksek vücut ağırlığı, kireçlenmeye bağlı iş göremezliğin yaklaşık %20'sinden sorumlu.</p>
+        <p class="soft">Küresel hastalık yükü hesaplarına göre kireçlenmeye bağlı yeti yitimiyle (sakatlıkla) geçirilen yılların yaklaşık %20'si yüksek vücut ağırlığına bağlanıyor.</p>
       </div>
     </div>
   </section>
@@ -153,7 +153,7 @@ KNEE_BODY = f'''<header class="page">
       <p class="soft">Kılavuzlar tedavinin merkezine üç şeyi koyar: egzersiz, kilo kontrolü ve hastalığı doğru anlamak.</p>
       <ul class="tx">
         <li><b>Egzersiz</b><span>Tedavinin temelidir. Egzersiz ağrıyı 100 üzerinden ortalama 12 puan azaltıyor ve günlük işleri kolaylaştırıyor. Programda uyluk ve kalça kaslarını güçlendiren hareketler yer alır; kişiye göre ayarlanmış ve mümkünse bir uzman eşliğinde başlanmış bir program önerilir.</span></li>
-        <li><b>Kilo kontrolü</b><span>Fazla kilolu kişilerde her kilo kaybı faydalıdır; vücut ağırlığının %10'unu vermek %5'inden daha etkilidir. Fazla kilolu diz kireçlenmesi hastalarıyla yapılan bir çalışmada verilen her kilo, her adımda dize binen yükü yaklaşık 4 kg azalttı.</span></li>
+        <li><b>Kilo kontrolü</b><span>Fazla kilolu kişilerde her kilo kaybı faydalı olabilir; vücut ağırlığının %10'unu vermek %5'inden daha etkilidir. Fazla kilolu diz kireçlenmesi hastalarıyla yapılan bir çalışmada verilen her kilo, her adımda dize binen yükte yaklaşık 4 kg azalmayla ilişkiliydi.</span></li>
         <li><b>Yürümeye yardımcılar</b><span>Baston ya da yürüteç, ağrılı dönemlerde hareketliliği ve bağımsızlığı korur. Baston ağrısız taraftaki elde tutulur.</span></li>
         <li><b>İlaçlar</b><span>Dize sürülen ağrı kesici jeller ilk seçenektir. Ağızdan ağrı kesiciler hekiminizin önerisiyle en düşük dozda ve kısa süreli kullanılmalıdır.</span></li>
         <li><b>Eklem içi kortizon</b><span>Diğer tedaviler yetmediğinde 2–10 haftalık kısa süreli rahatlama sağlayabilir; hekim kararıyla uygulanır.</span></li>
@@ -227,7 +227,7 @@ KNEE_BODY = f'''<header class="page">
         <li>Dizde ani şişlik, kızarıklık, sıcaklık ve ateş (eklem iltihabı olabilir)</li>
         <li>Düşme ya da burkulma sonrası bacağa yük verememe</li>
         <li>Dizin kilitlenmesi, bükülüp düzelmemesi</li>
-        <li>Baldırda şişlik, ağrı ve kızarıklık (damar tıkanıklığı olabilir)</li>
+        <li>Baldırda şişlik, ağrı ve kızarıklık (toplardamarda pıhtı, yani derin ven trombozu olabilir)</li>
         <li>Dinlenmekle geçmeyen gece ağrısı ya da nedensiz kilo kaybı</li>
       </ul>
       {CTA_CARD("Diz ağrınız ve kireçlenmeniz", "diz kireçlenmesi")}

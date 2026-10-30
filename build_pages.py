@@ -1064,15 +1064,15 @@ OMUZ_FAQ = [
  ("Donuk omuz kendiliğinden geçer mi?", "Çoğu zaman kendi seyrinde düzelir ama bu aylar, hatta yıllar sürebilir; hastalığın tipik süresi 1–3 yıldır. Bazı kişilerde hafif kısıtlılık uzun süre kalabilir. Doğru egzersiz ve tedaviyle bu süreci daha rahat geçirmek mümkündür."),
  ("Ağrılı omzumu hareket ettirmeli miyim?", "Evet, ama zorlamadan. Ağrılı evrede ağrısız aralıkta nazik hareketler, katılaşma evresinde germe ve eklem mobilizasyonu öne çıkar. Egzersizler hafif bir gerginlik hissi verecek kadar yapılır, keskin ağrıya kadar zorlanmaz."),
  ("Donuk omuz için MR gerekir mi?", "Tanı çoğunlukla muayeneyle konur: omuz hem sizin kaldırdığınızda hem de başkası kaldırdığında aynı şekilde kısıtlıdır. Röntgen, ultrason veya MR tanı için şart değildir ama kireçlenme ya da yırtık gibi başka nedenleri dışlamak için istenebilir."),
- ("Kortizon iğnesi işe yarar mı?", "Eklem içi kortizon iğnesi özellikle erken, ağrılı evrede ağrıyı birkaç hafta içinde belirgin azaltabilir. Etkisi daha çok kısa vadelidir ve hekim kararıyla yapılır. Tedavinin temeli ise fizyoterapi ve düzenli egzersizdir."),
+ ("Kortizon iğnesi işe yarar mı?", "Eklem içi kortizon iğnesi kısa vadede ağrıyı azaltabilir; hareket açıklığına etkisi için kanıt sınırlıdır. Hekim kararıyla yapılır. Tedavinin temeli ise fizyoterapi ve düzenli egzersizdir."),
 ]
 OMUZ_TL = [
  ("1872", "Fransız cerrah Simon Duplay, omuzda ağrı ve hareket kısıtlılığıyla seyreden bu tabloyu omuz çevresi iltihabı (periartrit) olarak tanımladı."),
  ("1934", "ABD'li cerrah Ernest Codman, röntgeni normal olan ve yavaş başlayan bu ağrı ve kısıtlılık için “donuk omuz” (frozen shoulder) adını kullandı."),
  ("1945", "Neviaser, omuz kapsülündeki iltihap ve kalınlaşmayı vurgulamak için “adeziv kapsülit” adını önerdi."),
- ("1975", "Reeves, 41 hastayı 5–10 yıl izlediği çalışmada ağrı, katılaşma ve düzelme evrelerini tanımladı; hastalık ortalama 30 ay sürdü ve en iyi düzelmeden sonra da hastaların yarısından fazlasında hafif kısıtlılık kaldı. “Kendiliğinden geçer” görüşü en çok bu çalışmaya dayandırılır."),
- ("1995", "Bunker ve Anthony, donuk omuzdaki kapsül değişikliklerinin avuç içinde görülen <a href=\"dupuytren-kontrakturu.html\">Dupuytren hastalığına</a> benzediğini gösterdi."),
- ("2017", "7 çalışmayı inceleyen sistematik bir derleme, tedavi edilmeyen donuk omzun evrelerden geçerek tamamen düzeldiğine dair kanıt bulamadı: hareket zamanla bir miktar artsa da 1–4 yıllık izlemde çoğu zaman tam düzelme olmadı ve düzelmenin büyük kısmı erken dönemde görüldü."),
+ ("1975", "Reeves, 41 hastayı 5–10 yıl izlediği çalışmada ağrı, katılaşma ve düzelme evrelerini tanımladı; hastalık ortalama 30 ay sürdü ve en iyi düzelmeden sonra da hastaların yarısından fazlasında hafif kısıtlılık kaldı. “Kendiliğinden geçer” görüşü sıkça bu çalışmaya dayandırılır."),
+ ("1995", "Bunker ve Anthony, tedaviye yanıt vermeyen 12 hastadan alınan kapsül dokusunda, avuç içinde görülen <a href=\"dupuytren-kontrakturu.html\">Dupuytren hastalığına</a> benzeyen değişiklikler (iltihap olmadan bağ dokusu hücrelerinin çoğalması) bildirdi."),
+ ("2017", "7 çalışmayı inceleyen sistematik bir derleme, tedavi edilmeyen donuk omzun evrelerden geçerek tamamen düzeldiğine dair kanıt bulamadı: hareket zamanla bir miktar artsa da 1–4 yıllık izlemde tam düzelme görülmedi (kanıtın kalitesi düşük) ve düzelmenin büyük kısmı erken dönemde görüldü."),
  ("2020", "İngiltere'de 503 kişiyle yapılan UK FROST çalışmasında narkoz altında manipülasyon, kapalı kapsül gevşetme ameliyatı ve kortizon iğnesiyle birlikte erken fizyoterapi 1. yılda birbirinden klinik olarak üstün bulunmadı; ciddi yan etkiler kapsül gevşetme ameliyatında daha sıktı."),
 ]
 OMUZ_BODY = f'''<header class="page">
@@ -1081,7 +1081,7 @@ OMUZ_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Donuk omuz (adeziv kapsülit)</h1>
     <p class="lede">Omzun önce ağrıdığı, sonra giderek kilitlendiği bir durum. Çoğu zaman zamanla düzelir ama bu aylar, hatta yıllar sürebilir ve bazı kişilerde bir miktar kısıtlılık kalabilir. Doğru egzersiz ve tedaviyle bu süreci daha rahat geçirmek mümkün.</p>
-    <p class="meta">Son güncelleme: 28 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 30 Ekim 2026</p>
   </div>
 </header>
 
@@ -1147,7 +1147,7 @@ OMUZ_BODY = f'''<header class="page">
       <ul class="tx">
         <li><b>Fizyoterapi ve egzersiz</b><span>Tedavinin temelidir. Ağrılı evrede ağrısız aralıkta nazik hareketler, katılaşma evresinde germe ve eklem mobilizasyonu öne çıkar. Evde düzenli egzersiz çok önemlidir.</span></li>
         <li><b>Ağrı kontrolü</b><span>Sıcak uygulama ve hekiminizin önerdiği ağrı kesiciler, egzersizi yapılabilir kılar.</span></li>
-        <li><b>Eklem içi kortizon iğnesi</b><span>Özellikle erken, ağrılı evrede ağrıyı birkaç hafta içinde belirgin azaltabilir. Etkisi daha çok kısa vadelidir; hekim kararıyla yapılır.</span></li>
+        <li><b>Eklem içi kortizon iğnesi</b><span>Kısa vadede ağrıyı azaltabilir; hareket açıklığına etkisi için kanıt sınırlıdır; hekim kararıyla yapılır.</span></li>
         <li><b>Hidrodilatasyon</b><span>Eklem içine sıvı verilerek büzüşmüş kapsülün genişletilmesidir.</span></li>
         <li><b>Cerrahi seçenekler</b><span>Aylarca süren tedaviye yanıt alınamazsa narkoz altında manipülasyon ya da kapalı (artroskopik) kapsül gevşetme düşünülebilir.</span></li>
       </ul>
@@ -1214,7 +1214,7 @@ OMUZ_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       <ol>
         <li>American Academy of Orthopaedic Surgeons. <a href="https://www.orthoinfo.org/diseases--conditions/frozen-shoulder" target="_blank" rel="noopener">Frozen Shoulder</a>. OrthoInfo.</li>
-        <li>Bal A, Eksioglu E, Gulec B, Aydog E, Gurcay E, Cakci A. Effectiveness of corticosteroid injection in adhesive capsulitis. Clin Rehabil. 2008;22:503-512.</li>
+        <li>Bal A, Eksioglu E, Gulec B, Aydog E, Gurcay E, Cakci A. Effectiveness of corticosteroid injection in adhesive capsulitis. Clin Rehabil. 2008;22(6):503-512.</li>
         <li>Boyles RE, Flynn TW, Whitman JM. Manipulation following regional interscalene anesthetic block for shoulder adhesive capsulitis: a case series. Man Ther. 2005;10:164-171.</li>
         <li>Bunker TD, Anthony PP. The pathology of frozen shoulder: a Dupuytren-like disease. J Bone Joint Surg Br. 1995;77(5):677–683.</li>
         <li>Chen M-H, Chen W-S. <a href="https://www.mdpi.com/2077-0383/13/19/5696" target="_blank" rel="noopener">A narrative review of adhesive capsulitis with diabetes</a>. J Clin Med. 2024;13(19):5696.</li>

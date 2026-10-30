@@ -58,10 +58,10 @@ EXT.update({
 
 INME_FAQ = [
  ("İnmeden sonra toparlanma ne kadar sürer?", "Toparlanma en hızlı ilk haftalarda ve ilk 3 ayda olur. Klasik bir çalışmada hastaların %95'i günlük yaşam becerilerindeki en iyi düzeylerine ilk 12,5 hafta içinde ulaştı. Ancak düzenli ve hedefe yönelik çalışmayla aylar, hatta yıllar sonra da gelişme sağlanabilir."),
- ("Aylar geçti, fizyoterapinin hâlâ faydası olur mu?", "Evet. İnmenin üzerinden ortalama 18 ay geçmiş 224 kişinin katıldığı yoğun bir kol rehabilitasyonu programında klinik olarak anlamlı gelişme görüldü ve kazanımlar sonraki 6 ayda da sürdü. Hedefe yönelik, bol tekrarlı çalışma her dönemde değerlidir."),
+ ("Aylar geçti, fizyoterapinin hâlâ faydası olur mu?", "Evet. İnmenin üzerinden ortanca (orta değer) 18 ay geçmiş 224 kişinin tamamladığı yoğun bir kol rehabilitasyonu programında klinik olarak anlamlı gelişme görüldü ve kazanımlar sonraki 6 ayda da sürdü. Hedefe yönelik, bol tekrarlı çalışma her dönemde değerlidir."),
  ("Rehabilitasyona ne zaman başlanmalı?", "Hekiminizin onayıyla, akut dönemde, yani hastanedeyken başlanmalıdır. Ancak ilk 24 saatte başlatılan yoğun ve sık mobilizasyon ek fayda sağlamadı; zamanlama ve yoğunluk kişiye göre ayarlanır."),
  ("Etkilenen omuzdaki ağrıyı nasıl önleyebilirim?", "Kişiyi etkilenen kolundan çekerek kaldırmayın; oturur ve yatarken kolu bir yastık ya da masa üzerinde destekleyin. Baş üstü makara ile yapılan egzersizler omza zarar verebileceği için önerilmez. Ağrı başladıysa fizyoterapistiniz pozisyonlama, egzersiz ve gerekirse ek tedavileri planlar."),
- ("Evde rehabilitasyon hastanedeki kadar etkili mi?", "Uygun hastalarda evet. Erken taburcu edilip evde ekip desteğiyle rehabilitasyona devam eden hastalarda ölüm ya da bağımlı kalma riski azaldı ve hastanede kalış yaklaşık 6 gün kısaldı. Ev ortamında çalışmak, egzersizleri gerçek günlük işlere uyarlamayı da kolaylaştırır."),
+ ("Evde rehabilitasyon hastanedeki kadar etkili mi?", "Uygun hastalarda evet. Erken taburcu edilip evde ekip desteğiyle rehabilitasyona devam eden hastalarda ölüm ya da bağımlı kalma riski azaldı ve hastanede kalış ortalama 5,5 gün kısaldı. Ev ortamında çalışmak, egzersizleri gerçek günlük işlere uyarlamayı da kolaylaştırır."),
  ("Yeniden inme geçirme riskimi nasıl azaltabilirim?", "Tansiyonunuzu kontrol altında tutmak, ilaçlarınızı düzenli kullanmak, sigarayı bırakmak, düzenli hareket etmek ve sağlıklı beslenmek en etkili adımlardır. Dünyadaki inme yükünün %84'ü değiştirilebilir risk etkenlerine bağlıdır."),
 ]
 
@@ -70,6 +70,7 @@ INME_SRC = [
  "Feigin VL, Brainin M, Norrving B, et al. " + ext("https://journals.sagepub.com/doi/10.1177/17474930241308142", "World Stroke Organization: Global Stroke Fact Sheet 2025") + ". Int J Stroke. 2025;20(2):132-144.",
  "French B, Thomas LH, Coupe J, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006073.pub3/full", "Repetitive task training for improving functional ability after stroke") + ". Cochrane Database Syst Rev. 2016;11:CD006073.",
  "Hackett ML, Pickles K. Part I: frequency of depression after stroke: an updated systematic review and meta-analysis of observational studies. Int J Stroke. 2014;9(8):1017-1025.",
+ "Heart & Stroke Foundation of Canada. " + ext("https://www.strokebestpractices.ca/recommendations/stroke-rehabilitation-delivery/2-shoulder-pain-and-complex-regional-pain-syndrome", "Canadian Stroke Best Practice Recommendations: Shoulder pain and complex regional pain syndrome (CRPS) following stroke") + ". Öneri 2.1(2): baş üstü makaralar kullanılmamalı.",
  "Jørgensen HS, Nakayama H, Raaschou HO, et al. Outcome and time course of recovery in stroke. Part II: Time course of recovery. The Copenhagen Stroke Study. Arch Phys Med Rehabil. 1995;76(5):406-412.",
  "Langhorne P, Baylan S; Early Supported Discharge Trialists. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000443.pub4/abstract", "Early supported discharge services for people with acute stroke") + ". Cochrane Database Syst Rev. 2017;7:CD000443.",
  "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng236", "Stroke rehabilitation in adults (NG236)") + ". Londra: NICE; 2023.",
@@ -89,7 +90,7 @@ INME_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>İnme (felç) sonrası rehabilitasyon</h1>
     <p class="lede">İnme, beyne giden kan akışının aniden bozulmasıyla ortaya çıkar ve hareket, konuşma ya da günlük işlerde güçlüğe yol açabilir. Beyin kaybedilen işlevleri yeniden öğrenebilir; erken başlayan, düzenli ve bol tekrarlı rehabilitasyon bu toparlanmanın itici gücüdür.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 30 Ekim 2026</p>
   </div>
 </header>
 
@@ -100,7 +101,7 @@ INME_BODY = f'''<header class="page">
         <div class="stat"><b>12 milyon</b><span>Dünyada her yıl yeni inme geçiren kişi (2021)</span></div>
         <div class="stat"><b>4'te 1</b><span>25 yaş üstünde hayatı boyunca inme geçirecek kişi oranı</span></div>
         <div class="stat"><b>%84</b><span>İnme yükünün değiştirilebilir risk etkenlerine bağlı kısmı</span></div>
-        <div class="stat"><b>3 saat</b><span>İngiltere kılavuzunun önerdiği günlük rehabilitasyon süresi, haftada 5 gün</span></div>
+        <div class="stat"><b>3 saat</b><span>İngiltere kılavuzunun uygun kişiler için önerdiği en az günlük rehabilitasyon süresi (haftada en az 5 gün)</span></div>
       </div>
     </div>
   </section>
@@ -130,7 +131,7 @@ INME_BODY = f'''<header class="page">
       <h2>Beyin nasıl toparlanır?</h2>
       <p class="soft">Beyin, hasar gören bölgenin görevlerini çevre bölgelere ve yeni bağlantılara devredebilir. Buna nöroplastisite denir; anlamlı görevlerle ve bol tekrarla çalıştıkça güçlenir. Toparlanma en hızlı ilk haftalarda ve aylarda olur: klasik bir Danimarka çalışmasında hastaların %95'i günlük yaşam becerilerindeki en iyi düzeylerine ilk 12,5 hafta içinde ulaştı.</p>
       <div class="callout">
-        <p>Ama kapı kapanmaz. İnmenin üzerinden ortalama 18 ay geçmiş 224 kişinin katıldığı yoğun bir kol rehabilitasyonu programında kol işlevinde klinik olarak anlamlı gelişme görüldü ve kazanımlar sonraki 6 ayda da artmaya devam etti.</p>
+        <p>Ama kapı kapanmaz. İnmenin üzerinden ortanca (orta değer) 18 ay geçmiş 224 kişinin tamamladığı yoğun bir kol rehabilitasyonu programında kol işlevinde klinik olarak anlamlı gelişme görüldü ve kazanımlar sonraki 6 ayda da artmaya devam etti.</p>
       </div>
     </div>
   </section>
@@ -142,11 +143,11 @@ INME_BODY = f'''<header class="page">
       <ul class="tx">
         <li><b>Erken başlamak</b><span>Rehabilitasyon akut dönemde, hastanedeyken başlamalıdır. Ancak 2.000'den fazla hastanın katıldığı bir çalışmada ilk 24 saatte başlatılan yoğun ve sık mobilizasyon iyi sonuç oranını artırmadı, biraz azalttı (%46'ya karşı %50). Zamanlamaya hekim karar verir.</span></li>
         <li><b>Yoğunluk ve tekrar</b><span>İngiltere kılavuzu (NICE, 2023) uygun kişiler için fizyoterapi, ergoterapi ve konuşma terapisinin toplamda günde en az 3 saat, haftada en az 5 gün yapılmasını öneriyor. Bu süreye katılamayan ya da istemeyenlere de haftada 5 gün, yapabilecekleri kadar terapi sunulmalı. Seanslar arasında evde yapılan tekrarlar da bu sürenin önemli bir parçasıdır.</span></li>
-        <li><b>Evde rehabilitasyon</b><span>Uygun hastalarda erken taburculuk ve evde ekip desteğiyle sürdürülen rehabilitasyon, ölüm ya da bağımlı kalma riskini azalttı ve hastanede kalışı yaklaşık 6 gün kısalttı.</span></li>
-        <li><b>Görev odaklı çalışma</b><span>Kalkma, uzanma, yürüme gibi gerçek günlük görevlerin bol tekrarla çalışılması kol ve bacak işlevini geliştiriyor; kazanımlar 6 aya kadar sürüyor.</span></li>
+        <li><b>Evde rehabilitasyon</b><span>Uygun hastalarda erken taburculuk ve evde ekip desteğiyle sürdürülen rehabilitasyon, ölüm ya da bağımlı kalma riskini azalttı ve hastanede kalışı ortalama 5,5 gün kısalttı.</span></li>
+        <li><b>Görev odaklı çalışma</b><span>Kalkma, uzanma, yürüme gibi gerçek günlük görevlerin bol tekrarla çalışılması özellikle yürümeyi, daha az ölçüde kol ve el işlevini geliştiriyor; kazanımlar 6 aya kadar sürüyor.</span></li>
         <li><b>Yürüme, denge ve kondisyon</b><span>Yürüyüş içeren kondisyon egzersizleri ve kuvvetle birleştirilmiş programlar yürüme hızını ve dengeyi geliştiriyor, günlük yaşamdaki kısıtlılığı azaltıyor.</span></li>
         <li><b>Kol ve el</b><span>Ayna terapisi, etkilenen kol ve bacağın hareketini ve günlük işlerin yapılabilmesini orta düzeyde geliştiriyor. Etkilenen eli gün içinde küçük işlere katmak da bu çalışmanın bir parçasıdır.</span></li>
-        <li><b>Omuz ve kas sertliği</b><span>Etkilenen kolu desteklemek, doğru pozisyonlamak ve düzenli germe temeldir. Kas sertliğinde gerektiğinde botulinum toksini fizyoterapiyle birlikte uygulanabilir. Baş üstü makara egzersizleri omza zarar verebileceği için önerilmez.</span></li>
+        <li><b>Omuz ve kas sertliği</b><span>Etkilenen kolu desteklemek, doğru pozisyonlamak ve düzenli germe temeldir. Kas sertliğinde gerektiğinde, hekim kararıyla botulinum toksini fizyoterapiyle birlikte uygulanabilir. Baş üstü makara egzersizleri omza zarar verebileceği için önerilmez.</span></li>
         <li><b>Duygu durumu</b><span>İnme geçirenlerin yaklaşık %31'inde depresyon görülür. Depresyon ve kaygının taranıp tedavi edilmesi, toparlanmanın ayrılmaz bir parçasıdır. <a href="stres.html">Nefes egzersizlerine göz atın →</a></span></li>
       </ul>
     </div>

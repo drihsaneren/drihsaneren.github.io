@@ -802,3 +802,6 @@ Kullanıcı: "şu yuvarlağın ortasına tıklayınca da başlasın". #orb tıkl
 
 ## 29 Ekim 2026 — günlük denetim (bel fıtığı, bel ağrısı, boyun fıtığı)
 Ayrıntılar DENETIM.md'de. Önemli: NICE NG59 29 Temmuz 2026'da BDT/psikolojik terapi önerilerini (1.2.13, 1.2.14) kaldırdı; sitede NICE'a dayanarak BDT öneren başka cümle varsa (ör. fibromiyalji dışı bel/siyatik sayfaları) ilgili denetimde düzeltilmeli. SRC_NICE59 künyesi "2016, güncelleme 2020 ve 2026". Çeviri tur36. Sonraki batch: tur37.
+
+## 30 Ekim 2026 — günlük denetim (diz kireçlenmesi, donuk omuz, inme rehabilitasyonu)
+Ayrıntılar DENETIM.md'de. İnme sayfasının tarihi artık sabit metin ("30 Ekim 2026"; önceden build_pages.UPDATED). Yeni oturumda `pip install qrcode --break-system-packages` gerekiyor (yoksa rb.sh sessizce yayımlamıyor: publish.sh "hero nav bulunamadı"). Çeviri tur37. Sonraki batch: tur38.
