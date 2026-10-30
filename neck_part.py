@@ -169,15 +169,26 @@ BOYUN_AGRI_FAQ = [
  ("Hangi yastığı kullanmalıyım?", "Herkes için en iyi tek bir yastık yok. Yan yatarken başınızı omuz hizasında tutan, sırtüstü yatarken başınızı öne itmeyen bir yükseklik seçin. Yüzüstü yatmak boynu uzun süre bir yana çevirdiği için ağrıyı artırabilir."),
  ("Boyunluk kullanmalı mıyım?", "Sıradan boyun ağrısında önerilmez. Uzun süre kullanmak kasları zayıflatıp iyileşmeyi geciktirebilir. Kaza sonrası ya da hekiminizin özel olarak önerdiği durumlar ayrıdır."),
  ("Röntgen ya da MR çektirmem gerekir mi?", "Çoğu boyun ağrısında gerekmez. Yaşla birlikte görülen aşınma bulguları ağrısı olmayan kişilerde de sıktır ve çoğu zaman ağrıyı açıklamaz. Aşağıdaki uyarı işaretlerinden biri varsa ya da ağrı birkaç haftada düzelmiyorsa hekiminiz karar verir."),
+ ("Telefona eğilmek boynumu bozar mı?", "Brezilya'da 18–21 yaşındaki 150 gençle yapılan bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı. Çalışma küçük ve kesitseldir; uzun yıllar boyunca eğik duruşun etkisi incelenmedi. Uzun süre aynı pozisyonda kalmak rahatsızlık veriyorsa ara verip pozisyonunuzu değiştirin."),
  ("Boyun düzleşmesi tehlikeli mi?", "Tek başına genellikle hayır. Boyun eğriliğinin azalması ağrısı olmayan kişilerde de sık görülür ve ağrıyla ilişkisi gösterilememiştir. Önemli olan şikâyetleriniz ve muayene bulgularıdır."),
 ]
+BOYUN_TL = [
+ ("2008", "Bone and Joint Decade Görev Gücü boyun ağrısını yeniden ele aldı: ağrıyı ciddiyetine göre dört dereceye ayırdı ve ağrının en az yarısında tamamen geçmediğini, iyileşmeyi psikolojik etkenlerin ve iş stresinin fiziksel etkenlerden daha çok etkiliyor göründüğünü bildirdi. Bir kez boyun ağrısı yaşayanların %50–85'i 1–5 yıl içinde yeniden yaşadı."),
+ ("2015", "27 çalışmayı inceleyen Cochrane derlemesi, uzun süren boyun ağrısında boyun, omuz ve kürek kemiği çevresini güçlendiren egzersizlerin ağrıyı tedavinin hemen sonunda orta ile belirgin düzeyde azalttığını buldu (orta kalitede kanıt); yalnızca germe egzersizinin yararı gösterilemedi."),
+ ("2015", "Ağrısı olmayan 1.211 kişinin boyun MR'larını inceleyen çalışmada disk bombeleşmesi %87,6 oranında görüldü; 20'li yaşlarda bile yaygındı."),
+ ("2017", "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi bölümünün kılavuzu güncellendi: boyun ağrısını dört tipe ayırıp her tip için farklı egzersiz ve manuel terapi önerdi."),
+ ("2018", "Brezilya'da 18–21 yaşındaki 150 gençle yapılan kesitsel bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı."),
+ ("2021", "Avrupa'daki altı boyun ağrısı kılavuzunu karşılaştıran bir derleme: egzersiz ve başka tedavilerle birlikte manuel terapi orta düzeyde, bilgilendirme ve güvence verme zayıf düzeyde önerildi; elektroterapi, akupunktur ve kuru iğneleme, traksiyon ve boyunluk konusunda kılavuzlar tutarsızdı ya da kesin bir sonuca varamadı."),
+ ("2024", "Küresel Hastalık Yükü çalışması dünyada 2020'de 203 milyon kişinin boyun ağrısı yaşadığını hesapladı."),
+]
+
 AGRI_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun ağrısı</h1>
     <p class="lede">Neredeyse herkesin hayatının bir döneminde yaşadığı, çoğu zaman ciddi bir nedene bağlı olmayan ama sık tekrarlayabilen bir sorun. İyi haber: düzenli hareket ve doğru egzersizle büyük ölçüde kontrol altına alınabiliyor.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="meta">Son güncelleme: 30 Ekim 2026</p>
   </div>
 </header>
 
@@ -190,10 +201,11 @@ AGRI_BODY = f'''<header class="page">
         <div class="stat"><b>45–74</b><span>En sık etkilenen yaş aralığı</span></div>
         <div class="stat"><b>%50–85</b><span>Bir kez yaşayanlarda 1–5 yıl içinde tekrar</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tipler", "Dört tip"), ("derece", "Ne kadar ciddi?"), ("duzlesme", "Düzleşme, MR ve duruş"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("masa", "Masa başında"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
 
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -214,7 +226,7 @@ AGRI_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="tipler">
     <div class="wrap">
       <h2>Boyun ağrısının dört tipi</h2>
       <p class="soft">Fizyoterapi kılavuzları boyun ağrısını dört gruba ayırır. Tedavi de buna göre şekillenir.</p>
@@ -227,28 +239,62 @@ AGRI_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section id="duzlesme">
+  <section id="derece">
     <div class="wrap">
-      <h2>Boyun düzleşmesi ve "kötü duruş" hakkında</h2>
-      <p class="soft">Röntgende "boyun düzleşmesi" yazısını görmek birçok kişiyi endişelendirir. 54'ü boyun ağrılı, 53'ü ağrısız 107 kişinin karşılaştırıldığı bir çalışmada iki grup arasında boyun eğriliği açısından fark bulunmadı. Araştırmacılara göre bu tür bulgular ağrının nedeni değil, rastlantısal olarak görülen değişikliklerdir.</p>
-      <div class="callout">
-        <p>Duruş için de benzer bir durum var: herkes için tek bir "doğru duruş" yok. En iyi duruş, sık değiştirilen duruştur. Sorun çoğu zaman pozisyonun kendisinde değil, aynı pozisyonda çok uzun kalmaktadır.</p>
+      <h2>Ne kadar ciddi? Dört derece</h2>
+      <p class="soft">Uluslararası bir uzman grubu (Bone and Joint Decade Görev Gücü, 2008) boyun ağrısını ciddiyetine göre dört dereceye ayırdı. Boyun ağrılarının çoğu ilk iki derecededir.</p>
+      <div class="kinds">
+        <div class="kind"><span class="n">I</span><h3>Günlük işleri az etkileyen ağrı</h3><p>Ciddi bir yapısal neden belirtisi yok. Kapsamlı tetkik ya da girişimsel tedavi genellikle gerekmez.</p></div>
+        <div class="kind"><span class="n">II</span><h3>Günlük işleri etkileyen ağrı</h3><p>Ciddi bir neden belirtisi yok ama ağrı günlük işleri kısıtlıyor. Uzun süreli kısıtlılığı önlemek için erken tedavi önerilir.</p></div>
+        <div class="kind"><span class="n">III</span><h3>Sinir bulgularıyla</h3><p>Reflekslerde azalma ya da kas güçsüzlüğü gibi sinir bulguları var. İleri tetkik gerekir.</p><a href="boyun-fitigi.html">Boyun fıtığı ve sinir sıkışması →</a></div>
+        <div class="kind"><span class="n">IV</span><h3>Ciddi bir nedenin belirtileriyle</h3><p>Kırık ya da tümör gibi ciddi bir yapısal nedenin belirtileri var. Hemen değerlendirme gerekir.</p><a href="#uyari">Uyarı işaretleri →</a></div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="duzlesme">
+    <div class="wrap">
+      <h2>Boyun düzleşmesi, MR bulguları ve "kötü duruş"</h2>
+      <p class="soft">Röntgende "boyun düzleşmesi" yazısını görmek birçok kişiyi endişelendirir. 54'ü boyun ağrılı, 53'ü ağrısız 107 kişinin karşılaştırıldığı bir çalışmada iki grup arasında boyun eğriliği açısından fark bulunmadı. Araştırmacılara göre bu tür bulgular ağrının nedeni değil, rastlantısal olarak görülen değişikliklerdir.</p>
+      <p class="soft">MR raporlarındaki "disk bombeleşmesi" için de durum benzer: ağrısı olmayan 1.211 kişinin boyun MR'larının incelendiği çalışmada disk bombeleşmesi %87,6 oranında görüldü; 20'li yaşlarda bile erkeklerin %73'ünde, kadınların %78'inde vardı.</p>
+      <div class="callout">
+        <p>Duruş için de benzer bir durum var: Brezilya'da 18–21 yaşındaki 150 gençle yapılan kesitsel bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı. Çalışma küçüktür ve uzun yıllar boyunca eğik duruşun etkisini incelemedi. Uzun süre aynı pozisyonda kalmak rahatsızlık veriyorsa pozisyonunuzu sık sık değiştirin.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Boyun ağrısı araştırmalarının kısa tarihi</h2>
+      <p class="soft">Son 20 yılda boyun ağrısına bakış, "aşınma ve kötü duruş" anlatısından uzaklaştı; araştırmalar egzersizin, hareketli kalmanın ve ağrının tipine göre tedavinin önemini öne çıkardı.</p>
+      {g_tl(BOYUN_TL)}
+    </div>
+  </section>
+
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
       <p class="soft">Çoğu boyun ağrısında röntgen ya da MR gerekmez; tanı muayeneyle konur. Tedavi, ağrının tipine ve ne zamandır sürdüğüne göre planlanır.</p>
       <ul class="tx">
         <li><b>Hareketli kalmak</b><span>Yatak istirahati ve uzun süre boyunluk önerilmez. Ağrının izin verdiği ölçüde günlük işlere devam etmek iyileşmeyi hızlandırır.</span></li>
-        <li><b>Egzersiz</b><span>Tedavinin temelidir. Boyun, omuz ve kürek kemiği çevresini güçlendiren egzersizlerin uzun süren boyun ağrısını orta ile belirgin düzeyde azalttığı gösterilmiştir. Yalnızca germe egzersizleri tek başına yeterli olmayabilir.</span></li>
-        <li><b>Manuel terapi</b><span>Boyun ve sırt omurgasına uygulanan mobilizasyon ve manipülasyon, egzersizle birlikte ağrıyı ve hareketi iyileştirir. Muayeneden sonra, eğitimli bir fizyoterapist tarafından uygulanmalıdır.</span></li>
-        <li><b>Kuru iğneleme, TENS, lazer</b><span>Uzun süren boyun ağrısında kılavuzlarda destekleyici seçenekler arasında yer alır. Tek başına değil, egzersizle birlikte anlamlıdır.</span></li>
+        <li><b>Egzersiz</b><span>Tedavinin temelidir. Boyun, omuz ve kürek kemiği çevresini güçlendiren egzersizler uzun süren boyun ağrısını tedavinin hemen sonunda orta ile belirgin düzeyde azalttı (orta kalitede kanıt). Yalnızca germe egzersizlerinin yararı gösterilemedi.</span></li>
+        <li><b>Manuel terapi</b><span>Boyun ve sırt omurgasına uygulanan mobilizasyon ve manipülasyon, Avrupa kılavuzlarında egzersiz gibi başka tedavilerle birlikte orta düzeyde öneriliyor; tek başına kullanımı konusunda kılavuzlar tutarsız. Muayeneden sonra, eğitimli bir fizyoterapist tarafından uygulanmalıdır.</span></li>
         <li><b>İlaçlar</b><span>Hekiminizin önerdiği ağrı kesiciler kısa süreli rahatlama sağlayabilir.</span></li>
         <li><b>Stres ve uyku</b><span>Uzun süren ağrıda stres yönetimi ve düzenli uyku da tedavinin parçasıdır. <a href="stres.html">Nefes egzersizlerine göz atın →</a></span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi bölümünün kılavuzu (JOSPT, 2017) ile Avrupa'daki altı boyun ağrısı kılavuzunu karşılaştıran derlemenin (2021) bulguları yan yana. Öneriler ağrının tipine göre değişir; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Bilgilendirme ve güvence</h3><dl><dt>Avrupa</dt><dd>Hareketli kalma ve egzersize teşvik dahil, zayıf düzeyde öneriliyor.</dd><dt>JOSPT</dt><dd>Kaza sonrası boyun ağrısında olağan etkinliklere en kısa sürede dönmek ve iyileşmenin genellikle ilk 2–3 ayda beklendiğini bilmek.</dd></dl></div>
+        <div class="kind"><h3>Egzersiz</h3><dl><dt>Avrupa</dt><dd>Orta düzeyde öneriliyor.</dd><dt>JOSPT</dt><dd>Tipe göre: hareket açıklığı, kürek kemiği ve kol güçlendirme, dayanıklılık ve koordinasyon egzersizleri.</dd></dl></div>
+        <div class="kind"><h3>Manuel terapi</h3><dl><dt>Avrupa</dt><dd>Başka tedavilerle birlikte orta düzeyde öneriliyor; tek başına tutarsız.</dd><dt>JOSPT</dt><dd>Sırt (torakal) ve boyun manipülasyonu ya da mobilizasyonu, ağrının tipine ve süresine göre öneriliyor.</dd></dl></div>
+        <div class="kind"><h3>Psikolojik yaklaşımlar</h3><dl><dt>Avrupa</dt><dd>Yalnızca belirli gruplarda (ruh hali sorunları, psikososyal risk etkenleri ya da karmaşık, uzun süren ağrı) zayıf düzeyde öneriliyor.</dd><dt>JOSPT</dt><dd>Kaza sonrası uzun süren ağrıda bilişsel davranışçı ilkelerle kişiye özel, kademeli egzersiz.</dd></dl></div>
+        <div class="kind"><h3>Traksiyon</h3><dl><dt>Avrupa</dt><dd>Tutarsız.</dd><dt>JOSPT</dt><dd>Kola yayılan uzun süren ağrıda aralıklı boyun traksiyonu, egzersiz ve manuel terapiyle birlikte.</dd></dl></div>
+        <div class="kind"><h3>TENS ve lazer</h3><dl><dt>Avrupa</dt><dd>Elektroterapide kılavuzlar kesin bir sonuca varamadı; ikisi aleyhte.</dd><dt>JOSPT</dt><dd>TENS kaza sonrası ağrıda, lazer uzun süren hareket kısıtlılığında ve kola yayılan yeni ağrıda seçenekler arasında (zayıf ya da orta düzeyde kanıt).</dd></dl></div>
+        <div class="kind"><h3>Kuru iğneleme ve akupunktur</h3><dl><dt>Avrupa</dt><dd>Tutarsız.</dd><dt>JOSPT</dt><dd>Kuru iğneleme, uzun süren hareket kısıtlılığında seçenekler arasında.</dd><dt>Not</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+        <div class="kind"><h3>Boyunluk</h3><dl><dt>Avrupa</dt><dd>Kesin bir sonuca varılamadı.</dd><dt>JOSPT</dt><dd>Kaza sonrası kullanımı en aza indirmek; kola yayılan yeni ağrıda kısa süreli.</dd></dl></div>
+      </div>
     </div>
   </section>
 
@@ -261,11 +307,11 @@ AGRI_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="masa">
     <div class="wrap two">
       <div>
         <h2>Masa başında boynunuz için</h2>
-        <p class="soft">Ekran başında geçen saatler boyun ağrısının en sık tetikleyicilerinden biri. Küçük düzenlemeler büyük fark yaratır.</p>
+        <p class="soft">Ekran başında saatlerce aynı pozisyonda kalmak boyunda rahatsızlık yapabilir. Duruşun boyun ağrısıyla ilişkisi araştırmalarda zayıf bulunsa da şu küçük düzenlemeler rahat çalışmanıza yardım edebilir.</p>
       </div>
       <ul class="dots" style="align-self:center">
         <li>Ekranın üst kenarı göz hizasında ya da biraz altında olsun.</li>
@@ -298,14 +344,14 @@ AGRI_BODY = f'''<header class="page">
     </div>
   </section>
 
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(BOYUN_AGRI_FAQ)}
     </div>
   </section>
 
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
       <p class="soft">Boyun ağrısı çoğunlukla zararsızdır. Şu durumlarda ise beklemeden bir hekime başvurun:</p>
@@ -329,10 +375,13 @@ AGRI_BODY = f'''<header class="page">
       {src_list([
         SRC_BLANPIED,
         "Carroll LJ, Hogg-Johnson S, van der Velde G, et al. Course and prognostic factors for neck pain in the general population: results of the Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders. Spine. 2008;33(4 Suppl):S75-S82.",
-        "Corp N, Mansell G, Stynes S, et al. Evidence-based treatment recommendations for neck and low back pain across Europe: a systematic review of guidelines. Eur J Pain. 2021;25(2):275-295.",
+        "Corp N, Mansell G, Stynes S, et al. " + ext("https://publications.aston.ac.uk/id/eprint/42010/1/ejp.1679.pdf", "Evidence-based treatment recommendations for neck and low back pain across Europe: a systematic review of guidelines") + ". Eur J Pain. 2021;25(2):275-295.",
+        "Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Andrade ICS, Meziat-Filho N. " + ext("https://www.painscience.com/biblio/no-link-between-text-neck-posture-and-neck-pain-in-150-brazilian-young-adults.html", "Text neck and neck pain in 18–21-year-old young adults") + ". Eur Spine J. 2018.",
         "GBD 2021 Neck Pain Collaborators. " + ext("https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00321-1/fulltext", "Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021") + ". Lancet Rheumatol. 2024;6(3):e142-e155.",
         "Grob D, Frauenfelder H, Mannion AF. " + ext("https://link.springer.com/article/10.1007/s00586-006-0254-1", "The association between cervical spine curvature and neck pain") + ". Eur Spine J. 2007;16(5):669-678.",
         "Gross A, Kay TM, Paquin JP, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004250.pub5/full", "Exercises for mechanical neck disorders") + ". Cochrane Database Syst Rev. 2015;1:CD004250.",
+        "Haldeman S, Carroll L, Cassidy JD, et al. The Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders: executive summary. Spine. 2008;33(4 Suppl). Özet: " + ext("https://www.newswise.com/articles/task-force-presents-evidence-based-recommendations-on-neck-pain", "Wolters Kluwer basın bülteni, 2008") + ".",
+        "Nakashima H, Yukawa Y, Suda K, et al. " + ext("https://www.qxmd.com/r/25584950", "Abnormal findings on magnetic resonance images of the cervical spines in 1211 asymptomatic subjects") + ". Spine. 2015.",
         "Physiopedia. " + ext("https://www.physio-pedia.com/Mechanical_Neck_Pain", "Mechanical Neck Pain") + ".",
       ])}
     </div>
