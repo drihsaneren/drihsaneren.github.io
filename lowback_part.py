@@ -101,13 +101,14 @@ BEL_FAQ = [
  ("Bel korsesi takmalı mıyım?", "Genellikle hayır. Bel ağrısı ve siyatik için hazırlanan İngiltere kılavuzu (NICE) korse, tabanlık ve bel çekme (traksiyon) tedavilerini önermiyor. Korseyi uzun süre kullanmak kasların çalışmasını azaltabilir."),
  ("MR çektirmem gerekir mi?", "Çoğu zaman gerekmez. Ağrısı olmayan kişilerde de disk dejenerasyonu ve disk bombeleşmesi çok sık görülür; MR'da bir bulgu çıkması ağrının nedeninin o olduğu anlamına gelmez. Uyarı işaretleri varsa ya da ameliyat düşünülüyorsa hekiminiz karar verir."),
  ("Sert yatak mı daha iyi?", "Çok sert yatak şart değil. Uzun süren bel ağrısı olan kişilerle yapılan bir çalışmada orta sertlikteki yatak, sert yataktan daha iyi sonuç verdi. Rahat uyuduğunuz, sabah daha az ağrıyla kalktığınız yatak en uygunudur."),
- ("Sıcak uygulama işe yarar mı?", "Yeni başlayan bel ağrısında sıcak uygulama kısa süreli rahatlama sağlayabilir: Amerikan Hekimler Koleji'nin kılavuzu bunu ilk seçenekler arasında sayıyor ve etkisini orta düzeyde buluyor (kanıt orta kalitede). Cildinizi yakmayacak bir sıcaklıkta kullanın."),
- ("Duruşum bozuk olduğu için mi belim ağrıyor?", "Araştırmalar oturma, ayakta durma ve yük kaldırma sırasındaki duruşun bel ağrısının başlamasını ya da sürmesini öngörmediğini gösteriyor. Uzun süre aynı pozisyonda kalmak ağrınızı artırıyorsa pozisyonunuzu sık sık değiştirin ve ara ara kalkıp yürüyün."),
+ ("Sıcak uygulama işe yarar mı?", "12 haftadan kısa süren bel ağrısında sıcak uygulama rahatlama sağlayabilir: Amerikan Hekimler Koleji'nin kılavuzu bunu ilk seçenekler arasında sayıyor ve etkisini orta düzeyde buluyor (kanıt orta kalitede). Cildinizi yakmayacak bir sıcaklıkta kullanın; uyuşukluk ya da his azalması olan bölgeye ve uyurken uygulamayın."),
+ ("Duruşum bozuk olduğu için mi belim ağrıyor?", "Araştırmalarda oturma, ayakta durma ve yük kaldırma sırasındaki duruş, bel ağrısının başlaması ya da sürmesiyle ilişkili bulunmadı (bu çalışmalar çoğunlukla gözlemseldir). Uzun süre aynı pozisyonda kalmak ağrınızı artırıyorsa pozisyonunuzu sık sık değiştirin ve ara ara kalkıp yürüyün."),
  ("Ağrım geçti, egzersize devam etmeli miyim?", "Evet. Bel ağrısı sık tekrarlar: bir çalışmada ağrısı geçenlerin %69'u bir yıl içinde yeniden bel ağrısı yaşadı. Düzenli egzersiz ve hareketli bir yaşam tekrar riskini azaltmanın en iyi yoludur."),
 ]
 BEL_SRC = [
  SRC_BRINJIKJI,
  "da Silva T, Mills K, Brown BT, et al. Recurrence of low back pain is common: a prospective inception cohort study. J Physiother. 2019;65(3):159-165.",
+ "Deyo RA, Diehl AK, Rosenthal M. " + ext("https://www.qxmd.com/r/2945109", "How many days of bed rest for acute low back pain? A randomized clinical trial") + ". N Engl J Med. 1986;315(17):1064–1070.",
  "GBD 2021 Low Back Pain Collaborators. " + ext("https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00098-X/fulltext", "Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050") + ". Lancet Rheumatol. 2023;5(6):e316-e329.",
  "Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009790.pub2/full", "Exercise therapy for chronic low back pain") + ". Cochrane Database Syst Rev. 2021;9:CD009790.",
  "Hartvigsen J, Hancock MJ, Kongsted A, et al. " + ext("https://core.ac.uk/download/153535953.pdf", "What low back pain is and why we need to pay attention") + ". Lancet. 2018. doi:10.1016/S0140-6736(18)30480-X.",
@@ -116,7 +117,7 @@ BEL_SRC = [
  "Jarvik JG, et al. " + ext("https://www.qxmd.com/r/12783911", "Rapid magnetic resonance imaging vs radiographs for patients with low back pain: a randomized controlled trial") + ". JAMA. 2003.",
  "Kovacs FM, Abraira V, Peña A, et al. Effect of firmness of mattress on chronic non-specific low-back pain: randomised, double-blind, controlled, multicentre trial. Lancet. 2003;362(9396):1599-1604.",
  "Malmivaara A, Häkkinen U, Aro T, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/1657", "The treatment of acute low back pain: bed rest, exercises, or ordinary activity?") + ". N Engl J Med. 1995;332(6):351–355.",
- "Guideline Central. " + ext("https://www.guidelinecentral.com/insights/aug-2026-nice-lowbackpainsciaticaover16-guideline-spotlight/", "NICE low back pain and sciatica in over 16s: July 2026 update (psychological therapy recommendations withdrawn)") + ". Ağustos 2026.",
+ "Guideline Central. " + ext("https://www.guidelinecentral.com/insights/aug-2026-nice-lowbackpainsciaticaover16-guideline-spotlight/", "Aug 2026 NICE guideline spotlight: low back pain and sciatica in over 16s") + ". NICE NG59 Temmuz 2026 güncellemesinin özeti; ayrıca " + ext("https://www.physitrack.com/insights/nice-low-back-pain-guideline-update-2026", "Physitrack") + ".",
  SRC_NICE59,
  "Physiopedia. " + ext("https://www.physio-pedia.com/Non_Specific_Low_Back_Pain", "Non Specific Low Back Pain") + ".",
  "O'Sullivan PB, Caneiro JP, O'Sullivan K, et al. " + ext("https://www.paulogentil.com/pdf/Back%20to%20Basics%20-%2010%20Facts%20Every%20Person%20Should%20Know%20About%20Back%20Pain.pdf", "Back to basics: 10 facts every person should know about back pain") + ". Br J Sports Med. 2020. doi:10.1136/bjsports-2019-101611.",
@@ -127,15 +128,15 @@ BEL_SRC = [
 ]
 
 BEL_TL = [
- ("1986", "ABD'de akut bel ağrısı olan 203 kişiyle yapılan çalışmada 2 günlük yatak istirahati 7 gün kadar etkiliydi ve işe gidilemeyen gün sayısı %45 daha azdı."),
- ("1995", "Finlandiya'da akut bel ağrısı olan 186 çalışanla yapılan çalışmada ağrının izin verdiği ölçüde olağan işlerine devam edenler, yatak istirahati yapanlardan ve kendilerine bel egzersizleri verilenlerden daha hızlı iyileşti. Yazarlar 2 günlük yatak istirahatinin bile iyileşmeyi geciktirebileceğini belirtti."),
- ("2003", "ABD'de 380 hastayla yapılan çalışmada erken MR çekilenlerle röntgen çekilenlerin bir yıl sonraki durumu neredeyse aynıydı."),
- ("2015", "Ağrısı olmayan kişilerin MR'larını inceleyen bir derleme, disk aşınması ve bombeleşmesinin yaşla birlikte çok sık görüldüğünü gösterdi."),
- ("2016", "İngiltere'nin NICE kılavuzu yayımlandı: bel ağrısında rutin görüntüleme, korse, traksiyon, akupunktur, TENS ve omurga iğneleri önerilmedi; hareketli kalmak ve egzersiz öne çıktı."),
- ("2017", "Amerikan Hekimler Koleji (ACP), ilaçlardan önce ilaç dışı tedavileri önerdi: yeni başlayan ağrıda sıcak uygulama, masaj, akupunktur ya da manipülasyon; uzun süren ağrıda egzersiz, yoga, tai chi ve bilişsel davranışçı terapi gibi seçenekler."),
+ ("1986", "Akut bel ağrısı olan 203 kişiyle yapılan çalışmada 2 gün yatak istirahati önerilenler, 7 gün önerilenler kadar iyi sonuç aldı ve %45 daha az iş günü kaybetti."),
+ ("1995", "Finlandiya'da akut bel ağrısı olan 186 çalışanla yapılan çalışmada ağrının izin verdiği ölçüde olağan işlerine devam edenler, yatak istirahati yapanlardan ve fizyoterapistin öğrettiği bel hareketlendirme egzersizlerini yapanlardan daha hızlı iyileşti."),
+ ("2003", "ABD'de 380 hastayla yapılan çalışmada ilk görüntüleme olarak röntgen yerine hızlı MR çekilenlerin bir yıl sonraki durumu, röntgen çekilenlerle neredeyse aynıydı."),
+ ("2015", "Ağrısı olmayan kişilerin MR ve BT görüntülerini inceleyen bir derleme, disk aşınması ve bombeleşmesinin yaşla birlikte çok sık görüldüğünü gösterdi."),
+ ("2016", "İngiltere'nin NICE kılavuzu yayımlandı: bel ağrısında rutin görüntüleme, korse, traksiyon, akupunktur, TENS ve omurgaya yapılan iğne (enjeksiyon) tedavilerinin uygulanmaması önerildi; hareketli kalmak öne çıktı."),
+ ("2017", "Amerikan Hekimler Koleji (ACP), ilaçlardan önce ilaç dışı tedavileri önerdi: 12 haftadan kısa süren ağrıda sıcak uygulama, masaj, akupunktur ya da manipülasyon; uzun süren ağrıda egzersiz, yoga, tai chi ve bilişsel davranışçı terapi gibi seçenekler."),
  ("2018", "The Lancet'teki bir makale dizisi bel ağrısını küresel bir halk sağlığı sorunu olarak ele aldı; bel ağrısı olanların %1'inden azında ciddi bir hastalık bulunduğunu vurguladı."),
  ("2024", "95 çalışmayı inceleyen bir derleme, yeni başlayan bel ağrısının çoğunlukla ilk 6 haftada belirgin şekilde azaldığını, uzun süren ağrıda ise düzelmenin yavaş olduğunu gösterdi."),
- ("2026", "NICE, dayandığı kanıtın bir kısmı sonradan geri çekildiği için psikolojik tedavilere ilişkin önerilerini kılavuzdan çıkardı; ABD kılavuzu (ACP) ise bilişsel davranışçı terapiyi seçenekler arasında sayıyor."),
+ ("2026", "NICE, dayandığı kanıtın bir kısmı sonradan geri çekildiği için psikolojik tedavilere ilişkin önerilerini kılavuzdan çıkardı ve yerine yeni bir öneri yapmadı; Amerikan Hekimler Koleji'nin 2017 kılavuzu ise bilişsel davranışçı terapiyi seçenekler arasında sayıyor."),
 ]
 
 BEL_BODY = f'''<header class="page">
@@ -169,11 +170,11 @@ BEL_BODY = f'''<header class="page">
         <p class="soft">Ağrı dizin altına, bacağa ve ayağa uyuşma ya da karıncalanmayla yayılıyorsa bir sinir kökü etkileniyor olabilir: <a href="bel-fitigi.html">Bel fıtığı ve siyatik →</a></p>
       </div>
       <div>
-        <h2>Neden olur?</h2>
+        <h2>Neler tetikleyebilir, riski artırabilir?</h2>
         <ul class="dots">
-          <li>Uzun süre aynı pozisyonda kalmak, özellikle saatlerce oturmak</li>
+          <li>Uzun süre hareketsiz kalmak, örneğin saatlerce oturmak (var olan ağrıyı artırabilir)</li>
           <li>Alışık olunmayan ağır kaldırma, ani dönme ya da zorlanma</li>
-          <li>Hareketsizlik, gövde ve kalça kaslarının zayıflığı</li>
+          <li>Hareketsizlik ve düşük fiziksel kondisyon</li>
           <li>Fazla kilo ve sigara</li>
           <li>Stres, kaygı, yorgunluk ve uykusuzluk</li>
           <li>Fiziksel olarak ağır işler</li>
@@ -190,8 +191,8 @@ BEL_BODY = f'''<header class="page">
       <h3 class="g-h3">Süreye göre</h3>
       <div class="kinds">
         <div class="kind"><span class="n">6 haftadan kısa</span><h3>Yeni başlayan (akut)</h3><p>Ağrı ve kısıtlılık çoğu zaman ilk 6 haftada belirgin şekilde azalır. 9.224 kişinin verisini birleştiren bir analizde ortalama ağrı puanı 100 üzerinden 56'dan 6. haftada 26'ya, 1. yılda 21'e indi.</p></div>
-        <div class="kind"><span class="n">6–12 hafta</span><h3>Alt-akut</h3><p>Aynı analizde bu gruptaki ağrı ve kısıtlılık da ilk 6 haftada belirgin şekilde azaldı.</p></div>
-        <div class="kind"><span class="n">12 haftadan uzun</span><h3>Uzun süren (kalıcı)</h3><p>Düzelme daha yavaştır: aynı analizde ağrı puanı başlangıçta 56, 1. yılda 40'tı (bu grubun sonuçlarının kesinliği çok düşük). Düzenli egzersiz ve aktif bir tedavi programı burada daha da önem kazanır.</p></div>
+        <div class="kind"><span class="n">6–12 hafta</span><h3>Subakut</h3><p>Aynı analizde bu gruptaki ağrı puanı sonraki 6 haftada belirgin şekilde azaldı (63'ten 29'a), sonra 1. yılın sonuna kadar pek değişmedi (31).</p></div>
+        <div class="kind"><span class="n">12 haftadan uzun</span><h3>Uzun süren (kronik)</h3><p>Düzelme daha yavaştır: aynı analizde ağrı puanı başlangıçta 56, 1. yılda 40'tı (bu grubun sonuçlarının kesinliği çok düşük). Düzenli egzersiz ve aktif bir tedavi programı burada daha da önem kazanır.</p></div>
       </div>
       <h3 class="g-h3">Nedene göre</h3>
       <div class="kinds">
@@ -200,7 +201,7 @@ BEL_BODY = f'''<header class="page">
         <div class="kind"><h3>Ciddi bir hastalığa bağlı ağrı</h3><p>Kırık, enfeksiyon, tümör ya da kauda ekina sendromu gibi nedenler bel ağrısı olanların %1'inden azında bulunur. Uyarı işaretleri bu yüzden önemlidir.</p><a href="#uyari">Uyarı işaretleri →</a></div>
       </div>
       <div class="callout">
-        <p><strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığından (eksenel spondiloartrit, örneğin ankilozan spondilit) kaynaklanır. Uluslararası ASAS ölçütlerine göre şu beş özellikten en az dördü varsa iltihaplı bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href="ankilozan-spondilit.html">Ankilozan spondilit rehberi →</a></p>
+        <p><strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığından (aksiyel spondiloartrit, örneğin ankilozan spondilit) kaynaklanır. Uluslararası ASAS ölçütlerine göre 3 aydan uzun süren bel ağrısında şu beş özellikten en az dördü varsa iltihaplı (inflamatuvar) bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href="ankilozan-spondilit.html">Ankilozan spondilit rehberi →</a></p>
       </div>
     </div>
   </section>
@@ -208,7 +209,7 @@ BEL_BODY = f'''<header class="page">
   <section id="mr">
     <div class="wrap">
       <h2>MR'daki "düzleşme", "bombeleşme", "aşınma" ne anlama geliyor?</h2>
-      <p class="soft">Beldeki diskler yaşla birlikte, tıpkı saçın beyazlaması gibi değişir. Hiç ağrısı olmayan binlerce kişinin MR'larını inceleyen bir derlemede:</p>
+      <p class="soft">Beldeki diskler yaşla birlikte, tıpkı saçın beyazlaması gibi değişir. Hiç ağrısı olmayan binlerce kişinin MR ve BT görüntülerini inceleyen bir derlemede:</p>
       <div class="stats" style="margin-top:14px">
         <div class="stat"><b>%52</b><span>30 yaşında disk dejenerasyonu (aşınma)</span></div>
         <div class="stat"><b>%40</b><span>30 yaşında disk bombeleşmesi</span></div>
@@ -218,7 +219,7 @@ BEL_BODY = f'''<header class="page">
       <div class="callout">
         <p>Bu kişilerin hiçbirinde bel ağrısı yoktu. Yani MR raporundaki bu ifadeler çoğu zaman yaşa bağlı normal değişikliklerdir ve tek başına ağrının nedenini açıklamaz. Bu yüzden kılavuzlar bel ağrısında rutin görüntüleme önermez.</p>
       </div>
-      <p class="soft" style="margin-top:14px">ABD'de 380 hastayla yapılan bir çalışmada erken MR çekilenlerle röntgen çekilenlerin bir yıl sonraki ağrı ve işlev durumu neredeyse aynıydı. MR grubunda daha fazla bel ameliyatı yapıldı (10'a karşı 4), ancak bu fark istatistiksel olarak kesin değildi.</p>
+      <p class="soft" style="margin-top:14px">ABD'de 380 hastayla yapılan bir çalışmada ilk görüntüleme olarak röntgen yerine hızlı MR çekilenlerin bir yıl sonraki ağrı ve işlev durumu, röntgen çekilenlerle neredeyse aynıydı. MR grubunda daha fazla bel ameliyatı yapıldı (10'a karşı 4), ancak bu fark istatistiksel olarak anlamlı değildi.</p>
     </div>
   </section>
 
@@ -230,14 +231,14 @@ BEL_BODY = f'''<header class="page">
       <ol class="g-facts">
         <li><b>Bel ağrısı hayatı tehdit eden ciddi bir hastalık değildir.</b>Uyarı işaretleri yoksa ve ciddi bir neden dışlandıysa.</li>
         <li><b>Çoğu bel ağrısı atağı düzelir.</b>Bel ağrısı yaşla birlikte kaçınılmaz olarak kötüleşmez.</li>
-        <li><b>Düşünceler ve davranışlar önemlidir.</b>Olumsuz düşünceler, hareketten kaçınma, olumsuz iyileşme beklentisi ve ağrıyla baş etme biçimi, kalıcı ağrıyla doku hasarından daha güçlü ilişkilidir.</li>
+        <li><b>Düşünceler ve davranışlar önemlidir.</b>Olumsuz düşünceler, hareketten kaçınma, olumsuz iyileşme beklentisi ve ağrıyla baş etmekte zorlanmak, uzun süren ağrıyla doku hasarından daha güçlü ilişkilidir.</li>
         <li><b>Görüntüleme, ağrının seyrini belirlemez.</b>MR ya da röntgen, mevcut ağrının nasıl seyredeceğini göstermez.</li>
         <li><b>Hareket güvenlidir.</b>Kademeli egzersiz ve her yöne hareket omurga için güvenli ve sağlıklıdır.</li>
-        <li><b>Duruş bel ağrısını öngörmez.</b>Otururken, ayakta dururken ve yük kaldırırken omurganın duruşu, bel ağrısının başlamasını ya da sürmesini öngörmez.</li>
-        <li><b>Zayıf karın-gövde kasları bel ağrısına yol açmaz.</b>Bel ağrısı olan bazı kişiler bu kasları gereğinden fazla gerer; gerektiğinde gevşetebilmek de önemlidir.</li>
+        <li><b>Duruşun etkisi sanıldığı kadar büyük değil.</b>Otururken, ayakta dururken ve yük kaldırırken omurganın duruşu, araştırmalarda bel ağrısının başlaması ya da sürmesiyle ilişkili bulunmadı (bu çalışmalar çoğunlukla gözlemseldir).</li>
+        <li><b>Zayıf karın-gövde kasları bel ağrısına yol açmaz.</b>Gövde kaslarını güçlü tutmak iyidir; ancak bel ağrısı olan bazı kişiler bu kasları gereğinden fazla gerer, gerekmediğinde gevşetebilmek de önemlidir.</li>
         <li><b>Kademeli yük omurgayı güçlendirir.</b>Omurgayı yavaş yavaş artan şekilde hareket ettirmek ve yüklemek güvenlidir ve onu dayanıklı kılar.</li>
         <li><b>Alevlenmeler hasar demek değildir.</b>Ağrı alevlenmeleri yapısal hasardan çok etkinlikteki değişiklikler, stres ve ruh haliyle ilişkilidir.</li>
-        <li><b>Etkili bakım görece ucuz ve güvenlidir.</b>Bilgilendirme ile fiziksel etkinlik, uyku, kilo ve işe devam etme konusunda destek.</li>
+        <li><b>Etkili bakım görece ucuz ve güvenlidir.</b>Kişiye özel bilgilendirme, olumlu bir bakış kazanmaya destek ve fiziksel ve sosyal etkinlik, uyku, sağlıklı kilo ve işe devam etme konusunda yönlendirme bunun parçalarıdır.</li>
       </ol>
     </div>
   </section>
@@ -246,7 +247,7 @@ BEL_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Geçmişten bugüne</p>
       <h2>Bel ağrısı tedavisinin kısa tarihi</h2>
-      <p class="soft">Bel ağrısında uzun süre yatak istirahati sık önerilen bir tedaviydi. Son 40 yılın araştırmaları hareketli kalmanın, egzersizin ve ağrıyı doğru anlamanın daha yararlı olduğunu gösterdi.</p>
+      <p class="soft">Bel ağrısında uzun süre yatak istirahati sık önerilen bir tedaviydi. Son 40 yılın araştırmaları hareketli kalmanın, uzun süren ağrıda egzersizin ve ağrıyı doğru anlamanın daha yararlı olduğunu gösterdi.</p>
       {g_tl(BEL_TL)}
     </div>
   </section>
@@ -257,21 +258,21 @@ BEL_BODY = f'''<header class="page">
       <p class="soft">Yeni başlayan bel ağrısında ağrı ve kısıtlılık genellikle ilk 6 haftada belirgin şekilde azalır; çalışmalarda ağrı puanı ortalama yarıdan fazla düştü. Üç aydan uzun süren ağrıda düzelme daha yavaştır; burada düzenli egzersiz ve yönlendirilmiş bir tedavi programı daha da önem kazanır.</p>
       <ul class="tx">
         <li><b>Hareketli kalmak</b><span>Yatak istirahati önerilmez. Yürümek ve günlük işlere ağrının izin verdiği ölçüde devam etmek iyileşmeyi destekler; mümkünse işten uzun süre uzak kalmayın.</span></li>
-        <li><b>Egzersiz</b><span>Tedavinin temelidir. Uzun süren bel ağrısında egzersiz yapanların ağrısı, tedavi almayan, olağan bakım ya da plasebo alanlara göre 3. ayda 100 üzerinden ortalama 15 puan daha az bulundu. En iyi egzersiz, düzenli yapabildiğiniz egzersizdir.</span></li>
-        <li><b>Manuel terapi</b><span>Mobilizasyon, manipülasyon ve yumuşak doku teknikleri, kılavuzlarda tek başına değil, yalnızca egzersizi içeren bir tedavi paketinin parçası olarak düşünülebilecek bir seçenektir.</span></li>
+        <li><b>Egzersiz</b><span>Uzun süren bel ağrısında tedavinin temelidir: egzersiz yapanların ağrısı, tedavi almayan, olağan bakım ya da plasebo alanlara göre 3. ayda 100 üzerinden ortalama 15 puan daha az bulundu. En iyi egzersiz, düzenli yapabildiğiniz egzersizdir. Yeni başlayan ağrıda en önemlisi hareketli kalmak ve günlük işlere devam etmektir.</span></li>
+        <li><b>Manuel terapi</b><span>Mobilizasyon, manipülasyon ve yumuşak doku teknikleri NICE kılavuzunda tek başına değil, yalnızca egzersizi içeren bir paketin parçası olarak düşünülebilir; ACP kılavuzunda manipülasyon tek başına da seçenekler arasında, ancak etkisi küçük.</span></li>
         <li><b>Ağrıyla baş etme</b><span>Uzun süren ağrıda korku, kaygı ve uykusuzluk ağrıyı besler. Kaygı ya da çökkünlük belirginse destek seçeneklerini hekiminizle konuşabilirsiniz. <a href="stres.html">Nefes egzersizlerine göz atın →</a></span></li>
       </ul>
       <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
       <p class="soft">İngiltere'nin NICE kılavuzu (2016, son güncelleme 2026) ile Amerikan Hekimler Koleji'nin (ACP, 2017) önerileri yan yana. Kılavuzlar her konuda aynı fikirde değil; tedavi kişiye göre seçilir. Bacağa yayılan siyatik ağrısında öneriler farklı olabilir: <a href="bel-fitigi.html">Bel fıtığı ve siyatik →</a></p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Egzersiz</h3><dl><dt>NICE</dt><dd>Önerir; grup egzersiz programı düşünülebilir.</dd><dt>ACP</dt><dd>Uzun süren ağrıda ilk seçenekler arasında; yoga, tai chi ve motor kontrol egzersizleri de sayılıyor.</dd><dt>Kanıt</dt><dd>Uzun süren ağrıda 3. ayda ağrı 100 üzerinden ortalama 15 puan daha az (Cochrane, 2021).</dd></dl></div>
+        <div class="kind"><h3>Egzersiz</h3><dl><dt>NICE</dt><dd>Hareketli kalmayı teşvik ediyor; yeni bir atak ya da alevlenmede grup egzersiz programı düşünülebilir.</dd><dt>ACP</dt><dd>Uzun süren ağrıda ilk seçenekler arasında; yoga, tai chi ve motor kontrol egzersizleri de sayılıyor. 12 haftadan kısa süren ağrı için egzersiz önermiyor, hareketli kalmayı öneriyor.</dd><dt>Kanıt</dt><dd>Uzun süren ağrıda 3. ayda ağrı, tedavi almayan, olağan bakım ya da plasebo alanlara göre 100 üzerinden ortalama 15 puan daha az (Cochrane, 2021; kanıt orta kesinlikte).</dd></dl></div>
         <div class="kind"><h3>Manuel terapi</h3><dl><dt>NICE</dt><dd>Manipülasyon, mobilizasyon ve masaj gibi yumuşak doku teknikleri yalnızca egzersizi içeren bir paketin parçası olarak düşünülebilir.</dd><dt>ACP</dt><dd>Manipülasyon seçenekler arasında; etkisi küçük.</dd></dl></div>
-        <div class="kind"><h3>Sıcak uygulama ve masaj</h3><dl><dt>ACP</dt><dd>Yeni başlayan ağrıda ilk seçenekler arasında. Sıcak uygulamanın etkisi orta düzeyde (kanıt orta kalitede); masajın etkisi kısa süreli (kanıt düşük kalitede).</dd></dl></div>
-        <div class="kind"><h3>Psikolojik yaklaşımlar</h3><dl><dt>ACP</dt><dd>Uzun süren ağrıda bilişsel davranışçı terapi ve farkındalık temelli stres azaltma seçenekler arasında.</dd><dt>NICE</dt><dd>Dayandığı kanıtın bir kısmı geri çekildiği için Temmuz 2026'da bu önerileri kılavuzdan çıkardı.</dd></dl></div>
-        <div class="kind"><h3>Akupunktur</h3><dl><dt>ACP</dt><dd>Seçenekler arasında; etkisi küçük.</dd><dt>NICE</dt><dd>Bel ağrısında önermiyor.</dd><dt>Not</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
-        <div class="kind"><h3>Korse, tabanlık, traksiyon, elektroterapi</h3><dl><dt>NICE</dt><dd>Korse, tabanlık, bel çekme (traksiyon), TENS, ultrason ve enterferansiyel akım tedavilerini bel ağrısında önermiyor.</dd></dl></div>
-        <div class="kind"><h3>İlaçlar</h3><dl><dt>Kılavuzlar</dt><dd>İlaçlar hareket ve egzersizin yerine değil yanında, en düşük etkili dozda ve kısa süre düşünülür; bazı ilaç grupları bel ağrısında önerilmiyor. Hangisinin size uygun olduğuna hekiminiz karar verir.</dd></dl></div>
-        <div class="kind"><h3>Omurga iğneleri ve ameliyat</h3><dl><dt>NICE</dt><dd>Bel ağrısı için omurga iğneleri ve disk protezi önerilmiyor; füzyon ameliyatı yalnızca araştırma kapsamında. Diğer tedavilerin yetmediği seçilmiş uzun süren ağrıda radyofrekans denervasyon için değerlendirme düşünülebilir.</dd></dl></div>
+        <div class="kind"><h3>Sıcak uygulama ve masaj</h3><dl><dt>ACP</dt><dd>12 haftadan kısa süren ağrıda ilk seçenekler arasında. Sıcak uygulamanın etkisi orta düzeyde (kanıt orta kalitede); masajın etkisi kısa süreli (kanıt düşük kalitede).</dd></dl></div>
+        <div class="kind"><h3>Psikolojik yaklaşımlar</h3><dl><dt>ACP</dt><dd>Uzun süren ağrıda bilişsel davranışçı terapi ve farkındalık temelli stres azaltma seçenekler arasında.</dd><dt>NICE</dt><dd>Dayandığı kanıtın bir kısmı geri çekildiği için Temmuz 2026'da bu önerileri kılavuzdan çıkardı ve yerine yeni bir öneri yapmadı. Bu, psikolojik desteğin işe yaramadığı anlamına gelmez.</dd></dl></div>
+        <div class="kind"><h3>Akupunktur</h3><dl><dt>ACP</dt><dd>Seçenekler arasında: 12 haftadan kısa süren ağrıda ağrıya etkisi küçük; uzun süren ağrıda 3 aya kadar orta düzeyde, işleve etkisi yok (kanıt düşük kalitede).</dd><dt>NICE</dt><dd>Bel ağrısında uygulanmamasını öneriyor.</dd><dt>Not</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+        <div class="kind"><h3>Korse, tabanlık, traksiyon, elektroterapi</h3><dl><dt>NICE</dt><dd>Bel ağrısında korse, tabanlık, bel çekme (traksiyon), TENS, ultrason ve enterferansiyel akım tedavilerinin uygulanmamasını öneriyor.</dd></dl></div>
+        <div class="kind"><h3>İlaçlar</h3><dl><dt>Kılavuzlar</dt><dd>NICE, önerdiği ilaçların en düşük etkili dozda ve mümkün olan en kısa süre kullanılmasını öneriyor; bazı ilaç gruplarının bel ağrısında kullanılmamasını öneriyor. Kılavuzlar bazı ilaç gruplarında farklı görüşte. Hangisinin size uygun olduğuna hekiminiz karar verir.</dd></dl></div>
+        <div class="kind"><h3>Omurgaya enjeksiyon ve ameliyat</h3><dl><dt>NICE</dt><dd>Bel ağrısında omurgaya yapılan iğne (enjeksiyon) tedavilerinin ve disk protezinin uygulanmamasını öneriyor; füzyon ameliyatı yalnızca araştırma kapsamında. Diğer tedavilerin yetmediği seçilmiş uzun süren ağrıda radyofrekans denervasyon için değerlendirme düşünülebilir.</dd></dl></div>
       </div>
     </div>
   </section>
@@ -293,10 +294,10 @@ BEL_BODY = f'''<header class="page">
       </div>
       <ul class="dots" style="align-self:center">
         <li>Yarım saatte bir kalkın, birkaç adım yürüyün; uzun oturmayı bölün.</li>
-        <li>Ağır yükleri kaldırmaya vücudunuzu yavaş yavaş alıştırın; kaldırırken belinizi nasıl tuttuğunuz bel ağrısını öngörmüyor.</li>
+        <li>Ağır yükleri kaldırmaya vücudunuzu yavaş yavaş alıştırın. Araştırmalarda kaldırırken belin düz ya da eğik tutulması bel ağrısı riskiyle ilişkili bulunmadı; size rahat gelen ve kontrol edebildiğiniz şekilde kaldırın.</li>
         <li>Haftanın çoğu günü yürüyün; kısa yürüyüşler de sayılır.</li>
         <li>Uyku düzenine dikkat edin; yorgunluk ağrıya duyarlılığı artırır.</li>
-        <li>Sigarayı bırakmak ve fazla kiloları vermek bel sağlığını da korur.</li>
+        <li>Sigarayı bırakmak ve fazla kiloları vermek bel ağrısı riskini azaltmaya yardımcı olabilir.</li>
       </ul>
     </div>
   </section>
