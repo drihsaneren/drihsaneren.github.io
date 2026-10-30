@@ -805,3 +805,6 @@ Ayrıntılar DENETIM.md'de. Önemli: NICE NG59 29 Temmuz 2026'da BDT/psikolojik 
 
 ## 30 Ekim 2026 — günlük denetim (diz kireçlenmesi, donuk omuz, inme rehabilitasyonu)
 Ayrıntılar DENETIM.md'de. İnme sayfasının tarihi artık sabit metin ("30 Ekim 2026"; önceden build_pages.UPDATED). Yeni oturumda `pip install qrcode --break-system-packages` gerekiyor (yoksa rb.sh sessizce yayımlamıyor: publish.sh "hero nav bulunamadı"). Çeviri tur37. Sonraki batch: tur38.
+
+## 30–31 Ekim 2026 — rehber genişletme başladı (bel ağrısı, boyun ağrısı)
+Kullanıcı seçimi: en sık şikâyetlerden başla; klinik deneyim kutusu yok (yalnızca araştırma); oturum başına 2–3 sayfa; her genişletilmiş sayfa YAYINDAN ÖNCE bağımsız denetimden geçer. Yeni ortak CSS: G_CSS'e .g-cmp (karşılaştırma kartları, dl/dt/dd), .g-facts (numaralı bilgi kartları), .g-h3. Ayrıntılar ve açık kalanlar DENETIM.md'de. Önerilen sıradaki parti: omuz sıkışması, kalça kireçlenmesi, karpal tünel sendromu. Çeviri tur38. Sonraki batch: tur39.

@@ -1,0 +1,807 @@
+[
+ {
+  "id": "tur38-0",
+  "kind": "text",
+  "tr": "MR ne anlatır?"
+ },
+ {
+  "id": "tur38-1",
+  "kind": "text",
+  "tr": "10 gerçek"
+ },
+ {
+  "id": "tur38-2",
+  "kind": "text",
+  "tr": "Neler tetikleyebilir, riski artırabilir?"
+ },
+ {
+  "id": "tur38-3",
+  "kind": "text",
+  "tr": "Uzun süre hareketsiz kalmak, örneğin saatlerce oturmak (var olan ağrıyı artırabilir)"
+ },
+ {
+  "id": "tur38-4",
+  "kind": "text",
+  "tr": "Hareketsizlik ve düşük fiziksel kondisyon"
+ },
+ {
+  "id": "tur38-5",
+  "kind": "text",
+  "tr": "Bel ağrısının türleri"
+ },
+ {
+  "id": "tur38-6",
+  "kind": "text",
+  "tr": "Bel ağrısı hem ne kadar süredir devam ettiğine hem de nedenine göre gruplandırılır. Bu gruplama, neyin beklenebileceğini ve ne zaman ileri değerlendirme gerektiğini anlamaya yardım eder."
+ },
+ {
+  "id": "tur38-7",
+  "kind": "text",
+  "tr": "Süreye göre"
+ },
+ {
+  "id": "tur38-8",
+  "kind": "text",
+  "tr": "6 haftadan kısa"
+ },
+ {
+  "id": "tur38-9",
+  "kind": "text",
+  "tr": "Yeni başlayan (akut)"
+ },
+ {
+  "id": "tur38-10",
+  "kind": "text",
+  "tr": "Ağrı ve kısıtlılık çoğu zaman ilk 6 haftada belirgin şekilde azalır. 9.224 kişinin verisini birleştiren bir analizde ortalama ağrı puanı 100 üzerinden 56'dan 6. haftada 26'ya, 1. yılda 21'e indi."
+ },
+ {
+  "id": "tur38-11",
+  "kind": "text",
+  "tr": "Subakut"
+ },
+ {
+  "id": "tur38-12",
+  "kind": "text",
+  "tr": "Aynı analizde bu gruptaki ağrı puanı sonraki 6 haftada belirgin şekilde azaldı (63'ten 29'a), sonra 1. yılın sonuna kadar pek değişmedi (31)."
+ },
+ {
+  "id": "tur38-13",
+  "kind": "text",
+  "tr": "12 haftadan uzun"
+ },
+ {
+  "id": "tur38-14",
+  "kind": "text",
+  "tr": "Uzun süren (kronik)"
+ },
+ {
+  "id": "tur38-15",
+  "kind": "text",
+  "tr": "Düzelme daha yavaştır: aynı analizde ağrı puanı başlangıçta 56, 1. yılda 40'tı (bu grubun sonuçlarının kesinliği çok düşük). Düzenli egzersiz ve aktif bir tedavi programı burada daha da önem kazanır."
+ },
+ {
+  "id": "tur38-16",
+  "kind": "text",
+  "tr": "Nedene göre"
+ },
+ {
+  "id": "tur38-17",
+  "kind": "text",
+  "tr": "Nonspesifik (mekanik) bel ağrısı"
+ },
+ {
+  "id": "tur38-18",
+  "kind": "text",
+  "tr": "En sık türdür: bel ağrılarının yaklaşık %80–90'ında belirli bir yapısal neden bulunamaz. Ağrı genellikle hareketle ve pozisyonla değişir."
+ },
+ {
+  "id": "tur38-19",
+  "kind": "text",
+  "tr": "Sinir kökü kaynaklı ağrı (siyatik)"
+ },
+ {
+  "id": "tur38-20",
+  "kind": "text",
+  "tr": "Ağrı dizin altına, bacağa ve ayağa yayılır; uyuşma ve karıncalanma eşlik edebilir. En sık nedeni bel fıtığıdır."
+ },
+ {
+  "id": "tur38-21",
+  "kind": "text",
+  "tr": "Bel fıtığı ve siyatik →"
+ },
+ {
+  "id": "tur38-22",
+  "kind": "text",
+  "tr": "Ciddi bir hastalığa bağlı ağrı"
+ },
+ {
+  "id": "tur38-23",
+  "kind": "text",
+  "tr": "Kırık, enfeksiyon, tümör ya da kauda ekina sendromu gibi nedenler bel ağrısı olanların %1'inden azında bulunur. Uyarı işaretleri bu yüzden önemlidir."
+ },
+ {
+  "id": "tur38-24",
+  "kind": "text",
+  "tr": "Uyarı işaretleri →"
+ },
+ {
+  "id": "tur38-25",
+  "kind": "text",
+  "tr": "<strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığından (aksiyel spondiloartrit, örneğin ankilozan spondilit) kaynaklanır. Uluslararası ASAS ölçütlerine göre 3 aydan uzun süren bel ağrısında şu beş özellikten en az dördü varsa iltihaplı (inflamatuvar) bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href=\"ankilozan-spondilit.html\">Ankilozan spondilit rehberi →</a>"
+ },
+ {
+  "id": "tur38-26",
+  "kind": "text",
+  "tr": "Beldeki diskler yaşla birlikte, tıpkı saçın beyazlaması gibi değişir. Hiç ağrısı olmayan binlerce kişinin MR ve BT görüntülerini inceleyen bir derlemede:"
+ },
+ {
+  "id": "tur38-27",
+  "kind": "text",
+  "tr": "ABD'de 380 hastayla yapılan bir çalışmada ilk görüntüleme olarak röntgen yerine hızlı MR çekilenlerin bir yıl sonraki ağrı ve işlev durumu, röntgen çekilenlerle neredeyse aynıydı. MR grubunda daha fazla bel ameliyatı yapıldı (10'a karşı 4), ancak bu fark istatistiksel olarak anlamlı değildi."
+ },
+ {
+  "id": "tur38-28",
+  "kind": "text",
+  "tr": "Araştırmacılardan"
+ },
+ {
+  "id": "tur38-29",
+  "kind": "text",
+  "tr": "Bel ağrısı hakkında 10 gerçek"
+ },
+ {
+  "id": "tur38-30",
+  "kind": "text",
+  "tr": "Bir grup araştırmacının British Journal of Sports Medicine'de yayımladığı yazı, uyarı işaretleri ve ciddi bir neden dışlandıktan sonra bel ağrısı olan herkesin bilmesi gereken 10 gerçeği özetliyor. Bu bir uzman görüşü yazısıdır; dayandığı çalışmalara yazının kaynakçasından ulaşılabilir."
+ },
+ {
+  "id": "tur38-31",
+  "kind": "text",
+  "tr": "<b>Bel ağrısı hayatı tehdit eden ciddi bir hastalık değildir.</b>Uyarı işaretleri yoksa ve ciddi bir neden dışlandıysa."
+ },
+ {
+  "id": "tur38-32",
+  "kind": "text",
+  "tr": "<b>Çoğu bel ağrısı atağı düzelir.</b>Bel ağrısı yaşla birlikte kaçınılmaz olarak kötüleşmez."
+ },
+ {
+  "id": "tur38-33",
+  "kind": "text",
+  "tr": "<b>Düşünceler ve davranışlar önemlidir.</b>Olumsuz düşünceler, hareketten kaçınma, olumsuz iyileşme beklentisi ve ağrıyla baş etmekte zorlanmak, uzun süren ağrıyla doku hasarından daha güçlü ilişkilidir."
+ },
+ {
+  "id": "tur38-34",
+  "kind": "text",
+  "tr": "<b>Görüntüleme, ağrının seyrini belirlemez.</b>MR ya da röntgen, mevcut ağrının nasıl seyredeceğini göstermez."
+ },
+ {
+  "id": "tur38-35",
+  "kind": "text",
+  "tr": "<b>Hareket güvenlidir.</b>Kademeli egzersiz ve her yöne hareket omurga için güvenli ve sağlıklıdır."
+ },
+ {
+  "id": "tur38-36",
+  "kind": "text",
+  "tr": "<b>Duruşun etkisi sanıldığı kadar büyük değil.</b>Otururken, ayakta dururken ve yük kaldırırken omurganın duruşu, araştırmalarda bel ağrısının başlaması ya da sürmesiyle ilişkili bulunmadı (bu çalışmalar çoğunlukla gözlemseldir)."
+ },
+ {
+  "id": "tur38-37",
+  "kind": "text",
+  "tr": "<b>Zayıf karın-gövde kasları bel ağrısına yol açmaz.</b>Gövde kaslarını güçlü tutmak iyidir; ancak bel ağrısı olan bazı kişiler bu kasları gereğinden fazla gerer, gerekmediğinde gevşetebilmek de önemlidir."
+ },
+ {
+  "id": "tur38-38",
+  "kind": "text",
+  "tr": "<b>Kademeli yük omurgayı güçlendirir.</b>Omurgayı yavaş yavaş artan şekilde hareket ettirmek ve yüklemek güvenlidir ve onu dayanıklı kılar."
+ },
+ {
+  "id": "tur38-39",
+  "kind": "text",
+  "tr": "<b>Alevlenmeler hasar demek değildir.</b>Ağrı alevlenmeleri yapısal hasardan çok etkinlikteki değişiklikler, stres ve ruh haliyle ilişkilidir."
+ },
+ {
+  "id": "tur38-40",
+  "kind": "text",
+  "tr": "<b>Etkili bakım görece ucuz ve güvenlidir.</b>Kişiye özel bilgilendirme, olumlu bir bakış kazanmaya destek ve fiziksel ve sosyal etkinlik, uyku, sağlıklı kilo ve işe devam etme konusunda yönlendirme bunun parçalarıdır."
+ },
+ {
+  "id": "tur38-41",
+  "kind": "text",
+  "tr": "Bel ağrısı tedavisinin kısa tarihi"
+ },
+ {
+  "id": "tur38-42",
+  "kind": "text",
+  "tr": "Bel ağrısında uzun süre yatak istirahati sık önerilen bir tedaviydi. Son 40 yılın araştırmaları hareketli kalmanın, uzun süren ağrıda egzersizin ve ağrıyı doğru anlamanın daha yararlı olduğunu gösterdi."
+ },
+ {
+  "id": "tur38-43",
+  "kind": "text",
+  "tr": "Akut bel ağrısı olan 203 kişiyle yapılan çalışmada 2 gün yatak istirahati önerilenler, 7 gün önerilenler kadar iyi sonuç aldı ve %45 daha az iş günü kaybetti."
+ },
+ {
+  "id": "tur38-44",
+  "kind": "text",
+  "tr": "Finlandiya'da akut bel ağrısı olan 186 çalışanla yapılan çalışmada ağrının izin verdiği ölçüde olağan işlerine devam edenler, yatak istirahati yapanlardan ve fizyoterapistin öğrettiği bel hareketlendirme egzersizlerini yapanlardan daha hızlı iyileşti."
+ },
+ {
+  "id": "tur38-45",
+  "kind": "text",
+  "tr": "ABD'de 380 hastayla yapılan çalışmada ilk görüntüleme olarak röntgen yerine hızlı MR çekilenlerin bir yıl sonraki durumu, röntgen çekilenlerle neredeyse aynıydı."
+ },
+ {
+  "id": "tur38-46",
+  "kind": "text",
+  "tr": "Ağrısı olmayan kişilerin MR ve BT görüntülerini inceleyen bir derleme, disk aşınması ve bombeleşmesinin yaşla birlikte çok sık görüldüğünü gösterdi."
+ },
+ {
+  "id": "tur38-47",
+  "kind": "text",
+  "tr": "İngiltere'nin NICE kılavuzu yayımlandı: bel ağrısında rutin görüntüleme, korse, traksiyon, akupunktur, TENS ve omurgaya yapılan iğne (enjeksiyon) tedavilerinin uygulanmaması önerildi; hareketli kalmak öne çıktı."
+ },
+ {
+  "id": "tur38-48",
+  "kind": "text",
+  "tr": "Amerikan Hekimler Koleji (ACP), ilaçlardan önce ilaç dışı tedavileri önerdi: 12 haftadan kısa süren ağrıda sıcak uygulama, masaj, akupunktur ya da manipülasyon; uzun süren ağrıda egzersiz, yoga, tai chi ve bilişsel davranışçı terapi gibi seçenekler."
+ },
+ {
+  "id": "tur38-49",
+  "kind": "text",
+  "tr": "The Lancet'teki bir makale dizisi bel ağrısını küresel bir halk sağlığı sorunu olarak ele aldı; bel ağrısı olanların %1'inden azında ciddi bir hastalık bulunduğunu vurguladı."
+ },
+ {
+  "id": "tur38-50",
+  "kind": "text",
+  "tr": "95 çalışmayı inceleyen bir derleme, yeni başlayan bel ağrısının çoğunlukla ilk 6 haftada belirgin şekilde azaldığını, uzun süren ağrıda ise düzelmenin yavaş olduğunu gösterdi."
+ },
+ {
+  "id": "tur38-51",
+  "kind": "text",
+  "tr": "NICE, dayandığı kanıtın bir kısmı sonradan geri çekildiği için psikolojik tedavilere ilişkin önerilerini kılavuzdan çıkardı ve yerine yeni bir öneri yapmadı; Amerikan Hekimler Koleji'nin 2017 kılavuzu ise bilişsel davranışçı terapiyi seçenekler arasında sayıyor."
+ },
+ {
+  "id": "tur38-52",
+  "kind": "text",
+  "tr": "Uzun süren bel ağrısında tedavinin temelidir: egzersiz yapanların ağrısı, tedavi almayan, olağan bakım ya da plasebo alanlara göre 3. ayda 100 üzerinden ortalama 15 puan daha az bulundu. En iyi egzersiz, düzenli yapabildiğiniz egzersizdir. Yeni başlayan ağrıda en önemlisi hareketli kalmak ve günlük işlere devam etmektir."
+ },
+ {
+  "id": "tur38-53",
+  "kind": "text",
+  "tr": "Mobilizasyon, manipülasyon ve yumuşak doku teknikleri NICE kılavuzunda tek başına değil, yalnızca egzersizi içeren bir paketin parçası olarak düşünülebilir; ACP kılavuzunda manipülasyon tek başına da seçenekler arasında, ancak etkisi küçük."
+ },
+ {
+  "id": "tur38-54",
+  "kind": "text",
+  "tr": "Tedavi seçenekleri: kılavuzlar ne diyor?"
+ },
+ {
+  "id": "tur38-55",
+  "kind": "text",
+  "tr": "İngiltere'nin NICE kılavuzu (2016, son güncelleme 2026) ile Amerikan Hekimler Koleji'nin (ACP, 2017) önerileri yan yana. Kılavuzlar her konuda aynı fikirde değil; tedavi kişiye göre seçilir. Bacağa yayılan siyatik ağrısında öneriler farklı olabilir: <a href=\"bel-fitigi.html\">Bel fıtığı ve siyatik →</a>"
+ },
+ {
+  "id": "tur38-56",
+  "kind": "text",
+  "tr": "NICE"
+ },
+ {
+  "id": "tur38-57",
+  "kind": "text",
+  "tr": "Hareketli kalmayı teşvik ediyor; yeni bir atak ya da alevlenmede grup egzersiz programı düşünülebilir."
+ },
+ {
+  "id": "tur38-58",
+  "kind": "text",
+  "tr": "ACP"
+ },
+ {
+  "id": "tur38-59",
+  "kind": "text",
+  "tr": "Uzun süren ağrıda ilk seçenekler arasında; yoga, tai chi ve motor kontrol egzersizleri de sayılıyor. 12 haftadan kısa süren ağrı için egzersiz önermiyor, hareketli kalmayı öneriyor."
+ },
+ {
+  "id": "tur38-60",
+  "kind": "text",
+  "tr": "Uzun süren ağrıda 3. ayda ağrı, tedavi almayan, olağan bakım ya da plasebo alanlara göre 100 üzerinden ortalama 15 puan daha az (Cochrane, 2021; kanıt orta kesinlikte)."
+ },
+ {
+  "id": "tur38-61",
+  "kind": "text",
+  "tr": "Manipülasyon, mobilizasyon ve masaj gibi yumuşak doku teknikleri yalnızca egzersizi içeren bir paketin parçası olarak düşünülebilir."
+ },
+ {
+  "id": "tur38-62",
+  "kind": "text",
+  "tr": "Manipülasyon seçenekler arasında; etkisi küçük."
+ },
+ {
+  "id": "tur38-63",
+  "kind": "text",
+  "tr": "Sıcak uygulama ve masaj"
+ },
+ {
+  "id": "tur38-64",
+  "kind": "text",
+  "tr": "12 haftadan kısa süren ağrıda ilk seçenekler arasında. Sıcak uygulamanın etkisi orta düzeyde (kanıt orta kalitede); masajın etkisi kısa süreli (kanıt düşük kalitede)."
+ },
+ {
+  "id": "tur38-65",
+  "kind": "text",
+  "tr": "Psikolojik yaklaşımlar"
+ },
+ {
+  "id": "tur38-66",
+  "kind": "text",
+  "tr": "Uzun süren ağrıda bilişsel davranışçı terapi ve farkındalık temelli stres azaltma seçenekler arasında."
+ },
+ {
+  "id": "tur38-67",
+  "kind": "text",
+  "tr": "Dayandığı kanıtın bir kısmı geri çekildiği için Temmuz 2026'da bu önerileri kılavuzdan çıkardı ve yerine yeni bir öneri yapmadı. Bu, psikolojik desteğin işe yaramadığı anlamına gelmez."
+ },
+ {
+  "id": "tur38-68",
+  "kind": "text",
+  "tr": "Seçenekler arasında: 12 haftadan kısa süren ağrıda ağrıya etkisi küçük; uzun süren ağrıda 3 aya kadar orta düzeyde, işleve etkisi yok (kanıt düşük kalitede)."
+ },
+ {
+  "id": "tur38-69",
+  "kind": "text",
+  "tr": "Bel ağrısında uygulanmamasını öneriyor."
+ },
+ {
+  "id": "tur38-70",
+  "kind": "text",
+  "tr": "Türkiye'de yalnızca yetkili hekimler uygulayabilir."
+ },
+ {
+  "id": "tur38-71",
+  "kind": "text",
+  "tr": "Korse, tabanlık, traksiyon, elektroterapi"
+ },
+ {
+  "id": "tur38-72",
+  "kind": "text",
+  "tr": "Bel ağrısında korse, tabanlık, bel çekme (traksiyon), TENS, ultrason ve enterferansiyel akım tedavilerinin uygulanmamasını öneriyor."
+ },
+ {
+  "id": "tur38-73",
+  "kind": "text",
+  "tr": "Kılavuzlar"
+ },
+ {
+  "id": "tur38-74",
+  "kind": "text",
+  "tr": "NICE, önerdiği ilaçların en düşük etkili dozda ve mümkün olan en kısa süre kullanılmasını öneriyor; bazı ilaç gruplarının bel ağrısında kullanılmamasını öneriyor. Kılavuzlar bazı ilaç gruplarında farklı görüşte. Hangisinin size uygun olduğuna hekiminiz karar verir."
+ },
+ {
+  "id": "tur38-75",
+  "kind": "text",
+  "tr": "Omurgaya enjeksiyon ve ameliyat"
+ },
+ {
+  "id": "tur38-76",
+  "kind": "text",
+  "tr": "Bel ağrısında omurgaya yapılan iğne (enjeksiyon) tedavilerinin ve disk protezinin uygulanmamasını öneriyor; füzyon ameliyatı yalnızca araştırma kapsamında. Diğer tedavilerin yetmediği seçilmiş uzun süren ağrıda radyofrekans denervasyon için değerlendirme düşünülebilir."
+ },
+ {
+  "id": "tur38-77",
+  "kind": "text",
+  "tr": "Ağır yükleri kaldırmaya vücudunuzu yavaş yavaş alıştırın. Araştırmalarda kaldırırken belin düz ya da eğik tutulması bel ağrısı riskiyle ilişkili bulunmadı; size rahat gelen ve kontrol edebildiğiniz şekilde kaldırın."
+ },
+ {
+  "id": "tur38-78",
+  "kind": "text",
+  "tr": "Sigarayı bırakmak ve fazla kiloları vermek bel ağrısı riskini azaltmaya yardımcı olabilir."
+ },
+ {
+  "id": "tur38-79",
+  "kind": "text",
+  "tr": "Sıcak uygulama işe yarar mı?"
+ },
+ {
+  "id": "tur38-80",
+  "kind": "text",
+  "tr": "12 haftadan kısa süren bel ağrısında sıcak uygulama rahatlama sağlayabilir: Amerikan Hekimler Koleji'nin kılavuzu bunu ilk seçenekler arasında sayıyor ve etkisini orta düzeyde buluyor (kanıt orta kalitede). Cildinizi yakmayacak bir sıcaklıkta kullanın; uyuşukluk ya da his azalması olan bölgeye ve uyurken uygulamayın."
+ },
+ {
+  "id": "tur38-81",
+  "kind": "text",
+  "tr": "Duruşum bozuk olduğu için mi belim ağrıyor?"
+ },
+ {
+  "id": "tur38-82",
+  "kind": "text",
+  "tr": "Araştırmalarda oturma, ayakta durma ve yük kaldırma sırasındaki duruş, bel ağrısının başlaması ya da sürmesiyle ilişkili bulunmadı (bu çalışmalar çoğunlukla gözlemseldir). Uzun süre aynı pozisyonda kalmak ağrınızı artırıyorsa pozisyonunuzu sık sık değiştirin ve ara ara kalkıp yürüyün."
+ },
+ {
+  "id": "tur38-83",
+  "kind": "text",
+  "tr": "Guideline Central. <a href=\"https://www.guidelinecentral.com/insights/aug-2026-nice-lowbackpainsciaticaover16-guideline-spotlight/\" target=\"_blank\" rel=\"noopener\">Aug 2026 NICE guideline spotlight: low back pain and sciatica in over 16s</a>. NICE NG59 Temmuz 2026 güncellemesinin özeti; ayrıca <a href=\"https://www.physitrack.com/insights/nice-low-back-pain-guideline-update-2026\" target=\"_blank\" rel=\"noopener\">Physitrack</a>."
+ },
+ {
+  "id": "tur38-84",
+  "kind": "text",
+  "tr": "Qaseem A, et al. <a href=\"https://www.aafp.org/pubs/afp/issues/2017/0915/p407.html\" target=\"_blank\" rel=\"noopener\">Noninvasive treatments for acute, subacute, and chronic low back pain: a clinical practice guideline from the American College of Physicians</a>. Ann Intern Med. 2017. Özet: American Family Physician."
+ },
+ {
+  "id": "tur38-85",
+  "kind": "text",
+  "tr": "Çoğu insanın hayatının bir döneminde yaşadığı, çoğu zaman ciddi bir nedene bağlı olmayan ama sık tekrarlayabilen bir sorun. İyi haber: düzenli hareket ve egzersiz çoğu kişide ağrıyı azaltmaya yardımcı olur."
+ },
+ {
+  "id": "tur38-86",
+  "kind": "text",
+  "tr": "2020–2050 arasında boyun ağrılı kişi sayısında beklenen artış (yaşa göre düzeltilmiş görülme oranı ise 1990–2020 arasında sabit kaldı)"
+ },
+ {
+  "id": "tur38-87",
+  "kind": "text",
+  "tr": "Bir kez yaşayanlarda 1–5 yıl sonra yine ağrı (süren ya da tekrarlayan)"
+ },
+ {
+  "id": "tur38-88",
+  "kind": "text",
+  "tr": "Dört tip"
+ },
+ {
+  "id": "tur38-89",
+  "kind": "text",
+  "tr": "Ne kadar ciddi?"
+ },
+ {
+  "id": "tur38-90",
+  "kind": "text",
+  "tr": "Düzleşme, MR ve duruş"
+ },
+ {
+  "id": "tur38-91",
+  "kind": "text",
+  "tr": "Kafatasının alt sınırından omuzlara kadar uzanan bölgedeki ağrıdır. Çoğu zaman belirli bir yapıya bağlanamaz; kasların, bağların ve omurlar arasındaki küçük eklemlerin rol oynadığı düşünülür. Tıpta buna <em>mekanik</em> ya da <em>nonspesifik</em> boyun ağrısı denir: ağrı gerçektir ama altında ciddi bir hastalık yoktur."
+ },
+ {
+  "id": "tur38-92",
+  "kind": "text",
+  "tr": "Saatlerce aynı pozisyonda kalmak (masa başı çalışma, uzun süre telefona bakmak) rahatsızlık yaratabilir; duruşun tek başına ağrıya yol açtığı gösterilmedi"
+ },
+ {
+  "id": "tur38-93",
+  "kind": "text",
+  "tr": "Yaşla birlikte omurgada aşınma (kireçlenme) bulguları sık görülür; ancak ağrısı olmayanlarda da vardır ve çoğu zaman ağrıyı açıklamaz."
+ },
+ {
+  "id": "tur38-94",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin kılavuzu boyun ağrısını dört gruba ayırır ve tedaviyi buna göre önerir; her hasta bunlardan birine tam uymayabilir."
+ },
+ {
+  "id": "tur38-95",
+  "kind": "text",
+  "tr": "Bildiğimiz \"tutulma\". Boyun bazı yönlere dönmez, ağrı hareketle artar."
+ },
+ {
+  "id": "tur38-96",
+  "kind": "text",
+  "tr": "Ne kadar ciddi? Dört derece"
+ },
+ {
+  "id": "tur38-97",
+  "kind": "text",
+  "tr": "Uluslararası bir uzman grubu (Bone and Joint Decade Görev Gücü, 2008) boyun ağrısını ciddiyetine göre dört dereceye ayırdı. Boyun ağrılarının çoğu ilk iki derecededir."
+ },
+ {
+  "id": "tur38-98",
+  "kind": "text",
+  "tr": "I"
+ },
+ {
+  "id": "tur38-99",
+  "kind": "text",
+  "tr": "Günlük işleri hiç ya da az etkileyen ağrı"
+ },
+ {
+  "id": "tur38-100",
+  "kind": "text",
+  "tr": "Ciddi bir yapısal neden belirtisi yok. Kapsamlı tetkik ya da girişimsel tedavi genellikle gerekmez."
+ },
+ {
+  "id": "tur38-101",
+  "kind": "text",
+  "tr": "II"
+ },
+ {
+  "id": "tur38-102",
+  "kind": "text",
+  "tr": "Günlük işleri belirgin kısıtlayan ağrı"
+ },
+ {
+  "id": "tur38-103",
+  "kind": "text",
+  "tr": "Ciddi bir neden belirtisi yok. Uzun süreli kısıtlılığı önlemek için ağrı kontrolü ve erken harekete geçme önerilir."
+ },
+ {
+  "id": "tur38-104",
+  "kind": "text",
+  "tr": "III"
+ },
+ {
+  "id": "tur38-105",
+  "kind": "text",
+  "tr": "Sinir bulgularıyla"
+ },
+ {
+  "id": "tur38-106",
+  "kind": "text",
+  "tr": "Reflekslerde azalma ya da kas güçsüzlüğü gibi sinir bulguları var. İleri tetkik gerekebilir."
+ },
+ {
+  "id": "tur38-107",
+  "kind": "text",
+  "tr": "Boyun fıtığı ve sinir sıkışması →"
+ },
+ {
+  "id": "tur38-108",
+  "kind": "text",
+  "tr": "IV"
+ },
+ {
+  "id": "tur38-109",
+  "kind": "text",
+  "tr": "Ciddi bir nedenin belirtileriyle"
+ },
+ {
+  "id": "tur38-110",
+  "kind": "text",
+  "tr": "Kırık, omurilik basısı, tümör ya da sistemik bir hastalık gibi ciddi bir nedenin belirtileri var. Hemen değerlendirme gerekir."
+ },
+ {
+  "id": "tur38-111",
+  "kind": "text",
+  "tr": "Boyun düzleşmesi, MR bulguları ve \"kötü duruş\""
+ },
+ {
+  "id": "tur38-112",
+  "kind": "text",
+  "tr": "Röntgende \"boyun düzleşmesi\" yazısını görmek birçok kişiyi endişelendirir. 54'ü boyun ağrılı, 53'ü ağrısız 107 kişinin karşılaştırıldığı bir çalışmada iki grup arasında boyun eğriliği açısından fark bulunmadı. Araştırmacılara göre boyun ağrılı kişilerde görülen bu tür bulgular rastlantısal kabul edilmeli; yani ağrının nedenini göstermeyebilir."
+ },
+ {
+  "id": "tur38-113",
+  "kind": "text",
+  "tr": "MR raporlarındaki \"disk bombeleşmesi\" için de durum benzer: ağrısı olmayan 1.211 kişinin boyun MR'larının incelendiği çalışmada disk bombeleşmesi %87,6 oranında görüldü; 20'li yaşlarda bile erkeklerin %73'ünde, kadınların %78'inde vardı."
+ },
+ {
+  "id": "tur38-114",
+  "kind": "text",
+  "tr": "Telefonla mesajlaşırken duruş için de benzer bir sonuç var: Brezilya'da 18–21 yaşındaki 150 gençle yapılan kesitsel bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı. Çalışma küçüktür ve uzun yıllar boyunca eğik duruşun etkisini incelemedi. Uzun süre aynı pozisyonda kalmak rahatsızlık veriyorsa pozisyonunuzu sık sık değiştirin."
+ },
+ {
+  "id": "tur38-115",
+  "kind": "text",
+  "tr": "Boyun ağrısı araştırmalarının kısa tarihi"
+ },
+ {
+  "id": "tur38-116",
+  "kind": "text",
+  "tr": "Son 20 yılın araştırmaları egzersizin, hareketli kalmanın ve ağrının tipine göre tedavinin önemini öne çıkardı."
+ },
+ {
+  "id": "tur38-117",
+  "kind": "text",
+  "tr": "Bone and Joint Decade Görev Gücü boyun ağrısını yeniden ele aldı: ağrıyı ciddiyetine göre dört dereceye ayırdı ve ağrının en az yarısında tamamen geçmediğini, iyileşmeyi psikolojik etkenlerin ve iş stresinin fiziksel etkenlerden daha çok etkiliyor göründüğünü bildirdi. Araştırmalarda boyun ağrısı yaşayanların %50–85'i 1–5 yıl sonra yine boyun ağrısı bildirdi."
+ },
+ {
+  "id": "tur38-118",
+  "kind": "text",
+  "tr": "27 çalışmayı inceleyen Cochrane derlemesi, uzun süren boyun ağrısında boyun, kürek kemiği ve kol kaslarını güçlendiren egzersizlerin ağrıyı tedavinin hemen sonunda orta ile belirgin düzeyde azalttığını buldu (orta kalitede kanıt); yalnızca germe egzersizinin yararı gösterilemedi."
+ },
+ {
+  "id": "tur38-119",
+  "kind": "text",
+  "tr": "Ağrısı olmayan 1.211 kişinin boyun MR'larını inceleyen çalışmada disk bombeleşmesi %87,6 oranında görüldü; 20'li yaşlarda bile yaygındı."
+ },
+ {
+  "id": "tur38-120",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi bölümünün kılavuzu, 2008'deki dört tipli sınıflamayı koruyarak güncellendi; her tip ve süre için farklı egzersiz ve manuel terapi önerdi."
+ },
+ {
+  "id": "tur38-121",
+  "kind": "text",
+  "tr": "Brezilya'da 18–21 yaşındaki 150 gençle yapılan kesitsel bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı."
+ },
+ {
+  "id": "tur38-122",
+  "kind": "text",
+  "tr": "Avrupa'daki altı boyun ağrısı kılavuzunu karşılaştıran bir derleme: egzersiz ve başka tedavilerle birlikte manuel terapi orta düzeyde, bilgilendirme ve güvence verme zayıf düzeyde önerildi; elektroterapi, akupunktur ve kuru iğneleme, traksiyon ve boyunluk konusunda kılavuzlar tutarsızdı ya da kesin bir sonuca varamadı."
+ },
+ {
+  "id": "tur38-123",
+  "kind": "text",
+  "tr": "Küresel Hastalık Yükü çalışması dünyada 2020'de 203 milyon kişinin boyun ağrısı yaşadığını hesapladı."
+ },
+ {
+  "id": "tur38-124",
+  "kind": "text",
+  "tr": "Yatak istirahati ve uzun süre boyunluk önerilmez. Ağrının izin verdiği ölçüde günlük işlere devam etmek önerilir ve iyileşmeye yardımcı olabilir."
+ },
+ {
+  "id": "tur38-125",
+  "kind": "text",
+  "tr": "Tedavinin temelidir. Boyun, kürek kemiği ve kol kaslarını güçlendiren egzersizler uzun süren boyun ağrısını tedavinin hemen sonunda orta ile belirgin düzeyde azalttı (orta kalitede kanıt). Yalnızca germe egzersizlerinin yararı gösterilemedi."
+ },
+ {
+  "id": "tur38-126",
+  "kind": "text",
+  "tr": "Mobilizasyon ve manipülasyon, Avrupa kılavuzlarında egzersiz gibi başka tedavilerle birlikte orta düzeyde öneriliyor; tek başına kullanımı konusunda kılavuzlar tutarsız. ABD kılavuzu boyun ve sırt (torakal) omurgasına uygulamayı ağrının tipine göre öneriyor. Muayeneden sonra, eğitimli bir fizyoterapist tarafından uygulanmalıdır."
+ },
+ {
+  "id": "tur38-127",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi bölümünün kılavuzu (2017) ile Avrupa'daki altı boyun ağrısı kılavuzunu karşılaştıran derlemenin (2021) bulguları yan yana. Parantez içindeki harfler ABD kılavuzundaki kanıt düzeyidir (B orta, C zayıf). İki kaynağın derecelendirmesi aynı ölçekte değildir: ABD kılavuzu kanıt düzeyini, Avrupa derlemesi kılavuzların tutarlılığını ve kalitesini değerlendirir. Öneriler ağrının tipine göre değişir; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur38-128",
+  "kind": "text",
+  "tr": "Bilgilendirme ve güvence"
+ },
+ {
+  "id": "tur38-129",
+  "kind": "text",
+  "tr": "Avrupa (6 kılavuz)"
+ },
+ {
+  "id": "tur38-130",
+  "kind": "text",
+  "tr": "Hareketli kalma ve egzersize teşvik dahil, zayıf düzeyde öneriliyor."
+ },
+ {
+  "id": "tur38-131",
+  "kind": "text",
+  "tr": "ABD (APTA)"
+ },
+ {
+  "id": "tur38-132",
+  "kind": "text",
+  "tr": "Kaza sonrası boyun ağrısında olağan etkinliklere en kısa sürede dönmek ve iyileşmenin genellikle ilk 2–3 ayda beklendiğini bilmek (B); kola yayılan uzun süren ağrıda (B) ve uzun süren hareket kısıtlılığında (C) bilgilendirme ve danışmanlık."
+ },
+ {
+  "id": "tur38-133",
+  "kind": "text",
+  "tr": "Orta düzeyde öneriliyor."
+ },
+ {
+  "id": "tur38-134",
+  "kind": "text",
+  "tr": "Tipe göre: hareket açıklığı, kürek kemiği ve kol güçlendirme, dayanıklılık ve koordinasyon egzersizleri (çoğunlukla B)."
+ },
+ {
+  "id": "tur38-135",
+  "kind": "text",
+  "tr": "Başka tedavilerle birlikte orta düzeyde öneriliyor; tek başına tutarsız."
+ },
+ {
+  "id": "tur38-136",
+  "kind": "text",
+  "tr": "Sırt (torakal) ve boyun manipülasyonu ya da mobilizasyonu, ağrının tipine ve süresine göre öneriliyor (B ya da C)."
+ },
+ {
+  "id": "tur38-137",
+  "kind": "text",
+  "tr": "Yalnızca belirli gruplarda (ruh hali sorunları, psikososyal risk etkenleri ya da karmaşık, uzun süren ağrı) zayıf düzeyde öneriliyor."
+ },
+ {
+  "id": "tur38-138",
+  "kind": "text",
+  "tr": "Kaza sonrası uzun süren ağrıda bilişsel davranışçı ilkelerle kişiye özel, kademeli egzersiz (C)."
+ },
+ {
+  "id": "tur38-139",
+  "kind": "text",
+  "tr": "Traksiyon"
+ },
+ {
+  "id": "tur38-140",
+  "kind": "text",
+  "tr": "Kesin bir sonuca varılamadı."
+ },
+ {
+  "id": "tur38-141",
+  "kind": "text",
+  "tr": "Kola yayılan uzun süren ağrıda aralıklı boyun traksiyonu, egzersiz ve manuel terapiyle birlikte (B)."
+ },
+ {
+  "id": "tur38-142",
+  "kind": "text",
+  "tr": "TENS ve lazer"
+ },
+ {
+  "id": "tur38-143",
+  "kind": "text",
+  "tr": "Elektroterapi (TENS ve lazer ayrı değerlendirilmedi): dört kılavuzdan ikisi önermiyor; genel sonuç kesin değil."
+ },
+ {
+  "id": "tur38-144",
+  "kind": "text",
+  "tr": "TENS kaza sonrası ağrıda (C); lazer uzun süren hareket kısıtlılığında (B, birleşik tedavinin parçası olarak) ve kola yayılan yeni ağrıda (C)."
+ },
+ {
+  "id": "tur38-145",
+  "kind": "text",
+  "tr": "Kuru iğneleme ve akupunktur"
+ },
+ {
+  "id": "tur38-146",
+  "kind": "text",
+  "tr": "Tutarsız."
+ },
+ {
+  "id": "tur38-147",
+  "kind": "text",
+  "tr": "Kuru iğneleme, uzun süren hareket kısıtlılığında birleşik tedavinin parçası olarak seçenekler arasında (B)."
+ },
+ {
+  "id": "tur38-148",
+  "kind": "text",
+  "tr": "Kaza sonrası kullanımı en aza indirmek (B); kola yayılan yeni ağrıda kısa süreli (C)."
+ },
+ {
+  "id": "tur38-149",
+  "kind": "text",
+  "tr": "Ekran başında saatlerce aynı pozisyonda kalmak boyunda rahatsızlık yapabilir. Duruşun boyun ağrısına yol açtığı araştırmalarda net olarak gösterilmedi; yine de şu küçük düzenlemeler rahat çalışmanıza yardım edebilir."
+ },
+ {
+  "id": "tur38-150",
+  "kind": "text",
+  "tr": "Seyri kişiden kişiye değişir. Uluslararası bir uzman grubuna göre boyun ağrısı vakaların en az yarısında tamamen geçmez; araştırmalarda boyun ağrısı yaşayanların %50–85'i 1–5 yıl sonra yine ağrı bildirdi. Bu yüzden ağrı azaldıktan sonra da egzersizlere devam etmek yararlı olabilir."
+ },
+ {
+  "id": "tur38-151",
+  "kind": "text",
+  "tr": "Tutulma ve kas gerginliğinde ılık uygulama bazı kişileri rahatlatır; ancak araştırmalarda sıcak ve soğuk uygulamanın etkisi net değildir. Kullanacaksanız cildinizi bir bezle koruyun ve uyurken uygulamayın. Ağrı bir darbe, düşme ya da kazadan sonra başladıysa önce hekime başvurun."
+ },
+ {
+  "id": "tur38-152",
+  "kind": "text",
+  "tr": "Sıradan boyun ağrısında ve kaza sonrası boyun zorlanmasında (whiplash) önerilmez; ABD kılavuzu kaza sonrasında da kullanımı en aza indirmeyi öneriyor. Kola yayılan yeni ağrıda kısa süreli kullanılabilir. Kırık şüphesi gibi durumlarda boyunluğa hekiminiz karar verir."
+ },
+ {
+  "id": "tur38-153",
+  "kind": "text",
+  "tr": "Telefona eğilmek boynumu bozar mı?"
+ },
+ {
+  "id": "tur38-154",
+  "kind": "text",
+  "tr": "Telefona bakarken boynu eğmenin boyna zarar verdiğine dair kanıt yok; ancak bu konuda çalışma az. Brezilya'da 18–21 yaşındaki 150 gençle yapılan bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı. Çalışma küçük ve kesitseldir; uzun yıllar boyunca eğik duruşun etkisi incelenmedi. Uzun süre aynı pozisyonda kalmak rahatsızlık veriyorsa ara verip pozisyonunuzu değiştirin."
+ },
+ {
+  "id": "tur38-155",
+  "kind": "text",
+  "tr": "Tek başına genellikle hayır. Boyun eğriliğinin azalması ağrısı olmayan kişilerde de görülür ve araştırmalarda ağrıyla tutarlı bir ilişkisi gösterilememiştir. Önemli olan şikâyetleriniz ve muayene bulgularıdır."
+ },
+ {
+  "id": "tur38-156",
+  "kind": "text",
+  "tr": "Ani başlayan, hayatınızın en şiddetli baş ağrısı varsa (<strong>112</strong>)"
+ },
+ {
+  "id": "tur38-157",
+  "kind": "text",
+  "tr": "Ateşle birlikte ense sertliği varsa (<strong>112</strong>)"
+ },
+ {
+  "id": "tur38-158",
+  "kind": "text",
+  "tr": "Ani başlayan baş dönmesi, çift görme, konuşma ya da yutma güçlüğü eşlik ediyorsa (<strong>112</strong>)"
+ },
+ {
+  "id": "tur38-159",
+  "kind": "text",
+  "tr": "Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Andrade ICS, Meziat-Filho N. <a href=\"https://www.painscience.com/biblio/no-link-between-text-neck-posture-and-neck-pain-in-150-brazilian-young-adults.html\" target=\"_blank\" rel=\"noopener\">Text neck and neck pain in 18–21-year-old young adults</a>. Eur Spine J. 2018."
+ },
+ {
+  "id": "tur38-160",
+  "kind": "text",
+  "tr": "Haldeman S, Carroll L, Cassidy JD, et al. The Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders: executive summary. Spine. 2008;33(4 Suppl). Özet: <a href=\"https://www.newswise.com/articles/task-force-presents-evidence-based-recommendations-on-neck-pain\" target=\"_blank\" rel=\"noopener\">Wolters Kluwer basın bülteni, 2008</a>."
+ }
+]
