@@ -233,6 +233,25 @@
   .faq summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
   .faq details p{margin:0 0 16px;color:var(--ink-soft)}
 
+  main section[id]{scroll-margin-top:calc(var(--barh,57px) + 4px)}
+  .g-toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .g-toc a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;text-decoration:none;color:var(--ink-soft)}
+  .g-toc a:hover{color:var(--ink);border-color:var(--gold)}
+  .g-tl{list-style:none;margin:8px 0 0;padding:0 0 0 18px;max-width:820px;border-left:2px solid var(--line)}
+  .g-tl li{position:relative;padding:10px 0 10px 4px}
+  .g-tl li::before{content:"";position:absolute;left:-25px;top:17px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+  .g-tl b{font-family:var(--display);color:var(--foil);font-size:18px;margin-right:6px}
+  .g-tl span{color:var(--ink-soft)}
+  .g-cmp .kind dl{margin:4px 0 0;display:grid;gap:6px}
+  .g-cmp .kind dt{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .g-cmp .kind dd{margin:0;font-size:15px;color:var(--ink-soft)}
+  .g-facts{counter-reset:gf;list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:980px}
+  @media (max-width:700px){.g-facts{grid-template-columns:1fr}}
+  .g-facts li{position:relative;border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 58px;background:var(--ground-2);color:var(--ink-soft);font-size:15px}
+  .g-facts li::before{counter-increment:gf;content:counter(gf);position:absolute;left:18px;top:10px;font-family:var(--display);font-size:28px;color:var(--foil)}
+  .g-facts b{display:block;color:var(--ink);font-weight:600;font-size:16px;margin-bottom:4px}
+  .g-h3{margin:26px 0 4px;font-size:21px}
+
   .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:4px}
   @media (max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
   .stat{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--ground-2)}
@@ -397,10 +416,10 @@
     },
     {
       "@type": "Question",
-      "name": "My pain has gone. Should I keep exercising?",
+      "name": "Sıcak uygulama işe yarar mı?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Low back pain often comes back: in one study, 69% of people whose pain had gone had low back pain again within a year. Regular exercise and an active lifestyle are the best way to lower the risk of it coming back."
+        "text": "Yeni başlayan bel ağrısında sıcak uygulama kısa süreli rahatlama sağlayabilir: Amerikan Hekimler Koleji'nin kılavuzu bunu ilk seçenekler arasında sayıyor ve etkisini orta düzeyde buluyor (kanıt orta kalitede). Cildinizi yakmayacak bir sıcaklıkta kullanın."
       }
     }
   ]
@@ -428,7 +447,7 @@
     <p class="eyebrow">Condition guide</p>
     <h1>Low back pain</h1>
     <p class="lede">The leading cause of years lived with disability worldwide. It may sound alarming, but most low back pain is not caused by a serious disease, and most new episodes of pain ease considerably within a few weeks. The key to recovery is movement, not rest.</p>
-    <p class="meta">Last updated: 29 October 2026</p>
+    <p class="meta">Last updated: 30 October 2026</p>
   </div>
 </header>
 
@@ -441,10 +460,12 @@
         <div class="stat"><b>80–90%</b><span>Low back pain with no identifiable structural cause</span></div>
         <div class="stat"><b>69%</b><span>Recurrence within a year in people whose pain had cleared</span></div>
       </div>
+      <p class="eyebrow" style="margin-top:26px">On this page</p>
+      <nav class="g-toc" aria-label="On this page"><a href="#nedir">What is it?</a><a href="#turler">Types</a><a href="#mr">MR ne anlatır?</a><a href="#gercekler">10 gerçek</a><a href="#tarihce">Past to present</a><a href="#tedavi">Treatment options</a><a href="#egzersizler">Exercises</a><a href="#gunluk">In daily life</a><a href="#videolar">Videos</a><a href="#sss">Frequently asked questions</a><a href="#uyari">Warning signs</a></nav>
     </div>
   </section>
 
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>What is it?</h2>
@@ -466,7 +487,29 @@
     </div>
   </section>
 
-  <section>
+  <section id="turler">
+    <div class="wrap">
+      <h2>Bel ağrısının türleri</h2>
+      <p class="soft">Bel ağrısı hem ne kadar süredir devam ettiğine hem de nedenine göre gruplandırılır. Bu gruplama, neyin beklenebileceğini ve ne zaman ileri değerlendirme gerektiğini anlamaya yardım eder.</p>
+      <h3 class="g-h3">Süreye göre</h3>
+      <div class="kinds">
+        <div class="kind"><span class="n">6 haftadan kısa</span><h3>Yeni başlayan (akut)</h3><p>Ağrı ve kısıtlılık çoğu zaman ilk 6 haftada belirgin şekilde azalır. 9.224 kişinin verisini birleştiren bir analizde ortalama ağrı puanı 100 üzerinden 56'dan 6. haftada 26'ya, 1. yılda 21'e indi.</p></div>
+        <div class="kind"><span class="n">6–12 weeks</span><h3>Alt-akut</h3><p>Aynı analizde bu gruptaki ağrı ve kısıtlılık da ilk 6 haftada belirgin şekilde azaldı.</p></div>
+        <div class="kind"><span class="n">12 haftadan uzun</span><h3>Uzun süren (kalıcı)</h3><p>Düzelme daha yavaştır: aynı analizde ağrı puanı başlangıçta 56, 1. yılda 40'tı (bu grubun sonuçlarının kesinliği çok düşük). Düzenli egzersiz ve aktif bir tedavi programı burada daha da önem kazanır.</p></div>
+      </div>
+      <h3 class="g-h3">Nedene göre</h3>
+      <div class="kinds">
+        <div class="kind"><h3>Nonspesifik (mekanik) bel ağrısı</h3><p>En sık türdür: bel ağrılarının yaklaşık %80–90'ında belirli bir yapısal neden bulunamaz. Ağrı genellikle hareketle ve pozisyonla değişir.</p></div>
+        <div class="kind"><h3>Sinir kökü kaynaklı ağrı (siyatik)</h3><p>Ağrı dizin altına, bacağa ve ayağa yayılır; uyuşma ve karıncalanma eşlik edebilir. En sık nedeni bel fıtığıdır.</p><a href="lumbar-disc-herniation.html">Bel fıtığı ve siyatik →</a></div>
+        <div class="kind"><h3>Ciddi bir hastalığa bağlı ağrı</h3><p>Kırık, enfeksiyon, tümör ya da kauda ekina sendromu gibi nedenler bel ağrısı olanların %1'inden azında bulunur. Uyarı işaretleri bu yüzden önemlidir.</p><a href="#uyari">Uyarı işaretleri →</a></div>
+      </div>
+      <div class="callout">
+        <p><strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığından (eksenel spondiloartrit, örneğin ankilozan spondilit) kaynaklanır. Uluslararası ASAS ölçütlerine göre şu beş özellikten en az dördü varsa iltihaplı bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href="ankylosing-spondylitis.html">Ankilozan spondilit rehberi →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="mr">
     <div class="wrap">
       <h2>What do "flattening", "bulging" and "wear and tear" on an MRI mean?</h2>
       <p class="soft">The discs in your lower back change with age, much like hair turning grey. A review of the MRI scans of thousands of people with no back pain at all found:</p>
@@ -479,10 +522,50 @@
       <div class="callout">
         <p>None of these people had low back pain. In other words, these phrases in an MRI report are often normal age-related changes and do not, on their own, explain the cause of pain. That is why guidelines do not recommend routine imaging for low back pain.</p>
       </div>
+      <p class="soft" style="margin-top:14px">ABD'de 380 hastayla yapılan bir çalışmada erken MR çekilenlerle röntgen çekilenlerin bir yıl sonraki ağrı ve işlev durumu neredeyse aynıydı. MR grubunda daha fazla bel ameliyatı yapıldı (10'a karşı 4), ancak bu fark istatistiksel olarak kesin değildi.</p>
     </div>
   </section>
 
-  <section>
+  <section id="gercekler">
+    <div class="wrap">
+      <p class="eyebrow">Araştırmacılardan</p>
+      <h2>Bel ağrısı hakkında 10 gerçek</h2>
+      <p class="soft">Bir grup araştırmacının British Journal of Sports Medicine'de yayımladığı yazı, uyarı işaretleri ve ciddi bir neden dışlandıktan sonra bel ağrısı olan herkesin bilmesi gereken 10 gerçeği özetliyor. Bu bir uzman görüşü yazısıdır; dayandığı çalışmalara yazının kaynakçasından ulaşılabilir.</p>
+      <ol class="g-facts">
+        <li><b>Bel ağrısı hayatı tehdit eden ciddi bir hastalık değildir.</b>Uyarı işaretleri yoksa ve ciddi bir neden dışlandıysa.</li>
+        <li><b>Çoğu bel ağrısı atağı düzelir.</b>Bel ağrısı yaşla birlikte kaçınılmaz olarak kötüleşmez.</li>
+        <li><b>Düşünceler ve davranışlar önemlidir.</b>Olumsuz düşünceler, hareketten kaçınma, olumsuz iyileşme beklentisi ve ağrıyla baş etme biçimi, kalıcı ağrıyla doku hasarından daha güçlü ilişkilidir.</li>
+        <li><b>Görüntüleme, ağrının seyrini belirlemez.</b>MR ya da röntgen, mevcut ağrının nasıl seyredeceğini göstermez.</li>
+        <li><b>Hareket güvenlidir.</b>Kademeli egzersiz ve her yöne hareket omurga için güvenli ve sağlıklıdır.</li>
+        <li><b>Duruş bel ağrısını öngörmez.</b>Otururken, ayakta dururken ve yük kaldırırken omurganın duruşu, bel ağrısının başlamasını ya da sürmesini öngörmez.</li>
+        <li><b>Zayıf karın-gövde kasları bel ağrısına yol açmaz.</b>Bel ağrısı olan bazı kişiler bu kasları gereğinden fazla gerer; gerektiğinde gevşetebilmek de önemlidir.</li>
+        <li><b>Kademeli yük omurgayı güçlendirir.</b>Omurgayı yavaş yavaş artan şekilde hareket ettirmek ve yüklemek güvenlidir ve onu dayanıklı kılar.</li>
+        <li><b>Alevlenmeler hasar demek değildir.</b>Ağrı alevlenmeleri yapısal hasardan çok etkinlikteki değişiklikler, stres ve ruh haliyle ilişkilidir.</li>
+        <li><b>Etkili bakım görece ucuz ve güvenlidir.</b>Bilgilendirme ile fiziksel etkinlik, uyku, kilo ve işe devam etme konusunda destek.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Past to present</p>
+      <h2>Bel ağrısı tedavisinin kısa tarihi</h2>
+      <p class="soft">Bel ağrısında uzun süre yatak istirahati sık önerilen bir tedaviydi. Son 40 yılın araştırmaları hareketli kalmanın, egzersizin ve ağrıyı doğru anlamanın daha yararlı olduğunu gösterdi.</p>
+      <ol class="g-tl">
+        <li><b>1986</b><span>ABD'de akut bel ağrısı olan 203 kişiyle yapılan çalışmada 2 günlük yatak istirahati 7 gün kadar etkiliydi ve işe gidilemeyen gün sayısı %45 daha azdı.</span></li>
+        <li><b>1995</b><span>Finlandiya'da akut bel ağrısı olan 186 çalışanla yapılan çalışmada ağrının izin verdiği ölçüde olağan işlerine devam edenler, yatak istirahati yapanlardan ve kendilerine bel egzersizleri verilenlerden daha hızlı iyileşti. Yazarlar 2 günlük yatak istirahatinin bile iyileşmeyi geciktirebileceğini belirtti.</span></li>
+        <li><b>2003</b><span>ABD'de 380 hastayla yapılan çalışmada erken MR çekilenlerle röntgen çekilenlerin bir yıl sonraki durumu neredeyse aynıydı.</span></li>
+        <li><b>2015</b><span>Ağrısı olmayan kişilerin MR'larını inceleyen bir derleme, disk aşınması ve bombeleşmesinin yaşla birlikte çok sık görüldüğünü gösterdi.</span></li>
+        <li><b>2016</b><span>İngiltere'nin NICE kılavuzu yayımlandı: bel ağrısında rutin görüntüleme, korse, traksiyon, akupunktur, TENS ve omurga iğneleri önerilmedi; hareketli kalmak ve egzersiz öne çıktı.</span></li>
+        <li><b>2017</b><span>Amerikan Hekimler Koleji (ACP), ilaçlardan önce ilaç dışı tedavileri önerdi: yeni başlayan ağrıda sıcak uygulama, masaj, akupunktur ya da manipülasyon; uzun süren ağrıda egzersiz, yoga, tai chi ve bilişsel davranışçı terapi gibi seçenekler.</span></li>
+        <li><b>2018</b><span>The Lancet'teki bir makale dizisi bel ağrısını küresel bir halk sağlığı sorunu olarak ele aldı; bel ağrısı olanların %1'inden azında ciddi bir hastalık bulunduğunu vurguladı.</span></li>
+        <li><b>2024</b><span>95 çalışmayı inceleyen bir derleme, yeni başlayan bel ağrısının çoğunlukla ilk 6 haftada belirgin şekilde azaldığını, uzun süren ağrıda ise düzelmenin yavaş olduğunu gösterdi.</span></li>
+        <li><b>2026</b><span>NICE, dayandığı kanıtın bir kısmı sonradan geri çekildiği için psikolojik tedavilere ilişkin önerilerini kılavuzdan çıkardı; ABD kılavuzu (ACP) ise bilişsel davranışçı terapiyi seçenekler arasında sayıyor.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="tedavi">
     <div class="wrap">
       <h2>Course and treatment</h2>
       <p class="soft">When low back pain has just started, pain and limitation usually ease considerably within the first 6 weeks; in studies, pain scores fell by more than half on average. When pain lasts longer than three months, improvement is slower, and regular exercise and a guided treatment programme become even more important.</p>
@@ -491,9 +574,19 @@
         <li><b>Exercise</b><span>The cornerstone of treatment. In long-lasting low back pain, people who exercised had on average 15 points less pain out of 100 at 3 months than those receiving no treatment, usual care or placebo. The best exercise is the one you can do regularly.</span></li>
         <li><b>Manual therapy</b><span>Guidelines list mobilisation, manipulation and soft tissue techniques as an option to consider not on their own, but only as part of a treatment package that includes exercise.</span></li>
         <li><b>Coping with pain</b><span>In long-lasting pain, fear, anxiety and poor sleep feed the pain. If anxiety or low mood is marked, you can talk to your doctor about support options. <a href="stress.html">Try the breathing exercises →</a></span></li>
-        <li><b>Medication</b><span>Painkillers recommended by your doctor should be used at the lowest dose for the shortest possible time.</span></li>
-        <li><b>Not recommended</b><span>Guidelines do not recommend back braces, insoles or traction.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
+      <p class="soft">İngiltere'nin NICE kılavuzu (2016, son güncelleme 2026) ile Amerikan Hekimler Koleji'nin (ACP, 2017) önerileri yan yana. Kılavuzlar her konuda aynı fikirde değil; tedavi kişiye göre seçilir. Bacağa yayılan siyatik ağrısında öneriler farklı olabilir: <a href="lumbar-disc-herniation.html">Bel fıtığı ve siyatik →</a></p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Exercise</h3><dl><dt>NICE</dt><dd>Önerir; grup egzersiz programı düşünülebilir.</dd><dt>ACP</dt><dd>Uzun süren ağrıda ilk seçenekler arasında; yoga, tai chi ve motor kontrol egzersizleri de sayılıyor.</dd><dt>Evidence</dt><dd>Uzun süren ağrıda 3. ayda ağrı 100 üzerinden ortalama 15 puan daha az (Cochrane, 2021).</dd></dl></div>
+        <div class="kind"><h3>Manual therapy</h3><dl><dt>NICE</dt><dd>Manipülasyon, mobilizasyon ve masaj gibi yumuşak doku teknikleri yalnızca egzersizi içeren bir paketin parçası olarak düşünülebilir.</dd><dt>ACP</dt><dd>Manipülasyon seçenekler arasında; etkisi küçük.</dd></dl></div>
+        <div class="kind"><h3>Sıcak uygulama ve masaj</h3><dl><dt>ACP</dt><dd>Yeni başlayan ağrıda ilk seçenekler arasında. Sıcak uygulamanın etkisi orta düzeyde (kanıt orta kalitede); masajın etkisi kısa süreli (kanıt düşük kalitede).</dd></dl></div>
+        <div class="kind"><h3>Psikolojik yaklaşımlar</h3><dl><dt>ACP</dt><dd>Uzun süren ağrıda bilişsel davranışçı terapi ve farkındalık temelli stres azaltma seçenekler arasında.</dd><dt>NICE</dt><dd>Dayandığı kanıtın bir kısmı geri çekildiği için Temmuz 2026'da bu önerileri kılavuzdan çıkardı.</dd></dl></div>
+        <div class="kind"><h3>Acupuncture</h3><dl><dt>ACP</dt><dd>Seçenekler arasında; etkisi küçük.</dd><dt>NICE</dt><dd>Bel ağrısında önermiyor.</dd><dt>Note</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+        <div class="kind"><h3>Korse, tabanlık, traksiyon, elektroterapi</h3><dl><dt>NICE</dt><dd>Korse, tabanlık, bel çekme (traksiyon), TENS, ultrason ve enterferansiyel akım tedavilerini bel ağrısında önermiyor.</dd></dl></div>
+        <div class="kind"><h3>Medication</h3><dl><dt>Kılavuzlar</dt><dd>İlaçlar hareket ve egzersizin yerine değil yanında, en düşük etkili dozda ve kısa süre düşünülür; bazı ilaç grupları bel ağrısında önerilmiyor. Hangisinin size uygun olduğuna hekiminiz karar verir.</dd></dl></div>
+        <div class="kind"><h3>Omurga iğneleri ve ameliyat</h3><dl><dt>NICE</dt><dd>Bel ağrısı için omurga iğneleri ve disk protezi önerilmiyor; füzyon ameliyatı yalnızca araştırma kapsamında. Diğer tedavilerin yetmediği seçilmiş uzun süren ağrıda radyofrekans denervasyon için değerlendirme düşünülebilir.</dd></dl></div>
+      </div>
     </div>
   </section>
 
@@ -513,7 +606,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="gunluk">
     <div class="wrap two">
       <div>
         <h2>Looking after your back in daily life</h2>
@@ -521,7 +614,7 @@
       </div>
       <ul class="dots" style="align-self:center">
         <li>Get up every half an hour and walk a few steps; break up long periods of sitting.</li>
-        <li>Keep loads close to your body, take your time and do not twist while lifting.</li>
+        <li>Ağır yükleri kaldırmaya vücudunuzu yavaş yavaş alıştırın; kaldırırken belinizi nasıl tuttuğunuz bel ağrısını öngörmüyor.</li>
         <li>Walk on most days of the week; short walks count too.</li>
         <li>Look after your sleep routine; tiredness makes you more sensitive to pain.</li>
         <li>Stopping smoking and losing excess weight are good for your back, too.</li>
@@ -550,7 +643,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Frequently asked questions</h2>
       <div class="faq">
@@ -558,12 +651,14 @@
 <details><summary>Should I wear a back brace?</summary><p>Usually not. The UK guideline (NICE) for low back pain and sciatica does not recommend back braces, insoles or traction. Wearing a brace for a long time can make your muscles do less work.</p></details>
 <details><summary>Do I need an MRI scan?</summary><p>Usually not. Disc degeneration and disc bulges are also very common in people without pain; a finding on MRI does not mean it is the cause of your pain. If there are warning signs or surgery is being considered, your doctor will decide.</p></details>
 <details><summary>Is a firm mattress better?</summary><p>A very firm mattress is not essential. In a study of people with long-lasting low back pain, a medium-firm mattress gave better results than a firm one. The best mattress is one you sleep comfortably on and wake up from with less pain in the morning.</p></details>
+<details><summary>Sıcak uygulama işe yarar mı?</summary><p>Yeni başlayan bel ağrısında sıcak uygulama kısa süreli rahatlama sağlayabilir: Amerikan Hekimler Koleji'nin kılavuzu bunu ilk seçenekler arasında sayıyor ve etkisini orta düzeyde buluyor (kanıt orta kalitede). Cildinizi yakmayacak bir sıcaklıkta kullanın.</p></details>
+<details><summary>Duruşum bozuk olduğu için mi belim ağrıyor?</summary><p>Araştırmalar oturma, ayakta durma ve yük kaldırma sırasındaki duruşun bel ağrısının başlamasını ya da sürmesini öngörmediğini gösteriyor. Uzun süre aynı pozisyonda kalmak ağrınızı artırıyorsa pozisyonunuzu sık sık değiştirin ve ara ara kalkıp yürüyün.</p></details>
 <details><summary>My pain has gone. Should I keep exercising?</summary><p>Yes. Low back pain often comes back: in one study, 69% of people whose pain had gone had low back pain again within a year. Regular exercise and an active lifestyle are the best way to lower the risk of it coming back.</p></details>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>When to seek help right away</h2>
       <p class="soft">Low back pain is very rarely a sign of a serious disease. However, see a doctor without delay if you have any of the following:</p>
@@ -596,12 +691,19 @@
         <li>da Silva T, Mills K, Brown BT, et al. Recurrence of low back pain is common: a prospective inception cohort study. J Physiother. 2019;65(3):159-165.</li>
         <li>GBD 2021 Low Back Pain Collaborators. <a href="https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00098-X/fulltext" target="_blank" rel="noopener">Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050</a>. Lancet Rheumatol. 2023;5(6):e316-e329.</li>
         <li>Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW. <a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009790.pub2/full" target="_blank" rel="noopener">Exercise therapy for chronic low back pain</a>. Cochrane Database Syst Rev. 2021;9:CD009790.</li>
+        <li>Hartvigsen J, Hancock MJ, Kongsted A, et al. <a href="https://core.ac.uk/download/153535953.pdf" target="_blank" rel="noopener">What low back pain is and why we need to pay attention</a>. Lancet. 2018. doi:10.1016/S0140-6736(18)30480-X.</li>
         <li>Chiarotto A, Koes BW. <a href="https://www.nejm.org/doi/full/10.1056/NEJMcp2032396" target="_blank" rel="noopener">Nonspecific low back pain</a>. N Engl J Med. 2022;386(18):1732-1740.</li>
         <li>Koes BW, van Tulder MW, Thomas S. Diagnosis and treatment of low back pain. BMJ. 2006;332(7555):1430-1434.</li>
+        <li>Jarvik JG, et al. <a href="https://www.qxmd.com/r/12783911" target="_blank" rel="noopener">Rapid magnetic resonance imaging vs radiographs for patients with low back pain: a randomized controlled trial</a>. JAMA. 2003.</li>
         <li>Kovacs FM, Abraira V, Peña A, et al. Effect of firmness of mattress on chronic non-specific low-back pain: randomised, double-blind, controlled, multicentre trial. Lancet. 2003;362(9396):1599-1604.</li>
+        <li>Malmivaara A, Häkkinen U, Aro T, et al. <a href="https://search.pedro.org.au/search-results/record-detail/1657" target="_blank" rel="noopener">The treatment of acute low back pain: bed rest, exercises, or ordinary activity?</a>. N Engl J Med. 1995;332(6):351–355.</li>
+        <li>Guideline Central. <a href="https://www.guidelinecentral.com/insights/aug-2026-nice-lowbackpainsciaticaover16-guideline-spotlight/" target="_blank" rel="noopener">NICE low back pain and sciatica in over 16s: July 2026 update (psychological therapy recommendations withdrawn)</a>. Ağustos 2026.</li>
         <li>National Institute for Health and Care Excellence. <a href="https://www.nice.org.uk/guidance/ng59" target="_blank" rel="noopener">Low back pain and sciatica in over 16s: assessment and management (NG59)</a>. London: NICE; 2016, updated 2020 and 2026.</li>
         <li>Physiopedia. <a href="https://www.physio-pedia.com/Non_Specific_Low_Back_Pain" target="_blank" rel="noopener">Non Specific Low Back Pain</a>.</li>
+        <li>O'Sullivan PB, Caneiro JP, O'Sullivan K, et al. <a href="https://www.paulogentil.com/pdf/Back%20to%20Basics%20-%2010%20Facts%20Every%20Person%20Should%20Know%20About%20Back%20Pain.pdf" target="_blank" rel="noopener">Back to basics: 10 facts every person should know about back pain</a>. Br J Sports Med. 2020. doi:10.1136/bjsports-2019-101611.</li>
         <li>Physiopedia. <a href="https://www.physio-pedia.com/Williams_Flexion_Exercise" target="_blank" rel="noopener">Williams Flexion Exercise</a>.</li>
+        <li>Qaseem A, et al. <a href="https://www.aafp.org/pubs/afp/issues/2017/0915/p407.html" target="_blank" rel="noopener">Noninvasive treatments for acute, subacute, and chronic low back pain: a clinical practice guideline from the American College of Physicians</a>. Ann Intern Med. 2017. Özet: American Family Physician.</li>
+        <li>Sieper J, van der Heijde D, Landewé R, et al. <a href="https://ard.bmj.com/content/68/6/784" target="_blank" rel="noopener">New criteria for inflammatory back pain in patients with chronic back pain: a real patient exercise by experts from the Assessment of SpondyloArthritis international Society (ASAS)</a>. Ann Rheum Dis. 2009;68(6):784–788.</li>
         <li>Wallwork SB, Braithwaite FA, O'Keeffe M, et al. <a href="https://www.cmaj.ca/content/196/2/E29" target="_blank" rel="noopener">The clinical course of acute, subacute and persistent low back pain: a systematic review and meta-analysis</a>. CMAJ. 2024;196(2):E29-E46.</li>
       </ol>
     </div>
