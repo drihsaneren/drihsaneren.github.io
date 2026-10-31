@@ -1,0 +1,169 @@
+SAYFA: /home/claude/main/omuz-sikismasi.html (https://drihsaneren.com//home/claude/main/omuz-sikismasi.html)
+AÇIKLAMA (meta): Omuz sıkışması (subakromiyal ağrı, rotator manşet tendiniti) nedir, nasıl tanınır, MR'daki yırtık önemli mi, ameliyat gerekir mi? 2025 kılavuzlarının karşılaştırması, kısa tarihçe, evde altı egzersiz, videolar ve uyarı işaretleri.
+BAŞLIK/GİRİŞ: Bilgi köşesi Hastalık rehberi Omuz sıkışması (subakromiyal ağrı) Kolu yana ya da yukarı kaldırırken omzun dış yüzünde, bazen kola doğru yayılan ağrıyla kendini gösterir. Eskiden kemiklerin arasında bir "sıkışma" olduğu düşünülen bu tabloda bugün omzu çeviren kasların (rotator manşet) tendonları ve çevresindeki yapılar öne çıkıyor. Tedavinin temeli egzersizdir; ameliyat çoğu zaman gerekmez. Son güncelleme: 31 Ekim 2026
+ 
+%44–65 Omuz ağrısı şikâyetleri içinde subakromiyal ağrının payı 
+%22 Toplum taramasında tam kat tendon yırtığı bulunan kişi; bu yırtıkların üçte ikisi ağrısız 
+5 yıl Takipte dekompresyon ameliyatı, sahte ameliyattan ve egzersizden daha iyi değildi 
+3 ay Ameliyatsız tedaviyle belirgin düzelmenin genellikle beklendiği süre 
+Bu sayfada 
+ Nedir? [#nedir]Nasıl tanınır? [#tani]MR'daki yırtık [#mr]Geçmişten bugüne [#tarihce]Tedavi seçenekleri [#tedavi]Egzersizler [#egzersizler]Günlük hayatta [#gunluk]Videolar [#videolar]Sık sorulan sorular [#sss]Uyarı işaretleri [#uyari] 
+===== BÖLÜM #nedir =====
+## Nedir? 
+Omzun üstündeki kemik çatı (akromiyon) ile kol kemiği arasında kalan dar alana subakromiyal alan denir. Burada omzu çeviren kasların (rotator manşet) tendonları ve bir kese (bursa) bulunur. Bu yapıların aşırı ya da alışık olunmayan yüklenmesi ağrıya yol açar. 
+Eskiden tendonun kemiğe "sıkıştığı" düşünülürdü. Bugün ağrının çoğu zaman tek bir mekanik sıkışmayla açıklanamayacağı, tendonun yüklenmeye verdiği yanıtın da rol oynadığı düşünülüyor; bu yüzden "subakromiyal ağrı" ya da "rotator manşetle ilişkili omuz ağrısı" adları da kullanılıyor. 
+## Belirtiler ve risk etkenleri 
+- Kolu yana ya da öne kaldırırken belli bir açıda artan ağrı 
+- Omzun dış yüzüne, bazen dirseğe kadar yayılan ağrı 
+- Ağrılı tarafa yatınca ve geceleri artan ağrı 
+- Saç tarama, yüksek rafa uzanma, ceket giyme gibi işlerde zorlanma 
+- Risk etkenleri: 40 yaş üstü, kolun baş hizasının üstünde tekrarlı kullanıldığı işler ve sporlar 
+===== BÖLÜM #tani =====
+## Nasıl tanınır? 
+Omuz sıkışması bir muayene tanısıdır: öykü ve muayeneyle konur, tanıyı doğrulamak ya da tedaviye başlamak için görüntüleme gerekmez. Muayenede boyun da değerlendirilir; çünkü boyundan kaynaklanan ağrı omuza yansıyabilir. 
+## Muayene testleri 
+Kolu yana kaldırırken belli bir açı aralığında ağrı olması (ağrılı ark) tanıyı destekler. Kol öne kaldırılıp içe döndürülürken ağrı olmaması (Hawkins-Kennedy testi) ise tanıyı uzaklaştırır. Tek bir test tek başına yeterli değildir; testler birlikte yorumlanır. 
+## Görüntüleme ne zaman? 
+İlk değerlendirmede genellikle gerekmez. Yaklaşık 12 hafta düzgün yürütülen tedaviye rağmen düzelme yoksa ilk tercih ultrasondur; MR rutin olarak önerilmez. Darbe sonrasında, uyarı işaretleri varken ya da ağrı ve tutukluk çok şiddetliyse röntgen istenebilir. 
+## Başka ne olabilir? 
+Omuz ağrısının başka nedenleri de vardır: donuk omuz, tendonda kireç birikmesi, omuz kireçlenmesi, büyük tendon yırtıkları, omuz çıkığı ya da gevşekliği ve boyun kaynaklı ağrı. Muayene bu nedenleri ayırmaya yardım eder. Omuzda kireç birikmesi → [omuzda-kirec-birikmesi.html] 
+===== BÖLÜM #mr =====
+## MR'daki yırtık her zaman ağrının nedeni mi? 
+Japon araştırmacıların bir köyde 664 kişiyi taradığı çalışmada her beş kişiden birinde (%22,1) tam kat rotator manşet yırtığı bulundu ve bu yırtıkların üçte ikisi hiç ağrı yapmıyordu. Yırtık görülme sıklığı yaşla artıyor: 50'li yaşlarda %10,7 iken 80'li yaşlarda %36,6'ya çıkıyor. 
+Yani MR'da tendon yıpranması ya da küçük bir yırtık görülmesi, ağrının tek nedeni olduğu ya da ameliyat gerektiği anlamına gelmez. Karar, şikâyetleriniz ve muayene bulgularınızla birlikte verilir. 
+===== BÖLÜM #tarihce =====
+Geçmişten bugüne 
+## "Sıkışma" fikrinden egzersize 
+Elli yıl boyunca omuz ağrısının nedeni olarak kemiğin tendona sürtünmesi görüldü ve kemiği tıraşlayan ameliyat yaygın olarak yapıldı. Sahte ameliyatla karşılaştırılan çalışmalar bu yaklaşımı değiştirdi. 
+- 
+1972 Cerrah Neer, omzun üstündeki kemik çatının (akromiyon) ön kısmının ve buraya tutunan bir bağın (korakoakromiyal bağ) omzu çeviren kasların tendonlarına sürtündüğünü öne sürdü. Bunun kendine özgü bir tablo (sıkışma sendromu) oluşturduğunu yazdı ve tedavi olarak kemik çatının ön kenarının ve alt yüzünün bu bağla birlikte alınmasını önerdi. 
+- 
+2009 140 hastayla yapılan randomize çalışmada, kemik çatıyı tıraşlayan ameliyat ve ardından egzersiz, yalnızca gözetimli egzersiz programına 2 yılda ağrı açısından ek bir yarar sağlamadı; maliyeti ise belirgin şekilde yüksekti. 
+- 
+2016 Bir derleme makalesinde "rotator manşetle ilişkili omuz ağrısı" adı kullanıldı. Bu ad, ağrıyı tek bir mekanik "sıkışma"ya bağlamadan tanımlıyor. 
+- 
+2018 İngiltere'de 32 hastanede 313 hastayla yapılan CSAW çalışmasında dekompresyon ameliyatı, yalnızca eklemin içine kamerayla bakılan sahte (plasebo) ameliyattan 6. ayda ve 1. yılda klinik olarak anlamlı bir fark göstermedi. 
+- 
+2018 Finlandiya'da üç hastanede 210 hastayla yapılan FIMPACT çalışmasında dekompresyon ameliyatı, yalnızca tanı amaçlı yapılan artroskopiden 2 yılda daha iyi sonuç vermedi. 2021'de yayımlanan 5 yıllık sonuçlar da aynıydı: ameliyat ne sahte ameliyata ne de egzersize üstündü. 
+- 
+2019 8 çalışmayı ve 1.062 kişiyi inceleyen Cochrane derlemesi, dekompresyon ameliyatının sahte ameliyata göre ağrı, işlev ve yaşam kalitesinde klinik olarak önemli bir yarar sağlamadığını yüksek kesinlikte gösterdi. Aynı yıl uluslararası bir uzman paneli (BMJ) bu ameliyatın yapılmamasını güçlü şekilde önerdi. 
+- 
+2025 İki yeni kaynak yayımlandı: uluslararası bir uzman grubunun hazırladığı ve Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin de desteklediği kılavuz (JOSPT) ile İngiliz Omuz ve Dirsek Derneği'nin (BESS) hasta bakım yolu. İkisi de tedavinin ilk basamağına egzersizi koyuyor. 
+===== BÖLÜM #tedavi =====
+## Seyri ve tedavi 
+Kılavuzlar tedavinin merkezine egzersizi koyuyor; diğer yöntemler egzersizi yapılabilir kılmak için destek olarak kullanılır. İngiliz Omuz ve Dirsek Derneği'nin (BESS) 2025 bakım yoluna göre uygun bir programla belirgin düzelme genellikle 3 ay içinde görülür; 12 haftada düzelme olmazsa uzman değerlendirmesi öneriliyor. 
+- 
+Bilgilendirme Ağrının ne olduğunu, nasıl seyredeceğini ve günlük işlerin nasıl ayarlanacağını öğrenmek tedavinin parçasıdır. 
+- 
+Egzersiz Tedavinin temelidir. Omuz ve kürek kemiği kaslarını güçlendiren, yükü kademeli artırılan bir program ağrıyı azaltır ve işlevi iyileştirir. Sonuç için programın haftalarca, düzenli sürdürülmesi gerekir. En iyi egzersiz türü ve dozu henüz belli değil; program kişiye göre ayarlanır. 
+- 
+Manuel terapi ve bantlama Manuel terapi, egzersizle birlikte kısa süreli ağrı azaltmak için kullanılabilir; bantlama da kısa süreli bir destek olabilir. Tek başına tedavi değildir. 
+- 
+Şok dalga, lazer ve ultrason tedavisi Şok dalga ve lazer daha çok tendonda kireç birikmesi olan kişilerde öneriliyor; kireç yoksa şok dalga önerilmiyor. Ultrason tedavisi yarar göstermediği için önerilmiyor. Omuzda kireç birikmesi → [omuzda-kirec-birikmesi.html] 
+- 
+Kortizon iğnesi Ağrıyı geçici olarak (genellikle 12 haftadan kısa) azaltabilir; uzun vadeli yararı yoktur ve ilk basamak tedavi olarak önerilmez. Kararı hekiminizle birlikte verebilirsiniz. 
+- 
+Günlük yükü ayarlamak Ağrıyı belirgin artıran baş üstü işleri geçici olarak azaltmak, omzu tamamen dinlendirmeden iyileşmeye zaman tanır. 
+- 
+Ameliyat Kemik çıkıntısını tıraşlayan dekompresyon ameliyatı, Birleşik Krallık'taki CSAW ve Finlandiya'daki FIMPACT çalışmalarında sahte ya da yalnızca tanısal ameliyattan üstün bulunmadı. Finlandiya'daki çalışmanın 5 yıllık sonuçları da aynıydı. Uluslararası bir uzman paneli bu ameliyatın yapılmamasını güçlü şekilde öneriyor. Travmaya bağlı büyük tendon yırtıklarında cerrahi değerlendirme ayrıdır. 
+## Tedavi seçenekleri: kılavuzlar ne diyor? 
+2025'te yayımlanan iki kaynak yan yana: uluslararası bir uzman grubunun JOSPT'de yayımlanan, ameliyat dışı tedavi kılavuzu ve İngiliz Omuz ve Dirsek Derneği'nin (BESS) hasta bakım yolu. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf). JOSPT kılavuzunun ayrıntıları ikincil özetlerden alındı; tedavi kişiye göre seçilir. 
+## Görüntüleme JOSPT İlk değerlendirmede gerekmez; 12 hafta ameliyatsız tedaviye rağmen düzelme yoksa ilk tercih ultrason, MR rutin değil. BESS Tanı için gerekmez; gerekirse deneyimli kişinin yaptığı ultrason ilk tercih; darbe sonrası, uyarı işaretlerinde ve uzun süren şikâyette röntgen. 
+## Egzersiz JOSPT Tedavinin temeli (A): kademeli direnç ve hareket kontrolü egzersizleri, ağrı toleransına ve hedeflere göre. BESS İlk basamak tedavi; belirgin düzelme genellikle 3 ayda beklenir. En iyi egzersiz türü, dozu ve süresi belirsiz. 
+## Manuel terapi JOSPT Egzersizle birlikte kısa süreli ağrı azaltmak için (B). BESS Başlangıç döneminde önerilebilir. 
+## Kortizon iğnesi JOSPT İlk basamak değil; kısa süreli ağrı için, ultrason eşliğinde yapılması tercih edilir. BESS Etkisi geçici (12 haftadan kısa); 6–8 haftada düzelme yoksa ortak kararla tek iğne düşünülebilir. Tekrarlı iğnenin ek yararı yok; ultrason eşliğinde yapmanın belirgin bir üstünlüğü bulunmadı. 
+## Şok dalga, lazer, ultrason tedavisi JOSPT Şok dalga ve lazer kireç birikmesinde (C); kireç yoksa şok dalga önerilmiyor; ultrason tedavisi önerilmiyor. BESS Şok dalga ve ultrason tedavisinin önemli bir etkisi yok; lazerin küçük ve kısa süreli etkisi var. Uzman merkezlerde, kanıtın düşük olduğu anlatılarak düşünülebilir. 
+## Akupunktur ve kuru iğneleme JOSPT Akupunktur, aktif rehabilitasyonla birlikte kısa süreli ek yarar sağlayabilir (C). BESS Kuru iğnelemenin önemli bir etkisi yok; akupunktur için kanıt yetersiz. Not Türkiye'de yalnızca yetkili hekimler uygulayabilir. 
+## PRP ve hyaluronik asit iğnesi JOSPT İlk basamak değil; diğer tedavilere yanıt vermeyenlerde düşünülebilir, kanıtı zayıf. BESS Kanıt çok düşük; uzman merkezlerde, yararının kanıtının düşük olduğu anlatılarak düşünülebilir. 
+## Ameliyat BESS İlk basamak değil; sahte ameliyattan belirgin üstün değil. 6 ay ameliyatsız tedaviye rağmen düzelmeyenlerde düşünülebilir; hasta seçimi için güvenilir ölçüt yok. BMJ uzman paneli (2019) Dekompresyon ameliyatına karşı güçlü öneri. JOSPT Kılavuz ameliyat dışı tedaviyi kapsıyor. 
+===== BÖLÜM #egzersizler =====
+Evde egzersiz 
+## Omuz için altı egzersiz 
+Ağrısız ya da hafif ağrılı bir aralıkta başlayın ve yükü omzunuzun kaldırabildiği ölçüde kademeli artırın. Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ertesi gün başlangıç düzeyine dönüyorsa devam etmek güvenlidir. İlk iki hareket ağrılı dönemde de uygundur. Kolu kaldırdığınız hareketlerde ağrı artıyorsa hareket aralığını küçültün. 
+ [ÇİZİM]
+Kürek kemiği sıkıştırma 
+## Kürek kemiği sıkıştırma 
+Dik durun ya da oturun. Omuzlarınızı kulaklarınıza kaldırmadan kürek kemiklerinizi geriye ve biraz aşağıya doğru sıkıştırın. 5 saniye tutup gevşeyin. 10 tekrar, günde 2–3 kez 
+ [ÇİZİM]
+Kapı pervazında dışa döndürme 
+## Kapı pervazında dışa döndürme 
+Ağrılı tarafınız kapı pervazına bakacak şekilde durun. Dirseğinizi 90 derece bükün, kolunuzu gövdenize yaslayın; araya katlanmış küçük bir havlu koyabilirsiniz. Elinizin dış yüzüyle pervaza doğru, kolunuz yer değiştirmeden itin. Ağrıyı artırmayan bir kuvvetle 30–45 saniye tutun. 5 tekrar, günde 1–2 kez 
+ [ÇİZİM]
+Yan yatarak dışa döndürme 
+## Yan yatarak dışa döndürme 
+Ağrısız tarafınıza yan yatın. Üstteki kolunuzun dirseğini 90 derece bükün, dirseğinizi belinize yaslayın. Elinizdeki hafif ağırlığı (dolu bir su şişesi olabilir) dirseğiniz sabit kalacak şekilde tavana doğru kaldırın, yavaşça indirin. 10–15 tekrar, 2–3 set 
+ [ÇİZİM]
+Lastik bantla kürek çekme 
+## Lastik bantla kürek çekme 
+Lastik bandı kapı koluna ya da sağlam bir yere göğüs hizasında bağlayın. Bandın uçlarını tutup dirseklerinizi gövdenize yakın tutarak geriye çekin, kürek kemiklerinizi birbirine yaklaştırın. Yavaşça başlangıca dönün. 10–15 tekrar, 2–3 set 
+ [ÇİZİM]
+Kolları çapraz düzlemde kaldırma 
+## Kolları çapraz düzlemde kaldırma 
+Ayakta durun, kollarınız yanda, başparmaklarınız yukarı baksın. Kollarınızı öne ve hafifçe yana doğru, yaklaşık 30 derecelik açıyla omuz hizasına kadar kaldırın; ellerinizde hafif birer ağırlık olabilir. Omuzlarınızı kulaklarınıza doğru kaldırmadan yavaşça indirin. 10 tekrar, 2–3 set 
+ [ÇİZİM]
+Duvarda kaydırma 
+## Duvarda kaydırma 
+Yüzünüz duvara dönük durun, ön kollarınızı omuz hizasında duvara yaslayın. Kollarınızı duvarda kaydırarak ağrısız aralıkta yukarı uzatın, kürek kemiklerinizin öne ve yukarı kaydığını hissedin. Yavaşça başlangıca dönün. 10 tekrar, günde 1–2 kez 
+===== BÖLÜM #gunluk =====
+## Günlük hayatta omzunuz için 
+Amaç omzu hareketsiz bırakmak değil, yükünü ağrının izin verdiği ölçüde ayarlamak ve kasları yeniden güçlendirmektir. 
+- Sık kullandığınız eşyaları üst raflardan göğüs hizasına indirin. 
+- Ağrılı tarafa yatamıyorsanız diğer tarafa yatıp kolunuzu önünüzdeki bir yastığa koyun. 
+- Masa başında dirseklerinizi destekleyin, klavye ve fareyi gövdenize yakın tutun. 
+- Ağrısız aralıktaki günlük hareketlere devam edin; omzu askıya almayın. 
+- Spora dönüşte baş üstü hareketlerin yükünü kademeli artırın. 
+===== BÖLÜM #videolar =====
+Video 
+## Omuz sıkışması için videolar 
+ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz. 
+ [ÇİZİM] 
+## Omuz ağrısı için on egzersiz 
+Sıkışma, bursit ve rotator manşet sorunlarında kullanılan egzersizler. 
+ [ÇİZİM] 
+## Rotator manşet için üç egzersiz 
+Omzu çeviren kasları güçlendirmeye yönelik temel hareketler. 
+Videolar Bob & Brad kanalına aittir. 
+===== BÖLÜM #sss =====
+## Sık sorulan sorular 
+Omuz sıkışması ameliyatsız geçer mi? 
+Çoğu kişide evet. İngiliz Omuz ve Dirsek Derneği'nin (BESS) 2025 bakım yoluna göre ameliyatsız tedaviyle belirgin düzelme genellikle 3 ay içinde beklenir; 12 haftada düzelme olmazsa uzman değerlendirmesi öneriliyor. Yükü kademeli artırılan bir egzersiz programı tedavinin temelidir. 
+Ameliyat olmam gerekir mi? 
+Çoğu zaman hayır. Kemik çıkıntısını tıraşlayan dekompresyon ameliyatı iki büyük çalışmada sahte ya da yalnızca tanısal ameliyattan üstün bulunmadı ve uluslararası bir uzman paneli bu ameliyatın yapılmamasını öneriyor. BESS de ameliyatı ilk basamak tedavi olarak önermiyor; 6 ay ameliyatsız tedaviye rağmen düzelmeyen bazı kişilerde düşünülebileceğini, ancak kimin yarar göreceğini belirleyen güvenilir bir ölçüt olmadığını belirtiyor. Düşme gibi bir travmadan sonra kolu kaldıramama varsa cerrahi değerlendirme ayrıca gerekir. 
+MR'ımda tendon yırtığı var, ne yapmalıyım? 
+Endişelenmeyin. Japon araştırmacıların bir köyde yaptığı toplum taramasında her beş kişiden birinde tam kat rotator manşet yırtığı bulundu ve bu yırtıkların üçte ikisi hiç ağrı yapmıyordu. Tedavi kararı MR görüntüsüne değil, şikâyetlerinize ve muayene bulgularınıza göre verilir; travma dışı yırtıklarda da ilk tedavi egzersizdir. 
+Kortizon iğnesi yaptırmalı mıyım? 
+Kortizon iğnesi ağrıyı azaltabilir; ancak etkisi geçicidir (genellikle 12 haftadan kısa) ve egzersize eklenmesi uzun vadede ek bir fark yaratmadı. 2025 kılavuzları ilk basamak tedavi olarak önermiyor; tekrarlanan iğnelerin tek iğneye göre ek yararı gösterilmedi. Kararı hekiminizle birlikte verebilirsiniz. 
+MR ya da ultrason çektirmem gerekir mi? 
+Çoğu zaman başlangıçta gerekmez; tanı öykü ve muayeneyle konur. 2025 kılavuzlarına göre yaklaşık 12 hafta düzgün yürütülen tedaviye rağmen düzelme yoksa ilk tercih ultrasondur; MR rutin olarak önerilmiyor. Düşme ya da darbe sonrasında, uyarı işaretleri varsa ya da ağrı çok şiddetliyse röntgen istenebilir. 
+Omzum ağrırken spor yapabilir miyim? 
+Evet, ağrıyı belirgin artırmayan sporlara devam edebilirsiniz. Yüzme, tenis, voleybol gibi kolun baş üstünde kullanıldığı sporları ağrı azalana kadar azaltın ve dönüşte yükü kademeli artırın. 
+Donuk omuzdan farkı nedir? 
+Omuz sıkışmasında kolu başkası kaldırdığında hareket genellikle serbesttir ve ağrı belli bir açıda ortaya çıkar. Donuk omuzda ise omuz hem sizin hem de başkası kaldırdığında aynı şekilde kısıtlıdır. Donuk omuz rehberine göz atın → [donuk-omuz.html] 
+===== BÖLÜM #uyari =====
+## Ne zaman hemen başvurmalı? 
+Omuz ağrısı her zaman omuz sıkışması değildir. Şu durumlarda beklemeden bir hekime başvurun: 
+- Düşme ya da darbeden sonra kolu kaldıramama, omuzda şekil bozukluğu 
+- Omuzda kızarıklık, şişlik, sıcaklık ve ateş 
+- Boyundan kola yayılan ağrı, kolda uyuşma, karıncalanma ya da ani güç kaybı 
+- Özellikle sol omuz ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa (kalp kaynaklı olabilir, 112 'yi arayın) 
+- Nedensiz kilo kaybı, dinlenmekle geçmeyen şiddetli gece ağrısı ya da kanser öyküsü 
+ [ÇİZİM] 
+Hızlı iletişim 
+## Evde değerlendirme ister misiniz? 
+Omuz ağrınız için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz. 
+WhatsApp'tan yazın [ÇİZİM] [https://wa.me/905538815568?text=Merhaba%2C%20omuz%20s%C4%B1k%C4%B1%C5%9Fmas%C4%B1%20i%C3%A7in%20evde%20de%C4%9Ferlendirme%20ve%20seans%20planlamak%20istiyorum.]Ücretsiz ön görüşme planla [index.html#tanisma] 
+Kaynaklar 
+- Beard DJ, Rees JL, et al. Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial [https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32457-1/fulltext]. Lancet. 2018;391(10118):329-338. Özet: NIHR Evidence [https://evidence.nihr.ac.uk/alert/a-surgical-procedure-for-shoulder-pain-is-less-effective-than-previously-thought]. 
+- Desmeules F, Roy JS, Lafrance S, et al. Rotator cuff tendinopathy diagnosis, nonsurgical medical care, and rehabilitation: a clinical practice guideline [https://www.jospt.org/doi/10.2519/jospt.2025.13182]. J Orthop Sports Phys Ther. 2025;55(4):235-274. Özetler: Physiotutors [https://www.physiotutors.com/rotator-cuff-tendinopathy-the-new-2025-clinical-practice-guideline/]; Wellmann, 2025 [https://glennwellmanndpt.com/2025/10/27/rotator-cuff-tendinopathy-2025-clinical-practice-guideline-insights/]. 
+- Karjalainen TV, Jain NB, Page CM, et al. Subacromial decompression surgery for rotator cuff disease [https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/pdf/CDSR/CD005619/CD005619_abstract.pdf]. Cochrane Database Syst Rev. 2019;(1):CD005619. 
+- Ketola S, Lehtinen J, Arnala I, et al. Does arthroscopic acromioplasty provide any additional value in the treatment of shoulder impingement syndrome? A two-year randomised controlled trial [https://www.qxmd.com/r/19794168]. J Bone Joint Surg Br. 2009;91(10):1326-1334. 
+- Lewis J. Rotator cuff related shoulder pain: assessment, management and uncertainties. Man Ther. 2016;23:57-68. 
+- Minagawa H, Yamamoto N, Abe H, et al. Prevalence of symptomatic and asymptomatic rotator cuff tears in the general population: from mass-screening in one village [https://pmc.ncbi.nlm.nih.gov/articles/PMC3768248/]. J Orthop. 2013;10(1):8-12. 
+- Neer CS II. Anterior acromioplasty for the chronic impingement syndrome in the shoulder [https://shoulderdoc.co.uk/article/455]. J Bone Joint Surg Am. 1972;54:41-50. 
+- Paavola M, Malmivaara A, Taimela S, et al. Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: randomised, placebo surgery controlled clinical trial [https://doi.org/10.1136/bmj.k2860]. BMJ. 2018;362:k2860. 
+- Paavola M, Kanto K, Ranstam J, et al. Subacromial decompression versus diagnostic arthroscopy for shoulder impingement: a 5-year follow-up of a randomised, placebo surgery controlled clinical trial [https://bjsm.bmj.com/content/55/2/99]. Br J Sports Med. 2021;55(2):99. 
+- Pandey RA, Singh HP; BESS Subacromial Pain Working Group. BESS patient care pathway: subacromial pain [https://bess.ac.uk/download/1463/subacromial-shoulder-pain/30248/subacromial-shoulder-pain-2025-2.pdf]. Shoulder Elbow. 2025;17(6):713-724. 
+- Physiopedia. Shoulder Impingement [https://www.physio-pedia.com/Shoulder_Impingement]. 
+- StatPearls. Shoulder Impingement Syndrome [https://www.ncbi.nlm.nih.gov/books/NBK554518/]. Treasure Island (FL): StatPearls Publishing. 
+- Steuri R, Sattelmayer M, Elsig S, et al. Effectiveness of conservative interventions including exercise, manual therapy and medical management in adults with shoulder impingement: a systematic review and meta-analysis of RCTs. Br J Sports Med. 2017;51(18):1340-1347. 
+- Vandvik PO, Lähdeoja T, Ardern C, et al. Subacromial decompression surgery for adults with shoulder pain: a clinical practice guideline [https://www.bmj.com/content/364/bmj.l294]. BMJ. 2019;364:l294. 
