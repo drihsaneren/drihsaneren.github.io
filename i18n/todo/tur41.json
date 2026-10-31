@@ -1,0 +1,1237 @@
+[
+ {
+  "id": "tur41-0",
+  "kind": "attr",
+  "tr": "Omuz sıkışması (subakromiyal ağrı, rotator manşet tendiniti) nedir, nasıl tanınır, MR'daki yırtık önemli mi, ameliyat gerekir mi? 2025 kılavuzlarının karşılaştırması, kısa tarihçe, evde altı egzersiz, videolar ve uyarı işaretleri."
+ },
+ {
+  "id": "tur41-1",
+  "kind": "text",
+  "tr": "Kolu yana ya da yukarı kaldırırken omzun dış yüzünde, bazen kola doğru yayılan ağrıyla kendini gösterir. Eskiden kemiklerin arasında bir \"sıkışma\" olduğu düşünülen bu tabloda bugün omzu çeviren kasların (rotator manşet) tendonları ve çevresindeki yapılar öne çıkıyor. Tedavinin temeli egzersizdir; ameliyat çoğu zaman gerekmez."
+ },
+ {
+  "id": "tur41-2",
+  "kind": "text",
+  "tr": "Toplum taramasında tam kat tendon yırtığı bulunan kişi; bu yırtıkların üçte ikisi şikâyetsiz"
+ },
+ {
+  "id": "tur41-3",
+  "kind": "text",
+  "tr": "Takipte dekompresyon ameliyatı, sahte ameliyattan ve egzersizden daha iyi değildi"
+ },
+ {
+  "id": "tur41-4",
+  "kind": "text",
+  "tr": "Şikâyetlerin çoğunun yanıt vermesinin beklendiği süre (BESS)"
+ },
+ {
+  "id": "tur41-5",
+  "kind": "text",
+  "tr": "Nasıl tanınır?"
+ },
+ {
+  "id": "tur41-6",
+  "kind": "text",
+  "tr": "MR'daki yırtık"
+ },
+ {
+  "id": "tur41-7",
+  "kind": "text",
+  "tr": "Omzun üstündeki kemik çatı (akromiyon) ile kol kemiği arasında kalan dar alana subakromiyal alan denir. Burada omzu çeviren kasların (rotator manşet) tendonları ve bir kese (bursa) bulunur. Bu yapıların aşırı ya da alışık olunmayan yüklenmesi ağrıya yol açabilir."
+ },
+ {
+  "id": "tur41-8",
+  "kind": "text",
+  "tr": "Eskiden tendonun kemiğe \"sıkıştığı\" düşünülürdü. Bugün ağrının çoğu zaman tek bir mekanik sıkışmayla açıklanamayacağı, tendonun yüklenmeye verdiği yanıtın da rol oynadığı düşünülüyor; bu yüzden \"subakromiyal ağrı\" ya da \"rotator manşetle ilişkili omuz ağrısı\" adları da kullanılıyor."
+ },
+ {
+  "id": "tur41-9",
+  "kind": "text",
+  "tr": "Risk etkenleri: yaşın ilerlemesi (en sık 50'li yaşlarda), kolun baş hizasının üstünde tekrarlı ya da uzun süre kullanıldığı işler ve sporlar"
+ },
+ {
+  "id": "tur41-10",
+  "kind": "text",
+  "tr": "Omuz sıkışması bir muayene tanısıdır: öykü ve muayeneyle konur, tanıyı doğrulamak ya da tedaviye başlamak için görüntüleme gerekmez. Muayenede boyun da değerlendirilir; çünkü boyundan kaynaklanan ağrı omuza yansıyabilir."
+ },
+ {
+  "id": "tur41-11",
+  "kind": "text",
+  "tr": "Muayene testleri"
+ },
+ {
+  "id": "tur41-12",
+  "kind": "text",
+  "tr": "Kolu yana kaldırırken belli bir açı aralığında ağrı olması (ağrılı ark) tanıyı destekler. Hawkins-Kennedy testinde (kol öne kaldırılıp dirsek bükülüyken içe döndürülür) ağrı olmaması ise omuz sıkışması olasılığını azaltır. Tek bir test tek başına yeterli değildir; testler birlikte yorumlanır."
+ },
+ {
+  "id": "tur41-13",
+  "kind": "text",
+  "tr": "Görüntüleme ne zaman?"
+ },
+ {
+  "id": "tur41-14",
+  "kind": "text",
+  "tr": "İlk değerlendirmede genellikle gerekmez. Görüntüleme gerekirse ilk tercih ultrasondur; JOSPT kılavuzu bunu yaklaşık 12 hafta düzgün yürütülen tedaviye rağmen düzelme olmayanlar için öneriyor ve MR'ı rutin olarak önermiyor. Darbe sonrasında, uyarı işaretlerinde, ağrı ya da tutukluk çok şiddetliyse veya şikâyet uzun sürüyorsa röntgen istenebilir."
+ },
+ {
+  "id": "tur41-15",
+  "kind": "text",
+  "tr": "Başka ne olabilir?"
+ },
+ {
+  "id": "tur41-16",
+  "kind": "text",
+  "tr": "Omuz ağrısının başka nedenleri de vardır: donuk omuz, tendonda kireç birikmesi, omuz kireçlenmesi, büyük tendon yırtıkları, omuz çıkığı ya da gevşekliği ve boyun kaynaklı ağrı. Muayene bu nedenleri ayırmaya yardım eder."
+ },
+ {
+  "id": "tur41-17",
+  "kind": "text",
+  "tr": "Omuzda kireç birikmesi →"
+ },
+ {
+  "id": "tur41-18",
+  "kind": "text",
+  "tr": "Japon araştırmacıların bir köyde 664 kişiyi ultrasonla taradığı çalışmada her beş kişiden birinde (%22,1) tam kat rotator manşet yırtığı bulundu ve bu yırtıkların üçte ikisi şikâyete yol açmıyordu. Yırtık görülme sıklığı yaşla artıyor: 50'li yaşlarda %10,7 iken 80'li yaşlarda %36,6'ya çıkıyor."
+ },
+ {
+  "id": "tur41-19",
+  "kind": "text",
+  "tr": "\"Sıkışma\" fikrinden egzersize"
+ },
+ {
+  "id": "tur41-20",
+  "kind": "text",
+  "tr": "Yaklaşık yarım yüzyıl boyunca omuz ağrısının nedeni olarak kemiğin tendona sürtünmesi görüldü ve kemiği tıraşlayan ameliyat yaygın olarak yapıldı. Sahte ameliyatla karşılaştırılan çalışmalar bu yaklaşımı ciddi şekilde sorgulattı."
+ },
+ {
+  "id": "tur41-21",
+  "kind": "text",
+  "tr": "Cerrah Neer, omzun üstündeki kemik çatının (akromiyon) ön kısmının ve buraya tutunan bir bağın (korakoakromiyal bağ) omzu çeviren kasların tendonlarına sürtündüğünü öne sürdü. Bunun kendine özgü bir tablo (sıkışma sendromu) oluşturduğunu yazdı ve tedavi olarak kemik çatının ön kenarının ve alt yüzünün bu bağla birlikte alınmasını önerdi."
+ },
+ {
+  "id": "tur41-22",
+  "kind": "text",
+  "tr": "140 hastayla yapılan randomize çalışmada, kemik çatıyı tıraşlayan ameliyat ve ardından egzersiz, yalnızca gözetimli egzersiz programına 2 yılda ağrı açısından ek bir yarar sağlamadı; maliyeti ise belirgin şekilde yüksekti."
+ },
+ {
+  "id": "tur41-23",
+  "kind": "text",
+  "tr": "Bir derleme makalesinde \"rotator manşetle ilişkili omuz ağrısı\" adı kullanıldı. Bu ad, ağrıyı tek bir mekanik \"sıkışma\"ya bağlamadan tanımlıyor."
+ },
+ {
+  "id": "tur41-24",
+  "kind": "text",
+  "tr": "Birleşik Krallık'ta 32 hastanede 313 hastayla yapılan CSAW çalışmasında dekompresyon ameliyatı, yalnızca eklemin içine kamerayla bakılan sahte (plasebo) ameliyattan 6. ayda ve 1. yılda klinik olarak anlamlı bir fark göstermedi."
+ },
+ {
+  "id": "tur41-25",
+  "kind": "text",
+  "tr": "Finlandiya'da üç hastanede 210 hastayla yapılan FIMPACT çalışmasında dekompresyon ameliyatı, yalnızca tanı amaçlı yapılan artroskopiden 2 yılda daha iyi sonuç vermedi. 2021'de yayımlanan 5 yıllık sonuçlar da aynıydı: ameliyat ne sahte ameliyata ne de egzersize üstündü."
+ },
+ {
+  "id": "tur41-26",
+  "kind": "text",
+  "tr": "8 çalışmayı ve 1.062 kişiyi inceleyen Cochrane derlemesi, dekompresyon ameliyatının sahte ameliyata göre ağrı, işlev ve yaşam kalitesinde klinik olarak önemli bir yarar sağlamadığını yüksek kesinlikte gösterdi. Aynı yıl uluslararası bir uzman paneli (BMJ) bu ameliyatın yapılmamasını güçlü şekilde önerdi."
+ },
+ {
+  "id": "tur41-27",
+  "kind": "text",
+  "tr": "İki yeni kaynak yayımlandı: uluslararası bir uzman grubunun hazırladığı ve Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin de desteklediği kılavuz (JOSPT) ile İngiliz Omuz ve Dirsek Derneği'nin (BESS) hasta bakım yolu. İkisi de tedavinin ilk basamağına egzersizi koyuyor."
+ },
+ {
+  "id": "tur41-28",
+  "kind": "text",
+  "tr": "Kılavuzlar tedavinin merkezine egzersizi koyuyor; diğer yöntemler egzersizi yapılabilir kılmak için destek olarak kullanılır. İngiliz Omuz ve Dirsek Derneği'nin (BESS) 2025 bakım yoluna göre bu tablo çoğu zaman kendiliğinden sınırlanma eğilimindedir ve şikâyetlerin çoğu 3 ay içinde yanıt verir; 12 haftada düzelme olmazsa uzman değerlendirmesi öneriliyor."
+ },
+ {
+  "id": "tur41-29",
+  "kind": "text",
+  "tr": "Ağrının ne olduğunu, nasıl seyredeceğini ve günlük işlerin nasıl ayarlanacağını öğrenmek tedavinin parçasıdır."
+ },
+ {
+  "id": "tur41-30",
+  "kind": "text",
+  "tr": "Tedavinin temelidir. Omuz ve kürek kemiği kaslarını güçlendiren, yükü kademeli artırılan bir program ağrıyı azaltır ve işlevi iyileştirir. Sonuç için programın haftalarca, düzenli sürdürülmesi gerekir. En iyi egzersiz türü ve dozu henüz belli değil; program kişiye göre ayarlanır."
+ },
+ {
+  "id": "tur41-31",
+  "kind": "text",
+  "tr": "Manuel terapi ve bantlama"
+ },
+ {
+  "id": "tur41-32",
+  "kind": "text",
+  "tr": "Manuel terapi, egzersizle birlikte kısa süreli ağrı azaltmak için kullanılabilir. Bantlamanın yararı konusunda çalışmalar çelişkilidir; kısa süreli ek destek olarak denenebilir. İkisi de tek başına tedavi değildir."
+ },
+ {
+  "id": "tur41-33",
+  "kind": "text",
+  "tr": "Şok dalga, lazer ve ultrason tedavisi"
+ },
+ {
+  "id": "tur41-34",
+  "kind": "text",
+  "tr": "Şok dalga ve lazer daha çok tendonda kireç birikmesi olan kişilerde düşünülebilir (zayıf öneri); kireç yoksa şok dalga önerilmiyor. Ultrason tedavisi yarar göstermediği için önerilmiyor. <a href=\"omuzda-kirec-birikmesi.html\">Omuzda kireç birikmesi →</a>"
+ },
+ {
+  "id": "tur41-35",
+  "kind": "text",
+  "tr": "Ağrıyı geçici olarak (genellikle 12 haftadan kısa) azaltabilir; uzun vadeli yararı yoktur ve ilk basamak tedavi olarak önerilmez. Kararı hekiminizle birlikte verebilirsiniz."
+ },
+ {
+  "id": "tur41-36",
+  "kind": "text",
+  "tr": "Kemik çıkıntısını tıraşlayan dekompresyon ameliyatı, Birleşik Krallık'taki CSAW ve Finlandiya'daki FIMPACT çalışmalarında sahte ya da yalnızca tanısal ameliyattan üstün bulunmadı. Finlandiya'daki çalışmanın 5 yıllık sonuçları da aynıydı. Uluslararası bir uzman paneli bu ameliyatın yapılmamasını güçlü şekilde öneriyor. Travmaya bağlı büyük tendon yırtıklarında cerrahi değerlendirme ayrıdır."
+ },
+ {
+  "id": "tur41-37",
+  "kind": "text",
+  "tr": "2025'te yayımlanan iki kaynak yan yana: uluslararası bir uzman grubunun JOSPT'de yayımlanan, ameliyat dışı tedavi kılavuzu ve İngiliz Omuz ve Dirsek Derneği'nin (BESS) hasta bakım yolu. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf). JOSPT kılavuzunun ayrıntıları ikincil özetlerden alındı; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur41-38",
+  "kind": "text",
+  "tr": "Görüntüleme"
+ },
+ {
+  "id": "tur41-39",
+  "kind": "text",
+  "tr": "JOSPT"
+ },
+ {
+  "id": "tur41-40",
+  "kind": "text",
+  "tr": "İlk değerlendirmede gerekmez; 12 hafta ameliyatsız tedaviye rağmen düzelme yoksa ilk tercih ultrason, MR rutin değil (uzman görüşü)."
+ },
+ {
+  "id": "tur41-41",
+  "kind": "text",
+  "tr": "BESS"
+ },
+ {
+  "id": "tur41-42",
+  "kind": "text",
+  "tr": "Tanı için gerekmez; gerekirse deneyimli kişinin yaptığı ultrason ilk tercih; darbe sonrası, uyarı işaretlerinde, ağrı ya da tutukluk çok şiddetliyse veya şikâyet uzun sürüyorsa röntgen."
+ },
+ {
+  "id": "tur41-43",
+  "kind": "text",
+  "tr": "Tedavinin temeli (A): kademeli direnç ve hareket kontrolü egzersizleri, ağrı toleransına ve hedeflere göre."
+ },
+ {
+  "id": "tur41-44",
+  "kind": "text",
+  "tr": "İlk basamak tedavi; programın 3 ay içinde belirgin düzelme sağlaması beklenir. En iyi egzersiz türü, dozu ve süresi belirsiz."
+ },
+ {
+  "id": "tur41-45",
+  "kind": "text",
+  "tr": "Egzersizle birlikte kısa süreli ağrı azaltmak için (B)."
+ },
+ {
+  "id": "tur41-46",
+  "kind": "text",
+  "tr": "Başlangıç döneminde önerilebilir."
+ },
+ {
+  "id": "tur41-47",
+  "kind": "text",
+  "tr": "İlk basamak değil; kısa süreli ağrı için, ultrason eşliğinde yapılması tercih edilir."
+ },
+ {
+  "id": "tur41-48",
+  "kind": "text",
+  "tr": "Etkisi geçici (12 haftadan kısa); 6–8 haftada düzelme yoksa ortak kararla tek iğne düşünülebilir. Tekrarlı iğnenin ek yararı yok; ultrason eşliğinde yapmanın belirgin bir üstünlüğü bulunmadı."
+ },
+ {
+  "id": "tur41-49",
+  "kind": "text",
+  "tr": "Şok dalga, lazer, ultrason tedavisi"
+ },
+ {
+  "id": "tur41-50",
+  "kind": "text",
+  "tr": "Şok dalga ve lazer kireç birikmesinde (C); kireç yoksa şok dalga önerilmiyor; ultrason tedavisi önerilmiyor."
+ },
+ {
+  "id": "tur41-51",
+  "kind": "text",
+  "tr": "Şok dalga ve ultrason tedavisinin önemli bir etkisi yok; lazerin küçük ve kısa süreli etkisi var. İkinci basamakta (uzman hekim değerlendirmesinde), yarar kanıtının düşük olduğu anlatılarak düşünülebilir."
+ },
+ {
+  "id": "tur41-52",
+  "kind": "text",
+  "tr": "Akupunktur ve kuru iğneleme"
+ },
+ {
+  "id": "tur41-53",
+  "kind": "text",
+  "tr": "Akupunktur, aktif rehabilitasyonla birlikte kısa süreli ek yarar sağlayabilir (C)."
+ },
+ {
+  "id": "tur41-54",
+  "kind": "text",
+  "tr": "Kuru iğnelemenin önemli bir etkisi yok; akupunktur için kanıt yetersiz."
+ },
+ {
+  "id": "tur41-55",
+  "kind": "text",
+  "tr": "PRP ve hyaluronik asit iğnesi"
+ },
+ {
+  "id": "tur41-56",
+  "kind": "text",
+  "tr": "İlk basamak değil; diğer tedavilere yanıt vermeyenlerde düşünülebilir; kanıt çelişkili ya da uzman görüşüne dayanıyor."
+ },
+ {
+  "id": "tur41-57",
+  "kind": "text",
+  "tr": "Kanıt çok düşük; ikinci basamakta (uzman hekim değerlendirmesinde), yarar kanıtının düşük olduğu anlatılarak düşünülebilir."
+ },
+ {
+  "id": "tur41-58",
+  "kind": "text",
+  "tr": "İlk basamak değil; sahte ameliyattan belirgin üstün değil. 6 ay ameliyatsız tedaviye rağmen düzelmeyenlerde düşünülebilir; hasta seçimi için güvenilir ölçüt yok."
+ },
+ {
+  "id": "tur41-59",
+  "kind": "text",
+  "tr": "BMJ uzman paneli (2019)"
+ },
+ {
+  "id": "tur41-60",
+  "kind": "text",
+  "tr": "Dekompresyon ameliyatına karşı güçlü öneri."
+ },
+ {
+  "id": "tur41-61",
+  "kind": "text",
+  "tr": "Kılavuz ameliyat dışı tedaviyi kapsıyor."
+ },
+ {
+  "id": "tur41-62",
+  "kind": "text",
+  "tr": "Ağrısız ya da hafif ağrılı bir aralıkta başlayın ve yükü omzunuzun kaldırabildiği ölçüde kademeli artırın. Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ertesi gün başlangıç düzeyine dönüyorsa devam edebilirsiniz. İlk iki hareket ağrılı dönemde de uygundur. Kolu kaldırdığınız hareketlerde ağrı artıyorsa hareket aralığını küçültün."
+ },
+ {
+  "id": "tur41-63",
+  "kind": "text",
+  "tr": "Ağrılı tarafınız kapı pervazına bakacak şekilde durun. Dirseğinizi 90 derece bükün, kolunuzu gövdenize yaslayın; araya katlanmış küçük bir havlu koyabilirsiniz. El sırtınızla pervaza doğru, kolunuz yer değiştirmeden itin. Ağrıyı artırmayan bir kuvvetle 30–45 saniye tutun."
+ },
+ {
+  "id": "tur41-64",
+  "kind": "text",
+  "tr": "Lastik bandı göğüs hizasında, kapıyı kapatarak kapı arasına sıkıştırın ya da sağlam bir yere bağlayın. Bandın uçlarını tutup dirseklerinizi gövdenize yakın tutarak geriye çekin, kürek kemiklerinizi birbirine yaklaştırın. Yavaşça başlangıca dönün."
+ },
+ {
+  "id": "tur41-65",
+  "kind": "text",
+  "tr": "Kürek kemiği düzleminde kolları kaldırma"
+ },
+ {
+  "id": "tur41-66",
+  "kind": "text",
+  "tr": "Ayakta durun, kollarınız yanda, başparmaklarınız yukarı baksın. Kollarınızı tam yana değil, yandan yaklaşık 30 derece öne doğru (önünüzde geniş bir V oluşturacak şekilde) omuz hizasına kadar kaldırın; ellerinizde hafif birer ağırlık olabilir. Omuzlarınızı kulaklarınıza doğru kaldırmadan yavaşça indirin."
+ },
+ {
+  "id": "tur41-67",
+  "kind": "text",
+  "tr": "Çoğu kişide ameliyatsız tedaviyle belirgin düzelme olur; ancak bazı kişilerde şikâyetler aylarca sürebilir ya da tekrarlayabilir. İngiliz Omuz ve Dirsek Derneği'nin (BESS) 2025 bakım yoluna göre şikâyetlerin çoğu genellikle 3 ay içinde yanıt verir; 12 haftada düzelme olmazsa uzman değerlendirmesi öneriliyor. Yükü kademeli artırılan bir egzersiz programı tedavinin temelidir."
+ },
+ {
+  "id": "tur41-68",
+  "kind": "text",
+  "tr": "Çoğu zaman hayır. Kemik çıkıntısını tıraşlayan dekompresyon ameliyatı iki büyük çalışmada sahte ya da yalnızca tanısal ameliyattan üstün bulunmadı ve uluslararası bir uzman paneli bu ameliyatın yapılmamasını öneriyor. BESS de ameliyatı ilk basamak tedavi olarak önermiyor; 6 ay ameliyatsız tedaviye rağmen düzelmeyen bazı kişilerde düşünülebileceğini, ancak kimin yarar göreceğini belirleyen güvenilir bir ölçüt olmadığını belirtiyor. Düşme gibi bir travmadan sonra kolu kaldıramama varsa cerrahi değerlendirme ayrıca gerekir."
+ },
+ {
+  "id": "tur41-69",
+  "kind": "text",
+  "tr": "Yırtık görülmesi tek başına endişe nedeni değildir. Japon araştırmacıların bir köyde ultrasonla yaptığı toplum taramasında her beş kişiden birinde tam kat rotator manşet yırtığı bulundu ve bu yırtıkların üçte ikisi şikâyete yol açmıyordu. Tedavi kararı MR görüntüsüne değil, şikâyetlerinize ve muayene bulgularınıza göre verilir. Belirgin güç kaybı varsa ya da yırtık bir düşme veya darbe sonrasında oluştuysa hekiminiz cerrahi değerlendirme isteyebilir."
+ },
+ {
+  "id": "tur41-70",
+  "kind": "text",
+  "tr": "Kortizon iğnesi ağrıyı azaltabilir; ancak etkisi geçicidir (genellikle 12 haftadan kısa) ve egzersize eklenmesi uzun vadede ek bir fark yaratmadı. 2025 kılavuzları ilk basamak tedavi olarak önermiyor; tekrarlanan iğnelerin tek iğneye göre ek yararı gösterilmedi. Kararı hekiminizle birlikte verebilirsiniz."
+ },
+ {
+  "id": "tur41-71",
+  "kind": "text",
+  "tr": "MR ya da ultrason çektirmem gerekir mi?"
+ },
+ {
+  "id": "tur41-72",
+  "kind": "text",
+  "tr": "Çoğu zaman başlangıçta gerekmez; tanı öykü ve muayeneyle konur. JOSPT kılavuzuna göre yaklaşık 12 hafta düzgün yürütülen tedaviye rağmen düzelme yoksa ilk tercih ultrasondur ve MR rutin olarak önerilmez (uzman görüşü). BESS de görüntüleme gerekirse deneyimli kişinin yaptığı ultrasonu ilk tercih olarak görüyor. Darbe sonrasında, uyarı işaretleri varsa, ağrı ya da tutukluk çok şiddetliyse veya şikâyet uzun sürüyorsa röntgen istenebilir."
+ },
+ {
+  "id": "tur41-73",
+  "kind": "text",
+  "tr": "Omuzda kızarıklık, şişlik ya da sıcaklık; özellikle ateş eşlik ediyorsa (enfeksiyon olabilir)"
+ },
+ {
+  "id": "tur41-74",
+  "kind": "text",
+  "tr": "Boyundan kola yayılan ağrı, kolda uyuşma ya da karıncalanma"
+ },
+ {
+  "id": "tur41-75",
+  "kind": "text",
+  "tr": "Kolda ya da yüzde aniden başlayan güç kaybı ya da uyuşma, konuşma bozukluğu (inme olabilir, <strong>112</strong>'yi arayın)"
+ },
+ {
+  "id": "tur41-76",
+  "kind": "text",
+  "tr": "Omuzda ele gelen kitle ya da şişlik"
+ },
+ {
+  "id": "tur41-77",
+  "kind": "text",
+  "tr": "Birden fazla eklemde ağrı ve şişlik"
+ },
+ {
+  "id": "tur41-78",
+  "kind": "text",
+  "tr": "Beard DJ, Rees JL, et al. <a href=\"https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32457-1/fulltext\" target=\"_blank\" rel=\"noopener\">Arthroscopic subacromial decompression for subacromial shoulder pain (CSAW): a multicentre, pragmatic, parallel group, placebo-controlled, three-group, randomised surgical trial</a>. Lancet. 2018;391(10118):329-338. Özet: <a href=\"https://evidence.nihr.ac.uk/alert/a-surgical-procedure-for-shoulder-pain-is-less-effective-than-previously-thought\" target=\"_blank\" rel=\"noopener\">NIHR Evidence</a>."
+ },
+ {
+  "id": "tur41-79",
+  "kind": "text",
+  "tr": "Desmeules F, Roy JS, Lafrance S, et al. <a href=\"https://www.jospt.org/doi/10.2519/jospt.2025.13182\" target=\"_blank\" rel=\"noopener\">Rotator cuff tendinopathy diagnosis, nonsurgical medical care, and rehabilitation: a clinical practice guideline</a>. J Orthop Sports Phys Ther. 2025;55(4):235-274. Özetler: <a href=\"https://www.physiotutors.com/rotator-cuff-tendinopathy-the-new-2025-clinical-practice-guideline/\" target=\"_blank\" rel=\"noopener\">Physiotutors</a>; <a href=\"https://glennwellmanndpt.com/2025/10/27/rotator-cuff-tendinopathy-2025-clinical-practice-guideline-insights/\" target=\"_blank\" rel=\"noopener\">Wellmann, 2025</a>."
+ },
+ {
+  "id": "tur41-80",
+  "kind": "attr",
+  "tr": "Kalça kireçlenmesi (koksartroz) nedir, tanı nasıl konur, röntgen ağrıyı açıklar mı, ağrı neden dize vurur? Egzersizin gerçek etkisi, ACR ve NICE kılavuzlarının karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri."
+ },
+ {
+  "id": "tur41-81",
+  "kind": "text",
+  "tr": "Kalça eklemindeki kıkırdağın zamanla incelmesiyle ortaya çıkar. Ağrı çoğunlukla kasıkta hissedilir; çorap giymek, ayakkabı bağlamak ve arabaya binmek zorlaşabilir. Egzersiz, fazla kiloluysanız kilo vermek ve gerektiğinde baston gibi yardımcılar günlük hayatı kolaylaştırabilir; ağrı ve kısıtlılık çok belirginse kalça protezi bir seçenektir."
+ },
+ {
+  "id": "tur41-82",
+  "kind": "text",
+  "tr": "2020–2050 arasında dünyada kalça kireçlenmesi vakalarında beklenen artış"
+ },
+ {
+  "id": "tur41-83",
+  "kind": "text",
+  "tr": "Egzersiz, kilo verme, tai chi ve gerektiğinde baston (Amerikan Romatoloji Koleji)"
+ },
+ {
+  "id": "tur41-84",
+  "kind": "text",
+  "tr": "Önerilmiyor"
+ },
+ {
+  "id": "tur41-85",
+  "kind": "text",
+  "tr": "Glukozamin takviyesi; hyaluronik asit, PRP ve kök hücre iğneleri (Amerikan Romatoloji Koleji)"
+ },
+ {
+  "id": "tur41-86",
+  "kind": "text",
+  "tr": "Tanı ve röntgen"
+ },
+ {
+  "id": "tur41-87",
+  "kind": "text",
+  "tr": "Ağrı dizde olabilir"
+ },
+ {
+  "id": "tur41-88",
+  "kind": "text",
+  "tr": "Tanı çoğu zaman öykü ve muayeneyle konur; görüntüleme her zaman gerekmez. Ayrıntılar aşağıdaki \"Tanı ve röntgen\" bölümünde. Kasık ağrısının başka nedenleri de olabilir; örneğin: <a href=\"kalca-sikismasi.html\">Kalça sıkışması →</a>"
+ },
+ {
+  "id": "tur41-89",
+  "kind": "text",
+  "tr": "Kasıkta, uyluğun önünde ya da kalçanın arkasında hareketle artan, bazen dize yayılan ağrı"
+ },
+ {
+  "id": "tur41-90",
+  "kind": "text",
+  "tr": "Risk etkenleri: ileri yaş, fazla kilo, ailede kireçlenme, önceki kalça yaralanması, gelişimsel kalça displazisi (halk arasında doğuştan kalça çıkığı) ya da kalça sıkışması"
+ },
+ {
+  "id": "tur41-91",
+  "kind": "text",
+  "tr": "Tanı nasıl konur? Röntgen ne anlatır?"
+ },
+ {
+  "id": "tur41-92",
+  "kind": "text",
+  "tr": "İngiltere'nin NICE kılavuzuna göre 45 yaş ve üstünde, hareketle artan eklem ağrısı olan ve sabah tutukluğu hiç olmayan ya da 30 dakikayı geçmeyen kişilerde kireçlenme tanısı görüntüleme gerekmeden konabilir. Görüntüleme, belirtiler alışılmışın dışındaysa ya da başka bir neden düşünülüyorsa istenir. Ayrıca muayenede kalçanın içe dönüşündeki kısıtlılık ve bu hareketle ortaya çıkan ağrı tanıya yardımcı olur."
+ },
+ {
+  "id": "tur41-93",
+  "kind": "text",
+  "tr": "Sık ağrıyan kalçalar içinde röntgende kireçlenme görülenler"
+ },
+ {
+  "id": "tur41-94",
+  "kind": "text",
+  "tr": "Röntgende kireçlenme görülen kalçalar içinde sık ağrıyanlar"
+ },
+ {
+  "id": "tur41-95",
+  "kind": "text",
+  "tr": "Bu sayılar ABD'de iki büyük gözlemsel çalışmadan (Framingham ve Osteoarthritis Initiative; 946 ve 4.366 kişi) geliyor. Kalça ağrısı ile röntgendeki görüntü çoğu zaman örtüşmüyor: araştırmacılar yalnızca röntgene bakılırsa kalça kireçlenmesinin gözden kaçabileceğini belirtiyor. Tersine, röntgende kireçlenme görülmesi de ağrının tek açıklaması olmayabilir."
+ },
+ {
+  "id": "tur41-96",
+  "kind": "text",
+  "tr": "Kalça kireçlenmesinin kısa tarihi"
+ },
+ {
+  "id": "tur41-97",
+  "kind": "text",
+  "tr": "1960'larda yaygınlaşan kalça protezi ileri kireçlenmede yaşamı değiştiren bir tedavi oldu. Son yıllarda araştırmalar, ameliyattan önceki dönemde egzersizin ve hastalığı doğru anlamanın yerini ve sınırlarını daha net ortaya koydu."
+ },
+ {
+  "id": "tur41-98",
+  "kind": "text",
+  "tr": "İngiltere'de cerrah John Charnley, Wrightington Hastanesi'nde geliştirdiği total kalça protezi ameliyatını uygulamaya koydu. Yöntemi bir yıl önce The Lancet'te \"yeni bir ameliyat\" olarak tanıtmıştı."
+ },
+ {
+  "id": "tur41-99",
+  "kind": "text",
+  "tr": "Amerikan Romatoloji Koleji, kalça ağrısı olan 201 hastanın verisine dayanarak kalça kireçlenmesi için sınıflandırma ölçütlerini yayımladı: kalça ağrısıyla birlikte kalçanın içe dönüş açısı, içe dönerken ağrı, sabah tutukluğunun 1 saati geçmemesi ve 50 yaş üstü gibi bulgular birlikte değerlendirildi. Bu ölçütler araştırmalarda hastaları sınıflandırmak için geliştirildi."
+ },
+ {
+  "id": "tur41-100",
+  "kind": "text",
+  "tr": "The Lancet'te yayımlanan bir derleme, total kalça protezini \"yüzyılın ameliyatı\" olarak tanımladı."
+ },
+ {
+  "id": "tur41-101",
+  "kind": "text",
+  "tr": "ABD'deki iki büyük gözlemsel çalışmada kalça ağrısı ile röntgendeki kireçlenme arasında zayıf bir uyum bulundu: sık ağrıyan kalçaların çoğunda röntgende kireçlenme yoktu."
+ },
+ {
+  "id": "tur41-102",
+  "kind": "text",
+  "tr": "Danimarka'daki GLA:D programında (bilgilendirme ve fizyoterapist eşliğinde egzersiz) kalça kireçlenmesi olanların ağrısı 3. ayda 100 üzerinden ortalama 11 puan azaldı; karşılaştırma grubu olmayan bir çalışmaydı."
+ },
+ {
+  "id": "tur41-103",
+  "kind": "text",
+  "tr": "Avustralya ve Finlandiya ulusal kayıtlarını inceleyen bir analizde kalça protezlerinin %89'u 15 yıl, Finlandiya kaydına göre yaklaşık %58'i 25 yıl yenilenmeden dayandı."
+ },
+ {
+  "id": "tur41-104",
+  "kind": "text",
+  "tr": "Amerikan Romatoloji Koleji ve Artrit Vakfı'nın 2019 kılavuzu yayımlandı: egzersiz, fazla kilolularda kilo verme, tai chi ve baston güçlü şekilde önerildi; kalçaya hyaluronik asit, PRP ve kök hücre iğneleri ile TENS güçlü şekilde önerilmedi."
+ },
+ {
+  "id": "tur41-105",
+  "kind": "text",
+  "tr": "İngiltere'nin NICE kılavuzu güncellendi: kişiye göre ayarlanmış egzersiz herkese öneriliyor, tanı genellikle görüntüleme gerekmeden konuyor ve protez sevkinde yaş ya da kilo tek başına engel sayılmıyor."
+ },
+ {
+  "id": "tur41-106",
+  "kind": "text",
+  "tr": "Kalça kireçlenmesinde egzersizi inceleyen Cochrane derlemesi güncellendi (18 çalışma, 1.368 kişi): ağrıdaki azalma, tedavi almayanlara ya da olağan bakıma göre 100 üzerinden yaklaşık 7 puandı. Yazarlar, yararın beklenenden küçük olabileceğini ama egzersizin düşük maliyetli ve düşük riskli bir seçenek olarak kaldığını belirtiyor."
+ },
+ {
+  "id": "tur41-107",
+  "kind": "text",
+  "tr": "Güçlü şekilde önerilir. 2026'da güncellenen Cochrane derlemesine göre ağrı ve işlevdeki ortalama iyileşme küçük olsa da (ağrıda tedavi almayan ya da olağan bakım alanlara göre 100 üzerinden yaklaşık 7 puan), egzersiz yan etkisi az ve genel sağlığa pek çok faydası olan bir tedavidir. Kalça çevresi kaslarını güçlendiren ve hareket açıklığını koruyan bir program önerilir."
+ },
+ {
+  "id": "tur41-108",
+  "kind": "text",
+  "tr": "Fazla kilolu kişilerde kilo vermek güçlü şekilde önerilir. Diz ve kalça kireçlenmesinde %5'lik bir kilo kaybı bile yarar sağlayabilir; NICE'a göre %10 kilo kaybı %5'ten muhtemelen daha yararlıdır."
+ },
+ {
+  "id": "tur41-109",
+  "kind": "text",
+  "tr": "Tai chi ve öz yönetim"
+ },
+ {
+  "id": "tur41-110",
+  "kind": "text",
+  "tr": "Tai chi ve hastalığı tanıyıp kendi kendine yönetmeyi öğreten programlar kılavuzda güçlü şekilde önerilen yöntemler arasındadır."
+ },
+ {
+  "id": "tur41-111",
+  "kind": "text",
+  "tr": "Kireçlenme yürümeyi, eklemin sağlamlığını ya da ağrıyı belirgin etkiliyorsa baston güçlü şekilde önerilir."
+ },
+ {
+  "id": "tur41-112",
+  "kind": "text",
+  "tr": "<strong>Amerikan kılavuzunda önerilmeyenler:</strong> glukozamin ve kondroitin takviyeleri, kalçaya hyaluronik asit, PRP ya da kök hücre iğneleri ve TENS."
+ },
+ {
+  "id": "tur41-113",
+  "kind": "text",
+  "tr": "Amerikan Romatoloji Koleji ve Artrit Vakfı'nın (ACR, 2019) kılavuzu ile İngiltere'nin NICE kılavuzunun (2022) kalça kireçlenmesi için önerileri yan yana. ACR önerilerinde \"güçlü\" ve \"koşullu\" ayrımı yapıyor; NICE ise \"önerilir\", \"düşünülebilir\" ve \"önerilmez\" ifadelerini kullanıyor. Kılavuzlar her konuda aynı fikirde değil; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur41-114",
+  "kind": "text",
+  "tr": "ACR"
+ },
+ {
+  "id": "tur41-115",
+  "kind": "text",
+  "tr": "Güçlü öneri; tai chi de güçlü, denge egzersizleri koşullu öneriliyor."
+ },
+ {
+  "id": "tur41-116",
+  "kind": "text",
+  "tr": "Herkese kişiye göre ayarlanmış egzersiz; düzenli egzersizin başta ağrı ya da rahatsızlık yapsa bile eklemlere yararlı olacağı anlatılmalı."
+ },
+ {
+  "id": "tur41-117",
+  "kind": "text",
+  "tr": "Ağrıda 100 üzerinden yaklaşık 7 puanlık azalma (Cochrane, 2026); fark edilebilir kabul edilen sınırın altında."
+ },
+ {
+  "id": "tur41-118",
+  "kind": "text",
+  "tr": "Kilo verme"
+ },
+ {
+  "id": "tur41-119",
+  "kind": "text",
+  "tr": "Fazla kilolu ya da obez kişilerde güçlü öneri."
+ },
+ {
+  "id": "tur41-120",
+  "kind": "text",
+  "tr": "Kilo vermenin yaşam kalitesini ve işlevi iyileştireceği, ağrıyı azaltacağı anlatılmalı; %10 kilo kaybı muhtemelen %5'ten daha iyi."
+ },
+ {
+  "id": "tur41-121",
+  "kind": "text",
+  "tr": "Baston ve destekler"
+ },
+ {
+  "id": "tur41-122",
+  "kind": "text",
+  "tr": "Baston güçlü öneriliyor."
+ },
+ {
+  "id": "tur41-123",
+  "kind": "text",
+  "tr": "Baston gibi yürüme yardımcıları düşünülebilir. Tabanlık, destek, bant ve ateller, eklemde dengesizlik gibi özel bir durum yoksa rutin olarak önerilmiyor."
+ },
+ {
+  "id": "tur41-124",
+  "kind": "text",
+  "tr": "Egzersize manuel terapi eklenmesi, yalnız egzersize göre koşullu olarak önerilmiyor (kalça ve diz)."
+ },
+ {
+  "id": "tur41-125",
+  "kind": "text",
+  "tr": "Yalnızca egzersizle birlikte düşünülebilir; tek başına kullanımını destekleyen yeterli kanıt yok."
+ },
+ {
+  "id": "tur41-126",
+  "kind": "text",
+  "tr": "Kılavuzlar bu konuda ayrışıyor."
+ },
+ {
+  "id": "tur41-127",
+  "kind": "text",
+  "tr": "Koşullu öneri."
+ },
+ {
+  "id": "tur41-128",
+  "kind": "text",
+  "tr": "Akupunktur ve kuru iğneleme önerilmiyor."
+ },
+ {
+  "id": "tur41-129",
+  "kind": "text",
+  "tr": "Kalça ve dizde TENS güçlü şekilde önerilmiyor."
+ },
+ {
+  "id": "tur41-130",
+  "kind": "text",
+  "tr": "TENS, ultrason, enterferansiyel akım ve lazer gibi elektroterapi tedavileri, yararına dair yeterli kanıt olmadığı için önerilmiyor."
+ },
+ {
+  "id": "tur41-131",
+  "kind": "text",
+  "tr": "Eklem içi iğneler"
+ },
+ {
+  "id": "tur41-132",
+  "kind": "text",
+  "tr": "Kalçaya kortizon iğnesi ve kalça iğnelerinin ultrason eşliğinde yapılması güçlü öneri; hyaluronik asit, PRP ve kök hücre iğneleri güçlü şekilde önerilmiyor."
+ },
+ {
+  "id": "tur41-133",
+  "kind": "text",
+  "tr": "Kortizon iğnesi, diğer ilaç tedavileri etkisiz ya da uygun değilse veya egzersize destek olmak için düşünülebilir; yalnızca kısa süreli (2–10 hafta) rahatlama sağlar. Hyaluronik asit iğnesi önerilmiyor."
+ },
+ {
+  "id": "tur41-134",
+  "kind": "text",
+  "tr": "Sevk kararı puanlama sistemleriyle değil klinik değerlendirmeyle verilmeli; yaş, cinsiyet, sigara, eşlik eden hastalıklar ya da fazla kilo tek başına engel sayılmamalı."
+ },
+ {
+  "id": "tur41-135",
+  "kind": "text",
+  "tr": "Egzersiz sırasında hafif bir ağrı olabilir; ağrı ertesi gün artmıyorsa devam edebilirsiniz. Ertesi gün belirgin artış olursa tekrar sayısını azaltın. Ayakta yapılan hareketlerde sağlam bir yere tutunun."
+ },
+ {
+  "id": "tur41-136",
+  "kind": "text",
+  "tr": "Yan yatın, alttaki dizinizi hafifçe bükün. Üstteki bacağınızı dizi düz, ayak ucu öne bakacak şekilde yukarı kaldırın ve yavaşça indirin. Kalçanın yan kasları yürürken leğen kemiğini dengede tutar."
+ },
+ {
+  "id": "tur41-137",
+  "kind": "text",
+  "tr": "2026'da güncellenen Cochrane derlemesine (18 çalışma, 1.368 kişi) göre egzersiz kalça kireçlenmesinde ağrıyı, tedavi almayan ya da olağan bakım alan gruplara göre 100 üzerinden muhtemelen yaklaşık 7 puan daha fazla azaltıyor (orta kesinlikte kanıt); bu, günlük hayatta fark edilebilir kabul edilen 12 puanın altında (bu sınır çoğunlukla diz çalışmalarından geliyor). İşlevde de benzer küçük bir iyileşme görülüyor. Cochrane yazarları egzersizin düşük maliyetli, zarar verme olasılığı düşük ve genel sağlığa yararlı olduğunu, bu yüzden tedavideki yerini koruduğunu belirtiyor. Amerikan Romatoloji Koleji de bu derlemeden önce yayımlanan 2019 kılavuzunda egzersizi güçlü şekilde öneriyor. Egzersiz; kilo kontrolü, baston ve hastalığı doğru anlamakla birlikte bir tedavi paketinin parçasıdır. İngiltere’nin 2022 kılavuzu (NICE) da herkese kişiye göre ayarlanmış egzersiz, fazla kilosu olanlara kilo vermeyi (az miktarda kilo kaybı bile muhtemelen yararlı) öneriyor, gerekirse baston gibi yürüme yardımcılarının düşünülebileceğini, tanı için genellikle görüntüleme gerekmediğini, glukozamin ve güçlü opioidlerin önerilmediğini belirtiyor. 2026'da yayımlanan ve 5 sistematik derleme ile 28 randomize çalışmayı bir araya getiren bir şemsiye derlemede de egzersizin kalça ağrısına etkisi Cochrane'dekine benzer büyüklükte bulundu, ancak bu yazarlar etkiyi ihmal edilebilir düzeyde olarak niteliyor; yazarlar egzersizin genel sağlığa yararlarını ve hastaların tercihini göz ardı etmeden ortak karar verilmesini öneriyor."
+ },
+ {
+  "id": "tur41-138",
+  "kind": "text",
+  "tr": "Amerikan Romatoloji Koleji'nin kılavuzu kalça kireçlenmesinde glukozamin ve kondroitin takviyelerini, hyaluronik asit, PRP ve kök hücre iğnelerini güçlü şekilde önermiyor. Ultrason eşliğinde yapılan kortizon iğnesi ise kısa süreli rahatlama için önerilen seçeneklerden biridir."
+ },
+ {
+  "id": "tur41-139",
+  "kind": "text",
+  "tr": "Egzersiz, kilo kontrolü ve ilaç tedavisine rağmen ağrı ve kısıtlılık günlük yaşamı ciddi şekilde bozuyorsa ortopedi değerlendirmesi gerekir. Karar yalnızca röntgene göre değil, yaşam kalitenize göre verilir. NICE kılavuzuna göre protez için sevk kararında yaş, cinsiyet, sigara, eşlik eden hastalıklar ya da fazla kilo tek başına engel sayılmamalıdır."
+ },
+ {
+  "id": "tur41-140",
+  "kind": "text",
+  "tr": "Kalça protezi ne kadar dayanır?"
+ },
+ {
+  "id": "tur41-141",
+  "kind": "text",
+  "tr": "Avustralya ve Finlandiya ulusal kayıtlarını inceleyen bir analizde kalça protezlerinin %89'u 15 yıl boyunca yenilenmeden dayandı; 25 yıllık veriler yalnızca Finlandiya kaydından geldi ve bu kayda göre protezlerin yaklaşık %58'i 25 yıl dayandı. Bu protezlerin bir kısmı bugün kullanılan modellerden farklıdır."
+ },
+ {
+  "id": "tur41-142",
+  "kind": "text",
+  "tr": "Röntgenim temiz ama kalçam ağrıyor; kireçlenme olabilir mi?"
+ },
+ {
+  "id": "tur41-143",
+  "kind": "text",
+  "tr": "Olabilir. ABD'deki iki büyük gözlemsel çalışmada sık ağrıyan kalçaların yalnızca %9–16'sında röntgende kireçlenme görüldü; röntgende kireçlenmesi olan kalçaların da yalnızca %21–24'ü sık ağrıyordu. Araştırmacılar yalnızca röntgene bakılırsa kalça kireçlenmesinin gözden kaçabileceğini belirtiyor. Bu yüzden tanıda öykü ve muayene önemlidir. Kalça ağrısının bel, kalça sıkışması ya da tendon sorunları gibi başka nedenleri de olabilir; değerlendirme gerekir."
+ },
+ {
+  "id": "tur41-144",
+  "kind": "text",
+  "tr": "Şu durumlar kireçlenme dışında bir soruna işaret edebilir."
+ },
+ {
+  "id": "tur41-145",
+  "kind": "text",
+  "tr": "Hemen acil servise başvurun:"
+ },
+ {
+  "id": "tur41-146",
+  "kind": "text",
+  "tr": "Düşme sonrasında başlayan, geçmeyen kalça ya da kasık ağrısı; yürüyebiliyor olsanız bile (kalça kırığı olabilir). Bacağa yük veremiyorsanız ya da bacakta kısalma veya dışa dönme varsa hareket etmeden <strong>112</strong>'yi arayın."
+ },
+ {
+  "id": "tur41-147",
+  "kind": "text",
+  "tr": "Bacağa yayılan ağrıyla birlikte idrar ya da dışkı kontrolünde bozulma veya makat bölgesinde uyuşma"
+ },
+ {
+  "id": "tur41-148",
+  "kind": "text",
+  "tr": "Kısa sürede bir hekime başvurun:"
+ },
+ {
+  "id": "tur41-149",
+  "kind": "text",
+  "tr": "Uzun süre kortizon ya da yoğun alkol kullanan birinde yeni başlayan kalça ağrısı (kemiğin kanlanma bozukluğu, yani avasküler nekroz olabilir)"
+ },
+ {
+  "id": "tur41-150",
+  "kind": "text",
+  "tr": "Kanser öyküsü olan birinde yeni kalça ağrısı, nedensiz kilo kaybı ya da giderek artan, dinlenmekle geçmeyen gece ağrısı"
+ },
+ {
+  "id": "tur41-151",
+  "kind": "text",
+  "tr": "Evans JT, Evans JP, Walker RW, et al. <a href=\"https://read.qxmd.com/read/30782340/how-long-does-a-hip-replacement-last-a-systematic-review-and-meta-analysis-of-case-series-and-national-registry-reports-with-more-than-15-years-of-follow-up\" target=\"_blank\" rel=\"noopener\">How long does a hip replacement last? A systematic review and meta-analysis of case series and national registry reports with more than 15 years of follow-up</a>. Lancet. 2019;393(10172):647-654. Özet: <a href=\"https://evidence.nihr.ac.uk/alert/more-than-50-of-hip-replacements-appear-to-last-25-years/\" target=\"_blank\" rel=\"noopener\">NIHR Evidence</a>."
+ },
+ {
+  "id": "tur41-152",
+  "kind": "text",
+  "tr": "Learmonth ID, Young C, Rorabeck C. <a href=\"https://ouci.dntb.gov.ua/works/4EoJXwx9\" target=\"_blank\" rel=\"noopener\">The operation of the century: total hip replacement</a>. Lancet. 2007;(9597):1508-1519."
+ },
+ {
+  "id": "tur41-153",
+  "kind": "text",
+  "tr": "Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust. <a href=\"https://www.wwl.nhs.uk/pioneer-of-hip-replacement-surgery\" target=\"_blank\" rel=\"noopener\">Pioneer of hip replacement surgery: Sir John Charnley</a>."
+ },
+ {
+  "id": "tur41-154",
+  "kind": "text",
+  "tr": "Hall M, Lawford BJ, et al. <a href=\"https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007912.pub3/full\" target=\"_blank\" rel=\"noopener\">Exercise for osteoarthritis of the hip</a>. Cochrane Database Syst Rev. 2026;(7):CD007912. Özet: <a href=\"https://canada.cochrane.org/news/exercise-helps-hip-arthritis-pain-perhaps-less-we-thought\" target=\"_blank\" rel=\"noopener\">Cochrane Canada, 23 July 2026</a>."
+ },
+ {
+  "id": "tur41-155",
+  "kind": "text",
+  "tr": "Kolasinski SL, Neogi T, Hochberg MC, et al. <a href=\"https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24131\" target=\"_blank\" rel=\"noopener\">2019 American College of Rheumatology/Arthritis Foundation guideline for the management of osteoarthritis of the hand, hip, and knee</a>. Arthritis Care Res (Hoboken). 2020;72(2):149-162. Özetler: <a href=\"https://www.aafp.org/pubs/afp/issues/2021/0115/p120.html\" target=\"_blank\" rel=\"noopener\">American Family Physician, 2021</a>; <a href=\"https://rheumnow.com/content/acr-arthritis-foundation-treatment-guidelines-osteoarthritis\" target=\"_blank\" rel=\"noopener\">RheumNow</a>."
+ },
+ {
+  "id": "tur41-156",
+  "kind": "attr",
+  "tr": "Karpal tünel sendromu nedir, nasıl tanınır, kendiliğinden geçer mi, bilgisayar kullanmak neden olur mu? Gece ateli, AAOS ve fizyoterapi kılavuzlarının karşılaştırması, kısa tarihçe, evde dört egzersiz ve uyarı işaretleri."
+ },
+ {
+  "id": "tur41-157",
+  "kind": "text",
+  "tr": "Bilekteki dar bir kanalda (karpal tünel) orta sinirin (median sinir) sıkışmasıyla ortaya çıkar. Başparmak, işaret ve orta parmakta uyuşma, karıncalanma ve ağrı yapar; belirtiler özellikle geceleri artar. Hafif ve orta şiddetteki durumlarda gece ateli ve günlük yükün ayarlanması ilk basamaktır; geçmeyen ya da ilerleyen durumlarda küçük bir ameliyatla sinir rahatlatılabilir."
+ },
+ {
+  "id": "tur41-158",
+  "kind": "text",
+  "tr": "Orta sinir bölgesinde uyuşma, karıncalanma ya da ağrı yaşayan kişi (İsveç'te 25–74 yaş arası yetişkinlerde yapılan bir toplum çalışması, 1999)"
+ },
+ {
+  "id": "tur41-159",
+  "kind": "text",
+  "tr": "6 haftaya kadar"
+ },
+ {
+  "id": "tur41-160",
+  "kind": "text",
+  "tr": "Gece atelinin etkisini göstermesi için gerekebilecek süre (NHS)"
+ },
+ {
+  "id": "tur41-161",
+  "kind": "text",
+  "tr": "Kendiliğinden geçer mi?"
+ },
+ {
+  "id": "tur41-162",
+  "kind": "text",
+  "tr": "Bilgisayar kullanımı"
+ },
+ {
+  "id": "tur41-163",
+  "kind": "text",
+  "tr": "Sinir uzun süre ve belirgin şekilde sıkışık kalırsa uyuşma kalıcı hâle gelebilir ve başparmak kökündeki kaslar zayıflayabilir; bu yüzden ilerleyen belirtiler değerlendirilmelidir."
+ },
+ {
+  "id": "tur41-164",
+  "kind": "text",
+  "tr": "Tanı çoğunlukla belirtilerin nerede ve ne zaman olduğuna ve muayeneye dayanır. Belirtilerin elin hangi bölgesinde olduğunu bir el çizimi üzerinde işaretlemek de değerlendirmeye yardım eder."
+ },
+ {
+  "id": "tur41-165",
+  "kind": "text",
+  "tr": "CTS-6 puanlaması"
+ },
+ {
+  "id": "tur41-166",
+  "kind": "text",
+  "tr": "Altı bulgu birlikte değerlendirilir: uyuşmanın çoğunlukla orta sinirin beslediği parmaklarda olması, gece uyuşması, başparmak kökünde kas erimesi ya da güçsüzlük, olumlu Phalen testi, iki noktayı ayırt etmede azalma ve olumlu Tinel bulgusu. AAOS'un 2024 kılavuzu bu puanlamanın rutin EMG ya da ultrason yerine kullanılabileceğini belirtiyor. Muayenede kullanılan bir araçtır, kendi kendine tanı için değildir."
+ },
+ {
+  "id": "tur41-167",
+  "kind": "text",
+  "tr": "Phalen testinde bilekler 30–60 saniye bükülü tutulur; Tinel testinde bileğin avuç tarafına hafifçe vurulur. Parmaklarda uyuşma ya da karıncalanma ortaya çıkıyorsa test olumludur. Hiçbir test tek başına yeterince doğru değildir; bulgular birlikte yorumlanır."
+ },
+ {
+  "id": "tur41-168",
+  "kind": "text",
+  "tr": "EMG ve ultrason ne zaman?"
+ },
+ {
+  "id": "tur41-169",
+  "kind": "text",
+  "tr": "Sinir iletim testi ve EMG ya da ultrason her hastada gerekmez. Tanıdan emin olunamadığında ya da sonuç tedaviyi (örneğin ameliyat kararını) değiştirecekse istenir. AAOS'a göre MR tanı için kullanılmamalıdır."
+ },
+ {
+  "id": "tur41-170",
+  "kind": "text",
+  "tr": "Bazı kişilerde kendiliğinden düzelebilir. Tedavi görmeyen 196 hastanın (274 el) 10–15 ay izlendiği bir çalışmada genel olarak belirtiler ve sinir ölçümleri kendiliğinden düzeldi; ancak başlangıçta bulguları hafif olanlarda ölçümler kötüleşti. Belirtilerin kısa süredir olması ve genç yaş daha iyi seyirle; iki elde birden belirti olması ve olumlu Phalen testi ise daha kötü seyirle ilişkiliydi."
+ },
+ {
+  "id": "tur41-171",
+  "kind": "text",
+  "tr": "<strong>Gebelikte:</strong> Belirtiler genellikle doğumdan sonra, şişlik azaldıkça hafifler. Ancak 45 kadının izlendiği bir çalışmada doğumdan 3 yıl sonra kadınların yaklaşık yarısında belirtiler hâlâ sürüyordu (yalnızca biri ameliyat olmuştu). Bu yüzden doğumdan sonra da geçmeyen belirtiler değerlendirilmelidir."
+ },
+ {
+  "id": "tur41-172",
+  "kind": "text",
+  "tr": "Amerikan Ortopedi Cerrahları Akademisi'nin (AAOS) 2024 kılavuzunu hazırlayan uzman grubu, güvenilir araştırma bulunmadığını belirterek yoğun klavye kullanımı ile karpal tünel sendromu arasında ilişki olmadığı görüşünde; bu, kılavuzdaki en düşük kanıt düzeyidir. AAOS'un 2016 kılavuzunda ise bilgisayar işi, orta düzey kanıtla risk etkenleri arasında sayılıyordu. Yani konu kesinleşmiş değil."
+ },
+ {
+  "id": "tur41-173",
+  "kind": "text",
+  "tr": "Yine de uzun süre bileği bükülü tutmak belirtileri artırabilir. Klavye ve fare kullanırken bileğinizi düz tutmak ve sık ara vermek, var olan şikâyetleri hafifletmeye yardımcı olabilir. 2026 fizyoterapi kılavuzu, belirtileri olan kişilerde daha az kuvvet gerektiren klavye, dokunmatik ekran ya da fareyi eller arasında değiştirmek gibi seçenekleri zayıf düzeyde öneriyor."
+ },
+ {
+  "id": "tur41-174",
+  "kind": "text",
+  "tr": "Karpal tünel sendromunun kısa tarihi"
+ },
+ {
+  "id": "tur41-175",
+  "kind": "text",
+  "tr": "Bilekte sinir sıkışması yaklaşık 170 yıldır biliniyor; ancak hastalığın yaygın olarak tanınması 20. yüzyılın ortasını buldu. Son yıllarda araştırmalar atel, iğne ve ameliyatın yerini daha net ortaya koydu."
+ },
+ {
+  "id": "tur41-176",
+  "kind": "text",
+  "tr": "James Paget, bilekte orta sinirin sıkıştığı iki vakayı tanımladı: birinde bileği sıkan bir kordon, diğerinde bilek kırığından sonra oluşan aşırı kemik dokusu sinire baskı yapıyordu."
+ },
+ {
+  "id": "tur41-177",
+  "kind": "text",
+  "tr": "Pierre Marie ve Charles Foix, başparmak kökündeki kaslarda görülen erimenin bilekteki bağın hizasında orta sinirin etkilenmesinden kaynaklandığını tanımladı ve bu bağın erken kesilmesinin ilerlemeyi önleyebileceğini ileri sürdü."
+ },
+ {
+  "id": "tur41-178",
+  "kind": "text",
+  "tr": "İlk karpal tünel gevşetme ameliyatının Herbert Galloway tarafından yapıldığı bildiriliyor."
+ },
+ {
+  "id": "tur41-179",
+  "kind": "text",
+  "tr": "Brain, Wright ve Wilkinson, orta sinirin bilekte belirgin bir dış neden olmadan da sıkışabileceğini, his bozukluğuna ve başparmak kaslarında erimeye yol açabileceğini gösterdi; ameliyatla tedavi edilen altı vaka bildirdiler."
+ },
+ {
+  "id": "tur41-180",
+  "kind": "text",
+  "tr": "George Phalen geniş hasta serileriyle hastalığın tanısını ve tedavisini netleştirdi ve tanınmasını sağladı. Bilekleri bükülü tutarak yapılan Phalen testi onun adını taşıyor. \"Karpal tünel sendromu\" adı ise ilk kez 1953'te Kremer'in yayımladığı bir metinde kullanıldı."
+ },
+ {
+  "id": "tur41-181",
+  "kind": "text",
+  "tr": "Hollanda'da 176 hastayla yapılan çalışmada açık ameliyat gece atelinden daha iyi sonuç verdi: 18. ayda başarı %90'a karşı %75'ti. Atel grubundakilerin %41'i de bu sürede ameliyat olmuştu."
+ },
+ {
+  "id": "tur41-182",
+  "kind": "text",
+  "tr": "116 hastayla yapılan çalışmada ameliyat, el terapisi ve ultrason tedavisi içeren ameliyatsız tedaviye göre 12. ayda el işlevinde ve belirtilerde daha iyi sonuç verdi; fark ılımlıydı ve ameliyatsız tedavi alanlar da düzeldi."
+ },
+ {
+  "id": "tur41-183",
+  "kind": "text",
+  "tr": "234 kişiyle yapılan INSTINCTS çalışmasında tek kortizon iğnesi, gece atelinden 6. haftada daha fazla rahatlama sağladı; 6. ayda iki grup arasında fark kalmadı."
+ },
+ {
+  "id": "tur41-184",
+  "kind": "text",
+  "tr": "Amerikan Ortopedi Cerrahları Akademisi (AAOS) kılavuzunu güncelledi: muayeneye dayalı CTS-6 puanlaması rutin EMG ve ultrason yerine kullanılabilir; kortizon ve PRP iğnelerinin uzun vadeli yararı yok; küçük kesili açık ameliyat ile kapalı (endoskopik) ameliyatın sonuçları farksız."
+ },
+ {
+  "id": "tur41-185",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi ile el ve üst ekstremite akademilerinin fizyoterapi kılavuzu güncellendi: hafif ve orta şiddette gece ateli öneriliyor; manuel terapi, lazer, şok dalga ve bantlama kısa ya da orta süreli yarar için zayıf düzeyde öneriliyor; mıknatıs tedavisine karşı öneri yapılıyor."
+ },
+ {
+  "id": "tur41-186",
+  "kind": "text",
+  "tr": "Bileği düz (nötr) tutan gece ateli, 2026 fizyoterapi kılavuzunda hafif ve orta şiddetteki durumlarda belirtileri ve el işlevini kısa ve orta vadede iyileştirmek için öneriliyor (B düzeyi); ameliyat bekleyenlerde de kullanılabilir. İngiltere Ulusal Sağlık Hizmeti'ne (NHS) göre atelin fayda göstermesi 6 haftayı bulabilir."
+ },
+ {
+  "id": "tur41-187",
+  "kind": "text",
+  "tr": "Bileği tekrar tekrar bükmeyi ve güçlü kavramayı gerektiren işleri azaltmak siniri rahatlatabilir."
+ },
+ {
+  "id": "tur41-188",
+  "kind": "text",
+  "tr": "Muayene bulgularına göre boyun ve kol boyunca sinirin sıkışabileceği bölgelere yönelik manuel terapi, hafif ve orta şiddetteki durumlarda kısa süreli yarar için uygulanabilir; kılavuzdaki öneri düzeyi zayıftır (C) ve AAOS'a göre uzun vadeli yararı gösterilmedi."
+ },
+ {
+  "id": "tur41-189",
+  "kind": "text",
+  "tr": "Tendon ve sinir kaydırma egzersizleri yaygın olarak kullanılır; ancak etkinliklerine dair kanıtlar sınırlı ve çok düşük kalitelidir. Destekleyici olarak, belirtileri artırmadan yapılmalıdır."
+ },
+ {
+  "id": "tur41-190",
+  "kind": "text",
+  "tr": "Diğer fizik tedavi yöntemleri"
+ },
+ {
+  "id": "tur41-191",
+  "kind": "text",
+  "tr": "Lazer, enterferansiyel akım ve yüzeysel sıcak uygulama kısa süreli; şok dalga ve hafif durumlarda bantlama kısa ve orta süreli yarar için 2026 fizyoterapi kılavuzunda zayıf düzeyde (C) öneriliyor; bantlama atelin yerine geçmez. AAOS'a göre bu yöntemlerin uzun vadeli yararı gösterilmedi. Mıknatıs tedavisi önerilmiyor."
+ },
+ {
+  "id": "tur41-192",
+  "kind": "text",
+  "tr": "Belirtileri kısa sürede azaltabilir: bir çalışmada tek iğne 6. haftada gece atelinden daha fazla rahatlama sağladı, 6. ayda ise fark kalmadı. 2024 AAOS kılavuzuna göre uzun vadeli faydası yok."
+ },
+ {
+  "id": "tur41-193",
+  "kind": "text",
+  "tr": "Bileğin avuç tarafındaki bağın gevşetilmesiyle sinir rahatlatılır. Uygun hastalarda 6 ve 12. ayda ameliyatsız tedaviden daha fazla fayda sağlar (AAOS, 2016). Küçük kesili açık ameliyat ile kapalı (endoskopik) yöntem arasında hastaların bildirdiği sonuçlarda fark bulunmadı; ameliyat yalnızca lokal anesteziyle de yapılabilir. AAOS ameliyattan sonra atel ya da askı kullanılmamasını ve gözetimli terapinin rutin olarak verilmemesini öneriyor."
+ },
+ {
+  "id": "tur41-194",
+  "kind": "text",
+  "tr": "Gebeliğe bağlı karpal tünel sendromunda belirtiler genellikle doğumdan sonra hafifler, ancak bazı kadınlarda uzun süre devam edebilir. Gece ateli bu dönemde iyi bir seçenektir; fizyoterapi kılavuzu doğumdan sonra da izlemeyi öneriyor."
+ },
+ {
+  "id": "tur41-195",
+  "kind": "text",
+  "tr": "Amerikan Ortopedi Cerrahları Akademisi'nin (AAOS, 2024) kılavuzu ile Amerikan Fizyoterapi Derneği'nin (APTA) akademilerinin hazırladığı fizyoterapi kılavuzunun (JOSPT, 2026) önerileri yan yana. Parantez içindeki harfler fizyoterapi kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf); bu kılavuzun ayrıntıları ikincil bir özetten alındı. AAOS çoğu yöntem için uzun vadeli sonuçlara, fizyoterapi kılavuzu ise kısa süreli yarara bakıyor; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur41-196",
+  "kind": "text",
+  "tr": "Tanı"
+ },
+ {
+  "id": "tur41-197",
+  "kind": "text",
+  "tr": "AAOS"
+ },
+ {
+  "id": "tur41-198",
+  "kind": "text",
+  "tr": "CTS-6 puanlaması rutin ultrason ya da EMG yerine kullanılabilir (güçlü); MR ve sinir germe testleri tanıda kullanılmamalı (orta)."
+ },
+ {
+  "id": "tur41-199",
+  "kind": "text",
+  "tr": "Fizyoterapi (JOSPT)"
+ },
+ {
+  "id": "tur41-200",
+  "kind": "text",
+  "tr": "CTS-6 (B); Phalen, Tinel ve bilek sıkıştırma testleri tanıya yardımcı olarak kullanılmalı (B), ancak hiçbiri tek başına yeterli değil; his kaybını ölçmek için ince telle (monofilaman) his testi (A). EMG ve ultrason, sonuç tedaviyi değiştirecekse."
+ },
+ {
+  "id": "tur41-201",
+  "kind": "text",
+  "tr": "Hafif ve orta şiddette, bileği düz tutan gece ateli (B); yetmezse gündüz de takmak ya da pozisyonu değiştirmek (C); gebelikte atel ve doğumdan sonra izlem (C)."
+ },
+ {
+  "id": "tur41-202",
+  "kind": "text",
+  "tr": "Ameliyattan sonra atel ya da askı kullanılmamalı (orta)."
+ },
+ {
+  "id": "tur41-203",
+  "kind": "text",
+  "tr": "Egzersiz ve manuel terapi"
+ },
+ {
+  "id": "tur41-204",
+  "kind": "text",
+  "tr": "Boyun ve kola manuel terapi kısa süreli yarar için (C); kas erimesi yoksa ve iki nokta ayırt etme normalse atelle birlikte germe programı (C); tendon ve sinir kaydırma için net öneri yok."
+ },
+ {
+  "id": "tur41-205",
+  "kind": "text",
+  "tr": "Egzersiz, manuel terapi ve masajın uzun vadeli yararı gösterilmedi (sınırlı kanıt)."
+ },
+ {
+  "id": "tur41-206",
+  "kind": "text",
+  "tr": "Lazer, şok dalga ve diğer cihazlar"
+ },
+ {
+  "id": "tur41-207",
+  "kind": "text",
+  "tr": "Lazer, enterferansiyel akım ve yüzeysel sıcak kısa süreli, şok dalga kısa ve orta süreli yarar için (C); kortizonlu iyontoforez ve fonoforez önerilmiyor (A); mıknatıs önerilmiyor (B)."
+ },
+ {
+  "id": "tur41-208",
+  "kind": "text",
+  "tr": "Lazer, şok dalga ve ultrason tedavisinin uzun vadeli yararı gösterilmedi (sınırlı kanıt)."
+ },
+ {
+  "id": "tur41-209",
+  "kind": "text",
+  "tr": "Bantlama ve iş düzenlemesi"
+ },
+ {
+  "id": "tur41-210",
+  "kind": "text",
+  "tr": "Hafif durumlarda kinezyo bant kısa ve orta süreli rahatlama için, atelin yerine değil (C); daha az kuvvet gerektiren klavye ve fare seçenekleri (C)."
+ },
+ {
+  "id": "tur41-211",
+  "kind": "text",
+  "tr": "Yoğun klavye kullanımıyla ilişki yok (uzman görüşü)."
+ },
+ {
+  "id": "tur41-212",
+  "kind": "text",
+  "tr": "Kortizon ve PRP iğnesi"
+ },
+ {
+  "id": "tur41-213",
+  "kind": "text",
+  "tr": "Kortizon iğnesi uzun vadeli iyileşme sağlamıyor (güçlü); PRP iğnesinin uzun vadeli yararı yok (güçlü); ağızdan kortizonun uzun vadeli yararı yok (sınırlı)."
+ },
+ {
+  "id": "tur41-214",
+  "kind": "text",
+  "tr": "Kısa vadede tek kortizon iğnesi gece atelinden daha hızlı rahatlama sağlayabilir (INSTINCTS, 2018). Fizyoterapi kılavuzu iğneleri kapsamıyor."
+ },
+ {
+  "id": "tur41-215",
+  "kind": "text",
+  "tr": "Küçük kesili açık ve kapalı (endoskopik) ameliyatın sonuçları farksız (güçlü); yalnızca lokal anestezi yeterli olabilir (güçlü); ameliyattan sonra rutin gözetimli terapi önerilmiyor (orta)."
+ },
+ {
+  "id": "tur41-216",
+  "kind": "text",
+  "tr": "Fizyoterapi (JOSPT, özet)"
+ },
+ {
+  "id": "tur41-217",
+  "kind": "text",
+  "tr": "İlerleyen his kaybı, artan güçsüzlük ve başparmak kökünde kas erimesinde hekim değerlendirmesi vurgulanıyor; kılavuz ameliyat sonrası rehabilitasyonu kapsamıyor."
+ },
+ {
+  "id": "tur41-218",
+  "kind": "text",
+  "tr": "Elinizi dik tutun, parmaklarınız düz olsun. Sırayla şu pozisyonlara geçin ve her birinde 5 saniye bekleyin: parmak kökleri düz kalsın, orta ve uç eklemlerini bükerek kanca yapın; tam yumruk yapın; parmaklarınızı düz tutup yalnızca parmak köklerinden 90 derece bükün (masa pozisyonu), parmak uçları düz kalacak şekilde yumruk yapın, sonra elinizi açın. Parmak kirişlerinin tünel içinde rahat kaymasına yardım eder. Belirtiler artarsa bırakın."
+ },
+ {
+  "id": "tur41-219",
+  "kind": "text",
+  "tr": "10 tur, günde 3–5 kez"
+ },
+ {
+  "id": "tur41-220",
+  "kind": "text",
+  "tr": "Dik durun, kolunuzu yana, omuz hizasının biraz altında açın; avucunuz yukarı baksın, dirseğiniz hafif bükülü olabilir. Bileğinizi yavaşça geriye bükerken başınızı aynı tarafa, kolunuza doğru eğin; bileğinizi bırakırken başınızı dik konuma getirin. Böylece sinir bir uçtan gerilirken diğer uçtan gevşer ve gerilmeden kayar. Karıncalanma ya da uyuşma artıyorsa hareket aralığını küçültün ya da bırakın."
+ },
+ {
+  "id": "tur41-221",
+  "kind": "text",
+  "tr": "Kolunuzu önünüze uzatın, dirseğiniz düz, avucunuz yukarı baksın. Diğer elinizle parmaklarınızı nazikçe aşağı ve geriye doğru çekin; ön kolunuzun iç yüzünde hafif gerilme hissedin. Dirseğiniz hafif bükülü başlayabilirsiniz; karıncalanma başlarsa bırakın."
+ },
+ {
+  "id": "tur41-222",
+  "kind": "text",
+  "tr": "Elinizi avucunuz yukarı bakacak şekilde masaya koyun. Diğer elinizle başparmağınızı nazikçe dışa ve geriye doğru açın; başparmak kökünde hafif gerilme hissedin. Başparmak kökünde eklem ağrısı varsa zorlamayın."
+ },
+ {
+  "id": "tur41-223",
+  "kind": "text",
+  "tr": "Belirtiler başladığında elinizi sallamak ve pozisyonunuzu değiştirmek rahatlatabilir."
+ },
+ {
+  "id": "tur41-224",
+  "kind": "text",
+  "tr": "Bazı kişilerde kendiliğinden düzelebilir. Tedavi görmeyen 196 hastanın (274 el) 10–15 ay izlendiği bir çalışmada genel olarak belirtiler ve sinir ölçümleri kendiliğinden düzeldi; ancak başlangıçta bulguları hafif olanlarda ölçümler kötüleşti. Belirtilerin kısa süredir olması ve genç yaş daha iyi seyirle ilişkiliydi, iki elde birden belirti ve olumlu Phalen testi ise daha kötü seyirle. Uzun süren ya da giderek artan uyuşma ve güç kaybında sinirin kalıcı hasar görmemesi için tedavi geciktirilmemelidir."
+ },
+ {
+  "id": "tur41-225",
+  "kind": "text",
+  "tr": "Bileği düz tutan atel özellikle geceleri takılır. İngiltere Ulusal Sağlık Hizmeti'ne (NHS) göre atelin fayda göstermesi 6 haftayı bulabilir. 2026 fizyoterapi kılavuzuna göre gece ateli yetmezse gündüz de takmak ya da atelin pozisyonunu değiştirmek düşünülebilir; bunu fizyoterapistinizle birlikte belirleyin."
+ },
+ {
+  "id": "tur41-226",
+  "kind": "text",
+  "tr": "Amerikan Ortopedi Cerrahları Akademisi'nin (AAOS) 2024 kılavuzunu hazırlayan uzman grubu, güvenilir araştırma bulunmadığını belirterek yoğun klavye kullanımı ile karpal tünel sendromu arasında ilişki olmadığı görüşünde; bu, kılavuzdaki en düşük kanıt düzeyidir. AAOS'un 2016 kılavuzunda ise bilgisayar işi risk etkenleri arasında sayılıyordu. NHS'e göre tekrarlayan kavrama gerektiren işler, fazla kilo ve gebelik risk etkenleri arasında yer alıyor."
+ },
+ {
+  "id": "tur41-227",
+  "kind": "text",
+  "tr": "Kortizon iğnesi belirtileri kısa sürede azaltabilir: 234 kişiyle yapılan bir çalışmada tek iğne, 6. haftada gece atelinden daha fazla rahatlama sağladı; 6. ayda ise iki grup arasında fark kalmadı. 2024 AAOS kılavuzuna göre kortizon iğnesinin uzun vadeli faydası yok; belirtiler zamanla geri dönebilir. Kararı hekiminizle birlikte verebilirsiniz."
+ },
+ {
+  "id": "tur41-228",
+  "kind": "text",
+  "tr": "Başparmak kökündeki kaslarda incelme, sürekli uyuşma, güç kaybı ya da atel ve diğer tedavilere rağmen geçmeyen belirtiler varsa el cerrahisi değerlendirmesi gerekir. AAOS'un 2016 kılavuzuna göre ameliyatın 6. ve 12. aydaki yararı ameliyatsız tedavilerden fazladır. Hollanda'da 176 hastayla yapılan bir çalışmada 18. ayda başarı ameliyat grubunda %90, atel grubunda %75'ti; ancak atel grubundakilerin %41'i bu sürede ameliyat olmuştu."
+ },
+ {
+  "id": "tur41-229",
+  "kind": "text",
+  "tr": "Tendon ve sinir kaydırma egzersizleri yaygın olarak kullanılır, ancak Cochrane derlemesine göre etkinliklerini gösteren kanıtlar sınırlı ve çok düşük kalitelidir; 2026 fizyoterapi kılavuzu da bu egzersizler için net bir öneri yapmıyor. Kılavuz, başparmak kökünde kas erimesi olmayan ve iki noktayı ayırt etme duyusu normal olan hafif ve orta şiddetteki durumlarda atelle birlikte bir germe programını zayıf düzeyde öneriyor. Egzersizler ağrı ve uyuşmayı artırmadan, atel ve yük ayarlamasına destek olarak yapılmalıdır."
+ },
+ {
+  "id": "tur41-230",
+  "kind": "text",
+  "tr": "Gebelikte karpal tünel sendromu doğumdan sonra geçer mi?"
+ },
+ {
+  "id": "tur41-231",
+  "kind": "text",
+  "tr": "Belirtiler genellikle doğumdan sonra, şişlik azaldıkça hafifler; bu dönemde gece ateli el normale dönene kadar kullanılabilir. Ancak 45 kadının izlendiği bir çalışmada doğumdan 3 yıl sonra kadınların yaklaşık yarısında belirtiler hâlâ sürüyordu; yalnızca biri ameliyat olmuştu. Belirtiler geçmiyorsa doğumdan sonra da değerlendirme önemlidir."
+ },
+ {
+  "id": "tur41-232",
+  "kind": "text",
+  "tr": "EMG çektirmem gerekir mi?"
+ },
+ {
+  "id": "tur41-233",
+  "kind": "text",
+  "tr": "Her zaman gerekmez. AAOS'un 2024 kılavuzuna göre muayeneye dayalı CTS-6 puanlaması, rutin EMG ya da ultrason yerine kullanılabilir. Sinir iletim testi, tanıdan emin olunamadığında ya da sonucu tedaviyi (örneğin ameliyat kararını) değiştirecekse istenir."
+ },
+ {
+  "id": "tur41-234",
+  "kind": "text",
+  "tr": "Şu durumlar sinirin ciddi şekilde etkilendiğini ya da uyuşmanın başka bir nedeni olduğunu gösterebilir."
+ },
+ {
+  "id": "tur41-235",
+  "kind": "text",
+  "tr": "Hemen acil servise başvurun ya da 112'yi arayın:"
+ },
+ {
+  "id": "tur41-236",
+  "kind": "text",
+  "tr": "Ani başlayan kol ya da yüz güçsüzlüğü, uyuşma, konuşma bozukluğu (inme olabilir, <strong>112</strong>'yi arayın)"
+ },
+ {
+  "id": "tur41-237",
+  "kind": "text",
+  "tr": "Bilek yaralanmasından ya da kırıktan sonra hızla artan uyuşma, şişlik ve şiddetli ağrı"
+ },
+ {
+  "id": "tur41-238",
+  "kind": "text",
+  "tr": "Bilekte kızarıklık, sıcaklık ve şişlikle birlikte ateş"
+ },
+ {
+  "id": "tur41-239",
+  "kind": "text",
+  "tr": "Boyun ağrısıyla birlikte kola yayılan uyuşma (boyun kaynaklı olabilir)"
+ },
+ {
+  "id": "tur41-240",
+  "kind": "text",
+  "tr": "İki elde ve bacaklarda uyuşma, ellerde beceriksizlik ya da yürürken dengesizlik (omurilik ya da sinir hastalığı kaynaklı olabilir; idrar ya da dışkı kontrolünde sorun eşlik ediyorsa acil servise başvurun)"
+ },
+ {
+  "id": "tur41-241",
+  "kind": "text",
+  "tr": "American Academy of Orthopaedic Surgeons. <a href=\"https://www.aaos.org/quality/quality-programs/upper-extremity-programs/carpal-tunnel-syndrome/\" target=\"_blank\" rel=\"noopener\">Management of Carpal Tunnel Syndrome: Evidence-Based Clinical Practice Guideline</a>. Rosemont (IL): AAOS; 2024. Özetler: <a href=\"https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/carpal-tunnel-2024/orthoguidelines_infographic_cts-6-5-24.pdf\" target=\"_blank\" rel=\"noopener\">AAOS OrthoGuidelines bilgi grafiği</a>; <a href=\"https://guidelinecentral.com/guideline/9593\" target=\"_blank\" rel=\"noopener\">Guideline Central</a>."
+ },
+ {
+  "id": "tur41-242",
+  "kind": "text",
+  "tr": "American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome: Evidence-Based Clinical Practice Guideline. Rosemont (IL): AAOS; 2016. Özet: <a href=\"https://mdedge.com/content/carpal-tunnel-syndrome-guidelines-rate-evidence-diagnosis-treatment\" target=\"_blank\" rel=\"noopener\">MDedge</a>."
+ },
+ {
+  "id": "tur41-243",
+  "kind": "text",
+  "tr": "Erickson M, Lawrence M, Stegink Jansen CW, et al. <a href=\"https://apta.org/patient-care/evidence-based-practice-resources/cpgs/hand-pain-and-sensory-deficits-carpal-tunnel-syndrome-clinical-practice-guidelines\" target=\"_blank\" rel=\"noopener\">Hand pain and sensory deficits: carpal tunnel syndrome. Revision 2026</a>. J Orthop Sports Phys Ther. 2026. doi:10.2519/jospt.2026.0301. Özet: <a href=\"https://www.physiotutors.com/?p=29289\" target=\"_blank\" rel=\"noopener\">Physiotutors</a>."
+ },
+ {
+  "id": "tur41-244",
+  "kind": "text",
+  "tr": "Jarvik JG, et al. <a href=\"https://www.qxmd.com/r/19782873\" target=\"_blank\" rel=\"noopener\">Surgery versus non-surgical therapy for carpal tunnel syndrome: a randomised parallel-group trial</a>. Lancet. 2009;374(9695):1074-1081. Özet: <a href=\"https://washington.edu/news/2009/09/25/surgery-provides-modest-benefit-over-non-surgical-treatment-for-patients-with-carpal-tunnel-syndrome\" target=\"_blank\" rel=\"noopener\">University of Washington</a>."
+ },
+ {
+  "id": "tur41-245",
+  "kind": "text",
+  "tr": "Life in the Fast Lane (LITFL). <a href=\"https://litfl.com/clinical-signs-in-carpal-tunnel-syndrome/\" target=\"_blank\" rel=\"noopener\">Carpal tunnel syndrome signs</a>."
+ },
+ {
+  "id": "tur41-246",
+  "kind": "text",
+  "tr": "University Hospitals of Leicester NHS Trust. <a href=\"https://www.uhleicester.nhs.uk/wp-content/uploads/2025/06/180_082024-Managing-carpal-tunnel-syndrome-in-your-hand-during-pregnancy.pdf\" target=\"_blank\" rel=\"noopener\">Managing carpal tunnel syndrome in your hand during pregnancy</a>. Hasta bilgilendirme broşürü 180; son gözden geçirme Ağustos 2024."
+ }
+]
