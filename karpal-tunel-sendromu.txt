@@ -1,0 +1,177 @@
+SAYFA: /home/claude/main/karpal-tunel-sendromu.html (https://drihsaneren.com//home/claude/main/karpal-tunel-sendromu.html)
+AÇIKLAMA (meta): Karpal tünel sendromu nedir, nasıl tanınır, kendiliğinden geçer mi, bilgisayar kullanmak neden olur mu? Gece ateli, AAOS ve fizyoterapi kılavuzlarının karşılaştırması, kısa tarihçe, evde dört egzersiz ve uyarı işaretleri.
+BAŞLIK/GİRİŞ: Bilgi köşesi Hastalık rehberi Karpal tünel sendromu Bilekteki dar bir kanalda (karpal tünel) orta sinirin (median sinir) sıkışmasıyla ortaya çıkar. Başparmak, işaret ve orta parmakta uyuşma, karıncalanma ve ağrı yapar; belirtiler özellikle geceleri artar. Hafif ve orta şiddetteki durumlarda gece ateli ve günlük yükün ayarlanması ilk basamaktır; geçmeyen ya da ilerleyen durumlarda küçük bir ameliyatla sinir rahatlatılabilir. Son güncelleme: 31 Ekim 2026
+ 
+%14 Toplumda elde uyuşma, karıncalanma ya da ağrı yaşayan kişi 
+%3,8 Muayeneyle karpal tünel sendromu tanısı alan kişi 
+%2,7 Tanısı sinir iletim testiyle de doğrulanan kişi 
+6 hafta Gece atelinin önerilen deneme süresi 
+Bu sayfada 
+ Nedir? [#nedir]Nasıl tanınır? [#tani]Kendiliğinden geçer mi? [#seyir]Bilgisayar kullanımı [#bilgisayar]Geçmişten bugüne [#tarihce]Tedavi seçenekleri [#tedavi]Egzersizler [#egzersizler]Günlük hayatta [#gunluk]Videolar [#videolar]Sık sorulan sorular [#sss]Uyarı işaretleri [#uyari] 
+===== BÖLÜM #nedir =====
+## Nedir? 
+El bileğinin avuç tarafında kemiklerin ve kalın bir bağın oluşturduğu dar bir kanal vardır. Parmakları büken kirişler ve orta sinir bu kanaldan geçer. Kanal içindeki basınç arttığında sinir sıkışır ve sinirin beslediği parmaklarda belirtiler başlar. 
+Sinir uzun süre ve belirgin şekilde sıkışık kalırsa uyuşma kalıcı hâle gelebilir ve başparmak kökündeki kaslar zayıflayabilir; bu yüzden ilerleyen belirtiler değerlendirilmelidir. 
+## Belirtiler ve risk etkenleri 
+- Başparmak, işaret, orta parmak ve yüzük parmağının yarısında uyuşma ve karıncalanma 
+- Geceleri artan, uykudan uyandıran, elinizi sallayınca geçen belirtiler 
+- Telefon tutarken, araç kullanırken ya da kitap okurken artan uyuşma 
+- Başparmakta güçsüzlük, kavramada zorlanma, eşyaları düşürme 
+- Risk etkenleri: fazla kilo, gebelik, tekrarlayan kavrama gerektiren işler, eklem iltihabı, diyabet, aile öyküsü, önceki bilek yaralanması 
+===== BÖLÜM #tani =====
+## Nasıl tanınır? 
+Tanı çoğunlukla belirtilerin nerede ve ne zaman olduğuna ve muayeneye dayanır. Belirtilerin elin hangi bölgesinde olduğunu bir el çizimi üzerinde işaretlemek de değerlendirmeye yardım eder. 
+## CTS-6 puanlaması 
+Altı bulgu birlikte değerlendirilir: uyuşmanın çoğunlukla orta sinirin beslediği parmaklarda olması, gece uyuşması, başparmak kökünde kas erimesi ya da güçsüzlük, olumlu Phalen testi, iki noktayı ayırt etmede azalma ve olumlu Tinel bulgusu. AAOS'un 2024 kılavuzu bu puanlamanın rutin EMG ya da ultrason yerine kullanılabileceğini belirtiyor. Muayenede kullanılan bir araçtır, kendi kendine tanı için değildir. 
+## Muayene testleri 
+Phalen testinde bilekler 30–60 saniye bükülü tutulur; Tinel testinde bileğin avuç tarafına hafifçe vurulur. Parmaklarda uyuşma ya da karıncalanma ortaya çıkıyorsa test olumludur. Hiçbir test tek başına yeterince doğru değildir; bulgular birlikte yorumlanır. 
+## EMG ve ultrason ne zaman? 
+Sinir iletim testi (EMG) ve ultrason her hastada gerekmez. Tanıdan emin olunamadığında ya da sonuç tedaviyi (örneğin ameliyat kararını) değiştirecekse istenir. AAOS'a göre MR tanı için kullanılmamalıdır. 
+===== BÖLÜM #seyir =====
+## Kendiliğinden geçer mi? 
+Bazı kişilerde geçebilir. Tedavi görmeyen 196 hastanın (274 el) 10–15 ay izlendiği bir çalışmada bir kısmında belirtiler ve sinir ölçümleri kendiliğinden düzeldi. Belirtilerin kısa süredir olması ve genç yaş daha iyi seyirle; iki elde birden belirti olması ve olumlu Phalen testi ise daha kötü seyirle ilişkiliydi. 
+ Gebelikte: Belirtiler genellikle doğumdan sonra, şişlik azaldıkça hafifler. Ancak 45 kadının izlendiği bir çalışmada doğumdan 3 yıl sonra kadınların yaklaşık yarısında belirtiler hâlâ sürüyordu (yalnızca biri ameliyat olmuştu). Bu yüzden doğumdan sonra da geçmeyen belirtiler değerlendirilmelidir. 
+===== BÖLÜM #bilgisayar =====
+## Bilgisayar kullanımı karpal tünele yol açar mı? 
+Yaygın inanışın aksine, Amerikan Ortopedi Cerrahları Akademisi'nin (AAOS) 2024 kılavuzu yoğun klavye kullanımı ile karpal tünel sendromu arasında ilişki olmadığını belirtiyor. Bu öneri araştırmadan çok uzmanların ortak görüşüne dayanıyor; kılavuzdaki en düşük kanıt düzeyidir. 
+Yine de uzun süre bileği bükülü tutmak belirtileri artırabilir. Klavye ve fare kullanırken bileğinizi düz tutmak ve sık ara vermek, var olan şikâyetleri hafifletmeye yardımcı olabilir. 2026 fizyoterapi kılavuzu, belirtileri olan kişilerde daha az kuvvet gerektiren klavye, dokunmatik ekran ya da fareyi eller arasında değiştirmek gibi seçenekleri zayıf düzeyde öneriyor. 
+===== BÖLÜM #tarihce =====
+Geçmişten bugüne 
+## Karpal tünel sendromunun kısa tarihi 
+Bilekte sinir sıkışması yaklaşık 170 yıldır biliniyor; ancak hastalığın yaygın olarak tanınması 20. yüzyılın ortasını buldu. Son yıllarda araştırmalar atel, iğne ve ameliyatın yerini daha net ortaya koydu. 
+- 
+1854 Cerrah James Paget, bilekte orta sinirin sıkıştığı iki vakayı tanımladı: birinde sıkı bir bağ, diğerinde bilek kırığından sonra gelişen kemik çıkıntısı sinire baskı yapıyordu. 
+- 
+1913 Pierre Marie ve Charles Foix, başparmak kökündeki kaslarda görülen erimenin bilekteki bağın hizasında orta sinirin etkilenmesinden kaynaklandığını tanımladı ve bu bağın erken dönemde kesilmesini önerdi. 
+- 
+1924 İlk karpal tünel gevşetme ameliyatının Herbert Galloway tarafından yapıldığı bildiriliyor. 
+- 
+1947 Brain, Wright ve Wilkinson, orta sinirin bilekte belirgin bir dış neden olmadan da sıkışabileceğini, his bozukluğuna ve başparmak kaslarında erimeye yol açabileceğini gösterdi; ameliyatla tedavi edilen altı vaka bildirdiler. 
+- 
+1950–1966 George Phalen geniş hasta serileriyle hastalığın tanısını ve tedavisini netleştirdi ve tanınmasını sağladı. Bilekleri bükülü tutarak yapılan Phalen testi onun adını taşıyor. "Karpal tünel sendromu" adı ilk kez 1953'te yayımlanmış bir metinde kullanıldı. 
+- 
+2002 Hollanda'da 176 hastayla yapılan çalışmada açık ameliyat gece atelinden daha iyi sonuç verdi: 18. ayda başarı %90'a karşı %75'ti. Atel grubundakilerin %41'i de bu sürede ameliyat olmuştu. 
+- 
+2009 116 hastayla yapılan çalışmada ameliyat, el terapisi ve ultrason tedavisi içeren ameliyatsız tedaviye göre 12. ayda el işlevinde ve belirtilerde daha iyi sonuç verdi; fark ılımlıydı ve ameliyatsız tedavi alanlar da düzeldi. 
+- 
+2018 234 kişiyle yapılan INSTINCTS çalışmasında tek kortizon iğnesi, gece atelinden 6. haftada daha fazla rahatlama sağladı; 6. ayda iki grup arasında fark kalmadı. 
+- 
+2024 Amerikan Ortopedi Cerrahları Akademisi (AAOS) kılavuzunu güncelledi: muayeneye dayalı CTS-6 puanlaması rutin EMG ve ultrason yerine kullanılabilir; kortizon ve PRP iğnelerinin uzun vadeli yararı yok; küçük kesili açık ameliyat ile kapalı (endoskopik) ameliyatın sonuçları farksız. 
+- 
+2026 Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi ile el ve üst ekstremite akademilerinin fizyoterapi kılavuzu güncellendi: hafif ve orta şiddette gece ateli öneriliyor; manuel terapi, lazer, şok dalga ve bantlama kısa süreli yarar için zayıf düzeyde öneriliyor; mıknatıs tedavisine karşı öneri yapılıyor. 
+===== BÖLÜM #tedavi =====
+## Tedavi 
+Hafif ve orta şiddetteki durumlarda tedaviye ameliyatsız yöntemlerle başlanır. Kalıcı uyuşma ya da kas erimesi varsa cerrahi değerlendirme öne çıkar. 
+- 
+Gece ateli Bileği düz (nötr) tutan gece ateli, 2026 fizyoterapi kılavuzunda hafif ve orta şiddetteki durumlar için önerilen (B düzeyi) ilk basamak tedavidir; ameliyat bekleyenlerde de kullanılabilir. İngiltere sağlık hizmeti (NHS) 6 haftaya kadar denenmesini öneriyor. 
+- 
+Günlük yükü ayarlamak Bileği tekrar tekrar bükmeyi ve güçlü kavramayı gerektiren işleri azaltmak siniri rahatlatır. 
+- 
+Manuel terapi Muayene bulgularına göre boyun ve kol boyunca sinirin sıkışabileceği bölgelere yönelik manuel terapi, hafif ve orta şiddetteki durumlarda kısa süreli yarar için uygulanabilir; kılavuzdaki önerinin kanıt düzeyi zayıftır (C) ve AAOS'a göre uzun vadeli yararı gösterilmedi. 
+- 
+Egzersiz Tendon ve sinir kaydırma egzersizleri yaygın olarak kullanılır; ancak etkinliklerine dair kanıtlar sınırlı ve düşük kalitelidir. Destekleyici olarak, belirtileri artırmadan yapılmalıdır. 
+- 
+Diğer fizik tedavi yöntemleri Lazer, şok dalga, enterferansiyel akım, yüzeysel sıcak uygulama ve bantlama 2026 fizyoterapi kılavuzunda kısa süreli yarar için zayıf düzeyde (C) öneriliyor; bantlama atelin yerine geçmez. AAOS'a göre bu yöntemlerin uzun vadeli yararı gösterilmedi. Mıknatıs tedavisi önerilmiyor. 
+- 
+Kortizon iğnesi Belirtileri kısa sürede azaltabilir: bir çalışmada tek iğne 6. haftada gece atelinden daha fazla rahatlama sağladı, 6. ayda ise fark kalmadı. 2024 AAOS kılavuzuna göre uzun vadeli faydası yok. 
+- 
+Ameliyat Bileğin avuç tarafındaki bağın gevşetilmesiyle sinir rahatlatılır. Uygun hastalarda 6 ve 12. ayda ameliyatsız tedaviden daha fazla fayda sağlar. Küçük kesili açık ameliyat ile kapalı (endoskopik) yöntem arasında hastaların bildirdiği sonuçlarda fark bulunmadı; ameliyat yalnızca lokal anesteziyle de yapılabilir. AAOS ameliyattan sonra rutin atel kullanılmamasını ve gözetimli terapinin rutin olarak verilmemesini öneriyor. 
+- 
+Gebelikte Gebeliğe bağlı karpal tünel sendromunda belirtiler genellikle doğumdan sonra hafifler, ancak bazı kadınlarda uzun süre devam edebilir. Gece ateli bu dönemde iyi bir seçenektir; fizyoterapi kılavuzu doğumdan sonra da izlemeyi öneriyor. 
+## Tedavi seçenekleri: kılavuzlar ne diyor? 
+Amerikan Ortopedi Cerrahları Akademisi'nin (AAOS, 2024) kılavuzu ile Amerikan Fizyoterapi Derneği'nin (APTA) akademilerinin hazırladığı fizyoterapi kılavuzunun (JOSPT, 2026) önerileri yan yana. Parantez içindeki harfler fizyoterapi kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf); bu kılavuzun ayrıntıları ikincil bir özetten alındı. AAOS çoğu yöntem için uzun vadeli sonuçlara, fizyoterapi kılavuzu ise kısa süreli yarara bakıyor; tedavi kişiye göre seçilir. 
+## Tanı AAOS CTS-6 puanlaması rutin ultrason ya da EMG yerine kullanılabilir (güçlü); MR ve sinir germe testleri tanıda kullanılmamalı (orta). Fizyoterapi (JOSPT) CTS-6 (B); Phalen, Tinel ve bilek sıkıştırma testleri tek başına yeterince doğru değil (B); ince telle his testi (A). EMG ve ultrason, sonuç tedaviyi değiştirecekse. 
+## Atel Fizyoterapi (JOSPT) Hafif ve orta şiddette, bileği düz tutan gece ateli (B); yetmezse gündüz de takmak ya da pozisyonu değiştirmek (C); gebelikte atel ve doğumdan sonra izlem (C). AAOS Ameliyattan sonra atel ya da askı kullanılmamalı (orta). 
+## Egzersiz ve manuel terapi Fizyoterapi (JOSPT) Boyun ve kola manuel terapi kısa süreli yarar için (C); kas erimesi yoksa atelle birlikte germe programı (C); tendon ve sinir kaydırma için net öneri yok. AAOS Egzersiz, manuel terapi ve masajın uzun vadeli yararı gösterilmedi (sınırlı kanıt). 
+## Lazer, şok dalga ve diğer cihazlar Fizyoterapi (JOSPT) Lazer, şok dalga, enterferansiyel akım ve yüzeysel sıcak kısa süreli yarar için (C); kortizonlu iyontoforez ve fonoforez önerilmiyor (A); mıknatıs önerilmiyor (B). AAOS Lazer, şok dalga ve ultrason tedavisinin uzun vadeli yararı gösterilmedi (sınırlı kanıt). 
+## Bantlama ve iş düzenlemesi Fizyoterapi (JOSPT) Hafif durumlarda kinezyo bant kısa ve orta süreli rahatlama için, atelin yerine değil (C); daha az kuvvet gerektiren klavye ve fare seçenekleri (C). AAOS Yoğun klavye kullanımıyla ilişki yok (uzman görüşü). 
+## Kortizon ve PRP iğnesi AAOS Kortizon iğnesi uzun vadeli iyileşme sağlamıyor (güçlü); PRP iğnesinin uzun vadeli yararı yok (güçlü); ağızdan kortizonun uzun vadeli yararı yok (sınırlı). Not Kısa vadede tek kortizon iğnesi gece atelinden daha hızlı rahatlama sağlayabilir (INSTINCTS, 2018). Fizyoterapi kılavuzu iğneleri kapsamıyor. 
+## Ameliyat AAOS Küçük kesili açık ve kapalı (endoskopik) ameliyatın sonuçları farksız (güçlü); yalnızca lokal anestezi yeterli olabilir (güçlü); ameliyattan sonra rutin gözetimli terapi önerilmiyor (orta). Fizyoterapi (JOSPT) İlerleyen his kaybı, artan güçsüzlük ve başparmak kökünde kas erimesi hekim değerlendirmesi gerektirir. 
+===== BÖLÜM #egzersizler =====
+Evde egzersiz 
+## Karpal tünel için dört egzersiz 
+Bu hareketler nazik olmalı; egzersiz sırasında ya da sonrasında uyuşma ve karıncalanma artıyorsa hareket aralığını küçültün ya da o egzersizi bırakın. Gece atelini ve günlük yük ayarlamasını destekleyici olarak yapılır. 
+ [ÇİZİM]
+Tendon kaydırma 
+## Tendon kaydırma 
+Elinizi dik tutun, parmaklarınız düz olsun. Sırayla şu pozisyonlara geçin ve her birinde 3 saniye bekleyin: parmak uçlarını kıvırıp kanca yapın, tam yumruk yapın, parmaklarınızı düz tutup yalnızca parmak köklerinden 90 derece bükün (masa pozisyonu), parmak uçları düz kalacak şekilde yumruk yapın, sonra elinizi açın. Parmak kirişlerinin tünel içinde rahat kaymasına yardım eder. 5–10 tur, günde 3–5 kez 
+ [ÇİZİM]
+Median sinir kaydırma 
+## Median sinir kaydırma 
+Dik durun, kolunuzu yana doğru omuz hizasında açın, dirseğiniz düz, avucunuz yukarı baksın. Bileğinizi yavaşça geriye bükerken başınızı karşı tarafa eğin, sonra ikisini birlikte başlangıca döndürün. Sinirin gerilmeden kaymasını amaçlar; karıncalanma artıyorsa hareket aralığını küçültün. 10 tekrar, günde 2–3 kez 
+ [ÇİZİM]
+Bilek bükücü germe 
+## Bilek bükücü germe 
+Kolunuzu önünüze uzatın, dirseğiniz düz, avucunuz yukarı baksın. Diğer elinizle parmaklarınızı nazikçe aşağı ve geriye doğru çekin; ön kolunuzun iç yüzünde hafif gerilme hissedin. Uyuşmayı artıracak kadar zorlamayın. 15–20 saniye, 3 tekrar 
+ [ÇİZİM]
+Başparmak germe 
+## Başparmak germe 
+Elinizi avucunuz yukarı bakacak şekilde masaya koyun. Diğer elinizle başparmağınızı nazikçe dışa ve geriye doğru açın; başparmak kökünde hafif gerilme hissedin. 15–20 saniye, 3 tekrar 
+===== BÖLÜM #gunluk =====
+## Günlük hayatta bileğiniz için 
+Amaç eli kullanmayı bırakmak değil, sinirin üzerindeki basıncı artıran pozisyonları azaltmaktır. 
+- Geceleri bileğinizi bükerek uyumamaya dikkat edin; atel bu konuda yardımcı olur. 
+- Telefonu uzun süre aynı elle ve bileğiniz bükülü şekilde tutmayın, sık ara verin. 
+- Klavye ve fare kullanırken bileğinizi düz tutun, ön kollarınızı destekleyin. 
+- Güçlü ve tekrarlayan kavrama gerektiren işleri bölün, mümkünse iki elinizi dönüşümlü kullanın. 
+- Belirtiler başladığında elinizi sallamak ve pozisyonunuzu değiştirmek rahatlatır. 
+===== BÖLÜM #videolar =====
+Video 
+## Karpal tünel sendromu için videolar 
+ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz. 
+ [ÇİZİM] 
+## Karpal tünel için germe ve beş öneri 
+Bilek için germe hareketi ve günlük hayatta dikkat edilecekler. 
+ [ÇİZİM] 
+## İki egzersiz ve iki kendi kendine test 
+Karpal tünel için kullanılan egzersizler ve basit testler. 
+Videolar Bob & Brad kanalına aittir. 
+===== BÖLÜM #sss =====
+## Sık sorulan sorular 
+Karpal tünel sendromu kendiliğinden geçer mi? 
+Bazı kişilerde geçebilir. Tedavi görmeyen 196 hastanın (274 el) 10–15 ay izlendiği bir çalışmada bir kısmında belirtiler ve sinir ölçümleri kendiliğinden düzeldi; belirtilerin kısa süredir olması ve genç yaş daha iyi seyirle ilişkiliydi, iki elde birden belirti ve olumlu Phalen testi ise daha kötü seyirle. Uzun süren ya da giderek artan uyuşma ve güç kaybında sinirin kalıcı hasar görmemesi için tedavi geciktirilmemelidir. 
+Gece ateli ne kadar süre kullanılmalı? 
+Bileği düz tutan atel özellikle geceleri takılır. İngiltere sağlık hizmeti (NHS) 6 haftaya kadar denenmesini öneriyor. 2026 fizyoterapi kılavuzuna göre gece ateli yetmezse gündüz de takmak ya da atelin pozisyonunu değiştirmek düşünülebilir; bunu fizyoterapistinizle birlikte belirleyin. 
+Bilgisayar kullanmak karpal tünele neden olur mu? 
+Amerikan Ortopedi Cerrahları Akademisi'nin (AAOS) 2024 kılavuzu, uzmanların ortak görüşüne dayanarak, yoğun klavye kullanımı ile karpal tünel sendromu arasında ilişki olmadığını belirtiyor; bu, kılavuzdaki en düşük kanıt düzeyidir. Tekrarlayan kavrama gerektiren işler, fazla kilo ve gebelik ise risk etkenleri arasında yer alıyor. 
+Kortizon iğnesi işe yarar mı? 
+Kortizon iğnesi belirtileri kısa sürede azaltabilir: 234 kişiyle yapılan bir çalışmada tek iğne, 6. haftada gece atelinden daha fazla rahatlama sağladı; 6. ayda ise iki grup arasında fark kalmadı. 2024 AAOS kılavuzuna göre kortizon iğnesinin uzun vadeli faydası yok; belirtiler zamanla geri dönebilir. Kararı hekiminizle birlikte verebilirsiniz. 
+Ameliyat ne zaman gerekir? 
+Başparmak kökündeki kaslarda incelme, sürekli uyuşma, güç kaybı ya da atel ve diğer tedavilere rağmen geçmeyen belirtiler varsa el cerrahisi değerlendirmesi gerekir. Uygun hastalarda ameliyat, 6 ve 12. ayda ameliyatsız tedaviden daha fazla fayda sağlıyor: 176 hastayla yapılan bir çalışmada 18. ayda başarı ameliyat olanlarda %90, gece ateli kullananlarda %75'ti. 
+Egzersizler işe yarar mı? 
+Tendon ve sinir kaydırma egzersizleri yaygın olarak kullanılır, ancak Cochrane derlemesine göre etkinliklerini gösteren kanıtlar sınırlı ve düşük kalitelidir; 2026 fizyoterapi kılavuzu da bu egzersizler için net bir öneri yapmıyor. Kılavuz, başparmak kökünde kas erimesi olmayan hafif ve orta şiddetteki durumlarda atelle birlikte bir germe programını zayıf düzeyde öneriyor. Egzersizler ağrı ve uyuşmayı artırmadan, atel ve yük ayarlamasına destek olarak yapılmalıdır. 
+Gebelikte karpal tünel sendromu doğumdan sonra geçer mi? 
+Belirtiler genellikle doğumdan sonra, şişlik azaldıkça hafifler; bu dönemde gece ateli el normale dönene kadar kullanılabilir. Ancak 45 kadının izlendiği bir çalışmada doğumdan 3 yıl sonra kadınların yaklaşık yarısında belirtiler hâlâ sürüyordu; yalnızca biri ameliyat olmuştu. Belirtiler geçmiyorsa doğumdan sonra da değerlendirme önemlidir. 
+EMG çektirmem gerekir mi? 
+Her zaman gerekmez. AAOS'un 2024 kılavuzuna göre muayeneye dayalı CTS-6 puanlaması, rutin EMG ya da ultrason yerine kullanılabilir. Sinir iletim testi, tanıdan emin olunamadığında ya da sonucu tedaviyi (örneğin ameliyat kararını) değiştirecekse istenir. 
+===== BÖLÜM #uyari =====
+## Ne zaman hemen başvurmalı? 
+Şu durumlar sinirin ciddi şekilde etkilendiğini ya da uyuşmanın başka bir nedeni olduğunu gösterebilir. Beklemeden bir hekime başvurun: 
+- Sürekli uyuşma, başparmak kökündeki kaslarda incelme ya da erime 
+- Elde belirgin güç kaybı, sık sık eşya düşürme, düğme iliklemede zorlanma 
+- Uyuşmanın boyuna ve kolun tamamına yayılması ya da iki elde birlikte bacaklarda da uyuşma (boyun ya da omurilik kaynaklı olabilir) 
+- Ani başlayan kol ya da yüz güçsüzlüğü, konuşma bozukluğu (inme olabilir, 112 'yi arayın) 
+- Bilek yaralanması sonrası başlayan şiddetli ağrı, şişlik ve uyuşma 
+- Bilekte kızarıklık, sıcaklık ve ateş 
+ [ÇİZİM] 
+Hızlı iletişim 
+## Evde değerlendirme ister misiniz? 
+El ve bilek şikâyetleriniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz. 
+WhatsApp'tan yazın [ÇİZİM] [https://wa.me/905538815568?text=Merhaba%2C%20karpal%20t%C3%BCnel%20sendromu%20i%C3%A7in%20evde%20de%C4%9Ferlendirme%20ve%20seans%20planlamak%20istiyorum.]Ücretsiz ön görüşme planla [index.html#tanisma] 
+Kaynaklar 
+- American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome: Evidence-Based Clinical Practice Guideline [https://www.aaos.org/quality/quality-programs/upper-extremity-programs/carpal-tunnel-syndrome/]. Rosemont (IL): AAOS; 2024. Özetler: AAOS OrthoGuidelines bilgi grafiği [https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/carpal-tunnel-2024/orthoguidelines_infographic_cts-6-5-24.pdf]; Guideline Central [https://guidelinecentral.com/guideline/9593]. 
+- American Academy of Orthopaedic Surgeons. Management of Carpal Tunnel Syndrome: Evidence-Based Clinical Practice Guideline. Rosemont (IL): AAOS; 2016. 
+- Atroshi I, Gummesson C, Johnsson R, Ornstein E, Ranstam J, Rosén I. Prevalence of carpal tunnel syndrome in a general population [https://jamanetwork.com/journals/jama/fullarticle/774263]. JAMA. 1999;282(2):153-158. 
+- Chesterton LS, Blagojevic-Bucknall M, Burton C, et al. The clinical and cost-effectiveness of corticosteroid injection versus night splints for carpal tunnel syndrome (INSTINCTS trial): an open-label, parallel group, randomised controlled trial [https://eprints.keele.ac.uk/5455/]. Lancet. 2018;392(10156):1423-1433. 
+- Cooke ME, Duncan SFM. History of carpal tunnel syndrome [https://link.springer.com/chapter/10.1007/978-3-319-57010-5_2]. In: Duncan S, Kakinoki R, eds. Carpal Tunnel Syndrome and Related Median Neuropathies. Springer; 2017. 
+- Erickson M, Lawrence M, Jansen CWS, et al. Hand pain and sensory deficits: carpal tunnel syndrome. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health [https://www.jospt.org/doi/10.2519/jospt.2019.0301]. J Orthop Sports Phys Ther. 2019;49(5):CPG1-CPG85. 
+- Erickson M, Lawrence M, Stegink Jansen CW, et al. Hand pain and sensory deficits: carpal tunnel syndrome. Revision 2026 [https://apta.org/patient-care/evidence-based-practice-resources/cpgs/hand-pain-and-sensory-deficits-carpal-tunnel-syndrome-clinical-practice-guidelines]. J Orthop Sports Phys Ther. 2026;56(4):CPG1-CPG79. doi:10.2519/jospt.2026.0301. Özet: Physiotutors [https://www.physiotutors.com/?p=29289]. 
+- Gerritsen AAM, et al. Splinting vs surgery in the treatment of carpal tunnel syndrome: a randomized controlled trial [https://www.qxmd.com/r/12215131]. JAMA. 2002. 
+- Italian CTS Study Group. Multiperspective follow-up of untreated carpal tunnel syndrome [https://scilit.com/publications/14309ee24fd0bdb4712163384ca48415]. Neurology. 2001;56(11):1459-1466. 
+- Jarvik JG, et al. Surgery versus non-surgical therapy for carpal tunnel syndrome: a randomised parallel-group trial [https://www.qxmd.com/r/19782873]. Lancet. 2009. Özet: University of Washington [https://washington.edu/news/2009/09/25/surgery-provides-modest-benefit-over-non-surgical-treatment-for-patients-with-carpal-tunnel-syndrome]. 
+- Life in the Fast Lane (LITFL). Clinical signs in carpal tunnel syndrome [https://litfl.com/clinical-signs-in-carpal-tunnel-syndrome/]. 
+- Mondelli M, Rossi S, Monti E, et al. Long term follow-up of carpal tunnel syndrome during pregnancy: a cohort study and review of the literature [https://publires.unicatt.it/en/publications/long-term-follow-up-of-carpal-tunnel-syndrome-during-pregnancy-a--7/]. Electromyogr Clin Neurophysiol. 2007;47:259-271. 
+- NHS. Carpal tunnel syndrome [https://www.nhs.uk/conditions/carpal-tunnel-syndrome/]. 
+- Page MJ, O'Connor D, Pitt V, Massy-Westropp N. Exercise and mobilisation interventions for carpal tunnel syndrome [https://www.cochrane.org/evidence/CD009899_exercise-and-mobilisation-interventions-carpal-tunnel-syndrome]. Cochrane Database Syst Rev. 2012;6:CD009899. 
+- Physiopedia. Carpal Tunnel Syndrome [https://www.physio-pedia.com/Carpal_Tunnel_Syndrome]. 
+- University Hospitals of Leicester NHS Trust. Managing carpal tunnel syndrome in your hand during pregnancy [https://www.uhleicester.nhs.uk/wp-content/uploads/2025/06/180_082024-Managing-carpal-tunnel-syndrome-in-your-hand-during-pregnancy.pdf]. Hasta bilgilendirme broşürü 180; Ağustos 2024. 

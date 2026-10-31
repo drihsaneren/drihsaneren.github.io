@@ -1,0 +1,168 @@
+SAYFA: /home/claude/main/kalca-kireclenmesi.html (https://drihsaneren.com//home/claude/main/kalca-kireclenmesi.html)
+AÇIKLAMA (meta): Kalça kireçlenmesi (koksartroz) nedir, tanı nasıl konur, röntgen ağrıyı açıklar mı, ağrı neden dize vurur? Egzersizin gerçek etkisi, ACR ve NICE kılavuzlarının karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri.
+BAŞLIK/GİRİŞ: Bilgi köşesi Hastalık rehberi Kalça kireçlenmesi (koksartroz) Kalça eklemindeki kıkırdağın zamanla incelmesiyle ortaya çıkar. Ağrı çoğunlukla kasıkta hissedilir; çorap giymek, ayakkabı bağlamak ve arabaya binmek zorlaşabilir. Egzersiz, fazla kiloluysanız kilo vermek ve gerektiğinde baston gibi yardımcılar günlük hayatı kolaylaştırabilir; ağrı ve kısıtlılık çok belirginse kalça protezi bir seçenektir. Son güncelleme: 31 Ekim 2026
+ 
+Kasık Ağrının en sık hissedildiği bölge; uyluğa, kalçanın arkasına ve dize yayılabilir 
+%78,6 2020–2050 arasında dünyada kalça kireçlenmesi vakalarında beklenen artış 
+Güçlü öneri Egzersiz, kilo verme, Tai Chi ve gerektiğinde baston (Amerikan Romatoloji Koleji) 
+Karşı öneri Glukozamin, hyaluronik asit, PRP ve kök hücre iğneleri 
+Bu sayfada 
+ Nedir? [#nedir]Tanı ve röntgen [#tani]Ağrı dizde olabilir [#diz]Geçmişten bugüne [#tarihce]Tedavi seçenekleri [#tedavi]Egzersizler [#egzersizler]Günlük hayatta [#gunluk]Videolar [#videolar]Sık sorulan sorular [#sss]Uyarı işaretleri [#uyari] 
+===== BÖLÜM #nedir =====
+## Nedir? 
+Kalça, uyluk kemiğinin başı ile leğen kemiğindeki çukurun oluşturduğu bir top-yuva eklemidir. Kireçlenmede eklem yüzeylerini kaplayan kıkırdak incelir, eklem kenarlarında kemik çıkıntıları oluşur ve eklemin hareketi, özellikle içe dönüşü, kısıtlanır. 
+Tanı çoğu zaman öykü ve muayeneyle konur; görüntüleme her zaman gerekmez. Ayrıntılar aşağıdaki "Tanı ve röntgen" bölümünde. Kasık ağrısının başka nedenleri de olabilir; örneğin: Kalça sıkışması → [kalca-sikismasi.html] 
+## Belirtiler ve risk etkenleri 
+- Kasıkta, uyluğun önünde ya da kalçanın dış yanında hareketle artan ağrı 
+- Sabah ya da uzun oturduktan sonra kısa süren tutukluk 
+- Çorap giyme, ayakkabı bağlama, arabaya binip inmede zorlanma 
+- Topallama, yürüme mesafesinde azalma 
+- Risk etkenleri: ileri yaş, fazla kilo, ailede kireçlenme, önceki kalça yaralanması, doğuştan kalça çıkığı (displazi) ya da kalça sıkışması 
+===== BÖLÜM #tani =====
+## Tanı nasıl konur? Röntgen ne anlatır? 
+İngiltere'nin NICE kılavuzuna göre 45 yaş ve üstünde, hareketle artan eklem ağrısı olan ve sabah tutukluğu hiç olmayan ya da 30 dakikayı geçmeyen kişilerde kireçlenme tanısı görüntüleme gerekmeden konabilir. Görüntüleme, belirtiler alışılmışın dışındaysa ya da başka bir neden düşünülüyorsa istenir. Muayenede kalçanın içe dönüşündeki kısıtlılık ve bu hareketle ortaya çıkan ağrı tanıya yardımcı olur. 
+%9–16 Sık ağrıyan kalçalar içinde röntgende kireçlenme görülenler 
+%21–24 Röntgende kireçlenme görülen kalçalar içinde sık ağrıyanlar 
+Bu sayılar ABD'de iki büyük toplum çalışmasından (Framingham ve Osteoarthritis Initiative; 946 ve 4.366 kişi) geliyor. Kalça ağrısı ile röntgendeki görüntü çoğu zaman örtüşmüyor: araştırmacılar yalnızca röntgene bakılırsa kalça kireçlenmesinin gözden kaçabileceğini belirtiyor. Tersine, röntgende kireçlenme görülmesi de ağrının tek açıklaması olmayabilir. 
+===== BÖLÜM #diz =====
+## Ağrı dizde, sorun kalçada olabilir 
+Kalça kireçlenmesinin ağrısı yalnızca kasıkta hissedilmez; uyluk boyunca dize yayılabilir. Bazı hastalar yalnızca diz ağrısı tarif eder ve sorun kalçada olduğu hâlde dizi araştırılır. 
+Dizinizde ağrı var ama diz muayenesi ve görüntülemesi ağrıyı açıklamıyorsa, kalçanın da değerlendirilmesi gerekir. Fizyoterapi değerlendirmesinde kalçanın hareket açıklığına mutlaka bakılır. 
+===== BÖLÜM #tarihce =====
+Geçmişten bugüne 
+## Kalça kireçlenmesinin kısa tarihi 
+1960'larda yaygınlaşan kalça protezi ileri kireçlenmede yaşamı değiştiren bir tedavi oldu. Son yıllarda araştırmalar, ameliyattan önceki dönemde egzersizin ve hastalığı doğru anlamanın yerini ve sınırlarını daha net ortaya koydu. 
+- 
+1962 İngiltere'de cerrah John Charnley, Wrightington Hastanesi'nde geliştirdiği total kalça protezi ameliyatını uygulamaya koydu. Yöntemi bir yıl önce The Lancet'te "yeni bir ameliyat" olarak tanıtmıştı. 
+- 
+1991 Amerikan Romatoloji Koleji, kalça ağrısı olan 201 hastanın verisine dayanarak kalça kireçlenmesi için sınıflandırma ölçütlerini yayımladı: kalça ağrısıyla birlikte kalçanın içe dönüş açısı, içe dönerken ağrı, sabah tutukluğunun 1 saati geçmemesi ve 50 yaş üstü gibi bulgular birlikte değerlendirildi. 
+- 
+2007 The Lancet'te yayımlanan bir derleme, total kalça protezini "yüzyılın ameliyatı" olarak tanımladı. 
+- 
+2015 ABD'deki iki büyük toplum çalışmasında kalça ağrısı ile röntgendeki kireçlenme arasında zayıf bir uyum bulundu: sık ağrıyan kalçaların çoğunda röntgende kireçlenme yoktu. 
+- 
+2017 Danimarka'daki GLA:D programında (bilgilendirme ve fizyoterapist eşliğinde egzersiz) kalça kireçlenmesi olanların ağrısı 3. ayda 100 üzerinden ortalama 11 puan azaldı; karşılaştırma grubu olmayan bir çalışmaydı. 
+- 
+2019 Avustralya ve Finlandiya ulusal kayıtlarını inceleyen bir analizde kalça protezlerinin %89'u 15 yıl, Finlandiya kaydına göre yaklaşık %58'i 25 yıl yenilenmeden dayandı. 
+- 
+2020 Amerikan Romatoloji Koleji ve Artrit Vakfı'nın 2019 kılavuzu yayımlandı: egzersiz, fazla kilolularda kilo verme, tai chi ve baston güçlü şekilde önerildi; kalçaya hyaluronik asit, PRP ve kök hücre iğnelerine ve TENS'e karşı güçlü öneri yapıldı. 
+- 
+2022 İngiltere'nin NICE kılavuzu güncellendi: kişiye göre ayarlanmış egzersiz herkese öneriliyor, tanı genellikle görüntüleme gerekmeden konuyor ve protez sevkinde yaş ya da kilo tek başına engel sayılmıyor. 
+- 
+2026 Kalça kireçlenmesinde egzersizi inceleyen Cochrane derlemesi güncellendi (18 çalışma, 1.368 kişi): ağrıdaki azalma, tedavi almayanlara ya da olağan bakıma göre 100 üzerinden yaklaşık 7 puandı. Yazarlar, yararın beklenenden küçük olabileceğini ama egzersizin düşük maliyetli ve düşük riskli bir seçenek olarak kaldığını belirtiyor. 
+===== BÖLÜM #tedavi =====
+## Tedavi 
+Amerikan Romatoloji Koleji'nin kılavuzu tedavinin merkezine egzersizi, kilo kontrolünü ve hastalığın kişi tarafından yönetilmesini koyuyor. 
+- 
+Egzersiz Güçlü şekilde önerilir. 2026'da güncellenen Cochrane derlemesine göre ağrı ve işlevdeki ortalama iyileşme küçük olsa da (ağrıda tedavi almayanlara göre 100 üzerinden yaklaşık 7 puan), egzersiz yan etkisi az ve genel sağlığa pek çok faydası olan bir tedavidir. Kalça çevresi kaslarını güçlendiren ve hareket açıklığını koruyan bir program önerilir. 
+- 
+Kilo kontrolü Fazla kilolu kişilerde kilo vermek güçlü şekilde önerilir. %5'lik bir kilo kaybı bile kalça ağrısında fark yaratabilir; NICE'a göre %10 kilo kaybı %5'ten muhtemelen daha yararlıdır. 
+- 
+Tai Chi ve öz yönetim Tai Chi ve hastalığı tanıyıp kendi kendine yönetmeyi öğreten programlar kılavuzda güçlü şekilde önerilen yöntemler arasındadır. 
+- 
+Baston Kireçlenme yürümeyi, eklem dengesini ya da ağrıyı belirgin etkiliyorsa baston güçlü şekilde önerilir. 
+- 
+İlaçlar ve iğne Hekiminizin önerdiği ağız yoluyla alınan iltihap giderici ağrı kesiciler ve ultrason eşliğinde yapılan kortizon iğnesi kılavuzda yer alır. 
+- 
+Protez ameliyatı Ameliyatsız tedaviye rağmen ağrı ve kısıtlılık yaşam kalitesini ciddi şekilde bozuyorsa düşünülür. Protez sonrası rehbere göz atın → [protez-sonrasi.html] 
+ Amerikan kılavuzunda karşı öneri yapılanlar: glukozamin ve kondroitin takviyeleri, kalçaya hyaluronik asit, PRP ya da kök hücre iğneleri ve TENS. 
+## Tedavi seçenekleri: kılavuzlar ne diyor? 
+Amerikan Romatoloji Koleji ve Artrit Vakfı'nın (ACR, 2019) kılavuzu ile İngiltere'nin NICE kılavuzunun (2022) kalça kireçlenmesi için önerileri yan yana. ACR önerilerinde "güçlü" ve "koşullu" ayrımı yapıyor; NICE ise "önerilir", "düşünülebilir" ve "önerilmez" ifadelerini kullanıyor. Kılavuzlar her konuda aynı fikirde değil; tedavi kişiye göre seçilir. 
+## Egzersiz ACR Güçlü öneri; tai chi de güçlü, denge egzersizleri koşullu öneriliyor. NICE Herkese kişiye göre ayarlanmış egzersiz; düzenli egzersizin başta ağrı ya da rahatsızlık yapsa bile eklemlere yararlı olacağı anlatılmalı. Kanıt Ağrıda 100 üzerinden yaklaşık 7 puanlık azalma (Cochrane, 2026); fark edilebilir kabul edilen sınırın altında. 
+## Kilo verme ACR Fazla kilolu ya da obez kişilerde güçlü öneri. NICE Kilo vermenin yaşam kalitesini ve işlevi iyileştireceği, ağrıyı azaltacağı anlatılmalı; %10 kilo kaybı muhtemelen %5'ten daha iyi. 
+## Baston ve destekler ACR Baston güçlü öneriliyor. NICE Baston gibi yürüme yardımcıları düşünülebilir. Tabanlık, destek, bant ve ateller, eklemde dengesizlik gibi özel bir durum yoksa rutin olarak önerilmiyor. 
+## Manuel terapi ACR Kalça ve diz kireçlenmesinde karşı koşullu öneri. NICE Yalnızca egzersizle birlikte düşünülebilir; tek başına kullanımını destekleyen yeterli kanıt yok. 
+## Akupunktur ACR Koşullu öneri. NICE Akupunktur ve kuru iğneleme önerilmiyor. Not Türkiye'de yalnızca yetkili hekimler uygulayabilir. 
+## Elektroterapi ACR Kalça ve dizde TENS'e karşı güçlü öneri. NICE Yararına dair yeterli kanıt olmadığı için elektroterapi tedavileri önerilmiyor. 
+## Eklem içi iğneler ACR Kalçaya kortizon iğnesi güçlü öneri; hyaluronik asit, PRP ve kök hücre iğnelerine karşı güçlü öneri. NICE Kortizon iğnesi diğer tedaviler etkisiz ya da uygun değilse düşünülebilir; yalnızca kısa süreli (2–10 hafta) rahatlama sağlar. Hyaluronik asit iğnesi önerilmiyor. 
+## Protez ameliyatı NICE Sevk kararı puanlama sistemleriyle değil klinik değerlendirmeyle verilmeli; yaş, cinsiyet, sigara, eşlik eden hastalıklar ya da fazla kilo tek başına engel sayılmamalı. 
+===== BÖLÜM #egzersizler =====
+Evde egzersiz 
+## Kalça için altı egzersiz 
+Egzersiz sırasında hafif bir ağrı olabilir; ağrı ertesi gün artmıyorsa devam etmek güvenlidir. Ertesi gün belirgin artış olursa tekrar sayısını azaltın. Ayakta yapılan hareketlerde sağlam bir yere tutunun. 
+ [ÇİZİM]
+Köprü 
+## Köprü 
+Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde olsun. Kalçanızı sıkarak yerden kaldırın; omuzlarınızdan dizlerinize kadar düz bir çizgi oluşsun. 3–5 saniye bekleyip yavaşça inin. 10–15 tekrar, günde 1–2 kez 
+ [ÇİZİM]
+Yan yatarak bacak kaldırma 
+## Yan yatarak bacak kaldırma 
+Yan yatın, alttaki dizinizi hafifçe bükün. Üstteki bacağınızı dizi düz, ayak ucu öne bakacak şekilde yukarı kaldırın. Kalça kasları dizi dengede tutmaya yardım eder. Her iki yana 10–15 tekrar 
+ [ÇİZİM]
+Sandalyeden kalkıp oturma 
+## Sandalyeden kalkıp oturma 
+Kollarınızı göğsünüzde çaprazlayın. Hafifçe öne eğilerek sandalyeden kalkın, sonra kontrollü şekilde oturun. Zorlanıyorsanız ellerinizden destek alın ya da daha yüksek bir sandalye kullanın. 10 tekrar, günde 1–2 kez 
+ [ÇİZİM]
+Diz göğse çekme 
+## Dizi göğse çekme 
+Sırtüstü yatın. Bir dizinizi iki elinizle tutup ağrısız aralıkta göğsünüze doğru yavaşça çekin, kalçanızda hafif bir gerilme hissedin. Sonra diğer bacakla tekrarlayın. Kalça protezi olanlar bu hareketi cerrahına danışmadan yapmamalıdır. 20–30 saniye, her bacakla 3 kez 
+ [ÇİZİM]
+Kalçayı arkaya açma 
+## Kalçayı arkaya açma 
+Tezgâha tutunarak dik durun. Dizinizi düz tutarak bir bacağınızı yavaşça geriye doğru uzatın; belinizi çukurlaştırmadan kalçanızı sıkın. Yavaşça başlangıca dönün. Her bacakla 10 tekrar 
+ [ÇİZİM]
+Kalçayı yana açma 
+## Kalçayı yana açma 
+Tezgâha önden tutunun. Gövdenizi dik tutarak bir bacağınızı ayak ucunuz öne bakacak şekilde yana doğru açın, yavaşça geri getirin. Kalçanın yan kasları yürürken dengeyi sağlar. Her bacakla 10–15 tekrar 
+===== BÖLÜM #gunluk =====
+## Günlük hayatta kalçanız için 
+Kalçayı korumak, onu hareketsiz bırakmak değil, yükünü akıllıca dağıtmaktır. 
+- Haftanın çoğu günü yürüyün; bisiklet ve suda egzersiz iyi alternatiflerdir. 
+- Alçak koltuklar yerine yüksek ve kollu sandalyeler tercih edin. 
+- Uzun saplı ayakkabı çekeceği ve çorap giyme aparatı eğilmeyi azaltır. 
+- Arabaya binerken önce oturup sonra iki bacağınızı birlikte içeri alın. 
+- Uzun süre aynı pozisyonda oturmayın; kısa aralarla kalkıp yürüyün. 
+===== BÖLÜM #videolar =====
+Video 
+## Kalça kireçlenmesi için videolar 
+ABD'li fizyoterapistler Bob Schrupp ve Brad Heineck'in YouTube kanalından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz. 
+ [ÇİZİM] 
+## Kalça kireçlenmesinde önerilen sekiz tedavi 
+Amerikan Romatoloji Koleji kılavuzundaki güçlü önerilerin anlatımı. 
+ [ÇİZİM] 
+## Kalça ağrısı için egzersiz programı 
+Kalça ağrısında evde uygulanabilecek bir programa giriş. 
+Videolar Bob & Brad kanalına aittir. 
+===== BÖLÜM #sss =====
+## Sık sorulan sorular 
+Kalça kireçlenmesinde yürümek zararlı mı? 
+Hayır. Egzersiz ve düzenli hareket kireçlenmede tedavinin temelidir. Ağrıyı belirgin artırmayacak bir mesafe ve tempoyla yürüyün; ağrılı dönemlerde süreyi kısaltıp sıklığı artırın. Bisiklet ve suda egzersiz de eklemi daha az yükleyen iyi seçeneklerdir. 
+Egzersiz gerçekten işe yarıyor mu? 
+2026'da güncellenen Cochrane derlemesine (18 çalışma, 1.368 kişi) göre egzersiz kalça kireçlenmesinde ağrıyı, tedavi almayanlara ya da olağan bakıma göre 100 üzerinden yaklaşık 7 puan azaltıyor; bu, günlük hayatta fark edilebilir kabul edilen 12 puanın altında. İşlevde de benzer küçük bir iyileşme görülüyor. Buna rağmen yan etkisi az ve genel sağlığa pek çok faydası olduğu için Amerikan Romatoloji Koleji egzersizi güçlü şekilde öneriyor. Egzersiz; kilo kontrolü, baston ve hastalığı doğru anlamakla birlikte bir tedavi paketinin parçasıdır. İngiltere’nin 2022 kılavuzu (NICE) da herkese kişiye göre ayarlanmış egzersiz, fazla kilosu olanlara kilo vermeyi (az miktarda kilo kaybı bile yararlı) ve gerekirse baston öneriyor; tanı için genellikle görüntüleme gerekmediğini, glukozamin ve güçlü opioidlerin önerilmediğini belirtiyor. 2026'da yayımlanan ve 5 sistematik derleme ile 28 randomize çalışmayı bir araya getiren bir şemsiye derlemede de egzersizin kalça ağrısına etkisi ihmal edilebilir düzeyde bulundu; yazarlar egzersizin genel sağlığa yararlarını ve hastaların tercihini göz ardı etmeden ortak karar verilmesini öneriyor. 
+Glukozamin ya da eklem iğneleri işe yarar mı? 
+Amerikan Romatoloji Koleji'nin kılavuzu kalça kireçlenmesinde glukozamin, kondroitin, hyaluronik asit iğnesi, PRP ve kök hücre iğnelerine karşı güçlü öneride bulunuyor. Ultrason eşliğinde yapılan kortizon iğnesi ise kısa süreli rahatlama için önerilen seçeneklerden biridir. 
+Baston hangi elde tutulur? 
+Ağrılı kalçanın karşı tarafındaki elde. Baston ağrılı bacakla aynı anda yere basar ve kalçanın taşıdığı yükü azaltır. Boyunun doğru ayarlanması önemlidir. 
+Kalça protezi ne zaman gerekir? 
+Egzersiz, kilo kontrolü ve ilaç tedavisine rağmen ağrı ve kısıtlılık günlük yaşamı ciddi şekilde bozuyorsa ortopedi değerlendirmesi gerekir. Karar yalnızca röntgene göre değil, yaşam kalitenize göre verilir. NICE kılavuzuna göre protez için sevk kararında yaş, cinsiyet, sigara, eşlik eden hastalıklar ya da fazla kilo tek başına engel sayılmamalıdır. 
+Kalça protezi ne kadar dayanır? 
+Avustralya ve Finlandiya ulusal kayıtlarını inceleyen bir analizde kalça protezlerinin %89'u 15 yıl boyunca yenilenmeden dayandı; 25 yıllık veriler yalnızca Finlandiya kaydından geldi ve bu kayda göre protezlerin yaklaşık %58'i 25 yıl dayandı. Bu protezlerin bir kısmı bugün kullanılan modellerden farklıdır. 
+Röntgenim temiz ama kalçam ağrıyor; kireçlenme olabilir mi? 
+Olabilir. ABD'deki iki büyük toplum çalışmasında sık ağrıyan kalçaların yalnızca %9–16'sında röntgende kireçlenme görüldü; röntgende kireçlenmesi olan kalçaların da yalnızca %21–24'ü sık ağrıyordu. Araştırmacılar yalnızca röntgene bakılırsa kalça kireçlenmesinin gözden kaçabileceğini belirtiyor. Bu yüzden tanıda öykü ve muayene önemlidir. 
+===== BÖLÜM #uyari =====
+## Ne zaman hemen başvurmalı? 
+Şu durumlar kireçlenme dışında bir soruna işaret edebilir. Beklemeden bir hekime başvurun: 
+- Düşme sonrası kalça ağrısı ve bacağa yük verememe (kalça kırığı olabilir) 
+- Kalçada ani başlayan şiddetli ağrıyla birlikte ateş, titreme 
+- Uzun süre kortizon kullanımı ya da yoğun alkol kullanımı olan genç bir kişide yeni başlayan kalça ağrısı (kemik dolaşım bozukluğu olabilir) 
+- Dinlenmekle geçmeyen gece ağrısı, nedensiz kilo kaybı ya da kanser öyküsü 
+- Bacağa yayılan ağrıyla birlikte uyuşma ya da güç kaybı (bel kaynaklı olabilir) 
+ [ÇİZİM] 
+Hızlı iletişim 
+## Evde değerlendirme ister misiniz? 
+Kalça ağrınız ve kireçlenmeniz için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz. 
+WhatsApp'tan yazın [ÇİZİM] [https://wa.me/905538815568?text=Merhaba%2C%20kal%C3%A7a%20kire%C3%A7lenmesi%20i%C3%A7in%20evde%20de%C4%9Ferlendirme%20ve%20seans%20planlamak%20istiyorum.]Ücretsiz ön görüşme planla [index.html#tanisma] 
+Kaynaklar 
+- Altman R, et al. The American College of Rheumatology criteria for the classification and reporting of osteoarthritis of the hip [https://www.qxmd.com/r/2025304]. Arthritis Rheum. 1991. 
+- Evans JT, Evans JP, Walker R, et al. How long does a hip replacement last? A systematic review and meta-analysis of case series and national registry reports with more than 15 years of follow-up [https://read.qxmd.com/read/30782340/how-long-does-a-hip-replacement-last-a-systematic-review-and-meta-analysis-of-case-series-and-national-registry-reports-with-more-than-15-years-of-follow-up]. Lancet. 2019;393:647-654. Özet: NIHR Evidence [https://evidence.nihr.ac.uk/alert/more-than-50-of-hip-replacements-appear-to-last-25-years/]. 
+- GBD 2021 Osteoarthritis Collaborators. Global, regional, and national burden of osteoarthritis, 1990–2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021 [https://openaccess.sgul.ac.uk/id/eprint/115643]. Lancet Rheumatol. 2023;5(9):e508-e522. 
+- Kim C, Nevitt MC, Niu J, et al. Association of hip pain with radiographic evidence of hip osteoarthritis: diagnostic test study [https://escholarship.org/uc/item/3mh786tk]. BMJ. 2015;351:h5983. 
+- Learmonth ID, Young C, Rorabeck C. The operation of the century: total hip replacement [https://ouci.dntb.gov.ua/works/4EoJXwx9]. Lancet. 2007:1508-1519. 
+- Skou ST, Roos EM. Good Life with osteoArthritis in Denmark (GLA:D™): evidence-based education and supervised neuromuscular exercise delivered by certified physiotherapists nationwide [https://link.springer.com/article/10.1186/s12891-017-1439-y]. BMC Musculoskelet Disord. 2017;18:72. 
+- Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust. Pioneer of hip replacement surgery: Sir John Charnley [https://www.wwl.nhs.uk/pioneer-of-hip-replacement-surgery]. 
+- Hall M, Lawford BJ, et al. Exercise for osteoarthritis of the hip [https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007912.pub3/full]. Cochrane Database Syst Rev. 2026;CD007912. Özet: Cochrane Canada, 23 July 2026 [https://canada.cochrane.org/news/exercise-helps-hip-arthritis-pain-perhaps-less-we-thought]. 
+- Kolasinski SL, Neogi T, Hochberg MC, et al. 2019 American College of Rheumatology/Arthritis Foundation guideline for the management of osteoarthritis of the hand, hip, and knee [https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24131]. Arthritis Care Res (Hoboken). 2020;72(2):149-162. Özetler: American Family Physician, 2021 [https://www.aafp.org/pubs/afp/issues/2021/0115/p120.html]; RheumNow [https://rheumnow.com/content/acr-arthritis-foundation-treatment-guidelines-osteoarthritis]. 
+- Don't forget the hip! Hip arthritis masquerading as knee pain [https://www.arthroplastytoday.org/article/S2352-3441(17)30073-0/fulltext]. Arthroplasty Today. 2017. 
+- Physiopedia. Hip Osteoarthritis [https://www.physio-pedia.com/Hip_Osteoarthritis]. 
+- National Institute for Health and Care Excellence. Osteoarthritis in over 16s: diagnosis and management [https://www.nice.org.uk/guidance/ng226/chapter/Recommendations]. NICE guideline NG226, 19 October 2022. 
+- Schleimer T, Teichert F, Henriksen M, et al. Effectiveness of exercise therapy for osteoarthritis: an overview of systematic reviews and randomised controlled trials. RMD Open. 2026;12(1):e006275. Özet: BMJ Group, 17 February 2026 [https://bmjgroup.com/effectiveness-of-exercise-to-ease-osteoarthritis-symptoms-likely-minimal-and-transient/]. 
