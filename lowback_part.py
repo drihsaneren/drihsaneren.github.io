@@ -319,7 +319,7 @@ BEL_BODY = f'''<header class="page">
           <p>Aylardır süren bel ağrısında güçlendirme ve hareket egzersizleri.</p>
         </div>
       </div>
-      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
 
@@ -533,7 +533,7 @@ BELF_BODY = f'''<header class="page">
           <p>Bel fıtığı ve kanal darlığında öne çıkan egzersiz ve doğru yapılışı.</p>
         </div>
       </div>
-      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
 

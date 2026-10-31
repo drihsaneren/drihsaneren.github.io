@@ -213,7 +213,7 @@ KALCA_BODY = f'''<header class="page">
           <p>Kalça ağrısında evde uygulanabilecek bir programa giriş.</p>
         </div>
       </div>
-      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
 

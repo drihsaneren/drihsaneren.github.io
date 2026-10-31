@@ -64,7 +64,8 @@ EXT.update({
 })
 
 TOPUK_FAQ = [
- ("Topuk dikeni kendiliğinden geçer mi?", "Çoğu zaman evet, ama sabır ister. Uygun tedaviyle hastaların yaklaşık %80'i 12 ay içinde iyileşir. Germe, güçlendirme ve yük yönetimi bu süreci kısaltır."),
+ ("Topuk dikeni kendiliğinden geçer mi?", "Çoğu zaman düzelir, ama sabır ister. Ameliyatsız tedaviyle hastaların yaklaşık %80'inde 12 ay içinde düzelme görülüyor. Ancak hastanede ultrasonla tanı konmuş 174 hastanın uzun süre izlendiği bir çalışmada ağrının sürme olasılığı, belirtilerin başlangıcından itibaren 1. yılda %80, 5. yılda %50, 10. yılda %46 idi; yani bazı kişilerde şikâyetler yıllarca sürebiliyor. Germe, bantlama ve yük yönetimi bu süreçte temel tedavidir."),
+ ("Röntgen ya da MR gerekir mi?", "Çoğu zaman gerekmez; tanı öykü ve muayeneyle konur. ABD fizyoterapi kılavuzuna göre görüntüleme genellikle ameliyatsız tedavi yetersiz kaldığında düşünülür; ilk tercih ayakta çekilen röntgendir, gerekirse ultrason ya da MR istenir. Ultrasonda fasyanın 4 milimetreden kalın ve koyu görünmesi plantar fasiiti düşündürür."),
  ("Dikeni ameliyatla aldırmak gerekir mi?", "Çok nadiren. Röntgendeki kemik çıkıntısı ağrısı olmayan kişilerde de sık görülür ve ağrının asıl kaynağı değildir. Ameliyat, uzun süre tüm tedavilere yanıt vermeyen az sayıda hastada düşünülür."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "Kortizon iğnesi kısa süreli rahatlama sağlayabilir, ancak etkisi geçicidir ve birden fazla enjeksiyon yapılanların yaklaşık %2,4'ünde fasya yırtılabilir. Önce egzersiz, bantlama, gece ateli ve tabanlık gibi yöntemler denenmelidir."),
  ("Sabahları neden daha çok ağrıyor?", "Gece boyunca ayak aşağı doğru uzanmış durduğu için fasya ve baldır kasları kısalmış konumda dinlenir; ilk adımlarda bu dokular birden gerilir. Yataktan kalkmadan önce yapılan germeler ve gece ateli bu ağrıyı azaltır."),
@@ -73,13 +74,24 @@ TOPUK_FAQ = [
 ]
 
 TOPUK_SRC = [
+ "Hansen L, Krogh TP, Ellingsen T, Bolvig L, Fredberg U. " + ext("https://portal.findresearcher.sdu.dk/da/publications/long-term-prognosis-of-plantar-fasciitis-a-5-to-15-year-follow-up/", "Long-term prognosis of plantar fasciitis: a 5- to 15-year follow-up study of 174 patients with ultrasound examination") + ". Orthop J Sports Med. 2018;6(3):2325967118757983.",
+ "Morrissey D, Cotchett M, Said J'Bari A, et al. " + ext("https://vbn.aau.dk/files/449173957/1106.full.pdf", "Management of plantar heel pain: a best practice guide informed by a systematic review, expert clinical reasoning and patient values") + ". Br J Sports Med. 2021;55(19):1106-1118.",
  "Buchbinder R. Clinical practice. Plantar fasciitis. N Engl J Med. 2004;350(21):2159-2166.",
  "DiGiovanni BF, Nawoczenski DA, Lintal ME, et al. Tissue-specific plantar fascia-stretching exercise enhances outcomes in patients with chronic heel pain: a prospective, randomized study. J Bone Joint Surg Am. 2003;85(7):1270-1277.",
- "Koc TA Jr, Bise CG, Neville C, Carreira D, Martin RL, McDonough CM. " + ext("https://www.jospt.org/doi/10.2519/jospt.2023.0303", "Heel pain – plantar fasciitis: revision 2023. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health") + ". J Orthop Sports Phys Ther. 2023;53(12):CPG1-CPG39.",
+ "Koc TA Jr, Bise CG, Neville C, Carreira D, Martin RL, McDonough CM. " + ext("https://www.jospt.org/doi/10.2519/jospt.2023.0303", "Heel pain – plantar fasciitis: revision 2023. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health") + ". J Orthop Sports Phys Ther. 2023;53(12):CPG1-CPG39. Özet: " + ext("https://physicaltherapyfirst.com/blog/heel-pain-plantar-fasciitis-revision-2023/", "Physical Therapy First") + ".",
  "Lemont H, Ammirati KM, Usen N. Plantar fasciitis: a degenerative process (fasciosis) without inflammation. J Am Podiatr Med Assoc. 2003;93(3):234-237.",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Plantar_Fasciitis", "Plantar Fasciitis") + ".",
  "Rathleff MS, Mølgaard CM, Fredberg U, et al. " + ext("https://onlinelibrary.wiley.com/doi/10.1111/sms.12313", "High-load strength training improves outcome in patients with plantar fasciitis: a randomized controlled trial with 12-month follow-up") + ". Scand J Med Sci Sports. 2015;25(3):e292-e300.",
  "Trojian T, Tucker AK. " + ext("https://www.aafp.org/pubs/afp/issues/2019/0615/p744.html", "Plantar fasciitis") + ". Am Fam Physician. 2019;99(12):744-750.",
+]
+
+TOPUK_TL = [
+ ("2003", "Bir inceleme, plantar fasiitin iltihaptan çok dokunun yıpranmasıyla seyreden bir süreç olduğunu öne sürdü ve \"fasyoz\" adını kullandı."),
+ ("2003", "Uzun süren topuk ağrısında fasyaya özgü germe egzersizinin sonuçları iyileştirdiği bildirildi; bu germe bugün de tedavinin temel parçalarından biri."),
+ ("2015", "Ağır yüklü güçlendirmeyi (havlulu topuk kaldırma) germeyle karşılaştıran bir çalışmada güçlendirme grubu 3. ayda daha iyi sonuç aldı; 12. ayda iki grup benzerdi."),
+ ("2018", "Danimarka'da ultrasonla tanı konmuş 174 hasta ortalama 9 yıl izlendi: ağrının sürme olasılığı belirtilerin başlangıcından itibaren 5. yılda %50, 10. yılda %46'ydı. Başlangıçtaki fasya kalınlığı ve topuk dikeni varlığı uzun vadeli seyri etkilemedi."),
+ ("2021", "51 randomize çalışma, 14 uzman ve 40 hastanın görüşüyle hazırlanan bir en iyi uygulama rehberi (BJSM) yayımlandı: temel tedavi germe, bantlama ve kişiye özel eğitim; bu yaklaşım yaklaşık 4–6 haftada yeterli olmazsa şok dalga, yaklaşık 12 haftada hâlâ yetersizse kişiye özel tabanlık ekleniyor."),
+ ("2023", "Amerikan Fizyoterapi Derneği'nin (APTA) kılavuzu güncellendi (JOSPT): manuel terapi, germe, bantlama ve gece ateli en güçlü (A) düzeyde önerildi; germe egzersizlerine ultrason tedavisinin eklenmemesi de A düzeyinde önerildi."),
 ]
 
 TOPUK_BODY = f'''<header class="page">
@@ -87,29 +99,28 @@ TOPUK_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Topuk dikeni (plantar fasiit)</h1>
-    <p class="lede">Sabah ilk adımlarda topuğa saplanan ağrıyla kendini gösterir. Halk arasında "topuk dikeni" dense de ağrının asıl kaynağı çoğu zaman kemik çıkıntısı değil, ayak tabanındaki bağ dokusunun (plantar fasya) zorlanmasıdır. İyi haber: hastaların büyük çoğunluğu ameliyatsız iyileşir.</p>
-    <p class="meta">Son güncelleme: {UPDATED}</p>
+    <p class="lede">Sabah ilk adımlarda topuğa saplanan ağrıyla kendini gösterir. Halk arasında "topuk dikeni" dense de ağrının asıl kaynağı çoğu zaman kemik çıkıntısı değil, ayak tabanındaki bağ dokusunun (plantar fasya) zorlanmasıdır. Hastaların büyük çoğunluğu ameliyatsız düzelir; ancak iyileşme aylar, bazı kişilerde yıllar sürebilir.</p>
+    <p class="meta">Son güncelleme: 31 Ekim 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>10'da 1</b><span>Hayatının bir döneminde plantar fasiit (topuk ağrısı) yaşayan kişi</span></div>
-        <div class="stat"><b>%80</b><span>Uygun tedaviyle 12 ay içinde iyileşenler</span></div>
+        <div class="stat"><b>%80</b><span>Ameliyatsız tedaviyle 12 ay içinde düzelme görülenler</span></div>
         <div class="stat"><b>40–60</b><span>En sık görüldüğü yaş aralığı</span></div>
-        <div class="stat"><b>3,7 kat</b><span>Beden kitle indeksi 27'nin üzerinde olanlarda artan risk</span></div>
+        <div class="stat"><b>3,7</b><span>Sporcu olmayanlarda beden kitle indeksi 27'nin üzerinde olmanın risk için olasılık oranı</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("seyir", "Ne kadar sürer?"), ("diken", "Röntgendeki diken"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("gunluk", "Günlük hayatta"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Ayak tabanında topuktan parmaklara uzanan kalın bağ dokusuna plantar fasya denir; ayak kemerini destekler ve her adımda gerilir. Tekrarlayan aşırı yüklenmeyle fasyanın topuğa yapıştığı yerde yıpranma ve ağrı gelişir. Adındaki "-it" iltihabı çağrıştırsa da sorun çoğu zaman iltihaptan çok dokunun yıpranmasıdır.</p>
-        <p class="soft">Tanı çoğunlukla muayeneyle konur: ağrı topuğun iç ve alt kısmındadır, sabah ilk adımlarda ve uzun oturduktan sonra kalkınca en belirgindir, uzun süre ayakta kalınca artar.</p>
+        <p class="soft">Ağrı topuğun iç ve alt kısmındadır, sabah ilk adımlarda ve uzun oturduktan sonra kalkınca en belirgindir, uzun süre ayakta kalınca artar.</p>
       </div>
       <div>
         <h2>Risk etkenleri</h2>
@@ -123,46 +134,82 @@ TOPUK_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı çoğunlukla öykü ve muayeneyle konur; görüntüleme tanıyı koymaktan çok başka nedenleri dışlamaya yarar.</p>
+      <div class="kinds">
+        <div class="kind"><h3>Tipik bulgular</h3><p>Hareketsiz kaldıktan sonraki ilk adımlarda en belirgin olan topuğun iç-alt kısmında ağrı, fasyanın topuğa yapıştığı yerde bastırınca hassasiyet, ayak parmaklarını yukarı kaldırınca ağrının ortaya çıkması (windlass testi) ve ayak bileğinin yukarı hareketinde kısıtlılık ABD fizyoterapi kılavuzunun saydığı bulgular arasında.</p></div>
+        <div class="kind"><h3>Görüntüleme ne zaman?</h3><p>Genellikle ameliyatsız tedavi yetersiz kaldığında düşünülür. İlk tercih ayakta çekilen röntgendir; gerekirse ultrason ya da MR istenir. Ultrasonda fasyanın 4 milimetreden kalın ve koyu görünmesi plantar fasiiti düşündürür.</p></div>
+        <div class="kind"><h3>Başka ne olabilir?</h3><p>Ayak tabanında uyuşma ya da yanma varsa sinir sıkışması (tarsal tünel), topuğu iki yandan sıkınca ağrı varsa stres kırığı akla gelir. Belirtiler uymuyor ya da geçmiyorsa romatizmal hastalıklar, topuktaki yağ yastığının incelmesi ve fasyada nodül gibi nedenler de değerlendirilir.</p><a href="#uyari">Uyarı işaretleri →</a></div>
+      </div>
+    </div>
+  </section>
+  <section id="seyir">
+    <div class="wrap">
+      <h2>Ne kadar sürer?</h2>
+      <p class="soft">Birinci basamak hekimleri için yazılmış bir derlemeye göre hastaların yaklaşık %80'inde ameliyatsız tedaviyle 12 ay içinde düzelme görülüyor. Ancak hastanede ultrasonla tanı konmuş 174 hastanın ortalama 9 yıl izlendiği Danimarka çalışmasında ağrının sürme olasılığı belirtilerin başlangıcından itibaren 1. yılda %80, 5. yılda %50, 10. yılda %46 idi. Kadınlarda ve iki topukta birden ağrısı olanlarda seyir daha kötüydü.</p>
+      <div class="callout">
+        <p>Bu iki bulgu farklı hasta gruplarından geliyor: hastanede değerlendirilenler genellikle şikâyeti daha uzun süren kişilerdir. Yine de mesaj aynı: iyileşme çoğu zaman yavaştır ve sabır gerektirir. Gerçekçi ama umutlu bir beklenti ve düzenli egzersiz bu süreci yönetmenin temelidir.</p>
+      </div>
+    </div>
+  </section>
+  <section id="diken">
     <div class="wrap">
       <h2>Röntgendeki "diken" ağrının nedeni mi?</h2>
       <p class="soft">Topukta röntgende görülen kemik çıkıntısı (kalkaneal spur), hiç ağrısı olmayan kişilerde de sık rastlanan bir bulgudur ve tek başına ağrıyı açıklamaz. Ağrı, çıkıntının kendisinden çok fasyanın zorlanmasından kaynaklanır.</p>
       <div class="callout">
-        <p>Bu yüzden tedavinin hedefi dikeni "eritmek" ya da ameliyatla almak değil, fasyanın yükünü azaltmak ve dokuyu güçlendirmektir. Ağrı geçtikten sonra da çıkıntı genellikle röntgende yerinde durur; yani iyileşmek için dikenin kaybolması gerekmez.</p>
+        <p>Bu yüzden tedavinin hedefi dikeni "eritmek" ya da ameliyatla almak değil, fasyanın yükünü azaltmak ve dokuyu güçlendirmektir. Ağrı geçtikten sonra da çıkıntı genellikle röntgende yerinde durur; yani iyileşmek için dikenin kaybolması gerekmez. 174 hastanın uzun süre izlendiği çalışmada da topuk dikeni olup olmaması uzun vadeli seyri etkilemedi.</p>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Topuk dikeni tedavisinin kısa tarihi</h2>
+      <p class="soft">Uzun süre topuk ağrısının nedeni olarak kemik çıkıntısı ve iltihap görüldü. Son yirmi yılın araştırmaları dikkati fasyanın yüklenmesine, germe ve güçlendirmeye ve hastalığın uzun sürebilen seyrine çevirdi.</p>
+      {g_tl(TOPUK_TL)}
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
-      <p class="soft">Amerikan Fizyoterapi Derneği'nin 2023 kılavuzu, ameliyatsız tedavinin temeline germe, manuel terapi ve kısa vadeli destekleri koyuyor.</p>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) 2023 kılavuzu, ameliyatsız tedavinin temeline germe, manuel terapi, bantlama ve gece atelini koyuyor.</p>
       <ul class="tx">
-        <li><b>Germe</b><span>Plantar fasya ve baldır germeleri kısa ve uzun vadede ağrıyı azaltır, işlevi iyileştirir. Kılavuzdaki en güçlü önerilerdendir.</span></li>
+        <li><b>Germe</b><span>Plantar fasya ve baldır germeleri kısa ve uzun vadede ağrıyı azaltmak ve işlevi iyileştirmek için en güçlü (A) düzeyde önerilir.</span></li>
         <li><b>Güçlendirme</b><span>Ayak ve ayak bileği kaslarını giderek artan yükle çalıştıran egzersizler önerilir. Havlulu topuk kaldırma egzersizi bir çalışmada 3. ayda germeye göre daha iyi sonuç verdi; 12. ayda iki grup benzerdi.</span></li>
-        <li><b>Manuel terapi</b><span>Ayak ve bacaktaki eklem ve yumuşak dokulara yönelik manuel terapi, hareket kısıtlılığını ve ağrıyı azaltır.</span></li>
-        <li><b>Kuru iğneleme</b><span>Baldır ve ayak tabanı kaslarındaki tetik noktalara uygulanan kuru iğneleme, kısa ve uzun vadede ağrıyı azaltmak için önerilir.</span></li>
-        <li><b>Bantlama ve gece ateli</b><span>Esnek ya da sert bantlama kısa vadede ağrıyı ve işlevi iyileştirir. Sabah ilk adımlarda ağrısı olanlarda 1–3 ay gece ateli önerilir.</span></li>
+        <li><b>Manuel terapi</b><span>Ayak ve bacaktaki eklem ve yumuşak dokulara yönelik manuel terapi, hareket kısıtlılığını ve ağrıyı azaltmak için önerilir (A).</span></li>
+        <li><b>Kuru iğneleme</b><span>Baldır ve ayak tabanı kaslarındaki tetik noktalara kuru iğneleme ABD fizyoterapi kılavuzunda B düzeyinde öneriliyor. Türkiye'de yalnızca yetkili hekimler uygulayabilir.</span></li>
+        <li><b>Bantlama ve gece ateli</b><span>Esnek ya da sert bantlama, diğer tedavilerle birlikte kısa vadede (1–6 hafta) ağrıyı ve işlevi iyileştirmek için önerilir (A). Sabah ilk adımlarda sürekli ağrısı olanlarda 1–3 ay gece ateli önerilir (A); ancak başka kaynaklarda gece atelinin yararı konusunda kanıt çelişkili bulunuyor.</span></li>
         <li><b>Tabanlık ve ayakkabı</b><span>Hazır ya da kişiye özel tabanlıklar tek başına değil, diğer tedavilerle birlikte kullanıldığında yararlıdır. Topuğu destekleyen, yastıklı ayakkabılar tercih edilmelidir.</span></li>
-        <li><b>İnatçı ağrıda</b><span>Aylarca süren ağrıda şok dalga tedavisi (ESWT) bir seçenektir. Kortizon iğnesi kısa süreli rahatlama sağlayabilir ama birden fazla enjeksiyon yapılanların yaklaşık %2,4'ünde fasya yırtılabilir. Ameliyat, uzun süre tüm tedavilere yanıt vermeyen az sayıda hastada düşünülür.</span></li>
+        <li><b>İnatçı ağrıda</b><span>Temel tedaviye rağmen düzelmeyen ağrıda şok dalga tedavisi (ESWT) bir seçenektir. Kortizon iğnesi kısa süreli rahatlama sağlayabilir ama birden fazla enjeksiyon yapılanların yaklaşık %2,4'ünde fasya yırtılabilir; sahte iğneyle karşılaştıran güvenilir çalışma bulunmuyor. Ameliyat, uzun süre tüm tedavilere yanıt vermeyen az sayıda hastada düşünülür.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kaynaklar ne diyor?</h3>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) kılavuzu (JOSPT, 2023) ile 51 randomize çalışma, uzman görüşleri ve hasta tercihleriyle hazırlanan en iyi uygulama rehberinin (BJSM, 2021) önerileri yan yana. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (A güçlü, B orta). BJSM rehberi tedaviyi basamaklar hâlinde sıralıyor; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Germe</h3><dl><dt>JOSPT</dt><dd>Fasya ve baldır germeleri kısa ve uzun vadede (A).</dd><dt>BJSM rehberi</dt><dd>Fasya germe, herkese uygulanan temel tedavi.</dd></dl></div>
+        <div class="kind"><h3>Bantlama</h3><dl><dt>JOSPT</dt><dd>Sert ya da esnek bant, diğer tedavilerle birlikte 1–6 hafta (A).</dd><dt>BJSM rehberi</dt><dd>Ayak kemerini destekleyen (low-dye) bantlama, temel tedavi.</dd></dl></div>
+        <div class="kind"><h3>Eğitim ve ayakkabı</h3><dl><dt>BJSM rehberi</dt><dd>Kişiye özel eğitim temel tedavi: yük yönetimi, ağrının anlatılması, ayakkabı önerisi ve eşlik eden diyabet ya da fazla kilo. Rahat ve destekleyici, topuk ile ön ayak arasında az yükseklik farkı olan ayakkabı; düzelene kadar çıplak ayakla ve düz, desteksiz ayakkabıyla yürümekten kaçınmak.</dd><dt>JOSPT</dt><dd>Kas kütlesini korumaya ya da artırmaya yönelik egzersiz konusunda eğitim; gerekirse beslenme için yönlendirme.</dd></dl></div>
+        <div class="kind"><h3>Tabanlık</h3><dl><dt>JOSPT</dt><dd>Kısa vadeli ağrı için tek başına kullanılmamalı; diğer tedavilerle birlikte kullanılabilir.</dd><dt>BJSM rehberi</dt><dd>Temel tedavi değil; yaklaşık 12 haftada düzelme yetersizse kişiye özel tabanlık. Herkese aynı hazır tabanlık verilmemeli.</dd></dl></div>
+        <div class="kind"><h3>Gece ateli</h3><dl><dt>JOSPT</dt><dd>Sabah ilk adımda sürekli ağrısı olanlarda 1–3 ay (A).</dd><dt>BJSM rehberi</dt><dd>Öneri yapılmıyor.</dd></dl></div>
+        <div class="kind"><h3>Şok dalga</h3><dl><dt>BJSM rehberi</dt><dd>Temel tedavi yaklaşık 4–6 haftada yeterli olmazsa ikinci basamak.</dd><dt>JOSPT</dt><dd>Fizyoterapi kapsamı dışında sayıldığı için öneri yapılmadı.</dd></dl></div>
+        <div class="kind"><h3>Manuel terapi, kuru iğneleme ve cihazlar</h3><dl><dt>JOSPT</dt><dd>Manuel terapi (A); kuru iğneleme (B); düşük düzeyli lazer kısa vadeli ağrı için; germeye ultrason tedavisi eklenmemeli (A); elektroterapi yerine manuel terapi, germe ve tabanlık tercih edilmeli.</dd><dt>Not</dt><dd>Kuru iğnelemeyi Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+        <div class="kind"><h3>Kortizon ve PRP iğnesi</h3><dl><dt>BJSM rehberi</dt><dd>Sahte iğneyle karşılaştıran güvenilir çalışma yok; etkinliği kanıtlanmadı. Şok dalgaya yanıt vermeyenlerde, yapılandırılmış bir değerlendirmeyle düşünülebilir.</dd><dt>Not</dt><dd>Birden fazla kortizon iğnesi yapılanların yaklaşık %2,4'ünde fasya yırtılabilir.</dd></dl></div>
+      </div>
       <div class="callout">
         <p><strong>Kılavuzda önerilmeyen:</strong> Germe egzersizlerine terapötik ultrason eklemek ek fayda sağlamıyor.</p>
       </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Topuk dikeni için altı egzersiz</h2>
-      <p class="soft">Egzersizler sırasında hafif bir rahatsızlık olabilir; ağrı ertesi sabah belirgin şekilde artmıyorsa devam etmek güvenlidir. Germe hareketlerini sabah ilk adımlardan önce ve uzun oturduktan sonra yapmak en çok faydayı sağlar.</p>
+      <p class="soft">Egzersizler sırasında hafif bir rahatsızlık olabilir; ağrı ertesi sabah belirgin şekilde artmıyorsa devam edebilirsiniz. Germe hareketlerini sabah ilk adımlardan önce ve uzun oturduktan sonra yapmak en çok faydayı sağlar.</p>
       {ex_grid(["pfst", "towelst", "calf", "soleus", "rathleff", "roll"])}
     </div>
   </section>
-
-  <section>
+  <section id="gunluk">
     <div class="wrap two">
       <div>
         <h2>Günlük hayatta topuğunuz için</h2>
@@ -177,7 +224,6 @@ TOPUK_BODY = f'''<header class="page">
       </ul>
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -195,18 +241,16 @@ TOPUK_BODY = f'''<header class="page">
           <p>Sabah ilk adım ağrısını azaltmaya yönelik kısa bir rutin.</p>
         </div>
       </div>
-      <p class="meta">Videolar Bob &amp; Brad kanalına aittir.</p>
+      <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(TOPUK_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
       <p class="soft">Topuk ağrısı çoğunlukla zararsızdır. Şu durumlarda ise beklemeden bir hekime başvurun:</p>
@@ -221,7 +265,6 @@ TOPUK_BODY = f'''<header class="page">
       {CTA_CARD("Topuk ağrınız", "topuk dikeni")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -231,7 +274,7 @@ TOPUK_BODY = f'''<header class="page">
 </main>'''
 
 page("topuk-dikeni.html", "Topuk Dikeni",
-     "Topuk dikeni (plantar fasiit) nedir, röntgendeki diken ağrının nedeni mi, kendiliğinden geçer mi? Evde altı egzersiz, tabanlık ve ayakkabı önerileri, videolar ve uyarı işaretleri.",
+     "Topuk dikeni (plantar fasiit) nedir, nasıl tanınır, ne kadar sürer, röntgendeki diken ağrının nedeni mi? ABD kılavuzu ve BJSM rehberinin karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri.",
      "topuk-dikeni.html", NECK_CSS, TOPUK_BODY, YT_JS,
      seo_title="Topuk Dikeni (Plantar Fasiit): Egzersizler ve Tedavi | İhsan Eren",
      condition="Topuk dikeni (plantar fasiit)", about=cond("Topuk dikeni (plantar fasiit)"),
