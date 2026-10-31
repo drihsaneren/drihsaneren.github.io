@@ -29,14 +29,14 @@ SV["grip"] = fig(
     '<path class="fig" d="M60 76 L72 60"/>',
     "Top sıkma")
 
-SV["wext_st"] = SV["wflex"]
+SV["wext_st"] = SV["wflex"].replace("<figcaption>Bilek bükücü germe</figcaption>", "<figcaption>Bilek açıcı germe</figcaption>")
 SV["scap3"] = SV["scap"]
 SV["row2"] = SV["row"]
 
 EXT.update({
- "isowe": ("İzometrik bilek açma", "Ön kolunuzu masaya koyun, avucunuz aşağı baksın, eliniz masanın kenarından taşsın. Bileğinizi yukarı kaldırmaya çalışırken diğer elinizle elinizin üstüne bastırın; el yerinden oynamasın. Ağrıyı belirgin artırmayan bir kuvvetle tutun. Ağrılı dönemde de genellikle iyi tolere edilir.", "30–45 saniye, 5 tekrar, günde 1–2 kez"),
- "eccwe": ("Eksantrik bilek açma", "Ön kolunuzu masaya koyun, avucunuz aşağı baksın. Elinize dolu bir su şişesi ya da hafif bir ağırlık alın. Diğer elinizle yardım ederek bileğinizi yukarı kaldırın, sonra yardımı bırakıp ağırlığı 3–4 saniyede yavaşça aşağı indirin. Kolaylaştıkça ağırlığı artırın.", "15 tekrar, 3 set, günde 1 kez"),
- "wext_st": ("Bilek açıcı germe", "Kolunuzu önünüze uzatın, dirseğiniz düz, avucunuz aşağı baksın. Diğer elinizle elinizin sırtından tutup bileğinizi nazikçe aşağı ve kendinize doğru bükün; ön kolunuzun dış yüzünde gerilme hissedin.", "20–30 saniye, 3 tekrar"),
+ "isowe": ("İzometrik bilek açma", "Ön kolunuzu masaya koyun, avucunuz aşağı baksın, eliniz masanın kenarından taşsın. Bileğinizi yukarı kaldırmaya çalışırken diğer elinizle elinizin üstüne bastırın; el yerinden oynamasın. Ağrıyı belirgin artırmayan bir kuvvetle tutun; kas boyu değişmeden çalışır (izometrik). Ağrılı dönemde de genellikle iyi tolere edilir.", "30–45 saniye, 5 tekrar, günde 1–2 kez"),
+ "eccwe": ("Eksantrik bilek açma", "Ön kolunuzu masaya koyun, avucunuz aşağı baksın. Elinize yarım litrelik dolu bir su şişesi gibi hafif bir ağırlık alın. Diğer elinizle yardım ederek bileğinizi yukarı kaldırın, sonra yardımı bırakıp ağırlığı 3–4 saniyede yavaşça aşağı indirin; kas uzayarak çalışır (eksantrik). Kolaylaştıkça ağırlığı artırın.", "15 tekrar, 3 set, günde 1 kez"),
+ "wext_st": ("Bilek açıcı germe", "Kolunuzu önünüze uzatın, dirseğiniz düz, avucunuz aşağı baksın. Diğer elinizle elinizin sırtından tutup bileğinizi nazikçe aşağı ve kendinize doğru bükün; ön kolunuzun dış yüzünde, ağrıyı belirgin artırmayacak kadar gerilme hissedin.", "20–30 saniye, 3 tekrar"),
  "grip": ("Top sıkma", "Elinize yumuşak bir top ya da rulo yapılmış bir havlu alın. Ağrıyı artırmayacak bir kuvvetle sıkın, birkaç saniye tutun ve bırakın. Kavrama gücünü artırır; ağrı artıyorsa daha yumuşak bir nesne seçin.", "10 tekrar, günde 2–3 kez"),
  "scap3": EXT["scap"],
  "row2": EXT["row"],
@@ -46,35 +46,35 @@ DIRSEK_FAQ = [
  ("Tenis oynamıyorum, neden tenisçi dirseği oldum?", "Adına rağmen hastaların çoğu tenis oynamaz. Sorun, bileği ve parmakları açan kasların dirseğin dış yüzüne yapıştığı ortak kirişin aşırı yüklenmesidir. El ve bileğin yoğun kullanıldığı işlerde görülme sıklığı %29'a kadar çıkabiliyor; en sık 40–60 yaş arasında görülür."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "Kortizon iğnesi kısa sürede ağrıyı azaltabilir, ancak uzun vadede sonuçları kötüleştirebilir. 165 hastalık bir çalışmada 1 yılın sonunda tamamen ya da çok iyileşenlerin oranı kortizon grubunda %83, plasebo iğne grubunda %96 oldu; nüks ise kortizon grubunda %54, plasebo grubunda %12 idi. 30 çalışmayı ve 2.123 kişiyi kapsayan bir meta-analizde egzersiz, kısa dönem ağrı dışında tüm sonuçlarda kortizon iğnesinden daha iyiydi; ancak egzersizin pasif tedavilere üstünlüğü küçüktü ve kanıtın kesinliği düşük ile çok düşük arasındaydı."),
  ("Dirsek bandı işe yarar mı?", "Ön kola takılan bant ya da bilek desteği, aktivite sırasında kullanıldığında ağrıyı hemen hafifletebilir. Uzun vadeli etkisi konusunda ise kılavuz bir öneride bulunamıyor. Bant tedavinin tamamı değil, yük ayarlamaya yardımcı bir araçtır."),
- ("Ne kadar sürede geçer?", "Sabır gerektirir. Genel sağlık hizmetine başvuranların yarısından fazlasında şikâyetler 1 yıl sonra da sürebiliyor ve 6–12 ay içinde nüks oranı %20–38 arasında bildiriliyor. Yükü kademeli artırılan bir egzersiz programına düzenli devam etmek bu süreci yönetmenin temelidir. 198 kişiyle yapılan bir çalışmada fizyoterapi alanların da bekleyip izleyenlerin de çoğu 1 yılın sonunda iyileşmişti; kortizon iğnesiyle ilk 6 haftada düzelen 65 kişinin 47'sinde ise şikâyetler sonradan geri döndü."),
- ("Röntgen ya da MR çektirmem gerekir mi?", "Çoğu zaman gerekmez. Tanı öykü ve muayeneyle konur. İngiliz Omuz ve Dirsek Derneği'nin (BESS) 2023 bakım yolu, görüntülemenin yalnızca tanıdan emin olunamadığında düşünülmesini öneriyor; ABD fizyoterapi kılavuzu da röntgenin daha çok uzun süren ve tedaviye yanıt vermeyen durumlarda başka nedenleri dışlamak için istendiğini belirtiyor."),
- ("Ameliyat gerekir mi?", "Çok az kişide. BESS'e göre 3–6 ay ameliyatsız tedaviye rağmen düzelmeyen kişilerde ameliyat düşünülebilir; ancak ameliyatın sahte ameliyata üstün olduğunu gösteren kanıt yok. Sahte ameliyatla karşılaştıran tek çalışmada her grupta 13 hasta vardı ve iki grup arasında fark bulunmadı. Bu yüzden ameliyat kararı, beklentiler açıkça konuşularak verilmelidir."),
- ("Kolumu tamamen dinlendirmeli miyim?", "Hayır. Ağrıyı belirgin artıran kavrama ve kaldırma işlerini geçici olarak azaltın, ama kolu askıya almayın. Kiriş, kademeli olarak artırılan yüke uyum sağlayarak güçlenir; kılavuz da yükün aşamalı olarak yeniden artırılmasını öneriyor."),
+ ("Ne kadar sürede geçer?", "Sabır gerektirir. Birinci basamakta (aile hekimine) başvuranların yarısından fazlasında şikâyetler 1 yıl sonra da sürebiliyor ve 6–12 ay sonunda şikâyetlerin tam geçmemesi ya da geri dönmesi %20–38 oranında bildiriliyor. Yükü kademeli artırılan bir egzersiz programına düzenli devam etmek bu süreci yönetmenin temelidir. 198 kişiyle yapılan bir çalışmada fizyoterapi alanların da bekleyip izleyenlerin de çoğu 1 yılın sonunda iyileşmişti; kortizon iğnesiyle ilk 6 haftada düzelen 65 kişinin 47'sinde ise şikâyetler sonradan geri döndü."),
+ ("Röntgen ya da MR çektirmem gerekir mi?", "Çoğu zaman gerekmez. Tanı öykü ve muayeneyle konur. İngiliz Dirsek ve Omuz Derneği'nin (BESS) 2023 bakım yolu, görüntülemenin yalnızca tanıdan emin olunamadığında düşünülmesini öneriyor; ABD fizyoterapi kılavuzu da röntgenin daha çok uzun süren ve tedaviye yanıt vermeyen durumlarda başka nedenleri dışlamak için istendiğini belirtiyor."),
+ ("Ameliyat gerekir mi?", "Çok az kişide. BESS'e göre 3–6 ay ameliyatsız tedaviye rağmen düzelmeyen kişilerde ameliyat düşünülebilir; ancak ameliyatın sahte ameliyata üstün olduğunu gösteren kanıt yok. BESS'in incelediği, sahte ameliyatla karşılaştıran tek çalışmada her grupta 13 hasta vardı ve iki grup arasında fark bulunmadı. Bu yüzden ameliyat kararı, beklentiler açıkça konuşularak verilmelidir."),
+ ("Kolumu tamamen dinlendirmeli miyim?", "Hayır. Ağrıyı belirgin artıran kavrama ve kaldırma işlerini geçici olarak azaltın, ama kolu askıya almayın. Kiriş, kademeli olarak artırılan yüke uyum sağlayarak güçlenir; ABD kılavuzu da uzman görüşüne dayanarak, özellikle kolunu yoğun kullananlarda yükün aşamalı olarak yeniden artırılmasını öneriyor."),
 ]
 
 DIRSEK_SRC = [
- "Singh HP, Watts AC; BESS LET Guideline Development Group. " + ext("https://escholarship.org/content/qt7fk3s418/qt7fk3s418.pdf", "BESS patient care pathway: tennis elbow") + ". Shoulder Elbow. 2023;15(4):348-359.",
+ "Singh HP, Watts AC, Bateman M, et al.; BESS LET Guideline Development Group. " + ext("https://escholarship.org/content/qt7fk3s418/qt7fk3s418.pdf", "BESS patient care pathway: tennis elbow") + ". Shoulder Elbow. 2023;15(4):348-359.",
  "Smidt N, et al. " + ext("https://www.qxmd.com/r/11879861", "Corticosteroid injections, physiotherapy, or a wait-and-see policy for lateral epicondylitis: a randomised controlled trial") + ". Lancet. 2002.",
  "Morris T. " + ext("https://www.thomas-morris.uk/?p=1966", "The lawn-tennis elbow") + ". (\"Lawn-tennis elbow\" başlıklı 1883 British Medical Journal mektubu ve Henry Morris'in 1882 Lancet yazısı üzerine tarih yazısı.)",
- "Kroslak M, et al. Am J Sports Med. 2018 (ameliyat ile sahte ameliyatı karşılaştıran randomize çalışma). Özet: " + ext("https://www.mendcolorado.com/physical-therapy-blog/2018/3/21/no-difference-between-surgery-and-placebo-surgery-for-tennis-elbow/", "Mend Colorado") + ".",
+ "Kroslak M, Murrell GAC. Am J Sports Med. 2018 (ameliyat ile sahte ameliyatı karşılaştıran randomize çalışma). Özet: " + ext("https://www.mendcolorado.com/physical-therapy-blog/2018/3/21/no-difference-between-surgery-and-placebo-surgery-for-tennis-elbow/", "Mend Colorado") + ".",
  "Coombes BK, Bisset L, Brooks P, Khan A, Vicenzino B. " + ext("https://jamanetwork.com/journals/jama/fullarticle/1568252", "Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial") + ". JAMA. 2013;309(5):461-469.",
  "Lucado AM, Day JM, Vincent JI, et al. " + ext("https://www.orthopt.org/uploads/content_files/files/jospt.2022.0302.pdf", "Lateral elbow pain and muscle function impairments: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health") + ". J Orthop Sports Phys Ther. 2022;52(12):CPG1-CPG111.",
  "Bisset LM, Vicenzino B. " + ext("https://pubmed.ncbi.nlm.nih.gov/26361816/", "Physiotherapy management of lateral epicondylalgia") + ". J Physiother. 2015;61(4):174–181",
  "Physiopedia. " + ext("https://www.physio-pedia.com/Lateral_Epicondylitis", "Lateral Epicondylitis") + ".",
  "Karanasios S, Korakakis V, Whiteley R, et al. " + ext("https://bjsm.bmj.com/content/55/9/477", "Exercise interventions in lateral elbow tendinopathy have better outcomes than passive interventions, but the effects are small: a systematic review and meta-analysis of 2123 subjects in 30 trials") + ". Br J Sports Med. 2021;55(9):477–485.",
- "Bisset L, Beller E, Jull G, Brooks P, Darnell R, Vicenzino B. " + ext("https://doi.org/10.1136/bmj.38961.584653.AE", "Mobilisation with movement and exercise, corticosteroid injection, or wait and see for tennis elbow: randomised trial") + ". BMJ. 2006;333(7575):939.",
+ "Bisset L, Beller E, Jull G, Brooks P, Darnell R, Vicenzino B. " + ext("https://doi.org/10.1136/bmj.38961.584653.AE", "Mobilisation with movement and exercise, corticosteroid injection, or wait and see for tennis elbow: randomised trial") + ". BMJ. 2006;333(7575):939-944.",
 ]
 
 DIRSEK_TL = [
  ("1882", "Middlesex Hastanesi'nden cerrah Henry Morris, çoğunlukla binicilik yaralanmalarını ele aldığı bir Lancet yazısında bu tabloyu \"çim tenisi kolu\" olarak andı."),
- ("1883", "British Medical Journal'a yazılan bir okur mektubunda \"Lawn-Tennis Elbow\" (çim tenisi dirseği) başlığı kullanıldı; bugünkü \"tenisçi dirseği\" adının ilk kullanımlarından biri."),
+ ("1883", "British Medical Journal'a yazılan bir okur mektubunda \"Lawn-Tennis Elbow\" (çim tenisi dirseği) başlığı kullanıldı. Henry Morris iki hafta kadar sonra yanıt vererek okurları bir önceki yıl Lancet'te yayımladığı yazısına yönlendirdi."),
  ("2002", "Aile hekimlerine başvuran 185 hastayla yapılan çalışmada kortizon iğnesi 6. haftada en hızlı sonucu verdi (%92 başarı); ancak 52. haftada başarı fizyoterapi grubunda %91, bekle-gör grubunda %83, iğne grubunda %69'du. İğnenin ardından şikâyetlerin geri dönmesi sıktı."),
  ("2006", "198 kişiyle yapılan çalışmada 1 yılın sonunda fizyoterapi alanların da bekleyip izleyenlerin de çoğu iyileşmişti; kortizon iğnesiyle ilk 6 haftada düzelen 65 kişinin 47'sinde şikâyetler sonradan geri döndü."),
  ("2013", "Avustralya'da 165 hastayla yapılan plasebo kontrollü çalışmada 1 yılın sonunda tamamen ya da çok iyileşenler kortizon iğnesi grubunda %83, plasebo iğne grubunda %96'ydı; nüks kortizon grubunda %54, plaseboda %12 oldu."),
  ("2018", "Ameliyatı sahte (plasebo) ameliyatla karşılaştıran, BESS'e göre bu türdeki tek çalışmada iki grup da 6. ayda düzeldi ve aralarında fark bulunmadı. Çalışma erken durduruldu; her grupta yalnızca 13 hasta vardı."),
- ("2021", "30 çalışmayı ve 2.123 kişiyi inceleyen bir meta-analiz, egzersizin pasif tedavilerden daha iyi olduğunu ama farkın küçük ve kanıtın kesinliğinin düşük olduğunu gösterdi."),
+ ("2021", "30 çalışmayı ve 2.123 kişiyi inceleyen bir meta-analiz, egzersizin pasif tedavilerden daha iyi olduğunu, ancak farkın küçük ve kanıtın kesinliğinin düşük ya da çok düşük olduğunu düşündürdü."),
  ("2022", "Amerikan Fizyoterapi Derneği'nin (APTA) kılavuzu (JOSPT) yayımlandı: bileği açan kaslara direnç egzersizleri, dirsek mobilizasyonu, sert bantlama ve kuru iğneleme B düzeyinde önerildi."),
- ("2023", "İngiliz Omuz ve Dirsek Derneği'nin (BESS) hasta bakım yolu yayımlandı: fizyoterapi güçlü şekilde öneriliyor; kortizon iğnesi ve şok dalga tedavisi güçlü şekilde önerilmiyor."),
+ ("2023", "İngiliz Dirsek ve Omuz Derneği'nin (BESS) hasta bakım yolu yayımlandı: fizyoterapi güçlü şekilde öneriliyor; kortizon iğnesi ve şok dalga tedavisi güçlü şekilde önerilmiyor."),
 ]
 
 DIRSEK_BODY = f'''<header class="page">
@@ -91,10 +91,10 @@ DIRSEK_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%3</b><span>ABD'de yıllık görülme sıklığı</span></div>
-        <div class="stat"><b>%7–10</b><span>40–60 yaş arasında yıllık görülme sıklığı</span></div>
-        <div class="stat"><b>%29'a kadar</b><span>El ve bileğin yoğun kullanıldığı işlerde görülme sıklığı</span></div>
-        <div class="stat"><b>%54</b><span>Kortizon iğnesi yapılanlarda 1 yıl içinde nüks; plasebo iğnede %12</span></div>
+        <div class="stat"><b>Binde 2–5</b><span>ABD'de bir nüfus çalışmasında yıllık görülme sıklığı (2000–2012)</span></div>
+        <div class="stat"><b>40–60 yaş</b><span>En sık görüldüğü yaş aralığı</span></div>
+        <div class="stat"><b>%29'a kadar</b><span>El ve bileğin yoğun kullanıldığı işlerde çalışanlarda yaygınlık</span></div>
+        <div class="stat"><b>%54</b><span>Kortizon iğnesi yapılanlarda 1 yıl içinde nüks (yeniden başlama); plasebo iğnede %12 (165 hastalık bir çalışma)</span></div>
       </div>
       {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("seyir", "Ne kadar sürer?"), ("kortizon", "Kortizon iğnesi"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("gunluk", "Günlük hayatta"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
@@ -133,7 +133,7 @@ DIRSEK_BODY = f'''<header class="page">
   <section id="seyir">
     <div class="wrap">
       <h2>Ne kadar sürer?</h2>
-      <p class="soft">Tenisçi dirseği çoğu zaman zamanla düzelir, ama bu aylar sürebilir. BESS'in aktardığı verilere göre ilk yıl içinde hastaların %89'unda genel bir iyileşme oluyor ve düzelme ilk aylarda daha hızlı. Öte yandan ABD fizyoterapi kılavuzu, genel sağlık hizmetine başvuranların yarısından fazlasında 1 yıl sonra da bir miktar şikâyet sürebildiğini ve 6–12 ay içinde şikâyetlerin tam geçmemesi ya da geri dönmesinin %20–38 oranında görüldüğünü belirtiyor.</p>
+      <p class="soft">Tenisçi dirseği çoğu zaman zamanla düzelir, ama bu aylar sürebilir. BESS'in aktardığı verilere göre ilk yıl içinde hastaların %89'unda genel bir iyileşme oluyor ve düzelme ilk aylarda daha hızlı. Öte yandan ABD fizyoterapi kılavuzu, birinci basamakta (aile hekimine) başvuranların yarısından fazlasında 1 yıl sonra da bir miktar şikâyet sürebildiğini ve 6–12 ay içinde şikâyetlerin tam geçmemesi ya da geri dönmesinin %20–38 oranında görüldüğünü belirtiyor.</p>
       <div class="callout">
         <p>Yani "düzelme" ile "tamamen geçme" aynı şey değil: çoğu kişi belirgin şekilde rahatlar, bazılarında hafif şikâyetler uzun süre kalabilir. Yükü kademeli artırılan bir egzersiz programına düzenli devam etmek bu süreci yönetmenin temelidir.</p>
       </div>
@@ -145,7 +145,7 @@ DIRSEK_BODY = f'''<header class="page">
       <h2>Kortizon iğnesi: kısa vadede rahatlama, uzun vadede risk</h2>
       <p class="soft">Avustralya'da 165 hastayla yapılan bir çalışmada kortizon iğnesi ilk haftalarda ağrıyı azalttı; ancak 1 yılın sonunda tamamen ya da çok iyileşenlerin oranı kortizon grubunda %83, plasebo iğne grubunda %96 oldu. Nüks oranı ise kortizon grubunda %54, plasebo grubunda %12 idi.</p>
       <div class="callout">
-        <p>Yani iğnenin getirdiği kısa süreli rahatlama, uzun vadede iyileşmeyi yavaşlatabiliyor ve ağrının geri dönme olasılığını artırabiliyor. İğne düşünülüyorsa bu risk hekiminizle birlikte değerlendirilmelidir. İngiliz Omuz ve Dirsek Derneği'nin (BESS) 2023 bakım yolu, tenisçi dirseğinde kortizon iğnesinin kullanılmamasını güçlü şekilde öneriyor.</p>
+        <p>Yani iğnenin getirdiği kısa süreli rahatlama, uzun vadede iyileşmeyi yavaşlatabiliyor ve ağrının geri dönme olasılığını artırabiliyor. İğne düşünülüyorsa bu risk hekiminizle birlikte değerlendirilmelidir. İngiliz Dirsek ve Omuz Derneği'nin (BESS) 2023 bakım yolu, tenisçi dirseğinde kortizon iğnesinin kullanılmamasını güçlü şekilde öneriyor.</p>
       </div>
     </div>
   </section>
@@ -162,27 +162,27 @@ DIRSEK_BODY = f'''<header class="page">
   <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
-      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) 2022 kılavuzu tedavinin merkezine kademeli güçlendirme egzersizlerini koyuyor; İngiliz Omuz ve Dirsek Derneği (BESS) de fizyoterapiyi güçlü şekilde öneriyor.</p>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) 2022 kılavuzu tedavinin merkezine kademeli güçlendirme egzersizlerini koyuyor; İngiliz Dirsek ve Omuz Derneği (BESS) de fizyoterapiyi güçlü şekilde öneriyor.</p>
       <ul class="tx">
-        <li><b>Güçlendirme egzersizleri</b><span>Bileği açan kaslara yönelik izometrik, konsantrik ve eksantrik direnç egzersizleri önerilir (B). Yük, kirişin uyum sağlayabileceği hızda, aşamalı olarak artırılır.</span></li>
+        <li><b>Güçlendirme egzersizleri</b><span>Bileği açan kaslara yönelik izometrik (kas boyu değişmeden), konsantrik (kısalarak) ya da eksantrik (uzayarak) direnç egzersizleri önerilir (B). Yük, kirişin uyum sağlayabileceği hızda, aşamalı olarak artırılır.</span></li>
         <li><b>Manuel terapi</b><span>Dirsek eklemine yönelik mobilizasyon kısa vadede ağrıyı azaltmak ve ağrısız kavrama gücünü artırmak için önerilir (B); boyun, sırt ve bileğe yönelik uygulamalar, bu bölgelerde kısıtlılık varsa destek olarak eklenebilir (C).</span></li>
         <li><b>Kuru iğneleme</b><span>ABD fizyoterapi kılavuzunda ağrıyı ve işlev kaybını azaltmak için B düzeyinde öneriliyor; BESS ise plaseboya üstünlüğüne dair kanıt olmadığını, bu yüzden şu an önerilemeyeceğini belirtiyor. Türkiye'de yalnızca yetkili hekimler uygulayabilir.</span></li>
-        <li><b>Bantlama ve dirsek bandı</b><span>Sert bantlama kısa vadede ağrıyı azaltabilir (B). Ön kol bandı ya da bilek desteği aktivite sırasında kullanıldığında ağrıyı hemen hafifletebilir (uzman görüşü); orta ve uzun vadeli etkisi konusunda çalışmalar çelişkili.</span></li>
-        <li><b>Omuz ve kürek kemiği</b><span>Muayenede zayıflık saptanırsa omuz ve kürek kemiği kaslarını güçlendiren egzersizler programa eklenir.</span></li>
-        <li><b>Ergonomi</b><span>İş ve günlük hayattaki kavrama, kaldırma ve bilek kullanımının düzenlenmesi şikâyetleri hafifletebilir.</span></li>
+        <li><b>Bantlama ve dirsek bandı</b><span>Ağrının kolay alevlendiği dönemde sert bantlama kısa vadede ağrıyı azaltabilir (B). Ön kol bandı ya da bilek desteği aktivite sırasında kullanıldığında ağrıyı hemen hafifletebilir (uzman görüşü); orta ve uzun vadeli etkisi konusunda çalışmalar çelişkili.</span></li>
+        <li><b>Omuz ve kürek kemiği</b><span>Muayenede zayıflık saptanırsa omuz ve kürek kemiği kaslarını güçlendiren egzersizler programa eklenebilir (C).</span></li>
+        <li><b>Ergonomi</b><span>İş ve günlük hayattaki kavrama, kaldırma ve bilek kullanımının düzenlenmesi şikâyetleri hafifletebilir (E, kuramsal kanıt).</span></li>
         <li><b>Ameliyat</b><span>BESS'e göre 3–6 ay ameliyatsız tedaviye rağmen düzelmeyen az sayıda kişide düşünülebilir; ancak sahte ameliyata üstün olduğunu gösteren kanıt yok.</span></li>
       </ul>
       <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
-      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) kılavuzu (JOSPT, 2022) ile İngiliz Omuz ve Dirsek Derneği'nin (BESS) hasta bakım yolu (2023) yan yana. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf, D çelişkili kanıt); BESS önerilerini "güçlü" ve "koşullu" diye ayırıyor. JOSPT kılavuzu iğneleri, şok dalgayı ve ameliyatı kapsamıyor; tedavi kişiye göre seçilir.</p>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) kılavuzu (JOSPT, 2022) ile İngiliz Dirsek ve Omuz Derneği'nin (BESS) hasta bakım yolu (2023) yan yana. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf, D çelişkili kanıt, E kuramsal kanıt, F uzman görüşü); BESS önerilerini "güçlü" ve "koşullu" diye ayırıyor. JOSPT kılavuzu ilaç ve enjeksiyon tedavilerini (kortizon, PRP) ve ameliyatı kapsamıyor, şok dalga tedavisine de yer vermiyor; tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Egzersiz ve fizyoterapi</h3><dl><dt>JOSPT</dt><dd>Bileği açan kaslara izometrik, konsantrik ya da eksantrik direnç egzersizleri (B); zayıflık varsa omuz ve kürek kemiği egzersizleri (C).</dd><dt>BESS</dt><dd>Fizyoterapi önerilmeli (güçlü); germe ve eksantrik yükleme egzersizleri.</dd></dl></div>
+        <div class="kind"><h3>Egzersiz ve fizyoterapi</h3><dl><dt>JOSPT</dt><dd>Uzun süren ağrıda bileği açan kaslara izometrik, konsantrik ya da eksantrik direnç egzersizleri (B); zayıflık varsa omuz ve kürek kemiği egzersizleri (C).</dd><dt>BESS</dt><dd>Fizyoterapi önerilmeli (güçlü); birinci basamakta germe ve eksantrik yükleme egzersiz föyleri.</dd></dl></div>
         <div class="kind"><h3>Manuel terapi</h3><dl><dt>JOSPT</dt><dd>Dirsek mobilizasyonu kısa vadede ağrı ve ağrısız kavrama gücü için (B); kısıtlılık varsa boyun, sırt ve bilek (C); yumuşak doku mobilizasyonu (C).</dd></dl></div>
-        <div class="kind"><h3>Bant ve dirsek bandı</h3><dl><dt>JOSPT</dt><dd>Sert bantlama kısa vadede (B); aktivite sırasında bant ya da bilek desteği anında rahatlama için (uzman görüşü); orta ve uzun vadede kanıt çelişkili (D).</dd><dt>BESS</dt><dd>Ortez önerilebilir, ancak yarar sağlamayabileceği anlatılmalı (koşullu).</dd></dl></div>
+        <div class="kind"><h3>Bant ve dirsek bandı</h3><dl><dt>JOSPT</dt><dd>Ağrının kolay alevlendiği dönemde sert bantlama kısa vadede (B); aktivite sırasında bant ya da bilek desteği anında rahatlama için (uzman görüşü); orta ve uzun vadede kanıt çelişkili (D).</dd><dt>BESS</dt><dd>Ortez önerilebilir, ancak yarar sağlamayabileceği anlatılmalı (koşullu).</dd></dl></div>
         <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>BESS</dt><dd>Kullanılmamalı (güçlü).</dd><dt>Kanıt</dt><dd>Kısa vadede ağrıyı azaltabilir; 1 yılda daha kötü sonuç ve daha sık nüks (165 hastalık plasebo kontrollü çalışma).</dd></dl></div>
-        <div class="kind"><h3>PRP ve kan iğnesi</h3><dl><dt>BESS</dt><dd>PRP'nin plaseboya göre yararı olmayabileceği anlatılmalı (koşullu); kişinin kendi kanının enjeksiyonu kullanılmamalı (koşullu).</dd></dl></div>
-        <div class="kind"><h3>Şok dalga ve diğer cihazlar</h3><dl><dt>BESS</dt><dd>Şok dalga tedavisi kullanılmamalı (güçlü).</dd><dt>JOSPT</dt><dd>Lazer 1–6 aylık izlemde ağrı ve kavrama gücü için (C); TENS kısa vadede ağrı için (C); ultrason tedavisi tek başına çelişkili (D); kortizonlu ya da ağrı kesici jelle fonoforez önerilmiyor (C).</dd></dl></div>
-        <div class="kind"><h3>Kuru iğneleme</h3><dl><dt>JOSPT</dt><dd>Kiriş ya da tetik noktalara kuru iğneleme (B).</dd><dt>BESS</dt><dd>Plaseboya üstünlüğüne dair kanıt yok; şu an önerilemiyor.</dd><dt>Not</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
-        <div class="kind"><h3>Ameliyat ve sevk</h3><dl><dt>BESS</dt><dd>Birinci basamakta 12–24 haftada düzelme yoksa uzmana sevk; 3–6 ay ameliyatsız tedaviye rağmen düzelmeyenlerde ameliyat düşünülebilir, sahte ameliyata üstünlüğüne dair kanıt yok (koşullu).</dd></dl></div>
+        <div class="kind"><h3>PRP ve kan iğnesi</h3><dl><dt>BESS</dt><dd>PRP'nin (kişinin kendi kanından hazırlanan, trombositten zengin plazma) plaseboya göre yararı olmayabileceği anlatılmalı (koşullu); kişinin kendi kanının enjeksiyonu kullanılmamalı (koşullu).</dd></dl></div>
+        <div class="kind"><h3>Şok dalga ve diğer cihazlar</h3><dl><dt>BESS</dt><dd>Şok dalga tedavisi kullanılmamalı (güçlü).</dd><dt>JOSPT</dt><dd>Lazer 4 haftadan 6 aya kadar izlemde ağrı ve kavrama gücü için (C); TENS kısa vadede ağrı için (C); ultrason tedavisi tek başına çelişkili (D); kortizonlu ya da ağrı kesici jelin ultrasonla deriden verilmesi (fonoforez) önerilmiyor (C).</dd></dl></div>
+        <div class="kind"><h3>Kuru iğneleme</h3><dl><dt>JOSPT</dt><dd>Kiriş ya da tetik noktalara kuru iğneleme (B).</dd><dt>BESS</dt><dd>Plaseboya üstünlüğüne dair kanıt yok; şu an önerilemiyor (koşullu).</dd><dt>Not</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+        <div class="kind"><h3>Ameliyat ve sevk</h3><dl><dt>BESS</dt><dd>3–6 ay ameliyatsız tedaviye rağmen düzelmeyenlerde ameliyat düşünülebilir; sahte ameliyata üstünlüğüne dair kanıt olmadığı anlatılmalı (koşullu). Bakım yoluna göre birinci basamakta 12–24 haftada düzelme yoksa uzmana sevk edilir.</dd></dl></div>
       </div>
     </div>
   </section>
@@ -191,7 +191,7 @@ DIRSEK_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Tenisçi dirseği için altı egzersiz</h2>
-      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ertesi gün başlangıç düzeyine dönüyorsa devam edin. İzometrik egzersizle başlayıp ağrı azaldıkça eksantrik egzersize geçin.</p>
+      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ertesi gün başlangıç düzeyine dönüyorsa devam edin. Keskin ya da giderek artan ağrı ya da elde uyuşma olursa durun. İzometrik egzersizle başlayıp ağrı azaldıkça eksantrik egzersize geçin.</p>
       {ex_grid(["isowe", "eccwe", "wext_st", "grip", "scap3", "row2"])}
     </div>
   </section>
@@ -204,7 +204,7 @@ DIRSEK_BODY = f'''<header class="page">
       </div>
       <ul class="dots" style="align-self:center">
         <li>Eşyaları avucunuz yukarı bakacak şekilde (alttan) kaldırın.</li>
-        <li>Ağır çantaları kolunuzu bükmeden, omzunuzda ya da iki elle taşıyın.</li>
+        <li>Ağır çantaları elde değil, omzunuzda ya da sırt çantasıyla taşıyın.</li>
         <li>Kalın saplı aletler ve fincanlar kavramayı kolaylaştırır.</li>
         <li>Klavye ve fare kullanırken bileğinizi düz tutun, sık ara verin.</li>
         <li>Raket sporlarında raket sapı, tel gerginliği ve teknik için destek alın.</li>
@@ -247,7 +247,8 @@ DIRSEK_BODY = f'''<header class="page">
       <ul class="dots redflags">
         <li>Düşme ya da darbe sonrası dirsekte şişlik, şekil bozukluğu ya da hareket kaybı (kırık ya da çıkık olabilir; acil servise başvurun)</li>
         <li>Dirseğin kilitlenmesi, tam bükülüp düzelmemesi</li>
-        <li>Dirsekte kızarıklık, şişlik ya da sıcaklık; özellikle ateş eşlik ediyorsa (enfeksiyon olabilir)</li>
+        <li>Dirsekte kızarıklık, şişlik ya da sıcaklık; özellikle ateş eşlik ediyorsa aynı gün, gerekirse acil serviste değerlendirilmelidir (eklem ya da kese enfeksiyonu olabilir)</li>
+        <li>Kol ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa hemen <strong>112</strong>'yi arayın</li>
         <li>Çocuk ya da ergende dirsek ağrısı</li>
         <li>Dirsekte ele gelen kitle ya da birden fazla eklemde ağrı ve şişlik</li>
         <li>Boyundan kola yayılan ağrı, elde uyuşma, karıncalanma ya da güç kaybı</li>
