@@ -808,3 +808,7 @@ Ayrıntılar DENETIM.md'de. İnme sayfasının tarihi artık sabit metin ("30 Ek
 
 ## 30–31 Ekim 2026 — rehber genişletme başladı (bel ağrısı, boyun ağrısı)
 Kullanıcı seçimi: en sık şikâyetlerden başla; klinik deneyim kutusu yok (yalnızca araştırma); oturum başına 2–3 sayfa; her genişletilmiş sayfa YAYINDAN ÖNCE bağımsız denetimden geçer. Yeni ortak CSS: G_CSS'e .g-cmp (karşılaştırma kartları, dl/dt/dd), .g-facts (numaralı bilgi kartları), .g-h3. Ayrıntılar ve açık kalanlar DENETIM.md'de. Önerilen sıradaki parti: omuz sıkışması, kalça kireçlenmesi, karpal tünel sendromu. Çeviri tur38. Sonraki batch: tur39.
+
+## 31 Ekim 2026 — günlük denetim (beyin sarsıntısı, kalp rehabilitasyonu, kalp yetmezliği)
+Ayrıntılar DENETIM.md'de. Önemli: cochrane.org/evidence/<CD> sayfalarında sade özet güncellenmiş olsa da "Abstract" bölümü eski sürüm kalabiliyor (CD001800'de 2021 metni duruyordu) — güncel sayıları yayıncı/depo kopyasından (ör. eprints.gla.ac.uk) doğrulayın. Çeviri tur39 + tur40. Sonraki batch: tur41.
+

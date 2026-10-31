@@ -8,16 +8,16 @@ _ex2("bs_walk", "walk", "Kısa yürüyüş", "Rahat bir tempoda, düz bir yolda 
 _ex2("bs_gaze", "rot", "Göz sabitleme: baş çevirme", "Bir kalemi ya da kartı kol boyu uzaklıkta tutun ve gözünüzü ondan ayırmayın. Gözleriniz cisme kilitliyken başınızı yavaşça sağa sola çevirin. Hız ancak hazır olduğunuzda artırılır.", "5–10 tekrar, rahat ettiğiniz kadar")
 _ex2("bs_nod", "bt_nod", "Yukarı ve aşağı bakma", "Dik oturun. Başınızı yavaşça kaldırıp tavana, sonra indirip yere bakın. Amaç, beynin baş hareketine yeniden alışmasıdır; baş dönmesi hafif kalmalı ve kısa sürede geçmeli.", "5–10 tekrar")
 _ex2("bs_side", "side", "Başı yana eğme", "Dik oturun. Kulağınızı yavaşça omzunuza doğru yaklaştırın, ortaya dönün ve diğer yana eğin. Omzunuzu kaldırmayın.", "Her yana 5–10 tekrar")
-_ex2("bs_tandem", "tandem", "Tandem duruş ve yürüyüş", "Bir duvarın yanında durun. Önce bir ayağınızı diğerinin hafif önüne koyarak 10 saniye durun, sonra ayaklarınızı değiştirin. Kolaylaşınca topuğunuzu öndeki ayağın parmak ucuna değdirerek bir koridor boyunca yürüyün.", "Her ayak önde 10 saniye; ardından 20 adım")
+_ex2("bs_tandem", "tandem", "Tandem duruş ve yürüyüş", "Bir duvarın yanında durun. Önce bir ayağınızı diğerinin hafif önüne koyarak 10 saniye durun, sonra ayaklarınızı değiştirin. Kolaylaşınca, yanınızda biri varken, topuğunuzu öndeki ayağın parmak ucuna değdirerek bir koridor boyunca yürüyün.", "Her ayak önde 10 saniye; ardından 20 adım")
 _ex2("bs_sls", "sls", "Tek ayak üstünde durma", "Sağlam bir sandalyeye tutunarak tek ayağınızın üstünde durun. Kolaylaşınca tutunmayı bırakın, süreyi uzatın; daha sonra gözlerinizi kapatmak ya da havaya harf çizmek gibi zorlaştırmalar ekleyebilirsiniz.", "10 saniyeyle başlayın, 30 saniyeye kadar")
 
 BS_FAQ = [
  ("Karanlık bir odada dinlenmem gerekmiyor mu?", "Hayır. Uzun ve sıkı dinlenme artık önerilmiyor. 11–22 yaş arası 88 hastayla yapılan bir çalışmada 5 gün evde tam dinlenme önerilenler, 1–2 gün dinlenip kademeli olarak etkinliğe dönenlere göre daha fazla belirti bildirdi ve belirtileri daha yavaş geçti. İlk 24–48 saat görece dinlenin, uyuyabildiğiniz kadar uyuyun; ardından günlük işlere ve hafif yürüyüşlere kademeli olarak dönün."),
  ("Telefon ve bilgisayar kullanabilir miyim?", "İlk 48 saatte ekran süresini en aza indirmek iyileşmeye yardımcı olabilir. Sonra ekranı kısa sürelerle ve aralarda mola vererek kullanabilirsiniz; 3. aşamada zihinsel işler 20–30 dakikalık bloklar hâlinde önerilir."),
- ("Ne zaman okula ya da işe dönebilirim?", "Kendinizi daha iyi hissettiğinizde, önce kısa sürelerle. İngiltere’nin taban sporu kılavuzu okul ve işe dönüşü spora dönüşten önce tutuyor: dinlenirken belirtiniz kalmadığında, genellikle 2. hafta civarında yarı zamanlı okul ya da işe dönülebilir. Bu dönemde ödevler ve sınavlar için ek süre gibi düzenlemeler istenebilir."),
+ ("Ne zaman okula ya da işe dönebilirim?", "Kendinizi daha iyi hissettiğinizde, önce kısa sürelerle. İngiltere’nin taban sporu kılavuzu okul ve işe dönüşü spora dönüşten önce tutuyor: dinlenirken belirtiniz kalmadığında, genellikle 2. hafta civarında yarı zamanlı okul ya da işe dönülebilir. Bu dönemde yarım gün okula gitmek ya da ara vermek gibi düzenlemeler istenebilir."),
  ("Ne zaman spora dönebilirim?", "Antrenmana kademeli olarak dönülür; temaslı ve rekabetçi spora ise yaralanmadan sonraki 21. günden önce dönülmez ve bunun için dinlenirken en az 14 gün belirtisiz olmak gerekir. NHS de temas sporlarından en az 3 hafta uzak durmayı öneriyor. Çocuklar ilk birkaç gün sert oyunlardan kaçınmalı. Uluslararası uzlaşıya göre çoğu kişi yaklaşık bir ay içinde sporuna tam olarak döner."),
- ("Egzersiz iyileşmeyi hızlandırır mı?", "Hafif aerobik egzersiz yardımcı olabilir. Sporda beyin sarsıntısı geçiren 13–18 yaş arası 103 gençle yapılan bir çalışmada, ilk 10 gün içinde başlayıp belirtileri artırmayan bir şiddette günde yaklaşık 20 dakika yürüyüş ya da sabit bisiklet yapanlar ortalama 13 günde iyileşti; yalnızca germe yapanlarda bu süre 17 gündü. Egzersizin şiddeti, belirtilerinizi en fazla hafifçe artıracak düzeyde kalmalı."),
- ("Belirtilerim geçmezse ne yapmalıyım?", "Belirtiler 2 haftada düzelmez ya da kötüleşirse hekiminize başvurun; 4 haftayı aşarsa farklı uzmanlık alanlarından bir değerlendirme önerilir. Baş dönmesi, boyun ağrısı ya da baş ağrısı 10 günden uzun sürerse uluslararası uzlaşı boyun ve denge (servikovestibüler) rehabilitasyonunu öneriyor. Sporda beyin sarsıntısı geçiren 12–30 yaş arası 31 kişiyle yapılan küçük bir çalışmada, bu rehabilitasyonu alanların %73’ü 8 hafta içinde spora dönüş izni aldı; yalnızca olağan bakım alanlarda bu oran %7’ydi."),
+ ("Egzersiz iyileşmeyi hızlandırır mı?", "Hafif aerobik egzersiz yardımcı olabilir. Sporda beyin sarsıntısı geçiren 13–18 yaş arası 103 gençle yapılan bir çalışmada, ilk 10 gün içinde başlayıp belirtileri artırmayan bir şiddette günde yaklaşık 20 dakika yürüyüş ya da sabit bisiklet yapanların yarısı 13 gün içinde iyileşti (ortanca süre); yalnızca germe yapanlarda bu süre 17 gündü. Egzersizin şiddeti, belirtilerinizi en fazla hafifçe artıracak düzeyde kalmalı."),
+ ("Belirtilerim geçmezse ne yapmalıyım?", "Belirtiler 2 haftada düzelmez ya da kötüleşirse hekiminize başvurun; 4 haftayı aşarsa farklı uzmanlık alanlarından bir değerlendirme önerilir. Baş dönmesi, boyun ağrısı ya da baş ağrısı 10 günden uzun sürerse uluslararası uzlaşı boyun ve denge (servikovestibüler) rehabilitasyonunu öneriyor. Sporda beyin sarsıntısından sonra baş dönmesi, boyun ağrısı ya da baş ağrısı geçmeyen 12–30 yaş arası 31 kişiyle yapılan küçük bir çalışmada, bu rehabilitasyonu alanların %73’ü 8 hafta içinde spora dönüş izni aldı; yalnızca genel fizyoterapi (duruş eğitimi, hareket açıklığı egzersizleri, kademeli efor) alanlarda bu oran %7’ydi."),
 ]
 
 BS_SRC = [
@@ -37,7 +37,7 @@ BS_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Beyin sarsıntısı: iyileşme ve harekete kademeli dönüş</h1>
     <p class="lede">Başınıza aldığınız bir darbe, düşme ya da ani bir sarsıntıdan sonra baş ağrısı, baş dönmesi, sersemlik ya da odaklanma güçlüğü mü yaşıyorsunuz? Beyin sarsıntısı (konküzyon), beynin geçici olarak etkilendiği bir yaralanmadır. Belirtiler çoğu zaman birkaç gün ile birkaç hafta içinde geçer. Eskiden önerilen uzun ve sıkı dinlenme artık önerilmiyor: ilk 24–48 saatlik görece dinlenmenin ardından günlük işlere ve hafif harekete adım adım dönmek iyileşmeye yardım ediyor.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 31 Ekim 2026</p>
   </div>
 </header>
 
@@ -47,7 +47,7 @@ BS_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>24–48 saat</b><span>Görece dinlenme; ardından hafif etkinliklere kademeli dönüş</span></div>
         <div class="stat"><b>21. gün</b><span>Rekabetçi spora en erken dönüş (İngiltere taban sporu kılavuzu)</span></div>
-        <div class="stat"><b>13’e karşı 17 gün</b><span>Hafif aerobik egzersiz yapan ve yalnızca germe yapan gençlerde ortalama iyileşme süresi</span></div>
+        <div class="stat"><b>13’e karşı 17 gün</b><span>Hafif aerobik egzersiz yapan ve yalnızca germe yapan gençlerde ortanca iyileşme süresi (hastaların yarısının iyileştiği süre)</span></div>
         <div class="stat"><b>10 gün</b><span>Baş dönmesi, boyun ya da baş ağrısı bundan uzun sürerse boyun ve denge rehabilitasyonu önerilir</span></div>
       </div>
     </div>
@@ -94,7 +94,7 @@ BS_BODY = f'''<header class="page">
           <li>Işığa ya da gürültüye hassasiyet, yorgunluk, uyku düzeninde değişiklik.</li>
           <li>Huzursuzluk, kaygı, ağlamaklı olma gibi duygu durum değişiklikleri.</li>
         </ul>
-        <p class="soft">Belirtiler genellikle ilk 24 saat içinde başlar, ama 3 haftaya kadar gecikebilir. Hafif belirtiler 2 haftaya kadar sürebilir; çoğu kişi 4 hafta içinde iyileşir.</p>
+        <p class="soft">Belirtiler genellikle ilk 24 saat içinde başlar, ama 3 haftaya kadar gecikebilir. Hafif belirtiler 2 haftaya kadar sürebilir; belirtilerin çoğu 2–4 hafta içinde geçer, bazen daha uzun sürebilir.</p>
       </div>
       <div>
         <h2>İlk 24–48 saat</h2>
@@ -131,7 +131,7 @@ BS_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Araştırmalar ne gösteriyor?</h2>
       <p class="soft">2022’de Amsterdam’da toplanan ve 2023’te yayımlanan uluslararası uzlaşıya göre sıkı dinlenme önerilmiyor; günlük işler ve yürüyüş ya da sabit bisiklet gibi hafif aerobik egzersiz iyileşmeye yardımcı olabilir, ekranı ilk 48 saatte sınırlamak da yararlı olabilir. Uzlaşı, baş dönmesi, boyun ağrısı ya da baş ağrısı 10 günden uzun sürenlere boyun ve denge rehabilitasyonu, belirtileri 4 haftayı aşanlara ise farklı uzmanlık alanlarından değerlendirme öneriyor.</p>
-      <p class="soft">Bu önerilere dayanak olan çalışmalardan biri ABD’de 103 genç sporcuyla yapıldı: ilk 10 gün içinde, belirtileri artırmayan bir şiddette (koşu bandı testinde belirtilerin arttığı nabzın %80’i) günde yaklaşık 20 dakika aerobik egzersiz yapanlar ortalama 13 günde, yalnızca germe yapanlar 17 günde iyileşti. İyileşmesi 4 haftayı aşanlar egzersiz grubunda 52 kişiden 2, germe grubunda 51 kişiden 7’ydi; ancak bu fark istatistiksel olarak anlamlı değildi. Çalışmalar çoğunlukla genç sporcularda yapıldı; yetişkinlerde ve spor dışı yaralanmalarda kanıt daha sınırlı.</p>
+      <p class="soft">Bu önerilere dayanak olan çalışmalardan biri ABD ve Kanada’da 103 genç sporcuyla yapıldı: ilk 10 gün içinde, belirtileri artırmayan bir şiddette (koşu bandı testinde belirtilerin arttığı nabzın %80’i) günde yaklaşık 20 dakika aerobik egzersiz yapanların yarısı 13 gün içinde, yalnızca germe yapanların yarısı 17 gün içinde iyileşti (ortanca süre). İyileşmesi 30 günü aşanlar egzersiz grubunda 52 kişiden 2, germe grubunda 51 kişiden 7’ydi; ancak bu fark istatistiksel olarak anlamlı değildi. Çalışmalar çoğunlukla genç sporcularda yapıldı; yetişkinlerde ve spor dışı yaralanmalarda kanıt daha sınırlı.</p>
     </div>
   </section>
 

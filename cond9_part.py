@@ -7,9 +7,9 @@ _ex2("cr_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayay�
 
 # ============================================================== KALP REHABİLİTASYONU
 CR_FAQ = [
- ("Kalp krizinden sonra egzersiz yapmak güvenli mi?", "Kardiyoloğunuzun onayıyla ve kademeli olarak yapıldığında evet. 85 çalışmanın derlemesinde egzersize dayalı rehabilitasyona katılanlarda yeniden kalp krizi ve hastaneye yatış daha az görüldü. Hangi şiddette başlayacağınızı hekiminiz belirler."),
+ ("Kalp krizinden sonra egzersiz yapmak güvenli mi?", "Kardiyoloğunuzun onayıyla ve kademeli olarak yapıldığında evet. 107 çalışmanın derlemesinde egzersize dayalı rehabilitasyona katılanlarda yeniden kalp krizi ve hastaneye yatış daha az görüldü. Hangi şiddette başlayacağınızı hekiminiz belirler."),
  ("Ne zaman başlayabilirim?", "Bu, geçirdiğiniz olaya ve yapılan işleme göre değişir; kararı kardiyoloğunuz verir. Genellikle hastanede kısa yürüyüşlerle başlanır, taburcu olduktan sonra program kademeli olarak ilerletilir."),
- ("Evde mi, merkezde mi yapmalıyım?", "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir. İngiltere’deki ulusal kalp rehabilitasyonu denetimine göre programa başlayanların yaklaşık %70–80’i programı tamamlıyor; NHS’nin hedefi kalp krizi geçirenlerin %85’inin programa katılması. ABD'de kalp rehabilitasyonuna yönlendirilen 1.120 kişinin yaklaşık 4 yıl izlendiği bir çalışmada, ev temelli programa katılanlarda ölüm oranı %12, katılmayanlarda %20 idi; bu bir gözlem çalışması olduğu için sonuçta başka etkenler de rol oynamış olabilir."),
+ ("Evde mi, merkezde mi yapmalıyım?", "24 çalışmayı (3.046 kişi) inceleyen derlemede, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar benzer etkili bulundu. Hangisine düzenli devam edebilecekseniz onu seçin; ev programı da hekim onayı ve düzenli izlem gerektirir. İngiltere’deki ulusal kalp rehabilitasyonu denetimine göre programa başlayanların yaklaşık %70–80’i programı tamamlıyor; NHS Uzun Vadeli Planı’nın (2019) hedefi, akut koroner sendrom (kalp krizi ya da kararsız göğüs ağrısı) geçirenlerin %85’inin programa katılması. ABD'de kalp rehabilitasyonuna yönlendirilen 1.120 kişinin yaklaşık 4 yıl izlendiği bir çalışmada, ev temelli programa katılanlarda ölüm oranı %12, katılmayanlarda %20 idi; bu bir gözlem çalışması olduğu için sonuçta başka etkenler de rol oynamış olabilir."),
  ("Egzersiz sırasında nabzım kaç olmalı?", "Hedef nabız kişiye göre değişir ve kullandığınız ilaçlardan etkilenir; bu yüzden herkese tek bir sayı vermek doğru olmaz. Hekiminiz size bir aralık belirlemediyse konuşma testini kullanın: konuşabiliyor ama şarkı söyleyemiyorsanız orta şiddettesiniz."),
 ]
 
@@ -27,8 +27,8 @@ CR_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Kalp rehabilitasyonu</h1>
-    <p class="lede">Kalp krizi, stent ya da bypass ameliyatından sonra pek çok kişi hareket etmekten korkar. Oysa doğru ayarlanmış egzersiz tedavinin parçasıdır: 85 çalışmanın derlemesinde egzersize dayalı kalp rehabilitasyonu yeniden kalp krizi ve hastaneye yatış riskini azalttı. Program kardiyoloğunuzun onayıyla başlar ve adım adım ilerler.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="lede">Kalp krizi, stent ya da bypass ameliyatından sonra pek çok kişi hareket etmekten korkar. Oysa doğru ayarlanmış egzersiz tedavinin parçasıdır: 107 çalışmanın derlemesinde egzersize dayalı kalp rehabilitasyonu yeniden kalp krizi ve hastaneye yatış riskini azalttı. Program kardiyoloğunuzun onayıyla başlar ve adım adım ilerler.</p>
+    <p class="meta">Son güncelleme: 31 Ekim 2026</p>
   </div>
 </header>
 
@@ -36,8 +36,8 @@ CR_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%28</b><span>Kalp rehabilitasyonuyla yeniden kalp krizi riskindeki azalma (85 çalışma, 23.430 kişi)</span></div>
-        <div class="stat"><b>%42</b><span>Aynı derlemede 6–12 aylık izlemde hastaneye yatış riskindeki azalma</span></div>
+        <div class="stat"><b>%28</b><span>Kalp rehabilitasyonuyla 6–12 aylık izlemde yeniden kalp krizi riskindeki azalma (25 çalışma, 8.584 kişi)</span></div>
+        <div class="stat"><b>%35</b><span>Aynı derlemede 6–12 aylık izlemde hastaneye yatış riskindeki olası azalma</span></div>
         <div class="stat"><b>24 çalışma</b><span>Evde ve merkezde yapılan rehabilitasyonu karşılaştıran araştırmalar; sonuçlar benzer</span></div>
         <div class="stat"><b>19,8 milyon</b><span>2022'de kalp-damar hastalıklarından ölenler; dünyadaki ölümlerin yaklaşık %32'si (DSÖ)</span></div>
       </div>
@@ -66,7 +66,7 @@ CR_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Araştırmalar ne gösteriyor?</h2>
-      <p class="soft">2026'da güncellenen Cochrane derlemesi, koroner kalp hastalığı olan 23.430 kişiyle yapılmış 85 rastgele kontrollü çalışmayı inceledi; katılımcıların çoğu kalp krizi geçirmiş ya da damar açma işlemi (stent, bypass) görmüştü. Egzersize dayalı rehabilitasyon, 6–12 aylık izlemde yeniden kalp krizi riskini %28, hastaneye yatış riskini %42 azalttı: yaklaşık her 12 kişide bir hastane yatışı önlendi. Ölümlerde küçük bir azalma olası görünüyor, ancak bu sonuç kesin değil. Katılımcıların yalnızca %17'si kadındı.</p>
+      <p class="soft">2026'da güncellenen Cochrane derlemesi, koroner kalp hastalığı olan 26.886 kişiyle yapılmış 107 rastgele kontrollü çalışmayı inceledi; katılımcıların çoğu kalp krizi geçirmiş ya da damar açma işlemi (stent, bypass) görmüştü. Egzersize dayalı rehabilitasyon, 6–12 aylık izlemde yeniden kalp krizi riskini %28 azalttı (yaklaşık her 71 kişide bir kalp krizi önlendi); hastaneye yatış riskini de muhtemelen yaklaşık %35 azaltıyor (kabaca her 17 kişide bir yatış). Ölümlerde küçük bir azalma olası görünüyor, ancak bu sonuç kesin değil. Katılımcıların yalnızca %17'si kadındı.</p>
       <p class="soft">Evde yapılan programlar da işe yarıyor: 24 çalışmayı (3.046 kişi) inceleyen bir başka Cochrane derlemesinde, sağlık çalışanlarınca desteklenen ev programları ile merkezde yapılan programlar arasında egzersiz kapasitesi, yaşam kalitesi ve ölüm açısından fark bulunmadı.</p>
       <div class="callout">
         <p>Kalp olayından sonra hareket etmekten korkmak çok yaygındır. Ne zaman ve hangi şiddette başlayacağınıza kardiyoloğunuz karar verir; programı onun onayıyla, küçük adımlarla ilerletin.</p>
