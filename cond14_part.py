@@ -51,6 +51,7 @@ GT_FAQ = [
 ]
 
 GT_SRC = [
+ "Grimaldi A, Mellor R, Nicolson P, Hodges P, Bennell K, Vicenzino B. " + ext("https://sogacot.org/articulos/utility-of-clinical-tests-to-diagnose-mri-confirmed-gluteal-tendinopathy-in-patients-presenting-with-lateral-hip-pain/", "Utility of clinical tests to diagnose MRI-confirmed gluteal tendinopathy in patients presenting with lateral hip pain") + ". Br J Sports Med. 2017;51(6):519-524.",
  "Mellor R, Bennell K, Grimaldi A, et al. " + ext("https://www.bmj.com/content/361/bmj.k1662", "Education plus exercise versus corticosteroid injection use versus a wait and see approach on global outcome and pain from gluteal tendinopathy: prospective, single blinded, randomised clinical trial") + ". BMJ. 2018;361:k1662.",
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/greater-trochanteric-pain-syndrome/", "Greater trochanteric pain syndrome (GTPS)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
  "Cordeiro TTP, Rocha EAB, Scattone Silva R. " + ext("https://www.nature.com/articles/s41598-024-53283-x", "Effects of exercise-based interventions on gluteal tendinopathy: systematic review with meta-analysis") + ". Sci Rep. 2024;14:3343.",
@@ -59,16 +60,22 @@ GT_SRC = [
  "Royal Berkshire NHS Foundation Trust, Physiotherapy. " + ext("https://www.royalberkshire.nhs.uk/media/g5mfdnrr/greater-trochanteric-pain-syndrome_nov24.pdf", "Greater trochanteric pain syndrome") + ". November 2024.",
 ]
 
+GT_TL = [
+ ("2015", "Kalça yan kirişlerinin sorunlarını hareket mekaniği ve muayene bulgularıyla birlikte ele alan, tedaviye yol gösteren bir derleme yayımlandı (JOSPT)."),
+ ("2017", "Kalça yan ağrısı olan 65 kişide muayene testleri MR ile karşılaştırıldı (BJSM): 30 saniye tek ayak üzerinde dururken ağrı çıkması kiriş sorununu çok olası kılıyordu; kemik çıkıntısında bastırınca hassasiyet olmaması ise olasılığı düşürüyordu."),
+ ("2018", "204 kişiyle yapılan LEAP çalışması (BMJ): 8 haftada 14 seanslık eğitim ve egzersiz programı, hem tek kortizon iğnesinden hem de beklemekten daha yüksek iyileşme oranı sağladı; fark 1 yılda da sürdü."),
+ ("2024", "Beş çalışmayı inceleyen bir meta-analiz (Scientific Reports): egzersiz, en az düzeyde müdahaleye göre işlevde kısa ve uzun vadede daha iyiydi; ağrıda kortizon iğnesinden farklı değildi, ama tedavi başarısı daha yüksekti. Kanıtın kesinliği düşük ile çok düşük arasındaydı."),
+]
+
 GT_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Kalça yan ağrısı (trokanterik bursit)</h1>
     <p class="lede">Kalçanın dış yanındaki ağrı çoğunlukla “bursit” diye bilinir; oysa asıl sorun genellikle kalçanın yan kaslarını kemiğe bağlayan kirişlerin aşırı yüklenmesidir. Yan yatınca, merdiven çıkarken ve uzun yürüyünce artar. 204 kişilik bir çalışmada eğitim ve egzersiz, hem kortizon iğnesinden hem de beklemekten daha iyi sonuç verdi.</p>
-    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -78,10 +85,10 @@ GT_BODY = f'''<header class="page">
         <div class="stat"><b>%77 / %58 / %29</b><span>8. haftada belirgin iyileşme: eğitim ve egzersiz, iğne, bekleme</span></div>
         <div class="stat"><b>%79 / %58 / %52</b><span>Bir yıl sonra belirgin iyileşme: aynı sırayla</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("karar", "İğne mi, egzersiz mi?"), ("tarihce", "Geçmişten bugüne"), ("aliskanliklar", "Kalçayı rahatlatan alışkanlıklar"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -100,8 +107,18 @@ GT_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı çoğunlukla öykü ve muayeneyle konur. Kalça yan ağrısı olan 65 kişide muayene testlerinin MR ile karşılaştırıldığı bir çalışma (BJSM, 2017), hangi bulguların yol gösterici olduğunu inceledi. Bu testler fizyoterapist ya da hekim tarafından yapılır.</p>
+      <div class="kinds">
+        <div class="kind"><h3>Tek ayak üzerinde durma</h3><p>Ağrılı bacağın üzerinde 30 saniye dururken kalçanın yanında ağrı çıkması, kalça yan kirişlerinin sorununu çok olası kılıyordu (özgüllük %100).</p></div>
+        <div class="kind"><h3>Bastırınca hassasiyet</h3><p>Kalçanın yanındaki kemik çıkıntısına bastırınca ağrı olmaması, kiriş sorununu olasılık dışına itiyordu (duyarlılık %80). Hassasiyet olması ise tek başına tanıyı koydurmaz.</p></div>
+        <div class="kind"><h3>Başka ne olabilir?</h3><p>Ağrı kasıkta hissediliyor ve kalça hareketleri kısıtlanıyorsa <a href="kalca-kireclenmesi.html">kalça kireçlenmesi</a>, belden bacağa yayılan ağrıyla birlikte uyuşma ya da karıncalanma varsa bel kaynaklı bir sorun düşünülür.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="karar">
     <div class="wrap">
       <h2>İğne mi, egzersiz mi, beklemek mi?</h2>
       <p class="soft">Avustralya'da yapılan LEAP çalışması bu soruyu doğrudan sınadı. En az üç aydır kalça yan ağrısı olan, 35–70 yaş arasındaki 204 kişi üç gruba ayrıldı: sekiz hafta boyunca fizyoterapistle eğitim ve egzersiz, tek bir kortizon iğnesi ya da yalnızca bilgilendirme ve bekleme.</p>
@@ -111,8 +128,22 @@ GT_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>"Bursit"ten kiriş sorununa</h2>
+      <p class="soft">Kalça yan ağrısı uzun süre bursit olarak adlandırıldı. Son on yılın çalışmaları, sorunun çoğu zaman kalça yan kirişlerinden kaynaklandığını ve eğitimle desteklenen egzersizin iğneden daha kalıcı yarar sağlayabildiğini gösterdi.</p>
+      {g_tl(GT_TL)}
+      <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
+      <p class="soft">LEAP çalışması (BMJ, 2018) ile beş çalışmayı inceleyen meta-analizin (Scientific Reports, 2024) bulguları yan yana. Meta-analizde kanıtın kesinliği düşük ile çok düşük arasındaydı; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Eğitim ve egzersiz</h3><dl><dt>LEAP</dt><dd>8 haftada 14 seans: belirgin iyileşme 8. haftada %77, 1 yılda %79.</dd><dt>Meta-analiz</dt><dd>En az düzeyde müdahaleye göre işlevde kısa ve uzun vadede daha iyi; yaşam kalitesinde fark yok.</dd></dl></div>
+        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>LEAP</dt><dd>Tek iğne: belirgin iyileşme 8. haftada %58, 1 yılda %58; 1 yılda ağrı şiddeti egzersiz grubuyla benzer.</dd><dt>Meta-analiz</dt><dd>Ağrıda egzersizden farklı değil; egzersizde tedavi başarısı daha yüksek.</dd></dl></div>
+        <div class="kind"><h3>Bekleme</h3><dl><dt>LEAP</dt><dd>Tek bilgilendirme seansı: belirgin iyileşme 8. haftada %29, 1 yılda %52.</dd></dl></div>
+      </div>
+    </div>
+  </section>
+  <section id="aliskanliklar">
     <div class="wrap">
       <h2>Kalçayı rahatlatan alışkanlıklar</h2>
       <ul class="tx">
@@ -125,7 +156,6 @@ GT_BODY = f'''<header class="page">
       </ul>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -137,7 +167,6 @@ GT_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -158,29 +187,31 @@ GT_BODY = f'''<header class="page">
       <p class="meta">Videolar Somerset NHS Foundation Trust ve UC San Diego Health kanallarına aittir.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(GT_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
+      <p class="soft">Kalça yan ağrısı çoğu zaman acil değildir. Şu durumlarda ise beklemeden başvurun.</p>
+      <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
       <ul class="dots redflags">
-        <li>Düşme ya da darbeden sonra bacağınızın üzerine basamıyorsanız (acil)</li>
-        <li>Kalçada ağrıyla birlikte ateş, kızarıklık ve sıcaklık</li>
-        <li>Dinlenirken ve gece hiç geçmeyen ağrı, açıklanamayan kilo kaybı</li>
+        <li>Düşme ya da darbeden sonra bacağınızın üzerine basamıyorsanız (kırık olabilir)</li>
+        <li>Kalçada ağrıyla birlikte ateş, kızarıklık ya da sıcaklık</li>
+        <li>Bel ağrısıyla birlikte bacaklarda güçsüzlük ya da idrar veya dışkı kontrolünde sorun</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Dinlenirken ve gece hiç geçmeyen ağrı, açıklanamayan kilo kaybı ya da kanser öyküsü</li>
         <li>Bacakta uyuşma, karıncalanma ya da güçsüzlük</li>
         <li>Ağrı kasıkta hissediliyor ve kalça hareketleri giderek kısıtlanıyorsa</li>
       </ul>
       {CTA_CARD("Kalça yan ağrınız", "kalça yan ağrısı")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -190,7 +221,7 @@ GT_BODY = f'''<header class="page">
 </main>'''
 
 page("kalca-yan-agrisi.html", "Kalça Yan Ağrısı (Trokanterik Bursit)",
-     "Kalçanın dış yanındaki ağrı neden olur? Trokanterik bursit denen ağrıda kortizon iğnesi mi, egzersiz mi daha iyi? Rahatlatan alışkanlıklar, yatış pozisyonu, evde altı egzersiz ve videolar.",
+     "Kalçanın dış yanındaki ağrı neden olur, nasıl tanınır? Trokanterik bursit denen ağrıda kortizon iğnesi mi, egzersiz mi daha iyi? Kanıtların karşılaştırması, kısa tarihçe, rahatlatan alışkanlıklar, evde altı egzersiz ve uyarı işaretleri.",
      "kalca-yan-agrisi.html", NECK_CSS, GT_BODY, YT_JS,
      seo_title="Kalça Yan Ağrısı (Trokanterik Bursit): Egzersiz ve Tedavi | İhsan Eren",
      condition="Büyük trokanter ağrı sendromu", faq_items=GT_FAQ)
