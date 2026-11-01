@@ -34,6 +34,7 @@ EXT.update({
 
 KEMIK_FAQ = [
  ("Kemik erimesinde egzersiz yapmak güvenli mi?", "Evet; egzersiz kemik sağlığının en önemli parçalarından biridir. İngiltere Osteoporoz Derneği'nin uzman görüş bildirisi kas güçlendirme, uygun kişilerde darbe egzersizleri ve denge çalışmalarını öneriyor. Egzersizin tipi ve yoğunluğu kırık öykünüze ve genel durumunuza göre bir fizyoterapist tarafından ayarlanmalıdır."),
+ ("T-skorum −2 çıktı, bu ne demek?", "Dünya Sağlık Örgütü'nün tanımına göre −1 ile −2,5 arasındaki T-skoru osteopeni, yani düşük kemik kütlesi anlamına gelir; kemik erimesi (osteoporoz) için T-skorunun −2,5 ya da daha düşük olması gerekir. Ancak kırılganlık kırığı geçirenlerin çoğunun T-skoru −2,5'in altında değildir. Bu yüzden kırık riski yalnız T-skoruyla değil, FRAX gibi kemik yoğunluğunu diğer risk etkenleriyle birlikte değerlendiren hesaplamalarla da tahmin edilir; tedavi gerekip gerekmediğine hekiminiz karar verir. Kemik yoğunluğu düşük (osteopeni ya da osteoporoz) menopoz sonrası kadınlarla yapılan LIFTMOR çalışmasında, gözetimli kuvvet ve darbe egzersizi kemik yoğunluğunu artırdı."),
  ("Hangi hareketlerden kaçınmalıyım?", "Omurgayı uzun süre, en uç noktaya kadar ya da yük altında öne bükmeyi gerektiren hareketlerin değiştirilmesi ya da yerine başka hareketler bulunması öneriliyor. Örneğin mekik çekmek, dizler düzken yere doğru eğilmek ya da yükü belinizi yuvarlayarak kaldırmak yerine kalçanızdan eğilip dizlerinizi bükmek daha güvenlidir."),
  ("Yürüyüş kemiklerim için yeterli mi?", "Yürüyüş genel sağlık için çok değerlidir ama kemikler için tek başına genellikle yeterli değildir. Haftada 2–3 gün kas güçlendirme egzersizleri önerilir; uygun olanlarda çoğu gün yaklaşık 50 orta şiddetli darbe (hafif koşu adımları, küçük sıçramalar) eklenebilir. 65 yaş üstündekiler ve denge sorunu olanlar denge egzersizlerini de programa katmalıdır."),
  ("Omurgamda kırık oldu, egzersiz yapabilir miyim?", "Evet, ama program size göre uyarlanmalıdır. Ağrılı omurga kırığı olanların kaygıyı azaltacak bilgiyi erkenden almaları ve fizyoterapiste yönlendirilmeleri öneriliyor. Başlangıçta darbe egzersizleri yerine güçlendirme, denge ve güvenli hareket öğretimi öne çıkar. İngiltere’nin 2022 osteoporoz kılavuzu (NOGG), kırılganlık kırığı geçirenlerde yeni kırık riskini azaltmak için ilaç tedavisine hızla başlanmasını ve tedavinin düzenli izlenmesini vurguluyor; bu konuyu hekiminizle konuşabilirsiniz."),
@@ -41,12 +42,23 @@ KEMIK_FAQ = [
 ]
 
 KEMIK_SRC = [
- "Giangregorio LM, et al. " + ext("https://link.springer.com/article/10.1007/s00198-013-2523-2", "Too Fit To Fracture: exercise recommendations for individuals with osteoporosis or osteoporotic vertebral fracture") + ". Osteoporos Int. 2014;25.",
+ "Giangregorio LM, et al. " + ext("https://link.springer.com/article/10.1007/s00198-013-2523-2", "Too Fit To Fracture: exercise recommendations for individuals with osteoporosis or osteoporotic vertebral fracture") + ". Osteoporos Int. 2014;25. Tam metin: " + ext("https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/724074d1-ca56-5db4-8af6-6a0fc321aa82/content", "Melbourne Üniversitesi") + ".",
+ "International Osteoporosis Foundation. " + ext("https://www.osteoporosis.foundation/health-professionals/diagnosis", "Diagnosis") + ".",
+ "Albright F, Smith PH, Richardson AM. Postmenopausal osteoporosis: its clinical features. JAMA. 1941;116:2465. Atıf: " + ext("https://link.springer.com/doi/10.1007/s11999-011-1832-z", "Clin Orthop Relat Res, 2011") + ".",
  "International Osteoporosis Foundation. " + ext("https://www.osteoporosis.foundation/facts-statistics/epidemiology-of-osteoporosis-and-fragility-fractures", "Epidemiology of osteoporosis and fragility fractures") + ".",
  "Royal Osteoporosis Society. " + ext("https://www.bgs.org.uk/strong-steady-straight-nos-exercise-and-osteoporosis-consensus-statement", "Strong, Steady and Straight: an expert consensus statement on physical activity and exercise for osteoporosis") + ". 2019.",
  "Watson SL, Weeks BK, Weis LJ, et al. " + ext("https://academic.oup.com/jbmr/article-abstract/33/2/211/7605709", "High-intensity resistance and impact training improves bone mineral density and physical function in postmenopausal women with osteopenia and osteoporosis: the LIFTMOR randomized controlled trial") + ". J Bone Miner Res. 2018;33(2):211-220.",
  "Gregson CL, Armstrong DJ, Bowden J, et al. " + ext("https://eprints.whiterose.ac.uk/185838", "UK clinical guideline for the prevention and treatment of osteoporosis") + ". Arch Osteoporos. 2022;17(1):58.",
  "Massé O, et al. Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis. BMJ. 2026;393:e088050. Özet: " + ext("https://bmjgroup.com/calcium-and-vitamin-d-supplements-offer-little-to-no-meaningful-benefit-on-fracture-and-fall-prevention/", "BMJ Group, 20 May 2026") + ".",
+]
+
+KEMIK_TL = [
+ ("1941", "Fuller Albright ve arkadaşları, menopoz sonrası kemik erimesinin klinik özelliklerini anlatan makalelerini JAMA'da yayımladı."),
+ ("2014", "Kanada Osteoporoz Derneği (Osteoporosis Canada), Avustralya, Kanada, Finlandiya ve ABD'den uzmanların hazırladığı Too Fit To Fracture egzersiz önerilerini yayımladı: direnç ve denge egzersizlerini içeren çok bileşenli bir program güçlü şekilde önerildi; yalnızca aerobik egzersiz yapılıp direnç ve denge çalışmalarının ihmal edilmemesi vurgulandı."),
+ ("2018", "LIFTMOR çalışması (JBMR): kemik yoğunluğu düşük, menopoz sonrası 101 kadında uzman gözetiminde haftada iki kez 30 dakikalık yüksek yoğunluklu kuvvet ve darbe egzersizi, 8 ayda bel omurgası kemik yoğunluğunu kontrol grubuna göre belirgin şekilde artırdı."),
+ ("2019", "İngiltere Osteoporoz Derneği'nin (ROS) \"Güçlü, Dengeli ve Dik\" uzman görüş bildirisi yayımlandı: haftada 2–3 gün kas güçlendirme, uygun olanlarda çoğu gün yaklaşık 50 darbe, denge egzersizleri ve omurgayı koruyan hareket."),
+ ("2022", "İngiltere'nin osteoporoz kılavuzu (NOGG) güncellendi: kırılganlık kırığı geçirenlerde yeni kırık riskini azaltmak için tedaviye hızla başlanması ve tedavinin düzenli izlenmesi vurgulandı."),
+ ("2026", "69 çalışmayı kapsayan bir derleme (BMJ): osteoporoz ilacı kullanmayan yetişkinlerde kalsiyum ve D vitamini takviyeleri kırıkları ve düşmeleri klinik açıdan anlamlı ölçüde azaltmadı."),
 ]
 
 KEMIK_BODY = f'''<header class="page">
@@ -55,10 +67,9 @@ KEMIK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Kemik erimesi (osteoporoz)</h1>
     <p class="lede">Kemiklerin yoğunluğunun ve iç yapısının zayıflayarak kolay kırılır hale gelmesidir. Çoğu zaman bir kırık olana kadar belirti vermez. İyi haber: doğru egzersiz, düşmeleri önleme ve gerektiğinde ilaç tedavisiyle kırık riski azaltılabilir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -68,15 +79,15 @@ KEMIK_BODY = f'''<header class="page">
         <div class="stat"><b>37 milyon</b><span>Dünyada 55 yaş üstünde yılda görülen kırılganlık kırığı; dakikada 70</span></div>
         <div class="stat"><b>%21</b><span>50 yaş üstündeki kadınlarda kemik erimesi sıklığı; erkeklerde %6</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Tanı ve T-skoru"), ("tarihce", "Geçmişten bugüne"), ("oneriler", "Egzersiz önerileri"), ("egzersizler", "Egzersizler"), ("gunluk", "Günlük hayatta"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Kemik, sürekli yıkılıp yeniden yapılan canlı bir dokudur. Yaşla ve özellikle kadınlarda menopozdan sonra yıkım yapımın önüne geçer; kemik yoğunluğu azalır, iç yapısı incelir. Sonuçta basit bir düşme ya da öne eğilip yük kaldırma gibi zorlamalar kırığa yol açabilir. En sık omurga, kalça ve el bileği kırılır.</p>
-        <p class="soft">Tanı kemik yoğunluğu ölçümüyle (DEXA) konur. Kimin ne zaman ölçüm yaptırması gerektiğine risk etkenlerine göre hekim karar verir.</p>
+        <p class="soft">Tanı kemik yoğunluğu ölçümüyle (DEXA) konur (bkz. <a href="#tani">Tanı ve T-skoru</a>). Kimin ne zaman ölçüm yaptırması gerektiğine risk etkenlerine göre hekim karar verir.</p>
       </div>
       <div>
         <h2>Risk etkenleri</h2>
@@ -91,8 +102,28 @@ KEMIK_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Tanı: kemik yoğunluğu ölçümü ve T-skoru</h2>
+      <p class="soft">Kemik yoğunluğu en sık DEXA adı verilen, kısa süren bir ölçümle değerlendirilir; genellikle uyluk kemiğinin üst kısmı ve bel omurgası ölçülür. Sonuç, genç yetişkinlerin ortalamasıyla karşılaştırılır ve T-skoru olarak verilir. Uluslararası Osteoporoz Vakfı'nın aktardığı Dünya Sağlık Örgütü tanımına göre uyluk kemiği boynunda ölçülen T-skoru şöyle yorumlanır:</p>
+      <div class="kinds">
+        <div class="kind"><h3>Normal</h3><p>T-skoru −1 ve üzeri.</p></div>
+        <div class="kind"><h3>Osteopeni (düşük kemik kütlesi)</h3><p>T-skoru −1 ile −2,5 arasında.</p></div>
+        <div class="kind"><h3>Osteoporoz</h3><p>T-skoru −2,5 ya da daha düşük.</p></div>
+        <div class="kind"><h3>Ağır osteoporoz</h3><p>T-skoru −2,5 ya da daha düşük ve en az bir kırılganlık kırığı.</p></div>
+      </div>
+      <p class="soft">DEXA kemiğin miktarını ölçer, kalitesini göstermez. Kırılganlık kırığı geçirenlerin çoğunun T-skoru −2,5'in altında değildir; yani kırıkların çoğu osteopeni düzeyindeki kişilerde görülür. Bu yüzden kırık riski, FRAX gibi kemik yoğunluğunu yaş, önceki kırıklar ve diğer risk etkenleriyle birlikte değerlendiren hesaplamalarla da tahmin edilir. Farklı cihazların sonuçları birbirinden ayrılabildiği için takip ölçümlerinin aynı cihazla yapılması tercih edilir.</p>
+    </div>
+  </section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Menopozdan egzersiz önerilerine</h2>
+      <p class="soft">Menopoz sonrası kemik erimesi 1940'larda tarif edildi. Son yıllarda ise egzersizin kemik sağlığındaki yeri netleşti; öneriler yalnızca yürüyüşten kas güçlendirme, denge ve omurgayı koruyan harekete doğru genişledi.</p>
+      {g_tl(KEMIK_TL)}
+    </div>
+  </section>
+  <section id="oneriler">
     <div class="wrap">
       <h2>Güçlü, dengeli ve dik: egzersiz önerileri</h2>
       <p class="soft">İngiltere Osteoporoz Derneği'nin uzman görüş bildirisi egzersizi üç hedef etrafında topluyor: kemiği güçlendirmek, düşmeleri önlemek ve omurgayı korumak.</p>
@@ -106,9 +137,17 @@ KEMIK_BODY = f'''<header class="page">
       <div class="callout">
         <p>İlaç tedavisi, kalsiyum ve D vitamini ihtiyacı kişiye göre değişir; bunlara hekiminiz karar verir. 2026'da The BMJ'de yayımlanan ve 69 çalışmayı kapsayan bir derlemede, osteoporoz ilacı kullanmayan yetişkinlerde kalsiyum ve D vitamini takviyeleri kırıkları ve düşmeleri klinik açıdan anlamlı ölçüde azaltmadı. Sigarayı bırakmak ve alkolü sınırlamak da kemikleri korur.</p>
       </div>
+      <h3 class="g-h3">Egzersiz önerileri: iki kaynak yan yana</h3>
+      <p class="soft">İngiltere Osteoporoz Derneği'nin (ROS) uzman görüş bildirisi (2019) ile Kanada Osteoporoz Derneği'nin Too Fit To Fracture önerileri (2014) yan yana. İkisi de uzman görüşüne ve mevcut çalışmalara dayanıyor; program kişiye, kırık öyküsüne ve genel duruma göre ayarlanır.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Kas güçlendirme</h3><dl><dt>ROS</dt><dd>Haftada 2–3 gün; zamanla her hareket için 8–12 tekrarlık 3 sete kadar çıkılır; sırt kaslarını güçlendiren hareketler de programda yer alır.</dd><dt>Too Fit To Fracture</dt><dd>Tüm büyük kas gruplarına en az haftada iki kez kademeli direnç egzersizi; her kas grubu için en az bir hareketle 2 set, uygunsa 8–12 tekrar. Hareketsiz olanlar daha düşük düzeyden başlayabilir.</dd></dl></div>
+        <div class="kind"><h3>Denge</h3><dl><dt>ROS</dt><dd>65 yaş üstündekiler ve denge sorunu olanlar için denge ve güçlendirme egzersizleri.</dd><dt>Too Fit To Fracture</dt><dd>Her gün denge çalışması; haftada yaklaşık 2 saat (günde 15–20 dakika).</dd></dl></div>
+        <div class="kind"><h3>Darbe ve aerobik egzersiz</h3><dl><dt>ROS</dt><dd>Uygun olanlarda çoğu gün yaklaşık 50 orta şiddetli darbe; kırık öyküsü olanlarda program uyarlanır.</dd><dt>Too Fit To Fracture</dt><dd>Haftada en az 150 dakika orta ya da yüksek yoğunluklu etkinlik, ama direnç ve denge egzersizlerinin yerine değil; omurga kırığı olanlarda daha kısa ya da daha düşük yoğunluklu etkinlikler daha uygun olabilir.</dd></dl></div>
+        <div class="kind"><h3>Omurgayı korumak</h3><dl><dt>ROS</dt><dd>Omurgayı uzun süre, en uç noktaya kadar ya da yük altında öne bükmeyi gerektiren hareketler değiştirilir.</dd><dt>Too Fit To Fracture</dt><dd>Hareketler arasındaki geçişlerde dönme ve öne eğilmeye dikkat; omurga kırığı riski yüksek olanlarda öne eğilme ve dönme gerektiren direnç makinelerinden, doğru kullanılabileceği kesin değilse, kaçınılır. Duruş kaslarını (sırt kaslarının dayanıklılığını) güçlendiren egzersizler ve duruş eğitimi önerilir.</dd></dl></div>
+        <div class="kind"><h3>Fizyoterapist</h3><dl><dt>ROS</dt><dd>Ağrılı omurga kırığı olanlara kaygıyı azaltacak bilgi erkenden verilmeli ve fizyoterapiste yönlendirilmeli.</dd><dt>Too Fit To Fracture</dt><dd>Güvenli ve uygun egzersiz için fizyoterapiste danışılması öneriliyor.</dd></dl></div>
+      </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -117,8 +156,7 @@ KEMIK_BODY = f'''<header class="page">
       {ex_grid(["sts6", "heel3", "hinge", "pchest", "sls2", "scap4"])}
     </div>
   </section>
-
-  <section>
+  <section id="gunluk">
     <div class="wrap two">
       <div>
         <h2>Günlük hayatta omurganız için</h2>
@@ -133,7 +171,6 @@ KEMIK_BODY = f'''<header class="page">
       </ul>
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -154,28 +191,31 @@ KEMIK_BODY = f'''<header class="page">
       <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(KEMIK_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
+      <p class="soft">Şu durumlarda beklemeden başvurun.</p>
+      <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
+      <ul class="dots redflags">
+        <li>Sırt ağrısıyla birlikte bacaklarda uyuşma, güç kaybı ya da idrar ve dışkı kontrolünde bozulma</li>
+        <li>Düşme sonrası kalça ağrısı ve bacağa yük verememe (kalça kırığı olabilir)</li>
+        <li>Düşme sonrası el bileğinde şekil bozukluğu ya da belirgin şişlik (kırık olabilir)</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Öne eğilme, yük kaldırma, öksürme ya da küçük bir düşmeden sonra aniden başlayan şiddetli sırt ağrısı (omurga kırığı olabilir)</li>
-        <li>Düşme sonrası kalça ağrısı ve bacağa yük verememe (kalça kırığı olabilir)</li>
-        <li>Sırt ağrısıyla birlikte bacaklarda uyuşma, güç kaybı ya da idrar ve dışkı kontrolünde bozulma (acil)</li>
         <li>Boyda belirgin kısalma ya da hızla artan kamburluk</li>
+        <li>Dinlenmekle geçmeyen gece ağrısı ya da nedensiz kilo kaybı</li>
       </ul>
       {CTA_CARD("Kemik sağlığınız ve egzersiz programınız", "kemik erimesi")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -185,7 +225,7 @@ KEMIK_BODY = f'''<header class="page">
 </main>'''
 
 page("kemik-erimesi.html", "Kemik Erimesi (Osteoporoz)",
-     "Kemik erimesi (osteoporoz) nedir, kimlerde görülür, egzersiz güvenli mi, hangi hareketlerden kaçınmalı? Güçlü, dengeli ve dik: evde altı egzersiz, günlük hayatta omurgayı koruma, videolar ve uyarı işaretleri.",
+     "Kemik erimesi (osteoporoz) nedir, T-skoru ne anlama gelir, egzersiz güvenli mi, hangi hareketlerden kaçınmalı? İki egzersiz önerisinin karşılaştırması, kısa tarihçe, evde altı egzersiz, günlük hayatta omurgayı koruma ve uyarı işaretleri.",
      "kemik-erimesi.html", NECK_CSS, KEMIK_BODY, YT_JS,
      seo_title="Kemik Erimesi (Osteoporoz): Egzersizler ve Güvenli Hareket | İhsan Eren",
      condition="Kemik erimesi (osteoporoz)", about=cond("Kemik erimesi (osteoporoz)"),
