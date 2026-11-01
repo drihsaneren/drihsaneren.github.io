@@ -41,24 +41,37 @@ SV["adams"] = fig(GRD +
 # ============================================================== DİZ ÖNÜ AĞRISI
 _ex2("pf_abd", "abd", "Yan yatarak bacak kaldırma", "Yan yatın, alttaki dizinizi hafifçe bükün. Üstteki bacağınızı dizi düz, ayak ucu öne bakacak şekilde yukarı kaldırın, 2 saniye tutup yavaşça indirin. Kalçanın yan kasları dizi dengede tutmaya yardım eder.", "Her iki yana 10–15 tekrar, 2–3 set")
 _ex2("pf_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak yavaşça kaldırın, 3 saniye bekleyip indirin. Kolaylaştıkça tek bacakla deneyin.", "10–15 tekrar, 2–3 set")
-_ex2("pf_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Dizleriniz ayak parmaklarınızın hizasında kalacak şekilde, ağrıyı belirgin artırmayan bir derinliğe kadar inin, birkaç saniye bekleyip yukarı çıkın.", "8–10 tekrar, 2–3 set")
-_ex2("pf_kext", "kext", "Oturarak diz açma", "Sandalyeye dik oturun. Dizinizi yavaşça düzeltip uyluğunuzun ön kasını sıkın, 3 saniye tutun ve yavaşça indirin. Ağrı olursa hareketi daha kısa bir açıklıkta yapın.", "10–15 tekrar, 2–3 set")
-_ex2("pf_sabd", "sabd", "Ayakta kalçayı yana açma", "Tezgâha tutunarak dik durun. Bir bacağınızı dizi düz, ayak ucu öne bakacak şekilde yana doğru açın ve yavaşça indirin. Gövdenizi yana eğmeyin. Kolaylaştıkça ayak bileğinize lastik bant ekleyin.", "Her iki yana 10–15 tekrar")
+_ex2("pf_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Dizleriniz ayak parmaklarınızın hizasında kalacak şekilde, ağrıyı belirgin artırmayan bir derinliğe kadar inin (dizler en fazla sandalyeye oturur gibi yarı bükülü, 90 dereceyi geçmeden), birkaç saniye bekleyip yukarı çıkın.", "8–10 tekrar, 2–3 set")
+_ex2("pf_kext", "kext", "Oturarak diz açma", "Sandalyeye dik oturun. Dizinizi yavaşça düzeltip uyluğunuzun ön kasını sıkın, 3 saniye tutun ve yavaşça indirin. Ağrı olursa dizinizi tam düzeltmeden, ağrısız aralıkta çalışın.", "10–15 tekrar, 2–3 set")
+_ex2("pf_sabd", "sabd", "Ayakta kalçayı yana açma", "Tezgâha tutunarak dik durun. Bir bacağınızı dizi düz, ayak ucu öne bakacak şekilde yana doğru açın ve yavaşça indirin. Gövdenizi yana eğmeyin. Kolaylaştıkça ayak bileğinize lastik bant ekleyin.", "Her iki yana 10–15 tekrar, 2–3 set")
 _ex2("pf_sls", "sls", "Tek ayak üzerinde denge", "Tezgâha hafifçe tutunarak tek ayağınızın üzerinde durun, dizinizi hafifçe bükülü tutun ve içe kaçmamasına dikkat edin. Kolaylaştıkça tutunmayı azaltın.", "30 saniye, her bacakta 3 kez")
+SV["pf_kext"] = SV["kext"].replace("<figcaption>Oturarak diz düzeltme</figcaption>", "<figcaption>Oturarak diz açma</figcaption>")
+SV["pf_sabd"] = SV["sabd"].replace("<figcaption>Kalçayı yana açma</figcaption>", "<figcaption>Ayakta kalçayı yana açma</figcaption>")
+SV["pf_sls"] = SV["sls"].replace("<figcaption>Tek ayak üzerinde durma</figcaption>", "<figcaption>Tek ayak üzerinde denge</figcaption>")
 
 PF_FAQ = [
  ("Diz kapağımdan ses geliyor, zarar mı veriyor?", "Çoğu zaman hayır. Ağrısız çıtırtılar diz ağrısı olmayan pek çok kişide de vardır ve tek başına bir hastalık belirtisi değildir. Sesle birlikte ağrı ya da şişlik varsa değerlendirme yapılmalıdır."),
  ("Koşmayı bırakmalı mıyım?", "Genellikle tamamen bırakmak gerekmez. Ağrıyı belirgin artırmayan bir mesafe ve hızda devam edip egzersizlerle birlikte yükü kademeli olarak artırabilirsiniz. Yokuş aşağı koşuyu ve merdiven antrenmanlarını bir süre azaltın."),
- ("Dizlik ya da bant işe yarar mı?", "Bazı kişilerde ağrıyı kısa sürede hafifletebilir; ancak uluslararası uzlaşı raporuna göre bu konudaki kanıt yetersizdir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır. 2024’te yayımlanan bir en iyi uygulama rehberi, bandı yalnızca ağrı rehabilitasyonu zorlaştıracak kadar şiddetliyse öneriyor; tedavinin merkezinde dize yönelik egzersiz ve eğitim duruyor, en az 6 haftada yanıt yoksa değerlendirmenin gözden geçirilmesi gerekiyor."),
+ ("Dizlik ya da bant işe yarar mı?", "Bazı kişilerde ağrıyı kısa sürede hafifletebilir; ancak uluslararası uzlaşı raporuna göre bu konudaki kanıt yetersizdir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır. 2024'te yayımlanan bir en iyi uygulama rehberi, bandın ağrının şiddeti ya da kolay alevlenmesi rehabilitasyonu zorlaştırıyorsa düşünülebileceğini belirtiyor; tedavinin merkezinde dize yönelik egzersiz ve eğitim duruyor, en az 6 haftalık düzenli egzersize rağmen yeterli düzelme yoksa değerlendirmenin gözden geçirilmesi gerekiyor. ABD fizyoterapi kılavuzunun özetine göre dizlik ve bandajların yararı gösterilmedi."),
+ ("Ne kadar sürede düzelir?", "Kişiden kişiye değişir. 2024'te yayımlanan en iyi uygulama rehberi, gerçekçi bir süre (en az 6 hafta) sonra yeterli düzelme yoksa değerlendirmenin, egzersize katılımın ve tedavinin ağrının şiddetine uygun olup olmadığının gözden geçirilmesini öneriyor. Etkiyi 3 aydan uzun dönemde yeterince sınayan yüksek kaliteli çalışma yoktu. Uzun dönemde ağrı bazı kişilerde yıllarca sürebiliyor; bir izlem çalışmasında başlangıçta 12 aydan uzun süren ağrı, yıllar sonra daha fazla ağrıyı öngördü. Bu yüzden ağrı uzamadan değerlendirme ve düzenli egzersiz önerilir."),
  ("MR çektirmem gerekiyor mu?", "Genellikle hayır. Tanı muayeneyle konur ve görüntülemede çoğu zaman ağrıyı açıklayan bir bulgu çıkmaz. Yaralanma sonrası başlayan ağrı, kilitlenme ya da belirgin şişlik gibi durumlarda görüntüleme gerekebilir."),
 ]
 
 PF_SRC = [
+ "Marra J. " + ext("https://www.aafp.org/afp/2020/1001/p442", "Patellofemoral pain: guidelines from the American Physical Therapy Association") + ". Am Fam Physician. 2020;102(7):442-443.",
  "Collins NJ, Barton CJ, van Middelkoop M, et al. " + ext("https://pure.eur.nl/en/publications/2018-consensus-statement-on-exercise-therapy-and-physical-interve/", "2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain: recommendations from the 5th International Patellofemoral Pain Research Retreat, Gold Coast, Australia, 2017") + ". Br J Sports Med. 2018;52(18):1170-1178.",
  "Smith BE, Selfe J, Thacker D, et al. " + ext("https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190892", "Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis") + ". PLoS One. 2018;13(1):e0190892.",
  "Lankhorst NE, van Middelkoop M, Crossley KM, et al. " + ext("https://repub.eur.nl/pub/97015", "Factors that predict a poor outcome 5-8 years after the diagnosis of patellofemoral pain: a multicentre observational analysis") + ". Br J Sports Med. 2016;50(14):881-886.",
- "Willy RW, Hoglund LT, Barton CJ, et al. " + ext("https://doi.org/10.2519/jospt.2019.0302", "Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2019;49(9)",
- "Neal BS, Lack SD, Bartholomew C, Morrissey D. " + ext("https://bjsm.bmj.com/content/58/24/1486", "Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning") + ". Br J Sports Med. 2024;58(24):1486.",
+ "Willy RW, Hoglund LT, Barton CJ, et al. " + ext("https://doi.org/10.2519/jospt.2019.0302", "Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2019;49(9):CPG1-CPG95.",
+ "Neal BS, Lack SD, Bartholomew C, Morrissey D. " + ext("https://bjsm.bmj.com/content/58/24/1486", "Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning") + ". Br J Sports Med. 2024;58(24):1486-1495.",
+]
+
+PF_TL = [
+ ("2016", "İki randomize çalışmaya katılan 310 hastanın uzun dönem izleminde (BJSM), 5–8 yıl sonra soruları yanıtlayan 60 kişinin %57'si iyileşmesini yetersiz bulduğunu (orta düzeyde düzelmeden kötüleşmeye kadar) bildirdi; başlangıçta 12 aydan uzun süren ağrı daha fazla ağrıyı öngördü."),
+ ("2018", "Uluslararası araştırmacıların uzlaşı raporu (BJSM) egzersiz tedavisini, özellikle kalça ve diz egzersizlerinin birlikte yapılmasını önerdi; dize ya da bele tek başına uygulanan mobilizasyonlar ve elektroterapi önerilmedi."),
+ ("2018", "Bir sistematik derlemede (PLoS One) iki çalışmanın birleştirilmesiyle ergenlerde nokta yaygınlığı %7,2 bulundu; bir yıllık görülme sıklığı için toplumda %22,7, ergenlerde %28,9 bildiren birer çalışma vardı. Yazarlar kanıt az olduğu için bu tahminlerin belirsiz kaldığını belirtiyor."),
+ ("2019", "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin kılavuzu (JOSPT) yayımlandı: kalçanın arka kaslarıyla uyluğun ön kasına yönelik egzersizler temel tedavi olarak öne çıktı; dizlik ve bandajın, kuru iğnelemenin ve egzersize eklenen manuel terapinin ek yararı görülmedi."),
+ ("2024", "65 yüksek kaliteli randomize çalışma (3.796 kişi), 12 hasta ve 19 uzmanla görüşmeler ile üç uzman odak grubundan yararlanılarak hazırlanan en iyi uygulama rehberi (BJSM): temel tedavi, eğitimle desteklenen dize yönelik egzersiz; gerektiğinde kalça ve diz egzersizi."),
 ]
 
 PF_BODY = f'''<header class="page">
@@ -67,28 +80,27 @@ PF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diz önü ağrısı (patellofemoral ağrı)</h1>
     <p class="lede">Diz kapağının çevresinde ya da arkasında hissedilen, çömelirken, merdiven inerken ve uzun süre dizler bükülü otururken artan ağrıdır. Özellikle gençlerde, koşucularda ve sporcularda sık görülür. Tedavinin temeli, kalça ve diz kaslarını birlikte güçlendiren egzersizlerdir.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%22,7</b><span>Toplumda bir yıl içinde diz önü ağrısı yaşayanların oranı</span></div>
-        <div class="stat"><b>%28,9</b><span>Ergenlerde bir yıl içindeki görülme sıklığı</span></div>
-        <div class="stat"><b>%57</b><span>Bir izlem çalışmasında 5–8 yıl sonra yanıt veren 60 hastadan iyileşmediğini bildirenler</span></div>
-        <div class="stat"><b>Kalça + diz</b><span>Uluslararası uzlaşı raporunun önerdiği egzersiz birlikteliği</span></div>
+        <div class="stat"><b>%7,2</b><span>Ergenlerde herhangi bir anda diz önü ağrısı olanların oranı (iki çalışmanın birleşik sonucu)</span></div>
+        <div class="stat"><b>6 hafta</b><span>Düzenli egzersize rağmen yeterli düzelme yoksa değerlendirmenin gözden geçirilmesi önerilen en kısa süre (2024 rehberi)</span></div>
+        <div class="stat"><b>%57</b><span>Bir izlem çalışmasında 5–8 yıl sonra yanıt veren 60 hastadan iyileşmesini yetersiz bulanlar</span></div>
+        <div class="stat"><b>Kalça + diz</b><span>Uluslararası uzlaşı raporunun (2018) önerdiği egzersiz birlikteliği</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("tarihce", "Geçmişten bugüne"), ("ise-yarar", "Tedavide ne işe yarar?"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
-        <p class="soft">Diz kapağı, uyluk kemiğinin ön yüzündeki bir olukta kayar. Bu eklemin taşıdığı yük, dokuların kaldırabileceği düzeyi aştığında ağrı ortaya çıkar. Görüntülemede çoğu zaman belirgin bir hasar görülmez; sorun yapısal bir bozukluktan çok yük ile dayanıklılık arasındaki dengesizliktir.</p>
-        <p class="soft">Koşu, zıplama ya da merdiven gibi aktivitelerin kısa sürede artırılması, kalça ve uyluk kaslarındaki zayıflık ve büyüme dönemi sık görülen etkenlerdir.</p>
+        <p class="soft">Diz kapağı, uyluk kemiğinin ön yüzündeki bir olukta kayar. Bu eklemin taşıdığı yük, dokuların kaldırabileceği düzeyi aştığında ağrı ortaya çıkar. Görüntülemede çoğu zaman belirgin bir hasar görülmez; sorun çoğu zaman yapısal bir bozukluktan çok yük ile dayanıklılık arasındaki dengesizlik olarak açıklanır.</p>
+        <p class="soft">Koşu, zıplama ya da merdiven gibi aktivitelerin kısa sürede artırılması sık görülen bir tetikleyicidir; kalça ve uyluk kaslarında zayıflık da sık eşlik eder.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>
@@ -101,39 +113,64 @@ PF_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı öykü ve muayeneyle konur; çoğu zaman görüntüleme gerekmez.</p>
+      <div class="kinds">
+        <div class="kind"><h3>En güvenilir bulgu</h3><p>ABD fizyoterapi kılavuzunun özetine göre çömelirken, merdiven çıkarken ya da uzun süre otururken diz kapağı çevresinde ağrı olması en doğru bulgudur; çömelmede ağrı yoksa diz önü ağrısı pek olası değildir. Diz kapağının dışa doğru hareketliliğinin azalması tanıyı destekleyebilir, ama bu bulgunun olmaması tanıyı dışlamaz; önerilen diğer testlerin doğruluğu yetersizdir.</p></div>
+        <div class="kind"><h3>Görüntüleme</h3><p>Çoğu zaman gerekmez; görüntülemede çoğu zaman ağrıyı açıklayan bir bulgu çıkmaz. Yaralanma sonrası başlayan ağrı, kilitlenme ya da belirgin şişlik gibi durumlarda başka nedenler için istenebilir.</p></div>
+        <div class="kind"><h3>Başka ne olabilir?</h3><p>Diz kapağının altındaki kirişte sınırlı ağrı, eklem çizgisinde ağrı ve takılma ya da çocuklarda topallama başka sorunları düşündürür. Çocuk ve ergenlerde diz ağrısı kalçadan da yansıyabilir.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Son on yılda netleşenler</h2>
+      <p class="soft">Diz önü ağrısında tedavi önerileri son on yılda yapılan uzlaşı raporları ve kılavuzlarla netleşti: tedavinin merkezinde egzersiz ve bilgilendirme duruyor.</p>
+      {g_tl(PF_TL)}
+    </div>
+  </section>
+  <section id="ise-yarar">
     <div class="wrap">
       <h2>Tedavide ne işe yarar?</h2>
       <p class="soft">2018'de uluslararası araştırmacıların hazırladığı uzlaşı raporu egzersiz tedavisini, özellikle kalça ve diz egzersizlerinin birlikte yapılmasını öneriyor. Egzersizin başka yöntemlerle birleştirilmesi ve ayak tabanlıkları da önerilenler arasında. Buna karşılık dize ya da bele tek başına uygulanan mobilizasyonlar ve elektroterapi yöntemleri önerilmiyor; bantlama, dizlik, kuru iğneleme ve koşu tekniğinin değiştirilmesi konusunda ise kanıt yetersiz.</p>
       <div class="callout">
-        <p>Diz önü ağrısı kendiliğinden her zaman geçmeyebilir. Hollanda'da yapılan bir izlem çalışmasında, başlangıçtaki 310 hastadan 5–8 yıl sonra soruları yanıtlayan 60'ının (%19) %57'si iyileşmediğini bildirdi. Yanıt verenler küçük ve seçilmiş bir grup olduğu için bu oran herkes için bir tahmin değildir. Çalışmada ağrının başlangıçta 12 aydan uzun süredir devam ediyor olması kötü sonucun en güçlü göstergesiydi. Bu yüzden erken ve düzenli tedavi önemli.</p>
+        <p>Diz önü ağrısı kendiliğinden her zaman geçmeyebilir. İki randomize çalışmaya katılan 310 hastanın uzun dönem izleminde, 5–8 yıl sonra soruları yanıtlayan 60 kişinin (%19) %57'si iyileşmesini yetersiz bulduğunu (orta düzeyde düzelmeden kötüleşmeye kadar) bildirdi. Yanıt verenler küçük ve seçilmiş bir grup olduğu için bu oran herkes için bir tahmin değildir. Çalışmada başlangıçta 12 aydan uzun süren ağrı, yıllar sonra daha fazla ağrıyı öngördü. Bu yüzden ağrı uzamadan değerlendirme önerilir.</p>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
       <ul class="tx">
         <li><b>Kalça ve diz egzersizleri</b><span>Kalçanın yan ve arka kaslarıyla uyluğun ön kasını güçlendiren, dizin içe kaçmasını önleyen egzersizler tedavinin temelidir.</span></li>
         <li><b>Yükü ayarlama</b><span>Ağrıyı belirgin artıran koşu, zıplama, derin çömelme ve merdiven yükü bir süre azaltılır, sonra kademeli olarak artırılır.</span></li>
         <li><b>Ayak tabanlığı</b><span>Bazı kişilerde, özellikle kısa vadede ağrıyı azaltmaya yardımcı olabilir.</span></li>
-        <li><b>Bantlama ve dizlik</b><span>Ağrıyı geçici olarak hafifletebilir; kanıt sınırlıdır, egzersizin yerine geçmez.</span></li>
-        <li><b>Bilgilendirme</b><span>Ağrının neden olduğunu ve yükün nasıl ayarlanacağını bilmek, tedavinin başarısını artırır.</span></li>
+        <li><b>Bantlama ve dizlik</b><span>Bant, egzersizle birlikte kısa vadede ağrıyı azaltabilir; dizlik ve bandajların yararı gösterilmedi. İkisi de egzersizin yerine geçmez.</span></li>
+        <li><b>Bilgilendirme</b><span>Ağrının neden oluştuğunu ve yükün nasıl ayarlanacağını bilmek, tedavinin başarısına katkı sağlar.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin kılavuzu (JOSPT, 2019; American Family Physician özetinden) ile BJSM'de yayımlanan en iyi uygulama rehberi (2024) yan yana. Rehber öneri gücünü "çok yüksek, yüksek, orta, düşük, çok düşük" diye derecelendiriyor; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Egzersiz</h3><dl><dt>JOSPT</dt><dd>Kalçanın arka kaslarıyla uyluğun ön kasına yönelik egzersizler temel tedavi; yük binen ve binmeyen egzersizler benzer etkili; yüksek hacimli programlar daha iyi.</dd><dt>BJSM</dt><dd>Eğitimle desteklenen dize yönelik egzersiz (öneri gücü: çok yüksek); gerektiğinde kalça ve diz egzersizi (yüksek). Dizi bükerek yüklenmeyi zor tolere edenlerde önce kalça egzersizleri öne çıkarılabilir.</dd></dl></div>
+        <div class="kind"><h3>Ayak tabanlığı</h3><dl><dt>JOSPT</dt><dd>Ayağı içe basması artmış olanlarda kısa vadede (6 hafta) ağrıyı azaltır; özel yapım tabanlık hazır tabanlıktan üstün değil.</dd><dt>BJSM</dt><dd>Hazır tabanlık (öneri gücü: yüksek); tabanlıkla yapılan kısa denemede ağrısı azalanlarda, rahatlığa göre ayarlanarak.</dd></dl></div>
+        <div class="kind"><h3>Bant ve dizlik</h3><dl><dt>JOSPT</dt><dd>Diz kapağı bandı egzersizle birlikte kısa vadede ağrıyı azaltır; dizlik ve bandajlar sonuçları iyileştirmiyor.</dd><dt>BJSM</dt><dd>Bant (öneri gücü: düşük): ağrının şiddeti ya da kolay alevlenmesi rehabilitasyonu zorlaştırıyorsa düşünülebilir.</dd></dl></div>
+        <div class="kind"><h3>Manuel terapi</h3><dl><dt>JOSPT</dt><dd>Egzersize eklenmesi tek başına egzersizden daha iyi sonuç vermiyor.</dd><dt>BJSM</dt><dd>Öneri gücü orta: ağrının şiddeti, kolay alevlenmesi ya da hareket korkusu rehabilitasyonu engelliyorsa düşünülebilir.</dd></dl></div>
+        <div class="kind"><h3>Koşu ve hareket eğitimi</h3><dl><dt>JOSPT</dt><dd>Yürüyüş ve koşu biçiminin yeniden eğitimi (ör. koşu mesafesini azaltmak, adım sıklığını artırmak) belirtileri iyileştirebilir.</dd><dt>BJSM</dt><dd>Öneri gücü düşük: belirtiler belirli bir hareket biçimine bağlıysa, örneğin adımı uzun olan bir koşucuda adım sıklığını artırmak.</dd></dl></div>
+        <div class="kind"><h3>Kuru iğneleme ve cihazlar</h3><dl><dt>JOSPT</dt><dd>Kuru iğneleme sonuçları iyileştirmiyor; kas uyarımı (NMES) ve kan akımı kısıtlama egzersize ek yarar sağlamıyor; akupunktur sahte akupunkturdan üstün değil.</dd><dt>BJSM</dt><dd>Kuru iğneleme, titreşim tedavisi ve hyaluronik asit iğnesi klinik araştırma dışında önerilmiyor.</dd><dt>Not</dt><dd>Türkiye'de kuru iğneleme ve akupunkturu yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+      </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Kalça ve diz için altı egzersiz</h2>
-      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı kabul edilebilir; ağrı ertesi gün artmıyorsa devam edin. Dizinizin ayak parmaklarınızla aynı hizada kalmasına, içe doğru kaçmamasına dikkat edin.</p>
+      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı kabul edilebilir; ağrı ertesi gün artmıyorsa devam edin, artarsa bir sonraki seferde yükü azaltın. Dizinizin ayak parmaklarınızla aynı hizada kalmasına, içe doğru kaçmamasına dikkat edin.</p>
       {ex_grid(["pf_abd", "pf_bridge", "pf_wall", "pf_kext", "pf_sabd", "pf_sls"])}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -154,28 +191,33 @@ PF_BODY = f'''<header class="page">
       <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(PF_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlar diz önü ağrısı dışında bir soruna işaret edebilir. Beklemeden bir hekime başvurun:</p>
+      <p class="soft">Şu durumlar diz önü ağrısı dışında bir soruna işaret edebilir.</p>
+      <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
       <ul class="dots redflags">
-        <li>Dizde belirgin şişlik, kızarıklık, sıcaklık ya da ateş</li>
-        <li>Yaralanmadan sonra dizin boşalması, kilitlenmesi ya da bacağa yük verememe</li>
-        <li>Dinlenmekle geçmeyen, geceleri uyandıran ağrı</li>
-        <li>Çocuk ve ergenlerde topallamayla birlikte diz ağrısı (ağrı kalçadan kaynaklanıyor olabilir)</li>
+        <li>Dizde birden başlayan belirgin şişlik, kızarıklık ya da sıcaklık; özellikle ateşle birlikteyse</li>
+        <li>Yaralanmadan sonra bacağa yük verememe, dizin kilitlenip açılamaması ya da hemen başlayan hızlı şişlik</li>
+        <li>Diz kapağının yerinden çıkması ya da dizde gözle görülür şekil bozukluğu</li>
+        <li>Çocuk ve ergenlerde topallamayla ya da yürüyememeyle birlikte diz veya kalça ağrısı (ağrı kalçadan kaynaklanıyor olabilir)</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Yaralanmadan sonra dizin sık boşalması</li>
+        <li>Dinlenmekle geçmeyen, geceleri uyandıran ağrı ya da nedensiz kilo kaybı</li>
+        <li>Kemik üzerinde sert bir şişlik ya da kitle</li>
+        <li>En az 6 haftalık düzenli egzersize rağmen düzelmeyen ya da giderek artan ağrı</li>
       </ul>
       {CTA_CARD("Diz önü ağrınız", "diz önü ağrısı")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -185,7 +227,7 @@ PF_BODY = f'''<header class="page">
 </main>'''
 
 page("diz-onu-agrisi.html", "Diz Önü Ağrısı",
-     "Diz kapağı çevresinde merdiven inerken ve çömelirken artan ağrı: patellofemoral ağrı nedir, neden olur, nasıl tedavi edilir? Evde altı egzersiz ve videolar.",
+     "Diz kapağı çevresinde merdiven inerken ve çömelirken artan ağrı: patellofemoral ağrı nedir, nasıl tanınır, nasıl tedavi edilir? İki kılavuzun karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri.",
      "diz-onu-agrisi.html", NECK_CSS, PF_BODY, YT_JS,
      seo_title="Diz Önü Ağrısı (Patellofemoral Ağrı): Nedenleri ve Egzersizler | İhsan Eren",
      condition="Patellofemoral ağrı sendromu", faq_items=PF_FAQ)
@@ -195,23 +237,37 @@ _ex2("ac_heel", "heel2", "İki ayakla topuk yükseltme", "Tezgâha hafifçe tutu
 _ex2("ac_heel1", "heel3", "Tek ayakla topuk yükseltme", "İki ayakla kolaylaştığında aynı hareketi ağrılı taraftaki ayağınızın üzerinde yapın. Kolaylaştıkça sırt çantasına ağırlık koyarak yükü artırabilirsiniz.", "10–15 tekrar, 3 set, günde 1 kez")
 EXT["heeldrop"] = ("Basamaktan topuk indirme (diz düz)", "Ayağınızın ön kısmıyla bir basamağın kenarına basın, duvara ya da tırabzana tutunun. İki ayakla parmak uçlarınıza yükselin, sonra ağırlığınızı ağrılı bacağa verip topuğunuzu 3 saniyede basamak seviyesinin altına kadar yavaşça indirin. Yukarı iki ayakla çıkın.", "15 tekrar, 3 set, günde 2 kez, 12 hafta")
 EXT["heeldropb"] = ("Basamaktan topuk indirme (diz bükülü)", "Aynı hareketi dizinizi hafifçe bükerek yapın. Bu şekilde baldırın derin kası (soleus) daha çok çalışır.", "15 tekrar, 3 set, günde 2 kez, 12 hafta")
-_ex2("ac_calf", "calf", "Duvarda baldır germe", "Ellerinizi duvara dayayın, ağrılı bacağınızı arkaya alın. Arkadaki dizinizi düz, topuğunuzu yerde tutarak kalçanızı duvara doğru ilerletin; baldırınızda hafif bir gerilme hissedin.", "30 saniye, 3 tekrar")
+_ex2("ac_calf", "calf", "Duvarda baldır germe", "Ellerinizi duvara dayayın, ağrılı bacağınızı arkaya alın. Arkadaki dizinizi düz, topuğunuzu yerde tutarak kalçanızı duvara doğru ilerletin; baldırınızda hafif bir gerilme hissedin. Ayak bileğinizi yukarı bükmekte zorlanıyorsanız programa eklenebilir; ağrınız kirişin topuğa yapıştığı yerdeyse bu germeyi yapmadan önce fizyoterapistinize ya da hekiminize danışın.", "30 saniye, 3 tekrar")
 _ex2("ac_sls", "sls", "Tek ayak üzerinde denge", "Tezgâha hafifçe tutunarak ağrılı taraftaki ayağınızın üzerinde durun. Kolaylaştıkça tutunmayı azaltın ya da gözlerinizi kısa süre kapatın.", "30 saniye, 3 kez")
 
 AC_FAQ = [
  ("Koşmaya devam edebilir miyim?", "Çoğu zaman evet, ama yükü azaltarak. Koşu sırasındaki ağrı hafif düzeyde kalıyor ve ertesi sabah artmıyorsa devam edebilirsiniz. Yokuş, tempo ve hız antrenmanlarını bir süre azaltın. 38 hastayla yapılan randomize bir çalışmada, ağrıyı izleyerek koşu ve sıçramaya devam edenler ile ilk 6 hafta bu etkinliklere ara verenler aynı egzersiz programıyla benzer şekilde iyileşti; etkinliğe devam etmenin olumsuz bir etkisi görülmedi."),
  ("Ne kadar sürede iyileşir?", "Sabır gerektirir. Çalışmalarda egzersiz programları 12 hafta sürdü ve kazanımlar 1 yıl sonra da korundu. Bazı kişilerde tam iyileşme birkaç ay daha sürebilir."),
- ("Kortizon iğnesi yaptırmalı mıyım?", "Aşil kirişine kortizon iğnesi, kirişi zayıflatıp yırtılma riskini artırabileceği için genellikle önerilmez. Önce düzenli yüklenme egzersizlerinin denenmesi gerekir."),
+ ("Kortizon iğnesi yaptırmalı mıyım?", "Aşil kirişine kortizon iğnesi, kirişi zayıflatıp yırtılma riskini artırabileceği için genellikle önerilmez. Size uygun bir seçenek olup olmadığını hekiminize sorun; çoğu zaman önce düzenli yüklenme egzersizleri denenir."),
+ ("Ağrım kirişin topuğa yapıştığı yerde, aynı egzersizleri yapabilir miyim?", "Büyük ölçüde evet, ama bir farkla. Kirişin topuğa yapıştığı yerdeki ağrıda (insersiyonel tendinopati) ayak bileğini yukarı bükerek yüklenmek kirişi topuk kemiğine bastırıp ağrıyı artırabilir. 27 hastayla yapılan bir ön çalışmada ayak bileğini yukarı bükmeden yapılan 12 haftalık eksantrik programla, ortalama 4 aylık izlemde hastaların %67'si memnundu ve önceki etkinliklerine dönmüştü. Bu yüzden basamaktan topuk indirme hareketlerinde topuğunuzu basamak seviyesinin altına indirmeyin; hareketi düz zeminde ya da basamak hizasında bitirin."),
  ("Germe egzersizleri yeterli mi?", "Tek başına genellikle yeterli değildir. Kirişin iyileşmesi için asıl gereken, kademeli olarak artırılan yüklenme egzersizleridir; germe hareketleri bunlara eklenebilir."),
 ]
 
 AC_SRC = [
+ "European Medicines Agency. " + ext("https://www.ema.europa.eu/en/documents/press-release/disabling-and-potentially-permanent-side-effects-lead-suspension-or-restrictions-quinolone-and-fluoroquinolone-antibiotics_en.pdf", "Disabling and potentially permanent side effects lead to suspension or restrictions of quinolone and fluoroquinolone antibiotics") + ". 16 Kasım 2018.",
+ "de Jonge S, et al. " + ext("https://read.qxmd.com/read/21926076/incidence-of-midportion-achilles-tendinopathy-in-the-general-population", "Incidence of midportion Achilles tendinopathy in the general population") + ". Br J Sports Med. 2011.",
+ "Jonsson P, et al. " + ext("https://read.qxmd.com/read/18184750/new-regimen-for-eccentric-calf-muscle-training-in-patients-with-chronic-insertional-achilles-tendinopathy-results-of-a-pilot-study", "New regimen for eccentric calf-muscle training in patients with chronic insertional Achilles tendinopathy: results of a pilot study") + ". Br J Sports Med. 2008.",
  "Martin RL, Chimenti R, Cuddeford T, et al. " + ext("https://www.jospt.org/doi/10.2519/jospt.2018.0302", "Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision 2018") + ". J Orthop Sports Phys Ther. 2018;48(5):A1-A38.",
  "Beyer R, Kongsgaard M, Hougs Kjær B, et al. " + ext("https://journals.sagepub.com/doi/abs/10.1177/0363546515584760", "Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial") + ". Am J Sports Med. 2015;43(7):1704-1711.",
  "Alfredson H, Pietilä T, Jonsson P, Lorentzon R. " + ext("https://journals.sagepub.com/doi/10.1177/03635465980260030301", "Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis") + ". Am J Sports Med. 1998;26(3):360-366.",
- "Silbernagel KG, Hanlon S, Sprague A. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC7249277", "Current clinical concepts: conservative management of Achilles tendinopathy") + ". J Athl Train. 2020;55(5)",
+ "Silbernagel KG, Hanlon S, Sprague A. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC7249277", "Current clinical concepts: conservative management of Achilles tendinopathy") + ". J Athl Train. 2020;55(5).",
  "Chimenti RL, Neville C, Houck J, Cuddeford T, Carreira D, Martin RL. " + ext("https://doi.org/10.2519/jospt.2024.0302", "Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision – 2024") + ". J Orthop Sports Phys Ther. 2024;54(12):CPG1–CPG32.",
  "Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. " + ext("https://search.pedro.org.au/search-results/record-detail/18389", "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study") + ". Am J Sports Med. 2007;35(6):897–906.",
+]
+
+AC_TL = [
+ ("1998", "15 rekreasyonel sporcuyla yapılan çalışmada 12 haftalık ağır yüklü eksantrik baldır egzersizi sonunda hastaların tamamı yaralanma öncesi koşu düzeyine döndü; klasik tedavi alan karşılaştırma grubunda tedavi başarılı olmadı ve hastaların hepsi ameliyat edildi."),
+ ("2007", "38 hastayla yapılan randomize çalışmada (AJSM), ağrıyı izleyerek koşu ve sıçramaya devam edenler ile ilk 6 hafta bu etkinliklere ara verenler aynı egzersiz programıyla benzer şekilde iyileşti."),
+ ("2008", "Kirişin topuğa yapıştığı yerde ağrısı olan 27 hastayla yapılan ön çalışmada, ayak bileğini yukarı bükmeden yapılan 12 haftalık eksantrik programla, ortalama 4 aylık izlemde hastaların %67'si memnundu ve önceki etkinliklerine dönmüştü."),
+ ("2011", "Hollanda'da aile hekimi kayıtlarıyla yapılan bir çalışmada (BJSM) kirişin orta bölümündeki aşil tendinopatisinin yıllık görülme sıklığı 21–60 yaş arası yetişkinlerde binde 2,35 bulundu; olguların %35'inde sporla ilişki kaydedilmişti."),
+ ("2015", "58 hastayla yapılan çalışmada (AJSM) eksantrik program ile ağır ve yavaş direnç egzersizleri benzer şekilde etkiliydi; ağır ve yavaş direnç grubunda programa uyum anlamlı olarak daha yüksekti, 12. haftada memnuniyet de daha yüksek olma eğilimindeydi."),
+ ("2018", "Amerikan Fizyoterapi Derneği'nin (APTA) aşil kılavuzu (JOSPT) güncellendi: yüklenme egzersizleri tedavinin temeli olarak önerildi."),
+ ("2024", "Kılavuzun yeni güncellemesi: tolere edilebilen en yüksek yükte yüklenme egzersizi birinci basamak tedavi (A); eğitimle birlikte ve tam dinlenme yerine aktif kalmak (B); düşük yoğunluklu lazer artık önerilmiyor (C); gece ateli önerilmemeye devam ediyor (C)."),
 ]
 
 AC_BODY = f'''<header class="page">
@@ -220,28 +276,27 @@ AC_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Aşil tendinopatisi</h1>
     <p class="lede">Topuğun hemen üstünde, aşil kirişinde ağrı, sabah tutukluğu ve kalınlaşmayla kendini gösterir. Özellikle koşucularda ve orta yaşta sık görülür. Sorun iltihaptan çok kirişin aşırı yüke uyum sağlayamamasıdır; tedavinin temeli kademeli olarak artırılan yüklenme egzersizleridir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>12 hafta</b><span>Etkisi kanıtlanmış yüklenme egzersizi programlarının süresi</span></div>
-        <div class="stat"><b>%100</b><span>Ağır ve yavaş direnç egzersizi yapanlarda 12. haftada tedaviden memnun olanlar; eksantrik egzersizde %80</span></div>
-        <div class="stat"><b>%92</b><span>Ağır ve yavaş direnç programına uyum; eksantrik programda %78</span></div>
+        <div class="stat"><b>12 hafta</b><span>Çalışmalarda etkili bulunan yüklenme egzersizi programlarının süresi</span></div>
+        <div class="stat"><b>%100</b><span>58 hastalık bir çalışmada ağır ve yavaş direnç egzersizi yapanlarda 12. haftada tedaviden memnun olanlar; eksantrik egzersizde %80 (fark anlamlı değildi)</span></div>
+        <div class="stat"><b>%92</b><span>Aynı çalışmada ağır ve yavaş direnç programına uyum; eksantrik programda %78</span></div>
         <div class="stat"><b>1 yıl</b><span>İki programda da kazanımların sürdüğü takip süresi</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("yuklenme", "Yüklenme egzersizleri"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Aşil kirişi, baldır kaslarını topuk kemiğine bağlayan, vücudun en güçlü kirişidir. Koşu, zıplama ya da yürüyüş yükünün kısa sürede artırılması kirişin uyum kapasitesini aşınca kirişte yıpranma ve ağrı gelişir. Ağrı çoğunlukla kirişin orta bölümündedir; bazen de kirişin topuğa yapıştığı yerde görülür.</p>
-        <p class="soft">Koşu mesafesinin ya da hızının hızla artırılması, yokuş antrenmanları, ayakkabı değişikliği, ileri yaş, fazla kilo, diyabet ve florokinolon grubu antibiyotikler risk etkenleri arasındadır.</p>
+        <p class="soft">Antrenmandaki ani değişiklikler (mesafe, hız, yokuş), önceki kiriş sorunları ya da bacak kırıkları ve florokinolon grubu antibiyotikler risk etkenleri arasında sayılır; yaş ilerledikçe daha sık görülür. ABD fizyoterapi kılavuzunun aktardığı derlemeye göre fazla kilo ve ayak duruşu ise riskle ilişkili bulunmadı.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>
@@ -254,40 +309,65 @@ AC_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin 2024 kılavuzuna göre tanı çoğunlukla öykü ve muayeneyle konur.</p>
+      <div class="kinds">
+        <div class="kind"><h3>Muayene</h3><p>Kirişin orta bölümünde yükle ortaya çıkan ağrı ve bastırınca hassasiyet tipiktir. Kirişteki şişliğin ayak bileği oynatıldığında kirişle birlikte yer değiştirmesi (ark işareti) ya da Royal London Hospital testinin olumlu olması tanıyı destekler. Kirişte kalınlaşma tanıyı destekler ama her zaman olmayabilir.</p></div>
+        <div class="kind"><h3>Görüntüleme ne zaman?</h3><p>Tanı için genellikle gerekmez. Tanıdan emin olunamadığında, iyileşme beklenenden uzun sürdüğünde, şikâyetler kötüleştiğinde ya da bir girişim düşünüldüğünde ultrason ya da MR istenebilir.</p></div>
+        <div class="kind"><h3>Orta bölüm mü, yapışma yeri mi?</h3><p>Ağrı topuğun birkaç santim üstünde, kirişin orta bölümündeyse orta bölüm tendinopatisi; kirişin topuk kemiğine yapıştığı yerdeyse insersiyonel tendinopati söz konusudur. İkincisinde egzersizlerin ayak bileği yukarı bükülmeden yapılması önerilir (bkz. Sık sorulan sorular).</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="yuklenme">
     <div class="wrap">
       <h2>Yüklenme egzersizleri neden temel tedavi?</h2>
-      <p class="soft">Kirişler, kademeli olarak artırılan yüke uyum sağlayarak güçlenir. Amerikan Fizyoterapi Derneği'nin 2018 kılavuzu ve 2024 güncellemesi de yüklenme egzersizlerini tedavinin temeli olarak öneriyor; güncelleme, egzersizin dayanılabilen en yüksek yükte ve haftada en az 3 kez yapılmasını, tam dinlenme yerine ağrı sınırları içinde aktif kalmayı öneriyor. Klasik yöntem, İsveçli ortopedist Alfredson'un geliştirdiği eksantrik programdır: 12 hafta boyunca, günde iki kez, basamaktan topuğu yavaşça indirmek.</p>
-      <p class="soft">Danimarka'da 58 hastayla yapılan bir çalışmada bu eksantrik program ile haftada üç gün yapılan ağır ve yavaş direnç egzersizleri karşılaştırıldı. İki program da ağrıyı ve işlevi belirgin şekilde iyileştirdi ve kazanımlar 1 yıl sonra da sürdü. Ağır ve yavaş direnç grubunda 12. haftada memnuniyet (%100'e karşı %80) ve programa uyum (%92'ye karşı %78) daha yüksekti.</p>
+      <p class="soft">Kirişler, kademeli olarak artırılan yüke uyum sağlayarak güçlenir. Amerikan Fizyoterapi Derneği'nin 2018 kılavuzu ve 2024 güncellemesi de yüklenme egzersizlerini tedavinin temeli olarak öneriyor; güncelleme, egzersizin dayanılabilen en yüksek yükte ve haftada en az 3 kez yapılmasını, tam dinlenme yerine ağrı sınırları içinde aktif kalmayı öneriyor. Klasik yöntem, Alfredson ve arkadaşlarının geliştirdiği eksantrik programdır: 12 hafta boyunca, günde iki kez, basamaktan topuğu yavaşça indirmek.</p>
+      <p class="soft">Danimarka'da 58 hastayla yapılan bir çalışmada bu eksantrik program ile haftada üç gün yapılan ağır ve yavaş direnç egzersizleri karşılaştırıldı. İki program da ağrıyı ve işlevi belirgin şekilde iyileştirdi ve kazanımlar 1 yıl sonra da sürdü. Ağır ve yavaş direnç grubunda 12. haftada memnuniyet daha yüksek olma eğilimindeydi (%100'e karşı %80; fark istatistiksel olarak anlamlı değildi), programa uyum ise anlamlı olarak daha yüksekti (%92'ye karşı %78).</p>
       <div class="callout">
         <p>Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir. Önemli olan ağrının ertesi sabah artmamasıdır; artıyorsa bir sonraki seansta tekrar sayısını ya da yükü azaltın.</p>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Dinlenmeden kademeli yüklenmeye</h2>
+      <p class="soft">1990'ların sonundan bu yana yapılan çalışmalar, aşil kirişinin dinlenmekten çok kademeli olarak artırılan yükle iyileştiğini gösterdi.</p>
+      {g_tl(AC_TL)}
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
       <ul class="tx">
         <li><b>Yüklenme egzersizleri</b><span>Eksantrik ya da ağır ve yavaş direnç egzersizleri; yük, kirişin uyum sağlayabileceği hızda artırılır.</span></li>
         <li><b>Yükü ayarlama</b><span>Koşu mesafesi, hızı ve yokuşlar bir süre azaltılır; tamamen dinlenmek yerine ağrıyı artırmayan aktiviteler sürdürülür.</span></li>
         <li><b>Ayakkabı</b><span>Topuğu biraz yüksek, rahat ayakkabılar ağrılı dönemde kirişin yükünü azaltabilir.</span></li>
-        <li><b>Kortizon iğnesi</b><span>Kirişin içine yapılan kortizon iğnesi yırtılma riski nedeniyle genellikle önerilmez.</span></li>
+        <li><b>Kortizon iğnesi</b><span>Kirişin içine yapılan kortizon iğnesi yırtılma riski nedeniyle genellikle önerilmez; size uygun olup olmadığını hekiminize sorun.</span></li>
         <li><b>Kademeli dönüş</b><span>Koşu ve zıplama gerektiren sporlara ağrı kontrol altına alındıktan sonra aşamalı olarak dönülür.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kılavuz ne diyor?</h3>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin 2024 kılavuzunun (JOSPT) önerileri; kılavuz kirişin orta bölümündeki tendinopati içindir. Parantez içindeki harfler öneri düzeyidir (A güçlü, B orta, C zayıf, D çelişkili kanıt, E kuramsal kanıt, F uzman görüşü). Kılavuz şok dalga tedavisini fizyoterapi kapsamı dışında saydığı için bu konuda öneri vermiyor; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Yüklenme egzersizi</h3><dl><dt>JOSPT</dt><dd>Tolere edilebilen en yüksek yükte yüklenme egzersizi, birinci basamak tedavi (A); haftada en az 3 kez (E).</dd></dl></div>
+        <div class="kind"><h3>Eğitim ve aktivite</h3><dl><dt>JOSPT</dt><dd>Yüklenme egzersiziyle birlikte ağrının ya da kirişteki değişikliklerin anlatıldığı eğitim, yüz yüze ya da uzaktan (B); tam dinlenmenin gerekmediği, etkinliklerin ağrı sınırları içinde sürdürülebileceği anlatılmalı (B).</dd></dl></div>
+        <div class="kind"><h3>Germe ve manuel terapi</h3><dl><dt>JOSPT</dt><dd>Ayak bileği yukarı bükme hareketi kısıtlıysa baldır germe (C); hareket kısıtlılığında manuel terapi (F).</dd></dl></div>
+        <div class="kind"><h3>Bant, tabanlık ve topuk yükseltici</h3><dl><dt>JOSPT</dt><dd>Ağrıyı azaltmak ya da işlevi iyileştirmek için elastik bant, kirişin yükünü azaltmak ya da ayak duruşunu değiştirmek için sert bant kullanılabilir (E); ortez için kanıt çelişkili, öneri yok (D); etkinlik sırasında topuk yükseltici geçici olarak (C).</dd></dl></div>
+        <div class="kind"><h3>Cihazlar ve gece ateli</h3><dl><dt>JOSPT</dt><dd>Düşük yoğunluklu lazer kullanılmamalı (C); ultrason tedavisi tek başına kullanılmamalı (C); gece ateli kullanılmamalı (C).</dd></dl></div>
+        <div class="kind"><h3>Kuru iğneleme</h3><dl><dt>JOSPT</dt><dd>Baldır kaynaklı ağrı ve tutuklukta, özellikle yeni başlayan şikâyette ya da kademeli yük tolere edilemediğinde düşünülebilir (F).</dd><dt>Not</dt><dd>Türkiye'de yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+      </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Aşil kirişi için altı egzersiz</h2>
-      <p class="soft">İki ayakla topuk yükseltmeyle başlayın; kolaylaştıkça tek ayağa ve basamaktan topuk indirmeye geçin. Hareketleri yavaş ve kontrollü yapın.</p>
+      <p class="soft">İki ayakla topuk yükseltmeyle başlayın; kolaylaştıkça tek ayağa ve basamaktan topuk indirmeye geçin. Hareketleri yavaş ve kontrollü yapın. Ağrınız kirişin topuğa yapıştığı yerdeyse basamaktan topuk indirirken topuğunuzu basamak seviyesinin altına indirmeyin.</p>
       {ex_grid(["ac_heel", "ac_heel1", "heeldrop", "heeldropb", "ac_calf", "ac_sls"])}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -297,7 +377,7 @@ AC_BODY = f'''<header class="page">
         <div class="vid">
           {vbox("E260D8a28ws", "Aşil tendinopatisi videosunu oynat", "Fix Achilles Tendonitis: Absolute 2 Best Self-Treatments (Updated &amp; Science Based)")}
           <h3>Aşil kirişi için iki temel uygulama</h3>
-          <p>Bilimsel kanıtlara dayanan iki temel kendi kendine uygulama.</p>
+          <p>Kendi başınıza yapabileceğiniz iki temel uygulama.</p>
         </div>
         <div class="vid">
           {vbox("qvfm3Lb3Ojs", "Aşil ağrısı videosunu oynat", "Achilles Tendon Pain Fast Relief In Minutes!")}
@@ -308,29 +388,31 @@ AC_BODY = f'''<header class="page">
       <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(AC_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
+      <p class="soft">Şu durumlarda beklemeden başvurun.</p>
+      <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
       <ul class="dots redflags">
-        <li>Ani bir “pat” sesi ya da topuğa tekme yemiş gibi bir his, ardından parmak ucuna kalkamama (kiriş yırtılmış olabilir)</li>
-        <li>Topukta kızarıklık, sıcaklık ya da ateş</li>
-        <li>Baldırda şişlik, ağrı ve kızarıklık</li>
-        <li>Florokinolon grubu bir antibiyotik kullanırken başlayan kiriş ağrısı</li>
+        <li>Ani bir “pat” sesi ya da topuğa tekme yemiş gibi bir his, ardından o ayağın üzerinde tek başına parmak ucuna kalkamama (kiriş yırtılmış olabilir)</li>
+        <li>Topukta kızarıklık, sıcaklık ve şişlik; özellikle ateşle birlikteyse</li>
+        <li>Florokinolon grubu bir antibiyotik kullanırken ya da bıraktıktan sonraki aylarda başlayan kiriş ağrısı ya da şişliği: ağrılı bacağı dinlendirin, egzersizlere ara verin ve aynı gün ilacı yazan hekime ulaşın; ilaca devam edip etmeyeceğinizi hekiminize sorun</li>
+        <li>Baldırda şişlik, ağrı ve kızarıklık (pıhtı olabilir); buna nefes darlığı ya da göğüs ağrısı eklenirse hemen <strong>112</strong>'yi arayın</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
         <li>İki taraflı aşil ağrısıyla birlikte eklem ağrıları ya da bel tutukluğu</li>
+        <li>Düzenli egzersize rağmen birkaç ay içinde düzelmeyen ya da giderek artan ağrı</li>
       </ul>
       {CTA_CARD("Aşil ağrınız", "aşil tendinopatisi")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -340,7 +422,7 @@ AC_BODY = f'''<header class="page">
 </main>'''
 
 page("asil-tendinopatisi.html", "Aşil Tendinopatisi",
-     "Topuğun üstünde, aşil kirişinde ağrı ve sabah tutukluğu: aşil tendinopatisi nedir, neden olur, hangi egzersizler iyileştirir? Evde altı egzersiz ve videolar.",
+     "Topuğun üstünde, aşil kirişinde ağrı ve sabah tutukluğu: aşil tendinopatisi nedir, nasıl tanınır, hangi egzersizler iyileşmeye yardımcı olur? 2024 kılavuzunun önerileri, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri.",
      "asil-tendinopatisi.html", NECK_CSS, AC_BODY, YT_JS,
      seo_title="Aşil Tendinopatisi (Aşil Tendiniti): Tedavi ve Egzersizler | İhsan Eren",
      condition="Aşil tendinopatisi", faq_items=AC_FAQ)
