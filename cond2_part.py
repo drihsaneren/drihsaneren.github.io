@@ -103,23 +103,26 @@ _ex2("mn_kext", "kext", "Oturarak diz açma", "Sandalyeye dik oturun. Dizinizi y
 _ex2("mn_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak yavaşça kaldırın, 2–3 saniye bekleyip indirin.", "10 tekrar, 2 set")
 _ex2("mn_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Dizlerinizi en fazla yarım çömelme kadar bükerek sırtınızı aşağı kaydırın, birkaç saniye bekleyip yukarı çıkın. Ağrı artıyorsa daha az bükün.", "8–10 tekrar, 2 set")
 _ex2("mn_sls", "sls", "Tek ayak üzerinde denge", "Mutfak tezgâhına hafifçe tutunarak tek ayağınızın üzerinde durun, dizinizi hafifçe bükülü tutun. Kolaylaştıkça tutunmayı azaltın.", "30 saniye, her bacakta 3 kez")
+SV["mn_kext"] = SV["kext"].replace("<figcaption>Oturarak diz düzeltme</figcaption>", "<figcaption>Oturarak diz açma</figcaption>")
+SV["mn_sls"] = SV["sls"].replace("<figcaption>Tek ayak üzerinde durma</figcaption>", "<figcaption>Tek ayak üzerinde denge</figcaption>")
 
 MN_FAQ = [
- ("MR'ımda menisküs yırtığı çıktı, ameliyat olmam gerekiyor mu?", "Çoğu zaman hayır. 50 yaşın üzerinde MR'da menisküs yırtığı çok sık görülür ve bu kişilerin yarısından fazlasında hiç diz şikâyeti yoktur. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulundu. Karar MR görüntüsüne göre değil, şikâyetlerinize ve muayeneye göre verilir. Menisküs yırtığı ve diz kireçlenmesi olan 879 kişiyle yapılan TeMPO çalışmasında, evde video ve broşürle yapılan egzersiz programına fizyoterapi seansları eklemek 3. ayda ağrıda anlamlı ek fark yaratmadı; 6. ve 12. ayda ise seans alan gruplarda (sahte uygulama yapılan grup dahil) ağrı biraz daha fazla azaldı."),
+ ("MR'ımda menisküs yırtığı çıktı, ameliyat olmam gerekiyor mu?", "Çoğu zaman hayır. 50 yaşın üzerinde MR'da menisküs yırtığı çok sık görülür; yırtığı olanların yarısından fazlası son bir ayda hiç ağrı, sızı ya da tutukluk yaşamamıştı. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulundu. Karar MR görüntüsüne göre değil, şikâyetlerinize ve muayeneye göre verilir."),
+ ("Fizyoterapi seansı mı, evde egzersiz mi?", "Menisküs yırtığı ve diz kireçlenmesi olan 879 kişiyle yapılan TeMPO çalışmasında, evde video ve broşürle yapılan egzersiz programına fizyoterapi seansları eklemek 3. ayda ağrıda anlamlı ek fark yaratmadı; 6. ve 12. ayda ise seans alan gruplarda (sahte uygulama yapılan grup dahil) ağrı biraz daha fazla azaldı. Yani evde düzenli egzersiz tek başına da değerli; seanslar programın doğru kurulmasına ve ilerletilmesine yardımcı olabilir."),
  ("MR çektirmem gerekiyor mu?", "Çoğu zaman ilk basamakta gerekmez. Avrupa'dan 84 cerrah ve bilim insanının hazırladığı ESSKA uzlaşı raporu, yıpranmaya bağlı yırtık şüphesinde MR'ı ilk incelemede önermiyor; diz röntgeni ise kireçlenme tanısını desteklemek ya da nadir başka sorunları görmek için yararlı. MR'da yırtık görülmesi, ağrının nedeninin o yırtık olduğunu da göstermez: 50 yaş üstünde MR'da yırtık görülenlerin %61'inde son bir ayda hiç diz şikâyeti yoktu. Ani bir yaralanma ya da kilitlenen diz gibi durumlarda hekiminiz farklı karar verebilir."),
- ("Ameliyat gerçekten işe yaramıyor mu?", "Yıpranmaya bağlı yırtıklarda çalışmalar ameliyatın egzersize üstün olmadığını gösteriyor. Finlandiya'da 35–65 yaş arası 146 kişiyle yapılan FIDELITY çalışmasında artroskopik menisküs kesimi sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı. ESSKA uzlaşı raporu da bu ameliyatı ilk tedavi olarak önermiyor; ameliyatsız tedaviye yanıt yetersiz kalırsa düşünülebileceğini belirtiyor. Bu çalışmalar ani yaralanmayla oluşan yırtıkları kapsamıyor; bu yırtıklar ve kilitlenen diz ortopedi uzmanınca ayrıca değerlendirilir."),
- ("Menisküs kendiliğinden iyileşir mi?", "Menisküsün yalnızca dış kenarı kanlanır; bu bölgedeki küçük yırtıklar iyileşebilir, iç kısımdaki yırtıklar ise genellikle kendiliğinden kaynamaz. Ancak yırtık yerinde kalsa bile ağrı ve işlev çoğu zaman egzersizle belirgin şekilde düzelir."),
- ("Dizim takılıyor ya da kilitleniyor, ne yapmalıyım?", "Kısa süreli takılma hissi sık görülür ve çoğu zaman egzersizle azalır. Dizin bir konumda takılıp kalması ve düzeltilememesi ise yırtık bir parçanın eklemin arasına sıkışmasına bağlı olabilir. Bu durumda bir ortopedi uzmanına başvurun."),
+ ("Ameliyat gerçekten işe yaramıyor mu?", "Yıpranmaya bağlı yırtıklarda çalışmalar ameliyatın egzersize üstün olmadığını gösteriyor. Finlandiya'da 35–65 yaş arası 146 kişiyle yapılan FIDELITY çalışmasında artroskopik menisküs kesimi sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı. ESSKA uzlaşı raporu da bu ameliyatı ilk tedavi olarak önermiyor; en az 3 ay sonra ağrı ya da takılma gibi belirtiler sürüyorsa düşünülebileceğini, belirgin takılma ya da kilitlenme belirtileri olanlarda daha erken önerilebileceğini belirtiyor. Bu çalışmalar ani yaralanmayla oluşan yırtıkları kapsamıyor; bu yırtıklar ve kilitlenen diz ortopedi uzmanınca ayrıca değerlendirilir."),
+ ("Menisküs kendiliğinden iyileşir mi?", "Menisküsün yalnızca dış kenarı kanlanır; bu bölgedeki küçük yırtıklar iyileşebilir, iç kısımdaki yırtıklar ise genellikle kendiliğinden kaynamaz. Ancak yırtık yerinde kalsa bile ağrı ve işlev çoğu zaman egzersizle belirgin şekilde düzelebilir."),
+ ("Dizim takılıyor ya da kilitleniyor, ne yapmalıyım?", "Kısa süreli takılma hissi sık görülür ve çoğu zaman egzersizle azalır. Dizin bir konumda takılıp kalması ve düzeltilememesi ise yırtık bir parçanın eklemin arasına sıkışmasına bağlı olabilir. Bu durumda aynı gün bir ortopedi uzmanına ya da acil servise başvurun."),
  ("Koşabilir, spor yapabilir miyim?", "Ağrı ve şişlik kontrol altına alınıp uyluk kas gücü diğer bacağa yaklaştığında sporlara kademeli olarak dönülebilir. Önce yürüyüş, bisiklet ve yüzme gibi düşük yüklü aktivitelerle başlayın; zıplama ve ani dönüş gerektiren sporları en sona bırakın."),
 ]
 
 MN_SRC = [
  "Beaufils P, Becker R, Kopf S, Englund M, Verdonk R, Ollivier M, Seil R. " + ext("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5331096/", "Surgical management of degenerative meniscus lesions: the 2016 ESSKA meniscus consensus") + ". Knee Surg Sports Traumatol Arthrosc. 2017;25(2):335-346.",
  "Logerstedt DS, Scalzitti DA, Bennell KL, et al. " + ext("https://www.orthopt.org/uploads/content_files/files/Knee%20pain%20and%20mobility%20impairments%202018.pdf", "Knee pain and mobility impairments: meniscal and articular cartilage lesions revision 2018") + ". J Orthop Sports Phys Ther. 2018;48(2):A1-A50.",
- "Sihvonen R, et al. " + ext("https://cdle.colorado.gov/sites/cdle/files/Sihvonen_2013.pdf", "Arthroscopic partial meniscectomy versus sham surgery for a degenerative meniscal tear") + ". N Engl J Med. 2013. Özet: " + ext("https://www.helsinki.fi/en/news/health/finnish-research-revolutionise-indications-knee-surgery", "Helsinki Üniversitesi") + ".",
- "Fairbank TJ. " + ext("https://typeset.io/pdf/knee-joint-changes-after-meniscectomy-18a51yv0ap.pdf", "Knee joint changes after meniscectomy") + ". J Bone Joint Surg Br. 1948;30B(4):664-670.",
+ "Sihvonen R, et al. " + ext("https://doi.org/10.1056/NEJMoa1305189", "Arthroscopic partial meniscectomy versus sham surgery for a degenerative meniscal tear") + ". N Engl J Med. 2013;369:2515-2524. Özet: " + ext("https://www.helsinki.fi/en/news/health/finnish-research-revolutionise-indications-knee-surgery", "Helsinki Üniversitesi") + ".",
+ "Fairbank TJ. " + ext("https://boneandjoint.org.uk/Article/10.1302/0301-620X.30B4.664", "Knee joint changes after meniscectomy") + ". J Bone Joint Surg Br. 1948;30B(4):664-670.",
  "Englund M, Guermazi A, Gale D, et al. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa0800777", "Incidental meniscal findings on knee MRI in middle-aged and elderly persons") + ". N Engl J Med. 2008;359(11):1108-1115.",
- "Kise NJ, Risberg MA, Stensrud S, et al. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC5136715/", "Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear in middle aged patients: randomised controlled trial with two year follow-up") + ". BMJ. 2016;354:i3740.",
+ "Kise NJ, Risberg MA, Stensrud S, et al. " + ext("https://doi.org/10.1136/bmj.i3740", "Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear in middle aged patients: randomised controlled trial with two year follow-up") + ". BMJ. 2016;354:i3740.",
  "van de Graaf VA, Noorduyn JCA, Willigenburg NW, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/30285177/", "Effect of early surgery vs physical therapy on knee function among patients with nonobstructive meniscal tears: the ESCAPE randomized clinical trial") + ". JAMA. 2018;320(13):1328-1337.",
  "Noorduyn JCA, van de Graaf VA, Willigenburg NW, et al. " + ext("https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2794027", "Effect of physical therapy vs arthroscopic partial meniscectomy in people with degenerative meniscal tears: five-year follow-up of the ESCAPE randomized clinical trial") + ". JAMA Netw Open. 2022.",
  "Siemieniuk RAC, Harris IA, Agoritsas T, et al. " + ext("https://www.bmj.com/content/357/bmj.j1982", "Arthroscopic surgery for degenerative knee arthritis and meniscal tears: a clinical practice guideline") + ". BMJ. 2017;357:j1982.",
@@ -130,8 +133,8 @@ MN_TL = [
  ("1948", "Fairbank, menisküsü çıkarılan dizlerin röntgenlerinde eklem aralığının daralması ve kemik kenarlarında çıkıntılar gibi değişiklikler tarif etti."),
  ("2008", "50–90 yaş arası kişilerin diz MR'larını inceleyen bir çalışmada (NEJM) menisküs yırtığı yaşa ve cinsiyete göre %19–56 sıklıkta bulundu; yırtığı olanların %61'inde son bir ayda hiç diz şikâyeti yoktu."),
  ("2013", "Finlandiya'da 35–65 yaş arası 146 kişiyle yapılan FIDELITY çalışmasında (NEJM) artroskopik menisküs kesimi sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı."),
- ("2016", "Norveç'te 35–60 yaş arası 140 kişiyle yapılan çalışmada (BMJ) 12 haftalık denetimli egzersiz programı, 2 yılda artroskopik menisküs kesiminden geri kalmadı; egzersiz grubunda uyluk kas gücü daha fazla arttı."),
- ("2017", "Avrupa'dan 84 cerrah ve bilim insanının katıldığı ESSKA menisküs uzlaşı raporu yayımlandı: 35 yaş üstünde belirgin bir yaralanma olmadan oluşan yırtıklarda artroskopik menisküs kesimi ilk tedavi olarak önerilmiyor; MR ilk incelemede gerekli görülmüyor."),
+ ("2016", "Norveç'te 35–60 yaş arası 140 kişiyle yapılan çalışmada (BMJ) 12 haftalık denetimli egzersiz programı ile artroskopik menisküs kesimi arasında 2 yılda klinik olarak anlamlı bir fark bulunmadı; 3. ayda uyluk kas gücü egzersiz grubunda daha fazla artmıştı."),
+ ("2017", "Avrupa'dan 84 cerrah ve bilim insanının katıldığı ESSKA menisküs uzlaşı raporu yayımlandı: 35 yaş üstünde belirgin bir yaralanma olmadan oluşan yırtıklarda artroskopik menisküs kesimi ilk tedavi olarak önerilmiyor, en az 3 ay sonra şikâyetler sürüyorsa düşünülebilir; MR ilk incelemede gerekli görülmüyor."),
  ("2017", "Uluslararası bir uzman paneli (BMJ), yıpranmaya bağlı diz sorunlarında (menisküs yırtığı dahil) artroskopik ameliyatın yapılmamasını güçlü şekilde önerdi."),
  ("2018", "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin menisküs ve kıkırdak kılavuzu (JOSPT) güncellendi: menisküs yırtığında ve ameliyattan sonra denetimli, kademeli egzersiz B düzeyinde önerildi."),
  ("2018", "Hollanda'da 45–70 yaş arası 321 hastayla yapılan ESCAPE çalışmasında (JAMA) fizyoterapi, 2 yılda diz işlevi açısından ameliyattan geri kalmadı."),
@@ -144,7 +147,7 @@ MN_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Menisküs yırtığı</h1>
-    <p class="lede">Menisküs, dizde uyluk kemiği ile kaval kemiği arasında yastık görevi gören C şeklindeki kıkırdaktır. Gençlerde çoğunlukla dizin burkulmasıyla, 40 yaşından sonra ise çoğunlukla yıpranmayla yırtılır. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulunuyor.</p>
+    <p class="lede">Menisküs, dizde uyluk kemiği ile kaval kemiği arasında yastık görevi gören C şeklindeki kıkırdaktır. Gençlerde çoğunlukla dizin burkulmasıyla, orta yaştan sonra ise çoğunlukla yıpranmayla yırtılır. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulunuyor.</p>
     <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
@@ -166,7 +169,7 @@ MN_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Burkulma mı, yıpranma mı?</h2>
-        <p class="soft">Her dizde iç ve dış olmak üzere iki menisküs bulunur. Yük dağıtır, eklemi korur ve dize denge sağlar. Gençlerde ve sporcularda yırtık çoğunlukla ayak yerdeyken dizin dönmesiyle oluşur; ön çapraz bağ yaralanmasıyla birlikte olabilir. 40 yaşından sonra ise belirgin bir olay olmadan, yıpranmayla ortaya çıkan yırtıklar daha sıktır ve çoğu zaman kireçlenmenin erken bir parçasıdır.</p>
+        <p class="soft">Her dizde iç ve dış olmak üzere iki menisküs bulunur. Yük dağıtır, eklemi korur ve dize denge sağlar. Gençlerde ve sporcularda yırtık çoğunlukla ayak yerdeyken dizin dönmesiyle oluşur; ön çapraz bağ yaralanmasıyla birlikte olabilir. Orta yaştan sonra ise belirgin bir olay olmadan, yıpranmayla ortaya çıkan yırtıklar daha sıktır ve çoğu zaman kireçlenmenin erken bir parçasıdır.</p>
         <p class="soft">MR'da yırtık görülmesi, ağrının nedeninin o yırtık olduğu anlamına gelmez: 50–90 yaş arasında şikâyeti olmayan pek çok kişide de menisküs yırtığı bulunur.</p>
       </div>
       <div>
@@ -187,7 +190,7 @@ MN_BODY = f'''<header class="page">
       <h2>Nasıl tanınır?</h2>
       <p class="soft">Tanı çoğunlukla öykü ve muayeneyle konur. Tek bir muayene testi tek başına yeterince güvenilir değildir; bulgular birlikte değerlendirilir.</p>
       <div class="kinds">
-        <div class="kind"><h3>Muayene testleri</h3><p>Eklem çizgisine bastırınca ağrı, sırtüstü yatarken tam bükülen dizi döndürerek açarken ağrı ya da klik sesi (McMurray testi) ve tek ayak üzerinde dizi hafifçe (yaklaşık 20°) bükerek gövdeyi sağa sola döndürürken ağrı (Thessaly testi) menisküs yırtığını düşündürür. ABD fizyoterapi kılavuzunun aktardığı verilere göre McMurray testi yırtıkların yaklaşık %55'ini, eklem çizgisi hassasiyeti %76'sını yakalıyor.</p></div>
+        <div class="kind"><h3>Muayene testleri</h3><p>Eklem çizgisine bastırınca ağrı, sırtüstü yatarken tam bükülen dizi döndürerek açarken ağrı ya da klik sesi (McMurray testi) ve tek ayak üzerinde dizi hafifçe (yaklaşık 20°) bükerek gövdeyi sağa sola döndürürken ağrı (Thessaly testi) menisküs yırtığını düşündürür. ABD fizyoterapi kılavuzunun aktardığı verilere göre McMurray testi yırtıkların yaklaşık %55'ini, eklem çizgisi hassasiyeti %76'sını yakalıyor. Bu testler hekim ya da fizyoterapist tarafından yapılır; evde denemeyin.</p></div>
         <div class="kind"><h3>MR ne zaman?</h3><p>ESSKA uzlaşı raporuna göre yıpranmaya bağlı yırtık şüphesinde MR genellikle ilk incelemede gerekmez; diz röntgeni kireçlenme tanısını desteklemek ya da nadir başka sorunları görmek için yararlıdır. MR'da yırtık görülmesi ağrının nedeninin o yırtık olduğunu göstermez.</p></div>
         <div class="kind"><h3>Yıpranma mı, yaralanma mı?</h3><p>ESSKA, 35 yaş üstünde belirgin bir yaralanma olmadan ortaya çıkan yırtıkları yıpranmaya bağlı (dejeneratif) kabul ediyor. Ani bir burkulmayla oluşan yırtıklar ise ayrı değerlendirilir; bunlarda bağ yaralanması da olabilir ve bazıları dikilerek onarılabilir.</p></div>
       </div>
@@ -197,11 +200,11 @@ MN_BODY = f'''<header class="page">
   <section id="ameliyat">
     <div class="wrap">
       <h2>Ameliyat mı, egzersiz mi?</h2>
-      <p class="soft">Norveç'te 35–60 yaş arası, yıpranmaya bağlı menisküs yırtığı olan 140 kişiyle yapılan bir çalışmada 12 haftalık denetimli egzersiz programı ile artroskopik menisküs kesimi (parsiyel menisektomi) karşılaştırıldı. İki yılın sonunda iki grup arasında anlamlı bir fark bulunmadı; egzersiz grubunda uyluk kas gücü ise daha fazla arttı.</p>
+      <p class="soft">Norveç'te 35–60 yaş arası, yıpranmaya bağlı menisküs yırtığı olan 140 kişiyle yapılan bir çalışmada 12 haftalık denetimli egzersiz programı ile artroskopik menisküs kesimi (parsiyel menisektomi) karşılaştırıldı. İki yılın sonunda gruplar arasında klinik olarak anlamlı bir fark bulunmadı; 3. ayda uyluk kas gücü egzersiz grubunda daha fazla artmıştı.</p>
       <p class="soft">Hollanda'da 45–70 yaş arası 321 hastayla yapılan ESCAPE çalışmasında da fizyoterapi, hem 2 yılda hem 5 yılda ameliyattan geri kalmadı ve iki grupta kireçlenmenin ilerlemesi benzerdi. Fizyoterapi grubundaki hastaların yaklaşık üçte biri sonradan ameliyat olmayı seçti.</p>
       <p class="soft">Finlandiya'da 146 kişiyle yapılan FIDELITY çalışmasında ise ameliyat sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı.</p>
       <div class="callout">
-        <p>Uluslararası bir uzman panelinin 2017'de BMJ'de yayımlanan kılavuzu, yıpranmaya bağlı diz sorunlarında (menisküs yırtığı dahil) artroskopik ameliyatın yapılmamasını güçlü şekilde öneriyor. Ani bir yaralanmadan sonra ortaya çıkan yırtıklar ve dizin kilitlenip açılamadığı durumlar ise bir ortopedi uzmanınca ayrıca değerlendirilir.</p>
+        <p>Uluslararası bir uzman panelinin 2017'de BMJ'de yayımlanan kılavuzu, yıpranmaya bağlı diz sorunlarında (menisküs yırtığı dahil) artroskopik ameliyatın yapılmamasını güçlü şekilde öneriyor. Öneri, takılma gibi belirtiler olduğunda ya da şikâyetler aniden başladığında da geçerli. Gerçekten kilitlenip tam açılamayan diz ile gençlerde spor yaralanmaları ve ciddi travmalar ise bu önerinin kapsamı dışında; bunlar bir ortopedi uzmanınca ayrıca değerlendirilir.</p>
       </div>
     </div>
   </section>
@@ -230,7 +233,7 @@ MN_BODY = f'''<header class="page">
       <div class="kinds g-cmp">
         <div class="kind"><h3>Tanı ve görüntüleme</h3><dl><dt>ESSKA</dt><dd>MR genellikle ilk incelemede gerekmez; röntgen kireçlenme tanısını desteklemek için yararlıdır.</dd><dt>JOSPT</dt><dd>Eklem çizgisi hassasiyeti, McMurray ve Thessaly testleri gibi öykü ve muayene bulguları birlikte değerlendirilir.</dd></dl></div>
         <div class="kind"><h3>Egzersiz</h3><dl><dt>ESSKA</dt><dd>Ameliyatsız tedavi ilk seçenektir.</dd><dt>JOSPT</dt><dd>Menisküs yırtığında ve ameliyattan sonra denetimli, kademeli hareket egzersizleri, diz ve kalça kaslarına kademeli güçlendirme ve nöromüsküler eğitim (B).</dd></dl></div>
-        <div class="kind"><h3>Artroskopik menisküs kesimi</h3><dl><dt>ESSKA</dt><dd>İlk tedavi olarak önerilmez; standart muayene ve röntgen değerlendirmesinden ve ameliyatsız tedaviye yetersiz yanıttan sonra düşünülebilir.</dd><dt>BMJ</dt><dd>Yıpranmaya bağlı diz sorunlarında yapılmaması güçlü şekilde öneriliyor.</dd></dl></div>
+        <div class="kind"><h3>Artroskopik menisküs kesimi</h3><dl><dt>ESSKA</dt><dd>İlk tedavi olarak önerilmez; standart muayene ve röntgen değerlendirmesinden sonra, en az 3 ay ağrı ya da takılma gibi belirtiler sürerse düşünülebilir; belirgin takılma ya da kilitlenme belirtileri olanlarda daha erken önerilebilir.</dd><dt>BMJ</dt><dd>Yıpranmaya bağlı diz sorunlarında, takılma belirtileri ya da ani başlangıç olsa da yapılmaması güçlü şekilde öneriliyor; gerçekten kilitlenen diz kapsam dışı.</dd></dl></div>
         <div class="kind"><h3>Ameliyattan sonra</h3><dl><dt>JOSPT</dt><dd>Artroskopik menisküs kesiminden sonra klinikte denetimli egzersiz programı ve ev programını bağımsız yapabilmek için eğitim (B); menisküs ameliyatından sonra kas uyarımı (NMES) ve biyogeri bildirim (B).</dd></dl></div>
       </div>
     </div>
@@ -240,7 +243,7 @@ MN_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Menisküs için altı egzersiz</h2>
-      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ve şişlik ertesi gün artmıyorsa devam edin. Yeni bir yaralanmadan sonraki ilk günlerde hareketleri zorlamadan yapın.</p>
+      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ve şişlik ertesi gün artmıyorsa devam edin, artarsa tekrar sayısını azaltın. Yeni bir yaralanmadan sonraki ilk günlerde hareketleri zorlamadan yapın. Diz kilitlenirse egzersizi bırakıp başvurun.</p>
       {ex_grid(["mn_quad", "mn_slr", "mn_kext", "mn_bridge", "mn_wall", "mn_sls"])}
     </div>
   </section>
@@ -279,8 +282,9 @@ MN_BODY = f'''<header class="page">
       <p class="soft">Menisküs yırtığı çoğu zaman acil bir durum değildir. Şu durumlarda ise beklemeden başvurun.</p>
       <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
       <ul class="dots redflags">
-        <li>Dizde ateşle birlikte kızarıklık, sıcaklık ve şişlik (eklem iltihabı olabilir)</li>
-        <li>Yaralanmadan sonraki ilk saatlerde dizin hızla ve belirgin şişmesi ya da bacağa hiç yük verememe (kırık ya da bağ yaralanması olabilir)</li>
+        <li>Ateş olsun ya da olmasın, dizde birden başlayan kızarıklık, sıcaklık, belirgin şişlik ve dizi oynatamama; özellikle diz ameliyatı ya da eklem içi iğneden sonra (eklem iltihabı olabilir)</li>
+        <li>Yaralanmadan sonraki ilk saatlerde dizin hızla ve belirgin biçimde şişmesi ya da bacağa hiç yük verememe (kırık ya da bağ yaralanması olabilir)</li>
+        <li>Yaralanmadan sonra ayakta uyuşma, karıncalanma, soğukluk ya da solukluk ya da dizde belirgin şekil bozukluğu</li>
         <li>Dizin kilitlenip düzeltilememesi</li>
         <li>Baldırda şişlik, ağrı ve kızarıklık (pıhtı olabilir); buna nefes darlığı ya da göğüs ağrısı eklenirse hemen <strong>112</strong>'yi arayın</li>
       </ul>
