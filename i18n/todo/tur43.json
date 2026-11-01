@@ -1,0 +1,922 @@
+[
+ {
+  "id": "tur43-0",
+  "kind": "text",
+  "tr": "Lastik bandı göğüs hizasında, kapıyı kapatarak kapı arasına sıkıştırın ya da sağlam bir yere bağlayın; kapının çekerken açılmayacağından emin olun. Bandın uçlarını tutup dirseklerinizi gövdenize yakın tutarak geriye çekin, kürek kemiklerinizi birbirine yaklaştırın. Yavaşça başlangıca dönün."
+ },
+ {
+  "id": "tur43-1",
+  "kind": "attr",
+  "tr": "Kemik erimesi (osteoporoz) nedir, T-skoru ne anlama gelir, egzersiz güvenli mi, hangi hareketlerden kaçınmalı? İki egzersiz önerisinin karşılaştırması, kısa tarihçe, evde altı egzersiz, günlük hayatta omurgayı koruma ve uyarı işaretleri."
+ },
+ {
+  "id": "tur43-2",
+  "kind": "text",
+  "tr": "Son güncelleme: 1 Kasım 2026"
+ },
+ {
+  "id": "tur43-3",
+  "kind": "text",
+  "tr": "Dünyada 55 yaş üstünde yılda görülen kırılganlık kırığı sayısının tahmini üst sınırı; dakikada 70"
+ },
+ {
+  "id": "tur43-4",
+  "kind": "text",
+  "tr": "Tanı ve T-skoru"
+ },
+ {
+  "id": "tur43-5",
+  "kind": "text",
+  "tr": "Egzersiz önerileri"
+ },
+ {
+  "id": "tur43-6",
+  "kind": "text",
+  "tr": "Kemik, sürekli yıkılıp yeniden yapılan canlı bir dokudur. Yaşla ve özellikle kadınlarda menopozdan sonra yıkım, yapımdan daha hızlı olur; kemik yoğunluğu azalır, iç yapısı incelir. Sonuçta basit bir düşme ya da öne eğilip yük kaldırma gibi zorlamalar kırığa yol açabilir. En sık omurga, kalça ve el bileği kırılır."
+ },
+ {
+  "id": "tur43-7",
+  "kind": "text",
+  "tr": "Tanı kemik yoğunluğu ölçümüyle (DEXA) konur (bkz. <a href=\"#tani\">Tanı ve T-skoru</a>). Kimin ne zaman ölçüm yaptırması gerektiğine risk etkenlerine göre hekim karar verir."
+ },
+ {
+  "id": "tur43-8",
+  "kind": "text",
+  "tr": "Tanı: kemik yoğunluğu ölçümü ve T-skoru"
+ },
+ {
+  "id": "tur43-9",
+  "kind": "text",
+  "tr": "Kemik yoğunluğu en sık DEXA adı verilen, kısa süren bir ölçümle değerlendirilir; genellikle uyluk kemiğinin üst kısmı ve bel omurgası ölçülür. Sonuç, genç yetişkinlerin ortalamasıyla karşılaştırılır ve T-skoru olarak verilir. Uluslararası Osteoporoz Vakfı'nın aktardığı Dünya Sağlık Örgütü tanımına göre uyluk kemiği boynunda ölçülen T-skoru şöyle yorumlanır:"
+ },
+ {
+  "id": "tur43-10",
+  "kind": "text",
+  "tr": "Normal"
+ },
+ {
+  "id": "tur43-11",
+  "kind": "text",
+  "tr": "T-skoru −1 ve üzeri."
+ },
+ {
+  "id": "tur43-12",
+  "kind": "text",
+  "tr": "Osteopeni (düşük kemik kütlesi)"
+ },
+ {
+  "id": "tur43-13",
+  "kind": "text",
+  "tr": "T-skoru −1 ile −2,5 arasında."
+ },
+ {
+  "id": "tur43-14",
+  "kind": "text",
+  "tr": "Osteoporoz"
+ },
+ {
+  "id": "tur43-15",
+  "kind": "text",
+  "tr": "T-skoru −2,5 ya da daha düşük."
+ },
+ {
+  "id": "tur43-16",
+  "kind": "text",
+  "tr": "Ağır osteoporoz"
+ },
+ {
+  "id": "tur43-17",
+  "kind": "text",
+  "tr": "T-skoru −2,5 ya da daha düşük ve en az bir kırılganlık kırığı."
+ },
+ {
+  "id": "tur43-18",
+  "kind": "text",
+  "tr": "DEXA kemiğin miktarını ölçer, kalitesini göstermez. Kırılganlık kırığı geçirenlerin çoğunun T-skoru −2,5'in altında değildir; yani kırıkların çoğu osteopeni düzeyindeki kişilerde görülür. Bu yüzden kırık riski, FRAX gibi kemik yoğunluğunu yaş, önceki kırıklar ve diğer risk etkenleriyle birlikte değerlendiren hesaplamalarla da tahmin edilir. Farklı cihazların sonuçları birbirinden ayrılabildiği için takip ölçümlerinin aynı cihazla yapılması tercih edilir. Sonucun yorumunu hekiminiz yapar."
+ },
+ {
+  "id": "tur43-19",
+  "kind": "text",
+  "tr": "Menopozdan egzersiz önerilerine"
+ },
+ {
+  "id": "tur43-20",
+  "kind": "text",
+  "tr": "Menopoz sonrası kemik erimesi 1940'larda tarif edildi. Son yıllarda ise egzersizin kemik sağlığındaki yeri netleşti; öneriler yalnızca yürüyüşten kas güçlendirme, denge ve omurgayı koruyan harekete doğru genişledi."
+ },
+ {
+  "id": "tur43-21",
+  "kind": "text",
+  "tr": "Fuller Albright ve arkadaşları, menopoz sonrası kemik erimesinin klinik özelliklerini anlatan makalelerini JAMA'da yayımladı."
+ },
+ {
+  "id": "tur43-22",
+  "kind": "text",
+  "tr": "Avustralya, Kanada, Finlandiya ve ABD'den araştırmacılar ve klinisyenler, Osteoporosis Canada iş birliğiyle Too Fit To Fracture egzersiz önerilerini yayımladı (Osteoporosis International): direnç ve denge egzersizlerini içeren çok bileşenli bir program güçlü şekilde önerildi; yalnızca aerobik egzersiz yapılıp direnç ve denge çalışmalarının ihmal edilmemesi vurgulandı."
+ },
+ {
+  "id": "tur43-23",
+  "kind": "text",
+  "tr": "LIFTMOR çalışması (JBMR): kemik yoğunluğu düşük, menopoz sonrası 101 kadında uzman gözetiminde haftada iki kez 30 dakikalık yüksek yoğunluklu kuvvet ve darbe egzersizi, 8 ayda bel omurgası kemik yoğunluğunu düşük yoğunluklu ev egzersizi yapan gruba göre belirgin şekilde artırdı."
+ },
+ {
+  "id": "tur43-24",
+  "kind": "text",
+  "tr": "İngiltere Ulusal Osteoporoz Derneği'nin (bugün Royal Osteoporosis Society) \"Güçlü, Dengeli ve Dik\" uzman görüş bildirisi yayımlandı: haftada 2–3 gün kas güçlendirme, uygun olanlarda çoğu gün yaklaşık 50 darbe, denge egzersizleri ve omurgayı koruyan hareket."
+ },
+ {
+  "id": "tur43-25",
+  "kind": "text",
+  "tr": "İngiltere'nin osteoporoz kılavuzu (NOGG) güncellendi: kırıktan sonraki ilk dönemde yeni kırık riskinin özellikle yüksek olduğu ve gerektiğinde zamanında sevk ya da ilaç tedavisinin önemi vurgulandı."
+ },
+ {
+  "id": "tur43-26",
+  "kind": "text",
+  "tr": "69 çalışmayı kapsayan bir derleme (BMJ): osteoporoz ilacı kullanmayan yetişkinlerde kalsiyum ve D vitamini takviyeleri kırıkları ve düşmeleri klinik açıdan anlamlı ölçüde azaltmadı; sonucun belirli kemik hastalıkları olanlar ve osteoporoz ilacı kullananlar için geçerli olmayabileceği belirtildi."
+ },
+ {
+  "id": "tur43-27",
+  "kind": "text",
+  "tr": "İngiltere Ulusal Osteoporoz Derneği'nin (bugünkü adıyla Royal Osteoporosis Society, ROS) uzman görüş bildirisi egzersizi üç hedef etrafında topluyor: kemiği güçlendirmek, düşmeleri önlemek ve omurgayı korumak."
+ },
+ {
+  "id": "tur43-28",
+  "kind": "text",
+  "tr": "Haftada 2–3 gün; zamanla her hareket için 8–12 tekrarlık 3 sete kadar çıkılır. Sırt kaslarını güçlendiren hareketlerin de programda yer alması önerilir."
+ },
+ {
+  "id": "tur43-29",
+  "kind": "text",
+  "tr": "Uygun olanlarda çoğu gün yaklaşık 50 orta şiddetli darbe, örneğin hafif koşu adımları ya da küçük sıçramalar önerilir. Omurga kırığı ya da birden fazla kırık öyküsü olanlarda genel kural olarak orta şiddetli darbeler yerine daha düşük darbeli etkinlikler önerilir; kırılgan ve hareketi kısıtlı kişilerde yürüyüş gibi düşük darbeli etkinlik günde 20 dakikaya kadar."
+ },
+ {
+  "id": "tur43-30",
+  "kind": "text",
+  "tr": "Menopoz sonrası kemik yoğunluğu düşük kadınlarda uzman gözetiminde yapılan yüksek yoğunluklu kuvvet ve darbe egzersizi, 8 ayda omurga kemik yoğunluğunu düşük yoğunluklu ev egzersizi yapan gruba göre belirgin şekilde artırdı. Bu tür programların kişiye göre planlanıp gözetim altında uygulanması gerekir."
+ },
+ {
+  "id": "tur43-31",
+  "kind": "text",
+  "tr": "İlaç tedavisi, kalsiyum ve D vitamini ihtiyacı kişiye göre değişir; bunlara hekiminiz karar verir. 2026'da The BMJ'de yayımlanan ve 69 çalışmayı kapsayan bir derlemede, osteoporoz ilacı kullanmayan yetişkinlerde kalsiyum ve D vitamini takviyeleri kırıkları ve düşmeleri klinik açıdan anlamlı ölçüde azaltmadı; araştırmacılar sonucun belirli kemik hastalıkları olanlar ve osteoporoz ilacı kullananlar için geçerli olmayabileceğini belirtiyor. Size önerilen bir takviyeyi kendi kendinize bırakmayın; hangisinin uygun olduğunu hekiminize sorun. Sigarayı bırakmak ve alkolü sınırlamak da kemikleri korumaya yardımcı olur."
+ },
+ {
+  "id": "tur43-32",
+  "kind": "text",
+  "tr": "Egzersiz önerileri: iki kaynak yan yana"
+ },
+ {
+  "id": "tur43-33",
+  "kind": "text",
+  "tr": "İngiltere Ulusal Osteoporoz Derneği'nin (bugünkü adıyla Royal Osteoporosis Society, ROS) uzman görüş bildirisi (2018) ile Osteoporosis Canada iş birliğiyle hazırlanan Too Fit To Fracture önerileri (2014) yan yana. İkisi de uzman görüşüne ve mevcut çalışmalara dayanıyor; program kişiye, kırık öyküsüne ve genel duruma göre ayarlanır."
+ },
+ {
+  "id": "tur43-34",
+  "kind": "text",
+  "tr": "ROS"
+ },
+ {
+  "id": "tur43-35",
+  "kind": "text",
+  "tr": "Haftada 2–3 gün; zamanla her hareket için 8–12 tekrarlık 3 sete kadar çıkılır; sırt kaslarını güçlendiren hareketler de programda yer alır."
+ },
+ {
+  "id": "tur43-36",
+  "kind": "text",
+  "tr": "Too Fit To Fracture"
+ },
+ {
+  "id": "tur43-37",
+  "kind": "text",
+  "tr": "Tüm büyük kas gruplarına en az haftada iki kez kademeli direnç egzersizi; her kas grubu için en az bir hareketle 2 set, uygunsa 8–12 tekrar. Hareketsiz olanlar daha düşük düzeyden başlayabilir."
+ },
+ {
+  "id": "tur43-38",
+  "kind": "text",
+  "tr": "65 yaş üstündekiler ve denge sorunu olanlar için denge ve güçlendirme egzersizleri."
+ },
+ {
+  "id": "tur43-39",
+  "kind": "text",
+  "tr": "Her gün denge çalışması; haftada yaklaşık 2 saat (günde 15–20 dakika)."
+ },
+ {
+  "id": "tur43-40",
+  "kind": "text",
+  "tr": "Darbe ve aerobik egzersiz"
+ },
+ {
+  "id": "tur43-41",
+  "kind": "text",
+  "tr": "Uygun olanlarda çoğu gün yaklaşık 50 orta şiddetli darbe; omurga kırığı ya da birden fazla kırık öyküsü olanlarda genel kural olarak daha düşük darbeli etkinlikler."
+ },
+ {
+  "id": "tur43-42",
+  "kind": "text",
+  "tr": "Haftada 150–300 dakika orta ya da 75–150 dakika yüksek yoğunluklu aerobik etkinlik hedeflenebilir, ama direnç ve denge egzersizlerinin yerine değil; omurga kırığı olanlarda daha kısa ya da daha düşük yoğunluklu etkinlikler daha uygun olabilir."
+ },
+ {
+  "id": "tur43-43",
+  "kind": "text",
+  "tr": "Omurgayı uzun süre, en uç noktaya kadar ya da yük altında öne bükmeyi gerektiren hareketler değiştirilir."
+ },
+ {
+  "id": "tur43-44",
+  "kind": "text",
+  "tr": "Hareketler arasındaki geçişlerde dönme ve öne eğilmeye dikkat; omurga kırığı riski yüksek olanlarda öne eğilme ve dönme gerektiren direnç makinelerinden, doğru kullanılabileceği kesin değilse, kaçınılır. Duruş kaslarını (sırt kaslarının dayanıklılığını) güçlendiren egzersizler ve duruş eğitimi önerilir."
+ },
+ {
+  "id": "tur43-45",
+  "kind": "text",
+  "tr": "Ağrılı kırığı ya da hareket sorunu olanlarda fizyoterapiste yönlendirme düşünülmeli."
+ },
+ {
+  "id": "tur43-46",
+  "kind": "text",
+  "tr": "Omurga kırığı olanlarda güvenli ve uygun egzersiz için fizyoterapiste danışılması öneriliyor."
+ },
+ {
+  "id": "tur43-47",
+  "kind": "text",
+  "tr": "Tezgâha tutunarak dik durun. İki topuğunuzu birlikte kaldırıp parmak uçlarınızda yükselin, 2 saniye bekleyip yavaşça inin. Uygun olanlarda topukları hafifçe yere bırakarak yapılan küçük darbeler kemiğe ek uyarı sağlar. Omurga kırığı öykünüz varsa darbeli kısmı fizyoterapistinize danışmadan yapmayın."
+ },
+ {
+  "id": "tur43-48",
+  "kind": "text",
+  "tr": "Evet; egzersiz kemik sağlığının en önemli parçalarından biridir. İngiltere Ulusal Osteoporoz Derneği'nin (bugün Royal Osteoporosis Society) uzman görüş bildirisi kas güçlendirme, uygun kişilerde darbe egzersizleri ve denge çalışmalarını öneriyor. Egzersizin tipi ve yoğunluğunun kırık öykünüze ve genel durumunuza göre bir fizyoterapistle ayarlanması önerilir."
+ },
+ {
+  "id": "tur43-49",
+  "kind": "text",
+  "tr": "T-skorum −2 çıktı, bu ne demek?"
+ },
+ {
+  "id": "tur43-50",
+  "kind": "text",
+  "tr": "Dünya Sağlık Örgütü'nün tanımına göre −1 ile −2,5 arasındaki T-skoru osteopeni, yani düşük kemik kütlesi anlamına gelir; DEXA'ya göre kemik erimesi (osteoporoz) tanısı için T-skorunun −2,5 ya da daha düşük olması gerekir. Ancak kırılganlık kırığı geçirenlerin çoğunun T-skoru −2,5'in altında değildir. Bu yüzden kırık riski yalnız T-skoruyla değil, FRAX gibi kemik yoğunluğunu diğer risk etkenleriyle birlikte değerlendiren hesaplamalarla da tahmin edilir; tedavi gerekip gerekmediğine hekiminiz karar verir. Kemik yoğunluğu düşük (osteopeni ya da osteoporoz) menopoz sonrası kadınlarla yapılan LIFTMOR çalışmasında, gözetimli kuvvet ve darbe egzersizi kemik yoğunluğunu artırdı."
+ },
+ {
+  "id": "tur43-51",
+  "kind": "text",
+  "tr": "Omurgayı uzun süre, en uç noktaya kadar ya da yük altında öne bükmeyi gerektiren hareketlerin değiştirilmesi ya da yerine başka hareketler bulunması öneriliyor. Örneğin mekik ya da dizler düzken yere doğru uzanma gibi hareketler yerine başka karın ve sırt egzersizleri seçilebilir. Yerden bir şey alırken de belinizi yuvarlamak yerine dizlerinizi bükün ve kalçanızdan eğilin."
+ },
+ {
+  "id": "tur43-52",
+  "kind": "text",
+  "tr": "Yürüyüş genel sağlık için çok değerlidir ama kemikler için tek başına genellikle yeterli değildir. Haftada 2–3 gün kas güçlendirme egzersizleri önerilir; uygun olanlarda çoğu gün yaklaşık 50 orta şiddetli darbe (hafif koşu adımları, küçük sıçramalar) eklenebilir. 65 yaş üstündekilerin ve denge sorunu olanların denge egzersizlerini de programa katmaları önerilir. Omurga kırığı ya da birden fazla kırık öyküsü olanlarda ise genel kural olarak orta şiddetli darbeler yerine daha düşük darbeli etkinlikler önerilir."
+ },
+ {
+  "id": "tur43-53",
+  "kind": "text",
+  "tr": "Evet, ama program size göre uyarlanmalıdır. Ağrılı omurga kırığı olanların kaygıyı azaltacak bilgiyi erkenden almaları ve fizyoterapiste yönlendirilmelerinin düşünülmesi öneriliyor. Başlangıçta darbe egzersizleri yerine güçlendirme, denge ve güvenli hareket öğretimi öne çıkar. İngiltere’nin 2022 osteoporoz kılavuzuna (NOGG) göre kırıktan sonraki ilk dönemde yeni kırık riski özellikle yüksektir; ilaç tedavisinin sizin için uygun olup olmadığını hekiminize sorun."
+ },
+ {
+  "id": "tur43-54",
+  "kind": "text",
+  "tr": "Bazı kişilerde, uzman gözetiminde güçlendirebilir. Kemik yoğunluğu düşük, menopoz sonrası 101 kadının katıldığı bir çalışmada haftada iki kez 30 dakikalık yüksek yoğunluklu kuvvet ve darbe egzersizi, 8 ayda bel omurgası kemik yoğunluğunu düşük yoğunluklu ev egzersizi yapan gruba göre belirgin şekilde artırdı; kırıklar üzerindeki etkisi bu çalışmada ölçülmedi. Ancak bu tür programlar mutlaka kişiye göre planlanmalı ve gözetim altında, kademeli olarak uygulanmalıdır."
+ },
+ {
+  "id": "tur43-55",
+  "kind": "text",
+  "tr": "Aşağıdaki durumlarda belirtilen süre içinde başvurun."
+ },
+ {
+  "id": "tur43-56",
+  "kind": "text",
+  "tr": "Hemen 112'yi arayın ya da acil servise gidin:"
+ },
+ {
+  "id": "tur43-57",
+  "kind": "text",
+  "tr": "Sırt ağrısıyla birlikte bacaklarda uyuşma, güç kaybı ya da idrar ve dışkı kontrolünde bozulma"
+ },
+ {
+  "id": "tur43-58",
+  "kind": "text",
+  "tr": "Düşme sonrası kalça ağrısı ve bacağa yük verememe ya da kendi başına kalkamama (kalça kırığı olabilir)"
+ },
+ {
+  "id": "tur43-59",
+  "kind": "text",
+  "tr": "Düşerken başını çarpma, özellikle kan sulandırıcı kullanıyorsanız"
+ },
+ {
+  "id": "tur43-60",
+  "kind": "text",
+  "tr": "Aynı gün:"
+ },
+ {
+  "id": "tur43-61",
+  "kind": "text",
+  "tr": "Düşme sonrası el bileğinde şekil bozukluğu ya da belirgin şişlik (kırık olabilir)"
+ },
+ {
+  "id": "tur43-62",
+  "kind": "text",
+  "tr": "Ateşle ya da kanser öyküsüyle birlikte yeni başlayan sırt ağrısı"
+ },
+ {
+  "id": "tur43-63",
+  "kind": "text",
+  "tr": "Giangregorio LM, et al. <a href=\"https://link.springer.com/article/10.1007/s00198-013-2523-2\" target=\"_blank\" rel=\"noopener\">Too Fit To Fracture: exercise recommendations for individuals with osteoporosis or osteoporotic vertebral fracture</a>. Osteoporos Int. 2014;25. Tam metin: <a href=\"https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/724074d1-ca56-5db4-8af6-6a0fc321aa82/content\" target=\"_blank\" rel=\"noopener\">Melbourne Üniversitesi</a>."
+ },
+ {
+  "id": "tur43-64",
+  "kind": "text",
+  "tr": "International Osteoporosis Foundation. <a href=\"https://www.osteoporosis.foundation/health-professionals/diagnosis\" target=\"_blank\" rel=\"noopener\">Diagnosis</a>."
+ },
+ {
+  "id": "tur43-65",
+  "kind": "text",
+  "tr": "Albright F, Smith PH, Richardson AM. Postmenopausal osteoporosis: its clinical features. JAMA. 1941;116:2465. Atıf: <a href=\"https://link.springer.com/doi/10.1007/s11999-011-1832-z\" target=\"_blank\" rel=\"noopener\">Clin Orthop Relat Res, 2011</a>."
+ },
+ {
+  "id": "tur43-66",
+  "kind": "text",
+  "tr": "National Osteoporosis Society (bugün Royal Osteoporosis Society). <a href=\"https://www.bgs.org.uk/strong-steady-straight-nos-exercise-and-osteoporosis-consensus-statement\" target=\"_blank\" rel=\"noopener\">Strong, Steady and Straight: an expert consensus statement on physical activity and exercise for osteoporosis</a>. 2018. Kısa rehber: <a href=\"https://www.endocrinology.org/media/3590/final-quick-guide_strong-steady-straight_dec18.pdf\" target=\"_blank\" rel=\"noopener\">Quick guide, Aralık 2018</a>."
+ },
+ {
+  "id": "tur43-67",
+  "kind": "text",
+  "tr": "Massé O, et al. Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis. BMJ. 2026;393:e088050. Özet: <a href=\"https://bmjgroup.com/calcium-and-vitamin-d-supplements-offer-little-to-no-meaningful-benefit-on-fracture-and-fall-prevention/\" target=\"_blank\" rel=\"noopener\">BMJ Group, 20 Mayıs 2026</a>."
+ },
+ {
+  "id": "tur43-68",
+  "kind": "attr",
+  "tr": "Menisküs yırtığı nedir, nasıl tanınır, her yırtık ameliyat gerektirir mi? MR bulgusu ne anlama gelir, egzersiz ne kadar etkili? Kılavuz karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri."
+ },
+ {
+  "id": "tur43-69",
+  "kind": "text",
+  "tr": "Menisküs, dizde uyluk kemiği ile kaval kemiği arasında yastık görevi gören C şeklindeki kıkırdaktır. Gençlerde çoğunlukla dizin burkulmasıyla, orta yaştan sonra ise çoğunlukla yıpranmayla yırtılır. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulunuyor."
+ },
+ {
+  "id": "tur43-70",
+  "kind": "text",
+  "tr": "Her dizde iç ve dış olmak üzere iki menisküs bulunur. Yük dağıtır, eklemi korur ve dize denge sağlar. Gençlerde ve sporcularda yırtık çoğunlukla ayak yerdeyken dizin dönmesiyle oluşur; ön çapraz bağ yaralanmasıyla birlikte olabilir. Orta yaştan sonra ise belirgin bir olay olmadan, yıpranmayla ortaya çıkan yırtıklar daha sıktır ve çoğu zaman kireçlenmenin erken bir parçasıdır."
+ },
+ {
+  "id": "tur43-71",
+  "kind": "text",
+  "tr": "Tanı çoğunlukla öykü ve muayeneyle konur. Tek bir muayene testi tek başına yeterince güvenilir değildir; bulgular birlikte değerlendirilir."
+ },
+ {
+  "id": "tur43-72",
+  "kind": "text",
+  "tr": "Eklem çizgisine bastırınca ağrı, sırtüstü yatarken tam bükülen dizi döndürerek açarken ağrı ya da klik sesi (McMurray testi) ve tek ayak üzerinde dizi hafifçe (yaklaşık 20°) bükerek gövdeyi sağa sola döndürürken ağrı (Thessaly testi) menisküs yırtığını düşündürür. ABD fizyoterapi kılavuzunun aktardığı verilere göre McMurray testi yırtıkların yaklaşık %55'ini, eklem çizgisi hassasiyeti %76'sını yakalıyor. Bu testler hekim ya da fizyoterapist tarafından yapılır; evde denemeyin."
+ },
+ {
+  "id": "tur43-73",
+  "kind": "text",
+  "tr": "MR ne zaman?"
+ },
+ {
+  "id": "tur43-74",
+  "kind": "text",
+  "tr": "ESSKA uzlaşı raporuna göre yıpranmaya bağlı yırtık şüphesinde MR genellikle ilk incelemede gerekmez; diz röntgeni kireçlenme tanısını desteklemek ya da nadir başka sorunları görmek için yararlıdır. MR'da yırtık görülmesi ağrının nedeninin o yırtık olduğunu göstermez."
+ },
+ {
+  "id": "tur43-75",
+  "kind": "text",
+  "tr": "Yıpranma mı, yaralanma mı?"
+ },
+ {
+  "id": "tur43-76",
+  "kind": "text",
+  "tr": "ESSKA, 35 yaş üstünde belirgin bir yaralanma olmadan ortaya çıkan yırtıkları yıpranmaya bağlı (dejeneratif) kabul ediyor. Ani bir burkulmayla oluşan yırtıklar ise ayrı değerlendirilir; bunlarda bağ yaralanması da olabilir ve bazıları dikilerek onarılabilir."
+ },
+ {
+  "id": "tur43-77",
+  "kind": "text",
+  "tr": "Norveç'te 35–60 yaş arası, yıpranmaya bağlı menisküs yırtığı olan 140 kişiyle yapılan bir çalışmada 12 haftalık denetimli egzersiz programı ile artroskopik menisküs kesimi (parsiyel menisektomi) karşılaştırıldı. İki yılın sonunda gruplar arasında klinik olarak anlamlı bir fark bulunmadı; 3. ayda uyluk kas gücü egzersiz grubunda daha fazla artmıştı."
+ },
+ {
+  "id": "tur43-78",
+  "kind": "text",
+  "tr": "Finlandiya'da 146 kişiyle yapılan FIDELITY çalışmasında ise ameliyat sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı."
+ },
+ {
+  "id": "tur43-79",
+  "kind": "text",
+  "tr": "Uluslararası bir uzman panelinin 2017'de BMJ'de yayımlanan kılavuzu, yıpranmaya bağlı diz sorunlarında (menisküs yırtığı dahil) artroskopik ameliyatın yapılmamasını güçlü şekilde öneriyor. Öneri, takılma gibi belirtiler olduğunda ya da şikâyetler aniden başladığında da geçerli. Gerçekten kilitlenip tam açılamayan diz ile gençlerde spor yaralanmaları ve ciddi travmalar ise bu önerinin kapsamı dışında; bunlar bir ortopedi uzmanınca ayrıca değerlendirilir."
+ },
+ {
+  "id": "tur43-80",
+  "kind": "text",
+  "tr": "Menisküsü korumaya doğru"
+ },
+ {
+  "id": "tur43-81",
+  "kind": "text",
+  "tr": "Uzun yıllar yırtık menisküsün çıkarılması yaygın bir tedaviydi. Son yirmi yılın araştırmaları, yıpranmaya bağlı yırtıklarda ameliyatın egzersizden üstün olmadığını gösterdi."
+ },
+ {
+  "id": "tur43-82",
+  "kind": "text",
+  "tr": "Fairbank, menisküsü çıkarılan dizlerin röntgenlerinde eklem aralığının daralması ve kemik kenarlarında çıkıntılar gibi değişiklikler tarif etti."
+ },
+ {
+  "id": "tur43-83",
+  "kind": "text",
+  "tr": "50–90 yaş arası kişilerin diz MR'larını inceleyen bir çalışmada (NEJM) menisküs yırtığı yaşa ve cinsiyete göre %19–56 sıklıkta bulundu; yırtığı olanların %61'inde son bir ayda hiç diz şikâyeti yoktu."
+ },
+ {
+  "id": "tur43-84",
+  "kind": "text",
+  "tr": "Finlandiya'da 35–65 yaş arası 146 kişiyle yapılan FIDELITY çalışmasında (NEJM) artroskopik menisküs kesimi sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı."
+ },
+ {
+  "id": "tur43-85",
+  "kind": "text",
+  "tr": "Norveç'te 35–60 yaş arası 140 kişiyle yapılan çalışmada (BMJ) 12 haftalık denetimli egzersiz programı ile artroskopik menisküs kesimi arasında 2 yılda klinik olarak anlamlı bir fark bulunmadı; 3. ayda uyluk kas gücü egzersiz grubunda daha fazla artmıştı."
+ },
+ {
+  "id": "tur43-86",
+  "kind": "text",
+  "tr": "Avrupa'dan 84 cerrah ve bilim insanının katıldığı ESSKA menisküs uzlaşı raporu yayımlandı: 35 yaş üstünde belirgin bir yaralanma olmadan oluşan yırtıklarda artroskopik menisküs kesimi ilk tedavi olarak önerilmiyor, en az 3 ay sonra şikâyetler sürüyorsa düşünülebilir; MR ilk incelemede gerekli görülmüyor."
+ },
+ {
+  "id": "tur43-87",
+  "kind": "text",
+  "tr": "Uluslararası bir uzman paneli (BMJ), yıpranmaya bağlı diz sorunlarında (menisküs yırtığı dahil) artroskopik ameliyatın yapılmamasını güçlü şekilde önerdi."
+ },
+ {
+  "id": "tur43-88",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin menisküs ve kıkırdak kılavuzu (JOSPT) güncellendi: menisküs yırtığında ve ameliyattan sonra denetimli, kademeli egzersiz B düzeyinde önerildi."
+ },
+ {
+  "id": "tur43-89",
+  "kind": "text",
+  "tr": "Hollanda'da 45–70 yaş arası 321 hastayla yapılan ESCAPE çalışmasında (JAMA) fizyoterapi, 2 yılda diz işlevi açısından ameliyattan geri kalmadı."
+ },
+ {
+  "id": "tur43-90",
+  "kind": "text",
+  "tr": "ESCAPE çalışmasının 5 yıllık sonuçlarında da fizyoterapi ameliyattan geri kalmadı; kireçlenmenin ilerlemesi iki grupta benzerdi."
+ },
+ {
+  "id": "tur43-91",
+  "kind": "text",
+  "tr": "Menisküs yırtığı ve diz kireçlenmesi olan 879 kişiyle yapılan TeMPO çalışmasında (NEJM), evde video ve broşürle yapılan egzersiz programına fizyoterapi seansları eklemek 3. ayda ağrıda anlamlı ek fark yaratmadı."
+ },
+ {
+  "id": "tur43-92",
+  "kind": "text",
+  "tr": "Soğuk uygulama ağrılı dönemde egzersize devam etmeyi kolaylaştırabilir. Ağrı kesicilerden hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur43-93",
+  "kind": "text",
+  "tr": "Avrupa Spor Travmatolojisi, Diz Cerrahisi ve Artroskopi Derneği'nin (ESSKA) uzlaşı raporu (2017), BMJ'de yayımlanan uluslararası kılavuz (2017) ve Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin menisküs ve kıkırdak kılavuzu (JOSPT, 2018) yan yana. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (A güçlü, B orta, C zayıf kanıt). ESSKA ve BMJ önerileri yıpranmaya bağlı yırtıkları kapsıyor; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur43-94",
+  "kind": "text",
+  "tr": "Tanı ve görüntüleme"
+ },
+ {
+  "id": "tur43-95",
+  "kind": "text",
+  "tr": "ESSKA"
+ },
+ {
+  "id": "tur43-96",
+  "kind": "text",
+  "tr": "MR genellikle ilk incelemede gerekmez; röntgen kireçlenme tanısını desteklemek için yararlıdır."
+ },
+ {
+  "id": "tur43-97",
+  "kind": "text",
+  "tr": "Eklem çizgisi hassasiyeti, McMurray ve Thessaly testleri gibi öykü ve muayene bulguları birlikte değerlendirilir."
+ },
+ {
+  "id": "tur43-98",
+  "kind": "text",
+  "tr": "Ameliyatsız tedavi ilk seçenektir."
+ },
+ {
+  "id": "tur43-99",
+  "kind": "text",
+  "tr": "Menisküs yırtığında ve ameliyattan sonra denetimli, kademeli hareket egzersizleri, diz ve kalça kaslarına kademeli güçlendirme ve nöromüsküler eğitim (B)."
+ },
+ {
+  "id": "tur43-100",
+  "kind": "text",
+  "tr": "Artroskopik menisküs kesimi"
+ },
+ {
+  "id": "tur43-101",
+  "kind": "text",
+  "tr": "İlk tedavi olarak önerilmez; standart muayene ve röntgen değerlendirmesinden sonra, en az 3 ay ağrı ya da takılma gibi belirtiler sürerse düşünülebilir; belirgin takılma ya da kilitlenme belirtileri olanlarda daha erken önerilebilir."
+ },
+ {
+  "id": "tur43-102",
+  "kind": "text",
+  "tr": "BMJ"
+ },
+ {
+  "id": "tur43-103",
+  "kind": "text",
+  "tr": "Yıpranmaya bağlı diz sorunlarında, takılma belirtileri ya da ani başlangıç olsa da yapılmaması güçlü şekilde öneriliyor; gerçekten kilitlenen diz kapsam dışı."
+ },
+ {
+  "id": "tur43-104",
+  "kind": "text",
+  "tr": "Ameliyattan sonra"
+ },
+ {
+  "id": "tur43-105",
+  "kind": "text",
+  "tr": "Artroskopik menisküs kesiminden sonra klinikte denetimli egzersiz programı ve ev programını bağımsız yapabilmek için eğitim (B); menisküs ameliyatından sonra kas uyarımı (NMES) ve biyogeri bildirim (B)."
+ },
+ {
+  "id": "tur43-106",
+  "kind": "text",
+  "tr": "Egzersiz sırasında hafif ve katlanılabilir bir ağrı olabilir; ağrı ve şişlik ertesi gün artmıyorsa devam edin, artarsa tekrar sayısını azaltın. Yeni bir yaralanmadan sonraki ilk günlerde hareketleri zorlamadan yapın. Diz kilitlenirse egzersizi bırakıp başvurun."
+ },
+ {
+  "id": "tur43-107",
+  "kind": "text",
+  "tr": "Çoğu zaman hayır. 50 yaşın üzerinde MR'da menisküs yırtığı çok sık görülür; yırtığı olanların yarısından fazlası son bir ayda hiç ağrı, sızı ya da tutukluk yaşamamıştı. Yıpranmaya bağlı yırtıklarda egzersiz tedavisi, çalışmalarda ameliyat kadar etkili bulundu. Karar MR görüntüsüne göre değil, şikâyetlerinize ve muayeneye göre verilir."
+ },
+ {
+  "id": "tur43-108",
+  "kind": "text",
+  "tr": "Fizyoterapi seansı mı, evde egzersiz mi?"
+ },
+ {
+  "id": "tur43-109",
+  "kind": "text",
+  "tr": "Menisküs yırtığı ve diz kireçlenmesi olan 879 kişiyle yapılan TeMPO çalışmasında, evde video ve broşürle yapılan egzersiz programına fizyoterapi seansları eklemek 3. ayda ağrıda anlamlı ek fark yaratmadı; 6. ve 12. ayda ise seans alan gruplarda (sahte uygulama yapılan grup dahil) ağrı biraz daha fazla azaldı. Yani evde düzenli egzersiz tek başına da değerli; seanslar programın doğru kurulmasına ve ilerletilmesine yardımcı olabilir."
+ },
+ {
+  "id": "tur43-110",
+  "kind": "text",
+  "tr": "Çoğu zaman ilk basamakta gerekmez. Avrupa'dan 84 cerrah ve bilim insanının hazırladığı ESSKA uzlaşı raporu, yıpranmaya bağlı yırtık şüphesinde MR'ı ilk incelemede önermiyor; diz röntgeni ise kireçlenme tanısını desteklemek ya da nadir başka sorunları görmek için yararlı. MR'da yırtık görülmesi, ağrının nedeninin o yırtık olduğunu da göstermez: 50 yaş üstünde MR'da yırtık görülenlerin %61'inde son bir ayda hiç diz şikâyeti yoktu. Ani bir yaralanma ya da kilitlenen diz gibi durumlarda hekiminiz farklı karar verebilir."
+ },
+ {
+  "id": "tur43-111",
+  "kind": "text",
+  "tr": "Ameliyat gerçekten işe yaramıyor mu?"
+ },
+ {
+  "id": "tur43-112",
+  "kind": "text",
+  "tr": "Yıpranmaya bağlı yırtıklarda çalışmalar ameliyatın egzersize üstün olmadığını gösteriyor. Finlandiya'da 35–65 yaş arası 146 kişiyle yapılan FIDELITY çalışmasında artroskopik menisküs kesimi sahte (plasebo) ameliyatla karşılaştırıldı; 1 yılın sonunda iki grupta da şikâyetler benzer şekilde azaldı. ESSKA uzlaşı raporu da bu ameliyatı ilk tedavi olarak önermiyor; en az 3 ay sonra ağrı ya da takılma gibi belirtiler sürüyorsa düşünülebileceğini, belirgin takılma ya da kilitlenme belirtileri olanlarda daha erken önerilebileceğini belirtiyor. Bu çalışmalar ani yaralanmayla oluşan yırtıkları kapsamıyor; bu yırtıklar ve kilitlenen diz ortopedi uzmanınca ayrıca değerlendirilir."
+ },
+ {
+  "id": "tur43-113",
+  "kind": "text",
+  "tr": "Menisküsün yalnızca dış kenarı kanlanır; bu bölgedeki küçük yırtıklar iyileşebilir, iç kısımdaki yırtıklar ise genellikle kendiliğinden kaynamaz. Ancak yırtık yerinde kalsa bile ağrı ve işlev çoğu zaman egzersizle belirgin şekilde düzelebilir."
+ },
+ {
+  "id": "tur43-114",
+  "kind": "text",
+  "tr": "Kısa süreli takılma hissi sık görülür ve çoğu zaman egzersizle azalır. Dizin bir konumda takılıp kalması ve düzeltilememesi ise yırtık bir parçanın eklemin arasına sıkışmasına bağlı olabilir. Bu durumda aynı gün bir ortopedi uzmanına ya da acil servise başvurun."
+ },
+ {
+  "id": "tur43-115",
+  "kind": "text",
+  "tr": "Menisküs yırtığı çoğu zaman acil bir durum değildir. Şu durumlarda ise beklemeden başvurun."
+ },
+ {
+  "id": "tur43-116",
+  "kind": "text",
+  "tr": "Ateş olsun ya da olmasın, dizde birden başlayan kızarıklık, sıcaklık, belirgin şişlik ve dizi oynatamama; özellikle diz ameliyatı ya da eklem içi iğneden sonra (eklem iltihabı olabilir)"
+ },
+ {
+  "id": "tur43-117",
+  "kind": "text",
+  "tr": "Yaralanmadan sonraki ilk saatlerde dizin hızla ve belirgin biçimde şişmesi ya da bacağa hiç yük verememe (kırık ya da bağ yaralanması olabilir)"
+ },
+ {
+  "id": "tur43-118",
+  "kind": "text",
+  "tr": "Yaralanmadan sonra ayakta uyuşma, karıncalanma, soğukluk ya da solukluk ya da dizde belirgin şekil bozukluğu"
+ },
+ {
+  "id": "tur43-119",
+  "kind": "text",
+  "tr": "Baldırda şişlik, ağrı ve kızarıklık (pıhtı olabilir); buna nefes darlığı ya da göğüs ağrısı eklenirse hemen <strong>112</strong>'yi arayın"
+ },
+ {
+  "id": "tur43-120",
+  "kind": "text",
+  "tr": "Egzersize rağmen birkaç hafta içinde düzelmeyen ya da giderek artan ağrı ve şişlik"
+ },
+ {
+  "id": "tur43-121",
+  "kind": "text",
+  "tr": "Sihvonen R, et al. <a href=\"https://doi.org/10.1056/NEJMoa1305189\" target=\"_blank\" rel=\"noopener\">Arthroscopic partial meniscectomy versus sham surgery for a degenerative meniscal tear</a>. N Engl J Med. 2013;369:2515-2524. Özet: <a href=\"https://www.helsinki.fi/en/news/health/finnish-research-revolutionise-indications-knee-surgery\" target=\"_blank\" rel=\"noopener\">Helsinki Üniversitesi</a>."
+ },
+ {
+  "id": "tur43-122",
+  "kind": "text",
+  "tr": "Ayakta durun, kollarınız yanda, başparmaklarınız yukarı baksın. Kollarınızı tam yana değil, yandan yaklaşık 30 derece öne doğru (önünüzde geniş bir V oluşturacak şekilde) omuz hizasına kadar kaldırın; ellerinizde hafif birer ağırlık olabilir. Kaldırırken omuzlarınızı kulaklarınıza doğru çekmeyin; kollarınızı yavaşça indirin."
+ },
+ {
+  "id": "tur43-123",
+  "kind": "attr",
+  "tr": "Omuzda rotator manşet yırtığı nedir, nasıl tanınır, her yırtık ameliyat gerektirir mi? MR bulgusu ne anlama gelir, fizyoterapi ne kadar etkili? Çalışmaların karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri."
+ },
+ {
+  "id": "tur43-124",
+  "kind": "text",
+  "tr": "Rotator manşet, omuz eklemini saran ve kolu kaldırıp döndürmemizi sağlayan dört kasın kirişlerinden oluşur. Yırtıklar çoğunlukla yaşla birlikte, yıpranmayla ortaya çıkar ve birçoğu hiç şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda fizyoterapi çoğu hastada ilk denenen tedavidir ve sıklıkla yeterli olur."
+ },
+ {
+  "id": "tur43-125",
+  "kind": "text",
+  "tr": "Japon araştırmacıların bir köyde ultrasonla taradığı 664 kişide saptanan tam kat rotator manşet yırtığı oranı"
+ },
+ {
+  "id": "tur43-126",
+  "kind": "text",
+  "tr": "80'li yaşlarda tam kat yırtık görülme sıklığı; 50'li yaşlarda %10,7"
+ },
+ {
+  "id": "tur43-127",
+  "kind": "text",
+  "tr": "Travmaya bağlı olmayan tam kat yırtıkta fizyoterapi programından sonra 2 yıl boyunca ameliyat olmayan hastalar"
+ },
+ {
+  "id": "tur43-128",
+  "kind": "text",
+  "tr": "Tarama çalışmaları, tam kat yırtıkların yaşla birlikte belirgin şekilde arttığını ve çoğunun şikâyete yol açmadığını gösteriyor. Bu yüzden MR'da görülen yırtık tek başına tedavi kararını belirlemez."
+ },
+ {
+  "id": "tur43-129",
+  "kind": "text",
+  "tr": "Tanıda yırtığın nasıl başladığı (belirgin bir yaralanmayla mı, yavaş yavaş mı) önemlidir. Yırtık, muayene ve gerekirse görüntülemeyle değerlendirilir."
+ },
+ {
+  "id": "tur43-130",
+  "kind": "text",
+  "tr": "Muayene"
+ },
+ {
+  "id": "tur43-131",
+  "kind": "text",
+  "tr": "Kolu yana kaldırma ve dışa döndürme gücü, ağrının yeri ve hareket açıklığı değerlendirilir. BMJ'deki bir yazıya göre muayene testlerinin her birinin tek başına değeri sınırlıdır; ağrı da muayeneyi zorlaştırabilir ve çok büyük olmayan tam kat yırtıklar yalnız muayeneyle gözden kaçabilir."
+ },
+ {
+  "id": "tur43-132",
+  "kind": "text",
+  "tr": "Yakın zamanda bir yaralanmadan sonra kolu omuz hizasının üstüne kaldıramayanlarda aynı gün omuz röntgeniyle kırık ve çıkık dışlanır. Şikâyetler yaralanmadan 2 hafta sonra sürüyorsa ultrason ya da MR önerilir; ikisi de tam kat yırtıkları güvenilir şekilde gösterir. Yıpranmaya bağlı yırtıklarda görüntüleme sonucu tek başına tedavi kararını belirlemez."
+ },
+ {
+  "id": "tur43-133",
+  "kind": "text",
+  "tr": "Omuz çıkığından sonra"
+ },
+ {
+  "id": "tur43-134",
+  "kind": "text",
+  "tr": "40 yaş üstünde omuz çıkığından sonra yırtık sık görülür ve çıkık yerine oturtulduktan sonra röntgen normal olsa bile gözden kaçabilir: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. Bu yüzden 40 yaş üstünde çıkıktan sonra acil ultrason ya da MR öneriliyor."
+ },
+ {
+  "id": "tur43-135",
+  "kind": "text",
+  "tr": "Travmaya bağlı olmayan tam kat yırtığı olan 452 hastanın izlendiği çok merkezli MOON çalışmasında, fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yıl boyunca ameliyat olmadı. Ameliyat olmayı seçenler bunu çoğunlukla 6. ile 12. haftalar arasında yaptı; sonrasında ameliyata geçen hasta sayısı azdı."
+ },
+ {
+  "id": "tur43-136",
+  "kind": "text",
+  "tr": "Finlandiya'daki araştırmacıların 55 yaş üstü, küçük ve travmaya bağlı olmayan supraspinatus yırtığı olan 180 omzu üç gruba ayırdığı çalışmada (yalnız fizyoterapi; omuz çatısı kemiğinin (akromion) alt yüzeyinin törpülenmesi ve fizyoterapi; yırtık onarımı, törpüleme ve fizyoterapi) ortalama 6,2 yıllık takipte omuz işlevi ve memnuniyet açısından gruplar arasında fark bulunmadı. 3 santimetreye kadar yırtığı olan 103 hastanın 10 yıl izlendiği bir başka çalışmada ise onarım yapılan grupta sonuçlar daha iyiydi ve aradaki fark yıllar içinde açıldı; fizyoterapi grubundan 14 hasta sonradan ameliyat oldu."
+ },
+ {
+  "id": "tur43-137",
+  "kind": "text",
+  "tr": "Bu yüzden karar kişiye özeldir. Düşme ya da darbeden sonra kolu kaldıramama gibi ani başlayan yırtıklarda ve genç, aktif hastalarda erken ortopedi değerlendirmesi önemlidir. BMJ'deki bir yazıya göre akut yırtığı kesinleşen hastalar cerrahla görüşmek üzere acil olarak sevk edilmeli; uzun süre tedavisiz kalan yırtıkların onarımı zorlaşabilir. Yıpranmaya bağlı yırtıklarda ise genellikle önce düzenli bir fizyoterapi programı denenir."
+ },
+ {
+  "id": "tur43-138",
+  "kind": "text",
+  "tr": "Erken tanıdan kişiye özel karara"
+ },
+ {
+  "id": "tur43-139",
+  "kind": "text",
+  "tr": "Supraspinatus kirişi yırtığının erken tanınmasının önemi 1930'larda vurgulanmıştı. Son yirmi yılın çalışmaları ise yırtıkların çoğunun yaşla ortaya çıktığını ve yıpranmaya bağlı yırtıklarda fizyoterapinin çoğu hastada etkili olduğunu gösterdi."
+ },
+ {
+  "id": "tur43-140",
+  "kind": "text",
+  "tr": "Ernest Amory Codman, kendi imkânlarıyla yayımladığı The Shoulder (Omuz) kitabında supraspinatus kirişi yırtığının erken tanınmasının önemini vurguladı."
+ },
+ {
+  "id": "tur43-141",
+  "kind": "text",
+  "tr": "Japon araştırmacıların bir köyde 664 kişiyi ultrasonla taradığı çalışmada tam kat yırtık %22,1 sıklıkta bulundu; yırtıkların üçte ikisi şikâyete yol açmıyordu."
+ },
+ {
+  "id": "tur43-142",
+  "kind": "text",
+  "tr": "Travmaya bağlı olmayan tam kat yırtığı olan 452 hastanın izlendiği çok merkezli MOON çalışmasında, fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yıl boyunca ameliyat olmadı."
+ },
+ {
+  "id": "tur43-143",
+  "kind": "text",
+  "tr": "BMJ'de yayımlanan bir yazıda, belirgin bir yaralanmadan sonra oluşan (akut) yırtıkların kolayca gözden kaçabildiği ve akut yırtığı kesinleşen hastaların cerrahla görüşmek üzere acil olarak sevk edilmesi gerektiği vurgulandı."
+ },
+ {
+  "id": "tur43-144",
+  "kind": "text",
+  "tr": "3 santimetreye kadar yırtığı olan 103 hastanın 10 yıl izlendiği çalışmada (JBJS) onarım ameliyatı fizyoterapiden daha iyi sonuç verdi; aradaki fark yıllar içinde açıldı."
+ },
+ {
+  "id": "tur43-145",
+  "kind": "text",
+  "tr": "9 çalışmayı ve 1.007 kişiyi kapsayan bir Cochrane derlemesi: ameliyatı egzersize dayalı tedaviyle karşılaştıran 3 çalışmaya (339 kişi) göre onarım ameliyatı 1 yılda ağrıda büyük olasılıkla, işlevde ise olasılıkla klinik açıdan önemli bir ek yarar sağlamıyor."
+ },
+ {
+  "id": "tur43-146",
+  "kind": "text",
+  "tr": "Finlandiya'daki araştırmacıların 55 yaş üstü, küçük ve travmaya bağlı olmayan supraspinatus yırtığı olan 180 omzu üç tedavi grubuna ayırdığı çalışmada, ortalama 6,2 yıllık takipte omuz işlevindeki düzelme gruplar arasında benzerdi."
+ },
+ {
+  "id": "tur43-147",
+  "kind": "text",
+  "tr": "Aynı çalışmanın 15 yıllık sonuçlarında (JBJS) onarım ameliyatı fizyoterapiden üstün kalmaya devam etti; yalnız fizyoterapiyle izlenen yırtıklar ortalama 16,2 milimetreden 31,6 milimetreye büyüdü."
+ },
+ {
+  "id": "tur43-148",
+  "kind": "text",
+  "tr": "Ağrıyı belirgin artıran baş üstü işler ve ağır kaldırma bir süre azaltılır; kolun uzun süre askıda tutulması genellikle önerilmez; günlük kullanım ağrının izin verdiği ölçüde sürdürülür."
+ },
+ {
+  "id": "tur43-149",
+  "kind": "text",
+  "tr": "Soğuk ya da sıcak uygulama egzersize devam etmeyi kolaylaştırabilir. Ağrı kesicilerden hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur43-150",
+  "kind": "text",
+  "tr": "Ameliyat mı, fizyoterapi mi: çalışmalar yan yana"
+ },
+ {
+  "id": "tur43-151",
+  "kind": "text",
+  "tr": "Sonuçlar yırtığın nasıl oluştuğuna, büyüklüğüne ve kişinin yaşına göre değişiyor. Aşağıda bu sayfada sözü edilen çalışmaların temel bulguları yer alıyor; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur43-152",
+  "kind": "text",
+  "tr": "Yıpranmaya bağlı tam kat yırtık"
+ },
+ {
+  "id": "tur43-153",
+  "kind": "text",
+  "tr": "MOON (2013)"
+ },
+ {
+  "id": "tur43-154",
+  "kind": "text",
+  "tr": "Fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yılda ameliyat olmadı; ameliyatı seçenler çoğunlukla 6. ile 12. haftalar arasında karar verdi."
+ },
+ {
+  "id": "tur43-155",
+  "kind": "text",
+  "tr": "Cochrane (2019)"
+ },
+ {
+  "id": "tur43-156",
+  "kind": "text",
+  "tr": "3 çalışmaya (339 kişi) göre onarım ameliyatı, egzersize dayalı tedaviye göre 1 yılda ağrıda büyük olasılıkla, işlevde olasılıkla klinik açıdan önemli bir ek yarar sağlamıyor; darbeye bağlı yırtıklar, büyük subskapularis yırtıkları ve gençler için geçerli olmayabilir."
+ },
+ {
+  "id": "tur43-157",
+  "kind": "text",
+  "tr": "55 yaş üstü, küçük yırtık"
+ },
+ {
+  "id": "tur43-158",
+  "kind": "text",
+  "tr": "Finlandiya (2021)"
+ },
+ {
+  "id": "tur43-159",
+  "kind": "text",
+  "tr": "180 omuz, ortalama 6,2 yıllık takip: yalnız fizyoterapi, törpüleme ve onarım gruplarında omuz işlevindeki düzelme benzerdi."
+ },
+ {
+  "id": "tur43-160",
+  "kind": "text",
+  "tr": "3 santimetreye kadar yırtık, uzun vade"
+ },
+ {
+  "id": "tur43-161",
+  "kind": "text",
+  "tr": "JBJS (2019, 2024)"
+ },
+ {
+  "id": "tur43-162",
+  "kind": "text",
+  "tr": "103 hasta, 10 yıllık takip: onarım grubunda sonuçlar daha iyiydi. Fizyoterapi grubundan 14 hasta sonradan ameliyat oldu ve bu hastaların omuz skorları onarım grubundan düşüktü. 15 yıllık sonuçlarda da onarım üstün kaldı; yalnız fizyoterapiyle izlenen yırtıklar ortalama 16,2 milimetreden 31,6 milimetreye büyüdü."
+ },
+ {
+  "id": "tur43-163",
+  "kind": "text",
+  "tr": "Ani yaralanmayla oluşan yırtık"
+ },
+ {
+  "id": "tur43-164",
+  "kind": "text",
+  "tr": "BMJ (2017)"
+ },
+ {
+  "id": "tur43-165",
+  "kind": "text",
+  "tr": "Kesinleşen akut yırtıkta cerrahla görüşmek üzere acil sevk; yaralanmadan 2 hafta sonra şikâyetler sürüyorsa acilen omuz kliniğine sevk ve ultrason ya da MR."
+ },
+ {
+  "id": "tur43-166",
+  "kind": "text",
+  "tr": "Egzersizleri ağrısız ya da hafif ağrılı aralıkta yapın; ağrı ertesi gün artmıyorsa devam edin. İzometrik egzersizlerle başlayıp ağrı azaldıkça hafif ağırlıklara geçin. Düşme, darbe ya da omuz çıkığından sonra başlayan ağrı ve güçsüzlükte bu egzersizlere hekim değerlendirmesinden önce başlamayın. Keskin ya da giderek artan ağrı ya da yeni bir güç kaybı olursa egzersizi bırakın."
+ },
+ {
+  "id": "tur43-167",
+  "kind": "text",
+  "tr": "Her zaman değil. Yaşla birlikte omuzda yırtık görülmesi sıktır ve yırtıkların çoğu şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda genellikle önce fizyoterapi denenir; düzelmeyen ya da ani bir yaralanmayla oluşan yırtıklarda ameliyat değerlendirilir. 9 çalışmayı ve 1.007 kişiyi kapsayan 2019 tarihli bir Cochrane derlemesinde, ameliyatı egzersize dayalı tedaviyle karşılaştıran 3 çalışmaya (339 kişi) göre yırtık onarımı ameliyatı 1 yılda ağrıda büyük olasılıkla, işlevde ise olasılıkla klinik açıdan önemli bir ek yarar sağlamıyor; bu sonuç darbeye bağlı yırtıklar, büyük subskapularis yırtıkları ve gençler için geçerli olmayabilir."
+ },
+ {
+  "id": "tur43-168",
+  "kind": "text",
+  "tr": "Tam kat bir yırtık genellikle kendiliğinden kapanmaz. Ancak rotator manşetin sağlam kısımları ve kürek kemiği kasları güçlendiğinde omuz, yırtığa rağmen çoğu zaman ağrısız ve işlevsel hâle gelebilir. Yine de yırtık zamanla büyüyebilir: 3 santimetreye kadar yırtığı olan hastaların 15 yıl izlendiği bir çalışmada, yalnız fizyoterapiyle izlenen 26 yırtığın ortalama boyu 16,2 milimetreden 31,6 milimetreye çıktı. Ağrı ya da güç kaybı artarsa yeniden değerlendirme gerekir."
+ },
+ {
+  "id": "tur43-169",
+  "kind": "text",
+  "tr": "Omzum çıktıktan sonra kolumu kaldıramıyorum, normal mi?"
+ },
+ {
+  "id": "tur43-170",
+  "kind": "text",
+  "tr": "40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığı sık görülür ve çıkık yerine oturtulduktan sonra çekilen röntgen normal olsa bile gözden kaçabilir: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. BMJ'deki bir yazıya göre 40 yaş üstünde çıkıktan sonra acil ultrason ya da MR yapılmalı. Çıkıktan sonra kolunuzu kaldıramıyorsanız ya da güçsüzlük sürüyorsa beklemeden hekiminize başvurun."
+ },
+ {
+  "id": "tur43-171",
+  "kind": "text",
+  "tr": "Yıpranmaya bağlı yırtıklar çoğu zaman acil değildir. Şu durumlarda ise beklemeden başvurun."
+ },
+ {
+  "id": "tur43-172",
+  "kind": "text",
+  "tr": "Göğüs ağrısı, nefes darlığı ya da terlemeyle birlikte omuz ya da kol ağrısı (kalp kaynaklı olabilir; hemen <strong>112</strong>'yi arayın)"
+ },
+ {
+  "id": "tur43-173",
+  "kind": "text",
+  "tr": "Kolda ya da yüzde ani güç kaybı, uyuşma ya da konuşma bozukluğu (inme olabilir; hemen <strong>112</strong>'yi arayın)"
+ },
+ {
+  "id": "tur43-174",
+  "kind": "text",
+  "tr": "Düşme ya da darbeden sonra kolu omuz hizasının üstüne kaldıramama, omuzda şekil bozukluğu ya da çıkık şüphesi (kırık ve çıkık için aynı gün röntgen gerekir)"
+ },
+ {
+  "id": "tur43-175",
+  "kind": "text",
+  "tr": "Çıkık ya da darbeden sonra elde soğukluk, solukluk ya da kolda yaygın uyuşma"
+ },
+ {
+  "id": "tur43-176",
+  "kind": "text",
+  "tr": "Omuzda kızarıklık, sıcaklık, şişlik ya da şiddetli ağrı; özellikle ateş ya da halsizlikle birlikteyse"
+ },
+ {
+  "id": "tur43-177",
+  "kind": "text",
+  "tr": "Beklemeden, en geç birkaç gün içinde bir hekime:"
+ },
+ {
+  "id": "tur43-178",
+  "kind": "text",
+  "tr": "40 yaş üstünde omuz çıkığından sonra kolu kaldıramama ya da güçsüzlük"
+ },
+ {
+  "id": "tur43-179",
+  "kind": "text",
+  "tr": "Yaralanmadan 2 hafta sonra hâlâ süren güçsüzlük ya da kolu kaldıramama"
+ },
+ {
+  "id": "tur43-180",
+  "kind": "text",
+  "tr": "Kanser öyküsü olan birinde yeni başlayan omuz ağrısı ya da omuzda açıklanamayan şişlik veya kitle"
+ },
+ {
+  "id": "tur43-181",
+  "kind": "text",
+  "tr": "Kola yayılan uyuşma ya da karıncalanma (boyundan kaynaklanabilir)"
+ },
+ {
+  "id": "tur43-182",
+  "kind": "text",
+  "tr": "Codman EA. The Shoulder. 1934 (yazarın kendi yayını). Hakkında: <a href=\"https://shoulderdoc.co.uk/article/906\" target=\"_blank\" rel=\"noopener\">shoulderdoc.co.uk</a>."
+ },
+ {
+  "id": "tur43-183",
+  "kind": "text",
+  "tr": "Kukkonen J, Ryösä A, Joukainen A, et al. <a href=\"https://www.sciencedirect.com/science/article/pii/S105827462100330X\" target=\"_blank\" rel=\"noopener\">Operative versus conservative treatment of small, nontraumatic supraspinatus tears in patients older than 55 years: over 5-year follow-up of a randomized controlled trial</a>. J Shoulder Elbow Surg. 2021."
+ }
+]

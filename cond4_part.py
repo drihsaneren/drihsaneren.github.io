@@ -72,19 +72,33 @@ EXT.update({
 
 # ============================================================== ROTATOR MANŞET YIRTIĞI
 RC_FAQ = [
- ("MR'da yırtık çıktı, ameliyat olmalı mıyım?", "Her zaman değil. Yaşla birlikte omuzda yırtık görülmesi sıktır ve yırtıkların çoğu şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda genellikle önce fizyoterapi denenir; düzelmeyen ya da ani bir yaralanmayla oluşan yırtıklarda ameliyat değerlendirilir. 9 çalışmayı ve 1.007 kişiyi kapsayan 2019 tarihli bir Cochrane derlemesine göre, yırtık onarımı ameliyatı egzersize dayalı tedaviyle karşılaştırıldığında bir yılın sonunda ağrı ve işlevde klinik açıdan önemli bir ek yarar sağlamıyor olabilir; bu sonuç darbeye bağlı yırtıklar ve gençler için geçerli olmayabilir."),
- ("Yırtık fizyoterapiyle kapanır mı?", "Tam kat bir yırtık genellikle kendiliğinden kapanmaz. Ancak rotator manşetin sağlam kısımları ve kürek kemiği kasları güçlendiğinde omuz, yırtığa rağmen çoğu zaman ağrısız ve işlevsel hale gelebilir."),
+ ("MR'da yırtık çıktı, ameliyat olmalı mıyım?", "Her zaman değil. Yaşla birlikte omuzda yırtık görülmesi sıktır ve yırtıkların çoğu şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda genellikle önce fizyoterapi denenir; düzelmeyen ya da ani bir yaralanmayla oluşan yırtıklarda ameliyat değerlendirilir. 9 çalışmayı ve 1.007 kişiyi kapsayan 2019 tarihli bir Cochrane derlemesinde, ameliyatı egzersize dayalı tedaviyle karşılaştıran 3 çalışmaya (339 kişi) göre yırtık onarımı ameliyatı 1 yılda ağrıda büyük olasılıkla, işlevde ise olasılıkla klinik açıdan önemli bir ek yarar sağlamıyor; bu sonuç darbeye bağlı yırtıklar, büyük subskapularis yırtıkları ve gençler için geçerli olmayabilir."),
+ ("Yırtık fizyoterapiyle kapanır mı?", "Tam kat bir yırtık genellikle kendiliğinden kapanmaz. Ancak rotator manşetin sağlam kısımları ve kürek kemiği kasları güçlendiğinde omuz, yırtığa rağmen çoğu zaman ağrısız ve işlevsel hâle gelebilir. Yine de yırtık zamanla büyüyebilir: 3 santimetreye kadar yırtığı olan hastaların 15 yıl izlendiği bir çalışmada, yalnız fizyoterapiyle izlenen 26 yırtığın ortalama boyu 16,2 milimetreden 31,6 milimetreye çıktı. Ağrı ya da güç kaybı artarsa yeniden değerlendirme gerekir."),
+ ("Omzum çıktıktan sonra kolumu kaldıramıyorum, normal mi?", "40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığı sık görülür ve çıkık yerine oturtulduktan sonra çekilen röntgen normal olsa bile gözden kaçabilir: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. BMJ'deki bir yazıya göre 40 yaş üstünde çıkıktan sonra acil ultrason ya da MR yapılmalı. Çıkıktan sonra kolunuzu kaldıramıyorsanız ya da güçsüzlük sürüyorsa beklemeden hekiminize başvurun."),
  ("Geceleri hangi tarafa yatmalıyım?", "Ağrılı omzun üzerine yatmak ağrıyı artırabilir. Sağlam tarafınıza yatıp ağrılı kolunuzu önünüzdeki bir yastığa koymak ya da sırtüstü yatarken kolunuzu yastıkla desteklemek rahatlatabilir."),
  ("Egzersiz yırtığı büyütür mü?", "Kontrollü ve kademeli olarak artırılan egzersizler güvenli kabul edilir ve tedavinin temelidir. Ağrıyı belirgin artıran ağır kaldırma ve baş üstü zorlamaları bir süre azaltın; egzersizleri ağrının izin verdiği ölçüde sürdürün."),
 ]
 
 RC_SRC = [
- "Minagawa H, Yamamoto N, Abe H, et al. " + ext("https://www.sciencedirect.com/science/article/abs/pii/S0972978X13000093", "Prevalence of symptomatic and asymptomatic rotator cuff tears in the general population: from mass-screening in one village") + ". J Orthop. 2013;10(1):8-12.",
+ "Craig R, Holt T, Rees JL. " + ext("https://ora.ox.ac.uk/objects/uuid:1d27d3d2-1048-48aa-98c7-e69f76ed5ed4/files/m0a9dde391dc1737a24b6a88a156a90bd", "Acute rotator cuff tears (Easily missed?)") + ". BMJ. 2017. doi:10.1136/bmj.j5366.",
+ "Codman EA. The Shoulder. 1934 (yazarın kendi yayını). Hakkında: " + ext("https://shoulderdoc.co.uk/article/906", "shoulderdoc.co.uk") + ".",
+ "Minagawa H, Yamamoto N, Abe H, et al. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC3768248/", "Prevalence of symptomatic and asymptomatic rotator cuff tears in the general population: from mass-screening in one village") + ". J Orthop. 2013;10(1):8-12.",
  "Kuhn JE, Dunn WR, Sanders R, et al. " + ext("https://www.sciencedirect.com/science/article/abs/pii/S1058274613000839", "Effectiveness of physical therapy in treating atraumatic full-thickness rotator cuff tears: a multicenter prospective cohort study") + ". J Shoulder Elbow Surg. 2013;22(10):1371-1379.",
- "Kukkonen J, Joukainen A, Lehtinen J, et al. " + ext("https://www.sciencedirect.com/science/article/pii/S105827462100330X", "Operative versus conservative treatment of small, nontraumatic supraspinatus tears in patients older than 55 years: over 5-year follow-up of a randomized controlled trial") + ". J Shoulder Elbow Surg. 2021.",
- "Moosmayer S, Lund G, Seljom US, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/31220021/", "At a 10-year follow-up, tendon repair is superior to physiotherapy in the treatment of small and medium-sized rotator cuff tears") + ". J Bone Joint Surg Am. 2019.",
+ "Kukkonen J, Ryösä A, Joukainen A, et al. " + ext("https://www.sciencedirect.com/science/article/pii/S105827462100330X", "Operative versus conservative treatment of small, nontraumatic supraspinatus tears in patients older than 55 years: over 5-year follow-up of a randomized controlled trial") + ". J Shoulder Elbow Surg. 2021.",
+ "Moosmayer S, Lund G, Seljom US, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/31220021/", "At a 10-year follow-up, tendon repair is superior to physiotherapy in the treatment of small and medium-sized rotator cuff tears") + ". J Bone Joint Surg Am. 2019;101(12):1050-1060.",
+ "Moosmayer S, Lund G, Seljom US, et al. " + ext("https://search.pedro.org.au/search-results/record-detail/80011", "Fifteen-year results of a comparative analysis of tendon repair versus physiotherapy for small-to-medium-sized rotator cuff tears: a concise follow-up of previous reports") + ". J Bone Joint Surg Am. 2024;106(19):1785-1796.",
  "Karjalainen TV, Jain NB, Heikkinen J, Johnston RV, Page CM, Buchbinder R. " + ext("https://www.cochrane.org/CD013502/MUSKEL_does-repair-torn-rotator-cuff-tendons-work", "Surgery for rotator cuff tears") + ". Cochrane Database Syst Rev. 2019;(12):CD013502.",
- "Ryösä A, Laimi K, Äärimaa V, et al. " + ext("https://doi.org/10.1080/09638288.2016.1198431", "Surgery or conservative treatment for rotator cuff tear: a meta-analysis") + ". Disabil Rehabil. 2017;39(14)",
+]
+
+RC_TL = [
+ ("1934", "Ernest Amory Codman, kendi imkânlarıyla yayımladığı The Shoulder (Omuz) kitabında supraspinatus kirişi yırtığının erken tanınmasının önemini vurguladı."),
+ ("2013", "Japon araştırmacıların bir köyde 664 kişiyi ultrasonla taradığı çalışmada tam kat yırtık %22,1 sıklıkta bulundu; yırtıkların üçte ikisi şikâyete yol açmıyordu."),
+ ("2013", "Travmaya bağlı olmayan tam kat yırtığı olan 452 hastanın izlendiği çok merkezli MOON çalışmasında, fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yıl boyunca ameliyat olmadı."),
+ ("2017", "BMJ'de yayımlanan bir yazıda, belirgin bir yaralanmadan sonra oluşan (akut) yırtıkların kolayca gözden kaçabildiği ve akut yırtığı kesinleşen hastaların cerrahla görüşmek üzere acil olarak sevk edilmesi gerektiği vurgulandı."),
+ ("2019", "3 santimetreye kadar yırtığı olan 103 hastanın 10 yıl izlendiği çalışmada (JBJS) onarım ameliyatı fizyoterapiden daha iyi sonuç verdi; aradaki fark yıllar içinde açıldı."),
+ ("2019", "9 çalışmayı ve 1.007 kişiyi kapsayan bir Cochrane derlemesi: ameliyatı egzersize dayalı tedaviyle karşılaştıran 3 çalışmaya (339 kişi) göre onarım ameliyatı 1 yılda ağrıda büyük olasılıkla, işlevde ise olasılıkla klinik açıdan önemli bir ek yarar sağlamıyor."),
+ ("2021", "Finlandiya'daki araştırmacıların 55 yaş üstü, küçük ve travmaya bağlı olmayan supraspinatus yırtığı olan 180 omzu üç tedavi grubuna ayırdığı çalışmada, ortalama 6,2 yıllık takipte omuz işlevindeki düzelme gruplar arasında benzerdi."),
+ ("2024", "Aynı çalışmanın 15 yıllık sonuçlarında (JBJS) onarım ameliyatı fizyoterapiden üstün kalmaya devam etti; yalnız fizyoterapiyle izlenen yırtıklar ortalama 16,2 milimetreden 31,6 milimetreye büyüdü."),
 ]
 
 RC_BODY = f'''<header class="page">
@@ -92,8 +106,8 @@ RC_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Rotator manşet yırtığı</h1>
-    <p class="lede">Rotator manşet, omuz eklemini saran ve kolu kaldırıp döndürmemizi sağlayan dört kasın kirişlerinden oluşur. Yırtıklar çoğunlukla yaşla birlikte, yıpranmayla ortaya çıkar ve birçoğu hiç şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda fizyoterapi çoğu hastada ilk ve etkili tedavidir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="lede">Rotator manşet, omuz eklemini saran ve kolu kaldırıp döndürmemizi sağlayan dört kasın kirişlerinden oluşur. Yırtıklar çoğunlukla yaşla birlikte, yıpranmayla ortaya çıkar ve birçoğu hiç şikâyete yol açmaz. Düşme ya da darbeye bağlı olmayan yırtıklarda fizyoterapi çoğu hastada ilk denenen tedavidir ve sıklıkla yeterli olur.</p>
+    <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
 
@@ -101,20 +115,20 @@ RC_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%22</b><span>Japonya'da bir köyde taranan 664 kişide saptanan tam kat rotator manşet yırtığı oranı</span></div>
+        <div class="stat"><b>%22</b><span>Japon araştırmacıların bir köyde ultrasonla taradığı 664 kişide saptanan tam kat rotator manşet yırtığı oranı</span></div>
         <div class="stat"><b>%65</b><span>Bu yırtıklardan hiç şikâyete yol açmayanların oranı</span></div>
-        <div class="stat"><b>%37</b><span>80 yaş üstünde tam kat yırtık görülme sıklığı; 50'li yaşlarda %11</span></div>
-        <div class="stat"><b>%75</b><span>Fizyoterapi programıyla 2 yıl boyunca ameliyata gerek kalmayan hastalar</span></div>
+        <div class="stat"><b>%36,6</b><span>80'li yaşlarda tam kat yırtık görülme sıklığı; 50'li yaşlarda %10,7</span></div>
+        <div class="stat"><b>%75</b><span>Travmaya bağlı olmayan tam kat yırtıkta fizyoterapi programından sonra 2 yıl boyunca ameliyat olmayan hastalar</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("ameliyat", "Ameliyat mı, fizyoterapi mi?"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Rotator manşet kirişleri yaşla birlikte incelir ve yıpranır; zamanla kirişin bir kısmında (kısmi) ya da tüm kalınlığında (tam kat) yırtık oluşabilir. En sık omzun üst kısmındaki supraspinatus kirişi etkilenir. Bazen de düşme, omuz çıkığı ya da ağır bir yükü aniden kaldırmak gibi bir yaralanmayla yırtık oluşur.</p>
-        <p class="soft">Tarama çalışmaları, tam kat yırtıkların yaşla birlikte belirgin şekilde arttığını ve çoğunun şikâyet yapmadığını gösteriyor. Bu yüzden MR'da görülen yırtık tek başına tedavi kararını belirlemez.</p>
+        <p class="soft">Tarama çalışmaları, tam kat yırtıkların yaşla birlikte belirgin şekilde arttığını ve çoğunun şikâyete yol açmadığını gösteriyor. Bu yüzden MR'da görülen yırtık tek başına tedavi kararını belirlemez.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>
@@ -128,40 +142,63 @@ RC_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
     <div class="wrap">
-      <h2>Ameliyat mı, fizyoterapi mi?</h2>
-      <p class="soft">ABD'de travmaya bağlı olmayan tam kat yırtığı olan 452 hastanın izlendiği MOON çalışmasında, fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yıl boyunca ameliyata ihtiyaç duymadı. Ameliyat olmayı seçenler bunu çoğunlukla ilk 6–12 hafta içinde yaptı; sonrasında ameliyata geçen hasta sayısı azdı.</p>
-      <p class="soft">Finlandiya'da 55 yaş üstü, küçük ve travmaya bağlı olmayan yırtığı olan hastalarla yapılan bir çalışmada ortalama 6 yıllık takipte fizyoterapi ameliyat kadar iyi sonuç verdi; memnuniyet her grupta %88–92 idi. Norveç'te küçük ve orta boy yırtıklarda yapılan bir başka çalışmada ise 10 yılın sonunda onarım yapılan grupta sonuçlar daha iyiydi.</p>
-      <div class="callout">
-        <p>Bu yüzden karar kişiye özeldir. Düşme ya da darbeden sonra kolu kaldıramama gibi ani başlayan yırtıklarda ve genç, aktif hastalarda erken ortopedi değerlendirmesi önemlidir. Yıpranmaya bağlı yırtıklarda ise genellikle önce düzenli bir fizyoterapi programı denenir.</p>
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanıda yırtığın nasıl başladığı (belirgin bir yaralanmayla mı, yavaş yavaş mı) önemlidir. Yırtık, muayene ve gerekirse görüntülemeyle değerlendirilir.</p>
+      <div class="kinds">
+        <div class="kind"><h3>Muayene</h3><p>Kolu yana kaldırma ve dışa döndürme gücü, ağrının yeri ve hareket açıklığı değerlendirilir. BMJ'deki bir yazıya göre muayene testlerinin her birinin tek başına değeri sınırlıdır; ağrı da muayeneyi zorlaştırabilir ve çok büyük olmayan tam kat yırtıklar yalnız muayeneyle gözden kaçabilir.</p></div>
+        <div class="kind"><h3>Görüntüleme ne zaman?</h3><p>Yakın zamanda bir yaralanmadan sonra kolu omuz hizasının üstüne kaldıramayanlarda aynı gün omuz röntgeniyle kırık ve çıkık dışlanır. Şikâyetler yaralanmadan 2 hafta sonra sürüyorsa ultrason ya da MR önerilir; ikisi de tam kat yırtıkları güvenilir şekilde gösterir. Yıpranmaya bağlı yırtıklarda görüntüleme sonucu tek başına tedavi kararını belirlemez.</p></div>
+        <div class="kind"><h3>Omuz çıkığından sonra</h3><p>40 yaş üstünde omuz çıkığından sonra yırtık sık görülür ve çıkık yerine oturtulduktan sonra röntgen normal olsa bile gözden kaçabilir: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. Bu yüzden 40 yaş üstünde çıkıktan sonra acil ultrason ya da MR öneriliyor.</p></div>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="ameliyat">
+    <div class="wrap">
+      <h2>Ameliyat mı, fizyoterapi mi?</h2>
+      <p class="soft">Travmaya bağlı olmayan tam kat yırtığı olan 452 hastanın izlendiği çok merkezli MOON çalışmasında, fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yıl boyunca ameliyat olmadı. Ameliyat olmayı seçenler bunu çoğunlukla 6. ile 12. haftalar arasında yaptı; sonrasında ameliyata geçen hasta sayısı azdı.</p>
+      <p class="soft">Finlandiya'daki araştırmacıların 55 yaş üstü, küçük ve travmaya bağlı olmayan supraspinatus yırtığı olan 180 omzu üç gruba ayırdığı çalışmada (yalnız fizyoterapi; omuz çatısı kemiğinin (akromion) alt yüzeyinin törpülenmesi ve fizyoterapi; yırtık onarımı, törpüleme ve fizyoterapi) ortalama 6,2 yıllık takipte omuz işlevi ve memnuniyet açısından gruplar arasında fark bulunmadı. 3 santimetreye kadar yırtığı olan 103 hastanın 10 yıl izlendiği bir başka çalışmada ise onarım yapılan grupta sonuçlar daha iyiydi ve aradaki fark yıllar içinde açıldı; fizyoterapi grubundan 14 hasta sonradan ameliyat oldu.</p>
+      <div class="callout">
+        <p>Bu yüzden karar kişiye özeldir. Düşme ya da darbeden sonra kolu kaldıramama gibi ani başlayan yırtıklarda ve genç, aktif hastalarda erken ortopedi değerlendirmesi önemlidir. BMJ'deki bir yazıya göre akut yırtığı kesinleşen hastalar cerrahla görüşmek üzere acil olarak sevk edilmeli; uzun süre tedavisiz kalan yırtıkların onarımı zorlaşabilir. Yıpranmaya bağlı yırtıklarda ise genellikle önce düzenli bir fizyoterapi programı denenir.</p>
+      </div>
+    </div>
+  </section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Erken tanıdan kişiye özel karara</h2>
+      <p class="soft">Supraspinatus kirişi yırtığının erken tanınmasının önemi 1930'larda vurgulanmıştı. Son yirmi yılın çalışmaları ise yırtıkların çoğunun yaşla ortaya çıktığını ve yıpranmaya bağlı yırtıklarda fizyoterapinin çoğu hastada etkili olduğunu gösterdi.</p>
+      {g_tl(RC_TL)}
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>Tedavi</h2>
       <ul class="tx">
         <li><b>Egzersiz</b><span>Rotator manşetin sağlam kısımlarını, omzu çevreleyen kasları ve kürek kemiği kaslarını güçlendiren, hareket açıklığını koruyan egzersizler.</span></li>
-        <li><b>Yükü ayarlama</b><span>Ağrıyı belirgin artıran baş üstü işler ve ağır kaldırma bir süre azaltılır; kol askıya alınmaz, günlük kullanımı sürdürülür.</span></li>
-        <li><b>Ağrı kontrolü</b><span>Soğuk ya da sıcak uygulama ve hekiminizin önerdiği ağrı kesiciler egzersize devam etmeyi kolaylaştırır.</span></li>
+        <li><b>Yükü ayarlama</b><span>Ağrıyı belirgin artıran baş üstü işler ve ağır kaldırma bir süre azaltılır; kolun uzun süre askıda tutulması genellikle önerilmez; günlük kullanım ağrının izin verdiği ölçüde sürdürülür.</span></li>
+        <li><b>Ağrı kontrolü</b><span>Soğuk ya da sıcak uygulama egzersize devam etmeyi kolaylaştırabilir. Ağrı kesicilerden hangisinin uygun olduğunu hekiminize sorun.</span></li>
         <li><b>Manuel terapi</b><span>Omuz ve sırta yönelik uygulamalar, egzersizle birlikte ağrıyı azaltıp hareketi artırmaya yardımcı olabilir.</span></li>
         <li><b>Ameliyat</b><span>Travmatik yırtıklarda, genç ve aktif hastalarda ve düzenli fizyoterapiye rağmen düzelmeyen şikâyetlerde ortopedi uzmanınca değerlendirilir.</span></li>
       </ul>
+      <h3 class="g-h3">Ameliyat mı, fizyoterapi mi: çalışmalar yan yana</h3>
+      <p class="soft">Sonuçlar yırtığın nasıl oluştuğuna, büyüklüğüne ve kişinin yaşına göre değişiyor. Aşağıda bu sayfada sözü edilen çalışmaların temel bulguları yer alıyor; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Yıpranmaya bağlı tam kat yırtık</h3><dl><dt>MOON (2013)</dt><dd>Fizyoterapi programından sonra hastaların yaklaşık %75'i 2 yılda ameliyat olmadı; ameliyatı seçenler çoğunlukla 6. ile 12. haftalar arasında karar verdi.</dd><dt>Cochrane (2019)</dt><dd>3 çalışmaya (339 kişi) göre onarım ameliyatı, egzersize dayalı tedaviye göre 1 yılda ağrıda büyük olasılıkla, işlevde olasılıkla klinik açıdan önemli bir ek yarar sağlamıyor; darbeye bağlı yırtıklar, büyük subskapularis yırtıkları ve gençler için geçerli olmayabilir.</dd></dl></div>
+        <div class="kind"><h3>55 yaş üstü, küçük yırtık</h3><dl><dt>Finlandiya (2021)</dt><dd>180 omuz, ortalama 6,2 yıllık takip: yalnız fizyoterapi, törpüleme ve onarım gruplarında omuz işlevindeki düzelme benzerdi.</dd></dl></div>
+        <div class="kind"><h3>3 santimetreye kadar yırtık, uzun vade</h3><dl><dt>JBJS (2019, 2024)</dt><dd>103 hasta, 10 yıllık takip: onarım grubunda sonuçlar daha iyiydi. Fizyoterapi grubundan 14 hasta sonradan ameliyat oldu ve bu hastaların omuz skorları onarım grubundan düşüktü. 15 yıllık sonuçlarda da onarım üstün kaldı; yalnız fizyoterapiyle izlenen yırtıklar ortalama 16,2 milimetreden 31,6 milimetreye büyüdü.</dd></dl></div>
+        <div class="kind"><h3>Ani yaralanmayla oluşan yırtık</h3><dl><dt>BMJ (2017)</dt><dd>Kesinleşen akut yırtıkta cerrahla görüşmek üzere acil sevk; yaralanmadan 2 hafta sonra şikâyetler sürüyorsa acilen omuz kliniğine sevk ve ultrason ya da MR.</dd></dl></div>
+      </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Omuz için altı egzersiz</h2>
-      <p class="soft">Egzersizleri ağrısız ya da hafif ağrılı aralıkta yapın; ağrı ertesi gün artmıyorsa devam edin. İzometrik egzersizlerle başlayıp ağrı azaldıkça hafif ağırlıklara geçin.</p>
+      <p class="soft">Egzersizleri ağrısız ya da hafif ağrılı aralıkta yapın; ağrı ertesi gün artmıyorsa devam edin. İzometrik egzersizlerle başlayıp ağrı azaldıkça hafif ağırlıklara geçin. Düşme, darbe ya da omuz çıkığından sonra başlayan ağrı ve güçsüzlükte bu egzersizlere hekim değerlendirmesinden önce başlamayın. Keskin ya da giderek artan ağrı ya da yeni bir güç kaybı olursa egzersizi bırakın.</p>
       {ex_grid(["isoer", "sler", "scaption", "row", "wslide", "scap"])}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -182,29 +219,35 @@ RC_BODY = f'''<header class="page">
       <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(RC_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
+      <p class="soft">Yıpranmaya bağlı yırtıklar çoğu zaman acil değildir. Şu durumlarda ise beklemeden başvurun.</p>
+      <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
       <ul class="dots redflags">
-        <li>Düşme ya da darbeden sonra kolu hiç kaldıramama</li>
-        <li>Omuzda şekil bozukluğu ya da çıkık şüphesi</li>
-        <li>Omuzda kızarıklık, sıcaklık ya da ateş</li>
-        <li>Kola yayılan uyuşma, karıncalanma ya da güç kaybı</li>
-        <li>Göğüs ağrısı, nefes darlığı ya da terlemeyle birlikte sol omuz ve kol ağrısı (<strong>112</strong>)</li>
+        <li>Göğüs ağrısı, nefes darlığı ya da terlemeyle birlikte omuz ya da kol ağrısı (kalp kaynaklı olabilir; hemen <strong>112</strong>'yi arayın)</li>
+        <li>Kolda ya da yüzde ani güç kaybı, uyuşma ya da konuşma bozukluğu (inme olabilir; hemen <strong>112</strong>'yi arayın)</li>
+        <li>Düşme ya da darbeden sonra kolu omuz hizasının üstüne kaldıramama, omuzda şekil bozukluğu ya da çıkık şüphesi (kırık ve çıkık için aynı gün röntgen gerekir)</li>
+        <li>Çıkık ya da darbeden sonra elde soğukluk, solukluk ya da kolda yaygın uyuşma</li>
+        <li>Omuzda kızarıklık, sıcaklık, şişlik ya da şiddetli ağrı; özellikle ateş ya da halsizlikle birlikteyse</li>
+      </ul>
+      <p class="soft"><strong>Beklemeden, en geç birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>40 yaş üstünde omuz çıkığından sonra kolu kaldıramama ya da güçsüzlük</li>
+        <li>Yaralanmadan 2 hafta sonra hâlâ süren güçsüzlük ya da kolu kaldıramama</li>
+        <li>Kanser öyküsü olan birinde yeni başlayan omuz ağrısı ya da omuzda açıklanamayan şişlik veya kitle</li>
+        <li>Kola yayılan uyuşma ya da karıncalanma (boyundan kaynaklanabilir)</li>
+        <li>Dinlenmekle geçmeyen gece ağrısı ya da nedensiz kilo kaybı</li>
       </ul>
       {CTA_CARD("Omuz ağrınız", "rotator manşet yırtığı")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -214,7 +257,7 @@ RC_BODY = f'''<header class="page">
 </main>'''
 
 page("rotator-manset-yirtigi.html", "Rotator Manşet Yırtığı",
-     "Omuzda rotator manşet yırtığı nedir, her yırtık ameliyat gerektirir mi? MR bulgusu ne anlama gelir, fizyoterapi ne kadar etkili? Evde altı egzersiz ve videolar.",
+     "Omuzda rotator manşet yırtığı nedir, nasıl tanınır, her yırtık ameliyat gerektirir mi? MR bulgusu ne anlama gelir, fizyoterapi ne kadar etkili? Çalışmaların karşılaştırması, kısa tarihçe, evde altı egzersiz ve uyarı işaretleri.",
      "rotator-manset-yirtigi.html", NECK_CSS, RC_BODY, YT_JS,
      seo_title="Rotator Manşet Yırtığı: Ameliyat mı Fizyoterapi mi? | İhsan Eren",
      condition="Rotator manşet yırtığı", faq_items=RC_FAQ)
@@ -257,7 +300,6 @@ TM_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap two">
       <div>
@@ -277,7 +319,6 @@ TM_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Tedavide ne işe yarar?</h2>
@@ -287,7 +328,6 @@ TM_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Tedavi</h2>
@@ -300,7 +340,6 @@ TM_BODY = f'''<header class="page">
       </ul>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -309,14 +348,12 @@ TM_BODY = f'''<header class="page">
       {ex_grid(["jaw_rest", "jaw_open", "jaw_res", "jaw_mass", "chin", "scap"])}
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(TM_FAQ)}
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
@@ -331,7 +368,6 @@ TM_BODY = f'''<header class="page">
       {CTA_CARD("Çene ağrınız", "çene eklemi rahatsızlığı")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -386,7 +422,6 @@ UI_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap two">
       <div>
@@ -403,7 +438,6 @@ UI_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Pelvik taban egzersizleri ne kadar etkili?</h2>
@@ -414,7 +448,6 @@ UI_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap two">
       <div>
@@ -429,7 +462,6 @@ UI_BODY = f'''<header class="page">
       </ul>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -438,14 +470,12 @@ UI_BODY = f'''<header class="page">
       {ex_grid(["pf_lie", "pf_sit", "pf_stand", "knack", "ui_bridge", "walk"])}
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(UI_FAQ)}
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
@@ -460,7 +490,6 @@ UI_BODY = f'''<header class="page">
       {CTA_CARD("İdrar kaçırma şikâyetiniz", "idrar kaçırma ve pelvik taban egzersizleri")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -519,7 +548,6 @@ PG_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap two">
       <div>
@@ -540,7 +568,6 @@ PG_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Egzersiz ne sağlar?</h2>
@@ -551,7 +578,6 @@ PG_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -560,14 +586,12 @@ PG_BODY = f'''<header class="page">
       {ex_grid(["pg_cat", "pg_bird", "pg_abd", "pg_sts", "pg_pf", "pg_walk"])}
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(PG_FAQ)}
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
@@ -583,7 +607,6 @@ PG_BODY = f'''<header class="page">
       {CTA_CARD("Gebelikteki bel ve leğen ağrınız", "gebelikte bel ve leğen kemiği ağrısı")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
