@@ -818,3 +818,5 @@ Ayrıntılar DENETIM.md'de. Önemli: cochrane.org/evidence/<CD> sayfalarında sa
 
 1 Kasım 2026: genişletme partisi 4 — menisküs yırtığı, rotator manşet yırtığı, kemik erimesi (içindekiler, tanı bölümleri, tarihçe, karşılaştırma kartları, yeni SSS, kademeli uyarı işaretleri); yayından önce her sayfaya bağımsız denetim, bulgular kaynağından doğrulandı. Ayrıntılar DENETIM.md'de. Ortak EXT değişti: row, scaption. Önerilen sıradaki parti: diz önü ağrısı, aşil tendinopatisi, boyun fıtığı (araştırma notları denetim/notlar_parti5.md; doğrulanmış: kılavuz dereceleri doğrulandı — Aşil 2024 orthopt PDF, boyun 2017 orthopt PDF, PFP AAFP 2020 + Neal 2024 Essex tam metin, servikal radikülopati AFP 2010). Çeviri tur43. Sonraki batch: tur44.
 
+1 Kasım 2026 (2): genişletme partisi 5 — diz önü ağrısı, aşil tendinopatisi, boyun fıtığı; yayından önce bağımsız denetim, bulgular kaynağından doğrulandı (DENETIM.md). Ortak "Ne zaman hemen başvurmalı?" başlığı kademeli listelerle uyumsuz kalıyor — site geneli karar adayı. Çeviri tur44. Sonraki batch: tur45. Önerilen sıradaki parti: fibromiyalji, baş ağrısı, kalça yan ağrısı (ya da omuz çıkığı, on çapraz bağ).
+
