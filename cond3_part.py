@@ -41,34 +41,37 @@ SV["adams"] = fig(GRD +
 # ============================================================== DİZ ÖNÜ AĞRISI
 _ex2("pf_abd", "abd", "Yan yatarak bacak kaldırma", "Yan yatın, alttaki dizinizi hafifçe bükün. Üstteki bacağınızı dizi düz, ayak ucu öne bakacak şekilde yukarı kaldırın, 2 saniye tutup yavaşça indirin. Kalçanın yan kasları dizi dengede tutmaya yardım eder.", "Her iki yana 10–15 tekrar, 2–3 set")
 _ex2("pf_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak yavaşça kaldırın, 3 saniye bekleyip indirin. Kolaylaştıkça tek bacakla deneyin.", "10–15 tekrar, 2–3 set")
-_ex2("pf_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Dizleriniz ayak parmaklarınızın hizasında kalacak şekilde, ağrıyı belirgin artırmayan bir derinliğe kadar inin, birkaç saniye bekleyip yukarı çıkın.", "8–10 tekrar, 2–3 set")
-_ex2("pf_kext", "kext", "Oturarak diz açma", "Sandalyeye dik oturun. Dizinizi yavaşça düzeltip uyluğunuzun ön kasını sıkın, 3 saniye tutun ve yavaşça indirin. Ağrı olursa hareketi daha kısa bir açıklıkta yapın.", "10–15 tekrar, 2–3 set")
-_ex2("pf_sabd", "sabd", "Ayakta kalçayı yana açma", "Tezgâha tutunarak dik durun. Bir bacağınızı dizi düz, ayak ucu öne bakacak şekilde yana doğru açın ve yavaşça indirin. Gövdenizi yana eğmeyin. Kolaylaştıkça ayak bileğinize lastik bant ekleyin.", "Her iki yana 10–15 tekrar")
+_ex2("pf_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara dayayın, ayaklarınız duvardan bir adım önde olsun. Dizleriniz ayak parmaklarınızın hizasında kalacak şekilde, ağrıyı belirgin artırmayan bir derinliğe kadar inin (dizler en fazla sandalyeye oturur gibi yarı bükülü, 90 dereceyi geçmeden), birkaç saniye bekleyip yukarı çıkın.", "8–10 tekrar, 2–3 set")
+_ex2("pf_kext", "kext", "Oturarak diz açma", "Sandalyeye dik oturun. Dizinizi yavaşça düzeltip uyluğunuzun ön kasını sıkın, 3 saniye tutun ve yavaşça indirin. Ağrı olursa dizinizi tam düzeltmeden, ağrısız aralıkta çalışın.", "10–15 tekrar, 2–3 set")
+_ex2("pf_sabd", "sabd", "Ayakta kalçayı yana açma", "Tezgâha tutunarak dik durun. Bir bacağınızı dizi düz, ayak ucu öne bakacak şekilde yana doğru açın ve yavaşça indirin. Gövdenizi yana eğmeyin. Kolaylaştıkça ayak bileğinize lastik bant ekleyin.", "Her iki yana 10–15 tekrar, 2–3 set")
 _ex2("pf_sls", "sls", "Tek ayak üzerinde denge", "Tezgâha hafifçe tutunarak tek ayağınızın üzerinde durun, dizinizi hafifçe bükülü tutun ve içe kaçmamasına dikkat edin. Kolaylaştıkça tutunmayı azaltın.", "30 saniye, her bacakta 3 kez")
+SV["pf_kext"] = SV["kext"].replace("<figcaption>Oturarak diz düzeltme</figcaption>", "<figcaption>Oturarak diz açma</figcaption>")
+SV["pf_sabd"] = SV["sabd"].replace("<figcaption>Kalçayı yana açma</figcaption>", "<figcaption>Ayakta kalçayı yana açma</figcaption>")
+SV["pf_sls"] = SV["sls"].replace("<figcaption>Tek ayak üzerinde durma</figcaption>", "<figcaption>Tek ayak üzerinde denge</figcaption>")
 
 PF_FAQ = [
  ("Diz kapağımdan ses geliyor, zarar mı veriyor?", "Çoğu zaman hayır. Ağrısız çıtırtılar diz ağrısı olmayan pek çok kişide de vardır ve tek başına bir hastalık belirtisi değildir. Sesle birlikte ağrı ya da şişlik varsa değerlendirme yapılmalıdır."),
  ("Koşmayı bırakmalı mıyım?", "Genellikle tamamen bırakmak gerekmez. Ağrıyı belirgin artırmayan bir mesafe ve hızda devam edip egzersizlerle birlikte yükü kademeli olarak artırabilirsiniz. Yokuş aşağı koşuyu ve merdiven antrenmanlarını bir süre azaltın."),
- ("Dizlik ya da bant işe yarar mı?", "Bazı kişilerde ağrıyı kısa sürede hafifletebilir; ancak uluslararası uzlaşı raporuna göre bu konudaki kanıt yetersizdir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır. 2024’te yayımlanan bir en iyi uygulama rehberi, bandı yalnızca ağrı rehabilitasyonu zorlaştıracak kadar şiddetliyse öneriyor; tedavinin merkezinde dize yönelik egzersiz ve eğitim duruyor, en az 6 haftada yanıt yoksa değerlendirmenin gözden geçirilmesi gerekiyor."),
- ("Ne kadar sürede düzelir?", "Kişiden kişiye değişir. 2024'te yayımlanan en iyi uygulama rehberi, gerçekçi bir süre (en az 6 hafta) sonra yeterli düzelme yoksa değerlendirmenin, egzersize katılımın ve tedavinin ağrının şiddetine uygun olup olmadığının gözden geçirilmesini öneriyor. Rehberin incelediği yüksek kaliteli çalışmaların hiçbiri hastaları 3 aydan uzun izlememişti. Uzun dönemde ağrı bazı kişilerde yıllarca sürebiliyor; ağrının başlangıçta 12 aydan uzun süredir devam ediyor olması kötü sonucun en güçlü göstergesiydi. Bu yüzden erken ve düzenli egzersiz önemli."),
+ ("Dizlik ya da bant işe yarar mı?", "Bazı kişilerde ağrıyı kısa sürede hafifletebilir; ancak uluslararası uzlaşı raporuna göre bu konudaki kanıt yetersizdir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır. 2024'te yayımlanan bir en iyi uygulama rehberi, bandın ağrının şiddeti ya da kolay alevlenmesi rehabilitasyonu zorlaştırıyorsa düşünülebileceğini belirtiyor; tedavinin merkezinde dize yönelik egzersiz ve eğitim duruyor, en az 6 haftalık düzenli egzersize rağmen yeterli düzelme yoksa değerlendirmenin gözden geçirilmesi gerekiyor. ABD fizyoterapi kılavuzunun özetine göre dizlik ve bandajların yararı gösterilmedi."),
+ ("Ne kadar sürede düzelir?", "Kişiden kişiye değişir. 2024'te yayımlanan en iyi uygulama rehberi, gerçekçi bir süre (en az 6 hafta) sonra yeterli düzelme yoksa değerlendirmenin, egzersize katılımın ve tedavinin ağrının şiddetine uygun olup olmadığının gözden geçirilmesini öneriyor. Etkiyi 3 aydan uzun dönemde yeterince sınayan yüksek kaliteli çalışma yoktu. Uzun dönemde ağrı bazı kişilerde yıllarca sürebiliyor; bir izlem çalışmasında başlangıçta 12 aydan uzun süren ağrı, yıllar sonra daha fazla ağrıyı öngördü. Bu yüzden ağrı uzamadan değerlendirme ve düzenli egzersiz önerilir."),
  ("MR çektirmem gerekiyor mu?", "Genellikle hayır. Tanı muayeneyle konur ve görüntülemede çoğu zaman ağrıyı açıklayan bir bulgu çıkmaz. Yaralanma sonrası başlayan ağrı, kilitlenme ya da belirgin şişlik gibi durumlarda görüntüleme gerekebilir."),
 ]
 
 PF_SRC = [
- "Patellofemoral pain: guidelines from the American Physical Therapy Association. " + ext("https://www.aafp.org/afp/2020/1001/p442", "American Family Physician") + ". 2020.",
+ "Marra J. " + ext("https://www.aafp.org/afp/2020/1001/p442", "Patellofemoral pain: guidelines from the American Physical Therapy Association") + ". Am Fam Physician. 2020;102(7):442-443.",
  "Collins NJ, Barton CJ, van Middelkoop M, et al. " + ext("https://pure.eur.nl/en/publications/2018-consensus-statement-on-exercise-therapy-and-physical-interve/", "2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain: recommendations from the 5th International Patellofemoral Pain Research Retreat, Gold Coast, Australia, 2017") + ". Br J Sports Med. 2018;52(18):1170-1178.",
  "Smith BE, Selfe J, Thacker D, et al. " + ext("https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190892", "Incidence and prevalence of patellofemoral pain: a systematic review and meta-analysis") + ". PLoS One. 2018;13(1):e0190892.",
  "Lankhorst NE, van Middelkoop M, Crossley KM, et al. " + ext("https://repub.eur.nl/pub/97015", "Factors that predict a poor outcome 5-8 years after the diagnosis of patellofemoral pain: a multicentre observational analysis") + ". Br J Sports Med. 2016;50(14):881-886.",
- "Willy RW, Hoglund LT, Barton CJ, et al. " + ext("https://doi.org/10.2519/jospt.2019.0302", "Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2019;49(9)",
- "Neal BS, Lack SD, Bartholomew C, Morrissey D. " + ext("https://bjsm.bmj.com/content/58/24/1486", "Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning") + ". Br J Sports Med. 2024;58(24):1486.",
+ "Willy RW, Hoglund LT, Barton CJ, et al. " + ext("https://doi.org/10.2519/jospt.2019.0302", "Patellofemoral pain: clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2019;49(9):CPG1-CPG95.",
+ "Neal BS, Lack SD, Bartholomew C, Morrissey D. " + ext("https://bjsm.bmj.com/content/58/24/1486", "Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning") + ". Br J Sports Med. 2024;58(24):1486-1495.",
 ]
 
 PF_TL = [
- ("2016", "Başlangıçta 310 hastanın katıldığı bir izlem çalışmasında (BJSM), 5–8 yıl sonra soruları yanıtlayan 60 kişinin %57'si iyileşmediğini bildirdi; ağrının başlangıçta 12 aydan uzun sürmesi kötü sonucun en güçlü göstergesiydi."),
+ ("2016", "İki randomize çalışmaya katılan 310 hastanın uzun dönem izleminde (BJSM), 5–8 yıl sonra soruları yanıtlayan 60 kişinin %57'si iyileşmesini yetersiz bulduğunu (orta düzeyde düzelmeden kötüleşmeye kadar) bildirdi; başlangıçta 12 aydan uzun süren ağrı daha fazla ağrıyı öngördü."),
  ("2018", "Uluslararası araştırmacıların uzlaşı raporu (BJSM) egzersiz tedavisini, özellikle kalça ve diz egzersizlerinin birlikte yapılmasını önerdi; dize ya da bele tek başına uygulanan mobilizasyonlar ve elektroterapi önerilmedi."),
- ("2018", "Çalışmaları birleştiren bir meta-analizde (PLoS One) diz önü ağrısının bir yıllık görülme sıklığı toplumda %22,7, ergenlerde %28,9 bulundu."),
+ ("2018", "Bir sistematik derlemede (PLoS One) iki çalışmanın birleştirilmesiyle ergenlerde nokta yaygınlığı %7,2 bulundu; bir yıllık görülme sıklığı için toplumda %22,7, ergenlerde %28,9 bildiren birer çalışma vardı. Yazarlar kanıt az olduğu için bu tahminlerin belirsiz kaldığını belirtiyor."),
  ("2019", "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin kılavuzu (JOSPT) yayımlandı: kalçanın arka kaslarıyla uyluğun ön kasına yönelik egzersizler temel tedavi olarak öne çıktı; dizlik ve bandajın, kuru iğnelemenin ve egzersize eklenen manuel terapinin ek yararı görülmedi."),
- ("2024", "65 yüksek kaliteli randomize çalışma (3.796 kişi), 12 hastanın ve 28 uzmanın görüşüyle hazırlanan en iyi uygulama rehberi (BJSM): temel tedavi, eğitimle desteklenen dize yönelik egzersiz; gerektiğinde kalça ve diz egzersizi."),
+ ("2024", "65 yüksek kaliteli randomize çalışma (3.796 kişi), 12 hasta ve 19 uzmanla görüşmeler ile üç uzman odak grubundan yararlanılarak hazırlanan en iyi uygulama rehberi (BJSM): temel tedavi, eğitimle desteklenen dize yönelik egzersiz; gerektiğinde kalça ve diz egzersizi."),
 ]
 
 PF_BODY = f'''<header class="page">
@@ -84,10 +87,10 @@ PF_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%22,7</b><span>Toplumda bir yıl içinde diz önü ağrısı yaşayanların oranı</span></div>
-        <div class="stat"><b>%28,9</b><span>Ergenlerde bir yıl içindeki görülme sıklığı</span></div>
-        <div class="stat"><b>%57</b><span>Bir izlem çalışmasında 5–8 yıl sonra yanıt veren 60 hastadan iyileşmediğini bildirenler</span></div>
-        <div class="stat"><b>Kalça + diz</b><span>Uluslararası uzlaşı raporunun önerdiği egzersiz birlikteliği</span></div>
+        <div class="stat"><b>%7,2</b><span>Ergenlerde herhangi bir anda diz önü ağrısı olanların oranı (iki çalışmanın birleşik sonucu)</span></div>
+        <div class="stat"><b>6 hafta</b><span>Düzenli egzersize rağmen yeterli düzelme yoksa değerlendirmenin gözden geçirilmesi önerilen en kısa süre (2024 rehberi)</span></div>
+        <div class="stat"><b>%57</b><span>Bir izlem çalışmasında 5–8 yıl sonra yanıt veren 60 hastadan iyileşmesini yetersiz bulanlar</span></div>
+        <div class="stat"><b>Kalça + diz</b><span>Uluslararası uzlaşı raporunun (2018) önerdiği egzersiz birlikteliği</span></div>
       </div>
       {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("tarihce", "Geçmişten bugüne"), ("ise-yarar", "Tedavide ne işe yarar?"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
@@ -96,8 +99,8 @@ PF_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
-        <p class="soft">Diz kapağı, uyluk kemiğinin ön yüzündeki bir olukta kayar. Bu eklemin taşıdığı yük, dokuların kaldırabileceği düzeyi aştığında ağrı ortaya çıkar. Görüntülemede çoğu zaman belirgin bir hasar görülmez; sorun yapısal bir bozukluktan çok yük ile dayanıklılık arasındaki dengesizliktir.</p>
-        <p class="soft">Koşu, zıplama ya da merdiven gibi aktivitelerin kısa sürede artırılması, kalça ve uyluk kaslarındaki zayıflık ve büyüme dönemi sık görülen etkenlerdir.</p>
+        <p class="soft">Diz kapağı, uyluk kemiğinin ön yüzündeki bir olukta kayar. Bu eklemin taşıdığı yük, dokuların kaldırabileceği düzeyi aştığında ağrı ortaya çıkar. Görüntülemede çoğu zaman belirgin bir hasar görülmez; sorun çoğu zaman yapısal bir bozukluktan çok yük ile dayanıklılık arasındaki dengesizlik olarak açıklanır.</p>
+        <p class="soft">Koşu, zıplama ya da merdiven gibi aktivitelerin kısa sürede artırılması sık görülen bir tetikleyicidir; kalça ve uyluk kaslarında zayıflık da sık eşlik eder.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>
@@ -115,8 +118,8 @@ PF_BODY = f'''<header class="page">
       <h2>Nasıl tanınır?</h2>
       <p class="soft">Tanı öykü ve muayeneyle konur; çoğu zaman görüntüleme gerekmez.</p>
       <div class="kinds">
-        <div class="kind"><h3>En güvenilir bulgu</h3><p>ABD fizyoterapi kılavuzunun özetine göre çömelirken, merdiven çıkarken ya da uzun süre otururken diz kapağı çevresinde ağrı olması en doğru bulgudur; çömelmede ağrı olmaması diz önü ağrısını olası dışı kılar. Diz kapağının dışa doğru hareketliliğinin azalması tanıyı destekleyebilir ama dışlayamaz; önerilen diğer testlerin doğruluğu yetersizdir.</p></div>
-        <div class="kind"><h3>Görüntüleme</h3><p>Genellikle gerekmez; görüntülemede çoğu zaman ağrıyı açıklayan bir bulgu çıkmaz. Yaralanma sonrası başlayan ağrı, kilitlenme ya da belirgin şişlik gibi durumlarda başka nedenler için istenebilir.</p></div>
+        <div class="kind"><h3>En güvenilir bulgu</h3><p>ABD fizyoterapi kılavuzunun özetine göre çömelirken, merdiven çıkarken ya da uzun süre otururken diz kapağı çevresinde ağrı olması en doğru bulgudur; çömelmede ağrı yoksa diz önü ağrısı pek olası değildir. Diz kapağının dışa doğru hareketliliğinin azalması tanıyı destekleyebilir, ama bu bulgunun olmaması tanıyı dışlamaz; önerilen diğer testlerin doğruluğu yetersizdir.</p></div>
+        <div class="kind"><h3>Görüntüleme</h3><p>Çoğu zaman gerekmez; görüntülemede çoğu zaman ağrıyı açıklayan bir bulgu çıkmaz. Yaralanma sonrası başlayan ağrı, kilitlenme ya da belirgin şişlik gibi durumlarda başka nedenler için istenebilir.</p></div>
         <div class="kind"><h3>Başka ne olabilir?</h3><p>Diz kapağının altındaki kirişte sınırlı ağrı, eklem çizgisinde ağrı ve takılma ya da çocuklarda topallama başka sorunları düşündürür. Çocuk ve ergenlerde diz ağrısı kalçadan da yansıyabilir.</p></div>
       </div>
     </div>
@@ -134,7 +137,7 @@ PF_BODY = f'''<header class="page">
       <h2>Tedavide ne işe yarar?</h2>
       <p class="soft">2018'de uluslararası araştırmacıların hazırladığı uzlaşı raporu egzersiz tedavisini, özellikle kalça ve diz egzersizlerinin birlikte yapılmasını öneriyor. Egzersizin başka yöntemlerle birleştirilmesi ve ayak tabanlıkları da önerilenler arasında. Buna karşılık dize ya da bele tek başına uygulanan mobilizasyonlar ve elektroterapi yöntemleri önerilmiyor; bantlama, dizlik, kuru iğneleme ve koşu tekniğinin değiştirilmesi konusunda ise kanıt yetersiz.</p>
       <div class="callout">
-        <p>Diz önü ağrısı kendiliğinden her zaman geçmeyebilir. Hollanda'da yapılan bir izlem çalışmasında, başlangıçtaki 310 hastadan 5–8 yıl sonra soruları yanıtlayan 60'ının (%19) %57'si iyileşmediğini bildirdi. Yanıt verenler küçük ve seçilmiş bir grup olduğu için bu oran herkes için bir tahmin değildir. Çalışmada ağrının başlangıçta 12 aydan uzun süredir devam ediyor olması kötü sonucun en güçlü göstergesiydi. Bu yüzden erken ve düzenli tedavi önemli.</p>
+        <p>Diz önü ağrısı kendiliğinden her zaman geçmeyebilir. İki randomize çalışmaya katılan 310 hastanın uzun dönem izleminde, 5–8 yıl sonra soruları yanıtlayan 60 kişinin (%19) %57'si iyileşmesini yetersiz bulduğunu (orta düzeyde düzelmeden kötüleşmeye kadar) bildirdi. Yanıt verenler küçük ve seçilmiş bir grup olduğu için bu oran herkes için bir tahmin değildir. Çalışmada başlangıçta 12 aydan uzun süren ağrı, yıllar sonra daha fazla ağrıyı öngördü. Bu yüzden ağrı uzamadan değerlendirme önerilir.</p>
       </div>
     </div>
   </section>
@@ -145,17 +148,17 @@ PF_BODY = f'''<header class="page">
         <li><b>Kalça ve diz egzersizleri</b><span>Kalçanın yan ve arka kaslarıyla uyluğun ön kasını güçlendiren, dizin içe kaçmasını önleyen egzersizler tedavinin temelidir.</span></li>
         <li><b>Yükü ayarlama</b><span>Ağrıyı belirgin artıran koşu, zıplama, derin çömelme ve merdiven yükü bir süre azaltılır, sonra kademeli olarak artırılır.</span></li>
         <li><b>Ayak tabanlığı</b><span>Bazı kişilerde, özellikle kısa vadede ağrıyı azaltmaya yardımcı olabilir.</span></li>
-        <li><b>Bantlama ve dizlik</b><span>Ağrıyı geçici olarak hafifletebilir; kanıt sınırlıdır, egzersizin yerine geçmez.</span></li>
-        <li><b>Bilgilendirme</b><span>Ağrının neden olduğunu ve yükün nasıl ayarlanacağını bilmek, tedavinin başarısına katkı sağlar.</span></li>
+        <li><b>Bantlama ve dizlik</b><span>Bant, egzersizle birlikte kısa vadede ağrıyı azaltabilir; dizlik ve bandajların yararı gösterilmedi. İkisi de egzersizin yerine geçmez.</span></li>
+        <li><b>Bilgilendirme</b><span>Ağrının neden oluştuğunu ve yükün nasıl ayarlanacağını bilmek, tedavinin başarısına katkı sağlar.</span></li>
       </ul>
       <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
-      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin kılavuzu (JOSPT, 2019; American Family Physician özetinden) ile BJSM'de yayımlanan en iyi uygulama rehberi (2024) yan yana. Rehber önerilerini "çok yüksek, yüksek, orta, düşük" diye derecelendiriyor; tedavi kişiye göre seçilir.</p>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi akademisinin kılavuzu (JOSPT, 2019; American Family Physician özetinden) ile BJSM'de yayımlanan en iyi uygulama rehberi (2024) yan yana. Rehber öneri gücünü "çok yüksek, yüksek, orta, düşük, çok düşük" diye derecelendiriyor; tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Egzersiz</h3><dl><dt>JOSPT</dt><dd>Kalçanın arka kaslarıyla uyluğun ön kasına yönelik egzersizler temel tedavi; yük binen ve binmeyen egzersizler benzer etkili; yüksek hacimli programlar daha iyi.</dd><dt>BJSM</dt><dd>Eğitimle desteklenen dize yönelik egzersiz (çok yüksek); gerektiğinde kalça ve diz egzersizi (yüksek). Dizi bükerek yüklenmeyi zor tolere edenlerde önce kalça egzersizleri öne çıkarılabilir.</dd></dl></div>
-        <div class="kind"><h3>Ayak tabanlığı</h3><dl><dt>JOSPT</dt><dd>Ayağı içe basması artmış olanlarda kısa vadede (6 hafta) ağrıyı azaltır; özel yapım tabanlık hazır tabanlıktan üstün değil.</dd><dt>BJSM</dt><dd>Hazır tabanlık (yüksek); yön testlerine iyi yanıt verenlerde, rahatlığa göre ayarlanarak.</dd></dl></div>
-        <div class="kind"><h3>Bant ve dizlik</h3><dl><dt>JOSPT</dt><dd>Diz kapağı bandı egzersizle birlikte kısa vadede ağrıyı azaltır; dizlik ve bandajlar sonuçları iyileştirmiyor.</dd><dt>BJSM</dt><dd>Bant (düşük): ağrının şiddeti ya da kolay alevlenmesi rehabilitasyonu zorlaştırıyorsa, kısa süreli destek olarak.</dd></dl></div>
-        <div class="kind"><h3>Manuel terapi</h3><dl><dt>JOSPT</dt><dd>Egzersize eklenmesi tek başına egzersizden daha iyi sonuç vermiyor.</dd><dt>BJSM</dt><dd>Orta: ağrının şiddeti, kolay alevlenmesi ya da hareket korkusu rehabilitasyonu engelliyorsa düşünülebilir.</dd></dl></div>
-        <div class="kind"><h3>Koşu ve hareket eğitimi</h3><dl><dt>BJSM</dt><dd>Düşük: belirtiler belirli bir hareket biçimine bağlıysa, örneğin adımı uzun olan bir koşucuda adım sıklığını artırmak.</dd></dl></div>
+        <div class="kind"><h3>Egzersiz</h3><dl><dt>JOSPT</dt><dd>Kalçanın arka kaslarıyla uyluğun ön kasına yönelik egzersizler temel tedavi; yük binen ve binmeyen egzersizler benzer etkili; yüksek hacimli programlar daha iyi.</dd><dt>BJSM</dt><dd>Eğitimle desteklenen dize yönelik egzersiz (öneri gücü: çok yüksek); gerektiğinde kalça ve diz egzersizi (yüksek). Dizi bükerek yüklenmeyi zor tolere edenlerde önce kalça egzersizleri öne çıkarılabilir.</dd></dl></div>
+        <div class="kind"><h3>Ayak tabanlığı</h3><dl><dt>JOSPT</dt><dd>Ayağı içe basması artmış olanlarda kısa vadede (6 hafta) ağrıyı azaltır; özel yapım tabanlık hazır tabanlıktan üstün değil.</dd><dt>BJSM</dt><dd>Hazır tabanlık (öneri gücü: yüksek); tabanlıkla yapılan kısa denemede ağrısı azalanlarda, rahatlığa göre ayarlanarak.</dd></dl></div>
+        <div class="kind"><h3>Bant ve dizlik</h3><dl><dt>JOSPT</dt><dd>Diz kapağı bandı egzersizle birlikte kısa vadede ağrıyı azaltır; dizlik ve bandajlar sonuçları iyileştirmiyor.</dd><dt>BJSM</dt><dd>Bant (öneri gücü: düşük): ağrının şiddeti ya da kolay alevlenmesi rehabilitasyonu zorlaştırıyorsa düşünülebilir.</dd></dl></div>
+        <div class="kind"><h3>Manuel terapi</h3><dl><dt>JOSPT</dt><dd>Egzersize eklenmesi tek başına egzersizden daha iyi sonuç vermiyor.</dd><dt>BJSM</dt><dd>Öneri gücü orta: ağrının şiddeti, kolay alevlenmesi ya da hareket korkusu rehabilitasyonu engelliyorsa düşünülebilir.</dd></dl></div>
+        <div class="kind"><h3>Koşu ve hareket eğitimi</h3><dl><dt>JOSPT</dt><dd>Yürüyüş ve koşu biçiminin yeniden eğitimi (ör. koşu mesafesini azaltmak, adım sıklığını artırmak) belirtileri iyileştirebilir.</dd><dt>BJSM</dt><dd>Öneri gücü düşük: belirtiler belirli bir hareket biçimine bağlıysa, örneğin adımı uzun olan bir koşucuda adım sıklığını artırmak.</dd></dl></div>
         <div class="kind"><h3>Kuru iğneleme ve cihazlar</h3><dl><dt>JOSPT</dt><dd>Kuru iğneleme sonuçları iyileştirmiyor; kas uyarımı (NMES) ve kan akımı kısıtlama egzersize ek yarar sağlamıyor; akupunktur sahte akupunkturdan üstün değil.</dd><dt>BJSM</dt><dd>Kuru iğneleme, titreşim tedavisi ve hyaluronik asit iğnesi klinik araştırma dışında önerilmiyor.</dd><dt>Not</dt><dd>Türkiye'de kuru iğneleme ve akupunkturu yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
       </div>
     </div>
@@ -164,7 +167,7 @@ PF_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Kalça ve diz için altı egzersiz</h2>
-      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı kabul edilebilir; ağrı ertesi gün artmıyorsa devam edin. Dizinizin ayak parmaklarınızla aynı hizada kalmasına, içe doğru kaçmamasına dikkat edin.</p>
+      <p class="soft">Egzersiz sırasında hafif ve katlanılabilir bir ağrı kabul edilebilir; ağrı ertesi gün artmıyorsa devam edin, artarsa bir sonraki seferde yükü azaltın. Dizinizin ayak parmaklarınızla aynı hizada kalmasına, içe doğru kaçmamasına dikkat edin.</p>
       {ex_grid(["pf_abd", "pf_bridge", "pf_wall", "pf_kext", "pf_sabd", "pf_sls"])}
     </div>
   </section>
@@ -200,15 +203,17 @@ PF_BODY = f'''<header class="page">
       <p class="soft">Şu durumlar diz önü ağrısı dışında bir soruna işaret edebilir.</p>
       <p class="soft"><strong>Aynı gün ya da acil servise:</strong></p>
       <ul class="dots redflags">
-        <li>Dizde birden başlayan belirgin şişlik, kızarıklık ve sıcaklık; özellikle ateşle birlikteyse</li>
-        <li>Yaralanmadan sonra bacağa yük verememe ya da dizin kilitlenip açılamaması</li>
+        <li>Dizde birden başlayan belirgin şişlik, kızarıklık ya da sıcaklık; özellikle ateşle birlikteyse</li>
+        <li>Yaralanmadan sonra bacağa yük verememe, dizin kilitlenip açılamaması ya da hemen başlayan hızlı şişlik</li>
+        <li>Diz kapağının yerinden çıkması ya da dizde gözle görülür şekil bozukluğu</li>
         <li>Çocuk ve ergenlerde topallamayla ya da yürüyememeyle birlikte diz veya kalça ağrısı (ağrı kalçadan kaynaklanıyor olabilir)</li>
       </ul>
       <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Yaralanmadan sonra dizin sık boşalması</li>
         <li>Dinlenmekle geçmeyen, geceleri uyandıran ağrı ya da nedensiz kilo kaybı</li>
-        <li>Düzenli egzersize rağmen 6 hafta içinde düzelmeyen ya da giderek artan ağrı</li>
+        <li>Kemik üzerinde sert bir şişlik ya da kitle</li>
+        <li>En az 6 haftalık düzenli egzersize rağmen düzelmeyen ya da giderek artan ağrı</li>
       </ul>
       {CTA_CARD("Diz önü ağrınız", "diz önü ağrısı")}
     </div>
