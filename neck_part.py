@@ -427,16 +427,23 @@ BOYUN_FITIK_FAQ = [
  ("Nasıl yatmalıyım?", "Sırtüstü ya da ağrısız tarafınıza yan yatmak çoğu kişiye daha rahat gelir. Yastık boynunuzu omurganızla aynı hizada tutmalı. Yüzüstü yatmaktan kaçının."),
  ("Boyun fıtığı ile boyun düzleşmesi aynı şey mi?", "Hayır. Boyun düzleşmesi, röntgende boyun omurgasının doğal hafif kavisinin azalmasıdır ve ağrısı olmayan kişilerde de sık görülür. Fıtık ise diskin taşmasıdır. " + DUZ_LINK),
 ]
+FITIK_TL = [
+ ("1944", "ABD'li beyin cerrahı Roy Glenwood Spurling ve Scoville, boyun disklerinin yana doğru yırtılmasını omuz ve kol ağrısının sık bir nedeni olarak anlatan makalelerini yayımladı (\"Lateral rupture of the cervical intervertebral discs\"). Spurling'in adı bugün kola yayılan ağrıda kullanılan bir muayene testiyle anılıyor."),
+ ("1994", "Rochester, Minnesota'da 1976–1990 yıllarında kola yayılan sinir sıkışması tanısı alan 561 hastanın incelendiği nüfus çalışmasında (Brain) yıllık sıklık 100.000'de yaklaşık 83 bulundu; yaklaşık 5 yıllık izlemde, ameliyat olanlar dahil hastaların %90'ında yakınma yoktu ya da hafifti."),
+ ("2014", "Çalışmaları inceleyen bir sistematik derleme (Spine J): boyun fıtığına bağlı kola yayılan ağrıda belirtiler çoğu kişide 4–6 ay içinde belirgin şekilde düzeliyor."),
+ ("2015", "Hiç şikâyeti olmayan 1.211 kişinin boyun MR'ları incelendi: %87,6'sında disk bombeleşmesi vardı; 20'li yaşlarda bile bu oran %73–78'di."),
+ ("2017", "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin boyun ağrısı kılavuzu (JOSPT) güncellendi: kola yayılan ağrılı boyun ağrısında uzun dönemde aralıklı mekanik traksiyon, germe ve güçlendirme egzersizleri ve boyun-sırt mobilizasyonu ya da manipülasyonu birlikte (B); eğitim ve işe, fiziksel etkinliğe katılımı teşvik (B)."),
+]
+
 FITIK_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun fıtığı ve sinir sıkışması</h1>
     <p class="lede">Boyundaki disklerden birinin taşması ya da omurgadaki kireçlenmenin bir sinir kökünü sıkıştırmasıyla ortaya çıkar. Ağrı kola ve parmaklara vurur; uyuşma ve güçsüzlük olabilir. Çoğu kişi ameliyatsız iyileşir.</p>
-    <p class="meta">Son güncelleme: 29 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -446,10 +453,10 @@ FITIK_BODY = f'''<header class="page">
         <div class="stat"><b>%90</b><span>Uzun dönemde yakınması olmayan ya da hafif kalan (ameliyat olanlar dahil)</span></div>
         <div class="stat"><b>%87,6</b><span>Hiç ağrısı olmayanların MR'ında disk bombeleşmesi</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("kokler", "Hangi sinir nereye vurur?"), ("tani", "Tanı"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Seyri ve tedavi"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -469,8 +476,7 @@ FITIK_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="kokler">
     <div class="wrap roots">
       <div>
         <h2>Hangi sinir nereye vurur?</h2>
@@ -485,18 +491,25 @@ FITIK_BODY = f'''<header class="page">
       {HAND}
     </div>
   </section>
-
-  <section>
+  <section id="tani">
     <div class="wrap">
       <h2>Tanı: MR her şey değil</h2>
       <p class="soft">Tanı önce muayeneyle konur. Fizyoterapist ya da hekim boyun hareketlerini, kol kaslarının gücünü, refleksleri ve duyuyu değerlendirir. Sinir kökünü zorlayan ya da rahatlatan özel testler yapar; Spurling testi, sinir germe testi ve boyun çekme testi bunlardan bazılarıdır.</p>
+      <p class="soft">ABD fizyoterapi kılavuzunun aktardığı verilere göre Spurling testi sinir kökü sıkışmalarının yaklaşık yarısını yakalıyor (duyarlılık %50), ama olumlu çıktığında tanıyı güçlü şekilde destekliyor (özgüllük %86–93). Boyun hafifçe yukarı çekildiğinde kol ağrısının azalması da benzer bir bulgu (duyarlılık %44, özgüllük %90–97). Kol sinirlerini geren testler ise daha çok olumsuz çıktığında tanıyı dışlamaya yardımcı olur. Kılavuz tek bir teste değil, öykü ve muayene bulgularının birlikte değerlendirilmesine dayanılmasını öneriyor. Bu testler hekim ya da fizyoterapist tarafından yapılır.</p>
       <div class="callout">
         <p>MR fıtığın yerini gösterir ama tek başına karar verdirmez. Hiçbir şikâyeti olmayan 1211 kişinin %87,6'sında MR'da disk bombeleşmesi (bulging) görüldü; 20'li yaşlarda bile bu oran %73–78'di. Önemli olan, MR bulgusunun şikâyetler ve muayeneyle uyuşup uyuşmadığıdır.</p>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>Kol ağrısının boyundan kaynaklandığının anlaşılması</h2>
+      <p class="soft">Kola yayılan ağrının boyundaki bir diskten kaynaklanabildiği 1940'larda anlatıldı. Sonraki çalışmalar, çoğu kişinin ameliyatsız düzeldiğini ve MR bulgularının şikâyetlerle birlikte yorumlanması gerektiğini gösterdi.</p>
+      {g_tl(FITIK_TL)}
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>Seyri ve tedavi</h2>
       <p class="soft">Belirtiler genellikle ilk haftalarda en yoğundur. Çoğu kişi 4–6 ay içinde belirgin şekilde düzelir; az sayıdaki çalışmada bu düzelme 2–3 yıllık izlemde genellikle korundu. ABD'de 1976–1990 yıllarında kola yayılan sinir sıkışması (fıtık ya da kireçlenmeye bağlı) tanısı alan 561 hastanın yaklaşık 5 yıl izlendiği bir nüfus çalışmasında son kontrolde, ameliyat olanlar dahil hastaların %90'ında hiç yakınma yoktu ya da yakınmalar hafifti; hastaların dörtte biri izlem süresinde ameliyat olmuştu.</p>
@@ -505,12 +518,20 @@ FITIK_BODY = f'''<header class="page">
         <li><b>Egzersiz</b><span>Derin boyun kaslarını ve kürek kemiği çevresini güçlendiren, boynu dengeleyen egzersizler ile sinir kaydırma egzersizleri tedavinin önemli bir parçasıdır.</span></li>
         <li><b>Manuel terapi ve traksiyon</b><span>Egzersizle birlikte uygulanan manuel terapi ve aralıklı boyun traksiyonu (boynun kontrollü çekilmesi), uzun süren kola yayılan ağrıda kılavuzlarda önerilir.</span></li>
         <li><b>Boyunluk</b><span>Ağrının çok şiddetli olduğu ilk günlerde kısa süreli kullanılabilir. Uzun süreli kullanım önerilmez.</span></li>
-        <li><b>İlaç ve enjeksiyon</b><span>Hekiminizin önerdiği ağrı kesiciler. Seçilmiş hastalarda sinir köküne yönelik enjeksiyonlar hekim kararıyla uygulanabilir.</span></li>
+        <li><b>İlaç ve enjeksiyon</b><span>Ağrı kesicilerden hangisinin uygun olduğunu hekiminize sorun. Seçilmiş hastalarda sinir köküne yönelik enjeksiyonlar hekim kararıyla uygulanabilir.</span></li>
         <li><b>Ameliyat</b><span>Giderek artan güç kaybı, omurilik basısı belirtileri ya da 6–12 haftalık uygun tedaviye rağmen günlük yaşamı bozan ağrı varsa beyin ve sinir cerrahisi ya da ortopedi değerlendirmesi gerekir.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kaynaklar ne diyor?</h3>
+      <p class="soft">Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin boyun ağrısı kılavuzu (JOSPT, 2017) ile American Family Physician'da yayımlanan ameliyatsız tedavi derlemesi (AFP, 2010) yan yana. Parantez içindeki harfler JOSPT kılavuzundaki öneri düzeyidir (B orta, C zayıf kanıt); tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>İlk haftalar</h3><dl><dt>JOSPT</dt><dd>Hareket ve boyun dengeleme egzersizlerinin öğretilmesi, lazer ve kısa süreli boyunluk düşünülebilir (C).</dd></dl></div>
+        <div class="kind"><h3>Uzun süren kol ağrısı</h3><dl><dt>JOSPT</dt><dd>Aralıklı mekanik traksiyon, germe ve güçlendirme egzersizleri ve boyun-sırt mobilizasyonu ya da manipülasyonu birlikte (B).</dd></dl></div>
+        <div class="kind"><h3>Eğitim ve aktif kalma</h3><dl><dt>JOSPT</dt><dd>Eğitim ve danışmanlık; işe ve fiziksel etkinliklere katılımın teşvik edilmesi (B).</dd></dl></div>
+        <div class="kind"><h3>Seyir</h3><dl><dt>AFP</dt><dd>Genel olarak iyi. 51 hastanın 2–19 yıl izlendiği klasik bir çalışmada %43'ünde birkaç ay sonra şikâyet kalmadı, %29'unda hafif ya da aralıklı, %27'sinde daha engelleyici ağrı sürdü; hiçbirinde omurilik basısı gelişmedi. Ameliyatsız tedavi edilenlerin yaklaşık üçte birinde şikâyetler sürebiliyor.</dd></dl></div>
+        <div class="kind"><h3>Cerrahiye ne zaman?</h3><dl><dt>AFP</dt><dd>6 haftalık ameliyatsız tedaviye yanıt vermeyen dayanılmaz kol ağrısı, 6 haftadan uzun süren güç kaybı, herhangi bir anda ilerleyen sinir kaybı, omurilik basısı belirtileri, omurgada dengesizlik ya da şekil bozukluğu.</dd></dl></div>
+      </div>
     </div>
   </section>
-
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -519,7 +540,6 @@ FITIK_BODY = f'''<header class="page">
       {ex_grid(["relief", "chin", "glide", "scap"], "ex four")}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -540,35 +560,44 @@ FITIK_BODY = f'''<header class="page">
       <p class="meta">Videolar Bob &amp; Brad kanalına aittir. Kanal hakkında: <a href="https://www.startribune.com/meet-the-minnesota-physical-therapists-who-have-become-youtube-superstars/508806552" target="_blank" rel="noopener">Star Tribune, 19 Nisan 2019</a>.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(BOYUN_FITIK_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu belirtiler omuriliğin ya da sinirlerin ciddi şekilde etkilendiğini gösterebilir. Beklemeden bir hekime başvurun:</p>
+      <p class="soft">Şu belirtiler omuriliğin ya da sinirlerin ciddi şekilde etkilendiğini ya da başka bir sorunu gösterebilir.</p>
+      <p class="soft"><strong>Hemen 112'yi arayın ya da acil servise gidin:</strong></p>
+      <ul class="dots redflags">
+        <li>Kol ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa (kalp kaynaklı olabilir)</li>
+        <li>İdrar ya da dışkı kontrolünde değişiklik</li>
+        <li>Kaza ya da düşme sonrası başlayan boyun ağrısıyla birlikte kollarda ya da bacaklarda uyuşma veya güçsüzlük</li>
+      </ul>
+      <p class="soft"><strong>Aynı gün ya da en kısa sürede bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Her iki kolda birden uyuşma ya da güçsüzlük</li>
         <li>Ellerde beceriksizlik: düğme iliklemede, yazı yazmada zorlanma, elden eşya düşürme</li>
         <li>Yürürken dengesizlik, bacaklarda güçsüzlük ya da uyuşma</li>
-        <li>İdrar ya da dışkı kontrolünde değişiklik (acil)</li>
         <li>Kolda hızla artan güç kaybı</li>
-        <li>Ateş, nedensiz kilo kaybı, kanser öyküsü ya da bir kaza sonrası başlayan ağrı</li>
-        <li>Kol ağrısına göğüs ağrısı, nefes darlığı ya da terleme eşlik ediyorsa (kalp kaynaklı olabilir, <strong>112</strong>)</li>
+        <li>Ateş, nedensiz kilo kaybı ya da kanser öyküsüyle birlikte boyun ve kol ağrısı</li>
+      </ul>
+      <p class="soft"><strong>Birkaç hafta içinde değerlendirme için:</strong></p>
+      <ul class="dots redflags">
+        <li>6 haftalık uygun tedaviye rağmen günlük yaşamı bozan kol ağrısı ya da 6 haftadan uzun süren güç kaybı</li>
       </ul>
       {CTA_CARD("Boyun fıtığı ve kola yayılan ağrınız", "boyun fıtığı")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
+        "Eubanks JD. " + ext("https://www.aafp.org/afp/2010/0101/p33.html", "Cervical radiculopathy: nonoperative management of neck pain and radicular symptoms") + ". Am Fam Physician. 2010;81(1):33-40.",
+        "Spurling RG, et al. Lateral rupture of the cervical intervertebral discs: a common cause of shoulder and arm pain. Surg Gynecol Obstet. 1944;78:350-358. Hakkında: " + ext("https://litfl.com/roy-glenwood-spurling/", "LITFL") + ".",
+        "Blanpied PR, et al. Neck pain: revision 2017 (tam metin): " + ext("https://www.orthopt.org/uploads/content_files/files/Neck_Pain_Revision_2017%282%29.pdf", "orthopt.org") + ".",
         "Australian Physiotherapy Association. " + ext("https://australian.physio/inmotion/cervical-radiculopathy", "Cervical radiculopathy") + ". InMotion.",
         SRC_BLANPIED,
         "Nakashima H, Yukawa Y, Suda K, Yamagata M, Ueta T, Kato F. Abnormal findings on magnetic resonance images of the cervical spines in 1211 asymptomatic subjects. Spine. 2015;40(6):392-398.",
@@ -582,7 +611,7 @@ FITIK_BODY = f'''<header class="page">
 </main>'''
 
 page("boyun-fitigi.html", "Boyun Fıtığı",
-     "Boyun fıtığı ve kola yayılan sinir sıkışması: belirtiler, hangi sinir nereye vurur, MR ne anlatır, ameliyatsız tedavi, evde egzersizler ve ne zaman ameliyat gerekir.",
+     "Boyun fıtığı ve kola yayılan sinir sıkışması: belirtiler, hangi sinir nereye vurur, muayene testleri ve MR ne anlatır, ameliyatsız tedavi, kılavuz karşılaştırması, kısa tarihçe, evde egzersizler ve ne zaman ameliyat gerekir.",
      "boyun-fitigi.html", NECK_CSS, FITIK_BODY, YT_JS,
      seo_title="Boyun Fıtığı: Belirtiler, Tedavi ve Egzersizler | İhsan Eren", condition="Boyun fıtığı (servikal disk hernisi)", about=cond("Boyun fıtığı (servikal disk hernisi)", "cervical-disc-herniation"),
      faq_items=pick(BOYUN_FITIK_FAQ, 0, 1, 2, 3))
