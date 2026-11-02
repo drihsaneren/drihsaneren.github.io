@@ -820,3 +820,5 @@ Ayrıntılar DENETIM.md'de. Önemli: cochrane.org/evidence/<CD> sayfalarında sa
 
 1 Kasım 2026 (2): genişletme partisi 5 — diz önü ağrısı, aşil tendinopatisi, boyun fıtığı; yayından önce bağımsız denetim, bulgular kaynağından doğrulandı (DENETIM.md). Ortak "Ne zaman hemen başvurmalı?" başlığı kademeli listelerle uyumsuz kalıyor — site geneli karar adayı. Çeviri tur44. Sonraki batch: tur45. Önerilen sıradaki parti: fibromiyalji, baş ağrısı, kalça yan ağrısı (ya da omuz çıkığı, on çapraz bağ).
 
+## 2 Kasım 2026 — günlük denetim (KOAH, büyüme ağrıları, bebeklerde tortikolis)
+Ayrıntılar DENETIM.md'de. Tortikolis "Başı çevirme" çizimi (cond60_part.py tor_rot) sol taraflı örneğe göre aynalandı. Çeviri tur45. Sonraki batch: tur46.

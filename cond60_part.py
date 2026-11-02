@@ -10,12 +10,12 @@ SV["tor_side"] = fig(_BABY +
     '<rect x="70" y="44" width="14" height="9" rx="4" fill="#C8963E"/>'
     '<path d="M36 22 A26 26 0 0 0 40 46" fill="none" stroke="#C8963E" stroke-width="2.5" stroke-dasharray="3 4" stroke-linecap="round"/>',
     "Yana eğme")
-# Döndürme: çene etkilenen omza doğru çevrilir (üstten)
+# Döndürme: çene etkilenen omza doğru çevrilir (üstten). Sol taraflı örnek: bebeğin sağ omzu (izleyenin solu) sabit, çene bebeğin soluna (izleyenin sağına) döner.
 SV["tor_rot"] = fig(_BABY +
     '<circle class="hd" cx="60" cy="32" r="12"/>'
-    f'<g>{anim_t("0 60 32;-55 60 32;0 60 32", dur="4s", typ="rotate")}<circle cx="60" cy="22" r="3.2" fill="#C8963E"/></g>'
-    '<rect x="70" y="44" width="14" height="9" rx="4" fill="#C8963E"/>'
-    '<path d="M44 16 A20 20 0 0 0 40 34" fill="none" stroke="#C8963E" stroke-width="2.5" stroke-dasharray="3 4" stroke-linecap="round"/>',
+    f'<g>{anim_t("0 60 32;55 60 32;0 60 32", dur="4s", typ="rotate")}<circle cx="60" cy="22" r="3.2" fill="#C8963E"/></g>'
+    '<rect x="36" y="44" width="14" height="9" rx="4" fill="#C8963E"/>'
+    '<path d="M76 16 A20 20 0 0 1 80 34" fill="none" stroke="#C8963E" stroke-width="2.5" stroke-dasharray="3 4" stroke-linecap="round"/>',
     "Başı çevirme")
 # Ön kolda yan yatırarak taşıma (yandan)
 SV["tor_carry"] = fig(
@@ -36,14 +36,14 @@ SV["tor_tummy"] = fig(GRD +
     "Karın üstü oyun")
 
 _ex2("tor_s", "tor_side", "Yana eğme germesi", "Bebeğinizi sırtüstü yatırın. Etkilenen taraftaki omzunu bir elinizle nazikçe sabitleyin, diğer elinizle başını kavrayın ve karşı taraftaki kulağını karşı omzuna doğru yavaşça yaklaştırın.", "10–15 saniye tutun, gün içinde birkaç kez")
-_ex2("tor_r", "tor_rot", "Başı çevirme germesi", "Bebeğiniz sırtüstüyken karşı taraftaki omzunu nazikçe sabitleyin ve başını yavaşça etkilenen tarafa, o omzun üzerinden bakacak şekilde çevirin.", "10–15 saniye tutun, gün içinde birkaç kez")
+_ex2("tor_r", "tor_rot", "Başı çevirme germesi", "Bebeğiniz sırtüstüyken karşı taraftaki omzunu nazikçe sabitleyin ve başını yavaşça etkilenen tarafa, çenesi etkilenen taraftaki omzunun üzerine gelecek şekilde çevirin.", "10–15 saniye tutun, gün içinde birkaç kez")
 _ex2("tor_c", "tor_carry", "Kolda yan yatırarak taşıma", "Bebeğinizi yüzü sizden uzağa bakacak şekilde, etkilenen taraftaki kulağı ön kolunuza gelecek biçimde yan yatırarak taşıyın. Ön kolunuz başını omzundan hafifçe uzaklaştırarak yana eğme germesi yapar; diğer kolunuzla gövdesini destekleyin.", "Gün içinde taşırken")
 _ex2("tor_t", "tor_tummy", "Karın üstü oyun", "Bebeğiniz uyanıkken ve siz yanındayken günde en az 3 kez karın üstünde zaman geçirmesini sağlayın. Oyuncakları ve yüzünüzü, başını çevirmekte zorlandığı tarafa koyun; dirsekleri omuzlarının altında olsun, göğsünün altına rulo yapılmış bir havlu koyabilirsiniz. Uyurken ise her zaman sırtüstü yatırın.", "Günde en az 3 kez, uyanıkken")
 
 TOR_FAQ = [
  ("Tortikolis bebeğimi acıtır mı?", "Çoğu bebek tortikolisten ağrı duymaz. Germeler sırasında bebeğiniz itiraz edebilir, ama canı yanmamalıdır; hareketleri yavaş ve nazik yapın."),
- ("Düzelir mi, ne kadar sürer?", "Tedaviyle çoğu bebek boynunu tam olarak hareket ettirebilir hâle gelir; kas büyüdükçe ve gerildikçe esner. Tedavi edilmezse boyun hareketlerinde kalıcı kısıtlılık kalabilir ve ileride ameliyat gerekebilir. Fizyoterapiyle 3 ay içinde düzelme olmazsa ortopedi değerlendirmesi istenebilir."),
- ("Fizyoterapi ne zaman biter?", "Amerikan Fizyoterapi Derneği’nin kılavuzuna göre, bebeğin boynu sağlam tarafla arasında 5 dereceden az fark kalacak kadar hareket ettiğinde, başında görünür bir eğiklik kalmadığında, yaşına uygun hareketleri yapabildiğinde ve iki yana eşit hareket ettiğinde, siz de egzersizleri ve neye dikkat edeceğinizi öğrendiğinizde tedavi sonlandırılabilir."),
+ ("Düzelir mi, ne kadar sürer?", "Tedaviyle çoğu bebek boynunu tam olarak hareket ettirebilir hâle gelir; kas büyüdükçe ve gerildikçe esner. Tedavi edilmezse boyun hareketlerinde kalıcı kısıtlılık kalabilir ve ileride ameliyat gerekebilir. Fizyoterapiyle 3 ay içinde ilerleme olmazsa ortopedi değerlendirmesi istenebilir."),
+ ("Fizyoterapi ne zaman biter?", "Amerikan Fizyoterapi Derneği’nin kılavuzuna göre, bebeğin boynu sağlam tarafla arasında en fazla 5 derece fark kalacak kadar hareket ettiğinde, başında görünür bir eğiklik kalmadığında, yaşına uygun hareketleri yapabildiğinde ve iki yana eşit hareket ettiğinde, siz de egzersizleri ve neye dikkat edeceğinizi öğrendiğinizde tedavi sonlandırılabilir."),
  ("Boynundaki şişlik nedir?", "Etkilenen kasta küçük bir şişlik olabilir. Genellikle ilk ayda en büyük hâline ulaşır, sonra yavaş yavaş küçülür. Geçmezse ultrason istenebilir."),
  ("Başının arkası düzleşti, bu tehlikeli mi?", "Tortikolis, bebeğin hep aynı tarafa yatmasına ve başın o tarafta düzleşmesine (plajiyosefali) yol açabilir. Bu yalnızca görünümle ilgilidir, başka belirtisi yoktur ve beyni etkilemez. Fizyoterapistiniz gerekirse ayrıca önerilerde bulunur."),
  ("Nasıl beslemeliyim?", "Biberonla besliyorsanız bebeğinizi, başını zorlandığı tarafa çevirmesini gerektirecek kolunuzda tutun. Emziriyorsanız iki taraftan da emzirmeyi sürdürün ve bu tarafa dönmesini teşvik eden farklı tutuşlar deneyin."),
@@ -52,8 +52,8 @@ TOR_FAQ = [
 TOR_SRC = [
  "Royal Berkshire NHS Foundation Trust, Paediatric Physiotherapy. " + ext("https://royalberkshire.nhs.uk/media/4r0hxeui/congenital-muscular-torticollis-affecting-the-left_jun25.pdf", "Congenital muscular torticollis affecting the left") + ". June 2025.",
  "NHS Lothian, Royal Hospital for Children and Young People. " + ext("https://apps.nhslothian.scot/files/sites/2/Congenital-Torticollis-left-RHCYP-V4.0.pdf", "Congenital torticollis (left side)") + ". Version 4.0, September 2023.",
- "Kaplan SL, Coulter C, Sargent B. " + ext("https://www.apta.org/patient-care/evidence-based-practice-resources/cpgs/physical-therapy-management-of-congenital-muscular-torticollis-a-2018-evidence-based-clinical-practice-guideline-from-the-apta-academy-of-pediatric-physical-therapy-cpg", "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2018;30(4):240–290.",
- "Sargent B, Coulter C, Cannoy J, Kaplan SL. " + ext("https://doi.org/10.1097/pep.0000000000001114", "Physical therapy management of congenital muscular torticollis: a 2024 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2024;36(4):370–421",
+ "Kaplan SL, Coulter C, Sargent B. " + ext("https://doi.org/10.1097/PEP.0000000000000544", "Physical therapy management of congenital muscular torticollis: a 2018 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2018;30(4):240–290.",
+ "Sargent B, Coulter C, Cannoy J, Kaplan SL. " + ext("https://doi.org/10.1097/pep.0000000000001114", "Physical therapy management of congenital muscular torticollis: a 2024 evidence-based clinical practice guideline from the APTA Academy of Pediatric Physical Therapy") + ". Pediatr Phys Ther. 2024;36(4):370–421.",
  "NHS. " + ext("https://www.nhs.uk/baby/caring-for-a-newborn/reduce-the-risk-of-sudden-infant-death-syndrome/", "Reduce the risk of sudden infant death syndrome (SIDS)") + ". Page last reviewed: 25 November 2025.",
 ]
 
@@ -63,7 +63,7 @@ TOR_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bebeklerde tortikolis</h1>
     <p class="lede">Bebeğinizin başı hep bir yana eğik, yüzü hep diğer tarafa mı dönük? Bu, boynun yan tarafındaki bir kasın (sternokleidomastoid) kısa ya da gergin olmasından kaynaklanan doğumsal kas tortikolisi olabilir. Doğumda ya da ilk üç ay içinde ortaya çıkar ve oldukça sık görülür. İyi haber: düzenli germeler, doğru taşıma ve oyunla çoğu bebek boynunu tam olarak hareket ettirebilir hâle gelir.</p>
-    <p class="meta">Son güncelleme: 19 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 2 Kasım 2026</p>
   </div>
 </header>
 
@@ -74,7 +74,7 @@ TOR_BODY = f'''<header class="page">
         <div class="stat"><b>0–3 ay</b><span>Tortikolisin ortaya çıktığı dönem</span></div>
         <div class="stat"><b>10–15 saniye</b><span>Her germenin tutulduğu süre</span></div>
         <div class="stat"><b>Günde 3+</b><span>Uyanıkken, gözetim altında karın üstü oyun; uykuda her zaman sırtüstü</span></div>
-        <div class="stat"><b>3 ay</b><span>Düzelme olmazsa ortopedi değerlendirmesi düşünülür</span></div>
+        <div class="stat"><b>3 ay</b><span>İlerleme olmazsa ortopedi değerlendirmesi düşünülür</span></div>
       </div>
     </div>
   </section>
@@ -99,7 +99,7 @@ TOR_BODY = f'''<header class="page">
           <li>Bebeğin dikkatinin hep aynı tarafa çekilmesi, örneğin arabasında hep aynı yerde duran sevdiği bir oyuncak.</li>
           <li>Bazen nedeni bilinmez.</li>
         </ul>
-        <p class="soft">Bebeklerde baş eğikliğinin başka nedenleri de olabileceği için önce bir hekimin ve çocuk fizyoterapistinin değerlendirmesi gerekir. Amerikan Fizyoterapi Derneği'nin kılavuzu, baş eğikliği ya da tek tarafa bakma fark edilir edilmez bebeğin, bebeklerle çalışan bir fizyoterapiste yönlendirilmesini öneriyor.</p>
+        <p class="soft">Bebeklerde baş eğikliğinin başka nedenleri de olabileceği için önce bir hekimin ve çocuk fizyoterapistinin değerlendirmesi gerekir. Amerikan Fizyoterapi Derneği'nin kılavuzu, baş eğikliği ya da tek tarafa bakma fark edilir edilmez bebeğin hekimine ve bebeklerle çalışan bir fizyoterapiste yönlendirilmesini öneriyor.</p>
       </div>
     </div>
   </section>
