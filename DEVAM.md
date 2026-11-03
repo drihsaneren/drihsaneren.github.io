@@ -825,3 +825,4 @@ Ayrıntılar DENETIM.md'de. Tortikolis "Başı çevirme" çizimi (cond60_part.py
 
 ## 3 Kasım 2026 — günlük denetim (Sever hastalığı, Osgood-Schlatter, eklem hipermobilitesi)
 Ayrıntılar DENETIM.md'de. Önemli: Ehlers-Danlos Society yeni hEDS/HSD tanı çerçevesini 1 Aralık 2026'da yayımlayacak; eklem hipermobilitesi sayfası o tarihten sonra yeniden denetlenmeli. Çeviri tur46. Sonraki batch: tur47.
+Aynı gün kullanıcı onayıyla: Sever'e çocuğa özgü uyarı işaretleri, hipermobiliteye yeni ölçüt notu (tur47). Sonraki batch: tur48.

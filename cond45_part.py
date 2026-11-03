@@ -21,6 +21,9 @@ SV_SRC = [
  "James AM, Williams CM, Haines TP. " + ext("https://doi.org/10.1186/1757-1146-6-16", "Effectiveness of interventions in reducing pain and maintaining physical activity in children and adolescents with calcaneal apophysitis (Sever’s disease): a systematic review") + ". J Foot Ankle Res. 2013;6:16",
  "Wiegerinck JI, Zwiers R, Sierevelt IN, van Weert HC, van Dijk CN, Struijs PA. " + ext("https://search.pedro.org.au/search-results/record-detail/42748", "Treatment of calcaneal apophysitis: wait and see versus orthotic device versus physical therapy: a pragmatic therapeutic randomized clinical trial") + ". J Pediatr Orthop. 2016;36(2):152–157.",
  "NHS. " + ext("https://www.nhs.uk/conditions/heel-pain/", "Heel pain") + ". Page last reviewed: 24 October 2025.",
+ "KidsHealth (Paediatric Society of New Zealand). " + ext("https://kidshealth.org.nz/foot-conditions/severs-disease", "Sever’s disease") + ". Last reviewed 19 September 2024.",
+ "Children’s Health Ireland. " + ext("https://www.childrenshealthireland.ie/list-of-services/orthopaedics/heel-pain-in-children-severs-disease/", "Heel pain in children (Sever’s disease)") + ".",
+ "Kumar S, Jain N, Karpe P, Limaye R. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC7026536", "Osteomyelitis complicating Sever’s disease: a report of two cases") + ". J Clin Orthop Trauma. 2020;11(2):310–313.",
 ]
 
 SV_BODY = f'''<header class="page">
@@ -105,6 +108,10 @@ SV_BODY = f'''<header class="page">
         <li>Ayak ya da ayak bileğinde şekil bozukluğu, baldırda ve bilekte şişlik ve morluk varsa</li>
         <li>Ayakta uyuşma ya da karıncalanma varsa</li>
         <li>Ağrı çok şiddetliyse, günlük hayatı engelliyorsa ya da evde bakıma rağmen düzelmiyorsa</li>
+        <li>Ağrıyla birlikte ateş, halsizlik, iştahsızlık ya da kilo kaybı varsa (vakit kaybetmeden)</li>
+        <li>Topuk ve ayak çevresinde belirgin şişlik, kızarıklık ya da sıcaklık varsa (vakit kaybetmeden)</li>
+        <li>Ağrı sürekliyse ya da giderek artıyorsa; geceleri ya da dinlenirken de geçmiyorsa</li>
+        <li>Ağrı tek topukta ve etkinlik azaltılmasına rağmen birkaç gün içinde hızla artıyorsa: Sever ağrısı genellikle dinlenince azalır; kemik iltihabı (osteomiyelit) gibi başka nedenlerin dışlanması gerekir</li>
       </ul>
       {CTA_CARD("Çocuğunuzun topuk ağrısı", "çocuğumun topuk ağrısı (Sever hastalığı)")}
     </div>
