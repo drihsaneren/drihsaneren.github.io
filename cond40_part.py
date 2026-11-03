@@ -10,15 +10,15 @@ _ex2("jh_scap", "scap", "Kürek kemiği sıkıştırma", "Dik durun ya da oturun
 _ex2("jh_walk", "walk", "Düşük darbeli hareket", "Yürüyüş, yüzme ve bisiklet gibi eklemleri az zorlayan aktivitelerle başlayın. Süreyi yavaş yavaş artırın ve gün içine düzenli molalar koyun; iyi bir günde aşırıya kaçıp ertesi gün çökmemeye çalışın.", "10 dakikayla başlayın, her hafta birkaç dakika artırın")
 
 JH_FAQ = [
- ("Esnek olmak hastalık mı?", "Hayır. Eklemleri esnek olan birçok kişinin hiçbir şikâyeti yoktur. Ancak bazı kişilerde esneklik ağrı, sık burkulma ya da çıkıklar ve yorgunlukla birlikte görülür; bu durumda eklem hipermobilite sendromu ya da hipermobilite spektrum bozukluğu adı kullanılır."),
- ("Beighton puanı nedir?", "Hekimlerin eklem hareketliliğini değerlendirmek için kullandığı 9 puanlık basit bir muayenedir: serçe parmağın geriye 90 dereceden fazla bükülmesi, başparmağın ön kola değmesi, dirseğin ve dizin 10 dereceden fazla geriye açılması (her biri sağ ve sol için birer puan) ve dizler düzken avuçların yere düz basması (bir puan). 2017 uluslararası ölçütlerine göre yaygın eklem hipermobilitesi için eşik, çocuk ve ergenlerde 6, 50 yaşına kadar yetişkinlerde 5, 50 yaş üstünde 4 puandır. Bu bir kendi kendine tanı testi değildir; tanıyı bir hekim koyar."),
+ ("Esnek olmak hastalık mı?", "Hayır. Eklemleri esnek olan birçok kişinin hiçbir şikâyeti yoktur. Ancak bazı kişilerde esneklik ağrı, sık burkulma ya da çıkıklar ve yorgunlukla birlikte görülür; bu durumda bugün hipermobilite spektrum bozukluğu, belirli ölçütler karşılanıyorsa hipermobil Ehlers-Danlos sendromu (hEDS) adı kullanılır (eski adı: eklem hipermobilite sendromu)."),
+ ("Beighton puanı nedir?", "Hekimlerin eklem hareketliliğini değerlendirmek için kullandığı 9 puanlık basit bir muayenedir: serçe parmağın geriye 90 dereceden fazla bükülmesi, başparmağın ön kola değmesi, dirseğin ve dizin 10 dereceden fazla geriye açılması (her biri sağ ve sol için birer puan) ve dizler düzken avuçların yere düz basması (bir puan). 2017 uluslararası ölçütlerine göre yaygın eklem hipermobilitesi için eşik, ergenlik öncesi çocuklarda ve ergenlerde 6, 50 yaşına kadar yetişkinlerde 5, 50 yaş üstünde 4 puandır. Bu bir kendi kendine tanı testi değildir; tanıyı bir hekim koyar."),
  ("Esneme egzersizleri yapmalı mıyım?", "Eklemleriniz zaten fazla açılıyorsa, onları sona kadar zorlayan esnemeler genellikle önerilmez. Amaç esnekliği artırmak değil, eklemleri çevresindeki kaslarla güçlendirip korumaktır. Aynı hareketi uzun süre tekrarlamaktan da kaçınmanız önerilir."),
- ("Egzersizin yararı kanıtlanmış mı?", "Kanıtlar sınırlı ama umut verici. Az sayıdaki çalışmada güç, denge ve dayanıklılık egzersizleri ağrıyı azalttı ve gücü artırdı; ancak hangi egzersiz türünün en iyi olduğu henüz bilinmiyor. Bu yüzden program kişiye göre, kademeli artırılarak hazırlanır. Omuz yakınmaları olan hipermobil yetişkinlerle yapılmış 4 çalışmayı inceleyen 2024 tarihli bir derlemede egzersiz programları ağrı, omuz dengesizliği, günlük işler ve kas gücünde olumlu değişiklikler gösterdi; ancak en etkili egzersiz türü ve dozu konusunda bilgi hâlâ eksik."),
+ ("Egzersizin yararı kanıtlanmış mı?", "Kanıtlar sınırlı ama umut verici. Az sayıdaki çalışmada egzersiz programlarından sonra ağrıda azalma ve güçte artış görüldü; ancak egzersizin kontrol grubundan üstün olduğu ya da hangi egzersiz türünün en iyi olduğu henüz kanıtlanmadı. Bu yüzden program kişiye göre, kademeli artırılarak hazırlanır. Omuz yakınmaları olan hipermobil yetişkinlerle yapılmış 4 çalışmayı (egzersiz programları, bantlama ve kompresyon ortezleri) inceleyen 2024 tarihli bir derlemede zaman içinde ağrı, omuz dengesizliği, günlük işler ve kas gücünde olumlu değişiklikler görüldü; ancak en etkili egzersiz türü ve dozu konusunda bilgi hâlâ eksik."),
 ]
 
 JH_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/joint-hypermobility/", "Joint hypermobility syndrome") + ". Page last reviewed 30 August 2023.",
- "Engelbert RHH, Juul-Kristensen B, Pacey V, et al. " + ext("https://discovery-pp.ucl.ac.uk/id/eprint/1556240/1/Engelbert_Evidence-Based_Rationale.pdf", "The evidence-based rationale for physical therapy treatment of children, adolescents and adults diagnosed with joint hypermobility syndrome/hypermobile Ehlers Danlos syndrome") + ". American Journal of Medical Genetics Part C. 2017.",
+ "Engelbert RHH, Juul-Kristensen B, Pacey V, et al. " + ext("https://www.ehlers-danlos.com/wp-content/uploads/2022/03/Engelbert_et_al-2017-American_Journal_of_Medical_Genetics_Part_C-_Seminars_in_Medical_Genetics.pdf", "The evidence-based rationale for physical therapy treatment of children, adolescents and adults diagnosed with joint hypermobility syndrome/hypermobile Ehlers Danlos syndrome") + ". Am J Med Genet C Semin Med Genet. 2017;175C:158–167.",
  "Castori M, Tinkle B, Levy H, Grahame R, Malfait F, Hakim A. " + ext("https://www.ehlers-danlos.com/2017-eds-classification-non-experts/framework-classification-joint-hypermobility-related-conditions/", "A framework for the classification of joint hypermobility and related conditions") + ". Am J Med Genet C Semin Med Genet. 2017;175(1):148–157.",
  "Malfait F, Francomano C, Byers P, et al. " + ext("https://www.ehlers-danlos.com/wp-content/uploads/2017/03/2017-EDS-Classification_March_2017.pdf", "The 2017 international classification of the Ehlers–Danlos syndromes") + ". Am J Med Genet C Semin Med Genet. 2017;175(1):8–26",
  "Higo A, Palmer S, Liaghat B, Tallis J, Silvester L, Pearce G. " + ext("https://doaj.org/article/2ffea81c31d4445094184b2a4327f497", "The effectiveness of conservative interventions on pain, function, and quality of life in adults with hypermobile Ehlers-Danlos syndrome/hypermobility spectrum disorders and shoulder symptoms: a systematic review") + ". Arch Rehabil Res Clin Transl. 2024;6(3):100360.",
@@ -30,7 +30,7 @@ JH_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Eklem hipermobilitesi (eklem gevşekliği)</h1>
     <p class="lede">Çocukluğunuzdan beri “lastik gibi” esnek misiniz, ama eklemleriniz sık ağrıyor, ayak bileğiniz kolay burkuluyor, çabuk yoruluyor musunuz? Eklem hipermobilitesinde eklemleri destekleyen bağlar daha gevşektir. Birçok kişide hiçbir sorun yapmaz; şikâyet olduğunda ise en etkili yol, eklemleri çevresindeki kaslarla güçlendirmek ve günlük yükü dengeli dağıtmaktır.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 3 Kasım 2026</p>
   </div>
 </header>
 
@@ -38,9 +38,9 @@ JH_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>9 puan</b><span>Eklem esnekliğini değerlendiren Beighton muayenesinin toplam puanı</span></div>
-        <div class="stat"><b>5 ve üzeri</b><span>50 yaşına kadar yetişkinlerde uluslararası eşik puan (50 yaş üstünde 4, çocuklarda 6)</span></div>
-        <div class="stat"><b>%30–55</b><span>Fizyoterapiye kas-iskelet şikâyetiyle başvuran yetişkinlerde bildirilen oran</span></div>
+        <div class="stat"><b>9 puan</b><span>Eklem hareketliliğini değerlendiren Beighton muayenesinin toplam puanı</span></div>
+        <div class="stat"><b>5 ve üzeri</b><span>50 yaşına kadar yetişkinlerde uluslararası eşik puan (50 yaş üstünde 4, ergenlik öncesi çocuklarda ve ergenlerde 6)</span></div>
+        <div class="stat"><b>%30–55</b><span>Ayakta fizyoterapiye kas-iskelet şikâyetiyle başvuran yetişkinlerde eklem hipermobilite sendromu/hEDS için bildirilen sıklık</span></div>
         <div class="stat"><b>Güç ve denge</b><span>Tedavinin temeli: eklemleri kaslarla desteklemek</span></div>
       </div>
     </div>

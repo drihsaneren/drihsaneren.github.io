@@ -822,3 +822,6 @@ Ayrıntılar DENETIM.md'de. Önemli: cochrane.org/evidence/<CD> sayfalarında sa
 
 ## 2 Kasım 2026 — günlük denetim (KOAH, büyüme ağrıları, bebeklerde tortikolis)
 Ayrıntılar DENETIM.md'de. Tortikolis "Başı çevirme" çizimi (cond60_part.py tor_rot) sol taraflı örneğe göre aynalandı. Çeviri tur45. Sonraki batch: tur46.
+
+## 3 Kasım 2026 — günlük denetim (Sever hastalığı, Osgood-Schlatter, eklem hipermobilitesi)
+Ayrıntılar DENETIM.md'de. Önemli: Ehlers-Danlos Society yeni hEDS/HSD tanı çerçevesini 1 Aralık 2026'da yayımlayacak; eklem hipermobilitesi sayfası o tarihten sonra yeniden denetlenmeli. Çeviri tur46. Sonraki batch: tur47.

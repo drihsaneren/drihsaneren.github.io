@@ -18,10 +18,10 @@ _ex2("os_abd", "abd", "Yan yatarak bacak kaldırma", "Yan yatın, alttaki dizini
 _ex2("os_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak kaldırın; omuzlarınızdan dizlerinize kadar düz bir çizgi oluşsun. 3–5 saniye bekleyip yavaşça inin.", "10–15 tekrar, 2–3 set")
 
 OS_FAQ = [
- ("Çocuğum spor yapmayı bırakmalı mı?", "Genellikle tamamen bırakması gerekmez. Spor kalıcı bir hasar yapmaz, ama ağrıyı artırabilir. Ağrı kontrol altına girene kadar özellikle koşu ve sıçrama gibi zorlayıcı aktivitelerin süresini, sıklığını ve toplam miktarını azaltmak önerilir. Ağrı çok şiddetliyse bir süre tam ara gerekebilir."),
- ("Ne kadar sürer?", "Ağrı çoğu zaman birkaç ayda azalır, ama bazı belirtiler 12–24 ay sürebilir. Kemik büyümesi tamamlanınca geçer. Yeni bir büyüme atağında ya da yoğun sporla yeniden alevlenebilir. Ancak her zaman kısa sürmeyebilir: Danimarka’da tanıdan ortalama 3,75 yıl sonra ulaşılabilen 43 gencin %60’ında diz ağrısı sürüyordu ve ağrısı olanların yaşam kalitesi daha düşüktü; ankete yanıt oranının düşük olması sonucu etkilemiş olabilir."),
+ ("Çocuğum spor yapmayı bırakmalı mı?", "Genellikle tamamen bırakması gerekmez. Sporun kalıcı bir hasar yapması beklenmez, ama ağrıyı artırabilir. Ağrı kontrol altına girene kadar özellikle koşu ve sıçrama gibi zorlayıcı aktivitelerin süresini, sıklığını ve toplam miktarını azaltmak önerilir. Ağrı çok şiddetliyse bir süre tam ara gerekebilir."),
+ ("Ne kadar sürer?", "Ağrı çoğu zaman birkaç ayda azalır, ama bazı belirtiler 12–24 ay sürebilir. Çoğu zaman kemik büyümesi tamamlanınca geçer. Yeni bir büyüme atağında ya da yoğun sporla yeniden alevlenebilir. Ancak her zaman kısa sürmeyebilir: Danimarka’da tanıdan ortanca 3,75 yıl (2–6 yıl) sonra ankete yanıt veren 43 kişinin (o sırada 14–55 yaşında) %60’ında diz ağrısı sürüyordu ve ağrısı olanların yaşam kalitesi daha düşüktü; ankete yanıt oranının düşük olması sonucu etkilemiş olabilir."),
  ("Dizin altındaki sert şişlik nedir?", "Ön uyluk kası, diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çeker; bu bölge zorlanıp iltihaplanır. İyileşme sırasında burada sert bir kemik çıkıntısı oluşabilir. Çıkıntı dokununca ya da diz çökerken hassas olabilir."),
- ("Dinlenmek mi, egzersiz mi?", "10–14 yaş arası 51 gençle yapılan bir çalışmada, ağrıya göre ayarlanan bir aktivite merdiveni, diz güçlendirme ve kademeli spora dönüşten oluşan 12 haftalık programdan sonra gençlerin %80’i iyileşme bildirdi; 12 ayda %69’u spora döndü. Kontrol grubu olmayan bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı, ama yalnızca dinlenip beklemeye bir alternatif sunuyor."),
+ ("Dinlenmek mi, egzersiz mi?", "10–14 yaş arası 51 gençle yapılan bir çalışmada, ağrıya göre ayarlanan bir aktivite merdiveni, diz güçlendirme ve kademeli spora dönüşten oluşan 12 haftalık programdan sonra gençlerin %80’i iyileşme bildirdi; 12 ayda %69’u spora döndü. Kontrol grubu olmayan bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı, ama yalnızca dinlenip beklemeye bir alternatif olabilir."),
 ]
 
 OS_SRC = [
@@ -37,8 +37,8 @@ OS_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Osgood-Schlatter (büyüme çağında diz altı ağrısı)</h1>
-    <p class="lede">Çocuğunuz futbol, basketbol ya da koşudan sonra dizinin hemen altındaki çıkıntının ağrıdığını mı söylüyor? Osgood-Schlatter, büyüme atağındaki aktif çocuk ve gençlerde, ön uyluk kasının diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çekmesiyle ortaya çıkar. Endişe verici görünse de zararsızdır ve büyüme tamamlanınca geçer. Doğru ayarlanmış aktivite ve egzersizle çocuğunuz sporunu bırakmadan bu dönemi atlatabilir.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="lede">Çocuğunuz futbol, basketbol ya da koşudan sonra dizinin hemen altındaki çıkıntının ağrıdığını mı söylüyor? Osgood-Schlatter, büyüme atağındaki aktif çocuk ve gençlerde, ön uyluk kasının diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çekmesiyle ortaya çıkar. Endişe verici görünse de çoğu çocukta büyüme tamamlanınca geçer; ancak bir kısmında diz ağrısı yıllarca sürebilir. Doğru ayarlanmış aktivite ve egzersizle çoğu çocuk sporunu tamamen bırakmadan, gerekirse bir süre azaltarak bu dönemi atlatabilir.</p>
+    <p class="meta">Son güncelleme: 3 Kasım 2026</p>
   </div>
 </header>
 
@@ -48,7 +48,7 @@ OS_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>10–16 yaş</b><span>En sık görüldüğü dönem; büyüme atağıyla birlikte, erkek çocuklarda daha sık</span></div>
         <div class="stat"><b>12–24 ay</b><span>Bazı belirtilerin sürebileceği zaman; büyüme bitince geçer</span></div>
-        <div class="stat"><b>%80</b><span>12 haftalık aktivite ayarı ve güçlendirme programından sonra iyileşme bildiren gençler</span></div>
+        <div class="stat"><b>%80</b><span>12 haftalık aktivite ayarı ve güçlendirme programından sonra iyileşme bildiren gençler (51 kişi, kontrol grubu olmayan çalışma)</span></div>
         <div class="stat"><b>10 dakika</b><span>Aktiviteden sonra, beze sarılı buzun önerilen uygulama süresi</span></div>
       </div>
     </div>

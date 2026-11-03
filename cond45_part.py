@@ -9,8 +9,8 @@ _ex2("sv_ankle", "apump", "Ayak bileği hareketi", "Oturun ya da uzanın. Ayağ�
 SV_FAQ = [
  ("Çocuğum sporu bırakmalı mı?", "Tamamen bırakması gerekmez. Ağrı şiddetliyse koşma ve zıplama içeren sporlara, ağrı yatışana kadar ara verebilir; bu sürede yüzme ve bisiklet gibi daha az yüklenen etkinlikler iyi bir seçenektir. Ağrı geçince etkinliğini kademeli olarak artırabilir."),
  ("Ne kadar sürer?", "Topuk ağrısı genellikle büyüme tamamlanınca geçer. Büyüme dönemlerinde birkaç kez tekrarlayabilir. Önerilere rağmen 6 hafta içinde düzelme yoksa bir uzmana görünebilirsiniz."),
- ("Topukluk ya da tabanlık işe yarar mı?", "Küçük çalışmalarda jel topukluk ve şok emici tabanlıkların kısa vadede ağrıyı azalttığı görüldü. 124 çocuğun katıldığı bir araştırmada tüm gruplar 2 ayda belirgin şekilde iyileşti; topukluğun sağladığı ek fark küçüktü, ayakkabı değişikliği ise ek bir fark yaratmadı."),
- ("Fizyoterapi gerekli mi?", "101 çocuğun katıldığı bir araştırmada bekleyip izlemek, şok emici topukluk ve baldır güçlendirmeli fizyoterapi arasında 3 ayda fark bulunmadı. 6. haftada şok emici topukluk kullanan çocuklar en memnun gruptu; üç grupta da topuk ağrısı belirgin şekilde azaldı. Yani çoğu çocuk basit önlemlerle iyileşir. Ağrı geçmiyor ya da sık tekrarlıyorsa kişiye özel bir değerlendirme yol gösterici olabilir."),
+ ("Topukluk ya da tabanlık işe yarar mı?", "Küçük çalışmalarda jel topukluk ve şok emici tabanlıkların kısa vadede ağrıyı azaltabileceği görüldü; kanıt sınırlıdır. 124 çocuğun katıldığı bir araştırmada tüm gruplar 2 ayda belirgin şekilde iyileşti; şok emici topukluk, hazır tabanlığa göre küçük ve klinik önemi olmayan bir ek fark sağladı, ayakkabı değişikliği ise fark yaratmadı. Bu araştırmada tedavisiz bir karşılaştırma grubu yoktu."),
+ ("Fizyoterapi gerekli mi?", "101 çocuğun katıldığı bir araştırmada bekleyip izlemek (ağrıtan etkinliklere ara vererek), topuk yükseltici topukluk ve fizyoterapist eşliğinde eksantrik baldır egzersizleri arasında 3. ayda anlamlı fark bulunmadı. 6. haftada topukluk kullanan çocuklar en memnun gruptu; üç grupta da topuk ağrısı belirgin şekilde azaldı. Yani çoğu çocuk basit önlemlerle iyileşir. Ağrı geçmiyor ya da sık tekrarlıyorsa kişiye özel bir değerlendirme yol gösterici olabilir."),
  ("Neden bazen iki topuk birden ağrıyor?", "Durum büyümeyle ilgili olduğu için tek ya da iki topukta birden görülebilir."),
 ]
 
@@ -29,7 +29,7 @@ SV_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Çocuklarda topuk ağrısı (Sever hastalığı)</h1>
     <p class="lede">Çocuğunuz koşup zıpladıktan sonra topuğunun ağrıdığını mı söylüyor, aksıyor ya da parmak uçlarında mı yürüyor? Büyüme döneminde topuk kemiğinin büyüme bölgesinin tahriş olmasına Sever hastalığı denir. Adı ürkütücü olsa da büyümeyle ilgili, sık görülen ve geçici bir durumdur; büyüme tamamlanınca topuk ağrısı geçer.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 3 Kasım 2026</p>
   </div>
 </header>
 
@@ -39,7 +39,7 @@ SV_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>8–10 yaş</b><span>Kızlarda en sık görüldüğü dönem</span></div>
         <div class="stat"><b>10–14 yaş</b><span>Erkeklerde en sık görüldüğü dönem</span></div>
-        <div class="stat"><b>3 ay</b><span>Bekleyip izleme, topukluk ve fizyoterapinin bu sürede aynı sonucu verdiği araştırma bulgusu</span></div>
+        <div class="stat"><b>3 ay</b><span>Bir araştırmada bekleyip izleme, topukluk ve fizyoterapi arasında anlamlı fark bulunmayan izlem süresi</span></div>
         <div class="stat"><b>6 hafta</b><span>Önerilere rağmen düzelme yoksa bir uzmana görünme süresi</span></div>
       </div>
     </div>
