@@ -201,7 +201,7 @@ page("de-quervain.html", "De Quervain: Başparmak Tarafında Bilek Ağrısı",
 # ============================================================== DİYABETİK NÖROPATİ
 DN_FAQ = [
  ("Diyabetik nöropati geçer mi?", "Sinirde oluşan hasar geri döndürülemez; ilaçlar ağrıyı azaltır ama siniri onarmaz. Buna karşılık kan şekerini, tansiyonu ve kolesterolü hedef değerlere yakın tutmak hasarın ilerlemesini önlemeye yardım eder. Bu yüzden erken fark etmek ve ayakları korumak önemlidir."),
- ("Ayaklarım uyuşukken egzersiz yapmak güvenli mi?", "Evet, birkaç önlemle. Sekiz çalışmayı (457 kişi) inceleyen derlemede denge ve kuvvet egzersizleri dengeyi ve düşme korkusunu bir miktar iyileştirdi. Ayağınıza iyi oturan ayakkabı giyin, egzersizden sonra ayaklarınızı kontrol edin ve tutunabileceğiniz bir yerin yanında çalışın. Ayağınızda açık yara varsa önce hekiminize danışın. Uluslararası Diyabetik Ayak Çalışma Grubu'nun (IWGDF) 2023 kılavuzu da ayak yarası riski düşük ya da orta olanlara tercihen gözetim altında bir ayak-ayak bileği egzersiz programı önerilmesini ve günlük adım sayısını toplamda 1.000 adım artırmanın yara riski açısından büyük olasılıkla güvenli olduğunun anlatılmasını öneriyor."),
+ ("Ayaklarım uyuşukken egzersiz yapmak güvenli mi?", "Evet, birkaç önlemle. Sekiz çalışmayı (457 kişi) inceleyen derlemede denge ve kuvvet egzersizleri dengeyi ve düşme korkusunu bir miktar iyileştirdi. Ayağınıza iyi oturan ayakkabı giyin, egzersizden sonra ayaklarınızı kontrol edin ve tutunabileceğiniz bir yerin yanında çalışın. Ayağınızda açık yara varsa önce hekiminize danışın. Uluslararası Diyabetik Ayak Çalışma Grubu'nun (IWGDF) 2023 kılavuzu da ayak yarası riski düşük ya da orta olanlar için 8–12 haftalık, tercihen gözetim altında bir ayak-ayak bileği egzersiz programının düşünülebileceğini ve günlük adım sayısını 1.000 adım artırmanın yara riski açısından büyük olasılıkla güvenli olduğunu belirtiyor; bunlar düşük kesinlikte kanıta dayanan koşullu önerilerdir."),
  ("Yanan ayaklarım için sıcak su torbası kullanabilir miyim?", "Hayır. Sıcağı ve ağrıyı hissetme azaldığı için cildiniz fark etmeden yanabilir. Ayaklarınızı sıcak su torbasından, ısıtıcıdan ve açık ateşten uzak tutun; banyo suyunu dirseğinizle ya da termometreyle kontrol edin. Ayaklarınız üşüyorsa yatakta çorap giyin. Ayaklarınızı her gün kesik, morluk, şişlik, yara, renk değişikliği ve nasır açısından kontrol edin; zorlanıyorsanız birinden yardım isteyin. Evde de dışarıda da çıplak ayakla yürümeyin, ayakkabınızı giymeden önce içini kontrol edin."),
  ("Uyuşmanın nedeni B12 eksikliği olabilir mi?", "Olabilir; bu yüzden hekimler nöropatiyi araştırırken tiroid ve böbrek sorunlarıyla birlikte B12 düzeyine de bakar. Metformin B12 düşüklüğünün nedenleri arasındadır; böyle bir durumda ilaç B12 takviyesiyle sürdürülebilir. Kararı hekiminiz verir; ilacınızı kendiniz kesmeyin."),
 ]
@@ -220,8 +220,8 @@ DN_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diyabetik nöropati: ayaklarda uyuşma ve yanma</h1>
-    <p class="lede">Diyabetik nöropati, uzun süre yüksek seyreden kan şekerinin sinirlere zarar vermesidir; en çok ayaklarda yanma, karıncalanma ve uyuşma yapar. Diyabeti olanların yarıya yakınında görülür. Hasar geri döndürülemese de ilerlemesi yavaşlatılabilir. Her gün yapılan ayak kontrolü yaraları erken yakalamaya, denge ve kuvvet egzersizleri de daha güvenli yürümeye yardım eder.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="lede">Diyabetik nöropati, uzun süre yüksek seyreden kan şekerinin sinirlere zarar vermesidir; en çok ayaklarda yanma, karıncalanma ve uyuşma yapar. Diyabeti olanların yarısına kadarında görülür. Hasar geri döndürülemese de ilerlemesi yavaşlatılabilir. Her gün yapılan ayak kontrolü yaraları erken yakalamaya, denge ve kuvvet egzersizleri de daha güvenli yürümeye yardım eder.</p>
+    <p class="meta">Son güncelleme: 4 Kasım 2026</p>
   </div>
 </header>
 
@@ -229,10 +229,10 @@ DN_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>2'de 1</b><span>Diyabeti olanların yarıya kadarında sinir hasarı görülüyor (NIDDK)</span></div>
+        <div class="stat"><b>Yarıya kadar</b><span>Diyabeti olanlarda ayak ve bacak sinirlerinde hasar görülme oranı (NIDDK)</span></div>
         <div class="stat"><b>Her akşam</b><span>Ayakların, parmak araları dahil, kontrol edilmesi önerilen sıklık</span></div>
         <div class="stat"><b>Yılda 1</b><span>En az bu sıklıkla ayrıntılı ayak ve bacak muayenesi</span></div>
-        <div class="stat"><b>457 kişi</b><span>Egzersizin dengeyi ve düşme korkusunu iyileştirdiği sekiz çalışma</span></div>
+        <div class="stat"><b>457 kişi</b><span>Egzersizin denge ve düşme korkusuna etkisini inceleyen sekiz çalışma; küçük bir iyileşme görüldü</span></div>
       </div>
     </div>
   </section>
@@ -288,7 +288,8 @@ DN_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Egzersiz dengeyi düzeltir mi?</h2>
       <p class="soft">Ayak tabanındaki his azalınca denge de bozulur; düşme ve kırık riski artar. Sekiz rastgele kontrollü çalışmayı (457 kişi) birleştiren 2021 tarihli derlemede yürüme, denge ve kuvvet egzersizleri tek ayak üzerinde durma süresini ve düşme korkusunu bir miktar iyileştirdi. Düşme sayısına bakan tek çalışmada fark görülmedi; yazarlar bunu çalışmaların küçüklüğüne ve kısa süresine bağlıyor ve kanıtın kesinliğini düşük buluyor.</p>
-      <p class="soft">Yaşlı yetişkinlerde 21 çalışmayı inceleyen 2025 tarihli bir derleme de aynı yönde: En çok yarar denge egzersizlerinden ve dengeyi kuvvetle birleştiren programlardan sağlandı. Yürüyüş, yüzme, bisiklet, dans ve yoga gibi eklemleri sarsmayan etkinlikler ayağa giden kan akımını da destekler.</p>
+      <p class="soft">Yaşlı yetişkinlerde 21 çalışmayı inceleyen 2025 tarihli bir derleme de aynı yönde: Düşme riskini azaltmada en çok yarar denge egzersizlerinden ve çok bileşenli egzersiz programlarından sağlandı; bunları kuvvet egzersizleri izledi.</p>
+      <p class="soft">Yürüyüş, yüzme, bisiklet, dans ve yoga gibi ayakları zorlamayan etkinlikler de iyi seçeneklerdir (NIDDK).</p>
       <div class="callout">
         <p>Denge egzersizlerini tezgâh gibi tutunabileceğiniz sağlam bir yerin yanında yapın. Ayağınızda açık yara, su toplaması ya da kızarık, sıcak ve şiş bir bölge varsa üzerine basarak egzersiz yapmayın; önce hekiminize gösterin.</p>
       </div>
