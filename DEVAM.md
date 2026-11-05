@@ -829,3 +829,6 @@ Aynı gün kullanıcı onayıyla: Sever'e çocuğa özgü uyarı işaretleri, hi
 
 ## 4 Kasım 2026 — günlük denetim (diyabetik nöropati, huzursuz bacak, omuzda kireç birikmesi)
 Ayrıntılar DENETIM.md'de. Omuzda kireç birikmesindeki "ilaç kullanabilirsiniz" cümlesi kural kalıbına çevrildi. Çeviri tur49. Sonraki batch: tur50.
+
+## 5 Kasım 2026 — günlük denetim (fibromiyalji, titreme, yüz felci)
+Ayrıntılar DENETIM.md'de. Önemli: 2014 GETAT yönetmeliği 28 Nisan 2026 (RG 33237) yönetmeliğiyle yürürlükten kalktı; `ACU_LAW` cümlesi ve titremedeki künye Ek-2 okunup kullanıcı onayı alınınca güncellenecek (soruldu). Cochrane bağlantılarının eski CDxxxx/GRUP_ biçimi yerine cochrane.org/evidence/CDxxxx_… kullanın. Çeviri tur50. Sonraki batch: tur51.

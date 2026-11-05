@@ -45,22 +45,22 @@ _ex2("fp_breath", "plb", "Gevşeme nefesi", "Rahatça oturun; omuzlarınızı ve
 
 # ============================================================== YÜZ FELCİ
 FP_FAQ = [
- ("Yüz felci kendiliğinden geçer mi?", "Çoğu kişide belirtiler birkaç hafta içinde düzelmeye başlar ve altı ay içinde geçer; bazı kişilerde daha uzun sürebilir ya da kalıcı etkiler kalabilir. İlk 72 saatte başlanan kortizon tedavisi tam iyileşme şansını artırır. Üç hafta içinde hiç düzelme yoksa hekiminize yeniden başvurun."),
+ ("Yüz felci kendiliğinden geçer mi?", "Çoğu kişide belirtiler birkaç hafta içinde düzelmeye başlar ve altı ay içinde geçer; bazı kişilerde daha uzun sürebilir ya da kalıcı etkiler kalabilir. İlk 72 saatte başlanan kortizon tedavisi tam iyileşme şansını artırır. Üç hafta sonra belirtileriniz düzelmiyorsa hekiminize yeniden başvurun."),
  ("Yüz felcinde egzersize ne zaman başlanır?", "İlk haftalarda yüzü zorlayarak çalıştırmak iyileşmeyi hızlandırmaz, istenmeyen etkilere de yol açabilir; bu dönemde göz bakımı ve nazik masaj yeterlidir. Hareket geri gelmeye başladığında, tercihen bir fizyoterapist değerlendirdikten sonra, aynada küçük ve iki tarafı eşit hareketlerle başlanır."),
- ("Elektrik tedavisi yüz felcine iyi gelir mi?", "Dört çalışmayı (313 kişi) inceleyen Cochrane derlemesinde elektrik uyarımı, altı aydaki iyileşme açısından sahte uygulamadan üstün bulunmadı; düşük kaliteli bir çalışmada sonuçlar daha kötüydü. Bu yüzden rutin olarak önerilmez."),
+ ("Elektrik tedavisi yüz felcine iyi gelir mi?", "Cochrane derlemesinde elektrik uyarımını inceleyen dört çalışma (313 kişi) vardı. Bunlardan birinde (86 kişi) elektrik uyarımı, altı aydaki iyileşme açısından sahte uygulamadan üstün bulunmadı; üçüncü ayda sonuç bildiren düşük kaliteli başka bir çalışmada (56 kişi) iyileşme daha kötüydü. Derleme, elektrik uyarımının işe yarayıp yaramadığına karar vermek için kanıtın yetersiz olduğu sonucuna vardı."),
  ("Akupunktur yüz felcine iyi gelir mi?", "Araştırmalar kesin bir şey söyleyemiyor: Altı çalışmayı inceleyen Cochrane derlemesi, çalışmaların kalitesi yetersiz olduğu için sonuca varamadı. Kendi klinik gözlemimde ise akupunkturun yüz felcinde ciddi biçimde etkili olduğunu gördüm. Türkiye'de akupunkturu yalnızca sertifikalı hekimler uygulayabilir; kortizon tedavisinin ve göz bakımının yerini tutmaz."),
 ]
 
 FP_SRC = [
  "Berkshire Healthcare NHS Foundation Trust. " + ext("https://www.berkshirehealthcare.nhs.uk/media/109514454/facial-palsy-physio-leaflet-berkshire-healthcare.pdf", "Facial palsy: physiotherapy advice") + ". Patient leaflet.",
- "Chen N, Zhou M, He L, Zhou D, Li N. " + ext("https://www.cochrane.org/CD002914/NEUROMUSC_acupuncture-for-bells-palsy", "Acupuncture for Bell's palsy") + ". Cochrane Database Syst Rev. 2010;(8):CD002914.",
+ "Chen N, Zhou M, He L, Zhou D, Li N. " + ext("https://www.cochrane.org/evidence/CD002914_acupuncture-bells-palsy", "Acupuncture for Bell's palsy") + ". Cochrane Database Syst Rev. 2010;(8):CD002914.",
  "Facial Palsy UK. " + ext("https://www.facialpalsy.org.uk/support/patient-guides/initial-advice-and-guidance/", "Initial advice and guidance") + ".",
  "Facial Palsy UK. " + ext("https://www.facialpalsy.org.uk/support/self-help-videos/management-of-flaccid-facial-paralysis-floppy-face/", "Management of flaccid facial paralysis (floppy face)") + ".",
- "Madhok VB, Gagyor I, Daly F, et al. " + ext("https://www.cochrane.org/CD001942/NEUROMUSC_corticosteroids-bells-palsy", "Corticosteroids for Bell's palsy (idiopathic facial paralysis)") + ". Cochrane Database Syst Rev. 2016;(7):CD001942.",
+ "Madhok VB, Gagyor I, Daly F, et al. " + ext("https://www.cochrane.org/evidence/CD001942_corticosteroids-bells-palsy", "Corticosteroids for Bell's palsy (idiopathic facial paralysis)") + ". Cochrane Database Syst Rev. 2016;(7):CD001942.",
  "National Institute of Neurological Disorders and Stroke. " + ext("https://www.ninds.nih.gov/health-information/disorders/bells-palsy", "Bell's palsy") + ". Last reviewed 19 May 2026.",
  "NHS. " + ext("https://www.nhs.uk/conditions/bells-palsy/", "Bell's palsy") + ". Page last reviewed 4 July 2023.",
- "Oxford University Hospitals NHS Foundation Trust. " + ext("https://www.ouh.nhs.uk/media/5xqbw1m0/90999palsy.pdf", "Facial palsy") + ". Patient leaflet OMI 90999. October 2025.",
- "Teixeira LJ, Valbuza JS, Prado GF. " + ext("https://www.cochrane.org/CD006283/NEUROMUSC_physical-therapy-for-bells-palsy-idiopathic-facial-paralysis", "Physical therapy for Bell's palsy (idiopathic facial paralysis)") + ". Cochrane Database Syst Rev. 2011;(12):CD006283.",
+ "Oxford University Hospitals NHS Foundation Trust. " + ext("https://www.ouh.nhs.uk/media/5xqbw1m0/90999palsy.pdf", "Managing early facial palsy (facial weakness)") + ". Patient leaflet OMI 90999. October 2025.",
+ "Teixeira LJ, Valbuza JS, Prado GF. " + ext("https://www.cochrane.org/evidence/CD006283_physical-treatments-idiopathic-facial-paralysis", "Physical therapy for Bell's palsy (idiopathic facial paralysis)") + ". Cochrane Database Syst Rev. 2011;(12):CD006283.",
 ]
 
 FP_BODY = f'''<header class="page">
@@ -69,7 +69,7 @@ FP_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Yüz felci (Bell felci)</h1>
     <p class="lede">Yüz felci, yüz sinirinin etkilenmesiyle yüzün bir yarısında aniden gelişen güçsüzlüktür. Çoğu kişi haftalar ya da aylar içinde iyileşir. En önemli iki adım, ilk üç gün içinde başlanan kortizon tedavisi ve gözün korunmasıdır; yüzü zorlayarak çalıştırmak ise iyileşmeyi hızlandırmaz.</p>
-    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 5 Kasım 2026</p>
   </div>
 </header>
 
@@ -122,7 +122,7 @@ FP_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Yüzümü çalıştırmalı mıyım?</h2>
       <p class="soft">İlk akla gelen, yüzü zorlayarak “çalıştırmak” olur. Oysa yüz felci alanındaki uzman kuruluşlar ilk dönemde tersini öneriyor. İngiltere'deki Facial Palsy UK'ye göre bu dönemde yüzü egzersizle çalıştırmaya gerek yok; bu, iyileşmeyi hızlandırmıyor. Hareketleri zorlamak, gözü sıkarak kapatmaya çalışmak ve sakız çiğnemek istenmeyen yan etkilere yol açabiliyor. Kuruluşun özeti şöyle: Yüzünüzü iyileşme boyunca olabildiğince güçlü değil, olabildiğince nazik kullanırsanız daha iyi ve daha az yan etkili bir iyileşme beklenir.</p>
-      <p class="soft">Hareket geri gelmeye başladığında durum değişir. Fizik tedavi yöntemlerini inceleyen Cochrane derlemesine (12 çalışma, 872 kişi) göre kişiye özel yüz egzersizleri, özellikle orta dereceli ve uzun süren felçlerde yüz işlevini iyileştirebiliyor; kanıtın kalitesi düşük. Aynı derlemede elektrik uyarımı sahte uygulamadan üstün bulunmadı.</p>
+      <p class="soft">Hareket geri gelmeye başladığında durum değişir. Fizik tedavi yöntemlerini inceleyen Cochrane derlemesine (12 çalışma, 872 kişi) göre kişiye özel yüz egzersizleri, özellikle orta dereceli ve uzun süren felçlerde yüz işlevini iyileştirebiliyor; kanıtın kalitesi düşük. Aynı derlemede elektrik uyarımının yararı gösterilemedi; kanıt yetersizdi.</p>
       <div class="callout">
         <p>İyileşme sırasında bazı kişilerde istemsiz eş hareketler gelişebilir; örneğin gülümserken göz kısılır. Bu yüzden hareketler aynada, yavaş, küçük ve iki tarafı eşit yapılır. Egzersize başlamadan önce yüz rehabilitasyonunda deneyimli bir fizyoterapistin sizi değerlendirmesi en doğrusudur.</p>
       </div>
@@ -132,7 +132,7 @@ FP_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Akupunktur: araştırmalar ve klinik gözlemim</h2>
-      <p class="soft">Altı çalışmayı (537 kişi) inceleyen Cochrane derlemesi, çalışmaların kalitesi yetersiz olduğu için akupunkturun yüz felcinde etkili olup olmadığı konusunda bir sonuca varamadı; yan etki bildirilmedi, ancak çalışmalar bunu düzenli olarak kaydetmemişti. Facial Palsy UK, ilk dönemde iğnelerden elektrik verilen akupunkturdan kaçınılmasını öneriyor.</p>
+      <p class="soft">Altı çalışmayı (537 kişi) inceleyen Cochrane derlemesi, çalışmaların kalitesi yetersiz olduğu için akupunkturun yüz felcinde etkili olup olmadığı konusunda bir sonuca varamadı; çalışmaların hiçbirinde zararlı yan etki bildirilmedi. Facial Palsy UK, ilk dönemde iğnelerden elektrik verilen akupunkturdan kaçınılmasını öneriyor.</p>
       {OBS("Kendi klinik gözlemimde akupunkturun yüz felcinde ciddi biçimde etkili olduğunu gördüm.")}
       <div class="callout">
         <p>{ACU_LAW}</p>
@@ -203,7 +203,7 @@ FP_BODY = f'''<header class="page">
         <li>Yüzde güçsüzlük yeni başladıysa: aynı gün, en geç ilk üç gün içinde</li>
         <li>Gözde ağrı, kızarıklık ya da bulanık görme</li>
         <li>Kulakta ya da kulak çevresinde ağrılı kabarcıklar ya da döküntü</li>
-        <li>Üç hafta içinde hiçbir düzelme olmaması</li>
+        <li>Üç hafta sonra belirtilerin düzelmemesi</li>
       </ul>
       {CTA_CARD("Yüz felcine bağlı şikâyetleriniz", "yüz felci")}
     </div>

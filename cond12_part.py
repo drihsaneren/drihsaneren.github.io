@@ -10,7 +10,7 @@ _ex2("tr_breath", "plb", "Yavaş nefes", "Rahatça oturun, omuzlarınızı gevş
 
 # ============================================================== TİTREME
 TR_FAQ = [
- ("Ellerim titriyor; Parkinson mu?", "Titreyen her el Parkinson değildir. Parkinson titremesi çoğunlukla el dinlenirken görülür; en sık tür olan esansiyel tremorda ise el bir iş yaparken titrer. Ayrımı muayeneyle nöroloji hekimi yapar; titremeniz zamanla artıyorsa başvurun."),
+ ("Ellerim titriyor; Parkinson mu?", "Titreyen her el Parkinson değildir. Parkinson titremesi çoğunlukla el dinlenirken görülür; en sık görülen türlerden biri olan esansiyel tremorda ise el bir iş yaparken titrer. Ayrımı muayeneyle nöroloji hekimi yapar; titremeniz zamanla artıyorsa başvurun."),
  ("Testlerim normal çıktı; titremem neden geçmiyor?", "Normal testler tiroid ve kan şekeri gibi nedenleri dışlamaya yardımcı olur. Bu durumda sık karşılaşılan iki olasılık artmış fizyolojik titreme ve esansiyel tremordur. Kafein, uykusuzluk, stres ve kullandığınız ilaçlar gibi tetikleyicileri gözden geçirin; titreme günlük hayatınızı etkiliyorsa nöroloğunuzla ilaç seçeneklerini konuşun."),
  ("Akupunktur titremeye iyi gelir mi?", "Esansiyel tremorda 20 çalışmayı birleştiren bir derleme iyileşme bildiriyor; ancak çalışmaların tümü Çin'de yapılmış, küçük ve körleme yok. Kanıt umut verici ama kesin değil. Denemek isterseniz nöroloğunuzun önerdiği tedavinin yerine değil, yanında düşünün. Türkiye'de akupunkturu yalnızca bu alanda sertifikası olan hekimler uygulayabilir."),
  ("Egzersiz titremeyi artırır mı?", "Yorgunluk titremeyi geçici olarak artırabilir; bu zararlı değildir. Küçük çalışmalarda altı haftalık kol güçlendirme programı esansiyel tremorda el becerisini iyileştirdi. Hareketleri oturarak, yavaş ve kontrollü yapın."),
@@ -21,7 +21,7 @@ TR_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/tremor-or-shaking-hands/", "Tremor or shaking hands") + ". Page last reviewed 14 November 2023.",
  "Kavanagh JJ, Wedderburn-Bisshop J, Keogh JWL. " + ext("https://research.bond.edu.au/en/publications/resistance-training-reduces-force-tremor-and-improves-manual-dext/", "Resistance training reduces force tremor and improves manual dexterity in older individuals with essential tremor") + ". J Mot Behav. 2016;48(1):20-30.",
  "Sequeira G, Keogh JW, Kavanagh JJ. " + ext("https://research.bond.edu.au/en/publications/resistance-training-can-improve-fine-manual-dexterity-in-essentia/", "Resistance training can improve fine manual dexterity in essential tremor patients: a preliminary study") + ". Arch Phys Med Rehabil. 2012;93(8):1466-1468.",
- "Shen M, Shi Q, Han J, Chen B, Gao S. " + ext("https://www.mdpi.com/2227-9032/14/6/803", "Comparative efficacy of acupuncture therapy in primary essential tremor: a network meta-analysis and systematic review") + ". Healthcare. 2026;14(6):803.",
+ "Shi Q, Han J, Chen B, Gao S, Shen M. " + ext("https://www.mdpi.com/2227-9032/14/6/803", "Comparative efficacy of acupuncture therapy in primary essential tremor: a network meta-analysis and systematic review") + ". Healthcare. 2026;14(6):803.",
  ext("https://www.alomaliye.com/2014/10/27/geleneksel-ve-tamamlayici-tip-uygulamalari-yonetmeligi/", "Geleneksel ve Tamamlayıcı Tıp Uygulamaları Yönetmeliği") + ". Resmî Gazete, 27 Ekim 2014, sayı 29158.",
 ]
 
@@ -31,7 +31,7 @@ TR_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Titreme (tremor)</h1>
     <p class="lede">Ellerin hafifçe titremesi herkeste vardır; yorgunluk, heyecan ve kafeinle belirginleşir. Titreme zamanla artıyor ya da yazı yazmak, bardak tutmak gibi günlük işleri zorlaştırıyorsa nedeni araştırılmalıdır. Bu rehber titreme türlerini, hekimin neleri araştırdığını, günlük hayatı kolaylaştıran yolları ve tamamlayıcı yöntemler için kanıtın ne dediğini özetliyor.</p>
-    <p class="meta">Son güncelleme: 7 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 5 Kasım 2026</p>
   </div>
 </header>
 
@@ -40,7 +40,7 @@ TR_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>7 tür</b><span>ABD Ulusal Nörolojik Hastalıklar Enstitüsü'nün ayırdığı titreme türleri; tedavi türe göre değişir</span></div>
-        <div class="stat"><b>%50–70</b><span>En sık tür olan esansiyel tremorda kalıtsal olan vakaların oranı</span></div>
+        <div class="stat"><b>%50–70</b><span>En sık görülen türlerden biri olan esansiyel tremorda kalıtsal olan vakaların oranı</span></div>
         <div class="stat"><b>6 hafta</b><span>Küçük çalışmalarda el becerisini iyileştiren kol güçlendirme programının süresi</span></div>
         <div class="stat"><b>20 çalışma</b><span>Esansiyel tremorda akupunkturu inceleyen derleme; hepsi Çin'de yapılmış, kanıt kesin değil</span></div>
       </div>

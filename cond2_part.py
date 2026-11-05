@@ -328,9 +328,9 @@ FB_FAQ = [
 
 FB_SRC = [
  "Macfarlane GJ, Kronisch C, Dean LE, et al. " + ext("https://abdn.elsevierpure.com/en/publications/eular-revised-recommendations-for-the-management-of-fibromyalgia/", "EULAR revised recommendations for the management of fibromyalgia") + ". Ann Rheum Dis. 2017;76(2):318-328.",
- "Bidonde J, Busch AJ, Schachter CL, et al. " + ext("https://www.cochrane.org/CD012700/MUSKEL_aerobic-exercise-adults-fibromyalgia", "Aerobic exercise training for adults with fibromyalgia") + ". Cochrane Database Syst Rev. 2017;6:CD012700.",
+ "Bidonde J, Busch AJ, Schachter CL, et al. " + ext("https://www.cochrane.org/evidence/CD012700_aerobic-exercise-adults-fibromyalgia", "Aerobic exercise training for adults with fibromyalgia") + ". Cochrane Database Syst Rev. 2017;6:CD012700.",
  "Wang C, Schmid CH, Fielding RA, et al. " + ext("https://www.nccih.nih.gov/research/research-results/tai-chi-has-similar-or-greater-benefits-than-aerobic-exercise-for-fibromyalgia-study-shows", "Effect of tai chi versus aerobic exercise for fibromyalgia: comparative effectiveness randomized controlled trial") + ". BMJ. 2018;360:k851.",
- "Deare JC, Zheng Z, Xue CCL, et al. " + ext("https://www.cochrane.org/CD007070/MUSKEL_acupuncture-for-fibromyalgia", "Acupuncture for treating fibromyalgia") + ". Cochrane Database Syst Rev. 2013;(5):CD007070.",
+ "Deare JC, Zheng Z, Xue CCL, et al. " + ext("https://www.cochrane.org/evidence/CD007070_acupuncture-fibromyalgia", "Acupuncture for treating fibromyalgia") + ". Cochrane Database Syst Rev. 2013;(5):CD007070.",
  "Heidari F, Afshari M, Moosazadeh M. " + ext("https://link.springer.com/article/10.1007/s00296-017-3725-2", "Prevalence of fibromyalgia in general population and patients, a systematic review and meta-analysis") + ". Rheumatol Int. 2017;37(9):1527-1539.",
  "Wolfe F, Clauw DJ, Fitzcharles MA, et al. " + ext("https://doi.org/10.1016/j.semarthrit.2016.08.012", "2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria") + ". Semin Arthritis Rheum. 2016;46(3):319–329.",
 ]
@@ -341,7 +341,7 @@ FB_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Fibromiyalji</h1>
     <p class="lede">Vücudun birçok yerinde süren yaygın ağrı, yorgunluk ve dinlendirmeyen uykuyla seyreden bir durumdur. Ağrı gerçektir; fibromiyalji kaslarda ya da eklemlerde hasar yapmaz, sinir sisteminin ağrıyı işleme biçimi değişmiştir. Tedavide en güçlü kanıta sahip yöntem egzersizdir.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 5 Kasım 2026</p>
   </div>
 </header>
 
@@ -381,7 +381,7 @@ FB_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Egzersiz neden temel tedavi?</h2>
       <p class="soft">Avrupa Romatoloji Birliği (EULAR) 2016'da güncellediği önerilerini hazırlarken 107 sistematik derlemeyi inceledi. Güçlü öneri alan tek tedavi egzersiz oldu. Psikolojik destek, tai chi ve yoga gibi hareket temelli uygulamalar ve şiddetli ağrı ya da uyku sorunu olanlarda ilaç tedavisi daha zayıf öneriler aldı.</p>
-      <p class="soft">13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesinde aerobik egzersiz yaşam kalitesini, günlük işlevi ve ağrıyı iyileştirdi. ABD'de 226 fibromiyalji hastasıyla yapılan bir çalışmada ise haftada bir ya da iki kez yapılan tai chi, aerobik egzersiz kadar ya da daha fazla fayda sağladı; en iyi sonuç 24 hafta boyunca haftada iki kez yapılan tai chi ile alındı.</p>
+      <p class="soft">13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesine göre aerobik egzersiz yaşam kalitesini muhtemelen iyileştirir; ağrıyı ve günlük işlevi de biraz iyileştirebilir (kanıt düzeyi düşük–orta). ABD'de 226 fibromiyalji hastasıyla yapılan bir çalışmada ise haftada bir ya da iki kez yapılan tai chi, aerobik egzersiz kadar ya da daha fazla fayda sağladı. 24 hafta süren tai chi, 12 haftalık programdan daha etkili oldu; haftada iki kez yapmak, bir kez yapmaya göre anlamlı ek fayda getirmedi.</p>
       <div class="callout">
         <p>Fibromiyaljide egzersizin püf noktası “az başla, yavaş artır” ilkesidir. Birkaç dakikalık yürüyüşle başlayın ve süreyi her hafta biraz artırın. İlk haftalarda ağrının biraz artması olağandır ve genellikle geçicidir; kötü günlerde bırakmak yerine azaltın.</p>
       </div>
@@ -397,7 +397,7 @@ FB_BODY = f'''<header class="page">
         <li><b>Hareket temelli uygulamalar</b><span>Tai chi, yoga ve qigong hem hareket hem gevşeme sağlar.</span></li>
         <li><b>Uyku düzeni</b><span>Düzenli uyku saatleri ve uyku alışkanlıkları ağrıyı ve yorgunluğu etkiler. Ayrıntılar için <a href="uyku.html">iyi uyku rehberine</a> bakın.</span></li>
         <li><b>Psikolojik destek</b><span>Bilişsel davranışçı terapi ve ağrıyla başa çıkma becerileri, özellikle kaygı ve çökkünlük eşlik ediyorsa faydalıdır. <a href="stres.html">Stres rehberi</a> de yardımcı olabilir.</span></li>
-        <li><b>İlaç</b><span>Şiddetli ağrı ya da uyku sorunu olanlarda hekim tarafından bazı ilaçlar düşük dozda başlanabilir.</span></li>
+        <li><b>İlaç</b><span>Şiddetli ağrı ya da uyku sorunu olanlarda hekim gerekli görürse ilaç tedavisi başlayabilir.</span></li>
       </ul>
     </div>
   </section>
@@ -430,7 +430,7 @@ FB_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Akupunktur: araştırmalar ve klinik gözlemim</h2>
-      <p class="soft">Dokuz çalışmayı (395 kişi) inceleyen Cochrane derlemesinde, ilaç ve egzersizden oluşan standart tedaviye eklenen akupunktur ağrıyı 100 üzerinden yaklaşık 30 puan azalttı. İğnelerden hafif elektrik verilen akupunktur, sahte uygulamaya göre de ağrıyı bir miktar azalttı; elle yapılan akupunkturda bu fark görülmedi. Etki yaklaşık bir ay sürdü, altıncı ayda korunmadı. Kanıt düzeyi düşük–orta; yan etkiler hafif ve kısa süreliydi.</p>
+      <p class="soft">Dokuz çalışmayı (395 kişi) inceleyen Cochrane derlemesindeki 58 kişilik bir çalışmada, ilaç ve egzersizden oluşan standart tedaviye eklenen akupunktur ağrıyı 0–10'luk ölçekte yaklaşık 3 puan azalttı (orta düzey kanıt). İğnelerden hafif elektrik verilen akupunktur, sahte uygulamaya göre de ağrıyı bir miktar azalttı; elle yapılan akupunkturda bu fark görülmedi. Etki yaklaşık bir ay sürdü, altıncı ayda korunmadı. Kanıt düzeyi düşük–orta; yan etkiler hafif ve kısa süreliydi.</p>
       {OBS("Kendi klinik gözlemimde akupunkturun fibromiyaljide çok etkili olduğunu gördüm.")}
       <div class="callout">
         <p>{ACU_LAW}</p>
