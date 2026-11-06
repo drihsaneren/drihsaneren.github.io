@@ -10,14 +10,14 @@ _ex2("rl_soleus", "soleus", "Alt baldır esnetme", "Baldır esnetmesindeki gibi 
 
 RL_FAQ = [
  ("Gebelikte huzursuz bacak olur mu?", "Evet, gebelikte sık görülür ve genellikle doğumdan sonra geçer. Demir eksikliği eşlik edebileceği için hekiminize söyleyin; gebelikte ilaç ve takviyeleri hekime danışmadan kullanmayın."),
- ("Demir hapını kendim başlayabilir miyim?", "Önce kan değerlerinize bakılması gerekir. Amerikan Uyku Tıbbı Akademisi'nin 2024 kılavuzu, huzursuz bacak sendromu olan herkesin demir değerlerinin ölçülmesini ve takviyenin bu değerlere göre verilmesini öneriyor. Gereksiz demir kullanımı zararlı olabilir. Uluslararası Huzursuz Bacak Sendromu Çalışma Grubu'nun (IRLSSG) 2018 kılavuzuna göre ağızdan demir, ferritin değeri 75 µg/l ya da altında olanlarda muhtemelen etkili; orta ve ağır belirtilerde damardan demir (ferrik karboksimaltoz) ferritini 300 µg/l'nin altında olanlarda etkili bulundu. Hangi yolun uygun olduğuna hekiminiz karar verir."),
+ ("Demir hapını kendim başlayabilir miyim?", "Önce kan değerlerinize bakılması gerekir. Amerikan Uyku Tıbbı Akademisi'nin 2024 kılavuzu, huzursuz bacak sendromu olan herkesin demir değerlerinin ölçülmesini ve takviyenin bu değerlere göre verilmesini öneriyor. Gereksiz demir kullanımı zararlı olabilir. Uluslararası Huzursuz Bacak Sendromu Çalışma Grubu'nun (IRLSSG) 2018 kılavuzuna göre ağızdan demir, ferritin değeri 75 µg/l ya da altında olanlarda etkili olabilir (kanıt düzeyi: olası etkili); orta ve ağır belirtilerde damardan demir (ferrik karboksimaltoz) ferritini 300 µg/l'nin altında olanlarda etkili bulundu. Hangi yolun uygun olduğuna hekiminiz karar verir."),
  ("Kahve ve alkol etkiler mi?", "Belirtileri artırabilirler. İngiltere Ulusal Sağlık Sistemi (NHS), öğleden sonra kafeinden ve yatmadan önceki 2 saat içinde alkolden kaçınmayı, sigarayı bırakmayı öneriyor. İlaç dışı tedavileri inceleyen 11 çalışmalık bir derlemede egzersiz, belirtilerin şiddetini kontrol gruplarına göre azaltan yöntemler arasındaydı; ancak çalışma sayısı az ve kanıt kalitesi yüksek değildi."),
  ("Kramptan farkı nedir?", "Kramp, kasın ağrılı ve istem dışı kasılmasıdır ve genellikle kısa sürer. Huzursuz bacakta ise bacakları hareket ettirme dürtüsü ve rahatsız edici bir his vardır; dinlenirken başlar ve hareketle hafifler. Sinir hasarı (nöropati) da benzer belirtiler verebilir; ayırımı hekim yapar."),
 ]
 
 RL_SRC = [
  "NHS. " + ext("https://www.nhs.uk/conditions/restless-legs-syndrome/", "Restless legs syndrome") + ". Page last reviewed 22 September 2025.",
- "Winkelman JW, Berkowski JA, DelRosso LM, et al. Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. 2024. doi:10.5664/jcsm.11390. Özet: " + ext("https://aasm.org/summary-of-new-clinical-practice-guideline-for-rls-and-plmd/", "AASM, Summary of new clinical practice guideline for RLS and PLMD") + ", 13 November 2024.",
+ "Winkelman JW, Berkowski JA, DelRosso LM, et al. Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. 2025;21(1):137–152. doi:10.5664/jcsm.11390. Özet: " + ext("https://aasm.org/summary-of-new-clinical-practice-guideline-for-rls-and-plmd/", "AASM, Summary of new clinical practice guideline for RLS and PLMD") + ", 13 November 2024.",
  "HCPLive. " + ext("https://www.hcplive.com/view/aasm-updates-clinical-guidelines-restless-legs-syndrome", "AASM updates clinical guidelines for restless legs syndrome") + ". 22 November 2024.",
  "Aukerman MM, Aukerman D, Bayard M, Tudiver F, Thorp L, Bailey B. " + ext("https://www.jabfm.org/content/19/5/487.short", "Exercise and restless legs syndrome: a randomized controlled trial") + ". J Am Board Fam Med. 2006;19(5):487–493.",
  "Harrison EG, Keating JL, Morgan PE. " + ext("https://search.pedro.org.au/search-results/record-detail/57803", "Non-pharmacological interventions for restless legs syndrome: a systematic review of randomised controlled trials") + ". Disabil Rehabil. 2019;41(17):2006–2014.",
@@ -30,7 +30,7 @@ RL_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Huzursuz bacak sendromu</h1>
     <p class="lede">Huzursuz bacak sendromu, bacakları hareket ettirmeye yönelik güçlü bir dürtüdür; çoğu zaman karıncalanma, zonklama ya da ağrı gibi rahatsız edici bir hisle birlikte gelir. Akşamları ve dinlenirken artar, hareket edince hafifler ve uykuyu bozabilir. Demir eksikliğinin düzeltilmesi, yaşam alışkanlıkları ve düzenli egzersiz tedavinin önemli parçalarıdır.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 4 Kasım 2026</p>
   </div>
 </header>
 
@@ -40,7 +40,7 @@ RL_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>2024</b><span>Amerikan Uyku Tıbbı Akademisi'nin güncellenen tedavi kılavuzu: önce demir değerlendirmesi</span></div>
         <div class="stat"><b>Yılda %7–10</b><span>Dopamin ilaçlarıyla belirtilerin giderek ağırlaşması (augmentasyon) görülme sıklığı</span></div>
-        <div class="stat"><b>%35–50</b><span>Aynı ilaçlarla 5 yılda augmentasyon gelişebilen hasta oranı</span></div>
+        <div class="stat"><b>%35–50</b><span>Aynı ilaçlarla 5 yılda augmentasyon gelişebilen hasta oranı (kılavuz komitesi başkanının tahmini)</span></div>
         <div class="stat"><b>12 hafta</b><span>Haftada 3 gün egzersizin belirtileri azalttığı randomize çalışmanın süresi</span></div>
       </div>
     </div>
@@ -54,7 +54,7 @@ RL_BODY = f'''<header class="page">
           <li>Bacakları hareket ettirme dürtüsü</li>
           <li>Karıncalanma, zonklama, kaşıntı ya da ağrı gibi rahatsız edici his</li>
           <li>Dinlenirken, özellikle akşam ve gece artma</li>
-          <li>Yürüyünce ya da esneyince hafifleme</li>
+          <li>Yürüyünce ya da bacakları esnetince hafifleme</li>
           <li>Uykuya dalmakta güçlük ve gece uyanmaları</li>
           <li>Bazen kollarda da benzer his</li>
         </ul>
@@ -110,7 +110,7 @@ RL_BODY = f'''<header class="page">
       <ul class="dots" style="align-self:center">
         <li>Çalışmaya 41 kişi alındı, 23'ü çalışmayı tamamladı; küçük bir çalışma.</li>
         <li>Egzersiz uyku ve genel sağlık için de yararlıdır.</li>
-        <li>NHS de gün içinde düzenli egzersizi ve belirtiler başlayınca yürümeyi, esnemeyi ve masajı öneriyor.</li>
+        <li>NHS de gün içinde düzenli egzersizi ve belirtiler başlayınca yürümeyi, bacakları esnetmeyi ve ovmayı öneriyor.</li>
       </ul>
     </div>
   </section>

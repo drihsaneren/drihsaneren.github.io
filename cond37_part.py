@@ -13,15 +13,15 @@ SV["os_qstr"] = fig(GRD +
 EXT["os_qstr"] = ("Ayakta ön uyluk germe", "Bir sandalyeye ya da duvara tutunarak dik durun. Bir dizinizi bükün ve ayak bileğinizi elinizle tutup topuğunuzu kalçanıza doğru yaklaştırın; dizleriniz yan yana ve aşağı baksın. Uyluğunuzun önünde gerginlik hissedin. Yalnızca ağrı izin verdiğinde yapın.", "20–30 saniye, her bacakla 2–3 kez")
 _ex2("os_ham", "lc_ham", "Arka uyluk germe", "Sandalyenin ön kenarına oturun. Bir bacağınızı öne uzatın, topuğunuz yerde, ayak ucunuz yukarı baksın. Sırtınızı düz tutarak kalçanızdan öne eğilin; uyluğunuzun arkasında gerginlik hissedin. Yalnızca ağrı izin verdiğinde yapın.", "20–30 saniye, her bacakla 2–3 kez")
 _ex2("os_wall", "wall", "Duvarda yarım çömelme", "Sırtınızı duvara yaslayın, ayaklarınızı duvardan yarım adım öne alın. Sırtınız duvarda kayarak dizlerinizi hafifçe bükün ve ağrının hafif kaldığı derinlikte bekleyin. Ağrı artıyorsa daha az bükün.", "30–45 saniye, 3–5 kez")
-_ex2("os_slr", "slr", "Düz bacak kaldırma", "Sırtüstü yatın, bir dizinizi bükün. Diğer bacağınızı dizi düz kalacak şekilde, uyluğunuzu sıkarak diğer dizinizin hizasına kadar kaldırın, yavaşça indirin. Dizin altındaki çıkıntıya yük bindirmeden ön uyluğu çalıştırır.", "10–15 tekrar, 2–3 set")
+_ex2("os_slr", "slr", "Düz bacak kaldırma", "Sırtüstü yatın, bir dizinizi bükün. Diğer bacağınızı dizi düz kalacak şekilde, uyluğunuzu sıkarak diğer dizinizin hizasına kadar kaldırın, yavaşça indirin. Dizin altındaki çıkıntıya görece az yük bindirerek ön uyluğu çalıştırır.", "10–15 tekrar, 2–3 set")
 _ex2("os_abd", "abd", "Yan yatarak bacak kaldırma", "Yan yatın, alttaki dizinizi hafifçe bükün. Üstteki bacağınızı dizi düz, ayak ucu öne bakacak şekilde yukarı kaldırın ve yavaşça indirin. Kalçanın yan kasları dizi dengede tutmaya yardım eder.", "Her iki yana 10–15 tekrar, 2–3 set")
 _ex2("os_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak kaldırın; omuzlarınızdan dizlerinize kadar düz bir çizgi oluşsun. 3–5 saniye bekleyip yavaşça inin.", "10–15 tekrar, 2–3 set")
 
 OS_FAQ = [
- ("Çocuğum spor yapmayı bırakmalı mı?", "Genellikle tamamen bırakması gerekmez. Spor kalıcı bir hasar yapmaz, ama ağrıyı artırabilir. Ağrı kontrol altına girene kadar özellikle koşu ve sıçrama gibi zorlayıcı aktivitelerin süresini, sıklığını ve toplam miktarını azaltmak önerilir. Ağrı çok şiddetliyse bir süre tam ara gerekebilir."),
- ("Ne kadar sürer?", "Ağrı çoğu zaman birkaç ayda azalır, ama bazı belirtiler 12–24 ay sürebilir. Kemik büyümesi tamamlanınca geçer. Yeni bir büyüme atağında ya da yoğun sporla yeniden alevlenebilir. Ancak her zaman kısa sürmeyebilir: Danimarka’da tanıdan ortalama 3,75 yıl sonra ulaşılabilen 43 gencin %60’ında diz ağrısı sürüyordu ve ağrısı olanların yaşam kalitesi daha düşüktü; ankete yanıt oranının düşük olması sonucu etkilemiş olabilir."),
- ("Dizin altındaki sert şişlik nedir?", "Ön uyluk kası, diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çeker; bu bölge zorlanıp iltihaplanır. İyileşme sırasında burada sert bir kemik çıkıntısı oluşabilir. Çıkıntı dokununca ya da diz çökerken hassas olabilir."),
- ("Dinlenmek mi, egzersiz mi?", "10–14 yaş arası 51 gençle yapılan bir çalışmada, ağrıya göre ayarlanan bir aktivite merdiveni, diz güçlendirme ve kademeli spora dönüşten oluşan 12 haftalık programdan sonra gençlerin %80’i iyileşme bildirdi; 12 ayda %69’u spora döndü. Kontrol grubu olmayan bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı, ama yalnızca dinlenip beklemeye bir alternatif sunuyor."),
+ ("Çocuğum spor yapmayı bırakmalı mı?", "Genellikle tamamen bırakması gerekmez. Sporun kalıcı bir hasar yapması beklenmez, ama ağrıyı artırabilir. Ağrı kontrol altına girene kadar özellikle koşu ve sıçrama gibi zorlayıcı aktivitelerin süresini, sıklığını ve toplam miktarını azaltmak önerilir. Ağrı çok şiddetliyse bir süre tam ara gerekebilir."),
+ ("Ne kadar sürer?", "Ağrı çoğu zaman birkaç ayda azalır, ama bazı belirtiler 12–24 ay sürebilir. Çoğu zaman kemik büyümesi tamamlanınca geçer. Yeni bir büyüme atağında ya da yoğun sporla yeniden alevlenebilir. Ancak her zaman kısa sürmeyebilir: Danimarka’da tanıdan ortanca 3,75 yıl (2–6 yıl) sonra ankete yanıt veren 43 kişinin (o sırada 14–55 yaşında) %60’ında diz ağrısı sürüyordu ve ağrısı olanların yaşam kalitesi daha düşüktü; ankete yanıt oranının düşük olması sonucu etkilemiş olabilir."),
+ ("Dizin altındaki sert şişlik nedir?", "Ön uyluk kası, diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çeker; bu bölge zorlanır, tahriş olur ve ağrılı hâle gelir (mikrobik bir iltihap değildir). İyileşme sırasında burada sert bir kemik çıkıntısı oluşabilir. Çıkıntı dokununca ya da diz çökerken hassas olabilir."),
+ ("Dinlenmek mi, egzersiz mi?", "10–14 yaş arası 51 gençle yapılan bir çalışmada, ağrıya göre ayarlanan bir aktivite merdiveni, diz güçlendirme ve kademeli spora dönüşten oluşan 12 haftalık programdan sonra gençlerin %80’i iyileşme bildirdi; 12 ayda %69’u spora döndü. Kontrol grubu olmayan bir çalışma olduğu için sonuçlar dikkatle yorumlanmalı, ama yalnızca dinlenip beklemeye bir alternatif olabilir."),
 ]
 
 OS_SRC = [
@@ -29,6 +29,7 @@ OS_SRC = [
  "Bradford Teaching Hospitals NHS Foundation Trust. " + ext("https://bradfordhospitals.nhs.uk/wp-content/uploads/2025/02/25011305-Osgood-Schlatters-Disease-Leaflet-2.pdf", "Osgood Schlatter’s disease") + ". Patient leaflet, February 2025.",
  "Rathleff MS, Winiarski L, Krommes K, et al. " + ext("https://research.regionh.dk/en/publications/activity-modification-and-knee-strengthening-for-osgood-schlatter/", "Activity modification and knee strengthening for Osgood-Schlatter disease: a prospective cohort study") + ". Orthopaedic Journal of Sports Medicine. 2020;8(4):2325967120911106.",
  "Neuhaus C, Appenzeller-Herzog C, Faude O. " + ext("https://doi.org/10.1016/j.ptsp.2021.03.002", "A systematic review on conservative treatment options for Osgood-Schlatter disease") + ". Phys Ther Sport. 2021;49:178–187",
+ "East Lancashire Hospitals NHS Trust, Paediatric Physiotherapy. " + ext("https://elht.nhs.uk/download_file/view/22621", "Osgood-Schlatter disease: paediatric management advice leaflet") + ". Version 2, July 2024.",
  "Guldhammer C, Rathleff MS, Jensen HP, Holden S. " + ext("https://vbn.aau.dk/ws/files/315510202/2325967119878136.pdf", "Long-term prognosis and impact of Osgood-Schlatter disease 4 years after diagnosis: a retrospective study") + ". Orthop J Sports Med. 2019;7(10):2325967119878136.",
 ]
 
@@ -37,8 +38,8 @@ OS_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Osgood-Schlatter (büyüme çağında diz altı ağrısı)</h1>
-    <p class="lede">Çocuğunuz futbol, basketbol ya da koşudan sonra dizinin hemen altındaki çıkıntının ağrıdığını mı söylüyor? Osgood-Schlatter, büyüme atağındaki aktif çocuk ve gençlerde, ön uyluk kasının diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çekmesiyle ortaya çıkar. Endişe verici görünse de zararsızdır ve büyüme tamamlanınca geçer. Doğru ayarlanmış aktivite ve egzersizle çocuğunuz sporunu bırakmadan bu dönemi atlatabilir.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="lede">Çocuğunuz futbol, basketbol ya da koşudan sonra dizinin hemen altındaki çıkıntının ağrıdığını mı söylüyor? Osgood-Schlatter, büyüme atağındaki aktif çocuk ve gençlerde, ön uyluk kasının diz kirişi aracılığıyla kaval kemiğinin büyüyen ucunu tekrar tekrar çekmesiyle ortaya çıkar. Endişe verici görünse de çoğu çocukta büyüme tamamlanınca geçer; ancak bir kısmında diz ağrısı yıllarca sürebilir. Doğru ayarlanmış aktivite ve egzersizle çoğu çocuk sporunu tamamen bırakmadan, gerekirse bir süre azaltarak bu dönemi atlatabilir.</p>
+    <p class="meta">Son güncelleme: 3 Kasım 2026</p>
   </div>
 </header>
 
@@ -48,7 +49,7 @@ OS_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>10–16 yaş</b><span>En sık görüldüğü dönem; büyüme atağıyla birlikte, erkek çocuklarda daha sık</span></div>
         <div class="stat"><b>12–24 ay</b><span>Bazı belirtilerin sürebileceği zaman; büyüme bitince geçer</span></div>
-        <div class="stat"><b>%80</b><span>12 haftalık aktivite ayarı ve güçlendirme programından sonra iyileşme bildiren gençler</span></div>
+        <div class="stat"><b>%80</b><span>12 haftalık aktivite ayarı ve güçlendirme programından sonra iyileşme bildiren gençler (51 kişi, kontrol grubu olmayan çalışma)</span></div>
         <div class="stat"><b>10 dakika</b><span>Aktiviteden sonra, beze sarılı buzun önerilen uygulama süresi</span></div>
       </div>
     </div>
@@ -114,7 +115,8 @@ OS_BODY = f'''<header class="page">
         <li>6 haftada düzelme yoksa (fizyoterapi gerekebilir)</li>
         <li>Ağrı çocuğunuzu geceleri uyandırıyorsa ya da dinlenirken de sürüyorsa</li>
         <li>Diz sıcak, kızarık ve şişse ya da ateş varsa</li>
-        <li>Belirgin topallama, dizde kilitlenme ya da boşalma varsa</li>
+        <li>Nedeni açıklanamayan ani topallama, bacağa basamama ya da dizin hareketinde ani kötüleşme varsa</li>
+        <li>Şişlik ya da morarma dinlenme ve bacağı yükseltmeyle geçmiyorsa</li>
       </ul>
       {CTA_CARD("Çocuğunuzun diz ağrısı", "Osgood-Schlatter")}
     </div>

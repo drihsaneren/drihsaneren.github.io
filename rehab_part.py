@@ -200,7 +200,7 @@ _ex("hf_heel", "heel2", "Tezgâha tutunarak topuk yükseltme",
 
 HF_FAQ = [
  ("Ameliyattan sonra ne zaman yürüyebilirim?", "Çoğu hastada ameliyattan sonraki gün, fizyoterapist eşliğinde ve yürüteçle ayağa kalkılır. İngiltere'nin kalça kırığı kılavuzu, tıbbi bir engel yoksa ameliyattan sonraki gün fizyoterapi değerlendirmesi ve ayağa kaldırma, sonrasında da en az günde bir kez hareket ettirme öneriyor. Bacağınıza ne kadar yük verebileceğinizi cerrahınız belirler. NICE kalite standardı, rehabilitasyonun en geç ameliyattan sonraki gün başlamasını ve hastanede her gün sürdürülmesini, taburculuktan sonra da desteğin devam etmesini öngörüyor."),
- ("Evde egzersize devam etmek gerçekten fark eder mi?", "Evet. 40 çalışmayı inceleyen Cochrane derlemesi, hastaneden çıktıktan sonra yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini anlamlı şekilde artırdığını gösterdi. ABD'de 232 hastayla yapılan bir çalışmada 6 ay süren ev egzersiz programı, rehabilitasyonu tamamlamış hastalarda bile işlevi daha da iyileştirdi. Her program aynı ölçüde etkili değildir: 210 hastayla yapılan CAP çalışmasında 16 haftalık ev programının sonunda toplum içinde bağımsız yürüyebilme ölçütüne (6 dakikada 300 metreden fazla) ulaşanların oranı aerobik, kuvvet ve denge egzersizi yapan grupta %23, hareket açıklığı egzersizi ve elektrikle sinir uyarımı uygulanan grupta %18 oldu. Fark anlamlı değildi, ama iki grupta da yürüme belirgin şekilde iyileşti."),
+ ("Evde egzersize devam etmek gerçekten fark eder mi?", "Evet. 40 çalışmayı inceleyen Cochrane derlemesi, hastaneden çıktıktan sonra yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini anlamlı şekilde artırdığını gösterdi. ABD'de 232 hastayla yapılan bir çalışmada 6 ay süren ev egzersiz programı, rehabilitasyonu tamamlamış hastalarda bile işlevi daha da iyileştirdi. Her program aynı ölçüde etkili değildir: 210 hastayla yapılan CAP çalışmasında 16 haftalık ev programının sonunda toplum içinde bağımsız yürüyebilme ölçütüne (6 dakikada 300 metreden fazla) ulaşanların oranı aerobik, kuvvet ve denge egzersizi yapan grupta %23, hareket açıklığı egzersizi ve elektrikle sinir uyarımı uygulanan grupta %18 oldu. Fark anlamlı değildi; iki grupta da ortalama yürüme mesafesi başlangıca göre arttı."),
  ("Kırığım protezle mi, vidayla mı tedavi edildi; fark eder mi?", "Evet. Kırığın türüne göre kırık vida ya da çivi ile sabitlenebilir ya da kalçanın bir kısmı protezle değiştirilebilir. Protez uygulandıysa bazı pozisyonlardan bir süre kaçınmanız gerekebilir. Hangi hareketlerin sizin için güvenli olduğunu cerrahınıza sorun; ayrıntılar için protez sonrası rehberine bakabilirsiniz."),
  ("Yeniden kırılmaması için ne yapmalıyım?", "Kalça kırıkları çoğu zaman bir düşme ve kemik erimesi birlikteliğinde ortaya çıkar. Kemik sağlığınızın değerlendirilmesini isteyin, düzenli denge ve güçlendirme egzersizleri yapın ve evinizi düşmelere karşı güvenli hale getirin."),
 ]
@@ -220,7 +220,7 @@ HF_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Kalça kırığı sonrası evde rehabilitasyon</h1>
     <p class="lede">Kalça kırığı, özellikle ileri yaşta bağımsızlığı tehdit eden ciddi bir yaralanma. Ameliyattan sonra ne kadar erken ve düzenli hareket edilirse toparlanma o kadar iyi olur; evde sürdürülen egzersiz programı, hastaneden sonra da kazanım sağlıyor.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
 
@@ -260,7 +260,7 @@ HF_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Hastaneden sonra da egzersiz</h2>
-      <p class="soft">40 çalışmayı ve 4.059 kişiyi kapsayan 2022 tarihli Cochrane derlemesinde, yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini artırdığı görüldü. Hastaneden çıktıktan sonra yapılan programlarda kuvvet ve dayanıklılık egzersizleri de fayda sağladı; bu dönemdeki iyileşme küçük ama anlamlıydı ve kanıtın güvenilirliği yüksekti.</p>
+      <p class="soft">40 çalışmayı ve 4.059 kişiyi kapsayan 2022 tarihli Cochrane derlemesinde, yürüme, denge ve günlük işlere yönelik egzersizlerin hareket kabiliyetini artırdığı görüldü. Hastaneden çıktıktan sonra yapılan programlarda hareket kabiliyetindeki iyileşme küçük ama anlamlıydı ve kanıtın güvenilirliği yüksekti; bu dönemde kuvvet egzersizlerinin de faydalı olabileceği görüldü (kanıt düzeyi düşük).</p>
       <p class="soft">ABD'de 232 hastayla yapılan bir çalışmada ise standart rehabilitasyonu tamamlamış hastalara 6 ay süren bir ev egzersiz programı verildi. Program bitiminde bu hastaların günlük işlevi, egzersiz almayan gruba göre daha iyiydi ve fark 3 ay sonra da sürüyordu.</p>
       <div class="callout">
         <p>Kalça kırığı çoğu zaman bir düşmenin ve kemik erimesinin birlikte sonucudur. Rehabilitasyonun yanında kemik sağlığınızın değerlendirilmesi ve düşmelerin önlenmesi de önemli: <a href="kemik-erimesi.html">kemik erimesi</a> ve <a href="dusme-onleme.html">düşmeleri önleme</a> rehberlerine göz atın.</p>

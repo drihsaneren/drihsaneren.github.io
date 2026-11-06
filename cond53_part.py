@@ -8,7 +8,7 @@ _ex2("gr_k2c", "k2c", "Dizi göğse çekme", "Sırtüstü, bacaklarınız düz u
 _ex2("gr_calf", "calf", "Duvarda baldır germe", "Duvara dönük durun. Bir ayağınız önde, dizi hafif bükülü olsun; arkadaki bacağınız düz, topuğu yerde kalsın. Kalçanızı duvara doğru itin.", "30 saniye, her bacakla 2–3 kez")
 
 GRP_FAQ = [
- ("Gerçekten büyümeden mi oluyor?", "Hayır. Adı böyle olsa da büyüme ağrılarının büyümeyle bir ilgisi yoktur ve ciddi bir hastalığın işareti değildir. Nedeni bilinmiyor. Aktif çocuklarda ve çok spor yapılan günlerden sonra daha sık görülür; eklem hipermobilitesi (bağ dokusu gevşekliği) olan çocuklarda da sıktır. 147 çalışmayı inceleyen 2022 tarihli bir derlemede, büyüme ağrısını tanımlayan çalışmaların %90’ından fazlası tanımında büyümeden hiç söz etmiyordu."),
+ ("Gerçekten büyümeden mi oluyor?", "Hayır. Adı böyle olsa da büyüme ağrılarının büyümeyle bir ilgisi yoktur ve ciddi bir hastalığın işareti değildir. Nedeni bilinmiyor. Aktif çocuklarda ve çok spor yapılan günlerden sonra daha sık görülür; eklem hipermobilitesi (bağ dokusu gevşekliği) olan çocuklarda da sıktır. 145 çalışmayı ve 2 tanı sistemini inceleyen 2022 tarihli bir derlemede, büyüme ağrısı terimini kullanan çalışmaların %93’ü tanımında büyümeden hiç söz etmiyordu."),
  ("Kan testi ya da röntgen gerekir mi?", "Genellikle gerekmez. Hekim ya da fizyoterapist, öyküyü dinleyip muayene ederek tanı koyabilir. Bu çocuklarda kan testleri ve röntgen normaldir; yalnızca başka bir nedenden şüphelenilirse istenir."),
  ("Ne kadar sürer?", "Ağrılar aylarca, hatta yıllarca gelip gidebilir, sonra kendiliğinden geçer. Kalıcı bir hasar bırakmaz ve ileride kireçlenme riskini artırmaz."),
  ("Çocuğum sporu bırakmalı mı?", "Bırakması gerekmez. Aktif kalmak ve kasları nazikçe güçlendirmek çoğu zaman ağrıyı azaltır. Ağrının hangi günlerde ve hangi etkinliklerden sonra geldiğini bir günlükle izlemek, düzeni görmeye yardımcı olur. Destekleyici, iyi oturan ve sıkıca bağlanan ayakkabılar da işe yarayabilir."),
@@ -29,7 +29,7 @@ GRP_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Çocuklarda büyüme ağrıları</h1>
     <p class="lede">Çocuğunuz akşamları ya da gece bacak ağrısıyla mı uyanıyor, sabah ise hiçbir şey olmamış gibi koşup oynuyor mu? Buna halk arasında büyüme ağrısı denir. Adı yanıltıcıdır: büyümeyle ilgisi yoktur ve ciddi bir hastalığın işareti değildir. 3–12 yaş arası çocuklarda sık görülür; masaj, ılık uygulama ve basit germelerle rahatlar.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 2 Kasım 2026</p>
   </div>
 </header>
 
@@ -81,7 +81,7 @@ GRP_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(GRP_FAQ)}
-      <p class="soft" style="margin-top:18px">Topukta ağrı için <a href="sever-hastaligi.html">Sever hastalığı</a>, dizin hemen altında şişlik ve ağrı için <a href="osgood-schlatter.html">Osgood-Schlatter</a>, çok esnek eklemler için <a href="eklem-hipermobilitesi.html">eklem hipermobilitesi</a> rehberine bakabilirsiniz.</p>
+      <p class="soft" style="margin-top:18px">Topukta ağrı için <a href="sever-hastaligi.html">Sever hastalığı</a>, dizin hemen altında şişlik ve ağrı için <a href="osgood-schlatter.html">Osgood-Schlatter</a>, bağ dokusu gevşekliği için <a href="eklem-hipermobilitesi.html">eklem hipermobilitesi</a> rehberine bakabilirsiniz.</p>
     </div>
   </section>
 

@@ -14,9 +14,9 @@ _ex2("cf_iso", "isoer", "Kapı pervazında dışa itme", "Dirseğiniz 90 derece 
 
 CF_FAQ = [
  ("Röntgende kireç çıktı; ağrımın nedeni bu mu?", "Her zaman değil. Belirtisi olmayan yetişkinlerin yaklaşık %8’inde de omuz tendonlarında kireç birikimi görülebiliyor. Bu yüzden röntgendeki kireç tek başına ağrının nedenini göstermez; muayeneyle birlikte değerlendirilmesi gerekir."),
- ("Kireç kendiliğinden kaybolur mu?", "Çoğu kireç birikimi zamanla kendiliğinden kaybolur. Şiddetli ağrı çoğu zaman birkaç hafta içinde yatışır, ama kirecin tamamen erimesi 9 ay ya da daha uzun sürebilir; bu sürede daha hafif bir ağrı devam edebilir."),
+ ("Kireç kendiliğinden kaybolur mu?", "Çoğu kireç birikimi zamanla kendiliğinden kaybolur. Şiddetli ağrı çoğu zaman birkaç hafta içinde yatışır, ama kirecin tamamen erimesi 9 aya kadar, bazen daha uzun sürebilir; bu sürede daha hafif bir ağrı devam edebilir."),
  ("Ağrı neden birdenbire bu kadar şiddetlendi?", "Ani ve çok şiddetli ağrı çoğu zaman vücudun kireci emmeye başladığı dönemde ortaya çıkar. Yani bu evre ne kadar zorlu olsa da çoğu zaman iyileşmenin bir parçasıdır."),
- ("Hangi tedaviler var?", "İlk adım ağrı kontrolü ve kolu ağrının izin verdiği kadar hareketli tutmaktır. Ağrı yatışmazsa hekiminiz kortizon iğnesi, ultrason eşliğinde kirecin iğneyle parçalanıp yıkanması (lavaj) ya da şok dalga tedavisi önerebilir. Bir derlemede lavajın şok dalgaya ve tek başına kortizona göre daha etkili olabileceği bulundu, ancak kanıtların kalitesi düşük. Ameliyat, başka yöntemlerle kontrol edilemeyen ağrının olduğu nadir durumlara ayrılır. Diğer tedavilere rağmen ağrısı süren 48 hastayla yapılan randomize bir çalışmada, lavaja ek olarak kortizon iğnesi yapılanlar 1 yılın sonunda yalnızca kortizon iğnesi yapılanlardan daha fazla iyileşti ve komplikasyon riski düşüktü."),
+ ("Hangi tedaviler var?", "İlk adım ağrı kontrolü ve kolu ağrının izin verdiği kadar hareketli tutmaktır. Ağrı yatışmazsa hekiminiz kortizon iğnesi, ultrason eşliğinde kirecin iğneyle parçalanıp yıkanması (lavaj) ya da şok dalga tedavisi önerebilir. Üç çalışmayı inceleyen bir derlemede lavajın şok dalga tedavisine, kortizonla birlikte yapılan lavajın da yalnızca kortizon iğnesine göre daha etkili olabileceği bulundu; ancak kanıtların kalitesi düşük. Ameliyat, başka yöntemlerle kontrol edilemeyen ağrının olduğu nadir durumlara ayrılır. Diğer tedavilere rağmen ağrısı süren 48 hastayla yapılan randomize bir çalışmada, lavaja ek olarak kortizon iğnesi yapılanlar 1 yılın sonunda yalnızca kortizon iğnesi yapılanlardan daha fazla iyileşti ve komplikasyon riski düşüktü."),
  ("Askı kullanmalı mıyım?", "Askıyı yalnızca rahatlamak için kısa süre kullanın ve mümkün olan en kısa sürede bırakın. Omzunuzu ağrıyı artırmadan hareket ettirmek tutukluğu önler. Uyurken yastıklarla desteklenmiş yarı oturur bir pozisyon daha rahat olabilir."),
 ]
 
@@ -35,7 +35,7 @@ CF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuzda kireç birikmesi (kalsifik tendinit)</h1>
     <p class="lede">Omzunuzda birdenbire başlayan, geceleri uyutmayan şiddetli bir ağrı mı var, röntgende “kireç” mi görüldü? Omzu çevreleyen tendonlarda kalsiyum birikmesine kalsifik tendinit denir. Ağrı çok yoğun olabilir, ama ciddi ya da zararlı bir durum değildir; çoğu kireç birikimi zamanla kendiliğinden kaybolur.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 4 Kasım 2026</p>
   </div>
 </header>
 
@@ -45,7 +45,7 @@ CF_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>30–60 yaş</b><span>En sık görüldüğü dönem; kadınlarda biraz daha sık</span></div>
         <div class="stat"><b>Birkaç hafta</b><span>Şiddetli ağrının çoğu zaman yatıştığı süre</span></div>
-        <div class="stat"><b>9 ay</b><span>Kirecin tamamen erimesi bu kadar ya da daha uzun sürebilir</span></div>
+        <div class="stat"><b>9 aya kadar</b><span>Kirecin tamamen erimesi bu kadar, bazen daha uzun sürebilir</span></div>
         <div class="stat"><b>%8</b><span>Belirtisi olmayan yetişkinlerde de görülen kireç birikimi oranı (yaklaşık)</span></div>
       </div>
     </div>
@@ -77,7 +77,7 @@ CF_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Neler iyi gelir?</h2>
       <div class="kinds">
-        <div class="kind"><span class="n">1</span><h3>Ağrıyı kontrol edin</h3><p>Hekiminize danışarak ağrı kesici ya da iltihap giderici ilaç kullanabilirsiniz. Buz uygulaması da ağrıyı hafifletebilir.</p></div>
+        <div class="kind"><span class="n">1</span><h3>Ağrıyı kontrol edin</h3><p>Ağrı kesici ya da iltihap giderici ilaç gerekip gerekmediğine hekiminiz karar verir. Buz uygulaması ağrıyı hafifletebilir.</p></div>
         <div class="kind"><span class="n">2</span><h3>Yükü azaltın</h3><p>İlk birkaç hafta işleri biraz hafifletin, ağrıyı artıran hareketleri değiştirin.</p></div>
         <div class="kind"><span class="n">3</span><h3>Kolu hareketli tutun</h3><p>Omzunuzu ağrının izin verdiği kadar hareket ettirin; bu tutukluğu önler. Askıyı yalnızca kısa süre, rahatlamak için kullanın.</p></div>
         <div class="kind"><span class="n">4</span><h3>Adım adım güçlenin</h3><p>Şiddetli ağrı yatıştıktan sonra esneme ve güçlendirme egzersizlerine geçin. Belirtiler sürerse fizyoterapi destek olabilir.</p></div>

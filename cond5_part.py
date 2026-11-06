@@ -52,7 +52,7 @@ LS_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Dar kanal (lomber spinal stenoz)</h1>
     <p class="lede">Dar kanal, belde sinirlerin geçtiği kanalın yaşla birlikte daralmasıdır. En tipik belirtisi, ayakta durunca ve yürüyünce kalçalara ve bacaklara yayılan, oturunca ya da öne eğilince hafifleyen ağrı ve uyuşmadır. Çoğu kişide şikâyetler yıllar içinde kötüleşmez; ilk tedavi egzersiz, aktiviteyi ayarlama ve ağrı kontrolüdür.</p>
-    <p class="meta">Son güncelleme: 2 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
 
@@ -98,8 +98,8 @@ LS_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Ameliyat mı, fizyoterapi mi?</h2>
-      <p class="soft">2022'de JAMA dergisinde yayımlanan derlemeye göre ilk tedavi aktiviteyi ayarlama, ağrı kontrolü ve fizyoterapidir. ABD'de ortalama 72 yaşındaki 259 hastayla yapılan bir çalışmada, manuel terapiyle birlikte kişiye özel egzersiz programı 2. ayda şikâyetleri ve yürüme kapasitesini ilaç tedavisinden ve grup egzersizinden daha fazla iyileştirdi. 6. ayda gruplar arasında fark kalmadı; üç grupta da yürüme mesafesi başlangıca göre artmıştı.</p>
-      <p class="soft">Ameliyat adayı 169 hastanın ameliyat (dekompresyon) ya da standart bir fizyoterapi programına ayrıldığı bir başka çalışmada, 2 yılın sonunda fiziksel işlev açısından iki grup arasında anlamlı fark bulunmadı; ancak fizyoterapi grubundaki hastaların önemli bir bölümü bu süre içinde ameliyat oldu. Beş çalışmayı (643 hasta) inceleyen Cochrane derlemesi, ameliyatın mı ameliyatsız tedavinin mi daha iyi olduğu konusunda kesin bir sonuca varılamayacağını belirtiyor; ameliyat edilenlerin %10–24'ünde komplikasyon görülürken ameliyatsız tedavilerde yan etki bildirilmedi.</p>
+      <p class="soft">2022'de JAMA dergisinde yayımlanan derlemeye göre ilk tedavi aktiviteyi ayarlama, ağrı kontrolü ve fizyoterapidir. ABD'de ortalama 72 yaşındaki 259 hastayla yapılan bir çalışmada, manuel terapiyle birlikte kişiye özel egzersiz programı 2. ayda şikâyetleri ve yürüme kapasitesini ilaç ya da epidural iğne uygulamasından oluşan tıbbi tedaviden ve grup egzersizinden daha fazla iyileştirdi. 6. ayda gruplar arasında fark kalmadı; üç grupta da yürüme mesafesi başlangıca göre artmıştı.</p>
+      <p class="soft">Ameliyat adayı 169 hastanın ameliyat (dekompresyon) ya da standart bir fizyoterapi programına ayrıldığı bir başka çalışmada, 2 yılın sonunda fiziksel işlev açısından iki grup arasında anlamlı fark bulunmadı; ancak fizyoterapi grubundaki hastaların yarısından fazlası (%57) bu süre içinde ameliyat oldu. Beş çalışmayı (643 hasta) inceleyen Cochrane derlemesi, ameliyatın mı ameliyatsız tedavinin mi daha iyi olduğu konusunda kesin bir sonuca varılamayacağını belirtiyor; ameliyat edilenlerin %10–24'ünde komplikasyon görülürken ameliyatsız tedavilerde yan etki bildirilmedi.</p>
       <div class="callout">
         <p>Bu yüzden karar kişiye özeldir. Çoğu hastada önce düzenli bir egzersiz programı denenir. Buna rağmen ağrısı süren ve günlük hayatı belirgin şekilde kısıtlanan hastalarda ameliyat bir seçenektir ve omurga cerrahınca değerlendirilir. Bacaklarda ilerleyen güçsüzlük ya da idrar ve dışkı kontrolünde bozulma varsa beklenmez.</p>
       </div>

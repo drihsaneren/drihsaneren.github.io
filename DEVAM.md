@@ -82,7 +82,6 @@ Sonra `$REPO` içinde commit + push (main). Araçlarda değişiklik yaptıysan b
 ## Bekleyen işler
 
 - MS sayfası (4 Ekim 2026) videosuz: YouTube sayfaları okunamadığı için kanal doğrulanamadı. Uygun, kanalı doğrulanmış MS egzersiz videosu bulunursa `cond6_part.py`'ye `#videolar` bölümü eklenebilir.
-- Dar kanal sayfası (2 Ekim 2026): Delitto 2015 çalışmasında fizyoterapi grubundan ameliyata geçenlerin tam oranı kaynaktan doğrulanamadı; sayfada rakamsız ("önemli bir bölümü") yazıldı. Doğrulanınca rakam eklenebilir.
 - Google Takvim "Appointment schedule" yerleştirme kodu gelince `fb_book.py` içindeki `data-embed=""` doldurulacak (30 dk).
 - Armut.com yorumları (profil bağlantısı bekleniyor). Gerçek fotoğraflar (özellikle iğneleme karesi yerine).
 - LinkedIn için 1200×627 paylaşım görseli önerildi.
@@ -820,5 +819,20 @@ Ayrıntılar DENETIM.md'de. Önemli: cochrane.org/evidence/<CD> sayfalarında sa
 
 1 Kasım 2026 (2): genişletme partisi 5 — diz önü ağrısı, aşil tendinopatisi, boyun fıtığı; yayından önce bağımsız denetim, bulgular kaynağından doğrulandı (DENETIM.md). Ortak "Ne zaman hemen başvurmalı?" başlığı kademeli listelerle uyumsuz kalıyor — site geneli karar adayı. Çeviri tur44. Sonraki batch: tur45. Önerilen sıradaki parti: fibromiyalji, baş ağrısı, kalça yan ağrısı (ya da omuz çıkığı, on çapraz bağ).
 
-6 Kasım 2026: genişletme partisi 6 — kalça yan ağrısı, fibromiyalji (DENETIM.md). Çeviri tur45. Sonraki batch: tur46. Hazır taslak betikler (denetim/taslak/acl.py, ha.py; uygulanmadı): ön çapraz bağ (Benjaminse 2006 Lachman %85/%94, pivot %98/%24; tarihçe D'Ambrosi 2023 ATM), baş ağrısı (ICHD-3 2.2 ve 11.2.1 ölçütleri, NICE CG150 halk sayfası, JOSPT 2017 baş ağrılı boyun ağrısı — dereceler doğrulanamadı, yazılmadı). Sonraki aday: dar kanal.
+## 2 Kasım 2026 — günlük denetim (KOAH, büyüme ağrıları, bebeklerde tortikolis)
+Ayrıntılar DENETIM.md'de. Tortikolis "Başı çevirme" çizimi (cond60_part.py tor_rot) sol taraflı örneğe göre aynalandı. Çeviri tur45. Sonraki batch: tur46.
+
+## 3 Kasım 2026 — günlük denetim (Sever hastalığı, Osgood-Schlatter, eklem hipermobilitesi)
+Ayrıntılar DENETIM.md'de. Önemli: Ehlers-Danlos Society yeni hEDS/HSD tanı çerçevesini 1 Aralık 2026'da yayımlayacak; eklem hipermobilitesi sayfası o tarihten sonra yeniden denetlenmeli. Çeviri tur46. Sonraki batch: tur47.
+Aynı gün kullanıcı onayıyla: Sever'e çocuğa özgü uyarı işaretleri, hipermobiliteye yeni ölçüt notu (tur47). Kalan sorular da onaylandı ve uygulandı (tur48). Sonraki batch: tur49.
+
+## 4 Kasım 2026 — günlük denetim (diyabetik nöropati, huzursuz bacak, omuzda kireç birikmesi)
+Ayrıntılar DENETIM.md'de. Omuzda kireç birikmesindeki "ilaç kullanabilirsiniz" cümlesi kural kalıbına çevrildi. Çeviri tur49. Sonraki batch: tur50.
+
+## 5 Kasım 2026 — günlük denetim (fibromiyalji, titreme, yüz felci)
+Ayrıntılar DENETIM.md'de. Önemli: 2014 GETAT yönetmeliği 28 Nisan 2026 (RG 33237) yönetmeliğiyle yürürlükten kalktı; `ACU_LAW` cümlesi ve titremedeki künye Ek-2 okunup kullanıcı onayı alınınca güncellenecek (soruldu). Cochrane bağlantılarının eski CDxxxx/GRUP_ biçimi yerine cochrane.org/evidence/CDxxxx_… kullanın. Çeviri tur50. Sonraki batch: tur51.
+
+## 6 Kasım 2026 — günlük denetim (düşmeleri önleme, kalça kırığı, dar kanal)
+Ayrıntılar DENETIM.md'de. Delitto %57 (PEDro 42343) doğrulandı ve sayfaya yazıldı; "Bekleyen işler"deki dar kanal maddesi kapandı. Düşme sayfasının tarihi artık sabit metin. Not: t_ls.py'nin ilk bağımsız değişkeni görüntü dizinidir (shots6); $REPO verilirse ekran görüntüleri main'e düşer. Çeviri tur51. Sonraki batch: tur52.
+6 Kasım 2026: genişletme partisi 6 — kalça yan ağrısı, fibromiyalji (DENETIM.md). Çeviri tur52. Sonraki batch: tur53. Not: günlük zamanlanmış denetim de i18n tur numaralarını kullanıyor; yeni partiden önce i18n/done içindeki en büyük numaraya bakın. Hazır taslak betikler (denetim/taslak/acl.py, ha.py; uygulanmadı): ön çapraz bağ (Benjaminse 2006 Lachman %85/%94, pivot %98/%24; tarihçe D'Ambrosi 2023 ATM), baş ağrısı (ICHD-3 2.2 ve 11.2.1 ölçütleri, NICE CG150 halk sayfası, JOSPT 2017 baş ağrılı boyun ağrısı — dereceler doğrulanamadı, yazılmadı). Sonraki aday: dar kanal.
 
