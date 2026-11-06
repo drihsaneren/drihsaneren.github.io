@@ -1,0 +1,547 @@
+[
+ {
+  "id": "tur53-0",
+  "kind": "attr",
+  "tr": "Ön çapraz bağ yırtığı nedir, nasıl tanınır, her yırtık ameliyat gerektirir mi? Rehabilitasyonla ameliyatı karşılaştıran çalışmalar, kısa tarihçe, spora dönüş ölçütleri, evde altı egzersiz ve uyarı işaretleri."
+ },
+ {
+  "id": "tur53-1",
+  "kind": "text",
+  "tr": "Bir çalışmada spora dönüşü bu süreye kadar ertelemek yeniden yaralanma riskini azalttı"
+ },
+ {
+  "id": "tur53-2",
+  "kind": "text",
+  "tr": "Önleme egzersiz programlarıyla ön çapraz bağ yaralanmalarındaki azalma (verilerin çoğu kadın sporculardan)"
+ },
+ {
+  "id": "tur53-3",
+  "kind": "text",
+  "tr": "Dizin içinde çapraz duran iki bağdan öndekisi olan ön çapraz bağ, kaval kemiğinin öne kaymasını ve diz dönerken boşalmasını engeller. Yaralanmaların çoğu kimseyle çarpışmadan olur: koşarken aniden durmak, ayak yerdeyken gövdeyi döndürmek ya da sıçrayıp diz içe çökerek yere inmek."
+ },
+ {
+  "id": "tur53-4",
+  "kind": "text",
+  "tr": "Bağ kısmen ya da tamamen yırtılabilir; menisküs ve diğer bağlar da birlikte zarar görebilir. Tanı çoğunlukla öykü ve muayeneyle konur; MR tanıyı doğrulamaya ve eşlik eden yaralanmaları görmeye yardımcı olur."
+ },
+ {
+  "id": "tur53-5",
+  "kind": "text",
+  "tr": "Tanı öykü ve muayeneyle konur. 28 çalışmayı birleştiren bir meta-analiz (JOSPT, 2006), muayene testlerinin doğruluğunu karşılaştırdı. Bu testler hekim ya da fizyoterapist tarafından yapılır."
+ },
+ {
+  "id": "tur53-6",
+  "kind": "text",
+  "tr": "Lachman testi"
+ },
+ {
+  "id": "tur53-7",
+  "kind": "text",
+  "tr": "Diz hafif bükülüyken kaval kemiği öne doğru çekilir. Yırtıkların yaklaşık %85'ini yakalıyor (duyarlılık), sağlam bağda büyük olasılıkla olumsuz çıkıyor (özgüllük %94); yazarlar bu testi en geçerli test olarak öneriyor."
+ },
+ {
+  "id": "tur53-8",
+  "kind": "text",
+  "tr": "Pivot shift testi"
+ },
+ {
+  "id": "tur53-9",
+  "kind": "text",
+  "tr": "Olumlu çıktığında yırtığı güçlü şekilde destekliyor (özgüllük %98), ama yırtıkların ancak dörtte birini yakalıyor (duyarlılık %24); olumsuz çıkması yırtığı dışlamaz."
+ },
+ {
+  "id": "tur53-10",
+  "kind": "text",
+  "tr": "Ön çekmece testi ve MR"
+ },
+ {
+  "id": "tur53-11",
+  "kind": "text",
+  "tr": "Ön çekmece testi eski yaralanmalarda iyi sonuç veriyor (duyarlılık %92, özgüllük %91), yeni yaralanmalarda ise zayıf kalıyor. MR, menisküs ve diğer bağlar gibi eşlik eden yaralanmaları gösterir."
+ },
+ {
+  "id": "tur53-12",
+  "kind": "text",
+  "tr": "Bu yüzden karar kişiye özeldir. Yaralanmadan hemen sonra kimin ameliyatsız iyi olacağını kesin söylemek mümkün değildir; birkaç aylık iyi bir rehabilitasyon bunu netleştirmeye yardımcı olur. Dönme ve sıçrama içeren sporlara dönmek isteyenlerde, rehabilitasyona rağmen dizi boşalmaya devam edenlerde ve menisküs gibi eşlik eden yaralanması olanlarda ameliyat daha sık önerilir. Kararı ortopedi hekiminizle birlikte verebilirsiniz."
+ },
+ {
+  "id": "tur53-13",
+  "kind": "text",
+  "tr": "Dikişten yeniden yapıma, ameliyattan kişiye özel karara"
+ },
+ {
+  "id": "tur53-14",
+  "kind": "text",
+  "tr": "Ön çapraz bağ cerrahisi yüz yılı aşkın sürede dikişten kiriş parçasıyla yeniden yapıma ve artroskopiye uzandı. Son on beş yılın çalışmaları ise her yırtığın ameliyat gerektirmediğini ve spora dönüşte ölçümün önemini gösterdi."
+ },
+ {
+  "id": "tur53-15",
+  "kind": "text",
+  "tr": "Stark, çapraz bağ yırtığı olan iki hastayı anlatan bir yazı yayımladı; iki hasta da ameliyatsız tedavi edilmişti."
+ },
+ {
+  "id": "tur53-16",
+  "kind": "text",
+  "tr": "Mayo Robson, yırtık çapraz bağları uyluk kemiğine dikerek ilk başarılı onarımı yaptı (1903'te yayımlandı)."
+ },
+ {
+  "id": "tur53-17",
+  "kind": "text",
+  "tr": "Hey-Groves, bağın yerine uyluğun dış yanındaki zar dokusundan (fasya lata) alınan bir parçayla yeniden yapım tarif etti."
+ },
+ {
+  "id": "tur53-18",
+  "kind": "text",
+  "tr": "Jones, diz kapağı kirişinin orta üçte birini kemik parçasıyla birlikte kullanan yöntemi tarif etti; bugünkü kemik-kiriş-kemik greftlerinin öncüsü oldu."
+ },
+ {
+  "id": "tur53-19",
+  "kind": "text",
+  "tr": "Artroskopinin yaygınlaşmasıyla ameliyat küçük kesilerle yapılmaya başlandı."
+ },
+ {
+  "id": "tur53-20",
+  "kind": "text",
+  "tr": "28 çalışmayı birleştiren bir meta-analiz (JOSPT): Lachman testi ön çapraz bağ yırtığını göstermede en geçerli muayene testi olarak öne çıktı."
+ },
+ {
+  "id": "tur53-21",
+  "kind": "text",
+  "tr": "121 genç ve aktif yetişkinle yapılan çalışmanın 5 yıllık sonuçları (BMJ): erken ameliyat ile önce rehabilitasyon, gerekirse sonradan ameliyat arasında fark yoktu; rehabilitasyonla başlayanların %51'i ameliyat olmuştu."
+ },
+ {
+  "id": "tur53-22",
+  "kind": "text",
+  "tr": "69 çalışmayı (7.556 kişi) birleştiren derleme (BJSM): ameliyat olanların %81'i bir spora, %65'i yaralanma öncesi düzeyine, %55'i yarışma düzeyinde spora döndü."
+ },
+ {
+  "id": "tur53-23",
+  "kind": "text",
+  "tr": "Delaware-Oslo izlem çalışması (BJSM): spora dönüş ölçütlerini geçemeden dönenlerin %38'i dizini yeniden yaraladı, geçenlerde bu oran %5,6 idi (fark istatistiksel olarak kesinleşmedi); dönüşün her ay ertelenmesi ilk 9 ayda yeniden yaralanma oranını %51 azalttı."
+ },
+ {
+  "id": "tur53-24",
+  "kind": "text",
+  "tr": "Sekiz meta-analizin ortak sonucu (J Orthop Res): önleme egzersiz programları ön çapraz bağ yaralanmalarını yaklaşık yarı yarıya azaltıyor; kadınlarda temassız yaralanmalardaki azalma yaklaşık üçte iki."
+ },
+ {
+  "id": "tur53-25",
+  "kind": "text",
+  "tr": "167 hastalık COMPARE çalışması (BMJ): erken ameliyat 2. yılda diz puanını biraz daha yükseltti, ama fark klinik açıdan önemli bulunmadı; rehabilitasyonla başlayanların yarısı ameliyat olmadı."
+ },
+ {
+  "id": "tur53-26",
+  "kind": "text",
+  "tr": "Yaralanmanın üzerinden zaman geçmiş ve dizi boşalan 316 hastayla yapılan ACL SNNAP çalışması (Lancet): ameliyat 18. ayda rehabilitasyondan daha iyi sonuç verdi."
+ },
+ {
+  "id": "tur53-27",
+  "kind": "text",
+  "tr": "Çalışmalar yan yana"
+ },
+ {
+  "id": "tur53-28",
+  "kind": "text",
+  "tr": "Bu sayfada sözü edilen çalışmaların temel bulguları. Sonuçlar yaralanmanın ne kadar yeni olduğuna, dizin boşalıp boşalmadığına ve kişinin hedeflerine göre değişiyor; karar kişiye özeldir."
+ },
+ {
+  "id": "tur53-29",
+  "kind": "text",
+  "tr": "Yeni yaralanma"
+ },
+ {
+  "id": "tur53-30",
+  "kind": "text",
+  "tr": "KANON (BMJ, 2013)"
+ },
+ {
+  "id": "tur53-31",
+  "kind": "text",
+  "tr": "121 kişi, 5 yıl: erken ameliyat ile önce rehabilitasyon arasında diz şikâyetleri ve işlevi açısından fark yok; rehabilitasyonla başlayanların %51'i ameliyat oldu."
+ },
+ {
+  "id": "tur53-32",
+  "kind": "text",
+  "tr": "COMPARE (BMJ, 2021)"
+ },
+ {
+  "id": "tur53-33",
+  "kind": "text",
+  "tr": "167 hasta, 2 yıl: erken ameliyatta diz puanı biraz daha yüksek (84,7'ye karşı 79,4), fark klinik açıdan önemli değil; rehabilitasyonla başlayanların yarısı ameliyat olmadı."
+ },
+ {
+  "id": "tur53-34",
+  "kind": "text",
+  "tr": "Eski yaralanma, dizi boşalan hasta"
+ },
+ {
+  "id": "tur53-35",
+  "kind": "text",
+  "tr": "ACL SNNAP (Lancet, 2022)"
+ },
+ {
+  "id": "tur53-36",
+  "kind": "text",
+  "tr": "316 hasta, 18 ay: ameliyat rehabilitasyondan daha iyi (diz puanı 73,0'a karşı 64,6); rehabilitasyon grubunun %41'i sonradan ameliyat oldu."
+ },
+ {
+  "id": "tur53-37",
+  "kind": "text",
+  "tr": "Delaware-Oslo (BJSM, 2016)"
+ },
+ {
+  "id": "tur53-38",
+  "kind": "text",
+  "tr": "Ölçütleri geçmeden dönenlerde yeniden yaralanma %38, geçenlerde %5,6 (fark istatistiksel olarak kesinleşmedi); ilk 9 ayda dönüşün her ay ertelenmesi yeniden yaralanma oranını %51 azalttı."
+ },
+ {
+  "id": "tur53-39",
+  "kind": "text",
+  "tr": "Derleme (BJSM, 2014)"
+ },
+ {
+  "id": "tur53-40",
+  "kind": "text",
+  "tr": "%81 bir spora, %65 eski düzeyine, %55 yarışma düzeyinde spora döndü."
+ },
+ {
+  "id": "tur53-41",
+  "kind": "text",
+  "tr": "J Orthop Res (2018)"
+ },
+ {
+  "id": "tur53-42",
+  "kind": "text",
+  "tr": "Sekiz meta-analiz: önleme egzersiz programları yaralanmaları yaklaşık yarı yarıya azaltıyor; verilerin çoğu kadın sporculardan, erkekler için veri yetersiz."
+ },
+ {
+  "id": "tur53-43",
+  "kind": "text",
+  "tr": "Yırtık bağ çoğunlukla dikilmez; yerine hastanın kendi kirişinden (tendonundan) alınan bir parça yerleştirilir. Ameliyat rehabilitasyonun yerini tutmaz; sonrasında da aylar süren bir program gerekir."
+ },
+ {
+  "id": "tur53-44",
+  "kind": "text",
+  "tr": "Yalnızca takvime göre değil, ölçümlere göre de karar verilir. Bir çalışmada kas gücü ve sıçrama testlerini de içeren ölçütleri geçemeden spora dönenlerin %38'i dizini yeniden yaraladı; ölçütleri geçenlerde bu oran %5,6 idi, ancak bu fark istatistiksel olarak kesinleşmedi."
+ },
+ {
+  "id": "tur53-45",
+  "kind": "text",
+  "tr": "Önleme egzersiz programları, sekiz meta-analizin ortak sonucuna göre ön çapraz bağ yaralanmalarını yaklaşık yarı yarıya azaltıyor. Verilerin çoğu kadın sporculardan geliyor; erkekler için veri yetersiz."
+ },
+ {
+  "id": "tur53-46",
+  "kind": "text",
+  "tr": "Dizi yeniden tam açıp bükebilmek için hareketler; ameliyat olduysanız cerrahınızın izin verdiği ölçüde uygulayın."
+ },
+ {
+  "id": "tur53-47",
+  "kind": "text",
+  "tr": "Tam yırtılan bağın eski sağlamlığına kendiliğinden kavuşması genellikle beklenmez. Ancak güçlü uyluk ve kalça kaslarıyla, iyi bir denge kontrolüyle diz, pek çok kişide bağ olmadan da sorunsuz çalışabilir. Çalışmalarda rehabilitasyonla başlayanların yaklaşık yarısı ameliyata gerek duymadı."
+ },
+ {
+  "id": "tur53-48",
+  "kind": "text",
+  "tr": "Bir çalışmada, ilk 9 ay içinde spora dönüş her ay ertelendiğinde yeniden yaralanma oranı %51 azaldı; 9. aydan sonra ek azalma görülmedi. Süre kadar ölçüm de önemlidir: kas gücü ve sıçrama testlerinde sağlam bacağınıza yaklaşmış olmanız gerekir."
+ },
+ {
+  "id": "tur53-49",
+  "kind": "text",
+  "tr": "Hayır. 69 çalışmayı (7.556 kişi) birleştiren derlemede ameliyat olanların %81'i bir spora, %65'i yaralanma öncesindeki düzeyine, %55'i yarışma düzeyinde spora döndü. Genç yaş, sıçrama testlerinde iki bacağın dengeli olması ve dönüşe psikolojik olarak hazır hissetmek yaralanma öncesi düzeye dönme olasılığıyla ilişkili bulundu."
+ },
+ {
+  "id": "tur53-50",
+  "kind": "text",
+  "tr": "Ayakta ya da bacakta uyuşma, soğukluk ya da renk değişikliği"
+ },
+ {
+  "id": "tur53-51",
+  "kind": "text",
+  "tr": "Baldırda şişlik, ağrı ve kızarıklıkla birlikte nefes darlığı ya da göğüs ağrısı (akciğere pıhtı atmış olabilir)"
+ },
+ {
+  "id": "tur53-52",
+  "kind": "text",
+  "tr": "Ameliyattan sonra ateş, yarada akıntı, artan kızarıklık ya da giderek artan ağrı ve şişlik"
+ },
+ {
+  "id": "tur53-53",
+  "kind": "text",
+  "tr": "Yaralanmadan sonra hızla gelişen şişlik ve dizde güvensizlik hissi (bağ yırtığı açısından değerlendirilmesi gerekir)"
+ },
+ {
+  "id": "tur53-54",
+  "kind": "text",
+  "tr": "Rehabilitasyona rağmen dizin tekrar tekrar boşalması"
+ },
+ {
+  "id": "tur53-55",
+  "kind": "attr",
+  "tr": "Gerilim tipi ve boyun kaynaklı baş ağrısı: türleri, tanı ölçütleri, egzersiz ve fizyoterapinin etkisi, kılavuz karşılaştırması, kısa tarihçe, ağrı kesicilerle ilgili uyarılar ve acil başvuru gerektiren belirtiler. Evde altı egzersiz."
+ },
+ {
+  "id": "tur53-56",
+  "kind": "text",
+  "tr": "Baş ağrısı en sık yaşanan sağlık sorunlarından biridir. En yaygın türü olan gerilim tipi baş ağrısında ve boyundan kaynaklanan baş ağrısında egzersiz ve boyuna yönelik fizyoterapi ağrının sıklığını azaltabilir; gerilim tipinde kanıt daha sınırlıdır. Bazı baş ağrıları ise acil değerlendirme gerektirir."
+ },
+ {
+  "id": "tur53-57",
+  "kind": "text",
+  "tr": "Gerilim tipi baş ağrısı kadınlarda erkeklere göre bu oranda daha sık görülür"
+ },
+ {
+  "id": "tur53-58",
+  "kind": "text",
+  "tr": "Ayda bu kadar ve daha fazla gün, 3 aydan uzun süren baş ağrısı kronik kabul edilir"
+ },
+ {
+  "id": "tur53-59",
+  "kind": "text",
+  "tr": "Ağrı kesicilerin uzun süre ve çok sık kullanılması baş ağrısını sürekli (kronik) hâle getirebilir. Bu durumda ilaçların hekim eşliğinde azaltılması gerekir."
+ },
+ {
+  "id": "tur53-60",
+  "kind": "text",
+  "tr": "Tanı ölçütleri (ICHD-3)"
+ },
+ {
+  "id": "tur53-61",
+  "kind": "text",
+  "tr": "Baş ağrısının türü, Uluslararası Baş Ağrısı Derneği'nin sınıflamasına (ICHD-3) göre belirlenir. Tanıyı hekim koyar; aşağıdaki ölçütler türler arasındaki farkı anlamanıza yardımcı olmak içindir."
+ },
+ {
+  "id": "tur53-62",
+  "kind": "text",
+  "tr": "Sık tekrarlayan gerilim tipi"
+ },
+ {
+  "id": "tur53-63",
+  "kind": "text",
+  "tr": "3 aydan uzun süredir ayda ortalama 1–14 gün, en az 10 atak; her atak 30 dakika ile 7 gün arası sürer. Şu dört özellikten en az ikisi: iki taraflı, sıkıştırıcı ya da baskı şeklinde (zonklamayan), hafif ya da orta şiddette, yürüme ya da merdiven çıkma gibi günlük hareketlerle artmayan. Bulantı ya da kusma olmaz; ışığa ya da sese hassasiyetten en fazla biri bulunur."
+ },
+ {
+  "id": "tur53-64",
+  "kind": "text",
+  "tr": "Boyunda baş ağrısına yol açabildiği bilinen bir sorunun muayene ya da görüntülemeyle gösterilmesi ve şunlardan en az ikisi: ağrının boyun sorunuyla birlikte başlaması; boyun sorunu düzeldikçe ağrının da düzelmesi; boyun hareketlerinin kısıtlı olması ve zorlayıcı hareketlerle ağrının belirgin artması; boyundaki bir yapıya ya da sinirine yapılan tanısal uyuşturma (blokaj) sonrasında ağrının geçmesi."
+ },
+ {
+  "id": "tur53-65",
+  "kind": "text",
+  "tr": "Ayırt etmeye yardımcı ipuçları"
+ },
+ {
+  "id": "tur53-66",
+  "kind": "text",
+  "tr": "Hep aynı tarafta olan ağrı, boyun kaslarına bastırınca ya da baş hareketleriyle tanıdık ağrının ortaya çıkması ve ağrının başın arkasından öne doğru yayılması boyun kaynaklı baş ağrısını düşündürür; ancak bu özellikler tek başına tanı koydurmaz."
+ },
+ {
+  "id": "tur53-67",
+  "kind": "text",
+  "tr": "Avustralya'da 5 merkezde boyun kaynaklı baş ağrısı olan 200 kişiyle yapılan bir çalışmada, 6 hafta boyunca uygulanan manuel terapi de, boyun ve kürek kemiği bölgesinde kas kontrolüne yönelik düşük yüklü egzersizler de baş ağrısının sıklığını ve şiddetini kontrol grubuna göre anlamlı şekilde azalttı; etki 12 ay sonra da sürüyordu."
+ },
+ {
+  "id": "tur53-68",
+  "kind": "text",
+  "tr": "Ölçütler ve kılavuzlar"
+ },
+ {
+  "id": "tur53-69",
+  "kind": "text",
+  "tr": "Baş ağrısı türlerinin tanımı uluslararası sınıflamayla netleşti; boyun kaynaklı baş ağrısında egzersiz ve manuel terapinin yeri de son yirmi yılı aşkın sürede yapılan çalışmalarla şekillendi."
+ },
+ {
+  "id": "tur53-70",
+  "kind": "text",
+  "tr": "Boyun kaynaklı baş ağrısı olan 200 kişiyle yapılan çalışmada (Spine) 6 haftalık manuel terapi de, boyun ve kürek kemiği bölgesinde kas kontrolüne yönelik düşük yüklü egzersizler de baş ağrısının sıklığını ve şiddetini kontrol grubuna göre azalttı; etki 12 ay sonra da sürüyordu."
+ },
+ {
+  "id": "tur53-71",
+  "kind": "text",
+  "tr": "İngiltere'nin ulusal sağlık kılavuzu kurumu NICE baş ağrısı kılavuzunu yayımladı: gerilim tipi baş ağrısında opioid önerilmedi; ayda 15 gün ve üzeri süren gerilim tipi baş ağrısında 10 seansa kadar bir akupunktur kürü önerilebileceği belirtildi."
+ },
+ {
+  "id": "tur53-72",
+  "kind": "text",
+  "tr": "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin boyun ağrısı kılavuzu (JOSPT): baş ağrısıyla birlikte boyun ağrısında egzersizlerin ve manuel terapinin yeri tanımlandı."
+ },
+ {
+  "id": "tur53-73",
+  "kind": "text",
+  "tr": "Uluslararası Baş Ağrısı Derneği'nin sınıflamasının 3. baskısı (ICHD-3) yayımlandı; gerilim tipi ve boyun kaynaklı baş ağrısının tanı ölçütleri bugün bu sınıflamaya dayanıyor."
+ },
+ {
+  "id": "tur53-74",
+  "kind": "text",
+  "tr": "Egzersiz türlerini karşılaştıran bir meta-analiz (J Pain): migren ve gerilim tipi baş ağrısında egzersizin etkisi incelendi; gerilim tipi baş ağrısında kuvvet egzersizleri ağrı şiddetini azalttı, ancak kanıtın kesinliği çok düşüktü."
+ },
+ {
+  "id": "tur53-75",
+  "kind": "text",
+  "tr": "İngiltere'nin NICE baş ağrısı kılavuzunun (2012) gerilim tipi baş ağrısı önerileri ile Amerikan Fizyoterapi Derneği'nin boyun ağrısı kılavuzunun (JOSPT, 2017) boyun kaynaklı baş ağrısı önerileri yan yana; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur53-76",
+  "kind": "text",
+  "tr": "Gerilim tipi baş ağrısında ilaç"
+ },
+ {
+  "id": "tur53-77",
+  "kind": "text",
+  "tr": "Hekim bir ağrı kesici önerebilir; opioidler önerilmiyor. 16 yaşın altındakilere aspirin verilmemeli."
+ },
+ {
+  "id": "tur53-78",
+  "kind": "text",
+  "tr": "Hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur53-79",
+  "kind": "text",
+  "tr": "Sık gerilim tipi baş ağrısını önleme"
+ },
+ {
+  "id": "tur53-80",
+  "kind": "text",
+  "tr": "Ayda 15 gün ve üzeri gerilim tipi baş ağrısında 10 seansa kadar bir akupunktur kürü önerilebilir."
+ },
+ {
+  "id": "tur53-81",
+  "kind": "text",
+  "tr": "Türkiye'de akupunkturu yalnızca yetkili hekimler uygulayabilir."
+ },
+ {
+  "id": "tur53-82",
+  "kind": "text",
+  "tr": "Boyun kaynaklı baş ağrısı"
+ },
+ {
+  "id": "tur53-83",
+  "kind": "text",
+  "tr": "Yeni başlayan ağrıda gözetimli aktif hareket egzersizleri önerilir, üst boyun için kendi kendine yapılan hareketlendirme (C1–C2 SNAG) de uygulanabilir; uzun süren ağrıda boyun ya da boyun-sırt manipülasyonu veya mobilizasyonu, omuz kuşağı ve boyun kaslarına germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte."
+ },
+ {
+  "id": "tur53-84",
+  "kind": "text",
+  "tr": "Bu egzersizler özellikle gerilim tipi ve boyun kaynaklı baş ağrısında boyun ve omuz kaslarını güçlendirip gevşetmeye yardım eder. Hareketleri yavaş ve ağrısız aralıkta yapın; baş dönmesi, kollara yayılan uyuşma ya da baş ağrısında belirgin artış olursa bırakın. Çift görme, bulanık görme, konuşma ya da yutma güçlüğü, yüzde uyuşma, dengesizlik ya da bulantı olursa hemen bırakıp hekime başvurun. Yakın zamanda baş ya da boyun darbesi geçirdiyseniz egzersizlere başlamadan önce hekime danışın."
+ },
+ {
+  "id": "tur53-85",
+  "kind": "text",
+  "tr": "Dik oturun, gözleriniz karşıya baksın. Başınızı eğmeden çenenizi düz bir çizgide geriye çekin; ensenizin uzadığını hissedin. 5 saniye tutup bırakın."
+ },
+ {
+  "id": "tur53-86",
+  "kind": "text",
+  "tr": "Avucunuzu alnınıza koyun. Başınızı hareket ettirmeden elinize doğru hafifçe itin, eliniz de karşı koysun. Aynısını başınızın arkası ve iki yanı için tekrarlayın. Gücünüzün en fazla yarısını kullanmanız yeterli."
+ },
+ {
+  "id": "tur53-87",
+  "kind": "text",
+  "tr": "Sırtı alçak bir sandalyeye oturun, ellerinizi ensenizde birleştirin. Göğsünüzü tavana doğru kaldırarak sırtınızı hafifçe geriye esnetin. Boynunuzu değil sırtınızı esnetin; ellerinizle başınızı öne çekmeyin."
+ },
+ {
+  "id": "tur53-88",
+  "kind": "text",
+  "tr": "Bir elinizle oturduğunuz sandalyenin kenarını tutun. Sağ elinizle tutuyorsanız sol kulağınızı sol omzunuza doğru yavaşça yaklaştırın; boynunuzun yanında hafif bir gerginlik hissedin. Omzunuzu kaldırmayın."
+ },
+ {
+  "id": "tur53-89",
+  "kind": "text",
+  "tr": "Ara sıra kullanım çoğu kişide sorun yaratmaz; hangisinin uygun olduğunu hekiminize sorun. Ancak ağrı kesicileri 3 aydan uzun süre ayda 10–15 gün ya da daha fazla kullanmak, ilaç aşırı kullanımına bağlı baş ağrısına yol açabilir. Bu kadar sık ihtiyaç duyuyorsanız hekiminize başvurun."
+ },
+ {
+  "id": "tur53-90",
+  "kind": "text",
+  "tr": "Egzersiz gerilim tipi baş ağrısına iyi gelir mi?"
+ },
+ {
+  "id": "tur53-91",
+  "kind": "text",
+  "tr": "Kanıt hâlâ zayıf: bir meta-analizde kuvvet egzersizleri ağrı şiddetini orta düzeyde azalttı, ama kanıtın kesinliği çok düşüktü. ABD fizyoterapi kılavuzu ise uzun süren boyun kaynaklı baş ağrısında boyun eklemlerine yönelik manuel tedaviyi boyun ve omuz kuşağı germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte öneriyor."
+ },
+ {
+  "id": "tur53-92",
+  "kind": "text",
+  "tr": "Birkaç dakika içinde en şiddetli düzeye ulaşan, hayatınızın en kötü baş ağrısı"
+ },
+ {
+  "id": "tur53-93",
+  "kind": "text",
+  "tr": "Nöbet (havale) geçirme"
+ },
+ {
+  "id": "tur53-94",
+  "kind": "text",
+  "tr": "Kızarık, ağrılı göz ve görmede bulanıklıkla birlikte baş ağrısı"
+ },
+ {
+  "id": "tur53-95",
+  "kind": "text",
+  "tr": "Aynı gün bir hekime:"
+ },
+ {
+  "id": "tur53-96",
+  "kind": "text",
+  "tr": "50 yaş üstünde şakakta hassasiyet, çiğnerken çenede ağrı ya da yorgunluk veya görme bozukluğuyla birlikte baş ağrısı"
+ },
+ {
+  "id": "tur53-97",
+  "kind": "text",
+  "tr": "Gebelikte ya da doğumdan sonraki haftalarda yeni ya da farklı bir baş ağrısı"
+ },
+ {
+  "id": "tur53-98",
+  "kind": "text",
+  "tr": "50 yaşından sonra ilk kez başlayan ya da giderek kötüleşen baş ağrısı"
+ },
+ {
+  "id": "tur53-99",
+  "kind": "text",
+  "tr": "Kanser öyküsü varken ya da bağışıklığı baskılayan tedavi alırken yeni başlayan baş ağrısı"
+ },
+ {
+  "id": "tur53-100",
+  "kind": "text",
+  "tr": "Öksürme, ıkınma ya da eğilmeyle belirgin artan baş ağrısı"
+ },
+ {
+  "id": "tur53-101",
+  "kind": "text",
+  "tr": "Sabahları kusmayla uyandıran baş ağrısı"
+ },
+ {
+  "id": "tur53-102",
+  "kind": "text",
+  "tr": "Ayağa kalkınca artıp yatınca azalan baş ağrısı"
+ },
+ {
+  "id": "tur53-103",
+  "kind": "text",
+  "tr": "Baş ağrınızın özellikleri ya da sıklığı belirgin şekilde değiştiyse"
+ },
+ {
+  "id": "tur53-104",
+  "kind": "text",
+  "tr": "Ağrı kesicilere ayda 10–15 gün ya da daha fazla ihtiyaç duyuyorsanız"
+ },
+ {
+  "id": "tur53-105",
+  "kind": "text",
+  "tr": "Ayda 15 gün ve üzeri baş ağrısı yaşıyorsanız"
+ },
+ {
+  "id": "tur53-106",
+  "kind": "text",
+  "tr": "Headache Classification Committee of the International Headache Society. <a href=\"https://ichd-3.org/2-tension-type-headache/2-2-frequent-episodic-tension-type-headache/\" target=\"_blank\" rel=\"noopener\">ICHD-3: 2.2 Frequent episodic tension-type headache</a>; <a href=\"https://ichd-3.org/11-headache-or-facial-pain-attributed-to-disorder-of-the-cranium-neck-eyes-ears-nose-sinuses-teeth-mouth-or-other-facial-or-cervical-structure/11-2-headache-attributed-to-disorder-of-the-neck/11-2-1-cervicogenic-headache\" target=\"_blank\" rel=\"noopener\">11.2.1 Cervicogenic headache</a>."
+ },
+ {
+  "id": "tur53-107",
+  "kind": "text",
+  "tr": "NICE. <a href=\"https://www.nice.org.uk/guidance/CG150/ifp/chapter/Treatments-for-tensiontype-headache\" target=\"_blank\" rel=\"noopener\">Treatments for tension-type headache (CG150, information for the public)</a>."
+ },
+ {
+  "id": "tur53-108",
+  "kind": "text",
+  "tr": "Jull G, Trott P, Potter H, et al. <a href=\"https://pubmed.ncbi.nlm.nih.gov/12221344/\" target=\"_blank\" rel=\"noopener\">A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache</a>. Spine. 2002;27(17):1835-1843. Özet: <a href=\"https://ebm.bmj.com/content/8/4/109\" target=\"_blank\" rel=\"noopener\">Evidence-Based Medicine</a>."
+ }
+]
