@@ -1,0 +1,507 @@
+[
+ {
+  "id": "tur45-0",
+  "kind": "attr",
+  "tr": "Fibromiyalji nedir, nasıl tanınır, nasıl tedavi edilir? Güçlü öneri alan tek tedavi olan egzersize nasıl başlanır? 2016 tanı ölçütleri, EULAR ve NICE karşılaştırması, kısa tarihçe, evde altı egzersiz, tai chi videosu ve uyarı işaretleri."
+ },
+ {
+  "id": "tur45-1",
+  "kind": "text",
+  "tr": "Vücudun birçok yerinde süren yaygın ağrı, yorgunluk ve dinlendirmeyen uykuyla seyreden bir durumdur. Ağrı gerçektir; fibromiyalji kaslarda ya da eklemlerde hasar yapmaz, sinir sisteminin ağrıyı işleme biçiminin değiştiği düşünülmektedir. Tedavide en güçlü kanıta sahip yöntem egzersizdir."
+ },
+ {
+  "id": "tur45-2",
+  "kind": "text",
+  "tr": "Toplumda fibromiyalji görülme sıklığı (yaklaşık %1,8); kadınlarda çok daha sık"
+ },
+ {
+  "id": "tur45-3",
+  "kind": "text",
+  "tr": "Avrupa Romatoloji Birliği'nin (EULAR) önerilerinde güçlü öneri alan tek tedavi"
+ },
+ {
+  "id": "tur45-4",
+  "kind": "text",
+  "tr": "Tanı ölçütleri"
+ },
+ {
+  "id": "tur45-5",
+  "kind": "text",
+  "tr": "Tanı, belirtilerin en az 3 aydır sürmesine, yaygın ağrının ve eşlik eden belirtilerin muayenede değerlendirilmesine dayanır. Benzer belirtilere yol açabilecek hastalıklar (tiroit hastalıkları, romatizmal hastalıklar, vitamin eksiklikleri gibi) muayene ve gerekirse kan testleriyle araştırılır. Ancak 2016'da güncellenen tanı ölçütlerine göre fibromiyalji başka bir hastalıkla birlikte de bulunabilir; başka bir tanının olması fibromiyalji tanısını geçersiz kılmaz. Tanıyı koyduracak tek bir kan testi ya da görüntüleme yoktur."
+ },
+ {
+  "id": "tur45-6",
+  "kind": "text",
+  "tr": "Kısa süren sabah tutukluğu"
+ },
+ {
+  "id": "tur45-7",
+  "kind": "text",
+  "tr": "Tanı ölçütleri (2016)"
+ },
+ {
+  "id": "tur45-8",
+  "kind": "text",
+  "tr": "Fibromiyaljiyi gösteren tek bir kan testi ya da görüntüleme yoktur; tanı belirtilerin birlikte değerlendirilmesiyle konur. 2016'da yeniden düzenlenen ölçütler iki ölçek kullanır."
+ },
+ {
+  "id": "tur45-9",
+  "kind": "text",
+  "tr": "Yaygın Ağrı İndeksi"
+ },
+ {
+  "id": "tur45-10",
+  "kind": "text",
+  "tr": "Vücuttaki 19 bölgeden kaçında ağrı olduğunu sayar (0–19 puan)."
+ },
+ {
+  "id": "tur45-11",
+  "kind": "text",
+  "tr": "Belirti Şiddeti Ölçeği"
+ },
+ {
+  "id": "tur45-12",
+  "kind": "text",
+  "tr": "Yorgunluk, dinlendirmeyen uyku ve dikkat ya da bellek güçlüğü gibi belirtilerin şiddetini puanlar (0–12 puan)."
+ },
+ {
+  "id": "tur45-13",
+  "kind": "text",
+  "tr": "Tanı için"
+ },
+ {
+  "id": "tur45-14",
+  "kind": "text",
+  "tr": "Yaygın Ağrı İndeksi 7 ya da üzeri ve Belirti Şiddeti 5 ya da üzeri, veya Yaygın Ağrı İndeksi 4–6 ve Belirti Şiddeti 9 ya da üzeri; 5 vücut bölgesinden en az 4'ünde ağrı; belirtilerin en az 3 aydır sürmesi. Tanı başka hastalıkların varlığından bağımsız konabilir."
+ },
+ {
+  "id": "tur45-15",
+  "kind": "text",
+  "tr": "Ölçütler bir yol gösterici çerçevedir; benzer belirtilere yol açabilecek başka hastalıkların araştırılması ve tanı hekim tarafından yapılır."
+ },
+ {
+  "id": "tur45-16",
+  "kind": "text",
+  "tr": "13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesinde aerobik egzersiz muhtemelen yaşam kalitesini iyileştirdi; ağrıyı ve günlük işlevi de bir miktar iyileştirebileceği görüldü (kanıtın kesinliği düşük ile orta arasında). ABD'de 226 fibromiyalji hastasıyla yapılan bir çalışmada ise haftada bir ya da iki kez yapılan tai chi, aerobik egzersiz kadar ya da daha fazla fayda sağladı; tai chi'yi 24 hafta sürdürenler 12 hafta yapanlardan daha fazla yarar gördü; haftada iki kez yapmak bir kez yapmaya göre belirgin ek yarar sağlamadı."
+ },
+ {
+  "id": "tur45-17",
+  "kind": "text",
+  "tr": "\"Fibrositis\"ten bugüne"
+ },
+ {
+  "id": "tur45-18",
+  "kind": "text",
+  "tr": "Yaygın kas ağrısı yüz yılı aşkın süredir tanımlanıyor; zamanla hem adı hem de tanı ölçütleri değişti. Son yirmi yılın çalışmaları ise tedavide egzersizin yerini netleştirdi."
+ },
+ {
+  "id": "tur45-19",
+  "kind": "text",
+  "tr": "Gowers, kaslarda iltihap olduğu düşüncesiyle bu tür yaygın ağrılar için \"fibrositis\" terimini kullandı; sonraki doku incelemeleri bu iltihabı doğrulamadı."
+ },
+ {
+  "id": "tur45-20",
+  "kind": "text",
+  "tr": "\"Fibromiyalji\" terimi Hench tarafından kullanıldı; ilk tanı ölçütleri 1977'de ve 1981'de önerildi."
+ },
+ {
+  "id": "tur45-21",
+  "kind": "text",
+  "tr": "Amerikan Romatoloji Koleji'nin (ACR) ölçütleri: yaygın ağrıyla birlikte vücuttaki 18 hassas noktanın en az 11'inde basınçla ağrı. Bu ölçütler resmî tanınırlık için önemli bir adımdı, ama sonra günlük kullanımda pratik olmadığı için eleştirildi."
+ },
+ {
+  "id": "tur45-22",
+  "kind": "text",
+  "tr": "ACR'nin yeni ölçütleri hassas nokta muayenesinin yerine Yaygın Ağrı İndeksi'ni ve Belirti Şiddeti Ölçeği'ni getirdi."
+ },
+ {
+  "id": "tur45-23",
+  "kind": "text",
+  "tr": "Ölçütler yeniden düzenlendi: 5 bölgeden en az 4'ünde ağrı aranıyor ve tanı başka hastalıkların varlığından bağımsız konabiliyor."
+ },
+ {
+  "id": "tur45-24",
+  "kind": "text",
+  "tr": "Avrupa Romatoloji Birliği (EULAR), 12 Avrupa ülkesinden uzmanlarla 107 sistematik derlemeyi inceleyerek önerilerini güncelledi: güçlü öneri alan tek tedavi egzersiz oldu."
+ },
+ {
+  "id": "tur45-25",
+  "kind": "text",
+  "tr": "13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesi: aerobik egzersiz muhtemelen yaşam kalitesini iyileştirdi; ağrıyı ve günlük işlevi de bir miktar iyileştirebileceği görüldü (kanıtın kesinliği düşük ile orta arasında)."
+ },
+ {
+  "id": "tur45-26",
+  "kind": "text",
+  "tr": "226 kişiyle yapılan çalışmada (BMJ) tai chi, aerobik egzersiz kadar ya da daha fazla yarar sağladı."
+ },
+ {
+  "id": "tur45-27",
+  "kind": "text",
+  "tr": "İngiltere'nin ulusal sağlık kılavuzu kurumu NICE, fibromiyaljinin de dahil olduğu kronik birincil ağrı kılavuzunu yayımladı: gözetimli grup egzersiz programı önerildi; TENS, ultrason ve enterferansiyel akım önerilmedi."
+ },
+ {
+  "id": "tur45-28",
+  "kind": "text",
+  "tr": "Şiddetli ağrı ya da uyku sorunu olanlarda hekim bazı ilaçları düşünebilir. Hangisinin uygun olduğunu hekiminize sorun; kullandığınız bir ilacı kendi kendinize bırakmayın."
+ },
+ {
+  "id": "tur45-29",
+  "kind": "text",
+  "tr": "Avrupa Romatoloji Birliği'nin (EULAR) önerileri (Ann Rheum Dis, 2017) ile İngiltere'nin NICE kronik birincil ağrı kılavuzu (2021) yan yana. EULAR önerilerini \"güçlü\" ve \"zayıf\" diye ayırıyor; NICE kılavuzu fibromiyaljiyi kronik birincil ağrının bir türü olarak ele alıyor. Tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur45-30",
+  "kind": "text",
+  "tr": "EULAR"
+ },
+ {
+  "id": "tur45-31",
+  "kind": "text",
+  "tr": "Güçlü öneri alan tek tedavi."
+ },
+ {
+  "id": "tur45-32",
+  "kind": "text",
+  "tr": "Gözetimli grup egzersiz programı önerilmeli."
+ },
+ {
+  "id": "tur45-33",
+  "kind": "text",
+  "tr": "Tai chi, yoga ve qigong (zayıf öneri)."
+ },
+ {
+  "id": "tur45-34",
+  "kind": "text",
+  "tr": "Bilişsel davranışçı terapi, farkındalık temelli uygulamalar ve çok bileşenli programlar (zayıf öneri)."
+ },
+ {
+  "id": "tur45-35",
+  "kind": "text",
+  "tr": "Kabul ve kararlılık terapisi ya da bilişsel davranışçı terapi düşünülebilir."
+ },
+ {
+  "id": "tur45-36",
+  "kind": "text",
+  "tr": "Akupunktur ve su içi tedavi"
+ },
+ {
+  "id": "tur45-37",
+  "kind": "text",
+  "tr": "Akupunktur, su içi ve kaplıca tedavisi (zayıf öneri)."
+ },
+ {
+  "id": "tur45-38",
+  "kind": "text",
+  "tr": "Belirli koşullarda tek bir kür akupunktur ya da kuru iğneleme düşünülebilir."
+ },
+ {
+  "id": "tur45-39",
+  "kind": "text",
+  "tr": "Türkiye'de akupunkturu ve kuru iğnelemeyi yalnızca yetkili hekimler uygulayabilir."
+ },
+ {
+  "id": "tur45-40",
+  "kind": "text",
+  "tr": "Masaj, kayropraktik ve biyogeri bildirim"
+ },
+ {
+  "id": "tur45-41",
+  "kind": "text",
+  "tr": "Masaj ve biyogeri bildirim önerilmiyor (zayıf); kayropraktik güçlü şekilde önerilmiyor."
+ },
+ {
+  "id": "tur45-42",
+  "kind": "text",
+  "tr": "Biyogeri bildirim önerilmiyor."
+ },
+ {
+  "id": "tur45-43",
+  "kind": "text",
+  "tr": "Elektrik ve ses dalgası tedavileri"
+ },
+ {
+  "id": "tur45-44",
+  "kind": "text",
+  "tr": "TENS, ultrason ve enterferansiyel akım, yarar kanıtı olmadığı için önerilmiyor."
+ },
+ {
+  "id": "tur45-45",
+  "kind": "text",
+  "tr": "Şiddetli ağrı ya da uyku sorununda bazı ilaçlar zayıf öneri aldı; güçlü opioidler ve kortizon güçlü şekilde önerilmiyor."
+ },
+ {
+  "id": "tur45-46",
+  "kind": "text",
+  "tr": "Bazı antidepresanlar düşünülebilir; parasetamol, iltihap giderici ağrı kesiciler, opioidler ve gabapentinoidler dahil epilepsi (sara) ilaçlarıyla yeni tedavi başlanmaması öneriliyor."
+ },
+ {
+  "id": "tur45-47",
+  "kind": "text",
+  "tr": "İki kılavuz ilaçlarda farklı sonuçlara varıyor. Hangisinin uygun olduğunu hekiminize sorun; kullandığınız bir ilacı kendi kendinize bırakmayın."
+ },
+ {
+  "id": "tur45-48",
+  "kind": "text",
+  "tr": "Duvara dayalı sağlam bir sandalyenin ön kısmına oturun. Ayağa kalkın ve kontrollü şekilde oturun. Zorlanıyorsanız ellerinizle dizlerinizden ya da kolçaklardan destek alın."
+ },
+ {
+  "id": "tur45-49",
+  "kind": "text",
+  "tr": "Hekim ve tai chi eğitmeni Dr. Paul Lam'in YouTube kanalından. Video İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "tur45-50",
+  "kind": "text",
+  "tr": "Dokuz çalışmayı (395 kişi) inceleyen Cochrane derlemesinde yer alan 58 kişilik tek bir çalışmada antidepresan ve egzersize eklenen akupunktur ağrıyı 100 üzerinden yaklaşık 30 puan azalttı. İğnelerden hafif elektrik verilen akupunktur, sahte uygulamaya göre de ağrıyı bir miktar azalttı; elle yapılan akupunkturda bu fark görülmedi. Etki yaklaşık bir ay sürdü, altıncı ayda korunmadı. Kanıt düzeyi düşük–orta; yan etkiler hafif ve kısa süreliydi."
+ },
+ {
+  "id": "tur45-51",
+  "kind": "text",
+  "tr": "Evet, ama dozu ayarlayarak. İlk haftalarda hafif bir artış olağandır ve vücut alıştıkça genellikle azalır. Ağrı ertesi gün belirgin şekilde artmışsa bir sonraki seansta süreyi ve yoğunluğu azaltın; tamamen bırakmayın. Ağrı birkaç gün içinde azalmıyorsa, şişlik ya da yeni bir ağrı varsa hekiminize ya da fizyoterapistinize danışın."
+ },
+ {
+  "id": "tur45-52",
+  "kind": "text",
+  "tr": "Genellikle uzun süreli bir durumdur ve şikâyetler dönem dönem artıp azalabilir. Düzenli egzersiz, uyku düzeni ve ağrıyla başa çıkma becerileriyle birçok kişide belirtiler hafifleyebilir."
+ },
+ {
+  "id": "tur45-53",
+  "kind": "text",
+  "tr": "Şu durumlar fibromiyalji dışında bir soruna ya da acil bir duruma işaret edebilir."
+ },
+ {
+  "id": "tur45-54",
+  "kind": "text",
+  "tr": "Kendinize zarar verme düşünceleri ya da yoğun umutsuzluk"
+ },
+ {
+  "id": "tur45-55",
+  "kind": "text",
+  "tr": "İdrar ya da dışkı kontrolünde yeni sorun ya da apış arasında uyuşma (bacak belirtisi olsun olmasın)"
+ },
+ {
+  "id": "tur45-56",
+  "kind": "text",
+  "tr": "Yeni başlayan şiddetli baş ağrısı, çene ağrısı ya da görme bozukluğu"
+ },
+ {
+  "id": "tur45-57",
+  "kind": "text",
+  "tr": "Eklemlerde şişlik, kızarıklık ya da sıcaklık"
+ },
+ {
+  "id": "tur45-58",
+  "kind": "text",
+  "tr": "Yeni başlayan uyuşma ya da karıncalanma"
+ },
+ {
+  "id": "tur45-59",
+  "kind": "text",
+  "tr": "50 yaş üstünde yeni başlayan omuz ve kalça çevresinde ağrı ve tutukluk"
+ },
+ {
+  "id": "tur45-60",
+  "kind": "text",
+  "tr": "Bir saatten uzun süren sabah tutukluğu ya da ciltte döküntü"
+ },
+ {
+  "id": "tur45-61",
+  "kind": "text",
+  "tr": "National Institute for Health and Care Excellence. <a href=\"https://nice.org.uk/guidance/ng193/resources/chronic-pain-primary-and-secondary-in-over-16s-assessment-of-all-chronic-pain-and-management-of-chronic-primary-pain-pdf-66142080468421\" target=\"_blank\" rel=\"noopener\">Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain (NG193)</a>. 7 Nisan 2021."
+ },
+ {
+  "id": "tur45-62",
+  "kind": "text",
+  "tr": "<a href=\"https://lin-web.clarkson.edu/~lrussek/2016FMS.pdf\" target=\"_blank\" rel=\"noopener\">2016 fibromyalgia diagnostic criteria (form)</a>. Clarkson University."
+ },
+ {
+  "id": "tur45-63",
+  "kind": "attr",
+  "tr": "Kalçanın dış yanındaki ağrı neden olur, nasıl tanınır? Trokanterik bursit denen ağrıda kortizon iğnesi mi, egzersiz mi daha iyi? Kanıtların karşılaştırması, kısa tarihçe, rahatlatan alışkanlıklar, evde altı egzersiz ve uyarı işaretleri."
+ },
+ {
+  "id": "tur45-64",
+  "kind": "text",
+  "tr": "İğne mi, egzersiz mi?"
+ },
+ {
+  "id": "tur45-65",
+  "kind": "text",
+  "tr": "En sık orta yaşlı kadınlarda görülür ama her yaşta ortaya çıkabilir. Düşme gibi doğrudan bir darbe, kalça kaslarının zayıflığı, uzun süreli yürüyüş ya da koşu ve fazla kilo zemin hazırlayabilir; çoğu zaman da belirgin bir neden bulunmaz."
+ },
+ {
+  "id": "tur45-66",
+  "kind": "text",
+  "tr": "Tanı çoğunlukla öykü ve muayeneyle konur. Kalça yan ağrısı olan 65 kişide muayene testlerinin MR ile karşılaştırıldığı bir çalışma (BJSM, 2017), hangi bulguların yol gösterici olduğunu inceledi. Bu testler fizyoterapist ya da hekim tarafından yapılır."
+ },
+ {
+  "id": "tur45-67",
+  "kind": "text",
+  "tr": "Ağrılı bacağın üzerinde 30 saniye dururken kalçanın yanında ağrı çıkması, kalça yan kirişlerinin sorununu çok olası kılıyordu (özgüllük %100). Ağrı çıkmaması ise sorunu dışlamaz (duyarlılık %38)."
+ },
+ {
+  "id": "tur45-68",
+  "kind": "text",
+  "tr": "Bastırınca hassasiyet"
+ },
+ {
+  "id": "tur45-69",
+  "kind": "text",
+  "tr": "Kalçanın yanındaki kemik çıkıntısına bastırınca ağrı olmaması, kiriş sorununu daha az olası kılıyordu (duyarlılık %80). Hassasiyet olması ise tek başına tanıyı koydurmaz (özgüllük %47)."
+ },
+ {
+  "id": "tur45-70",
+  "kind": "text",
+  "tr": "Ağrı kasıkta hissediliyor ve kalça hareketleri kısıtlanıyorsa <a href=\"kalca-kireclenmesi.html\">kalça kireçlenmesi</a>, belden bacağa yayılan ağrıyla birlikte uyuşma ya da karıncalanma varsa bel kaynaklı bir sorun düşünülür."
+ },
+ {
+  "id": "tur45-71",
+  "kind": "text",
+  "tr": "Avustralya'da yapılan LEAP çalışması bu soruyu doğrudan sınadı. En az üç aydır kalça yan ağrısı olan, MR ile kiriş sorunu doğrulanmış ve ağrısı en az orta şiddette, 35–70 yaş arasındaki 204 kişi üç gruba ayrıldı: sekiz hafta boyunca fizyoterapistle eğitim ve egzersiz, tek bir kortizon iğnesi ya da yalnızca bilgilendirme ve bekleme."
+ },
+ {
+  "id": "tur45-72",
+  "kind": "text",
+  "tr": "\"Bursit\"ten kiriş sorununa"
+ },
+ {
+  "id": "tur45-73",
+  "kind": "text",
+  "tr": "Kalça yan ağrısı uzun süre bursit olarak adlandırıldı. Son on yılın çalışmaları, sorunun çoğu zaman kalça yan kirişlerinden kaynaklandığını ve eğitimle desteklenen egzersizin iğneden daha kalıcı yarar sağlayabildiğini gösterdi."
+ },
+ {
+  "id": "tur45-74",
+  "kind": "text",
+  "tr": "Kalça yan kirişlerinin sorunlarını hareket mekaniği ve muayene bulgularıyla birlikte ele alan, tedaviye yol gösteren bir klinik değerlendirme yazısı yayımlandı (JOSPT)."
+ },
+ {
+  "id": "tur45-75",
+  "kind": "text",
+  "tr": "Kalça yan ağrısı olan 65 kişide muayene testleri MR ile karşılaştırıldı (BJSM): 30 saniye tek ayak üzerinde dururken ağrı çıkması kiriş sorununu çok olası kılıyordu; kemik çıkıntısında bastırınca hassasiyet olmaması ise olasılığı düşürüyordu."
+ },
+ {
+  "id": "tur45-76",
+  "kind": "text",
+  "tr": "204 kişiyle yapılan LEAP çalışması (BMJ): 8 haftada 14 seanslık eğitim ve egzersiz programı, hem tek kortizon iğnesinden hem de beklemekten daha yüksek iyileşme oranı sağladı; fark 1 yılda da sürdü."
+ },
+ {
+  "id": "tur45-77",
+  "kind": "text",
+  "tr": "Beş çalışmayı içeren bir derleme (Scientific Reports; meta-analize üç çalışma, 383 kişi): egzersiz, sahte egzersize ya da bekle-gör yaklaşımına göre işlevde kısa ve uzun vadede daha iyiydi; ağrıda kortizon iğnesinden farklı değildi. Tedavi başarısının daha yüksek olduğu bulgusu yalnızca LEAP çalışmasına dayanıyordu. Kanıtın kesinliği düşük ile çok düşük arasındaydı."
+ },
+ {
+  "id": "tur45-78",
+  "kind": "text",
+  "tr": "Tedavi seçenekleri: kanıtlar ne diyor?"
+ },
+ {
+  "id": "tur45-79",
+  "kind": "text",
+  "tr": "LEAP çalışması (BMJ, 2018) ile beş çalışmayı içeren derlemenin ve meta-analizinin (Scientific Reports, 2024) bulguları yan yana. Meta-analizde kanıtın kesinliği düşük ile çok düşük arasındaydı; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur45-80",
+  "kind": "text",
+  "tr": "Eğitim ve egzersiz"
+ },
+ {
+  "id": "tur45-81",
+  "kind": "text",
+  "tr": "LEAP"
+ },
+ {
+  "id": "tur45-82",
+  "kind": "text",
+  "tr": "8 haftada 14 seans: belirgin iyileşme 8. haftada %77, 1 yılda %79."
+ },
+ {
+  "id": "tur45-83",
+  "kind": "text",
+  "tr": "Meta-analiz"
+ },
+ {
+  "id": "tur45-84",
+  "kind": "text",
+  "tr": "Sahte egzersize ya da bekle-gör yaklaşımına göre işlevde kısa ve uzun vadede daha iyi; yaşam kalitesinde fark yok."
+ },
+ {
+  "id": "tur45-85",
+  "kind": "text",
+  "tr": "Tek iğne: belirgin iyileşme 8. haftada %58, 1 yılda %58; 1 yılda ağrı şiddeti egzersiz grubuyla benzer, bekleyenlerden biraz daha düşük."
+ },
+ {
+  "id": "tur45-86",
+  "kind": "text",
+  "tr": "Ağrıda egzersizden farklı değil (düşük kesinlik); egzersizde daha yüksek tedavi başarısı yalnızca LEAP'e dayanıyor."
+ },
+ {
+  "id": "tur45-87",
+  "kind": "text",
+  "tr": "Bekleme"
+ },
+ {
+  "id": "tur45-88",
+  "kind": "text",
+  "tr": "Tek bilgilendirme seansı: belirgin iyileşme 8. haftada %29, 1 yılda %52."
+ },
+ {
+  "id": "tur45-89",
+  "kind": "text",
+  "tr": "Otururken dizlerinizi yan yana tutun; alçak koltuklardan kaçının. Kalçayı içe doğru getiren pozisyonlar kirişleri kemik çıkıntısına doğru sıkıştırabilir."
+ },
+ {
+  "id": "tur45-90",
+  "kind": "text",
+  "tr": "Fazla kilonuz varsa vermek, kalçanın dış yanına binen yükü azaltabilir."
+ },
+ {
+  "id": "tur45-91",
+  "kind": "text",
+  "tr": "Hareketler sırasında hafif bir rahatsızlık kabul edilebilir; ağrı şiddetli olmamalı ve uzun sürmemelidir. Ağrı artarsa tekrar sayısını ya da zorluğu azaltın. Egzersizden bir iki gün sonra kaslarda hissedilen yorgunluk ağrısı olağandır; ancak ertesi sabah kalça yan ağrınız belirgin artmışsa yükü azaltın."
+ },
+ {
+  "id": "tur45-92",
+  "kind": "text",
+  "tr": "Sırtüstü yatın, dizleriniz bükülü olsun. Uyluklarınızın çevresine bir kemer ya da eşarp bağlayın. Dizlerinizi, kemeri gerecek kadar nazikçe dışa doğru itin ve öylece tutun; bacaklarınız yerinden oynamaz."
+ },
+ {
+  "id": "tur45-93",
+  "kind": "text",
+  "tr": "204 kişilik LEAP çalışmasında iğne, sekizinci haftada beklemekten daha iyi, eğitim ve egzersizden ise daha kötü sonuç verdi. Bir yıl sonra \"belirgin iyileşme\" oranında iğne ile bekleme arasında anlamlı fark kalmadı; ağrı şiddeti ise iğne grubunda biraz daha düşüktü. Bu yüzden iğne ilk seçenek sayılmıyor; ağrı egzersiz yapmayı engelleyecek kadar şiddetliyse kısa süreli rahatlama için düşünülebilir. Bu kararı hekiminizle birlikte verin."
+ },
+ {
+  "id": "tur45-94",
+  "kind": "text",
+  "tr": "Beş çalışmayı inceleyen 2024 tarihli bir meta-analizde egzersiz, sahte egzersize ya da bekle-gör yaklaşımına göre günlük işlevi hem kısa hem uzun vadede daha çok iyileştirdi. Ağrı üzerindeki etkisi kortizon iğnesinden farklı değildi; ancak bir çalışmada (LEAP) egzersizle tedavi başarısı daha yüksekti. Kanıtın kesinliği düşük ile çok düşük arasındaydı."
+ },
+ {
+  "id": "tur45-95",
+  "kind": "text",
+  "tr": "Kalça yan ağrısı çoğu zaman acil değildir. Şu durumlarda ise beklemeden başvurun."
+ },
+ {
+  "id": "tur45-96",
+  "kind": "text",
+  "tr": "Düşme ya da darbeden sonra bacağınızın üzerine basamıyorsanız (kırık olabilir)"
+ },
+ {
+  "id": "tur45-97",
+  "kind": "text",
+  "tr": "Kalçada ağrıyla birlikte ateş, kızarıklık ya da sıcaklık"
+ },
+ {
+  "id": "tur45-98",
+  "kind": "text",
+  "tr": "Bel ağrısıyla birlikte apış arasında uyuşma, idrar veya dışkı kontrolünde sorun ya da hızla artan bacak güçsüzlüğü"
+ },
+ {
+  "id": "tur45-99",
+  "kind": "text",
+  "tr": "Dinlenirken ve gece hiç geçmeyen ağrı, açıklanamayan kilo kaybı ya da kanser öyküsü olan birinde yeni başlayan ağrı"
+ },
+ {
+  "id": "tur45-100",
+  "kind": "text",
+  "tr": "Bacakta uyuşma ya da karıncalanma"
+ }
+]

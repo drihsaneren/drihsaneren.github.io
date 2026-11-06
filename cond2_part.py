@@ -313,7 +313,7 @@ page("menisku-yirtigi.html", "Menisküs Yırtığı",
      condition="Menisküs yırtığı", faq_items=MN_FAQ)
 
 # ============================================================== FİBROMİYALJİ
-_ex2("fb_sts", "sts", "Sandalyeden kalkıp oturma", "Sağlam bir sandalyenin önüne oturun. Ayağa kalkın ve kontrollü şekilde oturun. Zorlanıyorsanız ellerinizden destek alın.", "5–10 tekrar, 1–2 set")
+_ex2("fb_sts", "sts", "Sandalyeden kalkıp oturma", "Duvara dayalı sağlam bir sandalyenin ön kısmına oturun. Ayağa kalkın ve kontrollü şekilde oturun. Zorlanıyorsanız ellerinizle dizlerinizden ya da kolçaklardan destek alın.", "5–10 tekrar, 1–2 set")
 _ex2("fb_row", "row", "Lastik bantla kürek çekme", "Lastik bandı göğüs hizasında sağlam bir yere bağlayın. Dirseklerinizi gövdenize yakın tutarak bandı geriye çekin, kürek kemiklerinizi birbirine yaklaştırın ve yavaşça bırakın. Hafif bir bantla başlayın.", "8–10 tekrar, 1–2 set")
 _ex2("fb_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Kalçanızı sıkarak yavaşça kaldırın, 2–3 saniye bekleyip indirin.", "8–10 tekrar")
 _ex2("fb_cat", "cat", "Kedi-deve", "Ellerinizin ve dizlerinizin üzerinde durun. Nefes verirken sırtınızı yukarı doğru yuvarlayın, nefes alırken belinizi yavaşça aşağı bırakın. Hareketi yavaş ve rahat bir aralıkta yapın.", "8–10 tekrar")
@@ -321,9 +321,9 @@ _ex2("fb_side", "side", "Boyun yana germe", "Dik oturun. Bir elinizle sandalyeni
 
 FB_FAQ = [
  ("Fibromiyalji gerçek bir hastalık mı?", "Evet. Ağrı gerçektir; fibromiyaljideki ağrının kaynağı kaslarda ya da eklemlerde bir hasar değil, sinir sisteminin ağrı sinyallerini işleme biçimindeki değişikliktir. Bu yüzden kan tahlilleri ve görüntülemeler çoğunlukla normal çıkar. Yine de kireçlenme gibi başka bir ağrı nedeni de eşlik edebilir; yeni ya da farklı bir ağrıyı hekiminize gösterin."),
- ("Egzersiz yapınca ağrım artıyor, yine de devam etmeli miyim?", "Evet, ama dozu ayarlayarak. İlk haftalarda hafif bir artış olağandır ve vücut alıştıkça azalır. Ağrı ertesi gün belirgin şekilde artmışsa bir sonraki seansta süreyi ve yoğunluğu azaltın; tamamen bırakmayın."),
+ ("Egzersiz yapınca ağrım artıyor, yine de devam etmeli miyim?", "Evet, ama dozu ayarlayarak. İlk haftalarda hafif bir artış olağandır ve vücut alıştıkça genellikle azalır. Ağrı ertesi gün belirgin şekilde artmışsa bir sonraki seansta süreyi ve yoğunluğu azaltın; tamamen bırakmayın. Ağrı birkaç gün içinde azalmıyorsa, şişlik ya da yeni bir ağrı varsa hekiminize ya da fizyoterapistinize danışın."),
  ("Hangi egzersiz daha iyi?", "Düzenli yapabileceğiniz egzersiz. Aerobik egzersizin, güçlendirmenin ve su içi egzersizin faydası gösterildi; tai chi de bir çalışmada aerobik egzersiz kadar ya da daha etkili bulundu. Yürüyüşü birkaç güçlendirme hareketiyle birleştirmek iyi bir başlangıçtır."),
- ("Fibromiyalji geçer mi?", "Genellikle uzun süreli bir durumdur ve şikâyetler dönem dönem artıp azalabilir. Düzenli egzersiz, uyku düzeni ve ağrıyla başa çıkma becerileriyle belirtiler çoğu zaman belirgin şekilde hafifler."),
+ ("Fibromiyalji geçer mi?", "Genellikle uzun süreli bir durumdur ve şikâyetler dönem dönem artıp azalabilir. Düzenli egzersiz, uyku düzeni ve ağrıyla başa çıkma becerileriyle birçok kişide belirtiler hafifleyebilir."),
 ]
 
 FB_SRC = [
@@ -341,11 +341,11 @@ FB_SRC = [
 FB_TL = [
  ("1904", "Gowers, kaslarda iltihap olduğu düşüncesiyle bu tür yaygın ağrılar için \"fibrositis\" terimini kullandı; sonraki doku incelemeleri bu iltihabı doğrulamadı."),
  ("1976", "\"Fibromiyalji\" terimi Hench tarafından kullanıldı; ilk tanı ölçütleri 1977'de ve 1981'de önerildi."),
- ("1990", "Amerikan Romatoloji Derneği'nin (ACR) ölçütleri: yaygın ağrıyla birlikte vücuttaki 18 hassas noktanın en az 11'inde basınçla ağrı. Bu ölçütler resmî tanınırlık için önemli bir adımdı, ama sonra günlük kullanımda pratik olmadığı için eleştirildi."),
+ ("1990", "Amerikan Romatoloji Koleji'nin (ACR) ölçütleri: yaygın ağrıyla birlikte vücuttaki 18 hassas noktanın en az 11'inde basınçla ağrı. Bu ölçütler resmî tanınırlık için önemli bir adımdı, ama sonra günlük kullanımda pratik olmadığı için eleştirildi."),
  ("2010", "ACR'nin yeni ölçütleri hassas nokta muayenesinin yerine Yaygın Ağrı İndeksi'ni ve Belirti Şiddeti Ölçeği'ni getirdi."),
  ("2016", "Ölçütler yeniden düzenlendi: 5 bölgeden en az 4'ünde ağrı aranıyor ve tanı başka hastalıkların varlığından bağımsız konabiliyor."),
  ("2016", "Avrupa Romatoloji Birliği (EULAR), 12 Avrupa ülkesinden uzmanlarla 107 sistematik derlemeyi inceleyerek önerilerini güncelledi: güçlü öneri alan tek tedavi egzersiz oldu."),
- ("2017", "13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesi: aerobik egzersiz yaşam kalitesini, günlük işlevi ve ağrıyı iyileştirdi."),
+ ("2017", "13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesi: aerobik egzersiz muhtemelen yaşam kalitesini iyileştirdi; ağrıyı ve günlük işlevi de bir miktar iyileştirebileceği görüldü (kanıtın kesinliği düşük ile orta arasında)."),
  ("2018", "226 kişiyle yapılan çalışmada (BMJ) tai chi, aerobik egzersiz kadar ya da daha fazla yarar sağladı."),
  ("2021", "İngiltere'nin ulusal sağlık kılavuzu kurumu NICE, fibromiyaljinin de dahil olduğu kronik birincil ağrı kılavuzunu yayımladı: gözetimli grup egzersiz programı önerildi; TENS, ultrason ve enterferansiyel akım önerilmedi."),
 ]
@@ -355,7 +355,7 @@ FB_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Fibromiyalji</h1>
-    <p class="lede">Vücudun birçok yerinde süren yaygın ağrı, yorgunluk ve dinlendirmeyen uykuyla seyreden bir durumdur. Ağrı gerçektir; fibromiyalji kaslarda ya da eklemlerde hasar yapmaz, sinir sisteminin ağrıyı işleme biçimi değişmiştir. Tedavide en güçlü kanıta sahip yöntem egzersizdir.</p>
+    <p class="lede">Vücudun birçok yerinde süren yaygın ağrı, yorgunluk ve dinlendirmeyen uykuyla seyreden bir durumdur. Ağrı gerçektir; fibromiyalji kaslarda ya da eklemlerde hasar yapmaz, sinir sisteminin ağrıyı işleme biçiminin değiştiği düşünülmektedir. Tedavide en güçlü kanıta sahip yöntem egzersizdir.</p>
     <p class="meta">Son güncelleme: 1 Kasım 2026</p>
   </div>
 </header>
@@ -363,8 +363,8 @@ FB_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%2</b><span>Toplumda fibromiyalji görülme sıklığı; kadınlarda çok daha sık</span></div>
-        <div class="stat"><b>Tek</b><span>Avrupa Romatoloji Birliği (EULAR) önerilerinde güçlü öneri alan tek tedavi: egzersiz</span></div>
+        <div class="stat"><b>%2</b><span>Toplumda fibromiyalji görülme sıklığı (yaklaşık %1,8); kadınlarda çok daha sık</span></div>
+        <div class="stat"><b>Egzersiz</b><span>Avrupa Romatoloji Birliği'nin (EULAR) önerilerinde güçlü öneri alan tek tedavi</span></div>
         <div class="stat"><b>107</b><span>EULAR'ın önerilerini hazırlarken incelediği sistematik derleme sayısı</span></div>
         <div class="stat"><b>226</b><span>Tai chi'nin aerobik egzersiz kadar ya da daha etkili bulunduğu çalışmadaki hasta sayısı</span></div>
       </div>
@@ -376,14 +376,14 @@ FB_BODY = f'''<header class="page">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Fibromiyaljide beyin ve omurilik ağrı sinyallerine karşı aşırı duyarlı hale gelir; normalde rahatsız etmeyecek uyarılar ağrılı algılanır. Neden tam olarak bilinmiyor; genetik yatkınlık, uzun süreli stres, uyku bozukluğu, geçirilmiş enfeksiyonlar ya da başka ağrılı hastalıklar tetikleyici olabilir.</p>
-        <p class="soft">Tanı; belirtilerin en az 3 aydır sürmesine, yaygın ağrının ve eşlik eden belirtilerin muayenede değerlendirilmesine dayanır. Benzer belirtilere yol açabilecek hastalıklar (tiroit hastalıkları, romatizmal hastalıklar, vitamin eksiklikleri gibi) muayene ve gerekirse kan testleriyle araştırılır. Ancak 2016'da güncellenen tanı ölçütlerine göre fibromiyalji başka bir hastalıkla birlikte de bulunabilir; başka bir tanının olması fibromiyalji tanısını geçersiz kılmaz. Tanıyı koyduracak tek bir kan testi ya da görüntüleme yoktur.</p>
+        <p class="soft">Tanı, belirtilerin en az 3 aydır sürmesine, yaygın ağrının ve eşlik eden belirtilerin muayenede değerlendirilmesine dayanır. Benzer belirtilere yol açabilecek hastalıklar (tiroit hastalıkları, romatizmal hastalıklar, vitamin eksiklikleri gibi) muayene ve gerekirse kan testleriyle araştırılır. Ancak 2016'da güncellenen tanı ölçütlerine göre fibromiyalji başka bir hastalıkla birlikte de bulunabilir; başka bir tanının olması fibromiyalji tanısını geçersiz kılmaz. Tanıyı koyduracak tek bir kan testi ya da görüntüleme yoktur.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>
         <ul class="dots">
           <li>Vücudun iki yanında, belin üstünde ve altında süren yaygın ağrı</li>
           <li>Dinlenmekle geçmeyen yorgunluk, dinlendirmeyen uyku</li>
-          <li>Sabah tutukluğu</li>
+          <li>Kısa süren sabah tutukluğu</li>
           <li>Dikkat ve bellek güçlüğü</li>
           <li>Baş ağrısı, huzursuz bağırsak, kaygı ve çökkünlük eşlik edebilir</li>
         </ul>
@@ -406,7 +406,7 @@ FB_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Egzersiz neden temel tedavi?</h2>
       <p class="soft">Avrupa Romatoloji Birliği (EULAR) 2016'da güncellediği önerilerini hazırlarken 107 sistematik derlemeyi inceledi. Güçlü öneri alan tek tedavi egzersiz oldu. Psikolojik destek, tai chi ve yoga gibi hareket temelli uygulamalar ve şiddetli ağrı ya da uyku sorunu olanlarda ilaç tedavisi daha zayıf öneriler aldı.</p>
-      <p class="soft">13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesinde aerobik egzersiz yaşam kalitesini, günlük işlevi ve ağrıyı iyileştirdi. ABD'de 226 fibromiyalji hastasıyla yapılan bir çalışmada ise haftada bir ya da iki kez yapılan tai chi, aerobik egzersiz kadar ya da daha fazla fayda sağladı; en iyi sonuç 24 hafta boyunca haftada iki kez yapılan tai chi ile alındı.</p>
+      <p class="soft">13 çalışmayı ve 839 kişiyi kapsayan Cochrane derlemesinde aerobik egzersiz muhtemelen yaşam kalitesini iyileştirdi; ağrıyı ve günlük işlevi de bir miktar iyileştirebileceği görüldü (kanıtın kesinliği düşük ile orta arasında). ABD'de 226 fibromiyalji hastasıyla yapılan bir çalışmada ise haftada bir ya da iki kez yapılan tai chi, aerobik egzersiz kadar ya da daha fazla fayda sağladı; tai chi'yi 24 hafta sürdürenler 12 hafta yapanlardan daha fazla yarar gördü; haftada iki kez yapmak bir kez yapmaya göre belirgin ek yarar sağlamadı.</p>
       <div class="callout">
         <p>Fibromiyaljide egzersizin püf noktası “az başla, yavaş artır” ilkesidir. Birkaç dakikalık yürüyüşle başlayın ve süreyi her hafta biraz artırın. İlk haftalarda ağrının biraz artması olağandır ve genellikle geçicidir; kötü günlerde bırakmak yerine azaltın.</p>
       </div>
@@ -435,12 +435,12 @@ FB_BODY = f'''<header class="page">
       <p class="soft">Avrupa Romatoloji Birliği'nin (EULAR) önerileri (Ann Rheum Dis, 2017) ile İngiltere'nin NICE kronik birincil ağrı kılavuzu (2021) yan yana. EULAR önerilerini "güçlü" ve "zayıf" diye ayırıyor; NICE kılavuzu fibromiyaljiyi kronik birincil ağrının bir türü olarak ele alıyor. Tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
         <div class="kind"><h3>Egzersiz</h3><dl><dt>EULAR</dt><dd>Güçlü öneri alan tek tedavi.</dd><dt>NICE</dt><dd>Gözetimli grup egzersiz programı önerilmeli.</dd></dl></div>
-        <div class="kind"><h3>Hareket temelli uygulamalar</h3><dl><dt>EULAR</dt><dd>Tai chi, yoga ve qigong (zayıf öneri); su içi ve kaplıca tedavisi (zayıf öneri).</dd></dl></div>
+        <div class="kind"><h3>Hareket temelli uygulamalar</h3><dl><dt>EULAR</dt><dd>Tai chi, yoga ve qigong (zayıf öneri).</dd></dl></div>
         <div class="kind"><h3>Psikolojik destek</h3><dl><dt>EULAR</dt><dd>Bilişsel davranışçı terapi, farkındalık temelli uygulamalar ve çok bileşenli programlar (zayıf öneri).</dd><dt>NICE</dt><dd>Kabul ve kararlılık terapisi ya da bilişsel davranışçı terapi düşünülebilir.</dd></dl></div>
-        <div class="kind"><h3>Akupunktur</h3><dl><dt>EULAR</dt><dd>Zayıf öneri.</dd><dt>NICE</dt><dd>Belirli koşullarda tek bir kür akupunktur ya da kuru iğneleme düşünülebilir.</dd><dt>Not</dt><dd>Türkiye'de akupunkturu ve kuru iğnelemeyi yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
-        <div class="kind"><h3>Masaj ve manuel tedaviler</h3><dl><dt>EULAR</dt><dd>Masaj ve biyogeri bildirim önerilmiyor (zayıf); kayropraktik güçlü şekilde önerilmiyor.</dd></dl></div>
+        <div class="kind"><h3>Akupunktur ve su içi tedavi</h3><dl><dt>EULAR</dt><dd>Akupunktur, su içi ve kaplıca tedavisi (zayıf öneri).</dd><dt>NICE</dt><dd>Belirli koşullarda tek bir kür akupunktur ya da kuru iğneleme düşünülebilir.</dd><dt>Not</dt><dd>Türkiye'de akupunkturu ve kuru iğnelemeyi yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
+        <div class="kind"><h3>Masaj, kayropraktik ve biyogeri bildirim</h3><dl><dt>EULAR</dt><dd>Masaj ve biyogeri bildirim önerilmiyor (zayıf); kayropraktik güçlü şekilde önerilmiyor.</dd><dt>NICE</dt><dd>Biyogeri bildirim önerilmiyor.</dd></dl></div>
         <div class="kind"><h3>Elektrik ve ses dalgası tedavileri</h3><dl><dt>NICE</dt><dd>TENS, ultrason ve enterferansiyel akım, yarar kanıtı olmadığı için önerilmiyor.</dd></dl></div>
-        <div class="kind"><h3>İlaçlar</h3><dl><dt>EULAR</dt><dd>Şiddetli ağrı ya da uyku sorununda bazı ilaçlar zayıf öneri aldı; güçlü opioidler ve kortizon güçlü şekilde önerilmiyor.</dd><dt>NICE</dt><dd>Bazı antidepresanlar düşünülebilir; parasetamol, iltihap giderici ağrı kesiciler, opioidler ve gabapentinoidler dahil sara ilaçlarıyla yeni tedavi başlanmaması öneriliyor.</dd><dt>Not</dt><dd>Hangisinin uygun olduğunu hekiminize sorun; kullandığınız bir ilacı kendi kendinize bırakmayın.</dd></dl></div>
+        <div class="kind"><h3>İlaçlar</h3><dl><dt>EULAR</dt><dd>Şiddetli ağrı ya da uyku sorununda bazı ilaçlar zayıf öneri aldı; güçlü opioidler ve kortizon güçlü şekilde önerilmiyor.</dd><dt>NICE</dt><dd>Bazı antidepresanlar düşünülebilir; parasetamol, iltihap giderici ağrı kesiciler, opioidler ve gabapentinoidler dahil epilepsi (sara) ilaçlarıyla yeni tedavi başlanmaması öneriliyor.</dd><dt>Not</dt><dd>İki kılavuz ilaçlarda farklı sonuçlara varıyor. Hangisinin uygun olduğunu hekiminize sorun; kullandığınız bir ilacı kendi kendinize bırakmayın.</dd></dl></div>
       </div>
     </div>
   </section>
@@ -456,7 +456,7 @@ FB_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Video</p>
       <h2>Tai chi'ye başlangıç</h2>
-      <p class="soft">Avustralyalı hekim ve tai chi eğitmeni Dr. Paul Lam'in YouTube kanalından. Video İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <p class="soft">Hekim ve tai chi eğitmeni Dr. Paul Lam'in YouTube kanalından. Video İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
       <div class="vids">
         <div class="vid">
           {vbox("tAOuEpa01j4", "Tai chi başlangıç videosunu oynat", "Tai Chi for Arthritis | Dr Paul Lam | Free Lesson and Introduction")}
@@ -470,7 +470,7 @@ FB_BODY = f'''<header class="page">
   <section id="akupunktur">
     <div class="wrap">
       <h2>Akupunktur: araştırmalar ve klinik gözlemim</h2>
-      <p class="soft">Dokuz çalışmayı (395 kişi) inceleyen Cochrane derlemesinde, ilaç ve egzersizden oluşan standart tedaviye eklenen akupunktur ağrıyı 100 üzerinden yaklaşık 30 puan azalttı. İğnelerden hafif elektrik verilen akupunktur, sahte uygulamaya göre de ağrıyı bir miktar azalttı; elle yapılan akupunkturda bu fark görülmedi. Etki yaklaşık bir ay sürdü, altıncı ayda korunmadı. Kanıt düzeyi düşük–orta; yan etkiler hafif ve kısa süreliydi.</p>
+      <p class="soft">Dokuz çalışmayı (395 kişi) inceleyen Cochrane derlemesinde yer alan 58 kişilik tek bir çalışmada antidepresan ve egzersize eklenen akupunktur ağrıyı 100 üzerinden yaklaşık 30 puan azalttı. İğnelerden hafif elektrik verilen akupunktur, sahte uygulamaya göre de ağrıyı bir miktar azalttı; elle yapılan akupunkturda bu fark görülmedi. Etki yaklaşık bir ay sürdü, altıncı ayda korunmadı. Kanıt düzeyi düşük–orta; yan etkiler hafif ve kısa süreliydi.</p>
       {OBS("Kendi klinik gözlemimde akupunkturun fibromiyaljide çok etkili olduğunu gördüm.")}
       <div class="callout">
         <p>{ACU_LAW}</p>
@@ -490,7 +490,8 @@ FB_BODY = f'''<header class="page">
       <p class="soft"><strong>Hemen 112'yi arayın ya da acil servise gidin:</strong></p>
       <ul class="dots redflags">
         <li>Kendinize zarar verme düşünceleri ya da yoğun umutsuzluk</li>
-        <li>Bacaklarda yeni başlayan uyuşma ya da güçsüzlükle birlikte idrar veya dışkı kontrolünde sorun</li>
+        <li>İdrar ya da dışkı kontrolünde yeni sorun ya da apış arasında uyuşma (bacak belirtisi olsun olmasın)</li>
+        <li>Yeni başlayan şiddetli baş ağrısı, çene ağrısı ya da görme bozukluğu</li>
       </ul>
       <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
@@ -498,6 +499,8 @@ FB_BODY = f'''<header class="page">
         <li>Ateş, gece terlemesi ya da nedensiz kilo kaybı</li>
         <li>Kas gücünde azalma; merdiven çıkmakta ya da kolları kaldırmakta giderek artan güçlük</li>
         <li>Yeni başlayan uyuşma ya da karıncalanma</li>
+        <li>50 yaş üstünde yeni başlayan omuz ve kalça çevresinde ağrı ve tutukluk</li>
+        <li>Bir saatten uzun süren sabah tutukluğu ya da ciltte döküntü</li>
       </ul>
       {CTA_CARD("Fibromiyalji ağrınız", "fibromiyalji")}
     </div>

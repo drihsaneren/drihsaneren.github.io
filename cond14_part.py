@@ -32,7 +32,7 @@ _ex2("gt_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 _ex2("gt_squat", "sts", "Mini çömelme", "Ayaklarınız kalça genişliğinde açık dursun. Bir sandalyeye oturacakmış gibi dizlerinizi ve kalçanızı bükün; dizleriniz ayak parmaklarınızın hizasında kalsın. Sonra iterek doğrulun.", "10 tekrar")
 _ex2("gt_side", "sidestep", "Lastik bantla yana adım", "Dizlerinizin çevresine bir lastik bant takın. Yana doğru, kalça genişliğinden biraz fazla bir adım atın; sonra diğer ayağınızı kalça genişliğine getirin, ayak bileklerinizi birleştirmeyin. Bant hep gergin kalsın.", "Her yöne 10 adım")
 _ex2("gt_sls", "sls", "Leğen düz, tek ayak üzerinde durma", "Bir tezgâha hafifçe tutunun ve ağrılı bacağınızın üzerinde durun. Leğen kemiğiniz bir yana düşmesin, kalçanız dışarı kaymasın; aynada kontrol edebilirsiniz. Ağrı artıyorsa süreyi kısaltın.", "10 saniye, 5 tekrar")
-EXT["gt_belt"] = ("Yatarak dizleri kemere karşı açma", "Sırtüstü yatın, dizleriniz bükülü olsun. Uyluklarınızın çevresine bir kemer ya da lastik bant bağlayın. Dizlerinizi, kemeri gerecek kadar nazikçe dışa doğru itin ve öylece tutun; bacaklarınız yerinden oynamaz.", "10 saniye tutun, 10 tekrar")
+EXT["gt_belt"] = ("Yatarak dizleri kemere karşı açma", "Sırtüstü yatın, dizleriniz bükülü olsun. Uyluklarınızın çevresine bir kemer ya da eşarp bağlayın. Dizlerinizi, kemeri gerecek kadar nazikçe dışa doğru itin ve öylece tutun; bacaklarınız yerinden oynamaz.", "10 saniye tutun, 10 tekrar")
 
 _ex2("ly_breath", "plb", "Derin karın nefesi", "Omuzlarınızı ve göğsünüzün üst kısmını gevşetin. Bir elinizi kaburgalarınızın hemen altına koyun. Burnunuzdan yavaş ve derin bir nefes alın, karnınız yükselirken elinizin kalktığını hissedin; ağzınızdan yavaşça verin. Diğer hareketlere her zaman bununla başlayın.", "5 nefes")
 _ex2("ly_fist", "tglide", "Yumruk yapıp parmakları açma", "Elinizi yumruk yapın, sonra parmaklarınızı olabildiğince açın. Ardından başparmağınızı sırayla her parmağınızın ucuna değdirin.", "5–10 tekrar")
@@ -44,8 +44,8 @@ EXT["ly_arm"] = ("Elleri dizlerden omuzlara", "Dik oturun, elleriniz dizlerinizd
 # ============================================================== KALÇA YAN AĞRISI
 GT_FAQ = [
  ("Kalça yan ağrısı bursit midir?", "Çoğu zaman tek başına bursit değildir. Ağrının kaynağı genellikle kalçanın yan tarafındaki kemik çıkıntısına yapışan kirişlerin aşırı yüklenmesidir (tendinopati); bazen oradaki kesecik (bursa) de iltihaplanır. Bu yüzden bugün “büyük trokanter ağrı sendromu” adı kullanılıyor."),
- ("Kortizon iğnesi işe yarar mı?", "204 kişilik LEAP çalışmasında iğne, sekizinci haftada beklemekten daha iyi, eğitim ve egzersizden ise daha kötü sonuç verdi. Bir yıl sonra iğne yapılanlarla bekleyenler arasında anlamlı fark kalmadı. Bu yüzden iğne ilk seçenek sayılmıyor; ağrı egzersiz yapmayı engelleyecek kadar şiddetliyse kısa süreli rahatlama için düşünülebilir."),
- ("Egzersizin etkisi kanıtlandı mı?", "Beş çalışmayı inceleyen 2024 tarihli bir meta-analizde egzersiz, hiçbir şey yapmamaya ya da en az müdahaleye göre günlük işlevi hem kısa hem uzun vadede daha çok iyileştirdi. Ağrı üzerindeki etkisi kortizon iğnesinden farklı değildi; ancak bir çalışmada egzersizle tedavi başarısı daha yüksekti."),
+ ("Kortizon iğnesi işe yarar mı?", "204 kişilik LEAP çalışmasında iğne, sekizinci haftada beklemekten daha iyi, eğitim ve egzersizden ise daha kötü sonuç verdi. Bir yıl sonra \"belirgin iyileşme\" oranında iğne ile bekleme arasında anlamlı fark kalmadı; ağrı şiddeti ise iğne grubunda biraz daha düşüktü. Bu yüzden iğne ilk seçenek sayılmıyor; ağrı egzersiz yapmayı engelleyecek kadar şiddetliyse kısa süreli rahatlama için düşünülebilir. Bu kararı hekiminizle birlikte verin."),
+ ("Egzersizin etkisi kanıtlandı mı?", "Beş çalışmayı inceleyen 2024 tarihli bir meta-analizde egzersiz, sahte egzersize ya da bekle-gör yaklaşımına göre günlük işlevi hem kısa hem uzun vadede daha çok iyileştirdi. Ağrı üzerindeki etkisi kortizon iğnesinden farklı değildi; ancak bir çalışmada (LEAP) egzersizle tedavi başarısı daha yüksekti. Kanıtın kesinliği düşük ile çok düşük arasındaydı."),
  ("Kalça yan ağrısı ne kadar sürede geçer?", "Sabır gerektirir: Toparlanma çoğu zaman 6–12 ay sürer. Yine de LEAP çalışmasında eğitim ve egzersiz alanların yaklaşık dörtte üçü sekizinci haftada belirgin biçimde iyileştiğini bildirdi. Alevlenme olursa tekrarları azaltın ya da birkaç gün ara verip yeniden başlayın."),
  ("Hangi yanıma yatmalıyım?", "Ağrılı tarafın üzerine yatmayın. Sırtüstü yatıp dizlerinizin altına yastık koyabilir ya da sağlam yanınıza yatıp dizlerinizin arasına yastık yerleştirebilirsiniz; böylece üstteki bacak öne düşmez ve kalçanın yanı gerilmez."),
 ]
@@ -61,10 +61,10 @@ GT_SRC = [
 ]
 
 GT_TL = [
- ("2015", "Kalça yan kirişlerinin sorunlarını hareket mekaniği ve muayene bulgularıyla birlikte ele alan, tedaviye yol gösteren bir derleme yayımlandı (JOSPT)."),
+ ("2015", "Kalça yan kirişlerinin sorunlarını hareket mekaniği ve muayene bulgularıyla birlikte ele alan, tedaviye yol gösteren bir klinik değerlendirme yazısı yayımlandı (JOSPT)."),
  ("2017", "Kalça yan ağrısı olan 65 kişide muayene testleri MR ile karşılaştırıldı (BJSM): 30 saniye tek ayak üzerinde dururken ağrı çıkması kiriş sorununu çok olası kılıyordu; kemik çıkıntısında bastırınca hassasiyet olmaması ise olasılığı düşürüyordu."),
  ("2018", "204 kişiyle yapılan LEAP çalışması (BMJ): 8 haftada 14 seanslık eğitim ve egzersiz programı, hem tek kortizon iğnesinden hem de beklemekten daha yüksek iyileşme oranı sağladı; fark 1 yılda da sürdü."),
- ("2024", "Beş çalışmayı inceleyen bir meta-analiz (Scientific Reports): egzersiz, en az düzeyde müdahaleye göre işlevde kısa ve uzun vadede daha iyiydi; ağrıda kortizon iğnesinden farklı değildi, ama tedavi başarısı daha yüksekti. Kanıtın kesinliği düşük ile çok düşük arasındaydı."),
+ ("2024", "Beş çalışmayı içeren bir derleme (Scientific Reports; meta-analize üç çalışma, 383 kişi): egzersiz, sahte egzersize ya da bekle-gör yaklaşımına göre işlevde kısa ve uzun vadede daha iyiydi; ağrıda kortizon iğnesinden farklı değildi. Tedavi başarısının daha yüksek olduğu bulgusu yalnızca LEAP çalışmasına dayanıyordu. Kanıtın kesinliği düşük ile çok düşük arasındaydı."),
 ]
 
 GT_BODY = f'''<header class="page">
@@ -93,7 +93,7 @@ GT_BODY = f'''<header class="page">
       <div>
         <h2>Nedir?</h2>
         <p class="soft">Kalçanın yan tarafında, elinizle hissedebildiğiniz kemik çıkıntısının (büyük trokanter) üzerindeki dokuların tahriş olmasıdır. Çoğu zaman neden, oraya yapışan kalça yan kaslarının kirişlerinin taşıyabileceğinden fazla yüklenmesidir; bazen bölgedeki kesecik (bursa) de iltihaplanır.</p>
-        <p class="soft">En sık orta yaşlı kadınlarda görülür ama her yaşta ortaya çıkabilir. Düşme gibi doğrudan bir darbe, kalça kaslarının zayıflığı, uzun süreli yürüyüş ya da koşu ve fazla kilo zemin hazırlar; çoğu zaman da belirgin bir neden bulunmaz.</p>
+        <p class="soft">En sık orta yaşlı kadınlarda görülür ama her yaşta ortaya çıkabilir. Düşme gibi doğrudan bir darbe, kalça kaslarının zayıflığı, uzun süreli yürüyüş ya da koşu ve fazla kilo zemin hazırlayabilir; çoğu zaman da belirgin bir neden bulunmaz.</p>
       </div>
       <div>
         <h2>Belirtiler</h2>
@@ -112,8 +112,8 @@ GT_BODY = f'''<header class="page">
       <h2>Nasıl tanınır?</h2>
       <p class="soft">Tanı çoğunlukla öykü ve muayeneyle konur. Kalça yan ağrısı olan 65 kişide muayene testlerinin MR ile karşılaştırıldığı bir çalışma (BJSM, 2017), hangi bulguların yol gösterici olduğunu inceledi. Bu testler fizyoterapist ya da hekim tarafından yapılır.</p>
       <div class="kinds">
-        <div class="kind"><h3>Tek ayak üzerinde durma</h3><p>Ağrılı bacağın üzerinde 30 saniye dururken kalçanın yanında ağrı çıkması, kalça yan kirişlerinin sorununu çok olası kılıyordu (özgüllük %100).</p></div>
-        <div class="kind"><h3>Bastırınca hassasiyet</h3><p>Kalçanın yanındaki kemik çıkıntısına bastırınca ağrı olmaması, kiriş sorununu olasılık dışına itiyordu (duyarlılık %80). Hassasiyet olması ise tek başına tanıyı koydurmaz.</p></div>
+        <div class="kind"><h3>Tek ayak üzerinde durma</h3><p>Ağrılı bacağın üzerinde 30 saniye dururken kalçanın yanında ağrı çıkması, kalça yan kirişlerinin sorununu çok olası kılıyordu (özgüllük %100). Ağrı çıkmaması ise sorunu dışlamaz (duyarlılık %38).</p></div>
+        <div class="kind"><h3>Bastırınca hassasiyet</h3><p>Kalçanın yanındaki kemik çıkıntısına bastırınca ağrı olmaması, kiriş sorununu daha az olası kılıyordu (duyarlılık %80). Hassasiyet olması ise tek başına tanıyı koydurmaz (özgüllük %47).</p></div>
         <div class="kind"><h3>Başka ne olabilir?</h3><p>Ağrı kasıkta hissediliyor ve kalça hareketleri kısıtlanıyorsa <a href="kalca-kireclenmesi.html">kalça kireçlenmesi</a>, belden bacağa yayılan ağrıyla birlikte uyuşma ya da karıncalanma varsa bel kaynaklı bir sorun düşünülür.</p></div>
       </div>
     </div>
@@ -121,7 +121,7 @@ GT_BODY = f'''<header class="page">
   <section id="karar">
     <div class="wrap">
       <h2>İğne mi, egzersiz mi, beklemek mi?</h2>
-      <p class="soft">Avustralya'da yapılan LEAP çalışması bu soruyu doğrudan sınadı. En az üç aydır kalça yan ağrısı olan, 35–70 yaş arasındaki 204 kişi üç gruba ayrıldı: sekiz hafta boyunca fizyoterapistle eğitim ve egzersiz, tek bir kortizon iğnesi ya da yalnızca bilgilendirme ve bekleme.</p>
+      <p class="soft">Avustralya'da yapılan LEAP çalışması bu soruyu doğrudan sınadı. En az üç aydır kalça yan ağrısı olan, MR ile kiriş sorunu doğrulanmış ve ağrısı en az orta şiddette, 35–70 yaş arasındaki 204 kişi üç gruba ayrıldı: sekiz hafta boyunca fizyoterapistle eğitim ve egzersiz, tek bir kortizon iğnesi ya da yalnızca bilgilendirme ve bekleme.</p>
       <p class="soft">Sekizinci haftada “belirgin biçimde iyileştim” diyenlerin oranı eğitim ve egzersiz grubunda %77, iğne grubunda %58, bekleyenlerde %29'du. Bir yıl sonra oranlar %79, %58 ve %52 oldu: Eğitim ve egzersiz üstünlüğünü korudu, iğne ile bekleme arasındaki fark ise anlamlı olmaktan çıktı. Ağrı şiddeti bir yıl sonra iğne ve egzersiz gruplarında benzerdi. Ciddi bir yan etki bildirilmedi.</p>
       <div class="callout">
         <p>Çalışmadaki program iki parçadan oluşuyordu: kirişi neyin yorduğunu öğrenip yükü ayarlamak ve kalça yan kaslarını güçlendiren, günde 4–6 hareketlik bir ev programı. Yani egzersiz kadar, gün içindeki duruş ve alışkanlıklar da tedavinin parçası.</p>
@@ -135,10 +135,10 @@ GT_BODY = f'''<header class="page">
       <p class="soft">Kalça yan ağrısı uzun süre bursit olarak adlandırıldı. Son on yılın çalışmaları, sorunun çoğu zaman kalça yan kirişlerinden kaynaklandığını ve eğitimle desteklenen egzersizin iğneden daha kalıcı yarar sağlayabildiğini gösterdi.</p>
       {g_tl(GT_TL)}
       <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
-      <p class="soft">LEAP çalışması (BMJ, 2018) ile beş çalışmayı inceleyen meta-analizin (Scientific Reports, 2024) bulguları yan yana. Meta-analizde kanıtın kesinliği düşük ile çok düşük arasındaydı; tedavi kişiye göre seçilir.</p>
+      <p class="soft">LEAP çalışması (BMJ, 2018) ile beş çalışmayı içeren derlemenin ve meta-analizinin (Scientific Reports, 2024) bulguları yan yana. Meta-analizde kanıtın kesinliği düşük ile çok düşük arasındaydı; tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Eğitim ve egzersiz</h3><dl><dt>LEAP</dt><dd>8 haftada 14 seans: belirgin iyileşme 8. haftada %77, 1 yılda %79.</dd><dt>Meta-analiz</dt><dd>En az düzeyde müdahaleye göre işlevde kısa ve uzun vadede daha iyi; yaşam kalitesinde fark yok.</dd></dl></div>
-        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>LEAP</dt><dd>Tek iğne: belirgin iyileşme 8. haftada %58, 1 yılda %58; 1 yılda ağrı şiddeti egzersiz grubuyla benzer.</dd><dt>Meta-analiz</dt><dd>Ağrıda egzersizden farklı değil; egzersizde tedavi başarısı daha yüksek.</dd></dl></div>
+        <div class="kind"><h3>Eğitim ve egzersiz</h3><dl><dt>LEAP</dt><dd>8 haftada 14 seans: belirgin iyileşme 8. haftada %77, 1 yılda %79.</dd><dt>Meta-analiz</dt><dd>Sahte egzersize ya da bekle-gör yaklaşımına göre işlevde kısa ve uzun vadede daha iyi; yaşam kalitesinde fark yok.</dd></dl></div>
+        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>LEAP</dt><dd>Tek iğne: belirgin iyileşme 8. haftada %58, 1 yılda %58; 1 yılda ağrı şiddeti egzersiz grubuyla benzer, bekleyenlerden biraz daha düşük.</dd><dt>Meta-analiz</dt><dd>Ağrıda egzersizden farklı değil (düşük kesinlik); egzersizde daha yüksek tedavi başarısı yalnızca LEAP'e dayanıyor.</dd></dl></div>
         <div class="kind"><h3>Bekleme</h3><dl><dt>LEAP</dt><dd>Tek bilgilendirme seansı: belirgin iyileşme 8. haftada %29, 1 yılda %52.</dd></dl></div>
       </div>
     </div>
@@ -148,10 +148,10 @@ GT_BODY = f'''<header class="page">
       <h2>Kalçayı rahatlatan alışkanlıklar</h2>
       <ul class="tx">
         <li><b>İki ayağa eşit basın</b><span>Ayakta dururken ağırlığınızı tek bacağa verip kalçanızı yana çıkarmayın.</span></li>
-        <li><b>Bacak bacak üstüne atmayın</b><span>Otururken dizlerinizi yan yana tutun; alçak koltuklardan kaçının. Ayakta dururken ağırlığınızı tek kalçanıza verip o tarafa “asılmayın”, iki ayağınıza eşit basın. Kalçayı içe doğru getiren bu pozisyonlar, kirişleri kemik çıkıntısına doğru sıkıştırır.</span></li>
+        <li><b>Bacak bacak üstüne atmayın</b><span>Otururken dizlerinizi yan yana tutun; alçak koltuklardan kaçının. Kalçayı içe doğru getiren pozisyonlar kirişleri kemik çıkıntısına doğru sıkıştırabilir.</span></li>
         <li><b>Ağrılı yanınıza yatmayın</b><span>Sırtüstü yatıp dizlerinizin altına ya da sağlam yanınıza yatıp dizlerinizin arasına yastık koyun.</span></li>
         <li><b>Hareketi bırakmayın</b><span>Ağrıyı artıran etkinlikleri azaltın ama hareketsiz kalmayın; merdivende tırabzanı kullanın.</span></li>
-        <li><b>Kilo</b><span>Fazla kilonuz varsa vermek, kalçanın dış yanına binen yükü azaltır.</span></li>
+        <li><b>Kilo</b><span>Fazla kilonuz varsa vermek, kalçanın dış yanına binen yükü azaltabilir.</span></li>
         <li><b>Soğuk uygulama</b><span>Araya nemli bir havlu koyarak 5–10 dakika, günde iki üç kez buz uygulayabilirsiniz.</span></li>
       </ul>
     </div>
@@ -160,7 +160,7 @@ GT_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Kalça yan ağrısı için altı egzersiz</h2>
-      <p class="soft">Hareketler sırasında hafif bir rahatsızlık kabul edilebilir; ağrı şiddetli olmamalı ve uzun sürmemelidir. Ağrı artarsa tekrar sayısını ya da zorluğu azaltın. Egzersizden bir iki gün sonra kaslarda hissedilen yorgunluk ağrısı normaldir.</p>
+      <p class="soft">Hareketler sırasında hafif bir rahatsızlık kabul edilebilir; ağrı şiddetli olmamalı ve uzun sürmemelidir. Ağrı artarsa tekrar sayısını ya da zorluğu azaltın. Egzersizden bir iki gün sonra kaslarda hissedilen yorgunluk ağrısı olağandır; ancak ertesi sabah kalça yan ağrınız belirgin artmışsa yükü azaltın.</p>
       {ex_grid(["gt_belt", "gt_wall", "gt_bridge", "gt_squat", "gt_side", "gt_sls"])}
       <div class="callout">
         <p>Alevlenmeler olabilir; o günlerde tekrarları azaltın ya da birkaç gün ara verip yeniden başlayın. Ağrınız şiddetliyse hareketleri bırakıp fizyoterapistinizle konuşun.</p>
@@ -201,12 +201,12 @@ GT_BODY = f'''<header class="page">
       <ul class="dots redflags">
         <li>Düşme ya da darbeden sonra bacağınızın üzerine basamıyorsanız (kırık olabilir)</li>
         <li>Kalçada ağrıyla birlikte ateş, kızarıklık ya da sıcaklık</li>
-        <li>Bel ağrısıyla birlikte bacaklarda güçsüzlük ya da idrar veya dışkı kontrolünde sorun</li>
+        <li>Bel ağrısıyla birlikte apış arasında uyuşma, idrar veya dışkı kontrolünde sorun ya da hızla artan bacak güçsüzlüğü</li>
       </ul>
       <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
-        <li>Dinlenirken ve gece hiç geçmeyen ağrı, açıklanamayan kilo kaybı ya da kanser öyküsü</li>
-        <li>Bacakta uyuşma, karıncalanma ya da güçsüzlük</li>
+        <li>Dinlenirken ve gece hiç geçmeyen ağrı, açıklanamayan kilo kaybı ya da kanser öyküsü olan birinde yeni başlayan ağrı</li>
+        <li>Bacakta uyuşma ya da karıncalanma</li>
         <li>Ağrı kasıkta hissediliyor ve kalça hareketleri giderek kısıtlanıyorsa</li>
       </ul>
       {CTA_CARD("Kalça yan ağrınız", "kalça yan ağrısı")}

@@ -820,3 +820,5 @@ Ayrıntılar DENETIM.md'de. Önemli: cochrane.org/evidence/<CD> sayfalarında sa
 
 1 Kasım 2026 (2): genişletme partisi 5 — diz önü ağrısı, aşil tendinopatisi, boyun fıtığı; yayından önce bağımsız denetim, bulgular kaynağından doğrulandı (DENETIM.md). Ortak "Ne zaman hemen başvurmalı?" başlığı kademeli listelerle uyumsuz kalıyor — site geneli karar adayı. Çeviri tur44. Sonraki batch: tur45. Önerilen sıradaki parti: fibromiyalji, baş ağrısı, kalça yan ağrısı (ya da omuz çıkığı, on çapraz bağ).
 
+6 Kasım 2026: genişletme partisi 6 — kalça yan ağrısı, fibromiyalji (DENETIM.md). Çeviri tur45. Sonraki batch: tur46. Hazır taslak betikler (denetim/taslak/acl.py, ha.py; uygulanmadı): ön çapraz bağ (Benjaminse 2006 Lachman %85/%94, pivot %98/%24; tarihçe D'Ambrosi 2023 ATM), baş ağrısı (ICHD-3 2.2 ve 11.2.1 ölçütleri, NICE CG150 halk sayfası, JOSPT 2017 baş ağrılı boyun ağrısı — dereceler doğrulanamadı, yazılmadı). Sonraki aday: dar kanal.
+
