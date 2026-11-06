@@ -29,13 +29,15 @@ EXT["childp"] = ("Topuklara oturarak öne uzanma", "Ellerinizin ve dizlerinizin 
 EXT["sitflex"] = ("Oturarak öne eğilme", "Sağlam bir sandalyeye oturun, ayaklarınızı biraz açın. Ellerinizi bacaklarınızdan aşağı kaydırarak gövdenizi yavaşça öne eğin ve ayak bileklerinize doğru uzanın. Birkaç nefes bekleyip ellerinizden destek alarak doğrulun. Yürürken bacaklarınız ağrıdığında bir banka oturup bu hareketi yapabilirsiniz.", "10–15 saniye tutun, 5 tekrar")
 _ex2("ls_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Önce belinizi yere bastırın, sonra kalçanızı sıkarak omuzlarınızdan dizlerinize düz bir çizgi oluşana kadar kaldırın. Belinizi çukurlaştırmayın; 3 saniye tutup yavaşça inin.", "10 tekrar, günde 1–2 kez")
 _ex2("ls_walk", "walk", "Molalı yürüyüş", "Yürümeyi bırakmayın, bölün. Bacak şikâyetiniz başlamadan hemen önce oturup birkaç dakika dinlenin ya da öne eğilin, sonra devam edin. Süreyi haftadan haftaya azar azar artırın. Sabit bisiklet de iyi bir seçenektir; öne eğik oturulduğu için genellikle yürümekten daha rahat tolere edilir.", "Günde toplam 20–30 dakika, molalarla")
+SV["ls_k2c"] = SV["k2c"].replace("<figcaption>Diz göğse çekme</figcaption>", "<figcaption>Dizi göğse çekme</figcaption>")
+SV["ls_walk"] = SV["walk"].replace("<figcaption>Tempolu yürüyüş</figcaption>", "<figcaption>Molalı yürüyüş</figcaption>")
 
 # ============================================================== DAR KANAL
 LS_FAQ = [
  ("Dar kanal kendiliğinden geçer mi?", "Daralan kanal yeniden genişlemez; ancak şikâyetler çoğu kişide yıllar içinde kötüleşmez. Ameliyatsız izlenen hastaların yaklaşık üçte biri 3 yıl içinde düzeldiğini, yaklaşık yarısı şikâyetlerinin aynı kaldığını bildiriyor; %10–20'sinde şikâyetler artıyor."),
  ("MR'da dar kanal çıktı, ameliyat olmalı mıyım?", "Her zaman değil. 60 yaş üstündeki her beş kişiden birinde görüntülemede kanal daralması görülür ve bunların %80'inden fazlasında hiç şikâyet yoktur. Tedavi kararını MR değil, şikâyetleriniz ve günlük hayatınızın ne kadar kısıtlandığı belirler. Genellikle önce egzersiz, aktiviteyi ayarlama ve ağrı kontrolü denenir."),
  ("Yürüyünce ağrım artıyor; yürümeyi bırakmalı mıyım?", "Hayır. Yürümeyi bırakmak bacak kaslarını ve dayanıklılığı zayıflatır. Yürüyüşü kısa bölümlere ayırın, şikâyet başlamadan oturup dinlenin ve süreyi yavaş yavaş artırın. Sabit bisiklet gibi öne eğik yapılan aktiviteler genellikle daha rahat tolere edilir."),
- ("MR çektirmem gerekir mi?", "İlk tanı için genellikle gerekmez; tanı çoğunlukla öykü ve muayeneyle konur. 2022'de JAMA'da yayımlanan derlemeye göre görüntüleme, tanıyı doğrulamak ya da iğne veya ameliyat planlamak gerektiğinde istenir. Röntgen omur kayması ya da omurga eğriliği gibi tedaviyi etkileyebilecek durumları gösterir; ayrıntılı inceleme için MR tercih edilir. Görüntüdeki daralma şikâyeti olmayan pek çok kişide de görüldüğü için tedavi kararı yalnızca görüntüye göre verilmez."),
+ ("MR çektirmem gerekir mi?", "İlk tanı ve ilk tedavi için genellikle gerekmez; tanı çoğunlukla öykü ve muayeneyle konur. 2022'de JAMA'da yayımlanan derlemeye göre görüntüleme, iğne ya da ameliyat düşünüldüğünde tanıyı doğrulamak ve anatomiyi netleştirmek için istenir. Acil uyarı işaretleri varsa hemen MR ya da BT çekilir. Röntgen omur kayması ya da omurga eğriliği gibi tedaviyi etkileyebilecek durumları gösterir; ayrıntılı inceleme için MR tercih edilir. Görüntüdeki daralma şikâyeti olmayan pek çok kişide de görüldüğü için tedavi kararı yalnızca görüntüye göre verilmez."),
  ("Bel fıtığından farkı nedir?", "Bel fıtığında bacak ağrısı çoğunlukla oturunca ve öne eğilince artar. Dar kanalda ise tam tersine ayakta durmak ve yürümek şikâyeti artırır, oturmak ve öne eğilmek rahatlatır. Dar kanal genellikle ileri yaşta görülür ve çoğu zaman iki bacağı birden etkiler."),
 ]
 
@@ -44,7 +46,7 @@ LS_SRC = [
  "Katz JN, Zimmerman ZE, Mass H, Makhni MC. " + ext("https://jamanetwork.com/journals/jama/article-abstract/2791689", "Diagnosis and management of lumbar spinal stenosis: a review") + ". JAMA. 2022;327(17):1688-1699.",
  "Schneider MJ, Ammendolia C, Murphy DR, et al. " + ext("https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2720073", "Comparative clinical effectiveness of nonsurgical treatment methods in patients with lumbar spinal stenosis: a randomized clinical trial") + ". JAMA Netw Open. 2019;2(1):e186828.",
  "Delitto A, Piva SR, Moore CG, et al. " + ext("https://www.acpjournals.org/doi/10.7326/M14-1420", "Surgery versus nonsurgical treatment of lumbar spinal stenosis: a randomized trial") + ". Ann Intern Med. 2015;162(7):465-473.",
- "Zaina F, Tomkins-Lane C, Carragee E, Negrini S. " + ext("https://www.cochrane.org/CD010264/BACK_surgical-versus-non-surgical-treatment-lumbar-spinal-stenosis", "Surgical versus non-surgical treatment for lumbar spinal stenosis") + ". Cochrane Database Syst Rev. 2016;(1):CD010264.",
+ "Zaina F, Tomkins-Lane C, Carragee E, Negrini S. " + ext("https://www.cochrane.org/evidence/CD010264_surgical-versus-non-surgical-treatment-lumbar-spinal-stenosis", "Surgical versus non-surgical treatment for lumbar spinal stenosis") + ". Cochrane Database Syst Rev. 2016;(1):CD010264.",
  "Friedly JL, Comstock BA, Turner JA, et al. " + ext("https://www.nejm.org/doi/full/10.1056/NEJMoa1313265", "A randomized trial of epidural glucocorticoid injections for spinal stenosis") + ". N Engl J Med. 2014;371(1):11-21.",
 ]
 
@@ -54,7 +56,7 @@ LS_TL = [
  ("2014", "400 hastayla yapılan çalışmada (NEJM) lokal anestezik iğneye kortizon eklemek 6. haftada çok az yarar sağladı ya da hiç sağlamadı."),
  ("2015", "Ameliyat adayı 169 hastayla yapılan çalışmada (Ann Intern Med) 2 yılın sonunda fiziksel işlevde ameliyat ile fizyoterapi arasında anlamlı fark bulunmadı; fizyoterapi grubunun %57'si bu sürede ameliyat oldu."),
  ("2016", "Beş çalışmayı (643 hasta) inceleyen Cochrane derlemesi, ameliyatın ameliyatsız tedaviden daha iyi olup olmadığı konusunda kesin bir sonuca varılamayacağını bildirdi."),
- ("2019", "Ortalama 72 yaşındaki 259 hastayla yapılan çalışmada (JAMA Netw Open) manuel terapiyle birlikte kişiye özel egzersiz, 2. ayda şikâyetleri ve yürüme kapasitesini tıbbi tedaviden ve grup egzersizinden daha fazla iyileştirdi."),
+ ("2019", "Ortalama 72 yaşındaki 259 hastayla yapılan çalışmada (JAMA Netw Open) manuel terapiyle birlikte kişiye özel egzersiz, 2. ayda şikâyetleri ve yürüme kapasitesini tıbbi tedaviden ve grup egzersizinden daha fazla iyileştirdi; 6. ayda gruplar arasında fark kalmadı."),
  ("2022", "JAMA'da yayımlanan derleme: dünyada yaklaşık 103 milyon kişinin şikâyetli dar kanalla yaşadığı tahmin ediliyor; ilk tedavi aktiviteyi ayarlama, ağrı kontrolü ve fizyoterapi."),
 ]
 
@@ -104,8 +106,8 @@ LS_BODY = f'''<header class="page">
       <p class="soft">Tanı çoğunlukla öykü ve muayeneyle konur. 2022'de JAMA'da yayımlanan derlemeye göre hiçbir bulgu tek başına hem çok duyarlı hem çok özgül değildir; bulgular birlikte değerlendirilir.</p>
       <div class="kinds">
         <div class="kind"><h3>Öykü</h3><p>Ayakta durunca ve yürüyünce artan, oturunca ya da öne eğilince azalan kalça ve bacak ağrısı tipiktir; alışveriş arabasına yaslanınca daha rahat yürüyebilmek sık anlatılır. Otururken bel ağrısının olmaması ve denge sorunu da tanıyı destekleyen bulgular arasında sayılıyor.</p></div>
-        <div class="kind"><h3>Muayene</h3><p>Ayakları açık, geniş adımlarla yürüme ya da gözler kapalıyken dengenin bozulması (Romberg testi) olduğunda tanıyı güçlü şekilde destekliyor (özgüllük %90'ın üzerinde), ama hastaların yalnızca yaklaşık %40'ında görülüyor. His, güç ya da refleks kaybı hastaların yaklaşık yarısında bulunuyor.</p></div>
-        <div class="kind"><h3>Görüntüleme ne zaman?</h3><p>İlk tanı için gerekmez; tanıyı doğrulamak ya da iğne veya ameliyat planlamak için istenir. Röntgen omur kayması ya da omurga eğriliğini gösterir; ayrıntılı inceleme için MR tercih edilir. Görüntüdeki daralma tek başına tedavi kararını belirlemez.</p></div>
+        <div class="kind"><h3>Muayene</h3><p>Ayaklar birbirinden açık (geniş tabanlı) yürüme ya da gözler kapalıyken dengenin bozulması (Romberg testinin olumlu çıkması) tanıyı güçlü şekilde destekler (özgüllük %90'ın üzerinde); ancak bu bulgular hastaların yalnızca yaklaşık %40'ında görülür. His, güç ya da refleks kaybı hastaların yaklaşık yarısında bulunuyor.</p></div>
+        <div class="kind"><h3>Görüntüleme ne zaman?</h3><p>İlk tanı ve ilk tedavi için genellikle gerekmez; iğne ya da ameliyat düşünüldüğünde tanıyı doğrulamak ve anatomiyi netleştirmek için istenir. Acil uyarı işaretleri varsa hemen MR ya da BT çekilir. Röntgen omur kayması ya da omurga eğriliğini gösterir; ayrıntılı inceleme için MR tercih edilir. Görüntüdeki daralma tek başına tedavi kararını belirlemez.</p></div>
       </div>
     </div>
   </section>
@@ -129,17 +131,8 @@ LS_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Geçmişten bugüne</p>
       <h2>Ayrı bir hastalık olarak tanınmasından bugüne</h2>
-      <p class="soft">Dar kanal 1950'lerde ayrı bir hastalık olarak tanımlandı. Son on yılın çalışmaları, ilk tedavinin egzersiz ve fizyoterapi olduğunu, iğnenin ve ameliyatın yerinin ise daha sınırlı olduğunu gösterdi.</p>
+      <p class="soft">Dar kanal 1950'lerde ayrı bir hastalık olarak tanımlandı. Son yıllardaki çalışmalar ilk tedavinin egzersiz ve fizyoterapi olduğunu destekledi; kortizon iğnesinin yararının kısa süreli olduğunu, ameliyatın ameliyatsız tedaviye üstünlüğünün ise net olmadığını gösterdi.</p>
       {g_tl(LS_TL)}
-      <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
-      <p class="soft">2022'de JAMA'da yayımlanan derlemenin değerlendirmesi. Tedavi kişiye, şikâyetlerin şiddetine ve günlük hayatın ne kadar kısıtlandığına göre seçilir.</p>
-      <div class="kinds g-cmp">
-        <div class="kind"><h3>Bilgilendirme ve aktivite</h3><dl><dt>JAMA</dt><dd>Duruşun şikâyetleri nasıl etkilediği anlatılır; bisiklet ya da yan kulaç yüzme gibi beli öne eğik tutan etkinlikler önerilir.</dd></dl></div>
-        <div class="kind"><h3>Fizyoterapi</h3><dl><dt>JAMA</dt><dd>İlk basamak tedavi. Bir çalışmada gözetimli fizyoterapi 6. haftada evde egzersize göre daha fazla kişide iyileşme sağladı (%63'e karşı %33); manuel terapiyle birlikte egzersiz bazı çalışmalarda yararlı bulundu, fark 6. ayda daraldı.</dd></dl></div>
-        <div class="kind"><h3>İlaçlar</h3><dl><dt>JAMA</dt><dd>Dar kanala özgü kesin çalışmalar az. Hangisinin uygun olduğunu hekiminize sorun.</dd></dl></div>
-        <div class="kind"><h3>Epidural kortizon iğnesi</h3><dl><dt>JAMA</dt><dd>Yaklaşık 3 hafta süren hafif bir rahatlama sağlayabilir; 6 haftadan sonra kalıcı yararı yok. Nadir de olsa ciddi enfeksiyon ve kalıcı sinir hasarı riski var.</dd></dl></div>
-        <div class="kind"><h3>Ameliyat</h3><dl><dt>JAMA</dt><dd>Ameliyatsız tedaviye rağmen ağrı ve işlev kısıtlılığı sürenlerde dekompresyon düşünülür. Bir çalışmada 2 yıldaki yarar mütevazıydı (engellilik puanında 7,8 puan; klinik önem eşiği 10–12,8). Omur kaymasında kemik kaynatma (füzyon) eklenmesinin yeri tartışmalı: bir çalışmada yalnız dekompresyon, füzyon eklenmesinden geri kalmadı (%71,4'e karşı %72,9).</dd></dl></div>
-      </div>
     </div>
   </section>
   <section id="tedavi">
@@ -153,6 +146,15 @@ LS_BODY = f'''<header class="page">
         <li><b>Epidural kortizon iğnesi</b><span>400 hastalık bir çalışmada, lokal anestezik iğneye kortizon eklemek 6. haftada çok az fayda sağladı ya da hiç sağlamadı. Uzun vadeli faydası gösterilmemiştir; karar hekiminizle verilir.</span></li>
         <li><b>Ameliyat</b><span>Sinirlerin üzerindeki baskıyı kaldıran dekompresyon ameliyatı, ameliyatsız tedaviye rağmen şikâyetleri süren seçilmiş hastalarda değerlendirilir.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
+      <p class="soft">2022'de JAMA'da yayımlanan derlemenin değerlendirmesi. Tedavi kişiye, şikâyetlerin şiddetine ve günlük hayatın ne kadar kısıtlandığına göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Bilgilendirme ve aktivite</h3><dl><dt>JAMA</dt><dd>Duruşun şikâyetleri nasıl etkilediği anlatılır; bisiklet ya da yan kulaç yüzme gibi beli öne eğik tutan etkinlikler önerilebilir.</dd></dl></div>
+        <div class="kind"><h3>Fizyoterapi</h3><dl><dt>JAMA</dt><dd>İlk basamak tedavi. Bir çalışmada gözetimli fizyoterapi 6. haftada evde egzersize göre daha fazla kişide iyileşme sağladı (%63'e karşı %33); manuel terapiyle birlikte egzersiz bazı çalışmalarda yararlı bulundu, 6. ayda gruplar arasında fark kalmadı.</dd></dl></div>
+        <div class="kind"><h3>İlaçlar</h3><dl><dt>JAMA</dt><dd>Dar kanala özgü kesin çalışmalar az. Hangisinin uygun olduğunu hekiminize sorun.</dd></dl></div>
+        <div class="kind"><h3>Epidural kortizon iğnesi</h3><dl><dt>JAMA</dt><dd>Birkaç hafta süren sınırlı bir rahatlama sağlayabilir; yararın 6 hafta ya da daha uzun sürmesi olası görünmüyor. Nadir de olsa ciddi enfeksiyon ve kalıcı sinir hasarı riski var.</dd></dl></div>
+        <div class="kind"><h3>Ameliyat</h3><dl><dt>JAMA</dt><dd>Ameliyatsız tedaviye rağmen ağrı ve işlev kısıtlılığı sürenlerde dekompresyon düşünülür. Bir çalışmada 2 yıldaki yarar mütevazıydı: Oswestry engellilik ölçeğinde (0–100) ameliyatsız tedaviye göre 7,8 puan daha fazla iyileşme; klinik önem eşiği 11–12,8 puan. Omur kaymasında kemik kaynatma (füzyon) eklenmesinin yeri tartışmalı: bir çalışmada yalnız dekompresyon, füzyon eklenmesinden geri kalmadı (engellilik puanında en az %30 iyileşme: %71,4'e karşı %72,9).</dd></dl></div>
+      </div>
     </div>
   </section>
   <section id="egzersizler">
@@ -195,18 +197,25 @@ LS_BODY = f'''<header class="page">
   <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden başvurun.</p>
+      <p class="soft">Aşağıdaki durumlarda gecikmeden başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
       <p class="soft"><strong>Hemen acil servise ya da 112'ye:</strong></p>
       <ul class="dots redflags">
         <li>İdrar yapamama ya da idrar ve dışkı kaçırma</li>
-        <li>Makat, kasık ve genital bölgede his kaybı</li>
+        <li>Makat, kasık ya da genital bölgede uyuşma veya his kaybı</li>
         <li>Bacaklarda hızla artan güçsüzlük</li>
+        <li>Ateş ya da kanser öyküsüyle birlikte yeni başlayan bacak güçsüzlüğü veya uyuşma</li>
+        <li>Trafik kazası ya da yüksekten düşme sonrası bel ağrısı</li>
         <li>Bacakta aniden başlayan şiddetli ağrıyla birlikte soğukluk, solukluk ya da renk değişikliği</li>
       </ul>
-      <p class="soft"><strong>Aynı gün ya da birkaç gün içinde bir hekime:</strong></p>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
       <ul class="dots redflags">
-        <li>Ateş, açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte bel ağrısı</li>
-        <li>Düşme ya da darbeden sonra başlayan şiddetli bel ağrısı</li>
+        <li>Ateşle birlikte bel ağrısı</li>
+        <li>Kemik erimesi olan birinde basit bir düşmeden sonra başlayan şiddetli bel ağrısı</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte bel ağrısı</li>
+        <li>Bacaklarda yavaş yavaş artan güçsüzlük ya da uyuşma</li>
         <li>Dinlenirken de geçmeyen bacak ağrısı</li>
       </ul>
       {CTA_CARD("Dar kanal şikâyetiniz", "dar kanal (spinal stenoz)")}
