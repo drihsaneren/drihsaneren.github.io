@@ -82,7 +82,6 @@ Sonra `$REPO` içinde commit + push (main). Araçlarda değişiklik yaptıysan b
 ## Bekleyen işler
 
 - MS sayfası (4 Ekim 2026) videosuz: YouTube sayfaları okunamadığı için kanal doğrulanamadı. Uygun, kanalı doğrulanmış MS egzersiz videosu bulunursa `cond6_part.py`'ye `#videolar` bölümü eklenebilir.
-- Dar kanal sayfası (2 Ekim 2026): Delitto 2015 çalışmasında fizyoterapi grubundan ameliyata geçenlerin tam oranı kaynaktan doğrulanamadı; sayfada rakamsız ("önemli bir bölümü") yazıldı. Doğrulanınca rakam eklenebilir.
 - Google Takvim "Appointment schedule" yerleştirme kodu gelince `fb_book.py` içindeki `data-embed=""` doldurulacak (30 dk).
 - Armut.com yorumları (profil bağlantısı bekleniyor). Gerçek fotoğraflar (özellikle iğneleme karesi yerine).
 - LinkedIn için 1200×627 paylaşım görseli önerildi.
@@ -832,3 +831,6 @@ Ayrıntılar DENETIM.md'de. Omuzda kireç birikmesindeki "ilaç kullanabilirsini
 
 ## 5 Kasım 2026 — günlük denetim (fibromiyalji, titreme, yüz felci)
 Ayrıntılar DENETIM.md'de. Önemli: 2014 GETAT yönetmeliği 28 Nisan 2026 (RG 33237) yönetmeliğiyle yürürlükten kalktı; `ACU_LAW` cümlesi ve titremedeki künye Ek-2 okunup kullanıcı onayı alınınca güncellenecek (soruldu). Cochrane bağlantılarının eski CDxxxx/GRUP_ biçimi yerine cochrane.org/evidence/CDxxxx_… kullanın. Çeviri tur50. Sonraki batch: tur51.
+
+## 6 Kasım 2026 — günlük denetim (düşmeleri önleme, kalça kırığı, dar kanal)
+Ayrıntılar DENETIM.md'de. Delitto %57 (PEDro 42343) doğrulandı ve sayfaya yazıldı; "Bekleyen işler"deki dar kanal maddesi kapandı. Düşme sayfasının tarihi artık sabit metin. Not: t_ls.py'nin ilk bağımsız değişkeni görüntü dizinidir (shots6); $REPO verilirse ekran görüntüleri main'e düşer. Çeviri tur51. Sonraki batch: tur52.
