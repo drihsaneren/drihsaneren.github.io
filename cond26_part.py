@@ -2,14 +2,16 @@
 # Yeni rehber (26): omuz çıkığı (omuz instabilitesi). cond25_part.py'den sonra exec edilir. Video yok.
 # scap2, isoer, scaption, row, sler omuz rehberlerinden (çevirileri hazır); duvarda parmak yürütme bu sayfaya özel.
 
-_ex2("di_wall", "wslide", "Duvarda parmak yürütme", "Yüzünüz duvara dönük durun. Parmaklarınızı duvarda yürütür gibi rahat ettiğiniz yüksekliğe kadar çıkarın, kısa bir süre bekleyin ve yavaşça geri indirin. İlk haftalarda kolunuzu omuz hizasının üstüne zorlamayın.", "10 tekrar, günde 3–4 kez")
+_ex2("di_wall", "wslide", "Duvarda parmak yürütme", "Yüzünüz duvara dönük durun. Parmaklarınızı duvarda yürütür gibi rahat ettiğiniz yüksekliğe kadar çıkarın, kısa bir süre bekleyin ve yavaşça geri indirin. Hekiminiz ya da fizyoterapistiniz izin verene kadar omuz hizasının üstüne çıkmayın.", "10 tekrar, günde 3–4 kez")
+SV["di_wall"] = SV["wslide"].replace("<figcaption>Duvarda kaydırma</figcaption>", "<figcaption>Duvarda parmak yürütme</figcaption>")
+_ex2("di_iso", "isoer", "Kapı pervazında dışa döndürme", "Ağrılı tarafınız kapı pervazına bakacak şekilde durun. Dirseğinizi 90 derece bükün, kolunuzu gövdenize yaslayın; araya katlanmış küçük bir havlu koyabilirsiniz. El sırtınızla pervaza doğru, kolunuz yer değiştirmeden itin. Ağrıyı artırmayan bir kuvvetle 5 saniye tutun ve gevşeyin.", "10 tekrar, günde 3–5 kez")
 
 DI_FAQ = [
- ("Omzumu kendim yerine takabilir miyim?", "Hayır, omzu kendiniz yerine takmaya çalışmayın. En kısa sürede acil servise gidin; araba kullanmayın, gerekirse 112’yi arayın."),
- ("Askıyı ne kadar takmalıyım?", "Askı rahatlık içindir. Ağrı azaldıkça çıkarabilir, otururken kolunuzu bir yastığa destekleyebilirsiniz. Kırık yoksa genellikle 2 haftadan sonra askı kullanılmaz; size özel bir süre verildiyse ona uyabilirsiniz."),
- ("Omzum yeniden çıkar mı?", "Olabilir. Çalışmaların ortak değerlendirmesinde ilk kez öne çıkan omuzların yaklaşık %39’unda yeniden çıkma ya da yerinden kayma görüldü. 40 yaş ve altında olmak, erkek olmak ve eklemlerin doğuştan gevşek olması bu olasılığı artırıyor. Fizyoterapi omuz kaslarını güçlendirir; gençlerde ve tekrarlayan çıkıklarda ameliyat da konuşulabilir. 22 randomize çalışmayı birleştiren 2018 tarihli bir analizde, ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık %47'sinde 2 yıl içinde yeniden çıkık görülmedi. Kolun dışa dönük pozisyonda özel bir askıyla tutulması yeniden çıkmayı azaltmadı; yazarlar rahatlık için sıradan bir kol askısını yeterli buluyor."),
+ ("Omzumu kendim yerine oturtabilir miyim?", "Hayır, omzu kendiniz yerine oturtmaya çalışmayın. En kısa sürede acil servise gidin; araba kullanmayın, gerekirse 112’yi arayın."),
+ ("Askıyı ne kadar takmalıyım?", "Askı rahatlık içindir; ağrı azaldıkça, rahat ettiğinizde çıkarabilirsiniz. Sırtüstü yatarken kolunuzun altına küçük bir yastık koyabilirsiniz. Kırık yoksa genellikle 2 haftadan sonra askı kullanılmaz; size özel bir süre verildiyse ona uyabilirsiniz."),
+ ("Omzum yeniden çıkar mı?", "Olabilir. Çalışmaların ortak değerlendirmesinde ilk kez öne çıkan omuzların yaklaşık %39’unda yeniden çıkma ya da yerinden kayma görüldü. 40 yaş ve altında olmak, erkek olmak ve eklemlerin aşırı gevşek olması (hiperlaksite) bu olasılığı artırıyor. Fizyoterapi omuz kaslarını güçlendirir; gençlerde ve tekrarlayan çıkıklarda ameliyat da konuşulabilir. 22 randomize çalışmayı birleştiren 2018 tarihli bir analizde, ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık %47'sinde 2 yıl içinde yeniden çıkık görülmedi. Kolun dışa dönük pozisyonda özel bir askıyla tutulması yeniden çıkmayı azaltmadı; yazarlar rahatlık için sıradan bir kol askısını yeterli buluyor. Çalışmaların hasta grupları, izlem süreleri ve yeniden çıkma tanımları farklı olduğundan bu oranlar birebir karşılaştırılamaz."),
  ("İlk çıkıktan sonra ameliyat gerekir mi?", "Her zaman değil. 22 randomize çalışmayı birleştiren bir ağ meta-analizinde (BJSM, 2018), ilk kez çıkan omuzlarda fizyoterapiyle izlenen hastaların yaklaşık yarısında omuz yeniden çıkmadı. Eklem dudağının (labrum) ameliyatla onarılması ise yeniden çıkma riskini azalttı (orta kalitede kanıt). Bu yüzden karar yaşa, spora, yeniden çıkma riskine ve kişinin tercihine göre verilir; gençlerde ve tekrarlayan çıkıklarda bir omuz uzmanının görüşü alınabilir."),
- ("40 yaşın üstündeyim; çıkıktan sonra kolumu kaldıramıyorum. Normal mi?", "40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığı sık görülür ve çıkık yerine oturtulduktan sonra çekilen röntgen normal olsa bile gözden kaçabilir: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. BMJ'deki bir yazıya göre bu durumda acil ultrason ya da MR yapılmalı. Kolunuzu kaldıramıyorsanız ya da güçsüzlük sürüyorsa beklemeden hekiminize başvurun; ayrıntılar için <a href=\"rotator-manset-yirtigi.html\">rotator manşet yırtığı</a> rehberine bakabilirsiniz."),
+ ("40 yaşın üstündeyim; çıkıktan sonra kolumu kaldıramıyorum. Normal mi?", "40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığı sık görülür ve çıkık yerine oturtulduktan sonra çekilen röntgen normal olsa bile gözden kaçabilir: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. BMJ'deki bir yazıda 40 yaş üstünde her çıkıktan sonra acil ultrason ya da MR öneriliyor. Kolunuzu kaldıramıyorsanız ya da güçsüzlük sürüyorsa beklemeden hekiminize başvurun; ayrıntılar için <a href=\"rotator-manset-yirtigi.html\">rotator manşet yırtığı</a> rehberine bakabilirsiniz."),
  ("Ne zaman araba kullanabilir ve spora dönebilirim?", "Askı takılıyken araba kullanılmaz; çoğu kişi 4–6 hafta sonra, kolunun gücü ve hareketi yeterli olunca araba kullanabilir. Hafif etkinliklere yaklaşık 6 hafta sonra dönülebilir; bazı sporlara tam dönüş 16 haftayı bulabilir. Ne zaman güvenli olduğunu hekiminiz ya da fizyoterapistiniz söyleyecektir."),
 ]
 
@@ -20,19 +22,19 @@ DI_SRC = [
  "Olds M, Ellis R, Donaldson K, Parmar P, Kersten P. Risk factors which predispose first-time anterior traumatic shoulder dislocations to recurrent instability in adults: a systematic review and meta-analysis. Br J Sports Med. 2015;49(14):913–922. " + ext("https://repository.canterbury.ac.uk/item/91826/-risk-factors-which-predispose-first-time-anterior-traumatic-shoulder-dislocations-to-recurrent-instability-in-adults-a-systematic-review-and-meta-analysis", "Özet") + ".",
  "Kavaja L, Lähdeoja T, Malmivaara A, Paavola M. " + ext("https://bjsm.bmj.com/content/52/23/1498", "Treatment after traumatic shoulder dislocation: a systematic review with a network meta-analysis") + ". Br J Sports Med. 2018;52(23):1498-1506. Özet: " + ext("https://search.pedro.org.au/search-results/record-detail/54445", "PEDro") + ".",
  "Northern Lincolnshire and Goole NHS Foundation Trust. " + ext("https://www.nlg.nhs.uk/resources/anterior-shoulder-dislocation-patients-under-40-years-old-and-no-fracture/", "Anterior shoulder dislocation: patients under 40 years old and no fracture") + ". December 2025.",
- "Worcestershire Acute Hospitals NHS Trust. " + ext("https://www.worcsacute.nhs.uk/leaflets/shoulder-dislocation/", "Shoulder dislocation") + ".",
+ "Oxford University Hospitals NHS Foundation Trust. " + ext("https://www.ouh.nhs.uk/media/ph4dp0pf/116941shoulder-dislocation.pdf", "Shoulder dislocation – advice leaflet") + ". February 2026.",
  "University Hospitals of Leicester NHS Trust. " + ext("https://www.uhleicester.nhs.uk/wp-content/uploads/2025/06/1158_122024-Advice-and-exercises-for-a-dislocated-shoulder.pdf", "Advice and exercises for a dislocated shoulder") + ". Last reviewed December 2024.",
 ]
 
 DI_TL = [
- ("MÖ 400 dolayı", "Hipokrat, hasta sırtüstü yatarken hekimin ayağını koltuk altına dayayıp kolu çekerek omzu yerine yerleştirme yöntemini tarif etti."),
- ("1870", "Kocher, omzu kaldıraç hareketiyle yerine yerleştiren bir yöntemi yeniden tanıttı; bu yöntem bugün ciddi komplikasyon olasılığı nedeniyle terk edilmiş durumda."),
+ ("MÖ 400 dolayı", "Hipokrat, hasta sırtüstü yatarken hekimin ayağını koltuk altına dayayıp kolu çekerek omzu yerine oturtma yöntemini tarif etti."),
+ ("1870", "Kocher, omzu kaldıraç hareketiyle yerine oturtan bir yöntemi yeniden tanıttı; bu özgün kaldıraç yöntemi, ciddi komplikasyon olasılığı nedeniyle bugün terk edilmiş durumda."),
  ("1906", "Perthes, omuz yuvasının kenarındaki eklem dudağının (labrum) ayrılmasının çıkığın tekrarlamasına yol açtığını gösterdi."),
  ("1923", "Bankart (BMJ) aynı bulguyu anlattı ve ayrılan eklem dudağının yeniden tutturulmasının önemini vurguladı; bu onarım bugün onun adıyla anılıyor."),
  ("1954", "Latarjet, kürek kemiğindeki korakoid çıkıntının omuz yuvasının önüne aktarıldığı ameliyatı ilk kez tarif etti."),
  ("2015", "10 çalışmayı ve 1.324 kişiyi birleştiren meta-analiz (BJSM): ilk kez öne çıkan omuzların yaklaşık %39'unda yeniden çıkma ya da yerinden kayma görüldü; 40 yaş ve altında olmak en güçlü risk etkeniydi."),
  ("2017", "BMJ'de yayımlanan bir yazıda, 40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığının sık olduğu ve kolayca gözden kaçabildiği vurgulandı."),
- ("2018", "22 randomize çalışmayı birleştiren ağ meta-analizi (BJSM): ilk çıkıktan sonra fizyoterapiyle izlenen hastaların yaklaşık yarısında omuz yeniden çıkmadı; eklem dudağının onarımı yeniden çıkma riskini azalttı; kolun dışa dönük askıya alınması içe dönük askıya göre yarar sağlamadı."),
+ ("2018", "22 randomize çalışmayı birleştiren ağ meta-analizi (BJSM): ilk çıkıktan sonra fizyoterapiyle izlenen hastaların yaklaşık yarısında omuz yeniden çıkmadı; eklem dudağının onarımı yeniden çıkma riskini azalttı; kolun dışa döndürülmüş pozisyonda askıyla tutulması, içe döndürülmüş pozisyona göre yarar sağlamadı."),
 ]
 
 DI_BODY = f'''<header class="page">
@@ -40,7 +42,7 @@ DI_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuz çıkığı (omuz instabilitesi)</h1>
-    <p class="lede">Omuz çıkığı, kol kemiğinin başının omuzdaki yuvasından çıkmasıdır; çoğunlukla düşme ya da spor sırasında olur ve en sık öne doğru çıkar. Omuz bir kez çıktıktan sonra yeniden çıkma ya da yerinden kayma eğilimi gösterebilir; buna omuz instabilitesi denir. Yerine takıldıktan sonra yapılan egzersizler, omzun gücünü ve hareketini geri kazandırmanın temelidir.</p>
+    <p class="lede">Omuz çıkığı, kol kemiğinin başının omuzdaki yuvasından çıkmasıdır; çoğunlukla düşme ya da spor sırasında olur ve en sık öne doğru çıkar. Omuz bir kez çıktıktan sonra yeniden çıkma ya da yerinden kayma eğilimi gösterebilir; buna omuz instabilitesi denir. Omuz yerine oturtulduktan sonra yapılan egzersizler, omzun gücünü ve hareketini geri kazandırmanın temelidir.</p>
     <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
@@ -53,7 +55,7 @@ DI_BODY = f'''<header class="page">
         <div class="stat"><b>2 hafta</b><span>Kırık yoksa askının genellikle bırakıldığı süre</span></div>
         <div class="stat"><b>6–12 hafta</b><span>Çoğu kişide iyileşme süresi; bazı sporlara tam dönüş 16 haftayı bulabilir</span></div>
       </div>
-      {g_toc([("belirtiler", "Belirtiler ve ilk yardım"), ("tedavi", "Tedavi ve iyileşme"), ("40-yas", "40 yaş üstünde dikkat"), ("sonrasi", "Yerine takıldıktan sonra"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Egzersizler"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
+      {g_toc([("belirtiler", "Belirtiler ve ilk yardım"), ("tedavi", "Tedavi ve iyileşme"), ("40-yas", "40 yaş üstünde dikkat"), ("sonrasi", "Yerine oturtulduktan sonra"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Egzersizler"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
   <section id="belirtiler">
@@ -69,7 +71,7 @@ DI_BODY = f'''<header class="page">
       <div>
         <h2>Omuz çıkarsa ne yapmalı?</h2>
         <ul class="dots">
-          <li>Omzu kendiniz yerine takmaya çalışmayın; en kısa sürede acil servise gidin. Araba kullanmayın, gerekirse 112’yi arayın.</li>
+          <li>Omzu kendiniz yerine oturtmaya çalışmayın; en kısa sürede acil servise gidin. Araba kullanmayın, gerekirse 112’yi arayın.</li>
           <li>Beklerken kolunuzu bir askı ya da havluyla destekleyip hareketsiz tutun.</li>
           <li>Havluya sarılı buzu en fazla 20 dakika, 2–3 saatte bir uygulayabilirsiniz.</li>
         </ul>
@@ -80,7 +82,7 @@ DI_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Tedavi ve iyileşme</h2>
-        <p class="soft">Çıkık genellikle röntgenle doğrulanır ve hekim, lokal uyuşturma ya da sakinleştirici ilaç altında omzu yerine yerleştirir. Ardından bir askı verilir. Çoğu kişi 6–12 haftada iyileşir; omzun gücünün ve işlevinin tamamen geri gelmesi bir yılı bulabilir.</p>
+        <p class="soft">Çıkık genellikle röntgenle doğrulanır ve hekim, lokal uyuşturma ya da sakinleştirici ilaç altında omzu yerine oturtur. Ardından bir askı verilir. Çoğu kişi 6–12 haftada iyileşir; bazı kişilerde iyileşme daha uzun sürebilir.</p>
         <p class="soft">Yeniden çıkma olasılığını azaltmak için bazen ameliyat önerilir. Gençlerde bir omuz uzmanına yönlendirme yapılabilir.</p>
       </div>
       <div>
@@ -89,7 +91,7 @@ DI_BODY = f'''<header class="page">
         <ul class="dots">
           <li>40 yaş ve altında olmak (en güçlü etken)</li>
           <li>Erkek olmak</li>
-          <li>Eklemlerin doğuştan gevşek olması</li>
+          <li>Eklemlerin aşırı gevşek olması (hiperlaksite)</li>
         </ul>
         <p class="soft">Çıkıkla birlikte kol kemiğinin üst dış yanındaki çıkıntıda kırık olanlarda ise yeniden çıkma daha az görüldü.</p>
       </div>
@@ -98,17 +100,17 @@ DI_BODY = f'''<header class="page">
   <section id="40-yas">
     <div class="wrap">
       <h2>40 yaş üstünde dikkat: rotator manşet yırtığı</h2>
-      <p class="soft">BMJ'de yayımlanan bir yazıya göre 40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığı sık görülür: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. Yırtık, çıkık yerine oturtulduktan sonra çekilen röntgen normal olsa bile gözden kaçabilir. Bu yüzden 40 yaş üstünde çıkıktan sonra acil ultrason ya da MR öneriliyor. Çıkıktan sonra kolunuzu kaldıramıyorsanız ya da güçsüzlük sürüyorsa beklemeden hekiminize başvurun.</p>
+      <p class="soft">BMJ'de yayımlanan bir yazıya göre 40 yaş üstünde omuz çıkığından sonra rotator manşet yırtığı sık görülür: çalışmalarda bu yaş grubunda çıkık geçirenlerin yaklaşık yarısında yırtık bulundu. Yırtık, çıkık yerine oturtulduktan sonra çekilen röntgen normal olsa bile gözden kaçabilir. Bu yüzden yazıda 40 yaş üstünde her çıkıktan sonra acil ultrason ya da MR öneriliyor. Çıkıktan sonra kolunuzu kaldıramıyorsanız ya da güçsüzlük sürüyorsa beklemeden hekiminize başvurun.</p>
     </div>
   </section>
   <section id="sonrasi">
     <div class="wrap">
-      <h2>Yerine takıldıktan sonra</h2>
+      <h2>Yerine oturtulduktan sonra</h2>
       <div class="kinds">
-        <div class="kind"><span class="n">1</span><h3>Askı</h3><p>Askı rahatlık içindir. Otururken çıkarıp kolunuzu bir yastığa destekleyebilirsiniz; kırık yoksa genellikle 2 haftadan sonra kullanılmaz.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Kaçınılacak pozisyon</h3><p>İlk haftalarda kolunuzu omuz hizasının üstüne kaldırmaktan ve kolunuzu yana açıp elinizi tavana doğru döndürmekten, özellikle zorlayarak, kaçınabilirsiniz.</p></div>
+        <div class="kind"><span class="n">1</span><h3>Askı</h3><p>Askı rahatlık içindir; rahat ettiğinizde çıkarabilirsiniz. Sırtüstü yatarken kolunuzun altına küçük bir yastık koyabilirsiniz. Kırık yoksa genellikle 2 haftadan sonra kullanılmaz.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Kolu kaldırmak</h3><p>İlk günlerde omzu hareket ettirmek ve kolu kaldırmak omzun yeniden çıkmasına yol açabilir. Hekiminiz ya da fizyoterapistiniz izin verene kadar kolunuzu omuz hizasının üstüne kaldırmayın.</p></div>
         <div class="kind"><span class="n">3</span><h3>Dirsek ve bilek</h3><p>Dirsek bükme, avuç çevirme ve bilek hareketlerine hemen başlayabilirsiniz.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Buz ve ağrı kesici</h3><p>Havluya sarılı buz ağrıyı hafifletebilir; ağrı kesici için hekiminize danışın.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Buz ve ağrı kesici</h3><p>Havluya sarılı buz ağrıyı hafifletebilir. Ağrı kesici gerekirse hangisinin uygun olduğunu hekiminize sorun.</p></div>
       </div>
       <p class="soft" style="margin-top:18px">Omuz ağrısının diğer nedenleri için <a href="rotator-manset-yirtigi.html">rotator manşet yırtığı</a> ve <a href="donuk-omuz.html">donuk omuz</a> rehberlerine bakabilirsiniz.</p>
     </div>
@@ -117,15 +119,15 @@ DI_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Geçmişten bugüne</p>
       <h2>Hipokrat'tan bugüne</h2>
-      <p class="soft">Omuz çıkığını yerine yerleştirme yöntemleri iki bin yılı aşkın süredir anlatılıyor. 20. yüzyılda çıkığın neden tekrarladığı anlaşıldı; son yıllardaki çalışmalar ise kimde yeniden çıkma riskinin yüksek olduğunu ve fizyoterapi ile ameliyatın yerini netleştirdi.</p>
+      <p class="soft">Çıkan omzu yerine oturtma yöntemleri iki bin yılı aşkın süredir anlatılıyor. 20. yüzyılda çıkığın neden tekrarladığı anlaşıldı; son yıllardaki çalışmalar ise kimde yeniden çıkma riskinin yüksek olduğunu ve fizyoterapi ile ameliyatın yerini aydınlatmaya başladı.</p>
       {g_tl(DI_TL)}
       <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
       <p class="soft">22 randomize çalışmayı birleştiren ağ meta-analizinin (BJSM, 2018) bulguları. Kanıtın kalitesi parantez içinde belirtilmiştir; tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
         <div class="kind"><h3>Fizyoterapi</h3><dl><dt>BJSM</dt><dd>İlk kez çıkan omuzlarda fizyoterapiyle izlenen hastaların yaklaşık yarısında omuz yeniden çıkmadı (orta kalite).</dd></dl></div>
-        <div class="kind"><h3>Eklem dudağı onarımı</h3><dl><dt>BJSM</dt><dd>Yeniden çıkma riskini azalttı (orta kalite). Açık ameliyat, yeniden çıkmayı önlemede artroskopik ameliyattan daha iyi olabilir (düşük kalite).</dd></dl></div>
-        <div class="kind"><h3>Askının pozisyonu</h3><dl><dt>BJSM</dt><dd>Kolun dışa dönük askıya alınması, içe dönük askıya göre yarar sağlamadı (çok düşük–düşük kalite).</dd></dl></div>
-        <div class="kind"><h3>Tekrarlayan çıkık</h3><dl><dt>BJSM</dt><dd>Süreğen dengesizlik gelişirse ameliyat düşünülebilir; ancak bu durumda ameliyatın etkinliğine dair kanıt bulunamadı.</dd></dl></div>
+        <div class="kind"><h3>Eklem dudağı onarımı</h3><dl><dt>BJSM</dt><dd>İlk çıkıktan sonra yeniden çıkma riskini azalttı (orta kalite).</dd></dl></div>
+        <div class="kind"><h3>Askının pozisyonu</h3><dl><dt>BJSM</dt><dd>Kolun dışa döndürülmüş pozisyonda askıyla tutulması, içe döndürülmüş pozisyona göre yarar sağlamadı (çok düşük–düşük kalite).</dd></dl></div>
+        <div class="kind"><h3>Tekrarlayan çıkık</h3><dl><dt>BJSM</dt><dd>Süreğen (kronik) instabilite gelişirse ameliyat düşünülebilir; ancak ameliyatı ameliyatsız tedaviyle karşılaştıran çalışma bulunamadı. Ameliyat yöntemleri karşılaştırıldığında açık onarım, yeniden çıkmayı önlemede artroskopik onarımdan daha iyi olabilir (düşük kalite).</dd></dl></div>
       </div>
     </div>
   </section>
@@ -133,8 +135,8 @@ DI_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Omzu güçlendiren altı egzersiz</h2>
-      <p class="soft">Askıyı bıraktıktan sonra, hekiminiz ya da fizyoterapistiniz uygun gördüğünde başlayabilirsiniz. Yavaş başlayın, ağrı yapan hareketi durdurun. İlk haftalarda kolunuzu omuz hizasının üstüne kaldırmayın.</p>
-      {ex_grid(["scap2", "isoer", "di_wall", "scaption", "row", "sler"])}
+      <p class="soft">Askıyı bıraktıktan sonra, hekiminiz ya da fizyoterapistiniz uygun gördüğünde başlayabilirsiniz. Yavaş başlayın, ağrı yapan hareketi durdurun. Hekiminiz ya da fizyoterapistiniz izin verene kadar kolunuzu omuz hizasının üstüne kaldırmayın. Ağırlık ve lastik bantla çalışmaya fizyoterapistinizin önerisiyle geçin.</p>
+      {ex_grid(["scap2", "di_iso", "di_wall", "scaption", "row", "sler"])}
     </div>
   </section>
   <section id="sss">
@@ -148,14 +150,14 @@ DI_BODY = f'''<header class="page">
       <h2>Ne zaman hekime başvurmalı?</h2>
       <p class="soft"><strong>Hemen acil servise ya da 112'ye:</strong></p>
       <ul class="dots redflags">
-        <li>Omzunuz yerinden çıktıysa ya da şekli bozuk görünüyorsa</li>
+        <li>Omzunuz (ilk kez ya da yeniden) çıktıysa ve yerine oturmadıysa ya da şekli bozuk görünüyorsa</li>
         <li>Elde soğukluk, solukluk ya da renk değişikliği</li>
-        <li>Kolunuzda ya da elinizde yeni başlayan uyuşma, karıncalanma ya da güçsüzlük</li>
+        <li>Kolunuzda ya da elinizde yeni başlayan uyuşma, his kaybı ya da elde güçsüzlük</li>
       </ul>
       <p class="soft"><strong>Beklemeden, en geç birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
-        <li>40 yaş üstünde çıkıktan sonra kolu kaldıramama ya da süren güçsüzlük</li>
-        <li>Omzunuz yeniden çıktıysa ya da sık sık yerinden kayıyormuş gibi hissediyorsanız</li>
+        <li>40 yaş üstünde çıkıktan sonra kolu yana ya da öne kaldıramama</li>
+        <li>Omzunuz yeniden çıkıp kendiliğinden yerine oturduysa ya da sık sık yerinden kayıyormuş gibi hissediyorsanız</li>
         <li>Ağrı ve tutukluk geçmiyor ya da kötüleşiyorsa</li>
       </ul>
       {CTA_CARD("Omuz çıkığı sonrası iyileşmeniz", "omuz çıkığı sonrası")}
@@ -170,7 +172,7 @@ DI_BODY = f'''<header class="page">
 </main>'''
 
 page("omuz-cikigi.html", "Omuz Çıkığı (Omuz İnstabilitesi)",
-     "Omuz çıktığında ne yapmalı, askı ne kadar takılır, omuz yeniden çıkar mı, ameliyat gerekir mi? Risk etkenleri, 40 yaş üstünde rotator manşet yırtığı, kanıtların karşılaştırması, kısa tarihçe, kaçınılacak pozisyon ve evde altı egzersiz.",
+     "Omuz çıktığında ne yapmalı, askı ne kadar takılır, omuz yeniden çıkar mı, ameliyat gerekir mi? Risk etkenleri, 40 yaş üstünde rotator manşet yırtığı, kanıtların karşılaştırması, kısa tarihçe, askı ve kolu kaldırma önerileri ve evde altı egzersiz.",
      "omuz-cikigi.html", NECK_CSS, DI_BODY, "",
      seo_title="Omuz Çıkığı: Ne Yapmalı, Askı, Egzersiz ve Yeniden Çıkma Riski | İhsan Eren",
      condition="Omuz çıkığı ve omuz instabilitesi", faq_items=DI_FAQ)

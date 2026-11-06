@@ -7,31 +7,35 @@ _ex2("sl_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü
 _ex2("sl_birddog", "birddog", "Kuş-köpek", "Ellerinizin ve dizlerinizin üzerinde durun, sırtınız düz olsun. Bir kolunuzu öne, karşı bacağınızı arkaya uzatın; belinizi çukurlaştırmadan ve kalçanızı döndürmeden 5 saniye tutun. Taraf değiştirin.", "Her tarafa 8 tekrar")
 _ex2("sl_side", "sideplank", "Dizler üzerinde yan köprü", "Yan yatın, dizleriniz bükülü, dirseğiniz omzunuzun altında olsun. Kalçanızı kaldırarak başınızdan dizlerinize düz bir çizgi oluşturun, 10 saniye tutun. Kolaylaşınca süreyi artırın.", "Her tarafa 5 tekrar")
 _ex2("sl_walk", "walk", "Yürüyüş", "Rahat bir tempoda, düz zeminde yürüyün. Uzun yürüyüşte bacak ağrısı başlıyorsa kısa molalar verin. Süreyi yavaş yavaş artırın.", "Günde 10–30 dakika")
+SV["sl_ptilt"] = SV["ptilt"].replace("<figcaption>Pelvik eğme</figcaption>", "<figcaption>Pelvis tilti</figcaption>")
+SV["sl_k2c"] = SV["k2c"].replace("<figcaption>Diz göğse çekme</figcaption>", "<figcaption>Dizi göğse çekme</figcaption>")
+SV["sl_side"] = SV["sideplank"].replace("<figcaption>Dizler üstünde yan köprü</figcaption>", "<figcaption>Dizler üzerinde yan köprü</figcaption>")
+SV["sl_walk"] = SV["walk"].replace("<figcaption>Tempolu yürüyüş</figcaption>", "<figcaption>Yürüyüş</figcaption>")
 
 SL_FAQ = [
  ("Bel kayması geçer mi, düzelir mi?", "Kayan omur genellikle yerine geri gitmez; ancak çoğu kişide kayma zamanla ilerlemez ve belirtiler ameliyatsız tedaviyle azalır. Hafif kaymalar hiç belirti vermeyebilir; birçok kişi bunu başka bir nedenle çekilen röntgende öğrenir."),
- ("Egzersiz yapmak kaymayı artırır mı?", "Gövdeyi ve karın kaslarını güçlendiren egzersizler tedavinin temel parçasıdır. Ağrınızı belirgin biçimde artıran hareketleri bir süre bırakın ve programınızı bir fizyoterapistle planlayın."),
- ("Korse kullanmalı mıyım?", "Korse genellikle omurda bir çatlak (kırık) olduğunda önerilir. Hekiminiz önermediyse kullanmanız gerekmez; gövde kaslarını egzersizle güçlendirmek tedavinin temelidir."),
- ("Ameliyatta vida (füzyon) şart mı?", "Yürürken bacak ağrısına yol açan dar kanalla birlikte hafif bel kayması olan hastalarda yapılan bir İsveç çalışmasında, sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış ve maliyet ise arttı. Hangi ameliyatın uygun olduğuna, kaymanın derecesine ve kararlılığına bakılarak cerrahınızla birlikte karar verilir. Norveç'te dar kanal ve tek seviyede en az 3 mm bel kayması olan 262 hastanın değerlendirildiği NORDSTEN-DS çalışmasında da yalnızca sinirleri rahatlatan ameliyat, vidalı sabitleme eklenen ameliyattan geri kalmadı: 2 yılda engellilik puanı en az %30 azalanların oranı %71,4'e karşı %72,9'du. Yeniden ameliyat oranı ise yalnızca rahatlatma yapılanlarda biraz daha yüksekti (%12,5'e karşı %9,1)."),
+ ("Egzersiz yapmak kaymayı artırır mı?", "Gövdeyi ve karın kaslarını güçlendiren egzersizler tedavinin önemli bir parçasıdır. Ağrınızı belirgin biçimde artıran hareketleri bir süre bırakın ve programınızı bir fizyoterapistle planlayın."),
+ ("Korse kullanmalı mıyım?", "Korse genellikle omurda bir çatlak (kırık) olduğunda önerilir. Hekiminiz önermediyse kullanmanız gerekmez; gövde kaslarını egzersizle güçlendirmek tedavinin önemli bir parçasıdır."),
+ ("Ameliyatta vida (füzyon) şart mı?", "Dar kanal nedeniyle ameliyat edilen 247 hastayla yapılan bir İsveç çalışmasında (yarısından fazlasında, 135 hastada hafif bel kayması vardı), sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış ve maliyet ise arttı. Hangi ameliyatın uygun olduğuna kaymanın derecesine ve kararlılığına bakılarak cerrahınızla birlikte karar verilir. Dar kanal ve tek seviyede en az 3 mm bel kayması olan 262 hastanın değerlendirildiği NORDSTEN-DS çalışmasında da yalnızca sinirleri rahatlatan ameliyat, vidalı sabitleme eklenen ameliyattan geri kalmadı: 2 yılda engellilik puanı en az %30 azalanların oranı %71,4'e karşı %72,9'du. Yeniden ameliyat oranı ise yalnızca rahatlatma yapılanlarda biraz daha yüksekti (%12,5'e karşı %9,1)."),
 ]
 
 SL_SRC = [
  "Solakoğlu C. " + ext("https://www.turkiyeklinikleri.com/article/en-spondilolizis-ve-spondilolistezis-46062.html", "Spondilolizis ve spondilolistezis") + ". Türkiye Klinikleri J Surg Med Sci. 2006;2(30):85-91.",
  "Radiopaedia. " + ext("https://radiopaedia.org/articles/2076", "Spondylolisthesis grading system (Meyerding)") + ".",
  "Cleveland Clinic. " + ext("https://my.clevelandclinic.org/health/diseases/10302-spondylolisthesis", "Spondylolisthesis") + ". Medically reviewed 15 August 2024.",
- "Moley PJ. " + ext("https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/neck-and-back-pain/spondylolisthesis", "Spondylolisthesis") + ". MSD Manual Professional Version. Reviewed November 2024.",
+ "Moley PJ. " + ext("https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/neck-and-back-pain/spondylolisthesis", "Spondylolisthesis") + ". MSD Manual Professional Version. Full review October 2026.",
  "Försth P, Ólafsson G, Carlsson T, et al. A randomized, controlled trial of fusion surgery for lumbar spinal stenosis. N Engl J Med. 2016;374(15):1413–1423. Özet: " + ext("https://www.thebottomline.org.uk/summaries/ssss/", "The Bottom Line, The Swedish Spinal Stenosis Study") + ".",
- "Matz PG, Meagher RJ, Lamer T, et al. " + ext("https://doi.org/10.1016/j.spinee.2015.11.055", "Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis") + ". Spine J. 2016;16(3):439–448",
+ "Matz PG, Meagher RJ, Lamer T, et al. " + ext("https://doi.org/10.1016/j.spinee.2015.11.055", "Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis") + ". Spine J. 2016;16(3):439–448.",
  "Margetis K, Gillis CC. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK430767/", "Spondylolisthesis") + ". In: StatPearls. Treasure Island (FL): StatPearls Publishing; last update 28 March 2025.",
  "Austevoll IM, Hermansen E, Fagerland MW, et al. " + ext("https://ninum.uit.no/handle/10037/24174", "Decompression with or without fusion in degenerative lumbar spondylolisthesis") + ". N Engl J Med. 2021;385(6):526–538.",
 ]
 
 SL_TL = [
- ("1854", "Kilian \"spondilolistezis\" terimini ilk kez kullandı. Daha önce bir doğum hekimi, kuyruk sokumunun önündeki bir kemik çıkıntısının doğumda sorun yarattığını not etmişti; bu, bel kaymasının ilk tanımı olarak kabul ediliyor."),
+ ("1854", "Kilian \"spondilolistezis\" terimini ilk kez kullandı. Daha önce bir doğum hekimi, sağrı kemiğinin (sakrum) önündeki bir kemik çıkıntısının doğumda sorun yarattığını not etmişti; bu, bel kaymasının ilk tanımı olarak kabul ediliyor."),
  ("1932", "Meyerding, kaymanın miktarını alttaki omurun dörtte biri ölçüsünde derecelendiren sistemi önerdi; bugün de en yaygın kullanılan derecelendirme bu."),
  ("1976", "Wiltse, Newman ve McNab, bel kaymasını nedenine ve yapısına göre sınıflandırdı (yaşa bağlı, istmik ve diğer türler)."),
- ("2016", "Kuzey Amerika Omurga Derneği (NASS), yaşa bağlı bel kayması kılavuzunu 27 klinik soruyla güncelledi (Spine J)."),
- ("2016", "İsveç'te dar kanal nedeniyle ameliyat edilen 247 hastayla yapılan çalışmada (NEJM; bir kısmında hafif bel kayması vardı) sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi."),
+ ("2016", "Kuzey Amerika Omurga Derneği (NASS), 2008 tarihli yaşa bağlı bel kayması kılavuzunun 27 klinik soruyu ele alan güncellemesinin özetini yayımladı (Spine J)."),
+ ("2016", "İsveç'te dar kanal nedeniyle ameliyat edilen 247 hastayla yapılan çalışmada (NEJM; yarısından fazlasında, 135 hastada hafif bel kayması vardı) sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi."),
  ("2021", "Yaşa bağlı bel kayması olan hastalarla yapılan NORDSTEN-DS çalışması (NEJM): yalnız sinirleri rahatlatan ameliyat, füzyon eklenen ameliyattan geri kalmadı."),
 ]
 
@@ -40,7 +44,7 @@ SL_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel kayması (spondilolistezis)</h1>
-    <p class="lede">Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt iki seviyesinde (L4–L5 ve L5–S1) görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda tedavinin temeli ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir.</p>
+    <p class="lede">Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt iki seviyesinde (L4–L5 ve L5–S1) görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda ilk tedavi genellikle ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir.</p>
     <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
@@ -48,10 +52,10 @@ SL_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>L4–L5</b><span>Yaşa bağlı kaymada en sık seviye; istmik kaymada ise L5–S1, yani belin en alt omuru ile kuyruk sokumu arası</span></div>
-        <div class="stat"><b>4 derece</b><span>Kayma miktarına göre: I. derece %0–25, IV. derece %75–100</span></div>
+        <div class="stat"><b>L4–L5</b><span>Yaşa bağlı kaymada en sık seviye; istmik kaymada ise L5–S1, yani belin en alt omuru ile sağrı kemiği (sakrum) arası</span></div>
+        <div class="stat"><b>5 derece</b><span>Kayma miktarına göre: I. derece %0–25, IV. derece %75–100, V. derece %100'ün üzeri (spondiloptoz)</span></div>
         <div class="stat"><b>6 kat</b><span>Yaşa bağlı (dejeneratif) kaymanın kadınlarda erkeklere göre sıklığı</span></div>
-        <div class="stat"><b>247 hasta</b><span>Ameliyata vida eklemenin yararını sınayan İsveç çalışması; 2 yılda fark yoktu</span></div>
+        <div class="stat"><b>247 hasta</b><span>Ameliyata vida eklemenin yararını sınayan İsveç çalışması; 2 yılda anlamlı fark bulunmadı</span></div>
       </div>
       {g_toc([("neden", "Neden olur?"), ("tani", "Tanı ve dereceler"), ("tedavi", "Tedavi"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Egzersizler"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
@@ -61,7 +65,7 @@ SL_BODY = f'''<header class="page">
       <div>
         <h2>Neden olur?</h2>
         <ul class="tx">
-          <li><b>Yaşa bağlı (dejeneratif)</b><span>En sık türdür. Omurlar arasındaki disklerin ve eklemlerin yıpranmasıyla ortaya çıkar; genellikle 50–60 yaşın üzerinde ve kadınlarda görülür; en sık L4–L5 seviyesindedir.</span></li>
+          <li><b>Yaşa bağlı (dejeneratif)</b><span>En sık türdür. Omurlar arasındaki disklerin ve eklemlerin yıpranmasıyla ortaya çıkar; genellikle 50 yaşın üzerinde ve kadınlarda görülür; en sık L4–L5 seviyesindedir.</span></li>
           <li><b>İstmik</b><span>Omurun arka kısmındaki ince kemik köprüde (pars interartikülaris) yorgunluk çatlağı oluşur ve omur kayar. Daha çok gençlerde ve sporcularda, tekrarlayan zorlanmaya bağlı görülür; en sık L5–S1 seviyesindedir.</span></li>
           <li><b>Diğerleri</b><span>Doğuştan omur gelişim farkı, kaza ya da düşme, kemiği zayıflatan hastalıklar ve nadiren omurga ameliyatı sonrası.</span></li>
         </ul>
@@ -87,7 +91,7 @@ SL_BODY = f'''<header class="page">
         <li><b>I. derece</b><span>Omur, alttaki omurun boyunun %25'ine kadar kaymış. En sık görülen ve çoğu zaman ameliyat gerektirmeyen derece.</span></li>
         <li><b>II. derece</b><span>%25–50 arası kayma.</span></li>
         <li><b>III. derece</b><span>%50–75 arası kayma.</span></li>
-        <li><b>IV. derece</b><span>%75–100 arası kayma. III ve IV. derecede ameliyat olasılığı çok daha yüksektir.</span></li>
+        <li><b>IV. derece</b><span>%75–100 arası kayma. III. ve IV. derecede ameliyat olasılığı çok daha yüksektir.</span></li>
         <li><b>V. derece</b><span>%100'ün üzerinde kayma; omur alttaki omurun önüne tamamen düşmüştür (spondiloptoz).</span></li>
       </ul>
       <div class="callout">
@@ -101,21 +105,21 @@ SL_BODY = f'''<header class="page">
         <h2>Ameliyatsız tedavi</h2>
         <ul class="tx">
           <li><b>Etkinliği düzenlemek</b><span>Ağrıyı artıran sporlara ve yoğun etkinliklere bir süre ara vermek.</span></li>
-          <li><b>Fizyoterapi ve egzersiz</b><span>Gövde ve karın kaslarını güçlendiren, beli dengeleyen egzersizler tedavinin temelidir.</span></li>
+          <li><b>Fizyoterapi ve egzersiz</b><span>Gövde ve karın kaslarını güçlendiren, beli dengeleyen egzersizler tedavinin önemli bir parçasıdır.</span></li>
           <li><b>Ağrı kesiciler</b><span>Hangisinin uygun olduğunu ve ne kadar süre kullanılabileceğini hekiminize sorun.</span></li>
-          <li><b>İğne</b><span>Bacağa yayılan ağrıda kortizonlu enjeksiyon, hekim kararıyla seçenekler arasındadır.</span></li>
+          <li><b>İğne</b><span>Bacağa yayılan ağrıda kortizonlu enjeksiyon, hekim kararıyla seçenekler arasındadır; yararı genellikle kısa sürelidir.</span></li>
           <li><b>Korse</b><span>Genellikle omurda bir çatlak (kırık) varsa.</span></li>
         </ul>
       </div>
       <div>
         <h2>Ameliyat ne zaman?</h2>
         <ul class="dots">
-          <li>III ya da IV. derece (ileri) kayma</li>
+          <li>III. derece ve üzeri (ileri) kayma</li>
           <li>Ayakta durmayı ve yürümeyi belirgin biçimde kısıtlayan şiddetli belirtiler</li>
           <li>Ameliyatsız tedaviye rağmen geçmeyen belirtiler</li>
           <li>İlerleyen güçsüzlük ya da idrar ve dışkı kontrolünde bozulma</li>
         </ul>
-        <p class="soft">İsveç'te 247 hastayla yapılan çalışmada, dar kanal nedeniyle ameliyat edilen hastalarda (bir kısmında hafif bel kayması vardı) sinirleri rahatlatan ameliyata vidalı sabitleme eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış 4,1 günden 7,4 güne uzadı ve maliyet arttı. <a href="dar-kanal.html">Dar kanal rehberine</a> de bakın.</p>
+        <p class="soft">İsveç'te 247 hastayla yapılan çalışmada, dar kanal nedeniyle ameliyat edilen hastalarda (yarısından fazlasında, 135 hastada hafif bel kayması vardı) sinirleri rahatlatan ameliyata vidalı sabitleme eklemek 2 yılda daha iyi sonuç vermedi; hastanede kalış 4,1 günden 7,4 güne uzadı ve maliyet arttı. <a href="dar-kanal.html">Dar kanal rehberine</a> de bakın.</p>
       </div>
     </div>
   </section>
@@ -128,7 +132,7 @@ SL_BODY = f'''<header class="page">
       <h3 class="g-h3">Ameliyatta füzyon gerekir mi? Çalışmalar yan yana</h3>
       <p class="soft">Ameliyat kararı verilen hastalarda sinirleri rahatlatan ameliyata (dekompresyon) vidalı sabitleme (füzyon) eklemenin yararını sınayan iki çalışma. Hangi ameliyatın uygun olduğu kaymanın derecesine ve kararlılığına göre cerrahla birlikte belirlenir.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Dar kanal, bir kısmında hafif kayma</h3><dl><dt>İsveç (NEJM, 2016)</dt><dd>247 hasta, 2 yıl: füzyon eklemek daha iyi sonuç vermedi; hastanede kalış 4,1 günden 7,4 güne uzadı ve maliyet arttı.</dd></dl></div>
+        <div class="kind"><h3>Dar kanal, yarısından fazlasında hafif kayma</h3><dl><dt>İsveç (NEJM, 2016)</dt><dd>247 hasta (135'inde hafif kayma), 2 yıl: füzyon eklemek daha iyi sonuç vermedi; kayması olanlarda da sonuç benzerdi; hastanede kalış 4,1 günden 7,4 güne uzadı ve maliyet arttı.</dd></dl></div>
         <div class="kind"><h3>Yaşa bağlı bel kayması</h3><dl><dt>NORDSTEN-DS (NEJM, 2021)</dt><dd>Yalnız dekompresyon, füzyon eklenen ameliyattan geri kalmadı (engellilik puanında en az %30 iyileşme: %71,4'e karşı %72,9).</dd></dl></div>
       </div>
     </div>
@@ -137,7 +141,7 @@ SL_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Beli destekleyen altı egzersiz</h2>
-      <p class="soft">Amaç, gövdeyi ve karın kaslarını güçlendirip beli dengede tutmaktır. Hareketleri yavaş ve ağrısız bir aralıkta yapın. Beli geriye doğru zorlayan hareketler ağrınızı artırıyorsa bir süre bunlardan kaçının. Belirtileriniz yeni başladıysa ya da bacağınızda uyuşma ve güçsüzlük varsa önce bir hekime ya da fizyoterapiste danışın.</p>
+      <p class="soft">Amaç, gövdeyi ve karın kaslarını güçlendirip beli dengede tutmaktır. Hareketleri yavaş ve ağrısız bir aralıkta yapın. Beli geriye doğru zorlayan hareketler ağrınızı artırıyorsa bir süre bunlardan kaçının. Belirtileriniz yeni başladıysa ya da bacağınızda uyuşma varsa önce bir hekime ya da fizyoterapiste, bacağınızda güçsüzlük varsa önce bir hekime danışın. Çocuk ve gençlerde, özellikle sporla ya da geriye eğilince artan bel ağrısında, egzersize başlamadan önce hekim değerlendirmesi gerekir.</p>
       {ex_grid(["sl_ptilt", "sl_k2c", "sl_bridge", "sl_birddog", "sl_side", "sl_walk"])}
     </div>
   </section>
@@ -153,13 +157,17 @@ SL_BODY = f'''<header class="page">
       <p class="soft"><strong>Hemen acil servise ya da 112'ye:</strong></p>
       <ul class="dots redflags">
         <li>İdrar ya da dışkı kontrolünde bozulma, idrar yapamama</li>
-        <li>Kasıklarda ya da makat çevresinde uyuşma</li>
+        <li>Apış arasında, makat çevresinde ya da iç uyluklarda uyuşma</li>
         <li>Bacaklarda hızla artan güçsüzlük ya da his kaybı</li>
         <li>Düşme ya da kaza sonrası başlayan şiddetli bel ağrısı</li>
       </ul>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Ateşle birlikte bel ağrısı</li>
+        <li>Açıklanamayan kilo kaybıyla ya da kanser öyküsü olan birinde yeni başlayan bel ağrısı</li>
+      </ul>
       <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
-        <li>Ateş, açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte bel ağrısı</li>
         <li>Bacaklarda yavaş yavaş artan uyuşma ya da güçsüzlük</li>
         <li>Ameliyatsız tedaviye rağmen geçmeyen ya da giderek artan ağrı</li>
       </ul>
