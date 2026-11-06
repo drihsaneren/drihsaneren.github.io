@@ -16,6 +16,8 @@ SL_FAQ = [
 ]
 
 SL_SRC = [
+ "Solakoğlu C. " + ext("https://www.turkiyeklinikleri.com/article/en-spondilolizis-ve-spondilolistezis-46062.html", "Spondilolizis ve spondilolistezis") + ". Türkiye Klinikleri J Surg Med Sci. 2006;2(30):85-91.",
+ "Radiopaedia. " + ext("https://radiopaedia.org/articles/2076", "Spondylolisthesis grading system (Meyerding)") + ".",
  "Cleveland Clinic. " + ext("https://my.clevelandclinic.org/health/diseases/10302-spondylolisthesis", "Spondylolisthesis") + ". Medically reviewed 15 August 2024.",
  "Moley PJ. " + ext("https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/neck-and-back-pain/spondylolisthesis", "Spondylolisthesis") + ". MSD Manual Professional Version. Reviewed November 2024.",
  "Försth P, Ólafsson G, Carlsson T, et al. A randomized, controlled trial of fusion surgery for lumbar spinal stenosis. N Engl J Med. 2016;374(15):1413–1423. Özet: " + ext("https://www.thebottomline.org.uk/summaries/ssss/", "The Bottom Line, The Swedish Spinal Stenosis Study") + ".",
@@ -24,16 +26,24 @@ SL_SRC = [
  "Austevoll IM, Hermansen E, Fagerland MW, et al. " + ext("https://ninum.uit.no/handle/10037/24174", "Decompression with or without fusion in degenerative lumbar spondylolisthesis") + ". N Engl J Med. 2021;385(6):526–538.",
 ]
 
+SL_TL = [
+ ("1854", "Kilian \"spondilolistezis\" terimini ilk kez kullandı. Daha önce bir doğum hekimi, kuyruk sokumunun önündeki bir kemik çıkıntısının doğumda sorun yarattığını not etmişti; bu, bel kaymasının ilk tanımı olarak kabul ediliyor."),
+ ("1932", "Meyerding, kaymanın miktarını alttaki omurun dörtte biri ölçüsünde derecelendiren sistemi önerdi; bugün de en yaygın kullanılan derecelendirme bu."),
+ ("1976", "Wiltse, Newman ve McNab, bel kaymasını nedenine ve yapısına göre sınıflandırdı (yaşa bağlı, istmik ve diğer türler)."),
+ ("2016", "Kuzey Amerika Omurga Derneği (NASS), yaşa bağlı bel kayması kılavuzunu 27 klinik soruyla güncelledi (Spine J)."),
+ ("2016", "İsveç'te dar kanal nedeniyle ameliyat edilen 247 hastayla yapılan çalışmada (NEJM; bir kısmında hafif bel kayması vardı) sinirleri rahatlatan ameliyata vidalı sabitleme (füzyon) eklemek 2 yılda daha iyi sonuç vermedi."),
+ ("2021", "Yaşa bağlı bel kayması olan hastalarla yapılan NORDSTEN-DS çalışması (NEJM): yalnız sinirleri rahatlatan ameliyat, füzyon eklenen ameliyattan geri kalmadı."),
+]
+
 SL_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Bel kayması (spondilolistezis)</h1>
     <p class="lede">Bel kayması, bir omurun alttaki omura göre öne doğru kaymasıdır; en sık belin en alt iki seviyesinde (L4–L5 ve L5–S1) görülür. Çoğu zaman hafiftir ve hiç belirti vermeyebilir. Ağrı olduğunda tedavinin temeli ameliyatsız yöntemler ve gövdeyi güçlendiren egzersizlerdir; ameliyat ileri kaymalarda ya da geçmeyen sinir belirtilerinde gündeme gelir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -43,10 +53,10 @@ SL_BODY = f'''<header class="page">
         <div class="stat"><b>6 kat</b><span>Yaşa bağlı (dejeneratif) kaymanın kadınlarda erkeklere göre sıklığı</span></div>
         <div class="stat"><b>247 hasta</b><span>Ameliyata vida eklemenin yararını sınayan İsveç çalışması; 2 yılda fark yoktu</span></div>
       </div>
+      {g_toc([("neden", "Neden olur?"), ("tani", "Tanı ve dereceler"), ("tedavi", "Tedavi"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Egzersizler"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="neden">
     <div class="wrap two">
       <div>
         <h2>Neden olur?</h2>
@@ -69,8 +79,7 @@ SL_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
     <div class="wrap">
       <h2>Tanı ve dereceler</h2>
       <p class="soft">Tanı muayene ve röntgenle konur; kaymanın derecesi yandan çekilen filmde ölçülür. Öne ve arkaya eğilerek çekilen filmler kaymanın hareketle artıp artmadığını gösterir. Sinir sıkışması düşünülüyorsa MR ya da tomografi istenebilir.</p>
@@ -79,22 +88,22 @@ SL_BODY = f'''<header class="page">
         <li><b>II. derece</b><span>%25–50 arası kayma.</span></li>
         <li><b>III. derece</b><span>%50–75 arası kayma.</span></li>
         <li><b>IV. derece</b><span>%75–100 arası kayma. III ve IV. derecede ameliyat olasılığı çok daha yüksektir.</span></li>
+        <li><b>V. derece</b><span>%100'ün üzerinde kayma; omur alttaki omurun önüne tamamen düşmüştür (spondiloptoz).</span></li>
       </ul>
       <div class="callout">
         <p>Bel kayması genellikle zamanla ilerlemeyen, kararlı bir durumdur. Röntgende kayma görülmesi, ağrının tek nedeninin bu olduğu anlamına gelmez; belirtilerle birlikte değerlendirilir.</p>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tedavi">
     <div class="wrap two">
       <div>
         <h2>Ameliyatsız tedavi</h2>
         <ul class="tx">
           <li><b>Etkinliği düzenlemek</b><span>Ağrıyı artıran sporlara ve yoğun etkinliklere bir süre ara vermek.</span></li>
           <li><b>Fizyoterapi ve egzersiz</b><span>Gövde ve karın kaslarını güçlendiren, beli dengeleyen egzersizler tedavinin temelidir.</span></li>
-          <li><b>Ağrı kesiciler</b><span>Reçetesiz ağrı kesicileri hekime danışmadan 10 günden uzun süre üst üste kullanmayın.</span></li>
-          <li><b>İğne</b><span>Bacağa yayılan ağrıda kortizonlu enjeksiyon seçenekler arasındadır.</span></li>
+          <li><b>Ağrı kesiciler</b><span>Hangisinin uygun olduğunu ve ne kadar süre kullanılabileceğini hekiminize sorun.</span></li>
+          <li><b>İğne</b><span>Bacağa yayılan ağrıda kortizonlu enjeksiyon, hekim kararıyla seçenekler arasındadır.</span></li>
           <li><b>Korse</b><span>Genellikle omurda bir çatlak (kırık) varsa.</span></li>
         </ul>
       </div>
@@ -110,7 +119,20 @@ SL_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>İlk tanımdan bugünkü ameliyat kararlarına</h2>
+      <p class="soft">Bel kayması 19. yüzyılda adlandırıldı, 20. yüzyılda derecelendirildi ve sınıflandırıldı. Son yıllardaki çalışmalar ise ameliyat gereken hastalarda vidalı sabitlemenin her zaman gerekmediğini gösterdi.</p>
+      {g_tl(SL_TL)}
+      <h3 class="g-h3">Ameliyatta füzyon gerekir mi? Çalışmalar yan yana</h3>
+      <p class="soft">Ameliyat kararı verilen hastalarda sinirleri rahatlatan ameliyata (dekompresyon) vidalı sabitleme (füzyon) eklemenin yararını sınayan iki çalışma. Hangi ameliyatın uygun olduğu kaymanın derecesine ve kararlılığına göre cerrahla birlikte belirlenir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Dar kanal, bir kısmında hafif kayma</h3><dl><dt>İsveç (NEJM, 2016)</dt><dd>247 hasta, 2 yıl: füzyon eklemek daha iyi sonuç vermedi; hastanede kalış 4,1 günden 7,4 güne uzadı ve maliyet arttı.</dd></dl></div>
+        <div class="kind"><h3>Yaşa bağlı bel kayması</h3><dl><dt>NORDSTEN-DS (NEJM, 2021)</dt><dd>Yalnız dekompresyon, füzyon eklenen ameliyattan geri kalmadı (engellilik puanında en az %30 iyileşme: %71,4'e karşı %72,9).</dd></dl></div>
+      </div>
+    </div>
+  </section>
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -119,28 +141,31 @@ SL_BODY = f'''<header class="page">
       {ex_grid(["sl_ptilt", "sl_k2c", "sl_bridge", "sl_birddog", "sl_side", "sl_walk"])}
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(SL_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden acil servise başvurun:</p>
+      <p class="soft"><strong>Hemen acil servise ya da 112'ye:</strong></p>
       <ul class="dots redflags">
         <li>İdrar ya da dışkı kontrolünde bozulma, idrar yapamama</li>
         <li>Kasıklarda ya da makat çevresinde uyuşma</li>
         <li>Bacaklarda hızla artan güçsüzlük ya da his kaybı</li>
         <li>Düşme ya da kaza sonrası başlayan şiddetli bel ağrısı</li>
       </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Ateş, açıklanamayan kilo kaybı ya da kanser öyküsüyle birlikte bel ağrısı</li>
+        <li>Bacaklarda yavaş yavaş artan uyuşma ya da güçsüzlük</li>
+        <li>Ameliyatsız tedaviye rağmen geçmeyen ya da giderek artan ağrı</li>
+      </ul>
       {CTA_CARD("Bel kayması ve bel ağrınız", "bel kayması (spondilolistezis)")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -150,7 +175,7 @@ SL_BODY = f'''<header class="page">
 </main>'''
 
 page("bel-kaymasi.html", "Bel Kayması (Spondilolistezis)",
-     "Bel kayması nedir, neden olur, dereceleri nelerdir? Belirtiler, röntgende tanı, ameliyatsız tedavi, ameliyatın ne zaman gerektiği ve beli destekleyen altı egzersiz.",
+     "Bel kayması nedir, neden olur, dereceleri nelerdir? Belirtiler, röntgende tanı, ameliyatsız tedavi, ameliyatın ne zaman gerektiği, füzyon çalışmaları, kısa tarihçe, beli destekleyen altı egzersiz ve uyarı işaretleri.",
      "bel-kaymasi.html", NECK_CSS, SL_BODY, "",
      seo_title="Bel Kayması (Spondilolistezis): Belirtiler, Dereceler, Egzersiz ve Tedavi | İhsan Eren",
      condition="Spondilolistezis (bel kayması)", faq_items=SL_FAQ)
