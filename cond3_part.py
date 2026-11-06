@@ -428,25 +428,26 @@ page("asil-tendinopatisi.html", "Aşil Tendinopatisi",
      condition="Aşil tendinopatisi", faq_items=AC_FAQ)
 
 # ============================================================== BAŞ AĞRISI
-_ex2("ha_chin", "chin", "Çene içe çekme", "Dik oturun, gözleriniz karşıya baksın. Başınızı eğmeden çenenizi düz bir çizgide geriye çekin; ensenizin uzadığını hissedin. 5 saniye tutup bırakın. Gün içinde sık sık tekrarlayın.", "10 tekrar, günde 2–3 kez")
-_ex2("ha_iso", "iso", "İzometrik boyun güçlendirme", "Avucunuzu alnınıza koyun. Başınızı hareket ettirmeden elinize doğru hafifçe itin, eliniz de karşı koysun. Aynısını başınızın arkası ve iki yanı için tekrarlayın. Kuvvetin yarısını kullanmanız yeterli.", "Her yöne 5 saniye, 5 tekrar")
+_ex2("ha_chin", "chin", "Çene içe çekme", "Dik oturun, gözleriniz karşıya baksın. Başınızı eğmeden çenenizi düz bir çizgide geriye çekin; ensenizin uzadığını hissedin. 5 saniye tutup bırakın.", "10 tekrar, günde 2–3 kez")
+_ex2("ha_iso", "iso", "İzometrik boyun güçlendirme", "Avucunuzu alnınıza koyun. Başınızı hareket ettirmeden elinize doğru hafifçe itin, eliniz de karşı koysun. Aynısını başınızın arkası ve iki yanı için tekrarlayın. Gücünüzün en fazla yarısını kullanmanız yeterli.", "Her yöne 5 saniye, 5 tekrar")
 _ex2("ha_scap", "scap", "Kürek kemiği sıkıştırma", "Dik oturun ya da durun. Omuzlarınızı kaldırmadan kürek kemiklerinizi geriye ve aşağıya doğru yaklaştırın, 5 saniye tutup bırakın. Uzun süre masa başında çalışanlar için iyi bir moladır.", "10–15 tekrar, günde 2 kez")
-_ex2("ha_thor", "thor", "Göğüs kafesini açma", "Sırtı alçak bir sandalyeye oturun, ellerinizi ensenizde birleştirin. Göğsünüzü tavana doğru kaldırarak sırtınızı hafifçe geriye esnetin. Boynunuzu değil sırtınızı esnetin.", "5–10 tekrar")
-_ex2("ha_side", "side", "Boyun yana germe", "Bir elinizle oturduğunuz sandalyenin kenarını tutun. Kulağınızı karşı omzunuza doğru yavaşça yaklaştırın; boynunuzun yanında hafif bir gerginlik hissedin. Omzunuzu kaldırmayın.", "20–30 saniye, her iki yana 2–3 kez")
+_ex2("ha_thor", "thor", "Göğüs kafesini açma", "Sırtı alçak bir sandalyeye oturun, ellerinizi ensenizde birleştirin. Göğsünüzü tavana doğru kaldırarak sırtınızı hafifçe geriye esnetin. Boynunuzu değil sırtınızı esnetin; ellerinizle başınızı öne çekmeyin.", "5–10 tekrar")
+_ex2("ha_side", "side", "Boyun yana germe", "Bir elinizle oturduğunuz sandalyenin kenarını tutun. Sağ elinizle tutuyorsanız sol kulağınızı sol omzunuza doğru yavaşça yaklaştırın; boynunuzun yanında hafif bir gerginlik hissedin. Omzunuzu kaldırmayın.", "20–30 saniye, her iki yana 2–3 kez")
 _ex2("ha_rot", "rot", "Boyun döndürme", "Omuzlarınızı sabit tutun. Başınızı yavaşça sağa çevirin, rahat olan son noktada 2–3 saniye bekleyin, sonra aynı şekilde sola çevirin.", "Her yöne 10 tekrar")
 
 HA_FAQ = [
  ("Baş ağrım için MR ya da tomografi gerekir mi?", "Tipik gerilim tipi ya da boyun kaynaklı baş ağrısında genellikle gerekmez. Aşağıdaki uyarı işaretlerinden biri varsa ya da ağrının özellikleri değiştiyse hekiminiz görüntüleme isteyebilir."),
- ("Ağrı kesiciyi ne sıklıkla kullanabilirim?", "Ara sıra kullanım sorun değildir. Ancak ağrı kesicileri ayda 10–15 günden fazla kullanmak, ilaç aşırı kullanımına bağlı baş ağrısına yol açabilir. Bu kadar sık ihtiyaç duyuyorsanız hekiminize başvurun."),
+ ("Ağrı kesiciyi ne sıklıkla kullanabilirim?", "Ara sıra kullanım çoğu kişide sorun yaratmaz; hangisinin uygun olduğunu hekiminize sorun. Ancak ağrı kesicileri 3 aydan uzun süre ayda 10–15 gün ya da daha fazla kullanmak, ilaç aşırı kullanımına bağlı baş ağrısına yol açabilir. Bu kadar sık ihtiyaç duyuyorsanız hekiminize başvurun."),
  ("Boyun egzersizleri migrene iyi gelir mi?", "Migrenin asıl tedavisi hekim tarafından planlanır. Düzenli aerobik egzersiz, uyku düzeni ve stres yönetimi atakları azaltmaya yardım edebilir; migrene boyun ağrısı da eşlik ediyorsa boyun egzersizleri ek fayda sağlayabilir."),
- ("Yastık ve uyku pozisyonu önemli mi?", "Boynunuzu gövdenizle aynı hizada tutan bir yastık, sabah başlayan boyun kaynaklı ağrılarda rahatlatabilir. Yüzüstü yatmak boynu uzun süre döndürdüğü için ağrıyı artırabilir. Egzersizin gerilim tipi baş ağrısındaki yeri için kanıt hâlâ zayıf: bir meta-analizde kuvvet egzersizleri ağrı şiddetini orta düzeyde azalttı, ama kanıtın kesinliği çok düşüktü. ABD fizyoterapi kılavuzu ise uzun süren boyun kaynaklı baş ağrısında boyun eklemlerine yönelik manuel tedaviyi boyun ve omuz kuşağı germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte öneriyor."),
+ ("Yastık ve uyku pozisyonu önemli mi?", "Boynunuzu gövdenizle aynı hizada tutan bir yastık, sabah başlayan boyun kaynaklı ağrılarda rahatlatabilir. Yüzüstü yatmak boynu uzun süre döndürdüğü için ağrıyı artırabilir."),
+ ("Egzersiz gerilim tipi baş ağrısına iyi gelir mi?", "Kanıt hâlâ zayıf: bir meta-analizde kuvvet egzersizleri ağrı şiddetini orta düzeyde azalttı, ama kanıtın kesinliği çok düşüktü. ABD fizyoterapi kılavuzu ise uzun süren boyun kaynaklı baş ağrısında boyun eklemlerine yönelik manuel tedaviyi boyun ve omuz kuşağı germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte öneriyor."),
 ]
 
 HA_SRC = [
  "Headache Classification Committee of the International Headache Society. " + ext("https://ichd-3.org/2-tension-type-headache/2-2-frequent-episodic-tension-type-headache/", "ICHD-3: 2.2 Frequent episodic tension-type headache") + "; " + ext("https://ichd-3.org/11-headache-or-facial-pain-attributed-to-disorder-of-the-cranium-neck-eyes-ears-nose-sinuses-teeth-mouth-or-other-facial-or-cervical-structure/11-2-headache-attributed-to-disorder-of-the-neck/11-2-1-cervicogenic-headache", "11.2.1 Cervicogenic headache") + ".",
  "NICE. " + ext("https://www.nice.org.uk/guidance/CG150/ifp/chapter/Treatments-for-tensiontype-headache", "Treatments for tension-type headache (CG150, information for the public)") + ".",
  "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/headache-disorders", "Migraine and other headache disorders") + ". Fact sheet.",
- "Jull G, Trott P, Potter H, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/12221344/", "A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache") + ". Spine. 2002;27(17):1835-1843.",
+ "Jull G, Trott P, Potter H, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/12221344/", "A randomized controlled trial of exercise and manipulative therapy for cervicogenic headache") + ". Spine. 2002;27(17):1835-1843. Özet: " + ext("https://ebm.bmj.com/content/8/4/109", "Evidence-Based Medicine") + ".",
  "Headache Classification Committee of the International Headache Society. " + ext("https://ichd-3.org/", "The International Classification of Headache Disorders, 3rd edition") + ". Cephalalgia. 2018;38(1):1-211.",
  "NICE. " + ext("https://www.nice.org.uk/guidance/cg150", "Headaches in over 12s: diagnosis and management") + ". NICE clinical guideline CG150, 2012",
  "Varangot-Reille C, Suso-Martí L, Romero-Palau M, Suárez-Pastor P, Cuenca-Martínez F. " + ext("https://pubmed.ncbi.nlm.nih.gov/34929374/", "Effects of different therapeutic exercise modalities on migraine or tension-type headache: a systematic review and meta-analysis with a replicability analysis") + ". J Pain. 2022.",
@@ -454,11 +455,11 @@ HA_SRC = [
 ]
 
 HA_TL = [
- ("2002", "Boyun kaynaklı baş ağrısı olan 200 kişiyle yapılan çalışmada (Spine) 6 haftalık manuel terapi de, boyun ve kürek kemiği kaslarına yönelik özel egzersizler de baş ağrısının sıklığını ve şiddetini azalttı; etki 12 ay sonra da sürüyordu."),
+ ("2002", "Boyun kaynaklı baş ağrısı olan 200 kişiyle yapılan çalışmada (Spine) 6 haftalık manuel terapi de, boyun ve kürek kemiği bölgesinde kas kontrolüne yönelik düşük yüklü egzersizler de baş ağrısının sıklığını ve şiddetini kontrol grubuna göre azalttı; etki 12 ay sonra da sürüyordu."),
  ("2012", "İngiltere'nin ulusal sağlık kılavuzu kurumu NICE baş ağrısı kılavuzunu yayımladı: gerilim tipi baş ağrısında opioid önerilmedi; ayda 15 gün ve üzeri süren gerilim tipi baş ağrısında 10 seansa kadar bir akupunktur kürü önerilebileceği belirtildi."),
  ("2017", "Amerikan Fizyoterapi Derneği'nin (APTA) ortopedi biriminin boyun ağrısı kılavuzu (JOSPT): baş ağrısıyla birlikte boyun ağrısında egzersizlerin ve manuel terapinin yeri tanımlandı."),
  ("2018", "Uluslararası Baş Ağrısı Derneği'nin sınıflamasının 3. baskısı (ICHD-3) yayımlandı; gerilim tipi ve boyun kaynaklı baş ağrısının tanı ölçütleri bugün bu sınıflamaya dayanıyor."),
- ("2022", "Egzersiz türlerini karşılaştıran bir meta-analiz (J Pain): migren ve gerilim tipi baş ağrısında egzersizin etkisi incelendi; gerilim tipi baş ağrısında kanıtın kesinliği düşük kaldı."),
+ ("2022", "Egzersiz türlerini karşılaştıran bir meta-analiz (J Pain): migren ve gerilim tipi baş ağrısında egzersizin etkisi incelendi; gerilim tipi baş ağrısında kuvvet egzersizleri ağrı şiddetini azalttı, ancak kanıtın kesinliği çok düşüktü."),
 ]
 
 HA_BODY = f'''<header class="page">
@@ -466,7 +467,7 @@ HA_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Baş ağrısı: gerilim tipi ve boyun kaynaklı</h1>
-    <p class="lede">Baş ağrısı en sık yaşanan sağlık sorunlarından biridir. En yaygın türü olan gerilim tipi baş ağrısında ve boyundan kaynaklanan baş ağrısında egzersiz, duruş ve boyuna yönelik fizyoterapi ağrının sıklığını azaltabilir. Bazı baş ağrıları ise acil değerlendirme gerektirir.</p>
+    <p class="lede">Baş ağrısı en sık yaşanan sağlık sorunlarından biridir. En yaygın türü olan gerilim tipi baş ağrısında ve boyundan kaynaklanan baş ağrısında egzersiz ve boyuna yönelik fizyoterapi ağrının sıklığını azaltabilir; gerilim tipinde kanıt daha sınırlıdır. Bazı baş ağrıları ise acil değerlendirme gerektirir.</p>
     <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
@@ -475,9 +476,9 @@ HA_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>%40</b><span>Dünyada baş ağrısı bozukluğu yaşayan insanların oranı (3,1 milyar kişi, 2021)</span></div>
-        <div class="stat"><b>%50</b><span>Gerilim tipi baş ağrısının kadınlarda erkeklere göre daha sık görülme oranı</span></div>
+        <div class="stat"><b>%50</b><span>Gerilim tipi baş ağrısı kadınlarda erkeklere göre bu oranda daha sık görülür</span></div>
         <div class="stat"><b>200</b><span>Boyun kaynaklı baş ağrısında egzersizin ve manuel terapinin etkisini gösteren çalışmadaki hasta sayısı</span></div>
-        <div class="stat"><b>15 gün</b><span>Ayda bu kadar ve daha fazla gün süren baş ağrısı kronik kabul edilir</span></div>
+        <div class="stat"><b>15 gün</b><span>Ayda bu kadar ve daha fazla gün, 3 aydan uzun süren baş ağrısı kronik kabul edilir</span></div>
       </div>
       {g_toc([("turler", "Baş ağrınız hangi türde?"), ("tani", "Tanı ölçütleri"), ("fizyoterapi", "Egzersiz ve fizyoterapi"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
@@ -489,7 +490,7 @@ HA_BODY = f'''<header class="page">
         <li><b>Gerilim tipi</b><span>Başın iki yanında, bant gibi saran, sıkıştırıcı ya da baskı şeklinde ağrı. Genellikle hafif ya da orta şiddettedir ve günlük hareketlerle artmaz. Stres, uykusuzluk ve uzun süre aynı duruşta kalmak tetikleyebilir.</span></li>
         <li><b>Boyun kaynaklı</b><span>Çoğunlukla tek taraflı; boyundan başlayıp başın arkasına, bazen alna ve göz çevresine yayılır. Boyun hareketleri ya da uzun süre aynı duruşta kalmak ağrıyı başlatabilir; boyun hareketleri kısıtlı olabilir.</span></li>
         <li><b>Migren</b><span>Genellikle tek taraflı, zonklayıcı, orta ya da şiddetli ağrı; bulantı, ışığa ve sese hassasiyet eşlik edebilir ve fiziksel aktiviteyle artar. Tanı ve tedavisini hekim planlar.</span></li>
-        <li><b>İlaç aşırı kullanımı</b><span>Ağrı kesicilerin uzun süre ve çok sık kullanılması baş ağrısını kalıcı hale getirebilir. Bu durumda ilaçların hekim eşliğinde azaltılması gerekir.</span></li>
+        <li><b>İlaç aşırı kullanımı</b><span>Ağrı kesicilerin uzun süre ve çok sık kullanılması baş ağrısını sürekli (kronik) hâle getirebilir. Bu durumda ilaçların hekim eşliğinde azaltılması gerekir.</span></li>
       </ul>
     </div>
   </section>
@@ -499,15 +500,15 @@ HA_BODY = f'''<header class="page">
       <p class="soft">Baş ağrısının türü, Uluslararası Baş Ağrısı Derneği'nin sınıflamasına (ICHD-3) göre belirlenir. Tanıyı hekim koyar; aşağıdaki ölçütler türler arasındaki farkı anlamanıza yardımcı olmak içindir.</p>
       <div class="kinds">
         <div class="kind"><h3>Sık tekrarlayan gerilim tipi</h3><p>3 aydan uzun süredir ayda ortalama 1–14 gün, en az 10 atak; her atak 30 dakika ile 7 gün arası sürer. Şu dört özellikten en az ikisi: iki taraflı, sıkıştırıcı ya da baskı şeklinde (zonklamayan), hafif ya da orta şiddette, yürüme ya da merdiven çıkma gibi günlük hareketlerle artmayan. Bulantı ya da kusma olmaz; ışığa ya da sese hassasiyetten en fazla biri bulunur.</p></div>
-        <div class="kind"><h3>Boyun kaynaklı</h3><p>Boyunda bir sorunun muayene ya da görüntülemeyle gösterilmesi ve şunlardan en az ikisi: ağrının boyun sorunuyla birlikte başlaması; boyun sorunu düzeldikçe ağrının da düzelmesi; boyun hareketlerinin kısıtlı olması ve zorlayıcı hareketlerle ağrının belirgin artması; boyundaki bir yapıya yapılan tanısal iğneyle ağrının geçmesi.</p></div>
-        <div class="kind"><h3>Ayırt etmeye yardımcı ipuçları</h3><p>Tek taraflı ağrı, boyun kaslarına bastırınca ya da baş hareketleriyle tanıdık ağrının ortaya çıkması ve ağrının başın arkasından öne doğru yayılması boyun kaynaklı baş ağrısını düşündürür; ancak bu özellikler tek başına tanı koydurmaz.</p></div>
+        <div class="kind"><h3>Boyun kaynaklı</h3><p>Boyunda baş ağrısına yol açabildiği bilinen bir sorunun muayene ya da görüntülemeyle gösterilmesi ve şunlardan en az ikisi: ağrının boyun sorunuyla birlikte başlaması; boyun sorunu düzeldikçe ağrının da düzelmesi; boyun hareketlerinin kısıtlı olması ve zorlayıcı hareketlerle ağrının belirgin artması; boyundaki bir yapıya ya da sinirine yapılan tanısal uyuşturma (blokaj) sonrasında ağrının geçmesi.</p></div>
+        <div class="kind"><h3>Ayırt etmeye yardımcı ipuçları</h3><p>Hep aynı tarafta olan ağrı, boyun kaslarına bastırınca ya da baş hareketleriyle tanıdık ağrının ortaya çıkması ve ağrının başın arkasından öne doğru yayılması boyun kaynaklı baş ağrısını düşündürür; ancak bu özellikler tek başına tanı koydurmaz.</p></div>
       </div>
     </div>
   </section>
   <section id="fizyoterapi">
     <div class="wrap">
       <h2>Egzersiz ve fizyoterapi ne sağlar?</h2>
-      <p class="soft">Avustralya'da boyun kaynaklı baş ağrısı olan 200 kişiyle yapılan bir çalışmada, 6 hafta boyunca uygulanan manuel terapi de, boyun ve kürek kemiği kaslarına yönelik özel egzersizler de baş ağrısının sıklığını ve şiddetini anlamlı şekilde azalttı; etki 12 ay sonra da sürüyordu.</p>
+      <p class="soft">Avustralya'da 5 merkezde boyun kaynaklı baş ağrısı olan 200 kişiyle yapılan bir çalışmada, 6 hafta boyunca uygulanan manuel terapi de, boyun ve kürek kemiği bölgesinde kas kontrolüne yönelik düşük yüklü egzersizler de baş ağrısının sıklığını ve şiddetini kontrol grubuna göre anlamlı şekilde azalttı; etki 12 ay sonra da sürüyordu.</p>
       <p class="soft">Dünya Sağlık Örgütü, baş ağrısı tedavisinde bilgilendirmenin ve düzenli uyku, yeterli sıvı alımı, alkolden kaçınma ve düzenli egzersiz gibi yaşam tarzı değişikliklerinin önemini vurguluyor.</p>
       <div class="callout">
         <p>Uzun süre ekran başında çalışıyorsanız <a href="masa-basi.html">masa başı rehberine</a>, stres baş ağrınızı tetikliyorsa <a href="stres.html">stres rehberine</a> ve uykunuz düzensizse <a href="uyku.html">iyi uyku rehberine</a> göz atın.</p>
@@ -518,14 +519,14 @@ HA_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Geçmişten bugüne</p>
       <h2>Ölçütler ve kılavuzlar</h2>
-      <p class="soft">Baş ağrısı türlerinin tanımı uluslararası sınıflamayla netleşti; boyun kaynaklı baş ağrısında egzersiz ve manuel terapinin yeri de son yirmi yılın çalışmalarıyla şekillendi.</p>
+      <p class="soft">Baş ağrısı türlerinin tanımı uluslararası sınıflamayla netleşti; boyun kaynaklı baş ağrısında egzersiz ve manuel terapinin yeri de son yirmi yılı aşkın sürede yapılan çalışmalarla şekillendi.</p>
       {g_tl(HA_TL)}
       <h3 class="g-h3">Tedavi seçenekleri: kılavuzlar ne diyor?</h3>
-      <p class="soft">İngiltere'nin NICE baş ağrısı kılavuzu (2012) ile Amerikan Fizyoterapi Derneği'nin boyun ağrısı kılavuzu (JOSPT, 2017) yan yana. NICE gerilim tipi baş ağrısını, JOSPT boyun kaynaklı baş ağrısını ele alıyor; tedavi kişiye göre seçilir.</p>
+      <p class="soft">İngiltere'nin NICE baş ağrısı kılavuzunun (2012) gerilim tipi baş ağrısı önerileri ile Amerikan Fizyoterapi Derneği'nin boyun ağrısı kılavuzunun (JOSPT, 2017) boyun kaynaklı baş ağrısı önerileri yan yana; tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
         <div class="kind"><h3>Gerilim tipi baş ağrısında ilaç</h3><dl><dt>NICE</dt><dd>Hekim bir ağrı kesici önerebilir; opioidler önerilmiyor. 16 yaşın altındakilere aspirin verilmemeli.</dd><dt>Not</dt><dd>Hangisinin uygun olduğunu hekiminize sorun.</dd></dl></div>
         <div class="kind"><h3>Sık gerilim tipi baş ağrısını önleme</h3><dl><dt>NICE</dt><dd>Ayda 15 gün ve üzeri gerilim tipi baş ağrısında 10 seansa kadar bir akupunktur kürü önerilebilir.</dd><dt>Not</dt><dd>Türkiye'de akupunkturu yalnızca yetkili hekimler uygulayabilir.</dd></dl></div>
-        <div class="kind"><h3>Boyun kaynaklı baş ağrısı</h3><dl><dt>JOSPT</dt><dd>Yeni başlayan ağrıda gözetimli aktif hareket egzersizleri ve üst boyun için kendi kendine yapılan hareketlendirme (C1–C2 SNAG); uzun süren ağrıda boyun ya da boyun-sırt manipülasyonu veya mobilizasyonu, omuz kuşağı ve boyun kaslarına germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte.</dd></dl></div>
+        <div class="kind"><h3>Boyun kaynaklı baş ağrısı</h3><dl><dt>JOSPT</dt><dd>Yeni başlayan ağrıda gözetimli aktif hareket egzersizleri önerilir, üst boyun için kendi kendine yapılan hareketlendirme (C1–C2 SNAG) de uygulanabilir; uzun süren ağrıda boyun ya da boyun-sırt manipülasyonu veya mobilizasyonu, omuz kuşağı ve boyun kaslarına germe, güçlendirme ve dayanıklılık egzersizleriyle birlikte.</dd></dl></div>
       </div>
     </div>
   </section>
@@ -533,7 +534,7 @@ HA_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Boyun ve duruş için altı egzersiz</h2>
-      <p class="soft">Bu egzersizler özellikle gerilim tipi ve boyun kaynaklı baş ağrısında boyun ve omuz kaslarını güçlendirip gevşetmeye yardım eder. Hareketleri yavaş ve ağrısız aralıkta yapın; baş dönmesi ya da kollara yayılan uyuşma olursa bırakın.</p>
+      <p class="soft">Bu egzersizler özellikle gerilim tipi ve boyun kaynaklı baş ağrısında boyun ve omuz kaslarını güçlendirip gevşetmeye yardım eder. Hareketleri yavaş ve ağrısız aralıkta yapın; baş dönmesi, kollara yayılan uyuşma ya da baş ağrısında belirgin artış olursa bırakın. Çift görme, bulanık görme, konuşma ya da yutma güçlüğü, yüzde uyuşma, dengesizlik ya da bulantı olursa hemen bırakıp hekime başvurun. Yakın zamanda baş ya da boyun darbesi geçirdiyseniz egzersizlere başlamadan önce hekime danışın.</p>
       {ex_grid(["ha_chin", "ha_iso", "ha_scap", "ha_thor", "ha_side", "ha_rot"])}
     </div>
   </section>
@@ -568,17 +569,27 @@ HA_BODY = f'''<header class="page">
       <h2>Ne zaman hemen başvurmalı?</h2>
       <p class="soft">Şu durumlarda baş ağrısı ciddi bir soruna işaret edebilir. Beklemeden acil servise başvurun ya da <strong>112</strong>'yi arayın:</p>
       <ul class="dots redflags">
-        <li>Ani başlayan, hayatınızın en şiddetli baş ağrısı</li>
+        <li>Birkaç dakika içinde en şiddetli düzeye ulaşan, hayatınızın en kötü baş ağrısı</li>
         <li>Ateş, ense sertliği ya da döküntüyle birlikte baş ağrısı</li>
         <li>Konuşma bozukluğu, güçsüzlük, uyuşma, görme kaybı ya da bilinç değişikliği</li>
         <li>Baş darbesinden sonra başlayan ya da giderek artan baş ağrısı</li>
-        <li>50 yaşından sonra ilk kez başlayan ya da giderek kötüleşen baş ağrısı; kanser öyküsü ya da bağışıklığı baskılayan tedavi</li>
-        <li>Öksürme, ıkınma ya da eğilmeyle belirgin artan, sabahları kusmayla uyandıran baş ağrısı</li>
+        <li>Nöbet (havale) geçirme</li>
+        <li>Kızarık, ağrılı göz ve görmede bulanıklıkla birlikte baş ağrısı</li>
+      </ul>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>50 yaş üstünde şakakta hassasiyet, çiğnerken çenede ağrı ya da yorgunluk veya görme bozukluğuyla birlikte baş ağrısı</li>
+        <li>Gebelikte ya da doğumdan sonraki haftalarda yeni ya da farklı bir baş ağrısı</li>
+        <li>50 yaşından sonra ilk kez başlayan ya da giderek kötüleşen baş ağrısı</li>
+        <li>Kanser öyküsü varken ya da bağışıklığı baskılayan tedavi alırken yeni başlayan baş ağrısı</li>
+        <li>Öksürme, ıkınma ya da eğilmeyle belirgin artan baş ağrısı</li>
+        <li>Sabahları kusmayla uyandıran baş ağrısı</li>
+        <li>Ayağa kalkınca artıp yatınca azalan baş ağrısı</li>
       </ul>
       <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Baş ağrınızın özellikleri ya da sıklığı belirgin şekilde değiştiyse</li>
-        <li>Ağrı kesicilere ayda 10–15 günden fazla ihtiyaç duyuyorsanız</li>
+        <li>Ağrı kesicilere ayda 10–15 gün ya da daha fazla ihtiyaç duyuyorsanız</li>
         <li>Ayda 15 gün ve üzeri baş ağrısı yaşıyorsanız</li>
       </ul>
       {CTA_CARD("Baş ve boyun ağrınız", "baş ağrısı")}
