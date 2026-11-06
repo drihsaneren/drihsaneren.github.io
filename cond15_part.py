@@ -41,11 +41,15 @@ DQ_FAQ = [
  ("De Quervain kendiliğinden geçer mi?", "Çoğu kişide şikâyetler dinlendirme, atel ve etkinlikleri uyarlamayla zamanla yatışır; ameliyat nadiren gerekir. Dört hafta içinde düzelme olmazsa bir fizyoterapiste ya da hekime başvurun."),
  ("Atel ne kadar süre takılır?", "Hem bileği hem başparmağı saran bir atel kullanılır. İngiltere'deki hastane broşürleri 3–8 hafta arasında süreler veriyor; biri altı hafta boyunca gece gündüz kullanımı, ardından 2–4 haftada kademeli bırakmayı öneriyor. Süreyi ve tipi el terapistiniz ya da hekiminiz belirler."),
  ("Kortizon iğnesi işe yarar mı?", "İğne yaygın olarak kullanılıyor. 2009 tarihli Cochrane derlemesi yalnızca 18 kişilik tek bir küçük çalışma bulabilmişti: İğne yapılan dokuz kadının hepsinde ağrı geçti, yalnızca atel takan dokuz kadının hiçbirinde geçmedi. 2023'te yayımlanan ve 30 çalışmayı (1.663 hasta) kapsayan bir ağ meta-analizinde en iyi sonuçlar iğne ile kısa süreli başparmak atelinin birlikte kullanıldığı gruplarda görüldü; tek başına atel daha az etkiliydi. Kanıtın kesinliği işlev için orta, ağrı için düşük ya da çok düşük. İğnenin size uygun olup olmadığına hekiminiz karar verir."),
+ ("Röntgen ya da ultrason gerekir mi?", "Tanı genellikle muayeneyle konur. Röntgen De Quervain'in tanısında yardımcı değildir. Ultrason ise kılıftaki kalınlaşmayı ve başparmak tarafındaki tüneli ikiye bölen bir bölme (septum) olup olmadığını gösterebilir; tanıda ve tedavinin planlanmasında yararlıdır. Ağrının başka bir nedeni düşünülürse hekiminiz farklı tetkikler isteyebilir."),
+ ("Ameliyat ne zaman gündeme gelir?", "Ameliyatsız tedaviye rağmen 3–6 ay içinde düzelme olmazsa ameliyat düşünülebilir. Ameliyatta kirişlerin geçtiği tünel açılarak kirişler serbestleştirilir. Bir sistematik derlemede ameliyattan sonra hastaların %95'e varan kısmında belirtilerin tamamen geçtiği bildirildi. Tünelde bir bölme bulunması ve kirişin birden fazla daldan oluşması, ameliyatsız tedavinin işe yaramamasıyla ilişkili bulunmuştur."),
  ("Egzersize ne zaman başlanır?", "Önce bilek ve başparmak dinlendirilir. Ağrı yatışınca nazik germe ve hareketlerle başlanır, ardından lastik ve hafif ağırlıkla güçlendirmeye geçilir. Egzersizden sonraki rahatsızlık birkaç saatten uzun sürüyorsa tekrar sayısını azaltın."),
 ]
 
 DQ_SRC = [
- "Challoumas D, Ramasubbu R, Rooney E, Seymour-Jackson E, Putti A, Millar NL. " + ext("https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811119", "Management of de Quervain tenosynovitis: a systematic review and network meta-analysis") + ". JAMA Netw Open. 2023;6(10):e2337001.",
+ "Allbrook V. " + ext("https://www1.racgp.org.au/ajgp/2019/november/side-of-my-wrist-hurts", "\"The side of my wrist hurts\": De Quervain's tenosynovitis") + ". Aust J Gen Pract. 2019;48(11). doi:10.31128/AJGP-07-19-5018.",
+ "Life in the Fast Lane. " + ext("https://litfl.com/fritz-de-quervain/", "Fritz de Quervain") + " ve " + ext("https://litfl.com/finkelstein-test/", "Finkelstein test") + ".",
+ "Challoumas D, Ramasubbu R, Rooney E, Seymour-Jackson E, Putti A, Millar NL. " + ext("https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811119", "Management of de Quervain tenosynovitis: a systematic review and network meta-analysis") + ". JAMA Netw Open. 2023;6(10):e2337001. Açık erişim kopyası: " + ext("https://eprints.gla.ac.uk/306378/", "eprints.gla.ac.uk") + ".",
  "Dorset County Hospital NHS Foundation Trust. " + ext("https://dchft.nhs.uk/wp-content/uploads/2025/04/De-Quervains-Tenosynovitis-PIL.pdf", "De Quervain's tenosynovitis") + ". Hand Therapy patient leaflet. April 2025.",
  "Gloucestershire Hospitals NHS Foundation Trust. " + ext("https://gloshospitals.nhs.uk/documents/21449/De_Quervains_syndrome_of_the_wrist_GHPI1134_07_24.pdf", "De Quervain's syndrome of the wrist") + ". GHPI1134_07_24. July 2024.",
  "Leicestershire Partnership NHS Trust. " + ext("https://www.leicspart.nhs.uk/wp-content/uploads/2021/08/595-De-Quervains.pdf", "De Quervain's") + ". Leaflet 595. July 2021.",
@@ -54,29 +58,37 @@ DQ_SRC = [
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-dequervains-tenosynovitis-6904", "DeQuervain's tenosynovitis") + ". Patient information leaflet C-325. December 2023.",
 ]
 
+DQ_TL = [
+ ("1895", "İsviçreli cerrah Fritz de Quervain, Aralık 1894'te gördüğü bir hastayla birlikte beş olguyu yayımladı; hastalık bugün onun adıyla anılıyor. De Quervain, ilk tanımı ve ilk ameliyatı Kocher'e atfetti."),
+ ("1912", "De Quervain sekiz yeni olguyla konuya geri döndü."),
+ ("1927", "Eichhoff, başparmak yumruğun içindeyken bileğin serçe parmak tarafına bükülmesiyle yapılan testi tanımladı."),
+ ("1930", "Finkelstein (JBJS), hekimin hastanın başparmağını tutup eli hızla serçe parmak tarafına bükmesiyle yapılan testi tanımladı. Eichhoff testi sık sık yanlışlıkla onun adıyla anılıyor."),
+ ("2009", "Cochrane derlemesi, kortizon iğnesine dair yalnızca 18 kişilik tek bir küçük çalışma bulabildi."),
+ ("2023", "30 çalışmayı ve 1.663 hastayı kapsayan ağ meta-analizi (JAMA Netw Open): kortizon iğnesine 3–4 haftalık başparmak ateli eklemek işlevde istatistiksel olarak anlamlı, ancak klinik önem eşiğinin altında kalan bir yarar sağladı; yazarlar bu birleşimi ilk basamak tedavi olarak önerdi."),
+]
+
 DQ_BODY = f'''<header class="page">
   <div class="wrap">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>De Quervain: başparmak tarafında bilek ağrısı</h1>
     <p class="lede">De Quervain, başparmağı hareket ettiren kirişlerin bileğin başparmak tarafındaki tünelde tahriş olmasıdır. Kavanoz açarken, çaydanlıktan su dökerken ya da bebeği kucağa alırken ağrır; kadınlarda ve özellikle yeni annelerde sık görülür. Çoğu kişide dinlendirme, atel ve aşamalı egzersizle yatışır.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>3 kat</b><span>Kadınlarda erkeklere göre daha sık; özellikle küçük bebeği olanlarda</span></div>
-        <div class="stat"><b>30–55 yaş</b><span>En sık görüldüğü yaş aralığı; her yaşta ortaya çıkabilir</span></div>
+        <div class="stat"><b>%1,3 – %0,5</b><span>Çalışma çağındaki kadınlarda ve erkeklerde görülme sıklığı; kadınlarda, özellikle küçük bebeği olanlarda daha sık</span></div>
+        <div class="stat"><b>40–60 yaş</b><span>En sık görüldüğü yaş aralığı; her yaşta ortaya çıkabilir</span></div>
         <div class="stat"><b>3–8 hafta</b><span>Bileği ve başparmağı saran atel için hastane broşürlerinde verilen süre</span></div>
         <div class="stat"><b>30 çalışma</b><span>2023'teki ağ meta-analizi (1.663 hasta): en iyi sonuç kortizon iğnesi ile kısa süreli atelin birlikte kullanımında</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("yeni-anne", "Yeni annelerde"), ("tedavi", "Tedavi"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -95,16 +107,26 @@ DQ_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı genellikle yakınmalarınız ve muayeneyle konur. Başparmağı hareket ettiren iki kiriş, bileğin başparmak tarafındaki kemik çıkıntısının üzerinden, bir bağ dokusu tavanının altındaki tünelden geçer; muayenede bu bölgede hassasiyet aranır ve kirişleri geren testler yapılır.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Finkelstein testi</h3><dl><dt>1930</dt><dd>Hekim başparmağınızı tutar ve elinizi hızla serçe parmak tarafına büker. Bileğin başparmak tarafında belirgin ağrı tanıyı destekler.</dd></dl></div>
+        <div class="kind"><h3>Eichhoff testi</h3><dl><dt>1927</dt><dd>Başparmağınızı avucunuzun içine alıp diğer parmaklarınızla üstünü kapatırsınız; hekim bileğinizi serçe parmak tarafına büker. Komşu yapıları da zorladığı için yanlış olumlu sonuç verebilir.</dd></dl></div>
+        <div class="kind"><h3>Görüntüleme</h3><dl><dt>Ultrason</dt><dd>Röntgen tanıda yardımcı değildir. Ultrason tanıda ve tedavinin planlanmasında etkilidir; tüneli ikiye bölen bir bölme (septum) olup olmadığını gösterebilir. Bu bölmenin görülme oranı çalışmalarda %24 ile %91 arasında değişiyor.</dd></dl></div>
+        <div class="kind"><h3>Karışabilen durumlar</h3><dl><dt>Ayırıcı tanı</dt><dd>Başparmak kökü ekleminin kireçlenmesi, ön kolda kirişlerin kesiştiği yerde tahriş (kesişme sendromu), radial sinirin deri altındaki dalının tahrişi (Wartenberg sendromu), tetik başparmak ve el bileğindeki skafoid kemiğinde ya da ön kol kemiğinin (radius) uç çıkıntısında kırık.</dd></dl></div>
+      </div>
+    </div>
+  </section>
+  <section id="yeni-anne">
     <div class="wrap">
       <h2>Yeni annelerde neden sık?</h2>
       <p class="soft">De Quervain en çok küçük bebeği olan kadınlarda görülür. Nedeni tam bilinmiyor: Gebelik ve doğum sonrasındaki hormon değişiklikleri de, bebeği tekrar tekrar kaldırmak, taşımak ve beslemek de rol oynuyor olabilir.</p>
       <p class="soft">En çok ağrıtan hareket, bileğin yana doğru bükülmesidir. Bu yüzden ağrıyan işlerde elinizin ve bileğinizin konumunu değiştirmek, kavrama gerektiren işlerde sık sık ara vermek ve bileği yana büken hareketlerden kaçınmak önerilir. Bebeğinizi kucağınıza alırken bileklerinizi düz tutmaya ve yükü ön kollarınıza yaymaya çalışın.</p>
     </div>
   </section>
-
-  <section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>İlk adım: dinlendirme ve atel</h2>
       <p class="soft">Tedavinin ilk basamağı kirişleri dinlendirmektir. Bunun için hem bileği hem başparmağı saran bir atel kullanılır. İngiltere'deki hastane broşürleri 3–8 hafta arasında süreler veriyor; bir broşür altı hafta boyunca gece gündüz takmayı, ağrı azalırsa ateli 2–4 haftada kademeli olarak bırakmayı öneriyor. Atel yalnızca duş ve bilek hareketleri için çıkarılır.</p>
@@ -114,7 +136,6 @@ DQ_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Tedavi</h2>
@@ -126,9 +147,24 @@ DQ_BODY = f'''<header class="page">
         <li><b>Kortizon iğnesi</b><span>Hekim kararıyla; araştırmalarda en iyi sonuç iğne ile kısa süreli atelin birlikte kullanımında alındı.</span></li>
         <li><b>Ameliyat</b><span>Nadiren; kılıfı gevşeten küçük bir işlem.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: 2023 ağ meta-analizi ne diyor?</h3>
+      <p class="soft">30 çalışmayı ve 1.663 hastayı kapsayan ağ meta-analizinin (JAMA Netw Open) bulguları. Kısa vade 12 haftaya kadar, orta vade 3 ay ile 1 yıl arasıdır; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>İğne ve kısa süreli atel</h3><dl><dt>JAMA Netw Open</dt><dd>Kısa ve orta vadede işlev için en etkili olma olasılığı en yüksek seçenek. Tek başına iğneye göre işlevdeki fark orta kesinlikte, ağrıdaki fark çok düşük kesinlikte; ikisi de klinik önem eşiğinin altında.</dd></dl></div>
+        <div class="kind"><h3>Tek başına atel</h3><dl><dt>JAMA Netw Open</dt><dd>Kısa vadeli ağrıda en az etkili seçenekler arasındaydı. Kısa vadeli işlevde iğne ve atel birlikte, tek başına atelden hem istatistiksel hem klinik olarak üstündü.</dd></dl></div>
+        <div class="kind"><h3>Ultrason eşliğinde iğne</h3><dl><dt>JAMA Netw Open</dt><dd>İki çalışmada (92 hasta) kısa vadeli ağrıda ultrasonsuz iğneye göre anlamlı fark görülmedi (çok düşük kesinlik).</dd></dl></div>
+        <div class="kind"><h3>Ameliyat</h3><dl><dt>JAMA Netw Open</dt><dd>Analizlere alınamadı. Bir sistematik derlemede hastaların %95'e varan kısmında belirtiler tamamen geçti; ameliyat, ameliyatsız tedavi işe yaramadığında düşünülür.</dd></dl></div>
+      </div>
     </div>
   </section>
-
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>De Quervain'den bugüne</h2>
+      <p class="soft">Hastalık 19. yüzyılın sonunda tanımlandı; tanıda kullanılan testler 20. yüzyılın başında ortaya çıktı. Son yıllardaki çalışmalar ise iğnenin ve atelin birlikte kullanımını öne çıkardı.</p>
+      {g_tl(DQ_TL)}
+    </div>
+  </section>
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -140,7 +176,6 @@ DQ_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -161,29 +196,30 @@ DQ_BODY = f'''<header class="page">
       <p class="meta">Videolar Mayo Clinic ve Doctor O'Donovan kanallarına aittir.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(DQ_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
+      <p class="soft">Aşağıdaki durumlarda gecikmeden başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Düşme ya da darbeden sonra bilekte şişlik ve şiddetli ağrı</li>
         <li>Bilekte kızarıklık ve sıcaklıkla birlikte ateş</li>
-        <li>Elde geçmeyen uyuşma ya da karıncalanma</li>
         <li>Başparmağı hiç hareket ettirememe</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Elde geçmeyen uyuşma ya da karıncalanma</li>
         <li>Dört haftalık dinlendirme ve atele rağmen düzelmeyen ağrı</li>
       </ul>
       {CTA_CARD("De Quervain'e bağlı bilek ağrınız", "De Quervain (bilek ağrısı)")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -193,7 +229,7 @@ DQ_BODY = f'''<header class="page">
 </main>'''
 
 page("de-quervain.html", "De Quervain: Başparmak Tarafında Bilek Ağrısı",
-     "De Quervain nedir, yeni annelerde neden sık görülür? Atel ne kadar takılır, kortizon iğnesi işe yarar mı, egzersize ne zaman başlanır? Evde altı egzersiz ve videolar.",
+     "De Quervain nedir, nasıl tanınır, yeni annelerde neden sık görülür? Atel ne kadar takılır, kortizon iğnesi işe yarar mı, ameliyat ne zaman gerekir? Kanıtların karşılaştırması, kısa tarihçe, evde altı egzersiz ve videolar.",
      "de-quervain.html", NECK_CSS, DQ_BODY, YT_JS,
      seo_title="De Quervain Tendiniti: Bilek Ağrısı, Atel ve Egzersiz | İhsan Eren",
      condition="De Quervain tenosinoviti", faq_items=DQ_FAQ)

@@ -216,18 +216,33 @@ page("halluks-valgus.html", "Halluks Valgus: Ayak Başparmağı Çıkıntısı",
 # ============================================================== TETİK PARMAK
 TF_FAQ = [
  ("Tetik parmak kendiliğinden geçer mi?", "Hafif olgular birkaç haftada tedavisiz düzelebilir. Bazılarında ise ara ara yineler ya da süreğenleşir. Parmak ne kadar uzun süre bükülü takılı kalırsa kiriş o kadar tahriş olur; bu yüzden erken dönemde eli dinlendirmek, gece ateli ve nazik hareketler önemlidir. Öneriler uygulandığında düzelme 12 haftayı bulabilir."),
- ("Kortizon iğnesi işe yarar mı?", "İskoçya'daki ulusal hasta broşürüne göre iğne, olguların yaklaşık %70–80'inde ağrıyı ve takılmayı gideriyor; diyabeti olanlarda başarı daha düşük. Rastgele kontrollü araştırma ise az: Cochrane derlemesi 63 kişilik iki küçük çalışma buldu; dört haftada başarı, kortizon eklenenlerde 100'de 37, yalnızca uyuşturucu yapılanlarda 100'de 17 idi."),
+ ("Kortizon iğnesi işe yarar mı?", "İskoçya'daki ulusal hasta broşürüne göre iğne, olguların yaklaşık %70–80'inde ağrıyı ve takılmayı gideriyor; diyabeti olanlarda başarı daha düşük. Rastgele kontrollü araştırma ise az: 2009 tarihli Cochrane derlemesi 63 kişilik iki küçük çalışma buldu. Derlemenin hasta özetine göre kortizon eklenen iğneden 100 kişinin 37'si, yalnızca uyuşturucu içeren iğneden 100 kişinin 17'si yarar gördü; bir çalışmada etki 4 aya kadar sürdü. Tetik parmak ilerledikçe iğnenin başarısız olma olasılığı artıyor."),
  ("Sabahları takılan parmak için ne yapabilirim?", "Belirtiler çoğu kişide sabahları daha belirgindir. Parmağın dibindeki hareketi gece boyunca sınırlayan kısa bir atel, sabahki takılmayı azaltmada çok etkilidir. Uyanınca elinizi ılık suya sokup parmağınızı nazikçe açmak da hareketi kolaylaştırır; zorla açmayın."),
+ ("Kaç kez iğne yapılabilir?", "Bunun kesin bir sınırı yoktur; kararı hekiminiz verir. 2023 tarihli bir derlemede aktarılan bir çalışmada, ikinci ve üçüncü iğnelerin yaklaşık %39'u en az 1,5 yıl süren rahatlama sağladı. İğnelere rağmen takılma sürerse ameliyat seçeneği konuşulur."),
+ ("Çocuklarda da olur mu?", "Evet. Çocuklarda tetik başparmak ya da parmak bebeklik döneminde ve daha büyük çocuklarda görülebilir; doğumda nadiren fark edilir. Genellikle ağrısızdır ve eli kullanmayı engellemez. Tedavisiz düzelebilir ama bu 1–2 yıl sürebilir; atelin ya da egzersizin fark yarattığına dair kanıt yoktur. Düzelmeyen az sayıdaki çocukta ameliyat yapılır; bir NHS broşüründe bu ameliyatın 3 yaşından önce yapılmadığı belirtiliyor."),
  ("Ameliyat gerekir mi?", "Çoğu kişide gerekmez. Diğer yöntemler işe yaramazsa, kirişin geçtiği halka küçük bir işlemle gevşetilir; çoğunlukla lokal anesteziyle yapılır. Küçük bir pansuman 10–14 gün kalır, el aynı gün hafif işlerde kullanılabilir. Yineleme seyrektir."),
 ]
 
 TF_SRC = [
+ "Bridges TN, Ohliger E, Kistler JM. " + ext("https://surgicoll.scholasticahq.com/article/68065-trigger-finger-evaluation-management-and-outcomes", "Trigger finger: evaluation, management, and outcomes") + ". SurgiColl. 2023;1(1). doi:10.58616/surgicoll.00003.",
+ "Clapham PJ, Chung KC. A historical perspective of the Notta's node in trigger fingers. J Hand Surg Am. 2009;34:1518-1522. Notta ve Lorthioir hakkında: " + ext("https://jbumdc.bahria.edu.pk/index.php/ojs/article/view/155", "Qureshi ve ark. JBUMDC. 2016;6(1):34-37") + ".",
+ "Fiorini HJ, Tamaoki MJ, Lenza M, Gomes dos Santos JB, Faloppa F, Belloti JC. " + ext("https://www.cochrane.org/evidence/CD009860_surgery-trigger-finger", "Surgery for trigger finger") + ". Cochrane Database Syst Rev. 2018;(2):CD009860.",
+ "Lorthioir J. Surgical treatment of trigger-finger by a subcutaneous method. J Bone Joint Surg Am. 1958;40-A:793-795.",
+ "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/trigger-thumb-finger-children-and-young-people/", "Trigger thumb / finger – children and young people") + ". Version 4, reviewed August 2024.",
  "NHS. " + ext("https://www.nhs.uk/conditions/trigger-finger/", "Trigger finger") + ". Page last reviewed 17 November 2025.",
  "NHS Scotland. " + ext("https://rightdecisions.scot.nhs.uk/media/ww4d10oz/national-trigger-finger-patient-information-leaflet.pdf", "Trigger finger: national patient information leaflet") + ".",
  "North Tees and Hartlepool NHS Foundation Trust. " + ext("https://www.nth.nhs.uk/resources/hand-therapy-trigger-finger/", "Hand therapy: trigger finger") + ". Leaflet PIL1517. Reviewed 30 March 2026.",
- "Peters-Veluthamaningal C, van der Windt DAWM, Winters JC, Meyboom-de Jong B. " + ext("https://www.cochrane.org/CD005617/MUSKEL_corticosteroid-injection-for-trigger-finger-in-adults", "Corticosteroid injection for trigger finger in adults") + ". Cochrane Database Syst Rev. 2009;(1):CD005617.",
+ "Peters-Veluthamaningal C, van der Windt DAWM, Winters JC, Meyboom-de Jong B. " + ext("https://www.cochrane.org/evidence/CD005617_local-corticosteroid-injection-trigger-finger", "Corticosteroid injection for trigger finger in adults") + ". Cochrane Database Syst Rev. 2009;(1):CD005617.",
  "St George's University Hospitals NHS Foundation Trust. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2021/09/Trigger-Finger.pdf", "Trigger finger") + ". Hand therapy leaflet THE_TF_02. April 2020.",
  "Torbay and South Devon NHS Foundation Trust. " + ext("https://www.torbayandsouthdevon.nhs.uk/uploads/25909.pdf", "Trigger finger") + ". Hand Physiotherapy leaflet 25909. September 2025.",
+]
+
+TF_TL = [
+ ("1850", "Notta, parmağı büken kirişte takılmaya yol açan kalınlaşmayı dört yetişkin hastada tanımladı; bu kalınlaşma bugün \"Notta nodülü\" olarak anılıyor."),
+ ("1958", "Lorthioir, kirişin geçtiği halkanın deri altından, büyük bir kesi yapılmadan gevşetildiği yöntemi (perkütan gevşetme) 52 hastada tanımladı."),
+ ("2009", "Cochrane derlemesi: kortizon iğnesine dair yalnızca iki küçük çalışma (63 kişi) bulundu; kortizon eklenen iğne, yalnızca uyuşturucu içeren iğneden daha etkiliydi."),
+ ("2018", "Cochrane derlemesi (14 çalışma, 1.260 kişi): açık ameliyat, kortizon iğnesine göre 6–12 ayda yinelemeyi azaltabilir (düşük kalitede kanıt) ama ilk hafta daha fazla ağrıya yol açıyor."),
+ ("2023", "Bir derleme (SurgiColl): ateller için hastaların bildirdiği başarı oranları %47 ile %93 arasında; tek kortizon iğnesiyle başarı %45 ile %80 arasında değişiyor."),
 ]
 
 TF_BODY = f'''<header class="page">
@@ -236,10 +251,9 @@ TF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Tetik parmak</h1>
     <p class="lede">Tetik parmak, parmağı büken kirişin kalınlaşıp içinden geçtiği halkaya takılmasıdır: Parmak bükülü kalır, açarken “tık” diye atar. Zararlı bir hastalık değildir ama eli kullanmayı zorlaştırır. Hafif olgular dinlendirme, gece ateli ve nazik hareketlerle düzelebilir; geçmezse iğne ve küçük bir ameliyat seçenekleri vardır.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -249,10 +263,10 @@ TF_BODY = f'''<header class="page">
         <div class="stat"><b>%70–80</b><span>Kortizon iğnesinin ağrı ve takılmayı giderdiği olgu oranı (ulusal hasta broşürü)</span></div>
         <div class="stat"><b>12 hafta</b><span>Atel ve egzersizle düzelmenin alabileceği süre</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("tedavi", "Tedavi"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Evde uygulamalar"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -272,8 +286,21 @@ TF_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı, yakınmalarınız ve elinizin muayenesiyle konur. Muayenede avuç içinde, etkilenen parmağın dibinde hassasiyet aranır; bazen parmakla birlikte hareket eden küçük bir yumru ele gelir. Parmak bükülüp açılırken takılma ya da atma görülebilir.</p>
+      <h3 class="g-h3">Dereceler (Green sınıflaması)</h3>
+      <ul class="tx">
+        <li><b>I. derece</b><span>Takılma öncesi dönem: ağrı, takılma hissi ve parmak dibinde hassasiyet.</span></li>
+        <li><b>II. derece</b><span>Parmak takılıyor ama kendi kendinize açabiliyorsunuz.</span></li>
+        <li><b>III. derece</b><span>Takılan parmağı ancak diğer elinizle açabiliyorsunuz (IIIA) ya da parmağı tam bükemiyorsunuz (IIIB).</span></li>
+        <li><b>IV. derece</b><span>Takılmayla birlikte parmağın orta ekleminde kalıcı bükülü kalma.</span></li>
+      </ul>
+      <p class="soft">Derece, tedavi seçimine yön verir. 2023 tarihli bir derlemeye göre tetik parmak ilerledikçe kortizon iğnesinin başarısız olma olasılığı artıyor.</p>
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>İlk adım: kirişi dinlendirmek</h2>
       <p class="soft">Belirtileri artıran işleri, özellikle tekrarlı ve sıkı kavramayı, düzelene kadar azaltın. Parmak ne kadar uzun süre bükülü takılı kalırsa kiriş o kadar tahriş olup kalınlaşır; bu yüzden erken davranmak önemlidir.</p>
@@ -283,7 +310,6 @@ TF_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Tedavi</h2>
@@ -295,9 +321,24 @@ TF_BODY = f'''<header class="page">
         <li><b>Kortizon iğnesi</b><span>Şişliği azaltır; diyabeti olanlarda başarı daha düşüktür.</span></li>
         <li><b>Ameliyat</b><span>Diğer yöntemler işe yaramadığında; lokal anesteziyle, günübirlik.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
+      <p class="soft">Sistematik derlemelerin bulguları. Kanıtın kalitesi belirtildiği yerde parantez içinde verilmiştir; tedavi kişiye ve tetik parmağın derecesine göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Atel</h3><dl><dt>Derleme (2023)</dt><dd>Hastaların bildirdiği başarı oranları %47 ile %93 arasında; çalışmalarda atel tipi ve sabitlenen eklem farklıydı. Önce 6 haftalık bir deneme, belirtiler sürerse 12 haftaya uzatma öneriliyor.</dd></dl></div>
+        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>Cochrane (2009)</dt><dd>İki küçük çalışma (63 kişi): kortizon eklenen iğneden 100 kişinin 37'si, yalnızca uyuşturucu içeren iğneden 100 kişinin 17'si yarar gördü. Çalışmaların yöntem kalitesi düşüktü.</dd></dl></div>
+        <div class="kind"><h3>Açık ameliyat ya da iğne</h3><dl><dt>Cochrane (2018)</dt><dd>6–12 ayda yineleme 100 kişide 7'ye karşı 39 (düşük kalite); ilk hafta ağrı 100 kişide 68'e karşı 19. Belirtilerin geçmesi 92'ye karşı 61 (çok düşük kalite).</dd></dl></div>
+        <div class="kind"><h3>Deri altından ya da açık ameliyat</h3><dl><dt>Cochrane (2018)</dt><dd>Beş çalışma iki yöntemi karşılaştırdı; kanıtın kalitesi düşük ya da çok düşük olduğundan birinin diğerinden üstün olup olmadığı belirsiz.</dd></dl></div>
+      </div>
     </div>
   </section>
-
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>İlk tanımdan bugünkü tedavilere</h2>
+      <p class="soft">Tetik parmak 19. yüzyılın ortasında tanımlandı. 20. yüzyılda halkayı deri altından gevşetme yöntemi geliştirildi; son yıllardaki derlemeler ise atelin, iğnenin ve ameliyatın yerini karşılaştırdı.</p>
+      {g_tl(TF_TL)}
+    </div>
+  </section>
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde bakım</p>
@@ -306,7 +347,6 @@ TF_BODY = f'''<header class="page">
       {ex_grid(["tf_warm", "tf_ice", "tf_hook", "tf_table", "tf_passive", "tf_splint"])}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
@@ -327,29 +367,30 @@ TF_BODY = f'''<header class="page">
       <p class="meta">Videolar Mayo Clinic ve Doctor O'Donovan kanallarına aittir.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(TF_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hekime görünmeli?</h2>
-      <p class="soft">Şu durumlarda bir hekime başvurun:</p>
+      <p class="soft">Aşağıdaki durumlarda gecikmeden başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
       <ul class="dots redflags">
-        <li>Belirtiler düzelmiyorsa ya da giderek artıyorsa</li>
-        <li>Günlük işlerinizi yapmanızı engelliyorsa</li>
-        <li>Parmak bükülü kilitlenip hiç açılmıyorsa</li>
-        <li>Parmakta kızarıklık, sıcaklık ve şişlikle birlikte ateş varsa (aynı gün)</li>
-        <li>Yaralanmadan sonra parmağı hiç bükemiyor ya da açamıyorsanız (aynı gün)</li>
+        <li>Parmakta kızarıklık, sıcaklık ve şişlikle birlikte ateş</li>
+        <li>Yaralanmadan sonra parmağı hiç bükememe ya da açamama</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Parmağın bükülü kilitlenip hiç açılmaması</li>
+        <li>Düzelmeyen ya da giderek artan belirtiler</li>
+        <li>Günlük işlerinizi yapmanızı engelleyen belirtiler</li>
       </ul>
       {CTA_CARD("Tetik parmağa bağlı el şikâyetleriniz", "tetik parmak")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -359,7 +400,7 @@ TF_BODY = f'''<header class="page">
 </main>'''
 
 page("tetik-parmak.html", "Tetik Parmak",
-     "Tetik parmak neden olur, kendiliğinden geçer mi? Gece ateli, kortizon iğnesi için kanıt, ameliyat ve evde altı uygulama: ılık su, buz masajı ve kirişi koruyan nazik hareketler.",
+     "Tetik parmak neden olur, nasıl tanınır ve derecelendirilir, kendiliğinden geçer mi? Gece ateli, kortizon iğnesi ve ameliyat için kanıtlar, kısa tarihçe, çocuklarda tetik başparmak ve evde altı uygulama.",
      "tetik-parmak.html", NECK_CSS, TF_BODY, YT_JS,
      seo_title="Tetik Parmak: Atel, Egzersiz, İğne ve Ameliyat | İhsan Eren",
      condition="Tetik parmak", faq_items=TF_FAQ)
