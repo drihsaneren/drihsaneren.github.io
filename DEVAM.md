@@ -839,3 +839,5 @@ Ayrıntılar DENETIM.md'de. Delitto %57 (PEDro 42343) doğrulandı ve sayfaya ya
 6 Kasım 2026 (2): genişletme partisi 7 — ön çapraz bağ, baş ağrısı, dar kanal (DENETIM.md). Çeviri tur53, tur54. Sonraki batch: tur55 (önce i18n/done içindeki en büyük numaraya bakın; günlük denetim de bu numaraları kullanıyor). Önerilen sıradaki parti: omuz çıkığı, bel kayması, tetik parmak / de Quervain.
 
 6 Kasım 2026 (3): genişletme partisi 8 — omuz çıkığı, bel kayması (DENETIM.md). Omuz çıkığında Worcestershire kaynağı (açılamadı) OUH Şubat 2026 broşürüyle değiştirildi; kapı pervazı egzersizi bu sayfada sayfaya özel di_iso (5 sn × 10) — ortak isoer (30–45 sn, tendinopati) değişmedi. Çeviri tur55. Sonraki batch: tur56 (önce i18n/done içindeki en büyük numaraya bakın). Önerilen sıradaki parti: tetik parmak, de Quervain, golfçü dirseği.
+
+7 Kasım 2026: günlük denetim — gebelikte bel ağrısı, idrar kaçırma, adım hedefi (DENETIM.md). Çeviri tur56. Sonraki batch: tur57 (önce i18n/done içindeki en büyük numaraya bakın).

@@ -358,9 +358,9 @@ page("sakatlanmayi-onleyen-isinma.html", "Sakatlanmayı Önleyen Isınma",
 
 # ------------------------------------------------------------------ 2 · ADIM HEDEFİ PLANLAYICISI
 AH_FAQ = [
- ("10.000 adım şart mı?", "Hayır. 57 çalışmayı inceleyen 2025 tarihli bir derlemede, günde 7.000 adım atanlarda 2.000 adım atanlara göre ölüm riski %47 daha düşüktü; ölüm, kalp-damar hastalığı, demans ve düşmelerde yararın büyük kısmı 5.000–7.000 adım civarında ortaya çıkıyordu. Daha fazla adım bazı hastalıklarda ek yarar sağlayabilir, ama 7.000 adım çoğu kişi için gerçekçi ve etkili bir hedef."),
+ ("10.000 adım şart mı?", "Hayır. 57 çalışmayı inceleyen 2025 tarihli bir derlemede, günde 7.000 adım atanlarda 2.000 adım atanlara göre ölüm riski %47 daha düşüktü; ölüm, kalp-damar hastalığı görülme sıklığı, demans ve düşmelerde risk azalması 5.000–7.000 adım civarından sonra yavaşlıyordu. Daha fazla adım bazı hastalıklarda ek yarar sağlayabilir, ama 7.000 adım çoğu kişi için gerçekçi ve etkili bir hedef."),
  ("Yaşım ileri, hedefim farklı mı?", "15 çalışmayı birleştiren bir analizde ölüm riskindeki azalma 60 yaş ve üzerindekilerde günde yaklaşık 6.000–8.000, 60 yaşın altındakilerde 8.000–10.000 adımda düzleşti. Bu sayfa hedefinizi yaşınıza göre bu aralıklara göre gösterir."),
- ("Her gün ne kadar artırmalıyım?", "Küçük artışlar da önemli. Yaklaşık 227 bin kişiyi kapsayan bir meta-analizde her ek 1.000 adım, ölüm riskinde yaklaşık %15 azalmayla ilişkiliydi. Bu sayfa her hafta günlük ortalamanıza 1.000 adım eklemeyi önerir; bu genel bir öneridir, eklem ağrınız ya da bir sağlık sorununuz varsa artışı yavaşlatın."),
+ ("Her hafta ne kadar artırmalıyım?", "Küçük artışlar da önemli. Yaklaşık 227 bin kişiyi kapsayan bir meta-analizde her ek 1.000 adım, ölüm riskinde yaklaşık %15 azalmayla ilişkiliydi. Bu sayfa her hafta günlük ortalamanıza 1.000 adım eklemeyi önerir; bu genel bir öneridir, eklem ağrınız ya da bir sağlık sorununuz varsa artışı yavaşlatın."),
  ("Adımlarımı nasıl ölçerim?", "Telefonunuzun sağlık uygulaması ya da bir adımsayar yeterlidir. Son 7 günün günlük ortalamasını alın; tek bir güne değil, haftalık ortalamaya bakın. Telefonu üzerinizde taşımadığınız zamanlar sayılmayacağı için gerçek adım sayınız biraz daha yüksek olabilir."),
  ("Adımların hızı önemli mi?", "Toplam adım sayısı en tutarlı ölçüt. 15 çalışmalık analizde, günün en hızlı 30–60 dakikasındaki adım hızı da düşük ölümle ilişkiliydi, ama yürüme süresinin belirli bir hızın üzerinde geçmesi ayrıca anlamlı değildi. Yürüyüşlerinizin bir kısmını tempolu yapmak yine de kondisyonunuzu artırır."),
 ]
@@ -371,7 +371,7 @@ AH_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Adım hedefi planlayıcısı</h1>
     <p class="lede">Günlük adım sayısı, sağlığınızla ilgili en kolay izlenen ölçülerden biri. Büyük araştırmalara göre çok az hareket edenlerde bile her ek adım değerli ve yararın büyük kısmı 10.000 adımdan çok önce başlıyor. Bu sayfa son haftanızın ortalamasına göre gerçekçi bir haftalık hedef önerir, sizi araştırmalardaki eşiklere yaklaştıracak bir plan çıkarır ve haftalık ortalamalarınızı kaydeder.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 7 Kasım 2026</p>
   </div>
 </header>
 
@@ -382,7 +382,7 @@ AH_BODY = f'''<header class="page">
         <div class="stat"><b>7.000</b><span>Günlük adım: 2.000 adıma göre ölüm riski %47 daha düşük (57 çalışmalık derleme)</span></div>
         <div class="stat"><b>−%15</b><span>Her ek 1.000 adımla ilişkili ölüm riskindeki azalma</span></div>
         <div class="stat"><b>6–8 bin</b><span>60 yaş ve üzerinde yararın düzleştiği aralık; 60 yaş altında 8–10 bin</span></div>
-        <div class="stat"><b>+5 dk</b><span>Günde 5 dakika daha tempolu yürümenin toplumdaki ölümlerin tahminen %10'unu önleyebileceği hesaplandı</span></div>
+        <div class="stat"><b>+5 dk</b><span>En aktif %20 dışındaki yetişkinler günde 5 dakika daha orta tempoda hareket etseydi ölümlerin tahminen %10'unun önlenebileceği hesaplandı (gözlem verisine dayalı model)</span></div>
       </div>
     </div>
   </section>
@@ -448,7 +448,7 @@ AH_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Araştırmalar ne diyor?</h2>
-        <p class="soft">57 çalışmayı inceleyen 2025 tarihli bir derlemede, günde 7.000 adım atanlarda 2.000 adım atanlara göre ölüm riski %47, kalp-damar hastalığından ölüm riski %47, demans riski %38, depresyon belirtileri %22, düşmeler %28 daha düşüktü. Ölüm, kalp-damar hastalığı, demans ve düşmelerde yararın büyük kısmı 5.000–7.000 adım civarında ortaya çıkıyordu.</p>
+        <p class="soft">57 çalışmayı inceleyen 2025 tarihli bir derlemede, günde 7.000 adım atanlarda 2.000 adım atanlara göre ölüm riski %47, kalp-damar hastalığından ölüm riski %47, demans riski %38, depresyon belirtileri %22, düşmeler %28 daha düşüktü. Ölüm, kalp-damar hastalığı görülme sıklığı, demans ve düşmelerde risk azalması 5.000–7.000 adım civarından sonra yavaşlıyordu; kalp-damar hastalığından ölümde ise adım arttıkça risk düşmeye devam ediyordu.</p>
         <p class="soft">Bunlar gözlem çalışmalarıdır: Çok yürüyenler başka açılardan da daha sağlıklı olabilir. Yine de farklı ülkelerden gelen sonuçlar tutarlı ve küçük artışların bile anlamlı olduğunu gösteriyor.</p>
       </div>
       <div>
@@ -477,9 +477,9 @@ AH_BODY = f'''<header class="page">
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
-        "Ding D, et al. Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis. Lancet Public Health. 2025. Özet: " + ext("https://epocrates.com/online/article/7-000-daily-steps-associated-with-substantial-reductions-in-mortality-and", "Epocrates, 29 July 2025") + ".",
+        "Ding D, et al. Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis. Lancet Public Health. 2025;10(8):e668–e681. Özet: " + ext("https://epocrates.com/online/article/7-000-daily-steps-associated-with-substantial-reductions-in-mortality-and", "Epocrates, 29 July 2025") + ".",
         "Paluch AE, Bajpai S, Bassett DR, et al. Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts. Lancet Public Health. 2022;7(3):e219–e228. Özet: " + ext("https://hospitalhealthcare.com/specialisms/cardiovascular/mortality-benefit-from-higher-daily-steps-plateaus/", "Hospital Healthcare Europe, 15 March 2022") + ".",
-        "Banach M, Lewek J, Surma S, et al. The association between daily step count and all-cause and cardiovascular mortality: a meta-analysis. Eur J Prev Cardiol. 2023. doi:10.1093/eurjpc/zwad229. Özet: " + ext("https://www.communitypractitioner.co.uk/just-4000-steps-a-day-can-reduce-the-risk-of-death-from-any-cause/", "Community Practitioner, 11 August 2023") + ".",
+        "Banach M, Lewek J, Surma S, et al. The association between daily step count and all-cause and cardiovascular mortality: a meta-analysis. Eur J Prev Cardiol. 2023;30(18):1975–1985. doi:10.1093/eurjpc/zwad229. Özet: " + ext("https://www.communitypractitioner.co.uk/just-4000-steps-a-day-can-reduce-the-risk-of-death-from-any-cause/", "Community Practitioner, 11 August 2023") + ".",
         "Ekelund U, Tarp J, Ding D, et al. Deaths potentially averted by small changes in physical activity and sedentary time: an individual participant data meta-analysis of prospective cohort studies. Lancet. 2026;407(10526):339–349. Basın bülteni: " + ext("https://www.eurekalert.org/news-releases/1112291", "EurekAlert!, 13 January 2026") + ".",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462.",
       ])}
