@@ -386,7 +386,7 @@ page("cene-eklemi.html", "Çene Eklemi Rahatsızlıkları",
 _ex2("ui_bridge", "bridge", "Köprü", "Sırtüstü yatın, dizleriniz bükülü, ayaklarınız yerde. Önce pelvik taban kaslarınızı sıkın, sonra kalçanızı yavaşça kaldırın; 3 saniye bekleyip indirin ve kasları gevşetin.", "10 tekrar")
 
 UI_FAQ = [
- ("İdrar kaçırma yaşlanmanın doğal bir sonucu mu?", "Sık görülse de kaçınılmaz değildir ve çoğu zaman tedavi edilebilir. Utanmadan hekiminize ya da fizyoterapistinize başvurun; ilk basamak tedavi çoğu kadında pelvik taban egzersizleridir. 60 yaş ve üstü 362 kadınla yapılan bir çalışmada, 12 haftalık pelvik taban egzersiz programından 1 yıl sonra idrar kaçırma atakları grup derslerine katılanlarda %74, bireysel seans alanlarda %70 azaldı; grup halinde yapılan program bireysel programdan geri kalmadı."),
+ ("İdrar kaçırma yaşlanmanın doğal bir sonucu mu?", "Sık görülse de kaçınılmaz değildir ve çoğu zaman tedavi edilebilir. Utanmadan hekiminize ya da fizyoterapistinize başvurun; ilk basamak tedavi çoğu kadında pelvik taban egzersizleridir. 60 yaş ve üstü 362 kadınla yapılan bir çalışmada, 12 haftalık pelvik taban egzersiz programından 1 yıl sonra idrar kaçırma atakları grup derslerine katılanlarda ortalama (medyan) %74, bireysel seans alanlarda %70 azaldı; grup halinde yapılan program bireysel programdan geri kalmadı."),
  ("Egzersizlerin etkisini ne zaman görürüm?", "Kasların güçlenmesi zaman alır; kılavuz en az 3 ay düzenli egzersiz öneriyor. Fayda görürseniz egzersizlere devam etmeniz gerekir. Avrupa Üroloji Derneği’nin kılavuzu da stres tipi kaçırmada ilk tedavi olarak en az üç ay süren, gözetim altında yoğun pelvik taban egzersizini; fazla kilolu kadınlara kilo vermeyi öneriyor."),
  ("Kasları doğru çalıştırdığımdan nasıl emin olabilirim?", "Pek çok kişi başlangıçta karın, kalça ya da uyluk kaslarını sıkar ya da nefesini tutar. Kılavuz, egzersizlerin bir uzman eşliğinde öğretilmesini öneriyor; fizyoterapist doğru kası bulmanıza ve programı ayarlamanıza yardım eder. Tuvalette idrarı yarıda kesmeyi egzersiz olarak yapmayın."),
  ("Erkeklerde de işe yarar mı?", "Pelvik taban egzersizleri erkeklerde de, özellikle prostat ameliyatından sonra kullanılır. Programı ürolojik değerlendirmeyle birlikte planlamak gerekir."),
@@ -407,7 +407,7 @@ UI_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>İdrar kaçırma ve pelvik taban egzersizleri</h1>
     <p class="lede">Öksürürken, hapşırırken, gülerken ya da zorlanırken idrar kaçırmak, özellikle doğum yapmış ve orta yaşın üzerindeki kadınlarda çok sıktır ve çoğu zaman utanıldığı için konuşulmaz. İyi haber: düzenli pelvik taban egzersizleri bu tür idrar kaçırmada ilk basamak ve çok etkili bir tedavidir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 7 Kasım 2026</p>
   </div>
 </header>
 
@@ -415,8 +415,8 @@ UI_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%34</b><span>İngiltere'de idrar kaçırma yaşayan kadınların oranı; gerçek oran muhtemelen daha yüksek</span></div>
-        <div class="stat"><b>8 kat</b><span>Pelvik taban egzersizi yapan, zorlanma tipi idrar kaçırması olan kadınlarda iyileşme olasılığı (%56'ya karşı %6)</span></div>
+        <div class="stat"><b>%34</b><span>Birleşik Krallık'ta idrar kaçırma yaşayan kadınların oranı; gerçek oran muhtemelen daha yüksek</span></div>
+        <div class="stat"><b>8 kat</b><span>Pelvik taban egzersizi yapan, zorlanma tipi idrar kaçırması olan kadınlarda şikâyetin tamamen geçtiğini bildirme olasılığı (%56'ya karşı %6)</span></div>
         <div class="stat"><b>3 ay</b><span>Kılavuzun ilk basamak tedavi olarak önerdiği en kısa denetimli egzersiz süresi</span></div>
         <div class="stat"><b>8 × 3</b><span>Kılavuzun önerdiği günlük program: en az 8 kasılma, günde 3 kez</span></div>
       </div>
@@ -441,7 +441,7 @@ UI_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Pelvik taban egzersizleri ne kadar etkili?</h2>
-      <p class="soft">31 çalışmayı ve 1.817 kadını kapsayan 2018 tarihli Cochrane derlemesinde, zorlanma tipi idrar kaçırması olan kadınlarda pelvik taban egzersizi yapanların iyileşme olasılığı egzersiz yapmayanlara göre 8 kat yüksekti (%56'ya karşı %6). Her tür idrar kaçırmada bu oran 5 kattı (%35'e karşı %6); yaşam kalitesi de belirgin şekilde düzeldi ve yan etkiler nadir ve hafifti.</p>
+      <p class="soft">31 çalışmayı ve 1.817 kadını kapsayan 2018 tarihli Cochrane derlemesinde, zorlanma tipi idrar kaçırması olan kadınlarda (4 çalışma, 165 kadın) pelvik taban egzersizi yapanların şikâyetin tamamen geçtiğini bildirme olasılığı egzersiz yapmayanlara göre 8 kat yüksekti (%56'ya karşı %6). Her tür idrar kaçırmada (3 çalışma, 290 kadın) bu oran 5 kattı (%35'e karşı %6); yaşam kalitesinde de anlamlı düzelme görüldü. Yan etkiler nadirdi; bildiren iki çalışmada hafifti.</p>
       <p class="soft">İngiltere'nin NICE kılavuzu, zorlanma tipi ya da karışık tip idrar kaçırmada ilk basamak tedavi olarak en az 3 ay süren, uzman eşliğinde pelvik taban egzersizi öneriyor. Program en az 8 kasılmanın günde 3 kez yapılmasından oluşmalı ve fayda görülürse sürdürülmelidir.</p>
       <div class="callout">
         <p>Kılavuz ayrıca vücut kitle indeksi 30'un üzerinde olanlara kilo vermeyi, sıkışma tipi şikâyetlerde kafeini azaltmayı ve çok fazla ya da çok az sıvı alanlara sıvı alımını düzenlemeyi öneriyor.</p>
@@ -513,7 +513,7 @@ _ex2("pg_pf", "pf_sit", "Oturarak pelvik taban kasılması", "Dik oturun. Pelvik
 _ex2("pg_walk", "walk", "Yürüyüş", "Konuşabileceğiniz bir tempoda, düz zeminde yürüyün. Leğen kemiği ağrınız varsa adımlarınızı kısa tutun ve ağrıyı artıran uzun yürüyüşleri bölün.", "Günde 20–30 dakika, bölerek yapılabilir")
 
 PG_FAQ = [
- ("Gebelikte egzersiz yapmak güvenli mi?", "Sağlıklı, komplikasyonsuz gebeliklerde evet. Amerikan Kadın Doğum Uzmanları Derneği (ACOG) haftada 150 dakika orta yoğunlukta egzersiz öneriyor. Başlamadan önce kadın doğum uzmanınıza danışın; özel bir risk durumu varsa program buna göre ayarlanır. 32 çalışmayı ve 52.297 gebeyi kapsayan bir meta-analizde gebelikte egzersiz bel ve leğen kemiği ağrısının ortaya çıkma olasılığını belirgin azaltmadı, ama ağrının şiddetini gebelikte ve doğumdan sonra azalttı; kanıtın kesinliği düşük ile çok düşük arasındaydı."),
+ ("Gebelikte egzersiz yapmak güvenli mi?", "Sağlıklı, komplikasyonsuz gebeliklerde evet. Amerikan Kadın Doğum Uzmanları Derneği (ACOG) haftada 150 dakika orta yoğunlukta egzersiz öneriyor. Başlamadan önce kadın doğum uzmanınıza danışın; özel bir risk durumu varsa program buna göre ayarlanır. 32 çalışmayı ve 52.297 gebeyi kapsayan bir meta-analizde gebelikte egzersiz bel ve leğen kemiği ağrısının ortaya çıkma olasılığını azaltmadı, ama ağrının şiddetini gebelikte ve doğumdan sonraki ilk dönemde azalttı; kanıtın kesinliği çok düşük ile orta arasındaydı."),
  ("Hangi aktivitelerden kaçınmalıyım?", "Temas sporlarından, ata binme, kayak ve jimnastik gibi düşme riski yüksek aktivitelerden ve dalıştan kaçının. İlerleyen gebelikte uzun süre sırtüstü yatarak egzersiz yapmayın. Yüzme, su içi egzersiz ve sabit bisiklet gebelik boyunca vücudu en az zorlayan seçeneklerdir."),
  ("Doğumdan sonra ağrı geçer mi?", "Çoğu kadında bel ve leğen kemiği ağrısı doğumdan sonraki haftalar ve aylar içinde azalır; bir kısmında ise sürebilir. Devam eden ağrıda doğum sonrası fizyoterapi değerlendirmesi faydalıdır."),
  ("Destek kemeri kullanmalı mıyım?", "Bazı kadınlarda, özellikle leğen kemiği ağrısında, destek kemeri yürürken rahatlama sağlayabilir. Egzersizin yerine değil, gerekirse yanında kullanılmalıdır."),
@@ -533,7 +533,7 @@ PG_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Gebelikte bel ve leğen kemiği ağrısı</h1>
     <p class="lede">Gebelikte bel ve leğen kemiği (pelvik kuşak) ağrısı çok sıktır ve gebelik ilerledikçe artabilir. Güvenli egzersizler, günlük hayattaki küçük değişiklikler ve gerektiğinde fizyoterapi ağrıyı hafifletmeye ve günlük işleri sürdürmeye yardımcı olur.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 7 Kasım 2026</p>
   </div>
 </header>
 
@@ -544,7 +544,7 @@ PG_BODY = f'''<header class="page">
         <div class="stat"><b>3'te 2</b><span>Gebelikte bel ağrısı yaşayan kadınlar (üçte ikiden fazlası)</span></div>
         <div class="stat"><b>5'te 1</b><span>Gebelikte leğen kemiği (pelvik kuşak) ağrısı yaşayan kadınlar</span></div>
         <div class="stat"><b>150 dk</b><span>ACOG'un gebelikte önerdiği haftalık orta yoğunlukta egzersiz</span></div>
-        <div class="stat"><b>%21</b><span>Egzersizle bel ve leğen ağrısına bağlı yeni iş göremezlik izinlerindeki azalma</span></div>
+        <div class="stat"><b>%21</b><span>Egzersiz yapan gebelerde bel ve leğen ağrısına bağlı yeni iş göremezlik izni riskindeki göreli azalma (3 çalışma)</span></div>
       </div>
     </div>
   </section>
@@ -571,7 +571,7 @@ PG_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Egzersiz ne sağlar?</h2>
-      <p class="soft">Cochrane derlemesine göre gebe kadınların üçte ikiden fazlası bel ağrısı, yaklaşık beşte biri leğen kemiği ağrısı yaşıyor. 2.347 gebe kadını kapsayan 11 çalışmanın meta-analizinde, gebelikte egzersiz bel ağrısı riskini biraz azalttı ve bel ve leğen ağrısına bağlı yeni iş göremezlik izinlerini %21 azalttı; ancak leğen kemiği ağrısını önlemedi. Leğen kemiği ağrısında kişiye özel egzersizler, günlük hayattaki uyarlamalar ve gerektiğinde destek kemeri birlikte planlanır.</p>
+      <p class="soft">Cochrane derlemesine göre gebe kadınların üçte ikiden fazlası bel ağrısı, yaklaşık beşte biri leğen kemiği ağrısı yaşıyor. Ayrı bir meta-analizde (Shiri ve ark., 2018; 11 çalışma, 2.347 gebe) gebelikte egzersiz bel ağrısı riskini biraz azalttı ve bel ve leğen ağrısına bağlı yeni iş göremezlik izni riskini %21 azalttı (3 çalışma); ancak leğen kemiği ağrısını önlemedi. Leğen kemiği ağrısında kişiye özel egzersizler, günlük hayattaki uyarlamalar ve gerektiğinde destek kemeri birlikte planlanır.</p>
       <p class="soft">Amerikan Kadın Doğum Uzmanları Derneği (ACOG), komplikasyonsuz gebeliklerde haftada 150 dakika orta yoğunlukta egzersiz öneriyor. Yüzme, su içi egzersiz ve sabit bisiklet vücudu en az zorlayan seçenekler arasında.</p>
       <div class="callout">
         <p>İlerleyen gebelikte uzun süre sırtüstü yatmak baş dönmesine yol açabilir. Bu yüzden aşağıdaki egzersizler yan yatarak, oturarak, ayakta ya da eller ve dizler üzerinde yapılır. Egzersize başlamadan önce kadın doğum uzmanınıza danışın.</p>
