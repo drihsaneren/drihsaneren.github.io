@@ -6,6 +6,7 @@ _EXF2 = {e[0]: e[3] for e in EX}
 SV["so_backf"] = _EXF2["Havlu ile germe"]
 _ex2("so_pend", "cf_pendf", "Sarkaç", "Sağlam elinizle bir masaya dayanıp öne eğilin ve ağrılı kolunuzu gevşekçe sarkıtın. Kolunuzu önce öne ve arkaya, sonra yandan yana, sonra iki yöne de daireler çizerek sallayın. Kolu kasla değil, gövdenizin hafif sallanmasıyla hareket ettirin.", "Her hareketten 5–10 tekrar")
 _ex2("so_stick", "cf_stickf", "Sopa ile dışa döndürme", "Oturun, ağrılı kolunuzun dirseği gövdenize yapışık ve 90 derece bükülü olsun. Bir sopayı iki elinizle tutun ve sağlam kolunuzla iterek ağrılı elinizi rahat ettiğiniz kadar dışa doğru götürün, sonra geri getirin.", "5–10 tekrar")
+SV["so_stick"] = fig(STICK_ER_SEATED, "Dışa döndürme")
 _ex2("so_table", "towel", "Masada kaydırma", "Masaya oturun ya da önünde durun, ellerinizi masadaki bir havlunun üzerine koyun. Omuzlarınızı kaldırmadan, ellerinizi rahat ettiğiniz kadar öne doğru kaydırın, sonra geri çekin.", "5 tekrarla başlayın, her gün 1–2 artırın; günde en az 3 kez")
 _ex2("so_back", "so_backf", "Havluyla eli sırta kaydırma", "Bir havluyu sırtınızın arkasında tutun: sağlam kolunuz yukarıda, ağrılı kolunuz aşağıda olsun. Sağlam kolunuzla havluyu yavaşça yukarı çekin; ağrılı eliniz sırtınız boyunca yukarı kaysın. Zorlamayın.", "5–10 tekrar")
 
