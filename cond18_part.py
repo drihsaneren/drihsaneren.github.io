@@ -21,7 +21,9 @@ _ex2("ge_ext", "wext_st", "Bilek açıcıları germe", "Dirseğinizi düzleştir
 _ex2("ge_flex", "wflex", "Bilek bükücüleri germe", "Dirseğiniz düz, avucunuz yukarı baksın. Diğer elinizle parmaklarınızı ve elinizi aşağı ve geriye doğru çekin; dirseğin iç yanında ve ön kolda gerilme hissedin. Ağrı olmamalı.", "15–30 saniye tutun, 3–5 tekrar, günde 2–3 kez")
 _ex2("ge_elbow", "ly_arm", "Dirseği büküp açma", "Kolunuzu rahatça yanınızda tutun. Dirseğinizi tam bükün, sonra tam açın. Ağrı izin verdikçe tekrar sayısını artırın.", "10 tekrar; zamanla 3 set 15 tekrar")
 _ex2("ge_ecc", "eccwe", "Avuç yukarı, ağırlığı yavaş indirme", "Ön kolunuzu masaya koyun, avucunuz yukarı baksın, eliniz masanın kenarından taşsın. Elinizde küçük bir ağırlık (bir konserve kutusu ya da su şişesi) olsun. Diğer elinizle bileğinizi yukarı kaldırın, sonra bırakıp ağırlığı 6 saniyede yavaşça indirin. Hafif bir rahatsızlık olağandır.", "10 tekrar, günde 3 kez; zamanla 3 set")
-EXT["ge_rot"] = ("Ön kolu içe-dışa çevirme", "Ön kolunuz masada dursun. Elinizin sırtı masadayken başlayın, sonra avucunuz aşağı bakacak şekilde çevirin; 5 saniye tutup yavaşça geri dönün. Kolaylaşınca elinize bir konserve kutusu ya da çekiç alın.", "10 tekrar; zamanla 3 set")
+SV["ge_elbow"] = SV["ly_arm"].replace("<figcaption>Elleri omuzlara</figcaption>", "<figcaption>Dirseği bükme</figcaption>")
+SV["ge_ecc"] = SV["eccwe"].replace("<figcaption>Eksantrik bilek açma</figcaption>", "<figcaption>Eksantrik bilek bükme</figcaption>")
+EXT["ge_rot"] = ("Ön kolu içe-dışa çevirme", "Ön kolunuz masada dursun. Elinizin sırtı masadayken başlayın, sonra avucunuz aşağı bakacak şekilde çevirin; 5 saniye tutup yavaşça geri dönün. Kolaylaşınca elinize bir konserve kutusu alın.", "10 tekrar; zamanla 3 set")
 EXT["ge_con"] = ("Avuç yukarı bilek kaldırma", "Ön kolunuzu masaya koyun, avucunuz yukarı baksın. Elinizde küçük bir ağırlıkla bileğinizi yavaşça, gidebildiği kadar yukarı bükün; sonra elinizi masa hizasına getirin. Kolaylaştıkça ağırlığı artırın.", "10 tekrar; zamanla 3 set")
 
 _ex2("gb_apump", "apump", "Ayak bileği pompası", "Sırtüstü yatın ya da oturun. Ayak uçlarınızı önce kendinize doğru çekin, sonra aşağı doğru itin. Yatakta geçen dönemde baldır kaslarını çalıştırır ve ayak bileğinin sertleşmesini önler.", "10–15 tekrar, günde birkaç kez")
@@ -33,12 +35,12 @@ _ex2("gb_walk", "walk", "Kısa ve sık yürüyüş", "Uzun tek bir yürüyüş y
 
 # ============================================================== GOLFÇÜ DİRSEĞİ
 GE_FAQ = [
- ("Golfçü dirseği ile tenisçi dirseği arasındaki fark nedir?", "İkisi de dirseğe yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır; fark yerindedir. Golfçü dirseğinde ağrı dirseğin iç yanındadır ve bileği ile parmakları büken kaslar etkilenir. Tenisçi dirseğinde ağrı dış yandadır ve bileği kaldıran kaslar etkilenir."),
+ ("Golfçü dirseği ile tenisçi dirseği arasındaki fark nedir?", "İkisi de dirseğe yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır; fark yerindedir. Golfçü dirseğinde ağrı dirseğin iç yanındadır ve bileği ile parmakları büken kaslar etkilenir. Tenisçi dirseğinde ağrı dış yandadır ve bileği geriye büken (açan) kaslar etkilenir."),
  ("Golf oynamıyorum; neden bende oldu?", "Golfçü dirseği aslında spor yapmayanlarda daha sık görülür. Bahçe işleri, boya, el aletleri kullanmak, uzun süre klavye kullanmak gibi bileği ve parmakları tekrar tekrar ve kuvvetle büken her iş neden olabilir. Bazen dirseğe alınan tek bir darbeden sonra da başlar."),
- ("Dirsek bandı işe yarar mı?", "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. Tek başına bir tedavi değildir; yükü azaltma ve egzersizle birlikte kullanılır."),
- ("Ne kadar sürede geçer?", "Tedavi edilmezse yakınmalar 6 ay ile 2 yıl arasında sürebilir. Yükü azaltma ve egzersizle ameliyatsız tedavi olguların %95'inden fazlasında başarılı olur. Ağrıyı artıran işlerin en az 6 hafta düzenlenmesi öneriliyor; yük düzenlemesi ve egzersiz programı genellikle toplam 6–12 hafta sürer."),
+ ("Dirsek bandı işe yarar mı?", "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. StatPearls'e göre bandın yararı ilk 6 haftada fizyoterapiden fazla olabilir, ancak 26. haftada fark kalmıyor. Yükü azaltma ve egzersizle birlikte kullanılır."),
+ ("Ne kadar sürede geçer?", "Tedavi edilmezse yakınmalar 6 ay ile 2 yıl arasında sürebilir. Ameliyatsız tedavi olguların %95'inden fazlasında başarılı olur. Ağrıyı artıran işlerin en az 6 hafta düzenlenmesi öneriliyor; yük düzenlemesi ve tedavi genellikle toplam 6–12 hafta gerektirir."),
  ("Yüzük ve serçe parmağımda uyuşma var; ilgisi var mı?", "Olabilir. Dirseğin iç yanından geçen ulnar sinirin tahrişi, golfçü dirseği olanların %60'ına kadarında eşlik edebilir. Bu durumda değerlendirmede sinir de muayene edilmelidir. Uyuşma geçmiyorsa ya da elinizde güçsüzlük varsa bir hekime başvurun."),
- ("Egzersizin yararı kanıtlandı mı?", "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük. Bir NHS broşürüne göre doğru egzersizler ve küçük etkinlik değişiklikleriyle çoğu kişi 8–12 haftada düzelir; aylardır süren ağrıda iyileşme daha uzun sürebilir. Tam dinlenme önerilmez, dirseği nazikçe hareket ettirmeyi sürdürmek önemlidir."),
+ ("Egzersizin yararı kanıtlandı mı?", "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; yararın özellikle diğer ameliyatsız tedavilerle birlikte uygulandığında görüldüğü belirtildi. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük. Bir NHS broşürüne göre doğru egzersizler ve küçük etkinlik değişiklikleriyle çoğu kişi 8–12 haftada düzelir; aylardır süren ağrıda iyileşme daha uzun sürebilir. Tam dinlenme önerilmez, dirseği nazikçe hareket ettirmeyi sürdürmek önemlidir."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "İğne ilk seçenek değildir. Az sayıda kişide kısa vadede ağrıyı azaltabilir ve diğer yöntemler işe yaramadığında düşünülür. Ameliyat ise nadiren gerekir. Tedavinin temeli yükü azaltmak, germe ve kademeli güçlendirmedir."),
 ]
 
@@ -47,7 +49,8 @@ GE_SRC = [
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/golfers-elbow/", "Golfer's elbow (medial epicondylosis/itis)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-golfers-elbow-4078", "Golfer's elbow") + ". Patient information leaflet B-275. September 2019.",
  "See ZH, Loo CE, Jaafar Z. " + ext("https://doi.org/10.1016/j.ctim.2026.103364", "Eccentric exercise therapy for medial epicondylitis: a systematic review of clinical outcomes") + ". Complement Ther Med. 2026;98:103364.",
- "Amin NH, Kumar NS, Schickendantz MS. " + ext("https://sogacot.org/articulos/medial-epicondylitis-evaluation-and-management/", "Medial epicondylitis: evaluation and management") + ". J Am Acad Orthop Surg. 2015;23(6)",
+ "Amin NH, Kumar NS, Schickendantz MS. " + ext("https://doi.org/10.5435/JAAOS-D-14-00145", "Medial epicondylitis: evaluation and management") + ". J Am Acad Orthop Surg. 2015;23(6).",
+ "Annaniemi JA, Pere J, Giordano S. " + ext("https://www.utupub.fi/bitstreams/a87727f5-b876-4e8b-b3c2-1497a2ad5a92/download", "Platelet-rich plasma injections decrease the need for any surgical procedure for chronic epicondylitis versus conservative treatment: a comparative study with long-term follow-up") + ". J Clin Med. 2022;12(1).",
  "Leicestershire Partnership NHS Trust. " + ext("https://www.leicspart.nhs.uk/wp-content/uploads/2026/06/LPT-CHSMSK15-Golfers-Elbow.pdf", "Golfer’s elbow (medial epicondylitis)") + ". CHS MSK 15, May 2026.",
 ]
 
@@ -97,7 +100,7 @@ GE_BODY = f'''<header class="page">
       <h2>Nasıl tanınır?</h2>
       <p class="soft">Tanı muayeneyle konur; görüntüleme genellikle gerekmez. Muayenede dirseğin iç yanındaki kemik çıkıntısı üzerinde hassasiyet aranır. Bileği dirence karşı bükmek ve ön kolu dirence karşı içe çevirmek ağrıyı artırır; dirsek düzken bileğin geriye doğru gerilmesi de ağrılı olabilir.</p>
       <p class="soft">Röntgen, geçmeyen yakınmalarda ya da başka bir sorundan şüphelenildiğinde istenebilir. MR ve ultrason kirişteki değişikliği gösterebilir ama tanı için gerekli değildir. Dirseğin iç yanından geçen ulnar sinirin tahrişi olguların %60'ına kadarında eşlik edebildiği için muayenede sinir de değerlendirilir.</p>
-      <p class="soft">Golfçü dirseği, dirsekteki kiriş ağrılarının yaklaşık beşte birinden azını oluşturur; çoğu olgu dirseğin dış yanındaki <a href="tenisci-dirsegi.html">tenisçi dirseğidir</a>.</p>
+      <p class="soft">Golfçü dirseği, dirseğin iç ve dış yanındaki kiriş ağrılarının beşte birinden azını oluşturur; çoğu olgu dış yandaki <a href="tenisci-dirsegi.html">tenisçi dirseğidir</a>.</p>
     </div>
   </section>
   <section id="tedavi">
@@ -121,11 +124,11 @@ GE_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Kanıtlar</p>
       <h2>Tedavi seçenekleri: kanıtlar ne diyor?</h2>
-      <p class="soft">Golfçü dirseği, tenisçi dirseğinden çok daha az araştırıldı; aşağıdaki bulguların çoğu az sayıda ve küçük çalışmaya dayanıyor. Tedavi kişiye göre seçilir.</p>
+      <p class="soft">Golfçü dirseği, tenisçi dirseğinden daha az araştırıldı; tedaviye yön veren kanıtların önemli bir kısmı tenisçi dirseği çalışmalarından aktarılıyor ve aşağıdaki bulguların çoğu az sayıda, küçük çalışmaya dayanıyor. Tedavi kişiye göre seçilir.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Eksantrik egzersiz</h3><dl><dt>Sistematik derleme (2026)</dt><dd>5 çalışma, 143 kişi: ağrı azaldı, işlev iyileşti; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Kanıtın kesinliği düşük.</dd></dl></div>
-        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>StatPearls (2026)</dt><dd>12 haftadan kısa süren bir rahatlama sağlar; uzun vadede diğer iğnelere göre sonuçları daha kötü, yineleme daha sık.</dd></dl></div>
-        <div class="kind"><h3>Trombositten zengin plazma (PRP)</h3><dl><dt>StatPearls (2026)</dt><dd>2022'deki tek bir çalışmada PRP iğnesi, fizyoterapiye göre 6, 12 ve 24. aylarda daha iyi ağrı ve işlev sonuçları verdi; ameliyat gereken hasta oranı %0'a karşı %20 idi.</dd></dl></div>
+        <div class="kind"><h3>Eksantrik egzersiz</h3><dl><dt>Sistematik derleme (2026)</dt><dd>5 çalışma, 143 kişi: eksantrik egzersizle ağrı azaldı ve işlev iyileşti; yarar özellikle diğer ameliyatsız tedavilerle birlikte uygulandığında görüldü. Başka tedavilere üstünlüğü yalnızca bir çalışmada gösterildi; kanıtın kesinliği düşük.</dd></dl></div>
+        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>StatPearls (2026)</dt><dd>Kısa süreli (12 haftadan az) bir rahatlama sağlayabilir; uzun vadede diğer iğnelere göre sonuçları daha kötü, yineleme daha sık. Bir yılda gözlem ve fizyoterapiye göre yararı gösterilmemiştir.</dd></dl></div>
+        <div class="kind"><h3>Trombositten zengin plazma (PRP)</h3><dl><dt>StatPearls (2026); Annaniemi ve ark. (2022)</dt><dd>2022'de yayımlanan, geriye dönük ve rastgele olmayan küçük bir çalışmada (55 kişi, çoğu tenisçi dirseği) PRP iğnesi yapılanlarda ağrı ve işlev 6, 12 ve 24. aylarda fizyoterapiye devam edenlerden daha iyiydi; ameliyat gereken hasta oranı %0'a karşı %20 idi. Golfçü dirseği için kanıt çok sınırlı.</dd></dl></div>
         <div class="kind"><h3>Ameliyat</h3><dl><dt>StatPearls (2026)</dt><dd>Nadiren gerekir. 6 aylık ameliyatsız tedaviye yanıt vermeyen ağır yakınmalarda ya da 12 aydan uzun süren belirtilerde düşünülebilir.</dd></dl></div>
       </div>
     </div>
@@ -147,7 +150,7 @@ GE_BODY = f'''<header class="page">
         <div class="vid">
           {vbox("m8YtVpSR1Bk", "Evde egzersizler videosunu oynat", "Golfer's Elbow Pain Relief: Simple Exercises You Can Do At Home")}
           <h3>Evde yapılabilecek hareketler</h3>
-          <p>Hastanenin hazırladığı, evde yapılabilecek egzersizleri gösteren video.</p>
+          <p>Bir sağlık kuruluşunun (CommonSpirit Houston) hazırladığı, evde yapılabilecek egzersizleri gösteren video.</p>
         </div>
         <div class="vid">
           {vbox("yTPQEW1aTTI", "Dört ev egzersizi videosunu oynat", "4 Home Exercises for Golfers Elbow")}
@@ -166,8 +169,8 @@ GE_BODY = f'''<header class="page">
   </section>
   <section id="uyari">
     <div class="wrap">
-      <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Aşağıdaki durumlarda gecikmeden başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
+      <h2>Ne zaman başvurmalı?</h2>
+      <p class="soft">Aşağıdaki durumlarda bir hekime başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
       <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Düşme ya da darbeden sonra dirsekte şişlik, şekil bozukluğu ya da hareket ettirememe</li>
@@ -177,7 +180,7 @@ GE_BODY = f'''<header class="page">
       <ul class="dots redflags">
         <li>Yüzük ve serçe parmakta geçmeyen uyuşma ya da elde güçsüzlük</li>
         <li>Dinlenirken ve gece hiç geçmeyen ağrı</li>
-        <li>Birkaç haftalık dinlendirme ve egzersize rağmen artan ağrı</li>
+        <li>Birkaç haftalık yük azaltma ve egzersize rağmen artan ağrı</li>
       </ul>
       {CTA_CARD("Golfçü dirseğine bağlı ağrınız", "golfçü dirseği")}
     </div>
