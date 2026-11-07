@@ -53,3 +53,9 @@ Kullanıcı ayrıca: "parça parça tamamlayalım, kullanım hakkını bitirmede
 12. Çocuklarda
 13. Tarihçe
 14. SSS, uyarı işaretleri (çene kilitlenmesi; şişlik + ateş; yüzde uyuşma; göğüs ağrısıyla birlikte çene ağrısı → 112; horlama + solunum durması → hekim)
+
+## Cihan Hoca cümlesi — kullanıcının açıklaması (7 Kasım 2026 22:36)
+Kullanıcı: "uygulanan değil; tüm diğer branşlara multidisipliner bir şekilde hangi tedavinin tıbbi olarak uygulanması gerektiğini gösterdi; Çapa başhekimiyken gibi diyebilirsin; etik değilse söylemem."
+Açık kaynakta görülen (acibadem.com.tr/doktor/cihan-aksoy): Prof. Dr. Cihan Aksoy, Fiziksel Tıp ve Rehabilitasyon uzmanı; 2015–2022 İstanbul Üniversitesi İstanbul Tıp Fakültesi FTR Ağrı Bilim Dalı'nda profesör; Kranio-Maksillo-Fasiyal ve Çene Eklemi Rehabilitasyon Derneği kurucu üyesi. Başhekimlik görevi bu sayfada GÖRÜNMÜYOR (iş geçmişi kısaltılmış).
+Öneri (kullanıcıya iletildi): doğrulanabilen ifade ("İstanbul Tıp Fakültesi'nde öğretim üyesiyken"), başhekimlik kullanıcı onaylarsa; Cihan Hoca'nın adının kullanılması için kendisinin onayı; "Türkiye'deki protokolü sağlayan kişi" gibi üstünlük iddiası yerine ölçülü cümle; Çapa adı yazarın okuluyla ilişkilendiriliyorsa "okul adı yok" kuralı.
+Taslak cümle: "Bu rehberdeki yaklaşımı yazarımız İhsan Eren, Fiziksel Tıp ve Rehabilitasyon uzmanı Prof. Dr. Cihan Aksoy'un (Cihan Hoca) yanında öğrendi. Cihan Hoca, İstanbul Tıp Fakültesi'nde öğretim üyesiyken diş sıkmada diş hekimliği, psikiyatri ve diğer branşların birlikte çalışmasını ve hangi durumda hangi tedavinin tıbben uygun olduğunu ortaya koyan bir yaklaşım geliştirdi."
