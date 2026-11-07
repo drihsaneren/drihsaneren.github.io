@@ -1,0 +1,382 @@
+[
+ {
+  "id": "tur58-0",
+  "kind": "attr",
+  "tr": "Yatarken, dönerken ya da yukarı bakınca başlayan kısa süreli baş dönmesi: BPPV nedir, hangi kanal etkilenir, Epley manevrası nasıl yapılır, kendiliğinden geçer mi, ne zaman acil başvurmalı? Adım adım çizimler, kanıtlar ve kısa tarihçe."
+ },
+ {
+  "id": "tur58-1",
+  "kind": "text",
+  "tr": "Yatağa uzanırken, yatakta dönerken ya da yukarı bakarken birden başlayan ve genellikle bir dakikadan kısa süren dönme hissi, çoğunlukla iç kulaktaki küçük kristallerin yer değiştirmesinden kaynaklanır. İç kulak kaynaklı baş dönmesinin en sık nedenidir ve basit bir baş manevrasıyla çoğu zaman düzelir."
+ },
+ {
+  "id": "tur58-2",
+  "kind": "text",
+  "tr": "Epley manevrasıyla baş dönmesi tamamen geçenler; sahte manevra ya da tedavi uygulanmayanlarda %21"
+ },
+ {
+  "id": "tur58-3",
+  "kind": "text",
+  "tr": "Hangi kanal?"
+ },
+ {
+  "id": "tur58-4",
+  "kind": "text",
+  "tr": "Epley adım adım"
+ },
+ {
+  "id": "tur58-5",
+  "kind": "text",
+  "tr": "En sık görülen arka kanal tipinde tanı Dix-Hallpike testiyle konur: hekim ya da fizyoterapist başınızı belli bir açıyla çevirip sizi hızla sırtüstü yatırır ve gözlerinizde oluşan karakteristik hareketi izler. Test hangi kulağın etkilendiğini de gösterir. Amerikan Kulak Burun Boğaz Akademisi'nin kılavuzu, tanı ölçütlerini karşılayan hastalarda rutin olarak MR ya da tomografi çekilmemesini öneriyor."
+ },
+ {
+  "id": "tur58-6",
+  "kind": "text",
+  "tr": "Tedavi, kristalleri kanaldan çıkarıp ait oldukları yere geri götüren yeniden konumlandırma manevralarıdır; en bilineni Epley manevrasıdır. 11 çalışmayı ve 745 hastayı kapsayan Cochrane derlemesinde, bu karşılaştırmayı yapan beş çalışmada (273 hasta) baş dönmesi tamamen geçenlerin oranı Epley yapılanlarda %56, sahte manevra ya da tedavi uygulanmayanlarda %21 oldu; ciddi bir yan etki görülmedi. Derlemedeki bir çalışmada (81 hasta) tek bir Epley manevrası, bir hafta boyunca günde üç kez yapılan Brandt-Daroff egzersizlerinden daha etkiliydi."
+ },
+ {
+  "id": "tur58-7",
+  "kind": "text",
+  "tr": "Hangi kanal etkilenmiş?"
+ },
+ {
+  "id": "tur58-8",
+  "kind": "text",
+  "tr": "Kılavuza göre BPPV olgularının yaklaşık %85–95'inde kristaller arka kanaldadır; yaklaşık %5–15'inde ise yatay (yan) kanal etkilenir. Hangi kanalın etkilendiği, uygulanacak manevrayı belirler."
+ },
+ {
+  "id": "tur58-9",
+  "kind": "text",
+  "tr": "Arka kanal"
+ },
+ {
+  "id": "tur58-10",
+  "kind": "text",
+  "tr": "En sık"
+ },
+ {
+  "id": "tur58-11",
+  "kind": "text",
+  "tr": "Dix-Hallpike testiyle tanınır; kılavuzda tanının altın standardı olarak geçer. Tedavide Epley ya da Semont gibi yeniden konumlandırma manevraları kullanılır. Bu sayfadaki Epley adımları arka kanal içindir."
+ },
+ {
+  "id": "tur58-12",
+  "kind": "text",
+  "tr": "Yatay (yan) kanal"
+ },
+ {
+  "id": "tur58-13",
+  "kind": "text",
+  "tr": "Daha seyrek"
+ },
+ {
+  "id": "tur58-14",
+  "kind": "text",
+  "tr": "Öykü BPPV ile uyumlu olduğu halde Dix-Hallpike testinde göz hareketi görülmüyorsa ya da yalnızca yatay göz hareketi görülüyorsa, sırtüstü yatarken başın hızla iki yana 90 derece çevrildiği yuvarlanma testiyle aranır. Tedavide farklı manevralar (örneğin Gufoni) kullanılır."
+ },
+ {
+  "id": "tur58-15",
+  "kind": "text",
+  "tr": "Epley manevrası"
+ },
+ {
+  "id": "tur58-16",
+  "kind": "text",
+  "tr": "Cochrane (2014)"
+ },
+ {
+  "id": "tur58-17",
+  "kind": "text",
+  "tr": "11 çalışma, 745 hasta; beş çalışmada (273 hasta) baş dönmesi tamamen geçenler %56'ya karşı %21 (sahte manevra ya da tedavisizlik); ciddi yan etki görülmedi."
+ },
+ {
+  "id": "tur58-18",
+  "kind": "text",
+  "tr": "Brandt-Daroff egzersizleri"
+ },
+ {
+  "id": "tur58-19",
+  "kind": "text",
+  "tr": "Derlemedeki bir çalışmada (81 hasta), tek bir Epley manevrası bir hafta boyunca günde üç kez yapılan Brandt-Daroff egzersizlerinden daha etkiliydi."
+ },
+ {
+  "id": "tur58-20",
+  "kind": "text",
+  "tr": "Beklemek (izlem)"
+ },
+ {
+  "id": "tur58-21",
+  "kind": "text",
+  "tr": "Kılavuz (2017)"
+ },
+ {
+  "id": "tur58-22",
+  "kind": "text",
+  "tr": "Kendiliğinden düzelme bir ayda yaklaşık %20, üç ayda %50'ye varan oranda. Kılavuz izlemi bir seçenek olarak görüyor; manevrayı ise güçlü biçimde öneriyor."
+ },
+ {
+  "id": "tur58-23",
+  "kind": "text",
+  "tr": "Baş dönmesi ilaçları"
+ },
+ {
+  "id": "tur58-24",
+  "kind": "text",
+  "tr": "Rutin kullanımı önerilmiyor; kristalleri yerine götürmez ve dengeyi bozabilir. Denge egzersizleri (vestibüler rehabilitasyon) ise bir seçenek olarak öneriliyor."
+ },
+ {
+  "id": "tur58-25",
+  "kind": "text",
+  "tr": "İlk tanımdan Epley manevrasına"
+ },
+ {
+  "id": "tur58-26",
+  "kind": "text",
+  "tr": "Pozisyonel baş dönmesi 20. yüzyılın başında tanımlandı; tanı testi 1950'lerde, bugün kullanılan manevralar ise 1980'lerin sonu ve 1990'ların başında ortaya çıktı."
+ },
+ {
+  "id": "tur58-27",
+  "kind": "text",
+  "tr": "Nobel ödüllü Bárány, pozisyonla tetiklenen baş dönmesini kendi asistanında gözlemleyerek tanımladı."
+ },
+ {
+  "id": "tur58-28",
+  "kind": "text",
+  "tr": "Dix ve Hallpike, 100 hastayı inceledikleri çalışmada tanı testini tarif etti ve bu tabloyu ilk kez \"benign paroksismal pozisyonel vertigo\" (BPPV) olarak adlandırdı; test bugün onların adıyla anılıyor."
+ },
+ {
+  "id": "tur58-29",
+  "kind": "text",
+  "tr": "Semont ve arkadaşları, \"kurtarıcı\" (liberatory) adını verdikleri manevrayı yayımladı."
+ },
+ {
+  "id": "tur58-30",
+  "kind": "text",
+  "tr": "Epley, kanal içindeki kristalleri yerine götüren yeniden konumlandırma manevrasını yayımladı; o yıllarda bu yaklaşım sert eleştirilerle karşılandı."
+ },
+ {
+  "id": "tur58-31",
+  "kind": "text",
+  "tr": "Kendi kendine tedavi çalışması (Neurology): Epley manevrasını evde uygulamayı öğrenen hastaların %95'inde bir hafta içinde baş dönmesi geçti."
+ },
+ {
+  "id": "tur58-32",
+  "kind": "text",
+  "tr": "Cochrane derlemesi (11 çalışma, 745 hasta): beş çalışmada (273 hasta) Epley manevrasıyla baş dönmesinin tamamen geçme oranı %56, sahte manevra ya da tedavisizlikte %21."
+ },
+ {
+  "id": "tur58-33",
+  "kind": "text",
+  "tr": "Amerikan Kulak Burun Boğaz Akademisi kılavuzunu güncelledi: tanı için Dix-Hallpike testi, arka kanalda yeniden konumlandırma manevrası; rutin görüntüleme ve rutin baş dönmesi ilacı önerilmiyor."
+ },
+ {
+  "id": "tur58-34",
+  "kind": "text",
+  "tr": "Kendi başına uygulamayı öğrenen 70 hastalık bir çalışmada, Epley manevrasını evde uygulayanların %95'inde bir hafta içinde baş dönmesi geçti. Boyun ya da sırt hastalığınız, damar hastalığınız ya da retina dekolmanı (retina ayrılması) öykünüz varsa manevrayı uygulamadan önce hekiminize danışın."
+ },
+ {
+  "id": "tur58-35",
+  "kind": "text",
+  "tr": "BPPV tekrarlayabilir. Pekin'de 1.012 hastanın geriye dönük olarak incelendiği bir çalışmada, manevralardan sonraki bir yıl içinde tekrarlama oranı yaş grubuna göre %23 ile %29 arasındaydı. Belirtiler aynıysa aynı manevra genellikle yine işe yarar. Sık tekrarlıyorsa ya da belirtiler değiştiyse yeniden değerlendirilmeniz gerekir; kılavuz tedaviden sonra bir ay içinde yeniden değerlendirme öneriyor."
+ },
+ {
+  "id": "tur58-36",
+  "kind": "text",
+  "tr": "Tedavi etmezsem kendiliğinden geçer mi?"
+ },
+ {
+  "id": "tur58-37",
+  "kind": "text",
+  "tr": "Geçebilir. Kılavuza göre BPPV hastaların yaklaşık %20'sinde bir ay içinde, %50'ye varan kısmında üç ay içinde kendiliğinden düzeliyor. Kılavuz, uygun hastalarda ilk tedavi olarak izlemeyi bir seçenek olarak kabul ediyor; ancak manevra genellikle daha hızlı rahatlama sağlar. Bu bekleme döneminde baş dönmesi, özellikle yaşlılarda düşme riskini artırabilir."
+ },
+ {
+  "id": "tur58-38",
+  "kind": "text",
+  "tr": "Genellikle hayır. Kılavuz, baş dönmesi ilaçlarının BPPV'de rutin olarak kullanılmamasını öneriyor; bu ilaçlar kristalleri yerine götürmez. Şiddetli bulantı varsa kısa süreli bir ilacın gerekip gerekmediğini ve hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur58-39",
+  "kind": "text",
+  "tr": "Şu durumlarda baş dönmesi BPPV'den değil, inme (felç) gibi acil bir durumdan kaynaklanıyor olabilir."
+ },
+ {
+  "id": "tur58-40",
+  "kind": "text",
+  "tr": "Hemen 112'yi arayın:"
+ },
+ {
+  "id": "tur58-41",
+  "kind": "text",
+  "tr": "Manevralara rağmen bir ay içinde düzelmeyen ya da sık tekrarlayan baş dönmesi"
+ },
+ {
+  "id": "tur58-42",
+  "kind": "text",
+  "tr": "Belirtilerin değişmesi ya da yeni belirtilerin eklenmesi (yukarıdaki acil belirtiler varsa hemen 112'yi arayın)"
+ },
+ {
+  "id": "tur58-43",
+  "kind": "text",
+  "tr": "Dix MR, Hallpike CS. The pathology, symptomatology and diagnosis of certain common disorders of the vestibular system. Proc R Soc Med. 1952;45:341-354. Hakkında: <a href=\"https://scielo.br/j/anp/a/GywH63Wv9PhP6pjdx5mT8yR/?lang=en\" target=\"_blank\" rel=\"noopener\">Arq Neuropsiquiatr</a>."
+ },
+ {
+  "id": "tur58-44",
+  "kind": "text",
+  "tr": "Desmond A. <a href=\"https://hearinghealthmatters.org/dizzinessdepot/2017/trials-tribulations-vestibular-pioneers\" target=\"_blank\" rel=\"noopener\">Trials and tribulations of vestibular pioneers</a>. Hearing Health & Technology Matters. 24 November 2017."
+ },
+ {
+  "id": "tur58-45",
+  "kind": "attr",
+  "tr": "Dirseğin iç yanındaki ağrı neden olur, nasıl tanınır, ne kadar sürer? Golfçü dirseği ile tenisçi dirseğinin farkı, yükü azaltma, tedavi seçeneklerinin kanıtları, ulnar sinir ve evde altı germe ve güçlendirme egzersizi."
+ },
+ {
+  "id": "tur58-46",
+  "kind": "text",
+  "tr": "%95'ten fazla"
+ },
+ {
+  "id": "tur58-47",
+  "kind": "text",
+  "tr": "Ameliyatsız tedavinin başarılı olduğu olgu oranı"
+ },
+ {
+  "id": "tur58-48",
+  "kind": "text",
+  "tr": "Kanıtlar"
+ },
+ {
+  "id": "tur58-49",
+  "kind": "text",
+  "tr": "Tanı muayeneyle konur; görüntüleme genellikle gerekmez. Muayenede dirseğin iç yanındaki kemik çıkıntısı üzerinde hassasiyet aranır. Bileği dirence karşı bükmek ve ön kolu dirence karşı içe çevirmek ağrıyı artırır; dirsek düzken bileğin geriye doğru gerilmesi de ağrılı olabilir."
+ },
+ {
+  "id": "tur58-50",
+  "kind": "text",
+  "tr": "Röntgen, geçmeyen yakınmalarda ya da başka bir sorundan şüphelenildiğinde istenebilir. MR ve ultrason kirişteki değişikliği gösterebilir ama tanı için gerekli değildir. Dirseğin iç yanından geçen ulnar sinirin tahrişi olguların %60'ına kadarında eşlik edebildiği için muayenede sinir de değerlendirilir."
+ },
+ {
+  "id": "tur58-51",
+  "kind": "text",
+  "tr": "Golfçü dirseği, dirseğin iç ve dış yanındaki kiriş ağrılarının beşte birinden azını oluşturur; çoğu olgu dış yandaki <a href=\"tenisci-dirsegi.html\">tenisçi dirseğidir</a>."
+ },
+ {
+  "id": "tur58-52",
+  "kind": "text",
+  "tr": "Ağrı kesici gerekirse hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur58-53",
+  "kind": "text",
+  "tr": "Golfçü dirseği, tenisçi dirseğinden daha az araştırıldı; tedaviye yön veren kanıtların önemli bir kısmı tenisçi dirseği çalışmalarından aktarılıyor ve aşağıdaki bulguların çoğu az sayıda, küçük çalışmaya dayanıyor. Tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur58-54",
+  "kind": "text",
+  "tr": "Eksantrik egzersiz"
+ },
+ {
+  "id": "tur58-55",
+  "kind": "text",
+  "tr": "Sistematik derleme (2026)"
+ },
+ {
+  "id": "tur58-56",
+  "kind": "text",
+  "tr": "5 çalışma, 143 kişi: eksantrik egzersizle ağrı azaldı ve işlev iyileşti; yarar özellikle diğer ameliyatsız tedavilerle birlikte uygulandığında görüldü. Başka tedavilere üstünlüğü yalnızca bir çalışmada gösterildi; kanıtın kesinliği düşük."
+ },
+ {
+  "id": "tur58-57",
+  "kind": "text",
+  "tr": "StatPearls (2026)"
+ },
+ {
+  "id": "tur58-58",
+  "kind": "text",
+  "tr": "Kısa süreli (12 haftadan az) bir rahatlama sağlayabilir; uzun vadede diğer iğnelere göre sonuçları daha kötü, yineleme daha sık. Bir yılda gözlem ve fizyoterapiye göre yararı gösterilmemiştir."
+ },
+ {
+  "id": "tur58-59",
+  "kind": "text",
+  "tr": "Trombositten zengin plazma (PRP)"
+ },
+ {
+  "id": "tur58-60",
+  "kind": "text",
+  "tr": "StatPearls (2026); Annaniemi ve ark. (2022)"
+ },
+ {
+  "id": "tur58-61",
+  "kind": "text",
+  "tr": "2022'de yayımlanan, geriye dönük ve rastgele olmayan küçük bir çalışmada (55 kişi, çoğu tenisçi dirseği) PRP iğnesi yapılanlarda ağrı ve işlev 6, 12 ve 24. aylarda fizyoterapiye devam edenlerden daha iyiydi; ameliyat gereken hasta oranı %0'a karşı %20 idi. Golfçü dirseği için kanıt çok sınırlı."
+ },
+ {
+  "id": "tur58-62",
+  "kind": "text",
+  "tr": "Nadiren gerekir. 6 aylık ameliyatsız tedaviye yanıt vermeyen ağır yakınmalarda ya da 12 aydan uzun süren belirtilerde düşünülebilir."
+ },
+ {
+  "id": "tur58-63",
+  "kind": "text",
+  "tr": "Dirseği bükme"
+ },
+ {
+  "id": "tur58-64",
+  "kind": "text",
+  "tr": "Ön kolunuz masada dursun. Elinizin sırtı masadayken başlayın, sonra avucunuz aşağı bakacak şekilde çevirin; 5 saniye tutup yavaşça geri dönün. Kolaylaşınca elinize bir konserve kutusu alın."
+ },
+ {
+  "id": "tur58-65",
+  "kind": "text",
+  "tr": "Eksantrik bilek bükme"
+ },
+ {
+  "id": "tur58-66",
+  "kind": "text",
+  "tr": "CommonSpirit Houston ve Rehab Science YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "tur58-67",
+  "kind": "text",
+  "tr": "Bir sağlık kuruluşunun (CommonSpirit Houston) hazırladığı, evde yapılabilecek egzersizleri gösteren video."
+ },
+ {
+  "id": "tur58-68",
+  "kind": "text",
+  "tr": "İkisi de dirseğe yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır; fark yerindedir. Golfçü dirseğinde ağrı dirseğin iç yanındadır ve bileği ile parmakları büken kaslar etkilenir. Tenisçi dirseğinde ağrı dış yandadır ve bileği geriye büken (açan) kaslar etkilenir."
+ },
+ {
+  "id": "tur58-69",
+  "kind": "text",
+  "tr": "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. StatPearls'e göre bandın yararı ilk 6 haftada fizyoterapiden fazla olabilir, ancak 26. haftada fark kalmıyor. Yükü azaltma ve egzersizle birlikte kullanılır."
+ },
+ {
+  "id": "tur58-70",
+  "kind": "text",
+  "tr": "Tedavi edilmezse yakınmalar 6 ay ile 2 yıl arasında sürebilir. Ameliyatsız tedavi olguların %95'inden fazlasında başarılı olur. Ağrıyı artıran işlerin en az 6 hafta düzenlenmesi öneriliyor; yük düzenlemesi ve tedavi genellikle toplam 6–12 hafta gerektirir."
+ },
+ {
+  "id": "tur58-71",
+  "kind": "text",
+  "tr": "Yüzük ve serçe parmağımda uyuşma var; ilgisi var mı?"
+ },
+ {
+  "id": "tur58-72",
+  "kind": "text",
+  "tr": "Olabilir. Dirseğin iç yanından geçen ulnar sinirin tahrişi, golfçü dirseği olanların %60'ına kadarında eşlik edebilir. Bu durumda değerlendirmede sinir de muayene edilmelidir. Uyuşma geçmiyorsa ya da elinizde güçsüzlük varsa bir hekime başvurun."
+ },
+ {
+  "id": "tur58-73",
+  "kind": "text",
+  "tr": "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; yararın özellikle diğer ameliyatsız tedavilerle birlikte uygulandığında görüldüğü belirtildi. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük. Bir NHS broşürüne göre doğru egzersizler ve küçük etkinlik değişiklikleriyle çoğu kişi 8–12 haftada düzelir; aylardır süren ağrıda iyileşme daha uzun sürebilir. Tam dinlenme önerilmez, dirseği nazikçe hareket ettirmeyi sürdürmek önemlidir."
+ },
+ {
+  "id": "tur58-74",
+  "kind": "text",
+  "tr": "Birkaç haftalık yük azaltma ve egzersize rağmen artan ağrı"
+ },
+ {
+  "id": "tur58-75",
+  "kind": "text",
+  "tr": "Zahn KV, Shahrrava N, Taqi M, Byerly DW. <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK551506/\" target=\"_blank\" rel=\"noopener\">Medial epicondyle injection</a>. StatPearls. Last update 19 June 2026."
+ }
+]
