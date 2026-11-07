@@ -35,12 +35,15 @@ _ex2("gb_walk", "walk", "Kısa ve sık yürüyüş", "Uzun tek bir yürüyüş y
 GE_FAQ = [
  ("Golfçü dirseği ile tenisçi dirseği arasındaki fark nedir?", "İkisi de dirseğe yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır; fark yerindedir. Golfçü dirseğinde ağrı dirseğin iç yanındadır ve bileği ile parmakları büken kaslar etkilenir. Tenisçi dirseğinde ağrı dış yandadır ve bileği kaldıran kaslar etkilenir."),
  ("Golf oynamıyorum; neden bende oldu?", "Golfçü dirseği aslında spor yapmayanlarda daha sık görülür. Bahçe işleri, boya, el aletleri kullanmak, uzun süre klavye kullanmak gibi bileği ve parmakları tekrar tekrar ve kuvvetle büken her iş neden olabilir. Bazen dirseğe alınan tek bir darbeden sonra da başlar."),
- ("Dirsek bandı işe yarar mı?", "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. Eczanelerden alınabilir. Tek başına bir tedavi değildir; yükü azaltma ve egzersizle birlikte kullanılır."),
+ ("Dirsek bandı işe yarar mı?", "Ön kola takılan dirsek bandı (epikondil bandı), ağrılı noktadaki baskıyı azaltarak rahatlama sağlayabilir. Tek başına bir tedavi değildir; yükü azaltma ve egzersizle birlikte kullanılır."),
+ ("Ne kadar sürede geçer?", "Tedavi edilmezse yakınmalar 6 ay ile 2 yıl arasında sürebilir. Yükü azaltma ve egzersizle ameliyatsız tedavi olguların %95'inden fazlasında başarılı olur. Ağrıyı artıran işlerin en az 6 hafta düzenlenmesi öneriliyor; yük düzenlemesi ve egzersiz programı genellikle toplam 6–12 hafta sürer."),
+ ("Yüzük ve serçe parmağımda uyuşma var; ilgisi var mı?", "Olabilir. Dirseğin iç yanından geçen ulnar sinirin tahrişi, golfçü dirseği olanların %60'ına kadarında eşlik edebilir. Bu durumda değerlendirmede sinir de muayene edilmelidir. Uyuşma geçmiyorsa ya da elinizde güçsüzlük varsa bir hekime başvurun."),
  ("Egzersizin yararı kanıtlandı mı?", "Golfçü dirseği tenisçi dirseğinden daha az araştırıldı. 143 kişiyi kapsayan beş çalışmayı inceleyen 2026 tarihli bir sistematik derlemede, kası uzarken çalıştıran (eksantrik) egzersizler ağrıyı azalttı ve işlevi iyileştirdi; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Ancak çalışmalar az ve küçüktü, kanıtın kesinliği düşük. Bir NHS broşürüne göre doğru egzersizler ve küçük etkinlik değişiklikleriyle çoğu kişi 8–12 haftada düzelir; aylardır süren ağrıda iyileşme daha uzun sürebilir. Tam dinlenme önerilmez, dirseği nazikçe hareket ettirmeyi sürdürmek önemlidir."),
  ("Kortizon iğnesi yaptırmalı mıyım?", "İğne ilk seçenek değildir. Az sayıda kişide kısa vadede ağrıyı azaltabilir ve diğer yöntemler işe yaramadığında düşünülür. Ameliyat ise nadiren gerekir. Tedavinin temeli yükü azaltmak, germe ve kademeli güçlendirmedir."),
 ]
 
 GE_SRC = [
+ "Zahn KV, Shahrrava N, Taqi M, Byerly DW. " + ext("https://www.ncbi.nlm.nih.gov/books/NBK551506/", "Medial epicondyle injection") + ". StatPearls. Last update 19 June 2026.",
  "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/golfers-elbow/", "Golfer's elbow (medial epicondylosis/itis)") + ". Fife Musculoskeletal Physiotherapy. February 2025.",
  "University Hospitals Plymouth NHS Trust. " + ext("https://www.plymouthhospitals.nhs.uk/display-pil/pil-golfers-elbow-4078", "Golfer's elbow") + ". Patient information leaflet B-275. September 2019.",
  "See ZH, Loo CE, Jaafar Z. " + ext("https://doi.org/10.1016/j.ctim.2026.103364", "Eccentric exercise therapy for medial epicondylitis: a systematic review of clinical outcomes") + ". Complement Ther Med. 2026;98:103364.",
@@ -54,10 +57,9 @@ GE_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Golfçü dirseği</h1>
     <p class="lede">Golfçü dirseği, dirseğin iç yanındaki kemik çıkıntısına yapışan kirişlerin aşırı kullanıma bağlı ağrısıdır. Adına rağmen çoğunlukla golf oynamayanlarda, eliyle tekrarlı ve kuvvetli iş yapanlarda görülür. Tedavinin temeli yükü azaltmak, germe ve kademeli güçlendirmedir.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -65,12 +67,12 @@ GE_BODY = f'''<header class="page">
         <div class="stat"><b>30–50 yaş</b><span>En sık görüldüğü yaş aralığı</span></div>
         <div class="stat"><b>Eşit</b><span>Kadınlarda ve erkeklerde aynı sıklıkta görülür</span></div>
         <div class="stat"><b>6 saniye</b><span>Güçlendirme hareketinde ağırlığı indirme süresi</span></div>
-        <div class="stat"><b>3 × 10</b><span>Güçlendirme hareketlerinde hedeflenen set ve tekrar sayısı</span></div>
+        <div class="stat"><b>%95'ten fazla</b><span>Ameliyatsız tedavinin başarılı olduğu olgu oranı</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("tedavi", "Tedavi"), ("kanitlar", "Kanıtlar"), ("egzersizler", "Egzersizler"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -90,15 +92,22 @@ GE_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı muayeneyle konur; görüntüleme genellikle gerekmez. Muayenede dirseğin iç yanındaki kemik çıkıntısı üzerinde hassasiyet aranır. Bileği dirence karşı bükmek ve ön kolu dirence karşı içe çevirmek ağrıyı artırır; dirsek düzken bileğin geriye doğru gerilmesi de ağrılı olabilir.</p>
+      <p class="soft">Röntgen, geçmeyen yakınmalarda ya da başka bir sorundan şüphelenildiğinde istenebilir. MR ve ultrason kirişteki değişikliği gösterebilir ama tanı için gerekli değildir. Dirseğin iç yanından geçen ulnar sinirin tahrişi olguların %60'ına kadarında eşlik edebildiği için muayenede sinir de değerlendirilir.</p>
+      <p class="soft">Golfçü dirseği, dirsekteki kiriş ağrılarının yaklaşık beşte birinden azını oluşturur; çoğu olgu dirseğin dış yanındaki <a href="tenisci-dirsegi.html">tenisçi dirseğidir</a>.</p>
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>İlk adım: yükü azaltmak</h2>
       <p class="soft">Kirişin iyileşebilmesi için ağrıya yol açan işleri değiştirmek ya da bir süre bırakmak gerekir. Çoğu kişi çalışmaya devam edebilir; önemli olan iş yükünü ağrıyı azaltacak biçimde düzenlemek ve tekrarlı el hareketlerini kısmaktır.</p>
       <ul class="tx">
         <li><b>Soğuk</b><span>İlk günlerde havluya sarılı buz torbasını 10 dakika, günde 3–4 kez uygulayın.</span></li>
         <li><b>Dirsek bandı</b><span>Ön kola takılan bant ağrılı noktadaki baskıyı azaltabilir.</span></li>
-        <li><b>İlaç</b><span>Ağrı kesici ve iltihap giderici ilaçlar için hekiminize danışın.</span></li>
+        <li><b>İlaç</b><span>Ağrı kesici gerekirse hangisinin uygun olduğunu hekiminize sorun.</span></li>
         <li><b>Isınma</b><span>Spordan ve işten önce ısının, ön kolunuzu nazikçe gerin.</span></li>
         <li><b>Teknik</b><span>Golf oynuyorsanız sopa boyunu, tutuşunuzu ve vuruş tekniğinizi bir eğitmene değerlendirtin.</span></li>
         <li><b>Kademeli dönüş</b><span>Kısa ve hafif çalışmalarla başlayıp yükü yavaş yavaş artırın.</span></li>
@@ -108,7 +117,19 @@ GE_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
+  <section id="kanitlar">
+    <div class="wrap">
+      <p class="eyebrow">Kanıtlar</p>
+      <h2>Tedavi seçenekleri: kanıtlar ne diyor?</h2>
+      <p class="soft">Golfçü dirseği, tenisçi dirseğinden çok daha az araştırıldı; aşağıdaki bulguların çoğu az sayıda ve küçük çalışmaya dayanıyor. Tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Eksantrik egzersiz</h3><dl><dt>Sistematik derleme (2026)</dt><dd>5 çalışma, 143 kişi: ağrı azaldı, işlev iyileşti; en iyi sonuçlar diğer tedavilerle birlikte uygulandığında görüldü. Kanıtın kesinliği düşük.</dd></dl></div>
+        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>StatPearls (2026)</dt><dd>12 haftadan kısa süren bir rahatlama sağlar; uzun vadede diğer iğnelere göre sonuçları daha kötü, yineleme daha sık.</dd></dl></div>
+        <div class="kind"><h3>Trombositten zengin plazma (PRP)</h3><dl><dt>StatPearls (2026)</dt><dd>2022'deki tek bir çalışmada PRP iğnesi, fizyoterapiye göre 6, 12 ve 24. aylarda daha iyi ağrı ve işlev sonuçları verdi; ameliyat gereken hasta oranı %0'a karşı %20 idi.</dd></dl></div>
+        <div class="kind"><h3>Ameliyat</h3><dl><dt>StatPearls (2026)</dt><dd>Nadiren gerekir. 6 aylık ameliyatsız tedaviye yanıt vermeyen ağır yakınmalarda ya da 12 aydan uzun süren belirtilerde düşünülebilir.</dd></dl></div>
+      </div>
+    </div>
+  </section>
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
@@ -117,12 +138,11 @@ GE_BODY = f'''<header class="page">
       {ex_grid(["ge_ext", "ge_flex", "ge_elbow", "ge_rot", "ge_con", "ge_ecc"])}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
       <h2>Golfçü dirseği için videolar</h2>
-      <p class="soft">ABD'deki CommonSpirit Houston hastanesinin ve fizyoterapist Dr. Tom Walters'ın (Rehab Science) YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <p class="soft">CommonSpirit Houston ve Rehab Science YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
       <div class="vids">
         <div class="vid">
           {vbox("m8YtVpSR1Bk", "Evde egzersizler videosunu oynat", "Golfer's Elbow Pain Relief: Simple Exercises You Can Do At Home")}
@@ -138,21 +158,23 @@ GE_BODY = f'''<header class="page">
       <p class="meta">Videolar CommonSpirit Houston ve Rehab Science kanallarına aittir.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(GE_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda beklemeden bir hekime başvurun:</p>
+      <p class="soft">Aşağıdaki durumlarda gecikmeden başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
       <ul class="dots redflags">
         <li>Düşme ya da darbeden sonra dirsekte şişlik, şekil bozukluğu ya da hareket ettirememe</li>
         <li>Dirsekte kızarıklık ve sıcaklıkla birlikte ateş</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
         <li>Yüzük ve serçe parmakta geçmeyen uyuşma ya da elde güçsüzlük</li>
         <li>Dinlenirken ve gece hiç geçmeyen ağrı</li>
         <li>Birkaç haftalık dinlendirme ve egzersize rağmen artan ağrı</li>
@@ -160,7 +182,6 @@ GE_BODY = f'''<header class="page">
       {CTA_CARD("Golfçü dirseğine bağlı ağrınız", "golfçü dirseği")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -170,7 +191,7 @@ GE_BODY = f'''<header class="page">
 </main>'''
 
 page("golfcu-dirsegi.html", "Golfçü Dirseği",
-     "Dirseğin iç yanındaki ağrı neden olur? Golfçü dirseği ile tenisçi dirseğinin farkı, yükü azaltma, dirsek bandı, kortizon iğnesi ve evde altı germe ve güçlendirme egzersizi.",
+     "Dirseğin iç yanındaki ağrı neden olur, nasıl tanınır, ne kadar sürer? Golfçü dirseği ile tenisçi dirseğinin farkı, yükü azaltma, tedavi seçeneklerinin kanıtları, ulnar sinir ve evde altı germe ve güçlendirme egzersizi.",
      "golfcu-dirsegi.html", NECK_CSS, GE_BODY, YT_JS,
      seo_title="Golfçü Dirseği: Dirseğin İç Yanında Ağrı, Egzersiz ve Tedavi | İhsan Eren",
      condition="Golfçü dirseği (medial epikondilit)", faq_items=GE_FAQ)

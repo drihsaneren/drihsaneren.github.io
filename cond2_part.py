@@ -521,18 +521,34 @@ page("fibromiyalji.html", "Fibromiyalji",
 
 # ============================================================== BAŞ DÖNMESİ (BPPV)
 BP_FAQ = [
- ("Baş dönmem geçti ama yeniden başladı, normal mi?", "BPPV tekrarlayabilir. Belirtiler aynıysa aynı manevra genellikle yine işe yarar. Sık tekrarlıyorsa ya da belirtiler değiştiyse yeniden değerlendirilmeniz gerekir; kılavuz tedaviden sonra bir ay içinde yeniden değerlendirme öneriyor."),
+ ("Baş dönmem geçti ama yeniden başladı, normal mi?", "BPPV tekrarlayabilir. Pekin'de 1.012 hastanın geriye dönük olarak incelendiği bir çalışmada, manevralardan sonraki bir yıl içinde yineleme oranı yaş grubuna göre %23 ile %29 arasındaydı. Belirtiler aynıysa aynı manevra genellikle yine işe yarar. Sık tekrarlıyorsa ya da belirtiler değiştiyse yeniden değerlendirilmeniz gerekir; kılavuz tedaviden sonra bir ay içinde yeniden değerlendirme öneriyor."),
+ ("Tedavi etmezsem kendiliğinden geçer mi?", "Geçebilir. Kılavuza göre BPPV hastaların yaklaşık %20'sinde bir ay içinde, %50'ye varanında üç ay içinde kendiliğinden düzeliyor. Kılavuz, uygun hastalarda ilk tedavi olarak izlemeyi bir seçenek olarak kabul ediyor; ancak manevra genellikle daha hızlı rahatlama sağlar. Bu bekleme döneminde baş dönmesi, özellikle yaşlılarda düşme riskini artırabilir."),
  ("Hangi kulağımın etkilendiğini nasıl bilebilirim?", "Kesin olarak Dix-Hallpike testiyle anlaşılır. Etkilenen kulak tarafına dönerek yatınca baş dönmesi genellikle daha belirgin olur, ama bu tek başına yeterli değildir. Yanlış tarafa yapılan manevra işe yaramaz; bu yüzden ilk değerlendirmenin bir uzman tarafından yapılması önerilir."),
  ("Manevradan sonra dik oturmam ya da başımı hareket ettirmemem gerekiyor mu?", "Hayır. Kılavuz, manevradan sonra hareket kısıtlaması önermiyor; bu tür kısıtlamaların sonuca ek bir katkısı gösterilmedi."),
  ("Baş dönmesi ilacı kullanmalı mıyım?", "Genellikle hayır. Kılavuz, baş dönmesi ilaçlarının BPPV'de rutin olarak kullanılmamasını öneriyor; bu ilaçlar kristalleri yerine götürmez. Şiddetli bulantıda kısa süreli kullanım için hekiminize danışabilirsiniz."),
 ]
 
 BP_SRC = [
+ "Dix MR, Hallpike CS. The pathology, symptomatology and diagnosis of certain common disorders of the vestibular system. Proc R Soc Med. 1952;45:341-354. Hakkında: " + ext("https://scielo.br/j/anp/a/GywH63Wv9PhP6pjdx5mT8yR/?lang=en", "Arq Neuropsiquiatr") + ".",
+ "Desmond A. " + ext("https://hearinghealthmatters.org/dizzinessdepot/2017/trials-tribulations-vestibular-pioneers", "Trials and tribulations of vestibular pioneers") + ". Hearing Health & Technology Matters. 24 November 2017.",
+ "Epley JM. The canalith repositioning procedure: for treatment of benign paroxysmal positional vertigo. Otolaryngol Head Neck Surg. 1992;107(3):399-404.",
+ "Semont A, Freyss G, Vitte E. Curing the BPPV with a liberatory maneuver. In: Clinical Testing of the Vestibular System. Karger; 1988:290-293.",
+ "Zhu CT, Zhao XQ, Ju Y, Wang Y, Chen MM, Cui Y. " + ext("https://www.frontiersin.org/articles/10.3389/fneur.2019.01190/full", "Clinical characteristics and risk factors for the recurrence of benign paroxysmal positional vertigo") + ". Front Neurol. 2019;10:1190.",
  "Bhattacharyya N, Gubbels SP, Schwartz SR, et al. " + ext("https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599816689667", "Clinical practice guideline: benign paroxysmal positional vertigo (update)") + ". Otolaryngol Head Neck Surg. 2017;156(3 Suppl):S1-S47.",
  "Hilton MP, Pinder DK. " + ext("https://www.cochrane.org/evidence/CD003162_epley-manoeuvre-benign-paroxysmal-positional-vertigo-bppv", "The Epley (canalith repositioning) manoeuvre for benign paroxysmal positional vertigo") + ". Cochrane Database Syst Rev. 2014;(12):CD003162.",
  "Radtke A, von Brevern M, Tiel-Wilck K, et al. " + ext("https://www.neurology.org/doi/10.1212/01.WNL.0000130250.62842.C9", "Self-treatment of benign paroxysmal positional vertigo: Semont maneuver vs Epley procedure") + ". Neurology. 2004;63(1):150-152.",
  "von Brevern M, Radtke A, Lezius F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/17135456/", "Epidemiology of benign paroxysmal positional vertigo: a population based study") + ". J Neurol Neurosurg Psychiatry. 2007;78(7):710-715.",
  "Johns Hopkins Medicine. " + ext("https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/home-epley-maneuver", "Home Epley maneuver") + ".",
+]
+
+BP_TL = [
+ ("1921", "Nobel ödüllü Bárány, pozisyonla tetiklenen baş dönmesini kendi asistanında gözlemleyerek tanımladı."),
+ ("1952", "Dix ve Hallpike, 100 hastayı inceledikleri çalışmada tanı testini tarif etti ve bu tabloya \"benign paroksismal pozisyonel\" adını verdi; test bugün onların adıyla anılıyor."),
+ ("1988", "Semont ve arkadaşları, kristalleri kanaldan çıkarmayı amaçlayan \"kurtarıcı\" manevrayı tanımladı."),
+ ("1992", "Epley, kanal içindeki kristalleri yerine götüren yeniden konumlandırma manevrasını yayımladı; o yıllarda bu yaklaşım sert eleştirilerle karşılandı."),
+ ("2004", "Kendi kendine tedavi çalışması (Neurology): Epley manevrasını evde uygulamayı öğrenen hastaların %95'inde bir hafta içinde baş dönmesi geçti."),
+ ("2014", "Cochrane derlemesi (11 çalışma, 745 hasta): Epley manevrasıyla baş dönmesinin tamamen geçme oranı %56, sahte manevra ya da tedavisizlikte %21."),
+ ("2017", "Amerikan Kulak Burun Boğaz Akademisi kılavuzunu güncelledi: tanı için Dix-Hallpike testi, arka kanalda yeniden konumlandırma manevrası; rutin görüntüleme ve rutin baş dönmesi ilacı önerilmiyor."),
 ]
 
 BP_BODY = f'''<header class="page">
@@ -541,10 +557,9 @@ BP_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Pozisyonel baş dönmesi (BPPV)</h1>
     <p class="lede">Yatağa uzanırken, yatakta dönerken ya da yukarı bakarken birden başlayan ve genellikle bir dakikadan kısa süren dönme hissi, çoğunlukla iç kulaktaki küçük kristallerin yer değiştirmesinden kaynaklanır. Baş dönmesinin en sık nedenidir ve basit bir baş manevrasıyla çoğu zaman düzelir.</p>
-    <p class="meta">Son güncelleme: 29 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
@@ -554,10 +569,10 @@ BP_BODY = f'''<header class="page">
         <div class="stat"><b>%95</b><span>Manevrayı kendisi uygulamayı öğrenen hastalarda bir hafta sonra iyileşme oranı</span></div>
         <div class="stat"><b>30 sn</b><span>Epley manevrasının her adımında en az bekleme süresi</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Tanı ve tedavi"), ("kanal", "Hangi kanal?"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Epley adım adım"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
@@ -576,8 +591,7 @@ BP_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
     <div class="wrap">
       <h2>Tanı ve tedavi</h2>
       <p class="soft">Tanı, Dix-Hallpike testiyle konur: hekim ya da fizyoterapist başınızı belli bir açıyla çevirip sizi hızla sırtüstü yatırır ve gözlerinizde oluşan karakteristik hareketi izler. Test hangi kulağın etkilendiğini de gösterir. Amerikan Kulak Burun Boğaz Akademisi'nin kılavuzu, tanı ölçütlerini karşılayan hastalarda rutin olarak MR ya da tomografi çekilmemesini öneriyor.</p>
@@ -587,7 +601,31 @@ BP_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
+  <section id="kanal">
+    <div class="wrap">
+      <h2>Hangi kanal etkilenmiş?</h2>
+      <p class="soft">Kılavuza göre BPPV olgularının yaklaşık %85–95'inde kristaller arka kanaldadır; yaklaşık %5–15'inde ise yatay (yan) kanal etkilenir. Hangi kanalın etkilendiği, uygulanacak manevrayı belirler.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Arka kanal</h3><dl><dt>En sık</dt><dd>Dix-Hallpike testiyle tanınır; kılavuzda tanının altın standardı olarak geçer. Tedavide Epley ya da Semont gibi yeniden konumlandırma manevraları kullanılır. Bu sayfadaki Epley adımları arka kanal içindir.</dd></dl></div>
+        <div class="kind"><h3>Yatay (yan) kanal</h3><dl><dt>Daha seyrek</dt><dd>Dix-Hallpike testi olumsuzsa ya da belirtiler uyuşmuyorsa, sırtüstü yatarken başın iki yana çevrildiği yuvarlanma testiyle aranır. Tedavide farklı manevralar (örneğin Gufoni) kullanılır.</dd></dl></div>
+      </div>
+      <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Epley manevrası</h3><dl><dt>Cochrane (2014)</dt><dd>11 çalışma, 745 hasta: baş dönmesi tamamen geçenler %56'ya karşı %21 (sahte manevra ya da tedavisizlik); ciddi yan etki görülmedi.</dd></dl></div>
+        <div class="kind"><h3>Brandt-Daroff egzersizleri</h3><dl><dt>Cochrane (2014)</dt><dd>Tek bir Epley manevrası, bir hafta boyunca günde üç kez yapılan Brandt-Daroff egzersizlerinden daha etkiliydi.</dd></dl></div>
+        <div class="kind"><h3>Beklemek (izlem)</h3><dl><dt>Kılavuz (2017)</dt><dd>Kendiliğinden düzelme bir ayda yaklaşık %20, üç ayda %50'ye varan oranda. Kılavuz izlemi bir seçenek olarak görüyor; manevrayı ise güçlü biçimde öneriyor.</dd></dl></div>
+        <div class="kind"><h3>Baş dönmesi ilaçları</h3><dl><dt>Kılavuz (2017)</dt><dd>Rutin kullanımı önerilmiyor; kristalleri yerine götürmez ve dengeyi bozabilir. Denge egzersizleri (vestibüler rehabilitasyon) ise bir seçenek olarak öneriliyor.</dd></dl></div>
+      </div>
+    </div>
+  </section>
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>İlk tanımdan Epley manevrasına</h2>
+      <p class="soft">Pozisyonel baş dönmesi 20. yüzyılın başında tanımlandı; tanı testi 1950'lerde, bugün kullanılan manevralar ise 1980'lerin sonu ve 1990'ların başında ortaya çıktı.</p>
+      {g_tl(BP_TL)}
+    </div>
+  </section>
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde uygulama</p>
@@ -599,18 +637,17 @@ BP_BODY = f'''<header class="page">
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(BP_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hemen başvurmalı?</h2>
-      <p class="soft">Şu durumlarda baş dönmesi BPPV'den değil, inme (felç) gibi acil bir durumdan kaynaklanıyor olabilir. Beklemeden <strong>112</strong>'yi arayın:</p>
+      <p class="soft">Şu durumlarda baş dönmesi BPPV'den değil, inme (felç) gibi acil bir durumdan kaynaklanıyor olabilir.</p>
+      <p class="soft"><strong>Hemen 112'yi arayın:</strong></p>
       <ul class="dots redflags">
         <li>Baş dönmesiyle birlikte konuşma bozukluğu, yüzde kayma, kol ya da bacakta güçsüzlük veya uyuşma</li>
         <li>Çift görme ya da yutma güçlüğü</li>
@@ -619,10 +656,14 @@ BP_BODY = f'''<header class="page">
         <li>Baş pozisyonundan bağımsız, saatlerce ya da günlerce kesintisiz süren baş dönmesi</li>
         <li>Ani işitme kaybı</li>
       </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Manevralara rağmen bir ay içinde düzelmeyen ya da sık tekrarlayan baş dönmesi</li>
+        <li>Belirtilerin değişmesi ya da yeni belirtilerin eklenmesi</li>
+      </ul>
       {CTA_CARD("Baş dönmeniz", "pozisyonel baş dönmesi (BPPV)")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -632,7 +673,7 @@ BP_BODY = f'''<header class="page">
 </main>'''
 
 page("bas-donmesi.html", "Baş Dönmesi (BPPV)",
-     "Yatarken, dönerken ya da yukarı bakınca başlayan kısa süreli baş dönmesi: BPPV nedir, Epley manevrası nasıl yapılır, ne zaman acil başvurmalı? Adım adım çizimler ve kanıtlar.",
+     "Yatarken, dönerken ya da yukarı bakınca başlayan kısa süreli baş dönmesi: BPPV nedir, hangi kanal etkilenir, Epley manevrası nasıl yapılır, kendiliğinden geçer mi, ne zaman acil başvurmalı? Adım adım çizimler, kanıtlar ve kısa tarihçe.",
      "bas-donmesi.html", NECK_CSS, BP_BODY, "",
      seo_title="Baş Dönmesi (BPPV): Epley Manevrası Adım Adım | İhsan Eren",
      condition="Benign paroksismal pozisyonel vertigo (BPPV)", faq_items=BP_FAQ)
