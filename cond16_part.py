@@ -160,7 +160,7 @@ FF_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Video</p>
       <h2>Düztabanlık için videolar</h2>
-      <p class="soft">İngiltere'de hekim olan Dr. James O'Donovan'ın ve ABD'li fizyoterapist Dr. Tom Walters'ın (Rehab Science) YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <p class="soft">Doctor O'Donovan ve Rehab Science YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
       <div class="vids">
         <div class="vid">
           {vbox("B5KbzQf5HdU", "Düztabanlık egzersizleri videosunu oynat", "7 Exercises for Flat Feet | Doctor and Physio led demonstration")}

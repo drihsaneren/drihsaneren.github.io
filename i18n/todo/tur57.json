@@ -1,0 +1,557 @@
+[
+ {
+  "id": "tur57-0",
+  "kind": "attr",
+  "tr": "Tetik parmak neden olur, nasıl tanınır ve derecelendirilir, kendiliğinden geçer mi? Gece ateli, kortizon iğnesi ve ameliyat için kanıtlar, kısa tarihçe, çocuklarda tetik başparmak ve evde altı uygulama."
+ },
+ {
+  "id": "tur57-1",
+  "kind": "text",
+  "tr": "Tetik parmak, parmağı büken kirişin kalınlaşıp içinden geçtiği halkaya takılmasıdır: Parmak bükülü kalır, açarken “tık” diye atar. Eli kullanmayı zorlaştırabilir. Hafif olgular dinlendirme, gece ateli ve nazik hareketlerle düzelebilir; geçmezse iğne ve küçük bir ameliyat seçenekleri vardır."
+ },
+ {
+  "id": "tur57-2",
+  "kind": "text",
+  "tr": "Hayatının bir döneminde tetik parmak gelişen yetişkin oranı"
+ },
+ {
+  "id": "tur57-3",
+  "kind": "text",
+  "tr": "Tek kortizon iğnesiyle başarı oranı (2023 tarihli derleme)"
+ },
+ {
+  "id": "tur57-4",
+  "kind": "text",
+  "tr": "Evde uygulamalar"
+ },
+ {
+  "id": "tur57-5",
+  "kind": "text",
+  "tr": "Parmakları büken kirişler, kemiğe tutunan küçük halkaların içinden kayar. Kiriş ya da kılıfı şişip kalınlaştığında halkanın ağzında takılır; bazen küçük bir yumru oluşur. Parmak bükülürken yumru halkadan geçer, açılırken takılır ve birden kurtulur; tetik çekilip bırakılmış gibi."
+ },
+ {
+  "id": "tur57-6",
+  "kind": "text",
+  "tr": "Parmak dibinde, parmakla birlikte oynayan küçük bir yumru"
+ },
+ {
+  "id": "tur57-7",
+  "kind": "text",
+  "tr": "Tanı, yakınmalarınız ve elinizin muayenesiyle konur. Muayenede avuç içinde, etkilenen parmağın dibinde hassasiyet aranır; bazen parmakla birlikte hareket eden küçük bir yumru ele gelir. Parmak bükülüp açılırken takılma ya da atma görülebilir."
+ },
+ {
+  "id": "tur57-8",
+  "kind": "text",
+  "tr": "Dereceler (Green sınıflaması)"
+ },
+ {
+  "id": "tur57-9",
+  "kind": "text",
+  "tr": "Takılma öncesi dönem: ağrı, takılma hissi ve parmak dibinde hassasiyet."
+ },
+ {
+  "id": "tur57-10",
+  "kind": "text",
+  "tr": "Parmak takılıyor ama kendi kendinize açabiliyorsunuz."
+ },
+ {
+  "id": "tur57-11",
+  "kind": "text",
+  "tr": "Takılan parmağı ancak diğer elinizle açabiliyorsunuz (IIIA) ya da parmağı tam bükemiyorsunuz (IIIB)."
+ },
+ {
+  "id": "tur57-12",
+  "kind": "text",
+  "tr": "Takılmayla birlikte parmağın orta ekleminde kalıcı bükülü kalma."
+ },
+ {
+  "id": "tur57-13",
+  "kind": "text",
+  "tr": "Derece, bulguları tanımlamaya yarar. 2023 tarihli bir derlemede aktarılan bir çalışmaya göre derece arttıkça kortizon iğnesinin başarısız olma olasılığı artıyor."
+ },
+ {
+  "id": "tur57-14",
+  "kind": "text",
+  "tr": "Gece ateli, özellikle hafif olgularda ve geceleri takılan parmakta çok etkilidir: Parmağın dibindeki hareketi sınırlayan kısa bir atel, kirişi ve halkayı dinlendirir, gece takılmasını önlemeye yardımcı olur. Gece boyunca takılır; el terapisti size uygun olanı yapabilir. Geceleri parmak dibine iltihap giderici jel sürmek de yardımcı olabilir; hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur57-15",
+  "kind": "text",
+  "tr": "Ağrı için ağrı kesici ya da iltihap giderici jel; hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur57-16",
+  "kind": "text",
+  "tr": "Şişliği ve ağrıyı azaltır."
+ },
+ {
+  "id": "tur57-17",
+  "kind": "text",
+  "tr": "Diğer yöntemler işe yaramadığında; halkayı gevşeten küçük bir işlem."
+ },
+ {
+  "id": "tur57-18",
+  "kind": "text",
+  "tr": "Sistematik derlemelerin bulguları. Kanıtın kalitesi belirtildiği yerde parantez içinde verilmiştir; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur57-19",
+  "kind": "text",
+  "tr": "Derleme (2023)"
+ },
+ {
+  "id": "tur57-20",
+  "kind": "text",
+  "tr": "Hastaların bildirdiği başarı oranları %47 ile %93 arasında; çalışmalarda atel tipi ve sabitlenen eklem farklıydı. Önce 6 haftalık bir deneme, belirtiler sürerse 12 haftaya uzatma öneriliyor."
+ },
+ {
+  "id": "tur57-21",
+  "kind": "text",
+  "tr": "Cochrane (2009)"
+ },
+ {
+  "id": "tur57-22",
+  "kind": "text",
+  "tr": "İki küçük çalışma (63 kişi): kortizon eklenen iğneden 100 kişinin 37'si, yalnızca bölgeyi uyuşturan ilaç içeren iğneden 100 kişinin 17'si yarar gördü. Çalışmaların yöntem kalitesi düşüktü."
+ },
+ {
+  "id": "tur57-23",
+  "kind": "text",
+  "tr": "Açık ameliyat ya da iğne"
+ },
+ {
+  "id": "tur57-24",
+  "kind": "text",
+  "tr": "Cochrane (2018)"
+ },
+ {
+  "id": "tur57-25",
+  "kind": "text",
+  "tr": "6–12 ayda yineleme: ameliyatta 100 kişide 7, iğnede 39 (düşük kalite). İlk hafta ağrı: 100 kişide 68'e karşı 19 (düşük kalite). Belirtilerin geçmesi: 92'ye karşı 61 (çok düşük kalite)."
+ },
+ {
+  "id": "tur57-26",
+  "kind": "text",
+  "tr": "Deri altından ya da açık ameliyat"
+ },
+ {
+  "id": "tur57-27",
+  "kind": "text",
+  "tr": "Beş çalışma iki yöntemi karşılaştırdı; kanıtın kalitesi düşük ya da çok düşük olduğundan birinin diğerinden üstün olup olmadığı belirsiz."
+ },
+ {
+  "id": "tur57-28",
+  "kind": "text",
+  "tr": "İlk tanımdan bugünkü tedavilere"
+ },
+ {
+  "id": "tur57-29",
+  "kind": "text",
+  "tr": "Tetik parmak 19. yüzyılın ortasında tanımlandı. 20. yüzyılda halkayı deri altından gevşetme yöntemi geliştirildi; son yıllardaki derlemeler ise atelin, iğnenin ve ameliyatın yerini karşılaştırdı."
+ },
+ {
+  "id": "tur57-30",
+  "kind": "text",
+  "tr": "Notta, parmağı büken kirişte takılmaya yol açan kalınlaşmayı dört yetişkin hastada tanımladı; bu kalınlaşma bugün \"Notta nodülü\" olarak anılıyor."
+ },
+ {
+  "id": "tur57-31",
+  "kind": "text",
+  "tr": "Lorthioir, kirişin geçtiği halkanın deri altından, büyük bir kesi yapılmadan gevşetildiği yöntemi (perkütan gevşetme) 52 hastada tanımladı."
+ },
+ {
+  "id": "tur57-32",
+  "kind": "text",
+  "tr": "Cochrane derlemesi: kortizon iğnesine dair yalnızca iki küçük çalışma (63 kişi) bulundu; kortizon eklenen iğne, yalnızca bölgeyi uyuşturan ilaç içeren iğneden daha etkiliydi."
+ },
+ {
+  "id": "tur57-33",
+  "kind": "text",
+  "tr": "Cochrane derlemesi (14 çalışma, 1.260 kişi): açık ameliyat, kortizon iğnesine göre 6–12 ayda yinelemeyi azaltabilir (düşük kalitede kanıt) ama ilk hafta daha fazla ağrıya yol açabilir."
+ },
+ {
+  "id": "tur57-34",
+  "kind": "text",
+  "tr": "Bir derleme (SurgiColl): ateller için hastaların bildirdiği başarı oranları %47 ile %93 arasında; tek kortizon iğnesiyle başarı %45 ile %80 arasında değişiyor."
+ },
+ {
+  "id": "tur57-35",
+  "kind": "text",
+  "tr": "Elinizi ılık suya sokun ve parmağınızı suyun içinde nazikçe düzeltin. Takılan parmağı düzeltmeyi kolaylaştırır. Zorlamayın."
+ },
+ {
+  "id": "tur57-36",
+  "kind": "text",
+  "tr": "Gerektikçe"
+ },
+ {
+  "id": "tur57-37",
+  "kind": "text",
+  "tr": "Parmağınızın dibine biraz bebek yağı sürün. Bir buz küpünü streç filme ya da ince bir beze sarın ve parmak dibinin üzerinde, buz eriyene kadar sıkıca gezdirin. Bölgedeki tahrişi azaltmaya yardımcı olur."
+ },
+ {
+  "id": "tur57-38",
+  "kind": "text",
+  "tr": "Buz eriyene kadar"
+ },
+ {
+  "id": "tur57-39",
+  "kind": "text",
+  "tr": "Kiriş kaydırma"
+ },
+ {
+  "id": "tur57-40",
+  "kind": "text",
+  "tr": "Sağlam elinizle, etkilenen elinizin parmaklarını nazikçe yumruk olacak şekilde kapatın; parmakların kendisi kasılmasın. Sonra bırakın."
+ },
+ {
+  "id": "tur57-41",
+  "kind": "text",
+  "tr": "El terapistinin verdiği ya da parmağın dibindeki hareketi sınırlayan kısa bir ateli gece boyunca takın. Kiriş ve içinden geçtiği halka dinlenir, gece takılması önlenir. Cildiniz kızarır ya da atel vurursa terapistinize haber verin."
+ },
+ {
+  "id": "tur57-42",
+  "kind": "text",
+  "tr": "Mayo Clinic ve Doctor O'Donovan YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "tur57-43",
+  "kind": "text",
+  "tr": "2023 tarihli bir derlemeye göre tek bir kortizon iğnesiyle başarı, çalışmalarda %45 ile %80 arasında değişiyor; yeni çalışmalarda iğnenin diyabeti olanlarda da benzer etkili olduğu görülmüş. Randomize kontrollü çalışma ise az: 2009 tarihli Cochrane derlemesi 63 kişilik iki küçük çalışma buldu. Derlemenin hasta özetine göre kortizon eklenen iğneden 100 kişinin 37'si, yalnızca bölgeyi uyuşturan ilaç içeren iğneden 100 kişinin 17'si yarar gördü. Yazarların sonucuna göre bir çalışmada etki 4 aya kadar sürdü. Bir çalışmaya göre tetik parmağın derecesi arttıkça iğnenin başarısız olma olasılığı artıyor."
+ },
+ {
+  "id": "tur57-44",
+  "kind": "text",
+  "tr": "Belirtiler çoğu zaman sabahları daha belirgindir. Parmak geceleri takılıyorsa, parmağın dibindeki hareketi gece boyunca sınırlayan kısa bir atel çok etkilidir. Elinizi ılık suya sokup parmağınızı suyun içinde nazikçe düzeltmek de takılan parmağı açmayı kolaylaştırır; zorla açmayın."
+ },
+ {
+  "id": "tur57-45",
+  "kind": "text",
+  "tr": "Kaç kez iğne yapılabilir?"
+ },
+ {
+  "id": "tur57-46",
+  "kind": "text",
+  "tr": "Bunun kesin bir sınırı yoktur; kararı hekiminiz verir. 2023 tarihli bir derlemede aktarılan bir çalışmada, ikinci ve üçüncü iğnelerin yaklaşık %39'u en az 1,5 yıl süren rahatlama sağladı. İğnelere rağmen takılma sürerse ameliyat seçeneği konuşulur."
+ },
+ {
+  "id": "tur57-47",
+  "kind": "text",
+  "tr": "Çocuklarda da olur mu?"
+ },
+ {
+  "id": "tur57-48",
+  "kind": "text",
+  "tr": "Evet. Çocuklarda tetik başparmak ya da parmak bebeklik döneminde ve daha büyük çocuklarda görülebilir; doğumda nadiren fark edilir. Genellikle ağrısızdır ve eli kullanmayı engellemez. Tedavisiz düzelebilir ama bu 1–2 yıl sürebilir; atelin ya da egzersizin fark yarattığına dair kanıt yoktur. Düzelmeyen az sayıdaki çocukta ameliyat yapılır; NHS Fife'ın hasta bilgilendirme sayfasında bu ameliyatın 3 yaşından önce yapılmadığı belirtiliyor."
+ },
+ {
+  "id": "tur57-49",
+  "kind": "text",
+  "tr": "Çoğu kişide gerekmez. Diğer yöntemler işe yaramazsa, kirişin geçtiği halka küçük bir işlemle gevşetilir. 2018 tarihli Cochrane derlemesinde açık ameliyattan sonra 6–12 ay içinde 100 kişiden yaklaşık 7'sinde yineleme görüldü (düşük kalitede kanıt)."
+ },
+ {
+  "id": "tur57-50",
+  "kind": "text",
+  "tr": "Aşağıdaki durumlarda bir hekime başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir."
+ },
+ {
+  "id": "tur57-51",
+  "kind": "text",
+  "tr": "Parmakta kızarıklık, sıcaklık ve şişlikle birlikte ateş"
+ },
+ {
+  "id": "tur57-52",
+  "kind": "text",
+  "tr": "Yaralanmadan sonra parmağı hiç bükememe ya da açamama"
+ },
+ {
+  "id": "tur57-53",
+  "kind": "text",
+  "tr": "Yaralanma olmadan parmağın bükülü kilitlenip hiç açılmaması"
+ },
+ {
+  "id": "tur57-54",
+  "kind": "text",
+  "tr": "Düzelmeyen ya da giderek artan belirtiler"
+ },
+ {
+  "id": "tur57-55",
+  "kind": "text",
+  "tr": "Günlük işlerinizi yapmanızı engelleyen belirtiler"
+ },
+ {
+  "id": "tur57-56",
+  "kind": "text",
+  "tr": "Clapham PJ, Chung KC. A historical perspective of the Notta's node in trigger fingers. J Hand Surg Am. 2009;34:1518-1522. Notta ve Lorthioir hakkında: <a href=\"https://jbumdc.bahria.edu.pk/index.php/ojs/article/view/155\" target=\"_blank\" rel=\"noopener\">Qureshi ve ark. JBUMDC. 2016;6(1):34-37</a>."
+ },
+ {
+  "id": "tur57-57",
+  "kind": "text",
+  "tr": "Fiorini HJ, Tamaoki MJ, Lenza M, Gomes dos Santos JB, Faloppa F, Belloti JC. <a href=\"https://www.cochrane.org/evidence/CD009860_surgery-trigger-finger\" target=\"_blank\" rel=\"noopener\">Surgery for trigger finger</a>. Cochrane Database Syst Rev. 2018;(2):CD009860."
+ },
+ {
+  "id": "tur57-58",
+  "kind": "text",
+  "tr": "Peters-Veluthamaningal C, van der Windt DAWM, Winters JC, Meyboom-de Jong B. <a href=\"https://www.cochrane.org/evidence/CD005617_local-corticosteroid-injection-trigger-finger\" target=\"_blank\" rel=\"noopener\">Corticosteroid injection for trigger finger in adults</a>. Cochrane Database Syst Rev. 2009;(1):CD005617."
+ },
+ {
+  "id": "tur57-59",
+  "kind": "attr",
+  "tr": "De Quervain nedir, nasıl tanınır, yeni annelerde neden sık görülür? Atel ne kadar takılır, kortizon iğnesi işe yarar mı, ameliyat ne zaman gerekir? Kanıtların karşılaştırması, kısa tarihçe, evde altı egzersiz ve videolar."
+ },
+ {
+  "id": "tur57-60",
+  "kind": "text",
+  "tr": "Çalışma çağındaki (18–65 yaş) kadınlarda ve erkeklerde yaklaşık görülme sıklığı; kadınlarda, özellikle küçük bebeği olanlarda daha sık"
+ },
+ {
+  "id": "tur57-61",
+  "kind": "text",
+  "tr": "Çalışma çağındaki erişkinlerde en sık görüldüğü yaş aralığı; her yaşta ortaya çıkabilir"
+ },
+ {
+  "id": "tur57-62",
+  "kind": "text",
+  "tr": "2023'teki ağ meta-analizi (1.663 hasta): işlevde en iyi sonuç kortizon iğnesi ile kısa süreli atelin birlikte kullanımında"
+ },
+ {
+  "id": "tur57-63",
+  "kind": "text",
+  "tr": "Yeni annelerde"
+ },
+ {
+  "id": "tur57-64",
+  "kind": "text",
+  "tr": "Tanı genellikle yakınmalarınız ve muayeneyle konur. Başparmağı hareket ettiren iki kiriş, bileğin başparmak tarafındaki kemik çıkıntısının üzerinden, bir bağ dokusu tavanının altındaki tünelden geçer; muayenede bu bölgede hassasiyet aranır ve kirişleri geren testler yapılır."
+ },
+ {
+  "id": "tur57-65",
+  "kind": "text",
+  "tr": "Finkelstein testi"
+ },
+ {
+  "id": "tur57-66",
+  "kind": "text",
+  "tr": "Hekim başparmağınızı tutar ve elinizi hızla serçe parmak tarafına büker. Bileğin başparmak tarafında belirgin ağrı tanıyı destekler."
+ },
+ {
+  "id": "tur57-67",
+  "kind": "text",
+  "tr": "Eichhoff testi"
+ },
+ {
+  "id": "tur57-68",
+  "kind": "text",
+  "tr": "Başparmağınızı avucunuzun içine alıp diğer parmaklarınızla üstünü kapatırsınız; hekim bileğinizi serçe parmak tarafına büker. Komşu yapıları da zorladığı için yanlış olumlu sonuç verebilir."
+ },
+ {
+  "id": "tur57-69",
+  "kind": "text",
+  "tr": "Ultrason"
+ },
+ {
+  "id": "tur57-70",
+  "kind": "text",
+  "tr": "Röntgen tanıda yardımcı değildir; ancak bilek ağrısının başka nedenlerini dışlamak için çekilebilir. Ultrason tanıda ve tedavinin planlanmasında etkilidir; tüneli ikiye bölen bir bölme (septum) olup olmadığını gösterebilir. Bu bölmenin görülme oranı çalışmalarda %24 ile %91 arasında değişiyor."
+ },
+ {
+  "id": "tur57-71",
+  "kind": "text",
+  "tr": "Karışabilen durumlar"
+ },
+ {
+  "id": "tur57-72",
+  "kind": "text",
+  "tr": "Ayırıcı tanı"
+ },
+ {
+  "id": "tur57-73",
+  "kind": "text",
+  "tr": "Başparmak kökü ekleminin kireçlenmesi, ön kolda kirişlerin kesiştiği yerde tahriş (kesişme sendromu), radial sinirin deri altındaki dalının tahrişi (Wartenberg sendromu), tetik başparmak ve el bileğindeki skafoid kemiğinde ya da ön kol kemiğinin (radius) uç çıkıntısında kırık."
+ },
+ {
+  "id": "tur57-74",
+  "kind": "text",
+  "tr": "De Quervain kadınlarda erkeklere göre yaklaşık üç kat daha sık görülür; özellikle küçük bebeği olanlarda. Nedeni tam bilinmiyor: Gebelik ve doğum sonrasındaki hormon değişiklikleri de, bebeği tekrar tekrar kaldırmak, taşımak ve beslemek de rol oynuyor olabilir."
+ },
+ {
+  "id": "tur57-75",
+  "kind": "text",
+  "tr": "En çok ağrıtan hareket, bileğin yana doğru bükülmesidir. Bu yüzden ağrıyan işlerde elinizin ve bileğinizin konumunu değiştirmek, kavrama gerektiren işlerde sık sık ara vermek ve bileği yana büken hareketlerden kaçınmak önerilir. Bebeğinizi kaldırırken ve taşırken de bileğinizi yana büken hareketlerden kaçınmaya çalışın."
+ },
+ {
+  "id": "tur57-76",
+  "kind": "text",
+  "tr": "Bölgeyi günde üç kez, 20 dakika soğutmak ağrıyı azaltabilir. Ağrı kesici ya da iltihap giderici ilaç ve jellerden hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur57-77",
+  "kind": "text",
+  "tr": "Atel ve egzersiz yetmezse kılıfın içine kortizon iğnesi düşünülebilir; bazı kişilerde birden fazla iğne gerekir. 2023'te yayımlanan ve 30 çalışmayı (1.663 hasta) kapsayan bir ağ meta-analizinde, iğneye kısa süreli başparmak ateli eklemek iğnenin tek başına uygulanmasına göre işlevde biraz daha iyi sonuç verdi; tek başına atel ise kısa vadeli ağrıda en az etkili seçenekler arasındaydı. Yazarlar iğneyi ve ardından 3–4 haftalık ateli ilk basamak tedavi olarak önerdi; ancak kanıtın kesinliği işlev için orta, ağrı için düşük ya da çok düşüktü. Ameliyat nadiren gerekir; günübirlik bir işlemle kılıf açılarak kirişlere yer açılır."
+ },
+ {
+  "id": "tur57-78",
+  "kind": "text",
+  "tr": "Günde üç kez 20 dakika soğuk; ilaç ve jellerden hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur57-79",
+  "kind": "text",
+  "tr": "Hekim kararıyla; araştırmalarda işlevde en iyi sonuç iğne ile kısa süreli atelin birlikte kullanımında alındı."
+ },
+ {
+  "id": "tur57-80",
+  "kind": "text",
+  "tr": "Tedavi seçenekleri: 2023 ağ meta-analizi ne diyor?"
+ },
+ {
+  "id": "tur57-81",
+  "kind": "text",
+  "tr": "30 çalışmayı ve 1.663 hastayı kapsayan ağ meta-analizinin (JAMA Netw Open) bulguları. Kısa vade 12 haftaya kadar, orta vade 3 ay ile 1 yıl arasıdır; tedavi kişiye göre seçilir."
+ },
+ {
+  "id": "tur57-82",
+  "kind": "text",
+  "tr": "İğne ve kısa süreli atel"
+ },
+ {
+  "id": "tur57-83",
+  "kind": "text",
+  "tr": "JAMA Netw Open"
+ },
+ {
+  "id": "tur57-84",
+  "kind": "text",
+  "tr": "Kısa ve orta vadede işlev için en etkili olma olasılığı en yüksek seçenek. Tek başına iğneye göre işlevdeki fark orta kesinlikte, ağrıdaki fark çok düşük kesinlikte; ikisi de klinik önem eşiğinin altında."
+ },
+ {
+  "id": "tur57-85",
+  "kind": "text",
+  "tr": "Tek başına atel"
+ },
+ {
+  "id": "tur57-86",
+  "kind": "text",
+  "tr": "Kısa vadeli ağrıda en az etkili seçenekler arasındaydı. Kısa vadeli işlevde iğne ve atel birlikte, tek başına atelden hem istatistiksel hem klinik olarak üstündü."
+ },
+ {
+  "id": "tur57-87",
+  "kind": "text",
+  "tr": "Ultrason eşliğinde iğne"
+ },
+ {
+  "id": "tur57-88",
+  "kind": "text",
+  "tr": "İki çalışmada (92 hasta) kısa vadeli ağrıda ultrasonsuz iğneye göre anlamlı fark görülmedi (çok düşük kesinlik). Ağ analizinde ise ağrıda en üst sıralarda ultrason eşliğinde iğne içeren tedaviler yer aldı."
+ },
+ {
+  "id": "tur57-89",
+  "kind": "text",
+  "tr": "Analizlere alınamadı. Bir sistematik derlemede hastaların %95'e varan kısmında belirtiler tamamen geçti; ameliyat, ameliyatsız tedavi işe yaramadığında düşünülür."
+ },
+ {
+  "id": "tur57-90",
+  "kind": "text",
+  "tr": "De Quervain'den bugüne"
+ },
+ {
+  "id": "tur57-91",
+  "kind": "text",
+  "tr": "Hastalık 19. yüzyılın sonunda tanımlandı; tanıda kullanılan testler 20. yüzyılın ilk yarısında ortaya çıktı. Son yıllardaki çalışmalar ise iğnenin ve atelin birlikte kullanımını öne çıkardı."
+ },
+ {
+  "id": "tur57-92",
+  "kind": "text",
+  "tr": "İsviçreli cerrah Fritz de Quervain, ilk hastasını Aralık 1894'te gördü ve 1895'te beş olguyu yayımladı; hastalık bugün onun adıyla anılıyor. De Quervain, ilk tanımı ve ilk ameliyatı Kocher'e atfetti."
+ },
+ {
+  "id": "tur57-93",
+  "kind": "text",
+  "tr": "De Quervain sekiz yeni olguyla konuya geri döndü."
+ },
+ {
+  "id": "tur57-94",
+  "kind": "text",
+  "tr": "Eichhoff, başparmak yumruğun içindeyken bileğin serçe parmak tarafına bükülmesiyle yapılan testi tanımladı."
+ },
+ {
+  "id": "tur57-95",
+  "kind": "text",
+  "tr": "Finkelstein (JBJS), hekimin hastanın başparmağını tutup eli hızla serçe parmak tarafına bükmesiyle yapılan testi tanımladı. Eichhoff testi sık sık yanlışlıkla onun adıyla anılıyor."
+ },
+ {
+  "id": "tur57-96",
+  "kind": "text",
+  "tr": "Cochrane derlemesi, kortizon iğnesine dair yalnızca 18 kişilik tek bir küçük çalışma bulabildi."
+ },
+ {
+  "id": "tur57-97",
+  "kind": "text",
+  "tr": "30 çalışmayı ve 1.663 hastayı kapsayan ağ meta-analizi (JAMA Netw Open): kortizon iğnesine kısa süreli başparmak ateli eklemek işlevde istatistiksel olarak anlamlı, ancak klinik önem eşiğinin altında kalan bir yarar sağladı; yazarlar iğne ve ardından 3–4 haftalık ateli ilk basamak tedavi olarak önerdi."
+ },
+ {
+  "id": "tur57-98",
+  "kind": "text",
+  "tr": "Ön kolunuzu masaya koyun; başparmağınız yukarı bakacak şekilde yumruk yapın, eliniz masanın kenarından taşsın. Bileğinizi yere doğru yavaşça indirin, sonra başlangıca getirin. Önce ağırlıksız yapın. Kolaylaşınca elinize hafif bir ağırlık alın; ağırlıkla gün aşırı 12 tekrar, 3 set yapın."
+ },
+ {
+  "id": "tur57-99",
+  "kind": "text",
+  "tr": "Ağırlıksız: 10–15 tekrar, günde 4 kez"
+ },
+ {
+  "id": "tur57-100",
+  "kind": "text",
+  "tr": "İğne yaygın olarak kullanılıyor. 2009 tarihli Cochrane derlemesi yalnızca 18 kişilik tek bir küçük çalışma bulabilmişti. Katılımcıların hepsi gebe ya da emziren kadınlardı; iğne yapılan dokuz kadının hepsinde ağrı tamamen geçti, yalnızca atel takan dokuz kadının hiçbirinde geçmedi. Yazarlar çalışmanın küçük ve yöntem kalitesinin zayıf olduğunu vurguladı. 2023'te yayımlanan ve 30 çalışmayı (1.663 hasta) kapsayan bir ağ meta-analizinde işlevde en iyi sonuçlar iğne ile kısa süreli başparmak atelinin birlikte kullanıldığı gruplarda görüldü; tek başına atel kısa vadeli ağrıda en az etkili seçenekler arasındaydı. Kanıtın kesinliği işlev için orta, ağrı için düşük ya da çok düşük. İğnenin size uygun olup olmadığına hekiminiz karar verir."
+ },
+ {
+  "id": "tur57-101",
+  "kind": "text",
+  "tr": "Röntgen ya da ultrason gerekir mi?"
+ },
+ {
+  "id": "tur57-102",
+  "kind": "text",
+  "tr": "Tanı genellikle muayeneyle konur. Röntgen De Quervain'in tanısında yardımcı değildir, ancak ağrının başka nedenlerini dışlamaya yardımcı olabilir. Ultrason ise kirişlerdeki kalınlaşmayı, tünelin daralmasını ve tüneli ikiye bölen bir bölme (septum) olup olmadığını gösterebilir; tanıda ve tedavinin planlanmasında yararlıdır. Ağrının başka bir nedeni düşünülürse hekiminiz farklı tetkikler isteyebilir."
+ },
+ {
+  "id": "tur57-103",
+  "kind": "text",
+  "tr": "Ameliyat ne zaman gündeme gelir?"
+ },
+ {
+  "id": "tur57-104",
+  "kind": "text",
+  "tr": "Ameliyatsız tedaviye rağmen 3–6 ay içinde düzelme olmazsa ameliyat düşünülebilir. Ameliyatta kirişlerin geçtiği tünel açılarak kirişler serbestleştirilir. Bir sistematik derlemede ameliyattan sonra hastaların %95'e varan kısmında belirtilerin tamamen geçtiği bildirildi. Tünelde bir bölme bulunması ve kirişin birden fazla daldan oluşması, ameliyatsız tedavinin işe yaramamasıyla ilişkili bulunmuştur."
+ },
+ {
+  "id": "tur57-105",
+  "kind": "text",
+  "tr": "Ne zaman başvurmalı?"
+ },
+ {
+  "id": "tur57-106",
+  "kind": "text",
+  "tr": "Dört hafta sonra hâlâ zorlanıyorsanız bir fizyoterapiste ya da hekime başvurun."
+ },
+ {
+  "id": "tur57-107",
+  "kind": "text",
+  "tr": "Life in the Fast Lane. <a href=\"https://litfl.com/fritz-de-quervain/\" target=\"_blank\" rel=\"noopener\">Fritz de Quervain</a> ve <a href=\"https://litfl.com/finkelstein-test/\" target=\"_blank\" rel=\"noopener\">Finkelstein test</a>."
+ },
+ {
+  "id": "tur57-108",
+  "kind": "text",
+  "tr": "Challoumas D, Ramasubbu R, Rooney E, Seymour-Jackson E, Putti A, Millar NL. <a href=\"https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2811119\" target=\"_blank\" rel=\"noopener\">Management of de Quervain tenosynovitis: a systematic review and network meta-analysis</a>. JAMA Netw Open. 2023;6(10):e2337001. Açık erişim kopyası: <a href=\"https://eprints.gla.ac.uk/306378/\" target=\"_blank\" rel=\"noopener\">eprints.gla.ac.uk</a>."
+ },
+ {
+  "id": "tur57-109",
+  "kind": "text",
+  "tr": "Doctor O'Donovan ve Rehab Science YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz."
+ },
+ {
+  "id": "tur57-110",
+  "kind": "text",
+  "tr": "<strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığı olan aksiyel spondiloartritten kaynaklanır; ankilozan spondilit bu hastalığın bir biçimidir. Uluslararası ASAS ölçütlerine göre 3 aydan uzun süren bel ağrısında şu beş özellikten en az dördü varsa iltihaplı (inflamatuvar) bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href=\"ankilozan-spondilit.html\">Ankilozan spondilit rehberi →</a>"
+ }
+]

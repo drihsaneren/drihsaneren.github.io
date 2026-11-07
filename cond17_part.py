@@ -52,11 +52,12 @@ _ex2("hv_sls", "sls", "Tek ayak üzerinde denge", "Tezgâha hafifçe tutunarak t
 EXT["hv_toe"] = ("Ayak başparmağını germe", "Oturun, ayağınızı diğer dizinizin üzerine alın. Başparmağınızı elinizle tutun ve eklemi her yöne nazikçe gerin. Hareketin sonunda ağrısız biçimde bekleyin, sonra bırakıp tekrarlayın.", "10–15 saniye tutun, birkaç tekrar")
 
 _ex2("tf_hook", "tglide", "Kanca ve yumruk", "Parmaklarınız düz olsun. Parmak diplerini düz tutarak uçlarını kanca gibi kıvırın; sonra parmaklarınızı tam yumruk olacak şekilde kapatın ve yeniden açın.", "10 tekrar, günde 4–5 kez")
-EXT["tf_warm"] = ("Ilık suda gevşetme", "Elinizi ılık suya sokun ve parmağınızı suyun içinde nazikçe düzeltin. Sabahları parmak takılı kalkıyorsa güne böyle başlamak hareketi kolaylaştırır. Zorlamayın.", "Sabahları ve gerektikçe")
-EXT["tf_ice"] = ("Parmak dibine buz masajı", "Parmağınızın dibine biraz bebek yağı sürün. Bir buz küpünü streç filme ya da ince bir beze sarın ve parmak dibinin üzerinde, buz eriyene kadar sıkıca gezdirin. Amaç bölgedeki şişliği azaltmaktır.", "Buz eriyene kadar, günde 1 kez")
+SV["tf_hook"] = SV["tglide"].replace("<figcaption>Tendon kaydırma</figcaption>", "<figcaption>Kiriş kaydırma</figcaption>")
+EXT["tf_warm"] = ("Ilık suda gevşetme", "Elinizi ılık suya sokun ve parmağınızı suyun içinde nazikçe düzeltin. Takılan parmağı düzeltmeyi kolaylaştırır. Zorlamayın.", "Gerektikçe")
+EXT["tf_ice"] = ("Parmak dibine buz masajı", "Parmağınızın dibine biraz bebek yağı sürün. Bir buz küpünü streç filme ya da ince bir beze sarın ve parmak dibinin üzerinde, buz eriyene kadar sıkıca gezdirin. Bölgedeki tahrişi azaltmaya yardımcı olur.", "Buz eriyene kadar")
 EXT["tf_table"] = ("Masa pozisyonu", "Parmaklarınız düz olsun. Yalnızca parmak diplerinizden öne doğru bükün; parmaklarınız masa tablası gibi düz kalsın. Sonra yeniden doğrultun.", "10 tekrar, günde 4–5 kez")
-EXT["tf_passive"] = ("Diğer elle yumruğa getirme", "Sağlam elinizle, etkilenen elinizin parmaklarını nazikçe yumruk olacak şekilde kapatın; parmakların kendisi kasılmasın. Sonra bırakın. Kirişi zorlamadan eklem hareketini korur.", "5–10 tekrar, günde 4 kez")
-EXT["tf_splint"] = ("Gece ateli", "El terapistinin verdiği ya da parmağın dibindeki hareketi sınırlayan kısa bir ateli gece boyunca takın. Kiriş ve içinden geçtiği halka dinlenir, sabahki takılma azalır. Cildiniz kızarır ya da atel vurursa terapistinize haber verin.", "Her gece; süresini terapistiniz belirler")
+EXT["tf_passive"] = ("Diğer elle yumruğa getirme", "Sağlam elinizle, etkilenen elinizin parmaklarını nazikçe yumruk olacak şekilde kapatın; parmakların kendisi kasılmasın. Sonra bırakın.", "5–10 tekrar, günde 4 kez")
+EXT["tf_splint"] = ("Gece ateli", "El terapistinin verdiği ya da parmağın dibindeki hareketi sınırlayan kısa bir ateli gece boyunca takın. Kiriş ve içinden geçtiği halka dinlenir, gece takılması önlenir. Cildiniz kızarır ya da atel vurursa terapistinize haber verin.", "Her gece; süresini terapistiniz belirler")
 
 # ============================================================== HALLUKS VALGUS
 HV_FAQ = [
@@ -216,18 +217,32 @@ page("halluks-valgus.html", "Halluks Valgus: Ayak Başparmağı Çıkıntısı",
 # ============================================================== TETİK PARMAK
 TF_FAQ = [
  ("Tetik parmak kendiliğinden geçer mi?", "Hafif olgular birkaç haftada tedavisiz düzelebilir. Bazılarında ise ara ara yineler ya da süreğenleşir. Parmak ne kadar uzun süre bükülü takılı kalırsa kiriş o kadar tahriş olur; bu yüzden erken dönemde eli dinlendirmek, gece ateli ve nazik hareketler önemlidir. Öneriler uygulandığında düzelme 12 haftayı bulabilir."),
- ("Kortizon iğnesi işe yarar mı?", "İskoçya'daki ulusal hasta broşürüne göre iğne, olguların yaklaşık %70–80'inde ağrıyı ve takılmayı gideriyor; diyabeti olanlarda başarı daha düşük. Rastgele kontrollü araştırma ise az: Cochrane derlemesi 63 kişilik iki küçük çalışma buldu; dört haftada başarı, kortizon eklenenlerde 100'de 37, yalnızca uyuşturucu yapılanlarda 100'de 17 idi."),
- ("Sabahları takılan parmak için ne yapabilirim?", "Belirtiler çoğu kişide sabahları daha belirgindir. Parmağın dibindeki hareketi gece boyunca sınırlayan kısa bir atel, sabahki takılmayı azaltmada çok etkilidir. Uyanınca elinizi ılık suya sokup parmağınızı nazikçe açmak da hareketi kolaylaştırır; zorla açmayın."),
- ("Ameliyat gerekir mi?", "Çoğu kişide gerekmez. Diğer yöntemler işe yaramazsa, kirişin geçtiği halka küçük bir işlemle gevşetilir; çoğunlukla lokal anesteziyle yapılır. Küçük bir pansuman 10–14 gün kalır, el aynı gün hafif işlerde kullanılabilir. Yineleme seyrektir."),
+ ("Kortizon iğnesi işe yarar mı?", "2023 tarihli bir derlemeye göre tek bir kortizon iğnesiyle başarı, çalışmalarda %45 ile %80 arasında değişiyor; yeni çalışmalarda iğnenin diyabeti olanlarda da benzer etkili olduğu görülmüş. Randomize kontrollü çalışma ise az: 2009 tarihli Cochrane derlemesi 63 kişilik iki küçük çalışma buldu. Derlemenin hasta özetine göre kortizon eklenen iğneden 100 kişinin 37'si, yalnızca bölgeyi uyuşturan ilaç içeren iğneden 100 kişinin 17'si yarar gördü. Yazarların sonucuna göre bir çalışmada etki 4 aya kadar sürdü. Bir çalışmaya göre tetik parmağın derecesi arttıkça iğnenin başarısız olma olasılığı artıyor."),
+ ("Sabahları takılan parmak için ne yapabilirim?", "Belirtiler çoğu zaman sabahları daha belirgindir. Parmak geceleri takılıyorsa, parmağın dibindeki hareketi gece boyunca sınırlayan kısa bir atel çok etkilidir. Elinizi ılık suya sokup parmağınızı suyun içinde nazikçe düzeltmek de takılan parmağı açmayı kolaylaştırır; zorla açmayın."),
+ ("Kaç kez iğne yapılabilir?", "Bunun kesin bir sınırı yoktur; kararı hekiminiz verir. 2023 tarihli bir derlemede aktarılan bir çalışmada, ikinci ve üçüncü iğnelerin yaklaşık %39'u en az 1,5 yıl süren rahatlama sağladı. İğnelere rağmen takılma sürerse ameliyat seçeneği konuşulur."),
+ ("Çocuklarda da olur mu?", "Evet. Çocuklarda tetik başparmak ya da parmak bebeklik döneminde ve daha büyük çocuklarda görülebilir; doğumda nadiren fark edilir. Genellikle ağrısızdır ve eli kullanmayı engellemez. Tedavisiz düzelebilir ama bu 1–2 yıl sürebilir; atelin ya da egzersizin fark yarattığına dair kanıt yoktur. Düzelmeyen az sayıdaki çocukta ameliyat yapılır; NHS Fife'ın hasta bilgilendirme sayfasında bu ameliyatın 3 yaşından önce yapılmadığı belirtiliyor."),
+ ("Ameliyat gerekir mi?", "Çoğu kişide gerekmez. Diğer yöntemler işe yaramazsa, kirişin geçtiği halka küçük bir işlemle gevşetilir. 2018 tarihli Cochrane derlemesinde açık ameliyattan sonra 6–12 ay içinde 100 kişiden yaklaşık 7'sinde yineleme görüldü (düşük kalitede kanıt)."),
 ]
 
 TF_SRC = [
+ "Bridges TN, Ohliger E, Kistler JM. " + ext("https://surgicoll.scholasticahq.com/article/68065-trigger-finger-evaluation-management-and-outcomes", "Trigger finger: evaluation, management, and outcomes") + ". SurgiColl. 2023;1(1). doi:10.58616/surgicoll.00003.",
+ "Clapham PJ, Chung KC. A historical perspective of the Notta's node in trigger fingers. J Hand Surg Am. 2009;34:1518-1522. Notta ve Lorthioir hakkında: " + ext("https://jbumdc.bahria.edu.pk/index.php/ojs/article/view/155", "Qureshi ve ark. JBUMDC. 2016;6(1):34-37") + ".",
+ "Fiorini HJ, Tamaoki MJ, Lenza M, Gomes dos Santos JB, Faloppa F, Belloti JC. " + ext("https://www.cochrane.org/evidence/CD009860_surgery-trigger-finger", "Surgery for trigger finger") + ". Cochrane Database Syst Rev. 2018;(2):CD009860.",
+ "Lorthioir J. Surgical treatment of trigger-finger by a subcutaneous method. J Bone Joint Surg Am. 1958;40:793-5.",
+ "NHS Fife. " + ext("https://www.nhsfife.org/services/all-services/patient-advice/trigger-thumb-finger-children-and-young-people/", "Trigger thumb / finger – children and young people") + ". Version 4, reviewed August 2024.",
  "NHS. " + ext("https://www.nhs.uk/conditions/trigger-finger/", "Trigger finger") + ". Page last reviewed 17 November 2025.",
- "NHS Scotland. " + ext("https://rightdecisions.scot.nhs.uk/media/ww4d10oz/national-trigger-finger-patient-information-leaflet.pdf", "Trigger finger: national patient information leaflet") + ".",
- "North Tees and Hartlepool NHS Foundation Trust. " + ext("https://www.nth.nhs.uk/resources/hand-therapy-trigger-finger/", "Hand therapy: trigger finger") + ". Leaflet PIL1517. Reviewed 30 March 2026.",
- "Peters-Veluthamaningal C, van der Windt DAWM, Winters JC, Meyboom-de Jong B. " + ext("https://www.cochrane.org/CD005617/MUSKEL_corticosteroid-injection-for-trigger-finger-in-adults", "Corticosteroid injection for trigger finger in adults") + ". Cochrane Database Syst Rev. 2009;(1):CD005617.",
+  "North Tees and Hartlepool NHS Foundation Trust. " + ext("https://www.nth.nhs.uk/resources/hand-therapy-trigger-finger/", "Hand therapy: trigger finger") + ". Leaflet PIL1517. Review date July 2027.",
+ "Peters-Veluthamaningal C, van der Windt DAWM, Winters JC, Meyboom-de Jong B. " + ext("https://www.cochrane.org/evidence/CD005617_local-corticosteroid-injection-trigger-finger", "Corticosteroid injection for trigger finger in adults") + ". Cochrane Database Syst Rev. 2009;(1):CD005617.",
  "St George's University Hospitals NHS Foundation Trust. " + ext("https://www.stgeorges.nhs.uk/wp-content/uploads/2021/09/Trigger-Finger.pdf", "Trigger finger") + ". Hand therapy leaflet THE_TF_02. April 2020.",
  "Torbay and South Devon NHS Foundation Trust. " + ext("https://www.torbayandsouthdevon.nhs.uk/uploads/25909.pdf", "Trigger finger") + ". Hand Physiotherapy leaflet 25909. September 2025.",
+]
+
+TF_TL = [
+ ("1850", "Notta, parmağı büken kirişte takılmaya yol açan kalınlaşmayı dört yetişkin hastada tanımladı; bu kalınlaşma bugün \"Notta nodülü\" olarak anılıyor."),
+ ("1958", "Lorthioir, kirişin geçtiği halkanın deri altından, büyük bir kesi yapılmadan gevşetildiği yöntemi (perkütan gevşetme) 52 hastada tanımladı."),
+ ("2009", "Cochrane derlemesi: kortizon iğnesine dair yalnızca iki küçük çalışma (63 kişi) bulundu; kortizon eklenen iğne, yalnızca bölgeyi uyuşturan ilaç içeren iğneden daha etkiliydi."),
+ ("2018", "Cochrane derlemesi (14 çalışma, 1.260 kişi): açık ameliyat, kortizon iğnesine göre 6–12 ayda yinelemeyi azaltabilir (düşük kalitede kanıt) ama ilk hafta daha fazla ağrıya yol açabilir."),
+ ("2023", "Bir derleme (SurgiColl): ateller için hastaların bildirdiği başarı oranları %47 ile %93 arasında; tek kortizon iğnesiyle başarı %45 ile %80 arasında değişiyor."),
 ]
 
 TF_BODY = f'''<header class="page">
@@ -235,28 +250,27 @@ TF_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Tetik parmak</h1>
-    <p class="lede">Tetik parmak, parmağı büken kirişin kalınlaşıp içinden geçtiği halkaya takılmasıdır: Parmak bükülü kalır, açarken “tık” diye atar. Zararlı bir hastalık değildir ama eli kullanmayı zorlaştırır. Hafif olgular dinlendirme, gece ateli ve nazik hareketlerle düzelebilir; geçmezse iğne ve küçük bir ameliyat seçenekleri vardır.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="lede">Tetik parmak, parmağı büken kirişin kalınlaşıp içinden geçtiği halkaya takılmasıdır: Parmak bükülü kalır, açarken “tık” diye atar. Eli kullanmayı zorlaştırabilir. Hafif olgular dinlendirme, gece ateli ve nazik hareketlerle düzelebilir; geçmezse iğne ve küçük bir ameliyat seçenekleri vardır.</p>
+    <p class="meta">Son güncelleme: 6 Kasım 2026</p>
   </div>
 </header>
-
 <main>
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>100'de 2–3</b><span>Hayatının bir döneminde tetik parmak gelişen kişi oranı</span></div>
+        <div class="stat"><b>100'de 2–3</b><span>Hayatının bir döneminde tetik parmak gelişen yetişkin oranı</span></div>
         <div class="stat"><b>40 yaş üstü</b><span>Daha sık; diyabet ve romatoid artrit riski artırıyor</span></div>
-        <div class="stat"><b>%70–80</b><span>Kortizon iğnesinin ağrı ve takılmayı giderdiği olgu oranı (ulusal hasta broşürü)</span></div>
+        <div class="stat"><b>%45–80</b><span>Tek kortizon iğnesiyle başarı oranı (2023 tarihli derleme)</span></div>
         <div class="stat"><b>12 hafta</b><span>Atel ve egzersizle düzelmenin alabileceği süre</span></div>
       </div>
+      {g_toc([("nedir", "Nedir?"), ("tani", "Nasıl tanınır?"), ("tedavi", "Tedavi"), ("tarihce", "Geçmişten bugüne"), ("egzersizler", "Evde uygulamalar"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
-
-  <section>
+  <section id="nedir">
     <div class="wrap two">
       <div>
         <h2>Nedir?</h2>
-        <p class="soft">Parmakları büken kirişler, kemiğe tutunan küçük tünellerin içinden kayar. Kiriş ya da kılıfı şişip kalınlaştığında tünelin ağzında takılır; bazen küçük bir yumru oluşur. Parmak bükülürken yumru tünelden geçer, açılırken takılır ve birden kurtulur; tetik çekilip bırakılmış gibi.</p>
+        <p class="soft">Parmakları büken kirişler, kemiğe tutunan küçük halkaların içinden kayar. Kiriş ya da kılıfı şişip kalınlaştığında halkanın ağzında takılır; bazen küçük bir yumru oluşur. Parmak bükülürken yumru halkadan geçer, açılırken takılır ve birden kurtulur; tetik çekilip bırakılmış gibi.</p>
         <p class="soft">Çoğu zaman neden bilinmez; bazen bir yaralanmadan sonra başlar. 40 yaşın üzerinde, kadınlarda, diyabeti ya da romatoid artriti olanlarda daha sık görülür. Makas ya da budama makası kullanmak gibi tekrarlı, sıkı kavrama gerektiren işler de tetikleyebilir.</p>
       </div>
       <div>
@@ -265,25 +279,37 @@ TF_BODY = f'''<header class="page">
           <li>Parmağın ya da başparmağın bükülü konumda takılı kalması</li>
           <li>Açarken tıklama ya da atma hissi</li>
           <li>Parmak dibinde, avuç içinde ağrı ve hassasiyet</li>
-          <li>Parmak dibinde, parmakla birlikte oynayan küçük bir şişlik</li>
+          <li>Parmak dibinde, parmakla birlikte oynayan küçük bir yumru</li>
           <li>Parmağı düzeltmek için diğer eli kullanmak zorunda kalma</li>
           <li>Belirtilerin sabahları daha belirgin olması</li>
         </ul>
       </div>
     </div>
   </section>
-
-  <section>
+  <section id="tani">
+    <div class="wrap">
+      <h2>Nasıl tanınır?</h2>
+      <p class="soft">Tanı, yakınmalarınız ve elinizin muayenesiyle konur. Muayenede avuç içinde, etkilenen parmağın dibinde hassasiyet aranır; bazen parmakla birlikte hareket eden küçük bir yumru ele gelir. Parmak bükülüp açılırken takılma ya da atma görülebilir.</p>
+      <h3 class="g-h3">Dereceler (Green sınıflaması)</h3>
+      <ul class="tx">
+        <li><b>I. derece</b><span>Takılma öncesi dönem: ağrı, takılma hissi ve parmak dibinde hassasiyet.</span></li>
+        <li><b>II. derece</b><span>Parmak takılıyor ama kendi kendinize açabiliyorsunuz.</span></li>
+        <li><b>III. derece</b><span>Takılan parmağı ancak diğer elinizle açabiliyorsunuz (IIIA) ya da parmağı tam bükemiyorsunuz (IIIB).</span></li>
+        <li><b>IV. derece</b><span>Takılmayla birlikte parmağın orta ekleminde kalıcı bükülü kalma.</span></li>
+      </ul>
+      <p class="soft">Derece, bulguları tanımlamaya yarar. 2023 tarihli bir derlemede aktarılan bir çalışmaya göre derece arttıkça kortizon iğnesinin başarısız olma olasılığı artıyor.</p>
+    </div>
+  </section>
+  <section id="tedavi">
     <div class="wrap">
       <h2>İlk adım: kirişi dinlendirmek</h2>
       <p class="soft">Belirtileri artıran işleri, özellikle tekrarlı ve sıkı kavramayı, düzelene kadar azaltın. Parmak ne kadar uzun süre bükülü takılı kalırsa kiriş o kadar tahriş olup kalınlaşır; bu yüzden erken davranmak önemlidir.</p>
-      <p class="soft">Gece ateli bu dönemin en etkili aracıdır: Parmağın dibindeki hareketi sınırlayan kısa bir atel, kirişi ve halkayı dinlendirir, sabahki takılmayı azaltır. Gece boyunca takılır; el terapisti size uygun olanı yapabilir. Geceleri parmak dibine iltihap giderici jel sürmek de yardımcı olabilir; önce hekiminize danışın.</p>
+      <p class="soft">Gece ateli, özellikle hafif olgularda ve geceleri takılan parmakta çok etkilidir: Parmağın dibindeki hareketi sınırlayan kısa bir atel, kirişi ve halkayı dinlendirir, gece takılmasını önlemeye yardımcı olur. Gece boyunca takılır; el terapisti size uygun olanı yapabilir. Geceleri parmak dibine iltihap giderici jel sürmek de yardımcı olabilir; hangisinin uygun olduğunu hekiminize sorun.</p>
       <div class="callout">
         <p>Atel ve hareketlerle düzelme 12 haftayı bulabilir. Parmak sürekli takılıyorsa ya da düzeltmek için diğer elinizi kullanmak zorunda kalıyorsanız kortizon iğnesi düşünülür; iğne de yetmezse halkayı gevşeten küçük bir ameliyat yapılır.</p>
       </div>
     </div>
   </section>
-
   <section>
     <div class="wrap">
       <h2>Tedavi</h2>
@@ -291,13 +317,28 @@ TF_BODY = f'''<header class="page">
         <li><b>Dinlendirme</b><span>Tekrarlı ve sıkı kavrama gerektiren işleri azaltmak.</span></li>
         <li><b>Gece ateli</b><span>Parmağı düz tutarak kirişi dinlendirir; hafif ve gece olan takılmalarda çok etkilidir.</span></li>
         <li><b>Hareket</b><span>Kirişin kaymasını koruyan nazik hareketler, günde 4–5 kez.</span></li>
-        <li><b>İlaç</b><span>Ağrı için ağrı kesici ya da iltihap giderici jel; hekiminize danışın.</span></li>
-        <li><b>Kortizon iğnesi</b><span>Şişliği azaltır; diyabeti olanlarda başarı daha düşüktür.</span></li>
-        <li><b>Ameliyat</b><span>Diğer yöntemler işe yaramadığında; lokal anesteziyle, günübirlik.</span></li>
+        <li><b>İlaç</b><span>Ağrı için ağrı kesici ya da iltihap giderici jel; hangisinin uygun olduğunu hekiminize sorun.</span></li>
+        <li><b>Kortizon iğnesi</b><span>Şişliği ve ağrıyı azaltır.</span></li>
+        <li><b>Ameliyat</b><span>Diğer yöntemler işe yaramadığında; halkayı gevşeten küçük bir işlem.</span></li>
       </ul>
+      <h3 class="g-h3">Tedavi seçenekleri: kanıtlar ne diyor?</h3>
+      <p class="soft">Sistematik derlemelerin bulguları. Kanıtın kalitesi belirtildiği yerde parantez içinde verilmiştir; tedavi kişiye göre seçilir.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Atel</h3><dl><dt>Derleme (2023)</dt><dd>Hastaların bildirdiği başarı oranları %47 ile %93 arasında; çalışmalarda atel tipi ve sabitlenen eklem farklıydı. Önce 6 haftalık bir deneme, belirtiler sürerse 12 haftaya uzatma öneriliyor.</dd></dl></div>
+        <div class="kind"><h3>Kortizon iğnesi</h3><dl><dt>Cochrane (2009)</dt><dd>İki küçük çalışma (63 kişi): kortizon eklenen iğneden 100 kişinin 37'si, yalnızca bölgeyi uyuşturan ilaç içeren iğneden 100 kişinin 17'si yarar gördü. Çalışmaların yöntem kalitesi düşüktü.</dd></dl></div>
+        <div class="kind"><h3>Açık ameliyat ya da iğne</h3><dl><dt>Cochrane (2018)</dt><dd>6–12 ayda yineleme: ameliyatta 100 kişide 7, iğnede 39 (düşük kalite). İlk hafta ağrı: 100 kişide 68'e karşı 19 (düşük kalite). Belirtilerin geçmesi: 92'ye karşı 61 (çok düşük kalite).</dd></dl></div>
+        <div class="kind"><h3>Deri altından ya da açık ameliyat</h3><dl><dt>Cochrane (2018)</dt><dd>Beş çalışma iki yöntemi karşılaştırdı; kanıtın kalitesi düşük ya da çok düşük olduğundan birinin diğerinden üstün olup olmadığı belirsiz.</dd></dl></div>
+      </div>
     </div>
   </section>
-
+  <section id="tarihce">
+    <div class="wrap">
+      <p class="eyebrow">Geçmişten bugüne</p>
+      <h2>İlk tanımdan bugünkü tedavilere</h2>
+      <p class="soft">Tetik parmak 19. yüzyılın ortasında tanımlandı. 20. yüzyılda halkayı deri altından gevşetme yöntemi geliştirildi; son yıllardaki derlemeler ise atelin, iğnenin ve ameliyatın yerini karşılaştırdı.</p>
+      {g_tl(TF_TL)}
+    </div>
+  </section>
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde bakım</p>
@@ -306,12 +347,11 @@ TF_BODY = f'''<header class="page">
       {ex_grid(["tf_warm", "tf_ice", "tf_hook", "tf_table", "tf_passive", "tf_splint"])}
     </div>
   </section>
-
   <section id="videolar">
     <div class="wrap">
       <p class="eyebrow">Video</p>
       <h2>Tetik parmak için videolar</h2>
-      <p class="soft">ABD'deki Mayo Clinic'in ve İngiltere'de hekim olan Dr. James O'Donovan'ın YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
+      <p class="soft">Mayo Clinic ve Doctor O'Donovan YouTube kanallarından. Videolar İngilizcedir; oynatıcıda Ayarlar → Altyazılar → Otomatik çevir → Türkçe seçebilirsiniz.</p>
       <div class="vids">
         <div class="vid">
           {vbox("58xQr9tOx24", "Tetik parmak tanıtım videosunu oynat", "Trigger Finger Overview - Mayo Clinic")}
@@ -327,29 +367,30 @@ TF_BODY = f'''<header class="page">
       <p class="meta">Videolar Mayo Clinic ve Doctor O'Donovan kanallarına aittir.</p>
     </div>
   </section>
-
-  <section>
+  <section id="sss">
     <div class="wrap">
       <h2>Sık sorulan sorular</h2>
       {faq(TF_FAQ)}
     </div>
   </section>
-
-  <section>
+  <section id="uyari">
     <div class="wrap">
       <h2>Ne zaman hekime görünmeli?</h2>
-      <p class="soft">Şu durumlarda bir hekime başvurun:</p>
+      <p class="soft">Aşağıdaki durumlarda bir hekime başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
+      <p class="soft"><strong>Aynı gün bir hekime:</strong></p>
       <ul class="dots redflags">
-        <li>Belirtiler düzelmiyorsa ya da giderek artıyorsa</li>
-        <li>Günlük işlerinizi yapmanızı engelliyorsa</li>
-        <li>Parmak bükülü kilitlenip hiç açılmıyorsa</li>
-        <li>Parmakta kızarıklık, sıcaklık ve şişlikle birlikte ateş varsa (aynı gün)</li>
-        <li>Yaralanmadan sonra parmağı hiç bükemiyor ya da açamıyorsanız (aynı gün)</li>
+        <li>Parmakta kızarıklık, sıcaklık ve şişlikle birlikte ateş</li>
+        <li>Yaralanmadan sonra parmağı hiç bükememe ya da açamama</li>
+      </ul>
+      <p class="soft"><strong>Birkaç gün içinde bir hekime:</strong></p>
+      <ul class="dots redflags">
+        <li>Yaralanma olmadan parmağın bükülü kilitlenip hiç açılmaması</li>
+        <li>Düzelmeyen ya da giderek artan belirtiler</li>
+        <li>Günlük işlerinizi yapmanızı engelleyen belirtiler</li>
       </ul>
       {CTA_CARD("Tetik parmağa bağlı el şikâyetleriniz", "tetik parmak")}
     </div>
   </section>
-
   <section>
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
@@ -359,7 +400,7 @@ TF_BODY = f'''<header class="page">
 </main>'''
 
 page("tetik-parmak.html", "Tetik Parmak",
-     "Tetik parmak neden olur, kendiliğinden geçer mi? Gece ateli, kortizon iğnesi için kanıt, ameliyat ve evde altı uygulama: ılık su, buz masajı ve kirişi koruyan nazik hareketler.",
+     "Tetik parmak neden olur, nasıl tanınır ve derecelendirilir, kendiliğinden geçer mi? Gece ateli, kortizon iğnesi ve ameliyat için kanıtlar, kısa tarihçe, çocuklarda tetik başparmak ve evde altı uygulama.",
      "tetik-parmak.html", NECK_CSS, TF_BODY, YT_JS,
      seo_title="Tetik Parmak: Atel, Egzersiz, İğne ve Ameliyat | İhsan Eren",
      condition="Tetik parmak", faq_items=TF_FAQ)

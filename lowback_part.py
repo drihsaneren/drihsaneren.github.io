@@ -201,7 +201,7 @@ BEL_BODY = f'''<header class="page">
         <div class="kind"><h3>Ciddi bir hastalığa bağlı ağrı</h3><p>Kırık, enfeksiyon, tümör ya da kauda ekina sendromu gibi nedenler bel ağrısı olanların %1'inden azında bulunur. Uyarı işaretleri bu yüzden önemlidir.</p><a href="#uyari">Uyarı işaretleri →</a></div>
       </div>
       <div class="callout">
-        <p><strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığından (aksiyel spondiloartrit, örneğin ankilozan spondilit) kaynaklanır. Uluslararası ASAS ölçütlerine göre 3 aydan uzun süren bel ağrısında şu beş özellikten en az dördü varsa iltihaplı (inflamatuvar) bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href="ankilozan-spondilit.html">Ankilozan spondilit rehberi →</a></p>
+        <p><strong>Mekanik mi, iltihaplı mı?</strong> Gençlerde yavaş başlayan ve aylarca süren bel ağrısı bazen omurganın iltihaplı bir hastalığı olan aksiyel spondiloartritten kaynaklanır; ankilozan spondilit bu hastalığın bir biçimidir. Uluslararası ASAS ölçütlerine göre 3 aydan uzun süren bel ağrısında şu beş özellikten en az dördü varsa iltihaplı (inflamatuvar) bel ağrısından şüphelenilir: 40 yaşından önce başlaması, sinsi ve yavaş başlaması, egzersizle azalması, dinlenmekle geçmemesi ve gece ağrıyıp kalkınca azalması. Bu bir tanı değildir ve ölçütler kusursuz değildir; bu özellikler varsa bir hekime başvurun. <a href="ankilozan-spondilit.html">Ankilozan spondilit rehberi →</a></p>
       </div>
     </div>
   </section>
