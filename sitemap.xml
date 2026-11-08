@@ -1065,6 +1065,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kosucu-dizi.html"/>
   </url>
   <url>
+    <loc>https://drihsaneren.com/dis-sikma.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/dis-sikma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/teeth-grinding-bruxism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/dis-sikma.html"/>
+  </url>
+  <url>
     <loc>https://drihsaneren.com/en/</loc>
     <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/"/>
@@ -2127,5 +2134,12 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/kosucu-dizi.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/iliotibial-band-syndrome.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/kosucu-dizi.html"/>
+  </url>
+  <url>
+    <loc>https://drihsaneren.com/en/teeth-grinding-bruxism.html</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://drihsaneren.com/dis-sikma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drihsaneren.com/en/teeth-grinding-bruxism.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drihsaneren.com/dis-sikma.html"/>
   </url>
 </urlset>
