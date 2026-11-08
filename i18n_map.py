@@ -49,6 +49,7 @@ EN = {
     "huzursuz-bacak.html": "restless-legs-syndrome.html",
     "kuyruk-sokumu-agrisi.html": "tailbone-pain.html",
     "bebeklerde-tortikolis.html": "torticollis-in-babies.html",
+    "dis-sikma.html": "teeth-grinding-bruxism.html",
     "adim-hedefi.html": "step-goal-planner.html",
     "sakatlanmayi-onleyen-isinma.html": "injury-prevention-warm-up.html",
     "zayiflama-ilaci-ve-kas.html": "weight-loss-medication-and-muscle.html",
