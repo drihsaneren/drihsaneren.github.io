@@ -1,0 +1,972 @@
+[
+ {
+  "id": "tur60-0",
+  "kind": "text",
+  "tr": "Diş Sıkma ve Gıcırdatma (Bruksizm): Nedenleri, Etkileri ve Tedavi | İhsan Eren"
+ },
+ {
+  "id": "tur60-1",
+  "kind": "attr",
+  "tr": "Diş sıkma ve gıcırdatma (bruksizm) nedir, dişlere ne kadar kuvvet biner, diş, eklem, boyun ve beyin nasıl etkilenir? Migren ve fibromiyaljiyle ilişkisi, ruhsal etkenler, plağın yeri, çok yönlü tedavi, botulinum toksini, tarihçe ve evde altı egzersiz."
+ },
+ {
+  "id": "tur60-2",
+  "kind": "text",
+  "tr": "Diş sıkma ve gıcırdatma (bruksizm)"
+ },
+ {
+  "id": "tur60-3",
+  "kind": "text",
+  "tr": "Diş sıkma ve gıcırdatma (bruksizm), çiğneme kaslarının uykuda ya da gün içinde gereğinden fazla çalışmasıdır. Dünyada yaklaşık her dört-beş kişiden birinde görülüyor ve çoğu kişi bunu fark etmiyor. Etkileri yalnızca dişlerle sınırlı değil: çene eklemi, boyun kasları, uyku ve baş ağrısı da etkilenebilir. Bu rehberde bruksizmi bir ders gibi baştan sona anlatıyoruz."
+ },
+ {
+  "id": "tur60-4",
+  "kind": "text",
+  "tr": "Dünyada uyanıkken diş sıkan ya da dişlerini birbirine bastıranların tahmini oranı; uykuda %21 (2024 meta-analizi)"
+ },
+ {
+  "id": "tur60-5",
+  "kind": "text",
+  "tr": "42 kg"
+ },
+ {
+  "id": "tur60-6",
+  "kind": "text",
+  "tr": "Gece diş sıkmasında ölçülen en yüksek kuvvetin kişi başına ortalaması (kilogram-kuvvet); en yüksek değer 81 kg"
+ },
+ {
+  "id": "tur60-7",
+  "kind": "text",
+  "tr": "Fibromiyaljisi olanlarda çene eklemi sorunu görülme oranı"
+ },
+ {
+  "id": "tur60-8",
+  "kind": "text",
+  "tr": "4–5 kat"
+ },
+ {
+  "id": "tur60-9",
+  "kind": "text",
+  "tr": "Migreni olanlarda çene eklemi sorunu görülme olasılığı (2022 meta-analizi; kanıt düşük–çok düşük)"
+ },
+ {
+  "id": "tur60-10",
+  "kind": "text",
+  "tr": "Bruksizm nedir?"
+ },
+ {
+  "id": "tur60-11",
+  "kind": "text",
+  "tr": "Dişlere binen kuvvet"
+ },
+ {
+  "id": "tur60-12",
+  "kind": "text",
+  "tr": "Dört alanda etkiler"
+ },
+ {
+  "id": "tur60-13",
+  "kind": "text",
+  "tr": "Birlikte görülen durumlar"
+ },
+ {
+  "id": "tur60-14",
+  "kind": "text",
+  "tr": "Nedenler ve ruhsal etkenler"
+ },
+ {
+  "id": "tur60-15",
+  "kind": "text",
+  "tr": "Plak"
+ },
+ {
+  "id": "tur60-16",
+  "kind": "text",
+  "tr": "Çok yönlü tedavi"
+ },
+ {
+  "id": "tur60-17",
+  "kind": "text",
+  "tr": "Evde neler yapılabilir?"
+ },
+ {
+  "id": "tur60-18",
+  "kind": "text",
+  "tr": "Çocuklarda"
+ },
+ {
+  "id": "tur60-19",
+  "kind": "text",
+  "tr": "<strong>Bu rehber hakkında.</strong> Bu rehberdeki yaklaşımı yazarımız İhsan Eren, Türkiye'de çene eklemi bozuklukları ve diş sıkma alanında 2005'ten bu yana uluslararası dergilerde yayımlanan çalışmalarıyla bu alanın öncülerinden olan Fiziksel Tıp ve Rehabilitasyon uzmanı Prof. Dr. Cihan Aksoy'un (Cihan Hoca) yanında öğrendi. Cihan Hoca, diş sıkmada diş hekimliği, psikiyatri ve diğer branşların birlikte çalışmasını ve hangi durumda hangi tedavinin tıbben uygun olduğunu ortaya koyan bir yaklaşım geliştirdi. Bu sayfada Cihan Hoca'nın da yazarları arasında olduğu iki çalışmaya yer veriyoruz."
+ },
+ {
+  "id": "tur60-20",
+  "kind": "text",
+  "tr": "2018'deki uluslararası uzlaşıya göre bruksizm, uykuda ya da uyanıkken ortaya çıkan çiğneme kası etkinliğidir ve iki ayrı biçimi vardır. Kişi dişlerini gıcırdatmadan, yalnızca sıkarak ya da alt çenesini iterek de bruksizm yaşayabilir."
+ },
+ {
+  "id": "tur60-21",
+  "kind": "text",
+  "tr": "Uyku bruksizmi"
+ },
+ {
+  "id": "tur60-22",
+  "kind": "text",
+  "tr": "Uykuda"
+ },
+ {
+  "id": "tur60-23",
+  "kind": "text",
+  "tr": "Uyku sırasında çiğneme kaslarının ritmik ya da ritmik olmayan etkinliği: diş gıcırdatma ve sıkma. Çoğu kişi fark etmez; gıcırtıyı birlikte uyunan kişi fark edebilir."
+ },
+ {
+  "id": "tur60-24",
+  "kind": "text",
+  "tr": "Uyanıklık bruksizmi"
+ },
+ {
+  "id": "tur60-25",
+  "kind": "text",
+  "tr": "Gün içinde"
+ },
+ {
+  "id": "tur60-26",
+  "kind": "text",
+  "tr": "Uyanıkken dişlerin tekrarlayan ya da süren biçimde birbirine değmesi, sıkılması ya da alt çenenin itilmesi. Konsantrasyon, stres ya da yoğun iş sırasında, farkında olmadan olabilir."
+ },
+ {
+  "id": "tur60-27",
+  "kind": "text",
+  "tr": "Hastalık mı, davranış mı?"
+ },
+ {
+  "id": "tur60-28",
+  "kind": "text",
+  "tr": "Uzlaşıya göre bruksizm, sağlıklı kişilerde tek başına bir hastalık değil, bir davranıştır; ancak diş aşınması, çiğneme kası ve çene eklemi ağrısı gibi sonuçlar için risk etkeni olabilir. Bruksizmin varlığı üç düzeyde değerlendirilir:"
+ },
+ {
+  "id": "tur60-29",
+  "kind": "text",
+  "tr": "Olası"
+ },
+ {
+  "id": "tur60-30",
+  "kind": "text",
+  "tr": "Yalnızca kişinin kendi bildirimine dayanır (\"dişlerimi sıkıyorum\")."
+ },
+ {
+  "id": "tur60-31",
+  "kind": "text",
+  "tr": "Muhtemel"
+ },
+ {
+  "id": "tur60-32",
+  "kind": "text",
+  "tr": "Muayenede bulgu vardır (diş aşınması, dilde diş izleri gibi), kişinin bildirimi olsun ya da olmasın."
+ },
+ {
+  "id": "tur60-33",
+  "kind": "text",
+  "tr": "Kesin"
+ },
+ {
+  "id": "tur60-34",
+  "kind": "text",
+  "tr": "Uyku testi (polisomnografi) gibi bir cihazla ölçülerek doğrulanır."
+ },
+ {
+  "id": "tur60-35",
+  "kind": "text",
+  "tr": "Ne kadar yaygın?"
+ },
+ {
+  "id": "tur60-36",
+  "kind": "text",
+  "tr": "176 popülasyonu birleştiren 2024 tarihli meta-analize göre dünyada bruksizm yaklaşık %22 oranında görülüyor: uyku bruksizmi %21, uyanıklık bruksizmi %23. Yani yaklaşık her dört kişiden biri gün içinde dişlerini sıkıyor olabilir. Uyanıklık bruksizmi kadınlarda erkeklere göre yaklaşık iki kat daha sık bildirildi (%17'ye karşı %8); kıtalar arasında anlamlı bir fark bulunmadı."
+ },
+ {
+  "id": "tur60-37",
+  "kind": "text",
+  "tr": "Dişlere ne kadar kuvvet biner?"
+ },
+ {
+  "id": "tur60-38",
+  "kind": "text",
+  "tr": "Normalde dişler gün boyu birbirine değmez: Dinlenme sırasında dudaklar kapalı, dişler hafifçe ayrık, dil damakta durur. Diş sıkmada ise kaslar dişleri saatlerce birbirine bastırabilir."
+ },
+ {
+  "id": "tur60-39",
+  "kind": "text",
+  "tr": "Gece diş sıkması"
+ },
+ {
+  "id": "tur60-40",
+  "kind": "text",
+  "tr": "J Oral Rehabil, 2001"
+ },
+ {
+  "id": "tur60-41",
+  "kind": "text",
+  "tr": "10 kişilik bir çalışmada uykuda ölçülen en yüksek kuvvet kişi başına ortalama 42 kilogram-kuvvetti, en yüksek değer 81'di. Bazı kişilerde gece kuvveti, kişinin gündüz bilerek yapabildiği en güçlü ısırmayı aştı (grupta gündüz ortalaması 79 kilogram-kuvvet)."
+ },
+ {
+  "id": "tur60-42",
+  "kind": "text",
+  "tr": "Rekor ısırma"
+ },
+ {
+  "id": "tur60-43",
+  "kind": "text",
+  "tr": "Guinness Dünya Rekorları"
+ },
+ {
+  "id": "tur60-44",
+  "kind": "text",
+  "tr": "Kayıtlara geçen en güçlü insan ısırması 442 kilogram, yani yarım tona yakın; 1986'da bir diş hekimliği fakültesinde ölçüldü ve yaklaşık 2 saniye sürdü."
+ },
+ {
+  "id": "tur60-45",
+  "kind": "text",
+  "tr": "Kuvvet ve aşınma"
+ },
+ {
+  "id": "tur60-46",
+  "kind": "text",
+  "tr": "Arch Oral Biol, 2011"
+ },
+ {
+  "id": "tur60-47",
+  "kind": "text",
+  "tr": "Cihan Hoca'nın da yazarları arasında olduğu çalışmada, diş sıkanlarda en büyük ısırma kuvveti ve diş aşınması daha yüksekti; ikisi arasındaki ilişki güçlüydü. Araştırmacılar bunun, bu ilişkiyi gösteren ilk çalışma olduğunu yazdı."
+ },
+ {
+  "id": "tur60-48",
+  "kind": "text",
+  "tr": "Halk için özet"
+ },
+ {
+  "id": "tur60-49",
+  "kind": "text",
+  "tr": "Dört alanda etkiler: diş, eklem, boyun, beyin"
+ },
+ {
+  "id": "tur60-50",
+  "kind": "text",
+  "tr": "Diş sıkmayı yalnızca bir diş sorunu gibi düşünmek, tablonun yarısını görmek olur. Kesikli çizgiler, etkinin çeneden eklem ve boyun kaslarına doğru bir zincir gibi yayılabileceğini gösteriyor."
+ },
+ {
+  "id": "tur60-51",
+  "kind": "text",
+  "tr": "Diş sıkmanın etkilediği dört alan: beyin, eklem, diş ve boyun"
+ },
+ {
+  "id": "tur60-52",
+  "kind": "text",
+  "tr": "<b>Beyin:</b> Bruksizmi başlatan ve düzenleyen merkez; uyku, stres ve baş ağrısıyla bağlantılı."
+ },
+ {
+  "id": "tur60-53",
+  "kind": "text",
+  "tr": "<b>Eklem:</b> Kulağın hemen önündeki çene eklemi ve çevresindeki çiğneme kasları."
+ },
+ {
+  "id": "tur60-54",
+  "kind": "text",
+  "tr": "<b>Diş:</b> Aşınma, kırık ve çatlaklar; dil ve yanakta izler."
+ },
+ {
+  "id": "tur60-55",
+  "kind": "text",
+  "tr": "<b>Boyun:</b> Diş sıkarken birlikte kasılan boyun kasları."
+ },
+ {
+  "id": "tur60-56",
+  "kind": "text",
+  "tr": "1. Beyin: işin başladığı yer"
+ },
+ {
+  "id": "tur60-57",
+  "kind": "text",
+  "tr": "Bruksizm bugün esas olarak beyin tarafından düzenlenen bir davranış olarak kabul ediliyor; dişlerin kapanışı ve çenenin yapısı ise küçük bir rol oynuyor. Uyku bruksizmi olan hastalarla yapılan bir çalışmada, diş sıkma olaylarının %79'unda kas etkinliğinden yaklaşık 4 saniye önce beyin dalgalarında bir uyanma artışı, hemen öncesinde de kalp hızında hızlanma görüldü. Yani uykuda diş sıkma, çoğu zaman uykunun kısa süreli hafiflemesiyle (mikro uyanma) birlikte ortaya çıkıyor. Diş gıcırdatmayla ilişkili yakınmalar arasında uykunun bölünmesi (sizin ya da birlikte uyuduğunuz kişinin) ve baş ağrısı da sayılıyor. Horlama ve uykuda nefes durması (uyku apnesi) de bruksizmle ilişkili bulunuyor."
+ },
+ {
+  "id": "tur60-58",
+  "kind": "text",
+  "tr": "2. Eklem: çene eklemi ve çiğneme kasları"
+ },
+ {
+  "id": "tur60-59",
+  "kind": "text",
+  "tr": "Uzun süre sıkılan çiğneme kasları yorulur ve ağrır; çene ekleminde ağrı, ağız açmada kısıtlılık ve klik sesi görülebilir. Uluslararası baş ağrısı sınıflamasına göre çene eklemi sorunları, diş ağrısından sonra yüz ağrısının en sık nedenidir. Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez; ağrı, kilitlenme ya da ağız açmada kısıtlılık varsa değerlendirme gerekir. Ayrıntılar için <a href=\"cene-eklemi.html\">çene eklemi rahatsızlıkları</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "tur60-60",
+  "kind": "text",
+  "tr": "3. Diş: aşınma, kırık ve ağız içindeki izler"
+ },
+ {
+  "id": "tur60-61",
+  "kind": "text",
+  "tr": "Diş sıkma ve gıcırdatma dişlerde aşınmaya, sıcak-soğuk hassasiyetine, dolgu ve diş kırıklarına, dişlerde çatlaklara ve protez sorunlarına yol açabilir. Ağız içinde de ipuçları vardır: Türkiye'de 98 hastanın incelendiği 2026 tarihli bir çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri, %75,5'inde yanağın iç yüzünde dişlerin hizasında beyaz bir çizgi vardı. Diş hekimi dişlerdeki aşınmayı ve kapanışı (oklüzyon) inceler; ancak kapanış bugün bruksizmin ana nedeni olarak görülmüyor."
+ },
+ {
+  "id": "tur60-62",
+  "kind": "text",
+  "tr": "4. Boyun: zincirin devamı"
+ },
+ {
+  "id": "tur60-63",
+  "kind": "text",
+  "tr": "Diş sıkarken yalnızca çene kasları çalışmaz: Sağlıklı kişilerde yapılan bir kas aktivitesi çalışmasında, en güçlü diş sıkma sırasında ön boyun kaslarının etkinliği belirgin olarak arttı. Boyun ağrısı olanlarda da çene eklemi sorunları daha sık: Dokuz çalışmayı inceleyen 2026 tarihli bir meta-analizde boyun ağrısı olanlarda çene eklemi sorunu görülme olasılığı yaklaşık 3,6 kat yüksekti (kanıtın kesinliği çok düşük)."
+ },
+ {
+  "id": "tur60-64",
+  "kind": "text",
+  "tr": "Pek çok kişi yorgun uyanma, sabah baş ağrısı, boyun ve omuz ağrısı gibi yakınmalar için farklı farklı tedavilere yöneliyor; klinikte bu yakınmaların altından zaman zaman diş sıkmanın çıkabildiğini görüyorum. İlerlemiş ve geçmeyen olgularda, boyundan kola yayılan ve sinir kökü basısını andıran ama gerçek bir kök basısı olmayan ağrılarla da karşılaşıyorum. Sinir kökü basısının ne olduğunu <a href=\"boyun-fitigi.html\">boyun fıtığı</a> rehberinde okuyabilirsiniz. Bunu bir araştırma sonucu olarak değil, kendi gözlemim olarak paylaşıyorum; herkes aynı yanıtı vermeyebilir."
+ },
+ {
+  "id": "tur60-65",
+  "kind": "text",
+  "tr": "Migren, fibromiyalji ve boyun ağrısıyla birlikte görülebilir"
+ },
+ {
+  "id": "tur60-66",
+  "kind": "text",
+  "tr": "Çene eklemi ve çiğneme kası sorunları, başka tanılarla sık sık birlikte görülür ve belirtileri örtüşebilir. Bu yüzden baş ağrısı, yaygın vücut ağrısı ya da boyun ağrısı nedeniyle değerlendirilen birinde çene eklemi ve çiğneme kasları da muayene edilmelidir."
+ },
+ {
+  "id": "tur60-67",
+  "kind": "text",
+  "tr": "Baş ağrısı ve migren"
+ },
+ {
+  "id": "tur60-68",
+  "kind": "text",
+  "tr": "ICHD-3; JADA, 2022"
+ },
+ {
+  "id": "tur60-69",
+  "kind": "text",
+  "tr": "Sınıflamada ayrı bir başlık var: çene eklemi bozukluğuna bağlı baş ağrısı. Genellikle şakakta olur, çiğneme ve diş sıkmayla artar; gerilim tipi baş ağrısıyla karışabilir. Bir meta-analizde migreni olanlarda çene eklemi sorunu görülme olasılığı 4–5 kat yüksekti (kanıt düşük–çok düşük kesinlikte)."
+ },
+ {
+  "id": "tur60-70",
+  "kind": "text",
+  "tr": "J Oral Facial Pain Headache, 2023"
+ },
+ {
+  "id": "tur60-71",
+  "kind": "text",
+  "tr": "19 çalışmayı birleştiren meta-analizde fibromiyaljisi olanların %76,8'inde çene eklemi sorunu vardı; çene eklemi sorunu olanların yaklaşık üçte birinde (%32,7) de fibromiyalji bulunuyordu."
+ },
+ {
+  "id": "tur60-72",
+  "kind": "text",
+  "tr": "J Clin Med, 2026"
+ },
+ {
+  "id": "tur60-73",
+  "kind": "text",
+  "tr": "Boyun ağrısı olanlarda çene eklemi sorunu görülme olasılığı yaklaşık 3,6 kat yüksekti (kanıtın kesinliği çok düşük). Yazarlar boyun ve çenenin birlikte değerlendirilmesini öneriyor."
+ },
+ {
+  "id": "tur60-74",
+  "kind": "text",
+  "tr": "İlgili rehberler: <a href=\"bas-agrisi.html\">baş ağrısı</a>, <a href=\"fibromiyalji.html\">fibromiyalji</a>, <a href=\"boyun-agrisi.html\">boyun ağrısı</a>."
+ },
+ {
+  "id": "tur60-75",
+  "kind": "text",
+  "tr": "Neden olur? Ruhsal ve diğer etkenler"
+ },
+ {
+  "id": "tur60-76",
+  "kind": "text",
+  "tr": "Bruksizmin tek bir nedeni yok; birden fazla etken birlikte rol oynuyor. Eskiden dişlerin kapanışındaki bozuklukların ana neden olduğu düşünülürdü; bugün bu etkenlerin küçük bir rol oynadığı, bruksizmin esas olarak beyin tarafından düzenlendiği kabul ediliyor."
+ },
+ {
+  "id": "tur60-77",
+  "kind": "text",
+  "tr": "Stres ve kaygı"
+ },
+ {
+  "id": "tur60-78",
+  "kind": "text",
+  "tr": "En sık sayılan etkenler. Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük)."
+ },
+ {
+  "id": "tur60-79",
+  "kind": "text",
+  "tr": "Uyku sorunları"
+ },
+ {
+  "id": "tur60-80",
+  "kind": "text",
+  "tr": "Horlama ve uykuda nefes durması (uyku apnesi) bruksizmle ilişkili."
+ },
+ {
+  "id": "tur60-81",
+  "kind": "text",
+  "tr": "Bazı ilaçların yan etkisi olarak ortaya çıkabilir; ilacınızı kendi başınıza bırakmayın, hekiminizle konuşun."
+ },
+ {
+  "id": "tur60-82",
+  "kind": "text",
+  "tr": "Alışkanlıklar"
+ },
+ {
+  "id": "tur60-83",
+  "kind": "text",
+  "tr": "Alkol, sigara, bazı uyuşturucu maddeler ve günde altı ya da daha fazla fincan kafeinli içecek (çay, kahve) riski artırabilir."
+ },
+ {
+  "id": "tur60-84",
+  "kind": "text",
+  "tr": "Ruhsal etkenler: neden önemli?"
+ },
+ {
+  "id": "tur60-85",
+  "kind": "text",
+  "tr": "Cihan Hoca'nın da yazarları arasında olduğu ve çok branşlı bir çene eklemi polikliniğine başvuran 273 hastanın incelendiği çalışmada, kadın olmak, sosyal desteğin yetersiz olması ve kas kaynaklı yüz ağrısı kaygı ya da depresyon olasılığını artırıyordu. Yazarlar, tedavi planlanırken kas ve eklem sorunlarının yanında kaygı ve depresyonun da göz önünde bulundurulmasını önerdi. Stresle başa çıkmak için <a href=\"stres.html\">stresli anlarda ne yapabilirsiniz?</a> sayfasına bakabilirsiniz."
+ },
+ {
+  "id": "tur60-86",
+  "kind": "text",
+  "tr": "Plak: dişi korur, sorunu çözmez"
+ },
+ {
+  "id": "tur60-87",
+  "kind": "text",
+  "tr": "Gece plağı (ağız koruyucu), diş hekiminin hazırladığı ve genellikle geceleri takılan bir apareydir. Dişleri birbirinden ayırarak aşınmayı önlemeye yardımcı olur; sıkma hissini ve ağrıyı azaltabilir. Ancak plağın sıkma davranışını azalttığı gösterilmedi."
+ },
+ {
+  "id": "tur60-88",
+  "kind": "text",
+  "tr": "Dişler"
+ },
+ {
+  "id": "tur60-89",
+  "kind": "text",
+  "tr": "Cochrane, 2007"
+ },
+ {
+  "id": "tur60-90",
+  "kind": "text",
+  "tr": "Plak dişleri aşınmaya karşı koruyabilir."
+ },
+ {
+  "id": "tur60-91",
+  "kind": "text",
+  "tr": "Diş sıkma"
+ },
+ {
+  "id": "tur60-92",
+  "kind": "text",
+  "tr": "Cochrane, 2007; Dent Med Probl, 2023"
+ },
+ {
+  "id": "tur60-93",
+  "kind": "text",
+  "tr": "Plağın uyku bruksizmini azalttığına dair yeterli kanıt yok; derlemelerde plaklar kısa vadede etkinlik göstermedi."
+ },
+ {
+  "id": "tur60-94",
+  "kind": "text",
+  "tr": "Kaslar ve eklem"
+ },
+ {
+  "id": "tur60-95",
+  "kind": "text",
+  "tr": "Sıkma sürebileceği için kaslar ve eklem üzerindeki yük devam edebilir; bu yüzden plak diğer yaklaşımlarla birlikte kullanılır."
+ },
+ {
+  "id": "tur60-96",
+  "kind": "text",
+  "tr": "Diş hekimi dişlerdeki aşınmayı, kırık ve çatlakları ve dişlerin kapanışını (oklüzyon) değerlendirir; plağın gerekip gerekmediğine ve türüne karar verir."
+ },
+ {
+  "id": "tur60-97",
+  "kind": "text",
+  "tr": "Çok yönlü tedavi: kim ne yapar?"
+ },
+ {
+  "id": "tur60-98",
+  "kind": "text",
+  "tr": "Şu an dünyada diş sıkmayı kesin olarak ortadan kaldırdığı gösterilmiş bir tedavi yok. Derlemelerde plak, biyolojik geri bildirim ve botulinum toksini kısa vadede kesin bir etkinlik göstermedi; bazı ilaçlar uykudaki diş sıkma olaylarını azaltmış olsa da yan etkileri nedeniyle temkin gerekiyor ve bu derlemelerin güvenilirliği çok düşük. Bu yüzden amaç; dişleri, eklemi ve kasları korumak, tetikleyicileri azaltmak ve yakınmaları hafifletmektir. Bu da çoğu zaman birden fazla branşın birlikte çalışmasını gerektirir."
+ },
+ {
+  "id": "tur60-99",
+  "kind": "text",
+  "tr": "Diş hekimi"
+ },
+ {
+  "id": "tur60-100",
+  "kind": "text",
+  "tr": "Dişler ve kapanış"
+ },
+ {
+  "id": "tur60-101",
+  "kind": "text",
+  "tr": "Aşınma, kırık ve kapanış değerlendirmesi; gerekirse plak."
+ },
+ {
+  "id": "tur60-102",
+  "kind": "text",
+  "tr": "Psikiyatri ve psikoloji"
+ },
+ {
+  "id": "tur60-103",
+  "kind": "text",
+  "tr": "Kaygı, depresyon ya da yoğun stres varsa değerlendirme ve tedavi; bilişsel davranışçı terapi gibi yöntemler."
+ },
+ {
+  "id": "tur60-104",
+  "kind": "text",
+  "tr": "Uyku değerlendirmesi"
+ },
+ {
+  "id": "tur60-105",
+  "kind": "text",
+  "tr": "Horlama ve nefes durması"
+ },
+ {
+  "id": "tur60-106",
+  "kind": "text",
+  "tr": "Uyku apnesinden şüpheleniliyorsa hekim değerlendirmesi ve gerekirse uyku testi."
+ },
+ {
+  "id": "tur60-107",
+  "kind": "text",
+  "tr": "Kaslar ve alışkanlıklar"
+ },
+ {
+  "id": "tur60-108",
+  "kind": "text",
+  "tr": "Farkındalık ve alışkanlık değiştirme, gevşeme, çene ve boyun egzersizleri, kas masajı, duruş. 24 çalışmayı inceleyen bir derlemede kas ağrısı ve etkinliği, ağız açıklığı, kaygı ve stres iyileşebildi; ancak kanıtın kalitesi çok düşüktü."
+ },
+ {
+  "id": "tur60-109",
+  "kind": "text",
+  "tr": "Yalnızca uzman hekim reçetesiyle"
+ },
+ {
+  "id": "tur60-110",
+  "kind": "text",
+  "tr": "Kanıt sınırlı: Cochrane derlemesi yedi küçük çalışmada yeterli kanıt bulamadı. Gabapentin 20 kişilik bir çalışmada gece kas etkinliğini plak kadar azalttı; aynı gruptan pregabalin için yer verebildiğimiz tek yayın, tek bir hastanın olgu sunumu. Kendi başınıza kullanmayın; hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur60-111",
+  "kind": "text",
+  "tr": "Botulinum toksini"
+ },
+ {
+  "id": "tur60-112",
+  "kind": "text",
+  "tr": "Yalnızca hekim uygular"
+ },
+ {
+  "id": "tur60-113",
+  "kind": "text",
+  "tr": "Çiğneme ve şakak kasına yapılır. 14 derlemeyi inceleyen 2025 tarihli değerlendirmede ağrıda azalma 10, diş sıkma olaylarında 7, ısırma kuvvetinde 5 derlemede bildirildi; ancak hepsinin güvenilirliği düşük ya da kritik düzeyde düşüktü ve kesin sonuç çıkarılamadı."
+ },
+ {
+  "id": "tur60-114",
+  "kind": "text",
+  "tr": "Botulinum toksini hangi kaslara yapılır?"
+ },
+ {
+  "id": "tur60-115",
+  "kind": "text",
+  "tr": "Aşağıdaki şematik çizim, diş sıkmada botulinum toksini uygulamasında kullanılan iki kası gösteriyor. Noktalar yalnızca bölgeyi anlatmak içindir; gerçek uygulama noktalarını ve dozu hekim belirler."
+ },
+ {
+  "id": "tur60-116",
+  "kind": "text",
+  "tr": "Şakak kası ve çiğneme kası: botulinum toksini uygulamasında kullanılan kaslar (şematik)"
+ },
+ {
+  "id": "tur60-117",
+  "kind": "text",
+  "tr": "<b>Şakak kası (temporalis):</b> Şakakta, kulağın üstünde yelpaze biçiminde uzanır; çeneyi kapatır ve dişleri sıkar."
+ },
+ {
+  "id": "tur60-118",
+  "kind": "text",
+  "tr": "<b>Çiğneme kası (masseter):</b> Elmacık kemiğinden alt çenenin köşesine uzanır; dişleri sıktığınızda yanağınızda sertleştiğini hissedebilirsiniz."
+ },
+ {
+  "id": "tur60-119",
+  "kind": "text",
+  "tr": "Dinlenme pozisyonu"
+ },
+ {
+  "id": "tur60-120",
+  "kind": "text",
+  "tr": "Dudaklar kapalı, dişler hafifçe ayrık, dil damakta. Gün içinde dişlerinizi sıktığınızı fark ettiğinizde bu pozisyona dönün."
+ },
+ {
+  "id": "tur60-121",
+  "kind": "text",
+  "tr": "Hatırlatıcılar"
+ },
+ {
+  "id": "tur60-122",
+  "kind": "text",
+  "tr": "Konsantrasyon ya da endişe anlarında sıkmayı fark etmek için telefon hatırlatıcısı ya da masanıza küçük bir not koyabilirsiniz; alışkanlığı değiştirmenin ilk adımı fark etmektir."
+ },
+ {
+  "id": "tur60-123",
+  "kind": "text",
+  "tr": "Çeneyi yormayın"
+ },
+ {
+  "id": "tur60-124",
+  "kind": "text",
+  "tr": "Sakız çiğnemeyin; tırnak, dudak, dil ya da diş eti ısırmaktan kaçının, kalem çiğnemeyin; esnerken çenenizi elinizle destekleyin."
+ },
+ {
+  "id": "tur60-125",
+  "kind": "text",
+  "tr": "Ilık ve soğuk"
+ },
+ {
+  "id": "tur60-126",
+  "kind": "text",
+  "tr": "Ağrılı kaslara 10–15 dakika ılık uygulama ya da 5–10 dakika buz masajı rahatlatabilir."
+ },
+ {
+  "id": "tur60-127",
+  "kind": "text",
+  "tr": "Uyku ve alışkanlıklar"
+ },
+ {
+  "id": "tur60-128",
+  "kind": "text",
+  "tr": "Düzenli uyku saatleri; özellikle akşamları kafein, alkol ve sigarayı azaltmak. Uyku için öneriler <a href=\"uyku.html\">uyku</a> sayfasında."
+ },
+ {
+  "id": "tur60-129",
+  "kind": "text",
+  "tr": "Yavaş nefes, düzenli egzersiz ve farkındalık çalışmaları stresin kaslara yansımasını azaltabilir."
+ },
+ {
+  "id": "tur60-130",
+  "kind": "text",
+  "tr": "Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın."
+ },
+ {
+  "id": "tur60-131",
+  "kind": "text",
+  "tr": "Rahatça oturun; omuzlarınızı ve çenenizi gevşetin, dişleriniz birbirine değmesin. Burnunuzdan sakin bir nefes alın ve yavaşça verin. Nefes verirken yüzünüzün iki yanındaki kasların ve şakaklarınızın yumuşadığını hissedin."
+ },
+ {
+  "id": "tur60-132",
+  "kind": "text",
+  "tr": "Çocuklarda diş gıcırdatma"
+ },
+ {
+  "id": "tur60-133",
+  "kind": "text",
+  "tr": "Diş gıcırdatma çocuklarda da görülebilir. Çoğunlukla süt dişleri ya da kalıcı dişler ilk çıktıktan sonra ortaya çıkar ve kalıcı dişler tamamen oluştuktan sonra genellikle durur. Endişeleniyorsanız, özellikle çocuğunuzun uykusunu etkiliyorsa, bir hekime başvurun; dişlerde aşınma ya da ağrı varsa diş hekimi de değerlendirebilir."
+ },
+ {
+  "id": "tur60-134",
+  "kind": "text",
+  "tr": "Mezmurlar'dan uluslararası uzlaşıya"
+ },
+ {
+  "id": "tur60-135",
+  "kind": "text",
+  "tr": "Diş gıcırdatma çok eski çağlardan beri biliniyor. 20. yüzyılda adı kondu; uzun yıllar dişlerin kapanışı ana neden sayıldı. Son 25 yılda ise bruksizmin esas olarak beyin tarafından düzenlenen bir davranış olduğu anlaşıldı."
+ },
+ {
+  "id": "tur60-136",
+  "kind": "text",
+  "tr": "Eski metinler"
+ },
+ {
+  "id": "tur60-137",
+  "kind": "text",
+  "tr": "Diş gıcırdatma, Mezmurlar'ın birkaç ayetinde de geçer."
+ },
+ {
+  "id": "tur60-138",
+  "kind": "text",
+  "tr": "20. yüzyıl başı"
+ },
+ {
+  "id": "tur60-139",
+  "kind": "text",
+  "tr": "Viyanalı diş hekimi Karolyi, diş sıkma ve gıcırdatmayı \"travmatik nevralji\" olarak tanımladı."
+ },
+ {
+  "id": "tur60-140",
+  "kind": "text",
+  "tr": "Marie ve Pietkiewicz, diş gıcırdatma için Fransızca bir terim önerdi."
+ },
+ {
+  "id": "tur60-141",
+  "kind": "text",
+  "tr": "Frohman, Yunanca \"dişleri gıcırdatmak\" anlamındaki sözcüklerden türeyen \"bruksizm\" terimini ortaya attı."
+ },
+ {
+  "id": "tur60-142",
+  "kind": "text",
+  "tr": "1960'lar–2007"
+ },
+ {
+  "id": "tur60-143",
+  "kind": "text",
+  "tr": "Dişlerin kapanışındaki (oklüzyon) bozuklukların ana neden olduğu düşüncesi öne çıktı; araştırma ve tedaviler kapanış düzeltmelerine ve plaklara odaklandı."
+ },
+ {
+  "id": "tur60-144",
+  "kind": "text",
+  "tr": "Uykuda diş sıkmadan önce beyin dalgalarında bir uyanma artışı ve kalp hızında hızlanma olduğu gösterildi (J Dent Res). Aynı yıl bruksizmin esas olarak beyin tarafından düzenlendiği, kapanışın ise küçük bir rol oynadığı yazıldı."
+ },
+ {
+  "id": "tur60-145",
+  "kind": "text",
+  "tr": "Cochrane derlemesi: plağın uyku bruksizmini azalttığına dair yeterli kanıt yok; plak dişleri aşınmaya karşı koruyabilir."
+ },
+ {
+  "id": "tur60-146",
+  "kind": "text",
+  "tr": "Cihan Hoca'nın da yazarları arasında olduğu çalışma (Arch Oral Biol): diş sıkanlarda en büyük ısırma kuvveti ve diş aşınması daha yüksekti ve ikisi birbiriyle güçlü biçimde ilişkiliydi; araştırmacılar bunun bu ilişkiyi gösteren ilk çalışma olduğunu yazdı."
+ },
+ {
+  "id": "tur60-147",
+  "kind": "text",
+  "tr": "Uluslararası uzmanlar bruksizm için ortak bir tanım üzerinde uzlaştı."
+ },
+ {
+  "id": "tur60-148",
+  "kind": "text",
+  "tr": "Uluslararası uzlaşı: uyku ve uyanıklık bruksizmi için iki ayrı tanım; sağlıklı kişilerde bir hastalık değil, sonuçları olabilecek bir davranış."
+ },
+ {
+  "id": "tur60-149",
+  "kind": "text",
+  "tr": "176 popülasyonu birleştiren meta-analiz (J Clin Med): dünyada uyku bruksizmi yaklaşık %21, uyanıklık bruksizmi %23."
+ },
+ {
+  "id": "tur60-150",
+  "kind": "text",
+  "tr": "Plak takarsam diş sıkmam geçer mi?"
+ },
+ {
+  "id": "tur60-151",
+  "kind": "text",
+  "tr": "Genellikle geçmez. Beş çalışmayı inceleyen Cochrane derlemesi, plağın uyku bruksizmini azalttığını gösterecek yeterli kanıt bulamadı; plak daha çok dişleri aşınmaya karşı koruyabilir. Sıkma sürebileceği için kaslar ve eklem üzerindeki yük devam edebilir. Bu yüzden plak tek başına değil; stres yönetimi, alışkanlıkları değiştirme ve kas çalışmasıyla birlikte düşünülür. Plağın türüne ve ne zaman takılacağına diş hekiminiz karar verir."
+ },
+ {
+  "id": "tur60-152",
+  "kind": "text",
+  "tr": "Dilimin kenarında diş izleri var; diş sıktığım anlamına mı gelir?"
+ },
+ {
+  "id": "tur60-153",
+  "kind": "text",
+  "tr": "Olabilir. Türkiye'de 98 hastanın incelendiği 2026 tarihli bir çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri vardı; yalnızca kendisi diş sıktığını söyleyenlerde bu oran %34,7 idi. Yanağın iç yüzünde dişlerin hizasında beyaz bir çizgi de sırasıyla %75,5 ve %42,9 oranında görüldü. Bu işaretler tek başına tanı koydurmaz; diş hekimi muayenesiyle birlikte değerlendirilir."
+ },
+ {
+  "id": "tur60-154",
+  "kind": "text",
+  "tr": "Çenemden klik sesi geliyor; diş sıkmayla ilgisi var mı?"
+ },
+ {
+  "id": "tur60-155",
+  "kind": "text",
+  "tr": "Klik sesi, çene ekleminin içindeki diskin ağız açılıp kapanırken yer değiştirmesiyle ilgili olabilir. Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez. Sesle birlikte ağrı, ağız açmada kısıtlılık ya da takılma varsa değerlendirme yapılmalıdır. Diş sıkma, çiğneme kası ve çene eklemi ağrısı için bir risk etkeni olabilir; ayrıntılar için <a href=\"cene-eklemi.html\">çene eklemi rahatsızlıkları</a> rehberine bakabilirsiniz."
+ },
+ {
+  "id": "tur60-156",
+  "kind": "text",
+  "tr": "Stres diş sıkmaya neden olur mu?"
+ },
+ {
+  "id": "tur60-157",
+  "kind": "text",
+  "tr": "Stres ve kaygı en sık sayılan etkenler arasında. Altı çalışmayı inceleyen (üçü meta-analizde) bir sistematik derlemede, stresi olanlarda bruksizm olasılığı yaklaşık iki kat (OR 2,07) daha yüksekti; ancak kanıtın kesinliği düşüktü. Cihan Hoca'nın da yazarları arasında olduğu ve çene eklemi polikliniğine başvuran 273 hastanın incelendiği çalışmada, kadın olmak, sosyal desteğin yetersiz olması ve kas kaynaklı yüz ağrısı, kaygı ya da depresyon olasılığını artırıyordu; yazarlar tedavi planlanırken kaygı ve depresyonun da göz önünde bulundurulmasını önerdi."
+ },
+ {
+  "id": "tur60-158",
+  "kind": "text",
+  "tr": "Botulinum toksini iğnesi diş sıkmayı tedavi eder mi?"
+ },
+ {
+  "id": "tur60-159",
+  "kind": "text",
+  "tr": "Botulinum toksini, yalnızca hekimlerin uyguladığı bir iğnedir ve diş sıkmada çiğneme kasına ve şakak kasına yapılır. 14 sistematik derlemeyi inceleyen 2025 tarihli bir genel değerlendirmede ağrıda azalma 10, diş sıkma olaylarında azalma 7, en büyük ısırma kuvvetinde azalma 5 derlemede bildirildi. Ancak derlemelerin hepsinin güvenilirliği düşük ya da kritik düzeyde düşüktü ve kesin bir sonuç çıkarılamadı. Uygun olup olmadığına hekiminiz karar verir."
+ },
+ {
+  "id": "tur60-160",
+  "kind": "text",
+  "tr": "Diş sıkma için ilaç kullanmam gerekir mi?"
+ },
+ {
+  "id": "tur60-161",
+  "kind": "text",
+  "tr": "Çoğu kişide gerekmez. Uyku bruksizminde ilaçları inceleyen Cochrane derlemesi, yedi küçük çalışmada ilaçların etkili olduğunu gösterecek yeterli kanıt bulamadı; bazı ilaçlarda yan etkiler görüldü. Sinir ağrısında kullanılan bir ilaç olan gabapentin, 20 kişilik küçük bir çalışmada gece çiğneme kası etkinliğini plak kadar azalttı. Gabapentinle aynı ilaç grubundan olan pregabalin için yer verebildiğimiz tek yayın, kaygı bozukluğu olan ve gün içinde diş sıkan tek bir hastanın olgu sunumu. Bu ilaçlar yalnızca uzman hekim reçetesiyle ve kontrolle kullanılır; kendi başınıza kullanmayın. Hangisinin uygun olduğunu hekiminize sorun."
+ },
+ {
+  "id": "tur60-162",
+  "kind": "text",
+  "tr": "Çocuğum gece diş gıcırdatıyor; ne yapmalıyım?"
+ },
+ {
+  "id": "tur60-163",
+  "kind": "text",
+  "tr": "Diş sıkma tamamen geçer mi?"
+ },
+ {
+  "id": "tur60-164",
+  "kind": "text",
+  "tr": "Şu an dünyada diş sıkmayı kesin olarak ortadan kaldırdığı gösterilmiş bir tedavi yok. Derlemelerde plak, biyolojik geri bildirim ve botulinum toksini kısa vadede kesin bir etkinlik göstermedi; bazı ilaçlar uykudaki diş sıkma olaylarını azaltmış olsa da yan etkileri nedeniyle temkin gerekiyor ve bu derlemelerin güvenilirliği çok düşük. Bruksizm esas olarak beyin tarafından düzenlenen bir davranış olduğu için amaç; dişleri, eklemi ve kasları korumak, tetikleyicileri azaltmak ve yakınmaları hafifletmektir. Bu da çoğu zaman birden fazla branşın birlikte çalışmasını gerektirir."
+ },
+ {
+  "id": "tur60-165",
+  "kind": "text",
+  "tr": "Aşağıdaki durumlarda bir hekime ya da diş hekimine başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir."
+ },
+ {
+  "id": "tur60-166",
+  "kind": "text",
+  "tr": "Göğüs ağrısı, nefes darlığı ya da terlemeyle birlikte çene ağrısı"
+ },
+ {
+  "id": "tur60-167",
+  "kind": "text",
+  "tr": "Yüzde ani uyuşma ya da güçsüzlük, konuşma bozukluğu"
+ },
+ {
+  "id": "tur60-168",
+  "kind": "text",
+  "tr": "Aynı gün bir hekime ya da diş hekimine:"
+ },
+ {
+  "id": "tur60-169",
+  "kind": "text",
+  "tr": "Çenenin kilitlenmesi: ağzın açılmaması ya da kapanmaması"
+ },
+ {
+  "id": "tur60-170",
+  "kind": "text",
+  "tr": "Yüzde ya da çenede şişlikle birlikte ateş"
+ },
+ {
+  "id": "tur60-171",
+  "kind": "text",
+  "tr": "50 yaşın üstünde yeni başlayan şakak ağrısı, çiğnerken ya da konuşurken çene ağrısı veya görme bozukluğu"
+ },
+ {
+  "id": "tur60-172",
+  "kind": "text",
+  "tr": "Birkaç gün içinde bir hekime ya da diş hekimine:"
+ },
+ {
+  "id": "tur60-173",
+  "kind": "text",
+  "tr": "Kırık ya da çatlak diş, kırık dolgu"
+ },
+ {
+  "id": "tur60-174",
+  "kind": "text",
+  "tr": "Horlama ve uykuda nefes durması fark edildiyse"
+ },
+ {
+  "id": "tur60-175",
+  "kind": "text",
+  "tr": "Birkaç haftada geçmeyen çene, yüz ya da şakak ağrısı"
+ },
+ {
+  "id": "tur60-176",
+  "kind": "text",
+  "tr": "Diş sıkma ve çene ağrısı için ev ortamında kapsamlı fonksiyonel değerlendirme ve kişiye özel rehabilitasyon seansı planlamak isterseniz WhatsApp'tan iletişime geçebilirsiniz."
+ },
+ {
+  "id": "tur60-177",
+  "kind": "wa",
+  "tr": "Merhaba, diş sıkma ve çene ağrısı için evde değerlendirme ve seans planlamak istiyorum."
+ },
+ {
+  "id": "tur60-178",
+  "kind": "text",
+  "tr": "Guinness World Records. <a href=\"https://www.guinnessworldrecords.com/world-records/75273-strongest-human-bite\" target=\"_blank\" rel=\"noopener\">Strongest human bite</a>."
+ },
+ {
+  "id": "tur60-179",
+  "kind": "text",
+  "tr": "Diraçoğlu D, Alptekin K, Çifter ED, Güçlü B, Karan A, Aksoy C. <a href=\"https://research.bau.edu.tr/en/publications/relationship-between-maximal-bite-force-and-tooth-wear-in-bruxist-2/\" target=\"_blank\" rel=\"noopener\">Relationship between maximal bite force and tooth wear in bruxist and non-bruxist individuals</a>. Arch Oral Biol. 2011;56(12):1569-1575."
+ },
+ {
+  "id": "tur60-180",
+  "kind": "text",
+  "tr": "Diraçoğlu D, Yıldırım NK, Saral İ, Özkan M, Karan A, Özkan S, Aksoy C. <a href=\"https://content.iospress.com/articles/journal-of-back-and-musculoskeletal-rehabilitation/bmr644\" target=\"_blank\" rel=\"noopener\">Temporomandibular dysfunction and risk factors for anxiety and depression</a>. J Back Musculoskelet Rehabil. 2016;29(3):487-491."
+ },
+ {
+  "id": "tur60-181",
+  "kind": "text",
+  "tr": "Lobbezoo F, Naeije M. <a href=\"https://read.qxmd.com/read/11874505/bruxism-is-mainly-regulated-centrally-not-peripherally\" target=\"_blank\" rel=\"noopener\">Bruxism is mainly regulated centrally, not peripherally</a>. J Oral Rehabil. 2001."
+ },
+ {
+  "id": "tur60-182",
+  "kind": "text",
+  "tr": "Koca CG, Yıldırım B, Tunç S, Ongun İ, Sadry S. <a href=\"https://dergipark.org.tr/en/download/article-file/6249057\" target=\"_blank\" rel=\"noopener\">Intraoral findings, soft palate dimensions, and body mass index in PSG-confirmed versus self-reported bruxism: a comparative study</a>. Cumhuriyet Dent J. 2026;29(3):552-560."
+ },
+ {
+  "id": "tur60-183",
+  "kind": "text",
+  "tr": "nidirect (NHS içeriği). <a href=\"https://www.nidirect.gov.uk/conditions/teeth-grinding\" target=\"_blank\" rel=\"noopener\">Teeth grinding (bruxism)</a>."
+ },
+ {
+  "id": "tur60-184",
+  "kind": "text",
+  "tr": "Macedo CR, Silva AB, Machado MAC, Saconato H, Prado GF. <a href=\"https://www.cochrane.org/fr/evidence/CD005514_occlusal-splints-treating-sleep-bruxism-tooth-grinding\" target=\"_blank\" rel=\"noopener\">Occlusal splints for treating sleep bruxism (tooth grinding)</a>. Cochrane Database Syst Rev. 2007;(4):CD005514."
+ },
+ {
+  "id": "tur60-185",
+  "kind": "text",
+  "tr": "<a href=\"https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005578.pub2\" target=\"_blank\" rel=\"noopener\">Pharmacotherapy for sleep bruxism</a>. Cochrane Database Syst Rev. CD005578."
+ },
+ {
+  "id": "tur60-186",
+  "kind": "text",
+  "tr": "Madani ve ark. 2012; özet: <a href=\"https://cats.uthscsa.edu/published_cats_friendly.php?id=2762\" target=\"_blank\" rel=\"noopener\">Gabapentin is as effective as an occlusal appliance in controlling nighttime masticatory EMG activity</a> (UT Health San Antonio)."
+ },
+ {
+  "id": "tur60-187",
+  "kind": "text",
+  "tr": "Headache Classification Committee of the International Headache Society. <a href=\"https://ichd-3.org/11-headache-or-facial-pain-attributed-to-disorder-of-the-cranium-neck-eyes-ears-nose-sinuses-teeth-mouth-or-other-facial-or-cervical-structure/11-7-headache-attributed-to-temporomandibular-disorder-tmd/\" target=\"_blank\" rel=\"noopener\">ICHD-3, 11.7 Headache attributed to temporomandibular disorder (TMD)</a>."
+ },
+ {
+  "id": "tur60-188",
+  "kind": "text",
+  "tr": "University Hospitals of Leicester. <a href=\"https://www.uhleicester.nhs.uk/wp-content/uploads/2025/06/436_122022-Managing-jaw-joint-disorders.pdf\" target=\"_blank\" rel=\"noopener\">Managing jaw joint disorders</a>. Leaflet 436."
+ },
+ {
+  "id": "tur60-189",
+  "kind": "text",
+  "tr": "National Institute of Dental and Craniofacial Research (NIDCR). <a href=\"https://www.nidcr.nih.gov/health-info/tmj/more-info\" target=\"_blank\" rel=\"noopener\">TMD: more info</a>."
+ },
+ {
+  "id": "tur60-190",
+  "kind": "text",
+  "tr": "nidirect (NHS içeriği). <a href=\"https://www.nidirect.gov.uk/conditions/giant-cell-arteritis\" target=\"_blank\" rel=\"noopener\">Giant cell arteritis</a>."
+ },
+ {
+  "id": "tur60-191",
+  "kind": "text",
+  "tr": "Dentalcare (Procter & Gamble). <a href=\"https://dentalcare.com/en-us/ce-courses/ce485/history-of-bruxism\" target=\"_blank\" rel=\"noopener\">Bruxism: history</a>."
+ },
+ {
+  "id": "tur60-192",
+  "kind": "ld",
+  "tr": "Bruksizm"
+ },
+ {
+  "id": "tur60-193",
+  "kind": "text",
+  "tr": "Diş sıkma ve gıcırdatma diş, çene eklemi, boyun ve uykuyu nasıl etkiler? Plağın yeri, çok yönlü tedavi ve evde egzersizler."
+ }
+]
