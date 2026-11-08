@@ -308,7 +308,7 @@ page("tansiyon-gunlugu.html", "Ev Tansiyon Günlüğü",
 # ------------------------------------------------------------------ 2 · 6 DAKİKA YÜRÜME TESTİ
 AW_FAQ = [
  ("Evde yapabilir miyim?", "Yapabilirsiniz, ama sonucu kendi ilerlemenizi izlemek için kullanın. Uluslararası standart, en az 30 metrelik düz bir koridor öneriyor; yaşa ve boya göre beklenen değerler de bu koşullarda elde edildi. Parkur kısaldıkça sonuç değişebilir: bir çalışmada 30 metrelik parkurda 10 metrelik parkura göre yaklaşık 50 metre daha fazla yüründü. Her seferinde aynı parkuru kullanın."),
- ("Neden iki kez yapmam öneriliyor?", "İnsanlar ikinci denemede genellikle daha uzağa yürür: akciğer hastalarında ikinci test ortalama 26 metre daha uzun çıkıyor. Bu yüzden ilk kez yapıyorsanız tam dinlendikten sonra testi tekrarlayıp daha iyi sonucu kaydedebilirsiniz."),
+ ("Neden iki kez yapmam öneriliyor?", "İnsanlar ikinci denemede genellikle daha uzağa yürür: KOAH hastalarında ikinci test ortalama 26 metre daha uzun çıkıyor. Bu yüzden ilk kez yapıyorsanız tam dinlendikten sonra testi tekrarlayıp daha iyi sonucu kaydedebilirsiniz."),
  ("Ne kadarlık değişim anlamlı?", "Kronik akciğer hastalıklarında anlamlı kabul edilen değişim yaklaşık 30 metre (25–33 metre). Bu değer çoğunlukla grup ortalamalarından hesaplandı; kişisel sonuçlarınızı yorumlarken hekiminiz ya da fizyoterapistinizle konuşun."),
  ("Mesafem düştü, ne anlama gelir?", "Bir yıl boyunca 2.112 KOAH hastasının izlendiği bir çalışmada, 6 dakika yürüme mesafesinde 30 metre ya da daha fazla düşüş, ölüm riskinde artışla ilişkiliydi. Sonucunuz belirgin düştüyse ya da nefes darlığınız arttıysa hekiminize danışın; bu tek başına bir tanı değildir."),
  ("Test sırasında durabilir miyim?", "Evet. Yavaşlayabilir, durup dinlenebilir ve kendinizi hazır hissettiğinizde yürümeye devam edebilirsiniz; süre işlemeye devam eder. Amaç 6 dakikada kendi temponuzla olabildiğince uzağa yürümektir; koşmayın."),
@@ -320,7 +320,7 @@ AW_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>6 dakika yürüme testi</h1>
     <p class="lede">6 dakika yürüme testi, kalp ve akciğer hastalıklarında ve rehabilitasyonda günlük hayattaki kondisyonu ölçmek için en sık kullanılan testlerden biridir: 6 dakikada kendi temponuzla ne kadar uzağa yürüdüğünüze bakılır. Bu sayfa süreyi tutar, her dakika standart cümlelerle sizi yönlendirir, parkur dönüşlerini sayarak mesafenizi hesaplar ve sonuçlarınızı kaydeder.</p>
-    <p class="meta">Son güncelleme: 23 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 8 Kasım 2026</p>
   </div>
 </header>
 
@@ -331,7 +331,7 @@ AW_BODY = f'''<header class="page">
         <div class="stat"><b>6 dakika</b><span>Kendi temponuzla, gerekirse durup dinlenerek yürünen süre</span></div>
         <div class="stat"><b>30 m</b><span>Uluslararası standartta önerilen düz parkur uzunluğu</span></div>
         <div class="stat"><b>~30 m</b><span>Kronik akciğer hastalıklarında anlamlı kabul edilen değişim</span></div>
-        <div class="stat"><b>+26 m</b><span>İkinci denemede ortalama daha uzun yürünen mesafe</span></div>
+        <div class="stat"><b>+26 m</b><span>KOAH’ta ikinci denemede ortalama daha uzun yürünen mesafe</span></div>
       </div>
     </div>
   </section>
@@ -402,11 +402,11 @@ AW_BODY = f'''<header class="page">
           <span data-k="saved">Sonuç kaydedildi</span>
           <span data-k="savedc">Birkaç hafta sonra testi aynı parkurda tekrarlayabilirsiniz.</span>
           <span data-k="lab">Sonucunuz: {{m}} metre</span>
-          <span data-k="pred">Yaşınız, boyunuz ve kilonuza göre sağlıklı yetişkinlerde beklenen yaklaşık {{p}} metre; sonucunuz bunun %{{r}}’i.</span>
+          <span data-k="pred">Yaşınız, boyunuz ve kilonuza göre sağlıklı yetişkinlerde beklenen yaklaşık {{p}} metre; sonucunuz bunun yüzde {{r}} kadarı.</span>
           <span data-k="short">Beklenen değerle karşılaştırma için en az 30 metrelik düz bir parkur gerekir. Bu sonucu, aynı parkurda kendi ilerlemenizi izlemek için kullanın.</span>
-          <span data-k="noinfo">Beklenen değeri görmek için yaşınızı (40–80), boyunuzu ve kilonuzu girin.</span>
+          <span data-k="noinfo">Beklenen değeri görmek için yaşınızı (40–80), boyunuzu (cm) ve kilonuzu (kg) girin.</span>
           <span data-k="diff">Önceki teste göre {{d}} metre.</span>
-          <span data-k="big">Bu, anlamlı kabul edilen yaklaşık 30 metrelik değişimden büyük.</span>
+          <span data-k="big">Bu değişim, anlamlı kabul edilen yaklaşık 30 metreye ulaşıyor.</span>
           <span data-k="lenx">Önceki test farklı uzunlukta bir parkurda yapıldı; sonuçlar doğrudan karşılaştırılamaz.</span>
           <span data-k="m">m</span>
           <span data-k="course">parkur {{l}} m</span>
@@ -459,6 +459,7 @@ AW_BODY = f'''<header class="page">
         "Holland AE, Spruit MA, Troosters T, et al. " + ext("https://documentserver.uhasselt.be/bitstream/1942/17964/1/1428.full.pdf", "An official European Respiratory Society/American Thoracic Society technical standard: field walking tests in chronic respiratory disease") + ". Eur Respir J. 2014;44(6):1428–1446.",
         "Enright PL, Sherrill DL. " + ext("https://experts.arizona.edu/en/publications/reference-equations-for-the-six-minute-walk-in-healthy-adults/", "Reference equations for the six-minute walk in healthy adults") + ". Am J Respir Crit Care Med. 1998;158(5 Pt 1):1384–1387.",
         "American Thoracic Society. " + ext("https://THORACIC.ORG/patients/patient-resources/resources/six-minute-walk-test.pdf", "Six-minute walk test (6MWT)") + ". Patient Education Series, 2021.",
+        "ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories. " + ext("https://thoracic.org/statements/resources/pfet/sixminute.pdf", "ATS statement: guidelines for the six-minute walk test") + ". Am J Respir Crit Care Med. 2002;166(1):111–117.",
         "Cambridge University Hospitals NHS Foundation Trust. " + ext("https://cuh.nhs.uk/patient-information/six-minute-walk-test", "Six minute walk test") + ". Version 2, February 2025.",
         "Polkey MI, Spruit MA, Edwards LD, et al. Six-minute-walk test in chronic obstructive pulmonary disease: minimal clinically important difference for death or hospitalization. Am J Respir Crit Care Med. 2013;187(4):382–386. Özet: " + ext("https://www.rbht.nhs.uk/node/878", "Royal Brompton & Harefield") + ".",
       ])}
@@ -483,8 +484,9 @@ AW_JS = '''<script>
   function keep(l){ try { localStorage.setItem(KEY, JSON.stringify(l.slice(-10))); } catch (e) {} }
   function predicted(){
     var a = num('aw-age'), h = num('aw-h'), w = num('aw-w');
-    if (a == null || h == null || w == null || a < 40 || a > 80) return null;
-    return sex() === 'm' ? 7.57 * h - 5.02 * a - 1.76 * w - 309 : 2.11 * h - 2.29 * w - 5.78 * a + 667;
+    if (a == null || h == null || w == null || a < 40 || a > 80 || h < 120 || h > 220 || w < 30 || w > 250) return null;
+    var p = sex() === 'm' ? 7.57 * h - 5.02 * a - 1.76 * w - 309 : 2.11 * h - 2.29 * w - 5.78 * a + 667;
+    return p > 0 ? p : null;
   }
   var phase = 'idle', t0 = 0, iv = null, laps = 0, said = {}, endT = 0, last = null;
   function setLaps(n){ laps = n; var l = L() || 0; $('aw-dist').textContent = String(Math.round(n * l)); $('aw-distl').textContent = fill(S.distl, {n: n}); }
