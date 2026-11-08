@@ -585,7 +585,7 @@ AA_UP = ["Kötü uyku", "Stres", "“Hareket zarar verir” korkusu", "Uzun sür
 AA_DN = ["İyi uyku", "Kademeli hareket", "Ağrıyı anlamak", "Güven ve destek", "Keyif veren uğraşlar"]
 AA_UPH = "".join(f'<button type="button" aria-pressed="false">{x}</button>' for x in AA_UP)
 AA_DNH = "".join(f'<button type="button" aria-pressed="false">{x}</button>' for x in AA_DN)
-MR = [("Disk dejenerasyonu", 37, 96), ("Disk taşması (bulging)", 30, 84), ("Disk fıtığı (protrüzyon)", 29, 43), ("Disk zarında yırtık (anüler fissür)", 19, 29)]
+MR = [("Disk dejenerasyonu", 37, 96), ("Disk taşması (bulging)", 30, 84), ("Disk fıtığı (protrüzyon)", 29, 43), ("Diskin dış halkasında yırtık (anüler fissür)", 19, 29)]
 MR_ROWS = "\n".join(f'<div class="row" data-a="{a}" data-b="{b}"><span>{t}</span><span class="bar"><i style="width:{a}%"></i></span><b>%{a}</b></div>' for t, a, b in MR)
 
 AA_FAQ = [
@@ -602,7 +602,7 @@ AA_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Ağrıyı anlamak</h1>
     <p class="lede">Ağrı gerçektir; her zaman. Ama ağrının şiddeti, her zaman dokudaki hasarın büyüklüğünü göstermez. Beyin, vücuttan gelen sinyalleri uykunuz, stresiniz, korkularınız ve geçmiş deneyimlerinizle birlikte değerlendirir ve sizi korumak için bir karar verir. Ağrının nasıl çalıştığını anlamak, özellikle uzun süren ağrıda hareket etmekten korkmayı azaltabilir.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 8 Kasım 2026</p>
   </div>
 </header>
 

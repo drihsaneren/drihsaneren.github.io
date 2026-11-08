@@ -848,3 +848,5 @@ Ayrıntılar DENETIM.md'de. Delitto %57 (PEDro 42343) doğrulandı ve sayfaya ya
 
 7 Kasım 2026 (3): genişletme partisi 10 — baş dönmesi (BPPV), golfçü dirseği (DENETIM.md). Çeviri tur58. Sonraki batch: tur59 (önce i18n/done içindeki en büyük numaraya bakın; günlük denetim de turNN kullanıyor). "Sopa ile dışa döndürme" çizimi omuz ucu yaralanması sayfasında da güncellendi (toplam 5 sayfa).
 SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) rehberi — ders niteliğinde, uzun; notlar denetim/notlar_bruksizm.md. Kullanıcıya iki nokta soruldu: (1) "yarım ton" kaynaklarda yok, ölçülen değerler (gece ort. 42 kgf, en fazla 81; gündüz istemli ort. 79 kgf) önerildi; (2) Cihan Hoca cümlesi önerildi. Kullanıcı "parça parça, kullanım hakkına dikkat, gerekirse sonraya" dedi.
+
+8 Kasım 2026: günlük denetim — ağrı günlüğü, ağrıyı anlamak, 6 dakika yürüme testi (DENETIM.md). 6MWT hesaplayıcısına boy/kilo aralık denetimi eklendi. Çeviri tur59. Sonraki batch: tur60 (önce i18n/done içindeki en büyük numaraya bakın).

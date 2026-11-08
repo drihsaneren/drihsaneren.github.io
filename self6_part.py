@@ -316,7 +316,7 @@ AG_FAQ = [
  ("Günlüğü ne sıklıkla doldurmalıyım?", "Günde bir kez, her gün yaklaşık aynı saatte doldurmanız karşılaştırmayı kolaylaştırır. Bir günü atlamanız sorun değil; aynı güne yeniden kayıt yaparsanız o günün kaydı güncellenir."),
  ("Verilerim nerede saklanıyor?", "Yalnızca bu cihazda, tarayıcınızın içinde saklanır; hiçbir sunucuya gönderilmez. Tarayıcı verilerini silerseniz ya da başka bir cihaz kullanırsanız kayıtlar görünmez. Kayıtlarınızı CSV dosyası olarak indirip saklayabilirsiniz."),
  ("Ağrım ne kadar azalırsa anlamlı bir iyileşmedir?", "Uzun süreli ağrısı olan 2.724 kişinin verileriyle yapılan bir çalışmada, 0–10 ölçeğinde ortalama 2 puanlık ya da yaklaşık %30’luk bir azalma, kişilerin kendilerini anlamlı ölçüde daha iyi hissetmelerine karşılık geliyordu. Bu bir ortalama; sizin için önemli olan, günlük hayatınızda neyin değiştiğidir. Uluslararası bir uzman grubu (IMMPACT) da iyileşmeyi değerlendirirken ağrı şiddetinin yanında günlük işlevi, duygu durumunu ve kişinin kendi genel değerlendirmesini birlikte dikkate almayı öneriyor."),
- ("Ağrım artarsa ne yapmalıyım?", "Ağrınız yeni başladıysa, giderek kötüleşiyorsa ya da başka yakınmalar eşlik ediyorsa bir hekime görünün. Bilgi köşesindeki rehberlerde her durum için ne zaman beklemeden başvurmanız gerektiğini bulabilirsiniz. Uzun süren ağrıda “çok yapıp sonra çökme” döngüsü sık görülür: iyi bir günde fazla yapılır, ağrı alevlenir ve ardından günlerce daha az hareket edilir. Bir NHS broşürü, önemli etkinlikler için ağrıyı artırmadan yapabildiğiniz bir başlangıç düzeyi bulmayı ve onu çok kademeli artırmayı öneriyor; günlüğünüz bu döngüyü fark etmenize yardım edebilir."),
+ ("Ağrım artarsa ne yapmalıyım?", "Ağrınız yeni başladıysa, giderek kötüleşiyorsa ya da başka yakınmalar eşlik ediyorsa bir hekime görünün. Bilgi köşesindeki rehberlerde her durum için ne zaman beklemeden başvurmanız gerektiğini bulabilirsiniz. Uzun süren ağrıda “çok yapıp sonra çökme” döngüsü sık görülür: iyi bir günde fazla yapılır, ağrı alevlenir ve ardından bir süre daha az hareket edilir. Bir NHS broşürü, önemli etkinlikler için ağrıyı artırmadan yapabildiğiniz bir başlangıç düzeyi bulmayı ve onu çok kademeli artırmayı öneriyor; günlüğünüz bu döngüyü fark etmenize yardım edebilir."),
 ]
 
 AG_BODY = f'''<header class="page">
@@ -325,7 +325,7 @@ AG_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Ağrı günlüğü</h1>
     <p class="lede">Ağrınız iyi günlerde ve kötü günlerde nasıl değişiyor? Her gün bir dakikanızı ayırıp ağrınızı, uykunuzu ve ne kadar hareket ettiğinizi kaydedin. Haftalar içinde ağrınızın seyrini bir grafikte görür, hekiminiz ya da fizyoterapistinizle konuşurken somut bir tabloya sahip olursunuz.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 8 Kasım 2026</p>
   </div>
 </header>
 
@@ -407,7 +407,7 @@ AG_BODY = f'''<header class="page">
       <div>
         <h2>Neden günlük tutmalı?</h2>
         <ul class="dots">
-          <li>Ağrı gün içinde ve günden güne değişir; hafıza ise çoğu zaman en kötü günleri hatırlar. Kayıtlar size daha dengeli bir tablo gösterir.</li>
+          <li>Ağrı gün içinde ve günden güne değişir; geriye dönük hatırladığımız ağrı ise en şiddetli anlardan ve en son yaşadıklarımızdan fazlaca etkilenebilir. Kayıtlar size daha dengeli bir tablo gösterir.</li>
           <li>Uykunuz, hareketiniz ve ağrınız arasında size özgü örüntüleri fark etmenizi kolaylaştırır.</li>
           <li>Tedavinizin ya da egzersiz programınızın işe yarayıp yaramadığını konuşurken somut bir dayanak olur.</li>
         </ul>
