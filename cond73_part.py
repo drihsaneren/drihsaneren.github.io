@@ -7,6 +7,24 @@
 _ex2("br_breath", "plb", "Gevşeme nefesi", "Rahatça oturun; omuzlarınızı ve çenenizi gevşetin, dişleriniz birbirine değmesin. Burnunuzdan sakin bir nefes alın ve yavaşça verin. Nefes verirken yüzünüzün iki yanındaki kasların ve şakaklarınızın yumuşadığını hissedin.", "5–10 nefes, günde birkaç kez")
 SV["br_breath"] = SV["br_breath"].replace("<figcaption>Büzük dudak nefesi</figcaption>", "<figcaption>Gevşeme nefesi</figcaption>")
 
+
+# Yeni egzersizler (9 Kasım 2026, kullanıcı isteği): sağa sola kaydırma (önden görünüş) ve öne itme (yandan). Dozlar: Guy's and St Thomas' NHS 4454/VER4.
+_BRF = ('<path class="fig" d="M38 62 C33 40 40 20 60 20 C80 20 87 40 82 62"/>'
+        '<circle cx="51" cy="44" r="2.6" fill="#2A6F6B"/><circle cx="69" cy="44" r="2.6" fill="#2A6F6B"/>'
+        '<path class="fig" d="M52 88 L50 108 M68 88 L70 108"/>')
+SV["br_side"] = fig(GRD + _BRF +
+    '<g><animateTransform attributeName="transform" type="translate" values="0 0;-6 0;0 0;6 0;0 0" keyTimes="0;0.25;0.5;0.75;1" dur="4.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>'
+    '<path class="fig hl" d="M40 60 Q42 86 60 88 Q78 86 80 60"/></g>'
+    '<path d="M32 74 H20 M24 70 L20 74 L24 78 M88 74 H100 M96 70 L100 74 L96 78" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
+    "Çeneyi sağa sola kaydırma")
+SV["br_fwd"] = fig(GRD + SKULL + TONGUE +
+    '<g><animateTransform attributeName="transform" type="translate" values="0 0;6 1;0 0" keyTimes="0;0.5;1" dur="3.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>'
+    + JAW + '</g>'
+    '<path d="M86 84 H100 M96 80 L100 84 L96 88" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></path>',
+    "Alt çeneyi öne itme")
+EXT["br_side"] = ("Çeneyi sağa sola kaydırma", "Ağzınızı hafifçe aralayın. Alt çenenizi yavaşça sola kaydırın, 10 saniye tutun ve ortaya dönün; aynısını sağa yapın. Hareketin dudaklarınızdan değil çenenizden geldiğinden emin olun ve ağrısız aralıkta kalın.", "5–10 tekrar, günde 5–8 kez")
+EXT["br_fwd"] = ("Alt çeneyi öne itme", "Çenenizi öne doğru itin; alt dişleriniz üst dişlerinizin önüne gelsin. 5–10 saniye tutun ve dinlenme pozisyonuna dönün. Ağrı ya da takılma olursa zorlamayın.", "5–10 tekrar, günde 5–8 kez")
+
 # Dört alan çizimi (diş, eklem, boyun, beyin) — numaralar dilden bağımsız, açıklamalar HTML'de
 _BR_HEAD = ('<path d="M84 226 L80 180 C60 160 50 130 54 100 C58 58 92 30 134 30 C174 30 198 58 198 90 L202 104 L214 124 L203 131 L206 141 L202 149 L204 157 L196 168 C184 172 166 172 156 176 L160 226" '
             'fill="none" stroke="#2A6F6B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>'
@@ -42,7 +60,7 @@ BR_FIG_TONGUE = '<figure class="br-fig"><svg viewBox="0 0 240 200" role="img" ar
 
 BR_FAQ = [
  ("Plak takarsam diş sıkmam geçer mi?", "Genellikle geçmez. Beş çalışmayı inceleyen Cochrane derlemesi, plağın uyku bruksizmini azalttığını gösterecek yeterli kanıt bulamadı; plak daha çok dişleri aşınmaya karşı koruyabilir. Sıkma sürebileceği için kaslar ve eklem üzerindeki yük devam edebilir. Bu yüzden plak tek başına değil; stres yönetimi, alışkanlıkları değiştirme ve kas çalışmasıyla birlikte düşünülür. Plağın türüne ve ne zaman takılacağına diş hekiminiz karar verir."),
- ("Dilimin kenarında diş izleri var; diş sıktığım anlamına mı gelir?", "Olabilir. Türkiye'de 98 hastanın incelendiği 2026 tarihli bir çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri vardı; yalnızca kendisi diş sıktığını söyleyenlerde bu oran %34,7 idi. Yanağın iç yüzünde dişlerin hizasında beyaz bir çizgi de sırasıyla %75,5 ve %42,9 oranında görüldü. Bu işaretler tek başına tanı koydurmaz: Dil ve yanak izleri yutkunma gibi olağan ağız hareketlerinden, dilin geniş olmasından ya da dişlerin dizilişinden de kaynaklanabilir ve ağır uyku apnesiyle de ilişkili bulundu. Diş hekimi muayenesiyle birlikte değerlendirilir; horlamanız da varsa hekiminize söyleyin."),
+ ("Dilimin kenarında diş izleri var; diş sıktığım anlamına mı gelir?", "Olabilir. Türkiye'de 98 hastanın incelendiği 2026 tarihli bir çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri vardı; yalnızca kendisi diş sıktığını söyleyenlerde bu oran %34,7 idi. Yanağın iç yüzünde dişlerin hizasında beyaz bir çizgi de sırasıyla %75,5 ve %42,9 oranında görüldü. Bu işaretler tek başına tanı koydurmaz: Dil ve yanak izleri yutkunma gibi olağan ağız hareketlerinden de kaynaklanabilir. Dildeki izler ayrıca dilin geniş olmasıyla ya da dişlerdeki yapısal farklılıklarla ilgili olabilir ve bir çalışmada ağır uyku apnesiyle ilişkili bulundu. Diş hekimi muayenesiyle birlikte değerlendirilir; horlamanız da varsa hekiminize söyleyin."),
  ("Çenemden klik sesi geliyor; diş sıkmayla ilgisi var mı?", "Klik sesi, çene ekleminin içindeki diskin ağız açılıp kapanırken yer değiştirmesiyle ilgili olabilir. Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez. Sesle birlikte ağrı, ağız açmada kısıtlılık ya da takılma varsa değerlendirme yapılmalıdır. Diş sıkma, çiğneme kası ve çene eklemi ağrısı için bir risk etkeni olabilir; ayrıntılar için <a href=\"cene-eklemi.html\">çene eklemi rahatsızlıkları</a> rehberine bakabilirsiniz."),
  ("Stres diş sıkmaya neden olur mu?", "Stres ve kaygı en sık sayılan etkenler arasında. Altı çalışmayı inceleyen (üçü meta-analizde) bir sistematik derlemede, stresi olanlarda bruksizm olasılığı yaklaşık iki kat (OR 2,07) daha yüksekti; ancak kanıtın kesinliği düşüktü. Cihan Hoca'nın da yazarları arasında olduğu ve çene eklemi polikliniğine başvuran 273 hastanın incelendiği çalışmada, kadın olmak, sosyal desteğin yetersiz olması ve kas kaynaklı yüz ağrısı, kaygı ya da depresyon olasılığını artırıyordu; yazarlar tedavi planlanırken kaygı ve depresyonun da göz önünde bulundurulmasını önerdi."),
  ("Botulinum toksini iğnesi diş sıkmayı tedavi eder mi?", "Botulinum toksini, yalnızca hekimlerin uyguladığı bir iğnedir ve diş sıkmada çiğneme kasına ve şakak kasına yapılır. 14 sistematik derlemeyi inceleyen 2025 tarihli bir genel değerlendirmede ağrıda azalma 10, diş sıkma olaylarında azalma 7, en büyük ısırma kuvvetinde azalma 5 derlemede bildirildi. Ancak derlemelerin hepsinin güvenilirliği düşük ya da kritik düzeyde düşüktü ve kesin bir sonuç çıkarılamadı. Uygun olup olmadığına hekiminiz karar verir."),
@@ -80,6 +98,14 @@ BR_SRC = [
  "National Institute of Dental and Craniofacial Research (NIDCR). " + ext("https://www.nidcr.nih.gov/health-info/tmj/more-info", "TMD: more info") + ".",
  "nidirect (NHS içeriği). " + ext("https://www.nidirect.gov.uk/conditions/giant-cell-arteritis", "Giant cell arteritis") + ".",
  "Dentalcare (Procter & Gamble). " + ext("https://dentalcare.com/en-us/ce-courses/ce485/history-of-bruxism", "Bruxism: history") + " ve " + ext("https://www.dentalcare.com/en-us/ce-courses/ce485/diagnosis", "Bruxism: diagnosis") + ".",
+ "Manfredini D, Lobbezoo F. " + ext("https://read.qxmd.com/read/19492540/role-of-psychosocial-factors-in-the-etiology-of-bruxism", "Role of psychosocial factors in the etiology of bruxism") + ". J Orofac Pain. 2009;23:153-166.",
+ "Serra-Negra JM, Lobbezoo F, Martins CC, Stellini E, Manfredini D. " + ext("https://www.research.unipd.it/retrieve/e14fb26b-6d51-3de1-e053-1705fe0ac030/serranegra2017.pdf", "Prevalence of sleep bruxism and awake bruxism in different chronotype profiles: hypothesis of an association") + ". Med Hypotheses. 2017.",
+ "Mortazavi N, Tabatabaei AH, Mohammadi M, et al. " + ext("https://www.nature.com/articles/s41432-023-00911-6", "Is bruxism associated with temporomandibular joint disorders? A systematic review and meta-analysis") + ". Evid Based Dent. 2023;24:144.",
+ "Sobral de Oliveira Souza AI, Raposo J, Barbosa da Silva J, et al. " + ext("https://dmp.umw.edu.pl/en/article/2026/63/3/707/", "Physical therapy interventions for awake and sleep bruxism: what has been the approach over the last decades? A systematic review of the evidence and research gaps") + ". Dent Med Probl. 2026;63(3):707-733.",
+ "NHS Fife Musculoskeletal Physiotherapy Service. " + ext("https://www.nhsfife.org/media/33087/temporomandibular_joint_disorders_v7.pdf", "Temporomandibular joint disorders") + ".",
+ "Leicestershire Partnership NHS Trust. " + ext("https://leicspart.nhs.uk/wp-content/uploads/2022/07/557-Managing-jaw-pain-TMJ.pdf", "Managing jaw pain (TMJ)") + ". Leaflet 557.",
+ "Guy's and St Thomas' NHS Foundation Trust. " + ext("https://guysandstthomas.nhs.uk/health-information/jaw-opening-exercises-and-advice", "Jaw opening exercises and advice") + ". 4454/VER4, December 2025.",
+ "StatPearls. " + ext("https://www.statpearls.com/point-of-care/20595", "Mandible dislocation") + ". Updated July 2023.",
  "Bracci A, Djukic G, Favero L, Salmaso L, Guarda-Nardini L, Manfredini D. " + ext("https://research.unipd.it/handle/11577/3271005", "Frequency of awake bruxism behaviours in the natural environment. A 7-day, multiple-point observation of real-time report in healthy young adults") + ". J Oral Rehabil. 2018;45:423-429.",
  "Guimarães FN, Canadas J, Cunha MG, et al. " + ext("https://www.frontiersin.org/articles/10.3389/frsle.2025.1652532/full", "Scalloped tongue: an additional, accessible and useful tool to detect severe obstructive sleep apnea?") + ". Front Sleep. 2025;4.",
  "Bartsch T, Goadsby PJ. " + ext("https://link.springer.com/doi/10.1007/s11916-003-0036-y", "The trigeminocervical complex and migraine: current concepts and synthesis") + ". Curr Pain Headache Rep. 2003;7(5):371-376.",
@@ -125,7 +151,7 @@ BR_BODY = f'''<header class="page">
         <div class="stat"><b>%77</b><span>Fibromiyaljisi olanlarda çene eklemi sorunu görülme oranı</span></div>
         <div class="stat"><b>4–5 kat</b><span>Migreni olanlarda çene eklemi sorunu görülme olasılığı (2022 meta-analizi; kanıt düşük–çok düşük)</span></div>
       </div>
-      {g_toc([("nedir", "Bruksizm nedir?"), ("kuvvet", "Dişlere binen kuvvet"), ("etkiler", "Dört alanda etkiler"), ("isaretler", "Dilde diş izleri ve diğer işaretler"), ("karisabilir", "Birlikte görülen durumlar"), ("nedenler", "Nedenler ve ruhsal etkenler"), ("plak", "Plak"), ("tedavi", "Çok yönlü tedavi"), ("evde", "Evde neler yapılabilir?"), ("egzersizler", "Egzersizler"), ("cocuklar", "Çocuklarda"), ("tarihce", "Geçmişten bugüne"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
+      {g_toc([("nedir", "Bruksizm nedir?"), ("kuvvet", "Dişlere binen kuvvet"), ("etkiler", "Dört alanda etkiler"), ("isaretler", "Dilde diş izleri ve diğer işaretler"), ("cikik", "Çene çıkığı"), ("karisabilir", "Birlikte görülen durumlar"), ("nedenler", "Nedenler ve ruhsal etkenler"), ("plak", "Plak"), ("tedavi", "Çok yönlü tedavi"), ("evde", "Evde neler yapılabilir?"), ("egzersizler", "Egzersizler"), ("cocuklar", "Çocuklarda"), ("tarihce", "Geçmişten bugüne"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
       <div class="callout">
         <p><strong>Bu rehber hakkında.</strong> Bu rehberdeki yaklaşımı yazarımız İhsan Eren, Türkiye'de çene eklemi bozuklukları ve diş sıkma alanında 2005'ten bu yana uluslararası dergilerde yayımlanan çalışmalarıyla bu alanın öncülerinden olan Fiziksel Tıp ve Rehabilitasyon uzmanı Prof. Dr. Cihan Aksoy'un (Cihan Hoca) yanında öğrendi. Cihan Hoca, diş sıkmada diş hekimliği, psikiyatri ve diğer branşların birlikte çalışmasını ve hangi durumda hangi tedavinin tıbben uygun olduğunu ortaya koyan bir yaklaşım geliştirdi. Bu sayfada Cihan Hoca'nın da yazarları arasında olduğu iki çalışmaya yer veriyoruz.</p>
       </div>
@@ -184,8 +210,8 @@ BR_BODY = f'''<header class="page">
       <p class="soft">Diş sıkma ve gıcırdatma dişlerde aşınmaya, sıcak-soğuk hassasiyetine, dolgu ve diş kırıklarına, dişlerde çatlaklara ve protez sorunlarına yol açabilir. Ağız içinde de ipuçları vardır: Türkiye'de 98 hastanın incelendiği 2026 tarihli bir çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri, %75,5'inde yanağın iç yüzünde dişlerin hizasında beyaz bir çizgi vardı. Diş hekimi dişlerdeki aşınmayı ve kapanışı (oklüzyon) inceler; ancak kapanış bugün bruksizmin ana nedeni olarak görülmüyor. Ağız içindeki işaretlerin ayrıntıları aşağıdaki <a href="#isaretler">dilde diş izleri ve diğer işaretler</a> bölümünde.</p>
       <h3 class="g-h3">4. Boyun: zincirin devamı</h3>
       <p class="soft">Diş sıkarken yalnızca çene kasları çalışmaz: Sağlıklı kişilerde yapılan bir kas aktivitesi çalışmasında, en güçlü diş sıkma sırasında ön boyun kaslarının etkinliği belirgin olarak arttı. Boyun ağrısı olanlarda da çene eklemi sorunları daha sık: Dokuz çalışmayı inceleyen 2026 tarihli bir meta-analizde boyun ağrısı olanlarda çene eklemi sorunu görülme olasılığı yaklaşık 3,6 kat yüksekti (kanıtın kesinliği çok düşük).</p>
-      <p class="soft">Bu bağlantının bir açıklaması sinir sistemindedir: Beyin sapında trigeminoservikal kompleks denen bölgede, baştan ve yüzden gelen ağrı sinyallerini taşıyan sinirlerle üst boyundan gelen sinirler aynı sinir hücrelerinde birleşir. Bu birleşme, ağrının baş, yüz ve boyun arasında yayılmasını ve başka bir yerde hissedilmesini (yansıyan ağrı) açıklamak için kullanılır. Bu yüzden çene ve çiğneme kaslarındaki sorun boyunda, boyundaki sorun da başta hissedilebilir.</p>
-      {OBS(BR_OBS)}
+      <p class="soft">Bu bağlantının olası bir açıklaması sinir sistemindedir: Trigeminoservikal kompleks denen sinir hücresi grubunda, baştan gelen ağrı sinyallerini taşıyan sinirlerle üst boyundan gelen sinirler aynı sinir hücrelerinde birleşir. Bu birleşmenin, ağrının baş ve boyun arasında yayılmasına ve başka bir yerde hissedilmesine (yansıyan ağrı) katkıda bulunduğu düşünülüyor. Çene ve boyun ağrılarının birlikte görülmesine de bu mekanizmanın katkıda bulunabileceği öne sürülüyor.</p>
+      <div class="callout obs"><p class="obs-k">Kişisel klinik gözlemim</p><p>{BR_OBS} Bunları bir araştırma sonucu olarak değil, kendi klinik gözlemlerim olarak paylaşıyorum; herkes aynı yanıtı vermeyebilir.</p></div>
     </div>
   </section>
 
@@ -197,18 +223,18 @@ BR_BODY = f'''<header class="page">
       {BR_FIG_TONGUE}
       <ul class="br-leg">
         <li><span class="br-sw" style="background:#C8963E"></span><span><b>Oklar:</b> Sıkma sırasında dil dişlere doğru itilir.</span></li>
-        <li><span class="br-sw" style="background:#EDB8AE;border:2px solid #B5655A"></span><span><b>Dil kenarı:</b> Dişlerin iç yüzleri, dilin iki yanında sıra sıra çentikler bırakır (dalgalı dil). Çizim şematiktir.</span></li>
+        <li><span class="br-sw" style="background:#EDB8AE;border:2px solid #B5655A"></span><span><b>Dil kenarı:</b> Dişlerin iç yüzleri, dilin iki yanında sıra sıra çentikler bırakabilir (dalgalı dil). Çizim şematiktir.</span></li>
       </ul>
       <h3 class="g-h3">Dilde diş izleri (dalgalı dil)</h3>
       <p class="soft">Dilin iki yan kenarında, dişlerin hizasında sıra sıra çentikler görülmesine dalgalı dil denir. Diş sıkma sırasında dil sürekli olarak dişlere doğru itildiği için dişlerin iç yüzleri dil kenarında iz bırakabilir. Türkiye'de yapılan 2026 tarihli çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri vardı; yalnızca kendisi diş sıktığını söyleyenlerde bu oran %34,7 idi.</p>
-      <p class="soft">Ancak bu iz yalnızca diş sıkmaya özgü değildir. Uzlaşı raporu, dil ve yanak izlerinin yutkunma gibi olağan ağız hareketlerinden de kaynaklanabileceğini vurguluyor. Dilin geniş olması, dili dişlere doğru itme alışkanlığı ve dişlerin dizilişindeki farklılıklar da dalgalı dile yol açabilir. Uyku apnesinden şüphelenilen 160 hastanın incelendiği 2025 tarihli bir çalışmada dalgalı dil hastaların yaklaşık yarısında görüldü ve ağır uyku apnesiyle ilişkiliydi (yaklaşık 3 kat). Bu yüzden dilinizde izler varsa ve horluyorsanız ya da uykuda nefesinizin durduğu söyleniyorsa, bunu hekiminize mutlaka söyleyin.</p>
+      <p class="soft">Ancak bu iz yalnızca diş sıkmaya özgü değildir. Uzlaşı raporu, dil ve yanak izlerinin yutkunma gibi olağan ağız hareketlerinden de kaynaklanabileceğini belirtiyor. Dilin geniş olması, dili dişlere doğru itme alışkanlığı ve dişlerdeki yapısal farklılıklar da dalgalı dile yol açabilir. Tam uyku testi yapılan ve çoğu uyku apnesi şüphesiyle yönlendirilmiş 160 hastanın incelendiği 2025 tarihli bir çalışmada dalgalı dil hastaların yaklaşık yarısında görüldü; dalgalı dili olanlarda ağır uyku apnesi olasılığı yaklaşık 3 kat yüksekti. Bu yüzden dilinizde izler varsa ve horluyorsanız ya da uykuda nefesinizin durduğu söyleniyorsa, bunu hekiminize mutlaka söyleyin.</p>
       <h3 class="g-h3">Diğer işaretler</h3>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Yanakta beyaz çizgi</h3><dl><dt>Linea alba</dt><dd>Yanağın iç yüzünde, arka dişlerin hizasında uzanan beyaz çizgi. Sıkma ve gıcırdatma sırasında yanakların dişlere baskısıyla oluşur. 2026 çalışmasında doğrulanmış bruksizmi olanların %75,5'inde görüldü.</dd></dl></div>
-        <div class="kind"><h3>Çiğneme kasında büyüme</h3><dl><dt>Masseter</dt><dd>Sürekli çalışan çiğneme kası zamanla kalınlaşabilir; çene köşesi daha belirgin görünebilir. Bir tarafta daha çok sıkılıyorsa büyüme tek taraflı olabilir.</dd></dl></div>
-        <div class="kind"><h3>Dişlerde aşınma izleri</h3><dl><dt>Aşınma yüzeyleri</dt><dd>Çürük olmadığı halde dişlerde düzleşmiş aşınma yüzeyleri; ön dişlerde aşırı aşınma ve dişin diş etine yakın kısmında çentikler.</dd></dl></div>
+        <div class="kind"><h3>Yanakta beyaz çizgi</h3><dl><dt>Linea alba</dt><dd>Yanağın iç yüzünde, arka dişlerin hizasında uzanan beyaz çizgi. Sıkma ve gıcırdatma sırasında yanakların dişlere baskısıyla oluşabilir. 2026 çalışmasında doğrulanmış bruksizmi olanların %75,5'inde görüldü.</dd></dl></div>
+        <div class="kind"><h3>Çiğneme kasında büyüme</h3><dl><dt>Masseter</dt><dd>Sürekli çalışan çiğneme kası zamanla kalınlaşabilir. Gıcırdatmada bir taraf daha baskınsa büyüme tek taraflı olabilir.</dd></dl></div>
+        <div class="kind"><h3>Dişlerde aşınma izleri</h3><dl><dt>Aşınma yüzeyleri</dt><dd>Dişlerde düzleşmiş aşınma yüzeyleri, ön dişlerde aşırı aşınma; bazen dişin diş etine yakın kısmında çentikler (abfraksiyon). Bu çentiklerin başka nedenleri de olabilir.</dd></dl></div>
         <div class="kind"><h3>Çatlak dişler ve dolgular</h3><dl><dt>Sert dokular</dt><dd>Dişlerde çatlaklar, tekrar tekrar kırılan ya da düşen dolgular ve protezler.</dd></dl></div>
-        <div class="kind"><h3>Sabah belirtileri</h3><dl><dt>Uyanınca</dt><dd>Uyanınca başlayan baş ağrısı; çenede yorgunluk, ağrı ya da sertlik.</dd></dl></div>
+        <div class="kind"><h3>Sabah belirtileri</h3><dl><dt>Uyanınca</dt><dd>Uyanınca hissedilen baş ağrısı; çenede yorgunluk, ağrı ya da sertlik.</dd></dl></div>
       </div>
       <h3 class="g-h3">Aynada kendinizi kontrol edin</h3>
       <ul class="tx">
@@ -218,6 +244,18 @@ BR_BODY = f'''<header class="page">
         <li><b>Sabah</b><span>Uyanınca çenenizde yorgunluk ya da baş ağrısı oluyor mu? Birlikte uyuduğunuz kişi gıcırtı duyuyor mu?</span></li>
       </ul>
       <p class="soft">Bu kontrol tanı koydurmaz. İşaretlerden biri ya da birkaçı varsa diş hekiminize, çene ve boyun ağrısı da varsa bir fizyoterapiste ya da hekime başvurabilirsiniz.</p>
+    </div>
+  </section>
+  <section id="cikik">
+    <div class="wrap">
+      <h2>Çene çıkığı: ağız açık kalırsa</h2>
+      <p class="soft">Çene eklemi, ağız çok açıldığında (esneme, gülme, şarkı söyleme, kusma gibi), diş tedavisi sırasında ya da yüze gelen bir darbeyle yerinden çıkabilir; en sık öne doğru çıkar. Ağız açık kalır ve kapanmaz; kulağın önünde ağrı, konuşma güçlüğü ve salya akması olabilir. Çıkık tek taraflıysa çene bir yana kayar.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Ne yapmalı?</h3><dl><dt>Acil durum</dt><dd>Hemen acil servise başvurun. Çeneyi kendiniz ya da bir yakınınız zorlayarak yerine oturtmaya çalışmayın.</dd></dl></div>
+        <div class="kind"><h3>Elle yerine oturtma</h3><dl><dt>Hekim yapar</dt><dd>En bilinen yöntemde hekim başparmaklarını alt arka dişlerin üzerine koyar ve çeneyi önce aşağıya, sonra geriye doğru iterek eklemi yerine oturtur. Ağrıyı ve kas kasılmasını azaltmak için gerektiğinde ilaç ya da sedasyon kullanılır.</dd></dl></div>
+        <div class="kind"><h3>Sonrasında</h3><dl><dt>1–3 hafta</dt><dd>Ağzı 2 cm'den fazla açmamak, esnerken çeneyi elle desteklemek ve birkaç gün ile iki hafta arasında yumuşak gıdalarla beslenmek önerilir; birkaç gün içinde ağız-çene cerrahisi kontrolü planlanır.</dd></dl></div>
+        <div class="kind"><h3>Tekrarlarsa</h3><dl><dt>Yineleme</dt><dd>Daha önce çıkık geçirmiş olmak ve eklemlerin aşırı gevşek olması yinelemeyi kolaylaştırır. Tekrarlayan çıkıklar eklem bağlarına ve kapsüle zarar verebilir; bu durumda uzman değerlendirmesi gerekir.</dd></dl></div>
+      </div>
     </div>
   </section>
   <section id="karisabilir">
@@ -244,7 +282,23 @@ BR_BODY = f'''<header class="page">
         <li><b>Alışkanlıklar</b><span>Alkol, sigara, bazı uyuşturucu maddeler ve günde altı ya da daha fazla fincan kafeinli içecek (çay, kahve) riski artırabilir.</span></li>
       </ul>
       <h3 class="g-h3">Ruhsal etkenler: neden önemli?</h3>
+      <p class="soft">Stresli ya da gergin anlarda pek çok kişi farkında olmadan dişlerini sıkar. Hasta broşürlerinde de duygusal stresin diş sıkma olarak ortaya çıkabileceği ve gerginliğin çene ağrısını artırabileceği belirtiliyor. 45 yayını inceleyen bir derlemeye göre özellikle gündüz diş sıkma (uyanıklık bruksizmi) ruhsal ve sosyal etkenlerle ve bazı psikolojik belirtilerle ilişkili; kaygı, strese duyarlılık, depresyon ve bazı kişilik özellikleriyle ilişki bildirilmiş. Uyku bruksizminin ruhsal bozukluklarla ilişkisine dair ise kanıt bulunamamış. Yazarlar, verilerin çoğunun kişilerin kendi bildirimine dayandığını da not ediyor.</p>
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Stres</h3><dl><dt>En sık sayılan</dt><dd>Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük). Yoğun iş, sınav, konsantrasyon ve yaşam olayları sıkmayı artırabilir.</dd></dl></div>
+        <div class="kind"><h3>Kaygı</h3><dl><dt>Kaygıya yatkınlık</dt><dd>Kaygıya yatkınlık ve strese duyarlılık, hem çocuk ve gençlerde hem yetişkinlerde bruksizmle en sık ilişkilendirilen psikolojik özellikler arasında.</dd></dl></div>
+        <div class="kind"><h3>Depresyon</h3><dl><dt>Ruh hali</dt><dd>Depresyonla ilişki bildirildi; çene eklemi ağrısı olanlarda da kaygı ve depresyon sık görülüyor.</dd></dl></div>
+        <div class="kind"><h3>Kişilik özellikleri</h3><dl><dt>Bir varsayım</dt><dd>Duygusal yönden hassas ve sorumluluk duygusu yüksek kişilerin gerginliği diş sıkarak boşaltabileceği öne sürülüyor; bu henüz kanıtlanmış bir bulgu değil, bir varsayım.</dd></dl></div>
+      </div>
+      <h3 class="g-h3">Ruh hali, diş sıkma ve ağrı birbirini etkiler</h3>
+      <p class="soft">20 çalışmayı birleştiren bir meta-analizde bruksizmi olanlarda çene eklemi bozukluğu görülme olasılığı yaklaşık 2,2 kat, uyanıklık bruksizminde 2,5 kat yüksekti. Çene eklemi ağrısı da kaygı ve depresyonla ilişkili. Yani stres sıkmayı, sıkma ağrıyı, ağrı da yeniden stresi artırabilir. Bu yüzden tedavide yalnızca dişler ve kaslar değil, ruh hali de ele alınır.</p>
       <p class="soft">Cihan Hoca'nın da yazarları arasında olduğu ve çok branşlı bir çene eklemi polikliniğine başvuran 273 hastanın incelendiği çalışmada, kadın olmak, sosyal desteğin yetersiz olması ve kas kaynaklı yüz ağrısı kaygı ya da depresyon olasılığını artırıyordu. Yazarlar, tedavi planlanırken kas ve eklem sorunlarının yanında kaygı ve depresyonun da göz önünde bulundurulmasını önerdi. Stresle başa çıkmak için <a href="stres.html">stresli anlarda ne yapabilirsiniz?</a> sayfasına bakabilirsiniz.</p>
+      <h3 class="g-h3">Ruhsal yönden neler yapılabilir?</h3>
+      <ul class="tx">
+        <li><b>Fark etmek</b><span>Gün içinde hangi durumlarda sıktığınızı gözlemleyin: iş, trafik, ekran başı, tartışma ya da endişe anları.</span></li>
+        <li><b>Gevşeme ve nefes</b><span>Sessiz bir yerde, ellerinizi karnınıza koyup burnunuzdan yavaş ve derin nefes alın; yaklaşık 5 dakika uygulayın. Öğrendikten sonra gerildiğiniz her an kullanabilirsiniz.</span></li>
+        <li><b>Düzenli hareket ve uyku</b><span>Düzenli egzersiz ve yeterli uyku stresin kaslara yansımasını azaltabilir.</span></li>
+        <li><b>Profesyonel destek</b><span>Kaygı, depresyon ya da uyku sorunu belirginse psikiyatri ya da psikoloji desteği alın; bilişsel davranışçı terapi bu yöntemlerden biridir. Bir derlemeye göre gevşeme eğitimi ve biyolojik geri bildirim, özellikle uyanıklık bruksizminde stresle ilişkili kas etkinliğini azaltabilir; ancak kanıt sınırlı.</span></li>
+      </ul>
     </div>
   </section>
 
@@ -287,7 +341,7 @@ BR_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Evde neler yapılabilir?</h2>
       <h3 class="g-h3">Önce fark etmek</h3>
-      <p class="soft">Uyanıklık bruksizmi çoğu zaman farkında olmadan olur. 46 diş hekimliği öğrencisinin bir hafta boyunca akıllı telefon uygulamasıyla günde 15 kez, rastgele zamanlarda çenelerinin o anki durumunu bildirdiği bir çalışmada, yanıtların %71,7'sinde çene kasları gevşekti; %14,5'inde dişler birbirine değiyordu, %10'unda ise dişler değmeden çene sıkılıyordu. Yani sağlıklı genç yetişkinlerde bile gün içindeki anların yaklaşık %28'inde bir tür diş sıkma davranışı vardı. Kendinizi gözlemlemek için gün içinde birkaç kez "Dişlerim şu an birbirine değiyor mu?" diye sorabilirsiniz.</p>
+      <p class="soft">Uyanıklık bruksizmi çoğu zaman farkında olmadan olur. 46 diş hekimliği öğrencisinin bir hafta boyunca akıllı telefon uygulamasıyla günde 15 kez, rastgele zamanlarda çenelerinin o anki durumunu bildirdiği bir çalışmada, yanıtların %71,7'sinde çene kasları gevşekti. En sık görülen davranışlar dişlerin birbirine değmesi (%14,5) ve dişler değmeden çenenin sıkılmasıydı (%10). Dişleri sıkma ve gıcırdatma da eklendiğinde, bu sağlıklı genç yetişkinlerde gün içindeki anların yaklaşık %28'inde bir uyanıklık bruksizmi davranışı vardı. Kendinizi gözlemlemek için gün içinde birkaç kez "Dişlerim şu an birbirine değiyor mu?" diye sorabilirsiniz.</p>
       <ul class="tx">
         <li><b>Dinlenme pozisyonu</b><span>Dudaklar kapalı, dişler hafifçe ayrık, dil damakta. Gün içinde dişlerinizi sıktığınızı fark ettiğinizde bu pozisyona dönün.</span></li>
         <li><b>Hatırlatıcılar</b><span>Konsantrasyon ya da endişe anlarında sıkmayı fark etmek için telefon hatırlatıcısı ya da masanıza küçük bir not koyabilirsiniz; alışkanlığı değiştirmenin ilk adımı fark etmektir.</span></li>
@@ -302,9 +356,9 @@ BR_BODY = f'''<header class="page">
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Egzersizler</p>
-      <h2>Çene ve boyun için altı egzersiz</h2>
-      <p class="soft">Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın.</p>
-      {ex_grid(["jaw_rest", "jaw_mass", "jaw_open", "jaw_res", "chin", "br_breath"])}
+      <h2>Çene ve boyun için sekiz egzersiz</h2>
+      <p class="soft">Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın. Sağa sola kaydırma ve öne itme, çenenin bütün yönlerde rahat hareket etmesine yardımcı olur. Yakın zamanda çene çıkığı geçirdiyseniz, ilk haftalarda ağzınızı geniş açmayın; bu egzersizlere hekiminizin ya da fizyoterapistinizin önerisiyle başlayın.</p>
+      {ex_grid(["jaw_rest", "jaw_mass", "jaw_open", "jaw_res", "br_side", "br_fwd", "chin", "br_breath"])}
     </div>
   </section>
 
@@ -335,14 +389,15 @@ BR_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Ne zaman başvurmalı?</h2>
       <p class="soft">Aşağıdaki durumlarda bir hekime ya da diş hekimine başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
-      <p class="soft"><strong>Hemen 112'yi arayın:</strong></p>
+      <p class="soft"><strong>Hemen 112'yi arayın ya da acil servise gidin:</strong></p>
       <ul class="dots redflags">
         <li>Göğüs ağrısı, nefes darlığı ya da terlemeyle birlikte çene ağrısı</li>
+        <li>Ağzın açık kalıp kapanmaması (çene çıkığı)</li>
         <li>Yüzde ani uyuşma ya da güçsüzlük, konuşma bozukluğu</li>
       </ul>
       <p class="soft"><strong>Aynı gün bir hekime ya da diş hekimine:</strong></p>
       <ul class="dots redflags">
-        <li>Çenenin kilitlenmesi: ağzın açılmaması ya da kapanmaması</li>
+        <li>Çenenin kilitlenmesi: ağzın açılmaması</li>
         <li>Yüzde ya da çenede şişlikle birlikte ateş</li>
         <li>50 yaşın üstünde yeni başlayan şakak ağrısı, çiğnerken ya da konuşurken çene ağrısı veya görme bozukluğu</li>
       </ul>
@@ -365,7 +420,7 @@ BR_BODY = f'''<header class="page">
 </main>'''
 
 page("dis-sikma.html", "Diş Sıkma ve Gıcırdatma (Bruksizm)",
-     "Diş sıkma ve gıcırdatma (bruksizm) nedir, dişlere ne kadar kuvvet biner, diş, eklem, boyun ve beyin nasıl etkilenir? Migren ve fibromiyaljiyle ilişkisi, ruhsal etkenler, plağın yeri, çok yönlü tedavi, botulinum toksini, tarihçe ve evde altı egzersiz.",
+     "Diş sıkma ve gıcırdatma (bruksizm) nedir, dişlere ne kadar kuvvet biner, diş, eklem, boyun ve beyin nasıl etkilenir? Migren ve fibromiyaljiyle ilişkisi, ruhsal etkenler, plağın yeri, çok yönlü tedavi, botulinum toksini, çene çıkığı, tarihçe ve evde sekiz egzersiz.",
      "dis-sikma.html", NECK_CSS + BR_CSS, BR_BODY, "",
      seo_title="Diş Sıkma ve Gıcırdatma (Bruksizm): Nedenleri, Etkileri ve Tedavi | İhsan Eren",
      condition="Bruksizm", faq_items=BR_FAQ)
