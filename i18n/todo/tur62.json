@@ -222,7 +222,7 @@
  {
   "id": "tur62-44",
   "kind": "text",
-  "tr": "Hemen acil servise başvurun. Çeneyi kendiniz ya da bir yakınınız zorlayarak yerine oturtmaya çalışmayın."
+  "tr": "Hemen acil servise başvurun. Çeneyi kendiniz ya da bir yakınınız zorlayarak yerine oturtmaya çalışmayın; yerine oturtmadan önce kırık olup olmadığının değerlendirilmesi gerekebilir."
  },
  {
   "id": "tur62-45",
@@ -237,7 +237,7 @@
  {
   "id": "tur62-47",
   "kind": "text",
-  "tr": "En bilinen yöntemde hekim başparmaklarını alt arka dişlerin üzerine koyar ve çeneyi önce aşağıya, sonra geriye doğru iterek eklemi yerine oturtur. Ağrıyı ve kas kasılmasını azaltmak için gerektiğinde ilaç ya da sedasyon kullanılır."
+  "tr": "En bilinen yöntemde hekim başparmaklarını alt arka dişlerin üzerine koyar ve çeneyi önce aşağıya, sonra geriye doğru iterek eklemi yerine oturtur. Ağrıyı, kaygıyı ve kas kasılmasını azaltmak için gerektiğinde ilaç ya da sedasyon kullanılır."
  },
  {
   "id": "tur62-48",
@@ -247,7 +247,7 @@
  {
   "id": "tur62-49",
   "kind": "text",
-  "tr": "Ağzı 2 cm'den fazla açmamak, esnerken çeneyi elle desteklemek ve birkaç gün ile iki hafta arasında yumuşak gıdalarla beslenmek önerilir; birkaç gün içinde ağız-çene cerrahisi kontrolü planlanır."
+  "tr": "Ağzı 2 cm'den fazla açmamak, esnerken çeneyi elle desteklemek ve birkaç gün ile iki hafta arasında yumuşak gıdalarla beslenmek önerilir; 2–3 gün içinde kulak burun boğaz ya da ağız, diş ve çene cerrahisi kontrolü önerilir."
  },
  {
   "id": "tur62-50",
@@ -262,12 +262,12 @@
  {
   "id": "tur62-52",
   "kind": "text",
-  "tr": "Daha önce çıkık geçirmiş olmak ve eklemlerin aşırı gevşek olması yinelemeyi kolaylaştırır. Tekrarlayan çıkıklar eklem bağlarına ve kapsüle zarar verebilir; bu durumda uzman değerlendirmesi gerekir."
+  "tr": "Daha önce çıkık geçirmiş olmak, çene ekleminin aşırı hareketli olması ve bağ dokusunu etkileyen bazı hastalıklar çıkık riskini ve yinelemeyi artırabilir. Tekrarlayan çıkıklar eklem bağlarına ve kapsüle zarar verebilir; bu durumda uzman değerlendirmesi gerekir."
  },
  {
   "id": "tur62-53",
   "kind": "text",
-  "tr": "Stresli ya da gergin anlarda pek çok kişi farkında olmadan dişlerini sıkar. Hasta broşürlerinde de duygusal stresin diş sıkma olarak ortaya çıkabileceği ve gerginliğin çene ağrısını artırabileceği belirtiliyor. 45 yayını inceleyen bir derlemeye göre özellikle gündüz diş sıkma (uyanıklık bruksizmi) ruhsal ve sosyal etkenlerle ve bazı psikolojik belirtilerle ilişkili; kaygı, strese duyarlılık, depresyon ve bazı kişilik özellikleriyle ilişki bildirilmiş. Uyku bruksizminin ruhsal bozukluklarla ilişkisine dair ise kanıt bulunamamış. Yazarlar, verilerin çoğunun kişilerin kendi bildirimine dayandığını da not ediyor."
+  "tr": "Stresli ya da gergin anlarda pek çok kişi farkında olmadan dişlerini sıkar. Hasta broşürlerinde de duygusal stresin diş sıkma olarak ortaya çıkabileceği ve gerginliğin çene ağrısını artırabileceği belirtiliyor. 45 yayını inceleyen bir derlemeye göre özellikle gündüz diş sıkma (uyanıklık bruksizmi) ruhsal ve sosyal etkenlerle ve bazı psikolojik belirtilerle ilişkili görünüyor; kaygı, strese duyarlılık, depresyon ve bazı kişilik özellikleriyle ilişki bildirilmiş. Uyku bruksizminin ruhsal ve sosyal sorunlarla ilişkisini destekleyen kanıt ise bulunamamış. Yazarlar, ilişki bildiren verilerin çoğunun klinik muayeneye ya da kişilerin kendi bildirimine dayandığını, uyku laboratuvarı çalışmalarının ise bu bulgularla çeliştiğini not ediyor."
  },
  {
   "id": "tur62-54",
@@ -277,7 +277,7 @@
  {
   "id": "tur62-55",
   "kind": "text",
-  "tr": "Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük). Yoğun iş, sınav, konsantrasyon ve yaşam olayları sıkmayı artırabilir."
+  "tr": "Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük). Derlemedeki çalışmalarda iş stresi ve stresli yaşam olayları gibi farklı stres türleri incelendi."
  },
  {
   "id": "tur62-56",
@@ -287,7 +287,7 @@
  {
   "id": "tur62-57",
   "kind": "text",
-  "tr": "Kaygıya yatkınlık ve strese duyarlılık, hem çocuk ve gençlerde hem yetişkinlerde bruksizmle en sık ilişkilendirilen psikolojik özellikler arasında."
+  "tr": "Kaygıya yatkınlık ve strese duyarlılık, hem çocuk ve gençlerde hem yetişkinlerde bruksizmle ilişkili başlıca psikolojik etkenler olarak sayılıyor."
  },
  {
   "id": "tur62-58",
@@ -312,7 +312,7 @@
  {
   "id": "tur62-62",
   "kind": "text",
-  "tr": "Duygusal yönden hassas ve sorumluluk duygusu yüksek kişilerin gerginliği diş sıkarak boşaltabileceği öne sürülüyor; bu henüz kanıtlanmış bir bulgu değil, bir varsayım."
+  "tr": "Kaygıya ve olumsuz duygulara yatkın (nevrotiklik), sorumluluk duygusu yüksek ve kaygılı beklentileri olan kişilerin duygusal gerginliği diş sıkarak ya da gıcırdatarak boşaltabileceği öne sürülüyor; bu henüz kanıtlanmış bir bulgu değil, bir varsayım."
  },
  {
   "id": "tur62-63",
@@ -322,7 +322,7 @@
  {
   "id": "tur62-64",
   "kind": "text",
-  "tr": "20 çalışmayı birleştiren bir meta-analizde bruksizmi olanlarda çene eklemi bozukluğu görülme olasılığı yaklaşık 2,2 kat, uyanıklık bruksizminde 2,5 kat yüksekti. Çene eklemi ağrısı da kaygı ve depresyonla ilişkili. Yani stres sıkmayı, sıkma ağrıyı, ağrı da yeniden stresi artırabilir. Bu yüzden tedavide yalnızca dişler ve kaslar değil, ruh hali de ele alınır."
+  "tr": "20 çalışmayı birleştiren bir meta-analizde bruksizmi olanlarda çene eklemi bozukluğu görülme olasılığı yaklaşık 2,2 kat, uyanıklık bruksizminde 2,5 kat yüksekti. Çene eklemi ağrısı da kaygı ve depresyonla ilişkili. Bu ilişkiler bir kısır döngüye işaret ediyor olabilir: Stres sıkmayı, sıkma ağrıyı, ağrı da yeniden stresi artırabilir. Ancak bu çalışmalar ilişkinin yönünü kesin olarak göstermiyor. Bu yüzden tedavide yalnızca dişler ve kaslar değil, ruh hali de ele alınır."
  },
  {
   "id": "tur62-65",
@@ -352,12 +352,12 @@
  {
   "id": "tur62-70",
   "kind": "text",
-  "tr": "Düzenli hareket ve uyku"
+  "tr": "Düzenli hareket ve uyku düzeni"
  },
  {
   "id": "tur62-71",
   "kind": "text",
-  "tr": "Düzenli egzersiz ve yeterli uyku stresin kaslara yansımasını azaltabilir."
+  "tr": "Düzenli egzersiz gevşemeye yardımcı olabilir. Her gece aynı saatte yatarak uykunuzu düzenlemek de diş gıcırdatmayı azaltmak için önerilen adımlar arasında."
  },
  {
   "id": "tur62-72",
@@ -367,7 +367,7 @@
  {
   "id": "tur62-73",
   "kind": "text",
-  "tr": "Kaygı, depresyon ya da uyku sorunu belirginse psikiyatri ya da psikoloji desteği alın; bilişsel davranışçı terapi bu yöntemlerden biridir. Bir derlemeye göre gevşeme eğitimi ve biyolojik geri bildirim, özellikle uyanıklık bruksizminde stresle ilişkili kas etkinliğini azaltabilir; ancak kanıt sınırlı."
+  "tr": "Kaygı, depresyon ya da uyku sorunu belirginse psikiyatri ya da psikoloji desteği alın; bilişsel davranışçı terapi bu yöntemlerden biridir. Bir sistematik derlemenin yazarlarına göre gevşeme eğitimi ya da biyolojik geri bildirim içeren yöntemler, özellikle uyanıklık bruksizminde stresle ilişkili kas etkinliğini azaltabilir; ancak kanıtın kesinliği çok düşük."
  },
  {
   "id": "tur62-74",
@@ -387,7 +387,7 @@
  {
   "id": "tur62-77",
   "kind": "text",
-  "tr": "Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın. Sağa sola kaydırma ve öne itme, çenenin bütün yönlerde rahat hareket etmesine yardımcı olur. Yakın zamanda çene çıkığı geçirdiyseniz, ilk haftalarda ağzınızı geniş açmayın; bu egzersizlere hekiminizin ya da fizyoterapistinizin önerisiyle başlayın."
+  "tr": "Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın. Sağa sola kaydırma ve öne itme, çeneyi açıp kapamanın dışındaki yönlerde de çalıştırır. Yakın zamanda çene çıkığı geçirdiyseniz, ilk 1–3 haftada ağzınızı 2 cm'den fazla açmayın; egzersizlere hekiminizin ya da fizyoterapistinizin önerisiyle başlayın."
  },
  {
   "id": "tur62-78",
@@ -412,7 +412,7 @@
  {
   "id": "tur62-82",
   "kind": "text",
-  "tr": "Çenenizi öne doğru itin; alt dişleriniz üst dişlerinizin önüne gelsin. 5–10 saniye tutun ve dinlenme pozisyonuna dönün. Ağrı ya da takılma olursa zorlamayın."
+  "tr": "Ağzınızı hafifçe aralayın. Çenenizi öne doğru itin; alt çeneniz üst çenenizin önüne geçsin. 5–10 saniye tutun ve dinlenme pozisyonuna dönün. Ağrı ya da takılma olursa zorlamayın."
  },
  {
   "id": "tur62-83",
@@ -422,35 +422,45 @@
  {
   "id": "tur62-84",
   "kind": "text",
-  "tr": "Ağzın açık kalıp kapanmaması (çene çıkığı)"
+  "tr": "Hemen acil servise gidin:"
  },
  {
   "id": "tur62-85",
   "kind": "text",
-  "tr": "Çenenin kilitlenmesi: ağzın açılmaması"
+  "tr": "Ağzın açık kalıp kapanmaması (çene çıkığı)"
  },
  {
   "id": "tur62-86",
   "kind": "text",
-  "tr": "Dentalcare (Procter & Gamble). <a href=\"https://dentalcare.com/en-us/ce-courses/ce485/history-of-bruxism\" target=\"_blank\" rel=\"noopener\">Bruxism: history</a> ve <a href=\"https://www.dentalcare.com/en-us/ce-courses/ce485/diagnosis\" target=\"_blank\" rel=\"noopener\">Bruxism: diagnosis</a>."
+  "tr": "Çenenin kilitlenmesi: ağzın açılmaması"
  },
  {
   "id": "tur62-87",
   "kind": "text",
-  "tr": "Serra-Negra JM, Lobbezoo F, Martins CC, Stellini E, Manfredini D. <a href=\"https://www.research.unipd.it/retrieve/e14fb26b-6d51-3de1-e053-1705fe0ac030/serranegra2017.pdf\" target=\"_blank\" rel=\"noopener\">Prevalence of sleep bruxism and awake bruxism in different chronotype profiles: hypothesis of an association</a>. Med Hypotheses. 2017."
+  "tr": "Dentalcare (Procter & Gamble). <a href=\"https://dentalcare.com/en-us/ce-courses/ce485/history-of-bruxism\" target=\"_blank\" rel=\"noopener\">Bruxism: history</a> ve <a href=\"https://www.dentalcare.com/en-us/ce-courses/ce485/diagnosis\" target=\"_blank\" rel=\"noopener\">Bruxism: diagnosis</a>."
  },
  {
   "id": "tur62-88",
   "kind": "text",
-  "tr": "NHS Fife Musculoskeletal Physiotherapy Service. <a href=\"https://www.nhsfife.org/media/33087/temporomandibular_joint_disorders_v7.pdf\" target=\"_blank\" rel=\"noopener\">Temporomandibular joint disorders</a>."
+  "tr": "NHS. <a href=\"https://www.nhs.uk/symptoms/teeth-grinding/\" target=\"_blank\" rel=\"noopener\">Teeth grinding (bruxism)</a>."
  },
  {
   "id": "tur62-89",
   "kind": "text",
-  "tr": "Leicestershire Partnership NHS Trust. <a href=\"https://leicspart.nhs.uk/wp-content/uploads/2022/07/557-Managing-jaw-pain-TMJ.pdf\" target=\"_blank\" rel=\"noopener\">Managing jaw pain (TMJ)</a>. Leaflet 557."
+  "tr": "Serra-Negra JM, Lobbezoo F, Martins CC, Stellini E, Manfredini D. <a href=\"https://www.research.unipd.it/retrieve/e14fb26b-6d51-3de1-e053-1705fe0ac030/serranegra2017.pdf\" target=\"_blank\" rel=\"noopener\">Prevalence of sleep bruxism and awake bruxism in different chronotype profiles: hypothesis of an association</a>. Med Hypotheses. 2017."
  },
  {
   "id": "tur62-90",
+  "kind": "text",
+  "tr": "NHS Fife Musculoskeletal Physiotherapy Service. <a href=\"https://www.nhsfife.org/media/33087/temporomandibular_joint_disorders_v7.pdf\" target=\"_blank\" rel=\"noopener\">Temporomandibular joint disorders</a>."
+ },
+ {
+  "id": "tur62-91",
+  "kind": "text",
+  "tr": "Leicestershire Partnership NHS Trust. <a href=\"https://leicspart.nhs.uk/wp-content/uploads/2022/07/557-Managing-jaw-pain-TMJ.pdf\" target=\"_blank\" rel=\"noopener\">Managing jaw pain (TMJ)</a>. Leaflet 557."
+ },
+ {
+  "id": "tur62-92",
   "kind": "text",
   "tr": "StatPearls. <a href=\"https://www.statpearls.com/point-of-care/20595\" target=\"_blank\" rel=\"noopener\">Mandible dislocation</a>. Updated July 2023."
  }

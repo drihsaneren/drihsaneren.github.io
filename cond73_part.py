@@ -23,7 +23,7 @@ SV["br_fwd"] = fig(GRD + SKULL + TONGUE +
     '<path d="M86 84 H100 M96 80 L100 84 L96 88" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></path>',
     "Alt çeneyi öne itme")
 EXT["br_side"] = ("Çeneyi sağa sola kaydırma", "Ağzınızı hafifçe aralayın. Alt çenenizi yavaşça sola kaydırın, 10 saniye tutun ve ortaya dönün; aynısını sağa yapın. Hareketin dudaklarınızdan değil çenenizden geldiğinden emin olun ve ağrısız aralıkta kalın.", "5–10 tekrar, günde 5–8 kez")
-EXT["br_fwd"] = ("Alt çeneyi öne itme", "Çenenizi öne doğru itin; alt dişleriniz üst dişlerinizin önüne gelsin. 5–10 saniye tutun ve dinlenme pozisyonuna dönün. Ağrı ya da takılma olursa zorlamayın.", "5–10 tekrar, günde 5–8 kez")
+EXT["br_fwd"] = ("Alt çeneyi öne itme", "Ağzınızı hafifçe aralayın. Çenenizi öne doğru itin; alt çeneniz üst çenenizin önüne geçsin. 5–10 saniye tutun ve dinlenme pozisyonuna dönün. Ağrı ya da takılma olursa zorlamayın.", "5–10 tekrar, günde 5–8 kez")
 
 # Dört alan çizimi (diş, eklem, boyun, beyin) — numaralar dilden bağımsız, açıklamalar HTML'de
 _BR_HEAD = ('<path d="M84 226 L80 180 C60 160 50 130 54 100 C58 58 92 30 134 30 C174 30 198 58 198 90 L202 104 L214 124 L203 131 L206 141 L202 149 L204 157 L196 168 C184 172 166 172 156 176 L160 226" '
@@ -98,7 +98,8 @@ BR_SRC = [
  "National Institute of Dental and Craniofacial Research (NIDCR). " + ext("https://www.nidcr.nih.gov/health-info/tmj/more-info", "TMD: more info") + ".",
  "nidirect (NHS içeriği). " + ext("https://www.nidirect.gov.uk/conditions/giant-cell-arteritis", "Giant cell arteritis") + ".",
  "Dentalcare (Procter & Gamble). " + ext("https://dentalcare.com/en-us/ce-courses/ce485/history-of-bruxism", "Bruxism: history") + " ve " + ext("https://www.dentalcare.com/en-us/ce-courses/ce485/diagnosis", "Bruxism: diagnosis") + ".",
- "Manfredini D, Lobbezoo F. " + ext("https://read.qxmd.com/read/19492540/role-of-psychosocial-factors-in-the-etiology-of-bruxism", "Role of psychosocial factors in the etiology of bruxism") + ". J Orofac Pain. 2009;23:153-166.",
+ "Manfredini D, Lobbezoo F. " + ext("https://research.vu.nl/en/publications/role-of-psychosocial-factors-in-the-etiology-of-bruxism/", "Role of psychosocial factors in the etiology of bruxism") + ". J Orofac Pain. 2009;23(2):153-166.",
+ "NHS. " + ext("https://www.nhs.uk/symptoms/teeth-grinding/", "Teeth grinding (bruxism)") + ".",
  "Serra-Negra JM, Lobbezoo F, Martins CC, Stellini E, Manfredini D. " + ext("https://www.research.unipd.it/retrieve/e14fb26b-6d51-3de1-e053-1705fe0ac030/serranegra2017.pdf", "Prevalence of sleep bruxism and awake bruxism in different chronotype profiles: hypothesis of an association") + ". Med Hypotheses. 2017.",
  "Mortazavi N, Tabatabaei AH, Mohammadi M, et al. " + ext("https://www.nature.com/articles/s41432-023-00911-6", "Is bruxism associated with temporomandibular joint disorders? A systematic review and meta-analysis") + ". Evid Based Dent. 2023;24:144.",
  "Sobral de Oliveira Souza AI, Raposo J, Barbosa da Silva J, et al. " + ext("https://dmp.umw.edu.pl/en/article/2026/63/3/707/", "Physical therapy interventions for awake and sleep bruxism: what has been the approach over the last decades? A systematic review of the evidence and research gaps") + ". Dent Med Probl. 2026;63(3):707-733.",
@@ -251,10 +252,10 @@ BR_BODY = f'''<header class="page">
       <h2>Çene çıkığı: ağız açık kalırsa</h2>
       <p class="soft">Çene eklemi, ağız çok açıldığında (esneme, gülme, şarkı söyleme, kusma gibi), diş tedavisi sırasında ya da yüze gelen bir darbeyle yerinden çıkabilir; en sık öne doğru çıkar. Ağız açık kalır ve kapanmaz; kulağın önünde ağrı, konuşma güçlüğü ve salya akması olabilir. Çıkık tek taraflıysa çene bir yana kayar.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Ne yapmalı?</h3><dl><dt>Acil durum</dt><dd>Hemen acil servise başvurun. Çeneyi kendiniz ya da bir yakınınız zorlayarak yerine oturtmaya çalışmayın.</dd></dl></div>
-        <div class="kind"><h3>Elle yerine oturtma</h3><dl><dt>Hekim yapar</dt><dd>En bilinen yöntemde hekim başparmaklarını alt arka dişlerin üzerine koyar ve çeneyi önce aşağıya, sonra geriye doğru iterek eklemi yerine oturtur. Ağrıyı ve kas kasılmasını azaltmak için gerektiğinde ilaç ya da sedasyon kullanılır.</dd></dl></div>
-        <div class="kind"><h3>Sonrasında</h3><dl><dt>1–3 hafta</dt><dd>Ağzı 2 cm'den fazla açmamak, esnerken çeneyi elle desteklemek ve birkaç gün ile iki hafta arasında yumuşak gıdalarla beslenmek önerilir; birkaç gün içinde ağız-çene cerrahisi kontrolü planlanır.</dd></dl></div>
-        <div class="kind"><h3>Tekrarlarsa</h3><dl><dt>Yineleme</dt><dd>Daha önce çıkık geçirmiş olmak ve eklemlerin aşırı gevşek olması yinelemeyi kolaylaştırır. Tekrarlayan çıkıklar eklem bağlarına ve kapsüle zarar verebilir; bu durumda uzman değerlendirmesi gerekir.</dd></dl></div>
+        <div class="kind"><h3>Ne yapmalı?</h3><dl><dt>Acil durum</dt><dd>Hemen acil servise başvurun. Çeneyi kendiniz ya da bir yakınınız zorlayarak yerine oturtmaya çalışmayın; yerine oturtmadan önce kırık olup olmadığının değerlendirilmesi gerekebilir.</dd></dl></div>
+        <div class="kind"><h3>Elle yerine oturtma</h3><dl><dt>Hekim yapar</dt><dd>En bilinen yöntemde hekim başparmaklarını alt arka dişlerin üzerine koyar ve çeneyi önce aşağıya, sonra geriye doğru iterek eklemi yerine oturtur. Ağrıyı, kaygıyı ve kas kasılmasını azaltmak için gerektiğinde ilaç ya da sedasyon kullanılır.</dd></dl></div>
+        <div class="kind"><h3>Sonrasında</h3><dl><dt>1–3 hafta</dt><dd>Ağzı 2 cm'den fazla açmamak, esnerken çeneyi elle desteklemek ve birkaç gün ile iki hafta arasında yumuşak gıdalarla beslenmek önerilir; 2–3 gün içinde kulak burun boğaz ya da ağız, diş ve çene cerrahisi kontrolü önerilir.</dd></dl></div>
+        <div class="kind"><h3>Tekrarlarsa</h3><dl><dt>Yineleme</dt><dd>Daha önce çıkık geçirmiş olmak, çene ekleminin aşırı hareketli olması ve bağ dokusunu etkileyen bazı hastalıklar çıkık riskini ve yinelemeyi artırabilir. Tekrarlayan çıkıklar eklem bağlarına ve kapsüle zarar verebilir; bu durumda uzman değerlendirmesi gerekir.</dd></dl></div>
       </div>
     </div>
   </section>
@@ -282,22 +283,22 @@ BR_BODY = f'''<header class="page">
         <li><b>Alışkanlıklar</b><span>Alkol, sigara, bazı uyuşturucu maddeler ve günde altı ya da daha fazla fincan kafeinli içecek (çay, kahve) riski artırabilir.</span></li>
       </ul>
       <h3 class="g-h3">Ruhsal etkenler: neden önemli?</h3>
-      <p class="soft">Stresli ya da gergin anlarda pek çok kişi farkında olmadan dişlerini sıkar. Hasta broşürlerinde de duygusal stresin diş sıkma olarak ortaya çıkabileceği ve gerginliğin çene ağrısını artırabileceği belirtiliyor. 45 yayını inceleyen bir derlemeye göre özellikle gündüz diş sıkma (uyanıklık bruksizmi) ruhsal ve sosyal etkenlerle ve bazı psikolojik belirtilerle ilişkili; kaygı, strese duyarlılık, depresyon ve bazı kişilik özellikleriyle ilişki bildirilmiş. Uyku bruksizminin ruhsal bozukluklarla ilişkisine dair ise kanıt bulunamamış. Yazarlar, verilerin çoğunun kişilerin kendi bildirimine dayandığını da not ediyor.</p>
+      <p class="soft">Stresli ya da gergin anlarda pek çok kişi farkında olmadan dişlerini sıkar. Hasta broşürlerinde de duygusal stresin diş sıkma olarak ortaya çıkabileceği ve gerginliğin çene ağrısını artırabileceği belirtiliyor. 45 yayını inceleyen bir derlemeye göre özellikle gündüz diş sıkma (uyanıklık bruksizmi) ruhsal ve sosyal etkenlerle ve bazı psikolojik belirtilerle ilişkili görünüyor; kaygı, strese duyarlılık, depresyon ve bazı kişilik özellikleriyle ilişki bildirilmiş. Uyku bruksizminin ruhsal ve sosyal sorunlarla ilişkisini destekleyen kanıt ise bulunamamış. Yazarlar, ilişki bildiren verilerin çoğunun klinik muayeneye ya da kişilerin kendi bildirimine dayandığını, uyku laboratuvarı çalışmalarının ise bu bulgularla çeliştiğini not ediyor.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Stres</h3><dl><dt>En sık sayılan</dt><dd>Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük). Yoğun iş, sınav, konsantrasyon ve yaşam olayları sıkmayı artırabilir.</dd></dl></div>
-        <div class="kind"><h3>Kaygı</h3><dl><dt>Kaygıya yatkınlık</dt><dd>Kaygıya yatkınlık ve strese duyarlılık, hem çocuk ve gençlerde hem yetişkinlerde bruksizmle en sık ilişkilendirilen psikolojik özellikler arasında.</dd></dl></div>
+        <div class="kind"><h3>Stres</h3><dl><dt>En sık sayılan</dt><dd>Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük). Derlemedeki çalışmalarda iş stresi ve stresli yaşam olayları gibi farklı stres türleri incelendi.</dd></dl></div>
+        <div class="kind"><h3>Kaygı</h3><dl><dt>Kaygıya yatkınlık</dt><dd>Kaygıya yatkınlık ve strese duyarlılık, hem çocuk ve gençlerde hem yetişkinlerde bruksizmle ilişkili başlıca psikolojik etkenler olarak sayılıyor.</dd></dl></div>
         <div class="kind"><h3>Depresyon</h3><dl><dt>Ruh hali</dt><dd>Depresyonla ilişki bildirildi; çene eklemi ağrısı olanlarda da kaygı ve depresyon sık görülüyor.</dd></dl></div>
-        <div class="kind"><h3>Kişilik özellikleri</h3><dl><dt>Bir varsayım</dt><dd>Duygusal yönden hassas ve sorumluluk duygusu yüksek kişilerin gerginliği diş sıkarak boşaltabileceği öne sürülüyor; bu henüz kanıtlanmış bir bulgu değil, bir varsayım.</dd></dl></div>
+        <div class="kind"><h3>Kişilik özellikleri</h3><dl><dt>Bir varsayım</dt><dd>Kaygıya ve olumsuz duygulara yatkın (nevrotiklik), sorumluluk duygusu yüksek ve kaygılı beklentileri olan kişilerin duygusal gerginliği diş sıkarak ya da gıcırdatarak boşaltabileceği öne sürülüyor; bu henüz kanıtlanmış bir bulgu değil, bir varsayım.</dd></dl></div>
       </div>
       <h3 class="g-h3">Ruh hali, diş sıkma ve ağrı birbirini etkiler</h3>
-      <p class="soft">20 çalışmayı birleştiren bir meta-analizde bruksizmi olanlarda çene eklemi bozukluğu görülme olasılığı yaklaşık 2,2 kat, uyanıklık bruksizminde 2,5 kat yüksekti. Çene eklemi ağrısı da kaygı ve depresyonla ilişkili. Yani stres sıkmayı, sıkma ağrıyı, ağrı da yeniden stresi artırabilir. Bu yüzden tedavide yalnızca dişler ve kaslar değil, ruh hali de ele alınır.</p>
+      <p class="soft">20 çalışmayı birleştiren bir meta-analizde bruksizmi olanlarda çene eklemi bozukluğu görülme olasılığı yaklaşık 2,2 kat, uyanıklık bruksizminde 2,5 kat yüksekti. Çene eklemi ağrısı da kaygı ve depresyonla ilişkili. Bu ilişkiler bir kısır döngüye işaret ediyor olabilir: Stres sıkmayı, sıkma ağrıyı, ağrı da yeniden stresi artırabilir. Ancak bu çalışmalar ilişkinin yönünü kesin olarak göstermiyor. Bu yüzden tedavide yalnızca dişler ve kaslar değil, ruh hali de ele alınır.</p>
       <p class="soft">Cihan Hoca'nın da yazarları arasında olduğu ve çok branşlı bir çene eklemi polikliniğine başvuran 273 hastanın incelendiği çalışmada, kadın olmak, sosyal desteğin yetersiz olması ve kas kaynaklı yüz ağrısı kaygı ya da depresyon olasılığını artırıyordu. Yazarlar, tedavi planlanırken kas ve eklem sorunlarının yanında kaygı ve depresyonun da göz önünde bulundurulmasını önerdi. Stresle başa çıkmak için <a href="stres.html">stresli anlarda ne yapabilirsiniz?</a> sayfasına bakabilirsiniz.</p>
       <h3 class="g-h3">Ruhsal yönden neler yapılabilir?</h3>
       <ul class="tx">
         <li><b>Fark etmek</b><span>Gün içinde hangi durumlarda sıktığınızı gözlemleyin: iş, trafik, ekran başı, tartışma ya da endişe anları.</span></li>
         <li><b>Gevşeme ve nefes</b><span>Sessiz bir yerde, ellerinizi karnınıza koyup burnunuzdan yavaş ve derin nefes alın; yaklaşık 5 dakika uygulayın. Öğrendikten sonra gerildiğiniz her an kullanabilirsiniz.</span></li>
-        <li><b>Düzenli hareket ve uyku</b><span>Düzenli egzersiz ve yeterli uyku stresin kaslara yansımasını azaltabilir.</span></li>
-        <li><b>Profesyonel destek</b><span>Kaygı, depresyon ya da uyku sorunu belirginse psikiyatri ya da psikoloji desteği alın; bilişsel davranışçı terapi bu yöntemlerden biridir. Bir derlemeye göre gevşeme eğitimi ve biyolojik geri bildirim, özellikle uyanıklık bruksizminde stresle ilişkili kas etkinliğini azaltabilir; ancak kanıt sınırlı.</span></li>
+        <li><b>Düzenli hareket ve uyku düzeni</b><span>Düzenli egzersiz gevşemeye yardımcı olabilir. Her gece aynı saatte yatarak uykunuzu düzenlemek de diş gıcırdatmayı azaltmak için önerilen adımlar arasında.</span></li>
+        <li><b>Profesyonel destek</b><span>Kaygı, depresyon ya da uyku sorunu belirginse psikiyatri ya da psikoloji desteği alın; bilişsel davranışçı terapi bu yöntemlerden biridir. Bir sistematik derlemenin yazarlarına göre gevşeme eğitimi ya da biyolojik geri bildirim içeren yöntemler, özellikle uyanıklık bruksizminde stresle ilişkili kas etkinliğini azaltabilir; ancak kanıtın kesinliği çok düşük.</span></li>
       </ul>
     </div>
   </section>
@@ -357,7 +358,7 @@ BR_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Egzersizler</p>
       <h2>Çene ve boyun için sekiz egzersiz</h2>
-      <p class="soft">Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın. Sağa sola kaydırma ve öne itme, çenenin bütün yönlerde rahat hareket etmesine yardımcı olur. Yakın zamanda çene çıkığı geçirdiyseniz, ilk haftalarda ağzınızı geniş açmayın; bu egzersizlere hekiminizin ya da fizyoterapistinizin önerisiyle başlayın.</p>
+      <p class="soft">Hareketleri ağrısız aralıkta, yavaşça yapın. Ağrı artıyorsa durun ve bir fizyoterapiste ya da hekime danışın. Sağa sola kaydırma ve öne itme, çeneyi açıp kapamanın dışındaki yönlerde de çalıştırır. Yakın zamanda çene çıkığı geçirdiyseniz, ilk 1–3 haftada ağzınızı 2 cm'den fazla açmayın; egzersizlere hekiminizin ya da fizyoterapistinizin önerisiyle başlayın.</p>
       {ex_grid(["jaw_rest", "jaw_mass", "jaw_open", "jaw_res", "br_side", "br_fwd", "chin", "br_breath"])}
     </div>
   </section>
@@ -389,11 +390,14 @@ BR_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Ne zaman başvurmalı?</h2>
       <p class="soft">Aşağıdaki durumlarda bir hekime ya da diş hekimine başvurun; ne kadar acil olduğu her grubun başında belirtilmiştir.</p>
-      <p class="soft"><strong>Hemen 112'yi arayın ya da acil servise gidin:</strong></p>
+      <p class="soft"><strong>Hemen 112'yi arayın:</strong></p>
       <ul class="dots redflags">
         <li>Göğüs ağrısı, nefes darlığı ya da terlemeyle birlikte çene ağrısı</li>
-        <li>Ağzın açık kalıp kapanmaması (çene çıkığı)</li>
         <li>Yüzde ani uyuşma ya da güçsüzlük, konuşma bozukluğu</li>
+      </ul>
+      <p class="soft"><strong>Hemen acil servise gidin:</strong></p>
+      <ul class="dots redflags">
+        <li>Ağzın açık kalıp kapanmaması (çene çıkığı)</li>
       </ul>
       <p class="soft"><strong>Aynı gün bir hekime ya da diş hekimine:</strong></p>
       <ul class="dots redflags">
