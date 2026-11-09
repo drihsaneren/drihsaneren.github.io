@@ -21,13 +21,13 @@ EXT["hs_nordic"] = ("Nordic hamstring", "Yalnızca iyileştikten sonra, sakatlı
 HS_FAQ = [
  ("Ne kadar sürede iyileşir?", "Yaralanmanın şiddetine göre günler, haftalar ya da aylar sürebilir. Hafif zorlanmalarda kas gücü genellikle korunur; kısmi yırtıklarda güç kaybı ve morarma olabilir. Tam yırtılan bir arka uyluk kasının iyileşmesi birkaç ay sürebilir. Birçok kişinin en az birkaç hafta spora ara vermesi gerekir."),
  ("İlk günlerde masaj ya da sıcak uygulama yapılır mı?", "İlk 72 saatte sıcak uygulama, alkol, koşu ve masajdan kaçınmanız önerilir. Bu dönemde dinlenme, buz, hafif bası ve bacağı yükseltme önerilir."),
- ("Ne zaman spora dönebilirim?", "Arka uyluk kaslarınız yeterince güçlendiğinde. Erken dönmek yaralanmayı kötüleştirebilir, çok uzun süre hareketsiz kalmak da kasın zayıflamasına ve iz dokusuna yol açabilir. Dönüş zamanını bir fizyoterapist ya da hekimle birlikte belirlemek en güvenlisidir. 2023 tarihli uluslararası bir uzman uzlaşısına göre rehabilitasyonda ilerlemenin en önemli ölçütü ağrıdır; sprint ağrısız yapılabilmeli ve spora dönmeden önce kısıtlamasız tam antrenmanlar tamamlanmalıdır. İsveç’te 75 elit futbolcuyla yapılan bir çalışmada, kası uzarken çalıştıran egzersizlere dayalı programla sahaya dönüş ortalama 28 gün, geleneksel programla 51 gün sürdü."),
+ ("Ne zaman spora dönebilirim?", "Arka uyluk kaslarınız yeterince güçlendiğinde. Erken dönmek yaralanmayı kötüleştirebilir, çok uzun süre hareketsiz kalmak da kasın zayıflamasına ve iz dokusuna yol açabilir. Dönüş zamanını bir fizyoterapist ya da hekimle birlikte belirlemek en güvenlisidir. 2023 tarihli uluslararası bir uzman uzlaşısına göre rehabilitasyonda ilerleme kasın kapasitesine ve belirtilere göre ayarlanır; kabul edilebilir ağrı düzeyi yapılan etkinliğe göre değişir, sprint ise ağrısız yapılabilmelidir. Spora dönüş kararında maçın gerektirdiği yük ve sporcunun kapasitesi esas alınır. İsveç’te 75 elit futbolcuyla yapılan bir çalışmada, kası uzarken çalıştıran egzersizlere dayalı programla sahaya dönüş ortalama 28 gün, geleneksel programla 51 gün sürdü."),
  ("Tekrarlamasını nasıl önlerim?", "Daha önce arka uyluğunu sakatlamış olanlarda yeniden sakatlanma riski yüksektir. Egzersiz öncesi ısınma, düzenli germe ve güçlendirme yardımcı olabilir. 8.459 sporcuyu kapsayan bir derlemede, Nordic hamstring egzersizini içeren programlar arka uyluk sakatlıklarını yaklaşık yarıya indirdi."),
 ]
 
 HS_SRC = [
  "nidirect. " + ext("https://nidirect.gov.uk/conditions/hamstring-injury-muscle-strain", "Hamstring injury (muscle strain)") + ". Last updated 19 December 2024.",
- "van Dyk N, Behan FP, Whiteley R. " + ext("https://bjsm.bmj.com/content/53/21/1362", "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes") + ". British Journal of Sports Medicine. 2019;53(21):1362.",
+ "van Dyk N, Behan FP, Whiteley R. " + ext("https://bjsm.bmj.com/content/53/21/1362", "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes") + ". British Journal of Sports Medicine. 2019;53(21):1362-1370.",
  "Paton BM, Read P, van Dyk N, et al. " + ext("https://bjsm.bmj.com/content/57/5/278", "London International Consensus and Delphi study on hamstring injuries part 3: rehabilitation, running and return to sport") + ". Br J Sports Med. 2023;57(5):278.",
  "NHS. " + ext("https://www.nhs.uk/conditions/hamstring-injury", "Hamstring injury") + ". Page last reviewed 28 July 2025",
  "Askling CM, Tengvar M, Thorstensson A. " + ext("https://bjsm.bmj.com/content/47/15/953", "Acute hamstring injuries in Swedish elite football: a prospective randomised controlled clinical trial comparing two rehabilitation protocols") + ". Br J Sports Med. 2013;47(15):953–959.",
@@ -39,7 +39,7 @@ HS_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Arka uyluk zorlanması (hamstring sakatlığı)</h1>
     <p class="lede">Koşarken, sprint atarken ya da ani bir hamlede uyluğunuzun arkasında keskin bir ağrı mı hissettiniz? Arka uyluk sakatlığı, uyluğun arkasındaki büyük kasların ya da kirişlerinin aşırı gerilip zorlanması ya da yırtılmasıdır. Hafif zorlanmalar birkaç günde toparlanabilir; daha ciddi yırtıklar haftalar ya da aylar sürebilir. Doğru zamanda başlanan kademeli egzersiz, hem iyileşmeyi hem de tekrarlamayı önlemeyi destekler.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 9 Kasım 2026</p>
   </div>
 </header>
 
