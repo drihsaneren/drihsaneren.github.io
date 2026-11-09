@@ -854,3 +854,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 8 Kasım 2026: YENİ sayfa diş sıkma (bruksizm) yayında (DENETIM.md). Çeviri tur60. Sonraki batch: tur61 (önce i18n/done içindeki en büyük numaraya bakın; günlük denetim de turNN kullanıyor). Kullanıcıya iletilen: ilaç marka adları yazılmadı (gerekçe), karbamazepin doğrulanamadı; Cihan Hoca adının kullanımı için kendisinin onayı önerildi.
 
 9 Kasım 2026: günlük denetim — ankilozan spondilit, arka uyluk zorlanması, aşil tendonu kopması (DENETIM.md). Çeviri tur61. Sonraki batch: tur62 (önce i18n/done içindeki en büyük numaraya bakın).
+
+9 Kasım 2026: diş sıkma (bruksizm) rehberi genişletildi (dil izleri, ruhsal etkenler, çene çıkığı, sağa sola/öne egzersizler; iki ek denetim, DENETIM.md). Çeviri tur62. Sonraki batch: tur63 (önce i18n/done içindeki en büyük numaraya bakın).
