@@ -33,7 +33,7 @@ SO_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Omuz kireçlenmesi</h1>
     <p class="lede">Omzunuz hareket ettikçe ağrıyor, uzanmak zorlaşıyor ya da hareket ederken eklemden takılma ve sürtünme sesleri mi geliyor? Omuz kireçlenmesi, eklemi kaplayan kıkırdağın zamanla incelmesiyle ortaya çıkar. Kalça, diz ve ellere göre daha seyrek görülür ve genellikle 50 yaşından sonra başlar. Çoğu kişi ameliyatsız; hareket, egzersiz ve doğru günlük alışkanlıklarla durumunu yönetir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -81,7 +81,7 @@ SO_BODY = f'''<header class="page">
         <div class="kind"><span class="n">1</span><h3>Hareketli kalın</h3><p>Omzunuzu hareket ettirmeye devam edin; yalnızca ağrılı olduğunda dinlendirin. Hareket, kasların gücünü ve eklemin esnekliğini korur.</p></div>
         <div class="kind"><span class="n">2</span><h3>İşleri bölün</h3><p>Günlük işlerinizi güne yayın, dinlenme aralarıyla bölün. Kolu baş üstüne tekrar tekrar kaldırmayı gerektiren işleri azaltın.</p></div>
         <div class="kind"><span class="n">3</span><h3>Rahat uyuyun</h3><p>Sırtüstü yatıp ağrılı kolunuzu bir yastıkla destekleyin ya da sağlam tarafınıza yatıp ağrılı kolunuzun altına bir yastık koyun.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Ağrıyı yönetin</h3><p>Hekiminize danışarak düzenli ağrı kesici kullanabilirsiniz. Havluya sarılı buz ya da sıcak uygulama da bazı kişilerde ağrıyı hafifletir.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Ağrıyı yönetin</h3><p>Ağrı kesici kullanmanız gerekiyorsa hangisinin size uygun olduğunu hekiminize sorun. Havluya sarılı buz ya da sıcak uygulama da bazı kişilerde ağrıyı hafifletir.</p></div>
       </div>
     </div>
   </section>

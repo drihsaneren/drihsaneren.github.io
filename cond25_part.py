@@ -3,12 +3,13 @@
 # Havluya bastırma, oturarak diz düzeltme, köprü ve duvarda yarım çömelme mevcut anahtarlar (çevirileri hazır).
 
 _ex2("pt_iso", "wall", "Duvarda bekleme", "Sırtınızı duvara yaslayın ve dizleriniz yaklaşık dik açı yapacak kadar kayarak inin; zorlanıyorsanız daha yukarıda kalın. Kımıldamadan bekleyin. Ağrı 10 üzerinden 3’ü geçmesin. Kolaylaştıkça ağırlığınızı ağrılı bacağa daha çok verebilirsiniz.", "45 saniye, 5 kez, her gün")
+SV["pt_iso"] = SV["wall"].replace("<figcaption>Duvarda yarım çömelme</figcaption>", "<figcaption>Duvarda bekleme</figcaption>")
 _ex2("pt_sls", "sls", "Tek bacak çömelme", "Duvarda yarım çömelme ağrısız hâle gelince başlayın. Tezgâha hafifçe tutunarak ağrılı bacağınızın üzerinde durun, dizinizi rahat ettiğiniz kadar bükün; diziniz içe kaçmasın. Sonra iterek doğrulun.", "10 tekrar, 3 set")
 
 JK_FAQ = [
  ("Dinlenirsem geçer mi?", "Kiriş iyileşmek için yüke ihtiyaç duyar, ancak fazla yük ağrıyı artırır. Tamamen dinlenmek yerine ağrıyı artıran koşu, sıçrama ve uzun yürüyüşleri azaltıp kademeli egzersize başlayabilirsiniz."),
- ("Ne kadar sürer?", "Çoğu zaman aylar sürebilir. Büyük kısmının belirtileri yaklaşık iki yıldır süren sporcularla yapılan bir çalışmada, 24 haftanın sonunda katılımcıların yarısından azı eski spor düzeyine dönebilmişti. Düzenli ve sabırlı egzersiz önemlidir."),
- ("Spora devam edebilir miyim?", "Yükü azaltarak, ağrının izin verdiği ölçüde devam edebilirsiniz. Çalışmada sporcular, tek bacak çömelmede ağrı 10 üzerinden 3 ya da altına inince bir sonraki aşamaya geçti ve spora kademeli olarak döndü. Belirtiler alevlendiğinde ise etkinliği en az 4 hafta bırakmaları ya da belirgin azaltmaları önerildi."),
+ ("Ne kadar sürer?", "Çoğu zaman aylar sürebilir. Belirtileri ortanca olarak yaklaşık iki yıldır süren sporcularla yapılan bir çalışmada, 24 haftanın sonunda katılımcıların yarısından azı eski spor düzeyine dönebilmişti. Düzenli ve sabırlı egzersiz önemlidir."),
+ ("Spora devam edebilir miyim?", "Yükü azaltarak, ağrının izin verdiği ölçüde devam edebilirsiniz. Çalışmada sporcular, tek bacak çömelmede ağrı 10 üzerinden 3 ya da altına inince bir sonraki aşamaya geçti ve spora kademeli olarak döndü. Çalışmanın başında her iki gruba da, kirişte belirgin ağrı yapan sportif etkinlikleri en az 4 hafta boyunca belirgin şekilde azaltmaları ya da hiç yapmamaları önerildi."),
  ("Diz önü ağrısından farkı ne?", "Atlet dizinde ağrı diz kapağının hemen altında, kirişin üzerindedir. Diz önü ağrısında ise ağrı daha çok diz kapağının çevresinde ve arkasında hissedilir. Ayrıntılar için diz önü ağrısı rehberimize bakabilirsiniz."),
 ]
 
@@ -26,7 +27,7 @@ JK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Atlet dizi (patellar tendinopati)</h1>
     <p class="lede">Atlet dizi, diz kapağının hemen altındaki kirişte (patellar tendon) aşırı yüklenmeyle ortaya çıkan ağrıdır. Voleybol ve basketbol gibi sıçrama gerektiren sporlarda sık görülür, ama sporcu olmayanlarda da olabilir. Tek başına dinlenmek çoğu zaman yetmez; tedavinin temeli, kirişi aşama aşama yeniden yüke alıştıran egzersizlerdir.</p>
-    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -69,7 +70,7 @@ JK_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Aşamalı yüklenme</h2>
-        <p class="soft">Hollanda’da 76 hastayla yapılan bir çalışmada, katılımcıların çoğunun ağrısı yaklaşık iki yıldır sürüyordu. Yarısı dört aşamalı bir programa, yarısı yalnızca eğimli zeminde yavaş inişli (eksantrik) çömelmeye ayrıldı. 24 hafta sonra aşamalı programdaki grup daha fazla iyileşti; spora dönüş oranı %43’e karşı %27 idi, ancak bu fark istatistiksel olarak anlamlı değildi.</p>
+        <p class="soft">Hollanda’da 76 hastayla yapılan bir çalışmada, katılımcıların ağrısı ortanca (medyan) olarak yaklaşık iki yıldır sürüyordu. Yarısı dört aşamalı bir programa, yarısı yalnızca eğimli zeminde yavaş inişli (eksantrik) çömelmeye ayrıldı. 24 hafta sonra aşamalı programdaki grup daha fazla iyileşti; spora dönüş oranı %43’e karşı %27 idi, ancak bu fark istatistiksel olarak anlamlı değildi.</p>
       </div>
       <div>
         <h2>Programın dört aşaması</h2>
@@ -121,7 +122,7 @@ JK_BODY = f'''<header class="page">
         <li>Diz çok ağrılıysa, dizinizi hareket ettiremiyor ya da üzerine basamıyorsanız</li>
         <li>Diz çok şiştiyse ya da şekli değiştiyse</li>
         <li>Diz kilitleniyor, boşalıyor ya da ağrılı biçimde tıklıyorsa</li>
-        <li>Yüksek ateş, titreme ya da dizde kızarıklık ve sıcaklık varsa</li>
+        <li>Yüksek ateşiniz ya da üşüme ve titremeniz varken dizde kızarıklık ve sıcaklık da varsa</li>
       </ul>
       {CTA_CARD("Diz ağrınız", "atlet dizi")}
     </div>

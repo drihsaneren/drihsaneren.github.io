@@ -32,7 +32,7 @@ KL_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Köprücük kemiği kırığı</h1>
     <p class="lede">Düşerken omzunuzun ya da elinizin üzerine mi geldiniz, omzunuzda şişlik ve şekil değişikliği mi var? Köprücük kemiği kırıklarının çoğu ameliyatsız, kol askısıyla iyileşir. Yetişkinlerde iyileşme yaklaşık 6–8 hafta, çocuklarda 3–4 hafta sürer. Bu dönemde dirsek, el ve omuz egzersizleri tutukluğu önler ve kolunuzu yeniden kullanmanızı kolaylaştırır.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -76,7 +76,7 @@ KL_BODY = f'''<header class="page">
       <h2>İyileşme döneminde neler iyi gelir?</h2>
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>Askıyı doğru kullanın</h3><p>İlk iki hafta gündüzleri askıyı takın; yalnızca egzersiz ve yıkanma için çıkarın. Gece takmak isteğe bağlıdır. İlk iki hafta dirseğinizi omuz hizasının üzerine kaldırmayın.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Buz ve ağrı kesici</h3><p>İlk 24–48 saatte havluya sarılı buzu iki saatte bir en fazla 20 dakika uygulayabilirsiniz. Hekiminize danışarak düzenli ağrı kesici kullanabilirsiniz.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Buz ve ağrı kesici</h3><p>İlk 24–48 saatte havluya sarılı buzu iki saatte bir en fazla 20 dakika uygulayabilirsiniz. Ağrı kesici kullanmanız gerekiyorsa hangisinin size uygun olduğunu hekiminize sorun.</p></div>
         <div class="kind"><span class="n">3</span><h3>Rahat uyuyun</h3><p>Yastıklarla desteklenmiş, yarı oturur bir pozisyonda uyumak daha rahat olabilir. Kolunuzla gövdeniz arasına yumuşak bir yastık koyabilirsiniz.</p></div>
         <div class="kind"><span class="n">4</span><h3>Sigarayı bırakın</h3><p>Sigara kırığın kaynamasını yavaşlatır, uç durumlarda durdurabilir. İyileşme döneminde bırakmak kemiğinize iyi gelir.</p></div>
       </div>

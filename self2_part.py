@@ -1093,11 +1093,11 @@ TASKS = [
  ("Arkadaş", "Uzun zamandır konuşmadığınız birine “aklıma geldin” diye kısa bir mesaj atın.",
   "Yaklaşık 6.000 kişiyle yapılan deneylerde insanlar, böyle bir mesajın karşı tarafı ne kadar sevindireceğini tutarlı biçimde olduğundan az tahmin etti."),
  ("Teşekkür", "Hayatınızda iz bırakmış birine kısa bir teşekkür mektubu yazıp gönderin.",
-  "Yazanlar, karşı tarafın ne kadar şaşırıp sevineceğini az, ne kadar tuhaf hissedeceğini fazla tahmin ediyor. Yazmak yalnızca birkaç dakika sürüyor."),
+  "Yazanlar, karşı tarafın ne kadar şaşırıp sevineceğini az, ne kadar tuhaf hissedeceğini fazla tahmin ediyor."),
  ("Aile", "Bugün bir yakınınıza mesaj yazmak yerine sesli arayın.",
   "Eski arkadaşlarıyla telefonda konuşanlar, yazışanlara göre daha güçlü bağ kurduklarını bildirdi ve bu, yazışmaktan daha tuhaf hissettirmedi."),
  ("Yabancı", "Otobüste, sırada ya da bakkalda biriyle kısa bir sohbet açın.",
-  "Trende yanındakiyle konuşanlar, yolculuğu yalnız geçirenlerden daha keyifli buldu; oysa tam tersini bekliyorlardı."),
+  "Trende yanındakiyle konuşanlar, yolculuğu yalnız geçirenlerden daha keyifli buldu; oysa aynı durumu hayal eden başka yolcular tam tersini bekliyordu."),
  ("Komşu", "Bir komşunuzu çaya davet edin ya da kapısını çalıp hâlini hatırını sorun.", ""),
  ("Aile", "Yaşlı bir akrabanızı ziyaret edin ya da görüntülü arayın.",
   "Dünya Sağlık Örgütü'ne göre her 3 yaşlıdan biri sosyal olarak yalıtılmış olabilir."),
@@ -1105,7 +1105,7 @@ TASKS = [
  ("Yürüyüş", "Yürüyüşünüzü bir arkadaşınızla, mümkünse bir parkta yapın.",
   "Hareket, doğa ve sohbet bir arada. Doğanın etkisi için Doğa reçetesi sayfasına bakabilirsiniz."),
  ("Dokunma", "Sevdiğiniz birine sarılın.",
-  "404 yetişkinle yapılan bir çalışmada daha sık sarılanlar, soğuk algınlığı virüsüne karşı biraz daha korunaklıydı ve hastalananların belirtileri daha hafifti."),
+  "404 yetişkinle yapılan bir gözlem çalışmasında daha sık sarılanlarda, çatışmaların soğuk algınlığı riskini artırıcı etkisi daha zayıftı ve hastalananların belirtileri daha hafifti."),
  ("Topluluk", "Bir kursa, koroya, yürüyüş grubuna ya da gönüllü bir etkinliğe katılın.",
   "Düzenli buluşan gruplar, bağları kendiliğinden sürdürmeyi kolaylaştırır."),
  ("Dinlemek", "Bugün birini sözünü kesmeden ve telefona bakmadan dinleyin.", ""),
@@ -1131,7 +1131,7 @@ SOCIAL_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Sosyal bağ: unutulan sağlık önerisi</h1>
     <p class="lede">Dünya Sağlık Örgütü'ne göre dünyada her 6 kişiden biri yalnızlık yaşıyor ve yalnızlık her saat yaklaşık 100 ölümle ilişkili. 148 çalışmayı bir araya getiren bir analizde, güçlü sosyal ilişkileri olanların hayatta kalma olasılığı %50 daha yüksekti. İyi haber: bağ kurmak için büyük adımlar gerekmiyor ve küçük adımların etkisini çoğu zaman olduğundan az tahmin ediyoruz.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -1140,7 +1140,7 @@ SOCIAL_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>6 kişiden 1</b><span>Dünyada yalnızlık yaşayanların oranı (DSÖ, 2025)</span></div>
-        <div class="stat"><b>871.000</b><span>Yalnızlıkla ilişkili yıllık ölüm: saatte yaklaşık 100</span></div>
+        <div class="stat"><b>871.000+</b><span>Yalnızlıkla ilişkili yıllık ölüm: saatte yaklaşık 100</span></div>
         <div class="stat"><b>%50</b><span>Güçlü sosyal ilişkileri olanlarda daha yüksek hayatta kalma olasılığı (148 çalışma, 308.849 kişi)</span></div>
         <div class="stat"><b>2 kat</b><span>Yalnız hissedenlerde depresyona girme olasılığı</span></div>
       </div>
@@ -1185,12 +1185,12 @@ SOCIAL_BODY = f'''<header class="page">
       <h2>Tahminlerimiz yanılıyor</h2>
       <p class="soft">Psikoloji araştırmaları, bağ kurmaktan çoğu zaman yanlış tahminler yüzünden kaçındığımızı gösteriyor.</p>
       <div class="kinds">
-        <div class="kind"><span class="n">1</span><h3>Yabancıyla sohbet</h3><p>Trende yolculara yanındakiyle konuşmaları söylendiğinde, yalnız kalanlardan daha keyifli bir yolculuk geçirdiler; oysa tersini bekliyorlardı. Konuşulan kişiler de bundan hoşlandı.</p></div>
+        <div class="kind"><span class="n">1</span><h3>Yabancıyla sohbet</h3><p>Trende yolculara yanındakiyle konuşmaları söylendiğinde, yalnız kalanlardan daha keyifli bir yolculuk geçirdiler; aynı durumu hayal eden başka katılımcılar ise tersini bekliyordu. Laboratuvardaki bir deneyde, kendisiyle konuşulan kişiler de konuşmayı başlatanlar kadar keyif aldı.</p></div>
         <div class="kind"><span class="n">2</span><h3>Teşekkür mektubu</h3><p>Yazanlar, alıcının ne kadar şaşırıp sevineceğini az, ne kadar tuhaf hissedeceğini fazla tahmin etti.</p></div>
         <div class="kind"><span class="n">3</span><h3>“Aklıma geldin”</h3><p>13 deneyde yaklaşık 6.000 kişi: kısa bir mesajın ya da küçük bir hediyenin ne kadar takdir göreceğini genellikle az tahmin ettik. Beklenmedik olduğunda etkisi daha da büyüktü.</p></div>
         <div class="kind"><span class="n">4</span><h3>Sesli arama</h3><p>İnsanlar telefonda konuşmanın tuhaf olacağını düşündü; oysa sesli görüşme, yazışmaya göre daha güçlü bağ hissi yarattı ve yaklaşık aynı süreyi aldı.</p></div>
       </div>
-      <div class="callout"><p><strong>Sarılmanın gücü:</strong> 404 sağlıklı yetişkinin 14 gün boyunca her akşam sorgulandığı, ardından soğuk algınlığı virüsüyle karşılaştırıldığı bir çalışmada, sosyal desteği güçlü olanlar ve daha sık sarılanlar enfeksiyona karşı biraz daha korunaklıydı; hastalananların belirtileri de daha hafifti.</p></div>
+      <div class="callout"><p><strong>Sarılmanın gücü:</strong> 404 sağlıklı yetişkine 14 akşam boyunca telefonla o gün yaşadıkları çatışmalar ve sarılmalar soruldu, ardından katılımcılar soğuk algınlığı virüsüne maruz bırakıldı. Sosyal desteği güçlü olanlarda ve daha sık sarılanlarda çatışmaların enfeksiyon riskini artırıcı etkisi daha zayıftı; hastalananlar arasında bu kişilerin belirtileri de daha hafifti. Bu bir gözlem çalışmasıdır; sarılmanın tek başına koruduğunu göstermez.</p></div>
     </div>
   </section>
 

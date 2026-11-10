@@ -10,10 +10,10 @@ _ex2("ak_sts", "sts", "Sandalyeden kalkıp oturma", "Genellikle 6. haftadan sonr
 _ex2("ak_sls", "sls", "Tek ayak üzerinde denge", "Genellikle 6. haftadan sonra başlanır. Bir tezgâha tutunarak ağrılı ayağınızın üzerinde durun. Kolaylaştıkça tutunmayı azaltın, sonra gözleriniz kapalı deneyin.", "20–30 saniye")
 
 AK_FAQ = [
- ("Ne kadar süre bot ya da alçı kullanacağım?", "Kırığın türüne göre değişir. Dış bilekteki dengeli kırıklarda bot genellikle ayaktayken 1 ile 4 hafta kullanılır ve 6 haftada bot ve koltuk değneği bırakılır. Alçıyla tedavi edilen kırıklarda bu süre çoğu zaman 6 haftadır. Finlandiya’da yapılan randomize bir çalışmada, dış bilekteki dengeli kırıklarda 3 haftalık alçı ya da ortez, alışılmış 6 haftalık alçı kadar iyi sonuç verdi."),
+ ("Ne kadar süre bot ya da alçı kullanacağım?", "Kırığın türüne göre değişir. Dış bilekteki dengeli kırıklarda bot genellikle ayaktayken 1 ile 4 hafta kullanılır ve en geç 6. haftada bot ve koltuk değneği bırakılır. Alçıyla tedavi edilen kırıklarda bu süre çoğu zaman 6 haftadır. Finlandiya’da yapılan randomize bir çalışmada, dış bilekteki dengeli kırıklarda 3 haftalık alçı ya da ortez, alışılmış 6 haftalık alçı kadar iyi sonuç verdi."),
  ("Şişlik ne zaman geçer?", "Kırık genellikle 6–12 haftada kaynar, ama ağrı, tutukluk, şişlik ve güç kaybının tamamen geçmesi 6–12 ayı bulabilir. Gün sonunda biraz şişlik ve sızı olması normaldir. Dinlenirken ayağınızı yüksekte tutun."),
  ("Egzersiz ağrıtırsa ne yapmalıyım?", "Egzersiz sırasında hafif rahatsızlık olabilir, ama 2 saat içinde geçmeli ve belirtilerinizi genel olarak kötüleştirmemeli. Ağrı uzun sürüyorsa tekrar sayısını azaltın ve fizyoterapistinize danışın."),
- ("Ne zaman araba kullanabilirim?", "Bot ya da alçıyla araç kullanmayın. Botu bıraktığınızda, normal yürüyebildiğinizde ve ani frene güvenle basabildiğinizde başlayabilirsiniz; önce sakin bir yerde deneyin. Kırık sol ayağınızdaysa ve otomatik vitesli araç kullanıyorsanız daha erken mümkün olabilir."),
+ ("Ne zaman araba kullanabilirim?", "Bot ya da alçıyla araç kullanmayın. Botu bıraktığınızda, normal yürüyebildiğinizde ve ani frene güvenle basabildiğinizde başlayabilirsiniz; önce sakin bir yerde deneyin. Kırık sol ayağınızdaysa ve otomatik vitesli araç kullanıyorsanız, bot ya da alçı çıktıktan sonra daha erken başlamak mümkün olabilir; bunu ekibinize danışın."),
  ("İşe ne zaman dönebilirim?", "Dış bilekteki dengeli kırıklarda masa başı işlere genellikle 1–2 hafta, bedensel işlere 4–6 hafta sonra dönülebilir. İşinizi yapabildiğinizi hissettiğinizde, mümkünse kademeli dönün."),
 ]
 
@@ -32,8 +32,8 @@ AK_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Ayak bileği kırığı sonrası</h1>
-    <p class="lede">Ayak bileğiniz kırıldı ve şimdi bot ya da alçıyla mı yürüyorsunuz? Dış bilekteki ince kemiğin (fibula) dengeli kırıkları neredeyse her zaman ameliyatsız iyileşir. Kemik genellikle 6–12 haftada kaynar; asıl iş ondan sonra başlar: ayak bileğinin hareketini, gücünü ve dengesini geri kazanmak. Bu rehber, bot ya da alçı döneminden sonra evde yapabileceğiniz egzersizleri anlatıyor.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="lede">Ayak bileğiniz kırıldı ve şimdi bot ya da alçıyla mı yürüyorsunuz? Dış bilekteki ince kemiğin (fibula) dengeli kırıkları neredeyse her zaman ameliyatsız iyileşir. Kemik genellikle 6–12 haftada kaynar; asıl iş ondan sonra başlar: ayak bileğinin hareketini, gücünü ve dengesini geri kazanmak. Bu rehber, bot ya da alçı döneminde ve sonrasında evde yapabileceğiniz egzersizleri anlatıyor.</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -75,7 +75,7 @@ AK_BODY = f'''<header class="page">
       <h2>Neler iyi gelir?</h2>
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>İlk günler</h3><p>İlk 24–72 saat dinlenin ve ayağınızı yüksekte tutun. Gerekirse havluya sarılı buzu saatte en fazla 15 dakika uygulayın; hissiniz azsa ya da cildinizde sorun varsa buz kullanmayın.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Şişliği yönetin</h3><p>Dinlenirken ayağınızı yükseltin, ayakta kalma sürenizi kademeli artırın. Hekiminize danışarak ağrı kesici kullanabilirsiniz.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Şişliği yönetin</h3><p>Dinlenirken ayağınızı yükseltin, ayakta kalma sürenizi kademeli artırın. Ağrı kesici kullanmanız gerekiyorsa hangisinin size uygun olduğunu hekiminize sorun.</p></div>
         <div class="kind"><span class="n">3</span><h3>Değnekleri kademeli bırakın</h3><p>Önce iki değnekten bire geçin; tek değneği sağlam tarafınızdaki elinizde tutun. Sonra değneksiz yürüyün ve topuktan parmağa basarak yürümeyi hedefleyin.</p></div>
         <div class="kind"><span class="n">4</span><h3>Güç ve denge</h3><p>Kırık kaynadıktan sonra, genellikle 6. haftadan itibaren, güçlendirme ve denge egzersizleri eklenir. Spora ağrısız ve tam hareketle dönün.</p></div>
       </div>
@@ -86,7 +86,7 @@ AK_BODY = f'''<header class="page">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
       <h2>Ayak bileğini yeniden güçlendiren altı egzersiz</h2>
-      <p class="soft">İlk üç egzersiz bot ya da alçı döneminden sonra, ekibiniz izin verdiğinde başlar; son üçü genellikle 6. haftadan sonra eklenir. Hafif rahatsızlık normaldir ama 2 saat içinde geçmelidir.</p>
+      <p class="soft">İlk üç egzersize, botla tedavi ediliyorsanız ekibiniz izin verdiğinde hemen, alçıyla tedavi ediliyorsanız alçı çıktıktan sonra başlanır; son üçü genellikle 6. haftadan sonra eklenir. Hafif rahatsızlık normaldir ama 2 saat içinde geçmelidir.</p>
       {ex_grid(["ak_pump", "ak_towel", "ak_calf", "ak_heel", "ak_sts", "ak_sls"])}
     </div>
   </section>
@@ -103,10 +103,10 @@ AK_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Ne zaman hekime başvurmalı?</h2>
       <ul class="dots redflags">
-        <li>Bir bacakta zonklayan ağrı, şişlik, kızarık ya da koyulaşmış cilt veya şişkin damarlar varsa (pıhtı belirtisi olabilir)</li>
+        <li>Bir bacakta zonklayan ağrı, şişlik, ağrılı bölgede kızarmış, morarmış ya da koyulaşmış cilt veya şişkin damarlar varsa (pıhtı belirtisi olabilir)</li>
         <li>Bu belirtilerle birlikte göğüs ağrısı ya da nefes darlığı varsa: hemen 112’yi arayın</li>
         <li>6. haftada hâlâ bot ya da koltuk değneğine ihtiyacınız varsa</li>
-        <li>12. haftada hâlâ belirgin ağrınız ya da tutukluğunuz varsa</li>
+        <li>12 hafta sonra hâlâ belirgin ağrınız varsa</li>
       </ul>
       {CTA_CARD("Ayak bileği kırığı sonrası rehabilitasyonunuz", "ayak bileği kırığı sonrası rehabilitasyon")}
     </div>
@@ -121,7 +121,7 @@ AK_BODY = f'''<header class="page">
 </main>'''
 
 page("ayak-bilegi-kirigi.html", "Ayak Bileği Kırığı Sonrası",
-     "Ayak bileği kırığından sonra bot ne kadar kullanılır, şişlik ne zaman geçer, ne zaman araba kullanılır? İyileşmeyi hızlandıran öneriler, uyarı işaretleri ve evde altı egzersiz.",
+     "Ayak bileği kırığından sonra bot ne kadar kullanılır, şişlik ne zaman geçer, ne zaman araba kullanılır? İyileşmeyi destekleyen öneriler, uyarı işaretleri ve evde altı egzersiz.",
      "ayak-bilegi-kirigi.html", NECK_CSS, AK_BODY, "",
      seo_title="Ayak Bileği Kırığı Sonrası: İyileşme Süresi ve Evde Egzersizler | İhsan Eren",
      condition="Ayak bileği kırığı", faq_items=AK_FAQ)

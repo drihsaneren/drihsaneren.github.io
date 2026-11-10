@@ -30,7 +30,7 @@ PD_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diz kapağı çıkığı (patella çıkığı)</h1>
     <p class="lede">Ani bir dönüşte ya da dizinize aldığınız bir darbede diz kapağınızın yerinden kaydığını mı hissettiniz? Diz kapağı, uyluk kemiğindeki oluğundan çoğu zaman dışa doğru çıkar ve sıklıkla kendiliğinden yerine döner. Yerine dönmüş olsa bile bir hekimin muayenesi gerekir. İyileşmenin anahtarı, uyluk ve kalça kaslarınızı yeniden güçlendirmektir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -85,7 +85,7 @@ PD_BODY = f'''<header class="page">
       <h2>İyileşme döneminde neler iyi gelir?</h2>
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>Buz ve yükseltme</h3><p>Havluya sarılı buzu 10–15 dakika, günde en az 3 kez uygulayabilirsiniz. Dinlenirken bacağınızı yüksekte ve destekli tutun.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Ağrıyı kontrol edin</h3><p>Hekiminize danışarak ağrı kesici kullanabilirsiniz. Ağrının azalması egzersizleri kolaylaştırır.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Ağrıyı kontrol edin</h3><p>Ağrı kesici kullanmanız gerekiyorsa hangisinin size uygun olduğunu hekiminize sorun. Ağrının azalması egzersizleri kolaylaştırır.</p></div>
         <div class="kind"><span class="n">3</span><h3>Hareketli kalın</h3><p>Tutukluğu önlemek için diz egzersizlerini gün boyunca yapın. Dizliği ekibinizin söylediği süre ve hareket sınırıyla kullanın.</p></div>
         <div class="kind"><span class="n">4</span><h3>Dizinizi burkmayın</h3><p>Dizinizi döndürme ve burkma hareketlerinden kaçının. Diz eski gücüne kavuşmadan spora dönmeyin.</p></div>
       </div>
