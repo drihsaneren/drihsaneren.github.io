@@ -63,7 +63,7 @@ BR_FAQ = [
  ("Dilimin kenarında diş izleri var; diş sıktığım anlamına mı gelir?", "Olabilir. Türkiye'de 98 hastanın incelendiği 2026 tarihli bir çalışmada, uyku testiyle doğrulanmış bruksizmi olanların %65,3'ünde dil kenarında diş izleri vardı; yalnızca kendisi diş sıktığını söyleyenlerde bu oran %34,7 idi. Yanağın iç yüzünde dişlerin hizasında beyaz bir çizgi de sırasıyla %75,5 ve %42,9 oranında görüldü. Bu işaretler tek başına tanı koydurmaz: Dil ve yanak izleri yutkunma gibi olağan ağız hareketlerinden de kaynaklanabilir. Dildeki izler ayrıca dilin geniş olmasıyla ya da dişlerdeki yapısal farklılıklarla ilgili olabilir ve bir çalışmada ağır uyku apnesiyle ilişkili bulundu. Diş hekimi muayenesiyle birlikte değerlendirilir; horlamanız da varsa hekiminize söyleyin."),
  ("Çenemden klik sesi geliyor; diş sıkmayla ilgisi var mı?", "Klik sesi, çene ekleminin içindeki diskin ağız açılıp kapanırken yer değiştirmesiyle ilgili olabilir. Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez. Sesle birlikte ağrı, ağız açmada kısıtlılık ya da takılma varsa değerlendirme yapılmalıdır. Diş sıkma, çiğneme kası ve çene eklemi ağrısı için bir risk etkeni olabilir; ayrıntılar için <a href=\"cene-eklemi.html\">çene eklemi rahatsızlıkları</a> rehberine bakabilirsiniz."),
  ("Stres diş sıkmaya neden olur mu?", "Stres ve kaygı en sık sayılan etkenler arasında. Altı çalışmayı inceleyen (üçü meta-analizde) bir sistematik derlemede, stresi olanlarda bruksizm olasılığı yaklaşık iki kat (OR 2,07) daha yüksekti; ancak kanıtın kesinliği düşüktü. Cihan Hoca'nın da yazarları arasında olduğu ve çene eklemi polikliniğine başvuran 273 hastanın incelendiği çalışmada, kadın olmak, sosyal desteğin yetersiz olması ve kas kaynaklı yüz ağrısı, kaygı ya da depresyon olasılığını artırıyordu; yazarlar tedavi planlanırken kaygı ve depresyonun da göz önünde bulundurulmasını önerdi."),
- ("Botulinum toksini iğnesi diş sıkmayı tedavi eder mi?", "Botulinum toksini, yalnızca hekimlerin uyguladığı bir iğnedir ve diş sıkmada çiğneme kasına ve şakak kasına yapılır. 14 sistematik derlemeyi inceleyen 2025 tarihli bir genel değerlendirmede ağrıda azalma 10, diş sıkma olaylarında azalma 7, en büyük ısırma kuvvetinde azalma 5 derlemede bildirildi. Ancak derlemelerin hepsinin güvenilirliği düşük ya da kritik düzeyde düşüktü ve kesin bir sonuç çıkarılamadı. Uygun olup olmadığına hekiminiz karar verir."),
+ ("Botulinum toksini iğnesi diş sıkmayı tedavi eder mi?", "Botulinum toksini, yalnızca hekimlerin uyguladığı bir iğnedir ve diş sıkmada çiğneme kasına ve şakak kasına yapılır. 14 sistematik derlemeyi inceleyen 2025 tarihli bir genel değerlendirmede ağrıda azalma 10, diş sıkma olaylarında azalma 7, en büyük ısırma kuvvetinde azalma 5 derlemede bildirildi. Ancak derlemelerin hepsinin güvenilirliği düşük ya da kritik düzeyde düşüktü ve kesin bir sonuç çıkarılamadı. İğne kasın gücünü azaltır, sıkmanın kendisini değil: Uyku testiyle yapılan bir çalışmada diş sıkma olaylarının sıklığı değişmedi, kasılmaların şiddeti azaldı. Etkisi birkaç ay sürer. Uygun olup olmadığına hekiminiz karar verir."),
  ("Diş sıkma için ilaç kullanmam gerekir mi?", "Çoğu kişide gerekmez. Uyku bruksizminde ilaçları inceleyen Cochrane derlemesi, yedi küçük çalışmada ilaçların etkili olduğunu gösterecek yeterli kanıt bulamadı; bazı ilaçlarda yan etkiler görüldü. Sinir ağrısında kullanılan bir ilaç olan gabapentin, 20 kişilik küçük bir çalışmada gece çiğneme kası etkinliğini plak kadar azalttı. Gabapentinle aynı ilaç grubundan olan pregabalin için yer verebildiğimiz tek yayın, kaygı bozukluğu olan ve gün içinde diş sıkan tek bir hastanın olgu sunumu. Bu ilaçlar yalnızca uzman hekim reçetesiyle ve kontrolle kullanılır; kendi başınıza kullanmayın. Hangisinin uygun olduğunu hekiminize sorun."),
  ("Çocuğum gece diş gıcırdatıyor; ne yapmalıyım?", "Diş gıcırdatma çocuklarda da görülebilir. Çoğunlukla süt dişleri ya da kalıcı dişler ilk çıktıktan sonra ortaya çıkar ve kalıcı dişler tamamen oluştuktan sonra genellikle durur. Endişeleniyorsanız, özellikle çocuğunuzun uykusunu etkiliyorsa, bir hekime başvurun; dişlerde aşınma ya da ağrı varsa diş hekimi de değerlendirebilir."),
  ("Diş sıkma tamamen geçer mi?", "Şu an dünyada diş sıkmayı kesin olarak ortadan kaldırdığı gösterilmiş bir tedavi yok. Derlemelerde plak, biyolojik geri bildirim ve botulinum toksini kısa vadede kesin bir etkinlik göstermedi; bazı ilaçlar uykudaki diş sıkma olaylarını azaltmış olsa da yan etkileri nedeniyle temkin gerekiyor ve bu derlemelerin güvenilirliği çok düşük. Bruksizm esas olarak beyin tarafından düzenlenen bir davranış olduğu için amaç; dişleri, eklemi ve kasları korumak, tetikleyicileri azaltmak ve yakınmaları hafifletmektir. Bu da çoğu zaman birden fazla branşın birlikte çalışmasını gerektirir."),
@@ -109,6 +109,8 @@ BR_SRC = [
  "StatPearls. " + ext("https://www.statpearls.com/point-of-care/20595", "Mandible dislocation") + ". Updated July 2023.",
  "Bracci A, Djukic G, Favero L, Salmaso L, Guarda-Nardini L, Manfredini D. " + ext("https://research.unipd.it/handle/11577/3271005", "Frequency of awake bruxism behaviours in the natural environment. A 7-day, multiple-point observation of real-time report in healthy young adults") + ". J Oral Rehabil. 2018;45:423-429.",
  "Guimarães FN, Canadas J, Cunha MG, et al. " + ext("https://www.frontiersin.org/articles/10.3389/frsle.2025.1652532/full", "Scalloped tongue: an additional, accessible and useful tool to detect severe obstructive sleep apnea?") + ". Front Sleep. 2025;4.",
+ "Shim YJ, Lee MK, Kato T, Park HU, Heo K, Kim ST. " + ext("https://read.qxmd.com/read/24634627/effects-of-botulinum-toxin-on-jaw-motor-events-during-sleep-in-sleep-bruxism-patients-a-polysomnographic-evaluation", "Effects of botulinum toxin on jaw motor events during sleep in sleep bruxism patients: a polysomnographic evaluation") + ". J Clin Sleep Med. 2014.",
+ "Malcangi G, Patano A, Pezzolla C, et al. " + ext("https://ricerca.uniba.it/retrieve/5c8c70c2-8d4d-4bc1-9971-e50924e0dffa/jcm-12-04586.pdf", "Bruxism and botulinum injection: challenges and insights") + ". J Clin Med. 2023;12:4586.",
  "Bartsch T, Goadsby PJ. " + ext("https://link.springer.com/doi/10.1007/s11916-003-0036-y", "The trigeminocervical complex and migraine: current concepts and synthesis") + ". Curr Pain Headache Rep. 2003;7(5):371-376.",
 ]
 
@@ -139,8 +141,8 @@ BR_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diş sıkma ve gıcırdatma (bruksizm)</h1>
-    <p class="lede">Diş sıkma ve gıcırdatma (bruksizm), çiğneme kaslarının uykuda ya da gün içinde gereğinden fazla çalışmasıdır. Dünyada yaklaşık her dört-beş kişiden birinde görülüyor ve çoğu kişi bunu fark etmiyor. Etkileri yalnızca dişlerle sınırlı değil: çene eklemi, boyun kasları, uyku ve baş ağrısı da etkilenebilir. Bu rehberde bruksizmi bir ders gibi baştan sona anlatıyoruz.</p>
-    <p class="meta">Son güncelleme: 9 Kasım 2026</p>
+    <p class="lede">Diş sıkma ve gıcırdatma (bruksizm), çiğneme kaslarının uykuda ya da gün içinde gereğinden fazla çalışmasıdır. Dünyada yaklaşık her dört-beş kişiden birinde görülüyor ve çoğu kişi bunu fark etmiyor. Etkileri yalnızca dişlerle sınırlı değil: çene eklemi, boyun kasları, uyku ve baş ağrısı da etkilenebilir. Boyun ağrısıyla ilişkisini ayrıca anlatıyoruz. Bu rehberde bruksizmi bir ders gibi baştan sona anlatıyoruz.</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 <main>
@@ -213,6 +215,13 @@ BR_BODY = f'''<header class="page">
       <p class="soft">Diş sıkarken yalnızca çene kasları çalışmaz: Sağlıklı kişilerde yapılan bir kas aktivitesi çalışmasında, en güçlü diş sıkma sırasında ön boyun kaslarının etkinliği belirgin olarak arttı. Boyun ağrısı olanlarda da çene eklemi sorunları daha sık: Dokuz çalışmayı inceleyen 2026 tarihli bir meta-analizde boyun ağrısı olanlarda çene eklemi sorunu görülme olasılığı yaklaşık 3,6 kat yüksekti (kanıtın kesinliği çok düşük).</p>
       <p class="soft">Bu bağlantının olası bir açıklaması sinir sistemindedir: Trigeminoservikal kompleks denen sinir hücresi grubunda, baştan gelen ağrı sinyallerini taşıyan sinirlerle üst boyundan gelen sinirler aynı sinir hücrelerinde birleşir. Bu birleşmenin, ağrının baş ve boyun arasında yayılmasına ve başka bir yerde hissedilmesine (yansıyan ağrı) katkıda bulunduğu düşünülüyor. Çene ve boyun ağrılarının birlikte görülmesine de bu mekanizmanın katkıda bulunabileceği öne sürülüyor.</p>
       <div class="callout obs"><p class="obs-k">Kişisel klinik gözlemim</p><p>{BR_OBS} Bunları bir araştırma sonucu olarak değil, kendi klinik gözlemlerim olarak paylaşıyorum; herkes aynı yanıtı vermeyebilir.</p></div>
+      <h3 class="g-h3">Boyun ağrısı açısından üç önemli nokta</h3>
+      <ul class="tx">
+        <li><b>Ruhsal sebepler</b><span>Stres ve kaygı özellikle gündüz diş sıkmayla ilişkili görünüyor ve boyun kaslarındaki gerginliği de artırabiliyor. Bu yüzden boyun ağrısı geçmiyorsa ruhsal yük de sorgulanmalı (<a href="#nedenler">ruhsal etkenler</a>).</span></li>
+        <li><b>Plak</b><span>Diş hekiminin verdiği plak yalnızca dişleri ve diş minesini korur; sıkmayı durdurduğu gösterilmedi. Sıkma sürdükçe çene eklemi ve boyun kaslarındaki yük devam edebilir (<a href="#plak">plak</a>).</span></li>
+        <li><b>Botulinum toksini</b><span>Yalnızca yapıldığı çiğneme ve şakak kaslarının gücünü azaltır; sıkmanın kendisini ve boyun kaslarını doğrudan ele almaz (<a href="#botoks">neyi etkiler, neyi etkilemez?</a>).</span></li>
+      </ul>
+      <p class="soft">Boyun ağrısının diğer nedenleri, egzersizleri ve uyarı işaretleri için <a href="boyun-agrisi.html">boyun ağrısı</a> rehberine bakabilirsiniz.</p>
     </div>
   </section>
 
@@ -308,10 +317,11 @@ BR_BODY = f'''<header class="page">
       <h2>Plak: dişi korur, sorunu çözmez</h2>
       <p class="soft">Gece plağı (ağız koruyucu), diş hekiminin hazırladığı ve genellikle geceleri takılan bir apareydir. Dişleri birbirinden ayırarak aşınmayı önlemeye yardımcı olur; sıkma hissini ve ağrıyı azaltabilir. Ancak plağın sıkma davranışını azalttığı gösterilmedi.</p>
       <div class="kinds g-cmp">
-        <div class="kind"><h3>Dişler</h3><dl><dt>Cochrane, 2007</dt><dd>Plak dişleri aşınmaya karşı koruyabilir.</dd></dl></div>
+        <div class="kind"><h3>Dişler</h3><dl><dt>Cochrane, 2007</dt><dd>Plak dişleri ve diş minesini aşınmaya karşı koruyabilir.</dd></dl></div>
         <div class="kind"><h3>Diş sıkma</h3><dl><dt>Cochrane, 2007; Dent Med Probl, 2023</dt><dd>Plağın uyku bruksizmini azalttığına dair yeterli kanıt yok; derlemelerde plaklar kısa vadede etkinlik göstermedi.</dd></dl></div>
         <div class="kind"><h3>Kaslar ve eklem</h3><dl><dt>Sonuç</dt><dd>Sıkma sürebileceği için kaslar ve eklem üzerindeki yük devam edebilir; bu yüzden plak diğer yaklaşımlarla birlikte kullanılır.</dd></dl></div>
       </div>
+      <div class="callout"><p><strong>Kısacası:</strong> Diş hekiminin verdiği plak, diş minesine binen zararı azaltır. Diş sıkmanın kendisini durdurduğu gösterilmedi; bu yüzden çene eklemi ve boyun kaslarındaki etki sürebilir. Plak takıyorsanız bile sıkmanın nedenleri (stres, uyku, alışkanlıklar) ayrıca ele alınmalı.</p></div>
       <p class="soft">Diş hekimi dişlerdeki aşınmayı, kırık ve çatlakları ve dişlerin kapanışını (oklüzyon) değerlendirir; plağın gerekip gerekmediğine ve türüne karar verir.</p>
     </div>
   </section>
@@ -334,6 +344,15 @@ BR_BODY = f'''<header class="page">
       <ul class="br-leg">
         <li><span class="br-sw" style="background:#C8963E"></span><span><b>Şakak kası (temporalis):</b> Şakakta, kulağın üstünde yelpaze biçiminde uzanır; çeneyi kapatır ve dişleri sıkar.</span></li>
         <li><span class="br-sw" style="background:#2A6F6B"></span><span><b>Çiğneme kası (masseter):</b> Elmacık kemiğinden alt çenenin köşesine uzanır; dişleri sıktığınızda yanağınızda sertleştiğini hissedebilirsiniz.</span></li>
+      </ul>
+      <h3 class="g-h3" id="botoks">Botulinum toksini neyi etkiler, neyi etkilemez?</h3>
+      <p class="soft">Botulinum toksini diş sıkmada giderek daha çok uygulanıyor; bu yüzden neyi değiştirip neyi değiştirmediğini bilmek önemli.</p>
+      <ul class="tx">
+        <li><b>Neyi etkiler?</b><span>İğnenin yapıldığı kasta, sinirden kasa kasılma sinyalini taşıyan maddenin (asetilkolin) salınımını geçici olarak engeller; kas zayıflar ve kasılma gücü azalır. Uyku testiyle değerlendirilen randomize bir çalışmada iğne, yapıldığı kaslardaki kasılmaların şiddetini azalttı.</span></li>
+        <li><b>Neyi etkilemez?</b><span>Aynı çalışmada uykudaki diş sıkma olaylarının sıklığı ve süresi değişmedi. Yazarlara göre iğne, kasılmanın ortaya çıkışını değil şiddetini azaltıyor. Bruksizmin beyin tarafından düzenlendiği düşünüldüğünde iğne, sıkmanın nedenini değil kas kuvvetini hedefler; stres ve uyku gibi etkenler yerinde kalır.</span></li>
+        <li><b>Ne kadar sürer?</b><span>Etkisi kalıcı değildir; birkaç ay içinde azalarak kaybolur. Etkinin sürmesi için iğnenin tekrarlanması gerekir.</span></li>
+        <li><b>Yan etkiler</b><span>Bir derlemede iğne yerinde ağrı ve morarma, çoğunlukla geçici çiğneme güçsüzlüğü, ağız kuruluğu, yutma ve konuşma güçlüğü, yüzün alt kısmında hafif asimetri ve gülüşte değişiklik bildirildi; bu sorunlar genellikle 1–4 hafta içinde geçti.</span></li>
+        <li><b>Boyun ve eklem</b><span>Çiğneme ve şakak kasına yapılan iğne, boyun kaslarını ve duruşu doğrudan ele almaz. Boyun ağrısı da varsa egzersiz ve fizyoterapi ayrıca planlanır.</span></li>
       </ul>
     </div>
   </section>

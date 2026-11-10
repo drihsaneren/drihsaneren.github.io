@@ -170,6 +170,7 @@ BOYUN_AGRI_FAQ = [
  ("Boyunluk kullanmalı mıyım?", "Sıradan boyun ağrısında ve kaza sonrası boyun zorlanmasında (whiplash) önerilmez; ABD kılavuzu kaza sonrasında da kullanımı en aza indirmeyi öneriyor. Kola yayılan yeni ağrıda kısa süreli kullanılabilir. Kırık şüphesi gibi durumlarda boyunluğa hekiminiz karar verir."),
  ("Röntgen ya da MR çektirmem gerekir mi?", "Çoğu boyun ağrısında gerekmez. Yaşla birlikte görülen aşınma bulguları ağrısı olmayan kişilerde de sıktır ve çoğu zaman ağrıyı açıklamaz. Aşağıdaki uyarı işaretlerinden biri varsa ya da ağrı birkaç haftada düzelmiyorsa hekiminiz karar verir."),
  ("Telefona eğilmek boynumu bozar mı?", "Telefona bakarken boynu eğmenin boyna zarar verdiğine dair kanıt yok; ancak bu konuda çalışma az. Brezilya'da 18–21 yaşındaki 150 gençle yapılan bir çalışmada mesajlaşırken boyun duruşu ile boyun ağrısı arasında ilişki bulunmadı. Çalışma küçük ve kesitseldir; uzun yıllar boyunca eğik duruşun etkisi incelenmedi. Uzun süre aynı pozisyonda kalmak rahatsızlık veriyorsa ara verip pozisyonunuzu değiştirin."),
+ ("Diş sıkmak boyun ağrısıyla ilişkili mi?", "İlişkili olabilir. Diş sıkarken ön boyun kasları da kasılır ve boyun ağrısı olanlarda çene eklemi sorunları daha sık görülüyor (kanıtın kesinliği çok düşük). Diş hekiminin verdiği plak dişleri korur ama sıkmayı azalttığı gösterilmedi; çiğneme kasına yapılan botulinum toksini de kasın gücünü azaltır, sıkmanın kendisini değil. Ayrıntılar diş sıkma rehberimizde."),
  ("Boyun düzleşmesi tehlikeli mi?", "Tek başına genellikle hayır. Boyun eğriliğinin azalması ağrısı olmayan kişilerde de görülür ve araştırmalarda ağrıyla tutarlı bir ilişkisi gösterilememiştir. Önemli olan şikâyetleriniz ve muayene bulgularıdır."),
 ]
 BOYUN_TL = [
@@ -188,7 +189,7 @@ AGRI_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun ağrısı</h1>
     <p class="lede">Çoğu insanın hayatının bir döneminde yaşadığı, çoğu zaman ciddi bir nedene bağlı olmayan ama sık tekrarlayabilen bir sorun. İyi haber: düzenli hareket ve egzersiz çoğu kişide ağrıyı azaltmaya yardımcı olur.</p>
-    <p class="meta">Son güncelleme: 30 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
   </div>
 </header>
 
@@ -201,7 +202,7 @@ AGRI_BODY = f'''<header class="page">
         <div class="stat"><b>45–74</b><span>En sık etkilenen yaş aralığı</span></div>
         <div class="stat"><b>%50–85</b><span>Bir kez yaşayanlarda 1–5 yıl sonra yine ağrı (süren ya da tekrarlayan)</span></div>
       </div>
-      {g_toc([("nedir", "Nedir?"), ("tipler", "Dört tip"), ("derece", "Ne kadar ciddi?"), ("duzlesme", "Düzleşme, MR ve duruş"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("masa", "Masa başında"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
+      {g_toc([("nedir", "Nedir?"), ("tipler", "Dört tip"), ("derece", "Ne kadar ciddi?"), ("dis-sikma", "Diş sıkma ve boyun"), ("duzlesme", "Düzleşme, MR ve duruş"), ("tarihce", "Geçmişten bugüne"), ("tedavi", "Tedavi seçenekleri"), ("egzersizler", "Egzersizler"), ("masa", "Masa başında"), ("videolar", "Videolar"), ("sss", "Sık sorulan sorular"), ("uyari", "Uyarı işaretleri")])}
     </div>
   </section>
 
@@ -218,6 +219,7 @@ AGRI_BODY = f'''<header class="page">
           <li>Saatlerce aynı pozisyonda kalmak (masa başı çalışma, uzun süre telefona bakmak) rahatsızlık yaratabilir; duruşun tek başına ağrıya yol açtığı gösterilmedi</li>
           <li>Uykuda boynun uzun süre zorlanması ya da ani bir hareketle gelen "tutulma"</li>
           <li>Stres, kaygı ve uykusuzluk: kas gerginliğini ve ağrıya duyarlılığı artırır</li>
+          <li>Gündüz ya da uykuda diş sıkma ve gıcırdatma (bruksizm): sıkarken boyun kasları da kasılabilir (<a href="#dis-sikma">ayrıntılar aşağıda</a>)</li>
           <li>Hareketsizlik, omuz ve sırt kaslarının zayıflığı</li>
           <li>Yaşla birlikte omurgada aşınma (kireçlenme) bulguları sık görülür; ancak ağrısı olmayanlarda da vardır ve çoğu zaman ağrıyı açıklamaz.</li>
           <li>Trafik kazasında olduğu gibi ani savrulma yaralanmaları</li>
@@ -249,6 +251,21 @@ AGRI_BODY = f'''<header class="page">
         <div class="kind"><span class="n">III</span><h3>Sinir bulgularıyla</h3><p>Reflekslerde azalma ya da kas güçsüzlüğü gibi sinir bulguları var. İleri tetkik gerekebilir.</p><a href="boyun-fitigi.html">Boyun fıtığı ve sinir sıkışması →</a></div>
         <div class="kind"><span class="n">IV</span><h3>Ciddi bir nedenin belirtileriyle</h3><p>Kırık, omurilik basısı, tümör ya da sistemik bir hastalık gibi ciddi bir nedenin belirtileri var. Hemen değerlendirme gerekir.</p><a href="#uyari">Uyarı işaretleri →</a></div>
       </div>
+    </div>
+  </section>
+
+  <section id="dis-sikma">
+    <div class="wrap">
+      <h2>Diş sıkma ve boyun ağrısı</h2>
+      <p class="soft">Geçmeyen boyun ağrısında çoğu zaman akla gelmeyen nedenlerden biri diş sıkma ve gıcırdatmadır (bruksizm). Diş sıkarken yalnızca çene kasları çalışmaz: Sağlıklı kişilerde yapılan bir kas aktivitesi çalışmasında, en güçlü diş sıkma sırasında ön boyun kaslarının etkinliği belirgin olarak arttı. Dokuz çalışmayı inceleyen 2026 tarihli bir meta-analizde de boyun ağrısı olanlarda çene eklemi sorunu görülme olasılığı yaklaşık 3,6 kat yüksekti (kanıtın kesinliği çok düşük).</p>
+      <p class="soft">Olası bir açıklama sinir sistemindedir: Trigeminoservikal kompleks denen sinir hücresi grubunda, baştan gelen ağrı sinyallerini taşıyan sinirlerle üst boyundan gelen sinirler aynı sinir hücrelerinde birleşir. Bu birleşmenin, ağrının baş ve boyun arasında yayılmasına katkıda bulunduğu düşünülüyor.</p>
+      {OBS("Cihan Hoca'yla (Prof. Dr. Cihan Aksoy) birlikte çalıştığımız dönemde, bize gelen ve önceki tedavilere rağmen çözülemeyen boyun ağrılarının birçoğunda diş sıkma görüyorduk. Yorgun uyanma, sabah baş ağrısı, çenede yorgunluk ya da dilde diş izleri eşlik ettiğinde diş sıkmayı da sorguluyoruz.")}
+      <div class="kinds g-cmp">
+        <div class="kind"><h3>Ruhsal sebepler</h3><dl><dt>Stres ve kaygı</dt><dd>Özellikle gündüz diş sıkma, ruhsal ve sosyal etkenlerle ilişkili görünüyor. Bir sistematik derlemede stresi olanlarda bruksizm olasılığı yaklaşık iki kat yüksekti (kanıtın kesinliği düşük). Stres ve kaygı boyun kaslarındaki gerginliği de artırabilir.</dd></dl></div>
+        <div class="kind"><h3>Plak</h3><dl><dt>Yalnızca dişleri korur</dt><dd>Diş hekiminin verdiği gece plağı dişleri ve diş minesini aşınmaya karşı koruyabilir. Ancak plağın diş sıkmayı azalttığına dair yeterli kanıt yok; sıkma sürdükçe çene eklemi ve boyun kaslarındaki yük devam edebilir.</dd></dl></div>
+        <div class="kind"><h3>Botulinum toksini</h3><dl><dt>Kası zayıflatır, sıkmayı durdurmaz</dt><dd>Hekimin çiğneme ve şakak kasına yaptığı iğne bu kasların kasılma gücünü birkaç aylığına azaltır. Uyku testiyle yapılan bir çalışmada diş sıkma olaylarının sıklığı değişmedi, kasılmaların şiddeti azaldı. İğne boyun kaslarını doğrudan ele almaz.</dd></dl></div>
+      </div>
+      <p class="soft">Boyun ağrınıza yorgun uyanma, sabah baş ağrısı, çenede ağrı ya da yorgunluk, dilde diş izleri eşlik ediyorsa bunu diş hekiminize ve fizyoterapistinize söyleyebilirsiniz. Belirtiler, işaretler ve çene egzersizleri için: <a href="dis-sikma.html">Diş sıkma ve gıcırdatma (bruksizm) rehberi →</a></p>
     </div>
   </section>
 
@@ -375,15 +392,23 @@ AGRI_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         SRC_BLANPIED,
+        "Bartsch T, Goadsby PJ. " + ext("https://link.springer.com/doi/10.1007/s11916-003-0036-y", "The trigeminocervical complex and migraine: current concepts and synthesis") + ". Curr Pain Headache Rep. 2003;7(5):371-376.",
+        "Bizzarri P, Giusti A, Pernici M, et al. " + ext("https://research.birmingham.ac.uk/en/publications/temporomandibular-disorders-and-orofacial-outcomes-in-subjects-wi/", "Temporomandibular disorders and orofacial outcomes in subjects with neck pain and/or cervicogenic headache: a systematic review with meta-analysis") + ". J Clin Med. 2026;15(1):266.",
         "Carroll LJ, Hogg-Johnson S, van der Velde G, et al. Course and prognostic factors for neck pain in the general population: results of the Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders. Spine. 2008;33(4 Suppl):S75-S82.",
+        "Chemelo VS, et al. " + ext("https://www.frontiersin.org/articles/10.3389/fneur.2020.590779", "Is there association between stress and bruxism? A systematic review and meta-analysis") + ". Front Neurol. 2020;11:590779.",
+        "Ciuffolo F, Manzoli L, Ferritto AL, Tecco S, D'Attilio M, Festa F. " + ext("https://cris.unibo.it/handle/11585/918009", "Surface electromyographic response of the neck muscles to maximal voluntary clenching of the teeth") + ". J Oral Rehabil. 2005;32:79-84.",
         "Corp N, Mansell G, Stynes S, et al. " + ext("https://publications.aston.ac.uk/id/eprint/42010/1/ejp.1679.pdf", "Evidence-based treatment recommendations for neck and low back pain across Europe: a systematic review of guidelines") + ". Eur J Pain. 2021;25(2):275-295.",
         "Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Andrade ICS, Meziat-Filho N. " + ext("https://www.painscience.com/biblio/no-link-between-text-neck-posture-and-neck-pain-in-150-brazilian-young-adults.html", "Text neck and neck pain in 18–21-year-old young adults") + ". Eur Spine J. 2018.",
         "GBD 2021 Neck Pain Collaborators. " + ext("https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913(23)00321-1/fulltext", "Global, regional, and national burden of neck pain, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021") + ". Lancet Rheumatol. 2024;6(3):e142-e155.",
         "Grob D, Frauenfelder H, Mannion AF. " + ext("https://link.springer.com/article/10.1007/s00586-006-0254-1", "The association between cervical spine curvature and neck pain") + ". Eur Spine J. 2007;16(5):669-678.",
         "Gross A, Kay TM, Paquin JP, et al. " + ext("https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004250.pub5/full", "Exercises for mechanical neck disorders") + ". Cochrane Database Syst Rev. 2015;1:CD004250.",
         "Haldeman S, Carroll L, Cassidy JD, et al. The Bone and Joint Decade 2000–2010 Task Force on Neck Pain and Its Associated Disorders: executive summary. Spine. 2008;33(4 Suppl). Özet: " + ext("https://www.newswise.com/articles/task-force-presents-evidence-based-recommendations-on-neck-pain", "Wolters Kluwer basın bülteni, 2008") + ".",
+        "Macedo CR, Silva AB, Machado MAC, Saconato H, Prado GF. " + ext("https://www.cochrane.org/fr/evidence/CD005514_occlusal-splints-treating-sleep-bruxism-tooth-grinding", "Occlusal splints for treating sleep bruxism (tooth grinding)") + ". Cochrane Database Syst Rev. 2007;(4):CD005514.",
+        "Malcangi G, Patano A, Pezzolla C, et al. " + ext("https://ricerca.uniba.it/retrieve/5c8c70c2-8d4d-4bc1-9971-e50924e0dffa/jcm-12-04586.pdf", "Bruxism and botulinum injection: challenges and insights") + ". J Clin Med. 2023;12:4586.",
+        "Manfredini D, Lobbezoo F. " + ext("https://research.vu.nl/en/publications/role-of-psychosocial-factors-in-the-etiology-of-bruxism/", "Role of psychosocial factors in the etiology of bruxism") + ". J Orofac Pain. 2009;23(2):153-166.",
         "Nakashima H, Yukawa Y, Suda K, et al. " + ext("https://www.qxmd.com/r/25584950", "Abnormal findings on magnetic resonance images of the cervical spines in 1211 asymptomatic subjects") + ". Spine. 2015.",
         "Physiopedia. " + ext("https://www.physio-pedia.com/Mechanical_Neck_Pain", "Mechanical Neck Pain") + ".",
+        "Shim YJ, Lee MK, Kato T, Park HU, Heo K, Kim ST. " + ext("https://read.qxmd.com/read/24634627/effects-of-botulinum-toxin-on-jaw-motor-events-during-sleep-in-sleep-bruxism-patients-a-polysomnographic-evaluation", "Effects of botulinum toxin on jaw motor events during sleep in sleep bruxism patients: a polysomnographic evaluation") + ". J Clin Sleep Med. 2014.",
       ])}
     </div>
   </section>
