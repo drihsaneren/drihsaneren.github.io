@@ -392,7 +392,7 @@ TOPICS = {
     "nobel-2026.html": ("Bilim gündemi", "2026 Nobel ödülleri"),
 }
 RELATED = {
-    "dis-sikma.html": ["cene-eklemi.html", "bas-agrisi.html", "fibromiyalji.html"],
+    "dis-sikma.html": ["cene-eklemi.html", "boyun-agrisi.html", "bas-agrisi.html", "fibromiyalji.html"],
     "adim-hedefi.html": ["hareket.html", "tempolu-yuruyus.html", "yemek-sonrasi-yuruyus.html"],
     "sakatlanmayi-onleyen-isinma.html": ["on-capraz-bag.html", "arka-uyluk-zorlanmasi.html", "ayak-bilegi-burkulmasi.html"],
     "zayiflama-ilaci-ve-kas.html": ["sarkopeni.html", "guc-devresi.html", "diyabette-egzersiz.html"],
@@ -416,7 +416,7 @@ RELATED = {
     "bel-agrisi.html": ["kuyruk-sokumu-agrisi.html", "bel-fitigi.html", "ankilozan-spondilit.html"],
     "bel-fitigi.html": ["bel-fitigi-ameliyati-sonrasi.html", "piriformis-sendromu.html", "bel-agrisi.html", "dar-kanal.html"],
     "diz-kireclenmesi.html": ["menisku-yirtigi.html", "kalca-kireclenmesi.html", "dizin-12-sirri.html"],
-    "boyun-agrisi.html": ["boyun-tutulmasi.html", "boyun-duzlesmesi.html", "boyun-fitigi.html", "bas-agrisi.html"],
+    "boyun-agrisi.html": ["boyun-tutulmasi.html", "boyun-duzlesmesi.html", "boyun-fitigi.html", "dis-sikma.html", "bas-agrisi.html"],
     "boyun-fitigi.html": ["boyun-agrisi.html", "bel-fitigi.html"],
     "donuk-omuz.html": ["omuz-kireclenmesi.html", "boyun-agrisi.html", "diz-kireclenmesi.html"],
     "stres.html": ["uyku.html", "sabah-rutini.html", "ruh-sagligi-egzersiz.html"],

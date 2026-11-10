@@ -858,3 +858,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 9 Kasım 2026: diş sıkma (bruksizm) rehberi genişletildi (dil izleri, ruhsal etkenler, çene çıkığı, sağa sola/öne egzersizler; iki ek denetim, DENETIM.md). Çeviri tur62. Sonraki batch: tur63 (önce i18n/done içindeki en büyük numaraya bakın).
 
 10 Kasım 2026: günlük denetim — atlet dizi, ayak bileği kırığı, sosyal bağ (DENETIM.md). Site geneli taramada "Hekiminize danışarak (düzenli) ağrı kesici kullanabilirsiniz" kalıbı 5 sayfada bulundu ve kural kalıbına çevrildi (ayak bileği kırığı, boyun incinmesi, diz kapağı çıkığı, omuz kireçlenmesi, köprücük kemiği kırığı); kaburga kırığındaki benzer madde açık. Çeviri tur63 + tur64 (bilgi kartı). Sonraki batch: tur65 (önce i18n/done içindeki en büyük numaraya bakın).
+
+10 Kasım 2026: diş sıkma ↔ boyun ağrısı bağlantısı (boyun-agrisi'na yeni bölüm ve SSS), botulinum toksini neyi etkiler, plak özeti (DENETIM.md). Çeviri tur65. Sonraki batch: tur66 (önce i18n/done içindeki en büyük numaraya bakın).
