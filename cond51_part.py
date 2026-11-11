@@ -3,7 +3,7 @@
 # Egzersizler RUH Bath, WWL (2026), NHS Lothian (2025), United Lincolnshire (2025) ve Worcestershire NHS broşürlerine göre, hazır çizimlerle.
 
 _ex2("ak_pump", "apump", "Ayak bileğini yukarı aşağı oynatma", "Oturun ya da uzanın. Ayağınızı rahat ettiğiniz aralıkta yukarı doğru çekin, sonra aşağı doğru itin. Bot kullanıyorsanız ekibiniz izin verdiyse botu çıkarıp yapabilirsiniz.", "10 tekrar, günde 3–4 kez")
-_ex2("ak_towel", "towelst2", "Havluyla baldır germe", "Ağrı yatıştıktan sonra başlayın. Bacağınız düz oturun, havluyu ayağınızın ön kısmına dolayıp uçlarından tutun ve ayağınızı kendinize doğru çekin.", "20–30 saniye tutun, günde 3 kez")
+_ex2("ak_towel", "towelst2", "Havluyla baldır germe", "Ağrı yatıştıktan sonra başlayın. Bacağınızı düz uzatarak oturun, havluyu ayağınızın ön kısmına dolayıp uçlarından tutun ve ayağınızı kendinize doğru çekin.", "20–30 saniye tutun, günde 3 kez")
 _ex2("ak_calf", "calf", "Duvarda baldır germe", "Duvara dönük durun, ellerinizi duvara koyun. Ağrılı ayağınızı geriye alın; dizi düz, topuğu yerde kalsın. Öndeki dizinizi bükerek rahat ettiğiniz kadar öne eğilin.", "Rahat ettiğiniz kadar, günde 3–4 kez")
 _ex2("ak_heel", "heel2", "Topuk kaldırma", "Bir tezgâha tutunarak dik durun. Topuklarınızı kaldırıp parmak uçlarınızda yükselin, 3 saniye tutun ve yavaşça inin. Kendinize güvendiğinizde tek ayakla, tutunarak yapın.", "Ağrınızın izin verdiği kadar, gün içinde")
 _ex2("ak_sts", "sts", "Sandalyeden kalkıp oturma", "Genellikle 6. haftadan sonra başlanır. Ellerinizi kullanmadan sandalyeden kalkın ve kontrollü şekilde oturun.", "10 tekrar")

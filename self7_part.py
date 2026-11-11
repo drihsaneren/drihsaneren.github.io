@@ -302,7 +302,7 @@ page("nabiz-olcer.html", "Nabız Ölçer ve Hedef Nabız",
 # ------------------------------------------------------------------ 2 · BEL–BOY ORANI
 BB_FAQ = [
  ("Kimler için uygun?", "NICE bu oranı beden kitle indeksi (BKİ) 35’in altında olan yetişkinler için öneriyor. Aynı sınırlar kadın ve erkekte, her etnik kökende kullanılabilir. 5 yaş ve üzeri çocuklarda ve gençlerde de aynı sınırlar geçerlidir."),
- ("BKİ’m normal, yine de ölçmeli miyim?", "Evet. BKİ fazla kiloyu gösterir ama yağın nerede toplandığını göstermez. Bel–boy oranı, göbek çevresindeki yağlanmanın pratik bir tahminidir. Çalışmaları birleştiren 2012 tarihli bir meta-analizde bel–boy oranı, yetişkinlerde kalp-damar ve metabolik risk etkenlerini taramada bel çevresinden ve BKİ’den daha başarılıydı. Bazı etnik kökenlerden insanlar karın çevresinde yağlanmaya daha yatkındır ve kiloyla ilişkili hastalıkların riski onlarda daha düşük BKİ’de artar. İngiltere’de yapılan bir analizde, BKİ ve bel çevresine dayalı değerlendirmenin sorunsuz saydığı yetişkinlerin %35’i bel–boy oranına göre daha yüksek risk grubundaydı."),
+ ("BKİ’m normal, yine de ölçmeli miyim?", "Evet. BKİ fazla kiloyu gösterir ama yağın nerede toplandığını göstermez. Bel–boy oranı, göbek çevresindeki yağlanmanın pratik bir tahminidir. Çalışmaları birleştiren 2012 tarihli bir meta-analizde bel–boy oranı, yetişkinlerde kalp-damar ve metabolik risk etkenlerini taramada bel çevresinden ve BKİ’den daha başarılıydı. Bazı etnik kökenlerden insanlar karın çevresinde yağlanmaya daha yatkındır ve kiloyla ilişkili hastalıkların riski onlarda daha düşük BKİ’de artar. Birleşik Krallık’ta 1.453 yetişkinin verisiyle yapılan bir analizde, BKİ ve bel çevresine dayalı tabloya göre “artmış risk yok” sayılanların %35’inin bel–boy oranı 0,5 ya da üzerindeydi."),
  ("Oranım 0,5’in üzerinde çıktı, ne yapmalıyım?", "Bu bir tanı değildir, ama sağlık riskinizin arttığını gösterir. Hedef, belinizi boyunuzun yarısının altında tutmaktır. Düzenli hareket ve beslenme alışkanlıklarınız üzerine bir hekim ya da diyetisyenle konuşabilir, tansiyon, kan şekeri ve kolesterol gibi değerlerinizi kontrol ettirebilirsiniz."),
 ]
 
@@ -311,8 +311,8 @@ BB_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Bel–boy oranı</h1>
-    <p class="lede">Bel çevreniz boyunuzun yarısından az mı? Bu basit oran, yağın göbek çevrenizde toplanıp toplanmadığını gösterir. İngiltere’nin ulusal sağlık kılavuzu NICE, beden kitle indeksi 35’in altında olan yetişkinlere belini boyunun yarısının altında tutmayı öneriyor. Bir mezura yeter: ölçün ve aşağıda hesaplayın.</p>
-    <p class="meta">Son güncelleme: 16 Ekim 2026</p>
+    <p class="lede">Bel çevreniz boyunuzun yarısından az mı? Bu basit oran, yağın göbek çevrenizde toplanıp toplanmadığına dair pratik bir tahmin verir. İngiltere’nin ulusal sağlık kılavuzu NICE, beden kitle indeksi 35’in altında olan yetişkinlere belini boyunun yarısının altında tutmayı öneriyor. Bir mezura yeter: ölçün ve aşağıda hesaplayın.</p>
+    <p class="meta">Son güncelleme: 11 Kasım 2026</p>
   </div>
 </header>
 
@@ -423,7 +423,6 @@ BB_BODY = f'''<header class="page">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
         "NICE. " + ext("https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity", "Overweight and obesity management: identifying and assessing overweight, obesity and central adiposity") + ". NICE guideline NG246.",
-        "NICE. " + ext("https://www.nice.org.uk/guidance/cg189/chapter/3-Other-information", "Obesity: identification, assessment and management (CG189): other information") + ".",
         "Ashwell M, Gunn P, Gibson S. " + ext("https://doi.org/10.1111/j.1467-789X.2011.00952.x", "Waist-to-height ratio is a better screening tool than waist circumference and BMI for adult cardiometabolic risk factors: systematic review and meta-analysis") + ". Obes Rev. 2012;13(3):275–286.",
         "Browning LM, Hsieh SD, Ashwell M. " + ext("https://doi.org/10.1017/S0954422410000144", "A systematic review of waist-to-height ratio as a screening tool for the prediction of cardiovascular disease and diabetes: 0·5 could be a suitable global boundary value") + ". Nutr Res Rev. 2010;23(2):247–269",
         "Ashwell M, Gibson S. " + ext("https://pmc.ncbi.nlm.nih.gov/articles/PMC4800150/", "Waist-to-height ratio as an indicator of ‘early health risk’: simpler and more predictive than using a ‘matrix’ based on BMI and waist circumference") + ". BMJ Open. 2016;6(3):e010159.",
@@ -453,14 +452,14 @@ BB_JS = '''<script>
       $('bb-lab').textContent = ''; $('bb-txt').textContent = S.bad; $('bb-badge').hidden = true; $('bb-save').hidden = true; $('bb-wa').hidden = true;
       return;
     }
-    var r = Math.round(w / h * 100) / 100, c = r < 0.4 ? 0 : r < 0.5 ? 1 : r < 0.6 ? 2 : 3;
+    var q = w / h, r = Math.floor(q * 100 + 1e-9) / 100, c = q < 0.4 ? 0 : q < 0.5 ? 1 : q < 0.6 ? 2 : 3;
     cur = {h: h, w: w, r: r};
     $('bb-r').textContent = fmt(r, 2);
     var m = $('bb-m'); m.hidden = false; m.style.left = (Math.max(0, Math.min(1, (r - 0.35) / 0.4)) * 100) + '%';
     $('bb-res').hidden = false; $('bb-save').hidden = false; $('bb-wa').hidden = false;
     $('bb-lab').textContent = S['lab' + c];
     $('bb-txt').textContent = S['t' + c] + ' ' + fill(S.goal, {g: fmt(h / 2, (h / 2) % 1 ? 1 : 0)});
-    var b = $('bb-badge'); b.hidden = false; b.textContent = r < 0.5 ? S.bok : S.bno; b.classList.toggle('no', r >= 0.5);
+    var b = $('bb-badge'); b.hidden = false; b.textContent = q < 0.5 ? S.bok : S.bno; b.classList.toggle('no', q >= 0.5);
     $('bb-wa').href = WA + encodeURIComponent(fill(S.wa, {r: fmt(r, 2), h: fmt(h, h % 1 ? 1 : 0), w: fmt(w, w % 1 ? 1 : 0)}));
   }
   function paintHist(){

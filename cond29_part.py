@@ -5,7 +5,7 @@
 _ex2("bk_hslide", "hslide", "Topuk kaydırma", "Sırtüstü yatın, bacaklarınız düz olsun. Bir topuğunuzu yerde kaydırarak kalçanıza doğru çekin ve dizinizi rahat ettiğiniz kadar bükün; dizinizin arkasında hafif bir gerginlik olabilir, ağrıyı zorlamayın. Sonra yavaşça geri kaydırın.", "Her bacakla 10 tekrar, günde 2 kez")
 
 BK_FAQ = [
- ("Baker kisti kendiliğinden geçer mi?", "Geçebilir; özellikle çocuklarda sık görülür. Yetişkinlerde kist çoğu zaman dizdeki başka bir sorundan kaynaklandığı için, o sorun tedavi edildiğinde belirtiler de genellikle düzelir. İyileşme birkaç aydan birkaç yıla kadar sürebilir."),
+ ("Baker kisti kendiliğinden geçer mi?", "Geçebilir; kendiliğinden geçmesi özellikle çocuklarda sıktır. Yetişkinlerde kist çoğu zaman dizdeki başka bir sorundan kaynaklandığı için, o sorun tedavi edildiğinde belirtiler de genellikle düzelir. İyileşme birkaç aydan birkaç yıla kadar sürebilir."),
  ("Kisti iğneyle boşaltmak işe yarar mı?", "Boşaltmak belirtileri rahatlatabilir, ancak kist sıklıkla yeniden dolar ve uzun süredir var olan kistlerde işe yaramayabilir. Boşaltmanın ardından yapılabilen kortizon iğnesi ağrıyı ve iltihabı azaltabilir, ama kistin tekrarlamasını önlemez."),
  ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez. Kistin kendisinin çıkarılması nadirdir; ameliyat daha çok dizin içindeki menisküs yırtığı gibi önemli bir hasarı onarmak için ya da diğer tedavilerle geçmeyen büyük ve ağrılı kistlerde düşünülür. Bir derlemeye göre yetişkinlerdeki Baker kistlerinin %94’e varan kısmı diz içindeki bir sorunla, en sık da menisküs yırtığıyla ilişkili; kisti tek başına çıkarmanın ardından kistin yeniden oluşma oranı yüksek."),
  ("Egzersiz yapabilir miyim?", "Evet. Dizi hareketli tutmak ve çevresindeki kasları güçlendirmek önerilir. Dizin arkasındaki gerginliği belirgin artıran hareketleri bir süre azaltabilir, ağrısız bir aralıkta çalışabilirsiniz."),
@@ -25,7 +25,7 @@ BK_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Baker kisti (diz arkası kisti)</h1>
     <p class="lede">Baker kisti, dizin arkasında oluşan, içi eklem sıvısıyla dolu bir şişliktir. Yetişkinlerde çoğu zaman kireçlenme ya da menisküs yırtığı gibi dizdeki başka bir sorunun sonucudur; o sorun tedavi edildiğinde kist de genellikle geriler. Çoğu zaman tehlikeli değildir, ama baldırda ani şişlik ve ağrı yaparsa bacaktaki pıhtıyla karışabileceği için hemen değerlendirilmelidir.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 11 Kasım 2026</p>
   </div>
 </header>
 
@@ -76,7 +76,7 @@ BK_BODY = f'''<header class="page">
           <li>Asıl hedef, kiste yol açan diz sorununu tedavi etmektir.</li>
           <li>Fizyoterapi, dizi hareketli tutmaya ve çevresindeki kasları güçlendirmeye yardım eder.</li>
           <li>İğneyle boşaltma ve kortizon iğnesi rahatlatabilir, ama kist sıklıkla tekrarlar.</li>
-          <li>Ameliyat nadiren gerekir; çoğu zaman kistin kendisi değil, dizdeki hasar onarılır.</li>
+          <li>Kistin ameliyatla çıkarılması nadirdir; ameliyat gerekirse çoğu zaman kistin kendisi değil, dizdeki hasar onarılır.</li>
         </ul>
       </div>
     </div>

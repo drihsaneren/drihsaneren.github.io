@@ -3,7 +3,7 @@
 # Egzersizler Hull (HEY, 2025), Plymouth (2025) ve Royal Free (2026) NHS broşürlerine göre, hazır çizimlerle.
 
 _ex2("cz_pump", "apump", "Ayak bileğini çekip itme", "Oturun ya da uzanın. Ayak ucunuzu ve bileğinizi kendinize doğru çekin, 5 saniye tutun; sonra ayak ucunuzu ileri doğru itin, 5 saniye tutun. Ağrısız aralıkta kalın.", "10 tekrar, günde 3–4 kez")
-_ex2("cz_towel", "towelst2", "Havluyla baldır germe", "Bacağınız düz oturun, bir havluyu ya da kemeri ayağınızın ön kısmına dolayın. Uçlarından tutup ayağınızı kendinize doğru çekin; baldırınızda hafif bir gerilme hissedin.", "30 saniye tutun, tekrarlayın")
+_ex2("cz_towel", "towelst2", "Havluyla baldır germe", "Bacağınızı düz uzatarak oturun, bir havluyu ya da kemeri ayağınızın ön kısmına dolayın. Uçlarından tutup ayağınızı kendinize doğru çekin; baldırınızda hafif bir gerilme hissedin.", "30 saniye tutun, tekrarlayın")
 _ex2("cz_calf", "calf", "Düz dizle baldır germe", "Bir sandalyeye ya da duvara dönük durun. Ağrılı bacağınızı geriye alın; dizi düz, topuğu yerde kalsın. Öndeki dizinizi bükerek baldırınızda gerilme hissedene kadar öne eğilin.", "30 saniye, günde 3 kez")
 _ex2("cz_sol", "soleus", "Diz bükülü baldır germe", "Ağrılı bacağınız diğerinin biraz gerisinde, ayak uçlarınız öne baksın. Ağrılı topuğunuzu yerde tutarak iki dizinizi birden bükün; gerilmeyi baldırın alt kısmında hissedin.", "30 saniye, günde 3 kez")
 _ex2("cz_heel", "heel2", "Topuk kaldırma", "Parmak ucunuzda ağrısız durabildiğinizde başlayın. Bir sandalyeye tutunun, ağırlığınızı iki ayağınıza eşit verin. Parmak uçlarınızda olabildiğince yükselin, 5 saniye tutun ve yavaşça inin. Kolaylaştıkça tekrar sayısını artırın, sonra tek ayakla yapın.", "10 tekrar, günde 2 kez")
@@ -11,7 +11,7 @@ _ex2("cz_sls", "sls", "Tek ayak üzerinde denge", "Yaralanmadan önce tek ayak �
 
 CZ_FAQ = [
  ("Aşil tendonu kopmasından nasıl ayırt ederim?", "Her zaman kolay değildir. Topuğun üstünde “çat” diye bir ses, bacağın arkasına darbe almış gibi bir his, tendonda boşluk hissi, düztaban yürüme ve parmak ucuna hiç kalkamama aşil tendonu kopmasını düşündürür. Bu durumda beklemeden acil servise başvurun."),
- ("Ne zaman koşuya ve spora dönebilirim?", "Çoğu kişi yaklaşık 2 haftada kendini daha iyi hisseder, ama yeniden sakatlanmamak için 8 haftaya kadar ağır egzersizden kaçınmak önerilir. Tam güce, tam harekete kavuşup hızlı tempoda ağrısız ve şişliksiz yürüyebildiğinizde sporunuza özgü hareketlere başlayın ve antrenmanı kademeli artırın. Ani bir hareketle kas yırtığı yaşayan amatör sporcularla yapılan bir çalışmada, yüklenme egzersizlerine yaralanmadan 2 gün sonra başlayanlar, 9 gün sonra başlayanlara göre yaklaşık 3 hafta daha erken ağrısız iyileşti; yeniden yaralanma yalnızca bir sporcuda görüldü."),
+ ("Ne zaman koşuya ve spora dönebilirim?", "Çoğu kişi yaklaşık 2 haftada kendini daha iyi hisseder, ama yeniden sakatlanmamak için 8 haftaya kadar ağır egzersizden kaçınmak önerilir. Tam güce, tam harekete kavuşup hızlı tempoda ağrısız ve şişliksiz yürüyebildiğinizde sporunuza özgü hareketlere başlayın ve antrenmanı kademeli artırın. Uyluk ya da baldır kasında ani yırtık yaşayan 50 amatör sporcuyla yapılan bir çalışmada (yaralanmaların yaklaşık %40’ı baldırdaydı), yüklenme egzersizlerine yaralanmadan 2 gün sonra başlayanlar, 9 gün sonra başlayanlara göre ortanca yaklaşık 3 hafta daha erken ağrısız iyileşip spora döndü; yeniden yaralanma yalnızca bir sporcuda, erken başlayan grupta görüldü."),
  ("Bandaj kullanmalı mıyım?", "Şişliği kontrol etmek için baldıra bası bandajı ya da çorap kullanılabilir. Uyurken çıkarın. Ayağınızda karıncalanma, uyuşma, morarma ya da artan ağrı olursa bandajı hemen çıkarın."),
  ("Fizyoterapi gerekli mi?", "Her zaman gerekmez; çoğu kişi bu önerilerle iyileşir. Yaralanmadan 10 gün sonra hâlâ ayağınıza basamıyorsanız ve baldırınız ağrılı ve şişse bir fizyoterapiste başvurun."),
  ("Ne kadar sürer?", "Çoğu kişi yaklaşık 2 haftada kendini daha iyi hisseder; iyileşme genellikle 6 hafta kadar sürer. Ciddi yırtıkların tam iyileşmesi 3 aya kadar sürebilir; hafif ağrı ve şişlik bazen 3–6 ay devam eder."),
@@ -31,8 +31,8 @@ CZ_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Baldır kası zorlanması</h1>
-    <p class="lede">Koşarken, sıçrarken ya da ani bir hamlede baldırınıza bıçak saplanmış gibi keskin bir ağrı mı girdi? Baldırdaki iki büyük kasın birinde küçük bir yırtık olduğunda baldır kası zorlanması ortaya çıkar. Sık görülen bir spor yaralanmasıdır ve çoğu zaman birkaç hafta içinde düzelir. İlk günlerde doğru bakım ve sonra kademeli egzersiz, iyileşmeyi hızlandırır ve yeniden sakatlanmayı önler.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="lede">Koşarken, sıçrarken ya da ani bir hamlede baldırınıza bıçak saplanmış gibi keskin bir ağrı mı girdi? Baldırdaki iki büyük kasın birinde küçük bir yırtık olduğunda baldır kası zorlanması ortaya çıkar. Sık görülen bir spor yaralanmasıdır ve çoğu zaman birkaç hafta içinde düzelir. İlk günlerde doğru bakım ve sonra kademeli egzersiz, iyileşmeyi destekler.</p>
+    <p class="meta">Son güncelleme: 11 Kasım 2026</p>
   </div>
 </header>
 
@@ -102,10 +102,10 @@ CZ_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Ne zaman hekime başvurmalı?</h2>
       <ul class="dots redflags">
-        <li>Bir bacakta zonklayan ya da kramp gibi ağrı, şişlik, kızarık ya da koyulaşmış cilt veya şişkin damarlar varsa (pıhtı belirtisi olabilir)</li>
+        <li>Bir bacakta zonklayan ya da kramp gibi ağrı, şişlik, ağrılı bölgede kızarmış, morarmış ya da koyulaşmış cilt veya şişkin damarlar varsa (pıhtı belirtisi olabilir)</li>
         <li>Bu belirtilerle birlikte göğüs ağrısı ya da nefes darlığı varsa: hemen 112’yi arayın</li>
         <li>Belirtiler düzelmiyor ve baldır giderek daha hassas, kırmızı ve sıcak oluyorsa</li>
-        <li>Yaralanmadan 10 gün sonra hâlâ ayağınıza basamıyorsanız</li>
+        <li>Yaralanmadan 10 gün sonra hâlâ ayağınıza basamıyor ve baldırınız hâlâ ağrılı ve şişse</li>
       </ul>
       {CTA_CARD("Baldır kası zorlanması sonrası iyileşmeniz", "baldır kası zorlanması")}
     </div>
