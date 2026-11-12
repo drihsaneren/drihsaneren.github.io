@@ -14,7 +14,7 @@ SV["mt_toes"] = fig(
     f'<g fill="#C8963E">{anim_t("0 0;-6 2;0 0")}<circle cx="34" cy="44" r="4"/><circle cx="41" cy="41" r="4"/><circle cx="48" cy="44" r="4.5"/></g>'
     f'<g fill="#C8963E">{anim_t("0 0;6 2;0 0")}<circle cx="72" cy="44" r="4.5"/><circle cx="79" cy="41" r="4"/><circle cx="86" cy="44" r="4"/></g>'
     '<path d="M22 30 l-8 0 m3 -3 l-3 3 l3 3 M98 30 l8 0 m-3 -3 l3 3 l-3 3" stroke="#C8963E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
-    "Parmakları açma")
+    "Ayak parmaklarını açma")
 # Ayağı içe ve dışa çevirme (önden)
 SV["mt_inout"] = fig(GRD +
     '<path class="fig" d="M60 10 V86"/>'
@@ -30,7 +30,7 @@ _ex2("mt_stand", "sls", "Yaralı bacak üzerinde durma", "Rahatça yürüyebildi
 _ex2("mt_toe", "heel2", "Parmak ucunda yükselme", "Tutunarak iki ayağınızın parmak uçlarında yükselin ve yavaşça inin. Çok rahatsız edici olmadan yapın.", "8–12 tekrar, günde 3–4 kez")
 
 MT5_FAQ = [
- ("Bot kırığın iyileşmesine yardım eder mi?", "Kemiğin tabanındaki kırıklarda bot ya da sert tabanlı ayakkabı yalnızca rahat etmeniz için verilir; iyileşmeyi hızlandırmaz. Yürürken giyin, dinlenirken ve gece çıkarabilirsiniz. Sağlam ayağınıza destekleyici bir ayakkabı giymek diğer eklemlerinizi korur. Taban çıkıntısındaki kopma kırığı olan 78 hastayla yapılan çok merkezli bir çalışmada, sert tabanlı ayakkabıyla tedavi edilenlerde 6. aydaki ağrı alçıyla tedavi edilenlerden farklı değildi (iki grupta da ağrının izin verdiği ölçüde basılabiliyordu) ve önceki etkinliklere dönüş daha erkendi (ortalama 37’ye karşı 43 gün)."),
+ ("Bot kırığın iyileşmesine yardım eder mi?", "Kemiğin tabanındaki çıkıntıda olan kopma kırıklarında (Jones kırığı hariç) bot ya da sert tabanlı ayakkabı yalnızca rahat etmeniz için verilir; iyileşmeyi hızlandırmaz. Yürürken giyin, dinlenirken ve gece çıkarabilirsiniz. Sağlam ayağınıza destekleyici bir ayakkabı giymek diğer eklemlerinizi korur. Taban çıkıntısındaki kopma kırıklarıyla ilgili çok merkezli, randomize bir çalışmada, sert tabanlı ayakkabıyla tedavi edilenlerde 6. aydaki ağrı alçıyla tedavi edilenlerden farklı değildi (iki grupta da ilk hafta atel kullanıldı, sonra ağrının izin verdiği ölçüde basılabiliyordu) ve önceki etkinliklere dönüş daha erkendi (ortalama 37’ye karşı 43 gün)."),
  ("Jones kırığı nedir, neden farklı tedavi edilir?", "Jones kırığı, 5. tarak kemiğinin tabanına yakın ama biraz daha ileride olan bir kırıktır ve daha yavaş iyileşebilir. Bir NHS broşürüne göre ilk 6 hafta alçı ve koltuk değnekleriyle ayağa yük verilmez; daha sonra bota geçilebilir. Bu kırıkların küçük bir kısmı kendiliğinden kaynamaz ve ameliyat düşünülebilir. Kırık tipinizi ve ne kadar yük verebileceğinizi ekibiniz söyler."),
  ("Ne zaman araba kullanabilirim?", "Bottan ya da sert tabanlı ayakkabıdan çıktığınızda, rahat yürüyebildiğinizde, ani fren gibi acil manevraları ağrı ya da tereddüt olmadan yapabildiğinizde ve sigortanız sizi kapsadığında. Önce güvenli bir yerde deneyin."),
  ("Ne zaman spora dönebilirim?", "Ağrısız çömelebildiğiniz, sekebildiğiniz, zıplayabildiğiniz ve koşabildiğiniz zaman. Çoğu kişi 6–12 hafta içinde olağan etkinliklerine döner; koşu gibi daha zorlu etkinlikler bir süre daha rahatsızlık verebilir. Yapamıyorsanız fizyoterapi için hekiminize başvurun."),
@@ -51,7 +51,7 @@ MT5_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Ayak dış kenarı (5. tarak kemiği) kırığı</h1>
     <p class="lede">Ayağınızı burktuktan sonra ayağınızın dış kenarında, küçük parmağa giden uzun kemikte ağrı ve şişlik mi var? Bu kemik 5. metatars ya da 5. tarak kemiğidir. Kırıkların çoğu sorunsuz iyileşir: kemik yaklaşık 6 haftada kaynar, ağrının izin verdiği ölçüde yürümek de iyileşmeye yardım eder. Bu sayfa hangi kırıkta neye dikkat etmeniz gerektiğini ve evde yapabileceğiniz egzersizleri anlatıyor.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 12 Kasım 2026</p>
   </div>
 </header>
 

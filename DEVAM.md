@@ -862,3 +862,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 10 Kasım 2026: diş sıkma ↔ boyun ağrısı bağlantısı (boyun-agrisi'na yeni bölüm ve SSS), botulinum toksini neyi etkiler, plak özeti (DENETIM.md). Çeviri tur65. Sonraki batch: tur66 (önce i18n/done içindeki en büyük numaraya bakın).
 
 11 Kasım 2026: günlük denetim — Baker kisti, baldır kası zorlanması, bel–boy oranı (DENETIM.md). Bel–boy hesaplayıcısında yuvarlama hatası düzeltildi (sınıflama yuvarlanmamış orana göre, gösterim aşağı kesilerek). Çeviri tur66. Sonraki batch: tur67 (önce i18n/done içindeki en büyük numaraya bakın).
+
+12 Kasım 2026: günlük denetim — bel fıtığı ameliyatı sonrası, 5. tarak kemiği kırığı, boyun düzleşmesi (DENETIM.md). Bel fıtığı ameliyatında ortak `walk` çiziminin "Tempolu yürüyüş" başlığı bu sayfada "Kısa yürüyüşler" yapıldı (SV["bfa_walk"]). Not: t_ls.py'ye EN sayfa `en/` öneki olmadan verilir. Çeviri tur67. Sonraki batch: tur68 (önce i18n/done içindeki en büyük numaraya bakın).

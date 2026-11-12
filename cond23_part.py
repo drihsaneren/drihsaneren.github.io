@@ -5,7 +5,7 @@
 BD_FAQ = [
  ("Boyun düzleşmesi düzelir mi?", "Asıl hedef eğriliği değiştirmek değil, ağrıyı azaltmak ve boynun rahat hareket etmesini sağlamaktır; bunun için düzenli egzersiz ve gün içinde boynu hareketli tutmak işe yarar. ABD fizyoterapi kılavuzu da uyarı işareti olmayan, hareket kısıtlılığıyla seyreden boyun ağrısında görüntülemenin gerekmediğini; boyun hareket egzersizleri ile kürek kemiği ve kol güçlendirmesini öneriyor."),
  ("Özel yastık ya da boyunluk kullanmalı mıyım?", "İngiltere Ulusal Sağlık Sistemi (NHS) boyun ağrısında alçak ve sert bir yastık öneriyor; boyunluk ise önerilmiyor, çünkü boynu hareketli tutmak daha iyi. Size rahat gelen bir yastığı deneyerek seçebilirsiniz."),
- ("Baş dönmesi ve baş ağrısı boyun düzleşmesinden mi?", "Boyun kaynaklı baş ağrısı olabilir, ancak baş dönmesinin pek çok başka nedeni vardır. Bu belirtileri yalnızca röntgendeki düzleşmeye bağlamak yerine bir hekimin değerlendirmesi daha doğru olur. Baş ağrısı ve baş dönmesi rehberlerimize de bakabilirsiniz."),
+ ("Baş dönmesi ve baş ağrısı boyun düzleşmesinden mi?", "Boyun kaynaklı baş ağrısı olabilir, ancak baş dönmesinin pek çok başka nedeni vardır. Bu belirtileri yalnızca röntgendeki düzleşmeye bağlamak yerine bir hekimin değerlendirmesi daha doğru olur. <a href=\"bas-agrisi.html\">Baş ağrısı</a> ve <a href=\"bas-donmesi.html\">baş dönmesi</a> rehberlerimize de bakabilirsiniz."),
  ("Telefona eğilmek boyun düzleşmesi yapar mı?", "Uzun süre aynı pozisyonda öne eğik durmak boyunda gerginlik ve ağrıya yol açabilir. Ekranı göz hizasına yaklaştırmak, sık mola vermek ve boynu farklı yönlere hareket ettirmek rahatlatır."),
 ]
 
@@ -13,7 +13,7 @@ BD_SRC = [
  "Grob D, Frauenfelder H, Mannion AF. The association between cervical spine curvature and neck pain. Eur Spine J. 2007;16(5):669–678. Özet: " + ext("https://www.painscience.com/biblio/detailed-study-of-correlations-between-neck-pain-and-curvature-finds-none.html", "PainScience, Detailed study of correlations between neck pain and curvature finds none") + ".",
  "McAviney J, Schulz D, Bock R, Harrison DE, Holland B. Determining the relationship between cervical lordosis and neck complaints. J Manipulative Physiol Ther. 2005;28(3):187–193. Özet: " + ext("https://www.painscience.com/biblio/painful-necks-about-10-degree-straighter-in-x-rays.html", "PainScience, Painful necks about 10 degree straighter in X-rays") + ".",
  "Bussières AE, Stewart G, Al-Zoubi F, et al. " + ext("https://pubmed.ncbi.nlm.nih.gov/27836071/", "The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline") + ". J Manipulative Physiol Ther. 2016;39(8):523–564",
- "NHS. " + ext("https://www.nhs.uk/conditions/neck-pain/", "Neck pain") + ". Page last reviewed 27 April 2023.",
+ "NHS. " + ext("https://www.nhs.uk/conditions/neck-pain-and-stiff-neck/", "Neck pain and stiff neck") + ". Page last reviewed 27 April 2023.",
  "Blanpied PR, Gross AR, Elliott JM, et al. " + ext("https://doi.org/10.2519/jospt.2017.0302", "Neck pain: revision 2017. Clinical practice guidelines linked to the International Classification of Functioning, Disability and Health from the Orthopaedic Section of the American Physical Therapy Association") + ". J Orthop Sports Phys Ther. 2017;47(7):A1–A83.",
 ]
 
@@ -22,8 +22,8 @@ BD_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun düzleşmesi</h1>
-    <p class="lede">Boyun düzleşmesi, yandan çekilen röntgende boyun omurlarının normalde öne doğru hafif çukur (lordoz) olan dizilişinin düzleşmiş görünmesidir. Ülkemizde sık konan bir tanıdır ve çoğu zaman endişe yaratır. Oysa araştırmalar, düzleşmenin ağrısı olan ve olmayan kişilerde benzer sıklıkta görüldüğünü gösteriyor. Ağrının tedavisi, röntgendeki eğrilikten çok boynun nasıl kullanıldığına odaklanır.</p>
-    <p class="meta">Son güncelleme: 11 Ekim 2026</p>
+    <p class="lede">Boyun düzleşmesi, yandan çekilen röntgende boyun omurlarının normalde öne doğru hafif bir kavis (lordoz) çizen dizilişinin düzleşmiş görünmesidir. Ülkemizde sık konan bir tanıdır ve çoğu zaman endişe yaratır. Oysa araştırmalar, düzleşmenin ağrısı olan ve olmayan kişilerde benzer sıklıkta görüldüğünü gösteriyor. Ağrının tedavisi, röntgendeki eğrilikten çok boynun nasıl kullanıldığına odaklanır.</p>
+    <p class="meta">Son güncelleme: 12 Kasım 2026</p>
   </div>
 </header>
 
@@ -32,7 +32,7 @@ BD_BODY = f'''<header class="page">
     <div class="wrap">
       <div class="stats">
         <div class="stat"><b>107 kişi</b><span>Ağrısı olan ve olmayanların boyun röntgenlerinin karşılaştırıldığı çalışma: düzleşme sıklığında fark yoktu</span></div>
-        <div class="stat"><b>%23 / %17</b><span>Boyunda bir seviyede geriye bükülme görülen kişiler: ağrısı olanlarda ve olmayanlarda</span></div>
+        <div class="stat"><b>%23 / %17</b><span>Boyunda en az bir seviyede geriye bükülme görülen kişiler: ağrısı olanlarda ve olmayanlarda</span></div>
         <div class="stat"><b>Alçak ve sert</b><span>NHS'nin boyun ağrısında önerdiği yastık; boyunluk önerilmiyor</span></div>
         <div class="stat"><b>Birkaç hafta</b><span>Ağrı bu sürede geçmezse hekime başvurmak için yeterli bir süre</span></div>
       </div>
@@ -44,7 +44,7 @@ BD_BODY = f'''<header class="page">
       <div>
         <h2>Ağrının nedeni düzleşme mi?</h2>
         <p class="soft">Bir çalışmada 45 yaşın üzerindeki 107 kişinin boyun röntgenleri incelendi; yarısının boyun ağrısı vardı. Düz ya da geriye doğru bükülmüş boyun, ağrısı olanlarda ve olmayanlarda benzer sıklıkta görüldü. Yazarlar, ağrısı olan bir kişide görülen bu bulguların büyük olasılıkla tesadüf olduğunu, ağrının nedenini göstermediğini belirtti.</p>
-        <p class="soft">Kiropraktik araştırmacıların yaptığı başka bir çalışmada ise eğriliği 20 derecenin altında olanlarda boyun ağrısı daha sık bulundu. Bu çalışma yalnızca bir anlık ilişki gösteriyor; düzleşmenin ağrıya yol açtığını kanıtlamıyor.</p>
+        <p class="soft">Kiropraktik araştırmacıların yaptığı başka bir çalışmada ise eğriliği 20 derece ya da daha az olanlarda boyun ağrısı daha sık bulundu. Bu çalışma yalnızca bir anlık ilişki gösteriyor; düzleşmenin ağrıya yol açtığını kanıtlamıyor.</p>
       </div>
       <div>
         <h2>Bu ne anlama geliyor?</h2>
