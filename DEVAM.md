@@ -864,3 +864,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 11 Kasım 2026: günlük denetim — Baker kisti, baldır kası zorlanması, bel–boy oranı (DENETIM.md). Bel–boy hesaplayıcısında yuvarlama hatası düzeltildi (sınıflama yuvarlanmamış orana göre, gösterim aşağı kesilerek). Çeviri tur66. Sonraki batch: tur67 (önce i18n/done içindeki en büyük numaraya bakın).
 
 12 Kasım 2026: günlük denetim — bel fıtığı ameliyatı sonrası, 5. tarak kemiği kırığı, boyun düzleşmesi (DENETIM.md). Bel fıtığı ameliyatında ortak `walk` çiziminin "Tempolu yürüyüş" başlığı bu sayfada "Kısa yürüyüşler" yapıldı (SV["bfa_walk"]). Not: t_ls.py'ye EN sayfa `en/` öneki olmadan verilir. Çeviri tur67. Sonraki batch: tur68 (önce i18n/done içindeki en büyük numaraya bakın).
+
+13 Kasım 2026: günlük denetim — boyun incinmesi, boyun tutulması, çekiç parmak (DENETIM.md). Blanpied 2017 akut boyun ağrısı önerisinin amacı "programa uyumu artırmak" (İngilizce asıl; orthopt.org'daki Çince çeviri farklı). Çeviri tur68. Sonraki batch: tur69 (önce i18n/done içindeki en büyük numaraya bakın).

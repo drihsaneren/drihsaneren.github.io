@@ -16,7 +16,7 @@ _ex2("bt_shrug", "ly_shrug", "Omuz kaldırma ve çevirme", "Dik oturun. Omuzlar�
 
 BT_FAQ = [
  ("Boyun tutulması ne kadar sürer?", "Genellikle birkaç gün içinde düzelir. Kas spazmı çoğu zaman 24–48 saatte gevşer, tam iyileşme ise bir haftayı bulabilir. Bazen daha uzun sürebilir ya da ilerde belirgin bir neden olmadan tekrarlayabilir."),
- ("Boynumu hareket ettirmem zarar verir mi?", "Hayır. Boynu yavaşça hareket ettirmek ona zarar vermez; tersine, hareketi gün gün artırmak iyileşmeyi destekler. Ağrı çok şiddetliyse bir gün kadar dinlenip sonra yavaşça hareket etmeye başlayabilirsiniz. ABD fizyoterapi kılavuzu, ani başlayan ve hareket kısıtlılığı olan boyun ağrısında boyun hareket egzersizlerini ve kazanımları korumak için kürek kemiği ve kol güçlendirmesini öneriyor."),
+ ("Boynumu hareket ettirmem zarar verir mi?", "Hayır. Boynu yavaşça hareket ettirmek ona zarar vermez; tersine, hareketi gün gün artırmak iyileşmeyi destekler. Ağrı çok şiddetliyse bir gün kadar dinlenip sonra yavaşça hareket etmeye başlayabilirsiniz. ABD fizyoterapi kılavuzu, yeni başlamış (akut) ve hareket kısıtlılığı olan boyun ağrısında boyun hareket egzersizlerini ve programa uyumu artırmak için kürek kemiği ve kol güçlendirmesini öneriyor."),
  ("Sıcak mı soğuk mu?", "Sıcak uygulama birçok kişide kas tutukluğunu rahatlatır. Cildinizi yakmamak için sıcak torbayı bir havluya sararak kullanabilirsiniz."),
  ("Boyunluk takmalı mıyım?", "Genellikle gerekmez. Önerilen, boynu kademeli olarak hareket ettirmek ve günlük işlere elden geldiğince devam etmektir. Ağrı kontrol altındayken egzersizleri yapmak kolaylaşır; ağrı kesici kullanacaksanız hekiminize danışın."),
 ]
@@ -34,8 +34,8 @@ BT_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun tutulması (akut tortikolis)</h1>
-    <p class="lede">Sabah uyandığınızda başınızı çeviremiyor, boynunuz bir yana kilitlenmiş gibi mi? Boyun tutulması, boyun kaslarının bir tarafındaki ani spazmla başın bir yana eğik ve dönük kalmasıdır. Çok ağrılı ve korkutucu olabilir, ama genellikle birkaç gün içinde kendiliğinden düzelir. Yavaş ve düzenli hareket, iyileşmeyi hızlandırmanın en iyi yoludur.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="lede">Sabah uyandığınızda başınızı çeviremiyor, boynunuz bir yana kilitlenmiş gibi mi? Boyun tutulması, boyun kaslarının bir tarafındaki ani spazmla başın bir yana eğik ve dönük kalmasıdır. Çok ağrılı ve korkutucu olabilir, ama genellikle birkaç gün içinde kendiliğinden düzelir. Boynu yavaşça ve düzenli hareket ettirmek iyileşmeyi destekler; hareket boyna zarar vermez.</p>
+    <p class="meta">Son güncelleme: 13 Kasım 2026</p>
   </div>
 </header>
 

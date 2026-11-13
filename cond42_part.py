@@ -12,7 +12,7 @@ _ex2("wh_child", "childp", "Sırtı açan esneme", "Diz çökün ve kalçanızı
 WH_FAQ = [
  ("Boyunluk takmalı mıyım?", "Hayır. NHS, boyunluğun iyileşmeye yardım etmediğini belirtiyor; bir NHS fizyoterapi broşüründe araştırmaların boyunluğun iyileşmeyi geciktirdiğini gösterdiği yazıyor. Boynunuzu uzun süre dinlendirmek yerine günlük işlerinize devam etmeniz önerilir."),
  ("Ne kadar sürer?", "Whiplash çoğu zaman 2–3 ay içinde iyileşir, ama bazı kişilerde belirtiler daha uzun sürebilir. Bir hafta içinde düzelme yoksa ya da 6 hafta içinde günlük işlerinizin çoğuna dönemediyseniz hekiminize başvurabilirsiniz."),
- ("Fizyoterapi gerekli mi?", "Çoğu kişi basit önerilerle ve hareketli kalarak iyileşir. İngiltere’de yapılan büyük bir araştırmada belirtileri süren 599 kişide, altı seansa kadar fizyoterapi, tek seanslık danışmanlığa göre 4. ayda biraz daha hızlı iyileşme sağladı; 8. ve 12. aylarda fark kalmadı. Belirtileriniz geçmiyorsa kişiye özel bir değerlendirme yol gösterici olabilir. Belirtileri 3 aydan uzun süren 172 kişiyle Avustralya'da yapılan bir çalışmada da 20 seanslık kapsamlı bir fizyoterapi egzersiz programı, tek seanslık danışmanlık ve telefon desteğine göre ağrıyı 14. haftada, 6. ayda ve 12. ayda daha fazla azaltmadı."),
+ ("Fizyoterapi gerekli mi?", "Çoğu kişi basit önerilerle ve hareketli kalarak iyileşir. Birleşik Krallık’ta yapılan büyük bir araştırmada belirtileri süren 599 kişide, altı seansa kadar fizyoterapi, tek seanslık danışmanlığa göre 4. ayda biraz daha hızlı iyileşme sağladı; 8. ve 12. aylarda fark kalmadı. Belirtileriniz geçmiyorsa kişiye özel bir değerlendirme yol gösterici olabilir. Belirtileri 3 aydan uzun süren 172 kişiyle Avustralya'da yapılan bir çalışmada da 20 seanslık kapsamlı bir fizyoterapi egzersiz programı, tek seanslık danışmanlık ve telefon desteğine göre ağrıyı 14. haftada, 6. ayda ve 12. ayda daha fazla azaltmadı."),
  ("Ne zaman araba kullanabilirim?", "Başınızı çevirip iki omzunuzun üzerinden rahatça ve güvenle bakabildiğinizde. Kollarınızda ya da bacaklarınızda uyuşma, güçsüzlük gibi uyarı belirtileri varsa hekiminizle konuşmadan araç ya da bisiklet kullanmayın."),
  ("Nasıl uyumalıyım?", "Sırtüstü ya da yan yatmak boynunuz için daha iyi bir pozisyondur. Boynunuzu yastıklarla destekleyebilirsiniz."),
 ]
@@ -32,7 +32,7 @@ WH_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Boyun incinmesi (whiplash)</h1>
     <p class="lede">Bir trafik kazasında, düşmede ya da spor sırasında başınız ani bir hareketle öne arkaya mı savruldu? Bu tür boyun incinmesine whiplash (kamçı yaralanması) denir. Çoğu zaman 2–3 ay içinde iyileşir. Boyunluk takmak yerine hareketli kalmak, iyileşmenin en önemli parçasıdır.</p>
-    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
+    <p class="meta">Son güncelleme: 13 Kasım 2026</p>
   </div>
 </header>
 
@@ -74,7 +74,7 @@ WH_BODY = f'''<header class="page">
       <h2>Neler iyi gelir?</h2>
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>Hareketli kalın</h3><p>Günlük işlerinize devam edin. Biraz ağrıtabilir ama iyileşmeyi hızlandırır. Boynunuzu uzun süre dinlendirmeyin, sık sık pozisyon değiştirin.</p></div>
-        <div class="kind"><span class="n">2</span><h3>Boyunluk takmayın</h3><p>Boyunluk iyileşmeye yardım etmez. Araştırmalar iyileşmeyi geciktirdiğini gösteriyor.</p></div>
+        <div class="kind"><span class="n">2</span><h3>Boyunluk takmayın</h3><p>Boyunluk iyileşmeye yardım etmez. Bir NHS fizyoterapi broşürüne göre araştırmalar boyunluğun iyileşmeyi geciktirdiğini gösteriyor.</p></div>
         <div class="kind"><span class="n">3</span><h3>Ağrıyı kontrol edin</h3><p>Ağrı kesici kullanmanız gerekiyorsa hangisinin size uygun olduğunu hekiminize sorun. Ağrının azalması hareketli kalmanızı kolaylaştırır.</p></div>
         <div class="kind"><span class="n">4</span><h3>Isı ya da soğuk</h3><p>Nemli bir havluya sarılı sıcak ya da soğuk uygulamayı en fazla 10 dakika kullanabilirsiniz. Ciltte his azalması varsa ısı uygulamayın.</p></div>
       </div>
@@ -109,7 +109,7 @@ WH_BODY = f'''<header class="page">
         <li>Boyundan sırta, kollara ya da bacaklara yayılan ani “elektrik çarpması” hissi varsa</li>
         <li>Ani başlayan ya da giderek kötüleşen şiddetli baş ağrısı varsa</li>
       </ul>
-      <p class="soft">Bu belirtiler sinir hasarına işaret edebilir; beklemeden bir hekime ya da acil servise başvurun. Belirtileriniz bir hafta içinde düzelmediyse de hekiminize görünebilirsiniz.</p>
+      <p class="soft">Bu belirtiler boyundaki sinirlerin etkilendiğine ya da başka ciddi bir soruna işaret edebilir; beklemeden bir hekime ya da acil servise başvurun. Belirtileriniz bir hafta içinde düzelmediyse de hekiminize görünebilirsiniz.</p>
       {CTA_CARD("Boyun ağrınız", "boyun incinmesi (whiplash)")}
     </div>
   </section>

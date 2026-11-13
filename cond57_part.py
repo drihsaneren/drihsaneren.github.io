@@ -32,7 +32,7 @@ _ex2("mf_hk", "mf_hook", "Kanca yumruk", "Parmak diplerinizdeki eklemleri düz t
 _ex2("mf_fs", "mf_fist", "Yumruk yapıp açma", "Elinizi yavaşça tam bir yumruk yapın, sonra parmaklarınızı tamamen açın. İlk günlerde parmağınız tutuk olabilir; zorlamadan, az ve sık çalışın.", "10–15 tekrar, günde 4 kez")
 
 MF_FAQ = [
- ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez; çekiç parmakların çoğu yalnızca atelle iyi sonuç verir. Tendonla birlikte büyük bir kemik parçası koptuysa ameliyat gerekebilir. Bu genellikle bölgesel uyuşturmayla, günübirlik yapılan ve ince tellerle tespit edilen bir işlemdir; teller 3–4 hafta kalır."),
+ ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez; çekiç parmakların çoğu yalnızca atelle iyi sonuç verir. Tendonla birlikte büyük bir kemik parçası koptuysa ameliyat gerekebilir. Bu genellikle lokal (yerel) uyuşturmayla, günübirlik yapılan ve ince tellerle tespit edilen bir işlemdir; teller 3–4 hafta kalır."),
  ("Atel takılıyken parmak ucum bükülürse ne olur?", "Kesintisiz atel döneminde uç eklemin bir kez bile bükülmesi iyileşen tendona zarar verebilir ve iyileşmeyi geciktirir; atel süresi çoğu zaman baştan başlar. Ateli yalnızca temizlik için, parmağınız masaya düz yaslanmışken çıkarın. Böyle bir şey olduysa ekibinize haber verin."),
  ("Parmak ucum tamamen düzelir mi?", "Çoğu kişide iyi düzelir, ama en iyi tedaviyle bile uç eklemde 10 dereceye kadar düzelmeme sık görülür. Parmağın arkasındaki şişlik, hassasiyet ve kızarıklığın geçmesi birkaç ay sürebilir. Kemik parçalı tipte eklemin üzerinde küçük bir şişkinlik kalabilir; bu genellikle elin işlevini etkilemez. İngiliz El Cerrahisi Derneği’ne göre atel genellikle 6–8 hafta kesintisiz takılır, ardından 1–2 hafta yalnızca geceleri ve parmağın zorlanabileceği durumlarda kullanılır; uç eklem biraz sarkık kalsa bile çoğu kişi parmağını iyi kullanır. 64 kişiyle yapılan randomize bir çalışmada üç atel tipi (hazır plastik atel, yastıklı alüminyum atel ve kişiye özel ısıyla şekillendirilen atel) uç eklemdeki düzelmeme açısından benzer sonuç verdi; ancak hazır ve alüminyum atellerde tedavi yaklaşık %24 oranında başarısız olurken kişiye özel atelde başarısızlık görülmedi."),
  ("Ne zaman araba kullanabilir, spora dönebilirim?", "Direksiyonu ağrı dikkatinizi dağıtmadan sıkıca kavrayabildiğinizde araç kullanabilirsiniz; atelle araç kullanmak için sigorta şirketinize danışın. Bir NHS broşürü spora en az 8 hafta ara vermeyi öneriyor; dönüş zamanını ekibinizle birlikte belirleyin."),
@@ -54,7 +54,7 @@ MF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Çekiç parmak (mallet finger)</h1>
     <p class="lede">Parmak ucunuza bir top çarptı ya da parmağınızı bir yere sert vurdunuz ve şimdi parmak ucunuz aşağı düşük duruyor, kendi başınıza düzeltemiyor musunuz? Uç eklemi düzelten tendon kopmuş ya da bağlandığı yerden küçük bir kemik parçasıyla birlikte ayrılmış olabilir. Tedavi çoğunlukla basittir ama sabır ister: parmak ucu haftalarca, hiç bükülmeden bir atelle düz tutulur.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 13 Kasım 2026</p>
   </div>
 </header>
 
@@ -65,7 +65,7 @@ MF_BODY = f'''<header class="page">
         <div class="stat"><b>6 hafta</b><span>Kemik parçalı tipte kesintisiz atel süresi</span></div>
         <div class="stat"><b>8 hafta</b><span>Tendon kopmasında kesintisiz atel süresi</span></div>
         <div class="stat"><b>2–4 hafta</b><span>Sonrasında ateli gece ve riskli işlerde takma süresi</span></div>
-        <div class="stat"><b>10 derece</b><span>Uç eklemde kalabilen ve sık görülen hafif düşüklük</span></div>
+        <div class="stat"><b>10 dereceye kadar</b><span>Uç eklemde kalabilen ve sık görülen hafif düşüklük</span></div>
       </div>
     </div>
   </section>
