@@ -237,6 +237,10 @@ _ex2("db_twalk", "tandem", "Topuk-burun yürüyüş", "Düz bir çizgi boyunca, 
 _ex2("db_side", "sidestep", "Yana yürüme", "Ellerinizi belinize koyun. Sağa doğru 10 yan adım, sonra sola doğru 10 yan adım atın. Ayaklarınızı çarpmadan, yere iyi basarak ilerleyin.", "")
 _ex2("db_toe", "heel2", "Parmak ucunda yürüme", "Topuklarınızı kaldırıp parmak uçlarınızda 10 adım yürüyün; dönün ve tekrarlayın.", "")
 _ex2("db_sts", "sts", "Sandalyeden kalkıp oturma", "Çok alçak olmayan, sağlam bir sandalyeye oturun. Öne eğilip ayağa kalkın, yavaşça oturun. Başta ellerinizden destek alın; kolaylaştıkça destekten vazgeçin.", "")
+SV["db_tstand"] = SV["tandem"].replace("<figcaption>Topuk-parmak yürüyüşü</figcaption>", "<figcaption>Topuk-burun duruş</figcaption>")
+SV["db_twalk"] = SV["tandem"].replace("<figcaption>Topuk-parmak yürüyüşü</figcaption>", "<figcaption>Topuk-burun yürüyüş</figcaption>")
+SV["db_toe"] = SV["heel2"].replace("<figcaption>Tezgâha tutunarak topuk yükseltme</figcaption>", "<figcaption>Parmak ucunda yürüme</figcaption>")
+assert "Topuk-burun duruş" in SV["db_tstand"] and "Topuk-burun yürüyüş" in SV["db_twalk"] and "Parmak ucunda yürüme</figcaption>" in SV["db_toe"]
 DB_KEYS = [("db_tstand", "hold"), ("db_sls", "hold"), ("db_twalk", "reps"), ("db_side", "reps"), ("db_toe", "reps"), ("db_sts", "reps")]
 DB_STAGE = "\n".join(
     f'''            <div class="db-ex gu-step" data-i="{i}" data-mode="{mode}"{" hidden" if i else ""}>
@@ -245,7 +249,7 @@ DB_STAGE = "\n".join(
             </div>''' for i, (k, mode) in enumerate(DB_KEYS))
 
 DB_FAQ = [
- ("Denge egzersizi düşmeleri gerçekten azaltır mı?", "Evet. 108 rastgele kontrollü çalışmayı ve 23.407 kişiyi kapsayan Cochrane derlemesinde egzersiz, toplumda yaşayan yaşlılarda düşme sıklığını %23, düşen kişi sayısını %15 azalttı (kanıt düzeyi yüksek). Denge ve işlevsel egzersizler düşme sıklığını %24, düşen kişi sayısını %13 azalttı; çoğunlukla denge ve güçlendirmeyi birleştiren programlarda azalma %34 ve %22 idi (kanıt düzeyi orta). Bu sayfanın temel aldığı Otago programına ilişkin 7 çalışmanın analizinde (1.503 kişi, yaş ortalaması 81,6) düşmeler %32 azaldı."),
+ ("Denge egzersizi düşmeleri gerçekten azaltır mı?", "Evet. 108 rastgele kontrollü çalışmayı ve 23.407 kişiyi kapsayan Cochrane derlemesinde egzersiz, toplumda yaşayan yaşlılarda düşme sıklığını %23, düşen kişi sayısını %15 azalttı (kanıt düzeyi yüksek). Denge ve işlevsel egzersizler düşme sıklığını %24, düşen kişi sayısını %13 azalttı (düşme sıklığı için kanıt düzeyi yüksek); çoğunlukla denge ve güçlendirmeyi birleştiren programlarda azalma %34 ve %22 idi (kanıt düzeyi orta). Bu sayfanın temel aldığı Otago programına ilişkin 7 çalışmanın analizinde (1.503 kişi, yaş ortalaması 81,6) düşmeler %32 azaldı."),
  ("Neden sandalyeye değil de tezgâha tutunmalıyım?", "Sandalye gibi kayabilecek ya da devrilebilecek bir şeye tutunmayın. Mutfak tezgâhı ya da ağır bir masa gibi sabit bir yüzeyin yanında çalışın. Seviye ilerledikçe tutunmayı azaltın, ama sabit yüzey her zaman elinizin yetişeceği yerde olsun."),
  ("Ne kadar sürede fark ederim?", "Dünya Düşme Kılavuzu, düşmeleri önlemek için haftada en az 3 kez yapılan, en az 12 hafta süren, kişiye göre ayarlanmış ve kademeli ilerleyen bir denge ve işlevsel egzersiz programı öneriyor; daha uzun sürdürmek daha çok yarar sağlıyor. Bu sayfa, haftada 3 seans hedefine ulaştığınız haftaları sayar."),
  ("Yürüyüş yeterli değil mi?", "Yürüyüş kalp ve genel sağlık için çok değerli. Ancak Cochrane derlemesinde, yalnızca yürüyüş programlarının düşmeler üzerindeki etkisini belirlemeye yetecek kanıt bulunamadı; düşmeleri önlemede dengeyi zorlayan ve bacakları güçlendiren egzersizler öne çıkıyor. Tai chi de bir seçenek: aynı derlemede düşme sıklığını %19 azalttı (kanıt düzeyi düşük)."),
@@ -259,7 +263,7 @@ DB_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Denge antrenmanı</h1>
     <p class="lede">Yaşlılarda düşmeleri önlemenin en iyi kanıtlanmış yollarından biri, dengeyi zorlayan ve bacakları güçlendiren egzersizlerdir. Bu sayfa, Yeni Zelanda’da geliştirilen ve düşmeleri azalttığı gösterilen Otago programındaki altı denge hareketini üç destek seviyesiyle sunar: sizi hareket hareket yönlendirir, duruş sürelerini sayar, haftalık seanslarınızı ve hedefe ulaştığınız haftaları kaydeder.</p>
-    <p class="meta">Son güncelleme: 23 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 14 Kasım 2026</p>
   </div>
 </header>
 
@@ -267,7 +271,7 @@ DB_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%24</b><span>Denge ve işlevsel egzersizlerle düşme sıklığındaki azalma (Cochrane, 108 çalışma, 23.407 kişi)</span></div>
+        <div class="stat"><b>%24</b><span>Denge ve işlevsel egzersizlerle düşme sıklığındaki azalma (Cochrane; 39 çalışma, 7.920 kişi)</span></div>
         <div class="stat"><b>%32</b><span>Otago programıyla düşmelerde azalma (7 çalışma, 1.503 kişi)</span></div>
         <div class="stat"><b>Haftada 3</b><span>Önerilen seans sayısı</span></div>
         <div class="stat"><b>En az 12 hafta</b><span>Düşmeleri azaltmak için önerilen program süresi (Dünya Düşme Kılavuzu)</span></div>
@@ -454,7 +458,7 @@ DB_JS = '''<script>
     if (stage === 'idle'){ wake(true); enterEx(0); return; }
     if (stage === 'reps'){ next(); return; }
     if (run){ clearInterval(iv); iv = null; run = false; left = Math.max(0, left - (performance.now() - t0) / 1000); $('db-phase').textContent = S.paused; $('db-cue').textContent = S.pausedc; this.textContent = S.start; return; }
-    run = true; t0 = performance.now(); this.textContent = S.pause; iv = setInterval(tick, 100); tick();
+    run = true; t0 = performance.now(); this.textContent = S.pause; $('db-phase').textContent = {get: S.get, s1: S.side1, sw: S.sw, s2: S.side2}[stage] || ''; $('db-cue').textContent = stage === 'get' ? S['l' + lv()] : S.holdc; iv = setInterval(tick, 100); tick();
   });
   $('db-prev').addEventListener('click', function(){ if (stage === 'idle' || idx === 0) return; enterEx(idx - 1); });
   $('db-reset').addEventListener('click', function(){

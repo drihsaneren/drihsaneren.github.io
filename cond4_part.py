@@ -267,7 +267,7 @@ TM_FAQ = [
  ("Çenemden ses geliyor, tedavi gerekir mi?", "Ağrısız klik sesi sık görülür ve tek başına tedavi gerektirmez. Sesle birlikte ağrı, ağız açmada kısıtlılık ya da takılma varsa değerlendirme yapılmalıdır."),
  ("Diş sıkmak çene ağrısı yapar mı?", "Gündüz ya da gece dişleri sıkmak çiğneme kaslarını yorar ve ağrıyı artırabilir. Gün içinde dişlerinizin birbirine değip değmediğini fark etmeye çalışın; gece sıkma için diş hekiminiz gece plağı önerebilir."),
  ("Çene eklemi rahatsızlığı geçer mi?", "Çoğu kişide şikâyetler basit önlemler ve egzersizlerle zamanla hafifler. Uzun süren ya da giderek artan şikâyetlerde diş hekimi ve fizyoterapist birlikte değerlendirme yapar. ABD Ulusal Diş ve Kraniyofasiyal Araştırma Enstitüsü de pek çok kişide belirtilerin tedavi olmadan geçtiğini belirtiyor; dişleri törpüleme, kron ya da ortodontik tedavi gibi ısırığı kalıcı olarak değiştiren işlemlerin yeterli kanıtı olmadığını ve sorunu kötüleştirebileceğini, bu tür kalıcı işlemlerden önce ikinci bir görüş alınmasını öneriyor."),
- ("Uzun süren çene ağrısında hangi tedaviler öneriliyor?", "BMJ’de 2023’te yayımlanan bir klinik kılavuz; bilişsel davranışçı terapiyi, gevşeme tekniklerini, terapistin uyguladığı eklem mobilizasyonu ve tetik nokta tedavisini, gözetimli duruş ve çene egzersizlerini güçlü biçimde öneriyor. Dişlerin kapanışını kalıcı olarak değiştiren plaklara ve eklem diskini çıkaran ameliyata karşı ise güçlü öneride bulunuyor."),
+ ("Uzun süren çene ağrısında hangi tedaviler öneriliyor?", "BMJ’de 2023’te yayımlanan bir klinik kılavuz; bilişsel davranışçı terapiyi (tek başına ya da gevşeme teknikleri veya biyogeribildirimle birlikte), terapistin uyguladığı çene mobilizasyonunu ve elle tetik nokta tedavisini, gözetimli duruş ve çene egzersizlerini güçlü biçimde öneriyor. Gevşeme tekniklerinin tek başına uygulanmasına ise zayıf düzeyde karşı öneride bulunuyor. Dişlerin kapanışını kalıcı olarak değiştiren plaklara ve eklem diskini çıkaran ameliyata karşı ise güçlü öneride bulunuyor."),
  ("Ameliyat gerekir mi?", "Çok nadiren. Ameliyat, ilaç dışı tedavilere yanıt vermeyen belirli eklem sorunlarında düşünülür; çoğu hastada ilk seçenek basit önlemler, egzersiz ve fizyoterapidir."),
 ]
 
@@ -275,7 +275,7 @@ TM_SRC = [
  "Valesan LF, Da-Cas CD, Réus JC, et al. " + ext("https://link.springer.com/article/10.1007/s00784-020-03710-w", "Prevalence of temporomandibular joint disorders: a systematic review and meta-analysis") + ". Clin Oral Investig. 2021;25(2):441-453.",
  "Armijo-Olivo S, Pitance L, Singh V, et al. " + ext("https://academic.oup.com/ptj/article-abstract/96/1/9/2686339", "Effectiveness of manual therapy and therapeutic exercise for temporomandibular disorders: systematic review and meta-analysis") + ". Phys Ther. 2016;96(1):9-25.",
  "NHS. " + ext("https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/", "Temporomandibular disorder (TMD)") + ". Page last reviewed 20 June 2023.",
- "Busse JW, et al. " + ext("https://www.bmj.com/content/383/bmj-2023-076227", "Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline") + ". BMJ. 2023;383:e076227",
+ "Busse JW, et al. " + ext("https://www.bmj.com/content/383/bmj-2023-076227", "Management of chronic pain associated with temporomandibular disorders: a clinical practice guideline") + ". BMJ. 2023;383:e076227.",
  "National Institute of Dental and Craniofacial Research. " + ext("https://nidcr.nih.gov/health-info/tmd", "TMD (temporomandibular disorders)") + ". Last reviewed September 2026.",
 ]
 
@@ -284,8 +284,8 @@ TM_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Çene eklemi rahatsızlıkları</h1>
-    <p class="lede">Kulağın hemen önündeki çene eklemi (temporomandibular eklem) ve çiğneme kaslarında ağrı, ağız açmada kısıtlılık ve çene sesleriyle kendini gösterir. Yetişkinlerin yaklaşık üçte birini etkiler ve çoğu zaman basit önlemler, egzersiz ve fizyoterapiyle düzelir.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="lede">Kulağın hemen önündeki çene eklemi (temporomandibular eklem) ve çiğneme kaslarında ağrı, ağız açmada kısıtlılık ve çene sesleriyle kendini gösterir. Muayeneyle yapılan çalışmalarda yetişkinlerin yaklaşık üçte birinde çene ekleminde bir bozukluk (en sık disk kayması) saptanır; şikâyetler çoğu zaman basit önlemler, egzersiz ve fizyoterapiyle düzelir.</p>
+    <p class="meta">Son güncelleme: 14 Kasım 2026</p>
   </div>
 </header>
 
@@ -293,7 +293,7 @@ TM_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>%31</b><span>Yetişkinlerde çene eklemi rahatsızlığı görülme sıklığı</span></div>
+        <div class="stat"><b>%31</b><span>Muayeneyle yapılan çalışmalarda yetişkinlerde çene eklemi bozukluğu sıklığı (çoğu disk kayması)</span></div>
         <div class="stat"><b>%11</b><span>Çocuk ve ergenlerde görülme sıklığı</span></div>
         <div class="stat"><b>%26</b><span>Yetişkinlerde en sık tür olan, açılıp kapanırken ses yapan disk kayması</span></div>
         <div class="stat"><b>48</b><span>Egzersiz ve manuel terapinin etkisini inceleyen derlemedeki çalışma sayısı</span></div>

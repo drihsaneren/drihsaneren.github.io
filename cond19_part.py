@@ -51,6 +51,8 @@ EXT["dm_arm"] = ("Kolları yukarı kaldırma", "Dik oturun. Kollarınızı yava�
 _ex2("dm_kext", "kext", "Bacağı sırayla düzleştirme", "Sandalyede dik oturun. Bir dizinizi yavaşça düzleştirin, kısa bir an tutun ve indirin. Sonra diğer bacakla yapın.", "Her bacakla 8–10 tekrar")
 _ex2("dm_sts", "sts", "Sandalyeden kalkıp oturma", "Sandalyenin ön kısmına oturun, hafifçe öne eğilin ve yavaşça ayağa kalkın; sonra yavaşça oturun. Gerekirse ellerinizden destek alın. Yanında biri bulunsun.", "5 tekrar")
 _ex2("dm_walk", "walk", "Birlikte yürüyüş", "Bildiğiniz bir yolda, rahat bir tempoda yürüyün. Yürürken konuşabiliyor olmalısınız. Birlikte yürümek hem güvenlidir hem de sohbet için fırsattır.", "Her gün, kısa da olsa")
+SV["dm_walk"] = SV["walk"].replace("<figcaption>Tempolu yürüyüş</figcaption>", "<figcaption>Birlikte yürüyüş</figcaption>")
+assert "Birlikte yürüyüş" in SV["dm_walk"]
 
 # ============================================================== SARKOPENİ
 SK_FAQ = [
@@ -247,7 +249,7 @@ page("sarkopeni.html", "Sarkopeni: Yaşa Bağlı Kas Kaybı",
 
 # ============================================================== DEMANSTA EGZERSİZ
 DM_FAQ = [
- ("Egzersiz demansı durdurur ya da yavaşlatır mı?", "Eldeki kanıtlara göre hayır: Egzersizin demansın ilerlemesini yavaşlattığı ya da durdurduğu gösterilmemiştir. Cochrane derlemesinde bellek ve düşünme üzerinde belirgin bir yarar bulunmadı. Buna karşın egzersiz günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler. Risk taşıyan ama demansı olmayan 513 kişinin iki yıl izlendiği 2026 tarihli bir çalışmada (rrAD), aerobik egzersiz düşünme ve hafıza testlerindeki puanları olağan bakıma göre belirgin değiştirmedi. 4,2 milyondan fazla kişiyi kapsayan bir derlemede ise boş zamanlarında spor ve egzersiz yapanlarda demans riski %24 daha düşüktü; bunlar gözlem çalışmalarıdır."),
+ ("Egzersiz demansı durdurur ya da yavaşlatır mı?", "Eldeki kanıtlara göre hayır: Egzersizin demansın ilerlemesini yavaşlattığı ya da durdurduğu gösterilmemiştir. Cochrane derlemesinde bellek ve düşünme üzerinde belirgin bir yarar bulunmadı. Buna karşın egzersiz günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler. Risk taşıyan ama demansı olmayan 513 kişinin iki yıl izlendiği 2026 tarihli bir çalışmada (rrAD), aerobik egzersiz yapan ve yapmayan gruplar arasında düşünme ve hafıza testlerinde belirgin bir fark çıkmadı. 4,2 milyondan fazla kişiyi kapsayan bir derlemede ise boş zamanlarında daha çok hareket edenlerde demans riski, en az hareket edenlere göre %24 daha düşüktü; bunlar gözlem çalışmalarıdır."),
  ("Ne kadar egzersiz yapılmalı?", "Hedef, yapabilenler için haftada toplam 150 dakika orta şiddette hareket ve haftada en az iki gün güç, denge ve esneklik çalışmasıdır. Bu bir zorunluluk değil, ulaşılabilirse iyi bir hedeftir. Az da olsa her hareket yararlıdır; kısa ve sık seanslar uzun tek bir seanstan daha kolay uygulanır."),
  ("Yakınım egzersiz yapmak istemiyor; ne yapabilirim?", "“Egzersiz” demek yerine sevdiği bir işi birlikte yapın: yürüyüş, bahçe işi, müzik eşliğinde dans. Geçmişte keyif aldığı uğraşlara dönün. Hedef ve sayı koymayın; düzenli ve keyifli olması yeterlidir. Televizyondaki reklam arasında ayağa kalkmak gibi küçük hareketler de sayılır."),
  ("Tek başına yürüyüşe çıkabilir mi?", "Hastalığın evresine bağlıdır. Tek başına çıkıyorsa bildiği yollarda yürümesi, yanında telefon ya da konum bildiren bir cihaz taşıması ve birine nereye gittiğini söylemesi önerilir. Üzerinde, yakınlarının telefon numarasının yazılı olduğu bir kimlik kartı bulunsun. Yolunu şaşırmaya başladıysa birlikte yürümek daha güvenlidir."),
@@ -255,12 +257,12 @@ DM_FAQ = [
 
 DM_SRC = [
  "Forbes D, Forbes SC, Blake CM, Thiessen EJ, Forbes S. " + ext("https://www.cochrane.org/evidence/CD006489_exercise-programs-people-dementia", "Exercise programs for people with dementia") + ". Cochrane Database Syst Rev. 2015;(4):CD006489.",
- "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/dementia", "Dementia") + ". Fact sheet. 3 July 2026.",
+ "World Health Organization. " + ext("https://www.who.int/news-room/fact-sheets/detail/dementia", "Dementia") + ". Fact sheet. 26 October 2026.",
  "Alzheimer's Society. " + ext("https://www.alzheimers.org.uk/get-support/daily-living/exercise", "Physical activity, movement and exercise for people with dementia") + ".",
  "Alzheimer's Society. " + ext("https://www.alzheimers.org.uk/get-support/living-with-dementia/exercise-types-ideas", "Exercise types and ideas for people with dementia") + ".",
  "Alzheimer's Society. " + ext("https://www.alzheimers.org.uk/get-support/daily-living/starting-exercise", "Getting started with exercise as a person with dementia") + ".",
  "Zhang R, et al. " + ext("https://jamanetwork.com/journals/jamaneurology/article-abstract/2846826", "Effects of exercise and intensive vascular risk reduction on cognitive function in older adults: a randomized clinical trial") + ". JAMA Neurol. 2026;83(5):424–434.",
- "Feter N, Raichlen DA, et al. Fiziksel aktivite türleri ve demans riski: 74 çalışmanın sistematik derlemesi ve meta-analizi. Lancet Public Health. 2026. doi:10.1016/S2468-2667(26)00142-8. Özet: " + ext("https://today.usc.edu/why-you-move-not-just-how-often-could-affect-dementia-risk/", "University of Southern California, 18 August 2026") + ".",
+ "Feter N, Iso-Markku P, Markarian T, et al. Domain-specific physical activity levels and risk of dementia: a systematic review and meta-analysis. Lancet Public Health. 2026. doi:10.1016/S2468-2667(26)00142-8. Özet: " + ext("https://today.usc.edu/why-you-move-not-just-how-often-could-affect-dementia-risk/", "University of Southern California, 18 August 2026") + ".",
 ]
 
 DM_BODY = f'''<header class="page">
@@ -269,7 +271,7 @@ DM_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Demansta egzersiz</h1>
     <p class="lede">Demans; belleği, düşünmeyi ve günlük işleri yapabilmeyi zamanla etkileyen hastalıkların ortak adıdır. Egzersiz demansı iyileştirmez ve ilerlemesini durdurmaz. Ancak günlük işleri yapabilme becerisini koruyabilir; gücü, dengeyi, uykuyu ve ruh hâlini destekler. Bu rehber hem demansla yaşayan kişiler hem de bakım veren yakınları içindir.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 14 Kasım 2026</p>
   </div>
 </header>
 
@@ -315,7 +317,7 @@ DM_BODY = f'''<header class="page">
         <li><b>Günlük işler</b><span>Egzersiz yapanlarda giyinme, yıkanma, yemek yeme gibi günlük işleri yapabilme becerisi daha iyi olabilir. Kanıtın kalitesi çok düşük; kesin konuşulamıyor.</span></li>
         <li><b>Bellek ve düşünme</b><span>Belirgin bir yarar gösterilemedi.</span></li>
         <li><b>Davranış ve depresyon</b><span>Davranış belirtileri ve depresyon üzerinde belirgin bir yarar gösterilemedi.</span></li>
-        <li><b>Bakım veren</b><span>Tek bir çalışmada, evde egzersize bakım verenin eşlik etmesi bakım yükünü azalttı.</span></li>
+        <li><b>Bakım veren</b><span>Tek bir küçük çalışmada (40 kişi), evdeki egzersize bakım verenin eşlik etmesinin bakım yükünü azaltabileceği görüldü.</span></li>
         <li><b>Güvenlik</b><span>Çalışmalarda egzersizin zarar verdiğine dair bir bulgu yok.</span></li>
       </ul>
       <div class="callout">
