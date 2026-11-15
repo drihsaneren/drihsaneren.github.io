@@ -38,7 +38,7 @@ DY_BODY = f'''<header class="page">
     <p class="eyebrow">Rehabilitasyon rehberi</p>
     <h1>Diyabette egzersiz</h1>
     <p class="lede">Tip 2 diyabette düzenli egzersiz, kan şekerini düşürmenin ve ilaçlarla birlikte uzun dönem kontrolünü iyileştirmenin en etkili yollarından biridir. Kasların çalışırken kandaki şekeri kullanması, yemekten sonra yapılan kısa yürüyüşlerin bile işe yaramasını sağlar. Bu rehber ne kadar ve nasıl egzersiz yapacağınızı, şeker düşmesine karşı alınacak önlemleri ve evde yapabileceğiniz altı egzersizi anlatıyor.</p>
-    <p class="meta">Son güncelleme: 23 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 15 Kasım 2026</p>
   </div>
 </header>
 
@@ -46,8 +46,8 @@ DY_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <div class="stats">
-        <div class="stat"><b>−0,67</b><span>Yapılandırılmış egzersiz programlarıyla HbA1c’de ortalama düşüş, yüzde puan (47 çalışma)</span></div>
-        <div class="stat"><b>−0,89</b><span>Haftada 150 dakikadan fazla egzersizle ortalama düşüş; daha azında −0,36</span></div>
+        <div class="stat"><b>−0,67</b><span>Yapılandırılmış egzersiz programlarıyla HbA1c’de ortalama düşüş, yüzde puan (23 çalışma)</span></div>
+        <div class="stat"><b>−0,89</b><span>Haftada 150 dakikadan fazla egzersizle ortalama düşüş; 150 dakika ve altında −0,36</span></div>
         <div class="stat"><b>150 dk + 2–3 gün</b><span>Haftalık aerobik egzersiz ve direnç egzersizi önerisi (Amerikan Diyabet Derneği)</span></div>
         <div class="stat"><b>589 milyon</b><span>Dünyada diyabetle yaşayan 20–79 yaş arası yetişkin; %90’ından fazlası tip 2</span></div>
       </div>
@@ -77,7 +77,7 @@ DY_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Araştırmalar ne gösteriyor?</h2>
-      <p class="soft">47 rastgele kontrollü çalışmayı birleştiren bir meta-analizde, en az 12 hafta süren yapılandırılmış egzersiz programları HbA1c’yi ortalama 0,67 puan düşürdü: aerobik egzersiz 0,73, direnç egzersizi 0,57, ikisinin birlikte yapıldığı programlar 0,51 puan. Haftada 150 dakikadan fazla egzersiz yapılan programlarda düşüş 0,89, daha az egzersizde 0,36 puandı. Yalnızca “daha çok hareket edin” önerisi, beslenme önerisiyle birlikte verilmediğinde HbA1c’yi tek başına düşürmedi. Araştırmacılar çalışmaların genel kalitesini düşük buldu.</p>
+      <p class="soft">47 rastgele kontrollü çalışmayı birleştiren bir meta-analizde, en az 12 hafta süren yapılandırılmış egzersiz programları (23 çalışma) HbA1c’yi ortalama 0,67 puan düşürdü: aerobik egzersiz 0,73, direnç egzersizi 0,57, ikisinin birlikte yapıldığı programlar 0,51 puan. Haftada 150 dakikadan fazla egzersiz içeren programlar 0,89 puanlık, 150 dakika ya da daha az içerenler 0,36 puanlık düşüşle ilişkiliydi (çalışmalar arası karşılaştırma). Yalnızca “daha çok hareket edin” önerisi, beslenme önerisiyle birlikte verilmediğinde HbA1c’yi tek başına düşürmedi. Araştırmacılar çalışmaların genel kalitesini düşük buldu.</p>
       <div class="callout">
         <p>Egzersiz ilaçların yerine geçmez. Düzenli egzersize başladığınızda bazı ilaçların, özellikle insülinin ya da gliklazid gibi tabletlerin dozunun azaltılması gerekebilir; bu kararı diyabet ekibinizle birlikte verin.</p>
       </div>

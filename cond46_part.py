@@ -2,15 +2,19 @@
 # Yeni rehber (46): Diz kapağı çıkığı (patella çıkığı). cond45_part.py'den sonra exec edilir. Video yok.
 # Egzersizler Sherwood Forest Hospitals (Temmuz 2026) ve Royal United Hospitals Bath (2020) NHS broşürlerine göre, hazır çizimlerle.
 
-_ex2("dk_quad", "quad", "Uyluğu sıkıp topuğu kaldırma", "Bacaklarınız düz olacak şekilde oturun ya da uzanın, dizinizin altına rulo yapılmış bir havlu koyun. Uyluğunuzu sıkarak dizinizin arkasını havluya bastırın ve topuğunuzu kaldırın. 3 saniye tutun, yavaşça indirin.", "10 tekrar")
+SV["dk_quad_f"] = SV["quad"].replace("<figcaption>Havluya bastırma</figcaption>", "<figcaption>Uyluğu sıkıp topuğu kaldırma</figcaption>")
+assert "Uyluğu sıkıp" in SV["dk_quad_f"]
+SV["dk_bend_f"] = SV["hslide"].replace("<figcaption>Topuk kaydırma</figcaption>", "<figcaption>Diz bükme</figcaption>")
+assert "<figcaption>Diz bükme" in SV["dk_bend_f"]
+_ex2("dk_quad", "dk_quad_f", "Uyluğu sıkıp topuğu kaldırma", "Bacaklarınız düz olacak şekilde oturun ya da uzanın, dizinizin altına rulo yapılmış bir havlu koyun. Uyluğunuzu sıkarak dizinizin arkasını havluya bastırın ve topuğunuzu kaldırın. 3 saniye tutun, yavaşça indirin.", "10 tekrar")
 _ex2("dk_slr", "slr", "Düz bacak kaldırma", "Sırtüstü uzanın ya da bacaklarınız düz oturun. Ayak ucunuzu kendinize çekin, uyluğunuzu sıkın ve dizinizi düz tutarak bacağınızı yaklaşık 15 cm kaldırın. 3 saniye tutun, yavaşça indirin.", "10 tekrar")
-_ex2("dk_bend", "hslide", "Diz bükme", "Sırtüstü uzanın ya da oturun. Topuğunuzu kaydırarak dizinizi rahat ettiğiniz kadar bükün, kısa bir süre tutun ve düzeltin. Dizlik kullanıyorsanız hekiminizin ya da fizyoterapistinizin belirlediği sınırı aşmayın.", "5 dakika boyunca")
+_ex2("dk_bend", "dk_bend_f", "Diz bükme", "Sırtüstü uzanın ya da oturun. Topuğunuzu kaydırarak dizinizi rahat ettiğiniz kadar bükün, kısa bir süre tutun ve düzeltin. Dizlik kullanıyorsanız hekiminizin ya da fizyoterapistinizin belirlediği sınırı aşmayın.", "5 dakika boyunca")
 _ex2("dk_bridge", "bridge", "Köprü", "Sırtüstü uzanın, ayaklarınız yerde, dizleriniz bükülü olsun; dizlik kullanıyorsanız izin verilen sınıra kadar bükün. Kalçanızı ve belinizi yerden kaldırın, sonra yavaşça indirin.", "Her seferde 5–10 saniye tutun")
 
 PD_FAQ = [
  ("Diz kapağım yeniden çıkar mı?", "Olabilir. 519 kişiyi kapsayan 10 araştırmayı inceleyen bir Cochrane derlemesine göre ilk çıkıktan sonra ameliyatsız izlenenlerin yaklaşık üçte birinde, 2–9 yıl içinde diz kapağı yeniden çıktı. Ameliyat olanlarda bu oran yaklaşık beşte birdi; ancak kanıtın kesinliği çok düşük ve ameliyatın günlük işlevi belirgin şekilde iyileştirip iyileştirmediği belli değil. Çocuk ve gençlerde oran daha yüksek olabilir: 16 yaşından küçük, diz kapağı ilk kez çıkmış 64 dizle yapılan ve ortalama 14 yıl izlenen bir çalışmada diz kapağı ameliyatsız izlenenlerin %71’inde, iç bağları onarılanların %67’sinde yeniden çıktı; ameliyat uzun dönem sonucu iyileştirmedi ve tekrarı öngören tek etken ailede diz kapağı çıkığı olmasıydı. Ameliyatsız tedaviyi inceleyen 25 çalışmayı (920 hasta) kapsayan bir sistematik derlemede de yeniden çıkma oranı %31 bulundu; hiçbir ameliyatsız yöntemin diğerinden üstün olduğu gösterilemedi."),
  ("Ameliyat gerekir mi?", "Çoğu zaman gerekmez. Diz içinde başka yapılar da hasar gördüyse ya da diz kapağı tekrar tekrar çıkıyorsa ameliyat düşünülebilir. Karar, muayene ve görüntüleme sonrası hekiminizle birlikte verilir."),
- ("Dizlik ne kadar takılır?", "İlk çıkıktan sonra dizlik verilebilir. Ne kadar süre takacağınıza ve dizinizi ne kadar bükebileceğinize ekibiniz karar verir. Bir NHS broşürüne göre dizlik iki haftaya kadar kullanılabilir ve gece, kişisel bakım ve egzersiz sırasında çıkarılabilir. Dizlik çıkınca bir süre tutukluk olması normaldir."),
+ ("Dizlik ne kadar takılır?", "İlk çıkıktan sonra dizlik verilebilir. Ne kadar süre takacağınıza ve dizinizi ne kadar bükebileceğinize ekibiniz karar verir. Bir NHS broşürüne göre dizlik yaklaşık iki hafta kullanılabilir ve gece, kişisel bakım ve egzersiz sırasında çıkarılabilir. Dizlik çıkınca bir süre tutukluk olması normaldir."),
  ("Spora ne zaman dönebilirim?", "Dizinizin hareketi ve uyluk, arka uyluk ve baldır kaslarınızın gücü sağlam tarafla aynı düzeye gelince; koşma, yön değiştirme ve sıçrama gibi sporunuzun gerektirdiği hareketleri güvenle yapabildiğinizde. Kaynaklarda bu süre 6–8 haftadan 12–24 haftaya kadar değişiyor. Günlük işlere dönüş genellikle 6–12 hafta sürer."),
  ("Ne zaman araba kullanabilirim?", "Koltuk değneği olmadan yürüyebildiğinizde ve ani frene güvenle basabildiğinizde."),
 ]
@@ -30,7 +34,7 @@ PD_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Diz kapağı çıkığı (patella çıkığı)</h1>
     <p class="lede">Ani bir dönüşte ya da dizinize aldığınız bir darbede diz kapağınızın yerinden kaydığını mı hissettiniz? Diz kapağı, uyluk kemiğindeki oluğundan çoğu zaman dışa doğru çıkar ve sıklıkla kendiliğinden yerine döner. Yerine dönmüş olsa bile bir hekimin muayenesi gerekir. İyileşmenin anahtarı, uyluk ve kalça kaslarınızı yeniden güçlendirmektir.</p>
-    <p class="meta">Son güncelleme: 10 Kasım 2026</p>
+    <p class="meta">Son güncelleme: 15 Kasım 2026</p>
   </div>
 </header>
 
@@ -84,7 +88,7 @@ PD_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>İyileşme döneminde neler iyi gelir?</h2>
       <div class="kinds">
-        <div class="kind"><span class="n">1</span><h3>Buz ve yükseltme</h3><p>Havluya sarılı buzu 10–15 dakika, günde en az 3 kez uygulayabilirsiniz. Dinlenirken bacağınızı yüksekte ve destekli tutun.</p></div>
+        <div class="kind"><span class="n">1</span><h3>Buz ve yükseltme</h3><p>Havluya sarılı buzu 10–15 dakika, günde 3 kereye kadar uygulayabilirsiniz; cildinizin aşırı kızarmadığını kontrol edin. Dinlenirken bacağınızı yüksekte ve destekli tutun.</p></div>
         <div class="kind"><span class="n">2</span><h3>Ağrıyı kontrol edin</h3><p>Ağrı kesici kullanmanız gerekiyorsa hangisinin size uygun olduğunu hekiminize sorun. Ağrının azalması egzersizleri kolaylaştırır.</p></div>
         <div class="kind"><span class="n">3</span><h3>Hareketli kalın</h3><p>Tutukluğu önlemek için diz egzersizlerini gün boyunca yapın. Dizliği ekibinizin söylediği süre ve hareket sınırıyla kullanın.</p></div>
         <div class="kind"><span class="n">4</span><h3>Dizinizi burkmayın</h3><p>Dizinizi döndürme ve burkma hareketlerinden kaçının. Diz eski gücüne kavuşmadan spora dönmeyin.</p></div>

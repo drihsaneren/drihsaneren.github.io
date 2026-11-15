@@ -868,3 +868,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 13 Kasım 2026: günlük denetim — boyun incinmesi, boyun tutulması, çekiç parmak (DENETIM.md). Blanpied 2017 akut boyun ağrısı önerisinin amacı "programa uyumu artırmak" (İngilizce asıl; orthopt.org'daki Çince çeviri farklı). Çeviri tur68. Sonraki batch: tur69 (önce i18n/done içindeki en büyük numaraya bakın).
 
 14 Kasım 2026: günlük denetim — çene eklemi, demansta egzersiz, denge antrenmanı (DENETIM.md). Denge zamanlayıcısında durdur/devam metni hatası düzeltildi. EN'de çevrilmemiş "Haber:" etiketi 5 sayfada daha var. Çeviri tur69. Sonraki batch: tur70 (önce i18n/done içindeki en büyük numaraya bakın).
+
+15 Kasım 2026: günlük denetim — 10 saniye denge testi, diyabette egzersiz, diz kapağı çıkığı (DENETIM.md). Diz kapağı çıkığında çizim başlıkları sayfaya özel (SV["dk_quad_f"], SV["dk_bend_f"]). Bellekteki kimlik (identity) birimi sonraki bir turNN girişiyle geçersiz kılınabilir (tur70-7, EN "Haber:" → "News:"). Çeviri tur70. Sonraki batch: tur71 (önce i18n/done içindeki en büyük numaraya bakın).

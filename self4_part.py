@@ -41,7 +41,7 @@ BT_ROWS = "\n".join(
     for a, o, c in BT_NORM)
 
 BT_FAQ = [
- ("10 saniye duramazsam erken ölüm riskim mi yüksek?", "Bu bir tanı değildir. Araştırma, testi yapamayanlarda sonraki yıllarda ölüm oranının daha yüksek olduğunu gösteriyor; ama bu bir ilişkidir, testin kendisi bir hastalığı göstermez. Araştırmacılar yakın zamanda geçirilen düşmeler ve fiziksel aktivite gibi etkenleri hesaba katamadıklarını belirtiyor. Testi bir uyarı ışığı gibi düşünüp dengenizi çalıştırmaya başlayabilir, kaygınız varsa hekiminizle konuşabilirsiniz. İngiltere’nin 2025 düşme kılavuzu (NICE) da düşme riskini tahmin etmek için tek bir testin tek başına kullanılmamasını öneriyor; bu tür testler dengeyle ilgili sorunları fark etmeye yardım eder."),
+ ("10 saniye duramazsam erken ölüm riskim mi yüksek?", "Bu bir tanı değildir. Araştırma, testi yapamayanlarda sonraki yıllarda ölüm oranının daha yüksek olduğunu gösteriyor; ama bu bir ilişkidir, testin kendisi bir hastalığı göstermez. Araştırmacılar yakın zamanda geçirilen düşmeler ve fiziksel aktivite gibi etkenleri hesaba katamadıklarını belirtiyor. Testi bir uyarı ışığı gibi düşünüp dengenizi çalıştırmaya başlayabilir, kaygınız varsa hekiminizle konuşabilirsiniz. İngiltere’nin 2025 düşme kılavuzu (NICE) da düşme riskini tahmin etmek için risk tahmin araçlarının kullanılmamasını öneriyor; kılavuza göre denge ve yürüme testleri dengeyle ilgili sorunları fark etmeye yardım eder, ama kişinin düşme riskini öngörmez."),
  ("Hangi ayakla yapmalıyım?", "Yaş ortalamalarının çıkarıldığı çalışmada katılımcılar ayağı kendileri seçti. İsterseniz iki ayağınızı ayrı ayrı deneyip karşılaştırabilirsiniz."),
  ("Gözler kapalıyken neden bu kadar zor?", "Dengeyi korurken gözlerden, iç kulaktan ve ayak tabanı ile eklemlerdeki duyulardan gelen bilgiyi birlikte kullanırız. Gözleri kapatınca bu bilgilerden biri ortadan kalkar. Ortalamalarda da fark büyük: 18–39 yaşta gözler açıkken 44,7 saniye, kapalıyken 15,2 saniye."),
  ("Dengemi geliştirebilir miyim?", "Evet. Toplumda yaşayan yaşlılarla yapılan çalışmaların Cochrane derlemesinde, denge ve günlük hareketleri çalıştıran egzersizler düşme sayısını %24 azalttı. Yukarıdaki egzersizlerle başlayabilir, düşmeleri önleme rehberine de bakabilirsiniz."),
@@ -53,7 +53,7 @@ BT_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>10 saniye denge testi</h1>
     <p class="lede">Bir ayağınızın üzerinde 10 saniye durabiliyor musunuz? 51–75 yaş arası 1.702 kişinin yaklaşık 7 yıl izlendiği bir araştırmada, her beş kişiden biri bunu yapamadı ve bu kişilerde izlem süresince ölüm oranı belirgin şekilde daha yüksekti. Bu basit test bir tanı değil, ama dengenize dair değerli bir ipucu. Aşağıdaki süreölçerle deneyin ve yaşınızdaki ortalamayla karşılaştırın.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 15 Kasım 2026</p>
   </div>
 </header>
 
@@ -203,8 +203,8 @@ BT_BODY = f'''<header class="page">
     <div class="wrap col sources">
       <p class="eyebrow">Kaynaklar</p>
       {src_list([
-        "Araujo CG, de Souza e Silva CG, Laukkanen JA, et al. " + ext("https://bjsm.bmj.com/content/56/17/975", "Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals") + ". Br J Sports Med. 2022;56(17):975.",
-        "Springer BA, Marin R, Cyhan T, Roberts H, Gill NW. " + ext("https://geriatrictoolkit.missouri.edu/balance/Normative_Values_for_the_Unipedal_Stance_Test_Springer-JGPT.pdf", "Normative values for the unipedal stance test with eyes open and closed") + ". J Geriatr Phys Ther. 2007;30(1).",
+        "Araujo CG, de Souza e Silva CG, Laukkanen JA, et al. " + ext("https://bjsm.bmj.com/content/56/17/975", "Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals") + ". Br J Sports Med. 2022;56(17):975–980.",
+        "Springer BA, Marin R, Cyhan T, Roberts H, Gill NW. " + ext("https://geriatrictoolkit.missouri.edu/balance/Normative_Values_for_the_Unipedal_Stance_Test_Springer-JGPT.pdf", "Normative values for the unipedal stance test with eyes open and closed") + ". J Geriatr Phys Ther. 2007;30(1):8–15.",
         "Bull FC, Al-Ansari SS, Biddle S, et al. " + ext("https://bjsm.bmj.com/content/54/24/1451", "World Health Organization 2020 guidelines on physical activity and sedentary behaviour") + ". Br J Sports Med. 2020;54(24):1451–1462",
         "Sherrington C, Fairhall NJ, Wallbank GK, et al. " + ext("https://www.cochrane.org/evidence/CD012424_exercise-preventing-falls-older-people-living-community", "Exercise for preventing falls in older people living in the community") + ". Cochrane Database Syst Rev. 2019;1:CD012424.",
         "National Institute for Health and Care Excellence. " + ext("https://www.nice.org.uk/guidance/ng249/resources/falls-assessment-and-prevention-in-older-people-and-in-people-50-and-over-at-higher-risk-pdf-66143964997573", "Falls: assessment and prevention in older people and in people 50 and over at higher risk") + ". NICE guideline NG249, 29 April 2025.",
