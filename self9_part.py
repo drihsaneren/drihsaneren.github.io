@@ -2,6 +2,9 @@
 # Kendine iyi bak, 9. tur: düşme riski öz değerlendirmesi (CDC STEADI "Stay Independent"), 4 aşamalı denge testi (CDC STEADI).
 # self8_part.py'den sonra exec edilir (SELF8_CSS, WAKE_JS, cs_sts, cs_heel hazır).
 
+# 4 aşamalı denge sayfasına özel kalkma kartı (cs_sts'deki "Testin kendisi…" cümlesi bu sayfada test yok; denetim 16 Kasım 2026)
+_ex2("b4_sts", "sts", "Sandalyeden kalkıp oturma", "Sağlam, kolsuz bir sandalyede kollarınız göğsünüzde çapraz, kontrollü bir hızla kalkın ve oturun. Zor geliyorsa önce kollarınızdan destek alarak ya da daha yüksek bir sandalyeyle başlayın.", "8–12 tekrar, 2–3 set, haftada 2–3 gün")
+
 SELF9_CSS = SELF8_CSS + """
   .fq{display:grid;gap:10px;margin:6px 0 0;padding:0}
   .fq li{list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:rgba(236,229,207,.03)}
@@ -223,7 +226,7 @@ B4_DESC = ["İki ayağınızı yan yana, birbirine değecek şekilde koyun.",
 
 B4_FAQ = [
  ("Neden tandem duruş bu kadar önemli?", "ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), tandem duruşu (bir ayak tam öbürünün önünde) en az 10 saniye koruyamayan yaşlıların düşme riskinin arttığını belirtiyor. Bu durumda denge ve yürüyüş egzersizleri için bir fizyoterapiste ya da tai chi gibi kanıtlanmış bir düşme önleme programına yönlendirme öneriliyor. Dengeniz zayıf çıktıysa, bu testteki duruşları da içeren Otago gibi ev programları düşmeleri azaltabiliyor: 7 çalışmanın analizinde düşmeler %32 azaldı."),
- ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riskini tahmin etmek için tek başına bir test ya da puanlama aracı kullanılmamasını öneriyor; bu tür testler yürüme ve denge sorunlarını fark etmeye yardım eder. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
+ ("Bu test düşüp düşmeyeceğimi kesin olarak söyler mi?", "Hayır. İngiltere’de NICE’ın 2025 kılavuzu, bir kişinin düşme riskini tahmin etmek için düşme riski tahmin araçlarının kullanılmamasını öneriyor; kılavuza göre yürüme ve denge testleri bu sorunları fark etmeye yardım eder, ama düşme riskini öngörmez. Bu yüzden son bir yılda düştüyseniz, sonucunuz ne olursa olsun bunu hekiminize söyleyin. Birden fazla kez düştüyseniz, düşmede yaralandıysanız, bilincinizi kaybettiyseniz ya da yerden yardımsız kalkamadıysanız kapsamlı bir düşme değerlendirmesi isteyebilirsiniz."),
  ("Ayaklarımı oynatırsam ne olur?", "Ayaklarınız yer değiştirirse ya da bir yere tutunmak zorunda kalırsanız o aşamada süre durur ve test biter. Kollarınızı açabilir, gövdenizi oynatabilirsiniz; yalnızca ayaklarınız yerinde kalmalı."),
  ("Tek ayak aşamasını geçemedim, sorun mu?", "Tek ayak üzerinde durmak dördünün en zorudur. Yaşınıza göre karşılaştırma için <a href=\"denge-testi.html\">10 saniye denge testi</a> sayfamıza bakabilirsiniz."),
 ]
@@ -234,7 +237,7 @@ B4_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>4 aşamalı denge testi</h1>
     <p class="lede">Ayakta dururken dengeniz ne kadar sağlam? Bu testte giderek zorlaşan dört duruşta 10’ar saniye kalmaya çalışırsınız. ABD Hastalık Kontrol ve Önleme Merkezleri (CDC), yaşlılarda düşme riskini değerlendirirken bu testi kullanıyor: üçüncü aşamadaki tandem duruşu 10 saniye koruyamamak, düşme riskinin arttığını gösteriyor. Yanınızda biriyle, aşağıdaki süreölçerle deneyin.</p>
-    <p class="meta">Son güncelleme: 18 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 16 Kasım 2026</p>
   </div>
 </header>
 
@@ -300,9 +303,9 @@ B4_BODY = f'''<header class="page">
           <span data-k="lt">Tandem duruşu 10 saniye korudunuz</span>
           <span data-k="lrisk">Tandem duruşu 10 saniye koruyamadınız</span>
           <span data-k="tall">Dengeniz bu testte iyi görünüyor. Dengenizi korumak için hareketli kalın.</span>
-          <span data-k="tt">Tandem duruşu 10 saniye korumanız, bu testin düşme riski eşiğini geçtiğiniz anlamına gelir. Tek ayak üzerinde denge çalışmasına devam edebilirsiniz.</span>
+          <span data-k="tt">Tandem duruşu 10 saniye koruyabildiniz; CDC’nin artmış düşme riski işareti saydığı durum (10 saniyeden kısa) bu testte görülmedi. Tek ayak üzerinde denge çalışmasına devam edebilirsiniz.</span>
           <span data-k="trisk">CDC’ye göre tandem duruşu en az 10 saniye koruyamayan yaşlıların düşme riski artmıştır. Bu bir tanı değildir; denge ve yürüyüş egzersizleri için bir fizyoterapistle konuşabilirsiniz.</span>
-          <span data-k="bok">Düşme riski eşiğinin üzerinde</span>
+          <span data-k="bok">Tandem aşaması başarılı</span>
           <span data-k="bno">Değerlendirme önerilir</span>
           <span data-k="wa">Merhaba, drihsaneren.com’daki 4 aşamalı denge testini yaptım: {{r}}. Değerlendirme hakkında bilgi almak istiyorum.</span>
           <span data-k="sec">sn</span>
@@ -338,7 +341,7 @@ B4_BODY = f'''<header class="page">
       <p class="eyebrow">Dengenizi geliştirin</p>
       <h2>Evde dört egzersiz</h2>
       <p class="soft">Ayrıntılı öneriler için <a href="dusme-onleme.html">düşmeleri önleme</a> rehberine, düşme riskinizi soru listesiyle değerlendirmek için <a href="dusme-riski-testi.html">düşme riski testine</a> bakabilirsiniz.</p>
-      {ex_grid(["tandem", "sls", "cs_heel", "cs_sts"], "ex four")}
+      {ex_grid(["tandem", "sls", "cs_heel", "b4_sts"], "ex four")}
     </div>
   </section>
 
@@ -398,7 +401,7 @@ B4_JS = '''<script>
     $('b4-phase').textContent = p || S.ready; $('b4-cue').textContent = c || S.readyc;
   }
   function finish(t){
-    times[stage] = Math.min(10, Math.round(t * 10) / 10);
+    times[stage] = Math.min(10, Math.floor(t * 10) / 10);
     $('b4-sec').textContent = fmt(times[stage]);
     if (times[stage] >= 10 && stage < 3){ beep(880, .35, .2); stage++; phase = 'idle'; paintStage(); idle(S.pass, S.passc); }
     else { beep(times[stage] >= 10 ? 880 : 440, .45, .2); phase = 'end'; paintStage(); idle(S.end, S.endc); result(); }

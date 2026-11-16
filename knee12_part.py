@@ -34,8 +34,8 @@ D12_LOCK = ('<svg class="lk" viewBox="0 0 40 48" aria-hidden="true"><path class=
 
 # ---- 12 sır: soru (önceden görünür), cevap (seans sonunda açılır), kısa kaynak
 D12_SECRETS = [
- ("Evde egzersiz yapanların çoğu neden bırakır?",
-  "<p>Sebep çoğu zaman irade eksikliği değil. Fizyoterapide tedaviye uyumu inceleyen sistematik derlemede, egzersizi sürdürememekle güçlü biçimde ilişkili bulunan etkenler şunlar: egzersiz sırasında artan ağrı, kendine güvenin düşük olması, önünde çok engel görmek, sosyal desteğin az olması, kaygı, depresyon ve çaresizlik hissi.</p><p>Bu program tam da bunlar için kuruldu: ağrı trafik ışığı, küçük ve ölçülebilir adımlar, söz kartı ve sözünüzü paylaşabileceğiniz bir yakınınız.</p>",
+ ("Evde egzersizi bırakanlar neden bırakır?",
+  "<p>Sebep çoğu zaman irade eksikliği değil. Fizyoterapide tedaviye uyumu inceleyen sistematik derlemede, egzersizi sürdürememekle ilişkisi güçlü kanıtla gösterilen etkenler şunlar: egzersiz sırasında artan ağrı, kendine güvenin düşük olması, önünde çok engel görmek, sosyal desteğin az olması, kaygı, depresyon ve çaresizlik hissi.</p><p>Bu program tam da bunlar için kuruldu: ağrı trafik ışığı, küçük ve ölçülebilir adımlar, söz kartı ve sözünüzü paylaşabileceğiniz bir yakınınız.</p>",
   "Jack ve ark., Manual Therapy, 2010"),
  ("Röntgen, ağrınızı neden tam anlatmaz?",
   "<p>Röntgen ile ağrı her zaman aynı hikâyeyi anlatmaz. Çalışmaları derleyen bir incelemede diz ağrısı olanların yalnızca %15 ile %76'sında röntgende kireçlenme görüldü; röntgende kireçlenmesi olanların ise %15 ile %81'inde ağrı vardı.</p><p>Yani filminiz kötü görünse de diziniz güçlenebilir ve ağrınız azalabilir. Egzersizin hedefi filmdeki görüntü değil; ağrınız ve günlük işleriniz.</p>",
@@ -47,7 +47,7 @@ D12_SECRETS = [
   "<p>Her zaman değil. Bir NHS kas-iskelet servisinin diz ağrısı rehberine göre egzersiz sırasında ya da sonrasında 10 üzerinden 5'in altında kalan ve bir gün içinde geçen ağrı kabul edilebilir; egzersize devam edilir. Kasın yorulması da olağandır.</p><p>Ağrı 5'i aşıyorsa ya da 24 saatten uzun sürüyorsa yaptıklarınızı gözden geçirip yükü azaltın. Seans sonundaki ağrı ışığı bu kuralla çalışıyor.</p>",
   "East Lancashire Hospitals NHS Trust, diz ağrısı hasta rehberi"),
  ("Bir seansı kaçırırsanız ne olur?",
-  "<p>Neredeyse hiçbir şey. Alışkanlık oluşumunu gerçek hayatta izleyen bir araştırmada yeni bir davranışın kendiliğinden yapılır hâle gelmesi ortalama 66 gün sürdü ve tek bir fırsatı kaçırmak bu süreci anlamlı biçimde etkilemedi.</p><p>Sorun bir kez kaçırmak değil, sık sık kaçırmak. Kaçırdığınızda kendinizi suçlamayın; bir sonraki sözünüze dönün.</p>",
+  "<p>Neredeyse hiçbir şey. Alışkanlık oluşumunu gerçek hayatta izleyen bir araştırmada yeni bir davranışın kendiliğinden yapılır hâle gelmesi kişiden kişiye 18 ile 254 gün arasında değişti (ortanca 66 gün) ve tek bir fırsatı kaçırmak bu süreci anlamlı biçimde etkilemedi.</p><p>Sorun bir kez kaçırmak değil, sık sık kaçırmak. Kaçırdığınızda kendinizi suçlamayın; bir sonraki sözünüze dönün.</p>",
   "Lally ve ark., European Journal of Social Psychology, 2010"),
  ("Üç haftada bacaklarınızda ne değişti?",
   '<p data-case="up">Başlangıçta 30 saniyede <b data-v="a"></b> kez kalkmıştınız; bugün <b data-v="b"></b>. Fark tam <b data-v="d"></b> kalkış. Bacaklarınız güçleniyor ve bunu siz ölçtünüz.</p>'
@@ -63,13 +63,13 @@ D12_SECRETS = [
   "<p>Çünkü kararı bir kez veriyorsunuz. “Şu olunca bunu yapacağım” biçimindeki planları inceleyen bir meta-analizde 94 ayrı testin ortalamasında, hedefe ulaşmada orta-büyük bir etki bulundu.</p><p>Söz kartınızdaki gün, saat ve “neyin ardından” tam olarak böyle bir plan. İpucu geldiğinde düşünmeniz gerekmiyor; sadece başlıyorsunuz.</p>",
   "Gollwitzer ve Sheeran, Advances in Experimental Social Psychology, 2006"),
  ("Egzersiz gerçekten ne kadar fark ettirir?",
-  "<p>Dürüst cevap: belirgin ama mucize değil. 139 çalışmayı ve 12.468 kişiyi kapsayan güncel Cochrane derlemesinde egzersiz, egzersiz yapmamaya göre program sonunda ağrıyı 100 üzerinden yaklaşık 13 puan, günlük işlevi yaklaşık 12,5 puan iyileştirdi.</p><p>Kanıtın kesinliği düşük ile orta arasında ve etkiler program bitiminde ölçüldü. Bu yüzden sürdürmek, başlamak kadar önemli.</p>",
+  "<p>Dürüst cevap: yararlı ama mucize değil. 139 çalışmayı ve 12.468 kişiyi kapsayan güncel Cochrane derlemesinde egzersiz, tedavi almama ya da olağan bakıma göre program sonunda ağrıyı 100 üzerinden yaklaşık 13 puan, günlük işlevi yaklaşık 12,5 puan iyileştirdi.</p><p>Kanıtın kesinliği düşük ile orta arasında ve etkiler program bitiminde ölçüldü; yazarlar bu farkın klinik önemini belirsiz buldu. Bu yüzden sürdürmek, başlamak kadar önemli.</p>",
   "Cochrane Database of Systematic Reviews, 2024"),
  ("Egzersizi sevdiğiniz bir şeyle eşleştirmek işe yarar mı?",
   "<p>Bir deneyde katılımcılar sevdikleri sesli kitapları yalnızca spor salonunda dinleyebildi. Bu grup, kontrol grubuna göre spor salonuna %51 daha fazla gitti; etki zamanla bir miktar azaldı.</p><p>Söz kartınızda seçtiğiniz “yalnızca egzersizde dinleyeceğim” şey bu yüzden orada. Kuralı koruyun: onu başka zaman dinlemeyin.</p>",
   "Milkman ve ark., Management Science, 2014"),
  ("Sabah tutukluğu ne kadar sürmeli?",
-  "<p>Kılavuzlara göre diz kireçlenmesinde sabah tutukluğu ya hiç olmaz ya da 30 dakikadan kısa sürer. 45 yaşın üstünde, hareketle artan ağrıyla birlikteyse tanı çoğu zaman muayeneyle konur.</p><p>Tutukluğunuz her sabah yarım saatten uzun sürüyorsa ya da eklemleriniz şişip ısınıyorsa hekiminize söyleyin; başka bir neden olabilir.</p>",
+  "<p>NICE kılavuzuna göre diz kireçlenmesinde sabah tutukluğu ya hiç olmaz ya da 30 dakikayı geçmez. 45 yaş ve üzerinde, hareketle artan ağrıyla birlikteyse tanı çoğu zaman muayeneyle konur.</p><p>Tutukluğunuz her sabah yarım saatten uzun sürüyorsa ya da eklemleriniz şişip ısınıyorsa hekiminize söyleyin; başka bir neden olabilir.</p>",
   "NICE, NG226, 2022"),
  ("Asıl sır ne?",
   "<p>Altı haftadır söz verdiğiniz günlerde dizinize zaman ayırdınız.</p>"
@@ -125,7 +125,7 @@ D12_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak · Diz kireçlenmesi</p>
     <h1>Dizin 12 Sırrı</h1>
     <p class="lede">Diz kireçlenmesinde egzersiz, ağrıyı ve günlük işlevi iyileştiren yöntemlerin başında gelir; zor olan onu sürdürmektir. Bu altı haftalık ev programında her seans, dizinizle ya da alışkanlıklarınızla ilgili kilitli bir sırrı açar. Sorular baştan görünür; cevaplar ancak seansı bitirince.</p>
-    <p class="meta">Son güncelleme: 10 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 16 Kasım 2026</p>
   </div>
 </header>
 
@@ -312,9 +312,9 @@ D12_BODY = f'''<header class="page">
       <p class="soft">Şu durumlarda programa başlamadan önce hekiminize ya da fizyoterapistinize danışın:</p>
       <ul class="dots redflags">
         <li>Yakın zamanda diz ameliyatı ya da diz yaralanması geçirdiyseniz</li>
-        <li>Dizinizde yeni başlayan şişlik, kızarıklık ve ısı varsa ya da ateşiniz varsa</li>
+        <li>Dizinizde yeni başlayan şişlik, kızarıklık ya da ısı artışı varsa ya da ateşiniz varsa</li>
         <li>Dizinizin üzerine basamıyorsanız</li>
-        <li>Ağrınız dinlenirken ve geceleri giderek artıyorsa</li>
+        <li>Ağrınız dinlenirken ya da geceleri giderek artıyorsa</li>
         <li>Sık düşüyorsanız ya da dengeniz çok bozuksa</li>
       </ul>
       {CTA_CARD("Diz ağrınız", "diz kireçlenmesi")}

@@ -870,3 +870,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 14 Kasım 2026: günlük denetim — çene eklemi, demansta egzersiz, denge antrenmanı (DENETIM.md). Denge zamanlayıcısında durdur/devam metni hatası düzeltildi. EN'de çevrilmemiş "Haber:" etiketi 5 sayfada daha var. Çeviri tur69. Sonraki batch: tur70 (önce i18n/done içindeki en büyük numaraya bakın).
 
 15 Kasım 2026: günlük denetim — 10 saniye denge testi, diyabette egzersiz, diz kapağı çıkığı (DENETIM.md). Diz kapağı çıkığında çizim başlıkları sayfaya özel (SV["dk_quad_f"], SV["dk_bend_f"]). Bellekteki kimlik (identity) birimi sonraki bir turNN girişiyle geçersiz kılınabilir (tur70-7, EN "Haber:" → "News:"). Çeviri tur70. Sonraki batch: tur71 (önce i18n/done içindeki en büyük numaraya bakın).
+
+16 Kasım 2026: günlük denetim — Dizin 12 Sırrı, doğa reçetesi, 4 aşamalı denge testi (DENETIM.md). 4 aşamalı denge sayfasında kalkma kartı sayfaya özel (b4_sts; ortak cs_sts'deki "Testin kendisi…" cümlesi self6/self8'de de var), süreölçer Math.floor. Çeviri tur71. Sonraki batch: tur72 (önce i18n/done içindeki en büyük numaraya bakın).

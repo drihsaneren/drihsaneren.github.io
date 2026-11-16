@@ -930,8 +930,8 @@ NATURE_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Doğa reçetesi: haftada 120 dakika</h1>
-    <p class="lede">İngiltere'de yaklaşık 20 bin kişiyle yapılan bir araştırmada, haftada en az 2 saatini doğada geçirenler sağlıklarını ve iyi oluşlarını belirgin şekilde daha iyi bildirdi. Bu 2 saati tek seferde ya da parça parça geçirmek fark etmiyordu. İstanbul'da doğa sandığınızdan yakın: park, koru, sahil ya da deniz kenarı da sayılır.</p>
-    <p class="meta">Son güncelleme: 30 Eylül 2026</p>
+    <p class="lede">İngiltere'de yaklaşık 20 bin kişiyle yapılan bir araştırmada, haftada en az 2 saatini doğada geçirenlerin sağlığını iyi, iyi oluşunu yüksek bildirme olasılığı, hiç doğaya çıkmayanlara göre daha yüksekti. Bu bir anket çalışmasıdır; ilişki gösterir, neden-sonuç kanıtlamaz. Bu 2 saati tek seferde ya da parça parça geçirmek fark etmiyordu. İstanbul'da doğa sandığınızdan yakın: park, koru, sahil ya da deniz kenarı da sayılır.</p>
+    <p class="meta">Son güncelleme: 16 Kasım 2026</p>
   </div>
 </header>
 
@@ -941,7 +941,7 @@ NATURE_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>120 dk</b><span>Bu sürenin altında iyi sağlık bildirmede belirgin bir fark görülmedi (19.806 kişilik anket; kesin bir doz değil)</span></div>
         <div class="stat"><b>1,59</b><span>Olasılık oranı: haftada 120–179 dk doğada vakit geçirenlerde iyi sağlık bildirme, hiç çıkmayanlara göre</span></div>
-        <div class="stat"><b>200–300 dk</b><span>İyi sağlık bildirmenin en yüksek olduğu aralık; daha fazlasında ek fark görülmedi</span></div>
+        <div class="stat"><b>200–300 dk</b><span>Olumlu ilişkinin en güçlü göründüğü aralık; daha fazlasında ek kazanç görülmedi</span></div>
         <div class="stat"><b>20–30 dk</b><span>Stres hormonu kortizolün en verimli düştüğü doğa molası süresi</span></div>
       </div>
     </div>
@@ -970,9 +970,9 @@ NATURE_BODY = f'''<header class="page">
         </div>
         <div class="nt-strings" hidden>
           <span data-k="low">Haftalık 120 dakikaya {{n}} dakika kaldı. Parça parça da olur: örneğin 4 gün 30 dakika.</span>
-          <span data-k="ok">120 dakika eşiğini geçtiniz. Araştırmada bu düzeyde doğada vakit geçirenler daha iyi sağlık ve iyi oluş bildirdi.</span>
-          <span data-k="peak">Faydanın en yüksek görüldüğü 200–300 dakika aralığındasınız.</span>
-          <span data-k="over">300 dakikanın üstündesiniz. Araştırmada ek fayda görülmedi, ama doğanın tadını çıkarın.</span>
+          <span data-k="ok">120 dakikaya ulaştınız. Araştırmada bu düzeyde doğada vakit geçirenler daha iyi sağlık ve iyi oluş bildirdi.</span>
+          <span data-k="peak">Araştırmada olumlu ilişkinin en güçlü göründüğü 200–300 dakika aralığındasınız.</span>
+          <span data-k="over">300 dakikanın üstündesiniz. Araştırmada bunun ötesinde ek bir fark görülmedi, ama doğanın tadını çıkarın.</span>
         </div>
       </div>
       <p class="count">Halkadaki ince yeşil çizgi 120 dakikayı, halkanın tamamı 300 dakikayı gösterir.</p>
@@ -1009,7 +1009,7 @@ NATURE_BODY = f'''<header class="page">
   <section>
     <div class="wrap">
       <h2>Hayranlık yürüyüşü</h2>
-      <p class="soft">52 sağlıklı yaşlı yetişkin, 8 hafta boyunca haftada bir 15 dakikalık yürüyüş yaptı. Yürürken “hayranlık” duygusuna, yani kendinden çok daha büyük bir şeyin karşısında hissedilen o hayret hâline dikkat etmeleri istenen grupta günlük sıkıntı azaldı; şefkat ve minnet gibi duygular arttı. Yürüyüşte çektikleri fotoğraflarda zamanla kendilerine daha az, manzaraya daha çok yer verdiler ve gülümsemeleri belirginleşti.</p>
+      <p class="soft">52 sağlıklı yaşlı yetişkin, 8 hafta boyunca haftada bir 15 dakikalık yürüyüş yaptı. Yürürken “hayranlık” duygusuna, yani kendinden çok daha büyük bir şeyin karşısında hissedilen o hayret hâline dikkat etmeleri istenen grupta, ek yönerge almadan yürüyen gruba göre günlük sıkıntı daha çok azaldı; şefkat ve minnet gibi duygular daha çok arttı. Yürüyüşte çektikleri fotoğraflarda zamanla kendilerine daha az, manzaraya daha çok yer verdiler ve gülümsemeleri belirginleşti.</p>
       <div class="kinds">
         <div class="kind"><span class="n">1</span><h3>Telefonu cebe koyun</h3><p>Fotoğraf çekmek serbest, ama ekrana bakarak yürümeyin.</p></div>
         <div class="kind"><span class="n">2</span><h3>Büyüklüğü fark edin</h3><p>Denizin genişliği, gökyüzü, yaşlı bir çınarın gövdesi: sizi aşan şeylere bakın.</p></div>
