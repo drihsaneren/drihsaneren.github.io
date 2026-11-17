@@ -429,7 +429,6 @@ page("asil-tendinopatisi.html", "Aşil Tendinopatisi",
 
 # ============================================================== BAŞ AĞRISI
 _ex2("ha_chin", "chin", "Çene içe çekme", "Dik oturun, gözleriniz karşıya baksın. Başınızı eğmeden çenenizi düz bir çizgide geriye çekin; ensenizin uzadığını hissedin. 5 saniye tutup bırakın.", "10 tekrar, günde 2–3 kez")
-_ex2("ha_iso", "iso", "İzometrik boyun güçlendirme", "Avucunuzu alnınıza koyun. Başınızı hareket ettirmeden elinize doğru hafifçe itin, eliniz de karşı koysun. Aynısını başınızın arkası ve iki yanı için tekrarlayın. Gücünüzün en fazla yarısını kullanmanız yeterli.", "Her yöne 5 saniye, 5 tekrar")
 _ex2("ha_scap", "scap", "Kürek kemiği sıkıştırma", "Dik oturun ya da durun. Omuzlarınızı kaldırmadan kürek kemiklerinizi geriye ve aşağıya doğru yaklaştırın, 5 saniye tutup bırakın. Uzun süre masa başında çalışanlar için iyi bir moladır.", "10–15 tekrar, günde 2 kez")
 _ex2("ha_thor", "thor", "Göğüs kafesini açma", "Sırtı alçak bir sandalyeye oturun, ellerinizi ensenizde birleştirin. Göğsünüzü tavana doğru kaldırarak sırtınızı hafifçe geriye esnetin. Boynunuzu değil sırtınızı esnetin; ellerinizle başınızı öne çekmeyin.", "5–10 tekrar")
 _ex2("ha_side", "side", "Boyun yana germe", "Bir elinizle oturduğunuz sandalyenin kenarını tutun. Sağ elinizle tutuyorsanız sol kulağınızı sol omzunuza doğru yavaşça yaklaştırın; boynunuzun yanında hafif bir gerginlik hissedin. Omzunuzu kaldırmayın.", "20–30 saniye, her iki yana 2–3 kez")
@@ -533,9 +532,9 @@ HA_BODY = f'''<header class="page">
   <section id="egzersizler">
     <div class="wrap">
       <p class="eyebrow">Evde egzersiz</p>
-      <h2>Boyun ve duruş için altı egzersiz</h2>
+      <h2>Boyun ve duruş için beş egzersiz</h2>
       <p class="soft">Bu egzersizler özellikle gerilim tipi ve boyun kaynaklı baş ağrısında boyun ve omuz kaslarını güçlendirip gevşetmeye yardım eder. Hareketleri yavaş ve ağrısız aralıkta yapın; baş dönmesi, kollara yayılan uyuşma ya da baş ağrısında belirgin artış olursa bırakın. Çift görme, bulanık görme, konuşma ya da yutma güçlüğü, yüzde uyuşma, dengesizlik ya da bulantı olursa hemen bırakıp hekime başvurun. Yakın zamanda baş ya da boyun darbesi geçirdiyseniz egzersizlere başlamadan önce hekime danışın.</p>
-      {ex_grid(["ha_chin", "ha_iso", "ha_scap", "ha_thor", "ha_side", "ha_rot"])}
+      {ex_grid(["ha_chin", "ha_scap", "ha_thor", "ha_side", "ha_rot"])}
     </div>
   </section>
   <section id="videolar">
@@ -604,7 +603,7 @@ HA_BODY = f'''<header class="page">
 </main>'''
 
 page("bas-agrisi.html", "Baş Ağrısı",
-     "Gerilim tipi ve boyun kaynaklı baş ağrısı: türleri, tanı ölçütleri, egzersiz ve fizyoterapinin etkisi, kılavuz karşılaştırması, kısa tarihçe, ağrı kesicilerle ilgili uyarılar ve acil başvuru gerektiren belirtiler. Evde altı egzersiz.",
+     "Gerilim tipi ve boyun kaynaklı baş ağrısı: türleri, tanı ölçütleri, egzersiz ve fizyoterapinin etkisi, kılavuz karşılaştırması, kısa tarihçe, ağrı kesicilerle ilgili uyarılar ve acil başvuru gerektiren belirtiler. Evde beş egzersiz.",
      "bas-agrisi.html", NECK_CSS, HA_BODY, YT_JS,
      seo_title="Baş Ağrısı: Gerilim Tipi ve Boyun Kaynaklı Baş Ağrısında Egzersiz | İhsan Eren",
      about=[cond("Gerilim tipi baş ağrısı"), cond("Servikojenik baş ağrısı")], faq_items=HA_FAQ)
