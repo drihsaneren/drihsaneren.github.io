@@ -876,3 +876,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 17 Kasım 2026: günlük denetim — DOST molası, Dupuytren kontraktürü, düşme riski testi (DENETIM.md). Aynı NICE "tek başına" ifadesi self5_part.py ve self8_part.py'de de duruyor (o sayfaların denetiminde). Çeviri tur72. Sonraki batch: tur73 (önce i18n/done içindeki en büyük numaraya bakın).
 
 17 Kasım 2026: bas-agrisi'ndan "İzometrik boyun güçlendirme" egzersizi kaldırıldı (kullanıcı sevmiyor; yeniden eklemeyin). Çeviri tur73. Sonraki batch: tur74 (önce i18n/done içindeki en büyük numaraya bakın).
+
+18 Kasım 2026: günlük denetim — düştükten sonra kalkma, duvar oturuşu, düztabanlık (DENETIM.md). Duvar oturuşunda derinlik artık seans içinde sabit (Lea 2024); düztabanlık videoları doğrulanamadı (oEmbed açılamadı). Çeviri tur74. Sonraki batch: tur75 (önce i18n/done içindeki en büyük numaraya bakın).

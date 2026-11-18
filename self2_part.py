@@ -432,7 +432,7 @@ WS_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Tansiyon için duvar oturuşu</h1>
     <p class="lede">270 çalışmayı bir araya getiren büyük bir analizde, tansiyonu en çok düşüren egzersiz türü koşu ya da bisiklet değil, duvara yaslanıp hareketsiz beklemek gibi “izometrik” egzersizler çıktı. Haftada 3 gün, seans başına yaklaşık 14 dakika. Aşağıdaki zamanlayıcıyla birlikte yapabilirsiniz.</p>
-    <p class="meta">Son güncelleme: 24 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 18 Kasım 2026</p>
   </div>
 </header>
 
@@ -523,13 +523,13 @@ WS_BODY = f'''<header class="page">
     <div class="wrap two">
       <div>
         <h2>Doğru derinlik nasıl seçilir?</h2>
-        <p class="soft">Evde yapılan bir çalışmada katılımcılar derinliği zorlanma hissine göre seçti ve 4 hafta sonunda büyük tansiyonda ortalama 9 mmHg düşüş ölçüldü. Hedef: 4 turun sonunda zorlanma, 10 üzerinden sırasıyla yaklaşık 4, 5,5, 7 ve 8,5 olsun. Yani ilk tur rahat, son tur zor ama tamamlanabilir.</p>
+        <p class="soft">Evde yapılan bir çalışmada katılımcılar derinliği zorlanma hissine göre seçti ve 4 hafta sonunda büyük tansiyonda ortalama 9 mmHg düşüş ölçüldü. Hedef: dört turun her birinin sonunda zorlanma, 10 üzerinden sırasıyla yaklaşık 4, 5,5, 7 ve 8,5 olsun. Yani ilk tur rahat, son tur zor ama tamamlanabilir.</p>
       </div>
       <ul class="dots" style="align-self:center">
         <li>Sırtınızı duvara yaslayın, ayaklarınız kalça genişliğinde açık ve duvardan yaklaşık iki ayak boyu önde olsun.</li>
         <li>Sırtınız duvarda kayarak inin. Dizleriniz ayak bileklerinizin üzerinde kalsın, ayak parmaklarınızı geçmesin.</li>
         <li>Uyluklarınız yere paralelden aşağı inmesin; daha yüksekte kalmak da işe yarar.</li>
-        <li>Tur çok kolay geliyorsa biraz daha aşağı, bitiremiyorsanız biraz daha yukarı konum seçin.</li>
+        <li>Dört tur boyunca aynı yükseklikte kalın; zorlanmanın turdan tura artması beklenir. Son turdaki zorlanma hedefin belirgin altında ya da üstünde kaldıysa, bir sonraki seansta biraz daha aşağıdan ya da yukarıdan başlayın.</li>
       </ul>
     </div>
   </section>
@@ -565,7 +565,7 @@ WS_BODY = f'''<header class="page">
         "Lea JWD, O'Driscoll JM, Wiles JD. " + ext("https://link.springer.com/article/10.1007/s00421-023-05269-2", "The implementation of a home-based isometric wall squat intervention using ratings of perceived exertion to select and control exercise intensity: a pilot study in normotensive and pre-hypertensive adults") + ". Eur J Appl Physiol. 2024;124(1):281-293.",
         "Blood Pressure Lowering Treatment Trialists' Collaboration. " + ext("https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00590-0/fulltext", "Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure: an individual participant-level data meta-analysis") + ". Lancet. 2021;397(10285):1625-1636.",
         "Hansford HJ, Parmenter BJ, McLeod KA, et al. " + ext("https://doi.org/10.1038/s41440-021-00720-3", "The effectiveness and safety of isometric resistance training for adults with high blood pressure: a systematic review and meta-analysis") + ". Hypertens Res. 2021;44(11):1373–1384.",
-        "Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial. BMJ Open Sport Exerc Med. 2026. doi:10.1136/bmjsem-2025-003172. Basın bülteni: " + ext("https://bmjgroup.com/a-weekly-session-of-isometric-exercise-training-may-maintain-lower-blood-pressure/", "BMJ Group, 29 September 2026") + ".",
+        "Swift HT, Pedlar C, Coleman DA, Buckley JP, Wiles JD. Isometric exercise training and blood pressure control: exploring the dose-response to training frequency in a randomised controlled trial. BMJ Open Sport Exerc Med. 2026;(3):e003172. doi:10.1136/bmjsem-2025-003172. Basın bülteni: " + ext("https://bmjgroup.com/a-weekly-session-of-isometric-exercise-training-may-maintain-lower-blood-pressure/", "BMJ Group, 29 September 2026") + ".",
       ])}
     </div>
   </section>

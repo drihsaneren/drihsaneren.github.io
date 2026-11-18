@@ -65,7 +65,7 @@ GU_FAQ = [
  ("Düştükten sonra 112’yi aramak doğru mu?", "Evet. Başınızı, boynunuzu, sırtınızı ya da kalçanızı incitmiş olabileceğinizi düşünüyorsanız ya da kalkamıyorsanız 112’yi arayın. Düştükten sonra yardım istemekte bir sakınca yoktur."),
  ("Neden hemen kalkmamalıyım?", "Düşmenin şokuyla hızla kalkmaya çalışmak yeniden düşmenize ya da bir yaralanmanın kötüleşmesine yol açabilir. Önce sakin kalın, birkaç dakika olduğunuz yerde durun, bir yerinizin ağrıyıp ağrımadığını kontrol edin ve kalkıp kalkamayacağınızı düşünün."),
  ("Kalkamıyorsam neden hareket etmeliyim?", "Yandan yana yuvarlanmak, kollarınızı ve bacaklarınızı oynatmak sizi sıcak tutar, dolaşımı destekler, tutulmayı ve uzun süre aynı pozisyonda kalmaya bağlı bası yarası riskini azaltır."),
- ("Kalkmayı neden önceden öğrenmeliyim?", "İngiltere’nin ulusal sağlık kılavuzu NICE (2025), düşme riski olan kişilerle düştükten sonra ne yapacaklarının ve yerden nasıl kalkacaklarının konuşulmasını öneriyor. Adımları önceden, yanınızda biri varken denemek, gerçek bir düşmede ne yapacağınızı bilmenizi kolaylaştırır. 90 yaş üstü 110 kişinin bir yıl izlendiği bir çalışmada düşenlerin %80’i en az bir düşmede yardımsız kalkamadı, %30’u bir saat ya da daha uzun yerde kaldı; uzun süre yerde kalmak ciddi yaralanma, hastaneye yatış ve bakımevine geçişle ilişkiliydi. Çağrı cihazları yaygın olsa da bu düşmelerin çoğunda kullanılmadı."),
+ ("Kalkmayı neden önceden öğrenmeliyim?", "İngiltere’de NICE’ın 2025 kılavuzu, düşme riski olan kişilerle düştükten sonra ne yapacaklarının ve yerden nasıl kalkacaklarının konuşulmasını öneriyor. Adımları önceden, yanınızda biri varken denemek, gerçek bir düşmede ne yapacağınızı bilmenizi kolaylaştırır. 90 yaş üstü 110 kişinin bir yıl izlendiği bir çalışmada düşenlerin %80’i en az bir düşmede yardımsız kalkamadı, %30’u bir saat ya da daha uzun yerde kaldı; uzun süre yerde kalmak ciddi yaralanma, hastaneye yatış ve bakımevine geçişle ilişkiliydi. Çağrı cihazları yaygın olsa da uzun süre yerde kalınan düşmelerin çoğunda kullanılmadı."),
  ("Kalktım ve iyiyim, yine de hekime gitmeli miyim?", "Evet, hekiminize düştüğünüzü söyleyin. Düşme değerlendirmesinde denge testleri yapılabilir, ilaçlarınız gözden geçirilebilir, göz muayenesi, kalp ritmi kaydı (EKG) ve yatarken ve ayaktayken tansiyon ölçümü istenebilir. Evinizdeki tehlikeler için bir sağlık profesyonelinin ziyareti ve kuvvet ve denge egzersizleri de önerilebilir."),
 ]
 
@@ -75,7 +75,7 @@ GU_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Düştükten sonra yerden kalkma</h1>
     <p class="lede">Düştüğünüzde ilk iş acele etmemek. Yaralanmadıysanız ve kendinizi hazır hissediyorsanız, kalkmanın güvenli bir yolu var; incindiyseniz ya da kalkamıyorsanız da yardım gelene kadar yapabilecekleriniz var. Bu rehber, NHS’in önerdiği adımları size soru sorarak ve resimlerle tek tek gösterir. Düşmeden önce bir kez okumanız, gerektiğinde ne yapacağınızı bilmenizi kolaylaştırır.</p>
-    <p class="meta">Son güncelleme: 19 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 18 Kasım 2026</p>
   </div>
 </header>
 

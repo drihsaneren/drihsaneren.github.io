@@ -62,7 +62,7 @@ FF_FAQ = [
  ("Düztabanlık tedavi edilmeli mi?", "Çoğu zaman hayır. Düztabanlık genellikle sorun yaratmaz, spor yapmaya engel olmaz ve nadiren ciddi bir durumun işaretidir. Ağrı, sertlik, güçsüzlük ya da denge sorunu yoksa bir şey yapmak gerekmez."),
  ("Çocuğumun ayakları düz; tabanlık almalı mıyım?", "Küçük çocukların çoğunun ayağı düzdür; ayak kavsi genellikle 3–10 yaş arasında gelişir. Sorun yoksa bir şey yapmak gerekmez. 16 çalışmayı (1.058 çocuk) inceleyen Cochrane derlemesi, ağrısı olmayan sağlıklı çocuklarda pahalı özel tabanlıkları destekleyen bir kanıt bulamadı."),
  ("Tabanlık ayağın kavsini düzeltir mi?", "Hayır. Tabanlık, uygun ayakkabı ve egzersizler ayağın şeklini değiştirmez; ancak ağrıyı ve sertliği azaltabilir. Bu yüzden yalnızca şikâyet varsa önerilir."),
- ("Düztabanlık sonradan olur mu?", "Olabilir. Ayaktaki dokular yaralanma, yaşlanma ya da fazla kilo nedeniyle gevşeyebilir; yetişkinlerde en sık neden, iç ayak bileğinin arkasından geçip kavsi tutan kirişin zayıflamasıdır. Daha önce düz olmayan ya da yalnızca tek ayakta ortaya çıkan düztabanlıkta hekime görünün."),
+ ("Düztabanlık sonradan olur mu?", "Olabilir. Ayaktaki dokular yaralanma, yaşlanma ya da fazla kilo nedeniyle gevşeyebilir; yetişkinlerde sık nedenlerden biri, iç ayak bileğinin arkasından geçip kavsi tutan kirişin zayıflamasıdır. Daha önce düz olmayan ya da yalnızca tek ayakta ortaya çıkan düztabanlıkta hekime görünün."),
 ]
 
 FF_SRC = [
@@ -79,7 +79,7 @@ FF_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>Düztabanlık</h1>
     <p class="lede">Düztabanlık, ayakta dururken ayağın iç kavsinin yere değmesidir. Çoğu kişide hiçbir soruna yol açmaz ve tedavi gerektirmez; küçük çocuklarda ise olağandır. Ağrı varsa, kavis sonradan düştüyse ya da yalnızca tek ayak etkilendiyse değerlendirme gerekir.</p>
-    <p class="meta">Son güncelleme: 8 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 18 Kasım 2026</p>
   </div>
 </header>
 
@@ -118,14 +118,14 @@ FF_BODY = f'''<header class="page">
     <div class="wrap">
       <h2>Çocuklarda düztabanlık</h2>
       <p class="soft">Küçük çocukların çoğunun ayağı düzdür. Ayağın iç kavsi genellikle 3–10 yaş arasında gelişir. Çocuğunuzun ayağı sorun çıkarmıyorsa bir şey yapmanız gerekmez.</p>
-      <p class="soft">Tabanlık konusunda araştırmalar net: 16 rastgele kontrollü çalışmayı (1.058 çocuk) inceleyen Cochrane derlemesinde, ağrısı olmayan düztaban çocuklarda özel yapım tabanlık, hazır tabanlık ve yalnızca ayakkabı arasında ağrı açısından anlamlı fark bulunamadı. Yazarlar, ağrısı olmayan sağlıklı çocuklarda pahalı özel tabanlıkları destekleyen bir kanıt görmediklerini belirtiyor. Tabanlık, çocuk romatizması gibi ayağı ağrılı durumlarda işe yarayabiliyor.</p>
+      <p class="soft">16 rastgele kontrollü çalışmayı (1.058 çocuk) inceleyen Cochrane derlemesinde, ağrısı olmayan düztaban çocuklarda özel yapım tabanlık, hazır tabanlık ve yalnızca ayakkabı arasında bir yıl sonra ağrı açısından anlamlı fark bulunamadı; ancak her karşılaştırma tek bir çalışmaya (106–108 çocuk) dayanıyor ve kanıtın kesinliği düşük. Yazarlar, ağrısı olmayan sağlıklı çocuklarda pahalı özel tabanlıkları destekleyen bir kanıt görmediklerini belirtiyor. Tabanlık, çocuk romatizması gibi ayağı ağrılı durumlarda işe yarayabiliyor.</p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
       <h2>Yetişkinde sonradan düşen kavis</h2>
-      <p class="soft">Yetişkinlikte ortaya çıkan düztabanlığın en sık nedeni, iç ayak bileği kemiğinin arkasından geçip ayak tabanına uzanan ve kavsi yukarıda tutan kirişin (tibialis posterior) zorlanıp zayıflamasıdır. Bu kirişin erken evre sorunu olan 36 kişiyle yapılan bir çalışmada, tabanlığa eklenen 12 haftalık direnç egzersizleri ağrıyı ve işlevi, yalnızca tabanlık ve germeye göre daha çok iyileştirdi. Yaş ilerledikçe risk artar; orta yaşlı kadınlarda daha sık görülür. Fazla kilo, diyabet, iltihaplı romatizma ve bölgeye alınan darbe ya da burkulma zemin hazırlar.</p>
+      <p class="soft">Yetişkinlikte ortaya çıkan düztabanlığın en sık nedenlerinden biri, iç ayak bileği kemiğinin arkasından geçip ayak tabanına uzanan ve kavsi yukarıda tutan kirişin (tibialis posterior) zorlanıp zayıflamasıdır. Bu kirişin erken evre sorunu olan 36 kişiyle yapılan bir çalışmada, tabanlığa eklenen 12 haftalık direnç egzersizleri ağrıyı ve işlevi, yalnızca tabanlık ve germeye göre daha çok iyileştirdi. Yaş ilerledikçe risk artar; orta yaşlı kadınlarda daha sık görülür. Fazla kilo, diyabet, iltihaplı romatizma ve bölgeye alınan darbe ya da burkulma zemin hazırlar.</p>
       <div class="callout">
         <p>Bu durumda ilk adım yükü azaltmaktır: ağrıyı artıran yürüyüş ve sporu bir süre azaltmak, araya havlu koyarak buz uygulamak, bağcıklı ve sağlam tabanlı bir ayakkabı giymek ve gerekirse tabanlık kullanmak. Kiriş yırtılmışsa ameliyat gündeme gelebilir.</p>
       </div>
