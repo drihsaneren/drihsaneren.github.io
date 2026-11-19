@@ -11,7 +11,7 @@ _ex2("ho_rot", "ge_rot", "Ön kolu çevirme", "Ön kolunuz masada dursun. Avucun
 
 HO_FAQ = [
  ("Parmaklarımdaki sert şişlikler nedir?", "Parmak ucuna yakın eklemlerdeki sert, boğumlu şişliklere Heberden nodülü, orta eklemlerdekilere Bouchard nodülü denir. El kireçlenmesinin tipik bulgularıdır."),
- ("Egzersiz gerçekten işe yarar mı?", "Bir Cochrane derlemesine göre egzersiz el ağrısını, işlevini ve parmak tutukluğunu biraz iyileştirir; 0–10 ölçekte ağrıda ortalama yarım puanlık bir azalma. Etki küçük ve kanıtların kalitesi düşük, ama yan etkiler az ve hafif. Düzenli yapıldığında elinizi hareketli tutmanın güvenli bir yoludur. Avrupa Romatoloji Derneği’nin (EULAR) önerileri de her hastaya el egzersizlerinin düşünülmesini, eklemi koruyan kullanım eğitimi ve yardımcı araçları öneriyor; egzersizin etkisi küçük ve bırakılınca azalıyor. Başparmak kökü kireçlenmesinde en az yaklaşık 3 ay takılan atel ağrıyı hafifletebiliyor."),
+ ("Egzersiz gerçekten işe yarar mı?", "Bir Cochrane derlemesine göre egzersiz el ağrısını, işlevini ve parmak tutukluğunu biraz iyileştirir; 0–10 ölçekte ağrıda ortalama yarım puanlık bir azalma. Etki küçük ve kanıtların kalitesi düşük, ama yan etkiler az ve hafif. Düzenli yapıldığında elinizi hareketli tutmanın yan etkisi az bir yoludur. Avrupa Romatoloji Derneği’nin (EULAR) önerileri de her hastaya el egzersizlerinin düşünülmesini, eklemi koruyan kullanım eğitimi ve yardımcı araçları öneriyor; egzersizin etkisi küçük ve bırakılınca azalıyor. Başparmak kökü kireçlenmesinde en az 3 ay, uzun süreli takılan atel ağrıyı hafifletebiliyor."),
  ("Sıcak mı soğuk mu?", "Elleriniz tutuk ya da sızlıyorsa sıcak, bir eklem şiş ya da sıcaksa soğuk uygulama önerilir. Egzersizden önce elinizi birkaç dakika ılık suda ya da sıcak torbayla ısıtmak hareketi kolaylaştırabilir."),
  ("Romatizmadan nasıl ayırt edilir?", "El kireçlenmesinde ağrı genellikle hareketle artar ve sabah tutukluğu en fazla yarım saat sürer; 45 yaş ve üzerinde bu tablo çoğu zaman tetkik gerekmeden tanı koymaya yeter. Eklemlerde yumuşak, sıcak ve kabarık şişlik ise romatoid artrit gibi iltihaplı bir romatizmayı düşündürür ve romatoloji değerlendirmesi gerektirir."),
 ]
@@ -30,7 +30,7 @@ HO_BODY = f'''<header class="page">
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>El ve parmak kireçlenmesi</h1>
     <p class="lede">Parmak eklemlerinizde sert boğumlar mı belirdi, kavanoz açmak, düğme iliklemek ya da küçük bir şeyi tutmak eskisi kadar kolay değil mi? El kireçlenmesi, özellikle 50 yaşından sonra sık görülen, uzun süreli bir eklem sorunudur. Tamamen geçmez, ama elinizi doğru kullanmak, ısı ve düzenli hareketle ağrı ve tutukluk çoğu zaman kontrol altında tutulabilir.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 19 Kasım 2026</p>
   </div>
 </header>
 
@@ -40,8 +40,8 @@ HO_BODY = f'''<header class="page">
       <div class="stats">
         <div class="stat"><b>50 yaş üstü</b><span>Daha sık görüldüğü dönem</span></div>
         <div class="stat"><b>30 dakika</b><span>Sabah tutukluğu genellikle bundan kısa sürer; daha uzunsa başka bir romatizmayı düşündürebilir</span></div>
-        <div class="stat"><b>5 dakika</b><span>Egzersizden önce elinizi ısıtmanız önerilen süre</span></div>
-        <div class="stat"><b>Yarım puan</b><span>Egzersizle 0–10 ölçekte ağrıdaki ortalama azalma: küçük ama güvenli bir yarar</span></div>
+        <div class="stat"><b>5 dakikaya kadar</b><span>Egzersizden önce elinizi ısıtabileceğiniz süre</span></div>
+        <div class="stat"><b>Yarım puan</b><span>Egzersizle 0–10 ölçekte ağrıdaki ortalama azalma: küçük bir yarar; bildirilen yan etkiler az ve hafif</span></div>
       </div>
     </div>
   </section>
@@ -75,7 +75,7 @@ HO_BODY = f'''<header class="page">
         <div class="kind"><span class="n">1</span><h3>Hareketli tutun</h3><p>Uzun süreli bir durum olduğu için elinizin hareketini ve gücünü korumak önemlidir; eklemleri gereksiz zorlamadan düzenli hareket edin.</p></div>
         <div class="kind"><span class="n">2</span><h3>Isı ve soğuk</h3><p>Elleriniz tutuk ya da sızlıyorsa ılık su veya sıcak torba; bir eklem şiş ve sıcaksa soğuk uygulayabilirsiniz.</p></div>
         <div class="kind"><span class="n">3</span><h3>Molalar verin</h3><p>Örgü, bilgisayar, bahçe işi gibi uzun süreli el işlerine kısa molalar koyarak yükü azaltabilirsiniz.</p></div>
-        <div class="kind"><span class="n">4</span><h3>Başparmağa destek</h3><p>Ağırlıklı olarak başparmak kökü sorunlarında ya da ağrı ve işlev kaybı yapan şekil bozukluklarında bir el terapistine yönlendirilmek yararlı olabilir.</p></div>
+        <div class="kind"><span class="n">4</span><h3>Başparmağa destek</h3><p>Ağırlıklı olarak başparmak kökü sorunlarında ya da yeni gelişen, ağrı ve işlev kaybı yapan şekil bozukluklarında bir el terapistine yönlendirilmek yararlı olabilir.</p></div>
       </div>
     </div>
   </section>

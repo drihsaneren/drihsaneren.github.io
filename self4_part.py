@@ -794,7 +794,7 @@ SELF4_CSS += """
 """
 
 EA_FAQ = [
- ("Egzersiz yaparken hiç ağrı olmamalı mı?", "Gerekmez. Uzun süren kas-iskelet ağrısında yapılan çalışmaların derlemesinde, ağrıya bir ölçüde izin veren egzersiz programları kısa vadede ağrısız programlardan biraz daha iyi sonuç verdi; orta ve uzun vadede ise fark yoktu. Yazarlara göre egzersiz sırasındaki ağrı iyi bir sonuca engel değil."),
+ ("Egzersiz yaparken hiç ağrı olmamalı mı?", "Gerekmez. Uzun süren kas-iskelet ağrısında yapılan çalışmaların derlemesinde, ağrıya bir ölçüde izin veren egzersiz programları kısa vadede ağrıyı ağrısız programlardan biraz daha fazla azalttı; orta ve uzun vadede ağrıda, hiçbir dönemde de günlük işlevde fark yoktu. Yazarlara göre egzersiz sırasındaki ağrı iyi bir sonuca engel değil."),
  ("Ertesi gün ağrım arttı, ne yapmalıyım?", "Ağrı ertesi sabaha kadar geçmediyse, bir sonraki seansta yükü azaltın: daha az tekrar, daha hafif ağırlık ya da daha kısa süre. Tamamen bırakmak yerine ağrının kabul edilebilir sınırlarda kaldığı düzeyi bulmaya çalışın."),
  ("Tamamen dinlenmek daha güvenli değil mi?", "Her zaman değil. Aşil kirişi sorunu olan 38 kişilik bir çalışmada, ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlev açısından anlamlı fark bulunmadı."),
  ("Egzersiz uzun süren ağrıya gerçekten iyi gelir mi?", "21 Cochrane derlemesini bir araya getiren 2017 tarihli bir özet, egzersizin yan etkisinin az olduğunu ve ağrı şiddeti ile günlük işlevde küçük ya da orta düzeyde iyileşme sağlayabileceğini gösterdi. En sık görülen yan etki kas ağrısıydı ve birkaç hafta içinde geçti. Kanıtların kalitesi düşüktü; çalışmaların çoğu küçük ve kısa süreliydi. Uzun süren bel ağrısında 249 çalışmayı inceleyen 2021 tarihli Cochrane derlemesinde egzersiz, hiç tedavi almamaya göre ağrıyı 100 üzerinden ortalama 15 puan azalttı (orta düzeyde kanıt); günlük işlevdeki iyileşme daha küçüktü."),
@@ -807,7 +807,7 @@ EA_BODY = f'''<header class="page">
     <p class="eyebrow">Kendine iyi bak</p>
     <h1>Egzersizde ağrı trafik ışığı</h1>
     <p class="lede">Egzersiz yaparken biraz ağrı olması normal mi, yoksa durmalı mıyım? Uzun süren kiriş, eklem ve kas ağrılarında ağrıyı tamamen yok etmeye çalışmak yerine onu izlemek daha iyi bir yol olabilir. Aşağıdaki üç soruyu yanıtlayın; trafik ışığı bugünkü egzersizinizi nasıl ayarlayacağınızı göstersin.</p>
-    <p class="meta">Son güncelleme: 14 Ekim 2026</p>
+    <p class="meta">Son güncelleme: 19 Kasım 2026</p>
   </div>
 </header>
 
@@ -818,7 +818,7 @@ EA_BODY = f'''<header class="page">
         <div class="stat"><b>5’in altı</b><span>Ağrı izleme modelinde egzersiz sırasında izin verilen ağrı (0–10 ölçeğinde)</span></div>
         <div class="stat"><b>Ertesi sabah</b><span>Egzersizden sonra artan ağrının ertesi sabaha kadar geçmesi beklenir</span></div>
         <div class="stat"><b>Haftadan haftaya</b><span>Ağrı ve tutukluk haftalar içinde artmamalı</span></div>
-        <div class="stat"><b>7 çalışma</b><span>Ağrıya izin veren egzersiz kısa vadede biraz daha iyi sonuç verdi</span></div>
+        <div class="stat"><b>7 çalışma</b><span>Ağrıya izin veren egzersiz kısa vadede ağrıyı biraz daha fazla azalttı</span></div>
       </div>
     </div>
   </section>
@@ -889,7 +889,7 @@ EA_BODY = f'''<header class="page">
         <h2>Araştırmalar ne diyor?</h2>
         <ul class="dots">
           <li>Aşil kirişi sorunu olan 38 kişi: ağrıyı izleyerek aktiviteye devam edenlerle ilk 6 hafta aktiviteyi bırakanlar arasında ağrı ve işlevde anlamlı fark çıkmadı. Modelde egzersiz sırasında ağrının 5’e ulaşmasına izin verilmedi; egzersizden sonra 5’e çıkabilen ağrının ertesi sabaha kadar geçmesi ve haftadan haftaya artmaması beklendi.</li>
-          <li>7 çalışma, 385 kişi: ağrıya izin veren egzersiz, uzun süren kas-iskelet ağrısında kısa vadede ağrısız egzersizden biraz daha iyi sonuç verdi; orta ve uzun vadede fark yoktu.</li>
+          <li>7 çalışma, 385 kişi: ağrıya izin veren egzersiz, uzun süren kas-iskelet ağrısında kısa vadede ağrıyı ağrısız egzersizden biraz daha fazla azalttı; orta ve uzun vadede ağrıda, hiçbir dönemde de günlük işlevde fark yoktu.</li>
         </ul>
         <p class="soft">Ağrının neden her zaman hasar anlamına gelmediğini <a href="agriyi-anlamak.html">ağrıyı anlamak</a> sayfasında bulabilirsiniz.</p>
       </div>

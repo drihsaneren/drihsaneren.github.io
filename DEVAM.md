@@ -878,3 +878,5 @@ SIRADAKİ İŞ (kullanıcı isteği, 7 Kasım 21:33): diş sıkma (bruksizm) reh
 17 Kasım 2026: bas-agrisi'ndan "İzometrik boyun güçlendirme" egzersizi kaldırıldı (kullanıcı sevmiyor; yeniden eklemeyin). Çeviri tur73. Sonraki batch: tur74 (önce i18n/done içindeki en büyük numaraya bakın).
 
 18 Kasım 2026: günlük denetim — düştükten sonra kalkma, duvar oturuşu, düztabanlık (DENETIM.md). Duvar oturuşunda derinlik artık seans içinde sabit (Lea 2024); düztabanlık videoları doğrulanamadı (oEmbed açılamadı). Çeviri tur74. Sonraki batch: tur75 (önce i18n/done içindeki en büyük numaraya bakın).
+
+19 Kasım 2026: günlük denetim — egzersizde ağrı trafik ışığı, el bileği kırığı sonrası, el ve parmak kireçlenmesi (DENETIM.md). ROS kırık bağlantısı üst sayfaya çevrildi; el bileği ve el kireçlenmesindeki egzersiz tarifleri/dozları kaynaklarla uyumsuz — kullanıcıya soruldu. Çeviri tur75. Sonraki batch: tur76 (önce i18n/done içindeki en büyük numaraya bakın).

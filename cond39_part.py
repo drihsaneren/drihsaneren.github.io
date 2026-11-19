@@ -12,7 +12,7 @@ _ex2("wb_grip", "grip", "Top sıkma", "Elinize yumuşak bir top alın ve sıkın
 WB_FAQ = [
  ("Alçı çıktı ama bileğim hâlâ çok tutuk, normal mi?", "Evet. Alçıda geçen haftalardan sonra bilek ve parmakların tutuk, kasların zayıf olması beklenir. Bir miktar ağrı ve şişlik de normaldir, özellikle elinizi yeniden kullanmaya başladığınızda. Bunlar zamanla ve kullanımla giderek azalır. En büyük ilerleme genellikle ilk 1–2 ayda olur, ama bir miktar şişlik ve tutukluk birkaç ay sürebilir."),
  ("Fizyoterapiye gitmem şart mı?", "Herkes için şart değil. 26 çalışmayı inceleyen bir Cochrane derlemesinde, bir terapistin öğrettiği ev egzersiz programı ile buna ek olarak düzenli fizyoterapi alanlar arasında belirgin bir fark bulunmadı; ama kanıtların kalitesi düşük. Tutukluk ya da ağrı beklenenden yavaş düzeliyorsa bir fizyoterapistten destek almak yararlı olabilir."),
- ("Kompleks bölgesel ağrı sendromu nedir?", "Kırıktan sonra nadiren gelişebilen, yaralanmayla orantısız, genellikle yanıcı bir ağrıdır. Ciltte aşırı hassasiyet, şişlik, renk ve ısı değişikliği, terleme ve tutukluk eşlik edebilir. Elinizi olabildiğince normal kullanmak ve önerilen egzersizleri yapmak riskini azaltmaya yardım edebilir. Bu belirtileri fark ederseniz erkenden hekiminize ya da fizyoterapistinize başvurabilirsiniz."),
+ ("Kompleks bölgesel ağrı sendromu nedir?", "Kırıktan sonra gelişebilen, yaralanmayla orantısız, genellikle yanıcı bir ağrıdır. Hafif biçimleri oldukça sıktır ve çoğu özel bir tedavi gerekmeden düzelir. Ciltte aşırı hassasiyet, şişlik, renk ve ısı değişikliği, terleme ve tutukluk eşlik edebilir. Elinizi olabildiğince normal kullanmak ve önerilen egzersizleri yapmak riskini azaltmaya yardım edebilir. Bu belirtileri fark ederseniz erkenden hekiminize ya da fizyoterapistinize başvurabilirsiniz."),
  ("Ne zaman araba kullanabilir, ağır kaldırabilirim?", "Hekiminiz güvenli olduğunu söyleyene kadar araba kullanmamanız ve ağır kaldırmamanız önerilir. Elinizi günlük işlerde kademeli olarak, rahatladıkça daha çok kullanabilirsiniz; ama bir seferde çok fazla egzersiz yapmak ağrıyı artırabilir."),
 ]
 
@@ -21,7 +21,7 @@ WB_SRC = [
  "United Lincolnshire Teaching Hospitals NHS Trust. " + ext("https://www.ulh.nhs.uk/wp-content/uploads/2026/06/Fractured-Wrist-Advice-and-Exercise-following-Cast-Removal.pdf", "Fractured wrist: advice and exercise following cast removal") + ". January 2026.",
  "Handoll HHG, Elliott J. " + ext("https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003324.pub3/pdf/CDSR/CD003324/CD003324_abstract.pdf", "Rehabilitation for distal radial fractures in adults") + ". Cochrane Database of Systematic Reviews. 2015;(9):CD003324.",
  "East Kent Hospitals University NHS Foundation Trust. " + ext("https://leaflets.ekhuft.nhs.uk/s3/leaflets/complex-regional-pain-syndrome-crps/0cf1693d-1425-44fd-a801-e39314b88c3a.p1710924222.pdf", "Complex regional pain syndrome (CRPS)") + ". Last reviewed March 2024.",
- "Royal Osteoporosis Society. " + ext("https://theros.org.uk/information-and-support/osteoporosis/living-with-osteoporosis/recovering-from-a-broken-bone/broken-wrist/", "Broken hips, wrists and other bones") + ". Last reviewed 1 April 2026.",
+ "Royal Osteoporosis Society. " + ext("https://theros.org.uk/information-and-support/osteoporosis/living-with-osteoporosis/recovering-from-a-broken-bone/", "Broken hips, wrists and other bones") + ". Last reviewed 1 April 2026.",
 ]
 
 WB_BODY = f'''<header class="page">
@@ -29,8 +29,8 @@ WB_BODY = f'''<header class="page">
     <a class="back" href="bilgi.html">{BACK}Bilgi köşesi</a>
     <p class="eyebrow">Hastalık rehberi</p>
     <h1>El bileği kırığı sonrası</h1>
-    <p class="lede">Alçınız çıktı, ama bileğiniz tutuk, eliniz zayıf ve biraz şiş mi? Bu çok normal. El bileği kırığı genellikle 6–12 haftada kaynar; alçı çıktıktan sonra da hareket ve güç, düzenli egzersiz ve elinizi günlük işlerde kademeli kullanmakla geri gelir. Çekinseniz bile elinizi kullanmaya başlamak, iyileşmenin en önemli adımıdır.</p>
-    <p class="meta">Son güncelleme: 27 Ekim 2026</p>
+    <p class="lede">Alçınız çıktı, ama bileğiniz tutuk, eliniz zayıf ve biraz şiş mi? Bu çok normal. El bileği kırığı genellikle 6–12 haftada kaynar; alçı çıktıktan sonra da hareket ve güç, düzenli egzersiz ve elinizi günlük işlerde kademeli kullanmakla geri gelir. Çekinseniz bile elinizi kullanmaya başlamak, iyileşme için önemli bir adımdır.</p>
+    <p class="meta">Son güncelleme: 19 Kasım 2026</p>
   </div>
 </header>
 
